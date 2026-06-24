@@ -1,0 +1,14 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+markers = [
+  "integration: tests that make real OCR API calls against sample images",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["test.py", "venv"]
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "UP"]
