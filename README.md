@@ -30,20 +30,6 @@ A Python pipeline for transcribing 17th-century Lviv city council documents usin
    GEMINI_API_KEY=your_key_here
    ```
 
-3. **Add exemplars**
-
-   Place reference image/transcription pairs in `exemplars/`:
-
-   ```
-   exemplars/
-     Reference1.JPG
-     Reference1.txt
-     ...
-     Abbreviation1.JPG
-     Abbreviation1.txt
-     ...
-   ```
-
 ## Usage
 
 ```bash
