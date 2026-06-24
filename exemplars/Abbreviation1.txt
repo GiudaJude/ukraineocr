@@ -1,0 +1,18 @@
+The oval symbol above the end of the word indicates a scribal abbreviation. 
+When seen, look at the rest of the sentence and append the correct Latin ending.
+
+Example 1:
+
+Input: Civis Leopolien, [abbreviation symbol]
+
+Thought: The word "Civis" (citizen) is a noun. In this context, "Leopolien" is acting as an adjective modifying "Civis" (Citizen of Lemberg). Since "Civis" is singular and the sentence structure is nominative, the standard Latin adjectival suffix for a person from this city is "-ensis."
+
+Output: Civis Leopoliensis
+
+Example 2:
+
+Input: Suburbano itidem Leopolien [abbreviation symbol] creditori
+
+Thought: Here, "Leopolien" refers to the "suburbanite" (Suburbano). The context involves a creditor relationship. While "-ensis" is common for the city itself, the scribe here is using the alternative form "-anus" to denote the specific resident status.
+
+Output: Suburbano itidem Leopolitanus
