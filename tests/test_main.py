@@ -3,7 +3,7 @@ from types import SimpleNamespace
 
 import pytest
 
-import gemini_ukr_ocr as ocr
+import main as ocr
 
 
 def test_get_provider_name_prefers_openai_when_both_keys_exist(monkeypatch) -> None:
