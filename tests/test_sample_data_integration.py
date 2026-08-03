@@ -5,7 +5,7 @@ from pathlib import Path
 import cv2
 import pytest
 
-import gemini_ukr_ocr as ocr
+import main as ocr
 
 SAMPLE_DATA_DIR = Path("sample_data")
 IMAGE_SUFFIXES = {".jpg", ".jpeg"}
