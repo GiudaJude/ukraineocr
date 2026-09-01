@@ -31,7 +31,7 @@ except ImportError:
 load_dotenv()
 OPENAI_MODEL_OCR = os.getenv("OPENAI_MODEL_OCR", "gpt-5.4-mini")
 OPENAI_IMAGE_DETAIL = os.getenv("OPENAI_IMAGE_DETAIL", "low")
-GEMINI_MODEL_OCR = os.getenv("GEMINI_MODEL_OCR", "gemini-2.5-pro")
+GEMINI_MODEL_OCR = os.getenv("GEMINI_MODEL_OCR", "gemini-3.7-flash")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 OCR_FEW_SHOT_LIMIT = int(os.getenv("OCR_FEW_SHOT_LIMIT", "8"))
@@ -70,6 +70,18 @@ OCR_PROMPT = (
     "As you transcribe, apply these tags:\n"
     "- Prefix each Latin segment with [LA]\n"
     "- Prefix each Old Polish segment with [PL]\n"
+    "- Personal names in this corpus typically pair a Latinized given name\n"
+    "(e.g. Christopherus, Bartholomeus, Andreas, Jacobus) with a family "
+    "surname left in its original Polish/vernacular form, even inside an "
+    "otherwise-Latin sentence, and even when the surname's spelling does not "
+    "itself look distincly Polish. Tage that surname [PL] on its own, then "
+    "resume [LA] immediatly after it. Do NOT apply this to Latin "
+    "occupational titles or epithets that also follow a given name (e.g. "
+    "Doctore, Notario, Scabinus, Advocatus, COnsul, Civis, Aurifaber, Pellio, "
+    "Doliator), these stay [LA]. Example: 'et Famati Christopherus [PL] "
+    "Monzanc [LA] Bartholomeus [PL] Strach [LA] et Matias Sapiha', the Latin "
+    "given names, titles, and grammar stay [LA], but each family surname "
+    "gets its own [PL] tag.\n"
     "Output only the transcription."
 )
 
