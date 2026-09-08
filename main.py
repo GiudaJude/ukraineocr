@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import base64
 import collections
+import json
 import os
 import random
 import re
@@ -9,11 +10,12 @@ import sys
 import time
 import traceback
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 import cv2
 import requests
 from dotenv import load_dotenv
+from pydantic import BaseModel, Field, ValidationError
 
 try:
     from google import genai
@@ -81,9 +83,97 @@ OCR_PROMPT = (
     "Doliator), these stay [LA]. Example: 'et Famati Christopherus [PL] "
     "Monzanc [LA] Bartholomeus [PL] Strach [LA] et Matias Sapiha', the Latin "
     "given names, titles, and grammar stay [LA], but each family surname "
-    "gets its own [PL] tag.\n"
-    "Output only the transcription."
+    "gets its own [PL] tag.\n\n"
+    "Put this tagged text verbatim into the `transcription` field.\n\n"
+    "WORD-LEVEL BREAKDOWN: Also populate the `words` array with one entry per "
+    "word in the transcription, in reading order, excluding standalone "
+    "punctuation. For each word:\n"
+    "- language: judge independently -- do not just copy the [LA]/[PL] tag if "
+    "the word itself looks otherwise (e.g. a Polish surname inside an "
+    "[LA]-tagged sentence is Polish, not Latin).\n"
+    "- language_confidence_score / language_confidence_reasoning: your "
+    "confidence in that language call and a one-sentence justification.\n"
+    "- word_declension: for Polish words, the grammatical case/number (e.g. "
+    "'genitive singular'); null for Latin, Ukrainian, or other.\n"
+    "- word_type: prefer 'name' or 'location' for proper nouns even when also "
+    "grammatically a subject/object; 'verb' for verbs; 'subject'/'object' for "
+    "other nouns/pronouns by syntactic role; 'other' otherwise.\n"
+    "- line_number: the 1-indexed line the word appears on (best effort).\n"
+    "- transcription_confidence_score / transcription_confidence_reasoning: "
+    "your confidence that you read the word's letters correctly from the "
+    "image, independent of the language call -- note specific legibility "
+    "problems (smudged ink, damage, faint strokes) in the reasoning when "
+    "confidence is low.\n\n"
+    "Output only the schema-conforming JSON object. Do not include markdown "
+    "or commentary outside the JSON."
 )
+
+
+WordLanguage = Literal["Latin", "Polish", "Ukrainian", "other"]
+WordType = Literal["name", "location", "verb", "subject", "object", "other"]
+
+
+class WordClassification(BaseModel):
+    word: str
+    language: WordLanguage
+    language_confidence_score: float = Field(ge=0.0, le=1.0)
+    language_confidence_reasoning: str
+    word_declension: str | None = None
+    word_type: WordType
+    line_number: int | None = None
+    transcription_confidence_score: float = Field(ge=0.0, le=1.0)
+    transcription_confidence_reasoning: str
+
+
+class PageTranscription(BaseModel):
+    transcription: str
+    words: list[WordClassification] = Field(default_factory=list)
+
+
+_WORD_ITEM_SCHEMA = {
+    "type": "object",
+    "additionalProperties": False,
+    "properties": {
+        "word": {"type": "string"},
+        "language": {"type": "string", "enum": ["Latin", "Polish", "Ukrainian", "other"]},
+        "language_confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "language_confidence_reasoning": {"type": "string"},
+        "word_declension": {"type": ["string", "null"]},
+        "word_type": {
+            "type": "string",
+            "enum": ["name", "location", "verb", "subject", "object", "other"],
+        },
+        "line_number": {"type": ["integer", "null"]},
+        "transcription_confidence_score": {"type": "number", "minimum": 0, "maximum": 1},
+        "transcription_confidence_reasoning": {"type": "string"},
+    },
+    "required": [
+        "word",
+        "language",
+        "language_confidence_score",
+        "language_confidence_reasoning",
+        "word_declension",
+        "word_type",
+        "line_number",
+        "transcription_confidence_score",
+        "transcription_confidence_reasoning",
+    ],
+}
+
+PAGE_TRANSCRIPTION_SCHEMA = {
+    "type": "json_schema",
+    "name": "page_transcription",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "additionalProperties": False,
+        "properties": {
+            "transcription": {"type": "string"},
+            "words": {"type": "array", "items": _WORD_ITEM_SCHEMA},
+        },
+        "required": ["transcription", "words"],
+    },
+}
 
 GEMINI_SAFETY_SETTINGS: list[Any] = []
 if genai_types is not None:
@@ -192,6 +282,13 @@ def should_skip_input_file(path: Path) -> bool:
     if path.suffix.lower() in {".txt", ".json"}:
         return True
     return any(marker in path.name for marker in (".tresh.", ".top.", ".bottom."))
+
+
+def page_number_from_filename(name: str) -> int | str:
+    """Best-effort page/folio number derived from the filename stem -- never
+    guessed by the model, so it can't be hallucinated."""
+    stem = Path(name).stem
+    return int(stem) if stem.isdigit() else stem
 
 
 def get_output_directory(input_dir: Path) -> Path:
@@ -441,12 +538,35 @@ def _openai_reason_from_response(response: Any) -> str:
     return "unknown"
 
 
-def ocr_image_openai(image_path: Path) -> tuple[str, str]:
+def parse_page_transcription(raw_json: str) -> PageTranscription:
+    parsed = json.loads(raw_json)
+    return PageTranscription.model_validate(parsed)
+
+
+def _salvage_transcription(
+    raw_output: str, image_path: Path, exc: Exception
+) -> tuple[str, list[WordClassification] | None, str]:
+    """Best-effort recovery when the structured response fails to parse/validate:
+    keep the bare `transcription` string if we can find one rather than losing
+    the OCR output entirely just because the word list came back malformed."""
+    try:
+        partial = json.loads(raw_output)
+    except json.JSONDecodeError:
+        partial = None
+    transcription = partial.get("transcription") if isinstance(partial, dict) else None
+    if isinstance(transcription, str) and transcription:
+        print(f"WARNING: word classification JSON invalid for {image_path}: {exc}")
+        return transcription, None, "ok"
+    return "", None, f"invalid_schema: {exc}"
+
+
+def ocr_image_openai(image_path: Path) -> tuple[str, list[WordClassification] | None, str]:
     response = _call_with_limit(
         get_openai_client().responses.create,
         model=OPENAI_MODEL_OCR,
         input=build_openai_input(image_path),
         max_output_tokens=OCR_MAX_OUTPUT_TOKENS,
+        text={"format": PAGE_TRANSCRIPTION_SCHEMA, "verbosity": "low"},
     )
 
     usage = getattr(response, "usage", None)
@@ -459,12 +579,21 @@ def ocr_image_openai(image_path: Path) -> tuple[str, str]:
             f"{total_tokens} | {input_tokens} input tokens | {output_tokens} output tokens"
         )
 
-    text = getattr(response, "output_text", "") or ""
-    reason = "ok" if text else _openai_reason_from_response(response)
-    return text, reason
+    raw_output = getattr(response, "output_text", "") or ""
+    if not raw_output:
+        return "", None, _openai_reason_from_response(response)
+
+    try:
+        page = parse_page_transcription(raw_output)
+    except (json.JSONDecodeError, ValidationError) as exc:
+        return _salvage_transcription(raw_output, image_path, exc)
+
+    return page.transcription, page.words, "ok"
 
 
-def ocr_image_gemini(image_path: Path, cache_name: str) -> tuple[str, str]:
+def ocr_image_gemini(
+    image_path: Path, cache_name: str
+) -> tuple[str, list[WordClassification] | None, str]:
     if genai_types is None:
         raise RuntimeError("The `google-genai` package is required to use Gemini OCR.")
 
@@ -473,7 +602,8 @@ def ocr_image_gemini(image_path: Path, cache_name: str) -> tuple[str, str]:
         top_p=1.0,
         top_k=64,
         max_output_tokens=OCR_MAX_OUTPUT_TOKENS,
-        response_mime_type="text/plain",
+        response_mime_type="application/json",
+        response_schema=PageTranscription,
         safety_settings=GEMINI_SAFETY_SETTINGS,
         cached_content=cache_name,
     )
@@ -493,18 +623,29 @@ def ocr_image_gemini(image_path: Path, cache_name: str) -> tuple[str, str]:
             f"{total_tokens} | {prompt_tokens} prompt tokens | {output_tokens} output tokens"
         )
 
-    text = getattr(response, "text", "") or ""
-    if not text:
+    raw_output = getattr(response, "text", "") or ""
+    if not raw_output:
         candidates = getattr(response, "candidates", [])
         reason = (
             str(getattr(candidates[0], "finish_reason", "unknown")) if candidates else "unknown"
         )
-    else:
-        reason = "ok"
-    return text, reason
+        return "", None, reason
+
+    parsed = getattr(response, "parsed", None)
+    if isinstance(parsed, PageTranscription):
+        return parsed.transcription, parsed.words, "ok"
+
+    try:
+        page = parse_page_transcription(raw_output)
+    except (json.JSONDecodeError, ValidationError) as exc:
+        return _salvage_transcription(raw_output, image_path, exc)
+
+    return page.transcription, page.words, "ok"
 
 
-def ocr_image(image_path: Path, ocr_context: str | None) -> tuple[str, str]:
+def ocr_image(
+    image_path: Path, ocr_context: str | None
+) -> tuple[str, list[WordClassification] | None, str]:
     if get_provider_name() == "openai":
         return ocr_image_openai(image_path)
     if not ocr_context:
@@ -512,11 +653,13 @@ def ocr_image(image_path: Path, ocr_context: str | None) -> tuple[str, str]:
     return ocr_image_gemini(image_path, ocr_context)
 
 
-def ocr_split_image(image_path: Path, output_dir: Path, ocr_context: str | None) -> str:
+def ocr_split_image(
+    image_path: Path, output_dir: Path, ocr_context: str | None
+) -> tuple[str, list[WordClassification] | None]:
     """Split image at a whitespace row in the middle third, OCR each half, combine."""
     image = cv2.imread(str(image_path))
     if image is None:
-        return ""
+        return "", None
 
     height = image.shape[0]
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -533,9 +676,15 @@ def ocr_split_image(image_path: Path, output_dir: Path, ocr_context: str | None)
     cv2.imwrite(str(bottom_path), image[split_row:, :])
 
     try:
-        top_text, _ = ocr_image(top_path, ocr_context)
-        bottom_text, _ = ocr_image(bottom_path, ocr_context)
-        return (top_text + "\n" + bottom_text).strip()
+        top_text, top_words, _ = ocr_image(top_path, ocr_context)
+        bottom_text, bottom_words, _ = ocr_image(bottom_path, ocr_context)
+        combined_text = (top_text + "\n" + bottom_text).strip()
+        combined_words: list[WordClassification] | None
+        if top_words is None and bottom_words is None:
+            combined_words = None
+        else:
+            combined_words = (top_words or []) + (bottom_words or [])
+        return combined_text, combined_words
     finally:
         top_path.unlink(missing_ok=True)
         bottom_path.unlink(missing_ok=True)
@@ -557,12 +706,13 @@ def process_dir(path: str | Path) -> None:
 
         output_parsed = output_directory / f"{file_path.name}.parsed.txt"
         output_text = output_directory / f"{file_path.name}.txt"
+        output_words = output_directory / f"{file_path.name}.words.json"
 
         print(file_path)
-        if output_text.exists() and output_text.stat().st_size > 0:
+        if output_words.exists() and output_words.stat().st_size > 0:
             continue
 
-        raw, reason = ocr_image(file_path, ocr_context)
+        raw, words, reason = ocr_image(file_path, ocr_context)
 
         if raw == "":
             log_empty(str(file_path), reason)
@@ -576,15 +726,32 @@ def process_dir(path: str | Path) -> None:
             temp_path = output_directory / f"{file_path.name}.tresh.JPG"
             cv2.imwrite(str(temp_path), thresh)
 
-            raw, reason = ocr_image(temp_path, ocr_context)
+            raw, words, reason = ocr_image(temp_path, ocr_context)
             temp_path.unlink(missing_ok=True)
 
         if raw == "" and "MAX_TOKENS" in reason:
-            raw = ocr_split_image(file_path, output_directory, ocr_context)
+            raw, words = ocr_split_image(file_path, output_directory, ocr_context)
 
         if raw:
             output_parsed.write_text(raw, encoding="utf-8")
             output_text.write_text(strip_tags(raw), encoding="utf-8")
+
+            if words is not None:
+                output_words.write_text(
+                    json.dumps(
+                        {
+                            "source_image": file_path.name,
+                            "page_number": page_number_from_filename(file_path.name),
+                            "words": [word.model_dump() for word in words],
+                        },
+                        indent=2,
+                        ensure_ascii=False,
+                    )
+                    + "\n",
+                    encoding="utf-8",
+                )
+            else:
+                print(f"WARNING: word classification unavailable for {file_path}: {reason}")
 
 
 def main(argv: list[str] | None = None) -> int:

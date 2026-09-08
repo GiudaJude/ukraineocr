@@ -8,7 +8,7 @@ A Python pipeline for transcribing 17th-century Lviv city council documents with
 - **Few-shot exemplars** — reuses reference exemplars for transcription style grounding; Gemini caches them for 12 hours to reduce cost and latency
 - **Inline language tagging** — the model tags Latin (`[LA]`) and Old Polish (`[PL]`) segments during transcription, improving attention on mixed-language pages
 - **Three-tier fallback** — if OCR returns empty, the pipeline automatically retries with a thresholded image, then splits the image horizontally at the nearest whitespace row
-- **Dual output** — `.parsed.txt` (tagged, for inspection) and `.txt` (clean, stripped of tags)
+- **Triple output** — `.parsed.txt` (tagged, for inspection), `.txt` (clean, stripped of tags), and `.words.json` (per-word language/declension/type breakdown with confidence scores)
 - **Rate limiting and retry** — decorrelated jitter backoff with automatic retry on 429/5xx and network errors
 
 ## Setup
@@ -58,9 +58,13 @@ Where `<directory>` contains the `.JPG` images to transcribe. By default, output
   001.JPG
   001.JPG.parsed.txt   ← tagged transcription
   001.JPG.txt          ← clean transcription
+  001.JPG.words.json   ← per-word language/declension/type breakdown
 ```
 
-Already-transcribed files (non-empty `.txt`) are skipped automatically.
+Already-transcribed files are skipped based on `.words.json` alone (non-empty).
+`.parsed.txt`/`.txt` existing on their own does **not** skip an image — running
+the pipeline again over a directory that predates the `.words.json` output will
+regenerate and overwrite its `.parsed.txt`/`.txt` too.
 
 For comparison runs, it is cleaner to write outputs into a separate run folder:
 
@@ -131,6 +135,47 @@ The model annotates the transcription inline:
 
 Mixed names are tagged per part: `[Latin Name: Ioannes] [Polish Name: Kowalski]`
 
+## Per-Word Breakdown (`.words.json`)
+
+Alongside the tagged/clean text, the OCR call also returns a structured
+per-word breakdown, written to `<image>.words.json`:
+
+```json
+{
+  "source_image": "0061.JPG",
+  "page_number": 61,
+  "words": [
+    {
+      "word": "Leopoliensis",
+      "language": "Latin",
+      "language_confidence_score": 0.97,
+      "language_confidence_reasoning": "Standard Latinized place-adjective.",
+      "word_declension": null,
+      "word_type": "location",
+      "line_number": 1,
+      "transcription_confidence_score": 0.6,
+      "transcription_confidence_reasoning": "Ink is smudged around the middle syllable."
+    }
+  ]
+}
+```
+
+- `language` — the model's own judgment (`Latin` / `Polish` / `Ukrainian` / `other`),
+  independently of the `[LA]`/`[PL]` tag in the transcription.
+- `word_declension` — grammatical case/number for Polish words (e.g. `"genitive singular"`);
+  `null` otherwise.
+- `word_type` — `name` / `location` / `verb` / `subject` / `object` / `other`.
+- `transcription_confidence_score`/`_reasoning` — a *separate* confidence score for
+  whether the word's letters were read correctly (legibility), independent of the
+  language classification.
+- `page_number` is derived deterministically from the filename, not model-generated.
+
+This is produced by the same OCR call as the transcription (via a strict
+JSON-schema response on OpenAI, or a `response_schema` on Gemini), not a second
+API call, so it's always consistent with `.parsed.txt`. If the word list fails to
+parse/validate, the transcription is still kept and a warning is logged — the
+image is retried automatically on the next run since `.words.json` won't exist yet.
+
 ## Fallback Pipeline
 
 ```
@@ -157,3 +202,8 @@ Empty responses are logged to `empty_responses.txt` with the finish reason.
 | `OCR_OUTPUT_ROOT` | — | Optional directory for writing OCR outputs separately from the source images. |
 | `GEMINI_API_KEY` | — | Fallback key. Used when no OpenAI key is configured. |
 | `GEMINI_MODEL_OCR` | `gemini-2.5-pro` | Gemini OCR model. |
+
+`OCR_MAX_OUTPUT_TOKENS` now bounds the transcription *and* the per-word JSON
+combined, so pages with many words are more likely to hit the limit than before
+— watch for `MAX_TOKENS`-triggered split-image fallbacks in the logs and raise
+it if truncations spike.

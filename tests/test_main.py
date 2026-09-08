@@ -1,9 +1,26 @@
+import json
 from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
 
 import main as ocr
+
+
+def _make_word(**overrides) -> "ocr.WordClassification":
+    fields = {
+        "word": "Salve",
+        "language": "Latin",
+        "language_confidence_score": 0.95,
+        "language_confidence_reasoning": "Common Latin greeting.",
+        "word_declension": None,
+        "word_type": "other",
+        "line_number": 1,
+        "transcription_confidence_score": 0.9,
+        "transcription_confidence_reasoning": "Clearly legible.",
+    }
+    fields.update(overrides)
+    return ocr.WordClassification(**fields)
 
 
 def test_get_provider_name_prefers_openai_when_both_keys_exist(monkeypatch) -> None:
@@ -124,16 +141,21 @@ def test_get_output_directory_uses_output_root(monkeypatch, tmp_path: Path) -> N
     assert output_dir.exists()
 
 
-def test_process_dir_writes_parsed_and_clean_outputs(monkeypatch, tmp_path: Path) -> None:
+def test_process_dir_writes_parsed_clean_and_words_outputs(monkeypatch, tmp_path: Path) -> None:
     image_path = tmp_path / "001.JPG"
     image_path.write_bytes(b"fake image")
+    word = _make_word()
 
     monkeypatch.setattr(ocr, "get_provider_name", lambda: "openai")
     monkeypatch.setattr(ocr, "init_ocr_context", lambda: None)
     monkeypatch.setattr(
         ocr,
         "ocr_image",
-        lambda image_path, ocr_context: ("[LA] Salve [Polish Name: Kowalski]?", "ok"),
+        lambda image_path, ocr_context: (
+            "[LA] Salve [Polish Name: Kowalski]?",
+            [word],
+            "ok",
+        ),
     )
 
     ocr.process_dir(tmp_path)
@@ -143,15 +165,20 @@ def test_process_dir_writes_parsed_and_clean_outputs(monkeypatch, tmp_path: Path
     )
     assert (tmp_path / "001.JPG.txt").read_text(encoding="utf-8") == "Salve Kowalski"
 
+    words_payload = json.loads((tmp_path / "001.JPG.words.json").read_text(encoding="utf-8"))
+    assert words_payload["source_image"] == "001.JPG"
+    assert words_payload["page_number"] == 1
+    assert words_payload["words"] == [word.model_dump()]
 
-def test_process_dir_skips_files_with_existing_nonempty_output(
+
+def test_process_dir_skips_files_with_existing_words_json(
     monkeypatch,
     tmp_path: Path,
 ) -> None:
     image_path = tmp_path / "001.JPG"
     image_path.write_bytes(b"fake image")
-    existing_output = tmp_path / "001.JPG.txt"
-    existing_output.write_text("already done", encoding="utf-8")
+    existing_words = tmp_path / "001.JPG.words.json"
+    existing_words.write_text('{"words": []}', encoding="utf-8")
 
     calls: list[str] = []
     monkeypatch.setattr(ocr, "get_provider_name", lambda: "openai")
@@ -165,7 +192,115 @@ def test_process_dir_skips_files_with_existing_nonempty_output(
     ocr.process_dir(tmp_path)
 
     assert calls == []
-    assert existing_output.read_text(encoding="utf-8") == "already done"
+    assert existing_words.read_text(encoding="utf-8") == '{"words": []}'
+
+
+def test_process_dir_reprocesses_when_only_legacy_txt_exists(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    """Pre-existing .parsed.txt/.txt from before this feature must not block
+    reprocessing -- only .words.json existence should skip an image."""
+    image_path = tmp_path / "001.JPG"
+    image_path.write_bytes(b"fake image")
+    (tmp_path / "001.JPG.txt").write_text("already done", encoding="utf-8")
+    (tmp_path / "001.JPG.parsed.txt").write_text("[LA] already done", encoding="utf-8")
+    word = _make_word(word="Novum")
+
+    monkeypatch.setattr(ocr, "get_provider_name", lambda: "openai")
+    monkeypatch.setattr(ocr, "init_ocr_context", lambda: None)
+    monkeypatch.setattr(
+        ocr,
+        "ocr_image",
+        lambda image_path, ocr_context: ("[LA] Novum", [word], "ok"),
+    )
+
+    ocr.process_dir(tmp_path)
+
+    assert (tmp_path / "001.JPG.txt").read_text(encoding="utf-8") == "Novum"
+    assert (tmp_path / "001.JPG.words.json").exists()
+
+
+def test_process_dir_logs_warning_and_skips_words_json_when_classification_fails(
+    monkeypatch,
+    tmp_path: Path,
+) -> None:
+    image_path = tmp_path / "001.JPG"
+    image_path.write_bytes(b"fake image")
+
+    monkeypatch.setattr(ocr, "get_provider_name", lambda: "openai")
+    monkeypatch.setattr(ocr, "init_ocr_context", lambda: None)
+    monkeypatch.setattr(
+        ocr,
+        "ocr_image",
+        lambda image_path, ocr_context: ("[LA] Salve", None, "invalid_schema: boom"),
+    )
+
+    ocr.process_dir(tmp_path)
+
+    assert (tmp_path / "001.JPG.txt").read_text(encoding="utf-8") == "Salve"
+    assert not (tmp_path / "001.JPG.words.json").exists()
+
+
+def test_parse_page_transcription_accepts_valid_payload() -> None:
+    payload = json.dumps(
+        {
+            "transcription": "[LA] Salve",
+            "words": [
+                {
+                    "word": "Salve",
+                    "language": "Latin",
+                    "language_confidence_score": 0.95,
+                    "language_confidence_reasoning": "Common Latin greeting.",
+                    "word_declension": None,
+                    "word_type": "other",
+                    "line_number": 1,
+                    "transcription_confidence_score": 0.9,
+                    "transcription_confidence_reasoning": "Clearly legible.",
+                }
+            ],
+        }
+    )
+
+    page = ocr.parse_page_transcription(payload)
+
+    assert page.transcription == "[LA] Salve"
+    assert page.words[0].word == "Salve"
+    assert page.words[0].language == "Latin"
+
+
+def test_parse_page_transcription_rejects_invalid_json() -> None:
+    with pytest.raises(json.JSONDecodeError):
+        ocr.parse_page_transcription("not json")
+
+
+def test_parse_page_transcription_rejects_schema_violation() -> None:
+    payload = json.dumps({"transcription": "text", "words": [{"word": "x"}]})
+
+    with pytest.raises(ocr.ValidationError):
+        ocr.parse_page_transcription(payload)
+
+
+def test_salvage_transcription_recovers_bare_transcription(tmp_path: Path) -> None:
+    raw_output = json.dumps({"transcription": "[LA] Salve", "words": [{"word": "x"}]})
+
+    text, words, reason = ocr._salvage_transcription(
+        raw_output, tmp_path / "001.JPG", ValueError("bad words entry")
+    )
+
+    assert text == "[LA] Salve"
+    assert words is None
+    assert reason == "ok"
+
+
+def test_salvage_transcription_gives_up_on_total_garbage(tmp_path: Path) -> None:
+    text, words, reason = ocr._salvage_transcription(
+        "not json at all", tmp_path / "001.JPG", ValueError("boom")
+    )
+
+    assert text == ""
+    assert words is None
+    assert reason.startswith("invalid_schema")
 
 
 def test_main_requires_exactly_one_directory_argument(capsys) -> None:

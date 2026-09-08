@@ -1,3 +1,4 @@
+import json
 import os
 import shutil
 from pathlib import Path
@@ -83,8 +84,12 @@ def test_live_ocr_smoke_on_sample_data(tmp_path: Path) -> None:
         output_dir = ocr.get_output_directory(staged_image.parent)
         parsed_output = output_dir / f"{staged_image.name}.parsed.txt"
         clean_output = output_dir / f"{staged_image.name}.txt"
+        words_output = output_dir / f"{staged_image.name}.words.json"
 
         assert parsed_output.exists(), f"Missing parsed output for {source_image.name}"
         assert clean_output.exists(), f"Missing clean output for {source_image.name}"
         assert parsed_output.read_text(encoding="utf-8").strip()
         assert clean_output.read_text(encoding="utf-8").strip()
+        assert words_output.exists(), f"Missing words.json for {source_image.name}"
+        words_payload = json.loads(words_output.read_text(encoding="utf-8"))
+        assert words_payload["words"], f"Empty word list for {source_image.name}"
