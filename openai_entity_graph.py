@@ -4,16 +4,32 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import Literal
+from typing import Any, Literal
 
 from dotenv import load_dotenv
-from openai import OpenAI
 from pydantic import BaseModel, Field, ValidationError
+
+try:
+    from google import genai
+    from google.genai import types as genai_types
+except ImportError:
+    genai = None
+    genai_types = None
+
+try:
+    from openai import OpenAI
+except ImportError:
+    OpenAI = None
 
 load_dotenv()
 
 OPENAI_MODEL_NER = os.getenv("OPENAI_MODEL_NER", "gpt-5.4-mini")
 OPENAI_NER_MAX_OUTPUT_TOKENS = int(os.getenv("OPENAI_NER_MAX_OUTPUT_TOKENS", "4000"))
+GEMINI_MODEL_NER = os.getenv("GEMINI_MODEL_NER", "gemini-3.7-flash")
+GEMINI_NER_MAX_OUTPUT_TOKENS = int(os.getenv("GEMINI_NER_MAX_OUTPUT_TOKENS", "4000"))
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
 
 SYSTEM_PROMPT = """ROLE: You are an expert paleographer specializing in 16th and 17th century
 Lviv council records and Latin/Old Polish legal scripts. 
@@ -21,6 +37,15 @@ Lviv council records and Latin/Old Polish legal scripts.
 TASK: Your job is to extract canonical named entities and relationship triples from OCR text.
 Return only schema-compliant JSON.
 Do not include markdown, commentary, or explanatory prose.
+"""
+
+KNOWN_ENTITIES_SECTION_TEMPLATE = """
+Known entities already establushed somewhere in this corupus. Reuse these
+canonical names and aliases if the same real-world person/place appears in
+this document. Do not invent a new canonical name for an entity that is
+already listed below:
+
+{known_entities_context}
 """
 
 USER_PROMPT_TEMPLATE = """Extract canonical entities from the document below.
@@ -45,7 +70,7 @@ Document ID: {document_id}
 Document text:
 {document_text}
 """
-
+#OpenAI-only
 ENTITY_GRAPH_SCHEMA = {
     "type": "json_schema",
     "name": "entity_graph_extraction",
@@ -131,14 +156,62 @@ class EntityGraph(BaseModel):
     entities: list[ExtractedEntity] = Field(default_factory=list)
     relationships: list[EntityRelationship] = Field(default_factory=list)
 
+OPENAI_CLIENT: Any | None = None
+GEMINI_CLIENT: Any | None = None
 
-def get_client() -> OpenAI:
-    api_key = os.getenv("OPENAI_API_KEY")
-    if not api_key:
+def get_provider_name() -> str:
+    """Chose the first fully usable provider, preferring OpenAI.
+    Mirrors main.py's get_provider_name() so both scripts respect the same
+    OPENAI_API_KEY / GEMINI_API_KEY configuration.
+    """
+    if OPENAI_API_KEY and OpenAI is not None:
+        return "openai"
+    if GEMINI_API_KEY and genai is not None:
+        return "gemini"
+    if OPENAI_API_KEY and GEMINI_API_KEY:
         raise RuntimeError(
-            "OPENAI_API_KEY is not set. Add it to your shell environment or .env file."
+            "API keys are configured, but neither provider SDK is installed."
+            "Install `openai` or `google-genai`"
         )
-    return OpenAI(api_key=api_key)
+    if OPENAI_API_KEY:
+        raise RuntimeError(
+            "OPENAI_API_KEY is set, but the `openai` package is not installed."
+            "Run `pip install openai`."
+        )
+    if GEMINI_API_KEY:
+        raise RuntimeError(
+            "GEMINI_API_KEY is set, but the `google-genai` package is not installed."
+            "Run `pip install google-genai`."
+        )
+    raise RuntimeError(
+        "No API key is configured. Set OPENAI_API_KEY or GEMINI_API_KEY."
+        "If both are present, OpenAI is used by default."
+    )
+
+def get_openai_client() -> Any:
+    global OPENAI_CLIENT
+    if OpenAI is None:
+        raise RuntimeError(
+            "The `openai` package is required for OPENAI_API_KEY. Run `pip install openai`."
+        )
+    if not OPENAI_API_KEY:
+        raise RuntimeError("OPENAI_API_KEY is not set.")
+    if OPENAI_CLIENT is None:
+        OPENAI_CLEINT = OpenAI(api_key=OPENAI_API_KEY)
+    return OPENAI_CLIENT
+
+def get_gemini_client() -> Any:
+    global GEMINI_CLIENT
+    if genai is None:
+        raise RuntimeError(
+            "The `google-genai` package is required for GEMINI_API_KEY."
+            "Run `pip install google-genai`."
+        )
+    if not GEMINI_API_KEY:
+        raise RuntimeError("GEMINI_API_KEY is not set")
+    if GEMINI_CLIENT is None:
+        GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
+    return GEMINI_CLIENT
 
 
 def build_prompt(document_text: str, document_id: str) -> str:

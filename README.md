@@ -207,3 +207,6 @@ Empty responses are logged to `empty_responses.txt` with the finish reason.
 combined, so pages with many words are more likely to hit the limit than before
 — watch for `MAX_TOKENS`-triggered split-image fallbacks in the logs and raise
 it if truncations spike.
+
+## Known Limitations
+LLM can link words together from the same document 

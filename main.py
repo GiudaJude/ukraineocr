@@ -566,7 +566,7 @@ def ocr_image_openai(image_path: Path) -> tuple[str, list[WordClassification] | 
         model=OPENAI_MODEL_OCR,
         input=build_openai_input(image_path),
         max_output_tokens=OCR_MAX_OUTPUT_TOKENS,
-        text={"format": PAGE_TRANSCRIPTION_SCHEMA, "verbosity": "low"},
+        text={"format": PAGE_TRANSCRIPTION_SCHEMA, "verbosity": "medium"},
     )
 
     usage = getattr(response, "usage", None)
@@ -757,7 +757,7 @@ def process_dir(path: str | Path) -> None:
 def main(argv: list[str] | None = None) -> int:
     args = argv if argv is not None else sys.argv[1:]
     if len(args) != 1:
-        print("Usage: python gemini_ukr_ocr.py <directory>", file=sys.stderr)
+        print("Usage: python main.py <directory>", file=sys.stderr)
         return 1
 
     process_dir(args[0])
