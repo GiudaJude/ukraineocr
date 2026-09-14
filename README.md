@@ -102,10 +102,11 @@ Validate the local sample corpus without calling the OCR API:
 pytest tests/test_sample_data_integration.py -k readable
 ```
 
-Extract canonical entities and relationship triples from OCR text:
+Extract canonical entities and relationship triples from a single document's OCR text
+(provider-aware: OpenAI if OPENAI_API_KEY is set, else Gemini):
 
 ```bash
-python openai_entity_graph.py ocr_runs/smoke-live-20260624-120351/17-2-52/0061.JPG.txt
+python entity_graph.py ocr_runs/smoke-live-20260624-120351/17-2-52/0061.JPG.txt
 ```
 
 That writes a strict-schema JSON file next to the input text by default:
@@ -113,6 +114,44 @@ That writes a strict-schema JSON file next to the input text by default:
 ```text
 0061.JPG.txt.entity_graph.json
 ```
+
+### Build the corpus-wide entity registry
+
+`entity_graph.py` canonicalizes entities within a single page, it has no memory
+of any other page. `entity_registry.py` incrementally merges every page's extraction
+into one persistent, corpus-wide registry, so that name/place variants referring to
+the same real-world person or place — e.g. a Latinized name and its vernacular form,
+or a place's historical Latin/Polish/Ukrainian names — accumulate into a single
+canonical record instead of scattering across hundreds of disconnected per-page files.
+
+```bash
+python entity_registry.py 23-2-52          # one batch directory (recurses into subfolders)
+python entity_registry.py .                # whole corpus
+python entity_registry.py 23-2-52 --reprocess   # force re-merge if a page's .txt changed
+```
+
+This reads every `*.JPG.txt` file under the given directory and writes/updates two files:
+
+- `entity_registry/registry.json` — tool-managed. One entry per real-world entity, with
+  every alias/spelling seen so far and which document(s) it came from. **Commit this to
+  git** — it's curated derived data, not a disposable run artifact.
+- `entity_registry/lookup.json` — hand-curated by you, never written by the tool. Seed it
+  with known variant groups, e.g.:
+  ```json
+  [
+    {
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "aliases": ["Leopolis", "Leopoliensis", "Lviv", "Lwów", "Львів", "Lemberg"],
+      "notes": "Historical Latin/Polish/Ukrainian/German names for the same city."
+    }
+  ]
+  ```
+  Also **commit this to git** — start it as `[]` if you have nothing to seed yet.
+
+Already-processed, unchanged documents are skipped on re-runs (tracked by content hash),
+so it's safe/cheap to re-run after OCR-ing more pages — no repeat API calls or cost for
+pages already merged in.
 
 Run a live OCR smoke test on a small subset of `sample_data`:
 
@@ -202,6 +241,10 @@ Empty responses are logged to `empty_responses.txt` with the finish reason.
 | `OCR_OUTPUT_ROOT` | — | Optional directory for writing OCR outputs separately from the source images. |
 | `GEMINI_API_KEY` | — | Fallback key. Used when no OpenAI key is configured. |
 | `GEMINI_MODEL_OCR` | `gemini-2.5-pro` | Gemini OCR model. |
+| `GEMINI_MODEL_NER` | `gemini-3.7-flash` | Default Gemini model for entity/relationship extraction. |
+| `GEMINI_NER_MAX_OUTPUT_TOKENS` | `4000` | Caps entity extraction response size on Gemini. |
+| `ENTITY_FUZZY_MAX_DISTANCE_RATIO` | `0.15` | Edit-distance safety net for merging location/organization names in the registry (never applied to person names). |
+| `ENTITY_CONTEXT_LIMIT` | `200` | Max number of known registry entities included as context in each extraction prompt. |
 
 `OCR_MAX_OUTPUT_TOKENS` now bounds the transcription *and* the per-word JSON
 combined, so pages with many words are more likely to hit the limit than before
@@ -209,4 +252,14 @@ combined, so pages with many words are more likely to hit the limit than before
 it if truncations spike.
 
 ## Known Limitations
-LLM can link words together from the same document 
+
+- **Location canonicalization is mostly automatic.** The model can usually link
+  `Leopolis`/`Lwów`/`Lviv`/`Lemberg` on its own from general world knowledge, and
+  `entity_registry.py` reinforces this by feeding each new page a summary of
+  already-known canonical names to reuse.
+- **Person canonicalization is not automatic across documents.** Recognizing that
+  `Ioannes Kowalski` on one page and `Jan Kowalski` on another are the same person
+  usually requires either a contextual clue in the text itself (same patronymic,
+  occupation, address) or a manual entry in `entity_registry/lookup.json`. Expect to
+  periodically skim `entity_registry/registry.json` and add lookup entries by hand
+  for people the tool didn't merge on its own.

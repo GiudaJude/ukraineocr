@@ -1,0 +1,153 @@
+{
+  "document_id": "23-2-52/0007.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Głogowian",
+      "mention_texts": [
+        "Glogoyzin"
+      ],
+      "justification": "Named as the locality or estate associated with the actor/servant in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus de Tarnopol",
+      "mention_texts": [
+        "Petrum de Tarnopole",
+        "Petrus citatus",
+        "Petrus Civis Tarnopoliensis"
+      ],
+      "justification": "Citizen and defendant from Tarnopol cited regarding fish arrested at Caspar Gulinski's."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Tarnopol",
+      "mention_texts": [
+        "Tarnopole",
+        "Tarnopoli",
+        "Tarnopoliensi",
+        "Tarnopoliensis"
+      ],
+      "justification": "City in the Ruthenian Voivodeship referenced as the residence of Petrus and Moszko."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Caspar Gulinski",
+      "mention_texts": [
+        "Gasparem Gulinski",
+        "Domini Gulinski"
+      ],
+      "justification": "Holds the arrested sum of money in deposit."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Moszko",
+      "mention_texts": [
+        "Moszkone Tarnopoliensi",
+        "Moszkonem"
+      ],
+      "justification": "Jewish merchant from Tarnopol who sold the fish to Petrus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Leopoli",
+        "Suburbani Leopolitani",
+        "Leopolitano"
+      ],
+      "justification": "City where the court acts were issued and where suburban residents reside."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Feria Quarta post Festum Circumcisionis Domini Proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "justification": "Dating clause of the entry recorded on the Wednesday after Circumcision in 1595."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Witynski",
+      "mention_texts": [
+        "Joannes Witynski"
+      ],
+      "justification": "Suburban resident of Lviv appearing before the court with his wife."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "justification": "Second-marriage wife of Joannes Witynski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "36 Polish florins",
+      "mention_texts": [
+        "florenis triginta sex pecuniae Polonicalis"
+      ],
+      "justification": "Sum of money paid and receipted."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Ambrosius Fraystetyn Krzuschluk",
+      "mention_texts": [
+        "Ambrosii Krzuschluk",
+        "Ambrosio Fraystetyn"
+      ],
+      "justification": "Cooper (doliator) residing in the Lviv suburbs who satisfied the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Petrus Civis Tarnopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Moszkone Tarnopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesti Joannes Witynski et Anna secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "doliatore suburbano Leopolitano"
+    }
+  ]
+}

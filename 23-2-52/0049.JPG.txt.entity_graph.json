@@ -1,0 +1,121 @@
+{
+  "document_id": "23-2-52/0049.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kensdorf",
+      "mention_texts": [
+        "Honorato Domino Joanni Kensdorf Civi et Negotiatori Jaroslaviensi",
+        "Joanni Kensdorf",
+        "Creditori"
+      ],
+      "justification": "Named as creditor and citizen/merchant of Jarosław receiving debt commitments."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Jarosław",
+      "mention_texts": [
+        "Jaroslaviensi",
+        "mercatu Jaroslaviensi"
+      ],
+      "justification": "Town referenced in connection with the merchant's citizenship and the local market fairs."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "150 Polish florins",
+      "mention_texts": [
+        "florenos centum quinquaginta"
+      ],
+      "justification": "Sum of the first installment due on the feast of St. Matthew."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Matthew the Apostle",
+      "mention_texts": [
+        "festo Beati Matthaei Apostoli et Evangelistae"
+      ],
+      "justification": "Due date for the first debt installment."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "200 Polish florins",
+      "mention_texts": [
+        "florenos ducentos"
+      ],
+      "justification": "Sum of the remaining debt installment."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "festo Assumptionis in Caelum Beatissimae Virginis Mariae"
+      ],
+      "justification": "Due date for the second debt installment."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1596",
+      "mention_texts": [
+        "Anno Domini 159 sexto"
+      ],
+      "justification": "Year specified for the second installment payment."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Klimczowska House",
+      "mention_texts": [
+        "domo praedicta Klimczowska"
+      ],
+      "justification": "Property mortgaged as security for the debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Ruthenian Street",
+      "mention_texts": [
+        "platea Ruthenorum"
+      ],
+      "justification": "Street in Lviv where the Klimczowska house is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Babriczowska House",
+      "mention_texts": [
+        "Babriczowska"
+      ],
+      "justification": "Neighboring house defining the boundary of the mortgaged property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Gabriczowska House",
+      "mention_texts": [
+        "Gabriczowska domos"
+      ],
+      "justification": "Neighboring house defining the boundary of the mortgaged property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honorato Domino Joanni Kensdorf Civi et Negotiatori Jaroslaviensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in domo praedicta Klimczowska vocata in platea Ruthenorum"
+    }
+  ]
+}

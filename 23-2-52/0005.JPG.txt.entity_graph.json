@@ -1,0 +1,121 @@
+{
+  "document_id": "23-2-52/0005.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Leopolienses",
+        "mscie"
+      ],
+      "justification": "Actum Leopoli... Scabinus Civitatis Leopoliensis... Cives Leopolienses... w mscie"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Anno Domini Millesimo Quingentesimo nonagesimo quinto",
+        "feria secunda post festum Circumcisionis Domini proxima Anno Domini Millesimo Quingentesimo nonagesimo quinto"
+      ],
+      "justification": "Date of the court session/recording"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowic"
+      ],
+      "justification": "Honoratus Andreas Simonowic Scabinus Civitatis Leopoliensis locum Ordinarii Advocati Leopoli sub tempore pestifero... tenens"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Mozanc",
+      "mention_texts": [
+        "Christopherus Mozanc"
+      ],
+      "justification": "Famatus Christopherus Mozanc Civis Leopoliensis"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Strachet",
+      "mention_texts": [
+        "Bartholomeus Strachet"
+      ],
+      "justification": "Famatus Bartholomeus Strachet Civis Leopoliensis"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Matias Sapiha",
+      "mention_texts": [
+        "Matias Sapiha"
+      ],
+      "justification": "Famatus Matias Sapiha Civis Leopoliensis"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobi Balcertowic",
+        "Jacobus Balcertowic",
+        "Jakub Balcerowic"
+      ],
+      "justification": "Testator: olim Jacobus Balcertowic Doliator Civis Leopoliensis"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Zofia",
+      "mention_texts": [
+        "Zofiey"
+      ],
+      "justification": "Wife of the testator: żenie moiey Zofiey"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Andreas Simonowic Scabinus Civitatis Leopoliensis locum Ordinarii Advocati Leopoli"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Christopherus Mozanc... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Bartholomeus Strachet... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Matias Sapiha Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobus Balcertowic Doliator Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "żenie moiey Zofiey"
+    }
+  ]
+}

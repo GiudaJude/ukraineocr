@@ -1,0 +1,46 @@
+{
+  "document_id": "23-2-52/0001.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Central State Historical Archives of Ukraine in Lviv",
+      "mention_texts": [
+        "ЦЕНТРАЛЬНИЙ ДЕРЖАВНИЙ ІСТОРИЧНИЙ АРХІВ УКРАЇНИ"
+      ],
+      "justification": "Archive institution named at top of the document header."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "м.ЛЬВІВ"
+      ],
+      "justification": "City location specified in the archival header."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Laboratory for Microfilming and Document Restoration",
+      "mention_texts": [
+        "Лабораторія мікрофільмування та реставрації документів"
+      ],
+      "justification": "Archival subdivision responsible for microfilming and document restoration."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "ЦЕНТРАЛЬНИЙ ДЕРЖАВНИЙ ІСТОРИЧНИЙ АРХІВ УКРАЇНИ, м.ЛЬВІВ"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "part_of",
+      "tail_entity_id": "E1",
+      "evidence": "Mention of the archival lab beneath the archive header details."
+    }
+  ]
+}

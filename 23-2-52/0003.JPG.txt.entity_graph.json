@@ -1,0 +1,235 @@
+{
+  "document_id": "23-2-52/0003.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "OFFICIO CONSULARI LEOPOLIENSI"
+      ],
+      "justification": "Identified as the consular office/city council of Lviv in the document header."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "LEOPOLIENSI"
+      ],
+      "justification": "City referenced in the consular office title."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "ANNO DOMINI M.D.XCV."
+      ],
+      "justification": "Year of the council acts recorded in Latin Roman numerals."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Novicampianus",
+      "mention_texts": [
+        "Paulo Nouicampiano"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Senior",
+      "mention_texts": [
+        "Magistro Simone Seniore"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Leopolita",
+      "mention_texts": [
+        "Magistro Simone Lepolita"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobo Mieszkowski"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pedianus",
+      "mention_texts": [
+        "Magistro Alberto Pediano"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szambor",
+      "mention_texts": [
+        "Andrea Szambor"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislao Doctore"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislao Anserino"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Wengr",
+      "mention_texts": [
+        "Francisco Wengr"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Caspar Gulinski",
+      "mention_texts": [
+        "Casparo Gulinszki"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Caspar Przedzucki",
+      "mention_texts": [
+        "Casparo Przedzucki"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wolfowicz",
+      "mention_texts": [
+        "Joanne Wolfowicz"
+      ],
+      "justification": "Listed among the resident senior consuls."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Andreas Madrowicz",
+      "mention_texts": [
+        "ANDREA MADROWICZ"
+      ],
+      "justification": "Listed as notary of the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "OFFICIO CONSULARI LEOPOLIENSI"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Paulo Nouicampiano."
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Magistro Simone Seniore."
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Magistro Simone Lepolita."
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Jacobo Mieszkowski."
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Magistro Alberto Pediano."
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Andrea Szambor."
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Stanislao Doctore"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Stanislao Anserino."
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Francisco Wengr."
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Casparo Gulinszki."
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Casparo Przedzucki."
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSVLIBVS RESIDENTIBVS SENIORIBVS Dominis Joanne Wolfowicz."
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Dominus ANDREA MADROWICZ NOTARIO."
+    }
+  ]
+}

@@ -1,0 +1,3341 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-14T06:13:18.181302+00:00",
+  "entities": [
+    {
+      "entity_id": "ORG-0001",
+      "entity_type": "organization",
+      "canonical_name": "Central State Historical Archives of Ukraine in Lviv",
+      "aliases": [
+        "Central State Historical Archives of Ukraine in Lviv",
+        "ЦЕНТРАЛЬНИЙ ДЕРЖАВНИЙ ІСТОРИЧНИЙ АРХІВ УКРАЇНИ"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:44.204574+00:00",
+      "updated_at": "2026-09-14T06:10:00.881541+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0001.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "ЦЕНТРАЛЬНИЙ ДЕРЖАВНИЙ ІСТОРИЧНИЙ АРХІВ УКРАЇНИ"
+          ],
+          "justification": "Archive institution named at top of the document header.",
+          "extracted_at": "2026-09-14T06:08:44.204574+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0001.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "ЦЕНТРАЛЬНИЙ ДЕРЖАВНИЙ ІСТОРИЧНИЙ АРХІВ УКРАЇНИ"
+          ],
+          "justification": "Name of the archival institution mentioned on the archival cover/target sheet.",
+          "extracted_at": "2026-09-14T06:10:00.881541+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "aliases": [
+        "Lviv",
+        "м.ЛЬВІВ",
+        "LEOPOLIENSI",
+        "LEOPOLIENSIS",
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Leopolienses",
+        "mscie",
+        "Suburbani Leopolitani",
+        "Leopolitano",
+        "Civis Leopoliensis",
+        "Civi Leopoliensi",
+        "Suburbano Leopoliensi",
+        "Judicio Civili Leopoliensi",
+        "Leopoliensibus",
+        "Leopoliensem",
+        "Civium Leopoliensium",
+        "LEPOENSI"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:44.205304+00:00",
+      "updated_at": "2026-09-14T06:10:12.072717+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0001.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "м.ЛЬВІВ"
+          ],
+          "justification": "City location specified in the archival header.",
+          "extracted_at": "2026-09-14T06:08:44.205304+00:00"
+        },
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "LEOPOLIENSI"
+          ],
+          "justification": "City referenced in the consular office title.",
+          "extracted_at": "2026-09-14T06:08:50.632083+00:00"
+        },
+        {
+          "document_id": "23-2-52/0004.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "LEOPOLIENSIS"
+          ],
+          "justification": "City name mentioned in Latin adjectival form.",
+          "extracted_at": "2026-09-14T06:08:53.834078+00:00"
+        },
+        {
+          "document_id": "23-2-52/0005.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "Leopoli",
+            "Civitatis Leopoliensis",
+            "Leopolienses",
+            "mscie"
+          ],
+          "justification": "Actum Leopoli... Scabinus Civitatis Leopoliensis... Cives Leopolienses... w mscie",
+          "extracted_at": "2026-09-14T06:08:58.619932+00:00"
+        },
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Leopoliensis"
+          ],
+          "justification": "City referred to in titles of the council ('Consulum Leopoliensis', 'Officii Consularis Leopoliensis').",
+          "extracted_at": "2026-09-14T06:09:04.615603+00:00"
+        },
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Leopoli",
+            "Suburbani Leopolitani",
+            "Leopolitano"
+          ],
+          "justification": "City where the court acts were issued and where suburban residents reside.",
+          "extracted_at": "2026-09-14T06:09:09.892446+00:00"
+        },
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Leopoli",
+            "Civis Leopoliensis",
+            "Civi Leopoliensi"
+          ],
+          "justification": "City where the legal acts take place and of which the parties are citizens.",
+          "extracted_at": "2026-09-14T06:09:22.069894+00:00"
+        },
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "Civis Leopoliensis",
+            "Suburbano Leopoliensi",
+            "Judicio Civili Leopoliensi",
+            "Civitatis Leopoliensis"
+          ],
+          "justification": "City referred to in several Latin civic designations (Civis Leopoliensis, Civitatis Leopoliensis, etc.).",
+          "extracted_at": "2026-09-14T06:09:28.811132+00:00"
+        },
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E16",
+          "mention_texts": [
+            "Civis Leopoliensis",
+            "Civitatis Leopoliensis",
+            "Leopoli"
+          ],
+          "justification": "City context for the court and citizens mentioned.",
+          "extracted_at": "2026-09-14T06:09:35.745785+00:00"
+        },
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Leopoliensibus",
+            "Leopoliensis"
+          ],
+          "justification": "Matches known entity LOC-0001, the city of Lviv.",
+          "extracted_at": "2026-09-14T06:09:43.596305+00:00"
+        },
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Leopoliensem",
+            "Leopoli",
+            "Civium Leopoliensium"
+          ],
+          "justification": "City where the legal acts and citizens are situated.",
+          "extracted_at": "2026-09-14T06:09:51.404333+00:00"
+        },
+        {
+          "document_id": "23-2-52/0055.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Leopoliensis",
+            "Civitatis Leopoliensis",
+            "Leopoli"
+          ],
+          "justification": "LOC-0001: City where the citizens reside and the court is held.",
+          "extracted_at": "2026-09-14T06:09:57.900405+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0001.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "м.ЛЬВІВ"
+          ],
+          "justification": "City location of the archival repository.",
+          "extracted_at": "2026-09-14T06:10:00.881740+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "LEPOENSI"
+          ],
+          "justification": "Corpus match LOC-0001 (scribal abbreviation/variant for Leopoliensi)",
+          "extracted_at": "2026-09-14T06:10:12.072717+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "ORG-0002",
+      "entity_type": "organization",
+      "canonical_name": "Laboratory for Microfilming and Document Restoration",
+      "aliases": [
+        "Laboratory for Microfilming and Document Restoration",
+        "Лабораторія мікрофільмування та реставрації документів"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:44.205349+00:00",
+      "updated_at": "2026-09-14T06:10:00.881860+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0001.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Лабораторія мікрофільмування та реставрації документів"
+          ],
+          "justification": "Archival subdivision responsible for microfilming and document restoration.",
+          "extracted_at": "2026-09-14T06:08:44.205349+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0001.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Лабораторія мікрофільмування та реставрації\nдокументів"
+          ],
+          "justification": "Name of the technical microfilming and restoration department/laboratory.",
+          "extracted_at": "2026-09-14T06:10:00.881860+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "aliases": [
+        "Lviv City Council",
+        "OFFICIO CONSULARI LEOPOLIENSI",
+        "OFFICII PROCONSULARIS LEOPOLIENSIS",
+        "Panow Radziec Miasta tego",
+        "Dominorum Consulum Leopoliensis",
+        "authoritate qua Consulari",
+        "Officium",
+        "Officium meum",
+        "Officii Consularis Leopoliensis",
+        "Officio",
+        "Officij",
+        "Officio nostro",
+        "officij nostri",
+        "Actis Consularibus Leopoliensibus",
+        "Officium Consulare Leopoliensis",
+        "Actis nostris",
+        "OFFICIO CONSULARI LEPOENSI"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.631572+00:00",
+      "updated_at": "2026-09-14T06:10:12.072418+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "OFFICIO CONSULARI LEOPOLIENSI"
+          ],
+          "justification": "Identified as the consular office/city council of Lviv in the document header.",
+          "extracted_at": "2026-09-14T06:08:50.631572+00:00"
+        },
+        {
+          "document_id": "23-2-52/0004.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "OFFICII PROCONSULARIS LEOPOLIENSIS"
+          ],
+          "justification": "Title references the consular office of Lviv (Officium Proconsulare Leopoliense).",
+          "extracted_at": "2026-09-14T06:08:53.834005+00:00"
+        },
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Panow Radziec Miasta tego",
+            "Dominorum Consulum Leopoliensis",
+            "authoritate qua Consulari",
+            "Officium",
+            "Officium meum",
+            "Officii Consularis Leopoliensis"
+          ],
+          "justification": "The municipal council/magistracy of Lviv acting as court, confirming the testament and taking on guardianship.",
+          "extracted_at": "2026-09-14T06:09:04.615431+00:00"
+        },
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Officio",
+            "Officij"
+          ],
+          "justification": "Municipal council office before which the legal actions are taken.",
+          "extracted_at": "2026-09-14T06:09:22.069739+00:00"
+        },
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Officio nostro",
+            "officij nostri",
+            "Officio"
+          ],
+          "justification": "Municipal governing office of Lviv acting in its official judicial and administrative capacity.",
+          "extracted_at": "2026-09-14T06:09:28.811349+00:00"
+        },
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Officio nostro",
+            "Officio Consulari Leopoliensi"
+          ],
+          "justification": "The consular court before which the acts and declarations were made.",
+          "extracted_at": "2026-09-14T06:09:35.744225+00:00"
+        },
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Actis Consularibus Leopoliensibus",
+            "Officium Consulare Leopoliensis"
+          ],
+          "justification": "Matches known entity ORG-0003, the municipal governing and court body of Lviv.",
+          "extracted_at": "2026-09-14T06:09:43.596209+00:00"
+        },
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E16",
+          "mention_texts": [
+            "Actis nostris"
+          ],
+          "justification": "The municipal office recording the transaction.",
+          "extracted_at": "2026-09-14T06:09:51.407587+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "OFFICIO CONSULARI LEPOENSI"
+          ],
+          "justification": "Corpus match ORG-0003 (consular office of Lviv)",
+          "extracted_at": "2026-09-14T06:10:12.072418+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "DATE-0001",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "aliases": [
+        "1595",
+        "ANNO DOMINI M.D.XCV.",
+        "ANNO DOMINI 1595",
+        "Anno Domini Millesimo Quingentesimo nonagesimo quinto",
+        "feria secunda post festum Circumcisionis Domini proxima Anno Domini Millesimo Quingentesimo nonagesimo quinto",
+        "Feria Quarta post Festum Circumcisionis Domini Proxima Anno Domini 1595",
+        "Anno quo supra"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632146+00:00",
+      "updated_at": "2026-09-14T06:10:12.072845+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "ANNO DOMINI M.D.XCV."
+          ],
+          "justification": "Year of the council acts recorded in Latin Roman numerals.",
+          "extracted_at": "2026-09-14T06:08:50.632146+00:00"
+        },
+        {
+          "document_id": "23-2-52/0004.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "ANNO DOMINI 1595",
+            "1595"
+          ],
+          "justification": "Year of the consular register specified on the title page.",
+          "extracted_at": "2026-09-14T06:08:53.834097+00:00"
+        },
+        {
+          "document_id": "23-2-52/0005.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Anno Domini Millesimo Quingentesimo nonagesimo quinto",
+            "feria secunda post festum Circumcisionis Domini proxima Anno Domini Millesimo Quingentesimo nonagesimo quinto"
+          ],
+          "justification": "Date of the court session/recording",
+          "extracted_at": "2026-09-14T06:08:58.620071+00:00"
+        },
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Feria Quarta post Festum Circumcisionis Domini Proxima Anno Domini 1595",
+            "Anno Domini 1595"
+          ],
+          "justification": "Dating clause of the entry recorded on the Wednesday after Circumcision in 1595.",
+          "extracted_at": "2026-09-14T06:09:09.892551+00:00"
+        },
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Anno Domini 1595"
+          ],
+          "justification": "Year of the first act recorded in this document.",
+          "extracted_at": "2026-09-14T06:09:22.069975+00:00"
+        },
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Anno quo supra",
+            "Anno Domini 1595"
+          ],
+          "justification": "Year of registration and legal proceedings.",
+          "extracted_at": "2026-09-14T06:09:51.404461+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "ANNO DOMINI M.D.XCV."
+          ],
+          "justification": "Corpus match DATE-0001 (year heading of the council register)",
+          "extracted_at": "2026-09-14T06:10:12.072845+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0001",
+      "entity_type": "person",
+      "canonical_name": "Paulus Novicampianus",
+      "aliases": [
+        "Paulus Novicampianus",
+        "Paulo Nouicampiano"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632177+00:00",
+      "updated_at": "2026-09-14T06:10:12.072989+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Paulo Nouicampiano"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632177+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Paulo Nouicampiano"
+          ],
+          "justification": "Corpus match PER-0001 (consul resident)",
+          "extracted_at": "2026-09-14T06:10:12.072989+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0002",
+      "entity_type": "person",
+      "canonical_name": "Simon Senior",
+      "aliases": [
+        "Simon Senior",
+        "Magistro Simone Seniore",
+        "Simone Seniore"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632209+00:00",
+      "updated_at": "2026-09-14T06:10:12.073050+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Magistro Simone Seniore"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632209+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Simone Seniore"
+          ],
+          "justification": "Corpus match PER-0002 (consul senior)",
+          "extracted_at": "2026-09-14T06:10:12.073050+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0003",
+      "entity_type": "person",
+      "canonical_name": "Simon Leopolita",
+      "aliases": [
+        "Simon Leopolita",
+        "Magistro Simone Lepolita",
+        "Simone Leopolita"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632249+00:00",
+      "updated_at": "2026-09-14T06:10:12.073108+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Magistro Simone Lepolita"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632249+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Simone Leopolita"
+          ],
+          "justification": "Corpus match PER-0003 (consul resident)",
+          "extracted_at": "2026-09-14T06:10:12.073108+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0004",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Mieszkowski",
+      "aliases": [
+        "Jacobus Mieszkowski",
+        "Jacobo Mieszkowski",
+        "Jacobo Misskowski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632304+00:00",
+      "updated_at": "2026-09-14T06:10:12.073177+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Jacobo Mieszkowski"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632304+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Jacobo Misskowski"
+          ],
+          "justification": "Corpus match PER-0004 (consul senior)",
+          "extracted_at": "2026-09-14T06:10:12.073177+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0005",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pedianus",
+      "aliases": [
+        "Albertus Pedianus",
+        "Magistro Alberto Pediano",
+        "Alberto Pediano"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632362+00:00",
+      "updated_at": "2026-09-14T06:10:12.073263+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Magistro Alberto Pediano"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632362+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Alberto Pediano"
+          ],
+          "justification": "Corpus match PER-0005 (consul resident)",
+          "extracted_at": "2026-09-14T06:10:12.073263+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0006",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szambor",
+      "aliases": [
+        "Andreas Szambor",
+        "Andrea Szambor"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632430+00:00",
+      "updated_at": "2026-09-14T06:10:12.073355+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "Andrea Szambor"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632430+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "Andrea Szambor"
+          ],
+          "justification": "Corpus match PER-0006 (consul senior)",
+          "extracted_at": "2026-09-14T06:10:12.073355+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0007",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Doctor",
+      "aliases": [
+        "Stanislaus Doctor",
+        "Stanislao Doctore"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632521+00:00",
+      "updated_at": "2026-09-14T06:10:12.073455+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "Stanislao Doctore"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632521+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "Stanislao Doctore"
+          ],
+          "justification": "Corpus match PER-0007 (consul resident)",
+          "extracted_at": "2026-09-14T06:10:12.073455+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0008",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Anserinus",
+      "aliases": [
+        "Stanislaus Anserinus",
+        "Stanislao Anserino",
+        "Stanislai Anserini",
+        "Stanislaum Anserinum"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632602+00:00",
+      "updated_at": "2026-09-14T06:10:12.073565+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "Stanislao Anserino"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632602+00:00"
+        },
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "Stanislai Anserini",
+            "Stanislaum Anserinum"
+          ],
+          "justification": "Consul of Lviv and court-appointed guardian.",
+          "extracted_at": "2026-09-14T06:09:35.744374+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "Stanislao Anserino"
+          ],
+          "justification": "Corpus match PER-0008 (consul senior)",
+          "extracted_at": "2026-09-14T06:10:12.073565+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0009",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Wengr",
+      "aliases": [
+        "Franciscus Wengr",
+        "Francisco Wengr",
+        "Francisco Wenige"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632704+00:00",
+      "updated_at": "2026-09-14T06:10:12.073699+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E12",
+          "mention_texts": [
+            "Francisco Wengr"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632704+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E12",
+          "mention_texts": [
+            "Francisco Wenige"
+          ],
+          "justification": "Corpus match PER-0009 (consul resident)",
+          "extracted_at": "2026-09-14T06:10:12.073699+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0010",
+      "entity_type": "person",
+      "canonical_name": "Caspar Gulinski",
+      "aliases": [
+        "Caspar Gulinski",
+        "Casparo Gulinszki",
+        "Gasparem Gulinski",
+        "Domini Gulinski",
+        "Casparo Gulinski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632838+00:00",
+      "updated_at": "2026-09-14T06:10:12.073830+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E13",
+          "mention_texts": [
+            "Casparo Gulinszki"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632838+00:00"
+        },
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Gasparem Gulinski",
+            "Domini Gulinski"
+          ],
+          "justification": "Holds the arrested sum of money in deposit.",
+          "extracted_at": "2026-09-14T06:09:09.891912+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E13",
+          "mention_texts": [
+            "Casparo Gulinski"
+          ],
+          "justification": "Corpus match PER-0010 (consul senior)",
+          "extracted_at": "2026-09-14T06:10:12.073830+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0011",
+      "entity_type": "person",
+      "canonical_name": "Caspar Przedzucki",
+      "aliases": [
+        "Caspar Przedzucki",
+        "Casparo Przedzucki",
+        "Casparo Przezdiecki"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.632988+00:00",
+      "updated_at": "2026-09-14T06:10:12.073985+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E14",
+          "mention_texts": [
+            "Casparo Przedzucki"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.632988+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E14",
+          "mention_texts": [
+            "Casparo Przezdiecki"
+          ],
+          "justification": "Corpus match PER-0011 (consul resident)",
+          "extracted_at": "2026-09-14T06:10:12.073985+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0012",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wolfowicz",
+      "aliases": [
+        "Joannes Wolfowicz",
+        "Joanne Wolfowicz"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.633158+00:00",
+      "updated_at": "2026-09-14T06:10:12.074143+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E15",
+          "mention_texts": [
+            "Joanne Wolfowicz"
+          ],
+          "justification": "Listed among the resident senior consuls.",
+          "extracted_at": "2026-09-14T06:08:50.633158+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E15",
+          "mention_texts": [
+            "Joanne Wolfowicz"
+          ],
+          "justification": "Corpus match PER-0012 (consul senior)",
+          "extracted_at": "2026-09-14T06:10:12.074143+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0013",
+      "entity_type": "person",
+      "canonical_name": "Andreas Madrowicz",
+      "aliases": [
+        "Andreas Madrowicz",
+        "ANDREA MADROWICZ",
+        "ANDREA MADKOWICZ"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:50.633336+00:00",
+      "updated_at": "2026-09-14T06:10:12.074309+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0003.JPG.txt",
+          "local_entity_id": "E16",
+          "mention_texts": [
+            "ANDREA MADROWICZ"
+          ],
+          "justification": "Listed as notary of the council.",
+          "extracted_at": "2026-09-14T06:08:50.633336+00:00"
+        },
+        {
+          "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+          "local_entity_id": "E16",
+          "mention_texts": [
+            "ANDREA MADKOWICZ"
+          ],
+          "justification": "Corpus match PER-0013 (city notary)",
+          "extracted_at": "2026-09-14T06:10:12.074309+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0014",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "aliases": [
+        "Andreas Simonowic",
+        "Jendrzi Simonowic"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:58.620207+00:00",
+      "updated_at": "2026-09-14T06:09:04.615661+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0005.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Andreas Simonowic"
+          ],
+          "justification": "Honoratus Andreas Simonowic Scabinus Civitatis Leopoliensis locum Ordinarii Advocati Leopoli sub tempore pestifero... tenens",
+          "extracted_at": "2026-09-14T06:08:58.620207+00:00"
+        },
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Jendrzi Simonowic"
+          ],
+          "justification": "Signed as 'locum tenens Domini Advocati ex surrogatione Dominorum Consulum Leopoliensis manu propria'.",
+          "extracted_at": "2026-09-14T06:09:04.615661+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0015",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Mozanc",
+      "aliases": [
+        "Christopherus Mozanc",
+        "Cristoph Mazanc"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:58.620429+00:00",
+      "updated_at": "2026-09-14T06:09:04.615991+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0005.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Christopherus Mozanc"
+          ],
+          "justification": "Famatus Christopherus Mozanc Civis Leopoliensis",
+          "extracted_at": "2026-09-14T06:08:58.620429+00:00"
+        },
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Cristoph Mazanc"
+          ],
+          "justification": "Witness who signed 'manu propria'.",
+          "extracted_at": "2026-09-14T06:09:04.615991+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0016",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Strachet",
+      "aliases": [
+        "Bartholomeus Strachet",
+        "Bartolomeus Strach",
+        "Bartholomeum Strach"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:58.620639+00:00",
+      "updated_at": "2026-09-14T06:09:04.615815+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0005.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Bartholomeus Strachet"
+          ],
+          "justification": "Famatus Bartholomeus Strachet Civis Leopoliensis",
+          "extracted_at": "2026-09-14T06:08:58.620639+00:00"
+        },
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Bartolomeus Strach",
+            "Bartholomeum Strach"
+          ],
+          "justification": "Witness and appointed tutor for Zophia ('Famatus Bartholomeum Strach Tutore sibi assumptum').",
+          "extracted_at": "2026-09-14T06:09:04.615815+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0017",
+      "entity_type": "person",
+      "canonical_name": "Matias Sapiha",
+      "aliases": [
+        "Matias Sapiha"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:58.620918+00:00",
+      "updated_at": "2026-09-14T06:08:58.620918+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0005.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Matias Sapiha"
+          ],
+          "justification": "Famatus Matias Sapiha Civis Leopoliensis",
+          "extracted_at": "2026-09-14T06:08:58.620918+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0018",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Balcertowic",
+      "aliases": [
+        "Jacobus Balcertowic",
+        "Jacobi Balcertowic",
+        "Jakub Balcerowic"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:58.621175+00:00",
+      "updated_at": "2026-09-14T06:09:04.616363+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0005.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Jacobi Balcertowic",
+            "Jacobus Balcertowic",
+            "Jakub Balcerowic"
+          ],
+          "justification": "Testator: olim Jacobus Balcertowic Doliator Civis Leopoliensis",
+          "extracted_at": "2026-09-14T06:08:58.621175+00:00"
+        },
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Jacobus Balcertowic"
+          ],
+          "justification": "Deceased testator whose last will and bequests are recorded ('Famatus olim Jacobus Balcertowic ad pia opera legavit').",
+          "extracted_at": "2026-09-14T06:09:04.616363+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0019",
+      "entity_type": "person",
+      "canonical_name": "Zofia",
+      "aliases": [
+        "Zofia",
+        "Zofiey",
+        "zonie wczesiey moiey",
+        "fossiey zony moiey",
+        "Zophia"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:08:58.621521+00:00",
+      "updated_at": "2026-09-14T06:09:04.616558+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0005.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Zofiey"
+          ],
+          "justification": "Wife of the testator: żenie moiey Zofiey",
+          "extracted_at": "2026-09-14T06:08:58.621521+00:00"
+        },
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "zonie wczesiey moiey",
+            "fossiey zony moiey",
+            "Zophia"
+          ],
+          "justification": "Wife/widow mentioned in the testament and court confirmation ('Honesta Zophia praedicti olim Chri- vidua').",
+          "extracted_at": "2026-09-14T06:09:04.616558+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0001",
+      "entity_type": "currency",
+      "canonical_name": "100 Polish zlotys",
+      "aliases": [
+        "100 Polish zlotys",
+        "sta zlotych"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:04.615314+00:00",
+      "updated_at": "2026-09-14T06:09:04.615314+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "sta zlotych"
+          ],
+          "justification": "Sum of money mentioned in the Polish testamentary bequest ('będą dacz powinnystey sta zlotych do Kasciołow').",
+          "extracted_at": "2026-09-14T06:09:04.615314+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0020",
+      "entity_type": "person",
+      "canonical_name": "Matias Sebastianowicz",
+      "aliases": [
+        "Matias Sebastianowicz"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:04.616157+00:00",
+      "updated_at": "2026-09-14T06:09:04.616157+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Matias Sebastianowicz"
+          ],
+          "justification": "Witness who signed 'manu propria'.",
+          "extracted_at": "2026-09-14T06:09:04.616157+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0021",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sienienski",
+      "aliases": [
+        "Andreas Sienienski",
+        "M. Sienienski",
+        "Andreae Sienienski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:04.616764+00:00",
+      "updated_at": "2026-09-14T06:09:04.616764+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "M. Sienienski",
+            "Andreae Sienienski"
+          ],
+          "justification": "Nobleman referenced in the lower entry ('Magnifici Domini Andreae Sienienski').",
+          "extracted_at": "2026-09-14T06:09:04.616764+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0022",
+      "entity_type": "person",
+      "canonical_name": "Petrus Hubicki",
+      "aliases": [
+        "Petrus Hubicki",
+        "Petrus de Tarnawka",
+        "Petrum Hubicki famulum Magnifici Domini Andreae Sienienski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:04.616984+00:00",
+      "updated_at": "2026-09-14T06:09:04.616984+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "Petrus de Tarnawka",
+            "Petrum Hubicki famulum Magnifici Domini Andreae Sienienski"
+          ],
+          "justification": "Servant of Andreas Sienienski named in the decree entry ('nobilem Petrum Hubicki famulum Magnifici Domini Andreae Sienienski').",
+          "extracted_at": "2026-09-14T06:09:04.616984+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0002",
+      "entity_type": "location",
+      "canonical_name": "Tarnawka",
+      "aliases": [
+        "Tarnawka"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:04.617289+00:00",
+      "updated_at": "2026-09-14T06:09:04.617289+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0006.JPG.txt",
+          "local_entity_id": "E12",
+          "mention_texts": [
+            "Tarnawka"
+          ],
+          "justification": "Origin place name for Petrus ('Petrus de Tarnawka').",
+          "extracted_at": "2026-09-14T06:09:04.617289+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0003",
+      "entity_type": "location",
+      "canonical_name": "Głogowian",
+      "aliases": [
+        "Głogowian",
+        "Glogoyzin"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:09.891017+00:00",
+      "updated_at": "2026-09-14T06:09:09.891017+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "Glogoyzin"
+          ],
+          "justification": "Named as the locality or estate associated with the actor/servant in the text.",
+          "extracted_at": "2026-09-14T06:09:09.891017+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0023",
+      "entity_type": "person",
+      "canonical_name": "Petrus de Tarnopol",
+      "aliases": [
+        "Petrus de Tarnopol",
+        "Petrum de Tarnopole",
+        "Petrus citatus",
+        "Petrus Civis Tarnopoliensis"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:09.891326+00:00",
+      "updated_at": "2026-09-14T06:09:09.891326+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Petrum de Tarnopole",
+            "Petrus citatus",
+            "Petrus Civis Tarnopoliensis"
+          ],
+          "justification": "Citizen and defendant from Tarnopol cited regarding fish arrested at Caspar Gulinski's.",
+          "extracted_at": "2026-09-14T06:09:09.891326+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0004",
+      "entity_type": "location",
+      "canonical_name": "Tarnopol",
+      "aliases": [
+        "Tarnopol",
+        "Tarnopole",
+        "Tarnopoli",
+        "Tarnopoliensi",
+        "Tarnopoliensis"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:09.891714+00:00",
+      "updated_at": "2026-09-14T06:09:09.891714+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Tarnopole",
+            "Tarnopoli",
+            "Tarnopoliensi",
+            "Tarnopoliensis"
+          ],
+          "justification": "City in the Ruthenian Voivodeship referenced as the residence of Petrus and Moszko.",
+          "extracted_at": "2026-09-14T06:09:09.891714+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0024",
+      "entity_type": "person",
+      "canonical_name": "Moszko",
+      "aliases": [
+        "Moszko",
+        "Moszkone Tarnopoliensi",
+        "Moszkonem"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:09.892089+00:00",
+      "updated_at": "2026-09-14T06:09:09.892089+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Moszkone Tarnopoliensi",
+            "Moszkonem"
+          ],
+          "justification": "Jewish merchant from Tarnopol who sold the fish to Petrus.",
+          "extracted_at": "2026-09-14T06:09:09.892089+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0025",
+      "entity_type": "person",
+      "canonical_name": "Joannes Witynski",
+      "aliases": [
+        "Joannes Witynski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:09.892699+00:00",
+      "updated_at": "2026-09-14T06:09:09.892699+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Joannes Witynski"
+          ],
+          "justification": "Suburban resident of Lviv appearing before the court with his wife.",
+          "extracted_at": "2026-09-14T06:09:09.892699+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0026",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "aliases": [
+        "Anna",
+        "Annam"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:09.893075+00:00",
+      "updated_at": "2026-09-14T06:09:35.744432+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "Anna"
+          ],
+          "justification": "Second-marriage wife of Joannes Witynski.",
+          "extracted_at": "2026-09-14T06:09:09.893075+00:00"
+        },
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "Anna",
+            "Annam"
+          ],
+          "justification": "Widow of the deceased Lucas Wojnar and sister of Stanislaus Waisz.",
+          "extracted_at": "2026-09-14T06:09:35.744432+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0002",
+      "entity_type": "currency",
+      "canonical_name": "36 Polish florins",
+      "aliases": [
+        "36 Polish florins",
+        "florenis triginta sex pecuniae Polonicalis"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:09.893411+00:00",
+      "updated_at": "2026-09-14T06:09:09.893411+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "florenis triginta sex pecuniae Polonicalis"
+          ],
+          "justification": "Sum of money paid and receipted.",
+          "extracted_at": "2026-09-14T06:09:09.893411+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0027",
+      "entity_type": "person",
+      "canonical_name": "Ambrosius Fraystetyn Krzuschluk",
+      "aliases": [
+        "Ambrosius Fraystetyn Krzuschluk",
+        "Ambrosii Krzuschluk",
+        "Ambrosio Fraystetyn"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:09.893476+00:00",
+      "updated_at": "2026-09-14T06:09:09.893476+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0007.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "Ambrosii Krzuschluk",
+            "Ambrosio Fraystetyn"
+          ],
+          "justification": "Cooper (doliator) residing in the Lviv suburbs who satisfied the debt.",
+          "extracted_at": "2026-09-14T06:09:09.893476+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0028",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kensdorf",
+      "aliases": [
+        "Joannes Kensdorf",
+        "Honorato Domino Joanni Kensdorf Civi et Negotiatori Jaroslaviensi",
+        "Joanni Kensdorf",
+        "Creditori",
+        "Antonius Frackowic",
+        "Antonio"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.770687+00:00",
+      "updated_at": "2026-09-14T06:09:35.744065+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "Honorato Domino Joanni Kensdorf Civi et Negotiatori Jaroslaviensi",
+            "Joanni Kensdorf",
+            "Creditori"
+          ],
+          "justification": "Named as creditor and citizen/merchant of Jarosław receiving debt commitments.",
+          "extracted_at": "2026-09-14T06:09:15.770687+00:00"
+        },
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Antonio",
+            "Creditori",
+            "Antonius Frackowic"
+          ],
+          "justification": "Creditor receiving intromission into the property.",
+          "extracted_at": "2026-09-14T06:09:35.744065+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0005",
+      "entity_type": "location",
+      "canonical_name": "Jarosław",
+      "aliases": [
+        "Jarosław",
+        "Jaroslaviensi",
+        "mercatu Jaroslaviensi"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.771197+00:00",
+      "updated_at": "2026-09-14T06:09:15.771197+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Jaroslaviensi",
+            "mercatu Jaroslaviensi"
+          ],
+          "justification": "Town referenced in connection with the merchant's citizenship and the local market fairs.",
+          "extracted_at": "2026-09-14T06:09:15.771197+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0003",
+      "entity_type": "currency",
+      "canonical_name": "150 Polish florins",
+      "aliases": [
+        "150 Polish florins",
+        "florenos centum quinquaginta"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.771423+00:00",
+      "updated_at": "2026-09-14T06:09:15.771423+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "florenos centum quinquaginta"
+          ],
+          "justification": "Sum of the first installment due on the feast of St. Matthew.",
+          "extracted_at": "2026-09-14T06:09:15.771423+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "DATE-0002",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Matthew the Apostle",
+      "aliases": [
+        "Feast of Saint Matthew the Apostle",
+        "festo Beati Matthaei Apostoli et Evangelistae"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.771501+00:00",
+      "updated_at": "2026-09-14T06:09:15.771501+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "festo Beati Matthaei Apostoli et Evangelistae"
+          ],
+          "justification": "Due date for the first debt installment.",
+          "extracted_at": "2026-09-14T06:09:15.771501+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0004",
+      "entity_type": "currency",
+      "canonical_name": "200 Polish florins",
+      "aliases": [
+        "200 Polish florins",
+        "florenos ducentos"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.771596+00:00",
+      "updated_at": "2026-09-14T06:09:15.771596+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "florenos ducentos"
+          ],
+          "justification": "Sum of the remaining debt installment.",
+          "extracted_at": "2026-09-14T06:09:15.771596+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "DATE-0003",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Assumption of the Blessed Virgin Mary",
+      "aliases": [
+        "Feast of the Assumption of the Blessed Virgin Mary",
+        "festo Assumptionis in Caelum Beatissimae Virginis Mariae"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.771663+00:00",
+      "updated_at": "2026-09-14T06:09:15.771663+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "festo Assumptionis in Caelum Beatissimae Virginis Mariae"
+          ],
+          "justification": "Due date for the second debt installment.",
+          "extracted_at": "2026-09-14T06:09:15.771663+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "DATE-0004",
+      "entity_type": "date",
+      "canonical_name": "1596",
+      "aliases": [
+        "1596",
+        "Anno Domini 159 sexto"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.771791+00:00",
+      "updated_at": "2026-09-14T06:09:15.771791+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Anno Domini 159 sexto"
+          ],
+          "justification": "Year specified for the second installment payment.",
+          "extracted_at": "2026-09-14T06:09:15.771791+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0006",
+      "entity_type": "location",
+      "canonical_name": "Klimczowska House",
+      "aliases": [
+        "Klimczowska House",
+        "domo praedicta Klimczowska"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.771910+00:00",
+      "updated_at": "2026-09-14T06:09:15.771910+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "domo praedicta Klimczowska"
+          ],
+          "justification": "Property mortgaged as security for the debt.",
+          "extracted_at": "2026-09-14T06:09:15.771910+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0007",
+      "entity_type": "location",
+      "canonical_name": "Ruthenian Street",
+      "aliases": [
+        "Ruthenian Street",
+        "platea Ruthenorum"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.772195+00:00",
+      "updated_at": "2026-09-14T06:09:15.772195+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "platea Ruthenorum"
+          ],
+          "justification": "Street in Lviv where the Klimczowska house is situated.",
+          "extracted_at": "2026-09-14T06:09:15.772195+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0008",
+      "entity_type": "location",
+      "canonical_name": "Babriczowska House",
+      "aliases": [
+        "Babriczowska House",
+        "Babriczowska",
+        "Gabriczowska House",
+        "Gabriczowska domos"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:15.772543+00:00",
+      "updated_at": "2026-09-14T06:09:15.773072+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "Babriczowska"
+          ],
+          "justification": "Neighboring house defining the boundary of the mortgaged property.",
+          "extracted_at": "2026-09-14T06:09:15.772543+00:00"
+        },
+        {
+          "document_id": "23-2-52/0049.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "Gabriczowska domos"
+          ],
+          "justification": "Neighboring house defining the boundary of the mortgaged property.",
+          "extracted_at": "2026-09-14T06:09:15.773072+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0029",
+      "entity_type": "person",
+      "canonical_name": "Alexa Wyszibant",
+      "aliases": [
+        "Alexa Wyszibant"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.069008+00:00",
+      "updated_at": "2026-09-14T06:09:22.069008+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "Alexa Wyszibant"
+          ],
+          "justification": "Alexa Wyszibant is named as registering property obligations on behalf of his wife.",
+          "extracted_at": "2026-09-14T06:09:22.069008+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0030",
+      "entity_type": "person",
+      "canonical_name": "Anastasia",
+      "aliases": [
+        "Anastasia",
+        "Anastasiam",
+        "coniugem suam"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.069407+00:00",
+      "updated_at": "2026-09-14T06:09:22.069407+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Anastasiam",
+            "coniugem suam"
+          ],
+          "justification": "Named as the wife of Alexa Wyszibant.",
+          "extracted_at": "2026-09-14T06:09:22.069407+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0031",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rottendorff",
+      "aliases": [
+        "Joannes Rottendorff",
+        "Aurifex Civis Leopoliensis"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.070073+00:00",
+      "updated_at": "2026-09-14T06:09:22.070073+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Joannes Rottendorff",
+            "Aurifex Civis Leopoliensis"
+          ],
+          "justification": "Goldsmith and citizen of Lviv who acknowledges a debt and grants intromission to his creditor.",
+          "extracted_at": "2026-09-14T06:09:22.070073+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0032",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Scholz",
+      "aliases": [
+        "Bartholomeus Scholz",
+        "Bartel Scholz",
+        "Bartholomeo Scholz",
+        "Creditori suo"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.070401+00:00",
+      "updated_at": "2026-09-14T06:09:22.070401+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Bartel Scholz",
+            "Bartholomeo Scholz",
+            "Creditori suo"
+          ],
+          "justification": "Citizen of Lviv and creditor of Joannes Rottendorff.",
+          "extracted_at": "2026-09-14T06:09:22.070401+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0005",
+      "entity_type": "currency",
+      "canonical_name": "75 Polish florins",
+      "aliases": [
+        "75 Polish florins",
+        "Florenos septuaginta quinque pecuniae et numeri Polonicalis"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.070741+00:00",
+      "updated_at": "2026-09-14T06:09:22.070741+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Florenos septuaginta quinque pecuniae et numeri Polonicalis"
+          ],
+          "justification": "Debt amount acknowledged by Joannes Rottendorff.",
+          "extracted_at": "2026-09-14T06:09:22.070741+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0006",
+      "entity_type": "currency",
+      "canonical_name": "400 florins",
+      "aliases": [
+        "400 florins",
+        "quadringentorum florenorum"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.070842+00:00",
+      "updated_at": "2026-09-14T06:09:22.070842+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "quadringentorum florenorum"
+          ],
+          "justification": "Original principal debt amount.",
+          "extracted_at": "2026-09-14T06:09:22.070842+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "DATE-0005",
+      "entity_type": "date",
+      "canonical_name": "1586",
+      "aliases": [
+        "1586",
+        "Anno Domini 1586"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.070931+00:00",
+      "updated_at": "2026-09-14T06:09:22.070931+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "Anno Domini 1586"
+          ],
+          "justification": "Year when the original debt was registered.",
+          "extracted_at": "2026-09-14T06:09:22.070931+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0009",
+      "entity_type": "location",
+      "canonical_name": "Zozulinski House",
+      "aliases": [
+        "Zozulinski House",
+        "domum et sortem suam Zozulinski vocatam"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.071043+00:00",
+      "updated_at": "2026-09-14T06:09:22.071043+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "domum et sortem suam Zozulinski vocatam"
+          ],
+          "justification": "House and plot into which intromission is granted to Scholz.",
+          "extracted_at": "2026-09-14T06:09:22.071043+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0010",
+      "entity_type": "location",
+      "canonical_name": "Mount Calvary",
+      "aliases": [
+        "Mount Calvary",
+        "monte Calwarium"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:22.071535+00:00",
+      "updated_at": "2026-09-14T06:09:22.071535+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0050.JPG.txt",
+          "local_entity_id": "E12",
+          "mention_texts": [
+            "monte Calwarium"
+          ],
+          "justification": "Location in Lviv where the Zozulinski property is situated.",
+          "extracted_at": "2026-09-14T06:09:22.071535+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0033",
+      "entity_type": "person",
+      "canonical_name": "Georgius Breski",
+      "aliases": [
+        "Georgius Breski",
+        "Georgii Breski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.811582+00:00",
+      "updated_at": "2026-09-14T06:09:28.811582+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Georgii Breski"
+          ],
+          "justification": "Citizen of Lviv mentioned in the transaction: 'Famati Georgii Breski Civis Leopoliensis'.",
+          "extracted_at": "2026-09-14T06:09:28.811582+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0034",
+      "entity_type": "person",
+      "canonical_name": "Hedwigis",
+      "aliases": [
+        "Hedwigis"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.812112+00:00",
+      "updated_at": "2026-09-14T06:09:28.812112+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Hedwigis"
+          ],
+          "justification": "Mother appearing before the court: 'Honesta Hedwigis'.",
+          "extracted_at": "2026-09-14T06:09:28.812112+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0035",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Leonowic",
+      "aliases": [
+        "Christophorus Leonowic",
+        "Christophori Leonowic",
+        "Christophoro Leonowiczi"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.812615+00:00",
+      "updated_at": "2026-09-14T06:09:28.812615+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Christophori Leonowic",
+            "Christophoro Leonowiczi"
+          ],
+          "justification": "Deceased first husband of Hedwigis and butcher: 'olim Christophori Leonowic Lanij'.",
+          "extracted_at": "2026-09-14T06:09:28.812615+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0036",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szwiders",
+      "aliases": [
+        "Petrus Szwiders",
+        "Petri Szwiders"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.813131+00:00",
+      "updated_at": "2026-09-14T06:09:28.813131+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Petri Szwiders"
+          ],
+          "justification": "Current husband of Hedwigis: 'Honesti Petri Szwiders Suburbanus in Lybczakom coniunx legitima'.",
+          "extracted_at": "2026-09-14T06:09:28.813131+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0011",
+      "entity_type": "location",
+      "canonical_name": "Łyczaków",
+      "aliases": [
+        "Łyczaków",
+        "Lybczakom"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.813575+00:00",
+      "updated_at": "2026-09-14T06:09:28.813575+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E7",
+          "mention_texts": [
+            "Lybczakom"
+          ],
+          "justification": "Lviv suburb where Petrus Szwiders resided: 'Suburbanus in Lybczakom'.",
+          "extracted_at": "2026-09-14T06:09:28.813575+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0037",
+      "entity_type": "person",
+      "canonical_name": "Thomas Leonowic",
+      "aliases": [
+        "Thomas Leonowic",
+        "Thomae"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.814083+00:00",
+      "updated_at": "2026-09-14T06:09:28.814083+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Thomae"
+          ],
+          "justification": "Orphaned minor son of Christophorus Leonowic and Hedwigis: 'orbitatem Ingenui Thomae seu ex Honesto Christophoro Leonowiczi Suburbano Leopoliensi filii'.",
+          "extracted_at": "2026-09-14T06:09:28.814083+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0038",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Beataszewski",
+      "aliases": [
+        "Christophorus Beataszewski",
+        "Christophoro Beataszewski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.814531+00:00",
+      "updated_at": "2026-09-14T06:09:28.814531+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "Christophoro Beataszewski"
+          ],
+          "justification": "Opposing party in civil action: 'Gnoso Christophoro Beataszewski'.",
+          "extracted_at": "2026-09-14T06:09:28.814531+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0039",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Lewicki",
+      "aliases": [
+        "Christophorus Lewicki",
+        "Christophorum Lewicki"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.815066+00:00",
+      "updated_at": "2026-09-14T06:09:43.594941+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "Christophorum Lewicki"
+          ],
+          "justification": "Appointed guardian: 'pro Tutore Honestum Christophorum Lewicki'.",
+          "extracted_at": "2026-09-14T06:09:28.815066+00:00"
+        },
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Christophorum Lewicki"
+          ],
+          "justification": "Matches known entity PER-0039 acting as legal representative (ferendarius).",
+          "extracted_at": "2026-09-14T06:09:43.594941+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0040",
+      "entity_type": "person",
+      "canonical_name": "Antonius Frackowic",
+      "aliases": [
+        "Antonius Frackowic",
+        "Antonii Frackowic"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.815548+00:00",
+      "updated_at": "2026-09-14T06:09:28.815548+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "Antonii Frackowic"
+          ],
+          "justification": "Petitioner for the intromissio: 'Antonii Frackowic'.",
+          "extracted_at": "2026-09-14T06:09:28.815548+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0041",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Włokeski",
+      "aliases": [
+        "Jacobus Włokeski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.815975+00:00",
+      "updated_at": "2026-09-14T06:09:28.815975+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E12",
+          "mention_texts": [
+            "Jacobus Włokeski"
+          ],
+          "justification": "Ordinary advocate appearing before the council: 'Jacobus Włokeski Advocatus Ordinarius'.",
+          "extracted_at": "2026-09-14T06:09:28.815975+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0042",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Bernt",
+      "aliases": [
+        "Wolfgang Bernt",
+        "Wolffgangus Bernt"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.816401+00:00",
+      "updated_at": "2026-09-14T06:09:28.816401+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E13",
+          "mention_texts": [
+            "Wolffgangus Bernt"
+          ],
+          "justification": "Sworn bench officer (scabinus): 'Wolffgangus Bernt'.",
+          "extracted_at": "2026-09-14T06:09:28.816401+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0043",
+      "entity_type": "person",
+      "canonical_name": "Fridericus Gallus",
+      "aliases": [
+        "Fridericus Gallus"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:28.816868+00:00",
+      "updated_at": "2026-09-14T06:09:28.816868+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0051.JPG.txt",
+          "local_entity_id": "E14",
+          "mention_texts": [
+            "Fridericus Gallus"
+          ],
+          "justification": "Sworn bench officer (scabinus): 'Fridericus Gallus'.",
+          "extracted_at": "2026-09-14T06:09:28.816868+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0044",
+      "entity_type": "person",
+      "canonical_name": "Lucas Wojnar",
+      "aliases": [
+        "Lucas Wojnar",
+        "Lucae Wojnar",
+        "Lucam Wojnar"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.742757+00:00",
+      "updated_at": "2026-09-14T06:09:35.742757+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "Lucae Wojnar",
+            "Lucam Wojnar"
+          ],
+          "justification": "Deceased butcher and citizen of Lviv referenced in property descriptions and prior contracts.",
+          "extracted_at": "2026-09-14T06:09:35.742757+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0045",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wojnar",
+      "aliases": [
+        "Joannes Wojnar",
+        "Joannis Wojnar"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.743060+00:00",
+      "updated_at": "2026-09-14T06:09:35.743060+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Joannis Wojnar"
+          ],
+          "justification": "Deceased individual whose successors hold adjacent property.",
+          "extracted_at": "2026-09-14T06:09:35.743060+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0012",
+      "entity_type": "location",
+      "canonical_name": "Halych Suburb",
+      "aliases": [
+        "Halych Suburb",
+        "suburbio Haliciensi"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.743292+00:00",
+      "updated_at": "2026-09-14T06:09:35.743292+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "suburbio Haliciensi"
+          ],
+          "justification": "Suburb of Lviv where the stable is located.",
+          "extracted_at": "2026-09-14T06:09:35.743292+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0046",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Skorka",
+      "aliases": [
+        "Valentinus Skorka",
+        "Valentini Skorka"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.743611+00:00",
+      "updated_at": "2026-09-14T06:09:35.743611+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Valentini Skorka"
+          ],
+          "justification": "Neighboring property owner in the Halych suburb.",
+          "extracted_at": "2026-09-14T06:09:35.743611+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0047",
+      "entity_type": "person",
+      "canonical_name": "Paulus Sartor",
+      "aliases": [
+        "Paulus Sartor",
+        "Pauli Sartoris"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.743836+00:00",
+      "updated_at": "2026-09-14T06:09:35.743836+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Pauli Sartoris"
+          ],
+          "justification": "Neighboring property owner in the Halych suburb.",
+          "extracted_at": "2026-09-14T06:09:35.743836+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0007",
+      "entity_type": "currency",
+      "canonical_name": "280 Polish florins",
+      "aliases": [
+        "280 Polish florins",
+        "ducentorum et octoginta florenorum"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.744316+00:00",
+      "updated_at": "2026-09-14T06:09:35.744316+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "ducentorum et octoginta florenorum"
+          ],
+          "justification": "Debt amount specified for the intromission.",
+          "extracted_at": "2026-09-14T06:09:35.744316+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0048",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Domaszewski",
+      "aliases": [
+        "Jacobus Domaszewski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.744559+00:00",
+      "updated_at": "2026-09-14T06:09:35.744559+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "Jacobus Domaszewski"
+          ],
+          "justification": "Noble proxy appearing before the council.",
+          "extracted_at": "2026-09-14T06:09:35.744559+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0049",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Smietanka",
+      "aliases": [
+        "Sigismundus Smietanka",
+        "Sigismundi Smietanka"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.744792+00:00",
+      "updated_at": "2026-09-14T06:09:35.744792+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E12",
+          "mention_texts": [
+            "Sigismundi Smietanka"
+          ],
+          "justification": "Noble principal represented by Jacobus Domaszewski.",
+          "extracted_at": "2026-09-14T06:09:35.744792+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0050",
+      "entity_type": "person",
+      "canonical_name": "Sophia",
+      "aliases": [
+        "Sophia",
+        "Sophiae"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.745031+00:00",
+      "updated_at": "2026-09-14T06:09:35.745031+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E13",
+          "mention_texts": [
+            "Sophiae"
+          ],
+          "justification": "Wife of Sigismundus Smietanka and daughter of the late Lucas, notary of Żydaczów.",
+          "extracted_at": "2026-09-14T06:09:35.745031+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0051",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Waisz",
+      "aliases": [
+        "Stanislaus Waisz",
+        "Stanislaum Waisz",
+        "Stanislao Waisz"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.745268+00:00",
+      "updated_at": "2026-09-14T06:09:35.745268+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E14",
+          "mention_texts": [
+            "Stanislaum Waisz",
+            "Stanislao Waisz"
+          ],
+          "justification": "Butcher, citizen of Lviv, and brother/natural guardian of Anna.",
+          "extracted_at": "2026-09-14T06:09:35.745268+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0052",
+      "entity_type": "person",
+      "canonical_name": "Joannes Waisz",
+      "aliases": [
+        "Joannes Waisz",
+        "Joannis Waisz"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:35.745533+00:00",
+      "updated_at": "2026-09-14T06:09:35.745533+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0052.JPG.txt",
+          "local_entity_id": "E15",
+          "mention_texts": [
+            "Joannis Waisz"
+          ],
+          "justification": "Deceased individual whose daughters Barbara and Margaret are under guardianship.",
+          "extracted_at": "2026-09-14T06:09:35.745533+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0053",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szanc",
+      "aliases": [
+        "Jacobus Szanc",
+        "Jacobi Szanc"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.594589+00:00",
+      "updated_at": "2026-09-14T06:09:43.594589+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "Jacobi Szanc"
+          ],
+          "justification": "Named as the cited party in the legal dispute.",
+          "extracted_at": "2026-09-14T06:09:43.594589+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0054",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ptasz",
+      "aliases": [
+        "Joannes Ptasz",
+        "Joannem Ptasz"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.595150+00:00",
+      "updated_at": "2026-09-14T06:09:43.595150+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Joannem Ptasz"
+          ],
+          "justification": "Identified as the deceased father of the cited parties.",
+          "extracted_at": "2026-09-14T06:09:43.595150+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0055",
+      "entity_type": "person",
+      "canonical_name": "Lucas Notarius Zialussowski",
+      "aliases": [
+        "Lucas Notarius Zialussowski",
+        "Luca Notario Zialussouien"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.595408+00:00",
+      "updated_at": "2026-09-14T06:09:43.595408+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Luca Notario Zialussouien"
+          ],
+          "justification": "Named as the deceased notary and creditor.",
+          "extracted_at": "2026-09-14T06:09:43.595408+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0008",
+      "entity_type": "currency",
+      "canonical_name": "300 Polish florins",
+      "aliases": [
+        "300 Polish florins",
+        "Florenos trecentos Polonicales"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.595671+00:00",
+      "updated_at": "2026-09-14T06:09:43.595671+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Florenos trecentos Polonicales"
+          ],
+          "justification": "Amount of debt secured on the property.",
+          "extracted_at": "2026-09-14T06:09:43.595671+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0013",
+      "entity_type": "location",
+      "canonical_name": "Wraczslawzowska House",
+      "aliases": [
+        "Wraczslawzowska House",
+        "domus labidea Wraczslawzowska"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.595732+00:00",
+      "updated_at": "2026-09-14T06:09:43.595732+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "domus labidea Wraczslawzowska"
+          ],
+          "justification": "Named stone tenement house mortgaged for the debt.",
+          "extracted_at": "2026-09-14T06:09:43.595732+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "DATE-0006",
+      "entity_type": "date",
+      "canonical_name": "1575",
+      "aliases": [
+        "1575",
+        "sabbato ante Festum Sancti Joannis Baptiste Anno 157 quinto"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.596356+00:00",
+      "updated_at": "2026-09-14T06:09:43.596356+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "sabbato ante Festum Sancti Joannis Baptiste Anno 157 quinto"
+          ],
+          "justification": "Date of the original municipal court entry.",
+          "extracted_at": "2026-09-14T06:09:43.596356+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0056",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sawinski",
+      "aliases": [
+        "Joannes Sawinski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.596429+00:00",
+      "updated_at": "2026-09-14T06:09:43.596429+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "Joannes Sawinski"
+          ],
+          "justification": "Noble who issues a receipt/acquittance.",
+          "extracted_at": "2026-09-14T06:09:43.596429+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0057",
+      "entity_type": "person",
+      "canonical_name": "Lucia Sawinska",
+      "aliases": [
+        "Lucia Sawinska",
+        "Lucie Sawinski"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.596695+00:00",
+      "updated_at": "2026-09-14T06:09:43.596695+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "Lucie Sawinski"
+          ],
+          "justification": "Deceased noblewoman whose successor is Joannes Sawinski.",
+          "extracted_at": "2026-09-14T06:09:43.596695+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0009",
+      "entity_type": "currency",
+      "canonical_name": "100 Polish florins",
+      "aliases": [
+        "100 Polish florins",
+        "florenis centum pecunie Polonicalis"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.596971+00:00",
+      "updated_at": "2026-09-14T06:09:43.596971+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E12",
+          "mention_texts": [
+            "florenis centum pecunie Polonicalis"
+          ],
+          "justification": "Monetary sum settled in the acquittance.",
+          "extracted_at": "2026-09-14T06:09:43.596971+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0058",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Gorszalek",
+      "aliases": [
+        "Jacobus Gorszalek",
+        "Jacobi Gorszalek",
+        "Jacobum Gorszalek",
+        "Jacobo Gorszalek"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.597037+00:00",
+      "updated_at": "2026-09-14T06:09:43.597037+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E13",
+          "mention_texts": [
+            "Jacobi Gorszalek",
+            "Jacobum Gorszalek",
+            "Jacobo Gorszalek"
+          ],
+          "justification": "Furrier and citizen of Lviv acquitted of financial obligation.",
+          "extracted_at": "2026-09-14T06:09:43.597037+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0059",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łagiewnicki",
+      "aliases": [
+        "Joannes Łagiewnicki",
+        "Joanne Lagiewnicki"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:43.597319+00:00",
+      "updated_at": "2026-09-14T06:09:43.597319+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0053.JPG.txt",
+          "local_entity_id": "E14",
+          "mention_texts": [
+            "Joanne Lagiewnicki"
+          ],
+          "justification": "Noble guardian (tutor) of Joannes Sawinski.",
+          "extracted_at": "2026-09-14T06:09:43.597319+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0060",
+      "entity_type": "person",
+      "canonical_name": "Helias Haiko",
+      "aliases": [
+        "Helias Haiko",
+        "Heliam Haiko"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.403168+00:00",
+      "updated_at": "2026-09-14T06:09:51.403168+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "Heliam Haiko"
+          ],
+          "justification": "Named as the plaintiff (actor) and a Jew of Kraków.",
+          "extracted_at": "2026-09-14T06:09:51.403168+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0014",
+      "entity_type": "location",
+      "canonical_name": "Kraków",
+      "aliases": [
+        "Kraków",
+        "Cracoviensem"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.403527+00:00",
+      "updated_at": "2026-09-14T06:09:51.403527+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Cracoviensem"
+          ],
+          "justification": "City origin of Helias Haiko.",
+          "extracted_at": "2026-09-14T06:09:51.403527+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0061",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Jelonek",
+      "aliases": [
+        "Erasmus Jelonek",
+        "Erasmum Jelonek Pellionem"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.403765+00:00",
+      "updated_at": "2026-09-14T06:09:51.403765+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "Erasmum Jelonek Pellionem",
+            "Erasmus Jelonek"
+          ],
+          "justification": "Named as the cited party/defendant (citatus) and furrier.",
+          "extracted_at": "2026-09-14T06:09:51.403765+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0062",
+      "entity_type": "person",
+      "canonical_name": "Jersedus Moszo",
+      "aliases": [
+        "Jersedus Moszo",
+        "Jersedum Moszonem"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.404052+00:00",
+      "updated_at": "2026-09-14T06:09:51.404052+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E4",
+          "mention_texts": [
+            "Jersedum Moszonem"
+          ],
+          "justification": "Mentioned as a Jewish merchant/resident of Lviv.",
+          "extracted_at": "2026-09-14T06:09:51.404052+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "CUR-0010",
+      "entity_type": "currency",
+      "canonical_name": "148 florins 15 groschen",
+      "aliases": [
+        "148 florins 15 groschen",
+        "centum quadraginta octo florenorum et grossorum quindecim"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.404389+00:00",
+      "updated_at": "2026-09-14T06:09:51.404389+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "centum quadraginta octo florenorum et grossorum quindecim"
+          ],
+          "justification": "Monetary sum ruled to be paid.",
+          "extracted_at": "2026-09-14T06:09:51.404389+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0063",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Abrikowic",
+      "aliases": [
+        "Nicolaus Abrikowic",
+        "Nicolaus Bigoszewa Abrikowic"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.404513+00:00",
+      "updated_at": "2026-09-14T06:09:51.404513+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E8",
+          "mention_texts": [
+            "Nicolaus Abrikowic",
+            "Nicolaus Bigoszewa Abrikowic"
+          ],
+          "justification": "Named as the son of late Nicolaus Abrek and Margaretha, appearing personally.",
+          "extracted_at": "2026-09-14T06:09:51.404513+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0064",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Abrek",
+      "aliases": [
+        "Nicolaus Abrek",
+        "Nicolai Abrek"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.404822+00:00",
+      "updated_at": "2026-09-14T06:09:51.404822+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E9",
+          "mention_texts": [
+            "Nicolai Abrek"
+          ],
+          "justification": "Deceased citizen of Lviv, father of Nicolaus Abrikowic.",
+          "extracted_at": "2026-09-14T06:09:51.404822+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0065",
+      "entity_type": "person",
+      "canonical_name": "Margaretha",
+      "aliases": [
+        "Margaretha",
+        "Margarethae"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.405193+00:00",
+      "updated_at": "2026-09-14T06:09:51.405193+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E10",
+          "mention_texts": [
+            "Margarethae"
+          ],
+          "justification": "Surviving widow of Nicolaus Abrek and mother of Nicolaus Abrikowic.",
+          "extracted_at": "2026-09-14T06:09:51.405193+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0015",
+      "entity_type": "location",
+      "canonical_name": "Bigoszewska House",
+      "aliases": [
+        "Bigoszewska House",
+        "domo lapidea Bigoszewska",
+        "Bigoszewa"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.405824+00:00",
+      "updated_at": "2026-09-14T06:09:51.405824+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E11",
+          "mention_texts": [
+            "domo lapidea Bigoszewska",
+            "Bigoszewa"
+          ],
+          "justification": "Masonry house in Halych Street.",
+          "extracted_at": "2026-09-14T06:09:51.405824+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0016",
+      "entity_type": "location",
+      "canonical_name": "Halych Street",
+      "aliases": [
+        "Halych Street",
+        "platea Haliciensi"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.406294+00:00",
+      "updated_at": "2026-09-14T06:09:51.406294+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E12",
+          "mention_texts": [
+            "platea Haliciensi"
+          ],
+          "justification": "Street in Lviv where the Bigoszewska House is located.",
+          "extracted_at": "2026-09-14T06:09:51.406294+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0066",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Jozefowicz",
+      "aliases": [
+        "Sebastianus Jozefowicz",
+        "Sebastiano Jozefowicz"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.406683+00:00",
+      "updated_at": "2026-09-14T06:09:51.406683+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E13",
+          "mention_texts": [
+            "Sebastiano Jozefowicz"
+          ],
+          "justification": "Maternal uncle (avunculus) of Nicolaus Abrikowic, Dean of Starogard.",
+          "extracted_at": "2026-09-14T06:09:51.406683+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0017",
+      "entity_type": "location",
+      "canonical_name": "Starogard",
+      "aliases": [
+        "Starogard",
+        "Starogardiensi"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.406985+00:00",
+      "updated_at": "2026-09-14T06:09:51.406985+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E14",
+          "mention_texts": [
+            "Starogardiensi"
+          ],
+          "justification": "Jurisdiction/deanery of Sebastianus Jozefowicz.",
+          "extracted_at": "2026-09-14T06:09:51.406985+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "LOC-0018",
+      "entity_type": "location",
+      "canonical_name": "Gdańsk",
+      "aliases": [
+        "Gdańsk",
+        "Gedanensibus"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:51.407321+00:00",
+      "updated_at": "2026-09-14T06:09:51.407321+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0054.JPG.txt",
+          "local_entity_id": "E15",
+          "mention_texts": [
+            "Gedanensibus"
+          ],
+          "justification": "Source city council of the previous legal inscription.",
+          "extracted_at": "2026-09-14T06:09:51.407321+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "DATE-0007",
+      "entity_type": "date",
+      "canonical_name": "1593",
+      "aliases": [
+        "1593",
+        "feria quarta postridie festi Beati Andreae Apostoli proxima Anno Domini 159 tertio",
+        "Anno Domini 159 tertio"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:57.898682+00:00",
+      "updated_at": "2026-09-14T06:09:57.898682+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0055.JPG.txt",
+          "local_entity_id": "E1",
+          "mention_texts": [
+            "feria quarta postridie festi Beati Andreae Apostoli proxima Anno Domini 159 tertio",
+            "Anno Domini 159 tertio"
+          ],
+          "justification": "Date of the previous legal action referenced in the text.",
+          "extracted_at": "2026-09-14T06:09:57.898682+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0067",
+      "entity_type": "person",
+      "canonical_name": "Zophia Bigossowa",
+      "aliases": [
+        "Zophia Bigossowa",
+        "Honestae Zophiae Bigossowa",
+        "Zophiae Bigossowa",
+        "Bigossowa"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:57.898976+00:00",
+      "updated_at": "2026-09-14T06:09:57.898976+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0055.JPG.txt",
+          "local_entity_id": "E2",
+          "mention_texts": [
+            "Honestae Zophiae Bigossowa",
+            "Zophia Bigossowa",
+            "Zophiae Bigossowa",
+            "Bigossowa"
+          ],
+          "justification": "Identified as the cessionary and widow of the late Joannes Bigos.",
+          "extracted_at": "2026-09-14T06:09:57.898976+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0068",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bigos",
+      "aliases": [
+        "Joannes Bigos",
+        "olim Joannis Bigos"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:57.899697+00:00",
+      "updated_at": "2026-09-14T06:09:57.899697+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0055.JPG.txt",
+          "local_entity_id": "E3",
+          "mention_texts": [
+            "olim Joannis Bigos"
+          ],
+          "justification": "Deceased burgher of Lviv, late husband of Zophia Bigossowa.",
+          "extracted_at": "2026-09-14T06:09:57.899697+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0069",
+      "entity_type": "person",
+      "canonical_name": "Ericus Adrleowit",
+      "aliases": [
+        "Ericus Adrleowit",
+        "Ericae",
+        "Ericavus Adrleowit",
+        "Skrtowic"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:57.900550+00:00",
+      "updated_at": "2026-09-14T06:09:57.900550+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0055.JPG.txt",
+          "local_entity_id": "E5",
+          "mention_texts": [
+            "Ericae",
+            "Ericavus Adrleowit",
+            "Skrtowic"
+          ],
+          "justification": "The cessor making the legal concession and appointing a plenipotentiary.",
+          "extracted_at": "2026-09-14T06:09:57.900550+00:00"
+        }
+      ]
+    },
+    {
+      "entity_id": "PER-0070",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "aliases": [
+        "Simon",
+        "Dominum Simonem"
+      ],
+      "source": "llm",
+      "merged_from": [],
+      "created_at": "2026-09-14T06:09:57.901265+00:00",
+      "updated_at": "2026-09-14T06:09:57.901265+00:00",
+      "mentions": [
+        {
+          "document_id": "23-2-52/0055.JPG.txt",
+          "local_entity_id": "E6",
+          "mention_texts": [
+            "Dominum Simonem"
+          ],
+          "justification": "Scabinus of Lviv appointed as plenipotentiary by Ericus Adrleowit.",
+          "extracted_at": "2026-09-14T06:09:57.901265+00:00"
+        }
+      ]
+    }
+  ],
+  "processed_documents": [
+    {
+      "document_id": "23-2-52/0001.JPG.txt",
+      "content_hash": "sha256:6f677b0155507e2347d183d07d915fff1a2ae633d13a831c952b1331905295f6",
+      "processed_at": "2026-09-14T06:08:44.206549+00:00",
+      "entity_graph_path": "23-2-52/0001.JPG.txt.entity_graph.json",
+      "entity_count": 3,
+      "relationship_count": 2
+    },
+    {
+      "document_id": "23-2-52/0003.JPG.txt",
+      "content_hash": "sha256:03483e078125e04703c8e6114ecadd68103c1f6790870e908fa22603a611fb12",
+      "processed_at": "2026-09-14T06:08:50.634502+00:00",
+      "entity_graph_path": "23-2-52/0003.JPG.txt.entity_graph.json",
+      "entity_count": 16,
+      "relationship_count": 14
+    },
+    {
+      "document_id": "23-2-52/0004.JPG.txt",
+      "content_hash": "sha256:a83e3897285e74ea46068b267b50d19e7b5f1ab212ce2d1c210ec476818967a3",
+      "processed_at": "2026-09-14T06:08:53.834407+00:00",
+      "entity_graph_path": "23-2-52/0004.JPG.txt.entity_graph.json",
+      "entity_count": 3,
+      "relationship_count": 1
+    },
+    {
+      "document_id": "23-2-52/0005.JPG.txt",
+      "content_hash": "sha256:f612aedbed8bab292b22145e01f8af74811788c7538b298e78a991d7cd64d69d",
+      "processed_at": "2026-09-14T06:08:58.622536+00:00",
+      "entity_graph_path": "23-2-52/0005.JPG.txt.entity_graph.json",
+      "entity_count": 8,
+      "relationship_count": 6
+    },
+    {
+      "document_id": "23-2-52/0006.JPG.txt",
+      "content_hash": "sha256:28c72e532e51230d5d86ba2b2c744e90fe5356f97b97d106e1685687720911de",
+      "processed_at": "2026-09-14T06:09:04.618240+00:00",
+      "entity_graph_path": "23-2-52/0006.JPG.txt.entity_graph.json",
+      "entity_count": 12,
+      "relationship_count": 4
+    },
+    {
+      "document_id": "23-2-52/0007.JPG.txt",
+      "content_hash": "sha256:da80b9ad2c1798ad06bc679642c9134a36fd9d3b6ef1a82258ad94c76473e0f1",
+      "processed_at": "2026-09-14T06:09:09.894734+00:00",
+      "entity_graph_path": "23-2-52/0007.JPG.txt.entity_graph.json",
+      "entity_count": 11,
+      "relationship_count": 6
+    },
+    {
+      "document_id": "23-2-52/0049.JPG.txt",
+      "content_hash": "sha256:1efe7caeb37d0f5ffc7c744669e8d11c6f00a537415973425bc9689994181fe1",
+      "processed_at": "2026-09-14T06:09:15.774615+00:00",
+      "entity_graph_path": "23-2-52/0049.JPG.txt.entity_graph.json",
+      "entity_count": 11,
+      "relationship_count": 2
+    },
+    {
+      "document_id": "23-2-52/0050.JPG.txt",
+      "content_hash": "sha256:d275ab73c329722bc71f1767906608cb940bceb3eaa850cb18ee4f6a3964f1f0",
+      "processed_at": "2026-09-14T06:09:22.072677+00:00",
+      "entity_graph_path": "23-2-52/0050.JPG.txt.entity_graph.json",
+      "entity_count": 12,
+      "relationship_count": 5
+    },
+    {
+      "document_id": "23-2-52/0051.JPG.txt",
+      "content_hash": "sha256:73f48e6070b0876d3debd1a5d5a3ce695fcc088d8bdff4433541dc8d13f51a09",
+      "processed_at": "2026-09-14T06:09:28.818877+00:00",
+      "entity_graph_path": "23-2-52/0051.JPG.txt.entity_graph.json",
+      "entity_count": 14,
+      "relationship_count": 9
+    },
+    {
+      "document_id": "23-2-52/0052.JPG.txt",
+      "content_hash": "sha256:a73c9176e0e56c183f329cbd091e176650e72304cf069bcc56d913fb0f89acca",
+      "processed_at": "2026-09-14T06:09:35.747249+00:00",
+      "entity_graph_path": "23-2-52/0052.JPG.txt.entity_graph.json",
+      "entity_count": 16,
+      "relationship_count": 5
+    },
+    {
+      "document_id": "23-2-52/0053.JPG.txt",
+      "content_hash": "sha256:295da3f7175f9ee6ccaf77db64caf7413758e92ec7276e1fc1ff1f3c3031e4c8",
+      "processed_at": "2026-09-14T06:09:43.598173+00:00",
+      "entity_graph_path": "23-2-52/0053.JPG.txt.entity_graph.json",
+      "entity_count": 14,
+      "relationship_count": 5
+    },
+    {
+      "document_id": "23-2-52/0054.JPG.txt",
+      "content_hash": "sha256:62f87fdc265282c9bc1fbf2d039be3741cede80ae26deee87e2364ced3113e89",
+      "processed_at": "2026-09-14T06:09:51.408208+00:00",
+      "entity_graph_path": "23-2-52/0054.JPG.txt.entity_graph.json",
+      "entity_count": 16,
+      "relationship_count": 6
+    },
+    {
+      "document_id": "23-2-52/0055.JPG.txt",
+      "content_hash": "sha256:e5216706ff71abc600820f642c524579c7319b5b2d2ad109a237794055483bdb",
+      "processed_at": "2026-09-14T06:09:57.902754+00:00",
+      "entity_graph_path": "23-2-52/0055.JPG.txt.entity_graph.json",
+      "entity_count": 6,
+      "relationship_count": 4
+    },
+    {
+      "document_id": "23-2-52/img_arc_0/0001.JPG.txt",
+      "content_hash": "sha256:c23424d3b0e81b4928ecc1a837592c3918c30c5124af053f3d55e14b0ca47b8d",
+      "processed_at": "2026-09-14T06:10:00.882723+00:00",
+      "entity_graph_path": "23-2-52/img_arc_0/0001.JPG.txt.entity_graph.json",
+      "entity_count": 3,
+      "relationship_count": 1
+    },
+    {
+      "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+      "content_hash": "sha256:8510ba7dc516e986029fe5a44463c680c52f2756f9bc0bd92b81c53458727da6",
+      "processed_at": "2026-09-14T06:10:12.075506+00:00",
+      "entity_graph_path": "23-2-52/img_arc_0/0003.JPG.txt.entity_graph.json",
+      "entity_count": 16,
+      "relationship_count": 14
+    }
+  ]
+}

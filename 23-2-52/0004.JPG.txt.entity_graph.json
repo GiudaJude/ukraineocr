@@ -1,0 +1,41 @@
+{
+  "document_id": "23-2-52/0004.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "OFFICII PROCONSULARIS LEOPOLIENSIS"
+      ],
+      "justification": "Title references the consular office of Lviv (Officium Proconsulare Leopoliense)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "LEOPOLIENSIS"
+      ],
+      "justification": "City name mentioned in Latin adjectival form."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "ANNO DOMINI 1595",
+        "1595"
+      ],
+      "justification": "Year of the consular register specified on the title page."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "OFFICII PROCONSULARIS LEOPOLIENSIS"
+    }
+  ]
+}

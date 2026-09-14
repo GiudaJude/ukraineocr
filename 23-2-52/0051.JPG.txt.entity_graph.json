@@ -1,0 +1,193 @@
+{
+  "document_id": "23-2-52/0051.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Civis Leopoliensis",
+        "Suburbano Leopoliensi",
+        "Judicio Civili Leopoliensi",
+        "Civitatis Leopoliensis"
+      ],
+      "justification": "City referred to in several Latin civic designations (Civis Leopoliensis, Civitatis Leopoliensis, etc.)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "officij nostri",
+        "Officio"
+      ],
+      "justification": "Municipal governing office of Lviv acting in its official judicial and administrative capacity."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Georgius Breski",
+      "mention_texts": [
+        "Georgii Breski"
+      ],
+      "justification": "Citizen of Lviv mentioned in the transaction: 'Famati Georgii Breski Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Hedwigis",
+      "mention_texts": [
+        "Hedwigis"
+      ],
+      "justification": "Mother appearing before the court: 'Honesta Hedwigis'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Leonowic",
+      "mention_texts": [
+        "Christophori Leonowic",
+        "Christophoro Leonowiczi"
+      ],
+      "justification": "Deceased first husband of Hedwigis and butcher: 'olim Christophori Leonowic Lanij'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szwiders",
+      "mention_texts": [
+        "Petri Szwiders"
+      ],
+      "justification": "Current husband of Hedwigis: 'Honesti Petri Szwiders Suburbanus in Lybczakom coniunx legitima'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Łyczaków",
+      "mention_texts": [
+        "Lybczakom"
+      ],
+      "justification": "Lviv suburb where Petrus Szwiders resided: 'Suburbanus in Lybczakom'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Leonowic",
+      "mention_texts": [
+        "Thomae"
+      ],
+      "justification": "Orphaned minor son of Christophorus Leonowic and Hedwigis: 'orbitatem Ingenui Thomae seu ex Honesto Christophoro Leonowiczi Suburbano Leopoliensi filii'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Beataszewski",
+      "mention_texts": [
+        "Christophoro Beataszewski"
+      ],
+      "justification": "Opposing party in civil action: 'Gnoso Christophoro Beataszewski'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Lewicki",
+      "mention_texts": [
+        "Christophorum Lewicki"
+      ],
+      "justification": "Appointed guardian: 'pro Tutore Honestum Christophorum Lewicki'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Antonius Frackowic",
+      "mention_texts": [
+        "Antonii Frackowic"
+      ],
+      "justification": "Petitioner for the intromissio: 'Antonii Frackowic'."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Włokeski",
+      "mention_texts": [
+        "Jacobus Włokeski"
+      ],
+      "justification": "Ordinary advocate appearing before the council: 'Jacobus Włokeski Advocatus Ordinarius'."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Bernt",
+      "mention_texts": [
+        "Wolffgangus Bernt"
+      ],
+      "justification": "Sworn bench officer (scabinus): 'Wolffgangus Bernt'."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Gallus"
+      ],
+      "justification": "Sworn bench officer (scabinus): 'Fridericus Gallus'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "ad manus Famati Georgii Breski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Hedwigis primarum quidem Honesti olim Christophori Leonowic Lanij"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "secundarum vero ad praesens nuptiarum Honesti Petri Szwiders Suburbanus in Lybczakom coniunx legitima"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesti Petri Szwiders Suburbanus in Lybczakom"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Thomae seu ex Honesto Christophoro Leonowiczi Suburbano Leopoliensi filii"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Hedwigis ... orbitatem Ingenui Thomae seu ex Honesto Christophoro Leonowiczi Suburbano Leopoliensi filii"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "assignavimus eidem Pupillo pro Tutore Honestum Christophorum Lewicki"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Wolffgangus Bernt ... Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Fridericus Gallus Scabini Jurati Civitatis Leopoliensis"
+    }
+  ]
+}

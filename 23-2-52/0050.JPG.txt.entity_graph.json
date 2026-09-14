@@ -1,0 +1,152 @@
+{
+  "document_id": "23-2-52/0050.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Alexa Wyszibant",
+      "mention_texts": [
+        "Alexa Wyszibant"
+      ],
+      "justification": "Alexa Wyszibant is named as registering property obligations on behalf of his wife."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anastasia",
+      "mention_texts": [
+        "Anastasiam",
+        "coniugem suam"
+      ],
+      "justification": "Named as the wife of Alexa Wyszibant."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officij"
+      ],
+      "justification": "Municipal council office before which the legal actions are taken."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Leopoli",
+        "Civis Leopoliensis",
+        "Civi Leopoliensi"
+      ],
+      "justification": "City where the legal acts take place and of which the parties are citizens."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Anno Domini 1595"
+      ],
+      "justification": "Year of the first act recorded in this document."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rottendorff",
+      "mention_texts": [
+        "Joannes Rottendorff",
+        "Aurifex Civis Leopoliensis"
+      ],
+      "justification": "Goldsmith and citizen of Lviv who acknowledges a debt and grants intromission to his creditor."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Scholz",
+      "mention_texts": [
+        "Bartel Scholz",
+        "Bartholomeo Scholz",
+        "Creditori suo"
+      ],
+      "justification": "Citizen of Lviv and creditor of Joannes Rottendorff."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "75 Polish florins",
+      "mention_texts": [
+        "Florenos septuaginta quinque pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Debt amount acknowledged by Joannes Rottendorff."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "400 florins",
+      "mention_texts": [
+        "quadringentorum florenorum"
+      ],
+      "justification": "Original principal debt amount."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "1586",
+      "mention_texts": [
+        "Anno Domini 1586"
+      ],
+      "justification": "Year when the original debt was registered."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Zozulinski House",
+      "mention_texts": [
+        "domum et sortem suam Zozulinski vocatam"
+      ],
+      "justification": "House and plot into which intromission is granted to Scholz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Mount Calvary",
+      "mention_texts": [
+        "monte Calwarium"
+      ],
+      "justification": "Location in Lviv where the Zozulinski property is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestam Anastasiam coniugem suam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatus Joannes Rottendorff Aurifex Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famato Bartholomeo Scholz Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_debtor_to",
+      "tail_entity_id": "E7",
+      "evidence": "benevolentque recognouit se debere et teneri certi veri iusti liquidique debiti Florenos septuaginta quinque ... Famato Bartholomeo Scholz"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "is_located_in",
+      "tail_entity_id": "E12",
+      "evidence": "domum et sortem suam Zozulinski vocatam in monte Calwarium"
+    }
+  ]
+}

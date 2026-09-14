@@ -40,7 +40,7 @@ Do not include markdown, commentary, or explanatory prose.
 """
 
 KNOWN_ENTITIES_SECTION_TEMPLATE = """
-Known entities already establushed somewhere in this corupus. Reuse these
+Known entities already established somewhere in this corpus. Reuse these
 canonical names and aliases if the same real-world person/place appears in
 this document. Do not invent a new canonical name for an entity that is
 already listed below:
@@ -65,12 +65,13 @@ Requirements:
 - Relationships must use canonical entity IDs, not raw strings.
 - If no entities or relationships are found, return empty arrays.
 
+{known_entities_section}
 Document ID: {document_id}
 
 Document text:
 {document_text}
 """
-#OpenAI-only
+# OpenAI-only
 ENTITY_GRAPH_SCHEMA = {
     "type": "json_schema",
     "name": "entity_graph_extraction",
@@ -156,8 +157,10 @@ class EntityGraph(BaseModel):
     entities: list[ExtractedEntity] = Field(default_factory=list)
     relationships: list[EntityRelationship] = Field(default_factory=list)
 
+
 OPENAI_CLIENT: Any | None = None
 GEMINI_CLIENT: Any | None = None
+
 
 def get_provider_name() -> str:
     """Chose the first fully usable provider, preferring OpenAI.
@@ -170,23 +173,24 @@ def get_provider_name() -> str:
         return "gemini"
     if OPENAI_API_KEY and GEMINI_API_KEY:
         raise RuntimeError(
-            "API keys are configured, but neither provider SDK is installed."
+            "API keys are configured, but neither provider SDK is installed. "
             "Install `openai` or `google-genai`"
         )
     if OPENAI_API_KEY:
         raise RuntimeError(
-            "OPENAI_API_KEY is set, but the `openai` package is not installed."
+            "OPENAI_API_KEY is set, but the `openai` package is not installed. "
             "Run `pip install openai`."
         )
     if GEMINI_API_KEY:
         raise RuntimeError(
-            "GEMINI_API_KEY is set, but the `google-genai` package is not installed."
+            "GEMINI_API_KEY is set, but the `google-genai` package is not installed. "
             "Run `pip install google-genai`."
         )
     raise RuntimeError(
-        "No API key is configured. Set OPENAI_API_KEY or GEMINI_API_KEY."
+        "No API key is configured. Set OPENAI_API_KEY or GEMINI_API_KEY. "
         "If both are present, OpenAI is used by default."
     )
+
 
 def get_openai_client() -> Any:
     global OPENAI_CLIENT
@@ -197,14 +201,15 @@ def get_openai_client() -> Any:
     if not OPENAI_API_KEY:
         raise RuntimeError("OPENAI_API_KEY is not set.")
     if OPENAI_CLIENT is None:
-        OPENAI_CLEINT = OpenAI(api_key=OPENAI_API_KEY)
+        OPENAI_CLIENT = OpenAI(api_key=OPENAI_API_KEY)
     return OPENAI_CLIENT
+
 
 def get_gemini_client() -> Any:
     global GEMINI_CLIENT
     if genai is None:
         raise RuntimeError(
-            "The `google-genai` package is required for GEMINI_API_KEY."
+            "The `google-genai` package is required for GEMINI_API_KEY. "
             "Run `pip install google-genai`."
         )
     if not GEMINI_API_KEY:
@@ -214,40 +219,79 @@ def get_gemini_client() -> Any:
     return GEMINI_CLIENT
 
 
-def build_prompt(document_text: str, document_id: str) -> str:
-    return USER_PROMPT_TEMPLATE.format(document_id=document_id, document_text=document_text)
+def build_prompt(document_text: str, document_id: str, known_entities_context: str = "") -> str:
+    known_entities_section = (
+        KNOWN_ENTITIES_SECTION_TEMPLATE.format(known_entities_context=known_entities_context)
+        if known_entities_context
+        else ""
+    )
+    return USER_PROMPT_TEMPLATE.format(
+        document_id=document_id,
+        document_text=document_text,
+        known_entities_section=known_entities_section,
+    )
 
 
 def default_output_path(input_path: Path) -> Path:
     return input_path.with_suffix(input_path.suffix + ".entity_graph.json")
 
 
-def extract_entity_graph(document_text: str, document_id: str) -> EntityGraph:
-    response = get_client().responses.create(
+def extract_entity_graph_openai(document_text: str, document_id: str, known_entities_context: str = "") -> EntityGraph:
+    response = get_openai_client().responses.create(
         model=OPENAI_MODEL_NER,
         instructions=SYSTEM_PROMPT,
-        input=build_prompt(document_text, document_id),
+        input=build_prompt(document_text, document_id, known_entities_context),
         max_output_tokens=OPENAI_NER_MAX_OUTPUT_TOKENS,
         temperature=0.0,
         text={
             "format": ENTITY_GRAPH_SCHEMA,
-            "verbosity": "low",
+            "verbosity": "medium",
         },
     )
 
     return validate_entity_graph_json(response.output_text)
 
 
+def extract_entity_graph_gemini(document_text: str, document_id: str, known_entities_context: str = "") -> EntityGraph:
+    if genai_types is None:
+        raise RuntimeError("The `google-genai` package is required for GEMINI_API_KEY.")
+
+    config = genai_types.GenerateContentConfig(
+        temperature=0.0,
+        max_output_tokens=GEMINI_NER_MAX_OUTPUT_TOKENS,
+        response_mime_type="application/json",
+        response_schema=EntityGraph,
+        system_instruction=SYSTEM_PROMPT,
+    )
+    response = get_gemini_client().models.generate_content(
+        model=GEMINI_MODEL_NER,
+        config=config,
+        contents=[{"text": build_prompt(document_text, document_id, known_entities_context)}],
+    )
+    raw_output = getattr(response, "text", "") or ""
+    if not raw_output:
+        raise RuntimeError(f"Gemini returned an empty response for document {document_id!r}.")
+
+    return validate_entity_graph_json(raw_output)
+
+
+def extract_entity_graph(document_text: str, document_id: str, known_entities_context: str = "") -> EntityGraph:
+    provider = get_provider_name()
+    if provider == "openai":
+        return extract_entity_graph_openai(document_text, document_id, known_entities_context)
+    return extract_entity_graph_gemini(document_text, document_id, known_entities_context)
+
+
 def validate_entity_graph_json(raw_json: str) -> EntityGraph:
     try:
         parsed = json.loads(raw_json)
     except json.JSONDecodeError as exc:
-        raise RuntimeError(f"OpenAI returned invalid JSON: {exc}") from exc
+        raise RuntimeError(f"Model returned invalid JSON: {exc}") from exc
 
     try:
         graph = EntityGraph.model_validate(parsed)
     except ValidationError as exc:
-        raise RuntimeError(f"OpenAI returned schema-invalid JSON: {exc}") from exc
+        raise RuntimeError(f"Model returned schema-invalid JSON: {exc}") from exc
 
     entity_ids = {entity.entity_id for entity in graph.entities}
     for relationship in graph.relationships:
@@ -280,7 +324,7 @@ def run_file(input_path: Path, output_path: Path | None = None) -> Path:
 def main(argv: list[str] | None = None) -> int:
     args = argv if argv is not None else sys.argv[1:]
     if not args or len(args) > 2:
-        print("Usage: python openai_entity_graph.py <input.txt> [output.json]", file=sys.stderr)
+        print("Usage: python entity_graph.py <input.txt> [output.json]", file=sys.stderr)
         return 1
 
     input_path = Path(args[0])

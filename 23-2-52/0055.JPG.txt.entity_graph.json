@@ -1,0 +1,93 @@
+{
+  "document_id": "23-2-52/0055.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1593",
+      "mention_texts": [
+        "feria quarta postridie festi Beati Andreae Apostoli proxima Anno Domini 159 tertio",
+        "Anno Domini 159 tertio"
+      ],
+      "justification": "Date of the previous legal action referenced in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Zophia Bigossowa",
+      "mention_texts": [
+        "Honestae Zophiae Bigossowa",
+        "Zophia Bigossowa",
+        "Zophiae Bigossowa",
+        "Bigossowa"
+      ],
+      "justification": "Identified as the cessionary and widow of the late Joannes Bigos."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bigos",
+      "mention_texts": [
+        "olim Joannis Bigos"
+      ],
+      "justification": "Deceased burgher of Lviv, late husband of Zophia Bigossowa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "justification": "LOC-0001: City where the citizens reside and the court is held."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Ericus Adrleowit",
+      "mention_texts": [
+        "Ericae",
+        "Ericavus Adrleowit",
+        "Skrtowic"
+      ],
+      "justification": "The cessor making the legal concession and appointing a plenipotentiary."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "mention_texts": [
+        "Dominum Simonem"
+      ],
+      "justification": "Scabinus of Lviv appointed as plenipotentiary by Ericus Adrleowit."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestae Zophiae Bigossowa Famati olim Joannis Bigos Civis Leopoliensis relictae viduae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "olim Joannis Bigos Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Dominum Simonem Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "appoints_agent",
+      "tail_entity_id": "E6",
+      "evidence": "idem praenominatus Ericavus Adrleowit iuris condescensor constituit et solemniter ordinavit in suum verum legitimum indubitatumque Plenipotentem et mandatarium Honoratum Dominum Simonem"
+    }
+  ]
+}
