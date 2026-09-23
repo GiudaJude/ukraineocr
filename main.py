@@ -37,7 +37,7 @@ GEMINI_MODEL_OCR = os.getenv("GEMINI_MODEL_OCR", "gemini-3.7-flash")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 OCR_FEW_SHOT_LIMIT = int(os.getenv("OCR_FEW_SHOT_LIMIT", "8"))
-OCR_MAX_OUTPUT_TOKENS = int(os.getenv("OCR_MAX_OUTPUT_TOKENS", "32768"))
+OCR_MAX_OUTPUT_TOKENS = int(os.getenv("OCR_MAX_OUTPUT_TOKENS", "65536"))
 OCR_OUTPUT_ROOT = os.getenv("OCR_OUTPUT_ROOT")
 
 SYSTEM_INSTRUCTION = (
@@ -245,7 +245,6 @@ def get_openai_client() -> Any:
     if OPENAI_CLIENT is None:
         OPENAI_CLIENT = OpenAI(api_key=OPENAI_API_KEY)
     return OPENAI_CLIENT
-
 
 def get_gemini_client() -> Any:
     global GEMINI_CLIENT
@@ -566,7 +565,7 @@ def ocr_image_openai(image_path: Path) -> tuple[str, list[WordClassification] | 
         model=OPENAI_MODEL_OCR,
         input=build_openai_input(image_path),
         max_output_tokens=OCR_MAX_OUTPUT_TOKENS,
-        text={"format": PAGE_TRANSCRIPTION_SCHEMA, "verbosity": "medium"},
+        text={"format": PAGE_TRANSCRIPTION_SCHEMA, "verbosity": "low"},
     )
 
     usage = getattr(response, "usage", None)
