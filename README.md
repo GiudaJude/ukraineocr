@@ -10,6 +10,7 @@ A Python pipeline for transcribing 17th-century Lviv city council documents with
 - **Three-tier fallback** — if OCR returns empty, the pipeline automatically retries with a thresholded image, then splits the image horizontally at the nearest whitespace row
 - **Triple output** — `.parsed.txt` (tagged, for inspection), `.txt` (clean, stripped of tags), and `.words.json` (per-word language/declension/type breakdown with confidence scores)
 - **Rate limiting and retry** — decorrelated jitter backoff with automatic retry on 429/5xx and network errors
+- **Cross-page entity graph** — `graph_builder.py` reads windows of consecutive pages (so a subject named once still resolves on the next page), asks Gemini for relationship triples and entity attributes (occupation, origin, role) labelled `attested`/`normalized`/`inferred`, and builds a NetworkX graph keyed by registry IDs, stored in SQLite and exported as GraphML/JSON
 
 ## Setup
 
@@ -153,6 +154,63 @@ Already-processed, unchanged documents are skipped on re-runs (tracked by conten
 so it's safe/cheap to re-run after OCR-ing more pages — no repeat API calls or cost for
 pages already merged in.
 
+### Build the cross-page relationship graph
+
+The per-page extraction can't connect a Latin sentence whose subject is named on the
+previous page, and it keeps relationships in page-local IDs (`E1`, `E2`). `graph_builder.py`
+fixes both: it reads consecutive pages together, asks Gemini for relationships between
+registry entities, and assembles one NetworkX graph for the whole corpus.
+
+Run it **after** `entity_registry.py` — it needs `entity_registry/registry.json` for entity IDs:
+
+```text
+main.py  →  entity_registry.py  →  graph_builder.py
+(OCR)       (entities, registry)    (relationships, graph)
+```
+
+```bash
+python graph_builder.py 23-2-52                  # extract new/changed windows with Gemini, then build the graph
+python graph_builder.py --build-only             # no API calls: rebuild the graph from the database
+python graph_builder.py 23-2-52 --output out/g   # write out/g.graphml and out/g.json
+```
+
+The directory is one folder of `*.JPG.txt` pages (not recursive); run it once per folder, from
+the project root. Uses Gemini only for now (`GEMINI_API_KEY` required), and the first run on a
+folder makes paid API calls. Re-runs skip windows whose input hasn't changed.
+
+**How it works**
+
+- **Windows, not single pages.** Pages are grouped into runs of consecutive page numbers (a
+  missing page starts a new run) and read in sliding windows (default 3 pages, 1 page of
+  overlap). Each window's prompt carries over the entities still "in scope" from the previous
+  window and any unfinished sentence, so an unnamed Latin subject resolves to the entity named
+  earlier, even a page back.
+- **Only registry entities.** Gemini may only use entity IDs already in the registry
+  (`PER-0002`, `LOC-0001`, …), so every fact attaches to a shared node. Facts pointing at any
+  other ID are dropped with a warning.
+- **Triples and attributes.** A triple is `subject —predicate→ object` (predicate is the verb
+  lemma or a short relation such as `member_of`). An attribute is a fact about one entity
+  (`occupation: furrier`, `role: consul`) and is stored on the node.
+- **Attestation.** Every fact is labelled `attested` (stated outright), `normalized` (stated in a
+  changed form, e.g. an accusative ending) or `inferred` (deduced from grammar or context,
+  including links across sentences or pages). Facts carry verbatim evidence quotes, one per
+  sentence or clause used, plus a short `reasoning` line.
+- **Cached.** Each window is cached in SQLite by a hash of its full prompt (page text, offered
+  entities, carried-over state). Editing one page re-runs only the windows affected.
+
+**Output**
+
+- `entity_registry/graph.sqlite` — triples, attributes, evidence quotes, and the window cache.
+- `entity_registry/graph.graphml` and `entity_registry/graph.json` — the graph (a directed
+  multigraph, so several relations between the same two entities are kept). Nodes are registry
+  entities with `entity_type`, `canonical_name`, `aliases`, `documents` and `attr_*` attributes;
+  edges have `predicate`, `attestation`, `reasoning`, `evidence`, `documents` and `source`.
+  `source` is `relations` for the new window-based triples and `entity_graph` for the
+  relationships already extracted per page by `entity_graph.py` (translated to registry IDs;
+  their `attestation` is `unspecified`).
+
+All three files are regenerated output and are git-ignored (`entity_registry/graph.*`).
+
 Run a live OCR smoke test on a small subset of `sample_data`:
 
 ```bash
@@ -245,6 +303,10 @@ Empty responses are logged to `empty_responses.txt` with the finish reason.
 | `GEMINI_NER_MAX_OUTPUT_TOKENS` | `4000` | Caps entity extraction response size on Gemini. |
 | `ENTITY_FUZZY_MAX_DISTANCE_RATIO` | `0.15` | Edit-distance safety net for merging location/organization names in the registry (never applied to person names). |
 | `ENTITY_CONTEXT_LIMIT` | `200` | Max number of known registry entities included as context in each extraction prompt. |
+| `GEMINI_MODEL_RELATIONS` | value of `GEMINI_MODEL_NER` | Gemini model used by `graph_builder.py` for cross-page relationship extraction. |
+| `GEMINI_RELATIONS_MAX_OUTPUT_TOKENS` | `65536` | Caps the response size for each window in `graph_builder.py`. |
+| `GRAPH_WINDOW_PAGES` | `3` | Number of consecutive pages sent to Gemini per window. |
+| `GRAPH_WINDOW_OVERLAP` | `1` | Pages shared between neighbouring windows, so every page boundary sits inside a window. |
 
 `OCR_MAX_OUTPUT_TOKENS` now bounds the transcription *and* the per-word JSON
 combined, so pages with many words are more likely to hit the limit than before
@@ -263,3 +325,13 @@ it if truncations spike.
   occupation, address) or a manual entry in `entity_registry/lookup.json`. Expect to
   periodically skim `entity_registry/registry.json` and add lookup entries by hand
   for people the tool didn't merge on its own.
+- **`graph_builder.py` is Gemini-only for now.** OpenAI support is a TODO in the code
+  (mirror `entity_graph.extract_entity_graph_openai`).
+- **The graph can only contain entities the registry already knows.** If
+  `entity_registry.py` missed a person or place on a page, no relationships can be attached to
+  them until the registry is corrected and `graph_builder.py` is re-run.
+- **Evidence quotes are not checked against the page text.** Only entity IDs and page numbers are
+  validated; a paraphrased quote would currently be stored as-is.
+- **Overlapping sources.** The per-page relationships (`source=entity_graph`) and the window
+  triples (`source=relations`) can describe the same fact in different words; both are kept and
+  distinguished by `source`.
