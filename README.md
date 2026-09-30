@@ -1,12 +1,12 @@
 # Ukraine OCR Pipeline
 
-A Python pipeline for transcribing 17th-century Lviv city council documents with OpenAI or Google Gemini. The documents contain mixed Latin and Old Polish legal text — council decisions, royal chancery records, contracts, wills, and property records.
+A Python pipeline for transcribing 17th-century Lviv city council documents with OpenAI or Google Gemini. The documents contain mixed Latin and Old Polish legal text — council decisions, royal chancery records, contracts, wills, and property records. The pipeline transcribes the Latin text only: Polish-language passages are skipped, but Polish family surnames inside Latin sentences are kept.
 
 ## Features
 
 - **Provider-aware OCR** — uses OpenAI by default when `OPENAI_API_KEY` is present, otherwise falls back to Gemini when `GEMINI_API_KEY` is set
 - **Few-shot exemplars** — reuses reference exemplars for transcription style grounding; Gemini caches them for 12 hours to reduce cost and latency
-- **Inline language tagging** — the model tags Latin (`[LA]`) and Old Polish (`[PL]`) segments during transcription, improving attention on mixed-language pages
+- **Inline language tagging** — the model tags Latin segments (`[LA]`) and Polish family surnames (`[PL]`) during transcription; other Polish text is skipped
 - **Three-tier fallback** — if OCR returns empty, the pipeline automatically retries with a thresholded image, then splits the image horizontally at the nearest whitespace row
 - **Triple output** — `.parsed.txt` (tagged, for inspection), `.txt` (clean, stripped of tags), and `.words.json` (per-word language/declension/type breakdown with confidence scores)
 - **Rate limiting and retry** — decorrelated jitter backoff with automatic retry on 429/5xx and network errors
@@ -66,6 +66,9 @@ Already-transcribed files are skipped based on `.words.json` alone (non-empty).
 `.parsed.txt`/`.txt` existing on their own does **not** skip an image — running
 the pipeline again over a directory that predates the `.words.json` output will
 regenerate and overwrite its `.parsed.txt`/`.txt` too.
+
+To re-transcribe a page with an updated prompt, delete its `.words.json` first,
+otherwise it is skipped.
 
 For comparison runs, it is cleaner to write outputs into a separate run folder:
 
@@ -226,7 +229,7 @@ The model annotates the transcription inline:
 | Tag | Meaning |
 |-----|---------|
 | `[LA]` | Latin segment |
-| `[PL]` | Old Polish segment |
+| `[PL]` | Polish family surname inside Latin text (other Polish text is skipped, not tagged) |
 | `[Latin Name: ...]` | Latinized proper name |
 | `[Polish Name: ...]` | Polish proper name |
 
@@ -260,7 +263,7 @@ per-word breakdown, written to `<image>.words.json`:
 - `language` — the model's own judgment (`Latin` / `Polish` / `Ukrainian` / `other`),
   independently of the `[LA]`/`[PL]` tag in the transcription.
 - `word_declension` — grammatical case/number for Polish words (e.g. `"genitive singular"`);
-  `null` otherwise.
+  `null` otherwise. Since only Polish surnames are kept, this is rarely populated now.
 - `word_type` — `name` / `location` / `verb` / `subject` / `object` / `other`.
 - `transcription_confidence_score`/`_reasoning` — a *separate* confidence score for
   whether the word's letters were read correctly (legibility), independent of the
@@ -284,6 +287,11 @@ Split at whitespace row → OCR top half + OCR bottom half → combine
 ```
 
 Empty responses are logged to `empty_responses.txt` with the finish reason.
+
+A page with no forward-reading text of its own (for example a blank verso showing
+mirrored bleed-through from the other side) is now expected to return an empty
+transcription, so these pages will appear in `empty_responses.txt` and go through
+the thresholded retry.
 
 ## Environment Variables
 
@@ -315,6 +323,10 @@ it if truncations spike.
 
 ## Known Limitations
 
+- **Polish-language passages are not transcribed.** Pages or sections written entirely in
+  Polish (e.g. Polish-language wills) produce no output, and any names that appear only
+  in those sections never reach `entity_registry.py`. Where Latin shifts into Polish
+  mid-passage, the boundary is the model's judgment, so spot-check mixed pages.
 - **Location canonicalization is mostly automatic.** The model can usually link
   `Leopolis`/`Lwów`/`Lviv`/`Lemberg` on its own from general world knowledge, and
   `entity_registry.py` reinforces this by feeding each new page a summary of
