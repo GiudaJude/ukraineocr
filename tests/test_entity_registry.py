@@ -220,6 +220,29 @@ def test_merge_entity_appends_mention_and_unions_aliases_on_match() -> None:
     assert result.mentions[0].document_id == "doc-2.txt"
 
 
+def test_merge_entity_does_not_merge_people_who_share_only_a_role() -> None:
+    reg = registry.Registry()
+    kensdorf = graph.ExtractedEntity(
+        entity_id="E1",
+        entity_type="person",
+        canonical_name="Joannes Kensdorf",
+        mention_texts=["Joanni Kensdorf"],
+        descriptive_mentions=["Creditori"],
+        justification="creditor",
+    )
+    frackowic = kensdorf.model_copy(
+        update={"canonical_name": "Antonius Frackowic", "mention_texts": ["Antonius Frackowic"]}
+    )
+
+    first = registry.merge_entity(reg, kensdorf, "0049.JPG.txt", [], [])
+    second = registry.merge_entity(reg, frackowic, "0052.JPG.txt", [], [])
+
+    assert first.entity_id != second.entity_id
+    assert len(reg.entities) == 2
+    assert "Creditori" not in first.aliases
+    assert first.mentions[0].descriptive_mentions == ["Creditori"]
+
+
 def test_merge_entity_keeps_first_canonical_name_unless_lookup_forces_override() -> None:
     existing = _make_registry_entity("LOC-0001", "location", "Lwow", aliases=["Lwow", "Leopolis"])
     reg = registry.Registry(entities=[existing])

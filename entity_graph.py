@@ -59,7 +59,13 @@ Entity types:
 
 Requirements:
 - Canonicalize each entity to a stable, modernized label where possible.
-- Keep mention_texts as they appear in the document.
+- mention_texts: only the entity's proper-name forms, verbatim as they appear
+  in the document (e.g. "Joanni Kensdorf", "Leopoliensis").
+- descriptive_mentions: every other way the document refers to the entity,
+  verbatim: occupations, roles, titles, kinship terms and back-references
+  (e.g. "Creditori", "Pellionem", "zonie moiey", "praedictus", "idem").
+  Never put these in mention_texts. If an occupation word is used as the
+  person's surname (e.g. "Jan Piekarz"), it is part of the name.
 - Use entity IDs like E1, E2, E3.
 - Only include relationships whose head and tail both appear in the entities list.
 - Relationships must use canonical entity IDs, not raw strings.
@@ -98,6 +104,10 @@ ENTITY_GRAPH_SCHEMA = {
                             "type": "array",
                             "items": {"type": "string"},
                         },
+                        "descriptive_mentions": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                        },
                         "justification": {"type": "string"},
                     },
                     "required": [
@@ -105,6 +115,7 @@ ENTITY_GRAPH_SCHEMA = {
                         "entity_type",
                         "canonical_name",
                         "mention_texts",
+                        "descriptive_mentions",
                         "justification",
                     ],
                 },
@@ -142,6 +153,7 @@ class ExtractedEntity(BaseModel):
     entity_type: EntityType
     canonical_name: str
     mention_texts: list[str] = Field(default_factory=list)
+    descriptive_mentions: list[str] = Field(default_factory=list)
     justification: str
 
 

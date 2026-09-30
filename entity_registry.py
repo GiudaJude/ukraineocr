@@ -56,6 +56,7 @@ class EntityMention(BaseModel):
     document_id: str
     local_entity_id: str
     mention_texts: list[str] = Field(default_factory=list)
+    descriptive_mentions: list[str] = Field(default_factory=list)
     justification: str
     extracted_at: str
 
@@ -251,6 +252,7 @@ def merge_entity(
         document_id=document_id,
         local_entity_id=entity.entity_id,
         mention_texts=list(entity.mention_texts) or [entity.canonical_name],
+        descriptive_mentions=list(entity.descriptive_mentions),
         justification=entity.justification,
         extracted_at=now,
     )
