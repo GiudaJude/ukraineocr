@@ -42,7 +42,7 @@ OCR_OUTPUT_ROOT = os.getenv("OCR_OUTPUT_ROOT")
 
 SYSTEM_INSTRUCTION = (
     "ROLE: You are an expert paleographer specializing in 16th and 17th century "
-    "Lviv council records and Latin/Old Polish legal scripts. "
+    "Lviv council records and Latin legal scripts. "
     "TASK: Transcribe the provided image into a full-text format. "
     "TRANSCRIPTION RULES: "
     "1. Expand abbreviations. "
@@ -57,11 +57,27 @@ SYSTEM_INSTRUCTION = (
     "In the case of smears and smudges, use the context of the surrounding words and "
     "letters. "
     "4. Output only. "
-    "Provide only the final transcribed text. Do not include any thoughts in your output "
+    "Provide only the final transcribed text. Do not include any thoughts in your output. "
     "5. No empty responses. "
-    "You must output a transcription. Even if the page is degraded, provide your "
-    "best reading in plain text. Do not mark uncertainty with brackets, question "
-    "marks, or editorial notation."
+    "If any forward-reading text is present, you must output a transcription. Even "
+    "if the page is degraded, provide your best reading in plain text. Do not mark "
+    "uncertainty with brackets, question marks, or editorial notation. "
+    "6. Ignore Polish text. "
+    "Transcribe only the Latin text. Skip any passage written in Polish: do not "
+    "transcribe it, and do not mention that it was omitted. The one exception is "
+    "Polish personal names (family surnames) that appear inside Latin text, which "
+    "you must keep exactly as written. "
+    "7. Faint text versus show-through. "
+    "Transcribe text that reads left-to-right in the normal direction, even when it "
+    "is faded, blurry, or low contrast; never skip a page only because it is hard "
+    "to read. Ignore ink that has bled through from the other side of the leaf: it "
+    "appears mirrored (reversed letters, reading right-to-left) and is usually "
+    "much fainter than the page's own writing. Also ignore text cut off at the "
+    "image edge that belongs to a neighbouring page, and pencil folio numbers. "
+    "8. Blank pages. "
+    "If the page has no forward-reading text of its own, return an empty "
+    "`transcription` and an empty `words` array. Never invent or guess text to "
+    "fill a blank page."
 )
 
 OCR_PROMPT = (
@@ -71,15 +87,16 @@ OCR_PROMPT = (
     "hyphenations.\n\n"
     "As you transcribe, apply these tags:\n"
     "- Prefix each Latin segment with [LA]\n"
-    "- Prefix each Old Polish segment with [PL]\n"
+    "- Prefix a Polish family surname with [PL] (see below). Do not transcribe any "
+    "other Polish text; skip it entirely and continue with the next Latin segment.\n"
     "- Personal names in this corpus typically pair a Latinized given name\n"
     "(e.g. Christopherus, Bartholomeus, Andreas, Jacobus) with a family "
     "surname left in its original Polish/vernacular form, even inside an "
     "otherwise-Latin sentence, and even when the surname's spelling does not "
-    "itself look distincly Polish. Tage that surname [PL] on its own, then "
-    "resume [LA] immediatly after it. Do NOT apply this to Latin "
+    "itself look distinctly Polish. Tag that surname [PL] on its own, then "
+    "resume [LA] immediately after it. Do NOT apply this to Latin "
     "occupational titles or epithets that also follow a given name (e.g. "
-    "Doctore, Notario, Scabinus, Advocatus, COnsul, Civis, Aurifaber, Pellio, "
+    "Doctore, Notario, Scabinus, Advocatus, Consul, Civis, Aurifaber, Pellio, "
     "Doliator), these stay [LA]. Example: 'et Famati Christopherus [PL] "
     "Monzanc [LA] Bartholomeus [PL] Strach [LA] et Matias Sapiha', the Latin "
     "given names, titles, and grammar stay [LA], but each family surname "
@@ -87,7 +104,9 @@ OCR_PROMPT = (
     "Put this tagged text verbatim into the `transcription` field.\n\n"
     "WORD-LEVEL BREAKDOWN: Also populate the `words` array with one entry per "
     "word in the transcription, in reading order, excluding standalone "
-    "punctuation. For each word:\n"
+    "punctuation. Do not add entries for any Polish text you skipped; the only "
+    "Polish words in `words` are the family surnames kept in the transcription. "
+    "For each word:\n"
     "- language: judge independently -- do not just copy the [LA]/[PL] tag if "
     "the word itself looks otherwise (e.g. a Polish surname inside an "
     "[LA]-tagged sentence is Polish, not Latin).\n"
@@ -195,7 +214,6 @@ FEW_SHOT_DATA = [
     {"image_path": "exemplars/Reference1.JPG", "text_path": "exemplars/Reference1.txt"},
     {"image_path": "exemplars/Reference2.JPG", "text_path": "exemplars/Reference2.txt"},
     {"image_path": "exemplars/Reference3.JPG", "text_path": "exemplars/Reference3.txt"},
-    {"image_path": "exemplars/Reference4.JPG", "text_path": "exemplars/Reference4.txt"},
     {"image_path": "exemplars/Abbreviation1.JPG", "text_path": "exemplars/Abbreviation1.txt"},
     {"image_path": "exemplars/Abbreviation2.JPG", "text_path": "exemplars/Abbreviation2.txt"},
     {"image_path": "exemplars/Abbreviation3.JPG", "text_path": "exemplars/Abbreviation3.txt"},
