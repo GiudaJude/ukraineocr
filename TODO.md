@@ -25,3 +25,11 @@
 ## Downstream
 - [ ] Check that `strip_tags`, the entity registry and the graph code cope with pages that have no words, and with `words` containing only surnames.
 - [ ] Re-run existing pages. Output files with a non-empty `.words.json` are skipped (`process_dir`, ~line 711), so old outputs won't pick up the new prompt until they're deleted.
+
+## Config and docs cleanup
+- [ ] `.env.example` still has `GEMINI_MODEL_OCR=gemini-2.5-pro`, but the code default is `gemini-3.7-flash`. Decide which one you want and make them agree.
+- [ ] `.env.example` has `CONSISTENCY_RARE_MA=2`, but `post_tokenization.py` reads `CONSISTENCY_RARE_MAX`. This looks like a typo, so the setting is currently ignored.
+- [ ] `.env.example` is missing most of the variables in the README's env table (`OCR_FEW_SHOT_LIMIT`, `OCR_MAX_OUTPUT_TOKENS`, `OCR_OUTPUT_ROOT`, the NER, registry and graph variables).
+- [ ] `post_tokenization.py` and its variables (`CONSISTENCY_RARE_MAX`, `CONSISTENCY_COMMON_MIN`, `CONSISTENCY_MAX_DISTANCE_RATIO`) are not documented in the README. Add a section and put them in the env table.
+- [ ] `likely_misreads.csv`, `unmatched_rarities.csv` and `mulciber/` are not mentioned anywhere in the README. Document them, or move them out of the repo root.
+- [ ] `README.md` has no example of the new behaviour on a real page. Add a before/after snippet once you've run `0003.JPG`.
