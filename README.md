@@ -49,7 +49,7 @@ A Python pipeline for transcribing 17th-century Lviv city council documents with
 ## Usage
 
 ```bash
-python gemini_ukr_ocr.py <directory>
+python main.py <directory>
 ```
 
 Where `<directory>` contains the `.JPG` images to transcribe. By default, output files are written alongside the source images:
@@ -73,7 +73,7 @@ otherwise it is skipped.
 For comparison runs, it is cleaner to write outputs into a separate run folder:
 
 ```bash
-OCR_OUTPUT_ROOT=ocr_runs/2026-06-24-smoke-openai python gemini_ukr_ocr.py sample_data/17-2-52
+OCR_OUTPUT_ROOT=ocr_runs/2026-06-24-smoke-openai python main.py sample_data/17-2-52
 ```
 
 That produces a mirrored layout like:
@@ -230,10 +230,10 @@ The model annotates the transcription inline:
 |-----|---------|
 | `[LA]` | Latin segment |
 | `[PL]` | Polish family surname inside Latin text (other Polish text is skipped, not tagged) |
-| `[Latin Name: ...]` | Latinized proper name |
-| `[Polish Name: ...]` | Polish proper name |
+| `[Latin Name: ...]` | Legacy: Latinized proper name (no longer requested; still stripped from older output) |
+| `[Polish Name: ...]` | Legacy: Polish proper name (no longer requested; still stripped from older output) |
 
-Mixed names are tagged per part: `[Latin Name: Ioannes] [Polish Name: Kowalski]`
+Tags mark the text that follows them, so a Polish surname inside a Latin sentence is tagged on its own: `[LA] Ioannes [PL] Kowalski [LA] Aurifaber`
 
 ## Per-Word Breakdown (`.words.json`)
 
@@ -303,10 +303,10 @@ the thresholded retry.
 | `OPENAI_MODEL_NER` | `gpt-5.4-mini` | Default OpenAI model for entity/relationship extraction. |
 | `OPENAI_NER_MAX_OUTPUT_TOKENS` | `4000` | Caps entity extraction response size. |
 | `OCR_FEW_SHOT_LIMIT` | `8` | Limits how many exemplars are included in OCR requests. Lower this for faster/cheaper smoke tests. |
-| `OCR_MAX_OUTPUT_TOKENS` | `32768` | Caps OCR response size. Lower this for smoke tests. |
+| `OCR_MAX_OUTPUT_TOKENS` | `65536` | Caps OCR response size. Lower this for smoke tests. |
 | `OCR_OUTPUT_ROOT` | — | Optional directory for writing OCR outputs separately from the source images. |
 | `GEMINI_API_KEY` | — | Fallback key. Used when no OpenAI key is configured. |
-| `GEMINI_MODEL_OCR` | `gemini-2.5-pro` | Gemini OCR model. |
+| `GEMINI_MODEL_OCR` | `gemini-3.7-flash` | Gemini OCR model. |
 | `GEMINI_MODEL_NER` | `gemini-3.7-flash` | Default Gemini model for entity/relationship extraction. |
 | `GEMINI_NER_MAX_OUTPUT_TOKENS` | `4000` | Caps entity extraction response size on Gemini. |
 | `ENTITY_FUZZY_MAX_DISTANCE_RATIO` | `0.15` | Edit-distance safety net for merging location/organization names in the registry (never applied to person names). |
