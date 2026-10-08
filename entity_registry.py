@@ -14,6 +14,7 @@ import hashlib
 import json
 import os
 import sys
+import time
 import unicodedata
 
 from datetime import datetime, timezone
@@ -32,7 +33,12 @@ DEFAULT_REGISTRY_PATH = DEFAULT_REGISTRY_DIR / "registry.json"
 DEFAULT_LOOKUP_PATH = DEFAULT_REGISTRY_DIR / "lookup.json"
 DEFAULT_REVIEW_QUEUE_PATH = DEFAULT_REGISTRY_DIR / "review_queue.json"
 
+DEFAULT_SKIPPED_PAGES_PATH = DEFAULT_REGISTRY_DIR / "skipped_pages.json"
+
 DOCUMENT_GLOB = "*.JPG.txt"
+
+MAX_EXTRACTION_ATTEMPTS = 5
+RETRY_DELAY_SECONDS = 2
 
 # Fuzzy (edit-distance) auto-merging only applies to these types. A false
 # merge of two different people is worse than a missed merge, so "person"
@@ -401,12 +407,36 @@ def remove_document_mentions(registry: Registry, document_id: str) -> None:
     ]
 
 
+def extract_with_retries(
+    document_text: str,
+    document_id: str,
+    known_context: str,
+) -> tuple[graph.EntityGraph | None, str | None]:
+    last_error = ""
+    for attempt in range(1, MAX_EXTRACTION_ATTEMPTS + 1):
+        try:
+            result = graph.extract_entity_graph(
+                document_text, document_id, known_entities_context=known_context
+            )
+            return result, None
+        except RuntimeError as exc:
+            last_error = str(exc)
+            print(
+                f"retry {attempt}/{MAX_EXTRACTION_ATTEMPTS}: {document_id} ({last_error})",
+                file=sys.stderr,
+            )
+            if attempt < MAX_EXTRACTION_ATTEMPTS:
+                time.sleep(RETRY_DELAY_SECONDS)
+    return None, last_error
+
+
 def process_document(
     input_path: Path,
     corpus_root: Path,
     registry: Registry,
     lookup: list[LookupEntity],
     review_queue: list[dict],
+    skipped_pages: list[dict],
     *,
     reprocess: bool = False,
 ) -> Path | None:
@@ -426,9 +456,21 @@ def process_document(
         remove_document_mentions(registry, document_id)
 
     known_context = build_known_entities_context(registry, lookup)
-    entity_graph = graph.extract_entity_graph(
-        document_text, document_id, known_entities_context=known_context
-    )
+    entity_graph, error = extract_with_retries(document_text, document_id, known_context)
+    if entity_graph is None:
+        skipped_pages.append(
+            {
+                "document_id": document_id,
+                "error": error,
+                "attempts": MAX_EXTRACTION_ATTEMPTS,
+                "skipped_at": _now(),
+            }
+        )
+        print(
+            f"SKIPPED after {MAX_EXTRACTION_ATTEMPTS} attempts: {document_id}",
+            file=sys.stderr,
+        )
+        return None
 
     merge_document_graph(registry, entity_graph, document_id, lookup, review_queue)
 
@@ -458,6 +500,7 @@ def process_directory(
     registry_path: Path = DEFAULT_REGISTRY_PATH,
     lookup_path: Path = DEFAULT_LOOKUP_PATH,
     review_queue_path: Path = DEFAULT_REVIEW_QUEUE_PATH,
+    skipped_pages_path: Path = DEFAULT_SKIPPED_PAGES_PATH,
     corpus_root: Path | None = None,
     reprocess: bool = False,
 ) -> None:
@@ -470,9 +513,23 @@ def process_directory(
         print(f"reconciled {reconciled} entit{'y' if reconciled == 1 else 'ies'} via lookup.json")
 
     review_queue: list[dict] = []
+    skipped_pages: list[dict] = []
     for path in sorted(root.glob(DOCUMENT_GLOB)):
-        process_document(path, corpus_root, registry, lookup, review_queue, reprocess=reprocess)
+        process_document(
+            path, corpus_root, registry, lookup, review_queue, skipped_pages, reprocess=reprocess
+        )
         save_registry(registry, registry_path)
+
+    if skipped_pages:
+        existing_skips: list[dict] = []
+        if skipped_pages_path.exists():
+            existing_skips = json.loads(skipped_pages_path.read_text(encoding="utf-8"))
+        skipped_pages_path.parent.mkdir(parents=True, exist_ok=True)
+        skipped_pages_path.write_text(
+            json.dumps(existing_skips + skipped_pages, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        print(f"skipped {len(skipped_pages)} page(s), see {skipped_pages_path}", file=sys.stderr)
 
     if review_queue:
         existing_reviews: list[dict] = []
