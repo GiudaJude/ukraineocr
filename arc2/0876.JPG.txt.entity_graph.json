@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/0876.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "officij",
+        "officij nostri",
+        "Consulari officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office issuing the decree and referenced by its members."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulus Kraussmans",
+        "Paulum Kraumpianium"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "collega in Consulari officio",
+        "spectabilem et egregilentem",
+        "Medicinae Doctorem",
+        "Collegam nostrum Consularem",
+        "Actorem",
+        "Autori"
+      ],
+      "justification": "Paulus Campian (Novicampianus), doctor of medicine and council member of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0221: CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "Florenos 80:",
+        "Florenos 80"
+      ],
+      "descriptive_mentions": [
+        "summam praefatam",
+        "summae"
+      ],
+      "justification": "The financial sum of 80 florins under dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Druzyzkowski",
+      "mention_texts": [
+        "Druzyzkowskj",
+        "Joannem Druzyzkowskj"
+      ],
+      "descriptive_mentions": [
+        "Citatus",
+        "Citatis",
+        "Astro",
+        "Fratrem",
+        "Coniuges suburbanos"
+      ],
+      "justification": "Suburban litigant and husband of Anna involved in the financial obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Coniuges suburbanos"
+      ],
+      "justification": "Wife of Joannes Druzyzkowski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ryszkowski",
+      "mention_texts": [
+        "Joannis Ryszkowski"
+      ],
+      "descriptive_mentions": [
+        "Inoti",
+        "olim"
+      ],
+      "justification": "Deceased debtor or obligation holder named in the property records."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Cazmiacto",
+      "mention_texts": [
+        "Constantinum Cazmiacto"
+      ],
+      "descriptive_mentions": [
+        "Inotum Dominum"
+      ],
+      "justification": "Individual through whom the legal claim was ceded or transferred."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanowski",
+      "mention_texts": [
+        "Stanowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual associated with the estate/garden mentioned in the record."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Alberti Domagala",
+        "Albertus Domagalez"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv citizen placing an arrest on the decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in civic titles and suburban designations."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "collega in Consulari officio"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Astro Fratrem Druzyzkowskj et Anna Coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertus Domagalez Civis Leopoliensis"
+    }
+  ]
+}

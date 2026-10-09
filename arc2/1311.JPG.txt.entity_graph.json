@@ -1,0 +1,78 @@
+{
+  "document_id": "arc2/1311.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jordicus",
+      "mention_texts": [
+        "Jordicus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears by proper name entering an action against Simon Szykarzowic."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Szykarzowic",
+      "mention_texts": [
+        "Simonem Szykarzowic"
+      ],
+      "descriptive_mentions": [
+        "Honestum"
+      ],
+      "justification": "Named defendant cited as owing sixty florins."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "sexaginta Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum demanded in the lawsuit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "centum et quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa originali"
+      ],
+      "justification": "Original principal sum mentioned in the caution."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named city of origin for the coopers and place of the document's dating."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "22 January 1595",
+      "mention_texts": [
+        "die vigesima secunda Januarii Anno 159 Quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the cited chirograph."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jordicus indixit se contra Honestum Simonem Szykarzowic ipsiusque sibi teneri sexaginta Florenos"
+    }
+  ]
+}

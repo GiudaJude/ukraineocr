@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/1008.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius",
+        "Civitatis"
+      ],
+      "justification": "City referenced by citizenship and urban administrative terms."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0007: Ruthenian Street",
+      "mention_texts": [
+        "platea Ruthenica"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the disputed masonry tenement house is located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Demetrius Jeraszowic",
+      "mention_texts": [
+        "Demetry Ieraszowic",
+        "Demetrium Ieraszowic",
+        "Demetry Kasprowicz",
+        "Demetrio"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "eumdem",
+        "ipsius",
+        "debitoris",
+        "idem debitor valetudinarius"
+      ],
+      "justification": "Lviv citizen and debtor whose tenement was subject to intromission."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Themo Wowk",
+      "mention_texts": [
+        "Themonis owoka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner on Ruthenian Street."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bogdan Semen",
+      "mention_texts": [
+        "Bogdanisemen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner on Ruthenian Street."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia ante Festum Sancti Stanislai proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous court inscription establishing the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt contracted by Demetrius Jeraszowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Karpz",
+      "mention_texts": [
+        "Simoni Karpzesi"
+      ],
+      "descriptive_mentions": [
+        "Famato olim",
+        "praedicti mariti ipsius"
+      ],
+      "justification": "Deceased husband of Maeta to whom the debt was earlier transferred."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Maeta Pajączkowna",
+      "mention_texts": [
+        "Maeta",
+        "Maeta Pajączkowna"
+      ],
+      "descriptive_mentions": [
+        "eiusdem",
+        "praedicta Maeta"
+      ],
+      "justification": "Widow receiving intromission into the tenement."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Chropscezius Kasprowicz Grodzecze",
+      "mention_texts": [
+        "Chropsceziu Kasprowicz Grodzecze"
+      ],
+      "descriptive_mentions": [
+        "demortui"
+      ],
+      "justification": "Deceased person whose successors transferred the right."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0381: Joannes Dąbrowski",
+      "mention_texts": [
+        "Joannis Dąbrowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Famuli Civitatis"
+      ],
+      "justification": "City servant who delivered the summons."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lewszeczki",
+      "mention_texts": [
+        "Joannes Lewszeczki"
+      ],
+      "descriptive_mentions": [
+        "Honestus"
+      ],
+      "justification": "Appeared on behalf of the ill debtor Demetrius."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Snayder",
+      "mention_texts": [
+        "Gregorius Snayder"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the recognition line at the end of the entry."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis meis",
+        "Nos"
+      ],
+      "justification": "Council/magistrate court receiving the petition and issuing the reservation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famati Demetry Ieraszowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "post obitum praedicti mariti ipsius"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "employee_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannis Dąbrowski Famuli Civitatis"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "document_id": "arc2/1092.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis"
+      ],
+      "justification": "City referenced in the context of the senior bench member, the Banned Court, and the city suburbs."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal banned court of Lviv mentioned in the procuration clause."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The approving municipal office issuing and confirming the transaction record."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Leszczyński",
+      "mention_texts": [
+        "Simon Lieszczynski",
+        "Lieszczynski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Tutor",
+        "maritum tutorem suum legitimum",
+        "ille",
+        "praedicti"
+      ],
+      "justification": "Husband and legal guardian of Anna, acting in the sale of property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "priorum nuptiarum Lieszczynski secunda olim Bartholomaei Szczerba ad praesens vero praedicti Lieszczynski secundarum coniunx legitima",
+        "haec",
+        "coniugum",
+        "dicta Anna"
+      ],
+      "justification": "Wife of Simon Leszczyński, formerly wife of the late Bartholomaeus Szczerba, participating in the sale."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Szczerba",
+      "mention_texts": [
+        "Bartholomaei Szczerba",
+        "Szczerba",
+        "Bartholomaeum"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "praefatum olim",
+        "Honesti olim",
+        "partiti Szczerba"
+      ],
+      "justification": "Deceased former husband of Anna and father of Catherina, original owner of the inherited share."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Catherina Szczerbionka",
+      "mention_texts": [
+        "Catherina Szczerbionka",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "nondum nupta",
+        "memorata",
+        "filia"
+      ],
+      "justification": "Unmarried daughter of Bartholomaeus Szczerba, conveying her inherited share."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Budsay",
+      "mention_texts": [
+        "Mathiam Budsay"
+      ],
+      "descriptive_mentions": [
+        "vicinum suum tutorem sibi ad eum actum rogatum et ex officio nostro approbatum"
+      ],
+      "justification": "Appointed and approved guardian assisting Catherina Szczerbionka in the legal action."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "platea post Halabardicos",
+      "mention_texts": [
+        "platea post Halabardicos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Lviv suburb where the garden being sold is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitalis Sancti Spiritus",
+        "Hospitali"
+      ],
+      "descriptive_mentions": [
+        "fundum Hospitalis Sancti Spiritus",
+        "eidem praedicto Hospitali"
+      ],
+      "justification": "Hospital bordering the garden property and recipient/buyer of the transferred share."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Firkowicz",
+      "mention_texts": [
+        "Firkowiczi"
+      ],
+      "descriptive_mentions": [
+        "Tabernatoris"
+      ],
+      "justification": "Innkeeper whose property borders the sold garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "ad praesens vero praedicti Lieszczynski secundarum coniunx legitima"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "haec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "olim Bartholomaei Szczerba"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E7",
+      "evidence": "memorata vero Catherina sortem ipsi uti filia partiti Szczerba deuelutam"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "per Mathiam Budsay vicinum suum tutorem sibi ad eum actum rogatum"
+    }
+  ]
+}

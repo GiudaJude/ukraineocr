@@ -1,0 +1,309 @@
+{
+  "document_id": "arc2/1526.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Consulari Leopoliensi",
+        "Officium vero Consulare Leopoliense",
+        "Civile Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "utrumque Offi-",
+        "utrumque illud Officium",
+        "Officia"
+      ],
+      "justification": "The municipal council/magistrate court before which Albertus Domagala appeared."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliense",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in titles of courts and officials."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertus Domagala"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "actor",
+        "Heres",
+        "praefati Actoris",
+        "Actores"
+      ],
+      "justification": "Plaintiff in the case, seeking prosecution for the killing of his servant Mathias."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias",
+      "mention_texts": [
+        "Mathiae",
+        "Mathiam"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "famuli sui",
+        "Honesto",
+        "famuli praefati Actoris"
+      ],
+      "justification": "Deceased servant of Albertus Domagala, violently killed by Albertus Suski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Suski",
+      "mention_texts": [
+        "Albertum Suski",
+        "Suski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Homicidam",
+        "inculpatum",
+        "detentum",
+        "eundem detentum",
+        "praefati inculpati"
+      ],
+      "justification": "Noble perpetrator who killed Mathias and was detained."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Tertius"
+      ],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestate",
+        "Domino Domino Clementissimo",
+        "Rex Poloniae",
+        "Magnus Dux Lithuaniae Russiae Prussiae Masoviae Samogitiae Livoniaeque",
+        "Suecorum Gottorum Vandalorumque Haereditarius Rex",
+        "nos",
+        "nostros",
+        "Nos"
+      ],
+      "justification": "King Sigismund III of Poland, who issued the decree/information resolving the conflict of jurisdictions."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Zaradowski",
+      "mention_texts": [
+        "Sigismundo Zaradowski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Vicecapitaneo Leopoliensi"
+      ],
+      "justification": "Vice-starosta/vicecapitaneus of Lviv presiding over the legal matter."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "Kingdom of Poland mentioned in the royal titulary and references to statutes of the realm."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0274: Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Grand Duchy of Lithuania in the royal intitulation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ruthenia in the royal intitulation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0158: Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Prussia in the royal intitulation."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0275: Mazovia",
+      "mention_texts": [
+        "Masoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mazovia in the royal intitulation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0276: Samogitia",
+      "mention_texts": [
+        "Samogitiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Samogitia in the royal intitulation."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0277: Livonia",
+      "mention_texts": [
+        "Livoniaeque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Livonia in the royal intitulation."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Suecorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sweden in the royal intitulation (King of the Swedes)."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Officiis Castrensi Capitaneali",
+        "Officium Castrense Leopoliense",
+        "Officii Castrensis Capitanealis Leopoliensis",
+        "Castrense"
+      ],
+      "descriptive_mentions": [
+        "utrumque Offi-",
+        "utrumque illud Officium",
+        "Officia"
+      ],
+      "justification": "Castle court of Lviv whose opinion on the conviction of the nobleman was confirmed by the King."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "date",
+      "canonical_name": "DATE-0139: 1588",
+      "mention_texts": [
+        "millesimo quingentesimo octogesimo octavo"
+      ],
+      "descriptive_mentions": [
+        "Anno"
+      ],
+      "justification": "Year of the statute/constitution regarding homicides committed by nobles."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "employer_of",
+      "tail_entity_id": "E4",
+      "evidence": "olim Mathiae famuli sui"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "killed",
+      "tail_entity_id": "E4",
+      "evidence": "olim Mathiae famuli sui per Nobilem Albertum Suski violenter interempti"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "office_held_in",
+      "tail_entity_id": "E2",
+      "evidence": "Sigismundo Zaradowski Vicecapitaneo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sigismundus Tertius Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E9",
+      "evidence": "Magnus Dux Lithuaniae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E10",
+      "evidence": "Magnus Dux Lithuaniae Russiae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E11",
+      "evidence": "Prussiae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E12",
+      "evidence": "Masoviae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E13",
+      "evidence": "Samogitiae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E14",
+      "evidence": "Livoniaeque"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E15",
+      "evidence": "necnon Suecorum Gottorum Vandalorumque Haereditarius Rex"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officio Consulari Leopoliensi"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officium Castrense Leopoliense"
+    }
+  ]
+}

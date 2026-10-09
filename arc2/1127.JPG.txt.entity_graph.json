@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/1127.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicii Expositi Banniti"
+      ],
+      "descriptive_mentions": [
+        "Judicii Expositi Banniti Civitatis eorundem"
+      ],
+      "justification": "Named court in the opening formula of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referenced in the datum line and adjectival derivations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulus Kampian"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles et Honorati",
+        "Medicinae Doctor"
+      ],
+      "justification": "Distinguished doctor and assessor appearing in person."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Albertus Dedianus"
+      ],
+      "descriptive_mentions": [
+        "Magister"
+      ],
+      "justification": "Assessor/magister appearing alongside Paulus Kampian."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Caspar Weisulanius",
+      "mention_texts": [
+        "Caspar Wei- sulanius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appearing commissioner acting ex officio."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "locum Ordinarij Leopoliensis tenens"
+      ],
+      "justification": "Lieutenant of the Ordinary of Lviv appearing in person."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0238: PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Mądrowic"
+      ],
+      "descriptive_mentions": [
+        "Notarius",
+        "Notarius eorundem Civitatis Advocatorum"
+      ],
+      "justification": "Notary of the advocates appearing in person."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0346: Joannes Radowski",
+      "mention_texts": [
+        "Radowski",
+        "Joannis Radowski"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "affinium",
+        "Civium Leopoliensium"
+      ],
+      "justification": "Party in the relation and citizen of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Czeszowski",
+      "mention_texts": [
+        "Czeszowski",
+        "Christophori Czeszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "affinium",
+        "Civium Leopoliensium"
+      ],
+      "justification": "Party in the relation, affine of Joannes Radowski and citizen of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Dzierzgowski",
+      "mention_texts": [
+        "Dzierzgowski"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "olim"
+      ],
+      "justification": "Deceased person whose heirs' house was inspected."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "in_law_of",
+      "tail_entity_id": "E9",
+      "evidence": "Famatorum Joannis Radowski et Christophori Czeszowski fecerunt affinium Civium Leopoliensium nomine"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "affinium Civium Leopoliensium nomine"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "affinium Civium Leopoliensium nomine"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Judicii Expositi Banniti Civitatis eorundem ... Actum Leopoli"
+    }
+  ]
+}

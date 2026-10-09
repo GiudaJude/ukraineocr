@@ -1,0 +1,217 @@
+{
+  "document_id": "arc2/0997.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which the legal actions take place and whose citizenship is held by the parties."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Birek the Younger",
+      "mention_texts": [
+        "Stanislaus Birek iunior"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles",
+        "collegae nostri Consulares"
+      ],
+      "justification": "Councilor of Lviv making an official inspection report."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gaspar Gulinski"
+      ],
+      "descriptive_mentions": [
+        "collegae nostri Consulares"
+      ],
+      "justification": "Councilor of Lviv making an official inspection report."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nostri Consulares",
+        "Officia sua",
+        "Actis praesentibus",
+        "Sigillum nostrum"
+      ],
+      "justification": "The municipal council acting through its councilors and registering this official act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Szurmat Kierynowicz",
+      "mention_texts": [
+        "Szurmat Kierynowicz",
+        "Szurmat Surmen-",
+        "Szurmath",
+        "Szurat",
+        "Szurmat"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armenus Civis Leopoliensis",
+        "eiusdem",
+        "idem",
+        "praefatus",
+        "praenominatus"
+      ],
+      "justification": "Armenian burgher of Lviv petitioning the councilors to demarcate the property wall."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Armenian Street",
+      "mention_texts": [
+        "platea Armenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the stone house is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Andrzeiowicz",
+      "mention_texts": [
+        "Nicolai Andrzeiowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Armenus Scabini"
+      ],
+      "justification": "Deceased Armenian scabinus whose heirs own the adjoining property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Laskowicz the Elder",
+      "mention_texts": [
+        "Joannis Laskowicz Senioris"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Armenorum Civium Leopoliensium"
+      ],
+      "justification": "Armenian citizen of Lviv present at the boundary inspection."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Lopowicz",
+      "mention_texts": [
+        "Alberti Lopowicz"
+      ],
+      "descriptive_mentions": [
+        "Armenorum Civium Leopoliensium"
+      ],
+      "justification": "Armenian citizen of Lviv present at the inspection."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Georgius Zehi",
+      "mention_texts": [
+        "Georgij Zehi"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "fratrum",
+        "tutorum praedictorum Successorum Nicolai Andrzeiowicz",
+        "Tutores"
+      ],
+      "justification": "Guardian of the children and successors of Nicolaus Andrzeiowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Simon Drehnowicz",
+      "mention_texts": [
+        "Simonis Drehnowiczovio"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "fratrum",
+        "tutorum praedictorum Successorum Nicolai Andrzeiowicz",
+        "Tutores"
+      ],
+      "justification": "Brother of Georgius Zehi and guardian of the successors of Nicolaus Andrzeiowicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Ambrosius Przyokulski",
+      "mention_texts": [
+        "Ambrosij Przyokulski"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Juratorum Contubernalium Leopoliensium"
+      ],
+      "justification": "Sworn guildsman of Lviv present at the inspection."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Adamus Polota",
+      "mention_texts": [
+        "Adami Polota"
+      ],
+      "descriptive_mentions": [
+        "Juratorum Contubernalium Leopoliensium"
+      ],
+      "justification": "Sworn guildsman of Lviv present at the inspection."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Spectabiles Stanislaus Birek iunior et Gaspar Gulinski collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Spectabiles Stanislaus Birek iunior et Gaspar Gulinski collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Szurmat Kierynowicz Armenus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "Georgij Zehi et Simonis Drehnowiczovio fratrum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "Georgij Zehi et Simonis Drehnowiczovio fratrum tanquam tutorum praedictorum Successorum Nicolai Andrzeiowicz"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "Georgij Zehi et Simonis Drehnowiczovio fratrum tanquam tutorum praedictorum Successorum Nicolai Andrzeiowicz"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0407.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szautz",
+      "mention_texts": [
+        "Thomae Szautz",
+        "Thomas Szautz",
+        "Thomam Szautz",
+        "Szautz"
+      ],
+      "descriptive_mentions": [
+        "Executoris",
+        "Scabinus et Civis Leopoliensis",
+        "tanquam Executor Testamenti",
+        "Executor"
+      ],
+      "justification": "Named as the executor of Albert Wysotzki's will and an alderman/citizen of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Korbut alias Wysotzki",
+      "mention_texts": [
+        "Thomas Korbut alias Wysotzki",
+        "Thomae Korbuth"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Cives de Mosty",
+        "fratris germani",
+        "Famati",
+        "doceri sui"
+      ],
+      "justification": "Named as the full brother of deceased Albert Wysotzki and citizen of Mosty."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mathias Górecki",
+      "mention_texts": [
+        "Mathias Gorecki",
+        "Mathias Goreczki"
+      ],
+      "descriptive_mentions": [
+        "gener",
+        "Coniuges",
+        "Cives de Mosty",
+        "Famatus",
+        "Cives de Mosti",
+        "maritum suum"
+      ],
+      "justification": "Named as husband of Agnes and citizen of Mosty appearing to confirm receipt of legacy."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Agnes Korbutowa",
+      "mention_texts": [
+        "Agnetis Korbutowa",
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Coniuges",
+        "Cives de Mosti",
+        "illa"
+      ],
+      "justification": "Spouse of Mathias Górecki and citizen of Mosty."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wysotzki",
+      "mention_texts": [
+        "Alberti Wysotzki",
+        "Wysotzki",
+        "Albertum"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "eiusdem Wysotzki",
+        "olim Alberti",
+        "Famatum olim"
+      ],
+      "justification": "Deceased citizen of Lviv whose testament is being executed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Korbut",
+      "mention_texts": [
+        "Christophoro"
+      ],
+      "descriptive_mentions": [
+        "duobus filijs Famati Thomae Korbuth",
+        "absenti",
+        "affinibus suis"
+      ],
+      "justification": "Son of Thomas Korbut named as a legatee, absent at the time of recognition."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Alexander Korbut",
+      "mention_texts": [
+        "Alexandro"
+      ],
+      "descriptive_mentions": [
+        "duobus filijs Famati Thomae Korbuth",
+        "praesenti",
+        "affinibus suis"
+      ],
+      "justification": "Son of Thomas Korbut named as a legatee, present at the time of recognition."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referenced in civic designations of Thomas Szautz and Albert Wysotzki."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Mosty",
+      "mention_texts": [
+        "Mosty",
+        "Mosti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of residence of Thomas Korbut, Mathias Górecki, and Agnes."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio",
+        "Officij",
+        "decreto Officij"
+      ],
+      "justification": "Lviv municipal authority/court that inventories the estate and issues decrees."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Alberti Wysotzki Civis Leopoliensis praedicti Thomae Korbuth fratris germani"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Mathias Goreczki et Agnes Coniuges Cives de Mosti"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathias Goreczki et Agnes Coniuges Cives de Mosti"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "duobus filijs Famati Thomae Korbuth doceri sui Christophoro absenti et Alexandro praesenti"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "duobus filijs Famati Thomae Korbuth doceri sui Christophoro absenti et Alexandro praesenti"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Thomas Szautz Scabinus et Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Alberti Wysotzki Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Thomas Korbut alias Wysotzki et Mathias Gorecki gener Honestae Agnetis Korbutowa Coniuges Cives de Mosty"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Mathias Goreczki et Agnes Coniuges Cives de Mosti"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Mathias Goreczki et Agnes Coniuges Cives de Mosti"
+    }
+  ]
+}

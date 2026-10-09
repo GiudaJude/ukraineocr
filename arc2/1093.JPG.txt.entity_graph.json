@@ -1,0 +1,316 @@
+{
+  "document_id": "arc2/1093.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta Florenos pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "precio",
+        "pretium"
+      ],
+      "justification": "Identified by amount and currency specification in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Zetha Diamanterowicz",
+      "mention_texts": [
+        "Zethe fiamanterowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "eiusdem Hospitalis pro tunc Provisore"
+      ],
+      "justification": "Named individual acting as the hospital provisor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitalis",
+        "Hospitali"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Hospitalis",
+        "idem Hospitali",
+        "eidem Hospitali"
+      ],
+      "justification": "Standard reference to the Holy Spirit Hospital in Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial forum mentioned in the recognizance formula."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal action was conducted and place of origin of citizens."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the current date and year established in preceding entries."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kiwinski",
+      "mention_texts": [
+        "Jacobus Kiwinski",
+        "Jacobum",
+        "Kiwinski"
+      ],
+      "descriptive_mentions": [
+        "Cives Functi",
+        "Providum",
+        "olim",
+        "Bedellum",
+        "praefati",
+        "Forensem",
+        "Bedelli"
+      ],
+      "justification": "Deceased citizen whose debt and estate are being addressed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Baltazar Kalinowski",
+      "mention_texts": [
+        "Baltazar Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "ex officio nostro assignati"
+      ],
+      "justification": "One of the court-appointed assignees/guardians appearing before the council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Malik",
+      "mention_texts": [
+        "Nicolaus Malik"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "ex officio nostro assignati"
+      ],
+      "justification": "Appointed guardian/assignee appearing before the council."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Loberczun",
+      "mention_texts": [
+        "Loberczun"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "ex officio nostro assignati"
+      ],
+      "justification": "Appointed guardian/assignee appearing before the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Martinus Kusinski",
+      "mention_texts": [
+        "Martini Kusinski"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "olim",
+        "coniugum",
+        "praedicto olim"
+      ],
+      "justification": "Deceased creditor whose claim is being settled."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catharinae"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "olim",
+        "coniugum"
+      ],
+      "justification": "Deceased wife of Martinus Kusinski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio nostro",
+        "officio Advocatiali Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal authority recording and enacting the legal entries."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Jonik",
+      "mention_texts": [
+        "Jacobo Joniko",
+        "Jacobus Jonicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "Extrum Baralanzeo",
+        "praedictus"
+      ],
+      "justification": "Individual paying the debt from the house inheritance shares."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "46 florins 20 groschen",
+      "mention_texts": [
+        "Florenos quadraginta sex et grossos viginti"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "summam"
+      ],
+      "justification": "Monetary sum repaid to the assignees."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helizabetam"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Wife of the deceased Jacobus Kiwinski."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "date",
+      "canonical_name": "1573",
+      "mention_texts": [
+        "post Octavas Corporis Christi Anno 157 tertio"
+      ],
+      "descriptive_mentions": [
+        "dato"
+      ],
+      "justification": "Date of the original debt obligation contracted before the advocatial bench."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Caspar Szurowo",
+      "mention_texts": [
+        "Caspari Szurowo"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "coniugum"
+      ],
+      "justification": "Owner/heir of shares in the property."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Wife of Caspar Szurowo."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Rozotowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Co-heir of the house mentioned in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honestorum olim Martini Kusinski et Catharinae coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestorum olim Martini Kusinski et Catharinae coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Jacobum Bedellum praefati Kiwinski Forensem et Helizabetam coniuges"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobum Bedellum praefati Kiwinski Forensem et Helizabetam coniuges"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "spouse_of",
+      "tail_entity_id": "E19",
+      "evidence": "Caspari Szurowo et Agnetis coniugum"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "spouse_of",
+      "tail_entity_id": "E18",
+      "evidence": "Caspari Szurowo et Agnetis coniugum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Baltazar Kalinowski et Nicolaus Malik Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Baltazar Kalinowski et Nicolaus Malik Suburbani Leopolienses"
+    }
+  ]
+}

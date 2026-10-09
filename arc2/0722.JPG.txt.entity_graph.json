@@ -1,0 +1,87 @@
+{
+  "document_id": "arc2/0722.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Philippus Wasilkowicz",
+      "mention_texts": [
+        "Philipi Wasilkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased person whose leftover estate is under dispute in the court proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Daniel Philipowicz",
+      "mention_texts": [
+        "Daniel Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "citatus",
+        "Citatus"
+      ],
+      "justification": "The cited party who challenges jurisdiction and files an exception in the case."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the official judicial act took place."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria quarta post Festum S. Francisci Confessoris proxima Anno 1593",
+        "Sabbato post Festum Scti Francisci Anno 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of prior sessions in 1593 cited in the legal exception."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officij",
+        "officio",
+        "officio praesenti"
+      ],
+      "justification": "The municipal council court before which the citation and proceedings are taking place."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicium Magdeburgense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Magdeburg law court to which the defendant requests the case to be remitted."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "post mortem Famati olim Philipi Wasilkowicz ex bonis ipsius derelictis ... praefati Daniel Philipowicz citatus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "de actu Leopoli feria quarta post Festum S. Francisci Confessoris proxima Anno 1593"
+    }
+  ]
+}

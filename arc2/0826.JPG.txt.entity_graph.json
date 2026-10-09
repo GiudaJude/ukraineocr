@@ -1,0 +1,147 @@
+{
+  "document_id": "arc2/0826.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal governing body and court of Lviv before which the declaration and allocution were made."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schemberger",
+      "mention_texts": [
+        "Stanislaus Schembegr",
+        "Stanislaus Schembergr"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "Plenipotens",
+        "auctoritate Plenipotens"
+      ],
+      "justification": "Citizen of Lviv acting as plenipotentiary for Sebaldus Schinber of Gdańsk."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schinber",
+      "mention_texts": [
+        "Sebaldi Schinber"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Gedanensis"
+      ],
+      "justification": "Citizen of Gdańsk represented by Stanislaus Schemberger."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedaner",
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Poland/Prussia of which Sebaldus Schinber is a citizen."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nachman Isaacowicz",
+      "mention_texts": [
+        "Nachman Szaatowic",
+        "Nachmanem Isaacowicz",
+        "Nachman Isaacowicz"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Judaeum Leopoliensem",
+        "infidelem"
+      ],
+      "justification": "Jewish resident of Lviv against whom the denunciation and execution of a royal decree were brought."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in civic and residence designations."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias de Gródek",
+      "mention_texts": [
+        "Mathiae a Grodek"
+      ],
+      "descriptive_mentions": [
+        "Famati Civis"
+      ],
+      "justification": "Citizen who cited the defendant according to the official report."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0091: Gródek",
+      "mention_texts": [
+        "Grodek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town associated with Mathias in his surname/origin."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paulus Zygmuntowicz",
+      "mention_texts": [
+        "Paulo Zygmowntz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual mentioned regarding a ring and pendant."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "agent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Schembegr Civis Leopoliensis Plenipotens Famati Sebaldi Schin- ber Civis Gedanensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaus Schembegr Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Sebaldi Schin- ber Civis Gedanensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nachma- nem Isaacowicz Judaeum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "originating_from",
+      "tail_entity_id": "E8",
+      "evidence": "Mathiae a Grodek"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "document_id": "arc2/0652.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officioque nostro",
+        "Actis nostris"
+      ],
+      "justification": "The municipal council/office before which legal acts and entries are recognized."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sautizon",
+      "mention_texts": [
+        "Albertum Sautizon"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Civem Cracoviensem"
+      ],
+      "justification": "Citizen of Kraków appointed as guardian (tutor) for the recognizant."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City mentioned in the citizenship description of Albertus Sautizon."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Florenos qua-\ndraginta pecuniae et numeri Polonici",
+        "quadra-\nginta florenos",
+        "quadraginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sum of the debt registered in the entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Caspar Janonowicz",
+      "mention_texts": [
+        "Casparo Janonowicz",
+        "Casparis"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Suburbano Leopoliensi",
+        "Creditori",
+        "Creditoris sui",
+        "Creditorem suum",
+        "Creditor"
+      ],
+      "justification": "Suburban creditor in Lviv to whom the debt is owed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the residency of Caspar Janonowicz and Andreas Bartholomaei."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo\nPaschatis",
+        "Festo Paschatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast of Easter specified as the repayment term and condition date."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1597",
+      "mention_texts": [
+        "Anno 1597"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year specified for the repayment."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv suburb where the mortgaged house and garden are located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Pottery Street in the Halych suburb where the house is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Pvillk",
+      "mention_texts": [
+        "Pvillk"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property borders the mortgaged house."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Zaremba",
+      "mention_texts": [
+        "Zaremba"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property borders the mortgaged house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Donatowicz",
+      "mention_texts": [
+        "Stephanum Donatowicz"
+      ],
+      "descriptive_mentions": [
+        "conductorem moder-\nnum",
+        "Chirurgum"
+      ],
+      "justification": "Current tenant and surgeon living in the mortgaged house."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno proxime sequenti 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year until which the tenant cannot be evicted."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Bogusz",
+      "mention_texts": [
+        "Jacobi Bogusz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Subject of the receipt/acquittance recorded in entry 650."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Andreas Bartholomaei Szolniczstanus",
+      "mention_texts": [
+        "Andreas Bartholomaei Szolnicz-\nstanus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Leopoliensis"
+      ],
+      "justification": "Person appearing in entry 650 to acknowledge receipt of payment."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenis viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum acknowledged as received in the acquittance."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertum Sautizon Civem Cracoviensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Casparo Janonowicz Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in suburbio Haliciensi in\nplatea Figulorum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Bartholomaei Szolnicz-\nstanus Leopoliensis"
+    }
+  ]
+}

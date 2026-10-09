@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/1012.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, appearing as location of legal acts and in residential descriptors."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra",
+        "ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date references referring back to the current year and date of the register."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio nostro",
+        "officium Consulare Leopoliense",
+        "officium praesens"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular office and magistracy of Lviv issuing and recording the transactions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Salmanowa",
+      "mention_texts": [
+        "Catherina Salmanka",
+        "Catherina Salmanowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of Andreas Pastor, recognizing debt and mortgaging a share of property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Pastor",
+      "mention_texts": [
+        "Andreae Pastoris"
+      ],
+      "descriptive_mentions": [
+        "Honestorum olim",
+        "Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased husband of Catherina Salmanowa, former resident of the Lviv suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas Facil",
+      "mention_texts": [
+        "Thomam Facil"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem sibi ad eum actum assumptum et ex officio nostro approbatum"
+      ],
+      "justification": "Official guardian assisting Catherina Salmanowa before the council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0597: Valentinus Fosatys",
+      "mention_texts": [
+        "Valentini"
+      ],
+      "descriptive_mentions": [
+        "ingenui",
+        "filij sui"
+      ],
+      "justification": "Deceased son of Catherina Salmanowa whose hereditary portion was redeemed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Kijtar",
+      "mention_texts": [
+        "Sebastianus Kijtar",
+        "Sebastiano Pastore"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "genero suo"
+      ],
+      "justification": "Son-in-law of Catherina Salmanowa who provided a loan of 40 florins."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Florenos Quadraginta pecunia et numeri Polonicali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum loaned by Sebastianus to Catherina."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Korziczki",
+      "mention_texts": [
+        "Stanislaus Kyzicki",
+        "Stanislaus Korziczki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble petitioner presenting a claim before the Lviv City Council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Catherina Woytkowa",
+      "mention_texts": [
+        "Catherina Woytkowa",
+        "Catharinam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Coniugem legitimam"
+      ],
+      "justification": "Summoned party in record 914, wife of Nicolaus Koszowic."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Korytzko",
+      "mention_texts": [
+        "Joannis Korytzko"
+      ],
+      "descriptive_mentions": [
+        "quondam",
+        "Braxatoris antea Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased brewer and former suburban resident, previous husband of Catharina."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Koszowic",
+      "mention_texts": [
+        "Nicolai Koszowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Current husband of Catharina."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Paulus Ezaus",
+      "mention_texts": [
+        "Paulo Ezaus"
+      ],
+      "descriptive_mentions": [
+        "pro tutore sibi rogato"
+      ],
+      "justification": "Tutor assisting Catharina in council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Catherina Salmanowa Honestorum olim Andreae Pastoris Suburbani Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "morte ingenui Valentini filij sui"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Famatum Thomam Facil tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "ab Honesto Sebastiano Pastore genero suo"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E8",
+      "evidence": "accepit in mutuam ab Honesto Sebastiano Pastore genero suo Florenos Quadraginta pecunia et numeri Polonicali, quos eidem se debere fassa est"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Catharinam quondam Joannis Korytzko Braxatoris antea Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "adpraesens vero Nicolai Koszowic Coniugem legitimam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "cum Paulo Ezaus pro tutore sibi rogato"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "document_id": "arc2/1235.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "quingentorum florenorum",
+        "quingentorum florenorum",
+        "quingentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "certa illa summa praedicta",
+        "summam eandem praedictam"
+      ],
+      "justification": "Sum of 500 florins mentioned multiple times as the subject of the testamentary legacy."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Leopoliensi",
+        "Judicio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv to which the execution and payment of the bequest were committed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1588",
+      "mention_texts": [
+        "Anno Domini 1588 octavo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The year in which the testatrix made the original legacy inscription."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Honoratorum Dominorum Advocati et Scabinorum Suis"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The municipal office of the advocate and benchers of Lviv issuing the decree and considering the appeal."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiam Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Dominum Clementissimum"
+      ],
+      "justification": "King Sigismund III Vasa to whom the cited party appealed against the court's decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv where the legal acts were recorded."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "die Anno quo supra",
+        "feria Sexta ipsam Vigilia Sanctorum Petri et Pauli Apostolorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The dates of the court recording, including Friday, the eve of Saints Peter and Paul (28 June 1596)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Szczadlicz",
+      "mention_texts": [
+        "Szczadliczami"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Parties mentioned in the entry heading concerning a mutual donation."
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,115 @@
+{
+  "document_id": "arc2/0981.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial body before which the plenipotentiary is to make the resignation of rights."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis Leopoliensis",
+        "Leopolitani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose bench and suburbs are referenced."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czebrzyk",
+      "mention_texts": [
+        "Joannes Zebrzut",
+        "Joannes Czebrzyk"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges suburbani Leopolitani",
+        "maritum tutorem suum legitimum",
+        "vtriusque"
+      ],
+      "justification": "Party acknowledging debt and donation alongside his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia",
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Coniuges suburbani Leopolitani",
+        "haec",
+        "socij praefatae",
+        "vtriusque"
+      ],
+      "justification": "Wife of Joannes Czebrzyk and mother of Laurentius Szyba."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "14 Polish florins",
+      "mention_texts": [
+        "Florenos quatuordecim pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "veri iusti liquidique debiti"
+      ],
+      "justification": "Monetary debt acknowledged in the contract."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Szyba",
+      "mention_texts": [
+        "Laurentius Szyba",
+        "Laurentio Szyba",
+        "Laurentius"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "praefatae Sophiae ex priori matrimonio filio",
+        "eiusque legitimis Successoribus",
+        "idem Laurentius filius",
+        "donatarius"
+      ],
+      "justification": "Son of Sophia from her prior marriage, creditor and donee of the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Strzeliczer Plot",
+      "mention_texts": [
+        "Strzeliczer"
+      ],
+      "descriptive_mentions": [
+        "fundo",
+        "fundo Strzeliczer a solio duro sita"
+      ],
+      "justification": "Named plot of land where the hereditary estate is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Joannes Czebrzyk et Sophia Coniuges suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesto Laurentio Szyba ac hijs legitimis tutoribus socij praefatae Sophiae ex priori matrimonio filio"
+    }
+  ]
+}

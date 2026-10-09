@@ -1,0 +1,81 @@
+{
+  "document_id": "arc2/1042.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kislis",
+      "mention_texts": [
+        "Stanislaus Kislis",
+        "Stanislai Kislis",
+        "Stanislaum Kislis"
+      ],
+      "descriptive_mentions": [
+        "patruus",
+        "praefati",
+        "eius",
+        "olim",
+        "eiusdem patruum"
+      ],
+      "justification": "Identified by name as the deceased paternal uncle of Sebastianus and late husband of Catherina."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastiani",
+        "Sebastianum",
+        "Sebastiano"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "sui pupilli",
+        "pupillum",
+        "praefatum",
+        "praefati pupilli",
+        "pupillo"
+      ],
+      "justification": "Identified as the nephew and ward (pupillus) of Stanislaus Kislis (Kisiel), matching known entity PER-0124."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Catherina Zagorzowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherina Zagorzowa"
+      ],
+      "descriptive_mentions": [
+        "praefata",
+        "relicta",
+        "consorte"
+      ],
+      "justification": "Identified as the surviving widow of Stanislaus Kislis, named Catherina Zagorzowa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as a monetary amount bequeathed by Catherina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "relative_of",
+      "tail_entity_id": "E2",
+      "evidence": "patruus Stanislaus Kislis ... praefati Sebastiani sui pupilli"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefata Catherina relicta praefati Stanislai Kislis consorte"
+    }
+  ]
+}

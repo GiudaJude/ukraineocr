@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/1450.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court mentioned in the plenipotentiary appointment clause."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts were performed and of which the deceased was a citizen."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quarta ante festum Sancti Simonis et Juda Apostolorum Anno Domini 1590",
+        "Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording: Wednesday before the feast of Saints Simon and Jude, 1590."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Szostka Grzelkowa",
+        "Sophia Eumenia Tadrzati"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "ipsius"
+      ],
+      "justification": "The protesting widow entering her formal complaint."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Grzelko Jakubowic",
+      "mention_texts": [
+        "Grzelkonicz Jakubowic"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Ernmeri",
+        "Civis Leopoliensis",
+        "mariti sui"
+      ],
+      "justification": "Deceased Armenian citizen of Lviv, former husband of Sophia."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kloszicki",
+      "mention_texts": [
+        "Andream Kloszicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "tutorem",
+        "ad eum actum tutorem"
+      ],
+      "justification": "Noble appointed and approved by the court as tutor to assist Sophia in registering her protest."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio quoque nostro",
+        "acta praesentia"
+      ],
+      "justification": "The council/chancellery office recording the protestation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Iwaszko Torosowicz",
+      "mention_texts": [
+        "Torosowicz Iwaszkiane"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "mariti sui tres germanos",
+        "liberorum ipsius Tutores",
+        "eorum"
+      ],
+      "justification": "Brother of the deceased and tutor of the children against whom the protest is lodged."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Jakubowicz",
+      "mention_texts": [
+        "Christophorum Jakubowicze"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "mariti sui tres germanos",
+        "liberorum ipsius Tutores",
+        "eorum"
+      ],
+      "justification": "Brother of the deceased and tutor of the children against whom the protest is lodged."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "olim Grzelkonicz Jakubowic Ernmeri Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "ad eum actum tutorem Nobilem Andream Kloszicki"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "mariti sui tres germanos"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "mariti sui tres germanos"
+    }
+  ]
+}

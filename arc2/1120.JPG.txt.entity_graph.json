@@ -1,0 +1,216 @@
+{
+  "document_id": "arc2/1120.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal transactions were recorded and the citizens hold citizenship."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szurma",
+      "mention_texts": [
+        "Stanislai Szurma",
+        "Stanislao Szurma"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "eosdem"
+      ],
+      "justification": "Debtor and citizen of Lviv who satisfied the debt to Hriczko and Lucas."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hriczko",
+      "mention_texts": [
+        "Hriczko"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Pellio tum solutus",
+        "fratris sui"
+      ],
+      "justification": "Furrier who personally appeared to issue the quietatio for himself and his brother."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Lucas Szaphaniuk",
+      "mention_texts": [
+        "Lucas Szaphaniuk",
+        "Lucas"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratris sui",
+        "fratri suo",
+        "praedicto"
+      ],
+      "justification": "Brother of Hriczko on whose behalf the receipt was acknowledged."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "284 florins",
+      "mention_texts": [
+        "florenis Ducentis quatuor-viginti quatuor"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Sum of the debt repaid to Hriczko and Lucas."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria secunda ante Festum Sanctae Margaretae Virginis proxima Anno Domini 1590."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original contract/inscription being canceled."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Civibus Leopoliensibus"
+      ],
+      "justification": "Wife of Stanislaus Szurma, co-debtor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Mazurowicz",
+      "mention_texts": [
+        "Joannis Mazurowic",
+        "Joanni Mazurowicz"
+      ],
+      "descriptive_mentions": [
+        "Prouidis",
+        "fundi praefati possessori"
+      ],
+      "justification": "Possessor of the paternal property who satisfied Eufemia's claim."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Eufemia",
+      "mention_texts": [
+        "Eufemia",
+        "Eufemiae"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors"
+      ],
+      "justification": "Woman acknowledging full satisfaction for her hereditary share."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Leonidas",
+      "mention_texts": [
+        "Leonidi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Father of Eufemia, referenced in the patronymic and 'fundo paternali'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Margay",
+      "mention_texts": [
+        "Stanislai Margay"
+      ],
+      "descriptive_mentions": [
+        "praedictum maritum legitimum suum tutorem",
+        "maritum"
+      ],
+      "justification": "Husband and legal guardian of Eufemia."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakovien"
+      ],
+      "descriptive_mentions": [
+        "vico"
+      ],
+      "justification": "Suburb/street where the paternal estate was located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Fabio Ubaldini",
+      "mention_texts": [
+        "Fabam Ubaldim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner whose garden borders the estate."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Zanko",
+      "mention_texts": [
+        "Zankowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner referenced by garden."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio"
+      ],
+      "justification": "Municipal court/office before which the claim was brought."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "fratris sui Honesti Lucas Szaphaniuk"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stanislao Szurma et Sophia coniugibus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislai Margay consors per praedictum maritum legitimum suum tutorem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "Eufemia Leonidi ... in fundo paternali eiusdem Eufemiae"
+    }
+  ]
+}

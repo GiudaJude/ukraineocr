@@ -1,0 +1,227 @@
+{
+  "document_id": "arc2/0808.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lawryk Hluczan",
+      "mention_texts": [
+        "Lawryk Hluczan"
+      ],
+      "descriptive_mentions": [
+        "Laboriosus",
+        "subditus Generosi Pauli Brzezinski"
+      ],
+      "justification": "Appears as the principal party making the legal declaration and quitclaim."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Jarczyszcze",
+      "mention_texts": [
+        "Jarcziscze"
+      ],
+      "descriptive_mentions": [
+        "villa"
+      ],
+      "justification": "Village mentioned as the residence/origin of Lawryk Hluczan."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Brzezinski",
+      "mention_texts": [
+        "Pauli Brzezinski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "praedicti Generosi"
+      ],
+      "justification": "Nobleman identified as the lord of Lawryk Hluczan."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Olecxa Farmicki",
+      "mention_texts": [
+        "Olecxii Farmicki",
+        "Olecxa Farmiczki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "mandatarij",
+        "praedictus"
+      ],
+      "justification": "Nobleman acting as the plenipotentiary/mandatary of Paulus Brzezinski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus",
+      "mention_texts": [
+        "Pauli",
+        "Paulus",
+        "Paulo"
+      ],
+      "descriptive_mentions": [
+        "Civis",
+        "praefatus",
+        "Civis",
+        "praedicto",
+        "executore publico"
+      ],
+      "justification": "Citizen whose apprentices caused the assault and who provided satisfaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the altercation took place."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Judicium Regedarium Leopoliense",
+      "mention_texts": [
+        "Judicio Regedario Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv judicial forum before which the suit was originally brought."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Janeczek",
+      "mention_texts": [
+        "Nicolaus Janeczek"
+      ],
+      "descriptive_mentions": [
+        "frater suus"
+      ],
+      "justification": "Brother of Lawryk Hluczan who brought legal action on his behalf."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Węgliński",
+      "mention_texts": [
+        "Stanislaus Weglinicz",
+        "Stanislao Weglinski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "praefato Generoso Creditori suo"
+      ],
+      "justification": "Nobleman and creditor mentioned in the loan acknowledgment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Matlik",
+      "mention_texts": [
+        "Joannes Matlik",
+        "Joannes Matlik"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Coniuges Suburbani Leopoliense",
+        "maritum tutorem suum legitimum",
+        "recognoscentes"
+      ],
+      "justification": "Suburban citizen of Lviv acknowledging a debt alongside his wife."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Suburbani Leopoliense",
+        "hae",
+        "recognoscentes"
+      ],
+      "justification": "Wife of Joannes Matlik, co-recognizor of the debt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos centum pecuniae et numeri Polonici",
+        "Centum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum owed by Joannes Matlik and Agnes to Stanislaus Węgliński."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo Sanctae Agnetis Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day set as the payment due date."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno sequenti 1597"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year corresponding to the due date of the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "subject_of",
+      "tail_entity_id": "E3",
+      "evidence": "Laboriosus Lawryk Hluczan de villa Jarcziscze subditus Generosi Pauli Brzezinski"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "agent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nobilis Olecxii Farmicki praedicti Generosi ad expedier recognicium prout asserit mandatarij"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "frater suus Nicolaus Janeczek nomine suo moverat"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestus Joannes Matlik et Agnes Coniuges"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "debtor_of",
+      "tail_entity_id": "E9",
+      "evidence": "recognoverunt se debere et teneri certi veri iusti liquidique debiti ex causa mutui compacti Florenos centum pecuniae et numeri Polonici Generoso Stanislao Weglinski"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "debtor_of",
+      "tail_entity_id": "E9",
+      "evidence": "recognoverunt se debere et teneri certi veri iusti liquidique debiti ex causa mutui compacti Florenos centum pecuniae et numeri Polonici Generoso Stanislao Weglinski"
+    }
+  ]
+}

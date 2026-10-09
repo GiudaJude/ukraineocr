@@ -1,0 +1,95 @@
+{
+  "document_id": "arc2/1049.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Sebastianowska House",
+      "mention_texts": [
+        "Sebastienowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas praefatas"
+      ],
+      "justification": "One of the two stone houses between which the separating wall was appraised."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Oligostowska House",
+      "mention_texts": [
+        "Olygostowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas praefatas"
+      ],
+      "justification": "One of the two stone houses between which the separating wall was appraised."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "250 Polish florins",
+      "mention_texts": [
+        "Florenis Ducentis quinquaginta monetae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The appraised cost of the separating wall."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina Dlugoszyrowa"
+      ],
+      "descriptive_mentions": [
+        "eadem",
+        "Actrix praedicta",
+        "Actrix"
+      ],
+      "justification": "Corresponds to known entity alias Catherina Dlugoszowa, acting as plaintiff."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Sapieżyna",
+      "mention_texts": [
+        "Annae Sapiezyna",
+        "Sapiezyna"
+      ],
+      "descriptive_mentions": [
+        "praedictae",
+        "eandem citatam",
+        "dicta",
+        "partis conventae"
+      ],
+      "justification": "Defendant cited to refund half of the cost of the separating wall."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Linart",
+      "mention_texts": [
+        "Linart"
+      ],
+      "descriptive_mentions": [
+        "Actorem"
+      ],
+      "justification": "Legal representative appearing on behalf of Anna Sapieżyna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "dicta Sapiezyna per Actorem Linart instituti"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "opposing_party",
+      "tail_entity_id": "E5",
+      "evidence": "controversia iniunctum est praedictae Annae Sapiezyna dimidiam impensae ex integra sumptu in constructionem murum praefati expensio sibi refundere... Ex adverso autem dicta Sapiezyna"
+    }
+  ]
+}

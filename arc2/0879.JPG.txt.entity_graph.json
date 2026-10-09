@@ -1,0 +1,148 @@
+{
+  "document_id": "arc2/0879.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Leslicki",
+      "mention_texts": [
+        "Albertus Leslicki"
+      ],
+      "descriptive_mentions": [
+        "Reverendus Dominus",
+        "in Spiritualibus Officialis Praepositus et Canonicus"
+      ],
+      "justification": "Appears as 'Reverendus Dominus Albertus Leslicki in Spiritualibus Officialis Praepositus et Canonicus Ecclesiae Metropolitanae Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiae Metropolitanae Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentions the Lviv Latin Cathedral as 'Ecclesiae Metropolitanae Leopoliensis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gaspar Gai- linski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Consul Leopoliensis"
+      ],
+      "justification": "Mentioned as 'Nobilis Gaspar Gai- linski Consul Leopoliensis'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified in 'Consul Leopoliensis', 'Ecclesiae Metropolitanae Leopoliensis', and 'Civitatis Leopoliensis'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Do- brocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens ac Nobilis",
+        "Juris Utriusque Doctor",
+        "Advocatus Civitatis Leopoliensis"
+      ],
+      "justification": "Named as 'Excellens ac Nobilis Gregorius Do- brocki Juris Utriusque Doctor Advocatus Civitatis Leopoliensis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0705: Andreas Bienkowic",
+      "mention_texts": [
+        "Andrea Jelatino"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "praedicto"
+      ],
+      "justification": "Referred to as 'Ingenuo Andrea Jelatino'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobi Scholez",
+        "Jacobo Scholez"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "Honorati",
+        "Honorato",
+        "eodem"
+      ],
+      "justification": "Mentioned repeatedly in the context of the dispute as 'Honorati Jacobi Scholez'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "Referred to via his royal title in 'Literas Curationis Sacrae Regiae Maiestatis'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Acta",
+        "Actis praesentibus"
+      ],
+      "justification": "Referenced in the legal records as 'inserendo ad Acta' and 'Actis praesentibus inseri petierunt'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Albertus Leslicki in Spiritualibus Officialis Praepositus et Canonicus Ecclesiae Metropolitanae Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Ecclesiae Metropolitanae Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Gaspar Gai- linski Consul Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorius Do- brocki Juris Utriusque Doctor Advocatus Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "assists",
+      "tail_entity_id": "E6",
+      "evidence": "Gregorius Do- brocki Juris Utriusque Doctor Advocatus Civitatis Leopoliensis assistens eidem praedicto Ingenuo Andrea Jelatino"
+    }
+  ]
+}

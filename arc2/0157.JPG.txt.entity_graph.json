@@ -1,0 +1,213 @@
+{
+  "document_id": "arc2/0157.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Mader",
+      "mention_texts": [
+        "Christophorus Mader"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "gener",
+        "Suburbani Leopolienses",
+        "generum suum",
+        "tutorem legitimum"
+      ],
+      "justification": "Appears as a principal debtor in the bond, identified as son-in-law of Hedvigis Piorkowa."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Piorkowa",
+      "mention_texts": [
+        "Hedvigis Piorkowa"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "socrus",
+        "Suburbani Leopolienses",
+        "illa"
+      ],
+      "justification": "Appears as co-debtor alongside Christophorus Mader, identified as his mother-in-law."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears as the city of residence and origin for multiple persons in the entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos triginta pecuniae et numeri Polonicalis",
+        "triginta florenorum",
+        "triginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "debitum praedictum",
+        "summa principali"
+      ],
+      "justification": "The debt amount contracted between the suburban debtors and Torosius Bernatowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Torosius Bernatowicz",
+      "mention_texts": [
+        "Torosio Bernatowicz",
+        "Bernarowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "Seniori",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Armenian elder and citizen of Lviv who lent thirty florins to Mader and Piorkowa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Holy Trinity",
+      "mention_texts": [
+        "Festum Sanctissimae Trinitatis"
+      ],
+      "descriptive_mentions": [
+        "anno currenti proxime venturo"
+      ],
+      "justification": "The feast day by reference to which the debt repayment term was set."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Offitii",
+        "Officio nostro",
+        "Actisque Praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal court receiving the confession of debt and the registration of the power of attorney."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0039: Christophorus Lewicki",
+      "mention_texts": [
+        "Christophorus Lewicki",
+        "Lewicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honestus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Noble citizen of Lviv who submits three plenipotentiary letters to the council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Balthasar Frank",
+      "mention_texts": [
+        "Balthasaro Frank"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive et Negociatore Posnaniensi"
+      ],
+      "justification": "Merchant and citizen of Poznań who granted powers of attorney to Christophorus Lewicki."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Poznań",
+      "mention_texts": [
+        "Posnaniensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of citizenship and trade of Balthasar Frank."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Lublin Advocatial Office",
+      "mention_texts": [
+        "Officio Actorum Advocati et Scabinorum Civitatis Regiae Lublinensis",
+        "Officii Advocatialis Lublinensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal court of Lublin where the plenipotentiary documents were executed and sealed."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lublin",
+      "mention_texts": [
+        "Lublinensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Regiae"
+      ],
+      "justification": "The royal city whose advocatial court issued and sealed the power of attorney."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "has_family_relation",
+      "tail_entity_id": "E2",
+      "evidence": "Christophorus Mader gener et Hedvigis Piorkowa socrus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "has_legal_guardian",
+      "tail_entity_id": "E2",
+      "evidence": "Hedvigis Piorkowa socrus Suburbani Leopolienses illa per se hac vero per eundem generum suum uti tutorem legitimum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Christophorus Mader gener et Hedvigis Piorkowa socrus Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Christophorus Mader gener et Hedvigis Piorkowa socrus Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Famato Torosio Bernatowicz Armeno Seniori Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Christophorus Lewicki, Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resides_in",
+      "tail_entity_id": "E10",
+      "evidence": "Balthasaro Frank Cive et Negociatore Posnaniensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "Officio Actorum Advocati et Scabinorum Civitatis Regiae Lublinensis"
+    }
+  ]
+}

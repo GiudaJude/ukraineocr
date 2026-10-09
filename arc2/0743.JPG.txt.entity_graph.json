@@ -1,0 +1,248 @@
+{
+  "document_id": "arc2/0743.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actum nostrum Consulare",
+        "Officium nostrum"
+      ],
+      "justification": "City council of Lviv and its official acts mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "suae Regiae Maiestatis"
+      ],
+      "justification": "King of Poland mentioned via royal mandates."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Cosmas",
+      "mention_texts": [
+        "Cosmas"
+      ],
+      "descriptive_mentions": [
+        "idem"
+      ],
+      "justification": "Individual pursuing damages through an attachment."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Iorgij",
+      "mention_texts": [
+        "Iorgij"
+      ],
+      "descriptive_mentions": [
+        "Infideli",
+        "Iudaeo Constantinopolitano",
+        "idem Judaeus"
+      ],
+      "justification": "Jewish person from Constantinople against whose debt an inhibition was placed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Constantinople",
+      "mention_texts": [
+        "Constantinopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of origin of the Jewish merchant Iorgij."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "500 thalers",
+      "mention_texts": [
+        "Pomingentorum talerorum"
+      ],
+      "descriptive_mentions": [
+        "summam debiti",
+        "summam pecuniae"
+      ],
+      "justification": "Amount of debt subject to arrest and inhibition."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0849: Paulus Kraus",
+      "mention_texts": [
+        "Paulum Kraus",
+        "Paulum Kraus"
+      ],
+      "descriptive_mentions": [
+        "Osthiarium",
+        "Ostiarium",
+        "tutorem sibi ad eum actum assumptum et per Officium nostrum confirmatum"
+      ],
+      "justification": "Court usher serving legal process and appointed guardian for Catherina."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina de Szurowice",
+        "Catherina de Siedliszcze",
+        "Catherina Zuysowina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta olim Martini Zuysowa",
+        "pro nunc absentis Coniunx legitima",
+        "Honesta olim",
+        "filia",
+        "soror germana Honesta olim Magdalenae"
+      ],
+      "justification": "Wife of absent Martinus Zuys / Szurowicz, known under corpus alias Catharina Zuwsznia."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Martinus Szurowicz",
+      "mention_texts": [
+        "Martinus Szurowicz",
+        "Martini Zuysowa",
+        "Martini Szorowszki"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "pro nunc absentis",
+        "Hti"
+      ],
+      "justification": "Absent husband of Catherina, also referred to in relation to property boundaries."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Magdalena",
+      "mention_texts": [
+        "Magdalenae"
+      ],
+      "descriptive_mentions": [
+        "Honesta olim",
+        "Coniugis Jacobi Szczerba",
+        "soror germana"
+      ],
+      "justification": "Deceased sister of Catherina and wife of Jacobus Szczerba."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szczerba",
+      "mention_texts": [
+        "Jacobi Szczerba",
+        "Jacobo Szczerba"
+      ],
+      "descriptive_mentions": [
+        "Ferrifabri Suburbani Leopoliensis",
+        "Ferrifabro",
+        "olim",
+        "coniuge defuncti"
+      ],
+      "justification": "Deceased blacksmith of the Lviv suburb, husband of Magdalena."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitate hac",
+        "Civitatis"
+      ],
+      "justification": "City of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Subburbio Halickie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Halych suburb of Lviv where the property is located."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "famuli Advocatialis"
+      ],
+      "justification": "Advocatial servant owning an adjacent garden."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Advocatialis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv advocatial office whose servant holds neighboring land."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Christophorus",
+      "mention_texts": [
+        "Krzystophonis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning adjacent garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "relicta olim Martini Zuysowa pro nunc absentis Coniunx legitima"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Magdalenae Coniugis Jacobi Szczerba"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "soror germana Honesta olim Magdalenae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Paulum Kraus Ostiarium tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "in eiusdem Civitatis Subburbio Halickie dicto"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "employee_of",
+      "tail_entity_id": "E15",
+      "evidence": "Joannis famuli Advocatialis"
+    }
+  ]
+}

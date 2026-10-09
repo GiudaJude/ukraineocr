@@ -1,0 +1,237 @@
+{
+  "document_id": "arc2/0577.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrocki",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Honorati",
+        "I. V. Doctor",
+        "Advocatus"
+      ],
+      "justification": "Named as the advocate of Lviv who conducted the inspection."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Scabinus Civitatis Leopoliensis",
+        "collegae"
+      ],
+      "justification": "Lviv bench officer taking part in the official inspection."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Stephani Friderici Galli"
+      ],
+      "descriptive_mentions": [
+        "collegae sui absentis"
+      ],
+      "justification": "Colleague in whose confirmation/absence the inspection was performed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose council and jurisdiction is recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Aurifaber",
+      "mention_texts": [
+        "Joannis Aurifabri"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "praedicti",
+        "eiusdem"
+      ],
+      "justification": "Lviv citizen and goldsmith at whose request the inspection was performed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kulhankowska House",
+      "mention_texts": [
+        "Kulhankowska"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam",
+        "illius domus",
+        "eadem domo"
+      ],
+      "justification": "Masonry townhouse inspected by the court."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Elżbieta Franczkowa",
+      "mention_texts": [
+        "Elzbietham Frantzek"
+      ],
+      "descriptive_mentions": [
+        "Fatam",
+        "affinis praedicti Joannis Aurifabri"
+      ],
+      "justification": "Deceased in-law/relative of Joannes Aurifaber whose estate was inspected."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio"
+      ],
+      "justification": "Court office consisting of the advocate and benchers performing the visio."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Młodzianowski",
+      "mention_texts": [
+        "Stanislao Mlodznowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the title of the inscription."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Andreas Młodzianowski",
+      "mention_texts": [
+        "Andreas Mlodznowicz"
+      ],
+      "descriptive_mentions": [
+        "Studiosus",
+        "Civitatis et Scabinus Civitatis Leopoliensis"
+      ],
+      "justification": "Party submitting the Zamość inscription into the Lviv council records."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "Actis bene praesentibus"
+      ],
+      "justification": "Lviv consular office before which the inscription was entered."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "Zamość City Council",
+      "mention_texts": [
+        "Actis Consularibus Samostiensibus",
+        "Officio et Actis praesentibus Consularibus Samostiensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular office of Zamość from which the authentic inscription was issued."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Samostiensibus",
+        "Samoscensis",
+        "Samosci"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of Zamość where the academy student studied and the act was issued."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0319: Nicolaus Abrek the Younger",
+      "mention_texts": [
+        "Nicolai Madrowicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "Studiosi Samoscensis"
+      ],
+      "justification": "Student of the Zamość Academy consenting to sales and releases."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta postridie Festi Exaltationis Sanctae Crucis Anno Domini 159 Quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded act in Zamość (15 September 1595)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "officer_of",
+      "tail_entity_id": "E8",
+      "evidence": "Gregorius Dobrocki I. V. Doctor Advocatus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "officer_of",
+      "tail_entity_id": "E8",
+      "evidence": "Andreas Simonowicz Scabinus Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "colleague_of",
+      "tail_entity_id": "E2",
+      "evidence": "in ratihabitionem Stephani Friderici Galli collegae sui absentis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannis Aurifabri Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "relative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Elzbietham Frantzek affinis praedicti Joannis sepbanonria Aurifabri"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "ingressi in domum lapideam Kulhankowska dictam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "student_in",
+      "tail_entity_id": "E13",
+      "evidence": "Nicolai Madrowicz Studiosi Samoscensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "Actis Consularibus Samostiensibus"
+    }
+  ]
+}

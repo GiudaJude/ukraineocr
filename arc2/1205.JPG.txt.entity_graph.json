@@ -1,0 +1,108 @@
+{
+  "document_id": "arc2/1205.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolien"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "City where the legal proceedings take place and where the parties reside."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta in vigi- lia Sancti Sacratissimi Corporis Christi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session recorded in the register."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopolien"
+      ],
+      "descriptive_mentions": [
+        "Officio praesenti",
+        "officium"
+      ],
+      "justification": "The municipal consular office rendering the decree and recording the agreement."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Słotwiński",
+      "mention_texts": [
+        "Albertum Slothinski",
+        "Albertus Slothinski",
+        "Slothinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "incolam suburbij Civitatis eiusdem Leopolien",
+        "actiorem",
+        "Actori",
+        "Actor",
+        "Actor praedictus",
+        "Actoris",
+        "praefatus",
+        "idem"
+      ],
+      "justification": "Noble plaintiff residing in the Lviv suburb bringing action for assault."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Kopszyński",
+      "mention_texts": [
+        "Bartholomaeo Farsifinski",
+        "Bartholomaeum Kopszchinski",
+        "Kopszyhnszki"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Suburbanum Leo- polien",
+        "citatum",
+        "citatus",
+        "eodem citato"
+      ],
+      "justification": "Suburban resident cited as defendant regarding wounds inflicted on the plaintiff."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Felsznek",
+      "mention_texts": [
+        "Felsznek",
+        "Joannes Felsznek"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Person named by the defendant as recognized at the scene of the tumult."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Alber- tum Slothinski incolam suburbij Civitatis eiusdem Leopolien"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Bartholomaeum Kopszchinski Suburbanum Leo- polien"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "document_id": "arc2/0783.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Maszowicki",
+      "mention_texts": [
+        "Andream Maszowicki"
+      ],
+      "descriptive_mentions": [
+        "suum Prolocutorem Nobilem",
+        "Prolocutorem",
+        "Nobilem"
+      ],
+      "justification": "Citata quoque per suum Prolocutorem Nobilem Andream Maszowicki protestata est"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "2000 florins",
+      "mention_texts": [
+        "florenorum 2000"
+      ],
+      "descriptive_mentions": [
+        "summa R 2000"
+      ],
+      "justification": "summa R 2000 ratione spolij indemnitatem imo ... post magnam strada florenorum 2000"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "Acta sua"
+      ],
+      "justification": "Quarum protestationes Officium ad affectationem ipsorum ad Acta sua fcribi suscepit"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli Sabbato post Festum Epiphaniae Domini proximo Anno 1596"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato post Festum\nEpiphaniae Domini proximo Anno 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli Sabbato post Festum Epiphaniae Domini proximo Anno 1596"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Wengr",
+      "mention_texts": [
+        "Francisci Wengr",
+        "Franciscum"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Generosum",
+        "Avumque",
+        "Collegam meum Consularem",
+        "praedicto Domino"
+      ],
+      "justification": "Quietatio D. Francisci Wengr ... per Generosum Franciscum suum Avumque Collegam meum Consularem restantibus a praedicto Domino"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sokolowski",
+      "mention_texts": [
+        "Stanislaus Sokolowski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "Vicepalatinus\nTerrarum Russiae"
+      ],
+      "justification": "Comparens personaliter Generosus Stanislaus Sokolowski Vicepalatinus Terrarum Russiae"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [
+        "Terrarum Russiae"
+      ],
+      "justification": "Vicepalatinus Terrarum Russiae"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "2500 florins",
+      "mention_texts": [
+        "Florenis 2500"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et monetae in Re-\ngno usualis"
+      ],
+      "justification": "satisfactionem sibi planarie et in toto de Florenis 2500 pecuniae et monetae in Regno usualis debiti sibi"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Re-\ngno"
+      ],
+      "justification": "pecuniae et monetae in Re- gno usualis"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Juceińska House",
+      "mention_texts": [
+        "Iuceinska"
+      ],
+      "descriptive_mentions": [
+        "domo la-\npidea"
+      ],
+      "justification": "super domo la- pidea Iuceinska"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Generosus Stanislaus Sokolowski Vicepalatinus Terrarum Russiae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E7",
+      "evidence": "per Generosum Franciscum suum Avumque"
+    }
+  ]
+}

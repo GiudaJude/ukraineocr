@@ -1,0 +1,214 @@
+{
+  "document_id": "arc2/1557.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place and whose citizenship and diocese are referenced."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria tertia in vigilia Nativitatis Domini Nostri Jesu Christi Anno Domini 1590",
+        "Anno Domini 1590"
+      ],
+      "descriptive_mentions": [
+        "Actum ut supra."
+      ],
+      "justification": "Date of recording of the legal acts in the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Georgius Swartkowic",
+      "mention_texts": [
+        "Georgij Swartkowic",
+        "Georgium Swartkowic",
+        "Georgio Swartkowic"
+      ],
+      "descriptive_mentions": [
+        "Armenum",
+        "Civem Leopoliensem",
+        "eodem praedicto",
+        "eundem"
+      ],
+      "justification": "Armenian burgher of Lviv who satisfied the debts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kamenedcz",
+      "mention_texts": [
+        "Jacobus Kamenedcz"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaeus Ruthenensis dioecesis Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Jewish creditor acknowledging receipt of debt payment."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Ruthenensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region referenced in the description of Jacobus Kamenedcz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Elias Andreaeowicz",
+      "mention_texts": [
+        "Eliam Andreaeowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem sibi ad eum actum assumptum et per Officium nostrum confirmatum",
+        "Tutorem sibi ad eum actum assumptum et per Officium meum confirmatum"
+      ],
+      "justification": "Guardian appointed and confirmed to assist the Jewish parties in the legal acts."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum",
+        "Officium meum"
+      ],
+      "justification": "The municipal office recording the quietatio and confirming the guardian."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "262882 Turkish aspers",
+      "mention_texts": [
+        "ducentis sexaginta duobus millibus octingentis et octoginta duobus nummis asberis Turcicis"
+      ],
+      "descriptive_mentions": [
+        "qui quidem nummi",
+        "debitum"
+      ],
+      "justification": "Total debt in Turkish aspers paid to Jacobus Kamenedcz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "3866 lion thalers",
+      "mention_texts": [
+        "taleros Lewki dictos tria millia octingentos sexaginta sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Conversion amount in lion thalers."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "68 aspers",
+      "mention_texts": [
+        "nummis asberis sexaginta octo",
+        "nummis asperis sexaginta octo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Exchange rate per lion thaler."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Abrahamus Domas",
+      "mention_texts": [
+        "Abrahamus Domas"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaeus Podkamenien dioecesis Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Jewish creditor from Podkamień acknowledging receipt of payment."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Podkamień",
+      "mention_texts": [
+        "Podkamenien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Abrahamus Domas."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "103485 Turkish aspers",
+      "mention_texts": [
+        "centum et tribus millibus quadringentis octoginta quinque nummis asberis Turcicis"
+      ],
+      "descriptive_mentions": [
+        "qui quidem nummi"
+      ],
+      "justification": "Debt amount in Turkish aspers paid to Abrahamus Domas."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "1521 lion thalers and 57 aspers",
+      "mention_texts": [
+        "taleros Lewki dictos mille quingentos viginti unum et nummos asberos quinquaginta septem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Converted sum in lion thalers and aspers."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Famatum Georgium Swartkowic Armenum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Famatum Eliam Andreaeowicz tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "per Famatum Eliam Andreaeowicz Tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "confirmed",
+      "tail_entity_id": "E6",
+      "evidence": "per Officium nostrum confirmatum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "debiti sibi per Famatum Georgium Swartkowic Armenum Civem Leopoliensem suo tantum nomine contracti"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E12",
+      "evidence": "Abrahamus Domas Judaeus Podkamenien"
+    }
+  ]
+}

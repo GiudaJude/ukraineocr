@@ -1,0 +1,201 @@
+{
+  "document_id": "arc2/0614.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "18 Polish florins",
+      "mention_texts": [
+        "octodecim florenos pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Price specified for the property share transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv before whose senior scabinus resignation is to be made."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Roerigk",
+      "mention_texts": [
+        "Franciscus Roerigk"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "Collega noster Consularis"
+      ],
+      "justification": "Lviv councilman entering a protestation regarding his rights to the sold lot."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta praesentia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council of Lviv in whose present acts the protestation is registered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die et Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referring to the day and year recorded above in the council book."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hryczko Wójt",
+      "mention_texts": [
+        "Hrycza Woyt",
+        "Hryczko"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges Suburbani Leopolenses",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Suburban seller of the inherited property share along with his wife Maruszka."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Maruszka",
+      "mention_texts": [
+        "Kluczc Maruszka",
+        "Maruszka"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges Suburbani Leopolenses",
+        "haec"
+      ],
+      "justification": "Wife of Hryczko and co-seller of the inherited property share."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolenses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City whose suburb and residents are referenced in the document."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanisława",
+      "mention_texts": [
+        "Stanislawam"
+      ],
+      "descriptive_mentions": [
+        "praefatam"
+      ],
+      "justification": "Person named in the devolution clause through whom the natural hereditary rights devolved."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Fundus Kynatowski",
+      "mention_texts": [
+        "fundo Kynatowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named plot of land where the sold share is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Temryczowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Lviv suburb where the property is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rempel",
+      "mention_texts": [
+        "Joannis Rempel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property adjoins the sold plot."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Oleksa Zintoki",
+      "mention_texts": [
+        "Olexa Zintoki"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Subur-"
+      ],
+      "justification": "Suburban buyer of the property share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Franciscus Roerigk Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Hryczko et Maruszka Coniuges Suburbani Leopolenses ille per se haec vero per eundem maritum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Hryczko et Maruszka Coniuges Suburbani Leopolenses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Hryczko et Maruszka Coniuges Suburbani Leopolenses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in fundo Kynatowski e in Suburbio eiusdem Civitatis in platea Temryczowska"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in Suburbio eiusdem Civitatis in platea Temryczowska"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesto Olexa Zintoki Subur-"
+    }
+  ]
+}

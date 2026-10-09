@@ -1,0 +1,171 @@
+{
+  "document_id": "arc2/1071.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "2 Polish florins",
+      "mention_texts": [
+        "florenos duos pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum mentioned as settlement pro contentatione to relatives."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civitatis Leopoliensis",
+        "suum verum legitimum mandatariumque Plenipotentem",
+        "praefatus Plenipotentiarius"
+      ],
+      "justification": "Appointed legal representative and bench officer (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoli",
+        "Leopolitanus",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City context for the bench court, residents, and officials."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial body where the resignation is to be celebrated/presided over."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanczuuc",
+      "mention_texts": [
+        "Stanczuuc"
+      ],
+      "descriptive_mentions": [
+        "Scabini"
+      ],
+      "justification": "Scabinus acting in the recorded proceedings."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Niemiec",
+      "mention_texts": [
+        "Niemiec"
+      ],
+      "descriptive_mentions": [
+        "Scabinus"
+      ],
+      "justification": "Scabinus acting alongside Stanczuuc."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kiemiecz Pieczon",
+      "mention_texts": [
+        "Albertus Kiemiecz Pieczon"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Suburbanus Leopolitanus"
+      ],
+      "justification": "Suburban debtor who confesses owing money for oat purchases."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "36 Polish florins and 16 grosze",
+      "mention_texts": [
+        "florenos triginta sex et grossos sedecim pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "veri certi iusti liquidique debiti",
+        "eandem summam debiti"
+      ],
+      "justification": "Debt amount acknowledged by Albertus Kiemiecz Pieczon."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Tobias Exantrowicz",
+      "mention_texts": [
+        "Tobiae Exantrowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "Civi Leopoliensi",
+        "Creditori suo",
+        "dicto Creditori suo"
+      ],
+      "justification": "Armenian burgher of Lviv and creditor in the transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date set for debt repayment."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "City office administering the real execution and usufruct pledge."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simonem Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Judicio Exposito Bannito Leopoli"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "debtor_of",
+      "tail_entity_id": "E9",
+      "evidence": "Albertus Kiemiecz Pieczon Suburbanus Leopolitanus palam et per expressum recognovit se debere et teneri ... Famato Tobiae Exantrowicz Armeno Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertus Kiemiecz Pieczon Suburbanus Leopolitanus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Tobiae Exantrowicz Armeno Civi Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "document_id": "arc2/1312.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Acta",
+        "idem Officium"
+      ],
+      "justification": "The document references the Lviv consular office/council acting in its official judicial capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Nykhotowic",
+      "mention_texts": [
+        "Simon",
+        "Simonem Nykhotowic"
+      ],
+      "descriptive_mentions": [
+        "praenominatus",
+        "Fideiussor"
+      ],
+      "justification": "Named as the guarantor ('Fideiussor') calling his evictor to court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Drozdowski",
+      "mention_texts": [
+        "Joannem Drosdowski",
+        "Drosdowski"
+      ],
+      "descriptive_mentions": [
+        "sui Evictorem",
+        "praenominatum Nobilem",
+        "Memoratus vero Nobilis"
+      ],
+      "justification": "Identified as a nobleman called to take over the burden of eviction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenorum sexaginta",
+        "florenos sexaginta"
+      ],
+      "descriptive_mentions": [
+        "summae restantibus",
+        "restantem summam"
+      ],
+      "justification": "The remaining sum of 60 florins contested and offered under conditions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "florenorum centum"
+      ],
+      "descriptive_mentions": [
+        "integram summam"
+      ],
+      "justification": "The total amount of 100 florins referenced in connection with the cession."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "has_evictor",
+      "tail_entity_id": "E3",
+      "evidence": "Simon uti Fideiussor in vim exceptionis ad sui Evictorem videlicet praenominatum Nobilem Joannem Drosdowski quem ad sui evictionem ad idem Officium citandum curauit se traxebat"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "appeared_before",
+      "tail_entity_id": "E1",
+      "evidence": "Quo comparente et onus evictionis in se suscipiente"
+    }
+  ]
+}

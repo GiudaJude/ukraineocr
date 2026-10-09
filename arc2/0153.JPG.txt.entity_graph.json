@@ -1,0 +1,178 @@
+{
+  "document_id": "arc2/0153.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified from references to Leopoliensis and Civitatis."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro Consulari",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Praetorium Consulare"
+      ],
+      "justification": "Standard municipal consular office of Lwów appearing in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Lozanczyk",
+      "mention_texts": [
+        "Alberto Lozanczyk"
+      ],
+      "descriptive_mentions": [
+        "Juridicio",
+        "depositori"
+      ],
+      "justification": "Individual depositing money before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Konieczki",
+      "mention_texts": [
+        "Joanni Konieczki"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "minoris heredi"
+      ],
+      "justification": "Minor heir named in the obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Czarnowolski",
+      "mention_texts": [
+        "Christophoro Czarnowolski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "arestatori"
+      ],
+      "justification": "Arrestator mentioned in the obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "48 florins",
+      "mention_texts": [
+        "quadraginta octo Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money involved in the surety agreement."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Petrus Smolisz",
+      "mention_texts": [
+        "Petrus Smolisz"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "coniuges"
+      ],
+      "justification": "Named party entering into mutual obligation with his wife."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "coniuges"
+      ],
+      "justification": "Wife of Petrus Smolisz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmum Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem et Mercatorem Leopoliensis",
+        "citation"
+      ],
+      "justification": "Lviv burgher and merchant cited in the decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount cited in the decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joanna Wojtowiczowa",
+      "mention_texts": [
+        "Joannem de Szczebrz Woyticzowam"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Dneam",
+        "Fundatorem et Legatorem"
+      ],
+      "justification": "Deceased founder and legator mentioned in the decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Ecclesia Metropolitana",
+      "mention_texts": [
+        "Ecclesia Metropolitana"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Latin Metropolitan Cathedral mentioned as containing the chapel."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "praedicti Petrus Smolisz et Hedvigis coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "praedicti Petrus Smolisz et Hedvigis coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Erasmum Jelonek Civem et Mercatorem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Ecclesia Metropolitana eiusdem Civitatis"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "document_id": "arc2/0747.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Boguszki",
+      "mention_texts": [
+        "Boguszki"
+      ],
+      "descriptive_mentions": [
+        "eodem"
+      ],
+      "justification": "Named in the preamble regarding an ongoing dispute or settlement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Officium nostrum"
+      ],
+      "justification": "The municipal council of Lviv acting in judicial and recording capacity."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Stenzendorff",
+      "mention_texts": [
+        "Stanislai Stenzendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Officialis",
+        "praedicti"
+      ],
+      "justification": "Party in the court decree whose indemnity was protected."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Agathet",
+      "mention_texts": [
+        "Petro Agathet"
+      ],
+      "descriptive_mentions": [
+        "Nobili"
+      ],
+      "justification": "Noble named in the decree regarding compensation for horses."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0031: Joannes Rottendorff",
+      "mention_texts": [
+        "Joannes Rostendorff"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appealed the council's decree to the royal court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King to whose royal court the appeal was made."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Draposz",
+      "mention_texts": [
+        "Martinus Drapowsz"
+      ],
+      "descriptive_mentions": [
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Lviv suburban resident appearing as a witness."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Piotrecki",
+      "mention_texts": [
+        "Albertus Piotrecki"
+      ],
+      "descriptive_mentions": [
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Lviv suburban resident appearing as a witness."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kozdrowic",
+      "mention_texts": [
+        "Joannis Kozdroiek",
+        "Joannis Kozdzoiek",
+        "Joannes Kozdroiek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "incola Leopoliensis",
+        "praedicti",
+        "praedictus"
+      ],
+      "justification": "Lviv inhabitant seeking legal recognition of his status as closest heir to his deceased brother."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Mathias Kozdrowic",
+      "mention_texts": [
+        "Petro Kozdrowic",
+        "Petrum",
+        "Mathiam Kozdrowik",
+        "Mathiam Kozdrowiek"
+      ],
+      "descriptive_mentions": [
+        "defunctum",
+        "fratrem fuisse germanum"
+      ],
+      "justification": "Deceased brother of Joannes Kozdrowic who died in Hungary."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Hungary",
+      "mention_texts": [
+        "Ungaria"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Country where Mathias Kozdrowic passed away."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Satu Mare",
+      "mention_texts": [
+        "Bathmar"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City in Hungary (Bathmar/Szatmár) where Mathias Kozdrowic died."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliense",
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city where the court acts took place."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato post festum Nativitatis Domini Anno 1595",
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded testimony (Saturday after Christmas 1595)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "appealed_to",
+      "tail_entity_id": "E6",
+      "evidence": "ab eodem ad Sacrae Regiae Maiestatis Curiam appellavit"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Martinus Drapowsz et Albertus Piotrecki Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Martinus Drapowsz et Albertus Piotrecki Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Joannis Kozdroiek incola Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "fratrem fuisse germanum praedicti Joannis Kozdzoiek"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "died_in",
+      "tail_entity_id": "E12",
+      "evidence": "in Civitate Bathmar dicta diem suum obijsse fama est"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in Ungaria in Civitate Bathmar dicta"
+    }
+  ]
+}

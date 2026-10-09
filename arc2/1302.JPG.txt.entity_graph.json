@@ -1,0 +1,278 @@
+{
+  "document_id": "arc2/1302.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officii Consularis Leopoliensis",
+        "Praetorio"
+      ],
+      "descriptive_mentions": [
+        "Officio illud",
+        "Officii illius",
+        "Officio illo",
+        "Officii",
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council and its court mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sieranski",
+      "mention_texts": [
+        "Albertus Sieranski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Exactorii Curiouiensis"
+      ],
+      "justification": "Noble official making a report before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mathias Agredel",
+      "mention_texts": [
+        "Mathias Agredel"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Famulus Civitatis Juratus"
+      ],
+      "justification": "Sworn servant of the city appearing with Albertus Sieranski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Josephus Wolfowicz",
+      "mention_texts": [
+        "Josephi Wolpszarz",
+        "Josephum Wolpszarz",
+        "Josephus Wolpszarz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civis Leopoliensis",
+        "praedicti",
+        "Famatus",
+        "Citores",
+        "idem"
+      ],
+      "justification": "Citizen of Lviv at whose instance the relation was made."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Civitatis Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv, referenced in civic titles and jurisdiction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Caspar Wraszczyński",
+      "mention_texts": [
+        "Casparum Wraszczynski"
+      ],
+      "descriptive_mentions": [
+        "Dominorum Grosium Dominum",
+        "Tribunum Leopoliensem",
+        "Gnosi",
+        "Gnosium",
+        "Gnosi Actionis",
+        "ille"
+      ],
+      "justification": "Tribune of Lviv who was summoned."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Syrogya",
+      "mention_texts": [
+        "Joannem Syrogyam"
+      ],
+      "descriptive_mentions": [
+        "Honestam"
+      ],
+      "justification": "Resident of the suburb with whom Wraszczyński was lodging."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "feria quarta in vigilia Assumptionis Mariae"
+      ],
+      "descriptive_mentions": [
+        "proxime ventura"
+      ],
+      "justification": "Date set for the appearance before the court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Mysiecki",
+      "mention_texts": [
+        "Andreae Mysiecki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "acquisitores Juris Caduci"
+      ],
+      "justification": "Noble party in the property matter."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrochi"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Aduocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate of Lviv appearing before the court."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sosol",
+      "mention_texts": [
+        "Jacobus Sosol"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn bench officer (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamus Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn bench officer (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Serenissimae Regiae Maiestatis",
+        "Suae Regiae Maiestatis"
+      ],
+      "justification": "The King of Poland, referenced in royal titles."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Paulus Sesonbati",
+      "mention_texts": [
+        "Paulo Sesonbati"
+      ],
+      "descriptive_mentions": [
+        "Gnoso Domino",
+        "Secretario Suae Regiae Maiestatis",
+        "praefato Gnoso Domino Secretario"
+      ],
+      "justification": "Royal secretary involved in the grant of escheated rights."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kertk",
+      "mention_texts": [
+        "Joannis Kertk"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased owner of the escheated goods."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Necessario Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The civil/banned court of Lviv mentioned in the second act."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0278: Warsaw",
+      "mention_texts": [
+        "Warszo-"
+      ],
+      "descriptive_mentions": [
+        "Civitat antiqua"
+      ],
+      "justification": "City of Old Warsaw, whose consular acts are cited."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "employee_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestus Mathias Agredel Famulus Civitatis Juratus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Josephi Wolpszarz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "holds_title",
+      "tail_entity_id": "E5",
+      "evidence": "Casparum Wraszczynski Tribunum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "holds_title",
+      "tail_entity_id": "E5",
+      "evidence": "Gregorius Dobrochi Aduocatus Ordinarius... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "holds_title",
+      "tail_entity_id": "E5",
+      "evidence": "Jacobus Sosol atque Adamus Smieszek Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "holds_title",
+      "tail_entity_id": "E5",
+      "evidence": "Jacobus Sosol atque Adamus Smieszek Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "employee_of",
+      "tail_entity_id": "E13",
+      "evidence": "Paulo Sesonbati Secretario Suae Regiae Maiestatis"
+    }
+  ]
+}

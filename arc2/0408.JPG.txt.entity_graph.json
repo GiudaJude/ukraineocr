@@ -1,0 +1,190 @@
+{
+  "document_id": "arc2/0408.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wojnowski",
+      "mention_texts": [
+        "Woynowski",
+        "Woynowski",
+        "Albertum Woynowski",
+        "Alberti Woynowski"
+      ],
+      "descriptive_mentions": [
+        "Civem Leopoliensis",
+        "patrum illorum",
+        "Famato olim",
+        "Civem Leopoliensis",
+        "praedictae Sophiae Vtricum"
+      ],
+      "justification": "Named as the deceased citizen whose testament is executed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis",
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the citizenship designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Christophorus",
+      "mention_texts": [
+        "Christophoro"
+      ],
+      "descriptive_mentions": [
+        "affinium suorum supranominatorum"
+      ],
+      "justification": "Beneficiary mentioned in the document."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Alexander",
+      "mention_texts": [
+        "Alexandro"
+      ],
+      "descriptive_mentions": [
+        "affinium suorum supranominatorum"
+      ],
+      "justification": "Beneficiary mentioned alongside Christophorus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thoma Kares",
+        "Toma Kares"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Scabino",
+        "Executore testamenti",
+        "eundem",
+        "Executorem",
+        "eidem",
+        "praefatumque honoratum",
+        "Executoris",
+        "Honorato",
+        "Scabino",
+        "Cive Leopoliensis",
+        "Executore Testamenti",
+        "eundem"
+      ],
+      "justification": "Scabinus and executor of the testament of Albertus Wojnowski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "Municipal office that appointed the executor."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Janussius Ungarus",
+      "mention_texts": [
+        "Janussium Vngarum",
+        "Janussius Vngarus"
+      ],
+      "descriptive_mentions": [
+        "Fideiussorem",
+        "Famatum",
+        "Gladiatorem",
+        "Civem Leopoliensis",
+        "affinem quoque suum",
+        "Qui",
+        "Famatus",
+        "Gladifex",
+        "Coniuges Cives Leopolienses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Swordmaker, citizen of Lviv, guarantor, and husband of Sophia."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia",
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Coniuges Cives Leopolienses",
+        "illa"
+      ],
+      "justification": "Wife of Janussius Ungarus and stepdaughter/relative of Albertus Wojnowski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Janussius Vngarus Gladifex et Honesta Sophia Coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Janussius Vngarus Gladifex et Honesta Sophia Coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "relative_of",
+      "tail_entity_id": "E8",
+      "evidence": "praedictae Sophiae Vtricum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "executor_of",
+      "tail_entity_id": "E1",
+      "evidence": "Thoma Kares Scabino tanquam Executore testamenti eiusdem Woynowski"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Albertum Woynowski Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Janussium Vngarum Gladiatorem Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Toma Kares Scabino et Cive Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Woynowski Civem Leopoliensis patrum illorum testamento legatas ad se et in dispositionem suam receperunt et in bonis suis omnibus eisdem Christophoro et Alexandro reformaverunt"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "relative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Woynowski Civem Leopoliensis patrum illorum testamento legatas ad se et in dispositionem suam receperunt et in bonis suis omnibus eisdem Christophoro et Alexandro reformaverunt"
+    }
+  ]
+}

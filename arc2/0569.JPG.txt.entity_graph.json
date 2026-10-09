@@ -1,0 +1,190 @@
+{
+  "document_id": "arc2/0569.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta florenos"
+      ],
+      "descriptive_mentions": [
+        "alios similes"
+      ],
+      "justification": "Text states 'alios similes triginta florenos' at the beginning of the fragment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentions of Lviv in the dating formula ('Actum Leopoli') and territorial qualifiers."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Gorcza",
+      "mention_texts": [
+        "Jacobus Gorczt",
+        "Jacobo Gorczio",
+        "Jacobi Gorczy"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "Barbitonsori",
+        "eodem Jacobo"
+      ],
+      "justification": "Identified as Jacobus Gorcz / Gorcza, barber-surgeon (Barbitonsor), recipient of the legal cession."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wricht",
+      "mention_texts": [
+        "Joannes Wicht",
+        "Joannes Wricht"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Figulus",
+        "Civis et Mercator Leopoliensis"
+      ],
+      "justification": "Identified as Joannes Wricht (or Wicht), potter and merchant of Lviv, the resignans/recognizor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Rita Paulis",
+      "mention_texts": [
+        "Ritae Paulis"
+      ],
+      "descriptive_mentions": [
+        "coniugis suae"
+      ],
+      "justification": "Wife of Joannes Wricht, on whose behalf he also appears."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "130 florins",
+      "mention_texts": [
+        "Centum et triginta Florenos"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount inscribed in 1583 being ceded to Jacobus Gorcza."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [
+        "officij"
+      ],
+      "justification": "The municipal council books ('inscriptionis officij in Actis nostris')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1583",
+      "mention_texts": [
+        "Sabbato post Festum Sanctae Agnetis proximo Anno 1583."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/inscription cited in the text."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Smultierz",
+      "mention_texts": [
+        "Gasparum Smultierz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "coniuges Suburbanos Leopoliensem",
+        "memoratos coniuges"
+      ],
+      "justification": "Suburban debtor named in the earlier obligation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetem"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbanos Leopoliensem",
+        "memoratos coniuges"
+      ],
+      "justification": "Wife of Gaspar Smultierz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "500 florins and 16 groschen",
+      "mention_texts": [
+        "quingentos florenos et sedecim grossos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount from a chirograph cited in the document."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joanninus Dzinczki",
+      "mention_texts": [
+        "Joannino Dzinczki"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased party mentioned in connection with priority litigation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicij Banniti Leopoliensis",
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv issuing the cited decree."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "1591",
+      "mention_texts": [
+        "feria quarta post Festum SS. Undecim Millia Virginum proxima Anno 1591."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the decree of the Banned Court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatus Joannes Wricht Figulus Civis et Mercator Leopoliensis suo et Ritae Paulis coniugis suae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Gasparum Smultierz et Agnetem coniuges Suburbanos Leopoliensem"
+    }
+  ]
+}

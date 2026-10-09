@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/1455.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Georgius Rottendorff",
+      "mention_texts": [
+        "Se-orgius Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "Creditor"
+      ],
+      "justification": "Creditor appearing in person to agree to the contract extension."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliense",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Ciuitatis"
+      ],
+      "justification": "City where the court acts and where the tenement is situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato in Vigilia Sanctissimorum Simonis et Judae Apostolorum Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Urbanus",
+      "mention_texts": [
+        "Vrbanus"
+      ],
+      "descriptive_mentions": [
+        "Ciues"
+      ],
+      "justification": "Citizen/official recorded under Ciues."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Vlodimirus",
+      "mention_texts": [
+        "Vlodimirus"
+      ],
+      "descriptive_mentions": [
+        "Ciues"
+      ],
+      "justification": "Citizen/official recorded under Ciues."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Praesens Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal consular court rendering the decision."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kluczer",
+      "mention_texts": [
+        "Jacobum Kluczer"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Scabinum",
+        "Tutorem",
+        "Actores"
+      ],
+      "justification": "Lviv scabinus acting as guardian for Hieronymus Dziewyński."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Dziewyński",
+      "mention_texts": [
+        "Hieronymi Dziewynski",
+        "Hieronymo"
+      ],
+      "descriptive_mentions": [
+        "Patricis",
+        "Ingenui",
+        "minoris"
+      ],
+      "justification": "Minor on whose behalf the claim regarding the tenement is made."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Fides Dziewyńska",
+      "mention_texts": [
+        "Fidei",
+        "Fidei"
+      ],
+      "descriptive_mentions": [
+        "praefatis"
+      ],
+      "justification": "Co-heir mentioned alongside Hieronymus to whom the house was assigned."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Brożek",
+      "mention_texts": [
+        "Joannis Brozek",
+        "Joannis Brozek"
+      ],
+      "descriptive_mentions": [
+        "Ciuis Padewskiey",
+        "Actores"
+      ],
+      "justification": "Citizen of Padew acting in the lawsuit and whose signature/seal is on the agreement."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Padew",
+      "mention_texts": [
+        "Padewskiey"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of which Joannes Brożek is a citizen."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas",
+      "mention_texts": [
+        "Andreae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual in whose name the claim is brought."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Urbaninus",
+      "mention_texts": [
+        "Joannem Vrbaninum"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Itidem Ciuem Leopoliensem",
+        "Citatum",
+        "citatus"
+      ],
+      "justification": "Citizen of Lviv summoned regarding the possession of the Doliwska tenement."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Market square of Lviv where the tenement is located."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "1597"
+      ],
+      "descriptive_mentions": [
+        "annum"
+      ],
+      "justification": "Year until which the tenement was leased in the contract."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomae Kacos"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "praedicti"
+      ],
+      "justification": "Person whose seal and signature authenticated the disputed agreement."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Jacobum Kluczer Scabinum tam- quam Tutorem Patricis Ingenui Hieronymi Dziewynski minoris"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannem Vr- baninum Itidem Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannis Brozek Ciuis Padewskiey"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in eiusdem Ciuitatis circulo"
+    }
+  ]
+}

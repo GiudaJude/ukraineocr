@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0749.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Sclonck",
+      "mention_texts": [
+        "Erazmi Sclonck",
+        "Erazmo Sclonck"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Muratore",
+        "Cive Leopoliensi",
+        "eundem una cum successoribus"
+      ],
+      "justification": "Appears as the debtor/payer being acquitted by the provisors of the chapel."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Capella Mendicorum",
+      "mention_texts": [
+        "Capellae Mendicorum",
+        "Capella Mendicorum",
+        "Capellam Mendicorum"
+      ],
+      "descriptive_mentions": [
+        "vocatae in eisdem Civitatis Metropolitana Ecclesia sitae",
+        "praedictae Capellae",
+        "eadem Capella",
+        "eiusdem Capellae"
+      ],
+      "justification": "The Chapel of the Beggars located in the Lviv Latin Cathedral."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobus Gorszałek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses",
+        "tanquam Provisores Capellae Mendicorum vocatae in eisdem Civitatis Metropolitana Ecclesia sitae",
+        "Famatus",
+        "Sellio",
+        "Civis Leopoliensis",
+        "idem",
+        "pro ratore eiusdem Capellae"
+      ],
+      "justification": "Citizen and saddler of Lviv, provisor of the Beggars' Chapel."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Szostor",
+      "mention_texts": [
+        "Martinus Szostor"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses",
+        "tanquam Provisores Capellae Mendicorum vocatae in eisdem Civitatis Metropolitana Ecclesia sitae"
+      ],
+      "justification": "Citizen of Lviv and co-provisor of the Beggars' Chapel."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City context of the document and citizenship of the parties."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Metropolitana Ecclesia",
+        "Ecclesiam Metropolitanam",
+        "Ecclesia Metropolitana Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The metropolitan cathedral church in Lviv where the chapel is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "florenis Centum",
+        "Centum florenorum",
+        "Florenos Centum",
+        "Centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Sum of 100 florins settled and recorded in the document."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Bylinowska House",
+      "mention_texts": [
+        "Bylinowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "vocata in eiusdem Civitatis Circulo in acie versus Ecclesiam Metropolitanam sita",
+        "domumque praedictam lapideam"
+      ],
+      "justification": "Stone house on the market square encumbered with the census."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circulo"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis"
+      ],
+      "justification": "The main market square in Lviv where the house is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes a Prachnikia",
+      "mention_texts": [
+        "Joannem a Prachnikia"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "olim",
+        "Mansionarium in eadem Capella"
+      ],
+      "justification": "Deceased nobleman and former mansionary of the chapel who bequeathed the census."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "has_role",
+      "tail_entity_id": "E2",
+      "evidence": "tanquam Provisores Capellae Mendicorum vocatae in eisdem Civitatis Metropolitana Ecclesia sitae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "has_role",
+      "tail_entity_id": "E2",
+      "evidence": "tanquam Provisores Capellae Mendicorum vocatae in eisdem Civitatis Metropolitana Ecclesia sitae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Jacobus Gorszałek ... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martinus Szostor Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Erazmo Sclonck Muratore Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "Capellae Mendicorum vocatae in eisdem Civitatis Metropolitana Ecclesia sitae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "eisdem Civitatis Metropolitana Ecclesia"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in domo lapidea Bylinowska vocata in eiusdem Civitatis Circulo"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in eiusdem Civitatis Circulo"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "has_role",
+      "tail_entity_id": "E2",
+      "evidence": "Joannem a Prachnikia Mansionarium in eadem Capella"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "document_id": "arc2/0820.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named court of law presiding over the cited proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis",
+        "Civitatis"
+      ],
+      "justification": "City referenced in the text and in official titles."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Romanowicz",
+      "mention_texts": [
+        "Paulus Romanowicz"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Excellens D.",
+        "Medicinae Doctor",
+        "Collega noster Consularis"
+      ],
+      "justification": "Councilor and doctor appearing to acknowledge receipt of funds."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Camera Judicij Civitatis Leopoliensis",
+        "Consules Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Judicium",
+        "nos"
+      ],
+      "justification": "Municipal governing and judicial body acting in both entries."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Nowogrodzic",
+      "mention_texts": [
+        "Paulus Nowogrodzic"
+      ],
+      "descriptive_mentions": [
+        "D."
+      ],
+      "justification": "Consul of Lviv named in the heading/record."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Mille Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount of one thousand florins owed by the council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Karszowowski",
+      "mention_texts": [
+        "Stanislao Karszowowski"
+      ],
+      "descriptive_mentions": [
+        "Nobili"
+      ],
+      "justification": "Creditor from whom a share of the village Zimna Woda was bought."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Zimna Woda",
+      "mention_texts": [
+        "Zimnawoda"
+      ],
+      "descriptive_mentions": [
+        "Villae"
+      ],
+      "justification": "Village whose share was purchased by the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Paulus Romanowicz Medicinae Doctor Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "D. Consules Leopolienses Paulus Nowogrodzic"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E7",
+      "evidence": "propter dissoluendum debitum Mille Florenorum Nobili Stanislao Karszowowski quod eidem ex causa Emptionis sortis Villae Zimnawoda contraxeramus"
+    }
+  ]
+}

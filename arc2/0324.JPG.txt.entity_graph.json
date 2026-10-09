@@ -1,0 +1,257 @@
+{
+  "document_id": "arc2/0324.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears as Leopoli, Leopoliensis, and Leopolitanus in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda ante\nfestum Sancti Joannis Baptistae 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard court date entry from 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Surowa",
+      "mention_texts": [
+        "Dorothea\nSurowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the marginal note."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Linort",
+      "mention_texts": [
+        "Simon Linort"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "Tutores dati"
+      ],
+      "justification": "Appears as citizen of Lviv and tutor of the orphans."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szachera",
+      "mention_texts": [
+        "Stanislaus Szachera"
+      ],
+      "descriptive_mentions": [
+        "tinctor",
+        "Suburbanus Leopolitanus",
+        "Tutores dati"
+      ],
+      "justification": "Appears as dyer and suburban resident of Lviv, tutor of the orphans."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Janów",
+      "mention_texts": [
+        "Janow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Stanislaus Szachera ('de Janow')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Simon Kołodziejczyk",
+      "mention_texts": [
+        "Simonis",
+        "Kołodzieyczyk"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased father whose children are under tutorship."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Hołosko",
+      "mention_texts": [
+        "Holowsko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place associated with Simon Kołodziejczyk ('de omniori Holowsko')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Czwedworat",
+      "mention_texts": [
+        "Stephani Czwedworat"
+      ],
+      "descriptive_mentions": [
+        "contutorum",
+        "absentium"
+      ],
+      "justification": "Co-tutor from the Kraków suburb."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Cracoviensis Suburbij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv mentioned in connection with Stephanus Czwedworat."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wieziostani",
+      "mention_texts": [
+        "Alberti Wieziostani"
+      ],
+      "descriptive_mentions": [
+        "contutorum",
+        "absentium"
+      ],
+      "justification": "Co-tutor of the orphans."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "290 florins",
+      "mention_texts": [
+        "Ducentorum Nonaginta Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money in dispute/cession."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Stanowski Garden",
+      "mention_texts": [
+        "Stanowski"
+      ],
+      "descriptive_mentions": [
+        "horto Stanowski nuncupato"
+      ],
+      "justification": "Garden in Kleparów referred to as 'horto Stanowski nuncupato'."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0138: Kleparów",
+      "mention_texts": [
+        "Klieparow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Village/suburb where the garden is located."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Barbara Smutowa",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "olim"
+      ],
+      "justification": "Deceased wife of surgeon Laurentius Smut."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Smut",
+      "mention_texts": [
+        "Laurentij Smut"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Chyrurgi",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Surgeon and citizen of Lviv, deceased husband of Barbara."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [
+        "officij istius superioris",
+        "ijsdem Actis"
+      ],
+      "justification": "The municipal council/chancery office whose acts and inscriptions are referenced."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Simon Linort Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaus Szachera de Janow"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbanus Leopolitanus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Simonis olim Kołodzieyczyk de omniori Holowsko"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stephani Czwedworat Cracoviensis Suburbij"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E14",
+      "evidence": "super horto Stanowski nuncupato in Klieparow"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Barbara Famati olim Laurentij Smut"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Laurentij Smut Chyrurgi Civis Leopoliensis"
+    }
+  ]
+}

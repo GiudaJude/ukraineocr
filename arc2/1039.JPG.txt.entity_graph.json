@@ -1,0 +1,93 @@
+{
+  "document_id": "arc2/1039.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio praesenti"
+      ],
+      "descriptive_mentions": [
+        "Officio"
+      ],
+      "justification": "The court/council before which the declaration and transaction took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Królik",
+      "mention_texts": [
+        "Sebastianum"
+      ],
+      "descriptive_mentions": [
+        "eiusdem",
+        "annis iam pubertatis habentis",
+        "ingenuum",
+        "olim Martini Krolik filium",
+        "praedictam"
+      ],
+      "justification": "Young man party to the transaction, son of the late Martinus Królik."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Królik",
+      "mention_texts": [
+        "Martini Krolik"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Father of Sebastianus Królik."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Królik",
+      "mention_texts": [
+        "Stanislai Krolicz",
+        "Stanislai Krolik",
+        "Stanislaum Krolik",
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [
+        "praefati olim",
+        "praefatum olim",
+        "maritum",
+        "memoratum"
+      ],
+      "justification": "Deceased testator whose estate and legacy are the subject of the transaction; husband of Catherina."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Catherina Królikowa",
+      "mention_texts": [
+        "Catherinam",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "dictam",
+        "Viduam",
+        "memorata",
+        "Vidua"
+      ],
+      "justification": "Widow of the late Stanislaus Królik, party to the transaction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Sebastianum olim Martini Krolik filium"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "post praefatum olim Stanislaum Krolik memorata Catherina maritum"
+    }
+  ]
+}

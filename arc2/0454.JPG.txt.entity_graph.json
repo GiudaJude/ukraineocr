@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/0454.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Henricus",
+      "mention_texts": [
+        "Henrici",
+        "Henricus",
+        "Henrico",
+        "Henricum"
+      ],
+      "descriptive_mentions": [
+        "citati",
+        "legittimis Successoribus et haeredibus"
+      ],
+      "justification": "Relative and heir of deceased Joannes Rupert"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucae",
+        "Lucas",
+        "Lucam",
+        "Lucae Kwenstok"
+      ],
+      "descriptive_mentions": [
+        "citati",
+        "legittimis Successoribus et haeredibus"
+      ],
+      "justification": "Relative and heir of Joannes Rupert, identified as Lucas Kwenstok"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rupert",
+      "mention_texts": [
+        "Joannis Rupert"
+      ],
+      "descriptive_mentions": [
+        "demortui",
+        "dicti olim",
+        "praefatum olim"
+      ],
+      "justification": "Deceased individual whose estate and testament are under dispute"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "praedictae",
+        "consortis relictae"
+      ],
+      "justification": "Widow of the late Joannes Rupert holding life-estate rights"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensi",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the plebiscite and municipal offices"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi",
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv consular office before which Henricus and Lucas are ordered to verify their kinship by oath"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the royal decree was given"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta post Festum Sanctae Margarethae Virginis proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the decree issued in Kraków"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the regnal years and Vice-Chancellor's title"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Sweden",
+      "mention_texts": [
+        "Suetiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden mentioned in the royal dating formula"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Tarnowski",
+      "mention_texts": [
+        "Joannes Tarnowski",
+        "Joannis Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Regni Poloniae Vicecancellarius",
+        "Castellani Vladislaviensis Lanciciensis Praepositi Regni Poloniae Vicecancellarij"
+      ],
+      "justification": "Vice-Chancellor of the Kingdom of Poland subscribing the decree"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Zendi",
+      "mention_texts": [
+        "Petro Zendi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official or scribe associated with Joannes Tarnowski in the decree's subscript"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulus Szczerbicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Paulus Szczerbicz signing or recorded at the foot of the document"
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Ławski",
+      "mention_texts": [
+        "Stanislaw Lawski"
+      ],
+      "descriptive_mentions": [
+        "praedictus Advocatus"
+      ],
+      "justification": "Advocate who read the decree to Lucas Kwenstok"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedictae Agnetis consortis relictae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "relative_of",
+      "tail_entity_id": "E3",
+      "evidence": "cognationis Henrici et Lucae demortui Joannis Rupert"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "relative_of",
+      "tail_entity_id": "E3",
+      "evidence": "cognationis Henrici et Lucae demortui Joannis Rupert"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "officer_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannes Tarnowski Regni Poloniae Vicecancellarius"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Officium Consulare Leopoliense"
+    }
+  ]
+}

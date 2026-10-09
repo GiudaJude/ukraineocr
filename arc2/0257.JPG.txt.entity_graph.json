@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0257.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sophia Zygathowa",
+      "mention_texts": [
+        "Sophia Zygathowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Tutrice naturali"
+      ],
+      "justification": "Primary actor issuing a power of attorney and quitclaim regarding inherited shares."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Drzemione",
+      "mention_texts": [
+        "Albertum Drzemione"
+      ],
+      "descriptive_mentions": [
+        "Famigeratum",
+        "Civem Premisliensem",
+        "maritum suum legitimum tutorem",
+        "procuratorem"
+      ],
+      "justification": "Husband and legal guardian acting on behalf of Sophia Zygathowa."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Premisliensem",
+        "Premisliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Identified as the residence/citizenship of Albertus Drzemione and location of the scabinal court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szemniczek",
+      "mention_texts": [
+        "Jacobum Szemniczek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "tutore",
+        "fratres suos"
+      ],
+      "justification": "Brother and guardian mentioned in connection with the hereditary shares."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Szemniczlaus",
+      "mention_texts": [
+        "Szemniczlaum"
+      ],
+      "descriptive_mentions": [
+        "fratres suos"
+      ],
+      "justification": "Brother of Sophia Zygathowa protecting hereditary shares."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta Consularia Leopoliensia",
+        "servorum Consularium Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Acta"
+      ],
+      "justification": "The consular records and administration in Lviv where the act is registered."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensia",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv referenced in the consular registration context."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Szaszkowicz",
+      "mention_texts": [
+        "Simoni Szaszkowicz",
+        "Simone Szaszkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Party to whom hereditary rights and property are being resigned/sold."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kozak",
+      "mention_texts": [
+        "Alberto Kozak"
+      ],
+      "descriptive_mentions": [
+        "ferrifabre"
+      ],
+      "justification": "Blacksmith involved in the amicable agreement/transaction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Albertum Drzemione Civem Premisliensem maritum suum legitimum tutorem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertum Drzemione Civem Premisliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobum Szemniczek tutore et Szemniczlaum fratres suos"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobum Szemniczek tutore et Szemniczlaum fratres suos"
+    }
+  ]
+}

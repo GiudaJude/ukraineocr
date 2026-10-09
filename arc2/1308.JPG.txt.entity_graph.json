@@ -1,0 +1,108 @@
+{
+  "document_id": "arc2/1308.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "700 Polish florins",
+      "mention_texts": [
+        "septingentorum florenorum",
+        "septingentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document specifies the transaction sum of 700 florins ('septingentorum florenorum perampli et numeri Polonicali')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Młotkowicz",
+      "mention_texts": [
+        "Stanislai Młotkowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as the father of the minor girl Barbara ('minoris filiae Stanislai Młotkowicz')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "minoris filiae",
+        "praefatae minoris",
+        "praefatae minoris puellae",
+        "praedictae minoris",
+        "minoris"
+      ],
+      "justification": "Identified as the minor daughter Barbara of Stanislaus Młotkowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "floreniquinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Specific sum of 50 florins apportioned to the minor Barbara ('floreniquinquaginta')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Ilusicus",
+      "mention_texts": [
+        "Albertus Ilusicus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party involved in the agreement who is granted usufruct under condition of providing authentic documentation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulum Simonowic"
+      ],
+      "descriptive_mentions": [
+        "consulem"
+      ],
+      "justification": "Identified as Paulus Simonowic, consul of Lviv, with whom the money is deposited."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civitas Leopoliensis, city where Paulus Simonowic is consul."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Cossowic",
+      "mention_texts": [
+        "Joannes Cossowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as guarantor ('Joannes Cossowic fideiussit')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "minoris filiae Stanislai Młotkowicz"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Paulum Simonowic civitatis Leopoliensis consulem"
+    }
+  ]
+}

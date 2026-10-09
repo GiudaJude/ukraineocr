@@ -1,0 +1,176 @@
+{
+  "document_id": "arc2/0307.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Domini Advocati & Fidelium Iuris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court office mentioned at the beginning of the legal entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Alexius Wolfowicz",
+      "mention_texts": [
+        "Alexius Wolfowicz",
+        "Wolfowic"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "Famatus"
+      ],
+      "justification": "Citizen of Lviv entering a formal protestation into the court records."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis",
+        "Leopoliensis",
+        "Leopolitani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced via citizenship, suburban status, and municipal property grounds."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Castor Kaszowski",
+      "mention_texts": [
+        "Castoris Kaszowski",
+        "Kaszowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "praefatum Generosum",
+        "Generosus"
+      ],
+      "justification": "Noble adversary cited in the protestation for failing to appear."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta nostra praesentia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court/council acts receiving the protestation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Koczwot",
+      "mention_texts": [
+        "Stanislaus Koczwot",
+        "Stanisław Koczut"
+      ],
+      "descriptive_mentions": [
+        "Ferrifaber",
+        "Honesti",
+        "coniuges",
+        "maritum legitimum suum tutorem",
+        "Suburbani Leopolitani"
+      ],
+      "justification": "Suburban blacksmith of Lviv selling a property share."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Suburbani Leopolitani"
+      ],
+      "justification": "Wife of Stanislaus Koczwot, acting with her husband as guardian to sell their share."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lucas Gieraczyn",
+      "mention_texts": [
+        "Lucam Gieraczyn"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the sold property on one side."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Pawluczko",
+      "mention_texts": [
+        "Joannem Pawluczko",
+        "Pawluczko"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "eondem",
+        "famosi Pawluczko"
+      ],
+      "justification": "Purchaser of the property who paid the full sum."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Catharina Gieraczyna",
+      "mention_texts": [
+        "Catharinae Gieraczyna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "consortis famosi Pawluczko"
+      ],
+      "justification": "Wife of Joannes Pawluczko, associated with the property transaction."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "25 Polish florins",
+      "mention_texts": [
+        "viginti quinque Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sale price paid for the property share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Alexius Wolfowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stanislaus Koczwot Ferrifaber et Dorothea coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Koczwot Ferrifaber et Dorothea coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Koczwot Ferrifaber et Dorothea coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Catharinae Gieraczyna consortis famosi Pawluczko"
+    }
+  ]
+}

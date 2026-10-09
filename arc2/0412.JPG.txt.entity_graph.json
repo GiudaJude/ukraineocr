@@ -1,0 +1,176 @@
+{
+  "document_id": "arc2/0412.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Debited sum mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Janus Gladiator Vngarus",
+      "mention_texts": [
+        "Janussium Gladiatorem Vngarum",
+        "Janussio Vngaro",
+        "Janussius Gladiator Vngarus",
+        "Janussius Vngarus Gladiator",
+        "Janussius Gladiator"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Coniuges",
+        "coniugibus",
+        "Famati",
+        "Cives Leopolienses",
+        "mariti sui",
+        "ipse Famatus"
+      ],
+      "justification": "Party in the debt quittance and marital mutual donation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiam",
+        "Sophia",
+        "praedictam Sophiam"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "coniugibus",
+        "Vxore",
+        "Honesta",
+        "consorte ipsius legitima",
+        "Cives Leopolienses",
+        "consortem"
+      ],
+      "justification": "Wife of Janussius Vngarus Gladiator."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis meis",
+        "Consularem residentiam",
+        "officio nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council court recording and approving the transactions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria quarta in Vigilia Festi S. Mathiae Apostoli Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Daischaniowska House",
+      "mention_texts": [
+        "Lapidea Daischaniowska"
+      ],
+      "descriptive_mentions": [
+        "habitationibus certis"
+      ],
+      "justification": "Stone townhouse hypothecated for the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Centum quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Total debt amount settled."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place and citizenship of parties."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Kunicz",
+      "mention_texts": [
+        "Simonem Kunicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Frenificem",
+        "Civem Leopoliensem",
+        "tutorem"
+      ],
+      "justification": "Legal guardian (tutor) assisting Sophia in the council court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Janussium Gladiatorem Vngarum et Sophiam Coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Sophia consorte ipsius legitima"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Famatum Simonem Kunicz Frenificem Civem Leopoliensem tutorem sibi in rem praesentem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Janussius Vngarus Gladiator cum Honesta Sophia consorte ipsius legitima Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Janussius Vngarus Gladiator cum Honesta Sophia consorte ipsius legitima Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Simonem Kunicz Frenificem Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in habitationibus certis Lapidea Daischaniowska nuncupatam ... Actum Leopoli vt supra."
+    }
+  ]
+}

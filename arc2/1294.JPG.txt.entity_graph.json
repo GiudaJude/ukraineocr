@@ -1,0 +1,195 @@
+{
+  "document_id": "arc2/1294.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "PER-0254",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Alberti Domagala",
+        "Albertum Domagała",
+        "Domagała",
+        "Alberto Domagała",
+        "Albertus Domagała"
+      ],
+      "descriptive_mentions": [
+        "Carnificem Suburbanum Leopoliensem",
+        "Carnifice",
+        "eundem",
+        "eodem praedicto",
+        "Honestus",
+        "Carnifex Suburbanum Leopoliensem",
+        "cessionario"
+      ],
+      "justification": "Identified as suburban butcher Albertus Domagała, debtor and party to the quietationes."
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Stanislaus Szedzyca",
+      "mention_texts": [
+        "Gaspar Stanislaus Szedzyca"
+      ],
+      "descriptive_mentions": [
+        "Venerabilis",
+        "sibi"
+      ],
+      "justification": "The venerable person appearing personally under guardianship to recognize full satisfaction of a debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Hieroński",
+      "mention_texts": [
+        "Albertum Hieronski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Tutore testamentario",
+        "Tutore sibi assumptum"
+      ],
+      "justification": "Noble testamentary guardian assisting Gaspar Stanislaus Szedzyca."
+    },
+    {
+      "entity_id": "CUR-0016",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "florenis triginta"
+      ],
+      "descriptive_mentions": [
+        "boni et iusti ponderis debiti"
+      ],
+      "justification": "Sum of 30 florins paid in satisfaction of debt."
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the butcher's suburban status (Suburbanum Leopoliensem)."
+    },
+    {
+      "entity_id": "PER-0079",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis",
+        "Agneti",
+        "Agnetem"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "primi conthoralis",
+        "uxoris legitimae cogitatis",
+        "secundarum nuptiarum uxori relictae",
+        "ipsam"
+      ],
+      "justification": "Wife of Paulus Czop and later Thomas Sarzyński, on whose intercession and rights the debts were transferred/settled."
+    },
+    {
+      "entity_id": "PER-0525",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli Czop",
+        "Paulo Czop"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "eius"
+      ],
+      "justification": "Deceased former husband of Agnes whose estate/debts are involved."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sarzyński",
+      "mention_texts": [
+        "Thomae Sarzynski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Ungari",
+        "militis pedestris stipendiarij S. R. Mttis"
+      ],
+      "justification": "Hungarian noble mercenary foot-soldier in royal service, husband of Agnes."
+    },
+    {
+      "entity_id": "PER-0556",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "S. R. Mttis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal Majesty (Sigismund III Vasa) whom Thomas Sarzyński served as stipendiary soldier."
+    },
+    {
+      "entity_id": "PER-0124",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastiani Baran",
+        "Sebastianum Baran",
+        "Sebastiano Baran"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Doliatorem",
+        "eodem praedicto",
+        "debitore",
+        "eundem"
+      ],
+      "justification": "Sebastian Baran, cooper (doliator), debtor of the second instalment who paid Domagała."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "33 florins 16 groschen",
+      "mention_texts": [
+        "florenis triginta tribus et grossis decem sex"
+      ],
+      "descriptive_mentions": [
+        "rata secunda debiti",
+        "praedicta rata secunda debiti"
+      ],
+      "justification": "Sum of 33 florins and 16 groschen paid by Sebastian Baran."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Nobilem Albertum Hieronski Tutore testamentario prae- Tutore sibi assumptum"
+    },
+    {
+      "head_entity_id": "PER-0254",
+      "relation": "resides_in",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Carnificem Suburbanum Leopoliensem"
+    },
+    {
+      "head_entity_id": "PER-0079",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "PER-0525",
+      "evidence": "Honestae Agnetis primi conthoralis Pauli Czop"
+    },
+    {
+      "head_entity_id": "PER-0079",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "secundae Nobilis Thomae Sarzynski Ungari militis pedestris stipendiarij S. R. Mttis uxoris legitimae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "serves",
+      "tail_entity_id": "PER-0556",
+      "evidence": "militis pedestris stipendiarij S. R. Mttis"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "document_id": "arc2/0740.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Stogmionowa"
+      ],
+      "descriptive_mentions": [
+        "praedicta"
+      ],
+      "justification": "Appears in the first entry agreeing to the division of property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Bebelczna",
+        "Anna Mazurowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx",
+        "ipsa"
+      ],
+      "justification": "Protesting party protecting her third part in the house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Bebelka",
+      "mention_texts": [
+        "Bartholomaei Bebelka"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolien",
+        "mariti sui",
+        "mariti"
+      ],
+      "justification": "Husband of Anna Mazurowna, suburban resident of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Benedictus Cerdo",
+      "mention_texts": [
+        "Benedictum Cerdorem"
+      ],
+      "descriptive_mentions": [
+        "Providum",
+        "tutorem",
+        "cognatum suum"
+      ],
+      "justification": "Kinsman and appointed legal guardian of Anna Mazurowna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Jarzęczka",
+      "mention_texts": [
+        "Jacobi Jarzęczki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Contracting party in the pledging of the house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Bebelczyńska House",
+      "mention_texts": [
+        "domus Bebelczynska"
+      ],
+      "descriptive_mentions": [
+        "domo praefata"
+      ],
+      "justification": "The house being pledged."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolien",
+        "Civitatis istius",
+        "Leopol"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the entries."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "acta praesentia",
+        "actis ijsdem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council records in which the protestation and obligation are registered."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Meer",
+      "mention_texts": [
+        "Joannes Meer",
+        "Meer"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Institor",
+        "Coniuges Cives Leopolien",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Lviv citizen and merchant confessing a debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Anna Meer",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "uxor ipsius",
+        "Coniuges Cives Leopolien"
+      ],
+      "justification": "Wife of Joannes Meer, joint debtor."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "104 Polish florins",
+      "mention_texts": [
+        "Florenos Centum quatuor pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount borrowed by Joannes Meer and his wife."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0248: Stanislaus Krasnicki",
+      "mention_texts": [
+        "Stanislaus Sraynici",
+        "Stanislao Krasniczki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Syndico protunc Leopol"
+      ],
+      "justification": "Creditor and syndic of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Paschae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Repayment term for the debt."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno proxime sequenti venturo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year corresponding to the upcoming Easter repayment term."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Anna Mazurowna Honesti Bartholomaei Bebelka Suburbani Leopolien coniunx"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Anna Mazurowna Honesti Bartholomaei Bebelka Suburbani Leopolien coniunx"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "relative_of",
+      "tail_entity_id": "E2",
+      "evidence": "Benedictum Cerdorem cognatum suum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Joannes Meer Institor et Anna uxor ipsius Coniuges"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannes Meer Institor et Anna uxor ipsius Coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "debtor_of",
+      "tail_entity_id": "E12",
+      "evidence": "recognouerunt se debere et teneri veri iusti liquidique debiti ex causa mutui contracti Florenos Centum quatuor pecuniae et numeri Polonici Nobili Stanislao Krasniczki"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "debtor_of",
+      "tail_entity_id": "E12",
+      "evidence": "recognouerunt se debere et teneri veri iusti liquidique debiti ex causa mutui contracti Florenos Centum quatuor pecuniae et numeri Polonici Nobili Stanislao Krasniczki"
+    }
+  ]
+}

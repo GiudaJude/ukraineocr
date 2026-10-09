@@ -1,0 +1,128 @@
+{
+  "document_id": "arc2/1551.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitati",
+        "ea Civitate",
+        "Civitatis eius",
+        "Civitas"
+      ],
+      "justification": "City of Lviv referenced by its Latin locative form Leopoli and by civic references."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens Consulare"
+      ],
+      "descriptive_mentions": [
+        "Magistratuique illius"
+      ],
+      "justification": "The consular office and magistracy of Lviv entering obligations and acting in council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv before which property resignation is to be executed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "festa Pentecostes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day on which the annual census payment is due."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "złoty",
+      "mention_texts": [
+        "Florenum unum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary unit for the annual rent/census."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rozenman",
+      "mention_texts": [
+        "Stanislaw Rurzenman"
+      ],
+      "descriptive_mentions": [
+        "Doctorem",
+        "Plenipotentes",
+        "spectabiles et Famatos",
+        "Collegas meos Consulares"
+      ],
+      "justification": "Doctor Stanisław Rozenman/Różanka, appointed plenipotentiary and consul of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobum Scholz"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentes",
+        "spectabiles et Famatos",
+        "Collegas meos Consulares"
+      ],
+      "justification": "Jakub Szolc, appointed plenipotentiary and consular colleague."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Starzycki",
+      "mention_texts": [
+        "Andream Starzicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "tutore et Procuratorem seuum"
+      ],
+      "justification": "Noble Andrzej Starzycki acting as guardian and procurator for the purchasers."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "1559",
+      "mention_texts": [
+        "feria quarta ante Festum Sancti Tome Apostoli proxima Anno Domini 1559"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of completion of the legal document (20 December 1559)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Doctorem Stanislaw Rurzenman ... Collegas meos Consulares"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jacobum Scholz Collegas meos Consulares"
+    }
+  ]
+}

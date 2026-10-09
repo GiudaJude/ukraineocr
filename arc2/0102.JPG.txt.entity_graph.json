@@ -1,0 +1,80 @@
+{
+  "document_id": "arc2/0102.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0514: Laurentius Schmid",
+      "mention_texts": [
+        "Laurentius Schmidt",
+        "Laurentius Sessmil"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "natu iunior",
+        "memoratus",
+        "affinis seuus"
+      ],
+      "justification": "Laurentius Schmidt (referred to also as Laurentius Sessmil), designated as younger by birth and relative/in-law to Stanislaus Wilczek, receives shares in the division of property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0321: Stanislaus Wilczek",
+      "mention_texts": [
+        "Stanislao Cwilczek",
+        "Stanislaus Cwilczek"
+      ],
+      "descriptive_mentions": [
+        "Praedicto",
+        "diuisori",
+        "praedicti",
+        "idem Famatus"
+      ],
+      "justification": "Stanislaus Cwilczek, divisioner and party to the division of the stone house and the Łysiakowska share."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal books of Lviv into which the parties requested the division to be inscribed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Barbara Łysiakowa",
+      "mention_texts": [
+        "Barbarae Lysiakowa"
+      ],
+      "descriptive_mentions": [
+        "praefatae",
+        "olim"
+      ],
+      "justification": "Deceased woman whose succession and share are divided between Stanislaus Wilczek and Laurentius Schmid."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Malborski",
+      "mention_texts": [
+        "Paulus Malborski"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Person appearing in the subsequent concord entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is_related_to",
+      "tail_entity_id": "E2",
+      "evidence": "memoratus Laurentius Sessmil affinis seuus"
+    }
+  ]
+}

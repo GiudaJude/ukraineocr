@@ -1,0 +1,284 @@
+{
+  "document_id": "arc2/1027.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officij",
+        "Officium Consulare Leopoliensie"
+      ],
+      "descriptive_mentions": [
+        "Decreto",
+        "praesens Decretum",
+        "Officiove"
+      ],
+      "justification": "City council issuing the legal decrees in the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoli",
+        "Leopoliensie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to throughout the legal entries."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Szostakowic",
+      "mention_texts": [
+        "Simone Szustakowic",
+        "Simone' Krzykotowisz"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "nuntium Leopoliensem",
+        "Actorem",
+        "actori"
+      ],
+      "justification": "City messenger and plaintiff pursuing claim against Joannes Olszowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannem Olszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Pellionem",
+        "Civem Leopoliensem",
+        "citatum",
+        "exequutor",
+        "citatus",
+        "citato"
+      ],
+      "justification": "Furrier and burgher of Lviv, executor of Anna Szostaczkowa's testament."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Advocati Leopoliensis",
+        "Domini Advocati"
+      ],
+      "descriptive_mentions": [
+        "sententia Excellentissimorum Advocati Leopoliensis",
+        "sententia Domini Advocati"
+      ],
+      "justification": "Advocatial court of Lviv from whose sentence the appeal was made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "14 florins",
+      "mention_texts": [
+        "quatuordecim Florenorum",
+        "quatuordecim Florenos"
+      ],
+      "descriptive_mentions": [
+        "summae"
+      ],
+      "justification": "Sum of money promised and bequeathed in the testament."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Anna Szostaczkowa",
+      "mention_texts": [
+        "Anna Szostaczkowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "olim",
+        "sua soror"
+      ],
+      "justification": "Late sister of Simon Szostakowic who acknowledged the debt in her testament."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Czarna Kawcz",
+      "mention_texts": [
+        "Paulo Czarna Kawcz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual mentioned in the marginal rubric of the second decree."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Thomas Zanio",
+      "mention_texts": [
+        "Toman Zanio",
+        "Thomae Zanio"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum",
+        "tanquam Tutorem",
+        "Actorum"
+      ],
+      "justification": "Scabinus acting as guardian for the orphan Franciscus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Szymanowicz",
+      "mention_texts": [
+        "Francisci"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "Pupillo",
+        "puerum"
+      ],
+      "justification": "Minor orphan, son of the late Andreas Szymanowicz and Agnes."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreae Szymanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "conjugum"
+      ],
+      "justification": "Deceased father of the ward Franciscus."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Agnes Szpeari",
+      "mention_texts": [
+        "Agnetis Szpeari"
+      ],
+      "descriptive_mentions": [
+        "conjugum"
+      ],
+      "justification": "Mother of Franciscus and spouse of the late Andreas Szymanowicz."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Albertus Zolmero",
+      "mention_texts": [
+        "Albertum Zolmero"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "conjugum"
+      ],
+      "justification": "Individual party mentioned in the guardianship matter."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Ellera Zolmero",
+      "mention_texts": [
+        "Ellera Zolmero"
+      ],
+      "descriptive_mentions": [
+        "contutoris"
+      ],
+      "justification": "Co-guardian named alongside Thomas Zanio."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Adamus Alexman",
+      "mention_texts": [
+        "Adamum Alexman"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Lanium",
+        "citatum"
+      ],
+      "justification": "Butcher cited concerning non-restitution of meat stall shares."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Lamacij Wojnarowicz",
+      "mention_texts": [
+        "Lamacij",
+        "Wojnarowiczowie"
+      ],
+      "descriptive_mentions": [
+        "Laniupal"
+      ],
+      "justification": "Butcher from whose estate the meat stall shares derive."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Beatricij Wojnarowicz",
+      "mention_texts": [
+        "Beatricij",
+        "Wojnarowiczowie"
+      ],
+      "descriptive_mentions": [
+        "Laniupal"
+      ],
+      "justification": "Butcher mentioned alongside Lamacij regarding the meat stall shares."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Anna Szostaczkowa sua soror Fatoris"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "executor_of_will_of",
+      "tail_entity_id": "E7",
+      "evidence": "Testamento (cuius est citatus exequutor)"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "olim Andreae Szymanowicz et Agnetis Szpeari conjugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Ingenui Francisci Famati olim Andreae Szymanowicz et Agnetis Szpeari conjugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Ingenui Francisci Famati olim Andreae Szymanowicz et Agnetis Szpeari conjugum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Toman Zanio Scabinum tanquam Tutorem Ingenui Francisci"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Ellera Zolmero contutoris ... Francisci Pupillo"
+    }
+  ]
+}

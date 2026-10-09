@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/0594.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis",
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopolienorum"
+      ],
+      "descriptive_mentions": [
+        "huius Civitatis"
+      ],
+      "justification": "Corpus standard for the city of Lwów (Leopolis)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio",
+        "portam Halicien",
+        "Suburbio Halickie"
+      ],
+      "descriptive_mentions": [
+        "suburbio huius Civitatis ante portam Halicien sitam",
+        "Suburbio Halickie dicto"
+      ],
+      "justification": "Halych Suburb, located outside the Halych Gate of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Samionowski",
+      "mention_texts": [
+        "Paulus Samionowzski",
+        "Pauli Samionowski",
+        "Samionowski"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "corpore languidus mente tamen sanus",
+        "Nobilis",
+        "corpore languidi, animo tamen bene sani",
+        "praefatus"
+      ],
+      "justification": "Testator making his testamentary declaration."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia post Dominicam Judica proxima Anno Domini 159 Sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session: Tuesday after Judica Sunday 1596."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Albertus Ledicanus"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Domini",
+        "Aduocatus"
+      ],
+      "justification": "Corpus entity Albertus Pedianus acting as Advocatus (Advocate)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Melchior Gostophomicz",
+      "mention_texts": [
+        "Melchior Gostophomicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Domini",
+        "Scabini Jurati Leopolienses"
+      ],
+      "justification": "Lviv bencher (scabinus) witnessing the declaration."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Domini",
+        "Scabini Jurati Leopolienses"
+      ],
+      "justification": "Corpus entity Thomas Karcz, scabinus of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Orzechowski",
+      "mention_texts": [
+        "Orzechowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilibus"
+      ],
+      "justification": "Noble debtor mentioned in the testament."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "1700 florins",
+      "mention_texts": [
+        "Florenos Mille et septingen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt initially assessed."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "Florenos Quingentos"
+      ],
+      "descriptive_mentions": [
+        "praefata summa"
+      ],
+      "justification": "Amount deducted from the total sum."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "1500 florins",
+      "mention_texts": [
+        "Florenos Mille quingentos",
+        "Mille quingentos Florenos"
+      ],
+      "descriptive_mentions": [
+        "summam praefatam"
+      ],
+      "justification": "Amount bequeathed to the wife."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Ista Pnexencia Famiskowna",
+      "mention_texts": [
+        "Ista Pnexencia Famiskowna"
+      ],
+      "descriptive_mentions": [
+        "vxor",
+        "vxori sua secundi matrimonij"
+      ],
+      "justification": "Wife of Paulus Samionowski from his second marriage."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officij Aduocatialis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Sigillum Officij Aduocatialis Leopoliensis"
+      ],
+      "justification": "The advocatial court/office that certified the testament."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "has_spouse",
+      "tail_entity_id": "E12",
+      "evidence": "Ista Pnexencia Famiskowna vxori sua secundi matrimonij dedit et donauit"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E13",
+      "evidence": "Domini Albertus Ledicanus Aduocatus... Sigillum Officij Aduocatialis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E13",
+      "evidence": "Melchior Gostophomicz et Thomas Karcz Scabini Jurati Leopolienses... Sigillum Officij Aduocatialis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E13",
+      "evidence": "Melchior Gostophomicz et Thomas Karcz Scabini Jurati Leopolienses... Sigillum Officij Aduocatialis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "descenderunt in domum eiusdem in Suburbio Halickie dicto"
+    }
+  ]
+}

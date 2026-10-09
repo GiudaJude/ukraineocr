@@ -1,0 +1,252 @@
+{
+  "document_id": "arc2/0948.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenos Ungaricalium pecunia et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 100 Hungarian florins counted in Polish currency mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mossey Tubiey",
+      "mention_texts": [
+        "Mossey Tubiey"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "deiectum",
+        "praedicto",
+        "Judaeo Constantinopolitano"
+      ],
+      "justification": "Jewish merchant from Constantinople mentioned in the quittance."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Janus Salvatzo",
+      "mention_texts": [
+        "Jani Salvatzo"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Graeci factoris"
+      ],
+      "justification": "Greek factor of the late Nicolaus Tomeski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Tomeski",
+      "mention_texts": [
+        "Nicolai Tomeski"
+      ],
+      "descriptive_mentions": [
+        "Quondam",
+        "balaczi"
+      ],
+      "justification": "Deceased person whose factor was Janus Salvatzo."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0294: Constantinople",
+      "mention_texts": [
+        "Constantinopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Mossey Tubiey."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Abraham Moszewicz",
+      "mention_texts": [
+        "Ebrahamum Moszewicz"
+      ],
+      "descriptive_mentions": [
+        "infidelem",
+        "Judaeum Leopoliensem",
+        "fideiussorem"
+      ],
+      "justification": "Jewish guarantor from Lviv acting on behalf of Mossey Tubiey."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitas"
+      ],
+      "justification": "City where the legal proceedings and quittance took place."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referencing the date established earlier in the registry."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Magistratus",
+        "Officij",
+        "officium",
+        "Officio"
+      ],
+      "justification": "The municipal consular office recording the case."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kaperzowicz",
+      "mention_texts": [
+        "Joannes Kaperzowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Oleator Suburbanus Leopoliensis",
+        "praedictus",
+        "idem",
+        "inculpatus"
+      ],
+      "justification": "Oilmaker from the Lviv suburb taking an oath before the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Szedelczayna"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "Instigator of the oath against Joannes Kaperzowicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sartor",
+      "mention_texts": [
+        "Joannis Sartoris"
+      ],
+      "descriptive_mentions": [
+        "mediatris"
+      ],
+      "justification": "Party involved in the suit against Joannes Kaperzowicz."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Lepaes",
+      "mention_texts": [
+        "Valentinum Lepaes"
+      ],
+      "descriptive_mentions": [
+        "compurgatores Honestos",
+        "Suburbanos Leopolienses",
+        "Testes",
+        "compurgatores"
+      ],
+      "justification": "Compurgator for Joannes Kaperzowicz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Simon Gora",
+      "mention_texts": [
+        "Simonem Gora"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Suburbanos Leopolienses",
+        "Testes",
+        "compurgatores"
+      ],
+      "justification": "Compurgator for Joannes Kaperzowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "originates_from",
+      "tail_entity_id": "E5",
+      "evidence": "eidem praedicto Mossey Tubiey Judaeo Constantinopolitano donavit"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "vnaque et infidelem Ebrahamum Moszewicz Judaeum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_guarantor_for",
+      "tail_entity_id": "E2",
+      "evidence": "Ebrahamum Moszewicz Judaeum Leopoliensem pro praedicto Mossey Tubiey fideiussorem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "factor_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Jani Salvatzo Graeci factoris Quondam Nicolai Tomeski"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannes Kaperzowicz Oleator Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "appears_before",
+      "tail_entity_id": "E9",
+      "evidence": "Coram Officio Consulari Leopoliensi comparens personaliter Honestus Joannes Kaperzowicz Oleator"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "compurgator_for",
+      "tail_entity_id": "E10",
+      "evidence": "statuitque compurgatores Honestos Valentinum Lepaes et Simonem Gora Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "compurgator_for",
+      "tail_entity_id": "E10",
+      "evidence": "statuitque compurgatores Honestos Valentinum Lepaes et Simonem Gora Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Valentinum Lepaes et Simonem Gora Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Valentinum Lepaes et Simonem Gora Suburbanos Leopolienses"
+    }
+  ]
+}

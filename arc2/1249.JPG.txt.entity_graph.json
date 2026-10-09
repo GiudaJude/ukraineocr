@@ -1,0 +1,114 @@
+{
+  "document_id": "arc2/1249.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis praefatae"
+      ],
+      "justification": "Identified as the city of Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gorsinus",
+      "mention_texts": [
+        "Stanislaum Gorsinum"
+      ],
+      "descriptive_mentions": [
+        "Spectabilem Dominum",
+        "Collegam nostrum Consularem",
+        "Civitatis praefatae Procuratorem"
+      ],
+      "justification": "City council member and procurator appearing before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio nostro",
+        "Acta nostra praesentia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/office receiving the document into the municipal acts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Łozowicki",
+      "mention_texts": [
+        "Sigismundi Lozowicki"
+      ],
+      "descriptive_mentions": [
+        "Dominorum",
+        "praefati Generosi"
+      ],
+      "justification": "Nobleman whose seal and subscription are on the submitted document."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krasiejinski",
+      "mention_texts": [
+        "Joannis Krasieyinski"
+      ],
+      "descriptive_mentions": [
+        "Dominorum"
+      ],
+      "justification": "Person whose seal and subscription are on the submitted document."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Antonius Cobelski",
+      "mention_texts": [
+        "Antonij Cobelski"
+      ],
+      "descriptive_mentions": [
+        "Dominorum"
+      ],
+      "justification": "Person whose seal and subscription are on the submitted document."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die Sancti Bartholomaei Anno proxime praeterito 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the submitted document (St. Bartholomew's Day 1595)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Conventum patrum Bernardinorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Bernardine convent in Lviv benefiting from testamentary bequests."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Collegam nostrum Consularem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "procurator_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civitatis praefatae Procuratorem"
+    }
+  ]
+}

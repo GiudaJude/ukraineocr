@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/1346.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Emerentia",
+      "mention_texts": [
+        "Emerentiae",
+        "Emerentia"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "uxoris legitimae",
+        "praefatae",
+        "praefata"
+      ],
+      "justification": "Wife of Georgius Zoltora appearing before the court for property inspection."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Georgius Zoltora",
+      "mention_texts": [
+        "Georgij Zoltora",
+        "Georgij Pytora"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "Praedicti",
+        "Carnificis Profratris",
+        "profugi",
+        "praefati sui mariti",
+        "mariti",
+        "sui mariti"
+      ],
+      "justification": "Husband of Emerentia, butcher who fled the city leaving debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Podwies",
+      "mention_texts": [
+        "Jacobi Podwies"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Doliatoris",
+        "Tutoris"
+      ],
+      "justification": "Cooper appointed as guardian for Emerentia in the legal proceeding."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Wojtucki",
+      "mention_texts": [
+        "Andreae Wojtucki"
+      ],
+      "descriptive_mentions": [
+        "Eidem"
+      ],
+      "justification": "Party requesting the relation to be registered in the court books."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrzecki"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Honorati Domini",
+        "Iuris Utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Doctor of laws and advocate of Lviv carrying out property appraisal."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Bernt",
+      "mention_texts": [
+        "Wolffgangus Bernk"
+      ],
+      "descriptive_mentions": [
+        "Scabini Iurati"
+      ],
+      "justification": "Sworn bench assessor of Lviv conducting property appraisal."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karcz",
+      "mention_texts": [
+        "Tomas Karas"
+      ],
+      "descriptive_mentions": [
+        "Scabini Iurati"
+      ],
+      "justification": "Sworn bench assessor of Lviv conducting property appraisal."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Augustinus Kittlars",
+      "mention_texts": [
+        "Augustini Kittlars"
+      ],
+      "descriptive_mentions": [
+        "Honestorum"
+      ],
+      "justification": "Neighbor owning a neighboring house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Petrus Piwowar",
+      "mention_texts": [
+        "Peri",
+        "Piwowar"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased brewer whose successors own a neighboring house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate",
+        "Civitatis"
+      ],
+      "justification": "City whose councilors and territory are mentioned."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Zsirtynek Street",
+      "mention_texts": [
+        "Zsirtynek"
+      ],
+      "descriptive_mentions": [
+        "platea"
+      ],
+      "justification": "Street where the inspected house and property are located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Doktorowska House",
+      "mention_texts": [
+        "Doktorowska"
+      ],
+      "descriptive_mentions": [
+        "domum et Sortem",
+        "domum cum sorto"
+      ],
+      "justification": "House and property inspected and appraised by the court."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "160 Polish florins",
+      "mention_texts": [
+        "Florenorum centum sexaginta Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum at which the house and property were appraised."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Emerentiae Praedicti Georgij Zoltora Carnificis Profratris ab ea Civitate profugi Secundi and mi- stratum uxoris legitimae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "Emerentiae praefati Georgij Zoltora cum assistentia Honesti Jacobi Podwies Doliatoris Tutoris sibi ad eum actum assumpti"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E10",
+      "evidence": "Gregorius Dobrzecki Iuris Utriusque Doctor Advocatus Ordinarius et Wolffgangus Bernk atque Tomas Karas Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E10",
+      "evidence": "Wolffgangus Bernk atque Tomas Karas Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E10",
+      "evidence": "Tomas Karas Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "domum et Sortem dicta Doktorowska in platea Zsirtynek"
+    }
+  ]
+}

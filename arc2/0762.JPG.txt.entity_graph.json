@@ -1,0 +1,136 @@
+{
+  "document_id": "arc2/0762.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Janusz Nemeth",
+      "mention_texts": [
+        "Janusz Nemeth",
+        "Janussio Nemeth Ungaro",
+        "Janussij Nemeth"
+      ],
+      "descriptive_mentions": [
+        "Civi Leopoliensi",
+        "Cive Leopoliensi",
+        "condescensario",
+        "praefato",
+        "praenominati",
+        "eundem"
+      ],
+      "justification": "Named as the Hungarian citizen of Lviv receiving the debt cession."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baranowski",
+      "mention_texts": [
+        "Joannes Baranowski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "Vicecapitaneus Jaworowiensis",
+        "se"
+      ],
+      "justification": "Named as the vice-starosta of Jaworów who personally appeared to cede the debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Jaworów",
+      "mention_texts": [
+        "Jaworowiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by Baranowski's title as Vicecapitaneus Jaworowiensis."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Hanel",
+      "mention_texts": [
+        "Martinum Hanel"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "debitoris"
+      ],
+      "justification": "Named as the Lviv citizen who owed the original debt to Baranowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town mentioned in citizen titles and in the datum line 'Actum Leopoli'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "iurisdictioni praesenti"
+      ],
+      "justification": "The municipal council records in which the original entry was made and this act is registered."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "feria secunda ante Festum Sanctae Mariae Magdalenae proxima Anno Domini 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous inscription cited in the text."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Festum Epiphaniae Domini proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date when this legal action took place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Tulio del Pace",
+      "mention_texts": [
+        "Tulijo del Pace"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named at the end of the entry as holding a power of attorney ('Plenipotentia Tulijo del Pace')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "held_role_at",
+      "tail_entity_id": "E3",
+      "evidence": "Generosus Joannes Baranowski Vicecapitaneus Jaworowiensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martinum Hanel Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Janussio Nemeth Ungaro Civi Leopoliensi"
+    }
+  ]
+}

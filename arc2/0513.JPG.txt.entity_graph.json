@@ -1,0 +1,145 @@
+{
+  "document_id": "arc2/0513.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dobroczyński",
+      "mention_texts": [
+        "Stanislao Dobroczyński"
+      ],
+      "descriptive_mentions": [
+        "Excellenti Domino",
+        "Praemysliensi",
+        "Medicinae Doctorem",
+        "Collegam nostrum Consularem",
+        "praedicto plenipotenti et mandatario suo",
+        "eundem plenipotentem suum"
+      ],
+      "justification": "Named as attorney and council colleague appointed to collect property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Praemysliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as the city of origin/residence for Stanislaus Dobroczyński and Andreas the blacksmith."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas dictus Judaei Zuri",
+      "mention_texts": [
+        "Andreae dicti Judaei Zuri"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Fabro",
+        "Civi Praemysliensi",
+        "depositario"
+      ],
+      "justification": "Blacksmith and citizen of Przemyśl who holds deposited jewels and money."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal instrument was recorded and where the scabini serve."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595",
+        "Sabbato ante festum S. Stanislai Rohanicus in Sluhuno proximo Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded legal transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Czarnaki",
+      "mention_texts": [
+        "Constantino Czarnaki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Subject of the relation heading (Relatio pro Constantino Czarnaki)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobroczyński",
+      "mention_texts": [
+        "Gregorius Dobroczyński"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "U. I. Doctor",
+        "Advocatus ordinarius"
+      ],
+      "justification": "Doctor of both laws and ordinary advocate appearing personally."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn scabinus of Lviv appearing in the relation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Tollus"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn scabinus of Lviv (spelled Tollus due to scribal/OCR variation for Gallus)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "associated_with",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislao Dobroczyński Praemysliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civi Praemysliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Scabini iurati Civitatis Leopoliensis"
+    }
+  ]
+}

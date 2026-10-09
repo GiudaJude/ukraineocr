@@ -1,0 +1,140 @@
+{
+  "document_id": "arc2/1128.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Civibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act took place and civic jurisdiction of the parties."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actis nostris"
+      ],
+      "justification": "Council records into which the transaction was entered."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0346: Joannes Radowski",
+      "mention_texts": [
+        "Ioannes Radowski",
+        "Joanni Radowszki"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sartori",
+        "genero",
+        "coniugi Coniugibus Civibus Leopoliensibus",
+        "Emptoribus"
+      ],
+      "justification": "Tailor and buyer of the garden parcel, son-in-law of Christophorus Rzeszowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Rzeszowski",
+      "mention_texts": [
+        "Christophorus Rzeszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sartor",
+        "coniuges Cives Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "praedicto Christophoro"
+      ],
+      "justification": "Tailor and seller of the garden share."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Cristina",
+      "mention_texts": [
+        "Cristina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuges Cives Leopolienses",
+        "haec"
+      ],
+      "justification": "Wife of Christophorus Rzeszowski, co-seller of the garden."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0029: Order of Preachers",
+      "mention_texts": [
+        "Conventus Praedicatorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dominican monastery whose gardens border the sold property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Rzeszowska"
+      ],
+      "descriptive_mentions": [
+        "coniugi Coniugibus Civibus Leopoliensibus",
+        "Emptoribus"
+      ],
+      "justification": "Wife of Joannes Radowski and buyer/daughter of sellers."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0160: 120 florins",
+      "mention_texts": [
+        "Centum viginti florenis Pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price for the garden share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatus Christophorus Rzeszowski Sartor et Honesta Cristina coniuges Cives Leopolienses ille per se haec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Famato Joanni Radowszki Sartori genero et Annae Rzeszowska coniugi Coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_son_in_law_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famato Joanni Radowszki Sartori genero"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E3",
+      "evidence": "Christophorus Rzeszowski Sartor et Honesta Cristina coniuges ... vendidisse praesentique inscriptione vigore vendere sortem suam ... Famato Joanni Radowszki Sartori genero et Annae Rzeszowska coniugi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E7",
+      "evidence": "Christophorus Rzeszowski Sartor et Honesta Cristina coniuges ... vendidisse praesentique inscriptione vigore vendere sortem suam ... Famato Joanni Radowszki Sartori genero et Annae Rzeszowska coniugi"
+    }
+  ]
+}

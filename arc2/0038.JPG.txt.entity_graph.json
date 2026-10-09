@@ -1,0 +1,224 @@
+{
+  "document_id": "arc2/0038.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Danilo Sliwor",
+      "mention_texts": [
+        "Danilo Sliwor",
+        "Danilonem"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "coniuges",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "praefatum",
+        "iidem recognoscentes"
+      ],
+      "justification": "Appeared in court to sell inherited paternal and maternal property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "haec",
+        "iidem recognoscentes"
+      ],
+      "justification": "Wife of Danilo Sliwor, acting with her husband as tutor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Dziator",
+      "mention_texts": [
+        "Dziator"
+      ],
+      "descriptive_mentions": [
+        "Honestos olim",
+        "coniuges parentes suos"
+      ],
+      "justification": "Deceased father of Danilo Sliwor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Marussia",
+      "mention_texts": [
+        "Marussiam"
+      ],
+      "descriptive_mentions": [
+        "Honestos olim",
+        "coniuges parentes suos"
+      ],
+      "justification": "Deceased mother of Danilo Sliwor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Osul",
+      "mention_texts": [
+        "Mathiam Osul"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner bordering the sold lot."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Iwan Miakrowic",
+      "mention_texts": [
+        "Iwan Miakrowic",
+        "Iwani Miakrowi-"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "genero affini suo",
+        "coniugibus suburbanis Leopoliensibus",
+        "eisdem emptoribus",
+        "memoratis emptoribus"
+      ],
+      "justification": "Purchaser of the cottage and garden, affine of Danilo Sliwor."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Marussa",
+      "mention_texts": [
+        "Marussae"
+      ],
+      "descriptive_mentions": [
+        "sorori",
+        "coniugibus suburbanis Leopoliensibus",
+        "eisdem emptoribus",
+        "memoratis emptoribus"
+      ],
+      "justification": "Sister of Danilo Sliwor and wife of Iwan Miakrowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "platea Sacri Salomonis",
+      "mention_texts": [
+        "platea Sacri Salomonis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Lviv suburb where the property is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose suburb and bench are referred to in the document."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "florenorum decem pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "precio"
+      ],
+      "justification": "Purchase price paid for the garden and cottage."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Czurnia",
+      "mention_texts": [
+        "Petrus Szurnia",
+        "Petrus Czurnia"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Debtor appearing personally in entry 36."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Anna Tilia",
+      "mention_texts": [
+        "Anna Tilia",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae secundarum nuptiarum"
+      ],
+      "justification": "Second wife of Petrus Czurnia."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "65 Polish florins",
+      "mention_texts": [
+        "florenos sexaginta quinque pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "certi veri liquidique debiti"
+      ],
+      "justification": "Amount of debt acknowledged by Petrus Czurnia."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Danilo Sliwor et Anna coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "post Honestos olim Dziator et Marussiam coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "sortem suam paternalem et maternalem ad praefatum Danilonem post Honestos olim Dziator et Marussiam coniuges parentes suos devolutam"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "sortem suam paternalem et maternalem ad praefatum Danilonem post Honestos olim Dziator et Marussiam coniuges parentes suos devolutam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Iwani Miakrowi- ... et Marussae sorori coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Marussae sorori"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honestae Annae coniugis suae secundarum nuptiarum"
+    }
+  ]
+}

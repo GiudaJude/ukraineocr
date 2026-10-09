@@ -1,0 +1,112 @@
+{
+  "document_id": "arc2/0724.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicium Magdeburgense"
+      ],
+      "descriptive_mentions": [
+        "Iudicij Advocati et Scabinorum"
+      ],
+      "justification": "Court referenced in the text where four benches of the advocate and assessors sit."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King whose decree is presented: decretum Sacrae Regiae Maiestatis."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andream Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem et Scabinum Leopoliensem",
+        "tutorem"
+      ],
+      "justification": "Lviv citizen and bencher acting as guardian in the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Andreas Simonowicz serves as bencher."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Alexandrinus",
+      "mention_texts": [
+        "Simonem Alexandrinum"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Consulem"
+      ],
+      "justification": "Councilor party to the royal decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannem Lukasowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cives"
+      ],
+      "justification": "Citizen party to the royal decree, known by the alias Joannes Łukaszowicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the royal decree was dated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta ipso die Sancti Vitti et Modesti proxima Anno 1595.",
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the royal decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Andream Simonowicz Civem et Scabinum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "issued_decree_at",
+      "tail_entity_id": "E7",
+      "evidence": "decretum Sacrae Regiae Maiestatis ... Cracoviae de data feria quinta ipso die Sancti Vitti et Modesti proxima Anno 1595."
+    }
+  ]
+}

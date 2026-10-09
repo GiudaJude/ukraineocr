@@ -1,0 +1,248 @@
+{
+  "document_id": "arc2/0665.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stepanowa",
+      "mention_texts": [
+        "Stepanowey"
+      ],
+      "descriptive_mentions": [
+        "Suburbanos Leopolienses",
+        "testes"
+      ],
+      "justification": "Witness from the Lviv suburbs."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szawklo",
+      "mention_texts": [
+        "Joannem Szawklo"
+      ],
+      "descriptive_mentions": [
+        "Suburbanos Leopolienses",
+        "testes"
+      ],
+      "justification": "Witness from the Lviv suburbs appearing in court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the text through the suburbs (Suburbanos Leopolienses)."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam"
+      ],
+      "descriptive_mentions": [
+        "Officij praefati",
+        "actis",
+        "nostram"
+      ],
+      "justification": "The consular office and residence of the Lviv city council where the testimonies were recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Janter",
+      "mention_texts": [
+        "Joannes Janter"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Party who requested the testimonies to be entered into the consular acts."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Węgliński",
+      "mention_texts": [
+        "Hieronymus Węgliński"
+      ],
+      "descriptive_mentions": [
+        "Generosus Dominus"
+      ],
+      "justification": "Nobleman appearing before the consular court on behalf of himself and his uncle."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Węgliński",
+      "mention_texts": [
+        "Joannis Wę- glinski",
+        "Joannes Węgliński"
+      ],
+      "descriptive_mentions": [
+        "Patrui sui",
+        "Generosi",
+        "praefatus Generosus Dominus"
+      ],
+      "justification": "Uncle of Hieronymus Węgliński who provided barrels of honey toward settling a debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Małgorzata Gnorowa",
+      "mention_texts": [
+        "Malgorzatha Gnorowa",
+        "Malgorzan- da",
+        "Malgorzanka"
+      ],
+      "descriptive_mentions": [
+        "uxori",
+        "ipsius",
+        "sorori germanae"
+      ],
+      "justification": "Named party, daughter of the late Piotr, and wife of Thomas."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Thomas",
+      "mention_texts": [
+        "Thomae"
+      ],
+      "descriptive_mentions": [
+        "genero",
+        "eidem"
+      ],
+      "justification": "Son-in-law to whom payments of money and barrels of honey were made."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis de Fulsztyn Szulgoszyna",
+      "mention_texts": [
+        "Hedvigis de Fulstin Szulgo- szyna"
+      ],
+      "descriptive_mentions": [
+        "mater sua",
+        "Generosa Domina",
+        "Vidua Civis Jaroslaviensis"
+      ],
+      "justification": "Mother of Hieronymus Węgliński, widow and citizen of Jarosław."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Fulsztyn",
+      "mention_texts": [
+        "Fulstin"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin associated with Hedvigis."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Anna Szulgoszyna",
+      "mention_texts": [
+        "Anna Szulgo- szyna"
+      ],
+      "descriptive_mentions": [
+        "Vidua Civis Jaroslaviensis",
+        "quondam"
+      ],
+      "justification": "Widow and citizen of Jarosław mentioned in the recognition."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0317: LOC-0005: Jarosław",
+      "mention_texts": [
+        "Jaroslaviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of citizenship of Hedvigis and Anna Szulgoszyna."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenos viginti in moneta Polonica"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of twenty florins in Polish coin paid to the son-in-law."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Petrus",
+      "mention_texts": [
+        "Petri"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased father of Małgorzata."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "is_nephew_of",
+      "tail_entity_id": "E7",
+      "evidence": "Patrui sui Generosi Joannis Wę- glinski nomine"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_child_of",
+      "tail_entity_id": "E10",
+      "evidence": "mater sua Generosa Domina Hedvigis de Fulstin Szulgo- szyna"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "vozi vero eiusdem Thomae Petri olim Malgorzanka"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_child_of",
+      "tail_entity_id": "E15",
+      "evidence": "Petri olim Malgorzanka"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Stepanowey et Joannem Szawklo Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Joannem Szawklo Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E13",
+      "evidence": "Hedvigis de Fulstin Szulgo- szyna Vidua Civis Jaroslaviensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E13",
+      "evidence": "Anna Szulgo- szyna Vidua Civis Jaroslaviensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "appears_before",
+      "tail_entity_id": "E4",
+      "evidence": "Ad nostram Consularem residentiam veniens personaliter Generosus Dominus Hieronymus Węgliński"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "document_id": "arc2/1115.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Matheus",
+      "mention_texts": [
+        "Matheum"
+      ],
+      "descriptive_mentions": [
+        "fratrem"
+      ],
+      "justification": "Named as the brother against whom claims were made regarding the estate."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "350 florins",
+      "mention_texts": [
+        "Trecentorum quinqua- ginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum left by the father."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Jakubowicz",
+      "mention_texts": [
+        "Leonardus",
+        "Leonardum Jacubonwicz"
+      ],
+      "descriptive_mentions": [
+        "factorem",
+        "generum eiusdem",
+        "citatum",
+        "dictus Leonardus citatus"
+      ],
+      "justification": "Party in the suit, described as the son-in-law and factor of Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginti florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money in dispute for shoes out of a larger sum."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0221: CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "octoginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Larger sum mentioned from which 20 florins remained."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis",
+        "Actis Consularia"
+      ],
+      "descriptive_mentions": [
+        "officium",
+        "Actis praesentibus"
+      ],
+      "justification": "Lviv city council and its court acts issuing decrees and recording proceedings."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date cross-reference to the current year/day entry (1595)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Surma Thamiana",
+        "Annam",
+        "Surma"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "viduam relictam",
+        "Actricem",
+        "Actrix praedicta",
+        "actrici eidem"
+      ],
+      "justification": "Plaintiff in the council decree, also referred to as Surma / Surma Thamiana."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Csoma Babicz",
+      "mention_texts": [
+        "Csoma Babicz"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Father of the plaintiff Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the citizenship descriptor 'Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "16 florins",
+      "mention_texts": [
+        "sedecim florenorum",
+        "sedecim floren-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of sixteen florins ordered by the council to be surrendered to the plaintiff."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Alberti zediam"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Magistri"
+      ],
+      "justification": "Magister Albertus Pedianus (recorded with OCR corruption as 'zediam')."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Leo Fontay Fogacs",
+      "mention_texts": [
+        "Leoni fontay Fogacs"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Creditor to whom a debt was paid by the plaintiff's deceased husband."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Ewtymowa",
+      "mention_texts": [
+        "Ewtymowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the decretum heading as the party for whom the decree is given."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbaram Fogmerowna"
+      ],
+      "descriptive_mentions": [
+        "Honestam"
+      ],
+      "justification": "Party in the legal decree ('Honestam Barbaram Fogmerowna', variant of Stognerowna/Stegnerowna)."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Albertus Jadowicz",
+      "mention_texts": [
+        "Albertum Jadovicio"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Actorem"
+      ],
+      "justification": "Actor/representative acting on behalf of Barbara."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Lucetha Doctorla",
+      "mention_texts": [
+        "Lucetham Doctorla"
+      ],
+      "descriptive_mentions": [
+        "viduam"
+      ],
+      "justification": "Widow party in the suit ('Doctorla' indicating widow of a doctor)."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Tomaszewski",
+      "mention_texts": [
+        "Janobum Tomaszewski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Representative acting on behalf of Lucetha Doctorla."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honestam Annam fi- olim Csoma Babicz"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E8",
+      "evidence": "Leonardum Jacubonwicz factorem generum eiusdem"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E15",
+      "evidence": "Barbaram Fogmerowna per Honestam Albertum Jadovicio Actorem"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E17",
+      "evidence": "Lucetham Doctorla viduam per Janobum Tomaszewski"
+    }
+  ]
+}

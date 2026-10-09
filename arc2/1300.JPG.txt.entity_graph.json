@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/1300.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "officii"
+      ],
+      "justification": "The municipal council/court acting officially on the matter ('Officium vero considerato eo...')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "25 florins 18 grosze",
+      "mention_texts": [
+        "florenos viginti quinque et grossos decem octo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid to the plaintiff in the first court entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1607",
+      "mention_texts": [
+        "1607"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year header of the entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dobroszowski",
+      "mention_texts": [
+        "Stanislaus Dobroszowski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "hortulanus",
+        "coniuges Suburbani Leopoliense",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Principal party acknowledging debt together with his wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopoliense"
+      ],
+      "justification": "Wife of Stanislaus Dobroszowski, co-recognizer of the debt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose suburbs the debtors inhabit."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenos sexagin- ta pecunia et numeri Polonicalis",
+        "sexaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal debt amount owed to Sophia Kozłowna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sophia Kozłowna",
+      "mention_texts": [
+        "Sophiae Kozlowna"
+      ],
+      "descriptive_mentions": [
+        "Honeste",
+        "coniugi",
+        "Creditrici sua"
+      ],
+      "justification": "Creditor to whom the loan of 60 Polish florins is owed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Antonius Jasionowski",
+      "mention_texts": [
+        "Antonii Jasionowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Syrurgi Crocensis"
+      ],
+      "justification": "Husband of creditor Sophia Kozłowna, identified as a surgeon."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Transfiguration of Our Lord",
+      "mention_texts": [
+        "festum Transfigurationis Domini"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date term for repayment of the loan."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestus Stanislaus Dobroszowski ho- rtulanus et Hedvigis coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestus Stanislaus Dobroszowski ho- rtulanus et Hedvigis coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honeste Sophiae Kozlowna Famati Antonii Jasionowski Syrurgi Crocensis coniugi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honeste Sophiae Kozlowna Famati Antonii Jasionowski Syrurgi Crocensis coniugi"
+    }
+  ]
+}

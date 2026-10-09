@@ -1,0 +1,130 @@
+{
+  "document_id": "arc2/0322.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Anselmus Walporga",
+      "mention_texts": [
+        "Nicolaus Anselmus Walporga"
+      ],
+      "descriptive_mentions": [
+        "Sextus"
+      ],
+      "justification": "Named as the sixth witness testifying through an interpreter."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Chios",
+      "mention_texts": [
+        "Chio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin for Nicolaus Anselmus Walporga, Georgius Catrati, and Sextus Kafatarako."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Barsowicz",
+      "mention_texts": [
+        "Albertum Barsowicz"
+      ],
+      "descriptive_mentions": [
+        "interpretem",
+        "productum"
+      ],
+      "justification": "Produced as the interpreter for the witness."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Pantaleon Crambato",
+      "mention_texts": [
+        "Pantaleon Crambato"
+      ],
+      "descriptive_mentions": [
+        "Septimus"
+      ],
+      "justification": "Named as the seventh witness testifying through an interpreter."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Georgius Catrati",
+      "mention_texts": [
+        "Georgius Catrati"
+      ],
+      "descriptive_mentions": [
+        "Octavus"
+      ],
+      "justification": "Named as the eighth witness testifying through an interpreter."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jan Limida",
+      "mention_texts": [
+        "Jan Limida"
+      ],
+      "descriptive_mentions": [
+        "Nonus testis"
+      ],
+      "justification": "Named as the ninth witness from Macedonia testifying through an interpreter."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Macedonia",
+      "mention_texts": [
+        "Macedonia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of the witness Jan Limida."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sextus Kafatarako",
+      "mention_texts": [
+        "Sextus Kafatarako"
+      ],
+      "descriptive_mentions": [
+        "Decimus demum testis"
+      ],
+      "justification": "Named as the tenth witness from Chios testifying through an interpreter."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "originates_from",
+      "tail_entity_id": "E2",
+      "evidence": "Nicolaus Anselmus Walporga de Chio"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "interpreter_for",
+      "tail_entity_id": "E1",
+      "evidence": "per interpretem sui productum Albertum Barsowicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "originates_from",
+      "tail_entity_id": "E2",
+      "evidence": "Georgius Catrati de Chio"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "originates_from",
+      "tail_entity_id": "E7",
+      "evidence": "Jan Limida de Macedonia"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "originates_from",
+      "tail_entity_id": "E2",
+      "evidence": "Sextus Kafatarako de Chio"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "document_id": "arc2/1440.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summulam"
+      ],
+      "justification": "Sum of money mentioned in the inscription recognized by Melchior Passikowic to Thomas Karcz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Melchior Passikowic",
+      "mention_texts": [
+        "Melchiorem Passikowic",
+        "Melchioris Passikowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "praenominati",
+        "famulus et administrator"
+      ],
+      "justification": "Individual against whose estate a protestation is entered regarding administration and unrendered accounts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Toma Kares"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "praedicti"
+      ],
+      "justification": "Creditor/party in whose presence the inscription and protestation were recorded."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "matrem uxores sue"
+      ],
+      "justification": "Deceased mother-in-law whose estate had been administered by Melchior Passikowic."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium praesens"
+      ],
+      "descriptive_mentions": [
+        "act nostris",
+        "decreto nostro",
+        "officium"
+      ],
+      "justification": "City council and its records before which the protest and bail obligation were transacted."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the first entry in the 1595 council book."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Simon Dursinowic",
+      "mention_texts": [
+        "Simon"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aurifabri",
+        "fratres germani",
+        "Cives Leopolienses",
+        "fideiussores"
+      ],
+      "justification": "Lviv goldsmith and citizen acting as guarantor for Thomas Sobierajski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Petrus Dursinowic",
+      "mention_texts": [
+        "Petrus Dursinowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aurifabri",
+        "fratres germani",
+        "Cives Leopolienses",
+        "fideiussores"
+      ],
+      "justification": "Lviv goldsmith, brother of Simon, also acting as guarantor for Thomas Sobierajski."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose citizenship is held by the Dursinowic brothers."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Goricki",
+      "mention_texts": [
+        "Jacobi Goricki",
+        "Jacobo Soricis"
+      ],
+      "descriptive_mentions": [
+        "Ingeniosi",
+        "Civium Advocaturi",
+        "Ingenio"
+      ],
+      "justification": "Advocate/representative present on behalf of Thomas Gębczyński."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Thomas Gębczyński",
+      "mention_texts": [
+        "Tome Gbczynski",
+        "Toma Gpczynski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Famuli",
+        "Nobili",
+        "vulnerato"
+      ],
+      "justification": "Noble servant of royal secretary Paulus Szczerbic, injured by Thomas Sobierajski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli Asserbit"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Secretarii et Secretorium seu Regiis Notarii"
+      ],
+      "justification": "Royal secretary and master of the servant Thomas Gębczyński (historical Paulus Szczerbic)."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sobierajski",
+      "mention_texts": [
+        "Toma Sobierayski",
+        "Tome Sobieraycowic",
+        "Tomas Sobierayowic",
+        "Tomas Sobierayskwi"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Aurifabrorum artis socii",
+        "praefatus"
+      ],
+      "justification": "Journeyman goldsmith released from imprisonment upon posting bail."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szembek",
+      "mention_texts": [
+        "Stanislao Szembek",
+        "Stanislai Szembek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "praedicti"
+      ],
+      "justification": "Individual whose return is awaited for an amicable settlement regarding the wounding."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Martinus Świniarski",
+      "mention_texts": [
+        "Martini Swiniarski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the marginal heading of the subsequent act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E8",
+      "evidence": "Famati Simon et Petrus Dursinowic Aurifabri fratres germani"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Simon et Petrus Dursinowic Aurifabri fratres germani Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Simon et Petrus Dursinowic Aurifabri fratres germani Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E13",
+      "evidence": "Simon et Petrus Dursinowic ... Tome Sobieraycowic ... caverunt et fideiusserunt"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E13",
+      "evidence": "Simon et Petrus Dursinowic ... Tome Sobieraycowic ... caverunt et fideiusserunt"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "employee_of",
+      "tail_entity_id": "E12",
+      "evidence": "Nobilis Tome Gbczynski Famuli et Tuonotam Generosi Pauli Asserbit Secretarii et Secretorium seu Regiis Notarii"
+    }
+  ]
+}

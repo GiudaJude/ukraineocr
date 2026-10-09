@@ -1,0 +1,66 @@
+{
+  "document_id": "arc2/1182.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Markowicz",
+      "mention_texts": [
+        "Bartholomeo Markowicz",
+        "Bartholo-\nmeus"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "dictus",
+        "Factor quadraginta"
+      ],
+      "justification": "Bartholomaeus Markowicz is released by the court from the plaintiff's claim after presenting eviction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Doliator",
+      "mention_texts": [
+        "Joannes Doliator"
+      ],
+      "descriptive_mentions": [
+        "Istoris praedicti",
+        "Istoris",
+        "Actor",
+        "praefatus Actor"
+      ],
+      "justification": "Joannes Doliator is the plaintiff (Actor/Istor) who brings the action."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio",
+        "Officium"
+      ],
+      "justification": "The municipal council/court (Officium) that issues the judicial decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Balceczowska House",
+      "mention_texts": [
+        "Balceczowska"
+      ],
+      "descriptive_mentions": [
+        "lapidea Balceczowska"
+      ],
+      "justification": "Tenement house (lapidea) referenced in connection with the eviction obligation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "opposes",
+      "tail_entity_id": "E1",
+      "evidence": "a causa et impetitione Istoris praedicti liber esse non debeat"
+    }
+  ]
+}

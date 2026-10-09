@@ -1,0 +1,269 @@
+{
+  "document_id": "arc2/0804.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Caldeator",
+      "mention_texts": [
+        "Thomae Caldeatoris",
+        "Tomas Caldeator",
+        "Thomae Caldeatori",
+        "Thomas Caldeator"
+      ],
+      "descriptive_mentions": [
+        "memorati",
+        "Honesto",
+        "Suburbano Leopoliense",
+        "aliarum quoque sortium in praedicta domo haereditario possessori",
+        "praedicto Emptore",
+        "idem"
+      ],
+      "justification": "Named suburban resident and buyer of a property share."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum D.",
+        "Scabinum in Judicio Exposito Bannito Leopoli quandocunque celebrari praesidentem",
+        "Plenipotentem et mandatarium",
+        "Plenipotens praedictus"
+      ],
+      "justification": "Appointed plenipotentiary and assessor of the Lviv court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which Simon serves as presiding assessor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensium",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "The city of Lviv referenced directly and adjectivally."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Złotomiczki",
+      "mention_texts": [
+        "Valentinus",
+        "Valentinus"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratres germani",
+        "filij armorum iam aetatis legitimae existentes",
+        "fratres",
+        "iidem"
+      ],
+      "justification": "One of the brothers selling their absent brother's property share."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Złotomiczki",
+      "mention_texts": [
+        "Jacobus",
+        "Jacobus"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratres germani",
+        "filij armorum iam aetatis legitimae existentes",
+        "fratres",
+        "iidem"
+      ],
+      "justification": "One of the brothers selling their absent brother's property share."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Złotomiczki",
+      "mention_texts": [
+        "Bartholomaeus",
+        "Bartholomaeus"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratres germani",
+        "filij armorum iam aetatis legitimae existentes",
+        "fratres",
+        "iidem"
+      ],
+      "justification": "One of the brothers selling their absent brother's property share."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Złotomiczki",
+      "mention_texts": [
+        "Andreae Zlotomiczki"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Ferri fabri",
+        "Suburbanorum Leopoliensium"
+      ],
+      "justification": "Deceased blacksmith and father of the Złotomiczki brothers."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Suburbanorum Leopoliensium"
+      ],
+      "justification": "Mother of the Złotomiczki brothers and wife of Andreas Złotomiczki."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Złotomiczki",
+      "mention_texts": [
+        "Joannis",
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratris sui germani a multo iam tempore absentis et qui an sit in vivis ignorant",
+        "praenominati Joannis fratris sui",
+        "praenominati fratris sui"
+      ],
+      "justification": "Absent brother whose share in the paternal house is being sold."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "23 Polish florins",
+      "mention_texts": [
+        "viginti trium Florenorum",
+        "viginti trium Florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Sale price of the property share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simonem Scabinum in Judicio Exposito Bannito Leopoli quandocunque celebrari praesidentem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Valentinus Jacobus et Bartholomaeus fratres germani filiorum olim Andreae Zlotomiczki"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "filiorum olim Andreae Zlotomiczki Ferri fabri et Agnetis Coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Valentinus Jacobus et Bartholomaeus fratres germani filiorum olim Andreae Zlotomiczki"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "filiorum olim Andreae Zlotomiczki Ferri fabri et Agnetis Coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Valentinus Jacobus et Bartholomaeus fratres germani filiorum olim Andreae Zlotomiczki"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "filiorum olim Andreae Zlotomiczki Ferri fabri et Agnetis Coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "sortem Honesti Joannis fratris sui germani a multo iam tempore absentis... in domo praedicta paternali"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Andreae Zlotomiczki Ferri fabri et Agnetis Coniugum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Andreae Zlotomiczki Ferri fabri et Agnetis Coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "Valentinus Jacobus et Bartholomaeus fratres germani"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Valentinus Jacobus et Bartholomaeus fratres germani"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "sortem Honesti Joannis fratris sui germani"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Valentinus Jacobus et Bartholomaeus fratres germani"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "sortem Honesti Joannis fratris sui germani"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "sortem Honesti Joannis fratris sui germani"
+    }
+  ]
+}

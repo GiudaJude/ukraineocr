@@ -1,0 +1,167 @@
+{
+  "document_id": "arc2/0420.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council issuing the decree in the case."
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in civic and official titles."
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Salomon Judaeus",
+      "mention_texts": [
+        "Salomone",
+        "Salomonem",
+        "Salomonis",
+        "Salomoni"
+      ],
+      "descriptive_mentions": [
+        "Judaeo",
+        "Infidelem",
+        "Actorem",
+        "Judaeum Samoriensem",
+        "Judaeus",
+        "memorati Salomonis Judaei Actoris",
+        "Actoris",
+        "Actori"
+      ],
+      "justification": "The plaintiff seeking recovery of a silk garment."
+    },
+    {
+      "entity_id": "PER-0166",
+      "entity_type": "person",
+      "canonical_name": "Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Cistorem"
+      ],
+      "justification": "Named intermediary/representative acting on behalf of the plaintiff."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus Poznańczyk",
+      "mention_texts": [
+        "Petrum Poznanczyk",
+        "Petrus Poznancik"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Pellionem",
+        "Civem Leopoliensem",
+        "citati",
+        "praedictus citatus",
+        "praedictus Petrus citatus",
+        "citatus",
+        "idem",
+        "illi"
+      ],
+      "justification": "Furrier and citizen of Lviv, the defendant ordered to return the garment."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Cohen",
+      "mention_texts": [
+        "Jacobo",
+        "Jacobum Cohen"
+      ],
+      "descriptive_mentions": [
+        "Infideli",
+        "Judaeo Samoscien",
+        "praedicto Jacobo Judaeo",
+        "Judaeus",
+        "eidem Jacobo Judaeo",
+        "eundem"
+      ],
+      "justification": "Third party entrusted with the garment for sale, from whom Petrus claimed to have received it."
+    },
+    {
+      "entity_id": "LOC-0055",
+      "entity_type": "location",
+      "canonical_name": "Zamość",
+      "mention_texts": [
+        "Samoscien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Jacobus Cohen."
+    },
+    {
+      "entity_id": "LOC-0087",
+      "entity_type": "location",
+      "canonical_name": "Sambor",
+      "mention_texts": [
+        "Samoriensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Salomon Judaeus."
+    },
+    {
+      "entity_id": "DATE-0001",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Anno Domini 1595",
+        "feria sexta an festum Fran- Purificationis Beatae Mariae Virginis Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry in the court register."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Melchior Michałowski",
+      "mention_texts": [
+        "Melchioris Michalowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the subsequent entry rubric."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Famatum Petrum Poznanczyk Pellionem Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0055",
+      "evidence": "ab Infideli Jacobo Judaeo Samoscien"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0087",
+      "evidence": "Infidelem Salomonem Actorem Judaeum Samoriensem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "litigates_against",
+      "tail_entity_id": "E2",
+      "evidence": "inter Infidelem Salomonem Actorem Judaeum Samoriensem per Honestum Adamum Kalinowski Cistorem et Famatum Petrum Poznanczyk Pellionem Civem Leopoliensem citati"
+    }
+  ]
+}

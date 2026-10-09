@@ -1,0 +1,234 @@
+{
+  "document_id": "arc2/1461.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Brzutk",
+      "mention_texts": [
+        "Joannes Brzok",
+        "Brzutkow",
+        "Joannes Brzutk"
+      ],
+      "descriptive_mentions": [
+        "Civis Premisliensis",
+        "Lempicztens",
+        "Plenipotens",
+        "Famatus"
+      ],
+      "justification": "Appears personaliter as a citizen of Przemyśl acting on his own behalf and as plenipotentiary of his wife."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Fidei Wolniszaunia",
+        "Fidei",
+        "Dolnicz"
+      ],
+      "descriptive_mentions": [
+        "consortis suae",
+        "coniugis suae",
+        "suamque coniugem praefatam",
+        "uxoris suae",
+        "uxorem sua",
+        "filia"
+      ],
+      "justification": "Wife of Joannes Brzutk and daughter of the late Joannes Dolinski, known in corpus records as Anna Dolinsczanka."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Coristeli",
+      "mention_texts": [
+        "Jacobo Coristeli"
+      ],
+      "descriptive_mentions": [
+        "Famato Domino",
+        "Consule",
+        "Tutoribus dativis"
+      ],
+      "justification": "Councilor and appointed guardian of Anna Dolinska."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Fama Kancz"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino",
+        "Tutoribus dativis"
+      ],
+      "justification": "Scabinus and appointed guardian of Anna Dolinska; proper name transcribed as Fama Kancz (Thoma Karcz)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Dolinski",
+      "mention_texts": [
+        "Hieronymo Dolnici",
+        "Hieronymum"
+      ],
+      "descriptive_mentions": [
+        "uxoris suae Patri germano",
+        "eundem Hieronymum"
+      ],
+      "justification": "Brother german of Anna Dolinska, still a minor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Dolinici"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Late father of Anna and Hieronymus Dolinski, citizen of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Brzutk",
+      "mention_texts": [
+        "Martinus Brzutk",
+        "Mar-"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Purchaser of the inherited estate shares from Joannes Brzutk."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Cerviano",
+      "mention_texts": [
+        "Leonardi Cerviano"
+      ],
+      "descriptive_mentions": [
+        "Itali"
+      ],
+      "justification": "Neighbor owning property on one side of the stone house in the Market Square."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Premisliensis",
+        "Tramsilien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin city of Joannes Brzutk and venue of the Banned Court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City where the properties and the recording court are located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Market Square where the stone house is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków Suburb of Lviv where the plot is situated near the Jewish cemetery."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta",
+        "Officii"
+      ],
+      "descriptive_mentions": [
+        "eadem Acta",
+        "orta praesentia",
+        "Officii Decretum"
+      ],
+      "justification": "The municipal council office and records where the transactions and decrees are inscribed."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "Przemyśl Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Exposito Tramsilien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court in Przemyśl before which the power of attorney was originally recognized."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "consortis suae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famati olim Joannis Dolinici Civis Leopoliensis filia consortis suae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "uxoris suae Patri germano"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "praedictae coniugis suae Tutoribus dativis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "praedictae coniugis suae Tutoribus dativis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Civis Premisliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Civis Leopoliensis"
+    }
+  ]
+}

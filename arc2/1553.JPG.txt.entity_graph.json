@@ -1,0 +1,218 @@
+{
+  "document_id": "arc2/1553.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate"
+      ],
+      "justification": "Location where the act was recorded and where the parties reside/practice."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta ante festum Sancti Francisci proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii nostri",
+        "eodem Officio"
+      ],
+      "justification": "The municipal council authority approving the tutor and recording the act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Langiszowa",
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Famati olim Marci Langes Graeci Civis Leopoliensis vidua relicta",
+        "ipsa"
+      ],
+      "justification": "Recognizing party, widow of Marcus Langes and mother/successor to Bartholomaeus Langes."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Marcus Langes",
+      "mention_texts": [
+        "Marci Langes"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Graeci Civis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Barbara, Greek burgher of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Klonowicz",
+      "mention_texts": [
+        "Bartholomeum Klonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Causarum Juris Civilis Magdeburgensis in ea Civitate Forensem Advocatum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Legal tutor and Magdeburg law court advocate appointed for Barbara."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Langes",
+      "mention_texts": [
+        "Bartholomei Langes"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim",
+        "Militis ex cohorte Generosi Georgii Farenzbach Capitanei demeriti",
+        "praefatum Filium suum",
+        "Filius suus",
+        "praedictus Filius suus"
+      ],
+      "justification": "Deceased soldier, son of Barbara, whose claim is being ceded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Georgius Farensbach",
+      "mention_texts": [
+        "Georgii Farenzbach"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Capitanei"
+      ],
+      "justification": "Military captain commanding the company in which Bartholomaeus Langes served."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Czulicki",
+      "mention_texts": [
+        "Andreae Czulicki",
+        "Andreas Czulicki"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Rotmagistro Legionum Sacrae Regiae Maiestatis",
+        "idem Generosus",
+        "eiusdem Generosi"
+      ],
+      "justification": "Royal rotamaster and creditor to whom the legal claim is being ceded."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "The King of Poland, mentioned via royal troops command."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Catherina Leszniowic is a burgher."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Catherina Leszniowic",
+      "mention_texts": [
+        "Catherinam Leszniowic",
+        "Catharinae"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Civem Camenecen",
+        "praefatam"
+      ],
+      "justification": "Burgher of Kamieniec against whom the legal action was initiated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Catherina Leszniowicowna",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Filiae eiusdem Catharinae",
+        "iam desponsatae",
+        "eidem Catherinae desponsatae"
+      ],
+      "justification": "Daughter of Catherina Leszniowic, betrothed to Bartholomaeus Langes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "widow_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Barbara Famati olim Marci Langes Graeci Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Honoratum Bartholomeum Klonowicz... tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "morte Nobilis olim Bartholomei Langes... per praefatum Filium suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "served_under",
+      "tail_entity_id": "E8",
+      "evidence": "Bartholomei Langes Militis ex cohorte Generosi Georgii Farenzbach Capitanei"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "served_under",
+      "tail_entity_id": "E10",
+      "evidence": "Generoso Andreae Czulicki Rotmagistro Legionum Sacrae Regiae Maiestatis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Filiae eiusdem Catharinae Catherinae iam desponsatae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "betrothed_to",
+      "tail_entity_id": "E13",
+      "evidence": "ex causa non traditionis in matrimonium Filiae eiusdem Catharinae Catherinae iam desponsatae fecit, cum etiam omni iure actione reiectionis munitionum eidem Catherinae desponsatae per Filium suum praedictum"
+    }
+  ]
+}

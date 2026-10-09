@@ -1,0 +1,134 @@
+{
+  "document_id": "arc2/1023.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij",
+        "officij eiusdem",
+        "Acta nostra"
+      ],
+      "justification": "The municipal council/court before which the settlement and obligation were registered."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where the act was recorded and where the party holds citizenship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "die anno quo supra"
+      ],
+      "justification": "Date of recording referencing the date established earlier in the court entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Blasius Słuviarz",
+      "mention_texts": [
+        "Blasius Słuviarz",
+        "Blasius",
+        "Słuviarz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv burgher who acknowledges a debt of 50 Polish florins to his minor grandson."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenos quinquaginta",
+        "quinquaginta Florenos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Amount of 50 florins owed and secured on property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joannes",
+        "Joanni"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "nepoti minori",
+        "pupilli"
+      ],
+      "justification": "Minor grandson of Blasius Słuviarz and son of late Joannes Stephanowicz, beneficiary of the obligation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stephanowicz",
+      "mention_texts": [
+        "Joanne Stephanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato olim",
+        "Aurifabro"
+      ],
+      "justification": "Deceased goldsmith of Lviv, father of the minor Joannes."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Rosa",
+      "mention_texts": [
+        "Rosae"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "coniugis suae"
+      ],
+      "justification": "Deceased wife of Blasius Słuviarz from whose estate the sum is derived."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Blasius Słuviarz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joanni ex Famato olim Joanne Stephanowicz Aurifabro filio suo legitimo nepoti minori"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "grandparent_of",
+      "tail_entity_id": "E6",
+      "evidence": "nepoti minori ex nuptiis aviali"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "morte Honestae olim Rosae coniugis suae"
+    }
+  ]
+}

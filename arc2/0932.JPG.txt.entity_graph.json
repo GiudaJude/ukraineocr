@@ -1,0 +1,95 @@
+{
+  "document_id": "arc2/0932.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City referenced throughout the court entry and in official titles."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judiciis Bannito Exposito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court session in Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post Dominicam Reminiscere proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court proceeding."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Lanijowa"
+      ],
+      "descriptive_mentions": [
+        "Actoria pars"
+      ],
+      "justification": "Plaintiff in the proceeding."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucas Lurnicz"
+      ],
+      "descriptive_mentions": [
+        "partis conventae"
+      ],
+      "justification": "Defendant in the lawsuit."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiam Debiczka"
+      ],
+      "descriptive_mentions": [
+        "honestam",
+        "Quaquidem"
+      ],
+      "justification": "Witness produced to take a sworn oath."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "litigates_against",
+      "tail_entity_id": "E5",
+      "evidence": "Barbara Lanijowa Lucas Lurnicz ... Actoria pars ... contra responsionem partis conventae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "witness_for",
+      "tail_entity_id": "E4",
+      "evidence": "Actoria pars citationi satisfaciendo statuit honestam Sophiam Debiczka ad praestandum iuramentum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Judiciis Bannito Exposito Leopoli"
+    }
+  ]
+}

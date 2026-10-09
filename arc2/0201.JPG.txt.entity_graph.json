@@ -1,0 +1,133 @@
+{
+  "document_id": "arc2/0201.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar Jembarski",
+      "mention_texts": [
+        "Caspar Jembarski",
+        "Casparo",
+        "Jembarski"
+      ],
+      "descriptive_mentions": [
+        "Pellio",
+        "Civis Leopoliensis",
+        "idem praedictus",
+        "partes utraeque",
+        "ambae partes"
+      ],
+      "justification": "Caspar Jembarski, furrier and citizen of Lviv, participant in the division of the Krowczynski property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio",
+        "Actis nostris"
+      ],
+      "justification": "Municipal council office before which the division was registered."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eadem Civitatis"
+      ],
+      "justification": "The city of Lviv mentioned in the citizenship descriptor and suburb location."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Krowczyńska House",
+      "mention_texts": [
+        "Krowczynski"
+      ],
+      "descriptive_mentions": [
+        "domus et sortis Krowczynski vocati",
+        "sortem",
+        "Divisione"
+      ],
+      "justification": "The house and lot named Krowczynski located in the suburb of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Blasius Alutarius",
+      "mention_texts": [
+        "Blasii Alutarii"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Neighbor whose house borders the Krowczynski property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Agnes Szczorabska",
+      "mention_texts": [
+        "Agnetis Szczorabskaei"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "Deceased predecessor whose succession prompted the division of property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szczorabski",
+      "mention_texts": [
+        "Petro Szczorabski",
+        "Petrus Szczorabski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "praedictus",
+        "partes utraeque",
+        "ambae partes"
+      ],
+      "justification": "Co-heir and party in the division who chose the first share of the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Caspar Jembarski Pellio, Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "appeared_before",
+      "tail_entity_id": "E2",
+      "evidence": "Caspar Jembarski Pellio, Civis Leopoliensis, palam publice beneuoleque obtulerunt Officio"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "appeared_before",
+      "tail_entity_id": "E2",
+      "evidence": "ambae partes ratam firmamque habere cupientes perpetuis temporibus, Actis nostris inseri petierunt"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "domus et sortis Krowczynski vocati in eadem Civitatis Suburbio"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "relative_of",
+      "tail_entity_id": "E6",
+      "evidence": "successoribus Honestae Agnetis Szczorabskaei idem praedictus Caspar Jembarski eo tempore quo Divisionem agitetur Famato Petro Szczorabski coniecit et conscripsit"
+    }
+  ]
+}

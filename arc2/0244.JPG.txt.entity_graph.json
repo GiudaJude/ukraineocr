@@ -1,0 +1,177 @@
+{
+  "document_id": "arc2/0244.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracouiae",
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where royal mandates and consular acts were issued."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "5 May 1595",
+      "mention_texts": [
+        "die V. mensis Maij. Anno Domini M.D.XCV."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the royal donation document issued in Kraków."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Rex",
+        "Sigismundus Tertius"
+      ],
+      "descriptive_mentions": [
+        "Rex",
+        "Sacrae Regiae Maiestatis",
+        "Dei gratia Rex Poloniae, Magnus Dux Lithuaniae, Russiae, Prussiae, Masouiae, Samogitiae, Liuoniaeque et nec non Suecorum, Gottorum, Vandalorumque Haereditarius Rex"
+      ],
+      "justification": "King Sigismund III Vasa of Poland."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Proconsuli et Consulibus Ciuitatis nostrae Leopoliensis"
+      ],
+      "justification": "Lviv consular office and council addressed by the King."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis nostrae Leopoliensis"
+      ],
+      "justification": "City of Lviv referred to in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Hante",
+      "mention_texts": [
+        "Joannis Hante"
+      ],
+      "descriptive_mentions": [
+        "olim Famati",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate devolved to the crown by escheat."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szczerbic",
+      "mention_texts": [
+        "Pauli",
+        "Paulo Szczerbic",
+        "Paulus Szczerbic"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Decretorum nostrorum Notario",
+        "Generosus Dominus"
+      ],
+      "justification": "Royal decree notary granted the caducary estate of Joannes Hante."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "12 May 1595",
+      "mention_texts": [
+        "die XII mensis Maij. Anno M.D.XCV."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the royal mandate to the Lviv council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Tarnowski",
+      "mention_texts": [
+        "Joannes Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Regni Poloniae Vicecancellarius"
+      ],
+      "justification": "Vice-chancellor of the Kingdom of Poland signing the mandate."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Kraków City Council",
+      "mention_texts": [
+        "Actis Praetorij Consularis Cracoviensis",
+        "Consules Ciuitatis Cracouiae"
+      ],
+      "descriptive_mentions": [
+        "Residentia nostra Consulari"
+      ],
+      "justification": "City council of Kraków where Paulus Szczerbic registered a power of attorney."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "19 May 1595",
+      "mention_texts": [
+        "feria sexta ante Festa Solennia Pentecostes Anno eodem currente"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the plenipotentiary instrument issued before the Kraków council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "morte olim Famati Joannis Hante Ciuis Leopoliensis derelicta"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Officium Consulare Leopoliense"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "issued_to",
+      "tail_entity_id": "E7",
+      "evidence": "Generoso Pauli Paulo Szczerbic Decretorum nostrorum Notario donauimus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "officer_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Tarnowski Regni Poloniae Vicecancellarius Ad Mandatum Sacrae Regiae Maiestatis proprium"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Consules Ciuitatis Cracouiae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "appeared_before",
+      "tail_entity_id": "E10",
+      "evidence": "coram nobis in Residentia nostra Consulari comparens personaliter Generosus Dominus Paulus Szczerbic"
+    }
+  ]
+}

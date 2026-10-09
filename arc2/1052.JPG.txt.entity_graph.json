@@ -1,0 +1,64 @@
+{
+  "document_id": "arc2/1052.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Gelasinus",
+        "Andreae Gelasini"
+      ],
+      "descriptive_mentions": [
+        "eundem ipsum adolescentem",
+        "adolescentem",
+        "Ingenuus"
+      ],
+      "justification": "Identified as Andreas Gelasinus, appearing in person before the court regarding his curatorship."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobi Scholz"
+      ],
+      "descriptive_mentions": [
+        "affinis eius",
+        "affinis sui",
+        "Honorati"
+      ],
+      "justification": "Identified as Jacobus Scholz, the in-law whose curatorship is contested by Andreas."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacra Regia Maiestate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Polish monarch from whom Andreas obtained appointed curators."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio praesenti",
+        "Officium",
+        "acta praesentia"
+      ],
+      "justification": "The municipal office and court of Lviv before which Andreas presented his submission."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "in_law_of",
+      "tail_entity_id": "E1",
+      "evidence": "Curatoriam affinis sui Honorati Jacobi Scholz repudiet"
+    }
+  ]
+}

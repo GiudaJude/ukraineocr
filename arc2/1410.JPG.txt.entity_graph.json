@@ -1,0 +1,330 @@
+{
+  "document_id": "arc2/1410.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Melchior Aenigmator",
+      "mention_texts": [
+        "Melchiore Aenigmatore"
+      ],
+      "descriptive_mentions": [
+        "eodem"
+      ],
+      "justification": "Named tenant in the opening decree fragment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Wyszka",
+      "mention_texts": [
+        "Pauli Wyszki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the section header 'Relatio pro parte Pauli Wyszki'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Borowski",
+      "mention_texts": [
+        "Albertus Borowski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Bedellus Castri Ostrorog"
+      ],
+      "justification": "Noble court beadle of Ostroróg Castle making a formal report."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Ostroróg",
+      "mention_texts": [
+        "Ostrorog"
+      ],
+      "descriptive_mentions": [
+        "Castri"
+      ],
+      "justification": "Castle where Albertus Borowski serves as beadle."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cieciorka",
+      "mention_texts": [
+        "Stanislaus Cieciorula",
+        "Stanislaus Cieciorka"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Bedellus Judicii Juratus",
+        "praefatus",
+        "Bedellus"
+      ],
+      "justification": "Sworn beadle of the civil court making a report."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Włokeski",
+      "mention_texts": [
+        "Jacobi Włokeski",
+        "Jacobus Włokeski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Collegae nostri Consularis",
+        "eiusdem Nobilis",
+        "praefato Nobili",
+        "dicti Nobiles"
+      ],
+      "justification": "Lviv city councillor and nobleman at whose instance the report was made."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris",
+        "Officij Consularis Leopoliensis",
+        "Officij eiusdem",
+        "Officium"
+      ],
+      "descriptive_mentions": [
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Matches corpus ID ORG-0003: Lviv City Council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicii Juratus",
+        "Judicii Civilis"
+      ],
+      "descriptive_mentions": [
+        "carcerem Civilem",
+        "carcere",
+        "carceribus"
+      ],
+      "justification": "Matches corpus ID ORG-0007: Lviv Banned Court (civil court and its prison)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Saitho Laszkowicz",
+      "mention_texts": [
+        "Saitho Laszkowicz",
+        "Saithonem",
+        "Saithone"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaeus Radzim de Halicz",
+        "eundem",
+        "eodem"
+      ],
+      "justification": "Jewish detainee who was found missing from the civil prison."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Halych",
+      "mention_texts": [
+        "Halicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Saitho Laszkowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "feria sexta proxime praeterita",
+      "mention_texts": [
+        "feria sexta proxime praeterita"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of Simon Zinowski's intervention at the advocacy."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Simon Zinowski",
+      "mention_texts": [
+        "Simon Zinowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv citizen and guarantor for Saitho Laszkowicz."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches corpus ID Lwów."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kłosowski",
+      "mention_texts": [
+        "Andrea Kłosowski"
+      ],
+      "descriptive_mentions": [
+        "Nobili"
+      ],
+      "justification": "Noble guarantor for Saitho Laszkowicz."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wanicki",
+      "mention_texts": [
+        "Alberti Wanicki",
+        "Albertum Wanicki"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Tutorem",
+        "coniuges",
+        "actores",
+        "Actores",
+        "ipsis"
+      ],
+      "justification": "Actor/claimant in the council decree."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginam",
+        "Reginae"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuges",
+        "actores",
+        "eiusdem"
+      ],
+      "justification": "Matches corpus ID PER-0307: Regina, wife of Albertus Wanicki."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Kapszinski",
+      "mention_texts": [
+        "Bartholomaeum Kapszinski"
+      ],
+      "descriptive_mentions": [
+        "Suburbanum Leopoliensis",
+        "citatum",
+        "pars conventa",
+        "eundem citatum"
+      ],
+      "justification": "Suburban debtor summoned before the council."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "currency",
+      "canonical_name": "28 florins",
+      "mention_texts": [
+        "viginti octo Florenorum"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "summa praedicta",
+        "summam praefatam"
+      ],
+      "justification": "Amount of debt contracted to the late Petrus Mendel."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Petrus Mendel",
+      "mention_texts": [
+        "Petro Mendel",
+        "Petrum Mendel"
+      ],
+      "descriptive_mentions": [
+        "Fertifici",
+        "olim",
+        "Priori marito",
+        "Tutorem",
+        "praefatum"
+      ],
+      "justification": "Late first husband of Regina."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "currency",
+      "canonical_name": "4 florins",
+      "mention_texts": [
+        "florenos quatuor",
+        "quatuor Floreni"
+      ],
+      "descriptive_mentions": [
+        "particulam",
+        "sorte dicti minorrennis"
+      ],
+      "justification": "Part of the debt (4 florins) belonging to the minor son."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "has_residence",
+      "tail_entity_id": "E4",
+      "evidence": "Nobiles Albertus Borowski Bedellus Castri Ostrorog"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "has_affiliation_with",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaus Cieciorula Bedellus Judicii Juratus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "has_affiliation_with",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobi Włokeski Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "has_origin",
+      "tail_entity_id": "E10",
+      "evidence": "Saitho Laszkowicz Judaeus Radzim de Halicz"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "has_residence",
+      "tail_entity_id": "E13",
+      "evidence": "Simon Zinowski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "inter Honestos Albertum Wanicki Tutorem et Reginam secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "has_residence",
+      "tail_entity_id": "E13",
+      "evidence": "Bartholomaeum Kapszinski Suburbanum Leopoliensis"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Petro Mendel Priori marito eiusdem Reginae"
+    }
+  ]
+}

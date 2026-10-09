@@ -1,0 +1,143 @@
+{
+  "document_id": "arc2/0612.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicijs Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the cited party defended herself."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adverse party in the action before the civil court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "officij",
+        "eiusdem officij"
+      ],
+      "justification": "Municipal office issuing the recorded decrees."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rotherdorff",
+      "mention_texts": [
+        "Joanne Rotherdorff"
+      ],
+      "descriptive_mentions": [
+        "moderni possoris"
+      ],
+      "justification": "Current possessor of the contested land."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Actam",
+        "Honesti Bartholomaei Kopiczinski Coniugem legitimam",
+        "Actrice",
+        "Actricem",
+        "vxore ipsius",
+        "coniunx praefati Actoris",
+        "haeres eiusdem domus"
+      ],
+      "justification": "Plaintiff and wife of Bartholomaeus Kopiczinski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Kopiczinski",
+      "mention_texts": [
+        "Barth: Sowicinski",
+        "Bartholomaei Kopiczinski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "mariti sui",
+        "Actoris",
+        "Actorem",
+        "actor",
+        "praefati Actoris"
+      ],
+      "justification": "Husband of Anna and actor in the tenancy case."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sandomir",
+      "mention_texts": [
+        "Albertum Sandomir"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem sibi assumptum"
+      ],
+      "justification": "Prolocutor representing Anna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Cuniczek",
+      "mention_texts": [
+        "Albertum Cuniczkiem"
+      ],
+      "descriptive_mentions": [
+        "Suburbadum Leopoliensis citatum",
+        "citatus",
+        "citato"
+      ],
+      "justification": "Suburbanite cited for failing to move out of the plaintiff's house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburb Albertus Cuniczek inhabits."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "inter Actam Annam Honesti Bartholomaei Kopiczinski Coniugem legitimam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "per Albertum Sandomir Prolocutorem sibi assumptum vna cum Actrice"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E9",
+      "evidence": "Albertum Cuniczkiem Suburbadum Leopoliensis"
+    }
+  ]
+}

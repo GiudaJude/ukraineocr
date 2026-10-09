@@ -1,0 +1,212 @@
+{
+  "document_id": "arc2/0787.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0320: PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simoni Sinost Szonpko"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "patri suo charissimo",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Identified as the father in the preceding entry, using a variant form of Simon Kinost."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referenced throughout the entry in relation to citizenship, suburb, and civic laws."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli Czop"
+      ],
+      "descriptive_mentions": [
+        "Famato olim",
+        "Pellionis",
+        "Civis Leopoliensis",
+        "incolae vero postea Bobricensis",
+        "praedicti olim",
+        "mariti sui",
+        "praefati",
+        "Civis esset Leopoliensis"
+      ],
+      "justification": "Deceased furrier whose will is being contested."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of the deceased Paulus Czop submitting his testament."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Domagala",
+      "mention_texts": [
+        "Petrum"
+      ],
+      "descriptive_mentions": [
+        "Tutorem et Protectorem",
+        "Caulifrem",
+        "Suburbanum Leopoliensem"
+      ],
+      "justification": "Son of Albertus Domagala, acting as legal guardian and protector for Agnes."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Alberti Domagala"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Father of Petrus, named in the patronymic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "actis praesentibus",
+        "acta nostra"
+      ],
+      "justification": "Municipal governing body and court receiving and admitting the will."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Bóbrka",
+      "mention_texts": [
+        "Bobricensis",
+        "Bobrecis"
+      ],
+      "descriptive_mentions": [
+        "Oppidi illius"
+      ],
+      "justification": "Town where Paulus Czop resided and where his testament was drawn up."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Town Council of Bóbrka",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Magistratus Oppidi illius"
+      ],
+      "justification": "Town authorities of Bóbrka before whom the testament was originally prepared."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta in Crastino Omnium Sanctorum Anno 1595 proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of drafting of the testament in Bóbrka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Catherina Gorsowna",
+      "mention_texts": [
+        "Catherina Gorsowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx",
+        "filia"
+      ],
+      "justification": "Daughter of Paulus Czop and wife of Caspar Kołomyjski, contesting the will."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kołomyjski",
+      "mention_texts": [
+        "Casparis Kolomyjski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aurifabri",
+        "mariti sui"
+      ],
+      "justification": "Goldsmith and husband of Catherina Gorsowna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Andreas Koryciński",
+      "mention_texts": [
+        "Andream Korycinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Noble representative who formally voiced Catherina's objection to the will."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Agnes Famati olim Pauli Czop Pellionis Civis Leopoliensis incolae vero postea Bobricensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "per assumptum sibi ad eum actum Tutorem et Protectorem Petrum Alberti Domagala"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Petrum Alberti Domagala"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "praefati vero Pauli Czop filia"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honesta Catherina Gorsowna Famati Casparis Kolomyjski Aurifabri coniunx"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "in absentia mariti sui per Nobilem Andream Korycinski contradixit"
+    }
+  ]
+}

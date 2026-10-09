@@ -1,0 +1,187 @@
+{
+  "document_id": "arc2/1341.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Scabi-netensi Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court of the Lviv scabini where the agreement was originally arbitrated."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0184: Glinska Street",
+      "mention_texts": [
+        "Plateam Gliniska"
+      ],
+      "descriptive_mentions": [
+        "Fundum",
+        "Platea",
+        "Platea"
+      ],
+      "justification": "Street where the disputed property is situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Figulus",
+      "mention_texts": [
+        "Jaconem Figulum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner on Glinska Street."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Surma",
+      "mention_texts": [
+        "Stanislaum Susma",
+        "Stanislai Surma"
+      ],
+      "descriptive_mentions": [
+        "Zestrorem"
+      ],
+      "justification": "Neighboring property owner and weaver adjacent to the plot."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Caterina",
+        "Caterina",
+        "Caterina",
+        "Caterina"
+      ],
+      "descriptive_mentions": [
+        "praefacta",
+        "ipsius",
+        "eadem",
+        "illa",
+        "haec",
+        "praefata"
+      ],
+      "justification": "Daughter of Albertus Snopek and party to the property agreement."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Snopek",
+      "mention_texts": [
+        "Albertum Snostek",
+        "Alberti Snostek",
+        "Alberti Snostek",
+        "Alberti Snostek",
+        "Alberti Sno-"
+      ],
+      "descriptive_mentions": [
+        "patrem ipsius",
+        "praedicti",
+        "praefati"
+      ],
+      "justification": "Deceased owner of the property and father of Caterina and Anna Snopkowna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislao Snostek",
+        "Stanislaus Snostek",
+        "Stanislao Snostek"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "praefato"
+      ],
+      "justification": "Successor of Albertus Snopek receiving the larger plot in the division."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-2505: Albertus Sadowski",
+      "mention_texts": [
+        "Alberti Sadowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjacent neighbor whose hedge and garden mark the boundary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Figulus",
+      "mention_texts": [
+        "Hieronymum Figulo"
+      ],
+      "descriptive_mentions": [
+        "Tutorem",
+        "eundem suum Tutorem"
+      ],
+      "justification": "Tutor and legal representative of Caterina."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij nostri",
+        "Actis praesentibus"
+      ],
+      "justification": "Council office in whose presence the concord is ratified and registered."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Brassewrem",
+      "mention_texts": [
+        "Jacobus Brassewrem"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "civem",
+        "fratrem",
+        "affinem suum"
+      ],
+      "justification": "Citizen and in-law who consents on behalf of Anna Snopkowna."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam Snopkowna"
+      ],
+      "descriptive_mentions": [
+        "sororem suam",
+        "filiam"
+      ],
+      "justification": "Daughter of Albertus Snopek and co-heir to the estate."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "post Albertum Snostek patrem ipsius fuerat contenta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E12",
+      "evidence": "Annam Snopkowna filiam praefati Alberti Sno-"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Caterina... haec vero per Hieronymum Figulo ad ingstitionem Officij nostri... per eundem suum Tutorem"
+    }
+  ]
+}

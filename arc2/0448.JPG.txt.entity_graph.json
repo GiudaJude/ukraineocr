@@ -1,0 +1,273 @@
+{
+  "document_id": "arc2/0448.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Joannis olim Czaronyj vidua relicta"
+      ],
+      "justification": "Named as the honest widow of deceased Joannes Czaronyj who issues a receipt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czarony",
+      "mention_texts": [
+        "Joannis ... Czaronyj"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased husband of Anna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Klis",
+      "mention_texts": [
+        "Joannem Klis"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensis",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Assumed legal guardian for Anna in this transaction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced for citizenship and origin."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio nostro",
+        "officioque nostro",
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/bench in whose acts the quietatio is recorded and which approved the tutors."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Bwoj",
+      "mention_texts": [
+        "Martini Buri",
+        "Martino Bwoj"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Fabro Lignario Suburbano Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Carpenter from the Lviv suburbs who purchased the house and garden."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margareta"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Famati olim Nicolai Szobrek Civis Leopoliensis vidua relicta"
+      ],
+      "justification": "Widow of Nicolaus Szobrek, issuing a receipt on behalf of her son."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Szobrek the Elder",
+      "mention_texts": [
+        "Nicolai Szobrek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Margareta and father of Nicolaus Szobrek the royal messenger."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Szobrek the Younger",
+      "mention_texts": [
+        "Nicolai Szobrek"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Sacrae Regiae Maiestatis Nuntij",
+        "filij sui",
+        "principali Creditori",
+        "filio suo"
+      ],
+      "justification": "Royal messenger, principal creditor in the transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Polish king served by the messenger Nicolaus Szobrek."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Actis Advocatialibus Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv advocatial court records referenced for the act of Friday before Invocavit 1595."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta ante Dominicam Invocavit proxima Anno eodem currente 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous act cited from the advocatial records."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Petrum Andream Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Scabinum",
+        "Civem Leopoliensis",
+        "fratrem suum",
+        "tutorem"
+      ],
+      "justification": "Lviv alderman serving as legal guardian and identified as brother of Margareta."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "florenis quinquaginta ... numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "rata prioris debiti"
+      ],
+      "justification": "Payment installment of 50 Polish florins."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Biegoszowska House",
+      "mention_texts": [
+        "domo Lapidea Biegoszowska"
+      ],
+      "descriptive_mentions": [
+        "domo Lapidea"
+      ],
+      "justification": "Masonry house in Lviv, a portion of which was purchased."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Sophia Biegoszowa",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Famati olim Joannis Biegos Lanij Civis Leopoliensis vidua relicta",
+        "eandem"
+      ],
+      "justification": "Widow of butcher Joannes Biegos who paid the debt installment."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Joannes Biegos",
+      "mention_texts": [
+        "Joannis Biegos"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Lanij",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased butcher and citizen of Lviv, late husband of Sophia."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "has_spouse",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Anna Joannis olim Czaronyj vidua relicta"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "has_legal_guardian",
+      "tail_entity_id": "E3",
+      "evidence": "per Famatum Joannem Klis Civem Leopoliensis tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "has_spouse",
+      "tail_entity_id": "E8",
+      "evidence": "Honesta Margareta Famati olim Nicolai Szobrek Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "has_child",
+      "tail_entity_id": "E9",
+      "evidence": "Nicolai Szobrek Sacrae Regiae Maiestatis Nuntij filij sui"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "has_father",
+      "tail_entity_id": "E8",
+      "evidence": "Margareta Famati olim Nicolai Szobrek Civis Leopoliensis vidua relicta acti Domini Roditis Nicolai Szobrek Sacrae Regiae Maiestatis Nuntij filij sui"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "has_sibling",
+      "tail_entity_id": "E13",
+      "evidence": "Petrum Andream Simonowic Scabinum Civem Leopoliensis fratrem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "has_legal_guardian",
+      "tail_entity_id": "E13",
+      "evidence": "per assumptum sibi ad eum Actum tutorem ex officioque nostro approbatum Petrum Andream Simonowic"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "has_spouse",
+      "tail_entity_id": "E17",
+      "evidence": "Honesta Sophia Famati olim Joannis Biegos Lanij Civis Leopoliensis vidua relicta"
+    }
+  ]
+}

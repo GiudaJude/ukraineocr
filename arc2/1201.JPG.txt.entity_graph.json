@@ -1,0 +1,163 @@
+{
+  "document_id": "arc2/1201.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Civitatis",
+        "Magistratus"
+      ],
+      "descriptive_mentions": [
+        "Magistratualibus"
+      ],
+      "justification": "City magistracy mentioned in connection with damages and legal prosecution."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Officia Civilia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civil court offices that accepted the surety bond."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts were recorded and origin descriptor of Nicolaus Czarnowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "die Iovis qua supra",
+      "mention_texts": [
+        "die Iovis qua supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the first record."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bagiński",
+      "mention_texts": [
+        "Baginski"
+      ],
+      "descriptive_mentions": [
+        "praefatum"
+      ],
+      "justification": "Individual against whom criminal proceedings are being undertaken."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post\nUnicam Sanctissimae Trinitatis Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the procuration entry in 1596."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Czarnowski",
+      "mention_texts": [
+        "Nicolai Czarnowski",
+        "Nicolaum Czaranow-\nski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Nobilem Dominum",
+        "legitimum mandataramque\nplenipotentem et mandatarum"
+      ],
+      "justification": "Noble constituted as plenipotentiary in a legal action."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Gąsiorowski",
+      "mention_texts": [
+        "Albertus Gąsiorowski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "coniuges",
+        "maritum et provide tutorem suum legitimum"
+      ],
+      "justification": "Noble principal who appoints a legal representative."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Catherina Gąsiorowska",
+      "mention_texts": [
+        "Cathe-\nrina Gąsiorowska"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "coniuges"
+      ],
+      "justification": "Wife of Albertus Gąsiorowski who joins him in appointing the plenipotentiary."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Spitinger",
+      "mention_texts": [
+        "Stanislao Spi-\ntingemi",
+        "Gasiorowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Aromathario"
+      ],
+      "justification": "Apothecary opponent in the legal suit."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos Centum pecuniae\net numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum involved in the action."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Nobiles Albertus Gąsiorowski et Cathe- rina Gąsiorowska coniuges ille per se hic vero per eundem mari- tum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Nobiles Albertus Gąsiorowski et Cathe- rina Gąsiorowska coniuges ille per se hic vero per eundem mari- tum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E8",
+      "evidence": "constituerunt et solemniter ordinaverunt in suum legitimum mandataramque plenipotentem et mandatarum Nobilem Dominum Nicolaum Czaranow- ski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E9",
+      "evidence": "constituerunt et solemniter ordinaverunt in suum legitimum mandataramque plenipotentem et mandatarum Nobilem Dominum Nicolaum Czaranow- ski"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "document_id": "arc2/1156.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis Civitatis"
+      ],
+      "justification": "City where the act took place and where the court officials hold office."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta ante festa Pentecostes proxima Anno 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recording of the report (Wednesday before Pentecost 1596)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Woykiewicz",
+      "mention_texts": [
+        "Woykiewicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual mentioned in the heading as presenting the report."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Kasnicz",
+      "mention_texts": [
+        "Kasnicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual mentioned alongside Woykiewicz in the heading."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrzecki"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate making the official declaration."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Tomas Kares"
+      ],
+      "descriptive_mentions": [
+        "Scabini Civitatis Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv appearing with the advocate."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adam Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Scabini Civitatis Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv appearing alongside Thomas Karcz and the advocate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Szorc",
+      "mention_texts": [
+        "Christophori Szorczi"
+      ],
+      "descriptive_mentions": [
+        "Honesti Domini",
+        "itidem Scabini Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv at whose instance the court officials conducted the on-site inspection."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baptista",
+      "mention_texts": [
+        "Joannis Baptistae"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased owner whose successors own an adjacent tenement."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kaskoritz",
+      "mention_texts": [
+        "Stanislai Kaskoritz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of another adjacent stone house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Corpus Christi Street",
+      "mention_texts": [
+        "platea Corporis Christi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the stone house being inspected is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Actum Leopoli ... in eiusdem domum lapideam in platea Corporis Christi"
+    }
+  ]
+}

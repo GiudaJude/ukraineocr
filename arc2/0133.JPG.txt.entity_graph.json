@@ -1,0 +1,103 @@
+{
+  "document_id": "arc2/0133.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referenced in the scabinus title and as the location of the banned court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv before which the resignation of property is appointed to take place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Louck",
+      "mention_texts": [
+        "Stanislaus Louck",
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [
+        "Lanio",
+        "coniuges",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Butcher in Lviv selling his parental share of a butcher stall."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Eua",
+      "mention_texts": [
+        "Eua"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "haec"
+      ],
+      "justification": "Wife of Stanislaus Louck appearing with her husband to confirm the sale."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Daniel Louck",
+      "mention_texts": [
+        "Daniel Louck",
+        "Danieli Louck"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "fratri suo germano",
+        "socio",
+        "emptori"
+      ],
+      "justification": "Brother of Stanislaus Louck and buyer of the butcher stall share."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "33 florins 19 groschen",
+      "mention_texts": [
+        "triginta trium florenorum et grossorum decem decem et nouem Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the butcher stall share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaus Louck Lanio et Eua coniuges, ille per se, haec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Danieli Louck fratri suo germano"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Iudicio Exposito Bannito Leopoli"
+    }
+  ]
+}

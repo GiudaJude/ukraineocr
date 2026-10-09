@@ -1,0 +1,212 @@
+{
+  "document_id": "arc2/1348.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Mzykowicz",
+      "mention_texts": [
+        "Simon Mzykałowic",
+        "Simon Mzykowicz",
+        "Simonis Mzykołowic",
+        "Simon Mzykolowic"
+      ],
+      "descriptive_mentions": [
+        "dictus",
+        "Honesti",
+        "Incolae Leopoliensis",
+        "Honestus",
+        "Frater germanus"
+      ],
+      "justification": "Principal party in the legal declaration concerning the debt and redemption of the Mzykołowskie estate."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Dibrowicz"
+      ],
+      "descriptive_mentions": [
+        "Domini Proconsulis",
+        "praefati Domini Proconsulis",
+        "Nobilis et Excellens Dominus",
+        "Medicinae Doctor",
+        "Collega noster Consularis",
+        "munus Proconsulis interea temporis gerens"
+      ],
+      "justification": "Doctor of Medicine and city councilor acting as proconsul receiving the declaration."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis praesentibus",
+        "Officium suum Proconsulare",
+        "residentia Dominorum Consulum",
+        "Officio suo Proconsulari",
+        "Acta publica",
+        "Officio Consulari",
+        "Officio suo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council and its proconsular registry where the legal act is registered."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose burghers are recorded in the act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Baltazar Certner",
+      "mention_texts": [
+        "Baltazar Certner"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "dictus Generosus"
+      ],
+      "justification": "Nobleman who held the estate under an obligation and received repayment of eleven florins."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "praedium Mzykołowskie",
+      "mention_texts": [
+        "praedium Mzykołowskie"
+      ],
+      "descriptive_mentions": [
+        "praefatum praedium"
+      ],
+      "justification": "Suburban estate situated above the valley in the Halych suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the Mzykołowskie estate is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Szymniew",
+      "mention_texts": [
+        "Christophoro Szymniew",
+        "Christophorum Szymniew"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "olim",
+        "marito"
+      ],
+      "justification": "Deceased nobleman who previously mortgaged the estate."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Stojniczowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "Wife of the late Christophorus Szymniew."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Grodziceska",
+        "Anna Grodkowska"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "olim",
+        "eiusdem praedicti haeredem",
+        "praedictae"
+      ],
+      "justification": "Deceased heir to the estate and full sister of Simon Mzykowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "11 florins",
+      "mention_texts": [
+        "undecim florenorum",
+        "florenorum vndecem",
+        "florenorum vndecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid to Baltazar Certner to release the estate from obligation."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kletswic",
+      "mention_texts": [
+        "Albertus Kletswic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the marginal entry for the subsequent act 1217."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Myskiewicz",
+      "mention_texts": [
+        "Joannes Myslicwic",
+        "Joannes Myskiewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "Person appearing in entry 1217."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simonis Mzykołowic Incolae Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "Simon Mzykolowic praedictae Anna Grodkowska Frater germanus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Collega noster Consularis munus Proconsulis interea temporis gerens"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "praedium Mzykołowskie supra vallem quidem in Suburbio Haliciensi situm"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Christophoro Szymniew marito Honestae Barbara Stojniczowa"
+    }
+  ]
+}

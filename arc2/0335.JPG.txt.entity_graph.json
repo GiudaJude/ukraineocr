@@ -1,0 +1,103 @@
+{
+  "document_id": "arc2/0335.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings and acts were conducted ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato post Festum Sanctorum Petri et Pauli Apostolorum proxima 1595",
+        "feria secunda post festum Visitationis Beatae Virginis Mariae. Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the acts recorded in the text, both falling in 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal consular office issuing the decree ('Ex Decreto Officij Consularis Leopoliensis')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sobieszański",
+      "mention_texts": [
+        "Alberto Sobieszanski",
+        "Albertum Sobiezanszkj",
+        "Sobiezanski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Actorem",
+        "Actor",
+        "Actori"
+      ],
+      "justification": "Noble plaintiff (actor) in the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Stanisławski",
+      "mention_texts": [
+        "Stanam Stanislauski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem ac Generosum",
+        "Subiudicem Leopoliensem",
+        "Cittatum",
+        "eodem Citato",
+        "partes citata",
+        "Citatus",
+        "idem Citatus"
+      ],
+      "justification": "Subjudge of Lviv, summoned defendant (citatus) in the suit."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Janobim Scholez"
+      ],
+      "descriptive_mentions": [
+        "D."
+      ],
+      "justification": "Person through whom the plaintiff was alleged to have made an agreement ('per D. Janobim Scholez')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Subiudicem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "litigates_against",
+      "tail_entity_id": "E5",
+      "evidence": "inter Nobilem Albertum Sobiezanszkj Actorem et Nobilem ac Generosum Stanam Stanislauski Subiudicem Leopoliensem Cittatum"
+    }
+  ]
+}

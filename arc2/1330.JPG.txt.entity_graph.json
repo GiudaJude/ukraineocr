@@ -1,0 +1,194 @@
+{
+  "document_id": "arc2/1330.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts were recorded."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda ante festum Sancti Bartholomei praesentis Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0300: Andreas Dambrowski",
+      "mention_texts": [
+        "Andreas Sambor",
+        "Andreas Sambrowski Sambor"
+      ],
+      "descriptive_mentions": [
+        "Dominus",
+        "Nobilis et Spectabilis Dominus",
+        "Collega noster Consularis"
+      ],
+      "justification": "Councilor taking up a prior testament/ordinatio from the camera."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Camera Officii nostri",
+        "Cameram",
+        "Officium nostrum",
+        "Decreto Officii",
+        "Officii",
+        "nomine Officii",
+        "Officium",
+        "Decreto praedicto",
+        "Camera Officii"
+      ],
+      "justification": "Municipal council of Lviv acting as the registering authority."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1570",
+      "mention_texts": [
+        "Anno Domini 1570"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year when the original legal document was delivered to the chamber."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Moyses Carson",
+      "mention_texts": [
+        "Moyses Carson",
+        "Wyszey Fiszel"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judeus incola Samboriensis",
+        "eundem Judeum",
+        "eidem Judaeo",
+        "Actori",
+        "praedicti Judaei Actoris",
+        "Actor Judeus",
+        "praefatos Judaeum"
+      ],
+      "justification": "Jewish litigant from Sambir swearing an oath."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samboriensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of residence of Moyses Carson and Andreas Gracus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Antonius Catacallo",
+      "mention_texts": [
+        "Antonius Catacallo",
+        "Antonii Catacallo"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famati",
+        "partes adversae"
+      ],
+      "justification": "Adverse party in the litigation against Moyses Carson."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Dziewoński",
+      "mention_texts": [
+        "Albertum Dziewonski"
+      ],
+      "descriptive_mentions": [
+        "Fidelem",
+        "Ostiarium Judicii"
+      ],
+      "justification": "Court apparitor delegated by the council to witness the Jewish oath."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "620 florins",
+      "mention_texts": [
+        "florenum sexcentum viginti"
+      ],
+      "descriptive_mentions": [
+        "pecunia controversa"
+      ],
+      "justification": "Contested money released from the council chamber."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Andreas Gracus",
+      "mention_texts": [
+        "Andreas Gracus"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Samboriensis",
+        "instor"
+      ],
+      "justification": "Citizen of Sambir who attempted an arrest on the disputed funds."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mordochai Kosten",
+      "mention_texts": [
+        "Mordochai Kosten",
+        "Mordochay"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "praedicti Judaei Actoris frater"
+      ],
+      "justification": "Brother of Moyses Carson who contracted a debt with Andreas Gracus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Dominus Andreas Sambrowski Sambor Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Moyses Carson Judeus incola Samboriensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Gracus Civis Samboriensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "brother_of",
+      "tail_entity_id": "E6",
+      "evidence": "Mordochai Kosten praedicti Judaei Actoris frater"
+    }
+  ]
+}

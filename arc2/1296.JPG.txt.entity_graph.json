@@ -1,0 +1,164 @@
+{
+  "document_id": "arc2/1296.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "florenis triginta Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of monetary debt and pledge."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmo Felonek",
+        "Erasmus Felnek",
+        "Erasmum Felonek",
+        "Erasmus Felonek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi et Negociatori Leopoliensi",
+        "oppignoratorio",
+        "Famatus",
+        "Civis et Mercator Leopoliensis",
+        "praefatus Famatus"
+      ],
+      "justification": "Lviv burgher and merchant creditor in the pledge and lawsuit settlement."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in municipal and residence designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "festo Assumptionis Beatae Mariae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast date specified as deadline for redemption."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno 159 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1597."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zofia Gmyssowa",
+        "Zofia",
+        "Zofiae"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors vidua relicta",
+        "ipsius",
+        "viduae"
+      ],
+      "justification": "Widow settling property dispute with Erasmus Jelonek."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Georgius Imaginator",
+      "mention_texts": [
+        "Georgij"
+      ],
+      "descriptive_mentions": [
+        "Imaginatoris Anteurbani Leopoliensis",
+        "olim Imaginatoris"
+      ],
+      "justification": "Deceased husband of Zofia, suburban sculptor/image-maker of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szoroński",
+      "mention_texts": [
+        "Albertum Szoronski"
+      ],
+      "descriptive_mentions": [
+        "Tutorem",
+        "Famatum",
+        "tertiano Ostiarium Leopoliensem"
+      ],
+      "justification": "Guardian assisting Zofia in the legal transaction."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "iisdem Actis"
+      ],
+      "justification": "Municipal court and record office approving the transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "sabbato ante festum Simonis et Judae proximo Anno 159 tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous division recorded in the council acts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civi et Negociatori Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Zofia olim Gowidi Georgij Imaginatoris Anteurbani Leopoliensis consors vidua relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "has_legal_guardian",
+      "tail_entity_id": "E8",
+      "evidence": "per assumptum sibi Tutorem Famatum Albertum Szoronski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Anteurbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Ostiarium Leopoliensem"
+    }
+  ]
+}

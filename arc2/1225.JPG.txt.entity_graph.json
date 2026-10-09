@@ -1,0 +1,211 @@
+{
+  "document_id": "arc2/1225.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Franciszkowska House",
+      "mention_texts": [
+        "Franciszkovska"
+      ],
+      "descriptive_mentions": [
+        "domo",
+        "domum praefatam",
+        "eandem domum"
+      ],
+      "justification": "Text refers to a private property named 'domo Franciszkovska' where legal rights were acquired and mortgaged."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "Florenos septuaginta",
+        "septuaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici",
+        "hanc ipsam summam",
+        "summa eadem",
+        "summa essentiali"
+      ],
+      "justification": "Monetary sum of 70 florins recorded in the contract."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-3131: PER-0320: PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simoni Kinort",
+        "Simone Kinort"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Scamparo",
+        "Civi Leopoliensi",
+        "illo"
+      ],
+      "justification": "Matches corpus person PER-3131: PER-0320: PER-0094: Simon Kinost, with spelling variant 'Simone Kinort'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoliense",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv (Leopolis), mentioned in citizenship, jurisdictional, and date formulas."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Margaret",
+      "mention_texts": [
+        "Festum Sanctae Margaretae"
+      ],
+      "descriptive_mentions": [
+        "in eodem anno futurum"
+      ],
+      "justification": "Liturgical feast specifying the deadline for debt repayment."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Potomek",
+      "mention_texts": [
+        "Martini Potomek",
+        "Martino Potomek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Ferrifabro Suburbano Leopoliensi",
+        "emptore",
+        "promisso debitore",
+        "eundem"
+      ],
+      "justification": "Blacksmith of the Lviv suburb, released from a debt obligation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Israel Czeit",
+      "mention_texts": [
+        "Israel Czeit"
+      ],
+      "descriptive_mentions": [
+        "Perfidus",
+        "Iudaeus Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Jewish creditor residing in Lviv who issues a receipt/acquittance."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Horwathowski",
+      "mention_texts": [
+        "Andream Horwathowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Nobleman appointed as tutor/legal guardian to Israel Czeit for the legal act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Florenis sexaginta"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici"
+      ],
+      "justification": "Sum of 60 florins paid in settlement of debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cebula",
+      "mention_texts": [
+        "Stanislai Cebula",
+        "Cebula"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Calceatoris Suburbani Leopoliensis",
+        "praedicti olim"
+      ],
+      "justification": "Deceased shoemaker of the Lviv suburb whose estate house was sold."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio et Advocato Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial court of Lviv before which the prior obligation had been contracted."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato ante Festum Sancti Joannis Baptistae Proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "die anno quo supra"
+      ],
+      "justification": "Corresponds to date entry DATE-0004: 1596 for the year 1596."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Wroncińska Tenement House",
+      "mention_texts": [
+        "Lapidea Wroncinska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Tenement house mentioned in the heading at the bottom of the page."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simoni Kinort Scamparo Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "per Nobilem Andream Horwathowski tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E7",
+      "evidence": "Martino Potomek... promisso debitore per ipsum contractam persolutos. Dequa satisfactione eundem quietavit"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resides_in",
+      "tail_entity_id": "E4",
+      "evidence": "Martino Potomek Ferrifabro Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resides_in",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Cebula Calceatoris Suburbani Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "document_id": "arc2/1563.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii",
+        "Officio praesenti",
+        "Acta praesentia"
+      ],
+      "justification": "The municipal office and record-keeping body of Lviv referenced in the protocol."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicium Necessarium trimensium Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Judicii",
+        "eodem Judicio"
+      ],
+      "justification": "The necessary trimensial/bannite court of Lviv before which the recognition took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The royal city of Lviv mentioned as the venue of court and citizenship descriptor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria tertia post Dominicam Exaudi proxima Anno Domini Millesimo Quingentesimo Nonagesimo Quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Elisabeth Tłumaczka",
+      "mention_texts": [
+        "Elisabeth Tlumaczka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta",
+        "sea recognitore",
+        "suos",
+        "suae"
+      ],
+      "justification": "Armenian woman, widow of Christophorus Tłumacz, who acknowledges a debt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Tłumacz",
+      "mention_texts": [
+        "Christophori Tlumacz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Armeni Civis Leopoliensis"
+      ],
+      "justification": "Deceased Armenian citizen of Lviv, late husband of Elisabeth."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Waszko Philippowicz",
+      "mention_texts": [
+        "Waszkowem Philippowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "seniorem Armenum Leopoliensis",
+        "tutorem scilicet ad eum actum assumptum et sententia Judicii approbatum"
+      ],
+      "justification": "Armenian elder and appointed legal guardian of Elisabeth."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jaskrowic",
+      "mention_texts": [
+        "Joanni Jaskrowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Seniori Armeno",
+        "Civi Leopoliensi",
+        "Ceditori suo",
+        "memorato Ceditori suo"
+      ],
+      "justification": "Armenian elder and citizen of Lviv, creditor of Elisabeth."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "125 Polish florins",
+      "mention_texts": [
+        "Florenos centum viginti quinque pecuniae et numeri Polonicalis",
+        "centum viginti quinque florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount of the acknowledged debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0152: Armenian Street",
+      "mention_texts": [
+        "platea Armenicali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Armenian Street in Lviv where the mortgaged tenement is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Armenian Church",
+      "mention_texts": [
+        "aedem Armenicam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Armenian church in Lviv near which the house is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesta Elisabeth Tlumaczka Famati olim Christophori Tlumacz Armeni Civis Leopoliensis relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "per Famatum Waszkowem Philippowicz seniorem Armenum Leopoliensis tutorem scilicet ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_of",
+      "tail_entity_id": "E8",
+      "evidence": "Elisabeth Tlumaczka ... recognovit: se debere et teneri certi iusti liquidique debiti ex causa mutui contracti Florenos centum viginti quinque pecuniae et numeri Polonicalis Famato Joanni Jaskrowic"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Christophori Tlumacz Armeni Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joanni Jaskrowic Seniori Armeno et Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Judicium Necessarium trimensium Leopoliensis celebratum est Leopoli"
+    }
+  ]
+}

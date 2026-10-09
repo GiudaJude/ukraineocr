@@ -1,0 +1,132 @@
+{
+  "document_id": "arc2/0144.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced via Latin adjectival forms Leopoliensis and Leopoliensibus."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicijs Successionarijs Bannitis Quadragesimalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Lenten banned court for succession matters in Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Elżbieta Koniarkowa",
+      "mention_texts": [
+        "Elzbietam Koniarkowa"
+      ],
+      "descriptive_mentions": [
+        "praefatas defunctae matrem",
+        "partibus ab altera"
+      ],
+      "justification": "Named party disputing the testament, identified as mother of the deceased."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Zofia Koniarkowa",
+      "mention_texts": [
+        "Zofiam Koniarkowa"
+      ],
+      "descriptive_mentions": [
+        "partibus ab altera"
+      ],
+      "justification": "Named party participating in the dispute alongside Elżbieta Koniarkowa."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Andrzejowic",
+      "mention_texts": [
+        "Nicolaum Andrzejowic"
+      ],
+      "descriptive_mentions": [
+        "motistas",
+        "partibus ex una"
+      ],
+      "justification": "One of the parties involved in the division/estate partition."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Zofia Bernatowic",
+      "mention_texts": [
+        "Zofiam Bernatowic"
+      ],
+      "descriptive_mentions": [
+        "partibus ex altera"
+      ],
+      "justification": "Party involved in the partition on the opposing side to Nicolaus Andrzejowic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baptista",
+      "mention_texts": [
+        "Joanne Baptista"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "Mercatoribus Tornensibus Contubernalibus Civibus Leopoliensibus"
+      ],
+      "justification": "Appraiser of the goods, merchant and citizen of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lucas Hawrilowic",
+      "mention_texts": [
+        "Luca Hawrilowic"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "Mercatoribus Tornensibus Contubernalibus Civibus Leopoliensibus"
+      ],
+      "justification": "Appraiser of the goods, merchant and citizen of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Toruń",
+      "mention_texts": [
+        "Tornensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin/association of the merchants (Mercatoribus Tornensibus)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatis Joanne Baptista et Luca Hawrilowic Mercatoribus Tornensibus Contubernalibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatis Joanne Baptista et Luca Hawrilowic Mercatoribus Tornensibus Contubernalibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Decreti Judicialis Leopoliensis in Judicijs Successionarijs Bannitis"
+    }
+  ]
+}

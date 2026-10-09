@@ -1,0 +1,196 @@
+{
+  "document_id": "arc2/1255.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krausz",
+      "mention_texts": [
+        "Joannem Krausz",
+        "Joannis Krausz"
+      ],
+      "descriptive_mentions": [
+        "Scabinum",
+        "coniuges",
+        "olim Honorati",
+        "coniugum"
+      ],
+      "justification": "Former town bench official (scabinus) and co-owner of property mentioned in legal context."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Eva Krauszowa",
+      "mention_texts": [
+        "Evam",
+        "Evae"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "coniugum"
+      ],
+      "justification": "Wife of Joannes Krausz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0047: Jewish Street",
+      "mention_texts": [
+        "platea Judaeorum"
+      ],
+      "descriptive_mentions": [
+        "dicta"
+      ],
+      "justification": "Street name where the stone house is located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Kaminka",
+      "mention_texts": [
+        "Kaminke"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of an adjacent stone house on Jewish Street."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Hanel",
+      "mention_texts": [
+        "Simons Hanel",
+        "Simonis Hanel"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Property owner adjacent to the Krausz house and the suburban lot."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentorum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of debt owed to the heirs of Lucas Kret."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kret",
+      "mention_texts": [
+        "Lucae Kretowi",
+        "Lucae Kretow"
+      ],
+      "descriptive_mentions": [
+        "olim Nobilis",
+        "Castrensi Zydaczouiensi"
+      ],
+      "justification": "Deceased nobleman associated with Żydaczów, creditor/predecessor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Halicki"
+      ],
+      "descriptive_mentions": [
+        "dicto"
+      ],
+      "justification": "Suburb of Lviv where the vacant lot (stadelko) is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Krausz",
+      "mention_texts": [
+        "Stanislao Krausz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "filio",
+        "sui vero cognato et successori",
+        "successori",
+        "legitimis successoribus"
+      ],
+      "justification": "Son and successor of Joannes and Eva Krausz who buys the lot."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentorum Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price of the vacant lot."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "praefata",
+        "Lucae Kretow vidua",
+        "vidua"
+      ],
+      "justification": "Widow of Lucas Kret."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum",
+        "suum Plenipotentem et mandatarium"
+      ],
+      "justification": "Lviv scabinus appointed as plenipotentiary before the Banned Court."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial forum where the resignation is to be executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannem Krausz Scabinum et Evam coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislao Krausz praedictorum quoque Joannis Krausz et Evae coniugum filio"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislao Krausz praedictorum quoque Joannis Krausz et Evae coniugum filio"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse of",
+      "tail_entity_id": "E7",
+      "evidence": "Anna Lucae Kretow vidua"
+    }
+  ]
+}

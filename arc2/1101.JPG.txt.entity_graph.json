@@ -1,0 +1,247 @@
+{
+  "document_id": "arc2/1101.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Bannito"
+      ],
+      "descriptive_mentions": [
+        "iurisdictioni Civili"
+      ],
+      "justification": "The text refers to proceedings in the Lviv Banned Court (Iudicium Expositum Bannitum)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta ante Festum Sanctae Catherinae Virginis proxima Anno 1596",
+        "Sabbato ante Dominicam Cantate proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court dates in the year 1596."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0133: 15 florins",
+      "mention_texts": [
+        "Florenorum quindecim Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount of fifteen Polish florins."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wolski",
+      "mention_texts": [
+        "Joannem Wolski"
+      ],
+      "descriptive_mentions": [
+        "Gladiatorem",
+        "praefatum"
+      ],
+      "justification": "The swordsmith (gladiator) who incurred the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zablicki",
+      "mention_texts": [
+        "Stanislao Zabliczki",
+        "Stanislaus Zabliczki"
+      ],
+      "descriptive_mentions": [
+        "dicto",
+        "idem"
+      ],
+      "justification": "Creditor/recipient of the intromissio."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "City where the acts are transacted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Radziwilski",
+      "mention_texts": [
+        "Andreas Radziwilski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual appearing in the court record entry heading/subscription."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zadworski",
+      "mention_texts": [
+        "Stanislaus Zadworski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Ingenui",
+        "Judex Terrae Czaroviensis Thevenstarios",
+        "fratres germani"
+      ],
+      "justification": "Noble seller of the suburban house, land judge of Czarovia."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Zadworski",
+      "mention_texts": [
+        "Simon Zadworski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Ingenui",
+        "Scabinus Barzlavien",
+        "fratres germani"
+      ],
+      "justification": "Noble seller of the house, brother of Stanislaus, bench officer in Bracław."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Terra Czaroviensis",
+      "mention_texts": [
+        "Czaroviensis"
+      ],
+      "descriptive_mentions": [
+        "Terrae"
+      ],
+      "justification": "Region where Stanislaus Zadworski served as land judge."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Bracław",
+      "mention_texts": [
+        "Barzlavien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town/territory where Simon Zadworski was scabinus."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Halickie"
+      ],
+      "descriptive_mentions": [
+        "suburbio",
+        "maiore"
+      ],
+      "justification": "The Halych suburb of Lviv where the house is situated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "cerdonum"
+      ],
+      "descriptive_mentions": [
+        "plateam"
+      ],
+      "justification": "Platea cerdonum, street of the tanners in the Halych suburb."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Mathias Kosleindnator",
+      "mention_texts": [
+        "Mathiae Kosleindnatoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the sold property."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Andreas Krassowski",
+      "mention_texts": [
+        "Andreae Krassowski",
+        "Krassowski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pistori",
+        "Successoribus"
+      ],
+      "justification": "Baker who purchased the house."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "currency",
+      "canonical_name": "350 Polish florins",
+      "mention_texts": [
+        "Trecentorum et quinquaginta Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase remainder price of 350 Polish florins."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E5",
+      "evidence": "super summam debiti Florenorum quindecim Polonicalium per praefatum Joannem Wolski Gladiatorem facti et in suis duabus sortibus dicto Stanislao Zabliczki"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislaus Zadworski Judex Terrae Czaroviensis Thevenstarios et Simon Zadworski Scabinus Barzlavien fratres germani"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "officeholder_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislaus Zadworski Judex Terrae Czaroviensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "officeholder_of",
+      "tail_entity_id": "E11",
+      "evidence": "Simon Zadworski Scabinus Barzlavien"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "transacted_with",
+      "tail_entity_id": "E15",
+      "evidence": "Stanislaus Zadworski ... et Simon Zadworski ... vendidisse praesentibusque inscriptionis vigore vendere domum ... Andreae Krassowski"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "transacted_with",
+      "tail_entity_id": "E15",
+      "evidence": "Simon Zadworski ... vendidisse praesentibusque inscriptionis vigore vendere domum ... Andreae Krassowski"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "part_of",
+      "tail_entity_id": "E6",
+      "evidence": "Civitatis istius suburbio Halickie"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "Civitatis istius suburbio Halickie dicto maiore eundo in plateam cerdonum perratam"
+    }
+  ]
+}

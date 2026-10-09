@@ -1,0 +1,239 @@
+{
+  "document_id": "arc2/1301.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sophia Jasieńska",
+      "mention_texts": [
+        "Sophia Jasieńska"
+      ],
+      "descriptive_mentions": [
+        "praedicta"
+      ],
+      "justification": "Named party appearing personally to grant power of attorney."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sierozski",
+      "mention_texts": [
+        "Albertum Sierozski"
+      ],
+      "descriptive_mentions": [
+        "tutorem sibi ad eum praesentem actum assumptum",
+        "Fidele",
+        "Sutorem Kthoviensem"
+      ],
+      "justification": "Shoemaker acting as guardian (tutor) for Sophia Jasieńska."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Daniel Rzal",
+      "mention_texts": [
+        "Danieli Rzal"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civiciario nostro Civili",
+        "Fratri suo"
+      ],
+      "justification": "Recipient of plenipotentiary power of attorney, described as her brother."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitani",
+        "Leopolitanum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the act was recorded and origin of various suburban residents."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Anno 1590",
+        "Sabbato ante Festum Transfigurationis Domini Proxima Anno 1590",
+        "feria sexta post festum Transfigurationis Domini proxima eadem qua supra",
+        "Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the court entries and registered transactions."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Banas Kozicz",
+      "mention_texts": [
+        "Banas Kozicius",
+        "Banas Kozicz"
+      ],
+      "descriptive_mentions": [
+        "Fructuarius",
+        "Providus",
+        "nepotem ex sorore",
+        "petenti"
+      ],
+      "justification": "Person appearing from Krasiv lodging a protestation regarding inheritance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Krasów",
+      "mention_texts": [
+        "Krassow",
+        "Krassowiensis"
+      ],
+      "descriptive_mentions": [
+        "Oppido"
+      ],
+      "justification": "Town of residence of Banas Kozicz and seat of its council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [
+        "acta publica praesentia"
+      ],
+      "justification": "The municipal council office recording the deed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Krasów City Council",
+      "mention_texts": [
+        "Officii Consularis Krassowiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council office of Krasów whose authentic seal was presented."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "sorore"
+      ],
+      "justification": "Mother of Banas Kozicz, sister of the deceased blacksmith."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Maciej Kuszczyk",
+      "mention_texts": [
+        "Maciey Kusczyk",
+        "Nicolai Fabri"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Fabri Ferrarii Suburbani Leopolitani",
+        "steriliter vita functi",
+        "auunculi sui relicta",
+        "auunculi"
+      ],
+      "justification": "Deceased blacksmith of the Lviv suburb, maternal uncle of Banas Kozicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Thomas Krzysek",
+      "mention_texts": [
+        "Thomam Krzysek",
+        "Thomas"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Calcearium Suburbanum Leopolitanum"
+      ],
+      "justification": "Suburban cobbler of Lviv against whom Banas Kozicz lodges a protest."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Klyszowski",
+      "mention_texts": [
+        "Gasparo Klyszowski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "sutore"
+      ],
+      "justification": "Shoemaker holding the estate assets."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Paulus Wolfowicz",
+      "mention_texts": [
+        "Pauli Wolffowic"
+      ],
+      "descriptive_mentions": [
+        "Magistri"
+      ],
+      "justification": "Lviv magistrate/consul under whose term or report the entry was made."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "has_guardian",
+      "tail_entity_id": "E2",
+      "evidence": "Sophia Jasieńska per tutorem sibi ad eum praesentem actum assumptum Fidele Albertum Sierozski"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Danieli Rzal Civiciario nostro Civili Fratri suo"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "nepotem ex sorore Barbara"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "nepotem ex sorore Barbara Honesti olim Maciey Kusczyk Fabri Ferrarii Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "originates_from",
+      "tail_entity_id": "E7",
+      "evidence": "Banas Kozicz de Oppido Krassow"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Officii Consularis Krassowiensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "lives_in",
+      "tail_entity_id": "E4",
+      "evidence": "Fabri Ferrarii Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "lives_in",
+      "tail_entity_id": "E4",
+      "evidence": "Calcearium Suburbanum Leopolitanum"
+    }
+  ]
+}

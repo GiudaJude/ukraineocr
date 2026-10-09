@@ -1,0 +1,169 @@
+{
+  "document_id": "arc2/1349.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensium",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in civic descriptions throughout the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Faber",
+      "mention_texts": [
+        "Faber"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "maritus",
+        "venditores"
+      ],
+      "justification": "Citizen and husband appearing as co-seller in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Elisabeth",
+        "Elisabetham",
+        "Elisabetha"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "legitima",
+        "ipsius consors",
+        "suam filiam legitimam",
+        "possessori",
+        "venditores"
+      ],
+      "justification": "Identified as the legitimate daughter of the late tailor Janusz and Ewa Rzeszowszczanka, acting with her husband."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Janusz Sartor",
+      "mention_texts": [
+        "Jamussi Sartoris"
+      ],
+      "descriptive_mentions": [
+        "Famatorem",
+        "olim",
+        "coniugum Civium Leopoliensium"
+      ],
+      "justification": "Deceased tailor and citizen of Lviv, father of Elisabeth."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Ewa Rzeszowszczanka",
+      "mention_texts": [
+        "Euae Rzeszowsczanka",
+        "Eua Rzeszowsczanka"
+      ],
+      "descriptive_mentions": [
+        "coniugum Civium Leopoliensium",
+        "matris"
+      ],
+      "justification": "Wife of Janusz Sartor and mother of Elisabeth."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Moszycki",
+      "mention_texts": [
+        "Andream Moszicki"
+      ],
+      "descriptive_mentions": [
+        "Tutorem",
+        "Nobilem",
+        "Causarum Iuris Magdeburgici Terrenique Iurium Iuris peritum"
+      ],
+      "justification": "Legal tutor assisting Elisabeth in the transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Bobownicki",
+      "mention_texts": [
+        "Stanislai Bobownici"
+      ],
+      "descriptive_mentions": [
+        "famati",
+        "olim"
+      ],
+      "justification": "Deceased owner of a stone house mentioned in the property description."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Baliński",
+      "mention_texts": [
+        "Balinski"
+      ],
+      "descriptive_mentions": [
+        "Doctoris",
+        "utriusque Iuris"
+      ],
+      "justification": "Doctor of both laws referenced in connection with the tenement house or neighboring property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Ząbkowic",
+      "mention_texts": [
+        "Alberto Ząbkowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sartori Civi Leopoliensi",
+        "emptorem"
+      ],
+      "justification": "Tailor and citizen of Lviv who buys the share of the house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Civili",
+        "Iudicio Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The civil banned court of Lviv before which the resignation is to take place."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "maritus quidem se et praefata ipsius consors"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Jamussi Sartoris et Euae Rzeszowsczanka coniugum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Elisabeth Famatorem olim Jamussi Sartoris et Euae Rzeszowsczanka coniugum Civium Leopoliensium legitima"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "praefata Eua Rzeszowsczanka matris ad praedictam Elisabetham suam filiam legitimam"
+    }
+  ]
+}

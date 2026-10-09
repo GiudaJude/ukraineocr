@@ -1,0 +1,103 @@
+{
+  "document_id": "arc2/1040.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kislicze",
+      "mention_texts": [
+        "Stanislai Kislicze"
+      ],
+      "descriptive_mentions": [
+        "supradicti",
+        "secundarij mariti sui",
+        "ipsius",
+        "dicti sui mariti",
+        "ipsius"
+      ],
+      "justification": "Named in the text: 'testamento supradicti Stanislai Kislicze secundarij mariti sui'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "sibi",
+        "posteris suis",
+        "praefata",
+        "Coniuge sua",
+        "eiusdem",
+        "eadem"
+      ],
+      "justification": "Named in the text: 'cum praefata Catherina Coniuge sua habitis et possessis' and 'erga eiusdem Catherinae'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastiani",
+        "Sebastiano"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "praefati",
+        "praefato",
+        "illius"
+      ],
+      "justification": "Named in the text: 'dicti Sebastiani in dote' and 'praefato Sebastiano ad manus praefatorum tutorum'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenorum Centum pecuniae polonicalis",
+        "Centum florenorum",
+        "Centum Florenos"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "legatorum",
+        "pecuniamque praefatam"
+      ],
+      "justification": "Mentioned as monetary sum: 'summa Florenorum Centum pecuniae polonicalis', 'Centum florenorum legatorum', and 'Centum Florenos'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Rzaysowska Stall",
+      "mention_texts": [
+        "Rzaysowska"
+      ],
+      "descriptive_mentions": [
+        "macella"
+      ],
+      "justification": "Described as an adjacent butcher stall: 'inter alia macella penes Rzaysowska ab una'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Sołtysowska Stall",
+      "mention_texts": [
+        "Soltyzowska"
+      ],
+      "descriptive_mentions": [
+        "macella"
+      ],
+      "justification": "Described as an adjacent butcher stall: 'et Soltyzowska ex altera partibus sit'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislai Kislicze secundarij mariti sui... cum praefata Catherina Coniuge sua"
+    }
+  ]
+}

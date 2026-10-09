@@ -1,0 +1,188 @@
+{
+  "document_id": "arc2/0751.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra",
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the legal acts recorded in the Lviv council books, referenced via the recurring formula 'Actum ut supra'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburb Catherina Szamalowa inhabits ('Suburbana Leopoliensis')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Catherina Szamalowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherina Szamalowa"
+      ],
+      "descriptive_mentions": [
+        "mater",
+        "Honesta",
+        "Suburbana Leopoliensis",
+        "ipsius matris"
+      ],
+      "justification": "Mother of Mathias Szamalowicz donating 20 florins to him causa mortis."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias Szamalowicz",
+      "mention_texts": [
+        "Matias Szamalowyc",
+        "Mathia Szamalowicz",
+        "Mathiae Szamalowicz",
+        "Mathiam"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "filio suo",
+        "filio",
+        "eumdem Mathiam"
+      ],
+      "justification": "Son of Catherina Szamalowa who receives the donation of 20 florins."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Gregorius",
+      "mention_texts": [
+        "Petrum Gregorium"
+      ],
+      "descriptive_mentions": [
+        "Fabrum lignarium",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Carpenter acting as legal guardian (tutor) for Catherina Szamalowa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenos viginti",
+        "floreni viginti"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et quidem Polonicales"
+      ],
+      "justification": "Sum of 20 Polish florins donated by Catherina Szamalowa to her son Mathias."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Kozatowicz",
+      "mention_texts": [
+        "Martini Kozatowic",
+        "Martini Kozatowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Suburbani"
+      ],
+      "justification": "Deceased suburbanite whose successors are making a concordia; father of Lucia."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Scans",
+      "mention_texts": [
+        "Valentinus",
+        "Scans"
+      ],
+      "descriptive_mentions": [
+        "Provisus",
+        "auris duratoris",
+        "Coniuges",
+        "eundem maritum tutorem suum legitimum"
+      ],
+      "justification": "Husband and legal guardian of Lucia Kozatowiczowna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lucia Kozatowiczowna",
+      "mention_texts": [
+        "Lucia",
+        "Kozatowiczowna"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "Coniuges",
+        "haec"
+      ],
+      "justification": "Daughter of the late Martinus Kozatowicz and wife of Valentinus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E4",
+      "evidence": "ab Honestis Mathia Szamalowicz filio suo"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathiae Szamalowicz filio suo"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Petrum Gregorium Fabrum lignarium tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Catherina Szamalowa Suburbana Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "olim Martini Kozatowicz Suburbani... Lucia filia Kozatowiczowna"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Lucia filia Kozatowiczowna"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Valentinus auris duratoris Scans et Lucia filia Kozatowiczowna Coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Valentinus auris duratoris Scans et Lucia filia Kozatowiczowna Coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "per eundem maritum tutorem suum legitimum"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/1124.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinam",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "praefatam",
+        "filiae"
+      ],
+      "justification": "Identified as daughter (filia) of the deceased Michael Raczynski and Anastasia."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0030: Anastasia",
+      "mention_texts": [
+        "Anastasiam",
+        "Anastasia",
+        "Anastasiae"
+      ],
+      "descriptive_mentions": [
+        "successricem matrem",
+        "coniugem legitimam",
+        "matre",
+        "matrem",
+        "praefatae",
+        "matris",
+        "Coniuges",
+        "uxor"
+      ],
+      "justification": "Mother of Catherina, previously married to Michael Raczynski, now married to Iwan Cerdo dictus Raczynski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Michael Raczynski",
+      "mention_texts": [
+        "Raczynschi",
+        "Michaelem Raczynski"
+      ],
+      "descriptive_mentions": [
+        "patrem",
+        "olim",
+        "praefatum"
+      ],
+      "justification": "Deceased father of Catherina."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Iwan Cerdo",
+      "mention_texts": [
+        "Iwan Cerdonis dicti Raczynski",
+        "Iwan Cerdo"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "praefatis",
+        "Coniuges",
+        "vir",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Second husband of Anastasia."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lesko",
+      "mention_texts": [
+        "Leskoni"
+      ],
+      "descriptive_mentions": [
+        "genero"
+      ],
+      "justification": "Son-in-law (gener), husband of Catherina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in context of inhabitancy/jurisdiction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Podlicza",
+      "mention_texts": [
+        "Cwili podlicza",
+        "Podlicza"
+      ],
+      "descriptive_mentions": [
+        "pago"
+      ],
+      "justification": "Village (pagus) where property is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenis Polonicalibus"
+      ],
+      "descriptive_mentions": [
+        "parata pecunia"
+      ],
+      "justification": "Amount of money referenced in cash payment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "olim Raczynschi patrem et Anastasiam successricem matrem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Iwan Cerdonis dicti Raczynski habitatam Leopoliensis coniugem legitimam"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "ad praefatam Catherinam post praedictam olim Raczynschi patrem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "Anastasiam successricem matrem... filiae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "eidem Leskoni et Catherinae genero et filiae"
+    }
+  ]
+}

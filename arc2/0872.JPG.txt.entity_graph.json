@@ -1,0 +1,218 @@
+{
+  "document_id": "arc2/0872.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopol-",
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced directly as Leopoli and in locational adjectives for townspeople and officials."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrocki",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Iuris Utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Advocate ordinary and doctor of laws appearing in the entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kudrowicz",
+      "mention_texts": [
+        "Andreas Kudrowicz"
+      ],
+      "descriptive_mentions": [
+        "Notarius Scabinorum Civitatis Leopol-"
+      ],
+      "justification": "Notary of the bench of aldermen of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Dorgowski",
+      "mention_texts": [
+        "Alberti Dorgowski",
+        "Alberti Dorgowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Generosum",
+        "Generoso",
+        "maritum suum",
+        "tutorem naturalem"
+      ],
+      "justification": "Noble Albertus Dorgowski de Laskiminium acting as natural guardian and husband."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0007: Ruthenian Street",
+      "mention_texts": [
+        "plateam Ruthenicam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street name where the house of Chomina is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Chomińska House",
+      "mention_texts": [
+        "domum Chominska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The house in Ruthenian Street where the officials visited the ill woman."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Ruthenian Gate",
+      "mention_texts": [
+        "porta Ruthenica"
+      ],
+      "descriptive_mentions": [
+        "turrim qua porta Ruthenica voratur sitam"
+      ],
+      "justification": "Gate/tower near the Chomińska house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Anna Sankulanka",
+      "mention_texts": [
+        "Iuliana Santulanka",
+        "Annam Sanculianka"
+      ],
+      "descriptive_mentions": [
+        "Generosam",
+        "consortem legitimam",
+        "ipsa"
+      ],
+      "justification": "Noblewoman, wife of Albertus Dorgowski, acknowledging the debt assignment due to poor health."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Praetorium",
+        "Officium praesens"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The council/town hall office where she could not come in person."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "acta Civilia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civil/banned records to which registration was requested."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "1300 Polish florins",
+      "mention_texts": [
+        "Mille Trecentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount of debt assigned: 1,300 Polish florins."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Choman Babur",
+      "mention_texts": [
+        "Petrum Choman Babur"
+      ],
+      "descriptive_mentions": [
+        "Institorem",
+        "Cives Leopolienses"
+      ],
+      "justification": "Debtor and citizen merchant of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Cives Leopolienses"
+      ],
+      "justification": "Wife of Petrus Choman Babur and co-debtor."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "1584",
+      "mention_texts": [
+        "feria quinta post Omnium Sanctorum proxime proxima Anno Domini 1584 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous registered obligation."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Andreas Bilski",
+      "mention_texts": [
+        "Andreas Bilska",
+        "Andreae Bildaha"
+      ],
+      "descriptive_mentions": [
+        "Rutheno",
+        "Inscriptori",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Ruthenian citizen of Lviv to whom the claim is assigned."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "praefati Generosi Alberti Dorgowski consortem legitimam"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Petrum Choman Babur Institorem et Annam Coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_located_in",
+      "tail_entity_id": "E5",
+      "evidence": "descenderunt in plateam Ruthenicam ad domum Chominska"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "assigns_claim_to",
+      "tail_entity_id": "E15",
+      "evidence": "ipsa ius suum super summam Mille Trecentorum Florenorum... firmatum totum et integrum Famato Andreae Bildaha Rutheno Inscriptori Civi Leopoliensi"
+    }
+  ]
+}

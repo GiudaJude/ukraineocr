@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/1423.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonis"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino",
+        "Plenipotens"
+      ],
+      "justification": "Named as the scabinus and plenipotentiary empowered to execute the resignation in the banned court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The judicial forum where the property resignation was to take place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City context for the banned court, city council, and citizens."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consules Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "acta nostra"
+      ],
+      "justification": "The municipal authority receiving and recording the protestation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The square where the disputed townhouse is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Szust",
+      "mention_texts": [
+        "Bartholomaei Szust"
+      ],
+      "descriptive_mentions": [
+        "Honestorum"
+      ],
+      "justification": "A contracting party involved in the sale of the half-portion of the townhouse."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Henricus Federowicz",
+      "mention_texts": [
+        "Henrici Federowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "emptoris"
+      ],
+      "justification": "The buyer of the townhouse portion and a burgher of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "450 florins",
+      "mention_texts": [
+        "quadragentorum et quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary debt hypothecated on the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Dziadel",
+      "mention_texts": [
+        "Albertum Dziadel"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "coniuges"
+      ],
+      "justification": "Deceased debtor and spouse of Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "filiam praefatae Barbarae Lapicideae",
+        "coniuges"
+      ],
+      "justification": "Wife of Albertus Dziadel and daughter of Barbara."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae Lapicideae",
+        "Barbarae Pustarta",
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "praefatae",
+        "Lapicideae",
+        "Honesta"
+      ],
+      "justification": "Mother of Anna and widow/relative associated with Leonardus Abel."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Abel",
+      "mention_texts": [
+        "Leonardi Abele"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased burgher linked to Barbara."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Simonis Scabino in Judicio Exposito Bannito Leopoli"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Judicio Exposito Bannito Leopoli"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Consules Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in circulo Civitatis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E3",
+      "evidence": "Henrici Federowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertum Dziadel et Annam filiam praefatae Barbarae Lapicideae coniuges"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Annam filiam praefatae Barbarae Lapicideae"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honesta Barbara Famati olim Leonardi Abele"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "document_id": "arc2/1409.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council issuing the decrees in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City identified in the council's jurisdictional title."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparo Cembarski",
+        "Casparum Lembarski"
+      ],
+      "descriptive_mentions": [
+        "Pellionem",
+        "eiusdem Lapideae cohaeredem citatum",
+        "citato",
+        "citatus"
+      ],
+      "justification": "Furrier and cited co-heir named in the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Tridolit",
+      "mention_texts": [
+        "Hieronymum Tridolit"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Pellionem Heredem certarum sortium domus lapideae Korosynska actorem",
+        "actor"
+      ],
+      "justification": "Furrier and actor in the construction dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Georgius Dziendziel",
+      "mention_texts": [
+        "Georgii Dziendziel"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "pro fatorum"
+      ],
+      "justification": "Neighbor whose property is referenced regarding the disputed wall."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adami Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "pro fatorum"
+      ],
+      "justification": "Neighbor named alongside Georgius Dziendziel."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Simonowic",
+      "mention_texts": [
+        "Albertum Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Aurifabrum",
+        "affines et cohaeredes domus lapideae Balsanowska in platea Castrensi sitae",
+        "actores"
+      ],
+      "justification": "Goldsmith and co-heir of the Balsanowska stone house acting as plaintiff."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Tromfec",
+      "mention_texts": [
+        "Albertum Tromfecem"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "affines et cohaeredes domus lapideae Balsanowska in platea Castrensi sitae",
+        "actores"
+      ],
+      "justification": "Co-heir of the Balsanowska house acting alongside Albertus Simonowic."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paulus Hygan",
+      "mention_texts": [
+        "Paulum Hygan"
+      ],
+      "descriptive_mentions": [
+        "Aurifabrum",
+        "affines et cohaeredes domus lapideae Balsanowska in platea Castrensi sitae",
+        "actores"
+      ],
+      "justification": "Goldsmith and co-heir acting as plaintiff."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Melchior Smignatowicz",
+      "mention_texts": [
+        "Melchiorem Smignatowiczo"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "cohaeredem ipsorum citatum",
+        "citatus"
+      ],
+      "justification": "Cited co-heir regarding the lease of property rights."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Szond",
+      "mention_texts": [
+        "Szond"
+      ],
+      "descriptive_mentions": [
+        "extraneo cuidam",
+        "extraneo"
+      ],
+      "justification": "Outside person to whom part of the house was leased."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Castle Street",
+      "mention_texts": [
+        "platea Castrensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the Balsanowska tenement house is situated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "festi Paschatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day mentioned as the term for the lease."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "opposes",
+      "tail_entity_id": "E3",
+      "evidence": "inter Famatum Hieronymum Tridolit Pellionem... actorem, et Famatum Casparum Lembarski... citatum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "opposes",
+      "tail_entity_id": "E10",
+      "evidence": "inter Famatos Albertum Simonowic Aurifabrum... actores, et Famatum Melchiorem Smignatowiczo cohaeredem ipsorum citatum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "opposes",
+      "tail_entity_id": "E10",
+      "evidence": "inter Famatos... Albertum Tromfecem... actores, et Famatum Melchiorem Smignatowiczo cohaeredem ipsorum citatum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "opposes",
+      "tail_entity_id": "E10",
+      "evidence": "inter Famatos... Paulum Hygan Aurifabrum... actores, et Famatum Melchiorem Smignatowiczo cohaeredem ipsorum citatum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officii Consularis Leopoliensis inter Famatos... domus lapideae Balsanowska in platea Castrensi sitae"
+    }
+  ]
+}

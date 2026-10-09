@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/0601.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Piwostka",
+      "mention_texts": [
+        "Martinus Piwostka"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sutor",
+        "suburbanus",
+        "sibi"
+      ],
+      "justification": "Shoemaker from the suburbs of Lviv who issues a quietatio to Adam Obermanowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanus",
+        "Leopoliensi",
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in civic descriptions and transaction dateline."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "90 Polish florins",
+      "mention_texts": [
+        "Florenos nonaginta pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid and satisfied in the first entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council act books in which the prior debt obligation was registered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adam Obermanowicz",
+      "mention_texts": [
+        "Adam Oberman",
+        "Adamo Obermanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Organario",
+        "Cive",
+        "eundem"
+      ],
+      "justification": "Organ builder/player and citizen of Lviv who repaid his debt to Martinus Piwostka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Adamus Oberman",
+      "mention_texts": [
+        "Adamus Oberman",
+        "Adami Oberman"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Lanius",
+        "Civis",
+        "se",
+        "praedicti",
+        "praedictus",
+        "comparens personaliter"
+      ],
+      "justification": "Butcher and citizen of Lviv acknowledging a debt of 200 florins."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos Florenos ducentos pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount borrowed by Adam Oberman from Joannes Swiątkowicz Szarmataurus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Swiątkowicz Szarmataurus",
+      "mention_texts": [
+        "Joannes Szarmataurus",
+        "Joanni Swiątkowicz Szarmatauro"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi",
+        "eiusque legitimis successoribus",
+        "praenominatus",
+        "comparens personaliter"
+      ],
+      "justification": "Citizen and harness-maker of Lviv who loaned 200 florins to Adam Oberman."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "3 November",
+      "mention_texts": [
+        "die tertia Novembris anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the written agreement concluded in Lviv between the parties."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Woytek",
+      "mention_texts": [
+        "Sfexonymi Woytek"
+      ],
+      "descriptive_mentions": [
+        "Pellionis",
+        "uti testis"
+      ],
+      "justification": "Furrier who subscribed to the agreement as a witness."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo Sanctae Agnetis Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Repayment deadline set for the 200 florins debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Martinus Piwostka Sutor suburbanus Leopolitanus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_of",
+      "tail_entity_id": "E1",
+      "evidence": "satisfactum esse sibi plenarie et in toto de Florenos nonaginta pecuniae et numeri Polonici debiti sibi iuxta inscriptionem superiorem in quidem Actis contentam contracti a Famato Adamo Obermanowicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famato Adamo Obermanowicz Organario Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Adamus Oberman Lanius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E8",
+      "evidence": "Adamus Oberman Lanius Civis Leopoliensis palam publice benevoleque recognovit se debere certi veri iusti liquidique debiti ex causa mutui contracti Florenos Florenos ducentos pecuniae et numeri Polonici quemlibet florenos grossis triginta computando Famato Joanni Swiątkowicz Szarmatauro"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famato Joanni Swiątkowicz Szarmatauro Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "witness_for",
+      "tail_entity_id": "E6",
+      "evidence": "manu eiusdem praedicti Adami Oberman tum etiam Sfexonymi Woytek Pellionis uti testis subscriptae"
+    }
+  ]
+}

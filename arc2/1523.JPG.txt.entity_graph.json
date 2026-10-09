@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/1523.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts were recorded and of which several parties are citizens."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exhisio Bannito Astati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the procurators were appointed ('Judicio Exposito Bannito Aestatis')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Antonius",
+      "mention_texts": [
+        "Antonij"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabini"
+      ],
+      "justification": "Scabinus constituted as actor/procurator."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolai"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Leopoliensis"
+      ],
+      "justification": "Citizen constituted as actor/procurator."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "feria tertia post Festum Conversionis Sancti Pauli",
+      "mention_texts": [
+        "feria tertia post Festum Conuersionis Sancti Pauli proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording for the first entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Anno Domini 1590",
+        "feria quarta post fe- stum Conuersionis Sanctae Mariae Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording for the second entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Stroszanges Pyrmat"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv acknowledging satisfaction of a debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "202 Polish florins",
+      "mention_texts": [
+        "Florenis ducentis et duobus pecuniae et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money paid to satisfy the obligation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Martinus Joannomik",
+      "mention_texts": [
+        "Martinum Joannomik",
+        "Martini Joannomik"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Honestum",
+        "Ciuem Leopoliensem",
+        "praefati"
+      ],
+      "justification": "Deceased citizen who had contracted the debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Anna Kawczowna",
+      "mention_texts": [
+        "Anna Kawczowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "praefati Martini Joannomik primorum nuptiarum coniuge relicta",
+        "eandem"
+      ],
+      "justification": "Surviving first wife of Martinus Joannomik who pays the debt and is quieted."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "iisdem Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council register in which the prior inscription had been entered."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Dobrowieczki",
+      "mention_texts": [
+        "Nicolaus Dobrowieczki"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Scultetus Dukensis",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburban resident and scultetus making an acknowledgement."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szaffarnik",
+      "mention_texts": [
+        "Szaparnik",
+        "Paulus Szaffarnik"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "affinis suus"
+      ],
+      "justification": "Relative/affinis of Nicolaus Dobrowieczki."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "widow_of",
+      "tail_entity_id": "E9",
+      "evidence": "ab Honesta Anna Kawczowna praefati Martini Joannomik primorum nuptiarum coniuge relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Scabinus Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Martinum Joannomik Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "relative_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honestus Paulus Szaffarnik affinis suus"
+    }
+  ]
+}

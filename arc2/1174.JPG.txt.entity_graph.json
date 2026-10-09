@@ -1,0 +1,165 @@
+{
+  "document_id": "arc2/1174.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Drabez",
+      "mention_texts": [
+        "Joane Drabez"
+      ],
+      "descriptive_mentions": [
+        "Scabino",
+        "patre ipsius Sasinoski"
+      ],
+      "justification": "Appears as 'Joane Drabez Scabino patre ipsius Sasinoski' in the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sasinoski",
+      "mention_texts": [
+        "Sasinoski"
+      ],
+      "descriptive_mentions": [
+        "ipsius"
+      ],
+      "justification": "Mentioned as the child of Joannes Drabez ('patre ipsius Sasinoski')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis quidem Consularibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Refers to the consular acts of the Lviv city council, matching known alias for ORG-0003."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "6 June 1542",
+      "mention_texts": [
+        "feria tertia ante Festum Corporis Christi proxima Anno Domini Millesimo quingentesimo quadragesimo secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date of the previous registration in the consular acts: Tuesday before Corpus Christi 1542."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Fechtengier",
+      "mention_texts": [
+        "Sebaldo Fechtngier"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Named as the buyer/party in the earlier inscription ('Famato Sebaldo Fechtngier vendiderat')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Wasco Philippowicz Benerus",
+      "mention_texts": [
+        "Wasconi Philippowic Benero",
+        "Wasconi Philippowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensi",
+        "emptori",
+        "Emptor",
+        "praefatus Emptor"
+      ],
+      "justification": "The buyer of the shares and property, described as a citizen of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears in Wasco Philippowicz's description as 'Civi Leopoliensi'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lawrinski",
+      "mention_texts": [
+        "Lawrinski"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased father of Dorotea and Beata ('olim Lawrinski')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotea"
+      ],
+      "descriptive_mentions": [
+        "filiarum",
+        "ambabus filiarum praedicti olim Lawrinski"
+      ],
+      "justification": "Identified as one of the two daughters of the late Lawrinski ('filiarum praedicti olim Lawrinski videlicet Dorotea et Beata')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Beata",
+      "mention_texts": [
+        "Beata"
+      ],
+      "descriptive_mentions": [
+        "filiarum",
+        "ambabus filiarum praedicti olim Lawrinski"
+      ],
+      "justification": "Identified as one of the two daughters of the late Lawrinski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Rączka",
+      "mention_texts": [
+        "Nicolaus Rączka"
+      ],
+      "descriptive_mentions": [
+        "idem recognoscens"
+      ],
+      "justification": "The recognizant who sells the shares and warrants the property ('idem recognoscens Nicolaus Rączka')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joane Drabez Scabino patre ipsius Sasinoski"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "filiarum praedicti olim Lawrinski videlicet Dorotea et Beata"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "parent_of",
+      "tail_entity_id": "E10",
+      "evidence": "filiarum praedicti olim Lawrinski videlicet Dorotea et Beata"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Wasconi Philippowic Benero Civi Leopoliensi"
+    }
+  ]
+}

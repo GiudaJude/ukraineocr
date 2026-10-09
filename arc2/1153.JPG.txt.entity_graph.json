@@ -1,0 +1,115 @@
+{
+  "document_id": "arc2/1153.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Franckowiczowa",
+        "Anna Smieszkowna",
+        "Annae Smieszkowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "consor- tis sua charissimae",
+        "Honestae",
+        "ipsa",
+        "superstes"
+      ],
+      "justification": "Appears by name in the header and text as the widow of Franciscus Szenyc and sister of Adamus Smieszek."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Szenic",
+      "mention_texts": [
+        "Francisci Szenyc"
+      ],
+      "descriptive_mentions": [
+        "spectabilis olim",
+        "Consulis Leopoliensis",
+        "praedictus olim spectabilis maritus suus",
+        "praedictus olim spectabilis collega noster",
+        "eum"
+      ],
+      "justification": "Deceased consul of Lviv and husband of Anna, whose bequest is recorded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamum Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civem Leopoliensem",
+        "fratrem suum germanum",
+        "tutorem legitimum ac per Officium nostrum confirmatum"
+      ],
+      "justification": "Identified as the brother and guardian of Anna Smieszkowna and a bench member/citizen of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem Leopoliensis",
+        "Civitatem hanc"
+      ],
+      "justification": "The city of Lviv mentioned in civic titles and jurisdiction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio nostro Consulari"
+      ],
+      "descriptive_mentions": [
+        "Officium nostrum",
+        "Officio nostro",
+        "officij nostri",
+        "nobis",
+        "Nos"
+      ],
+      "justification": "The municipal council before which the recognition was made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post Dominicam Judica Anno currenti proximi praeterita"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous session when the testator personally appeared before the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "spectabilis olim Francisci Szenyc Consulis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Adamum Smieszek Scabinum Civem Leopoliensem fratrem suum germanum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "spectabilis olim Francisci Szenyc Consulis Leopoliensis"
+    }
+  ]
+}

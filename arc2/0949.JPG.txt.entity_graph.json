@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/0949.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoli",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the court acts and decrees were issued."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "The consular office of Lviv issuing the decrees."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta post Dominicam Reminiscere Anno Domini 1596",
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Wardecki",
+      "mention_texts": [
+        "Petro Stan Wardeck",
+        "Paulum Stanislai-um Joandereki",
+        "Petro"
+      ],
+      "descriptive_mentions": [
+        "Actorem",
+        "Actori"
+      ],
+      "justification": "The plaintiff in the decree concerning the fox pelt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Pellionem",
+        "Leopoli- ensem",
+        "Suburbanum Leopoliensem",
+        "citatum",
+        "idem Pellio",
+        "praedictus Citatus"
+      ],
+      "justification": "The cited defendant, a suburban furrier of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Rybadek",
+      "mention_texts": [
+        "Alberto Rybadek"
+      ],
+      "descriptive_mentions": [
+        "Vectori",
+        "praedicto Vectori"
+      ],
+      "justification": "The carter/wagoner involved in the transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "14 florins",
+      "mention_texts": [
+        "floreni quatuordecim",
+        "floreni quatuordecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money litigated in the decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kraudszki",
+      "mention_texts": [
+        "Stanislaus Kraudszki"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Person who previously paid for the fox pelt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Wilhelmus Ellant",
+      "mention_texts": [
+        "Wilhelmus Ellant"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leo- poliensis"
+      ],
+      "justification": "Citizen of Lviv registering property dispositions."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae Wilhelmiowa",
+        "Dorotheae Smiesla-"
+      ],
+      "descriptive_mentions": [
+        "uxoris suae charissimae et bene merenti",
+        "Honestae"
+      ],
+      "justification": "Wife of Wilhelmus Ellant."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbanum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis Leo- poliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "uxoris suae charissimae et bene merenti Honestae Dorotheae Smiesla-"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Dorotheae Wilhelmiowa"
+    }
+  ]
+}

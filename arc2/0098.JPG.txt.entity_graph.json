@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0098.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Wandalit",
+      "mention_texts": [
+        "Hieronymi Wandalit"
+      ],
+      "descriptive_mentions": [
+        "praedicti emptoris",
+        "emptoris",
+        "praefati emptoris",
+        "eundem emptorem",
+        "praenominati Emptoris"
+      ],
+      "justification": "Named buyer of the garden plot in the opening legal act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Semionem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "D.",
+        "Scabinum Ciuitatis Leopoliensis",
+        "Plenipotentem",
+        "mandatarium",
+        "Plenipotens suus"
+      ],
+      "justification": "Identified as city bencher of Lviv appointed as plenipotentiary."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City context for the bencher and the banned court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv where the resignation/surrender of property is to be enacted."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Sitarz",
+      "mention_texts": [
+        "Mathiae Sitarz",
+        "Mathiam Sitarz",
+        "Mathias"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "coniugum",
+        "Suburbanorum",
+        "praedictum",
+        "praedictus"
+      ],
+      "justification": "Deceased suburban resident whose movable property is being inventoried/extradited."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lucas Cornifex",
+      "mention_texts": [
+        "Lucas Cornifex"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Official/witness appearing personally regarding the estate in the Halych suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbii Haliciensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv mentioned in connection with the jurisdiction of Lucas Cornifex."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Gormek",
+      "mention_texts": [
+        "Jacobus Gormek"
+      ],
+      "descriptive_mentions": [
+        "Senior"
+      ],
+      "justification": "Senior of Łyczaków street making a report."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "plateae Lyczakoviensis",
+        "Lyczakow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street and suburban locality of Mathias Sitarz and his wife."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Kowano",
+      "mention_texts": [
+        "Bartholomaei Kowano"
+      ],
+      "descriptive_mentions": [
+        "Ciuis Tarnogrodiensis",
+        "generi"
+      ],
+      "justification": "Citizen of Tarnogród and son-in-law of Mathias Sitarz requesting the legal relation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Tarnogród",
+      "mention_texts": [
+        "Tarnogrodiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin city of Bartholomaeus Kowano."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "Suburbanorum"
+      ],
+      "justification": "Wife of Mathias Sitarz, living in the suburb of Łyczaków."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "scabinus_of",
+      "tail_entity_id": "E3",
+      "evidence": "Scabinum Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Mathiae Sitarz et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Mathiae Sitarz et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E5",
+      "evidence": "Bartholomaei Kowano Ciuis Tarnogrodiensis Honesti olim Mathiae Sitarz et Annae coniugum Suburbanorum de Lyczakow generi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E12",
+      "evidence": "Bartholomaei Kowano Ciuis Tarnogrodiensis Honesti olim Mathiae Sitarz et Annae coniugum Suburbanorum de Lyczakow generi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Bartholomaei Kowano Ciuis Tarnogrodiensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "senior_of",
+      "tail_entity_id": "E9",
+      "evidence": "Jacobus Gormek Senior plateae Lyczakoviensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Mathiae Sitarz et Annae coniugum Suburbanorum de Lyczakow"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Mathiae Sitarz et Annae coniugum Suburbanorum de Lyczakow"
+    }
+  ]
+}

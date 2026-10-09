@@ -1,0 +1,227 @@
+{
+  "document_id": "arc2/0996.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Vintesskowa",
+      "mention_texts": [
+        "Vintesskowa"
+      ],
+      "descriptive_mentions": [
+        "praedicta"
+      ],
+      "justification": "Named as the principal party represented by Joannes Lowiczowicz Bramatrewicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "officium nostrum",
+        "Officij nostri",
+        "nostri officij"
+      ],
+      "justification": "Municipal council office before which the parties appear and which issues the confirmation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łowiczowicz Bramatrewicz",
+      "mention_texts": [
+        "Joannes Lowiczowicz Bramatrewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "mandatarius ipsius"
+      ],
+      "justification": "Legal representative appearing on behalf of Vintesskowa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festo Assumptionis Gloriosae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date specified for deposit into the municipal office."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Wojnarowic",
+      "mention_texts": [
+        "Francisco Wojnarowic"
+      ],
+      "descriptive_mentions": [
+        "filij",
+        "pupilli"
+      ],
+      "justification": "Minor child and ward of the deceased Andreas Wojnarowicz and Agnes Bigoszowna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas Barcz",
+      "mention_texts": [
+        "Thomas Barcz",
+        "Thomae Barcz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus",
+        "Civis Leopoliensis",
+        "tutori principali"
+      ],
+      "justification": "Scabinus and primary tutor of Franciscus Wojnarowic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose citizenship is borne by the appearing parties."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Wojnarowicz",
+      "mention_texts": [
+        "Andreae Woynarowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased father of the ward Franciscus Wojnarowic."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Agnes Bigoszowna",
+      "mention_texts": [
+        "Agnetis Bigoszowna",
+        "Agnetem"
+      ],
+      "descriptive_mentions": [
+        "superstitis",
+        "coniugum",
+        "matrem pupilli"
+      ],
+      "justification": "Surviving mother of the ward Franciscus Wojnarowic."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Żołnierz",
+      "mention_texts": [
+        "Albertum Zolniercz",
+        "Albertum Zolnierz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Lanium",
+        "praedicti sui pupilli vitricum",
+        "praedictum"
+      ],
+      "justification": "Stepfather and co-guardian appointed to Franciscus Wojnarowic."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Melchior Oszmołowski",
+      "mention_texts": [
+        "Melkier Ozmoloski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "ductor librorum",
+        "thaintfex",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Bookbinder citizen of Lviv acknowledging full compensation for wall construction expenses."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Wernirska House",
+      "mention_texts": [
+        "domo Wernirska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring masonry house adjoining Melchior Oszmołowski's property."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Janus Gladiator",
+      "mention_texts": [
+        "Janus Gladiatoris",
+        "Janusio Gladiatore"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Ungaro",
+        "Cive Leopoliensi"
+      ],
+      "justification": "Hungarian citizen and swordsmith of Lviv holding rights in the townhouse, who settled the construction debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannes Lowiczowicz Bramatrewicz mandatarius ipsius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Andreae Woynarowicz et Agnetis Bigoszowna superstitis coniugum filij"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "olim Andreae Woynarowicz et Agnetis Bigoszowna superstitis coniugum filij"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "olim Andreae Woynarowicz et Agnetis Bigoszowna superstitis coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "circa praedictam Agnetem matrem pupilli"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "step_parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "praedicti sui pupilli vitricum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "munus Tutorium in personam Infrascripti Famati olim Andreae Woynarowicz et Agnetis Bigoszowna superstitis coniugum filij gerens"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "praedictum Albertum Zolnierz iure legitimo circa praedictam Agnetem matrem pupilli ad gerendum munus praefatum pertinere praefato Thomae Barcz tutori principali adianximus"
+    }
+  ]
+}

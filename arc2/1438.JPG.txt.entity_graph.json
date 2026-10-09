@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/1438.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts are registered and of which the parties are citizens."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta in cra- stino Sancti Stanislai proxima Anno Domini 1596",
+        "Anno Domini 1596",
+        "feria sexta post festa Solemnitatem trium Regum currente"
+      ],
+      "descriptive_mentions": [
+        "actu diei hodierna"
+      ],
+      "justification": "Dates of the session and references to previous/current court entries."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Tomas Farcz",
+        "Tomam Farcz",
+        "Thomae Farcz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus et Civis Leopoliensis",
+        "affinem",
+        "moderno intercessi",
+        "Fideiussorem",
+        "affinem suum",
+        "Scabino Civi Leopoliensi",
+        "affini suo",
+        "Creditori"
+      ],
+      "justification": "Lviv bench member who acted as guarantor, paid the debt, and received a new obligation from his relative."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Myszkowski",
+      "mention_texts": [
+        "Sebastianus Myszkowski",
+        "Sebastiano Myszkowski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "ferendarius",
+        "Domino"
+      ],
+      "justification": "Creditor who issues the quietatio upon receiving 100 florins."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Melchior Paszkowic",
+      "mention_texts": [
+        "Melchiorem Paszkowic",
+        "Melchior Paszkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "affinem",
+        "debitorem principalem",
+        "Civis Leopoliensis",
+        "sanus mente et corpore"
+      ],
+      "justification": "Principal debtor to Sebastianus Myszkowski who legally obligates himself to repay Thomas Karcz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos centum pecuniae et numeri Polonicalis",
+        "centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "summam"
+      ],
+      "justification": "Amount of 100 florins repaid and re-obligated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii",
+        "Actis",
+        "iisdem Actis"
+      ],
+      "descriptive_mentions": [
+        "praesentis Officii"
+      ],
+      "justification": "The municipal judicial authority and records in which the actions are entered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honoratus Tomas Farcz Scabinus et Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Melchior Paszkowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "relative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Melchiorem Paszkowic eiusdem Honorati Tomas Farcz affinem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guarantor_of",
+      "tail_entity_id": "E5",
+      "evidence": "tam praefatum Melchiorem debitorem principalem quam etiam Tomam Farcz Fideiussorem quietavit"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "paid_to",
+      "tail_entity_id": "E4",
+      "evidence": "Tomas Farcz ... persolvit sibi realiter et in toto Florenos centum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "hanc ipsam summam centum florenorum praefato suo Creditori inscripsit"
+    }
+  ]
+}

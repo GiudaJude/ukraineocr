@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/1024.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Sum of 50 florins assigned to the minor grandson."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij nostri"
+      ],
+      "descriptive_mentions": [
+        "supremorum omnium in hac Ciuitate pupillorum Tutorum"
+      ],
+      "justification": "Municipal council acting as the supreme guardian of wards in the city."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "vt supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date referenced by formula 'Actum vt supra'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Ciuitate"
+      ],
+      "justification": "The city of Lviv referenced in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Moskiewicz",
+      "mention_texts": [
+        "Moskowiczkiewic",
+        "Joannes Moskiewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Curifaber",
+        "secundarum nuptiarum coniuges",
+        "Ciues Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "eumdem"
+      ],
+      "justification": "Party in the mutual quittance, husband of Elisabetha."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0354: Elisabetha",
+      "mention_texts": [
+        "Helizabeta",
+        "Helizabetae"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuges",
+        "Ciues Leopolienses",
+        "hac",
+        "sui"
+      ],
+      "justification": "Wife of Joannes Moskiewicz, previously married to Joannes Błażejowic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos Triginta pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "paratam partem summae",
+        "medietatis summa"
+      ],
+      "justification": "Partial sum received by Joannes and Elisabetha."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "sexaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "integra summa"
+      ],
+      "justification": "Total sum settled by arbitral sentence."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Blasius Mutarius",
+      "mention_texts": [
+        "Mutari",
+        "Blasio Mutario",
+        "Blasius Mutarius",
+        "Blasij"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "eundem",
+        "Praefatus"
+      ],
+      "justification": "Party to the settlement and quittance."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Błażejowic",
+      "mention_texts": [
+        "Joannis Blazeiowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Aurifabri",
+        "primarum nuptiarum mariti"
+      ],
+      "justification": "Deceased goldsmith, first husband of Elisabetha."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Balneum Civile",
+      "mention_texts": [
+        "Balneum Civile"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal bathhouse in Lviv, adjoining the masonry house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannes Moskiewicz Curifaber et Helizabeta secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "olim Joannis Blazeiowicz Aurifabri praefatae Helizabetae primarum nuptiarum mariti"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Moskiewicz Curifaber et Helizabeta secundarum nuptiarum coniuges Ciues Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Moskiewicz Curifaber et Helizabeta secundarum nuptiarum coniuges Ciues Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Blasio Mutario Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Balneum Civile"
+    }
+  ]
+}

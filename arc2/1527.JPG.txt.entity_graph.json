@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/1527.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Krasnystaw",
+      "mention_texts": [
+        "Krasnistaw"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the document of Jan Zamoyski was issued ('Datum Krasnistaw')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta ante festum Sanctae Margarethae Virginis proxima Anno Domini Millesimo quingentesimo nonagesimo Sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issue of the inserted letters of Jan Zamoyski (Wednesday before St Margaret 1596)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jan Zamoyski",
+      "mention_texts": [
+        "Joannes Zamoyski"
+      ],
+      "descriptive_mentions": [
+        "Regni Poloniae Cancellarius ac Exercituum Generalis Capitaneus"
+      ],
+      "justification": "Grand Chancellor of the Crown and Grand Hetman of the Crown."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae",
+        "Polonicales"
+      ],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "Kingdom of Poland mentioned in the chancellor's title and currency denomination."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jan Szczerbicz",
+      "mention_texts": [
+        "J. Szczerbicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv municipal scribe and legal writer who recorded the endorsement."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jan Zamoyski, Castellan of Chełm",
+      "mention_texts": [
+        "Joanni Zamoyski"
+      ],
+      "descriptive_mentions": [
+        "Rndo",
+        "Castellano Chelmensi",
+        "Lubicensi Capitaneo Praefecto ac Proclamato"
+      ],
+      "justification": "Castellan of Chełm and starosta of Lubaczów."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertus Domagała"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Actor",
+        "Actori",
+        "Actore",
+        "Actor vero praedictus",
+        "Actorem"
+      ],
+      "justification": "Plaintiff (actor) appearing before the court who accepts reconciliation and financial composition."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "King of Poland whose decree is cited."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sust",
+      "mention_texts": [
+        "Alberto Sust",
+        "Albertus Sust",
+        "Albertus Susteck"
+      ],
+      "descriptive_mentions": [
+        "Famulo",
+        "praedictus",
+        "supplex",
+        "praedicti rei",
+        "facinoroso",
+        "poenitentem reum",
+        "reus",
+        "eodem reo",
+        "inculpatum"
+      ],
+      "justification": "Defendant/perpetrator who confessed, begged for mercy, and paid composition to avoid capital punishment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Officio Castrensi",
+        "Officia quoque Castrense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castle office/court of Lviv which adjudicated the case alongside the municipal/civil court."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Civili",
+        "Civile"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officia"
+      ],
+      "justification": "Civil court/office of Lviv presiding jointly with the castle court."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "High Castle, Lviv",
+      "mention_texts": [
+        "Arce Superiore Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The High Castle of Lviv where Albert Sust was imprisoned and completed his sentence."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, appearing adjectivally with the High Castle."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0177: 10 Polish marks",
+      "mention_texts": [
+        "decem marcas Polonicales",
+        "decem marcas",
+        "marcas decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum paid as weregild/composition for the killing."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "has_legal_jurisdiction_in",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Zamoyski Regni Poloniae Cancellarius"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "pays_money_to",
+      "tail_entity_id": "E7",
+      "evidence": "Atque in instanti marcas decem idem praedictus Albertus Susteck persoluit"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "imprisoned_in",
+      "tail_entity_id": "E12",
+      "evidence": "poenam carcerariam diminuti anni in Arce Superiore Leopoliensi tolerare"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in Arce Superiore Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "document_id": "arc2/1018.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Warsaw",
+      "mention_texts": [
+        "Varsoviam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City mentioned in the context of the Sejm (Comitia Regni)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland referenced in Comitia Regni."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv referenced via the citizen adjective Leopoliensis."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Koskiewicz",
+      "mention_texts": [
+        "Joannem Koskiewicz",
+        "Joannis Soskiewic"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Aurifabrum",
+        "mariti sui"
+      ],
+      "justification": "Goldsmith and second husband of Helizabetha Januszowna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helizabetham Janussowna",
+        "Helizabeta",
+        "Helizabetham",
+        "Helizabetha"
+      ],
+      "descriptive_mentions": [
+        "Coniugem",
+        "Consortem legitimam",
+        "superstitis Coniugum",
+        "uxore",
+        "matrem ipsius"
+      ],
+      "justification": "Mother of the minor pupillus, wife of Joannes Koskiewicz and widow of Joannes Błażejowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Błażejowicz",
+      "mention_texts": [
+        "Joannis Blaseiowicz",
+        "Stasielowicz",
+        "Joannem Blaseiowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus olim",
+        "Famati olim",
+        "Aurifabri",
+        "patrem pupilli",
+        "prioris mariti",
+        "ipsiusdem Joannis"
+      ],
+      "justification": "Deceased goldsmith, first husband of Helizabetha and father of the minor."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0346: Joannes Radowski",
+      "mention_texts": [
+        "Joannem Radowski",
+        "Joannis Radowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Factorem",
+        "tutorem ex officio",
+        "Tutoris"
+      ],
+      "justification": "Factor appointed as ex officio guardian of the minor Joannes."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Błażejowicz the Younger",
+      "mention_texts": [
+        "Joannem minorem",
+        "praefatum Joannem minorem"
+      ],
+      "descriptive_mentions": [
+        "filio minorem",
+        "pupilli",
+        "pupillum",
+        "puerum"
+      ],
+      "justification": "Minor son and pupillus of late Joannes Błażejowicz and Helizabetha Januszowna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheam"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "Coniugem",
+        "ipsius aviam"
+      ],
+      "justification": "Deceased grandmother of the pupillus and wife of Blasius Klutaczy."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Blasius Klutaczy",
+      "mention_texts": [
+        "Blasij Klutaczy",
+        "Blasium Abuzarow",
+        "Blasy Klutacy"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "pupilli avum",
+        "avum"
+      ],
+      "justification": "Lviv burgher, husband of late Dorothea and grandfather of the minor pupillus."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Flora Januszowna",
+      "mention_texts": [
+        "Florae Janussowna"
+      ],
+      "descriptive_mentions": [
+        "dictae"
+      ],
+      "justification": "Deceased relative whose property division is referenced."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Zameszonkowska",
+      "mention_texts": [
+        "lapidea Zameszonkowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Townhouse mentioned in connection with rooms occupied after the death of Joannes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatos Joannem Koskiewicz Aurifabrum eiusque Coniugem Helizabetham Janussowna"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Helizabetham Janussowna primarum nuptiarum Famati olim Joannis Blaseiowicz Aurifabri Consortem legitimam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Dorotheam Famati Blasij Klutaczy Civis Leopoliensis Coniugem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Joannem Blaseiowicz patrem pupilli pertinentium eiusque morte ad eundem pupillum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "ad eundem pupillum atque matrem ipsius Helizabetham"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Blasium Abuzarow pupilli avum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Famatum Joannem Radowski Factorem tanquam tutorem ex officio... filio minorem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Blasij Klutaczy Civis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "arc2/1196.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Femorzi",
+      "mention_texts": [
+        "Femorzi"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino in Exposito Judicio praesidenti",
+        "suus Plenipotens"
+      ],
+      "justification": "Named as the presiding scabinus granted full powers of legal resignation in the Banned Court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the Lviv Banned Court (Iudicium Expositum) where the scabinus presides."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris"
+      ],
+      "justification": "The municipal authority recording the entry in their council acts ('Actis nostris')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Conuentus S. Francisci",
+        "Ordinis S. Francisci"
+      ],
+      "descriptive_mentions": [
+        "praedicti Seniores Conuentus supranominati",
+        "Conuentui Fratrum Ordinis S. Francisci",
+        "Conuentui Fratrum",
+        "seniorum",
+        "Conuentui praedicto"
+      ],
+      "justification": "The Franciscan Convent named as seller and creditor in the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Sumitko",
+      "mention_texts": [
+        "Bartolomeus Szumites",
+        "Bartholomaeus Sumitko"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Nolator",
+        "coniuges",
+        "suburbani Leopolienses",
+        "ille",
+        "maritum suum legitimum tutorem"
+      ],
+      "justification": "The suburban buyer named in the margin and main body of the entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "suburbani Leopolienses",
+        "hac vero"
+      ],
+      "justification": "The wife of Bartholomaeus Sumitko, acting together with him."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius"
+      ],
+      "justification": "City whose suburban residents the buyers are, and within whose walls the church is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "66 Polish florins",
+      "mention_texts": [
+        "florenos sexaginta sex pecuniae et numeri Polonicalis",
+        "sexaginta sex florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam Capitalem"
+      ],
+      "justification": "The principal capital debt incurred for the purchase of the house and garden."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0082: LOC-0022: Church of the Holy Cross",
+      "mention_texts": [
+        "Ecclesiam Sancti Sanctae Crucis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Franciscan church within the city walls around which the convent is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0056: 5 florins",
+      "mention_texts": [
+        "florenos quinque Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The annual interest payment (census) due to the convent."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Holy Trinity",
+      "mention_texts": [
+        "Festo Sanctissimae Trinitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The feast day on which the annual census payment is to be rendered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honorato Femorzi Scabino in Exposito Judicio praesidenti"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Bartholomaeus Sumitko Nolator et Sophia coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Bartholomaeus Sumitko Nolator et Sophia coniuges suburbani Leopolienses ille per se hac vero per eundem maritum suum legitimum tutorem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "Conuentui Fratrum Ordinis S. Francisci circa Ecclesiam Sancti Sanctae Crucis nuncupatam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "circa Ecclesiam Sancti Sanctae Crucis nuncupatam intra moenia Ciuitatis huius sitae"
+    }
+  ]
+}

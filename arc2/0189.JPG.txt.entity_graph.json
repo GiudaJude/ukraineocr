@@ -1,0 +1,228 @@
+{
+  "document_id": "arc2/0189.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joannis Jelonek",
+        "Joannem Jelonek",
+        "Joanne\nJelonek",
+        "Joannes\nJelonek",
+        "Joannes Jelonek",
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Dolium debitorum condensa obligati",
+        "Famato eodem",
+        "Pellione Ciue Leopoliensi",
+        "Famatus",
+        "Pellio Civis\nLeopoliensis",
+        "successorisl"
+      ],
+      "justification": "Main actor in both the discharge by Jacobus Szolc and the debt confession/release with Erasmus Jelonek."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Szolc"
+      ],
+      "descriptive_mentions": [
+        "Honoratus Dominus",
+        "Ci-\nuis Mercator et Scabinus Leopoliensis"
+      ],
+      "justification": "Creditor who acknowledges receipt of debt payment and releases the house from obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliensi",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in citizen, consul, and institution designations throughout the text."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Florenis centum\nquinquaginta"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of debt satisfied by Joannes Jelonek to Jacobus Szolc."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0246: Paulus Jelonek",
+      "mention_texts": [
+        "Paulum Jelo-\nnek",
+        "Paulum Jelonek"
+      ],
+      "descriptive_mentions": [
+        "olim Spectabilem Dominum",
+        "Consulem Leopoliensem",
+        "Famatum olim"
+      ],
+      "justification": "Deceased former consul of Lviv who originally contracted the debts secured on the house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "28 June 1593",
+      "mention_texts": [
+        "feria se-\ncunda in vigilia Sacri Petri et Pauli Anno Domini 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier entry in the civil court books registering the debt obligation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Capital sum mentioned in the second transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Pyłkowa",
+      "mention_texts": [
+        "Dorotheam",
+        "Pyłkowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "vidua"
+      ],
+      "justification": "Deceased widow of Mathias Pyłko who made the original inscription."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mathias Pyłko",
+      "mention_texts": [
+        "Mathi-\nas"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armamentarij Ciuis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Dorothea Pyłkowa, armorer and citizen of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmi Jelonek",
+        "Erasmum"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Ciuis et Mer-\ncatoris Leopoliensis",
+        "Patris sui germani",
+        "praedictum",
+        "Patrem suum"
+      ],
+      "justification": "Father of Joannes Jelonek, merchant and citizen of Lviv, absolved of debt obligation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "30 June 1586",
+      "mention_texts": [
+        "feria secunda\nin Crastino Festi Sanctorum Petri et Pauli Apostolorum Anno Domini\n158 sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous inscription absolved by Joannes Jelonek."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0042: Latin Cathedral of Lviv",
+      "mention_texts": [
+        "Ecclesia Metropolitana Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Metropolitan Church of Lviv referenced in connection with the debt obligation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "5 florins",
+      "mention_texts": [
+        "quinque Florenorum"
+      ],
+      "descriptive_mentions": [
+        "censu annuo"
+      ],
+      "justification": "Annual interest / census mentioned at the conclusion of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "has_residence",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobus Szolc Ci- uis Mercator et Scabinus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "has_residence",
+      "tail_entity_id": "E3",
+      "evidence": "Paulum Jelo- nek Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "has_residence",
+      "tail_entity_id": "E3",
+      "evidence": "Joanne Jelonek Pellione Ciue Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Dorotheam Famati Mathi- as Pyłkowa Armamentarij Ciuis Leopoliensis vidua"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "has_residence",
+      "tail_entity_id": "E3",
+      "evidence": "Mathi- as Pyłkowa Armamentarij Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Erasmi Jelonek Ciuis et Mer- catoris Leopoliensis Patris sui germani eiusdem Joannis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "has_residence",
+      "tail_entity_id": "E3",
+      "evidence": "Erasmi Jelonek Ciuis et Mer- catoris Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "is_located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Ecclesia Metropolitana Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0225.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0101: Joannes Lukaszowic",
+      "mention_texts": [
+        "Joannes Lukassowic",
+        "Joannis Lukassowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "praedicti",
+        "praedictus",
+        "idem"
+      ],
+      "justification": "Debtor and citizen of Lviv making the formal recognition"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius"
+      ],
+      "justification": "City of Lviv, referenced in titles, jurisdiction, and citizenship designations"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna Fransoczonka",
+      "mention_texts": [
+        "Annae Fransoczonka"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae"
+      ],
+      "justification": "Wife of Joannes Lukaszowic for whom he promises ratification"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "1200 Polish florins",
+      "mention_texts": [
+        "Florenos mille et ducentos pecuniae et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "certi veri liquidique Debiti",
+        "grossos triginta computando",
+        "summae"
+      ],
+      "justification": "Total debt amount acknowledged by Joannes Lukaszowic"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Ostrogowska",
+      "mention_texts": [
+        "Annae",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "viduae relictae",
+        "praefata",
+        "Honesta"
+      ],
+      "justification": "Creditor, widow of Hector Ostrogowski"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hector Ostrogowski",
+      "mention_texts": [
+        "Actoris",
+        "Ostrogowsski"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased former husband of creditor Anna"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "sabbato ante Dominicam Cantate proximo Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the private agreement (intercisa) drawn up between the parties"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreae Mazurowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati Domini",
+        "Notarii et Scabini Ciuitatis Leopoliensis",
+        "testium"
+      ],
+      "justification": "Notary and bench magistrate of Lviv acting as subscribing witness"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Melchior Młodzanowski",
+      "mention_texts": [
+        "Melchioris Mlodzanowski"
+      ],
+      "descriptive_mentions": [
+        "testium"
+      ],
+      "justification": "Witness subscribing the written agreement"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Paulus Gallus",
+      "mention_texts": [
+        "Paulum Gallus"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Assumed guardian assisting Anna during the court proceedings"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Ignatius Polissamy Berret",
+      "mention_texts": [
+        "Ignatii Polissamy Berret"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "scabini"
+      ],
+      "justification": "Lviv bench magistrate owning neighboring property"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0321: Stanislaus Wilczek",
+      "mention_texts": [
+        "Stanislai Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Lviv citizen and owner of adjacent property"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestae Annae Fransoczonka coniugis suae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E5",
+      "evidence": "se debere certi veri liquidique Debiti ex causa mutui contracti Florenos mille et ducentos pecuniae et monetae Polonicalis quemlibet grossos triginta computando: Honestae Annae Actoris olim Ostrogowsski Ciuitatis huius Leopoliensis viduae relictae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Annae Actoris olim Ostrogowsski Ciuitatis huius Leopoliensis viduae relictae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "per Honestum Paulum Gallus tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Joannes Lukassowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Actoris olim Ostrogowsski Ciuitatis huius Leopoliensis viduae relictae"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Notarii et Scabini Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famati Stanislai Wilczek Ciuis Leopoliensis"
+    }
+  ]
+}

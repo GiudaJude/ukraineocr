@@ -1,0 +1,138 @@
+{
+  "document_id": "arc2/1462.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Augustinus Szystek",
+      "mention_texts": [
+        "stino Szystek"
+      ],
+      "descriptive_mentions": [
+        "Tramatario",
+        "Civi Leopoliensi",
+        "ipsi emptori",
+        "eidem emptori",
+        "personam eiusdem Emptoris",
+        "eiusdem emptoris",
+        "personam emptoris"
+      ],
+      "justification": "Appears as the buyer of hereditary property ('stino Szystek Tramatario Civi Leopoliensi')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "1400 Polish florins",
+      "mention_texts": [
+        "mille quadringentorum florenorum pecuniae et monetæ Polonicalium",
+        "mille quadringentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price specified in the contract ('pretio mille quadringentorum florenorum pecuniae et monetæ Polonicalium')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referenced in the citizenship and suburban residency designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Bannito Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the property resignation is to be enacted ('Bannito Exposito Iudicio')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Brzyk",
+      "mention_texts": [
+        "Nicolaus Brzyk"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "incola Suburbano Leopoliensis",
+        "Honorati Friderici Galli gener",
+        "fratre"
+      ],
+      "justification": "Party appearing personally to grant a quietatio to his brother ('Famatus Nicolaus Brzyk incola Suburbano Leopoliensis')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Brzyk",
+      "mention_texts": [
+        "Joannis Brzyk",
+        "Joannem Brzyk"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Fratrem Premisliensem suum suum germanum"
+      ],
+      "justification": "Brother of Nicolaus Brzyk who receives the release ('Famatum Joannem Brzyk Fratrem Premisliensem suum suum germanum')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Friderici Galli"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Father-in-law of Nicolaus Brzyk ('Honorati Friderici Galli gener')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Premisliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City associated with Joannes Brzyk ('Fratrem Premisliensem')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "stino Szystek Tramatario Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nicolaus Brzyk incola Suburbano Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nicolaus Brzyk incola Suburbano Leopoliensis Honorati Friderici Galli gener"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "brother_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannem Brzyk Fratrem Premisliensem suum suum germanum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannem Brzyk Fratrem Premisliensem"
+    }
+  ]
+}

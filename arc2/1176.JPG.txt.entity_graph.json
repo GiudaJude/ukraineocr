@@ -1,0 +1,212 @@
+{
+  "document_id": "arc2/1176.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Brzeżany City Council",
+      "mention_texts": [
+        "Officio Consulari Brzezanensi"
+      ],
+      "descriptive_mentions": [
+        "officij"
+      ],
+      "justification": "City council of Brzeżany mentioned as issuing the legal document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Brzeżany",
+      "mention_texts": [
+        "Brzezanensi",
+        "Brzezanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of Brzeżany referenced in adjectival forms."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "filia",
+        "consortis"
+      ],
+      "justification": "Deceased woman, daughter of Sophia Wodozyna and wife of Stanislaus Głowczyk."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia Wodozina",
+        "Sophiam Wodozyna"
+      ],
+      "descriptive_mentions": [
+        "aviam suam"
+      ],
+      "justification": "Sophia Wodozyna, mother of Anna and grandmother of Catherina."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Głowczyk",
+      "mention_texts": [
+        "Stanislai Głowczyk",
+        "Stanislai Kłobuczyk"
+      ],
+      "descriptive_mentions": [
+        "Kozusznik",
+        "Civis quoque Posnanien"
+      ],
+      "justification": "Stanislaus Głowczyk (also recorded as Kłobuczyk), furrier and citizen of Poznań, husband of Anna and father of Catherina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0050: Poznań",
+      "mention_texts": [
+        "Posnanien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Poznań, of which Stanislaus was a citizen."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kuszkowic",
+      "mention_texts": [
+        "Albertum Kuszcouium"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Judicij Leopoliensis Notarium"
+      ],
+      "justification": "Albertus Kuszkowic, notary of the Lviv court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicij Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Judicij"
+      ],
+      "justification": "Lviv city court of which Albertus Kuszkowic was notary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in adjectival form."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Ursulam"
+      ],
+      "descriptive_mentions": [
+        "consortem"
+      ],
+      "justification": "Ursula, wife of notary Albertus Kuszkowic."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "puelle"
+      ],
+      "justification": "Catherina, minor girl, daughter of Stanislaus and Anna, granddaughter of Sophia."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nostra residentia"
+      ],
+      "justification": "The council chamber/presence before which the party appeared."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kruwecki",
+      "mention_texts": [
+        "Joannem Kruwecki"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "tutorem sibi assumptum"
+      ],
+      "justification": "Assumed guardian of the minor Catherina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Anna filia eiusdem Sophia Wodozina"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "consortis ve- ro Stanislai Głowczyk Kozusznik"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Civis quoque Posnanien"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Albertum Kuszcouium Judicij Leopoliensis Notarium"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Albertum Kuszcouium Judicij Leopoliensis Notarium seu potius eius consortem Ursulam"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "filia eiusdem Stanislai Kłobuczyk nomine Catherina"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "grandparent_of",
+      "tail_entity_id": "E11",
+      "evidence": "aviam suam Sophiam Wodozyna"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "per tutorem sibi assumptum Joannem Kruwecki"
+    }
+  ]
+}

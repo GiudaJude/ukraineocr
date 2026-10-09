@@ -1,0 +1,190 @@
+{
+  "document_id": "arc2/0882.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Hanel",
+      "mention_texts": [
+        "Simonis Hanel",
+        "Simon Hanel"
+      ],
+      "descriptive_mentions": [
+        "praedictus olim",
+        "praefati"
+      ],
+      "justification": "Named as the deceased guarantor for Andreas Gargo regarding a stall in the market square."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Gargo",
+      "mention_texts": [
+        "Andrea Gargo",
+        "Andreas Gargo"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "praefatus"
+      ],
+      "justification": "Principal party who assumes the surety obligation previously borne by the late Simon Hanel."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the stall (scabinia) is situated ('in circulo iacen')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Ciuitati",
+        "huius Civitatis"
+      ],
+      "justification": "City where the legal acts take place and of which parties are citizens."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria secunda post Dominicam Invocavit Anno Domini 1590"
+      ],
+      "descriptive_mentions": [
+        "Actum ut supra"
+      ],
+      "justification": "Dating formula of the recorded entries."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gaspar Gulinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Spectabilis",
+        "collega noster Consularis"
+      ],
+      "justification": "Councilor acknowledging receipt of debt payment from Janussius Niemiec."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "18 Polish florins",
+      "mention_texts": [
+        "octodecim florenos Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money collected by Caspar Gulinski from Janussius Niemiec."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Janusz Niemiec",
+      "mention_texts": [
+        "Janussij Niemecz",
+        "Janussio Niemec",
+        "Janussium Niemeth"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Ungaro",
+        "Cive Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Lviv burgher who paid off a debt registered against him."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Baranowski",
+      "mention_texts": [
+        "Alberto Baranowski",
+        "Janussowiczi"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "Dzierapstanensi"
+      ],
+      "justification": "Creditor named in the earlier debt entry paid by Niemiec."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "D. Consules Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "libris nostris",
+        "Provisores Hospitalis Sancti Spiritus"
+      ],
+      "justification": "Lviv municipal council acting in official capacity and as overseers of the Holy Spirit Hospital."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Anna Antoniowa",
+      "mention_texts": [
+        "Anna Antoniowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the marginal rubric of act 831."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitalis Sancti Spiritus",
+        "Hospitali"
+      ],
+      "descriptive_mentions": [
+        "eodem Hospitali"
+      ],
+      "justification": "Hospital outside the city walls administered by the city council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "fideiussor_pro",
+      "tail_entity_id": "E2",
+      "evidence": "praedictus olim Simon Hanel fideiusserat Ciuitati pro eodem Andrea Gargo"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Gaspar Gulinski, collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "civis_of",
+      "tail_entity_id": "E4",
+      "evidence": "Janussio Niemec Ungaro Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "provisor_of",
+      "tail_entity_id": "E12",
+      "evidence": "nos vti Provisores Hospitalis Sancti Spiritus"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Hospitalis Sancti Spiritus extra muros huius Civitatis"
+    }
+  ]
+}

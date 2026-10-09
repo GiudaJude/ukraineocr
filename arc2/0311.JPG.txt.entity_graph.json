@@ -1,0 +1,223 @@
+{
+  "document_id": "arc2/0311.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Christopherus",
+      "mention_texts": [
+        "Christopherum"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Fabrum Lignarium",
+        "Qui"
+      ],
+      "justification": "Honestum Christopherum Fabrum Lignarium quem conduxerunt"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kapinos",
+      "mention_texts": [
+        "Albertus Kapinos"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "praedicti Albertus Kapinos"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Rzymianin",
+      "mention_texts": [
+        "Albertus Rzymianin"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "Civis noster"
+      ],
+      "justification": "Albertus Rzymianin Civis noster"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Doctoris"
+      ],
+      "descriptive_mentions": [
+        "eiusdem D."
+      ],
+      "justification": "in praesentia eiusdem D. Doctoris"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris"
+      ],
+      "justification": "Actis nostris inseri petierunt et obtinuerunt"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli... Civis Leopoliensis"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Feria quarta post festum Sancti Viti Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feria quarta post festum Sancti Viti Anno Domini 1595"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szarawsski",
+      "mention_texts": [
+        "Pauli Szarawsski",
+        "Paulus Szarawsski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Fratruelis"
+      ],
+      "justification": "Quietatio Pauli Szarawsski... Famatus Paulus Szarawsski"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Stephanowicz",
+      "mention_texts": [
+        "Albertus Stephanowicz",
+        "Alberto Stephanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sutor",
+        "Civis Leopoliensis",
+        "tutor",
+        "praefato",
+        "Sutori",
+        "Tutori"
+      ],
+      "justification": "Famatus Albertus Stephanowicz Sutor Civis Leopoliensis ut tutor"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Pudicae",
+        "filiae",
+        "praefatae",
+        "pupillae"
+      ],
+      "justification": "Pudicae Catherinae Famati olim Elbeeth Stephanowicz alias Suthis Civis Leopoliensis filiae"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Elbeeth Stephanowicz",
+      "mention_texts": [
+        "Elbeeth Stephanowicz",
+        "Suthis"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Famati olim Elbeeth Stephanowicz alias Suthis Civis Leopoliensis filiae"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio vocatiali",
+        "Actis Ad-"
+      ],
+      "justification": "coram Officio vocatiali Advocato... in Actis Ad-"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Alberto Delano"
+      ],
+      "descriptive_mentions": [
+        "Domino Magistro",
+        "Advocato tunc temporis existente"
+      ],
+      "justification": "Advocato tunc temporis existente Domino Magistro Alberto Delano"
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenos viginti pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Florenos viginti pecuniae Polonicalis quos praefato Alberto Stephanowicz Sutori debebatur"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Catherinae Famati olim Elbeeth Stephanowicz alias Suthis Civis Leopoliensis filiae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertus Stephanowicz Sutor Civis Leopoliensis ut tutor Pudicae Catherinae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Albertus Rzymianin Civis noster"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Albertus Stephanowicz Sutor Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Elbeeth Stephanowicz alias Suthis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "coram Officio vocatiali Advocato tunc temporis existente Domino Magistro Alberto Delano"
+    }
+  ]
+}

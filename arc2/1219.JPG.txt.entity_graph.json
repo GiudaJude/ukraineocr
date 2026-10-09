@@ -1,0 +1,171 @@
+{
+  "document_id": "arc2/1219.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named city of jurisdiction and origin in the record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catherina Sawina",
+      "mention_texts": [
+        "Caterinae Sawina",
+        "Catherina Sawina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua"
+      ],
+      "justification": "Widow appearing in person to give testimony."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Magni Simonis Leopolitani"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Domini",
+        "collegae nostri Consularis",
+        "affinium Successorum"
+      ],
+      "justification": "Lviv councilman and successor of the late Anna Simonowa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lukatowic",
+      "mention_texts": [
+        "Joannis Lukatowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "affinium Successorum"
+      ],
+      "justification": "Lviv burgher and co-successor of the late Anna Simonowa."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Simonowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased burgher whose succession is at issue."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kraus",
+      "mention_texts": [
+        "Joannem Craus"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Scabinum",
+        "tutorem"
+      ],
+      "justification": "Lviv scabinus appointed official guardian for Catherina Sawina's testimony."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta praesentia",
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council and its act books recording the proceeding."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1608",
+      "mention_texts": [
+        "feria quarta post festum Sacratissimi Corporis Christi proxima Anno Domini Millesimo Sexcentesimo Octavo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the testimony act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Josephus Woytkowicz",
+      "mention_texts": [
+        "Woytkowic",
+        "Josephum Woytkowicz"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis",
+        "Famatum",
+        "Succollectorem manui tempore certo contributionis gerentem",
+        "Actorem"
+      ],
+      "justification": "Sub-collector acting as plaintiff under royal decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The ruling Polish monarch whose decree is presented."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Andreas Demid",
+      "mention_texts": [
+        "Andream Demid"
+      ],
+      "descriptive_mentions": [
+        "Honestum"
+      ],
+      "justification": "Defendant in the decree cited before the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "heir_of",
+      "tail_entity_id": "E5",
+      "evidence": "Magni Simonis Leopolitani collegae nostri Consularis et Famati Joannis Lukatowic Civis Leopoliensis affinium Successorum Honestae olim Annae Simonowa"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "heir_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati Joannis Lukatowic Civis Leopoliensis affinium Successorum Honestae olim Annae Simonowa"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "Catherina Sawina vidua ... per Famatum Joannem Craus Scabinum tutorem opera ex officio additum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_opponent_of",
+      "tail_entity_id": "E11",
+      "evidence": "Decretum Sacrae Regiae Maiestatis inter Famatum Josephum Woytkowicz ... Actorem et Honestum Andream Demid"
+    }
+  ]
+}

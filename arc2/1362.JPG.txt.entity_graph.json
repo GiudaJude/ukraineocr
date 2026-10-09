@@ -1,0 +1,204 @@
+{
+  "document_id": "arc2/1362.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Ozarowic",
+      "mention_texts": [
+        "Bartholomeum Ozarowic"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et Famatum",
+        "eidem",
+        "idem",
+        "Dnis suis"
+      ],
+      "justification": "Appointed as legal plenipotentiary and procurator in the document's opening section."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City of Lviv mentioned by name and adjectival form."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the first record."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Augustinus Szklarz",
+      "mention_texts": [
+        "Augustinus Szklarz",
+        "Augustino Szklarz",
+        "Augustino Szklarz",
+        "Augustinus Szklarz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pistoris Suburbani Leopoliensis",
+        "praefato",
+        "dictus"
+      ],
+      "justification": "Suburban baker who is the creditor of the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Gryczyna",
+        "Dorothea",
+        "Dorotheam Gorczyczyna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Honesti olim Valentini Gorczyca Pistoris Suburbani Leopoliensis vidua relicta",
+        "praefatam"
+      ],
+      "justification": "Widow of Valentinus Gorczyca who acknowledges a debt to Augustinus Szklarz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Gorczyca",
+      "mention_texts": [
+        "Valentini Gorczyca",
+        "Valentinum Gorzyca"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Pistoris Suburbani Leopoliensis",
+        "dictum",
+        "demortuum"
+      ],
+      "justification": "Deceased baker, late husband of Dorothea."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-2505: Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Sadowski"
+      ],
+      "descriptive_mentions": [
+        "assumptum sibi ad actum praesentem Tutorem",
+        "Honestum"
+      ],
+      "justification": "Guardian appointed to assist the widow Dorothea in legal proceedings."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0814: Valentinus",
+      "mention_texts": [
+        "Valentinus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "artificij Pistorum socius",
+        "praedictorum coniugum filius"
+      ],
+      "justification": "Baker journeyman, adult son of the late Valentinus Gorczyca and Dorothea."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "eisdem Actis"
+      ],
+      "justification": "Council office and court records before which the registration occurs."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "septuaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "priorem summam"
+      ],
+      "justification": "Initial sum of seventy florins previously mortgaged."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos triginta pecunia et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Additional loan amount of thirty florins acknowledged by the recognizers."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Total combined secured sum of one hundred florins."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesta Dorothea Honesti olim Valentini Gorczyca Pistoris Suburbani Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "has_guardian",
+      "tail_entity_id": "E7",
+      "evidence": "per assumptum sibi ad actum praesentem Tutorem Honestum Albertum Sadowski"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "praedictorum coniugum filius"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "praedictorum coniugum filius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_to",
+      "tail_entity_id": "E4",
+      "evidence": "debent ac tenentur certi veri iusti liquidique debiti ex causa mutui ad urgente necessitatem suam contracti Florenos triginta pecunia et monetae Polonicalis eidem praefato Augustino Szklarz"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_to",
+      "tail_entity_id": "E4",
+      "evidence": "debent ac tenentur certi veri iusti liquidique debiti ex causa mutui ad urgente necessitatem suam contracti Florenos triginta pecunia et monetae Polonicalis eidem praefato Augustino Szklarz"
+    }
+  ]
+}

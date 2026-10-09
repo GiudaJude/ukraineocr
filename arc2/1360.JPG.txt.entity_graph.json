@@ -1,0 +1,47 @@
+{
+  "document_id": "arc2/1360.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lwów where the legal acts were performed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia post festum Sancti Egidii proxima Anno Domini 1596",
+        "feria quarta post fe- stum Sancti Egidii proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The dates of the recorded entries in 1596."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Iwan Mikulincza",
+      "mention_texts": [
+        "Iwan Mikulincza"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person recorded in the court entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannes Lukaszowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person recorded in the court entry, corresponding to known entity Joannes Lukaszowic."
+    }
+  ],
+  "relationships": []
+}

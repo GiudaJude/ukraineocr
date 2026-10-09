@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/1459.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wolski",
+      "mention_texts": [
+        "Jacobus Wolski"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles",
+        "Collega noster Consularis",
+        "Tutores",
+        "Dominis Tutoribus"
+      ],
+      "justification": "Appears as a councilor and testamentary guardian in the opening text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Zaleski",
+      "mention_texts": [
+        "Tomas Zaleski"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus",
+        "Tutores",
+        "Dominis Tutoribus"
+      ],
+      "justification": "Named as an assessor and testamentary guardian."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dolinski",
+      "mention_texts": [
+        "Stanislai Dolinski"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen whose testament and property are at issue."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bryk",
+      "mention_texts": [
+        "Joannes Bryk",
+        "Joanne Bryk"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "maritus",
+        "Tutor legitimus",
+        "Tutori legitimo"
+      ],
+      "justification": "Citizen of Lviv, husband and guardian of Zofia Dolińska."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Zofia Dolińska",
+      "mention_texts": [
+        "Zophiae Dolinzanka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Wife of Joannes Bryk and related to Stanislaus Dolinski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wladimirski",
+      "mention_texts": [
+        "Joanni Wladimirski",
+        "Joannes Wladimir",
+        "Joannem Wladimi",
+        "Wladimirski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensi",
+        "praedictus",
+        "Famatus"
+      ],
+      "justification": "Party in the legal dispute regarding the tenement."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in reference to an appeal directed to the King."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Dolinski the Younger",
+      "mention_texts": [
+        "Dolinski"
+      ],
+      "descriptive_mentions": [
+        "minoris"
+      ],
+      "justification": "Minor party on whose behalf a pension was to be paid."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam"
+      ],
+      "descriptive_mentions": [
+        "praesenti Officio",
+        "acta Juris"
+      ],
+      "justification": "The municipal council before which the settlement and submission took place."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court referenced in the letters submitted by Joannes Bryk."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose citizenship is borne by the parties."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "festum Paschae"
+      ],
+      "descriptive_mentions": [
+        "tempus eiusdem Paschalis"
+      ],
+      "justification": "Term until which Joannes Wladimirski was permitted to reside in the house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginti florenorum"
+      ],
+      "descriptive_mentions": [
+        "pensio"
+      ],
+      "justification": "Annual rent amount mentioned in the agreement."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenos sexaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum paid to the guardians by Wladimirski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Jacobus Wolski Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislai Dolinski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannes Bryk Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannes Bryk Civis Leopoliensis uti maritus et Tutor legitimus Zophiae Dolinzanka"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "maritus et Tutor legitimus Zophiae Dolinzanka"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joanni Wladimirski Civi Leopoliensi"
+    }
+  ]
+}

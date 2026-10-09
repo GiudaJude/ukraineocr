@@ -1,0 +1,289 @@
+{
+  "document_id": "arc2/1469.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "eadem"
+      ],
+      "justification": "Known entity Agnes who appears with her tutor to request entry into the official records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Illusor",
+      "mention_texts": [
+        "Albertum Illusorem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "tutore sibi assumptum"
+      ],
+      "justification": "Tutor assumed by Agnes in the court record."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "iuris fidelium",
+        "Fratruum Honoratorum iuris fidelium"
+      ],
+      "justification": "Municipal legal body referenced through the 'iuris fideles' and the city council administration."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Tomasz Jarosz",
+      "mention_texts": [
+        "Tomas Jaros"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus Civis Leopoliensis",
+        "Rctus Honoratus",
+        "idem"
+      ],
+      "justification": "Lviv bench officer (scabinus) and citizen who acknowledges receipt of debt satisfaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis"
+      ],
+      "justification": "City of Lviv referenced in the citizenship and location descriptions."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Barbara Jaroszkowa",
+      "mention_texts": [
+        "Barbare Jaroszkowa"
+      ],
+      "descriptive_mentions": [
+        "Honeste",
+        "coniugis suae legitimae"
+      ],
+      "justification": "Wife of scabinus Tomasz Jarosz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Caterina Dzwonkowicowa",
+      "mention_texts": [
+        "Caterina Dzwonkowicowa"
+      ],
+      "descriptive_mentions": [
+        "Floresta olim",
+        "prioris matrimonij sui"
+      ],
+      "justification": "Deceased previous wife of Tomasz Jarosz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Śmietanka",
+      "mention_texts": [
+        "JOANNIS SMIETANKA",
+        "Joannem Smietanka",
+        "olim Joannis Smietanka",
+        "SMIETANKA"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "coniuges Cives Leopolienses",
+        "praedictorum olim"
+      ],
+      "justification": "Deceased Lviv citizen whose heirs are settling debts."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam",
+        "Annae",
+        "Zofice Annae"
+      ],
+      "descriptive_mentions": [
+        "coniuges Cives Leopolienses",
+        "coniugum",
+        "praedictarum"
+      ],
+      "justification": "Known entity Anna, wife of Joannes Śmietanka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitales",
+        "Hospitalis"
+      ],
+      "descriptive_mentions": [
+        "sortes"
+      ],
+      "justification": "Hospital property bounding the land parcel in question."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Sokołowski",
+      "mention_texts": [
+        "Sokolowski"
+      ],
+      "descriptive_mentions": [
+        "sortes"
+      ],
+      "justification": "Owner of neighboring property boundary."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Alantsee",
+      "mention_texts": [
+        "Franciscus Alantsee"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Lanius"
+      ],
+      "justification": "Butcher citizen who paid part of the debt."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "złoty",
+      "mention_texts": [
+        "florenorum",
+        "florens",
+        "florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard Polish monetary unit mentioned throughout the debt settlement."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Caspar Śmietanka",
+      "mention_texts": [
+        "Casparo Smietanka",
+        "Casper Smietanka"
+      ],
+      "descriptive_mentions": [
+        "filio",
+        "Successoribus",
+        "Famatis",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Son and heir of Joannes and Anna Śmietanka."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margaretha"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "Successoribus",
+        "ipsius"
+      ],
+      "justification": "Daughter and heir of Joannes and Anna Śmietanka."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Martinus Przemieyski",
+      "mention_texts": [
+        "Martino Przemieyski"
+      ],
+      "descriptive_mentions": [
+        "marito ipsius"
+      ],
+      "justification": "Husband of Margaretha Śmietanka."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referring to the preceding date entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "has_legal_representative",
+      "tail_entity_id": "E2",
+      "evidence": "eadem Agnes per Honoratum Albertum Illusorem suo tutore sibi assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tomas Jaros Scabinus Civis Leopoliensis cauendo de ratihabitione Honeste Barbare Jaroszkowa coniugis suae legitimae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "was_spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "prioris matrimonij sui cum Floresta olim Caterina Dzwonkowicowa"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannem Smietanka et Annam coniuges"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "is_child_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Joannis Smietanka et Annae coniugum nempe Famatis Casparo Smietanka filio"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "is_child_of",
+      "tail_entity_id": "E9",
+      "evidence": "olim Joannis Smietanka et Annae coniugum nempe Famatis Casparo Smietanka filio"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "is_child_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Joannis Smietanka et Annae coniugum nempe Famatis Casparo Smietanka filio et Margaretha filia"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "is_child_of",
+      "tail_entity_id": "E9",
+      "evidence": "olim Joannis Smietanka et Annae coniugum nempe Famatis Casparo Smietanka filio et Margaretha filia"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Margaretha filia una cum marito ipsius Martino Przemieyski"
+    }
+  ]
+}

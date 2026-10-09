@@ -1,0 +1,238 @@
+{
+  "document_id": "arc2/1261.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act was transacted and where the individuals reside."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta post Festum Sanctae Margaritae Virginis Proxima 96"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry: Thursday after the Feast of St. Margaret in 1596."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officium praesens",
+        "Officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal office before which the declaration and transaction occurred."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catharina",
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "relicta vidua vti mater",
+        "coniugum",
+        "praefata Catharina",
+        "matrem"
+      ],
+      "justification": "Widow of Vasilco/Iwaszko Gieruchna, acting with her sons."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Iwaszko Gieruchna",
+      "mention_texts": [
+        "Gieruchna",
+        "Vasilconis Gieruchna",
+        "Ivaszkonis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Emeni",
+        "Civis Leopoliensis",
+        "praefati olim",
+        "coniugum"
+      ],
+      "justification": "Deceased Armenian burgher of Lviv, late husband of Catharina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gieruchna",
+      "mention_texts": [
+        "Nicolaus"
+      ],
+      "descriptive_mentions": [
+        "filii",
+        "successores legitimi",
+        "filios"
+      ],
+      "justification": "Son of deceased Iwaszko and Catharina Gieruchna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Gieruchna",
+      "mention_texts": [
+        "Gregorius"
+      ],
+      "descriptive_mentions": [
+        "filii",
+        "successores legitimi",
+        "filios"
+      ],
+      "justification": "Son of deceased Iwaszko and Catharina Gieruchna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Iwaszkowic",
+      "mention_texts": [
+        "Martinum Ivaszkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Emenum"
+      ],
+      "justification": "Armenian assisting Catharina before the council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Miklaszewicz",
+      "mention_texts": [
+        "Christophorus",
+        "Miklaszewic",
+        "Christophoro Miklaszewicz dicto Babiczka",
+        "Christophoro"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Armeno Leopoliensi",
+        "consortem vero ipsius legitimam",
+        "coniugibus"
+      ],
+      "justification": "Armenian of Lviv called Babiczka, husband of Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "praefatorum recognoscentium filiam et sororem germanam",
+        "consortem vero ipsius legitimam",
+        "coniugibus"
+      ],
+      "justification": "Daughter of Catharina and Iwaszko Gieruchna, wife of Christophorus Miklaszewicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of 1000 florins specified for dowry settlement."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Babianowic",
+      "mention_texts": [
+        "Christophori Babianowic"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "Armenian Church",
+      "mention_texts": [
+        "Ecclesiae Armenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Armenian Church whose property neighbors the property mentioned."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Catharina Famati olim Vasilconis Gieruchna Emeni Civis Leopoliensis relicta vidua"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nicolaus atque Gregorius praefati olim Ivaszkonis et eiusdem Catharina coniugum filii"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nicolaus atque Gregorius praefati olim Ivaszkonis et eiusdem Catharina coniugum filii"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nicolaus atque Gregorius praefati olim Ivaszkonis et eiusdem Catharina coniugum filii"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nicolaus atque Gregorius praefati olim Ivaszkonis et eiusdem Catharina coniugum filii"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Annam praefatorum recognoscentium filiam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "Annam praefatorum recognoscentium filiam et sororem germanam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Annam praefatorum recognoscentium filiam et sororem germanam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Christophoro Miklaszewicz dicto Babiczka Armeno Leopoliensi circa Honestam Annam praefatorum recognoscentium filiam et sororem germanam, consortem vero ipsius legitimam"
+    }
+  ]
+}

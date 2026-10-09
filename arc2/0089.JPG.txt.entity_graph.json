@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/0089.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "Civitatis huius"
+      ],
+      "justification": "City where the legal acts take place and whose citizenship is referenced."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Sambor",
+      "mention_texts": [
+        "Samboriensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town referenced by the origin of the citizen owning a stone house (domus lapideae Civis Samboriensis)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zabocki",
+      "mention_texts": [
+        "Joannes Zabocki"
+      ],
+      "descriptive_mentions": [
+        "idem"
+      ],
+      "justification": "Person mentioned in the first decree regarding the execution on the stone house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kotarz",
+      "mention_texts": [
+        "Lucae Kotarii"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased individual whose successors are mentioned."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Falck",
+      "mention_texts": [
+        "Joannes Falck"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus et Civis Leopoliensis",
+        "idem Honoratus"
+      ],
+      "justification": "Lviv alderman who provides fidejussion (surety) for Father Hieronymus Brusch."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Myszina",
+      "mention_texts": [
+        "Sebastiana Myszina",
+        "Sebastiano Hieronymo Frantzek",
+        "Myszina",
+        "Sebastiano Myszina"
+      ],
+      "descriptive_mentions": [
+        "Fideiussor",
+        "Famato",
+        "Civi Leopoliensi",
+        "eundem",
+        "Praefato",
+        "praedicto",
+        "idem"
+      ],
+      "justification": "Lviv burgher involved in the transaction and recipient of the fidejussion."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Brusch",
+      "mention_texts": [
+        "Hieronymo Brusch",
+        "Hieronymo Brusek"
+      ],
+      "descriptive_mentions": [
+        "Religioso Patre",
+        "Custode",
+        "praenominato Religioso"
+      ],
+      "justification": "Franciscan father and custodian of the Lviv monastery."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Conventus S. Francisci"
+      ],
+      "descriptive_mentions": [
+        "intra muros Civitatis huius consistentis",
+        "Conventui praefato"
+      ],
+      "justification": "Franciscan convent located within the walls of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "60 Polish florins",
+      "mention_texts": [
+        "Sexaginta Florenorum Polonicalium",
+        "sexaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summae",
+        "eam pecuniam",
+        "pecuniam"
+      ],
+      "justification": "Sum of money bequeathed by Anna Morzyszkabierkowa to the Franciscan convent."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Anna Morzyszkabierkowa",
+      "mention_texts": [
+        "Annae Morzyszkabierkowa",
+        "Annam Sterzyszkabierkowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "olim",
+        "eandem",
+        "contagione pestifera nuper vita functa"
+      ],
+      "justification": "Deceased woman who succumbed to the plague and bequeathed money in her testament."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Simon Grodzicki",
+      "mention_texts": [
+        "Simon Grodzicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Nobleman who demanded repayment of the sum from Sebastianus Myszina."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mirosławski",
+      "mention_texts": [
+        "Mirosławski"
+      ],
+      "descriptive_mentions": [
+        "Gnosi"
+      ],
+      "justification": "Individual acting on behalf of Simon Grodzicki."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Festa Pentecostes"
+      ],
+      "descriptive_mentions": [
+        "proxime futura"
+      ],
+      "justification": "Feast day set as the deadline for the surety obligation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honoratus Joannes Falck Scabinus et Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Sebastiano Hieronymo Frantzek Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Patre Hieronymo Brusch Conventus S. Francisci intra muros Civitatis huius consistentis Custode"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Conventus S. Francisci intra muros Civitatis huius consistentis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "bequeathed_to",
+      "tail_entity_id": "E8",
+      "evidence": "per eandem Annam Sterzyszkabierkowa contagione pestifera nuper vita functa Conventui praefato Testamento legatae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Nobilis Simon Grodzicki repetebat, eiusque nomine Gnosi Mirosławski arrestavit"
+    }
+  ]
+}

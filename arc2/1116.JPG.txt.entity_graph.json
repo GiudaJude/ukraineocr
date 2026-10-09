@@ -1,0 +1,269 @@
+{
+  "document_id": "arc2/1116.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Moykotowska House",
+      "mention_texts": [
+        "domo lapidea Moykotowska"
+      ],
+      "descriptive_mentions": [
+        "habitationum in domo lapidea Moykotowska",
+        "habitationes praefatas"
+      ],
+      "justification": "Identified as a stone townhouse in which apartments were leased."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis"
+      ],
+      "descriptive_mentions": [
+        "Festo Sancti Michaelis proxime praeterito"
+      ],
+      "justification": "Feast day mentioned as the start date of the rental period."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Moykotowicz",
+      "mention_texts": [
+        "Simonem Moykotowicz"
+      ],
+      "descriptive_mentions": [
+        "Actricis filium",
+        "filium"
+      ],
+      "justification": "Son of the plaintiff who violently expelled the tenant from the house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stopnicznowa",
+      "mention_texts": [
+        "Stopnicznowa"
+      ],
+      "descriptive_mentions": [
+        "Actricem",
+        "Actrice",
+        "Actrici"
+      ],
+      "justification": "Plaintiff (actrix) leasing the house and mother of Simon Moykotowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0622: Felix",
+      "mention_texts": [
+        "Felix"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual tasked with legally removing the son who ejected the tenant."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the court acts were issued and of which residents are suburbanites."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra",
+        "feria quinta post Omnium Sanctorum Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court proceeding and referenced earlier entry from 1595."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kopsztynski",
+      "mention_texts": [
+        "Joannes Kopsztynski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "filius iam adultus suique iuris",
+        "Providi olim Joannis Balneatoris Suburbani Leopoliensis filius"
+      ],
+      "justification": "Principal party acknowledging his debt to Gregorius Ciele and Zofia."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Balneator",
+      "mention_texts": [
+        "Joannis Balneatoris"
+      ],
+      "descriptive_mentions": [
+        "Providi olim",
+        "Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased father of Joannes Kopsztynski and Bartholomeus, suburban bathhouse keeper."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "priorem summam Centum Florenorum"
+      ],
+      "justification": "Earlier debt sum jointly contracted with his brother."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0837: Bartholomeus",
+      "mention_texts": [
+        "Bartholomeo"
+      ],
+      "descriptive_mentions": [
+        "fratre"
+      ],
+      "justification": "Brother of Joannes Kopsztynski who jointly contracted the earlier sum."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0618: Gregorius Cele",
+      "mention_texts": [
+        "Gregorius Ciele",
+        "Gregorio Ciele"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Muratori",
+        "coniugibus",
+        "Coniugibus"
+      ],
+      "justification": "Bricklayer/mason and creditor, husband of Zofia."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Coniugibus"
+      ],
+      "justification": "Wife of Gregorius Ciele and co-creditor."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków suburb of Lviv where the mortgaged hereditary house and garden are located."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Wolinski",
+      "mention_texts": [
+        "Wolinski"
+      ],
+      "descriptive_mentions": [
+        "hortorum"
+      ],
+      "justification": "Neighbor owning a garden adjacent to the mortgaged property."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "ijsdem Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal court council records in which the prior contract was inscribed."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta Florenos Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal debt amount owed individually by Joannes Kopsztynski."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Pascharum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for repaying the thirty florins."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno sequenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The year following 1595 when the Easter payment is due."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simonem Moykotowicz Actricis filium"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honestus Joannes Kopsztynski Providi olim Joannis Balneatoris Suburbani Leopoliensis filius"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "cum Bartholomeo fratre"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "sibling_of",
+      "tail_entity_id": "E8",
+      "evidence": "cum Bartholomeo fratre"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Gregorio Ciele Muratori et Sophia coniugibus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Gregorio Ciele Muratori et Sophia coniugibus"
+    }
+  ]
+}

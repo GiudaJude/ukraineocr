@@ -1,0 +1,100 @@
+{
+  "document_id": "arc2/0299.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "Royal title referring to King Sigismund III Vasa."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0061: DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "festa Solemnia Pentecostes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast of Pentecost cited in the document date."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ademberk",
+      "mention_texts": [
+        "Joannis Ademberk"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis",
+        "praefati Famati",
+        "Defuncti"
+      ],
+      "justification": "Deceased Lviv citizen whose property is inventoried."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv mentioned in Latin adjectival form."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circuli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Market Square (Circulus)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Jarowska House",
+      "mention_texts": [
+        "Jarowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring stone house bordering the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Tomaszcewicz",
+      "mention_texts": [
+        "Stanislai Tomaszcewicz"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Neighbor owning the adjacent stone house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannis Ademberk Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Circuli Civitatis eiusdem Leopoliensis"
+    }
+  ]
+}

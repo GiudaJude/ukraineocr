@@ -1,0 +1,208 @@
+{
+  "document_id": "arc2/1287.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Pisscher",
+      "mention_texts": [
+        "Stanislaus",
+        "Pisscher",
+        "Stanislao Pisscher"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "ferrifici",
+        "Suburbano Leopoliensi"
+      ],
+      "justification": "Creditor in the transaction, blacksmith residing in the Lviv suburb."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Crzyssonia",
+      "mention_texts": [
+        "Christierni",
+        "Wisznia",
+        "Christophorus Crzyssonia"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "sutor",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Debtor, shoemaker residing in the Lviv suburb."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the subject plot of land is located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Żółtko",
+      "mention_texts": [
+        "Franciscum Zoltko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property holder in Halych Suburb."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Florenos quadraginta pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt acknowledged."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City of Lviv referenced in civic titles and suburban locations."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Paschae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Agreed payment due date."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "Actorum praesentium",
+        "Officio",
+        "eidem Officio"
+      ],
+      "justification": "Lviv consular office before which the acts and surety were recorded."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Dziouicius"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Medicinae Doctor",
+        "Consul Leopoliensis"
+      ],
+      "justification": "Consul and Doctor of Medicine standing surety for Daniel Zwiadowca."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Georgius Iwanikowicz",
+      "mention_texts": [
+        "Georgius Iwanikowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armenus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Armenian citizen of Lviv standing surety for Daniel Zwiadowca."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Daniel Zwiadowca",
+      "mention_texts": [
+        "Daniele Zwiadowca",
+        "Danielem Zwiadowca",
+        "Danieles"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "eodem"
+      ],
+      "justification": "Subject released from prison on bail/surety."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Bucrum",
+      "mention_texts": [
+        "Bucrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the heading at the end of the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "owes_to",
+      "tail_entity_id": "E1",
+      "evidence": "Christophorus Crzyssonia sutor Suburbanus Leopoliensis palam libere et per expressum recognouit: Se debere et teneri certi veri iusti liquidique debiti ex causa emptionis areae in Suburbio Haliciensi supra Franciscum Zoltko sitae contracti Florenos quadraginta pecuniae et numeri Polonicalis Honesto Stanislao Pisscher"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaus Dziouicius Medicinae Doctor Consul Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "surety_for",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislaus Dziouicius Medicinae Doctor Consul Leopoliensis et Famatus Georgius Iwanikowicz Armenus Civis Leopoliensis deliberando a pessione carceris Famatum Danielem Zwiadowca ... palam et beneuole cauerunt et sese pro eodem Daniele Zwiadowca eidem Officio ... miscentibus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "surety_for",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislaus Dziouicius Medicinae Doctor Consul Leopoliensis et Famatus Georgius Iwanikowicz Armenus Civis Leopoliensis deliberando a pessione carceris Famatum Danielem Zwiadowca ... palam et beneuole cauerunt et sese pro eodem Daniele Zwiadowca eidem Officio ... miscentibus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Georgius Iwanikowicz Armenus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "ferrifici Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "sutor Suburbanus Leopoliensis"
+    }
+  ]
+}

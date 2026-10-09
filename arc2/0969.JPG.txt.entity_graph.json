@@ -1,0 +1,290 @@
+{
+  "document_id": "arc2/0969.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Spliodel",
+      "mention_texts": [
+        "Stanislaus Spliodel",
+        "Stanislaus"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "generi",
+        "maritum suum",
+        "tutorem legitimum"
+      ],
+      "justification": "Named as husband of Anna Lorinczona and son-in-law of deceased Laurentius Smidt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anna Lorinczona",
+      "mention_texts": [
+        "Anna Lorinczona",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuge sua",
+        "Laurentij soror",
+        "Successores et liberi superstites"
+      ],
+      "justification": "Identified as wife of Stanislaus Spliodel and daughter/heir of Laurentius Smidt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Smitek",
+      "mention_texts": [
+        "Laurentius Smitek",
+        "Laurentius",
+        "Laurentij"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Successores et liberi superstites"
+      ],
+      "justification": "Identified as son and heir of Laurentius Smidt and brother of Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Smidt",
+      "mention_texts": [
+        "Laurentij Smidt"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Chirurgi",
+        "Civis Leopoliensis",
+        "Coniugum",
+        "parentes"
+      ],
+      "justification": "Deceased surgeon and citizen of Lviv whose house is being sold by his heirs."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Surmowa",
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Coniugum",
+        "parentes"
+      ],
+      "justification": "Referred to in heading as Surmowa and in text as deceased wife of Laurentius Smidt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis eiusdem",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which the transaction occurs and the house is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Market square of Lviv where the stone house is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martini Rosthendorff"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aurifabri",
+        "Scabini"
+      ],
+      "justification": "Goldsmith and scabinus owning the adjacent property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dolinski",
+      "mention_texts": [
+        "Joannis",
+        "Dolinski"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased neighbor whose successors own the property on the other side."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Bernans",
+      "mention_texts": [
+        "Leonardus Bernans",
+        "Leonardo Bernano",
+        "Leonardo"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Italo",
+        "Civi",
+        "genero",
+        "Civi Leopoliensi",
+        "Emptores",
+        "Coniugibus"
+      ],
+      "justification": "Italian citizen of Lviv who buys the stone house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Scholz",
+      "mention_texts": [
+        "Wolfangi Scholcz"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Domini",
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Deceased council colleague whose son-in-law is Leonardus Bernans."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Council referred to via its member ('Collegae nostri Consularis')."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Catherina Scholz",
+      "mention_texts": [
+        "Caezirae Roszowna",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Coniugi",
+        "Emptores",
+        "Coniugibus"
+      ],
+      "justification": "Wife of Leonardus Bernans who jointly buys the stone house."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "4500 Polish florins",
+      "mention_texts": [
+        "quatuor millia et quingentos Florenos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae communis monetae et numeri Polonicalis"
+      ],
+      "justification": "Purchase price paid for the house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaus Spliodel cum Honesta Anna Lorinczona coniuge sua"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "per praefatum maritum suum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Anna vero eiusdem Laurentij soror"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Anna vero eiusdem Laurentij soror"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Laurentij Smidt Chirurgi Civis Leopoliensis ac Honestae Barbarae Coniugum Successores et liberi superstites"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Laurentij Smidt Chirurgi Civis Leopoliensis ac Honestae Barbarae Coniugum Successores et liberi superstites"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Laurentij Smidt Chirurgi Civis Leopoliensis ac Honestae Barbarae Coniugum Successores et liberi superstites"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Laurentij Smidt Chirurgi Civis Leopoliensis ac Honestae Barbarae Coniugum Successores et liberi superstites"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Laurentij Smidt Chirurgi Civis Leopoliensis ac Honestae Barbarae Coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Laurentij Smidt Chirurgi Civis Leopoliensis ac Honestae Barbarae Coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Leonardo Bernano Italo Civi ... ipsiusque Actu Caezirae Roszowna Coniugi"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "ipsis Leonardo et Catherina Coniugibus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E11",
+      "evidence": "olim Domini Wolfangi Scholcz Collegae nostri Consularis genero"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Wolfangi Scholcz Collegae nostri Consularis"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "document_id": "arc2/0615.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Matuchna",
+      "mention_texts": [
+        "Matuchna"
+      ],
+      "descriptive_mentions": [
+        "praedicta"
+      ],
+      "justification": "Named in the top paragraph selling or transferring inheritance portion."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "22 Polish florins",
+      "mention_texts": [
+        "viginti duorum Florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount mentioned in the top text regarding satisfaction of debt or inheritance."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Adamus Sartor",
+      "mention_texts": [
+        "Adamus Sartor"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "gener Zaiączkowej",
+        "Civis Leopolitanus"
+      ],
+      "justification": "Person appearing in the receipt entry to acknowledge satisfaction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Zaiączkowa",
+      "mention_texts": [
+        "Zaiączkowej"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mother-in-law of Adamus Sartor mentioned in his descriptor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Daniel Jural",
+      "mention_texts": [
+        "Danielis Juridarii",
+        "Danielem Jural",
+        "Daniele Liquidario"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Liquidarium meum Ciuilem",
+        "praedicto"
+      ],
+      "justification": "Liquidator / official mentioned as having satisfied the financial obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Saturday after the Feast of Saint Adalbert 1586",
+      "mention_texts": [
+        "feria sabbato post Festum Sancti Adalberti proximo Anno Domini 1586"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous acts cited in the document."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular office issuing the decree in the third record."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Druszkowicz",
+      "mention_texts": [
+        "Druszkowic",
+        "Joannem Druszkowiczki",
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "Suburbanum Leopolitanum",
+        "Actum"
+      ],
+      "justification": "Suburban party involved in the decree dispute regarding garden statues/boundary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Domagalic",
+        "Albertum Domagalicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ciuem Leopoliensem"
+      ],
+      "justification": "Burgher involved in the decree dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitano",
+        "Leopolitanus",
+        "Leopoliensis",
+        "Leopolitanum",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the legal acts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E4",
+      "evidence": "Adamus Sartor gener Zaiączkowej"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Civis Leopolitanus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "suburban_resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Suburbanum Leopolitanum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "Officij Consularis Leopoliensis"
+    }
+  ]
+}

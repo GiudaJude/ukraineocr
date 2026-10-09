@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/0580.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "platea Cracowienska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the referenced property is situated."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Szemrinska House",
+      "mention_texts": [
+        "Szemrinska"
+      ],
+      "descriptive_mentions": [
+        "lapideos"
+      ],
+      "justification": "Neighboring stone house on Kraków Street."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0146: Wojtkowska House",
+      "mention_texts": [
+        "Loykonowzka"
+      ],
+      "descriptive_mentions": [
+        "lapideos"
+      ],
+      "justification": "Neighboring stone house on Kraków Street, identified with the Łojkowska/Wojtkowska property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "62 florins",
+      "mention_texts": [
+        "sexaginta duoru Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Monetary sum mentioned in the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officij"
+      ],
+      "justification": "The municipal council issuing the legal decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Catherina Długoszowa",
+      "mention_texts": [
+        "Catherina Dlugoszowa",
+        "Catherinam Dlugoszowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam"
+      ],
+      "justification": "Party in the council decree regarding wall construction costs."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus de Laeto",
+      "mention_texts": [
+        "Nicolaum de Laeto"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Factorem",
+        "generum",
+        "Tutorem suum"
+      ],
+      "justification": "Son-in-law and factor representing Catherina Długoszowa and Felix."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Felix",
+      "mention_texts": [
+        "Fœlicem",
+        "Felice",
+        "Felici"
+      ],
+      "descriptive_mentions": [
+        "eius"
+      ],
+      "justification": "Inhabitant of the Długoszowska house who incurred wall construction expenses."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "viduam relictam",
+        "citatam",
+        "eadem citata",
+        "citata"
+      ],
+      "justification": "Widow of Mathias Sapieha, summoned party in the dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Mathias Sapieha",
+      "mention_texts": [
+        "Mathiae Sapieha",
+        "Sebestyanowicz Longi"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, late husband of Anna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the text."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Simon Knotz",
+      "mention_texts": [
+        "Simone Knotz"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Assisting party appearing alongside Anna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Długoszowska House",
+      "mention_texts": [
+        "Dlugoszowska"
+      ],
+      "descriptive_mentions": [
+        "domos vicinas contiguas"
+      ],
+      "justification": "House inhabited by Felix bordering the Sebestyanowska house."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Sebestyanowska House",
+      "mention_texts": [
+        "Sebestyanowska"
+      ],
+      "descriptive_mentions": [
+        "domos vicinas contiguas",
+        "domus praedictae Sebestyanowska vocatae"
+      ],
+      "justification": "House inhabited and possessed by Anna."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Paschae"
+      ],
+      "descriptive_mentions": [
+        "proxime venturo"
+      ],
+      "justification": "Deadline set for reimbursement of the wall construction costs."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famatum Nicolaum de Laeto Factorem generum et pro:inde Tutorem suum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Annam Famati olim Mathiae Sapieha alias Sebestyanowicz Longi Civis Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E13",
+      "evidence": "ab ijsdem Felice et citata ad praesens inhabitatas Dlugoszowska et Sebestyanowska vocatas"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E14",
+      "evidence": "ab ijsdem Felice et citata ad praesens inhabitatas Dlugoszowska et Sebestyanowska vocatas"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "possessor_of",
+      "tail_entity_id": "E14",
+      "evidence": "eadem citata permanet in possessione totius domus praedictae Sebestyanowska vocatae"
+    }
+  ]
+}

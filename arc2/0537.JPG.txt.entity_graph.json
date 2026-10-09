@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0537.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the legal proceedings and citizens reside."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra",
+        "vt supra",
+        "feria quarta quatuor temporum in Vigilia S. Mathaei Apostoli anno eodem currente"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates referenced in the record corresponding to the current year 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "officium",
+        "Officio Advocatiali et Scabinorum Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "actis nostris praesentibus"
+      ],
+      "justification": "Municipal and bench court office recording the protests and contract."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Aszemberg",
+      "mention_texts": [
+        "Stanislaus Aszemberg"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Negotiator Leopoliensis",
+        "tutor",
+        "tutorioque nomine olim Sebaldi Wenczel Officio constitutus"
+      ],
+      "justification": "Citizen and merchant of Lviv making a protestation as tutor of Sebaldus Wenczel's heirs."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Wenczel",
+      "mention_texts": [
+        "Wenczel",
+        "Sebaldi Wenczel"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Civis Leopoliensis",
+        "praefatum Wenczel"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and heirs are referenced."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szczer",
+      "mention_texts": [
+        "Stanislaum Szczer"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "affinem suum"
+      ],
+      "justification": "Relative/in-law of Stanislaus Aszemberg against whom the protest is entered."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Maynowic"
+      ],
+      "descriptive_mentions": [
+        "Scabinus Civitatis",
+        "tutor sub certa conditione"
+      ],
+      "justification": "Bench magistrate of Lviv acting as guardian."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Josephus Roszpowicz",
+      "mention_texts": [
+        "Josepho Roszpowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Person protesting on behalf of the children of the late Valentinus Stas."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Stas",
+      "mention_texts": [
+        "Valentini Stas maiorico"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased individual whose children's inheritance rights are defended."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Joannes Krakowiak",
+      "mention_texts": [
+        "Hieronymus Joannes",
+        "Krakowiak"
+      ],
+      "descriptive_mentions": [
+        "Tabernator"
+      ],
+      "justification": "Innkeeper named in the margin/heading as the beneficiary of the transaction."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Octavianus Ziętkowski",
+      "mention_texts": [
+        "Octavianus Ziętkowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Noble citizen of Lviv executing a deed of sale on behalf of himself and his wife."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Dolinscanka",
+      "mention_texts": [
+        "Dorothea Dolinscanka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuge sua",
+        "praedictae coniugis sua"
+      ],
+      "justification": "Wife of Octavianus Ziętkowski on whose authorization the property is sold."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "tanquam tutor tutorioque nomine olim Sebaldi Wenczel Officio constitutus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "relative_of",
+      "tail_entity_id": "E6",
+      "evidence": "contra Famatum Stanislaum Szczer affinem suum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis et Negotiator Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Scabinus Civitatis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "liberorum Famati olim Valentini Stas maiorico protestatus est similiter nomine pupillorum suorum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Dorothea Dolinscanka coniuge sua"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis Leopoliensis"
+    }
+  ]
+}

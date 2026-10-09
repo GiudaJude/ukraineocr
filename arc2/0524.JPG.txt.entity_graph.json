@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/0524.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Benedictus",
+      "mention_texts": [
+        "Benedictus"
+      ],
+      "descriptive_mentions": [
+        "filius"
+      ],
+      "justification": "Donor in the document, son of the late Stanislaus Gerianowski and Hedvigis."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gerianowski",
+      "mention_texts": [
+        "Stanislai",
+        "Gerianowska"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "olim",
+        "patris",
+        "olim patris"
+      ],
+      "justification": "Deceased citizen of Lviv, father of Benedictus and Stanislaus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus",
+      "mention_texts": [
+        "Stanislai",
+        "Stanislao"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Baccalaurei",
+        "Notarij",
+        "Civis Leopoliensis",
+        "fratris sui",
+        "fratri suo amantissimo"
+      ],
+      "justification": "Brother of Benedictus, baccalaureus and notary, recipient of the donation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "matricis suae",
+        "superstiti",
+        "praefata",
+        "mater",
+        "matris suae praefatae",
+        "matrem"
+      ],
+      "justification": "Surviving mother of Benedictus and widow of Stanislaus Gerianowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Ciuitatem Leopoliensis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the parties reside and where the property is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 50 florins mentioned for payment to the Bernardine friars."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Bernardine Monastery in Lviv",
+      "mention_texts": [
+        "Fratrum Bernardinorum Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Canonicum"
+      ],
+      "justification": "Bernardine religious community in Lviv mentioned as beneficiary of the 50 florins."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Benedictus, Famati Stanislai olim Gerianowska Civis Leopoliensis filius"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "matricis suae superstiti in toto saluis remanentibus) nisi vixit praefata Hedvigis mater"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famati Stanislai Baccalaurei Notarij Civis Leopoliensis fratris sui"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "fratris sui ... eidem Stanislao fratri suo amantissimo haereditatem suam in bonis paternis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "fratris sui ... cum ad futura simul succesione sua materna"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Benedictus, Famati Stanislai olim Gerianowska Civis Leopoliensis filius ... matricis suae superstiti in toto saluis remanentibus) nisi vixit praefata Hedvigis mater"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislai olim Gerianowska Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislai Baccalaurei Notarij Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Fratrum Bernardinorum Leopoliensium"
+    }
+  ]
+}

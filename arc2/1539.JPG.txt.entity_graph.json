@@ -1,0 +1,181 @@
+{
+  "document_id": "arc2/1539.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lucas",
+      "mention_texts": [
+        "Lucae"
+      ],
+      "descriptive_mentions": [
+        "alumnis suis fidelibus",
+        "eos"
+      ],
+      "justification": "Alumnus and beneficiary of Domina Agnes."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joanni"
+      ],
+      "descriptive_mentions": [
+        "alumnis suis fidelibus",
+        "eos"
+      ],
+      "justification": "Alumnus and beneficiary of Domina Agnes alongside Lucas."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Henricus Ryncz",
+      "mention_texts": [
+        "Henrici",
+        "Henrici"
+      ],
+      "descriptive_mentions": [
+        "fratris sui",
+        "Honesti",
+        "fratrem suum"
+      ],
+      "justification": "Brother of Lucas Ryncz and nephew of the late Stanislaus Rynnek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis",
+        "Agnes",
+        "Rynkowa",
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Dominae",
+        "praefata Domina",
+        "patrui olim sui consors recent vidua",
+        "Honesta",
+        "consors relicta relicta mariti"
+      ],
+      "justification": "Widow of the late goldsmith Stanislaus Rynnek (Agnes Rynkowa)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lucas Ryncz",
+      "mention_texts": [
+        "Lucas Ryncz"
+      ],
+      "descriptive_mentions": [
+        "Famosus",
+        "ipse"
+      ],
+      "justification": "Nephew of Stanislaus Rynnek who renounces rights to the inventory in favor of Agnes."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rynnek",
+      "mention_texts": [
+        "Stanislai Ryn- nek"
+      ],
+      "descriptive_mentions": [
+        "mariti sui",
+        "patrui olim sui",
+        "Famati",
+        "Aurifabri",
+        "Civis Leopoliensis",
+        "mariti",
+        "olim mariti sui"
+      ],
+      "justification": "Deceased goldsmith and citizen of Lviv, late husband of Agnes."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "City of Lviv, referenced in the citizenship of the parties."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Paszkowicz",
+      "mention_texts": [
+        "Albertum Paszkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratam"
+      ],
+      "justification": "Citizen of Lviv acting alongside Agnes."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Janussius",
+      "mention_texts": [
+        "Janussium"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem sibi in rem praesentem rogatum"
+      ],
+      "justification": "Guardian appointed to assist Agnes in court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro"
+      ],
+      "justification": "Lviv municipal council office approving the guardianship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Agnes Famati Stanislai Ryn- nek Aurifabri Civis Leopoliensis consors relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stanislai Ryn- nek Aurifabri Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Albertum Paszkowicz Civitatis eiusdem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "in absentia Honesti Henrici fratris sui"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "nephew_of",
+      "tail_entity_id": "E6",
+      "evidence": "Agnes patrui olim sui consors"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "Janussium tutorem sibi in rem praesentem rogatum"
+    }
+  ]
+}

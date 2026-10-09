@@ -1,0 +1,172 @@
+{
+  "document_id": "arc2/1091.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Gandlo",
+      "mention_texts": [
+        "Gregorius Gandlo"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sartor",
+        "Suburbani Leopolitanus",
+        "ille",
+        "mariti sui",
+        "se",
+        "Coniuges",
+        "iidem Coniuges recognoscentes"
+      ],
+      "justification": "Tailor and suburbanite of Lviv selling a property together with his wife."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Cathe-\nrina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "haec",
+        "se",
+        "iidem Coniuges recognoscentes"
+      ],
+      "justification": "Wife of Gregorius Gandlo acting with a appointed guardian."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Domatowski",
+      "mention_texts": [
+        "Domatowski"
+      ],
+      "descriptive_mentions": [
+        "Juratum",
+        "tutorem"
+      ],
+      "justification": "Sworn municipal official acting as legal guardian for Catherina."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "An-\nna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniugi relictae",
+        "eiusque legitimis Successoribus",
+        "emptrici",
+        "posteris ipsius",
+        "demus Emptricis",
+        "eiusque posteritatem"
+      ],
+      "justification": "Widow of Leo the tailor purchasing the house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Leo Lucatris",
+      "mention_texts": [
+        "Leonis",
+        "Lucatris"
+      ],
+      "descriptive_mentions": [
+        "olim Sartoris",
+        "Suburbani Leopolitanus"
+      ],
+      "justification": "Deceased tailor and suburbanite of Lviv, late husband of Anna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Szatkowa Jaczbacka",
+      "mention_texts": [
+        "Szatkowey Jaczbac-\nki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property borders the sold house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose suburbs are referenced."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "Suburbio eius-\nCivitatis Cracoviensis dicto"
+      ],
+      "justification": "Name of the suburb of Lviv where the property is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal office that appointed the guardian and before which the act is registered."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Sexaginta-"
+      ],
+      "descriptive_mentions": [
+        "moneta Polonica"
+      ],
+      "justification": "Sum paid in Polish currency for the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Gregorius Gandlo Sartor et Cathe-\nrina Coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "per Juratum\nDomatowski tutorem sibi ad eum actum cum praesentia ac mariti\nsui consensu assumptum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "An-\nna Leonis olim Sartoris Lucatris Suburbani Leopolitanus coniugi\nrelictae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesti Gregorius Gandlo Sartor et Cathe-\nrina Coniuges Suburbani Leopolitanus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Leonis olim Sartoris Lucatris Suburbani Leopolitanus"
+    }
+  ]
+}

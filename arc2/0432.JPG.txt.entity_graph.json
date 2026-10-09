@@ -1,0 +1,167 @@
+{
+  "document_id": "arc2/0432.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio nostro",
+        "officij nostri",
+        "actis nostris superioris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council referred to as the recording office."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopolien",
+        "Lembergen",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis",
+        "eiusdem Ciuitatis"
+      ],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Jadoniz",
+      "mention_texts": [
+        "Albertum Jadoniz"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Suburbanum Leopoliensem"
+      ],
+      "justification": "Appointed guardian assisting Anna in the transaction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakow"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "Lviv suburb where the garden is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Martin Skorupka",
+      "mention_texts": [
+        "Martin Skorupka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0049: Sigismundus Smietanka",
+      "mention_texts": [
+        "Smietanka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "feria quarta post Dominicam Invocavit proxima Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Domina",
+        "se"
+      ],
+      "justification": "Vendor of the garden share."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Kurowowicz",
+      "mention_texts": [
+        "Nicolao Kurowowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopolien",
+        "emptorem"
+      ],
+      "justification": "Buyer of the garden share."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court where the resignation is to be registered."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Sabbato post Festum Sancti Laurentii",
+      "mention_texts": [
+        "Sabbato post Festum Sancti Laurentij proximis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of transaction enactment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "sibi ad eum actum tutorem et ex officio nostro approbationem Actum Albertum Jadoniz"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Albertum Jadoniz Suburbanum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E9",
+      "evidence": "recognouit se perpetuo et irreuocabiliter vendidisse tertiam sortem horti... Honesto Nicolao Kurowowicz"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nicolao Kurowowicz Suburbano Leopolien"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "suburb_of",
+      "tail_entity_id": "E2",
+      "evidence": "in Suburbio eiusdem Ciuitatis Lyczakow"
+    }
+  ]
+}

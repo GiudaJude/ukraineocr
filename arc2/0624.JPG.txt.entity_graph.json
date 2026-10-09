@@ -1,0 +1,138 @@
+{
+  "document_id": "arc2/0624.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Rex"
+      ],
+      "descriptive_mentions": [
+        "Regia nostra authoritate",
+        "Regnorum nostrorum",
+        "Regiae Maiestati",
+        "Sacrae Regiae Maiestatis Domini Domini nostri clementissimi"
+      ],
+      "justification": "King Sigismund III Vasa issuing and confirming the privilege."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Joannes Szwankowski",
+      "mention_texts": [
+        "Jacobum Joannem Szwankowski"
+      ],
+      "descriptive_mentions": [
+        "Ipsius autem Sodalitatis Luctorum curator: dem",
+        "Praefectum et moderatorem in decem annos",
+        "eundem"
+      ],
+      "justification": "Appointed prefect and moderator of the sodality of potters."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Królikowski",
+      "mention_texts": [
+        "Jo. Krolikowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or royal secretary named below the king's signature."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Sodalitas Lutorum Leopoliensium",
+      "mention_texts": [
+        "sodalitatem Lutorum Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Sodalitatis Luctorum",
+        "huius sodalitatis",
+        "praenominatam sodalitatem"
+      ],
+      "justification": "Confraternity or guild of potters in Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "ea Ciuitate"
+      ],
+      "justification": "City of Lviv referenced in the guild title and text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of issue of the royal document."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [
+        "Reipublicae"
+      ],
+      "justification": "The Kingdom of Poland, referred to in the royal seal."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden, in the royal regnal formula."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die xx-j tien' Augusti Anno Domini M D XCV"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of document issue (21 August 1595)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "prefect_of",
+      "tail_entity_id": "E4",
+      "evidence": "Ipsius autem Sodalitatis Luctorum curator: dem Jacobum Joannem Szwankowski Praefectum et moderatorem in decem annos statuimus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "sodalitatem Lutorum Leopoliensium"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "ruler_of",
+      "tail_entity_id": "E7",
+      "evidence": "Sigismundus Rex ... Sigillo Regni"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "ruler_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sueciae vero Anno secundo"
+    }
+  ]
+}

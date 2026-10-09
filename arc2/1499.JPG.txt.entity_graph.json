@@ -1,0 +1,121 @@
+{
+  "document_id": "arc2/1499.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Panstheus",
+      "mention_texts": [
+        "Panstheum"
+      ],
+      "descriptive_mentions": [
+        "Citati"
+      ],
+      "justification": "Party whose supporters submitted a duplicate response."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consulatus Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii",
+        "Officium",
+        "eiusdem Officii"
+      ],
+      "justification": "City council office issuing decrees and receiving submissions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jiwan Bulhahak",
+      "mention_texts": [
+        "Jiwana Bulhahaka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the decree heading."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Woyt",
+      "mention_texts": [
+        "Woyt"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the decree heading."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City mentioned in the context of the council and citizenship."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bielczatka",
+      "mention_texts": [
+        "Joannem Bielczatza"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cives Leopoliensis",
+        "idem citatus"
+      ],
+      "justification": "Lviv burgher summoned and subject to the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "The King of Poland referenced by royal decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Deseczkarnia",
+      "mention_texts": [
+        "Deseczkarnia"
+      ],
+      "descriptive_mentions": [
+        "Deseczkarnia maiori"
+      ],
+      "justification": "Location specified in the royal decree."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "sabbato ante festum Sancti Martini proxime praeteritum",
+      "mention_texts": [
+        "sabbato ante festum Sancti Martini proxime praeteritum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous decree mentioned in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "headquartered_in",
+      "tail_entity_id": "E5",
+      "evidence": "Officii Consulatus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannem Bielczatza Cives Leopoliensis"
+    }
+  ]
+}

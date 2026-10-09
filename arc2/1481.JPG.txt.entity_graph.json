@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/1481.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Kuszowski",
+      "mention_texts": [
+        "Kuszowski"
+      ],
+      "descriptive_mentions": [
+        "Creditorem"
+      ],
+      "justification": "Named in the rubric 'Iudicialis executio erga Kuszowski' and referred to as creditor in the protestation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Faustus Pedzamos",
+      "mention_texts": [
+        "Faustus Pedzamos"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Dominus",
+        "regis Advocatus",
+        "collega noster Consularis",
+        "Executoribus"
+      ],
+      "justification": "Appears personally before the council on his own behalf and on behalf of his colleague Stanislaus Anserinus as executor of Paulus Zastirski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislai Anserini"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Dominus",
+        "collegae sui Consularis",
+        "fratrum absentis",
+        "Executoribus"
+      ],
+      "justification": "Named council colleague represented by Faustus Pedzamos as co-executor of Paulus Zastirski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "florenos centum Pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money mentioned regarding indemnity and the testament."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Zastirski",
+      "mention_texts": [
+        "Pauli Zastirski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim"
+      ],
+      "justification": "Deceased nobleman whose testamentary executors are protesting."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis ijsdem",
+        "Actis praesentibus",
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council before which declarations and submissions are entered into the acts."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv cited in the title of the municipal office and the beltmakers."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Zauber",
+      "mention_texts": [
+        "Zauberorum"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Family/minors whose guardians ('Tutores Zauberorum') appear before the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "collegae sui Consularis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "colleague_of",
+      "tail_entity_id": "E3",
+      "evidence": "collegae sui Consularis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "executor_of",
+      "tail_entity_id": "E5",
+      "evidence": "vti Executoribus testamenti Nobilis olim Pauli Zastirski"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "executor_of",
+      "tail_entity_id": "E5",
+      "evidence": "vti Executoribus testamenti Nobilis olim Pauli Zastirski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Officio Consulari Leopoliensi"
+    }
+  ]
+}

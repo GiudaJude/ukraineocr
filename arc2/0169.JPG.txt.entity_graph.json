@@ -1,0 +1,176 @@
+{
+  "document_id": "arc2/0169.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus",
+      "mention_texts": [
+        "Bartholomeo"
+      ],
+      "descriptive_mentions": [
+        "eidem"
+      ],
+      "justification": "Buyer of the house referred to in the first act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sabinion",
+      "mention_texts": [
+        "Stanislaum Sabinion"
+      ],
+      "descriptive_mentions": [
+        "Honoratum D.",
+        "Plenipotentem et mandatanium",
+        "Plenipotens suus",
+        "idem Plenipotens suus"
+      ],
+      "justification": "Appointed plenipotentiary for the resignation of the house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in citizen titles and court name."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv mentioned in the appointment."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Babula",
+      "mention_texts": [
+        "Joannes Babula"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the marginal notation/heading."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Norbey",
+      "mention_texts": [
+        "Norbeij"
+      ],
+      "descriptive_mentions": [
+        "Armenie"
+      ],
+      "justification": "Armenian person named in the marginal notation/heading."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Xendzoz Poszowi",
+      "mention_texts": [
+        "Xendzoz Poszowi"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armenus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Armenian citizen of Lviv making the legal declaration."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "1000 Polish florins",
+      "mention_texts": [
+        "mille florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount of money in Polish currency specified in the cession."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Anselmus Baldinton",
+      "mention_texts": [
+        "Anselmo Baldinton"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Anglo"
+      ],
+      "justification": "Englishman from whom the sum was acquired through cession."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baptista Mutea",
+      "mention_texts": [
+        "Joannis Baptistae Mutea"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Owner of the stone house upon which the sum was inscribed."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Church of Corpus Christi",
+      "mention_texts": [
+        "aedem Sacratissimi Corporis Christi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Church referenced as a topographical landmark for the property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Anna Łacka",
+      "mention_texts": [
+        "Annae Łacka"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "olim"
+      ],
+      "justification": "Deceased neighbor whose stone house borders the property."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Altombele",
+      "mention_texts": [
+        "Sebaldi Altombele"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Neighbor whose successors own the stone house on the other side."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaum Sabinion Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Xendzoz Poszowi Armenus Civis Leopoliensis"
+    }
+  ]
+}

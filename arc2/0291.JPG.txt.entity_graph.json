@@ -1,0 +1,184 @@
+{
+  "document_id": "arc2/0291.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zadałowski",
+      "mention_texts": [
+        "Stanislaus\nZadałowski"
+      ],
+      "descriptive_mentions": [
+        "Generosus"
+      ],
+      "justification": "Named in the record as 'Generosus Stanislaus Zadałowski' acting in the case."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus Derszniakowski",
+      "mention_texts": [
+        "Petri Derszniakowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi Domini",
+        "Legatoris"
+      ],
+      "justification": "Named as 'Generosi Domini Petri Derszniakowski Legatoris' in the matter of the legacy."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Krzewiński",
+      "mention_texts": [
+        "Stanislai\nKrzewinski"
+      ],
+      "descriptive_mentions": [
+        "Generosi Domini"
+      ],
+      "justification": "Named as 'Generosi Domini Stanislai Krzewinski' upon whose report the action is based."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gasparis Kulinski"
+      ],
+      "descriptive_mentions": [
+        "Generosi Domini",
+        "absentis"
+      ],
+      "justification": "Corresponds to the known nobleman Caspar/Gaspar Guliński/Kuliński ('Generosi Domini Gasparis Kulinski absentis')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Moszczey",
+      "mention_texts": [
+        "Andreas Moszczey"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Named as 'Nobilis Andreas Moszczey' who lodges the protestation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Moyses",
+      "mention_texts": [
+        "Moysesi"
+      ],
+      "descriptive_mentions": [
+        "praefati olim"
+      ],
+      "justification": "Named deceased individual ('olim Moysesi') whose estate was subject to arrest."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Toros Bernatowicz",
+      "mention_texts": [
+        "Toross , Berna-\ntowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Armenorum"
+      ],
+      "justification": "Armenian merchant in whose name the protestation was entered ('Famatorum Toross , Bernatowicz ... Armenorum')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Zacharkowicz",
+      "mention_texts": [
+        "Nicolai Zacharkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Armenorum"
+      ],
+      "justification": "Armenian merchant in whose name Andreas Moszczey protested ('Nicolai Zacharkowicz Armenorum')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "Acta praesentia"
+      ],
+      "justification": "The sitting municipal council/office recording the protestation into the city acts."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Adamus Cholewa",
+      "mention_texts": [
+        "Adamus Cholewa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or official appearing at the foot of the entry ('Adamus Cholewa')."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Śliwa",
+      "mention_texts": [
+        "Albertus\nSliwa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or official recorded below Adam Cholewa."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Borekwa",
+      "mention_texts": [
+        "Albertus Borekwa"
+      ],
+      "descriptive_mentions": [
+        "Honestus"
+      ],
+      "justification": "Appears personally in the next record entry: 'Comparens personaliter Honestus Albertus Borekwa'."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Saerio",
+      "mention_texts": [
+        "Saerio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Albertus Borekwa ('Albertus Borekwa de Saerio')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nobilis Andreas Moszczey de arrestis super bona praefati olim Moysesi nomine Famatorum Toross , Bernatowicz ... protestatus est"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E8",
+      "evidence": "Nobilis Andreas Moszczey de arrestis super bona praefati olim Moysesi nomine Famatorum ... et Nicolai Zacharkowicz Armenorum protestatus est"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "records_legal_act",
+      "tail_entity_id": "E5",
+      "evidence": "Quorum Decuratitiones Officium praesens ad Acta praesentia suscepit seruat"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "originates_from",
+      "tail_entity_id": "E13",
+      "evidence": "Albertus Borekwa de Saerio"
+    }
+  ]
+}

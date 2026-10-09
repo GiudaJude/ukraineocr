@@ -1,0 +1,99 @@
+{
+  "document_id": "arc2/0248.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Identified in 'Armenis Civibus Leopoliensibus' and 'Officij Civitatis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Curijs nostris",
+        "Officij Civitatis",
+        "Officium"
+      ],
+      "justification": "The municipal office ('Officium Civitatis', 'Curijs nostris', 'Officium') receiving and executing the arrest."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Wallachia",
+      "mention_texts": [
+        "Valachiae",
+        "Valachia"
+      ],
+      "descriptive_mentions": [
+        "Terris",
+        "Terris"
+      ],
+      "justification": "Identified in 'Terris Valachiae' and 'Terris Valachia'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Toros Bernatowicz",
+      "mention_texts": [
+        "Toros Bernatowicz"
+      ],
+      "descriptive_mentions": [
+        "perfatus"
+      ],
+      "justification": "Named as the petitioner placing the arrest ('perfatus Toros Bernatowicz')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Grzegorz Juszkowicz",
+      "mention_texts": [
+        "Grzegorzem Iuszkowicz"
+      ],
+      "descriptive_mentions": [
+        "affinis et mandatarij sui"
+      ],
+      "justification": "Named as the in-law and mandatary of Toros Bernatowicz ('Grzegorzem Iuszkowicz affinis et mandatarij sui')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Iași",
+      "mention_texts": [
+        "Iassy"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City where the event took place ('Civitate Iassy')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Grzegorzem Iuszkowicz affinis et mandatarij sui"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "agent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Grzegorzem Iuszkowicz affinis et mandatarij sui"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "ibidem in Terris Valachia in Civitate Iassy"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/0300.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "Actis nostris praesentibus",
+        "Officium Praesens"
+      ],
+      "justification": "The municipal chancellery/office registering the legal deed."
+    },
+    {
+      "entity_id": "PER-0381",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dąbrowski",
+      "mention_texts": [
+        "Joannes Dambrowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble appearing before the office to acknowledge the deposit of goods."
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Dąbrowski",
+      "mention_texts": [
+        "Petri Dzmbrowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim",
+        "Fratris sui"
+      ],
+      "justification": "Deceased brother of Joannes Dąbrowski whose deposited estate is referenced."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dudkowicz",
+      "mention_texts": [
+        "Joannis Dudkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv burgher holding the deposit of the late Petrus Dąbrowski's goods."
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose burgher status Joannes Dudkowicz holds."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radzibóg",
+      "mention_texts": [
+        "Joannis Radzibog"
+      ],
+      "descriptive_mentions": [
+        "Vicecomagistri caenatorij",
+        "personarum Nobilium"
+      ],
+      "justification": "Noble witness to the inventory register."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Adamus Prusinowski",
+      "mention_texts": [
+        "Adami Prusinowski"
+      ],
+      "descriptive_mentions": [
+        "generosi",
+        "personarum Nobilium"
+      ],
+      "justification": "Noble witness to the inventory register."
+    },
+    {
+      "entity_id": "PER-0556",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regiae Maiestatis"
+      ],
+      "justification": "The ruling king referenced in a title/court role."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Martinus Gayowski",
+      "mention_texts": [
+        "Martini Gayowski"
+      ],
+      "descriptive_mentions": [
+        "personarum Nobilium"
+      ],
+      "justification": "Noble witness to the inventory register."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Orotowski",
+      "mention_texts": [
+        "Joannis Orotowski"
+      ],
+      "descriptive_mentions": [
+        "personarum Nobilium"
+      ],
+      "justification": "Noble witness to the inventory register."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Borzęcki",
+      "mention_texts": [
+        "Alberti Borzecki"
+      ],
+      "descriptive_mentions": [
+        "personarum Nobilium"
+      ],
+      "justification": "Noble witness to the inventory register."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "PER-0381",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Nobilis olim Petri Dzmbrowski Fratris sui"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Joannis Dudkowicz Civis Leopoliensis"
+    }
+  ]
+}

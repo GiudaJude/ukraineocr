@@ -1,0 +1,230 @@
+{
+  "document_id": "arc2/0643.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act took place and municipality of the scabinus."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Festum S. Catherinae V. et M. A. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court act (Monday after St. Catherine, 1595)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Onyszko Iwanial",
+      "mention_texts": [
+        "Onyszko Iwanial"
+      ],
+      "descriptive_mentions": [
+        "Illi",
+        "Coniuges",
+        "cognatis suis"
+      ],
+      "justification": "Seller of hereditary shares in Hołowsko, husband of Senka."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Senka",
+      "mention_texts": [
+        "Senka",
+        "Summa Swietowna"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "soror eiusdem germana",
+        "hae vero soror eiusdem germana"
+      ],
+      "justification": "Wife of Onyszko Iwanial and sister of Antonius."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Antonius",
+      "mention_texts": [
+        "Antonius"
+      ],
+      "descriptive_mentions": [
+        "frater",
+        "ipse Antonius frater"
+      ],
+      "justification": "Brother of Senka, husband of Marusina, co-seller."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Marusina",
+      "mention_texts": [
+        "Marusina"
+      ],
+      "descriptive_mentions": [
+        "Coniuge"
+      ],
+      "justification": "Wife of Antonius."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Hołowsko",
+      "mention_texts": [
+        "maiori Holowsko",
+        "Holowsko",
+        "Holowsko maiori"
+      ],
+      "descriptive_mentions": [
+        "paternali",
+        "prato Holowsko maiori dicto"
+      ],
+      "justification": "Village and meadow where the inherited parcels are located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Moliowis",
+      "mention_texts": [
+        "Nicolai Moliowis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landowner bordering the meadow in Hołowsko."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Ivasko Iwis",
+      "mention_texts": [
+        "Ivaskonis Iwis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landowner bordering the meadow in Hołowsko."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kripska",
+      "mention_texts": [
+        "Stanislao Kripska",
+        "Stanislaus Fursta"
+      ],
+      "descriptive_mentions": [
+        "Providis",
+        "emptoribus",
+        "cognatis suis"
+      ],
+      "justification": "Buyer of the shares together with his sisters."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Iszcka",
+      "mention_texts": [
+        "Iszcka"
+      ],
+      "descriptive_mentions": [
+        "sorori",
+        "sororibus suis",
+        "emptoribus",
+        "cognatis suis"
+      ],
+      "justification": "Sister of Stanislaus Kripska and co-buyer."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Iudica Irma"
+      ],
+      "descriptive_mentions": [
+        "sororibus suis",
+        "emptoribus",
+        "cognatis suis"
+      ],
+      "justification": "Sister of Stanislaus and Iszcka, co-buyer."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "17 florins",
+      "mention_texts": [
+        "Septemdecim Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Transaction sum paid for the shares."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Semionem"
+      ],
+      "descriptive_mentions": [
+        "Scabinum Civitatis Leopoliensis in Exposito Iudicio praesidentem",
+        "Scabinum Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv bench officer presiding over the Banned Court."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court of Lviv where Simon presides and the resignation is entered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Onyszko Iwanial et Senka Coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Antonius cum Marusina Coniuge"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "ipse Antonius frater hae vero soror eiusdem germana"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislao Kripska et Iszcka sorori"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E12",
+      "evidence": "Stanislao Kripska et Iszcka sorori et Iudica Irma sororibus suis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E15",
+      "evidence": "Semionem Scabinum Civitatis Leopoliensis in Exposito Iudicio praesidentem"
+    }
+  ]
+}

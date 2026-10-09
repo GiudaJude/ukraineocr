@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/1256.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv is referenced as the place of action ('Actum Leopoli') and in civic offices."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria sexta in vigilia festi Sanctae Margaritae Virginis Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Full date formula dating the entry to the vigil of Saint Margaret, 1590."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislai Doctoris",
+        "Stanislaus Dibaczius"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Excellens et Clarissimus Dominus",
+        "Medicinae Doctor",
+        "Collega noster Consularis"
+      ],
+      "justification": "Stanislaus Doctor (Dibonicius), physician and councilor, lodging a protestation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis iisdem",
+        "Officium"
+      ],
+      "justification": "The municipal council and its records accepting the protestation ('quas Officium suscepit')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andream Simonowic",
+        "Andreas Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civitatis Leopoliensis",
+        "tunc temporis absentem",
+        "haeredem pro sexta parte domus Lapideae Jakubowska sibi vicina",
+        "idem"
+      ],
+      "justification": "Andreas Simonowic, bench officer of Lviv, protested against as part-owner of the adjacent townhouse."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Jakubowska House",
+      "mention_texts": [
+        "Jakubowska"
+      ],
+      "descriptive_mentions": [
+        "domus Lapideae",
+        "sibi vicina",
+        "Jakubowska lapideam"
+      ],
+      "justification": "The stone townhouse named Jakubowska adjacent to Stanislaus Doctor's property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannes Culcassowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "tanquam Plenipotens"
+      ],
+      "justification": "Joannes Łukaszowicz (recorded via OCR error as Culcassowicz), burgher and legal plenipotentiary."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Koślikowski",
+      "mention_texts": [
+        "Joannis Koslikowski",
+        "Joannem Koslikowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "familiaris",
+        "Praefatum Nobilem"
+      ],
+      "justification": "Noble Joannes Koślikowski, client of Jan Tarnowski, represented by plenipotentiary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0091: Gródek",
+      "mention_texts": [
+        "Gródek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of Gródek, associated with the capitaneatus of Joannes Tarnowski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joannis Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Capitanei in Gródek",
+        "Regni Poloniae Proclancellarii"
+      ],
+      "justification": "Jan Tarnowski, Starosta of Gródek and Vice-Chancellor of the Crown of Poland."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "Kingdom of Poland mentioned in the title of the Vice-Chancellor."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Anserini",
+        "Stanislao Anserino"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Famato Domino",
+        "Collegae nostro Consulari"
+      ],
+      "justification": "Stanislaus Anserinus, councilor of Lviv, substituted as plenipotentiary."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "co_owner_of",
+      "tail_entity_id": "E6",
+      "evidence": "tanquam haeredem pro sexta parte domus Lapideae Jakubowska sibi vicina"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Scabinum Civitatis Leopoliensis... domus Lapideae Jakubowska sibi vicina"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E8",
+      "evidence": "tanquam Plenipotens Nobilis Joannis Koslikowski"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "familiaris_of",
+      "tail_entity_id": "E10",
+      "evidence": "Joannis Tarnowski Regni Poloniae Proclancellarii familiaris"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "held_office_in",
+      "tail_entity_id": "E9",
+      "evidence": "Capitanei in Gródek Castris Joannis Tarnowski"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "held_office_in",
+      "tail_entity_id": "E11",
+      "evidence": "Regni Poloniae Proclancellarii"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "substituted_plenipotentiary",
+      "tail_entity_id": "E12",
+      "evidence": "dedit et contulit plenariam potestatem Famato Domino Stanislao Anserino"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Collegae nostro Consulari"
+    }
+  ]
+}

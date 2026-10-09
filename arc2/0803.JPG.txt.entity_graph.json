@@ -1,0 +1,135 @@
+{
+  "document_id": "arc2/0803.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Officium Arbitrarium",
+      "mention_texts": [
+        "Officium Arbitrarium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named arbitral court mentioned as adjudicating in defectu solutionis."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "1200 florins",
+      "mention_texts": [
+        "Mille Ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "praefato debito"
+      ],
+      "justification": "Monetary debt amount mentioned in the opening fragment."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Przyzick",
+      "mention_texts": [
+        "Tomas",
+        "Thomae Przyzick",
+        "Thomam"
+      ],
+      "descriptive_mentions": [
+        "Calceator",
+        "Honesto",
+        "Calceatori",
+        "Suburbano Leopoliensi",
+        "Emptori",
+        "Calceatorem",
+        "emptorem"
+      ],
+      "justification": "Buyer of the paternal and maternal share of the house, identified as a cobbler from the Lviv suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Sztomczyk",
+      "mention_texts": [
+        "Bartolomeus Sztomczyk",
+        "Bartholomaeus Sztomczyk",
+        "Bartholomaeus Sztomczik"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "anno iam perfectae aetatis attenetius Filius",
+        "filius",
+        "praenominatus"
+      ],
+      "justification": "Seller of his paternal and maternal property share."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sztomczyk",
+      "mention_texts": [
+        "Andreae Sztomczyk"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Ferrifabri",
+        "Coniugum Suburbanorum Leopoliensium",
+        "parentum suorum"
+      ],
+      "justification": "Deceased blacksmith and father of Bartholomaeus Sztomczyk."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Suburbanorum Leopoliensium",
+        "parentum suorum"
+      ],
+      "justification": "Mother of Bartholomaeus Sztomczyk and wife of Andreas Sztomczyk."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose suburbs are referenced."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio huius Civitatis ante portam Haliciensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location outside the Halych gate where the paternal house is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Filius olim Andreae Sztomczyk"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "et Agnetis Coniugum Suburbanorum Leopoliensium filius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andreae Sztomczyk Ferri- fabri et Agnetis Coniugum"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "document_id": "arc2/1522.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Torossius Bernatowicz",
+      "mention_texts": [
+        "Torossii Bernatowicz"
+      ],
+      "descriptive_mentions": [
+        "Armeni"
+      ],
+      "justification": "Neighboring property owner identified as an Armenian."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Braidus Klimicz",
+      "mention_texts": [
+        "Braidi olim Klimicz"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Neighboring property owner from Wisznia."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Wisznia",
+      "mention_texts": [
+        "Wisznia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Klimicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gabriel Kaprus",
+      "mention_texts": [
+        "Kaprud",
+        "Gabrieli Kaprus",
+        "Gabriele Kaprus",
+        "Gabrielem Kaprus"
+      ],
+      "descriptive_mentions": [
+        "Famoso",
+        "Ciui",
+        "Famato",
+        "Saehedziario Leopoliensi",
+        "reliquarum quoque eiusdem domus ac sortis Saehedziarijs possessori",
+        "emptore",
+        "Em- ptorem",
+        "Emptorem"
+      ],
+      "justification": "Buyer of the inherited shares of the house in Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in connection with Gabriel Kaprus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "280 Polish florins",
+      "mention_texts": [
+        "ducentorum et octoginta florenorum pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase sum for the property shares."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "30 Polish groschen",
+      "mention_texts": [
+        "grossos triginta Polonicos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Calculation rate per florin."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sesule",
+      "mention_texts": [
+        "Jacobum Sesule"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "D.",
+        "fideiussorem",
+        "suum Tutorem"
+      ],
+      "justification": "Guardian and fidejussor of the female sellers."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio isto"
+      ],
+      "justification": "Municipal office before which Jacobus Sesule personally appeared."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famato Gabrieli Kaprus Saehedziario Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "originates_from",
+      "tail_entity_id": "E3",
+      "evidence": "Braidi olim Klimicz de Wisznia"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "appears_before",
+      "tail_entity_id": "E9",
+      "evidence": "Jacobum Sesule suum Tutorem. Qui quidem personaliter coram Officio isto comparens"
+    }
+  ]
+}

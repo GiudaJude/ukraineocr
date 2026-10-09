@@ -1,0 +1,251 @@
+{
+  "document_id": "arc2/0982.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0399: Laurentius",
+      "mention_texts": [
+        "Laurentij"
+      ],
+      "descriptive_mentions": [
+        "praefati"
+      ],
+      "justification": "Identified by name in the text resigning the property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito\nIudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referred to as the court where the senior alderman presides."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lemp",
+      "mention_texts": [
+        "Lemp"
+      ],
+      "descriptive_mentions": [
+        "seniori Scabino Ciuitatis huius in Exposito\nIudicio praesidenti",
+        "seniore Scabino"
+      ],
+      "justification": "Senior alderman acting in the Banned Court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Ciuitatis\nLeopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius"
+      ],
+      "justification": "The city of Lviv mentioned in the location formula and civic titles."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Kuczel",
+      "mention_texts": [
+        "Petrus Kuczel"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Party in entry 888, husband of Katherina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Katherina Kuczel",
+      "mention_texts": [
+        "Katherina"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "haec"
+      ],
+      "justification": "Wife of Petrus Kuczel, acting with him in entry 888."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0142: Hołowsko",
+      "mention_texts": [
+        "maiori Holowsko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of Petrus Kuczel and Katherina."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Maxim Buczadowczat",
+      "mention_texts": [
+        "Maximi Buczadowczat",
+        "Maxim\nBuczadowczat Holowsczy",
+        "Maximi",
+        "Maxi-\nmum"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "quondam suus gener",
+        "praefati"
+      ],
+      "justification": "Son-in-law acquitted of estate obligations in entry 888."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paraska Buczadowczat",
+      "mention_texts": [
+        "Pa-\nraskam"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "praefati Maximi coniugem",
+        "steriliter demortuam",
+        "suam vero filiam"
+      ],
+      "justification": "Deceased daughter of Petrus and Katherina, late wife of Maxim."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Mathias Ilowczyk",
+      "mention_texts": [
+        "Mathias Ilowczyk"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cestimagistri Condetorij Aurificum Ciuitatis\nLeopoliensis"
+      ],
+      "justification": "Guildmaster of the goldsmiths appearing in entry 889."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Alberthus Siemionek",
+      "mention_texts": [
+        "Al-\nberthus Siemionek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cestimagistri Condetorij Aurificum Ciuitatis\nLeopoliensis"
+      ],
+      "justification": "Guildmaster of the goldsmiths appearing in entry 889."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "Goldsmiths' Guild of Lviv",
+      "mention_texts": [
+        "Condetorij Aurificum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The guild of goldsmiths whose masters appear in entry 889."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobi Scholtz"
+      ],
+      "descriptive_mentions": [
+        "Honoratorum"
+      ],
+      "justification": "Party at whose instance the valuation is made in entry 889."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Petrus Kuczel et Katherina coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Petrus Kuczel et Katherina coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Petrus Kuczel et Katherina coniuges olim de maiori Holowsko"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Petrus Kuczel et Katherina coniuges olim de maiori Holowsko"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "suam vero filiam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "suam vero filiam"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "praefati Maximi coniugem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "praefati Maximi coniugem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E5",
+      "evidence": "Maxim Buczadowczat Holowsczy quondam suus gener"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E6",
+      "evidence": "Maxim Buczadowczat Holowsczy quondam suus gener"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "seniori Scabino Ciuitatis huius in Exposito Iudicio praesidenti"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Mathias Ilowczyk et Alberthus Siemionek Cestimagistri Condetorij Aurificum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Mathias Ilowczyk et Alberthus Siemionek Cestimagistri Condetorij Aurificum"
+    }
+  ]
+}

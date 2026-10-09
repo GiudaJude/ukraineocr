@@ -1,0 +1,116 @@
+{
+  "document_id": "arc2/0678.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobum Scholes",
+        "Jacobo Scholes",
+        "Jacobi Scholes",
+        "Jacob Scholes"
+      ],
+      "descriptive_mentions": [
+        "praenominatum",
+        "Coniuges",
+        "emptores",
+        "praenominatis",
+        "Coniugibus",
+        "praenominatorum",
+        "coniugum",
+        "Emptorum",
+        "dictos",
+        "emptoribus"
+      ],
+      "justification": "Buyer of the house and garden, appearing in various inflected forms as husband of Ursula."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Vrsulam",
+        "Vrsula",
+        "Vrsulae"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "emptores",
+        "Coniugibus",
+        "coniugum",
+        "Emptorum",
+        "emptoribus"
+      ],
+      "justification": "Co-buyer and spouse of Jacobus Scholz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille florenis Polonicalibus"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Purchase sum specified in Polish florins."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Zenon Srabiński",
+      "mention_texts": [
+        "Senonem Sra- binski"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem suum",
+        "Famatum"
+      ],
+      "justification": "Appointed legal representative (plenipotentiary) for the resignation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Bannito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court where the property resignation is to be formally executed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gelatinus",
+      "mention_texts": [
+        "Joannes Gelazinus"
+      ],
+      "descriptive_mentions": [
+        "prae- nominatus",
+        "Venditor"
+      ],
+      "justification": "Seller of the property who appoints Srabiński and guarantees the transaction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "praenominatum Jacobum Scholes et Vrsulam Coniuges emptores"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "praenominatum Jacobum Scholes et Vrsulam Coniuges emptores"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E4",
+      "evidence": "Et constituit Plenipotentem suum Famatum Senonem Sra- binski"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "document_id": "arc2/0379.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Domejko",
+      "mention_texts": [
+        "Domejka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears in the heading 'Tutores Successorum Domejka'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Manuel Nurchi",
+      "mention_texts": [
+        "Manuelis Nurchi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the case heading."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council court before which the parties appear."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Domeszkiewicz",
+      "mention_texts": [
+        "Nicolaus"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Honesti",
+        "fratres"
+      ],
+      "justification": "Appears before the council with his brother Dziem."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Dziem Domeszkiewicz",
+      "mention_texts": [
+        "Dziem Domeszkiewicz"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Honesti",
+        "fratres"
+      ],
+      "justification": "Appears before the council with his brother Nicolaus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kruczerski",
+      "mention_texts": [
+        "Joannem Kruczerski"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem suum",
+        "Isthum"
+      ],
+      "justification": "Prolocutor acting on behalf of the Domeszkiewicz brothers."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nicolaus et Dziem Domeszkiewicz fratres"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Prolocutorem suum Isthum Joannem Kruczerski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "per Prolocutorem suum Isthum Joannem Kruczerski"
+    }
+  ]
+}

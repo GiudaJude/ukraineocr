@@ -1,0 +1,172 @@
+{
+  "document_id": "arc2/1541.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lucas Szwencz",
+      "mention_texts": [
+        "Luca",
+        "Lucas",
+        "Lucas Szwencz"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "emptore",
+        "dicto",
+        "eidem",
+        "praefatus",
+        "dictus",
+        "fratre suo",
+        "fratris",
+        "Honestus",
+        "Famosi olim Nicolai Ruestel Szwenczek Civis Leopoliensis ex fratre germano nepos",
+        "adultus"
+      ],
+      "justification": "Party in the legal agreement and acknowledged debtor, identified as the nephew of Nicolaus Ruestel Szwenczek and brother of Henricus."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Fabricius Ruestel",
+      "mention_texts": [
+        "Fabricius",
+        "Fabricium"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "olim Fabricium suum"
+      ],
+      "justification": "Deceased husband of Agnes mentioned in the contract condition."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes",
+        "Agnete Ruestelowa",
+        "Agnes Szwenczowa",
+        "Agneti"
+      ],
+      "descriptive_mentions": [
+        "ipsa",
+        "Domina",
+        "Honestae Dominae",
+        "viduae post fine fatum olim Fabricium suum relictae"
+      ],
+      "justification": "Creditor and seller in the transaction, widow of Fabricius."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-1306: Henricus",
+      "mention_texts": [
+        "Henrici",
+        "Henrico",
+        "Henricus"
+      ],
+      "descriptive_mentions": [
+        "Fratre eiusdem Luca germano",
+        "fratre eiusdem Luca germano",
+        "fratre suo",
+        "propior haeres extranei"
+      ],
+      "justification": "Full brother of Lucas mentioned regarding the redemption of half the share."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned as destination of arrival and citizenship of Nicolaus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Ruestel Szwenczek",
+      "mention_texts": [
+        "Nicolai Ruestel Szwenczek"
+      ],
+      "descriptive_mentions": [
+        "Famosi",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, uncle of Lucas."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulibus"
+      ],
+      "descriptive_mentions": [
+        "modernis",
+        "Collegae nostri Consularis"
+      ],
+      "justification": "The municipal council before whom the recognitio was made."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjective referring to the Kingdom of Poland."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Praemisliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Geographical designation in the councilor's description."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "900 florins",
+      "mention_texts": [
+        "nomingentos Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt acknowledged by Lucas to Agnes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Henrici Fratre eiusdem Luca germano"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "viduae post fine fatum olim Fabricium suum relictae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "relative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famosi olim Nicolai Ruestel Szwenczek Civis Leopoliensis ex fratre germano nepos"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nicolai Ruestel Szwenczek Civis Leopoliensis"
+    }
+  ]
+}

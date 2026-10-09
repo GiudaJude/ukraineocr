@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/1167.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Consulare Leopoliensis",
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "officium praefatum",
+        "hoc idem Officium",
+        "Officium"
+      ],
+      "justification": "City council of Lviv mentioned as the municipal court whose sentence was appealed and confirmed with modifications."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "nos",
+        "Judiciumque nostrum",
+        "decreti nostri",
+        "sigillum nostrum",
+        "Regnorum nostrorum"
+      ],
+      "justification": "King Sigismund III Vasa issuing the royal decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Warsaw",
+      "mention_texts": [
+        "Varsaviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Warsaw where the decree was issued."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta post Festum Sancti Stanislai in Majo proxima, Anno Domini Millesimo quingentesimo Nonagesimo sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issuance of the royal decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "Kingdom of Poland mentioned in the chancellor's title and the royal regnal formula."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Suetiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden mentioned in the king's regnal years formula."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zamoyski",
+      "mention_texts": [
+        "Joannes Zamoyski",
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Regni Poloniae Cancellarius et Generalis Capitaneus",
+        "Clarissimi et Magnifici",
+        "Regni Poloniae Cancellarij et Exercituum generalis Belzensis Mariaburgensis, Knisiniensis, Derpatensis, Miedzirzecensis, Srodecensis etc."
+      ],
+      "justification": "Crown Chancellor and Grand Hetman Jan Zamoyski delivering the royal decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Zamoscie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Zamość mentioned in Jan Zamoyski's title of origin."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "L. Szembek",
+      "mention_texts": [
+        "L. Szembek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Chancery official signing the document."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Yerzemi",
+      "mention_texts": [
+        "Bartholomaeo Yerzemi"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "procuratore suo"
+      ],
+      "justification": "Noble procurator representing the actor party."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucas"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "Carnifex",
+        "conuentus"
+      ],
+      "justification": "Defendant seeking release from prison."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "issued_in",
+      "tail_entity_id": "E3",
+      "evidence": "Datis Varsaviae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "ruler_of",
+      "tail_entity_id": "E5",
+      "evidence": "Regnorum nostrorum Poloniae Anno Nono"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "ruler_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suetiae Tertio"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannes Zamoyski Regni Poloniae Cancellarius et Generalis Capitaneus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "originated_from",
+      "tail_entity_id": "E8",
+      "evidence": "Joannis de Zamoscie"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "appeared_before",
+      "tail_entity_id": "E1",
+      "evidence": "Cum autem praefatus Lucas Carnifex conuentus se a carcere quem hactenus sustinuit liberari requireret."
+    }
+  ]
+}

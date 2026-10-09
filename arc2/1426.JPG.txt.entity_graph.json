@@ -1,0 +1,228 @@
+{
+  "document_id": "arc2/1426.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Officio",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officio praesenti"
+      ],
+      "justification": "Municipal governing body issuing decrees and hearing cases in Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in suburban and citizenship descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rzeznoski",
+      "mention_texts": [
+        "Joannes",
+        "Rzeznoscy"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "successores",
+        "ipsorum germani"
+      ],
+      "justification": "Noble party appearing before the council with his brother Nicolaus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Rzeznoski",
+      "mention_texts": [
+        "Nicolaus",
+        "Rzeznoscy"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "successores",
+        "ipsorum germani"
+      ],
+      "justification": "Noble party appearing before the council with his brother Joannes."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Rzeznoski",
+      "mention_texts": [
+        "Alberti Rzeznoski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles olim",
+        "fratris ipsorum germani",
+        "praefatum olim fratrem suum"
+      ],
+      "justification": "Deceased brother of Joannes and Nicolaus Rzeznoski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "septuaginta florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid for oats."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zophia",
+        "Zoffia Sławieczka",
+        "Sławieczka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "uxori",
+        "Honesta Zoffia Sławieczka Suburbana Leopoliensi",
+        "Suburbana Leopoliensi"
+      ],
+      "justification": "Wife of Stanislaus Sławieczka, settled an oat debt with the Rzeznoski brothers."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sławieczka",
+      "mention_texts": [
+        "Stanislai Sławieczki",
+        "Sławieqta"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Suburbani Leopoliensis"
+      ],
+      "justification": "Noble resident of the Lviv suburb, husband of Zofia."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparum Cymbarz",
+        "Cymbarza"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Zeltorem",
+        "Ciuem Leopoliensis",
+        "successorem",
+        "Actorem",
+        "Actoris"
+      ],
+      "justification": "Lviv citizen and saddler/tentmaker who pursued a claim as successor of Agnes Kosielyna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis Kosielyna"
+      ],
+      "descriptive_mentions": [
+        "Fanetae olim",
+        "praedictae olim"
+      ],
+      "justification": "Deceased woman represented by successor Caspar Cymbarz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheam Czychrowa",
+        "Czychrowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Suburbanam Leopoliensis",
+        "citatam",
+        "praedicta citata"
+      ],
+      "justification": "Suburban woman of Lviv who took an oath regarding debt and restitution of a belt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "7.5 florins",
+      "mention_texts": [
+        "septem cum medio florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt claimed in the oath."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nobiles Joannes et Nicolaus Rzeznoscy tanquam successores Nobiles olim Alberti Rzeznoski fratris ipsorum germani"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nobiles Joannes et Nicolaus Rzeznoscy tanquam successores Nobiles olim Alberti Rzeznoski fratris ipsorum germani"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nobiles Joannes et Nicolaus Rzeznoscy tanquam successores Nobiles olim Alberti Rzeznoski fratris ipsorum germani"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesta Zophia Nobilis Stanislai Sławieczki Suburbani Leopoliensis uxori"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Zoffia Sławieczka Suburbana Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislai Sławieczki Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "successor_of",
+      "tail_entity_id": "E10",
+      "evidence": "Casparum Cymbarz seu Zeltorem Ciuem Leopoliensis tanquam successorem Fanetae olim Agnetis Kosielyna"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Casparum Cymbarz seu Zeltorem Ciuem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Dorotheam Czychrowa Suburbanam Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/0645.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the municipal citizenship of the participant in Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Actis",
+        "officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal court/office where the division and acts were registered."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam Szachnaria",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "sororem germanam",
+        "relictam",
+        "ipsius",
+        "sorore",
+        "sororis sua",
+        "citata",
+        "soror sua",
+        "nata iunior",
+        "Citata"
+      ],
+      "justification": "Named as the cited party, sister of Barbara, and widow of Valentinus Szarm."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "soror",
+        "Actrix"
+      ],
+      "justification": "The plaintiff seeking division of inheritance against her sister Anna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Szarm",
+      "mention_texts": [
+        "Valentini Szarm"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased husband of Anna mentioned in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas Isaak",
+      "mention_texts": [
+        "Szastroma Isaak",
+        "Tomam Isaak"
+      ],
+      "descriptive_mentions": [
+        "tutore ipsius",
+        "Tutorem suum"
+      ],
+      "justification": "Guardian (tutor) of the cited Anna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Civiles Szach",
+      "mention_texts": [
+        "Civiles Szach"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Citizen mentioned in connection to the citation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Caspar Szefroniec",
+      "mention_texts": [
+        "Zephronicz Stomatary",
+        "Casparum Szestopuz Somatarium"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "generi sui",
+        "generum"
+      ],
+      "justification": "Son-in-law who lodged the denunciation and handles payments."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Saturday before the Feast of Saint Matthew 1573",
+      "mention_texts": [
+        "sabbato ante Festum S. Matthei Apostoli et Evangelistae proxima Anno Domini 1573"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date of the earlier division recorded in the municipal books."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "15 florins",
+      "mention_texts": [
+        "Florenos quindecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount requested by the plaintiff on account of the better share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Barbara vt citata soror sua"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "sororem germanam Famati olim Valentini Szarm phiscoris relictam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Tutorem suum Tomam Isaak"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "generi sui denunciatoris fecit"
+    }
+  ]
+}

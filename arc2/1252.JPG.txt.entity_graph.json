@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/1252.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Joannes Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "Collega noster Consularis"
+      ],
+      "justification": "Appears in person before the council making a legal declaration."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "Officio nostro"
+      ],
+      "justification": "The issuing municipal council body receiving declarations and admitting them into its acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0074: Joannes Sobol",
+      "mention_texts": [
+        "Joannis Sobole"
+      ],
+      "descriptive_mentions": [
+        "Dominus"
+      ],
+      "justification": "Mentioned as making a mutual petition and recognition in the acts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sobol",
+      "mention_texts": [
+        "Jacobi Sobole"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Party making a protestation and mutual petition in the municipal acts."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts are conducted and of which the scabini are officials."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0219: DATE-0017: 1590",
+      "mention_texts": [
+        "feria secunda ante festum Sanctae Margaritae Virginis et Martyris Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gelazin",
+      "mention_texts": [
+        "Gelazin"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the title of the acquittance concerning his successors."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Pyszczycz",
+      "mention_texts": [
+        "Pyszczycz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the entry heading alongside Paulus Sczerbicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulus Sczerbicz",
+        "Paulo Sczerbic"
+      ],
+      "descriptive_mentions": [
+        "Generoso Domino",
+        "Secretario Sacrae Regiae Maiestatis"
+      ],
+      "justification": "Royal secretary named in the case heading and text regarding property rights."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Georgius Pokora",
+      "mention_texts": [
+        "Geor: Pokora"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of the goods into which intromission/claim is made."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "Juris Utriusque Doctor",
+        "Educatus Ordinarius"
+      ],
+      "justification": "Appears in person before the court as doctor and ordinary advocate."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rotterdorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Senati Civitatis Leopoliensis"
+      ],
+      "justification": "Appears in court as a scabinus of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Smieszek",
+      "mention_texts": [
+        "Joannes Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Senati Civitatis Leopoliensis"
+      ],
+      "justification": "Appears in court as a scabinus of Lviv."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Andreas Morocki",
+      "mention_texts": [
+        "Andreae Morockii"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "acquisitoris Juris Caduci"
+      ],
+      "justification": "Noble at whose instance the appearance before the court takes place."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland whose fisc and secretary are referenced."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannes Wolfowicz Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "secretary_of",
+      "tail_entity_id": "E15",
+      "evidence": "Paulo Sczerbic Secretario Sacrae Regiae Maiestatis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martinus Rotterdorff ... Scabini Senati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannes Smieszek Scabini Senati Civitatis Leopoliensis"
+    }
+  ]
+}

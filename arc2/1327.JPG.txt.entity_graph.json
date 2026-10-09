@@ -1,0 +1,231 @@
+{
+  "document_id": "arc2/1327.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0131: 120 Polish florins",
+      "mention_texts": [
+        "centum viginti Florenos"
+      ],
+      "descriptive_mentions": [
+        "restam eiusmodi nimirum centum viginti Florenos",
+        "eisdem centum viginti Florenos"
+      ],
+      "justification": "Sum of 120 florins deposited at the council chamber."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Cameram Officii",
+        "Officii Consularis Leopoliensis",
+        "Officio Consulari Leopoliensi",
+        "actis praesentibus"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "eidem Officio"
+      ],
+      "justification": "Lviv city council and council records cited across the legal entries."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Petricius",
+      "mention_texts": [
+        "Sebastiano Petricio",
+        "Sebastianum Petricium"
+      ],
+      "descriptive_mentions": [
+        "Excellentem Dominum",
+        "Medicinae Doctorem",
+        "actorem",
+        "eidem Actori",
+        "Actori"
+      ],
+      "justification": "Doctor of medicine Sebastianus Petricius, the plaintiff in the case."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Leygnorunt",
+      "mention_texts": [
+        "Joannem Leygnorunt",
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Aromatarium",
+        "Civem Leopoliensem",
+        "citatum",
+        "citatus",
+        "citatus Joannes Aromatarius"
+      ],
+      "justification": "Apothecary and citizen of Lviv, summoned in the lawsuit."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Rosniski",
+      "mention_texts": [
+        "Rosniski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "olim"
+      ],
+      "justification": "Deceased nobleman on whose behalf medical treatment was provided."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Fausti Scampiani"
+      ],
+      "descriptive_mentions": [
+        "Excellentis Domini",
+        "Proconsulis",
+        "praedicti Domini Proconsulis"
+      ],
+      "justification": "Paulus Faustus Kampian, proconsul of Lviv who issued the original sentence."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Kasmirski",
+      "mention_texts": [
+        "Valentinus Kasmirski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble who appeared before the council on behalf of Joannes Suszycki."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Suszycki",
+      "mention_texts": [
+        "Joannis Suszycki"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Terrestris Leopoliensis Notarii",
+        "Regii Regni Secretarii"
+      ],
+      "justification": "Lviv land scribe and royal secretary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Maomete Gala",
+      "mention_texts": [
+        "Maomete Gala"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Graecis de Kawalo Mercatoribus aduenis Leopoliensis"
+      ],
+      "justification": "Greek merchant from Kavala who brought Malmsey wine to Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Korniani",
+      "mention_texts": [
+        "Nicolao Korniani"
+      ],
+      "descriptive_mentions": [
+        "Graecis de Kawalo Mercatoribus aduenis Leopoliensis"
+      ],
+      "justification": "Greek merchant from Kavala accompanying Maomete Gala."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Kavala",
+      "mention_texts": [
+        "Kawalo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin town of the visiting Greek merchants."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Emporium Leopoliense"
+      ],
+      "justification": "City of Lviv referred to in municipal and territorial designations."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kingdom of Poland, mentioned in the royal secretary's title."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Regii"
+      ],
+      "justification": "The reigning Polish monarch issuing royal mandates and employing secretaries."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E12",
+      "evidence": "Joannem Leygnorunt Aromatarium Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "sententia Excellentis Domini Pauli Fausti Scampiani Proconsulis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "Nobilis Valentinus Kasmirski nomine et ex parte Generosi Joannis Suszycki"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "servant_of",
+      "tail_entity_id": "E14",
+      "evidence": "Joannis Suszycki Terrestris Leopoliensis Notarii et Regii Regni Secretarii"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "originates_from",
+      "tail_entity_id": "E11",
+      "evidence": "Maomete Gala, Nicolao Korniani Graecis de Kawalo Mercatoribus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "originates_from",
+      "tail_entity_id": "E11",
+      "evidence": "Maomete Gala, Nicolao Korniani Graecis de Kawalo Mercatoribus"
+    }
+  ]
+}

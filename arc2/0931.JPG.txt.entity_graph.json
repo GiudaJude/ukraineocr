@@ -1,0 +1,152 @@
+{
+  "document_id": "arc2/0931.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina Czahorianka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner: 'Regina Czahorianka domos utrinque sutem'"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb where the garden is located: 'in eodem quoque suburbio Haliciensi'"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Kalicza Hill",
+      "mention_texts": [
+        "Kalecza monte"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hill location of the garden: 'in Kalecza monte'"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Xarszecki",
+      "mention_texts": [
+        "Joannis Xarszecki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring garden owner: 'penes Joannis Xarszecki ... hortos'"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Fabius Ignacy",
+      "mention_texts": [
+        "Fabij Ignacy"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor mentioned alongside the garden: 'penes ... filina Fabij Ignacy hortos'"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Zaczerync",
+      "mention_texts": [
+        "Andream Zaczerincum",
+        "Andreae Zaczericy"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "cives naturalis Authoris",
+        "Principalibus suis",
+        "Nobilis",
+        "principalis venditionis"
+      ],
+      "justification": "Principal seller whose property is resigned: 'ad praefatam Nobilem Andream Zaczerincum'"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Zaczerync",
+      "mention_texts": [
+        "Jacobum Zaczr- inczum",
+        "Jacobi Za- czinczj"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum",
+        "ipsius fratrem germanum",
+        "cives naturalis Authoris",
+        "supranominati",
+        "alterius haeredis"
+      ],
+      "justification": "Full brother and co-heir to Andreas: 'Ingenuum Jacobum Zaczr- inczum ipsius fratrem germanum'"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Balicki",
+      "mention_texts": [
+        "Stanislao Baliczki"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus Suburbanis Leopoliensibus",
+        "emptore",
+        "Emptoribus",
+        "emptores",
+        "posteros"
+      ],
+      "justification": "Buyer of the house and garden: 'Stanislao Baliczki Ciro et Sophia Coniugibus'"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus Suburbanis Leopoliensibus",
+        "Emptoribus"
+      ],
+      "justification": "Wife and co-buyer with Stanislaus Balicki: 'Sophia Coniugibus Suburbanis Leopoliensibus'"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburb the buyers reside in: 'Suburbanis Leopoliensibus'"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "złoty",
+      "mention_texts": [
+        "Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Currency of payment: '...ginta Florenos'"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobum Zaczr- inczum ipsius fratrem germanum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislao Baliczki Ciro et Sophia Coniugibus"
+    }
+  ]
+}

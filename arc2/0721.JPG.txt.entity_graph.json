@@ -1,0 +1,103 @@
+{
+  "document_id": "arc2/0721.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Ivan",
+      "mention_texts": [
+        "Ivanem"
+      ],
+      "descriptive_mentions": [
+        "praefatum"
+      ],
+      "justification": "Individual mentioned in the release from custody at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referencing the date established earlier in the court register."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kołomyiey",
+      "mention_texts": [
+        "Stanislaus Kołomyiey"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual signatory or party mentioned at the conclusion of the first act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Wasylko Iwanek",
+      "mention_texts": [
+        "Wasylko Iwanek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual signatory or party named following the first legal record."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij praesentis"
+      ],
+      "justification": "The sitting council office before which the legal proceedings were conducted."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Facilitis Solimski",
+      "mention_texts": [
+        "Facilitis Solimski"
+      ],
+      "descriptive_mentions": [
+        "Actore"
+      ],
+      "justification": "Plaintiff acting on his own behalf and that of his wife."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martha Philipowna",
+      "mention_texts": [
+        "Martha Philipowna"
+      ],
+      "descriptive_mentions": [
+        "uxoris sua"
+      ],
+      "justification": "Wife of Facilitis Solimski in whose name the suit is pursued."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Ivan Philipowicz",
+      "mention_texts": [
+        "Ivan Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenum",
+        "Citatum"
+      ],
+      "justification": "Armenian defendant cited to appear in the cause."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "suo et uxoris sua Martha Philipowna"
+    }
+  ]
+}

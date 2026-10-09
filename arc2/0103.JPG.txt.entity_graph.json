@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/0103.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Ferle",
+      "mention_texts": [
+        "tholomaeus Ferle"
+      ],
+      "descriptive_mentions": [
+        "Seniores Contubernij Pileatorum"
+      ],
+      "justification": "Senior of the Lviv Hatters' Guild presenting the concord document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jagier",
+      "mention_texts": [
+        "Jagier"
+      ],
+      "descriptive_mentions": [
+        "Seniores Contubernij Pileatorum"
+      ],
+      "justification": "Senior of the Lviv Hatters' Guild acting alongside Bartholomaeus Ferle."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Rinossek",
+      "mention_texts": [
+        "Simon Rinossek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Contubernij Pileatorum Leopoliensis"
+      ],
+      "justification": "Citizen and representative of the Lviv Hatters' Guild appearing before the Kraków Council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szembla",
+      "mention_texts": [
+        "Albertus Szembla"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Seniores Contubernij Pileatorum Cracoviensis"
+      ],
+      "justification": "Senior of the Kraków Hatters' Guild concluding the concord."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Ostrowski",
+      "mention_texts": [
+        "Simon Ostrowski"
+      ],
+      "descriptive_mentions": [
+        "Seniores Contubernij Pileatorum Cracoviensis"
+      ],
+      "justification": "Senior of the Kraków Hatters' Guild concluding the concord."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Hatters' Guild",
+      "mention_texts": [
+        "Contubernij Pileatorum",
+        "Contubernij Pileatorum Leopoliensium",
+        "Contubernij Pileatorum Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Contubernij"
+      ],
+      "justification": "Guild of hatters in Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Kraków Hatters' Guild",
+      "mention_texts": [
+        "Pileatoribus Cracoviensibus",
+        "Contubernij Pileatorum Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "Contubernij"
+      ],
+      "justification": "Guild of hatters in Kraków."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Actis praesentibus",
+        "Acta nostra"
+      ],
+      "justification": "City council of Lviv receiving and registering the concord."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Kraków City Council",
+      "mention_texts": [
+        "Officio Consulari Cracoviensi",
+        "Actis Consularibus Cracoviensibus"
+      ],
+      "descriptive_mentions": [
+        "Actis praesentibus"
+      ],
+      "justification": "City council of Kraków before which the agreement was originally reached."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Leopoliensis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in guild and council titles."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensibus",
+        "Cracoviensi",
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Kraków where the concord was executed."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "25 February 1594",
+      "mention_texts": [
+        "feria sexta post Cinerum proxima Anno Domini Millesimo quingentesimo Nonagesimo Quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the agreement before the Kraków council."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "13 December 1593",
+      "mention_texts": [
+        "feria secunda post Conceptionis Beatae Mariae Virginis Anno Domini 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the extract from the Lviv council records."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "tholomaeus Ferle Jagier Seniores Contubernij Pileatorum nomine Confratrum suorum actoque totius Contubernij Pileatorum Leopoliensium obtulerunt"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "tholomaeus Ferle Jagier Seniores Contubernij Pileatorum nomine Confratrum suorum actoque totius Contubernij Pileatorum Leopoliensium obtulerunt"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simon Rinossek nomine et tanquam Civis Contubernij Pileatorum Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Albertus Szembla Simon Ostrowski Seniores Contubernij Pileatorum Cracoviensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Albertus Szembla Simon Ostrowski Seniores Contubernij Pileatorum Cracoviensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "Contubernij Pileatorum Leopoliensium"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "Contubernij Pileatorum Cracoviensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "Actis Consularibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "Officio Consulari Cracoviensi"
+    }
+  ]
+}

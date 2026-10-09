@@ -1,0 +1,93 @@
+{
+  "document_id": "arc2/1179.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus",
+      "mention_texts": [
+        "Albertum",
+        "Alberto"
+      ],
+      "descriptive_mentions": [
+        "eidem"
+      ],
+      "justification": "minatam Albertum et eius coniugem... cauit et fideiussit eidem Alberto"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kruszecki",
+      "mention_texts": [
+        "Joannes Kruszecki"
+      ],
+      "descriptive_mentions": [
+        "idem"
+      ],
+      "justification": "idem Joannes Kruszecki cauit et fideiussit eidem Alberto"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Festa solemnia Pentecostes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "feria quarta ante Festa solemnia Pentecostes... feria quarta post Festa solemnia Pentecostes"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "159 sexto",
+        "Anno 96"
+      ],
+      "descriptive_mentions": [
+        "Anno quo supra"
+      ],
+      "justification": "Anno quo supra 159 sexto... Anno 96"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Langiszowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Barbara Langiszowa"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucas"
+      ],
+      "descriptive_mentions": [
+        "Vucatus"
+      ],
+      "justification": "Lucas Vucatus"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "surety_for",
+      "tail_entity_id": "E1",
+      "evidence": "Joannes Kruszecki cauit et fideiussit eidem Alberto"
+    }
+  ]
+}

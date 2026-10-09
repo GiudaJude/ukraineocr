@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0735.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "huius Civitatis"
+      ],
+      "justification": "City where the legal acts took place and to which the suburban resident belongs."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta post Festum Sanctae Luciae Virginis et Martyris proxima Anno quo supra",
+        "Anno quo supra",
+        "Sabbato in Festum Sancti Thomae Apostoli Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "hodierno"
+      ],
+      "justification": "Dates of the acts recorded in December 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Beketka",
+      "mention_texts": [
+        "Bartholomeo Beketka",
+        "Bartholomaeus Beketka"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "se",
+        "suam propriam",
+        "suosque successores"
+      ],
+      "justification": "Suburban resident acknowledging debt and obligating his property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Zaleski",
+      "mention_texts": [
+        "Jacobus Zaleski",
+        "Jacobo Zalesczki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "eiusque legitimis Successoribus",
+        "Creditori suo",
+        "praedictum Nobiliem"
+      ],
+      "justification": "Creditor to whom the debt is owed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "florenorum quadringentos pecuniae et numeri Polonicalis",
+        "quadringentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "certi veri iusti liquidique debiti",
+        "eadem praedicta summa",
+        "summae"
+      ],
+      "justification": "Loan debt amount of 400 Polish florins."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato ante Festum Beati Thomae Apostoli proximo Anno 1596",
+        "Anno 1596"
+      ],
+      "descriptive_mentions": [
+        "proxime futuro",
+        "unius anni integru",
+        "unius anni integri"
+      ],
+      "justification": "Repayment deadline set one year later in 1596."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciense"
+      ],
+      "descriptive_mentions": [
+        "Suburbio huius Civitatis",
+        "vocato"
+      ],
+      "justification": "Suburb of Lviv where the pledged house, stable, and garden are situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Stary",
+      "mention_texts": [
+        "Mathia Stary"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property borders the mortgaged estate."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Zaluszkowska Property",
+      "mention_texts": [
+        "Zaluszkowskie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property bordering the mortgaged house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "Bartholomaeus Beketka Suburbanus Leopoliensis palam publice beneuoleque recognouit se debere et teneri certi veri iusti liquidique debiti ex causa mutui contracti florenorum quadringentos pecuniae et numeri Polonicalis Nobili Jacobo Zalesczki"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Bartholomaeus Beketka Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "domum suam propriam cum stabulo et horto eidem adiacenti in Suburbio huius Civitatis Haliciense vocato"
+    }
+  ]
+}

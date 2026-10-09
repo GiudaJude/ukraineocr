@@ -1,0 +1,133 @@
+{
+  "document_id": "arc2/1068.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobracki"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Juris utriusque Doctor",
+        "praesens Advocatus eius Civitatis ordinarius"
+      ],
+      "justification": "Appears as the city advocate who appoints plenipotentiaries in the legal case."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0705: Andreas Bienkowic",
+      "mention_texts": [
+        "Andreae Gelatin",
+        "Andreae",
+        "Andreas Gelatinus"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "praedicti",
+        "Ingenuus",
+        "Scabinus"
+      ],
+      "justification": "Party in the suit, also appearing in entry 958 as Andreas Gelatinus Scabinus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal authority mentioned in relation to the letters of summons."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Casparum Gulinski",
+        "Gasparo Gulinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et spectabilem Dominum",
+        "Procuratorem praedicti Andreae Gelatin",
+        "praefato Domino"
+      ],
+      "justification": "Appointed plenipotentiary and procurator of Andreas Gelatin."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jaak",
+      "mention_texts": [
+        "Joannem Jaak"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Causarum Iuris Civilis Magdeburgensis Serendatarium Iuratum"
+      ],
+      "justification": "Sworn agent of Magdeburg civil law appointed as plenipotentiary."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Scholz",
+      "mention_texts": [
+        "Dorotheam Szoles"
+      ],
+      "descriptive_mentions": [
+        "Honoratam",
+        "Scabinum"
+      ],
+      "justification": "Opposing party in the legal case before the court."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "eius Civitatis"
+      ],
+      "justification": "Location where the act was recorded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio praesenti"
+      ],
+      "justification": "The municipal office before which the action is pending."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording reference pointing to the preceding date."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E2",
+      "evidence": "Procuratorem praedicti Andreae Gelatin"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "has_role",
+      "tail_entity_id": "E7",
+      "evidence": "praesens Advocatus eius Civitatis ordinarius"
+    }
+  ]
+}

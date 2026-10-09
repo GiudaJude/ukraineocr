@@ -1,0 +1,38 @@
+{
+  "document_id": "arc2/1157.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szwarctyssowic",
+      "mention_texts": [
+        "Jacobus Szwarctyssowic"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "Famatus",
+        "Fenerator",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Appears as the protesting party in the document ('praedictus Famatus Jacobus Szwarctyssowic Fenerator et Civis Leopoliensis')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the citizenship descriptor of Jacobus Szwarctyssowic ('Civis Leopoliensis')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    }
+  ]
+}

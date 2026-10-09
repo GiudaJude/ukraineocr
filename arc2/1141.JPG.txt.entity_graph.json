@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/1141.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the jurisdiction and origins of individuals."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Magisterio Magdeburgensi",
+        "Judicio Exposito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Magdeburg/banned court mentioned for property warranty."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio",
+        "acta praesentia",
+        "Officio nostro praesenti"
+      ],
+      "justification": "Lviv City Council recording the present act in its books."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Liwsznia",
+      "mention_texts": [
+        "Stanislao Liwsznia",
+        "Stanislao Liwsznia",
+        "Stanislaus Liwsznia"
+      ],
+      "descriptive_mentions": [
+        "Emptori",
+        "idem Emptor",
+        "praefatus"
+      ],
+      "justification": "Buyer of the share who requests the deposition to be officially recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Połozan",
+      "mention_texts": [
+        "Annam Polozan",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "sorore",
+        "mihi"
+      ],
+      "justification": "Witness testifying about the sale made by her sister and brother-in-law."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Procopius de Boleszyce",
+      "mention_texts": [
+        "Procopio de Boleschice",
+        "Procopius",
+        "Procopius"
+      ],
+      "descriptive_mentions": [
+        "affinis",
+        "coniuges",
+        "praedictus",
+        "dicti"
+      ],
+      "justification": "Seller of the property share and husband of Oryszka."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Oryszka",
+      "mention_texts": [
+        "Orziska",
+        "Orzisska",
+        "Oryszkam",
+        "Oryszka"
+      ],
+      "descriptive_mentions": [
+        "sorore",
+        "soror sua",
+        "coniuges",
+        "praefatam"
+      ],
+      "justification": "Wife of Procopius and sister of Anna Połozan."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "decem florenis"
+      ],
+      "descriptive_mentions": [
+        "pecuniam seu precium"
+      ],
+      "justification": "Purchase price of ten florins paid for the share."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Feria secunda post Dominicam Exaudi proxima Anno 96"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry of the legal act."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Łukaszowicz",
+      "mention_texts": [
+        "Lukassowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus Honestus",
+        "famatus Civis Leopoliensis"
+      ],
+      "justification": "Lviv citizen presenting an arrest document on behalf of his brother."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Lukassowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "fratris sui"
+      ],
+      "justification": "Brother on whose behalf the document is presented."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Opaliński",
+      "mention_texts": [
+        "Petro Opalinski"
+      ],
+      "descriptive_mentions": [
+        "Magnifico Domino",
+        "Regni Capitaneo Leopoliensi"
+      ],
+      "justification": "Starosta of Lviv issuing the concisio/arrest document."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the title of the Starosta."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Anno Domini 15 Nonagesi-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1590 mentioned in the referenced act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "praedictus Procopius affinis a de Boleschice et Orzisska soror sua coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Orziska sorore eiusdem Annae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "Famati Joannis Lukassowicz fratris sui"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Lukassowicz famatus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Petro Opalinski praesente Regni Capitaneo Leopoliensi"
+    }
+  ]
+}

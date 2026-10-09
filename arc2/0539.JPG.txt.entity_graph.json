@@ -1,0 +1,244 @@
+{
+  "document_id": "arc2/0539.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Anna Zymanka",
+      "mention_texts": [
+        "Anna Zymanka",
+        "Annae Zymanka",
+        "Annae",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "praedictarum Anastasiae et Sophiae matri",
+        "eiusdem legitimis successoribus",
+        "eandem matrem",
+        "matri suae praedictae",
+        "praefatae matri suae",
+        "Annam matrem suam"
+      ],
+      "justification": "Mother of the sellers who purchases/receives the paternal shares in the house and garden."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Wacław Masznobrodzko",
+      "mention_texts": [
+        "Waczlaw Masznobrodzko",
+        "Waczko"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Pellifex",
+        "coniuges",
+        "Suburbani Leopolitanae viri",
+        "maritos tutores suos legitimos",
+        "praedictus",
+        "venditores"
+      ],
+      "justification": "Furrier and husband of Anastasia Barbarczonka, co-recognizing the sale of her paternal inheritance."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0030: Anastasia",
+      "mention_texts": [
+        "Anastasia Barbarczonka",
+        "Anastasiam",
+        "Anastasiae"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "feminae",
+        "praedictos",
+        "praedictarum"
+      ],
+      "justification": "Daughter of Nicolaus Zacharczycz and wife of Wacław Masznobrodzko, selling her paternal share."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Famatus Scultetus",
+      "mention_texts": [
+        "Famati Sculteti",
+        "Famati"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Suburbani Leopolitanae viri",
+        "maritos tutores suos legitimos",
+        "praedictus",
+        "venditores"
+      ],
+      "justification": "Husband of Sophia Barbarczonka, consenting to the transaction and satisfied with other property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia Barbarczonka",
+        "Sophiam",
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "feminae",
+        "praedictos",
+        "praedictarum",
+        "Coniuge sua"
+      ],
+      "justification": "Daughter of Nicolaus Zacharczycz and wife of Scultetus, relinquishing her paternal inheritance share."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanae",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the context of suburbanites of Lviv ('Suburbani Leopolitanae') and the city's suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Zacharczycz",
+      "mention_texts": [
+        "Nicolaum Zacharczycz"
+      ],
+      "descriptive_mentions": [
+        "Honestum olim"
+      ],
+      "justification": "Deceased father from whom the property shares devolved onto Anastasia and Sophia."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the house and garden are situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Zegadłowa Property",
+      "mention_texts": [
+        "Zegadlowa"
+      ],
+      "descriptive_mentions": [
+        "fundis"
+      ],
+      "justification": "Neighboring property bordering the house and garden in question."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Januszowa Property",
+      "mention_texts": [
+        "Januszwa"
+      ],
+      "descriptive_mentions": [
+        "fundis"
+      ],
+      "justification": "Neighboring property bordering the house and garden in question."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginti Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase sum received by Wacław for the property shares."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Anna Stanuyik",
+      "mention_texts": [
+        "Anna Stanuyik"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Party appearing personally to donate her estimated third share to her mother Anna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Marcissna Barbarczanka",
+      "mention_texts": [
+        "Marcissna Barbarczanka"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Spouse mentioned together with Anna Stanuyik donating their share in the house to mother Anna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesti Waczlaw Masznobrodzko Pellifex et Anastasia Barbarczonka coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati Sculteti et Sophia Barbarczonka coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "sortes suas paternas ad praedictos Anastasiam et Sophiam post Honestum olim Nicolaum Zacharczycz devolutas"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "sortes suas paternas ad praedictos Anastasiam et Sophiam post Honestum olim Nicolaum Zacharczycz devolutas"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestae Annae Zymanka praedictarum Anastasiae et Sophiae matri"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestae Annae Zymanka praedictarum Anastasiae et Sophiae matri"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Anna Stanuyik et Marcissna Barbarczanka coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E12",
+      "evidence": "donauerunt eidem matri suae praedictae Annae"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in eiusdem Civitatis Suburbio Cracoviensi dicto"
+    }
+  ]
+}

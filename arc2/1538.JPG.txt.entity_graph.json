@@ -1,0 +1,203 @@
+{
+  "document_id": "arc2/1538.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0118: Franciscus",
+      "mention_texts": [
+        "Franciscum",
+        "Franciscus"
+      ],
+      "descriptive_mentions": [
+        "iidem"
+      ],
+      "justification": "Named heir/party in the property alienation agreement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "iidem"
+      ],
+      "justification": "Named party acting alongside Franciscus regarding the sale of the house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named party in the division/expedition of portions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij",
+        "Officio"
+      ],
+      "justification": "Municipal office whose consent and approval are referenced."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kupcza",
+      "mention_texts": [
+        "Stanius Kupcza"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named individual in the heading/margin."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes Kupczyna",
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta Vidua",
+        "sana mente et corpore",
+        "ipsa"
+      ],
+      "justification": "Widow of Rupertus Szwenstoch making the legal recognition."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Rupertus Szwenstoch",
+      "mention_texts": [
+        "Ruperti Szwenstoch"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "mariti sui",
+        "illo"
+      ],
+      "justification": "Deceased husband of Agnes and burgher of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "City of Lviv, mentioned in civic titles."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Muscowius",
+      "mention_texts": [
+        "Albertum Muscowium"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Civitatis eiusdem Scabinum Juratum",
+        "tutorem"
+      ],
+      "justification": "Juror/scabinus of Lviv serving as guardian to Agnes."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Lucas Seredzki",
+      "mention_texts": [
+        "Luca"
+      ],
+      "descriptive_mentions": [
+        "Ingenuis",
+        "nepotibus",
+        "alumnos et clientes suos",
+        "nepotum praefatorum"
+      ],
+      "justification": "Nephew and beneficiary of Rupertus Szwenstoch."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Henricus Seredzki",
+      "mention_texts": [
+        "Henrico Seredzkij"
+      ],
+      "descriptive_mentions": [
+        "Ingenuis",
+        "nepotibus",
+        "alumnos et clientes suos",
+        "nepotum praefatorum"
+      ],
+      "justification": "Nephew and beneficiary of Rupertus Szwenstoch."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "King of Poland whose royal decree resolved the caducity issue."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Agnes Famati olim Ruperti Szwenstoch Civis Leopoliensis relicta Vidua"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Ruperti Szwenstoch Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Honoratum Albertum Muscowium Civitatis eiusdem Scabinum Juratum tutorem sibi in rem praesentem rogatum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Albertum Muscowium Civitatis eiusdem Scabinum Juratum ... ex Officio"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "uncle_of",
+      "tail_entity_id": "E10",
+      "evidence": "ipsius mariti sui erga bonorum partium eius omnium ... eius ex fratre germano nepotibus Ingenuis Luca et Henrico Seredzkij"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "uncle_of",
+      "tail_entity_id": "E11",
+      "evidence": "ipsius mariti sui erga bonorum partium eius omnium ... eius ex fratre germano nepotibus Ingenuis Luca et Henrico Seredzkij"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "eius ex fratre germano nepotibus Ingenuis Luca et Henrico Seredzkij"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "document_id": "arc2/1465.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lucas Lew",
+      "mention_texts": [
+        "Lucas Lew"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header of the entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Helena Siurkowa",
+      "mention_texts": [
+        "Helena Siurkowa",
+        "Helena Ssurkowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua olim Simonis Czudonis vidua relicta"
+      ],
+      "justification": "Appearing personally to donate part of her house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Czudo",
+      "mention_texts": [
+        "Simonis Czudonis"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "suum coniugem"
+      ],
+      "justification": "Late husband of Helena Ssurkowa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-3131: PER-0320: PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simonem Kuniost"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensis",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Assisting Helena as appointed legal guardian."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Czedro",
+      "mention_texts": [
+        "Mathiae Czedronis"
+      ],
+      "descriptive_mentions": [
+        "Eidami"
+      ],
+      "justification": "Property neighbor mentioned in the description of the house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii nostri"
+      ],
+      "justification": "The municipal authority confirming the guardianship."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensium",
+        "Leopolitico"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "The city identified by civic, suburban, and legal references."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The suburb where the subject house is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Platea Cadorum",
+      "mention_texts": [
+        "statea Cadorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the house is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Helena Ssurkowa vidua olim Simonis Czudonis vidua relicta"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "per Famatum Simonem Kuniost Civem Leopoliensis tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Simonem Kuniost Civem Leopoliensis"
+    }
+  ]
+}

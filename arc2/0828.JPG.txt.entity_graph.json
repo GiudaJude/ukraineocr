@@ -1,0 +1,101 @@
+{
+  "document_id": "arc2/0828.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kupidlowic",
+      "mention_texts": [
+        "Paulo Kupidlowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named individual mentioned as 'Paulo Kupidlowic'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal title referencing the reigning Polish king, Sigismund III Vasa."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus",
+      "mention_texts": [
+        "Sebaldo"
+      ],
+      "descriptive_mentions": [
+        "praenominato"
+      ],
+      "justification": "Named individual referred to as 'praenominato Sebaldo'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari",
+        "Officio Consulari Leo- poliensi"
+      ],
+      "descriptive_mentions": [
+        "Actis"
+      ],
+      "justification": "The consular office/city council of Lviv before which legal actions and protests were recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0060: ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Acta Castrensia Leopoliensia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The castle/grodzki court records of Lviv where the arrestment was entered."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensia",
+        "Leo- poliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, appearing adjectivally with court and council records."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta in Vigilia festi Conceptionis Beatae Mariae Virginis Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry in the castle court records."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Alembek",
+      "mention_texts": [
+        "Stanislawa Lembecka"
+      ],
+      "descriptive_mentions": [
+        "Actoris"
+      ],
+      "justification": "Named party/actor lodging a protest before the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "appeared_before",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislawa Lembecka Actoris Actoris coram Officio Consulari Leo- poliensi acti praestigio solemniter protestationem fecit ac comprobauit"
+    }
+  ]
+}

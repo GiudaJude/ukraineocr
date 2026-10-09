@@ -1,0 +1,33 @@
+{
+  "document_id": "arc2/1447.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document opens with a decree of the municipal council ('Officium vero Consulare Leopoliensis')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjectival designation of the city of Lwów in the title of the city council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officium vero Consulare Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/1334.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Actis nostris"
+      ],
+      "justification": "The municipal council of Lviv issuing the decree and maintaining the records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sixt",
+      "mention_texts": [
+        "Tomas Sixt"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "Honoratorum Juris Fidelium"
+      ],
+      "justification": "Court assessor (iuris fidelis) requesting the registration of the tax assessment."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Foltynowic",
+      "mention_texts": [
+        "Simon Foltynowic"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "Honoratorum Juris Fidelium"
+      ],
+      "justification": "Court assessor (iuris fidelis) requesting the registration of the tax assessment."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Walicki",
+      "mention_texts": [
+        "Andreas Walicki",
+        "Andream Walicki"
+      ],
+      "descriptive_mentions": [
+        "G.",
+        "Generosum",
+        "famulum",
+        "Actorem",
+        "Gravioso Actori",
+        "idem Generosus Actor"
+      ],
+      "justification": "Noble servitor of Jan Zamoyski acting as plaintiff in the debt case."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jan Zamoyski",
+      "mention_texts": [
+        "Joannis Zamoyski"
+      ],
+      "descriptive_mentions": [
+        "Illustris et Magnifici Domini",
+        "Cancellarii et Exercituum Ducis"
+      ],
+      "justification": "Grand Chancellor and Grand Hetman of the Crown, lord of Andreas Walicki."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Langisowa",
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "viduam relictam",
+        "citatam",
+        "citatae",
+        "citata Partia"
+      ],
+      "justification": "Widow of Alexius Langis, defendant in the debt case."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Alexius Langis",
+      "mention_texts": [
+        "Alexii Langis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased burgher of Lviv, late husband of Barbara Langisowa."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in civic and official titles."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Uberowic",
+      "mention_texts": [
+        "Bartholomeo Vberowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Tutore sibi assumpto"
+      ],
+      "justification": "Burgher appointed as guardian assisting Barbara Langisowa in court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "127 Polish florins",
+      "mention_texts": [
+        "centum viginti septem Florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summae",
+        "debiti"
+      ],
+      "justification": "Debt amount disputed between Walicki and Langisowa."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Langis",
+      "mention_texts": [
+        "Bartholomeum Langis"
+      ],
+      "descriptive_mentions": [
+        "Honestum olim",
+        "Fratruelem citatae filium",
+        "filii sui",
+        "eiusdem filii"
+      ],
+      "justification": "Deceased debtor, son/relative of Barbara Langisowa, killed prior to the suit."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Samosci"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the chirographic obligation was drawn."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "die vigesima Februarii Anno Domini 159 quarto",
+        "feria secunda post Festum Sancti Mathiae Apostoli proxima Anno eodem tradito 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates in the year 1594 recorded in the chirograph and court register."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "Belz Castle Court",
+      "mention_texts": [
+        "Acta Castrensia Belsensia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castle court registry of Belz where the obligation was formally submitted."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Belz",
+      "mention_texts": [
+        "Castro Belsensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castle and town of Belz where the act was entered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "servant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Generosum Andream Walicki Illustris et Magnifici Domini Joannis Zamoyski Cancellarii et Exercituum Ducis famulum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Barbaram Famati olim Alexii Langis Civis Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Alexii Langis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "cum Tutore sibi assumpto Famato Bartholomeo Vberowic comparentem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Bartholomeum Langis Fratruelem citatae filium non ita pridem interemptum"
+    }
+  ]
+}

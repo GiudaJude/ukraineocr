@@ -1,0 +1,264 @@
+{
+  "document_id": "arc2/1310.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Brzeżany",
+      "mention_texts": [
+        "Brzezanow",
+        "Brzezanen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town mentioned in the recognition and origin of the court records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Zieszkowna",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "consortis suae legitimae",
+        "vxorem suam",
+        "vxore sua"
+      ],
+      "justification": "Daughter of Jan Ziołko and Catherina, wife of the recognizant."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Acta praesentia",
+        "iisdem Actis"
+      ],
+      "justification": "The municipal council/acts of Lviv where the instruments are recorded."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Klankowicz",
+      "mention_texts": [
+        "Albertus Klankowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges tertiarum nuptiarum",
+        "Cives Leopolienses"
+      ],
+      "justification": "Third husband of Catherina, citizen of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "vxoris suae praedecitore mater",
+        "coniuges tertiarum nuptiarum",
+        "Cives Leopolienses",
+        "momeratae"
+      ],
+      "justification": "Mother of Anna Zieszkowna, wife of Albertus Klankowicz, formerly wife of Jan Ziołko."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli",
+        "Civis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts are conducted and parties reside."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jan Ziołko",
+      "mention_texts": [
+        "Janu Ziołko"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Lanxorem",
+        "primarii nuptiarum maritum"
+      ],
+      "justification": "Deceased first husband of Catherina and father of Anna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta intra Octauas Assumptionis B. Mariae V. A. D. 96",
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the acts: Wednesday within the octave of the Assumption 1596."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-3131: PER-0320: PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simon Zehost"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Frenifex",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen and spurrier of Lviv issuing a receipt for 70 florins."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "florenis septuaginta"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici",
+        "debiti"
+      ],
+      "justification": "Amount of debt paid."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "sabbato post Dominicam Rogationum proximo Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of original obligation."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0463: Valentinus Gładysz",
+      "mention_texts": [
+        "Valentinum Głarasz"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Calceatorem",
+        "coiuges",
+        "praedictos debitores",
+        "debitoribus"
+      ],
+      "justification": "Shoemaker and debtor."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigim"
+      ],
+      "descriptive_mentions": [
+        "coiuges",
+        "praedictos debitores",
+        "debitoribus"
+      ],
+      "justification": "Wife of Valentinus Gładysz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sosynek",
+      "mention_texts": [
+        "Thoma Sosynek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Calceatore",
+        "satisfactorem"
+      ],
+      "justification": "Shoemaker who settled the debt on behalf of the Gładysz spouses."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Drozdowski",
+      "mention_texts": [
+        "Joannes Drozdowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in heading of entry 1779."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Abraham Mendlowicz",
+      "mention_texts": [
+        "Abraham Mendlowicz",
+        "Odoridowicz",
+        "Abraham Mendlowic"
+      ],
+      "descriptive_mentions": [
+        "infidelis",
+        "als Odoridowicz",
+        "Judeus Leopoliensis"
+      ],
+      "justification": "Jewish resident of Lviv appearing in court."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobum"
+      ],
+      "descriptive_mentions": [
+        "suum Tutorem",
+        "Ingenuum"
+      ],
+      "justification": "Guardian (tutor) of Abraham Mendlowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesti Albertus Klankowicz et Catherina vxoris suae praedecitore mater coniuges tertiarum nuptiarum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati olim Janu Ziołko Lanxorem momeratae Catherinae primarii nuptiarum maritum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "ad praedictam Annam vxorem suam iure succesionis paternali post Famati olim Janu Ziołko"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Catherina vxoris suae praedecitore mater"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Honestum Valentinum Głarasz Calceatorem et Hedvigim coiuges"
+    }
+  ]
+}

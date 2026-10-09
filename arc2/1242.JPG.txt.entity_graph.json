@@ -1,0 +1,167 @@
+{
+  "document_id": "arc2/1242.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Bielmacz",
+      "mention_texts": [
+        "Bartholomaei Bielmacz"
+      ],
+      "descriptive_mentions": [
+        "emptoris",
+        "praefatus Emptor verus",
+        "Honesti"
+      ],
+      "justification": "Named as the buyer of the house and garden in the property transaction and protestation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court of Lviv mentioned in connection with the appointed senior scabinus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings and property are located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulo Rowicani",
+        "Paulus Novicampianus"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "prauo fundi illius primario",
+        "Excellens et Egregius",
+        "Medicinae Doctor",
+        "collega noster Consularis",
+        "haeredi fundi illius"
+      ],
+      "justification": "Town councillor and primary ground owner who files a protest regarding unpaid ground rent."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "collega noster Consularis",
+        "actis praesentibus",
+        "officium praesens",
+        "officij nostri"
+      ],
+      "justification": "The municipal council acting as the recording authority."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "plateae Temniczowka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the house and garden subject to the transaction are situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1596-07-04",
+      "mention_texts": [
+        "feria quinta post festum Visitationis Mariae V. A. D. 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded act (Thursday after the Feast of the Visitation, 1596)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Cimorek",
+      "mention_texts": [
+        "Albertus Cimorek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Czeohmagistri"
+      ],
+      "justification": "Guild master of the brewers' guild appearing before the council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mathias Słowczyk",
+      "mention_texts": [
+        "Mathias Slowczyk"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Czeohmagistri"
+      ],
+      "justification": "Guild master of the brewers' guild appearing before the council."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Brewers' Guild of Lviv",
+      "mention_texts": [
+        "Contubernij Braxifabrorum Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Contubernij"
+      ],
+      "justification": "Craft guild of brewers of the city of Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Judicio Exposito Leopoli"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "circa venditionem domus et horti in fundo suo plateae Temniczowka sitis ... Actum Leopoli"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertus Cimorek et Mathias Slowczyk Czeohmagistri Contubernij Braxifabrorum Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertus Cimorek et Mathias Slowczyk Czeohmagistri Contubernij Braxifabrorum Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Contubernij Braxifabrorum Ciuitatis Leopoliensis"
+    }
+  ]
+}

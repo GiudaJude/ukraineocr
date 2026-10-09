@@ -1,0 +1,123 @@
+{
+  "document_id": "arc2/1016.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned civil court mentioned as the forum for legal representation"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the acts are recorded and of which Joannes Jastkowic is a citizen"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jastkowic",
+      "mention_texts": [
+        "Joannis Jastkowic",
+        "Joannes Jastkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Senior Civitatis",
+        "Civis"
+      ],
+      "justification": "Senior citizen of Lviv making a protestation regarding the Tłumaczowska house"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Tobias Czerniakowicz",
+      "mention_texts": [
+        "Tobia Czerniakowicz",
+        "Tobiae"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Coniugibus",
+        "suis cohabitatoribus",
+        "praefatorum"
+      ],
+      "justification": "Resident of the house and husband of Katherina who built a kitchen above the vault"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Katherina",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "suis cohabitatoribus",
+        "praefatorum"
+      ],
+      "justification": "Wife of Tobias Czerniakowicz associated with the Tłumaczowska house"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Tłumaczowska House",
+      "mention_texts": [
+        "Tlumaczowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "lapidea",
+        "posticum domus"
+      ],
+      "justification": "Stone townhouse in Lviv subject to mortgage obligation and damages"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post Dominicam Judica praeterita Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded act"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Hasta",
+      "mention_texts": [
+        "Jacobi Hasta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deceased person whose successors' acquittance is registered"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Tobia Czerniakowicz cum Katherina Coniugibus"
+    }
+  ]
+}

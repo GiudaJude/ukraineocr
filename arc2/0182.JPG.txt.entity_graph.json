@@ -1,0 +1,303 @@
+{
+  "document_id": "arc2/0182.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0075: CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos triginta",
+        "Florenis triginta",
+        "triginta Florenos"
+      ],
+      "descriptive_mentions": [
+        "pecunia et numeri Polonicalis census et scosios tertii anni"
+      ],
+      "justification": "Sum of 30 Polish florins mentioned multiple times in both legal transactions."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0118: Franciscus",
+      "mention_texts": [
+        "Francisci"
+      ],
+      "descriptive_mentions": [
+        "Praefati"
+      ],
+      "justification": "Francis, guardian or father whose wards held the principal sum."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Adam Abermanowicz",
+      "mention_texts": [
+        "Adam Abermanowicz",
+        "Adamum Abermanowicz",
+        "Adamus Abermanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "secundarii nuptiarum mariti",
+        "satisfactorem",
+        "Praenominatus",
+        "fatus"
+      ],
+      "justification": "Adam Abermanowicz, citizen of Lviv and second husband of Dorothea."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in civic descriptions and fair references."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "consortis relictae"
+      ],
+      "justification": "Dorothea, widow of Nicolaus Wojnar, remarried to Adam Abermanowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Wojnar",
+      "mention_texts": [
+        "Nicolai Wojnar",
+        "Nicolaum Wojnar",
+        "Dziwali Wojnar"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "antecessore suum",
+        "Praedicti"
+      ],
+      "justification": "Late husband of Dorothea, also designated as Dziwula / Dziwali Wojnar."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Praesentis",
+        "Actis suis",
+        "Officium"
+      ],
+      "descriptive_mentions": [
+        "muratum"
+      ],
+      "justification": "The municipal council/court of Lviv acting in the registrations."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Felix Sutor",
+      "mention_texts": [
+        "Felicis Sutoris",
+        "Felix Sutor",
+        "Felici",
+        "Felice Sutore"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Nolanus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Felix the shoemaker, suburban resident of Lviv acquitted in the second act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwiges"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "vidua relicta",
+        "illa",
+        "recognoscentes"
+      ],
+      "justification": "Hedwig, widow of Nicolaus of Gródek and sister of Emerentia."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus a Grodek",
+      "mention_texts": [
+        "Nicolai a Grodek"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased husband of Hedwig."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0091: Gródek",
+      "mention_texts": [
+        "Grodek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Gródek, origin/toponym in Nicolaus's designation."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Emerentia",
+      "mention_texts": [
+        "Emerentia"
+      ],
+      "descriptive_mentions": [
+        "soror eiusdem germana",
+        "haec",
+        "recognoscentes"
+      ],
+      "justification": "Sister of Hedwig and wife of Joannes Dewski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Pielczymucha",
+      "mention_texts": [
+        "Joannem Pielczymucha"
+      ],
+      "descriptive_mentions": [
+        "Civem Leopoliensem",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Guardian appointed to assist Hedwig."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dewski",
+      "mention_texts": [
+        "Joannem Dewski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "maritum et tutorem suum legitimum"
+      ],
+      "justification": "Husband and lawful guardian of Emerentia."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Florenis Decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 10 florins paid at present."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "olim",
+        "fratrem suum",
+        "banni venditorem"
+      ],
+      "justification": "Late brother of Hedwig and Emerentia, who sold the shoemaker's stall."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "Florenos septuaginta Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total of 70 Polish florins paid for the shoemaker's stall."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestae Dorotheae Famati olim Nicolai Wojnar consortis relictae secundarii nuptiarum mariti"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Dorotheae Famati olim Nicolai Wojnar consortis relictae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Adam Abermanowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honestae Hedwiges olim Nicolai a Grodek vidua relicta"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "origin_of",
+      "tail_entity_id": "E11",
+      "evidence": "Nicolai a Grodek"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Hedwiges olim Nicolai a Grodek vidua relicta et Emerentia soror eiusdem germana"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "haec vero per Honestum Joannem Dewski maritum et tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannem Pielczymucha Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Felix Sutor Nolanus Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honestum olim Stanislaum fratrem suum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "sibling_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honestum olim Stanislaum fratrem suum"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "document_id": "arc2/1485.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus",
+      "mention_texts": [
+        "Hieronymi"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "germani eiusdem"
+      ],
+      "justification": "Named deceased brother whose legitimate successors acknowledged receipt of satisfaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "622 Polish florins",
+      "mention_texts": [
+        "sexcentos viginti duorum Florenorum Polonicalium",
+        "numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum specified for the heirs."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Scabinetus hic Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The bench/banned court of Lviv before which the resignation was executed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kliczkowski",
+      "mention_texts": [
+        "Stanislai Kliczkowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Luitoris perpetuitatis"
+      ],
+      "justification": "Petitioner at whose instance the valuation of the house was made."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Caspar Dunajewski",
+      "mention_texts": [
+        "Caspari Dunaiewski"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased owner of the house and buildings evaluated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis eiusdem",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which the property and legal actions are situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Kasztelańska Street",
+      "mention_texts": [
+        "Platea Ciuitatis eiusdem Casztelian dicta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the stone townhouse of Caspar Dunajewski is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "3200 Polish florins",
+      "mention_texts": [
+        "tribus millibus et ducentis Florenis pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Valuation amount assigned to the damaged stone building."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Iwan Kwaśnik",
+      "mention_texts": [
+        "Iwan Kwasna",
+        "Kwaslikowic",
+        "Quasha"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party recorded in the header/note associated with the court proceeding."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense",
+        "Officii praesentis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council executing the royal decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The ruling Polish monarch whose decree was being executed."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gilda Pasten",
+      "mention_texts": [
+        "Joannem Gildam Pastenum"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Civem Leopoliensem",
+        "actorem",
+        "parte Actoris",
+        "idem Actor"
+      ],
+      "justification": "Plaintiff citizen of Lviv seeking execution of decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Termarius Szilekberk",
+      "mention_texts": [
+        "Termarium Szilekberk"
+      ],
+      "descriptive_mentions": [
+        "Ermenum",
+        "Civem itidem Leopoliensem",
+        "citatum"
+      ],
+      "justification": "Armenian citizen summoned as defendant in the dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "hasLegalDisputeWith",
+      "tail_entity_id": "E5",
+      "evidence": "ad instantiam Nobilis Stanislai Kliczkowski tanquam Luitoris perpetuitatis in certis debitis super domus et aedibus olim Caspari Dunaiewski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "isLocatedIn",
+      "tail_entity_id": "E6",
+      "evidence": "Platea Ciuitatis eiusdem Casztelian dicta in arce porrectam"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "isCitizenOf",
+      "tail_entity_id": "E6",
+      "evidence": "Joannem Gildam Pastenum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "isCitizenOf",
+      "tail_entity_id": "E6",
+      "evidence": "Termarium Szilekberk Ermenum Civem itidem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "hasLegalDisputeWith",
+      "tail_entity_id": "E13",
+      "evidence": "in causa et ratione inter Famatos Joannem Gildam Pastenum Civem Leopoliensem actorem et Termarium Szilekberk Ermenum Civem itidem Leopoliensem citatum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "isLocatedIn",
+      "tail_entity_id": "E6",
+      "evidence": "Officium Consulare Leopoliense"
+    }
+  ]
+}

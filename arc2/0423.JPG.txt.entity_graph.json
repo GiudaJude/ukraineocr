@@ -1,0 +1,188 @@
+{
+  "document_id": "arc2/0423.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Gessiek",
+      "mention_texts": [
+        "Sebastianus Gessiek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Aurator",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Honesti Sebastianus Gessiek Aurator... Suburbani Leopolienses"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Maczeyek",
+      "mention_texts": [
+        "Stanislaus Maczeyek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Figulus",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Stanislaus Maczeyek Figulus et Andreas Vnguratin Suburbani Leopolienses"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Vnguratin",
+      "mention_texts": [
+        "Andreas Vnguratin"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Andreas Vnguratin Suburbani Leopolienses"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dechta",
+      "mention_texts": [
+        "Joannis Dechta",
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "Deductoris"
+      ],
+      "justification": "Famati Joannis Dechta Civis Leopoliensis... ad praenominati Deductoris instantiam"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dechta",
+      "mention_texts": [
+        "Staschasta",
+        "Stanislai",
+        "Stanum Dechta",
+        "Stanus"
+      ],
+      "descriptive_mentions": [
+        "filij sui",
+        "progenitorem",
+        "ingenuus"
+      ],
+      "justification": "Testimonium ortus Staschasta... de legitimo ortu filij sui Stanislai... praenominatum Stanum Dechta... ingenuus Stanus"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sacro Dechta",
+      "mention_texts": [
+        "Sacro Dechta"
+      ],
+      "descriptive_mentions": [
+        "parentibus",
+        "Coniugibus superstitibus"
+      ],
+      "justification": "parentibus vt pote Sacro Dechta et Anna Coniugibus superstitibus"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "parentibus",
+        "Coniugibus superstitibus"
+      ],
+      "justification": "Sacro Dechta et Anna Coniugibus superstitibus"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburbani Leopolienses... Civis Leopoliensis... Actum Leopoli"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum",
+        "nobis",
+        "Actis nostris"
+      ],
+      "justification": "per Officium nostrum requisiti... coram nobis factam... Actis nostris inseri comisimus"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Anno quo supra"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesti Sebastianus Gessiek Aurator... Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaus Maczeyek Figulus... Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Andreas Vnguratin Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannis Dechta Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "ad instantiam Famati Joannis Dechta Civis Leopoliensis ad exhibendum veritatis testimonium de legitimo ortu filij sui Stanislai"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "praenominatum Stanum Dechta... ex legitimo thoro probisque et honestis parentibus vt pote Sacro Dechta et Anna Coniugibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "praenominatum Stanum Dechta... ex legitimo thoro probisque et honestis parentibus vt pote Sacro Dechta et Anna Coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Sacro Dechta et Anna Coniugibus superstitibus iure haben- Ecclesia Catholica Romana matrimoniali vinculo iunctis"
+    }
+  ]
+}

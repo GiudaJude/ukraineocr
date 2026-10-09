@@ -1,0 +1,137 @@
+{
+  "document_id": "arc2/0040.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris Praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council act registry referred to by the acting officials as 'Actis nostris Praesentibus'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place ('Actum Leopoli') and source of municipal designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "25 January 1595",
+      "mention_texts": [
+        "feria quinta ipso die Conversionis Sancti Pauli Anno 1595"
+      ],
+      "descriptive_mentions": [
+        "Actum ut supra"
+      ],
+      "justification": "Date of the record: Thursday on the feast day of the Conversion of St. Paul in the year 1595."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szyszkowski",
+      "mention_texts": [
+        "Pauli Szyszkowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the marginal title of the power of attorney ('Plenipotentia Pauli Szyszkowski')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmus Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Negociator Leopoliensis"
+      ],
+      "justification": "Lviv citizen and merchant appointing a plenipotentiary against his absconded factor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobum"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "Plenipotenti suo",
+        "idem Plenipotens et mandatarius suus"
+      ],
+      "justification": "Person designated as plenipotentiary and mandatary by Erasmus Jelonek."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Adamus Krapisz",
+      "mention_texts": [
+        "Adamum Krapisz"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "famulum et factorem suum",
+        "praedictum Adamum Krapisz"
+      ],
+      "justification": "Servant and business agent from Wrocław pursued for departing without settling accounts."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Wrocław",
+      "mention_texts": [
+        "Vratislauia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Silesia specified as origin of Adamus Krapisz ('de Vratislauia')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jzuwka",
+      "mention_texts": [
+        "Jzuwki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the rubric at the bottom ('Testimonium pro parte Jzuwki')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "appointed_plenipotentiary",
+      "tail_entity_id": "E6",
+      "evidence": "constituit et solemniter ordinavit in suum verum legitimum indubitatumque Plenipotentem et mandatarium Honestum Jacobum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "servant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Adamum Krapisz de Vratislauia famulum et factorem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "originates_from",
+      "tail_entity_id": "E8",
+      "evidence": "Adamum Krapisz de Vratislauia"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Erasmus Jelonek Civis et Negociator Leopoliensis"
+    }
+  ]
+}

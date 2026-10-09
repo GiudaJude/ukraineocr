@@ -1,0 +1,165 @@
+{
+  "document_id": "arc2/0816.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "praefatam"
+      ],
+      "justification": "Daughter inheriting paternal portion from the deceased Thomas Ziołko."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Ziołko",
+      "mention_texts": [
+        "Thomae Ziołko"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Deceased father whose property portion in the stone house is devolved to Anna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Ziołkowska House",
+      "mention_texts": [
+        "Ziołkowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Stone house located on Halych Street inside the city."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0016: Halych Street",
+      "mention_texts": [
+        "platea Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street inside the city where the Ziołkowska house is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitate",
+        "Leopoli-",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officij",
+        "officio",
+        "Officiumque",
+        "officium"
+      ],
+      "justification": "The consular municipal office issuing decrees and delegating officials."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date reference back to the preceding record."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulum Gouianopianum"
+      ],
+      "descriptive_mentions": [
+        "spectabilem et Excellen- tem Dominum",
+        "Medicinae Doctorem",
+        "Consulem Leopoli-",
+        "Actorem",
+        "Actor"
+      ],
+      "justification": "Doctor of medicine, consul of Lviv, and plaintiff in the wall construction dispute."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0134: Paulus Aromatarius",
+      "mention_texts": [
+        "Pauli Aromatarii",
+        "Faustina Schazaronowiz"
+      ],
+      "descriptive_mentions": [
+        "Famata",
+        "Aromatarium",
+        "Ciuem Leopoliensem",
+        "citatum",
+        "citati",
+        "citatos",
+        "citatum"
+      ],
+      "justification": "Apothecary citizen of Lviv, defendant cited for non-payment of wall construction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria sexta post dies Sancti Petri Vinculae anno Domini 1594."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the prior submission and decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "in sorte sua paternali ad praefatam Annam post obitum Famati Thomae Ziołko"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in domo lapidea Ziołkowska in Civitate intus platea Haliciensi dicta"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in Civitate intus platea Haliciensi dicta"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Paulum Gouianopianum Medicinae Doctorem Consulem Leopoli-"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Aromatarium Ciuem Leopoliensem"
+    }
+  ]
+}

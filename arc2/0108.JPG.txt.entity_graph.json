@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/0108.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Ciuitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the transaction takes place and jurisdiction of the officials."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv suburb where the sold house is located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Platea Lata",
+      "mention_texts": [
+        "Platea lata"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the property is situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Barbara Zmieszkowna",
+      "mention_texts": [
+        "Barbarae Zmiesszowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "consortis suae",
+        "coniugique suae praefatae"
+      ],
+      "justification": "Wife of the recognizant on whose behalf the property is sold."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Wronka",
+      "mention_texts": [
+        "Francisci Wronka",
+        "Francisco Wronka"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Collegae nostri Consularis",
+        "Proconsulari",
+        "affini suo",
+        "spectabili",
+        "Collega nostro Consulari",
+        "emptori"
+      ],
+      "justification": "Council colleague, proconsul, and buyer of the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Ziemkowicz",
+      "mention_texts": [
+        "Ziemkowic"
+      ],
+      "descriptive_mentions": [
+        "Successorum"
+      ],
+      "justification": "Neighbor whose property borders the sold house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Smieszek",
+      "mention_texts": [
+        "Stanislai Smieszek"
+      ],
+      "descriptive_mentions": [
+        "olim Honorati"
+      ],
+      "justification": "Deceased predecessor whose estate was partitioned."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Barbara Vrbanowna",
+      "mention_texts": [
+        "Barbarae Vrbanowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deceased co-predecessor of the partitioned estate."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "13 November 1592",
+      "mention_texts": [
+        "feria sexta post festum Sancti Martini Episcopi Anno Domini 159 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the division of property among heirs."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the procurator is instructed to resign the house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertus",
+        "Domagala"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Recognizant and seller named at the foot of the act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in Platea lata in Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbio Haliciensi exten- tior ... Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestae Barbarae Zmiesszowna consortis suae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Barbarae Zmiesszowna consortis suae ... ex Diuisione sortoria inter alios consuccessores olim Honorati Stanislai Smieszek"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Barbarae Zmiesszowna consortis suae ... inter alios consuccessores olim Honorati Stanislai Smieszek et Barbarae Vrbanowna"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "inter alios consuccessores olim Honorati Stanislai Smieszek et Barbarae Vrbanowna"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "relative_of",
+      "tail_entity_id": "E11",
+      "evidence": "eidem Proconsulari affini suo spectabili Francisco Wronka Collega nostro Consulari affini suo"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "arc2/0837.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Franckowic",
+      "mention_texts": [
+        "Bartholomaeum Franckowic"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem",
+        "mandatarium",
+        "Famatum",
+        "Ciuem et Consulem Castrensem",
+        "absentem tanquam praesentem",
+        "praefato Plenipotenti suo",
+        "suum Plenipotentem"
+      ],
+      "justification": "Appointed as plenary attorney (plenipotentem et mandatarium) in the legal matter."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Spiril",
+      "mention_texts": [
+        "Laurentium Spiril"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Notarium Zidnen'",
+        "mandatarium"
+      ],
+      "justification": "Identified as notary and mandatary of Thomas Lynczynski pursuing legal action."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Lynczynski",
+      "mention_texts": [
+        "Thomae Lynczynski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble on whose behalf Laurentius Spiril is acting as mandatary."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Krosno City Council",
+      "mention_texts": [
+        "Officio Consulari Crosnen'"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council of Krosno before which the legal action was initiated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kaminski",
+      "mention_texts": [
+        "Stanislai"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in connection with the estate/inheritance (mente Stanislai Laurentij Kaminski)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Kaminski",
+      "mention_texts": [
+        "Laurentij Kaminski",
+        "Laurentium Kaminski"
+      ],
+      "descriptive_mentions": [
+        "praefatum"
+      ],
+      "justification": "Deceased or predecessor whose estate is contested in the litigation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Smardz",
+      "mention_texts": [
+        "Jacobi Smardz"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "Individual to whom the contested goods were sold."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Iwanko",
+      "mention_texts": [
+        "Seth Iwanko",
+        "Iwanko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person appearing in court with his wife Ewa."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Ewa",
+      "mention_texts": [
+        "Ewa"
+      ],
+      "descriptive_mentions": [
+        "uxore sua",
+        "vxor"
+      ],
+      "justification": "Wife of Iwanko appearing before the court with a legal guardian."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Martinus Sutor",
+      "mention_texts": [
+        "Martini Sutoris"
+      ],
+      "descriptive_mentions": [
+        "Prouidi"
+      ],
+      "justification": "Shoemaker whose children/estate are referenced in the appearance."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Paulus Craio",
+      "mention_texts": [
+        "Paulum Craio"
+      ],
+      "descriptive_mentions": [
+        "Istum",
+        "tutorem",
+        "Pratoni nostri Officij"
+      ],
+      "justification": "Appointed court guardian (tutor) for Ewa."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "nostri Officij",
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal office before which the second entry is recorded."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Famatum Laurentium Spiril Notarium Zidnen' Nobilis Thomae Lynczynski mandatarium"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Seth Iwanko cum uxore sua Ewa"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "vxor vero per Istum Paulum Craio Pratoni nostri Officij iura tutorem sibi"
+    }
+  ]
+}

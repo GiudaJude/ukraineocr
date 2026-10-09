@@ -1,0 +1,101 @@
+{
+  "document_id": "arc2/0650.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "Officium"
+      ],
+      "justification": "The municipal consular office and court issuing the decree and handling the appeal."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the title of the consular office."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacram Regiam Maiestatem",
+        "Dominum clementissimam"
+      ],
+      "justification": "The king to whose royal court the aggrieved party appeals."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actum ut supra"
+      ],
+      "justification": "Date reference concluding the legal act by referring to the date stated earlier in the register."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Mielczkowicz",
+      "mention_texts": [
+        "Jacobus Mielczkowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual recorded after the actum formula."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Więcek",
+      "mention_texts": [
+        "Andreas Więcek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual recorded after the actum formula."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Dziaczek",
+      "mention_texts": [
+        "Andreas Dziaczek"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Party appearing personally before the court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Emerentia",
+      "mention_texts": [
+        "Emerentia"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Party appearing personally before the court alongside Andreas Dziaczek."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officium vero Consulare Leopoliense"
+    }
+  ]
+}

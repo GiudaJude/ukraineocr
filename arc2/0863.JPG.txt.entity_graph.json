@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0863.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertus Domagalicz",
+        "Alberti Domagalicz",
+        "Domagalicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "mandatario seu fideicommissario",
+        "praedicti",
+        "eiusdem"
+      ],
+      "justification": "Identified as a citizen of Lviv acting as mandatary/fiduciary."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in the citizenship and suburban designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "80 florins",
+      "mention_texts": [
+        "Florenorum octoginta",
+        "Florenos octoginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary amount deposited in the municipal office."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Wilhelmus Balbinton",
+      "mention_texts": [
+        "Wilhelmi Balbintoni"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Principal for whom Albertus Domagalicz serves as mandatary/fiduciary."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joanna Dzwonkowiczka",
+      "mention_texts": [
+        "Joannam Dzwonkowiczką"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Suburbanam Leopoliensis"
+      ],
+      "justification": "Suburban woman who partly paid the specified sum."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Łączka",
+      "mention_texts": [
+        "Łączka"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "sutore"
+      ],
+      "justification": "Deceased shoemaker involved in the transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Anna Dzwonkowska",
+      "mention_texts": [
+        "Annae Dzwonkowska",
+        "Anna Dzwonkowszka"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Honesta"
+      ],
+      "justification": "Party in whose presence the money was paid/deposited."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Lostecki",
+      "mention_texts": [
+        "Andreae Lostecki"
+      ],
+      "descriptive_mentions": [
+        "procuratoris",
+        "Nobilis",
+        "praefatum Procuratorem suum"
+      ],
+      "justification": "Procurator representing Anna Dzwonkowska."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij",
+        "actisque praesentibus"
+      ],
+      "descriptive_mentions": [
+        "Camerae eiusdem Officij"
+      ],
+      "justification": "The municipal office into whose treasury the money was deposited and in whose acts the letters were registered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Albertus Domagalicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannam Dzwonkowiczką Suburbanam Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "Annae Dzwonkowska eique procuratoris Nobilis Andreae Lostecki"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "agent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Albertus Domagalicz ... sibi ut mandatario seu fideicommissario Honesti Wilhelmi Balbintoni"
+    }
+  ]
+}

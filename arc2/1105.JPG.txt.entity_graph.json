@@ -1,0 +1,112 @@
+{
+  "document_id": "arc2/1105.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulus Xenciam-phanus",
+        "Xinciamphanus"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Excellens D.",
+        "Medicinae Doctor",
+        "collega noster Consularis",
+        "haeredem",
+        "idem"
+      ],
+      "justification": "Identified as Doctor of Medicine and city council colleague Paulus Novicampianus (Xenciamphanus)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Adamus Faurbart",
+      "mention_texts": [
+        "Adami Faurbart",
+        "Adamus Faurbart"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis et Mercatoris Leopoliensis",
+        "eundem",
+        "ipse",
+        "praedictus",
+        "eius horti et fundi possessorem"
+      ],
+      "justification": "Citizen and merchant of Lviv against whom the protest is lodged."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City specified in the merchant's citizenship designation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Calenagora",
+      "mention_texts": [
+        "Cale-nagora"
+      ],
+      "descriptive_mentions": [
+        "haereditate sua"
+      ],
+      "justification": "Name of the estate/property held by Novicampianus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Fabiane",
+      "mention_texts": [
+        "Christophoro Fabiane"
+      ],
+      "descriptive_mentions": [
+        "Civi praedecessore suo"
+      ],
+      "justification": "Lviv citizen and predecessor in possession of the garden and plot."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "collega noster Consularis",
+        "actis praesentibus",
+        "officij"
+      ],
+      "justification": "The municipal council/chancellery recording the protestation and reprotestation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civis et Mercatoris Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "owner_of",
+      "tail_entity_id": "E4",
+      "evidence": "haereditate sua Cale-nagora"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Christophoro Fabiane Civi"
+    }
+  ]
+}

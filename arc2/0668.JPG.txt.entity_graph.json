@@ -1,0 +1,144 @@
+{
+  "document_id": "arc2/0668.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginti florenos"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "suma principali"
+      ],
+      "justification": "Text mentions 'praedicta summa viginti florenos per se vel suos posteros plenarie et integre persoluta non fuerit'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0002: 36 Polish florins",
+      "mention_texts": [
+        "triginta sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text refers to thirty-six florins: 'post dum eisdem Creditoribus eiusmodi triginta sex reponere et reddere voluerit'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Szolczcampiana",
+      "mention_texts": [
+        "Szolczcampiana"
+      ],
+      "descriptive_mentions": [
+        "D."
+      ],
+      "justification": "Rubric heading states 'Testimonium pro D. Szolczcampiana'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kupinos",
+      "mention_texts": [
+        "Albertus Kupinos"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Muratores Magistri conbernales Suburbani Leopolienses"
+      ],
+      "justification": "Text records the appearance of 'Honesti Albertus Kupinos et Paulus Pryjmanon Muratores Magistri conbernales Suburbani Leopolienses'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Pryjmanon",
+      "mention_texts": [
+        "Paulus Pryjmanon"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Muratores Magistri conbernales Suburbani Leopolienses"
+      ],
+      "justification": "Text records 'Paulus Pryjmanon Muratores Magistri conbernales Suburbani Leopolienses'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text mentions 'Suburbani Leopolienses' and 'Actum Leopoli'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Rowrampiani"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "Mediana Doctoris",
+        "collegae nostri Consularis",
+        "ipse",
+        "praefatus Excellens D. Doctor"
+      ],
+      "justification": "Text notes the instantia of 'Excellens Pauli Rowrampiani Mediana Doctoris collegae nostri Consularis'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij nostri",
+        "Actis praesentibus"
+      ],
+      "justification": "Mentions decrees and acts of the council: 'iuxta Decreta Officij nostri erexit' and 'petijt Actis praesentibus inseri'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta in Vigili Festi Sancti Stanislai Andreae Episcopi Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the act: 'feria quarta in Vigili Festi Sancti Stanislai Andreae Episcopi Anno Domini 1595'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regiae Maiestatis"
+      ],
+      "justification": "Text references the king in 'ex vi Decreti suo Regiae Maiestatis in causa'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbani Leopolienses"
+    }
+  ]
+}

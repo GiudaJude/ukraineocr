@@ -1,0 +1,85 @@
+{
+  "document_id": "arc2/0760.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Roza Szweyianowna",
+      "mention_texts": [
+        "Roga Szweyianowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the marginal heading corresponding to the act concerning the pupils' succession."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Sellator",
+      "mention_texts": [
+        "Matias Sellator",
+        "Matias Sellur"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "novus Magister Suburbanus Leopolitanus"
+      ],
+      "justification": "New master saddler from the Lviv suburb acknowledging a debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Florus Sebestianowic",
+      "mention_texts": [
+        "Floro Sebestianowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Creditor to whom Mathias Sellator pledges to pay the debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal transaction was registered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post festum Circumcisionis Domini proximam Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court record, Wednesday after the Feast of the Circumcision 1596."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenos viginti pecuniae et numeri Polonici",
+        "viginti Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt acknowledged by Mathias Sellator."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_to",
+      "tail_entity_id": "E3",
+      "evidence": "recognovit se debere et teneri Florenos viginti pecuniae et numeri Polonici debiti certi et liquidi ad expediendas obventiones confraternitatis contracti. Ipsi Floro Sebestianowic"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "novus Magister Suburbanus Leopolitanus"
+    }
+  ]
+}

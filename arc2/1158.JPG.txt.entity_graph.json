@@ -1,0 +1,53 @@
+{
+  "document_id": "arc2/1158.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Honoratorum Iuris Fidelium",
+        "libris nostris",
+        "Nos",
+        "acta nostra praesentia",
+        "nobis"
+      ],
+      "justification": "The document records council proceedings ('acta nostra praesentia', 'libris nostris') and actions taken by the civic authority ('Nos', 'nobis') referring to the sworn council/court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgan-gus Beart"
+      ],
+      "descriptive_mentions": [
+        "dictus",
+        "eundem"
+      ],
+      "justification": "Named person in the text requesting registration of building/repair activities in the municipal books."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Warterzowic",
+      "mention_texts": [
+        "Jacobi Warterzowic"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "Famati"
+      ],
+      "justification": "Named person who lodged a protestation against the building activities."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "in_litigation_with",
+      "tail_entity_id": "E3",
+      "evidence": "contra protestationem praedicti praedicti Famati Jacobi Warterzowic"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "document_id": "arc2/0684.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simonem Zinost"
+      ],
+      "descriptive_mentions": [
+        "famatum",
+        "absens",
+        "ipsius"
+      ],
+      "justification": "Identified in the text as the famous Simon Zinost acting on behalf of the guild."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Franckfiern",
+      "mention_texts": [
+        "Martinum Franckfiern",
+        "Martino Frannficze",
+        "Martino"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "eodem",
+        "singuli quibus crimen aliquod est obiectum",
+        "eidem",
+        "Actoris"
+      ],
+      "justification": "The plaintiff/actor involved in a fine/entry fee dispute with the guild."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0025: Shoemakers' Guild",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "contubernij",
+        "eidem contubernio",
+        "eiusdem contubernij"
+      ],
+      "justification": "The craft guild whose customs, entrance rules, and representation by Simon Kinost are described."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0172: 6 florins",
+      "mention_texts": [
+        "sex florenorum",
+        "sex florenis"
+      ],
+      "descriptive_mentions": [
+        "panam",
+        "alteris sex florenis"
+      ],
+      "justification": "Fine and forgiven amount mentioned in the context of the guild."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0117: 12 florins",
+      "mention_texts": [
+        "florenos duodecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard entrance fee mentioned for the guild."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium vero"
+      ],
+      "justification": "The municipal council/court presiding over the case."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "represents",
+      "tail_entity_id": "E3",
+      "evidence": "famatum Simonem Zinost fassum fieri qui interea absens est, nomine contubernij"
+    }
+  ]
+}

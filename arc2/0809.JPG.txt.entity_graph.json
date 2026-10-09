@@ -1,0 +1,139 @@
+{
+  "document_id": "arc2/0809.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Principal sum mentioned in the first entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Lyszinski",
+      "mention_texts": [
+        "Gaspar Lyszinski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Tabernarius Suburbanus Leopoliensis",
+        "socer"
+      ],
+      "justification": "Suburban innkeeper who gave his consent to the inscription."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Malik",
+      "mention_texts": [
+        "Joannis Malik"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "Son-in-law of Gaspar Lyszinski mentioned in the entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the acts are recorded and where the parties reside."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria sexta pridie Sancti Sebastiani Martyris. Anno Domini ut supra",
+        "Sabbato ipso die Sancti Sebastiani Martyris. Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the legal acts recorded in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Walcz",
+      "mention_texts": [
+        "Albertus Walcz",
+        "Walcz"
+      ],
+      "descriptive_mentions": [
+        "Suburbanus Sutor Haliciensis",
+        "Providus",
+        "Sutor Suburbanus Leopoliensis"
+      ],
+      "justification": "Shoemaker from the Halych Suburb selling his inherited shares in a house and garden."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensis",
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the property being sold is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Hriczkowska",
+      "mention_texts": [
+        "Hriczkowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning a plot bordering the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Reposzny",
+      "mention_texts": [
+        "Alberti Reposznij",
+        "Alberto Reposznij"
+      ],
+      "descriptive_mentions": [
+        "Muratoris",
+        "Muratori",
+        "praefato",
+        "Emptori"
+      ],
+      "justification": "Mason and neighboring property owner who bought the shares from Albertus Walcz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_in_law_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedicti Joannis Malik socer"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sold_to",
+      "tail_entity_id": "E9",
+      "evidence": "vendidisse praesentique inscriptione vigore vendere duas sortes suas in domuncula et horto suis proprijs et haereditarias in eiusdem Civitatis Suburbio Haliciensi dictis ... eidem praefato Alberto Reposznij Muratori"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "part_of",
+      "tail_entity_id": "E4",
+      "evidence": "in eiusdem Civitatis Suburbio Haliciensi"
+    }
+  ]
+}

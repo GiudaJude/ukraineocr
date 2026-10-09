@@ -1,0 +1,177 @@
+{
+  "document_id": "arc2/1456.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacram Regiam Maiestatem"
+      ],
+      "justification": "King of Poland to whom both parties appealed the court decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "idem Officium",
+        "Officij",
+        "Officium praesens",
+        "Officium iterum"
+      ],
+      "justification": "The municipal council court before which the proceedings and appeals took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose council, citizenship, and tribunate are referenced."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Piorko",
+      "mention_texts": [
+        "Iacobus Piorko-"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "Satis"
+      ],
+      "justification": "Individual making a protestation regarding ignorance of a contract/intervisa."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Szczerba",
+      "mention_texts": [
+        "Szczerba"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Name recorded in the entry header."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Josephus Woytowic",
+      "mention_texts": [
+        "Iosephus Woytowic",
+        "Josephus Woytowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "parte citata"
+      ],
+      "justification": "Lviv citizen appearing before the council requesting release from the suit due to the plaintiff's contumacy."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Caspar Krasieczynski",
+      "mention_texts": [
+        "Casparo Krasieczynski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Tribuno Leopoliensi",
+        "eundem",
+        "praefati Generosi Actores",
+        "Generosi Actoris",
+        "Hero suo",
+        "actor"
+      ],
+      "justification": "Noble tribune of Lviv who instituted an action against Josephus Woytowic and appealed the decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wojtecki",
+      "mention_texts": [
+        "Iacobus Woyteski",
+        "Woyteczynski"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus Proconsul"
+      ],
+      "justification": "Proconsul of Lviv who provided a report regarding the plaintiff's absence."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Adamus Cistowski",
+      "mention_texts": [
+        "Adamus Cistowski"
+      ],
+      "descriptive_mentions": [
+        "famulus praedicti Generosi",
+        "Nobilis",
+        "Procuratorem"
+      ],
+      "justification": "Noble servant of Caspar Krasieczynski who appeared on his master's behalf."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "feria quarta pridie Sancti Stanislai Episcopi",
+      "mention_texts": [
+        "feria quarta pridie Sancti Stanislai Episcopi in Secretario Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree issued in the secretariat."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Sabbato ante festum Sancti Galli",
+      "mention_texts": [
+        "Sabbato ante festum Sancti Galli proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Past court date when Krasieczynski's servant appeared before judicial proceedings."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Josephus Woytowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Casparo Krasieczynski Tribuno Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Spectabilis Dominus Proconsul fateatur Q. Iacobus Woyteski"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "servant_of",
+      "tail_entity_id": "E7",
+      "evidence": "famulus praedicti Generosi Nobilis Adamus Cistowski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "adversary_of",
+      "tail_entity_id": "E6",
+      "evidence": "in causa et actione per eundem sibi intentata"
+    }
+  ]
+}

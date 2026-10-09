@@ -1,0 +1,218 @@
+{
+  "document_id": "arc2/1336.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Ciołek",
+      "mention_texts": [
+        "Stanislaus Ciołek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "ferrifaber",
+        "coniuges Suburbani Leopolienses",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Named as a blacksmith and suburban resident who is selling land together with his wife."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses"
+      ],
+      "justification": "Identified as the wife of Stanislaus Ciołek."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The civic origin of the residents and location of the court and suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Crakowskie"
+      ],
+      "descriptive_mentions": [
+        "suburbio eiusdem Civitatis"
+      ],
+      "justification": "Specifies the Kraków Suburb where the field is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0022: Church of the Holy Cross",
+      "mention_texts": [
+        "Ecclesiam Sanctae Crucis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Landmark beyond which the sold property is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Theodorus",
+      "mention_texts": [
+        "Joannem Theodorum Hospitalisen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landholder next to the sold field."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina Głowszyna"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "Previous holder of the land who ceded part of it to Stanislaus and Dorothea."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gaspari Guliński"
+      ],
+      "descriptive_mentions": [
+        "Nobili et Spectabili Domino",
+        "Collegae nostro Consulari",
+        "emptori"
+      ],
+      "justification": "Purchaser of the field, identified as a councilman colleague."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "Collegae nostro Consulari"
+      ],
+      "justification": "Municipal council office recording the transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito"
+      ],
+      "descriptive_mentions": [
+        "praesenti"
+      ],
+      "justification": "Court before which the resignation of the land is empowered to be made."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Tomas Lis",
+      "mention_texts": [
+        "Timam Lis",
+        "Tomas Lis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Fratres",
+        "Famifices Contubernales",
+        "Fratres germani",
+        "Suburbani Leopolienses",
+        "senioris fratris"
+      ],
+      "justification": "Suburban brother entering an agreement regarding parental estate."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0399: Laurentius",
+      "mention_texts": [
+        "Laurentium",
+        "Laurentius",
+        "Laurentio"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Fratres",
+        "Famifices Contubernales",
+        "Fratres germani",
+        "Suburbani Leopolienses",
+        "Famifici natu iuniori"
+      ],
+      "justification": "Younger brother receiving a house in Łyczaków in estate settlement."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb where the inherited house ceded to Laurentius is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Stanislaus Ciołek ferrifaber et Dorothea coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sold_to",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaus Ciołek ferrifaber et Dorothea coniuges... vendidisse... Gaspari Guliński"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sold_to",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaus Ciołek ferrifaber et Dorothea coniuges... vendidisse... Gaspari Guliński"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Gaspari Guliński Collegae nostro Consulari"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "sibling_of",
+      "tail_entity_id": "E12",
+      "evidence": "Tomas Lis et Laurentius Famifices Contubernales Fratres germani"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "Tomas Lis et Laurentius Famifices Contubernales Fratres germani"
+    }
+  ]
+}

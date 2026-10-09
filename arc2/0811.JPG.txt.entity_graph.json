@@ -1,0 +1,152 @@
+{
+  "document_id": "arc2/0811.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "huius Civitatis"
+      ],
+      "justification": "Identifies the city of Lviv and its civic jurisdiction mentioned in the record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "collega noster Consularis"
+      ],
+      "justification": "The council is referred to by the consular title of its colleague."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Dybkowicz",
+        "D. Stanislaus Dybkowicz"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "collega noster Consularis",
+        "praefatus recognoscens"
+      ],
+      "justification": "Stanislaus Dybkowicz (Dzibonicius), town councillor of Lviv, acknowledging a debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Iwasko Domaszewski",
+      "mention_texts": [
+        "Iwasko Domaszewicz",
+        "Iwasko Domaszewski"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Creditori"
+      ],
+      "justification": "Noble creditor to whom the debt is owed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regno"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Refers to the Kingdom of Poland where the currency is current."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Stanislaus",
+      "mention_texts": [
+        "Festo S. Stanislai in Maio proxime futuro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The due date for the debt repayment (May 8)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "50 florins 19 groschen",
+      "mention_texts": [
+        "Florenos quinquaginta per decem et novem grossis Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary amount borrowed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0847: Lucia Cwartowa",
+      "mention_texts": [
+        "Lucia"
+      ],
+      "descriptive_mentions": [
+        "citata",
+        "ipsam foeminam"
+      ],
+      "justification": "Party in the preceding property dispute required to provide a guarantor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas",
+      "mention_texts": [
+        "Andrea",
+        "Andreae"
+      ],
+      "descriptive_mentions": [
+        "pars",
+        "parti",
+        "pars actoris"
+      ],
+      "justification": "The plaintiff party in the property dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Synagogue Street",
+      "mention_texts": [
+        "platea Synagoga",
+        "Gromadae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Lviv suburb where the property is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "120 florins",
+      "mention_texts": [
+        "viginti Centum florenos"
+      ],
+      "descriptive_mentions": [
+        "reliquum pretij"
+      ],
+      "justification": "The remaining price to be paid."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Dominus Stanislaus Dybkowicz collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_to",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaus Dybkowicz collega noster Consularis recognouit, Quia debet ac tenetur veri iusti et liquidi debiti pecuniae mutuata summam Florenos quinquaginta per decem et novem grossis Polonicales in Regno currenti Nobili Iwasko Domaszewski"
+    }
+  ]
+}

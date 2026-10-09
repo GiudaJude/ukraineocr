@@ -1,0 +1,248 @@
+{
+  "document_id": "arc2/1402.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenis quinquaginta"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et monetae Polonicalis"
+      ],
+      "justification": "Debt amount specified in Polish money."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis",
+        "Officio",
+        "Actis superioris",
+        "Officii eiusdem",
+        "Officii Consularis Leopoliensis",
+        "Officio praesenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal and consular court/office of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zardel",
+      "mention_texts": [
+        "Stanislao Zardel"
+      ],
+      "descriptive_mentions": [
+        "Laborioso"
+      ],
+      "justification": "Debtor from the village of Czyżki."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Czyżki",
+      "mention_texts": [
+        "Czeszki"
+      ],
+      "descriptive_mentions": [
+        "villa Czeszki"
+      ],
+      "justification": "Village associated with Stanislaus Zardel."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "City of Lviv referred to directly and via citizen/resident titles."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Stogmiekowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Civis Leopoliensis",
+        "citata"
+      ],
+      "justification": "Citizen choosing her third share in the Steczkowska house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Simon Steczkowic",
+      "mention_texts": [
+        "Simonis Steczkowic"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "filii eiusdem"
+      ],
+      "justification": "Son of Barbara Stogmiekowa who requested her citation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Steczkowska",
+      "mention_texts": [
+        "Lapidea Steczkowska",
+        "domo lapidea Stoykotowska"
+      ],
+      "descriptive_mentions": [
+        "lapidea"
+      ],
+      "justification": "Tenement house divided into shares."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum"
+      ],
+      "justification": "Official guardian/representative assigned ex officio."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Georgius Steczkowic",
+      "mention_texts": [
+        "Georgius Steczkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armeny",
+        "Creditor suus"
+      ],
+      "justification": "Armenian creditor who previously selected a share by decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Sebastian",
+      "mention_texts": [
+        "feria quarta in festo S. Sebastiani Martyris proxima Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous consular decree mentioned in the division of property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Felix Wojtkot",
+      "mention_texts": [
+        "Felicis Woytkot"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Institoris",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased shopkeeper and first husband of Barbara."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Anna Ziarkowa",
+      "mention_texts": [
+        "Annam Ziar- kowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Civem Leopoliensem",
+        "actricem"
+      ],
+      "justification": "Plaintiff in the consular court decree."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ziarnkowicz",
+      "mention_texts": [
+        "Joannem Ziarnkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Protectore",
+        "filium eiusdem"
+      ],
+      "justification": "Son and protector/advocate of Anna Ziarkowa."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stanisławski",
+      "mention_texts": [
+        "Joannem Stanislawski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Doliatorem",
+        "incolam Leopoliensem",
+        "citatum",
+        "condutitor"
+      ],
+      "justification": "Cooper and resident of Lviv, cited and defeated in the legal action."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislao Zardel de villa Czeszki"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simonis Steczkowic filii eiusdem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "pro liberis suis ex primo matrimonio Famati olim Felicis Woytkot"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "per Honestum Joannem Ziarnkowicz Protectore filium eiusdem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Barbara Stogmiekowa Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Annam Ziar- kowa Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannem Stanislawski Doliatorem incolam Leopoliensem"
+    }
+  ]
+}

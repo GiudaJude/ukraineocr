@@ -1,0 +1,237 @@
+{
+  "document_id": "arc2/1398.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Czakowczyk",
+      "mention_texts": [
+        "Albertus Czakowczyk",
+        "Alberto Czakowczyk",
+        "Alberti Czakowczyk"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "secundarum nuptiarum coniuges",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "praefatum",
+        "praedicti",
+        "eiusdem"
+      ],
+      "justification": "Primary seller who personally appears to sell the inherited house with a garden."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "secundarum nuptiarum coniuges",
+        "hec"
+      ],
+      "justification": "Second wife of Albertus Czakowczyk, acting with her husband as seller."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "filia"
+      ],
+      "justification": "Daughter of Albertus Czakowczyk and his late wife Sophia from his prior marriage."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "olim coniuge"
+      ],
+      "justification": "Deceased first wife of Albertus Czakowczyk and mother of Catherina."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Skrzypet",
+      "mention_texts": [
+        "Andrea Skrzypeti"
+      ],
+      "descriptive_mentions": [
+        "marito"
+      ],
+      "justification": "Husband of Catherina, mentioned in connection with acquiring the maternal share."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Liczyński",
+      "mention_texts": [
+        "Joanni Licynski"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus",
+        "suburbanis Leopoliensis",
+        "emptore",
+        "emptoribus"
+      ],
+      "justification": "Buyer of the property located on Pottery Street."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus",
+        "suburbanis Leopoliensis",
+        "emptoribus"
+      ],
+      "justification": "Wife of Joannes Liczyński and co-buyer of the property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Czakowczyk",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "filii"
+      ],
+      "justification": "Son of Albertus Czakowczyk from his first marriage against whose potential claims eviction defense is promised."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lepiankowa",
+      "mention_texts": [
+        "Lephanczowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property borders the sold estate."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the sold house and garden are situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the suburb, court, and transaction are located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "55 Polish florins",
+      "mention_texts": [
+        "quinquaginta quinque Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sale price paid for the house and garden."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the property resignation is to be completed."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quinta post S. Stanislai Episcopi in Autumno A. D. 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded transaction."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Josephus Wolfowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or official subscribing the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Albertus Czakowczyk et Dorothea secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "praedicti Alberti Czakowczyk ex priore matrimonio cum Sophia olim coniuge"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "ab Honesta Catherina praedicti Alberti Czakowczyk ex priore matrimonio cum Sophia olim coniuge filia"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "ab Honesta Catherina praedicti Alberti Czakowczyk ex priore matrimonio cum Sophia olim coniuge filia"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "una cum marito Andrea Skrzypeti"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honestis Joanni Licynski et Anna coniugibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honesti Jacobi eiusdem Alberti Czakowczyk ex priore matrimonio filii"
+    }
+  ]
+}

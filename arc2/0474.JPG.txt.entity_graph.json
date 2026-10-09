@@ -1,0 +1,181 @@
+{
+  "document_id": "arc2/0474.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Alberti Pedicari"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Magni",
+        "Proconsulari munere funger'"
+      ],
+      "justification": "Identified as Albertus Pedianus acting in the office of proconsul."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agneti",
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "coniugi sua",
+        "matris",
+        "filia sua"
+      ],
+      "justification": "Daughter of Joannes Karwaryjski and Barbara Karwaryjska, wife of Joannes Solisowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Barbara Karwaryjska",
+      "mention_texts": [
+        "Barbara Karwarijska"
+      ],
+      "descriptive_mentions": [
+        "stae olim",
+        "matris",
+        "Honesta olim",
+        "coniugis sua"
+      ],
+      "justification": "Deceased mother of Agnes and wife of Joannes Karwaryjski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Karwaryjski",
+      "mention_texts": [
+        "Joanne Karwarijski",
+        "Joannes Karwariyc",
+        "Joannes Karwawik",
+        "Joannes Karwarijski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "socero",
+        "patre",
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Father of Agnes and father-in-law of Joannes Solisowicz, resident of Lviv suburb."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Solisowicz",
+      "mention_texts": [
+        "Joannis Solijsonwiz",
+        "Joanni Solijsovitz"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "Honorato",
+        "Notario Civitatis Camionczen",
+        "genero suo",
+        "coniugibus",
+        "creditoribus suis"
+      ],
+      "justification": "Town notary of Kamionka, son-in-law of Joannes Karwaryjski, and husband of Agnes."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eius Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City of Lviv, referenced via suburban inhabitant and city laws."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Kamionka",
+      "mention_texts": [
+        "Camionczen"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Town of Kamionka where Joannes Solisowicz served as notary."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos Ducentos pecunia et numeri Polonicales"
+      ],
+      "descriptive_mentions": [
+        "summam eandem praefatam debiti"
+      ],
+      "justification": "Amount of debt acknowledged by Joannes Karwaryjski."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Dedicationis S. Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for debt repayment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "venturo"
+      ],
+      "justification": "Year specified for the repayment date."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officy"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal office/court cited for judicial execution."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joanni Solijsovitz Notario Civitatis Camionczen genero suo et Honesta Agneti filia sua ex praedicta olim Barbara progenita coniugibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Barbara Karwarijska coniugis sua"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "patre praedicta Agnetis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "Barbara Karwarijska praedicta Agnetis matris"
+    }
+  ]
+}

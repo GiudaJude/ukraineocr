@@ -1,0 +1,178 @@
+{
+  "document_id": "arc2/0006.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "PER-0014",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "mention_texts": [
+        "Jedrzei Simonowic"
+      ],
+      "descriptive_mentions": [
+        "locum tenens Domini Advocati"
+      ],
+      "justification": "Appears as a signatory holding the role of deputy to the advocate."
+    },
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Dominorum Consulum Leopoliensium",
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "authoritate consulari",
+        "Officium",
+        "Officium meum"
+      ],
+      "justification": "The municipal council acting with consular authority confirming the testament and issuing decrees."
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "Feast of All Saints",
+      "mention_texts": [
+        "die omnium sanctorum"
+      ],
+      "descriptive_mentions": [
+        "ipso die"
+      ],
+      "justification": "Date of signing: ipso die omnium sanctorum."
+    },
+    {
+      "entity_id": "PER-0015",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Mozanc",
+      "mention_texts": [
+        "Christofs Mazanc"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signs the document with his own hand."
+    },
+    {
+      "entity_id": "PER-0016",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Strachet",
+      "mention_texts": [
+        "Bartholomeus Strach",
+        "Bartholomeum Strach"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Tutore"
+      ],
+      "justification": "Signatory and appointed guardian (tutor) of the widow Sophia."
+    },
+    {
+      "entity_id": "PER-0020",
+      "entity_type": "person",
+      "canonical_name": "Matias Sebastianowicz",
+      "mention_texts": [
+        "Mathias Sebaranowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signs the document with his own hand."
+    },
+    {
+      "entity_id": "PER-0018",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobus Balcerkowic",
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "Famatus olim",
+        "olim"
+      ],
+      "justification": "Deceased testator who bequeathed property to pious works."
+    },
+    {
+      "entity_id": "PER-0019",
+      "entity_type": "person",
+      "canonical_name": "Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "praedicti olim Jacobi vidua",
+        "vidua"
+      ],
+      "justification": "Widow of the deceased Jacobus Balcertowic who consents to the conditions of the will."
+    },
+    {
+      "entity_id": "PER-0021",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sienienski",
+      "mention_texts": [
+        "M. Sieminski",
+        "Andreae Siemionski"
+      ],
+      "descriptive_mentions": [
+        "Magnifici Domini"
+      ],
+      "justification": "Nobleman whose servant Petrus Hubicki is involved in a decree of the council."
+    },
+    {
+      "entity_id": "PER-0022",
+      "entity_type": "person",
+      "canonical_name": "Petrus Hubicki",
+      "mention_texts": [
+        "Petrum Hubiczki"
+      ],
+      "descriptive_mentions": [
+        "Famulus",
+        "famulum Magnifici Domini Andreae Siemionski"
+      ],
+      "justification": "Servant of Andreas Sienienski cited in the council's decree."
+    },
+    {
+      "entity_id": "PER-0023",
+      "entity_type": "person",
+      "canonical_name": "Petrus de Tarnopol",
+      "mention_texts": [
+        "Petrus de Tarnopole"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party involved in the decree opposite Petrus Hubicki."
+    },
+    {
+      "entity_id": "LOC-0004",
+      "entity_type": "location",
+      "canonical_name": "Tarnopol",
+      "mention_texts": [
+        "Tarnopole"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town specified in the origin designation of Petrus de Tarnopol."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "PER-0019",
+      "relation": "widow_of",
+      "tail_entity_id": "PER-0018",
+      "evidence": "Sophia praedicti olim Jacobi vidua"
+    },
+    {
+      "head_entity_id": "PER-0016",
+      "relation": "guardian_of",
+      "tail_entity_id": "PER-0019",
+      "evidence": "per eundem Famatum Bartholomeum Strach Tutore sibi assumptum"
+    },
+    {
+      "head_entity_id": "PER-0022",
+      "relation": "servant_of",
+      "tail_entity_id": "PER-0021",
+      "evidence": "Petrum Hubiczki famulum Magnifici Domini Andreae Siemionski"
+    },
+    {
+      "head_entity_id": "PER-0023",
+      "relation": "originating_from",
+      "tail_entity_id": "LOC-0004",
+      "evidence": "Petrus de Tarnopole"
+    }
+  ]
+}

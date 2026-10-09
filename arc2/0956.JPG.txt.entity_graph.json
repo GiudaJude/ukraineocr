@@ -1,0 +1,141 @@
+{
+  "document_id": "arc2/0956.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears as the municipal court ('Exposito Judicio') in which the resignation is to be executed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Cosmas Babicz",
+      "mention_texts": [
+        "Cosmae Babicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the title heading and text in reference to his heirs ('Successores Cosmae Babicz')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Buldaha",
+      "mention_texts": [
+        "Andreas Buldaha"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Institor Ruiszenus",
+        "Civis Leopoliensis",
+        "ipse"
+      ],
+      "justification": "Named as the merchant and citizen of Lviv making the declaration and cession."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by the descriptor 'Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "1300 Polish florins",
+      "mention_texts": [
+        "Mille trecentorum florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Financial sum re-formed on the tenement and estate."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Czarninski",
+      "mention_texts": [
+        "Czarninski"
+      ],
+      "descriptive_mentions": [
+        "lapidea",
+        "praedio Czarninski",
+        "praefatum praedium"
+      ],
+      "justification": "Masonry house and estate referenced in the transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Kalecza Góra",
+      "mention_texts": [
+        "Caleszagora"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location in Lviv where the Czarninski estate was situated ('in Caleszagora')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Omeliana Stanczlanka",
+      "mention_texts": [
+        "Omeliana Stanczlanka"
+      ],
+      "descriptive_mentions": [
+        "Generosa",
+        "coniuge"
+      ],
+      "justification": "Noblewoman who reformed the monetary obligation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Longzowski",
+      "mention_texts": [
+        "Alberti Longzowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi"
+      ],
+      "justification": "Husband of Omeliana Stanczlanka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Paulus Wisniczanian",
+      "mention_texts": [
+        "Pauli Wisniczanian"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named at the bottom of the entry in the procuration note."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Buldaha Institor Ruiszenus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "praedio Czarninski in Caleszagora"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Generosa Omeliana Stanczlanka Generosi Alberti Longzowski coniuge"
+    }
+  ]
+}

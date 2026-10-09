@@ -1,0 +1,234 @@
+{
+  "document_id": "arc2/0334.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "85 Polish florins",
+      "mention_texts": [
+        "Florenis Octaginta quinque pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Debt amount settled by the widow Agneta."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Hanus Rupecht",
+      "mention_texts": [
+        "Hanusium Rupecht als Luyski",
+        "Hanusij Rupecht",
+        "Hanusium Rupecht als Luyski"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Civem Leopoliensem",
+        "ipsius",
+        "debitoris",
+        "eiusdem",
+        "Famati olim",
+        "Civis Leopoliensem",
+        "debitoris"
+      ],
+      "justification": "Deceased debtor, citizen of Lviv, referred to as Hanusium Rupecht alias Luyski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced via civic and locative designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Agneta",
+      "mention_texts": [
+        "Agneta"
+      ],
+      "descriptive_mentions": [
+        "praedicti debitoris relicta coniuge",
+        "praefatam viduam",
+        "relicta coniuge",
+        "praedictam viduam",
+        "eidem viduae"
+      ],
+      "justification": "Surviving widow of Hanus Rupecht settling debts."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Georgius Stromberger",
+      "mention_texts": [
+        "Georgius Stromberger"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famati Reinholdi Lifken Civis Torunensis Factor"
+      ],
+      "justification": "Factor and representative of Reinhold Lifke acknowledging receipt of debt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Reinhold Lifke",
+      "mention_texts": [
+        "Reinholdi Lifken",
+        "Reinholdo Lifke"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Torunensis",
+        "hero eius"
+      ],
+      "justification": "Citizen of Toruń and creditor represented by Georgius Stromberger."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0155: Toruń",
+      "mention_texts": [
+        "Torunensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City origin of citizen Reinhold Lifke."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "146 florins 16 groschen",
+      "mention_texts": [
+        "Florenis centum quadraginta sex et grossis sedecim"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Sum of money paid to Georgius Stromberger on behalf of Reinhold Lifke."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "12 February 1595",
+      "mention_texts": [
+        "12 Februarij Anno eodem 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the handwriting/promissory note (chirographum)."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Andreas Scapolowski",
+      "mention_texts": [
+        "Andreas Scapolowski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "tutor datus et pro Successoribus Emanuelis olim Argentini Ferrarij Civis Leopoliensis"
+      ],
+      "justification": "Guardian appointed for the heirs of late Emanuel Argentinus Ferrarius."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Emanuel Argentinus Ferrarius",
+      "mention_texts": [
+        "Emanuelis",
+        "Argentini Ferrarij",
+        "Emanuelem",
+        "Manueli"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and heirs placed an arrest on debtor's property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Thomas Thanik",
+      "mention_texts": [
+        "Thomas Thanik"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Plenipotens praedictorum Successorum"
+      ],
+      "justification": "Plenipotentiary representing the heirs and widow of Emanuel."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officioque",
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal office before which the arrest was filed."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Luxores",
+      "mention_texts": [
+        "Luxores"
+      ],
+      "descriptive_mentions": [
+        "dictum"
+      ],
+      "justification": "Debtor whose property in Lviv was subjected to an arrest."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "ab Ista Agneta praedicti debitoris relicta coniuge"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Hanusium Rupecht als Luyski Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "agent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Georgius Stromberger Famati Reinholdi Lifken Civis Torunensis Factor"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Reinholdi Lifken Civis Torunensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "Andreas Scapolowski vte tutor datus et pro Successoribus Emanuelis olim Argentini Ferrarij Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Emanuelis olim Argentini Ferrarij Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "agent_of",
+      "tail_entity_id": "E11",
+      "evidence": "Thomas Thanik Plenipotens praedictorum Successorum Officioque an- struxit nomine vidua relicta et liberorum duorum post praedicti Emanuelem relictorum"
+    }
+  ]
+}

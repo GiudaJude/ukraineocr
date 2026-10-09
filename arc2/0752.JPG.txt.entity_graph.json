@@ -1,0 +1,75 @@
+{
+  "document_id": "arc2/0752.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Agnes Kozdreiowna",
+      "mention_texts": [
+        "Agnes Kozdreiowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "mater"
+      ],
+      "justification": "Appears in court consenting to the division of paternal estate."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zarda",
+      "mention_texts": [
+        "Stanislaum Zardam"
+      ],
+      "descriptive_mentions": [
+        "Civem Ostrogiensem",
+        "tutorem sibi assumptum"
+      ],
+      "justification": "Named as the appointed legal guardian assisting Agnes Kozdreiowna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Ostróg",
+      "mention_texts": [
+        "Ostrogiensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Stanislaus Zarda is described as a citizen of Ostróg."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the legal act was recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of registration given at the end of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Stanislaum Zardam Civem Ostrogiensem tutorem sibi assumptum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaum Zardam Civem Ostrogiensem"
+    }
+  ]
+}

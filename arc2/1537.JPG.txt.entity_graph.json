@@ -1,0 +1,269 @@
+{
+  "document_id": "arc2/1537.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City context for the suburb and the court ('Exposito Judicio Leopoli')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Church of Saint Stanislaus",
+      "mention_texts": [
+        "Ecclesiae Sancti Stanislai"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as a church near the property in the suburb."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Nedeleszynski",
+      "mention_texts": [
+        "Stephani Nedeleszynska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Property neighbor/landmark mentioned in the property boundary description."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias Szonga",
+      "mention_texts": [
+        "Mathiae Szonge"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "affini",
+        "coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Buyer of the share in the house and garden/estate."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Eva Buczek",
+      "mention_texts": [
+        "Evae",
+        "Buzek"
+      ],
+      "descriptive_mentions": [
+        "Ducae Poci",
+        "germanae sorori",
+        "coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Wife of Mathias Szonga and sister of the vendor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Transaction sum paid for the share in the estate."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simoni"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino",
+        "viri"
+      ],
+      "justification": "Scabinus empowered to effect the resignation of the property in the Banned Court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the property transfer/resignation is to take place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council office issuing the decree for the tutors of the late Mathias Nowak."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertum Domagala"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Carnifices Suburbanos Leopolienses",
+        "seniores Magistros in Contubernio Carnificum",
+        "Tutoresque liberorum",
+        "Tutores"
+      ],
+      "justification": "Suburban butcher and senior master of the butchers' guild, appointed tutor."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Mathias Siemianek",
+      "mention_texts": [
+        "Mathiam Siemianek"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Carnifices Suburbanos Leopolienses",
+        "seniores Magistros in Contubernio Carnificum",
+        "Tutoresque liberorum",
+        "Tutores"
+      ],
+      "justification": "Suburban butcher and senior master of the butchers' guild, co-tutor."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "Butchers' Guild",
+      "mention_texts": [
+        "Contubernio Carnificum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Guild of suburban butchers whose elders are acting as tutors."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Mathias Nowak",
+      "mention_texts": [
+        "Mathiae Nowak",
+        "Mathiam Nowak"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "carnificis",
+        "praedictum"
+      ],
+      "justification": "Deceased butcher whose children and estate are under tutelage."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Calceator",
+      "mention_texts": [
+        "Franciscum Calceatorem",
+        "Francisci"
+      ],
+      "descriptive_mentions": [
+        "Providos",
+        "secundi",
+        "coniuges",
+        "maritus"
+      ],
+      "justification": "Shoemaker, second husband of Anna, widow of Mathias Nowak."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "priores matrimoni eiusdem Mathiae Nowak",
+        "uxori",
+        "coniuges"
+      ],
+      "justification": "Wife in first marriage of Mathias Nowak, now wife of Franciscus Calceator."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Caspar Nowak",
+      "mention_texts": [
+        "Casparis"
+      ],
+      "descriptive_mentions": [
+        "minoris",
+        "filij"
+      ],
+      "justification": "Minor son of Mathias Nowak and Anna."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus",
+      "mention_texts": [
+        "Sebastiani"
+      ],
+      "descriptive_mentions": [
+        "parte ab altera"
+      ],
+      "justification": "Party mentioned in the tutelage decree concerning minor Caspar."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "isSpouseOf",
+      "tail_entity_id": "E5",
+      "evidence": "Honesto Mathiae Szonge affini et Evae Ducae Poci Buzek germanae sorori coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "memberOf",
+      "tail_entity_id": "E8",
+      "evidence": "Honorato Simoni Scabino in Exposito Judicio Leopoli"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "memberOf",
+      "tail_entity_id": "E12",
+      "evidence": "Albertum Domagala ... Carnifices Suburbanos Leopolienses uti seniores Magistros in Contubernio Carnificum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "memberOf",
+      "tail_entity_id": "E12",
+      "evidence": "Mathiam Siemianek Carnifices Suburbanos Leopolienses uti seniores Magistros in Contubernio Carnificum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "isSpouseOf",
+      "tail_entity_id": "E15",
+      "evidence": "Franciscum Calceatorem atque Annam ... secundi praefati Francisci uxori coniuges"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "isChildOf",
+      "tail_entity_id": "E13",
+      "evidence": "minoris Casparis filij ex eodem Mathia Nowak et Anna progeniti"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "isChildOf",
+      "tail_entity_id": "E15",
+      "evidence": "minoris Casparis filij ex eodem Mathia Nowak et Anna progeniti"
+    }
+  ]
+}

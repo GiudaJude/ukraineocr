@@ -1,0 +1,90 @@
+{
+  "document_id": "arc2/0380.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Renvicki",
+      "mention_texts": [
+        "Nicolaus Renvicki",
+        "Nicolaus",
+        "Nicolai Renvicki"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Nobilis",
+        "ex Nobili familia legitime thoro natus"
+      ],
+      "justification": "Deceased nobleman mentioned as born of noble family and legitimate wedlock along with his paternal cousins."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in adjectival forms modifying the castle and council records."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Castle Court",
+      "mention_texts": [
+        "Acta Castrensia Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Lviv Castle (Grodzki) court whose register is cited."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis eius Consularibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular records of the Lviv city council cited in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1592",
+      "mention_texts": [
+        "feria quarta ante Festa Pentecostes Anno Domini 1592",
+        "die 8 Junij Anno Domini 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates in 1592 referenced regarding legal submissions."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria 3. post Festum Purificationis Beatae Mariae Virginis Anno 1595",
+        "Sabbato in Festum Nativitatis Sancti Joannis Baptistae Anno 1595",
+        "Anno ut supra",
+        "Sabbato ante Festum Nativitatis Sancti Joannis Baptistae Anno 95"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates in 1595 referenced for court acts and oblates."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Acta Castrensia Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Actis eius Consularibus Leopoliensibus"
+    }
+  ]
+}

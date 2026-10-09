@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/0087.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Civitatis",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known corpus entity representing the city of Lwów."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known corpus entity representing the Bannite court of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Curator",
+      "mention_texts": [
+        "Albertus Curator"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header/entry heading."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Curwistka",
+      "mention_texts": [
+        "Petrus Curwistka"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "maritum tutorem suum legitimum",
+        "ille",
+        "maritum"
+      ],
+      "justification": "Main seller and suburban citizen of Lviv appearing in the legal transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuges secundarum nuptiarum",
+        "haec",
+        "coniugis suae praedictae"
+      ],
+      "justification": "Wife of Petrus Curwistka, contracting a sale with him."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sophia Fobrionkowna",
+      "mention_texts": [
+        "Sophia Fobrionkowna"
+      ],
+      "descriptive_mentions": [
+        "priori olim matrimonio"
+      ],
+      "justification": "Deceased former wife of Petrus Curwistka."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Dudra Anna",
+      "mention_texts": [
+        "Dudra Annae",
+        "Dudrae Annae"
+      ],
+      "descriptive_mentions": [
+        "filia maternalem"
+      ],
+      "justification": "Daughter from the prior marriage of Petrus Curwistka with Sophia Fobrionkowna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Olbrot",
+      "mention_texts": [
+        "Alberto Olbrot"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopoliensi",
+        "emptorem"
+      ],
+      "justification": "Buyer of the property share in the Halych suburb."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0033: Jaroszowska House",
+      "mention_texts": [
+        "domo sua Jaroszewska",
+        "domo Jaroszewski"
+      ],
+      "descriptive_mentions": [
+        "dicta",
+        "domum praedictam"
+      ],
+      "justification": "Known corpus entity representing the Jaroszowska / Jaroszewska house in the Halych suburb."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known corpus entity representing the Halych suburb of Lviv."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "130 Polish florins",
+      "mention_texts": [
+        "Centum et triginta Florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price specified in the contract."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestus Petrus Curwistka Suburbanus Leopoliensis et Honesta Anna coniuges secundarum nuptiarum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "former_spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "priori olim matrimonio cum Sophia Fobrionkowna"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "sortem Dudra Annae suae capriori olim matrimonio cum Sophia Fobrionkowna filia maternalem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "sortem Dudra Annae suae capriori olim matrimonio cum Sophia Fobrionkowna filia maternalem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "in domo sua Jaroszewska dicta in eiusdem Civitatis suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in eiusdem Civitatis suburbio Haliciensi"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "document_id": "arc2/1080.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "quadringentorum\nFlorenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "pretio quadringentorum Florenorum pecuniae et numeri Polonici"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoli",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Civibus Leopoliensibus... Actum Leopoli ut supra... Civitatis Leopoliensis"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0399: Laurentius",
+      "mention_texts": [
+        "Laurentium"
+      ],
+      "descriptive_mentions": [
+        "Emptoribus",
+        "coniuges",
+        "emptores",
+        "ipsos emptores",
+        "Emptorum"
+      ],
+      "justification": "super praedictos Laurentium et Hedwigim coniuges emptores"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigim"
+      ],
+      "descriptive_mentions": [
+        "Emptoribus",
+        "coniuges",
+        "emptores",
+        "ipsos emptores",
+        "Emptorum"
+      ],
+      "justification": "super praedictos Laurentium et Hedwigim coniuges emptores"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Exposito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "in Judicio Bannito Exposito Leopoli quandocunque celebrato"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Israel",
+      "mention_texts": [
+        "Israeli"
+      ],
+      "descriptive_mentions": [
+        "Judaeo"
+      ],
+      "justification": "Gradus iuris Israeli Judaeo"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0037: Thomas Leonowic",
+      "mention_texts": [
+        "Tomas Szawes"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "locum\nOrdinarij Aduocati tenens"
+      ],
+      "justification": "Honorati et Famati Tomas Szawes locum Ordinarij Aduocati tenens"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini iurati"
+      ],
+      "justification": "Andreas Simonowic et Wolffgangus Bernt Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolffgangus Bernt"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini iurati"
+      ],
+      "justification": "Andreas Simonowic et Wolffgangus Bernt Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Ezechiel",
+      "mention_texts": [
+        "Ezechel"
+      ],
+      "descriptive_mentions": [
+        "Judaei"
+      ],
+      "justification": "ad instantiam Ezechel Judaei"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "praedictos Laurentium et Hedwigim coniuges emptores"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedictos Laurentium et Hedwigim coniuges emptores"
+    }
+  ]
+}

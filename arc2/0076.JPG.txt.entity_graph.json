@@ -1,0 +1,216 @@
+{
+  "document_id": "arc2/0076.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Civitatis eiusdem",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act was recorded and where the mentioned offices and properties are located."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "Monday after Invocavit Sunday 1595",
+      "mention_texts": [
+        "feria secunda post Dominicam Invocavit proxima Anno Domini 1 5 9 5"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Mazurowic",
+      "mention_texts": [
+        "Andreas Mazurowic",
+        "Andreas Mazurowic",
+        "Andreas Mazurowic"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Notarius et Scabinus Civitatis Leopoliensis",
+        "idem"
+      ],
+      "justification": "City notary and bencher who acknowledges receipt of 100 florins from the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio"
+      ],
+      "descriptive_mentions": [
+        "nobis",
+        "Patronis et Tutoribus",
+        "Consulibus Praesulibus",
+        "nostris in Officio successoribus"
+      ],
+      "justification": "Governing council of Lviv acting as patrons and guardians of the municipal cathedral school."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Cathedral School",
+      "mention_texts": [
+        "Schola Leopoliensis",
+        "Scholae"
+      ],
+      "descriptive_mentions": [
+        "circa Ecclesiam eiusdem Civitatis Metropolitanam consistentis"
+      ],
+      "justification": "School attached to the Metropolitan Church of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiam eiusdem Civitatis Metropolitanam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The metropolitan church in Lviv near which the school stands."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenos pecuniae Polonicalis",
+        "centum florenorum",
+        "centum florenos"
+      ],
+      "descriptive_mentions": [
+        "summam praefatam",
+        "tales"
+      ],
+      "justification": "Sum bequeathed by Laurentius Schowinski and invested by the council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Schowinski",
+      "mention_texts": [
+        "Laurentium ... Schowinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et Famatum",
+        "olim"
+      ],
+      "justification": "Deceased benefactor who endowed the school via testament."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "5 groschen",
+      "mention_texts": [
+        "grossos quinos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Weekly sum payable by Andreas Mazurowic for students' lunches."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Smieszkowska House",
+      "mention_texts": [
+        "Smieszkowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "domum suam praefatam"
+      ],
+      "justification": "Stone house mortgaged/pledged by Andreas Mazurowic."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0016: Halych Street",
+      "mention_texts": [
+        "platea Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the Smieszkowska House is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Simonis",
+      "mention_texts": [
+        "Petri Simonis"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Consulis Senioris"
+      ],
+      "justification": "Senior councilman whose house borders the Smieszkowska House."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Elias Szarszewski",
+      "mention_texts": [
+        "Eliae Szarszewski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the marginal endorsement conferring power of attorney."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Andreas Mazurowic Notarius et Scabinus Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "patron_of",
+      "tail_entity_id": "E5",
+      "evidence": "a nobis tanquam a Patronis et Tutoribus Scholae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_at",
+      "tail_entity_id": "E6",
+      "evidence": "Scholae circa Ecclesiam eiusdem Civitatis Metropolitanam consistentis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_at",
+      "tail_entity_id": "E1",
+      "evidence": "Ecclesiam eiusdem Civitatis Metropolitanam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_at",
+      "tail_entity_id": "E11",
+      "evidence": "in et super domo lapidea Smieszkowska nuncupata in eiusdem Civitatis platea Haliciensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_at",
+      "tail_entity_id": "E1",
+      "evidence": "in eiusdem Civitatis platea Haliciensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "owner_of",
+      "tail_entity_id": "E10",
+      "evidence": "in et super domo lapidea Smieszkowska ... in eandem domum suam praefatam admittenda"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Domini Petri Simonis Consulis Senioris"
+    }
+  ]
+}

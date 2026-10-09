@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/0357.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Slanczewski",
+      "mention_texts": [
+        "Stanislaus Slanczewski"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Named party appearing personally in court to confirm settlement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "50 Polish marks",
+      "mention_texts": [
+        "quinquaginta Marcarum Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Bail/vadium penalty amount recorded in the contract."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio praesenti"
+      ],
+      "justification": "The court office before which the parties appear and which receives half the fine."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Feria quinta post Festum Visitationis Beatae Mariae Virginis proxima Anno Domini 1595",
+      "mention_texts": [
+        "Feria quinta post Festum Visitatio-\nnis Beatae Mariae Virginis proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of enactment for the first transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the court act and former citizenship of Gregorius Sutor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Sabbato post festum Visitationis Mariae Virginis 1595",
+      "mention_texts": [
+        "Sabbato post festum\nVisitationis Mariae Virginis 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of enactment for the second transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szymanowicz",
+      "mention_texts": [
+        "Joannes\nSzymanowicz"
+      ],
+      "descriptive_mentions": [
+        "Successor",
+        "Sutor"
+      ],
+      "justification": "Named person in the heading, successor of Cirforius."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Cirforius",
+      "mention_texts": [
+        "Cir-\nforii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person whose successor is Joannes Szymanowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Samboriana",
+        "Annae\nSzadkowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors vidua relicta",
+        "praefatae",
+        "superstitis"
+      ],
+      "justification": "Widow of Gregorius Sutor and mother of Nicolaus Gregorowicz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Sutor",
+      "mention_texts": [
+        "Gregorij Sutoris",
+        "Gregorij"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis",
+        "Civis et Aduocati Brzezanensis",
+        "praedicti"
+      ],
+      "justification": "Deceased former citizen of Lviv, advocate of Brzeżany, late husband of Anna and father of Nicolaus."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Brzeżany",
+      "mention_texts": [
+        "Brzezanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town where Gregorius was citizen and advocate."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gregorowicz",
+      "mention_texts": [
+        "Nicolaus Gregorowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "filius legitimus",
+        "sanus"
+      ],
+      "justification": "Legitimate son of Gregorius Sutor and Anna Szadkowna appearing before the court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "successor_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannes\nSzymanowicz\nSuccessor Cir-\nforii"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Anna Samboriana Famati\nolim Gregorij Sutoris primum quidem Civis Leopoliensis postea vero\nCivis et Aduocati Brzezanensis consors vidua relicta"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Gregorij Sutoris primum quidem Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "postea vero\nCivis et Aduocati Brzezanensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Nicolaus Gregorowicz praedicti olim Gregorij... filius legitimus"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Nicolaus Gregorowicz... praefatae Annae\nSzadkowna superstitis filius legitimus"
+    }
+  ]
+}

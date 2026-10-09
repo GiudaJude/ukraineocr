@@ -1,0 +1,153 @@
+{
+  "document_id": "arc2/0987.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sango",
+      "mention_texts": [
+        "Andreas Sango"
+      ],
+      "descriptive_mentions": [
+        "venditori"
+      ],
+      "justification": "Named seller in the introductory transaction clause: 'ipsique venditori Andreas Sango'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "ea Civitate"
+      ],
+      "justification": "Location where the act was recorded and city of citizenship: 'Actum Leopoli', 'Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato an Judicam Laetare proximo Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry specified in the act: 'Sabbato an Judicam Laetare proximo Anno Domini 1596'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Szmiewsky",
+      "mention_texts": [
+        "Nicolaus Szmiewsky",
+        "Szmiewsky"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Civis Leopoliensis",
+        "maritus legitimus",
+        "memor recognoscens",
+        "gestorque"
+      ],
+      "justification": "Principal declarant appearing personally: 'Honestus Nicolaus Szmiewsky Samboriensis Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samboriensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin for Nicolaus Szmiewsky: 'Samboriensis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Felicia",
+      "mention_texts": [
+        "Feliciae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniuge charissima",
+        "uxor",
+        "praefata sua uxor",
+        "praefatam uxorem"
+      ],
+      "justification": "Wife of Nicolaus Szmiewsky: 'Honestae Feliciae debita maritus legitimus'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Samborska House",
+      "mention_texts": [
+        "Samborska"
+      ],
+      "descriptive_mentions": [
+        "domus lapidea dictae Samborska",
+        "domus lapidea",
+        "medietatem eiusdem domus lapidea"
+      ],
+      "justification": "Property mentioned in the renunciation: 'domus lapidea dictae Samborska'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Church of Corpus Christi",
+      "mention_texts": [
+        "Ecclesiae Praedicatorum Corporis Christi"
+      ],
+      "descriptive_mentions": [
+        "Conuentus Ecclesiae Praedicatorum Corporis Christi"
+      ],
+      "justification": "Church/convent near the city wall: 'penes murum Conuentus Ecclesiae Praedicatorum Corporis Christi'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Order of Preachers",
+      "mention_texts": [
+        "Ordinis Praedicatorum Sancti Dominici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Religious order owning/occupying the church: 'Ordinis Praedicatorum Sancti Dominici'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestae Feliciae debita maritus legitimus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "originates_from",
+      "tail_entity_id": "E5",
+      "evidence": "Honestus Nicolaus Szmiewsky Samboriensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in ea Civitate sita"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in ea Civitate sita"
+    }
+  ]
+}

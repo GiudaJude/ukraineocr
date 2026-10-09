@@ -1,0 +1,169 @@
+{
+  "document_id": "arc2/0865.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "idem Officium",
+        "Officium praesens",
+        "Officium"
+      ],
+      "justification": "The municipal council of Lviv acting in its judicial and administrative capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council is located and of which the parties are citizens."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Moszkiewicz",
+      "mention_texts": [
+        "Joanne Waszkiewic",
+        "Joannem Moszckiewicz"
+      ],
+      "descriptive_mentions": [
+        "Aurifabrum",
+        "Curatorem Ingenui Simonis Zanuszowicz",
+        "Actorem",
+        "Cives Leopolienses",
+        "Actoris",
+        "Actore",
+        "Actor"
+      ],
+      "justification": "Goldsmith and court-appointed curator of Simon Januszowicz acting as plaintiff."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Januszowicz",
+      "mention_texts": [
+        "Simonis Zanuszowicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "pupillum"
+      ],
+      "justification": "Ward (pupillus) whose paternal assets are being accounted for."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Dzierżowski",
+      "mention_texts": [
+        "Christopherum Dzerzowski",
+        "Christophoro Dzerzowski"
+      ],
+      "descriptive_mentions": [
+        "Sartorem",
+        "citatum",
+        "Cives Leopolienses",
+        "citatus praedictus",
+        "citati",
+        "memorato"
+      ],
+      "justification": "Tailor summoned regarding the ward's paternal estate."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Łęckowicz",
+      "mention_texts": [
+        "Alberto Lęckowicz",
+        "Albertum Lęckowicz",
+        "Albertus Lęckowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "principali Curatore",
+        "praedictum",
+        "intercessori",
+        "idem"
+      ],
+      "justification": "Former principal curator of the ward who acted as intercessor for Christopher Dzierżowski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Dibowicius"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "D.",
+        "Doctor"
+      ],
+      "justification": "Doctor of medicine submitting his property as surety on behalf of the plaintiff."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "vt supra"
+      ],
+      "descriptive_mentions": [
+        "Actum vt supra"
+      ],
+      "justification": "Date formula concluding the decree, referring back to the session date."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "De Decreto Officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "curator_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannem Moszckiewicz Aurifabrum Curatorem Ingenui Simonis Zanuszowicz"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "curator_of",
+      "tail_entity_id": "E4",
+      "evidence": "Alberto Lęckowicz principali Curatore percepisse quod ad praefatum pupillum pertineat"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "inter Famatum Joannem Moszckiewicz Aurifabrum ... et Christopherum Dzerzowski Sartorem citatum Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Christopherum Dzerzowski Sartorem citatum Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "intercessor_of",
+      "tail_entity_id": "E5",
+      "evidence": "seque intercessionem praedicti citati in eo casu statuit"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guarantor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Dibowicius Doctor submittit se in bonis suis pro praefato Actore satisfacturus"
+    }
+  ]
+}

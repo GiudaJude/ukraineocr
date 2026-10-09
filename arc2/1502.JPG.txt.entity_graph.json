@@ -1,0 +1,131 @@
+{
+  "document_id": "arc2/1502.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Margaretha Sosnowska",
+      "mention_texts": [
+        "Margaretha Sosnowska"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "uxor eius",
+        "uxorem suam praefatam"
+      ],
+      "justification": "Identified as the wife of Simon Buszowicz consenting to the property transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Buszowicz",
+      "mention_texts": [
+        "Simon Buszowiczeus"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Pelliones Cives Leopolienses",
+        "ille"
+      ],
+      "justification": "Furrier and citizen of Lviv appearing before the council with his wife."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Solzymowic",
+      "mention_texts": [
+        "Simon Solzymowic"
+      ],
+      "descriptive_mentions": [
+        "Pelliones Cives Leopolienses",
+        "Hic"
+      ],
+      "justification": "Furrier and citizen of Lviv acting on behalf of Bartholomaeus Sedzolo."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Sedzolo",
+      "mention_texts": [
+        "Bartholomei Sedzolo"
+      ],
+      "descriptive_mentions": [
+        "Pellionis Civis Leopoliensis",
+        "principalem suum"
+      ],
+      "justification": "Furrier and citizen of Lviv whose share is being transferred by Simon Solzymowic."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sixt",
+      "mention_texts": [
+        "Tama Sixt",
+        "Tomas Sixt",
+        "Toma Sixt"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "donatario",
+        "Mercatori Civi Leopoliensi",
+        "eidem"
+      ],
+      "justification": "Merchant and citizen of Lviv acquiring the properties/shares."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by official court formula 'Iudicio Exposito Bannito Civitatis Leopoliensis'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopolienses",
+        "Civis Leopoliensis",
+        "Civi Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in civic titles and court designations."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Margaretha Sosnowska uxor eius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Simon Buszowiczeus... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Simon Solzymowic Pelliones Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Bartholomei Sedzolo Pellionis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Toma Sixt Mercatori Civi Leopoliensi"
+    }
+  ]
+}

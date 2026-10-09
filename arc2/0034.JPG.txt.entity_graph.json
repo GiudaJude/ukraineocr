@@ -1,0 +1,234 @@
+{
+  "document_id": "arc2/0034.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0022: Petrus Hubicki",
+      "mention_texts": [
+        "Petro Kubicki",
+        "Petrus Kubicki"
+      ],
+      "descriptive_mentions": [
+        "mandatario",
+        "praedictus"
+      ],
+      "justification": "Known entity Petrus Hubicki (here written Petro Kubicki), agent of Andreas Sieminski/Sienienski."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0021: Andreas Sienienski",
+      "mention_texts": [
+        "Andreae Sieminski"
+      ],
+      "descriptive_mentions": [
+        "Magnifici"
+      ],
+      "justification": "Known entity Andreas Sienienski, principal of Petrus Hubicki."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Casparum Gidinski"
+      ],
+      "descriptive_mentions": [
+        "praefatum",
+        "depositore"
+      ],
+      "justification": "Known entity Caspar Gulinski, referenced here as depositor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium nostrum",
+        "Cameram Officii nostri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv City Council/Office before which depositions and receipts are made."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0086: Nicolaus Glaskowski",
+      "mention_texts": [
+        "Nic: Gloskowic",
+        "Nicolaus Gloskowski",
+        "Nicolao Gloskowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Ciuis Leopoliensis",
+        "eidem"
+      ],
+      "justification": "Known entity Nicolaus Glaskowski / Gloskowski, burgher of Lviv depositing money."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv (Leopolis)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "126 Polish florins",
+      "mention_texts": [
+        "centum viginti sex florenorum bene et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "ea pecunia",
+        "eadem pecunia"
+      ],
+      "justification": "Amount of money deposited (126 Polish florins)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Cziklos",
+      "mention_texts": [
+        "Gregorium Ftz"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum",
+        "filium",
+        "pupilli"
+      ],
+      "justification": "Ward/son of the late Nicolaus Cziklos for whom money was deposited."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Cziklos",
+      "mention_texts": [
+        "Nicolai dicti Cziklos Vngari"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Late father of Gregorius Cziklos, Hungarian citizen of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Paulus Abrahamowicz",
+      "mention_texts": [
+        "Paulus Abrahamowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aromatarius"
+      ],
+      "justification": "Apothecary disputing the custody of the ward's money."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Agnes Sternina",
+      "mention_texts": [
+        "Agnes Sternina"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "Party involved in the dispute over the ward's money."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Adam",
+      "mention_texts": [
+        "Petri Adam"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "generi sui"
+      ],
+      "justification": "Son-in-law assisting Agnes Sternina."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "24 January 1595",
+      "mention_texts": [
+        "feria tertia post Festum S. Agnetis proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry (Tuesday after St. Agnes 1595, which fell on 24 January 1595)."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Gabriel Szwancz",
+      "mention_texts": [
+        "Gabriel Szwancz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual mentioned in title/heading of entry."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baptista",
+      "mention_texts": [
+        "Joannes Baptista",
+        "Joannes Baptista"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Leopolitanus"
+      ],
+      "justification": "Burgher of Lviv appearing before the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "acts_for",
+      "tail_entity_id": "E2",
+      "evidence": "Petro Kubicki mandatario Magnifici Andreae Sieminski"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nicolaus Gloskowski Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Gregorium Ftz olim Nicolai dicti Cziklos Vngari Civis Leopoliensis filium"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nicolai dicti Cziklos Vngari Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E11",
+      "evidence": "Agnes Sternina vna cum assistentia Famati Petri Adam gonori sui"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannes Baptista Leopolitanus"
+    }
+  ]
+}

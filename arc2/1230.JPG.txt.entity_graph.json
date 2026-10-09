@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/1230.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wisteska",
+      "mention_texts": [
+        "Jacobus Wistheska",
+        "Jacobo Wisteska",
+        "Jacobum Wisteska",
+        "Jacobus Wistheszka"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "eodem",
+        "dicto",
+        "supradicto",
+        "eundem"
+      ],
+      "justification": "Party who gave the 1000 florin membrane bond to Joannes Kupczowic and was subsequently cleared and released from it."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Mille florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Sum of one thousand Polish florins recorded in the membrane bond."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kupczowic",
+      "mention_texts": [
+        "Joanni Kupczowic",
+        "Joannes Kupcowic",
+        "Joannis Kupczowic",
+        "Joannes Kupcowicz"
+      ],
+      "descriptive_mentions": [
+        "eidem",
+        "praefatus",
+        "eiusdem",
+        "idem"
+      ],
+      "justification": "Recipient of the bond from Jacobus Wisteska who acknowledged full satisfaction and annulled the document."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sedenbergk",
+      "mention_texts": [
+        "Stanislao Sedenbergk"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi et Mediatori Leopoliensi"
+      ],
+      "justification": "Citizen and mediator of Lviv who was knowledgeable about the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in geographic designations of citizens and residents."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublini"
+      ],
+      "descriptive_mentions": [
+        "hic"
+      ],
+      "justification": "City of Lublin where the court acts originated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kupczowicz",
+      "mention_texts": [
+        "Paulus Kupczowicz",
+        "Paulum Kupcowicz"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Joannis Kupczowic frater germanus",
+        "eundem"
+      ],
+      "justification": "Brother of Joannes Kupczowic who took the bond from the chest and pawned it to Nachman Szarowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nachman Szarowic",
+      "mention_texts": [
+        "Nachmano Szarowic"
+      ],
+      "descriptive_mentions": [
+        "Infideli",
+        "Judaeo Leopoliensi"
+      ],
+      "justification": "Jewish creditor in Lviv who received the pawned bond from Paulus Kupczowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Protocollo Acti Aduocati et Scabinorum Lublinensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial and bench court records of Lublin cited as the source of the registered excerpt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular office of Lviv enacting the regulation for the guild of bakers."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Bakers' Guild",
+      "mention_texts": [
+        "Contubernij Pistorum"
+      ],
+      "descriptive_mentions": [
+        "Contubernio suo"
+      ],
+      "justification": "Guild of bakers whose masters petitioned the consular office for approval of their regulation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling of",
+      "tail_entity_id": "E3",
+      "evidence": "Paulus Kupczowicz eiusdem Joannis Kupczowic frater germanus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislao Sedenbergk Civi et Mediatori Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident of",
+      "tail_entity_id": "E5",
+      "evidence": "Nachmano Szarowic Judaeo Leopoliensi"
+    }
+  ]
+}

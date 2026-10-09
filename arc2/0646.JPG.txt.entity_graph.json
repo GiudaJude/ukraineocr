@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/0646.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0133: 15 florins",
+      "mention_texts": [
+        "Florenos quindecim",
+        "quindecim florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money mentioned in the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Caspar Soric",
+      "mention_texts": [
+        "Caspari Sorici"
+      ],
+      "descriptive_mentions": [
+        "gener"
+      ],
+      "justification": "Son-in-law mentioned in connection with the financial claim."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis",
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "officij",
+        "Decreto officij",
+        "adinuentioni officij",
+        "Actis praesentibus",
+        "officium praesens"
+      ],
+      "justification": "Lviv city council resolving the dispute and recording the acts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Florenos tantum decem",
+        "decem florenorum",
+        "florenorum decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Moderated sum of money set by the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Barbara Serix",
+      "mention_texts": [
+        "Barbara Serix"
+      ],
+      "descriptive_mentions": [
+        "praefata",
+        "sorores",
+        "sororis"
+      ],
+      "justification": "Party in the settlement before the council."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts are recorded and where the parties reside."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta in vigilia festi Sancti Andreae Apostoli Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording the act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Czyszkowic",
+      "mention_texts": [
+        "Czyszkowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the case heading."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Klimas Torosowicz",
+      "mention_texts": [
+        "Klimas Torosowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "famenus senior",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Senior citizen making a denunciation before the council."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hezidolaus Corvinus",
+      "mention_texts": [
+        "Hezidolawn",
+        "Corninum"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honestos",
+        "Grauos aduenas Leopolienses",
+        "ad officium praesens citatos"
+      ],
+      "justification": "Greek cited before the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Domenika Kewridi",
+      "mention_texts": [
+        "Domenikam Kewridi"
+      ],
+      "descriptive_mentions": [
+        "Famam",
+        "Grauos aduenas Leopolienses",
+        "ad officium praesens citatos"
+      ],
+      "justification": "Greek cited before the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Klimas Torosowicz famenus senior Civis Leopoliensis"
+    }
+  ]
+}

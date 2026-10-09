@@ -1,0 +1,131 @@
+{
+  "document_id": "arc2/1130.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Semoxen"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum in Capi- tulo Judicio Leopoliensi quandocunque celebrari praesidentem",
+        "su- um Plenipotentem",
+        "Plenipotens"
+      ],
+      "justification": "Appointed alderman and plenipotentiary in the opening clause of the record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi",
+        "Leopoliensis",
+        "Civitate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City location mentioned in court references, suburbs, and dating formula."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Leopoliensi",
+        "Judicio Civili"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civil/banned court of Lviv before which the recognition and plenipotentiary act take place."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "1596",
+        "feria quarta 9 mw- Julii Millesimo Im Anno 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry recorded in the document."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Malek",
+      "mention_texts": [
+        "Jacobus Malek"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Pistor Subur- banus Leopoliensis",
+        "ipse"
+      ],
+      "justification": "Suburban baker appearing personally before the court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Omelian Rusin",
+      "mention_texts": [
+        "Omelian Rusem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor adjacent to the property mentioned in the transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Fasfar Pellio",
+      "mention_texts": [
+        "Fasfar"
+      ],
+      "descriptive_mentions": [
+        "Pellionis"
+      ],
+      "justification": "Furrier whose property borders the house being sold."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "uxorem suam"
+      ],
+      "justification": "Wife of Jacobus Malek who previously sold the house before the civil court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Reigstor Bilib",
+      "mention_texts": [
+        "Reig- stori Bilib"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Rutheni Civis"
+      ],
+      "justification": "Ruthenian citizen to whom the property was sold."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse of",
+      "tail_entity_id": "E8",
+      "evidence": "Annam uxorem suam"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse of",
+      "tail_entity_id": "E5",
+      "evidence": "Annam uxorem suam"
+    }
+  ]
+}

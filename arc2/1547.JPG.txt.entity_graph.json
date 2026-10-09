@@ -1,0 +1,254 @@
+{
+  "document_id": "arc2/1547.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "florenos viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of twenty florins designated for the minor Caspar."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kozak",
+      "mention_texts": [
+        "Casparis"
+      ],
+      "descriptive_mentions": [
+        "minorennis Adhoc lactantis filij",
+        "pupillo",
+        "infantis"
+      ],
+      "justification": "Minor nursing child mentioned in the first entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "mater",
+        "matricis infantis"
+      ],
+      "justification": "Mother of the infant Caspar."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0118: Franciscus",
+      "mention_texts": [
+        "Francisco"
+      ],
+      "descriptive_mentions": [
+        "vitrico"
+      ],
+      "justification": "Stepfather of the infant Caspar."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Januszowic",
+      "mention_texts": [
+        "Stanislaus Jannuscari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual appearing in the header of the second entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Jasnicki",
+      "mention_texts": [
+        "Andreas Jasnicki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual named alongside Stanislaus in the second entry header."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense",
+        "Officij",
+        "Actes nris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular office of Lviv issuing the resolution and recording acts."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensem",
+        "Civitatis Leopoliensis",
+        "Civitatis istius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in municipal titles and citizenships."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Ostrowski",
+      "mention_texts": [
+        "Andream Ostrowski"
+      ],
+      "descriptive_mentions": [
+        "Civem Leopoliensem",
+        "citatus"
+      ],
+      "justification": "Citizen of Lviv cited in the council dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Petrus Januszowic",
+      "mention_texts": [
+        "Petro Jannuscystá"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "praedito Lorentowijssimo"
+      ],
+      "justification": "Party involved in financial reckoning regarding his late partner."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra.",
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard reference formula tying the entry to the date established above."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens D.",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate appearing for property valuation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Marcus Scholz Wolfowicz",
+      "mention_texts": [
+        "Mathur Schale Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "scabini Jurati Civitatis Leopoliensis",
+        "Juratorum Iuris Fidelium"
+      ],
+      "justification": "Sworn scabinus of Lviv conducting property appraisal."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamus Imiussek"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "scabini Jurati Civitatis Leopoliensis",
+        "Juratorum Iuris Fidelium"
+      ],
+      "justification": "Sworn juror/scabinus of Lviv conducting property appraisal."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kędzierski",
+      "mention_texts": [
+        "Jacobi Kendzierski",
+        "Jacobus Kądzierski"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Property owner requesting appraisal of a wooden house and brewhouse."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Civitatis istius Suburbio Haliciense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Halych suburb of Lviv where the appraised property is located."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "250 Polish florins",
+      "mention_texts": [
+        "florenos ducentis quinquaginta Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Valuation amount assessed for the house and brewhouse."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "filij praedictorum Matris Kozak et praefata Anna mater fouet"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "Francisco vitrico et Anna matricis infantis extradere"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Andream Ostrowski Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E8",
+      "evidence": "Gregorius Dobrocki Advocatus Ordinarius... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E8",
+      "evidence": "Mathur Schale Wolfowicz... scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E8",
+      "evidence": "Adamus Imiussek scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in Civitatis istius Suburbio Haliciense"
+    }
+  ]
+}

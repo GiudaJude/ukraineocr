@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/1129.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Pszczonka",
+      "mention_texts": [
+        "Pszczonki"
+      ],
+      "descriptive_mentions": [
+        "praedicta"
+      ],
+      "justification": "Named in the text concerning the registration/resignation on the verso of her document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civitatis Leopoliensis",
+        "suum verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "Plenipotens suus"
+      ],
+      "justification": "Appointed plenipotentiary, designated as scabinus of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court where the plenipotentiary is authorized to act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopolienses",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in civic titles and citizenship designations."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Olszowski",
+      "mention_texts": [
+        "Stanislaus Olszowski",
+        "Stanislaus"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Pater",
+        "Pelliones",
+        "Cives Leopolienses",
+        "sani mente et corpore",
+        "Stanislaus Pater"
+      ],
+      "justification": "Father and furrier citizen of Lviv selling his shares in a property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannes Olszowski",
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "Filius",
+        "Pelliones",
+        "Cives Leopolienses",
+        "sani mente et corpore",
+        "dictus vero Joannes filius"
+      ],
+      "justification": "Son of Stanislaus Olszowski, furrier and citizen of Lviv, co-seller."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Olszowski",
+      "mention_texts": [
+        "Mathiam"
+      ],
+      "descriptive_mentions": [
+        "filiam"
+      ],
+      "justification": "Child of Stanislaus Olszowski, from whom a maternal inheritance share derived."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "via Locacero dicto"
+      ],
+      "descriptive_mentions": [
+        "suburbij eiusdem Civitatis via"
+      ],
+      "justification": "The road/street in the Lviv suburb where the property is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kurzytło",
+      "mention_texts": [
+        "Andrea Kurzytlo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Olstat",
+      "mention_texts": [
+        "Joannis Ols- / tatis"
+      ],
+      "descriptive_mentions": [
+        "Muratoris"
+      ],
+      "justification": "Neighboring property owner, identified as a mason."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Andreas Murator",
+      "mention_texts": [
+        "Andreas Murarz",
+        "Andrea Muratori"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "genero",
+        "Emptores"
+      ],
+      "justification": "Buyer of the property, mason and son-in-law/in-law of Stanislaus Olszowski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "praedicti Stanislai Olszowski nepti ex filia Anna"
+      ],
+      "justification": "Granddaughter of Stanislaus Olszowski through daughter Anna, co-buyer."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "filia"
+      ],
+      "justification": "Daughter of Stanislaus Olszowski and mother of Barbara."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famati Stanislaus Olszowski Pater et Joannes Olszowski Filius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E7",
+      "evidence": "sortem post filiam Mathiam sibi obvenientem maternalem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E13",
+      "evidence": "Stanislai Olszowski nepti ex filia Anna"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "parent_of",
+      "tail_entity_id": "E12",
+      "evidence": "Barbarae praedicti Stanislai Olszowski nepti ex filia Anna"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simonem Scabinum Civitatis Leopoliensis"
+    }
+  ]
+}

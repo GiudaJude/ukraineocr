@@ -1,0 +1,153 @@
+{
+  "document_id": "arc2/0472.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Officium Consulare",
+        "Officium",
+        "officii Consularis Leopoliensis",
+        "Offici- um"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council issuing the decrees in Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City in which the council acts and the property is situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiae Leopo- litanae Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The cathedral church of Lviv referenced in the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelatinus",
+      "mention_texts": [
+        "Nicolai Te- latini"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Iuris Utriusque Doctoris",
+        "Consulis Leopoliensis",
+        "coniugum"
+      ],
+      "justification": "Deceased doctor of both laws and consul of Lviv, father-in-law of Jacobus Scholz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Ursula Gelatina",
+      "mention_texts": [
+        "Ursula"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Wife of the late Nicolaus Gelatinus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-1508: PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobi Scholz",
+        "Jacobus Scholz",
+        "Domino Jacobo Scholz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini",
+        "generi",
+        "praedictus",
+        "idem",
+        "ipsi"
+      ],
+      "justification": "Lviv bench magistrate and son-in-law building a dividing wall."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelatinus the Younger",
+      "mention_texts": [
+        "Nicolai Gelatini"
+      ],
+      "descriptive_mentions": [
+        "Praenobilis",
+        "filii",
+        "filio"
+      ],
+      "justification": "Son of the late doctor Nicolaus Gelatinus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Dionisius Nachman",
+      "mention_texts": [
+        "Dionisio Na- chman"
+      ],
+      "descriptive_mentions": [
+        "Iudaeorum",
+        "ipsius"
+      ],
+      "justification": "Jewish homeowner permitted to build/raise his house on Jewish Street."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0047: Jewish Street",
+      "mention_texts": [
+        "platea Iudaeorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where building restrictions are enforced and Nachman's house is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "olim Nicolai Te- latini Iuris Utriusque Doctoris Consulis Leopoliensis et Ursula coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honorati Jacobi Scholz Scabini generi... olim Nicolai Te- latini"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "filio olim Nicolai Te- latini... et Praenobilis Nicolai Gelatini filii"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "filio olim Nicolai Te- latini... et Ursula coniugum... Nicolai Gelatini filii"
+    }
+  ]
+}

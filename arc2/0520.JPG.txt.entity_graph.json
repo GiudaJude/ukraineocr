@@ -1,0 +1,146 @@
+{
+  "document_id": "arc2/0520.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Senoc",
+      "mention_texts": [
+        "Senocem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum Civitatis Leopoliensis",
+        "suum verum legitimum indubitatumque plenipotentem et mandatarium",
+        "praesidentem",
+        "suus plenipotens"
+      ],
+      "justification": "Elected as proxy and referred to as alderman of Lviv presiding over the Banned Court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned as the municipal jurisdiction and location of the court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Banned/Civil Court of Lviv over which the alderman presides."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gramatarius",
+      "mention_texts": [
+        "Joanni Gramatario"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Recipient of the cession of rights mentioned in the rubric."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zabka",
+      "mention_texts": [
+        "Joannes Zabka"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Generosus",
+        "servitor et Plenipotens",
+        "Plenipotens"
+      ],
+      "justification": "Noble servant and procurator presenting the mandate and making the declaration."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lipio Kazanowski",
+      "mention_texts": [
+        "Li- pionis Kazanowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Itali",
+        "praedicto Generoso hero suo",
+        "eiusdem",
+        "heri sui"
+      ],
+      "justification": "Italian master of Joannes Zabka on whose behalf the recognition is made."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "actis praesenti- bus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court/office books in which the mandate is registered."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Triginta Florenos"
+      ],
+      "descriptive_mentions": [
+        "praedictos"
+      ],
+      "justification": "Amount of money given to Albertus Ziołka Jan under specified conditions."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Ziołka",
+      "mention_texts": [
+        "Alberto Ziołka Janowi"
+      ],
+      "descriptive_mentions": [
+        "praenominato"
+      ],
+      "justification": "Individual who received the 30 florins for a three-year period."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Floreni decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Annual deduction amount specified in the agreement."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honoratum Dominum Senocem Scabinum Civitatis Leopoliensis in Judicio Exposito Bannito Leopoli quandocunque praesidentem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "servant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannes Zabka Generosi Li- pionis Kazanowski Itali servitor"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "agent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannes Zabka Generosi Li- pionis Kazanowski Itali servitor et Plenipotens"
+    }
+  ]
+}

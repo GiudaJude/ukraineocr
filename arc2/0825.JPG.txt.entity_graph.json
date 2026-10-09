@@ -1,0 +1,199 @@
+{
+  "document_id": "arc2/0825.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Exposito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named court of law in Lviv referenced in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office issuing the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv referenced in official titles and urban citizenship."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Bessano",
+      "mention_texts": [
+        "Leonardo Bessano",
+        "Leonardum Bessano"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Italum",
+        "Civem Leopoliensem",
+        "emptorem",
+        "Citatum",
+        "partem citatam"
+      ],
+      "justification": "Buyer of the tenement house involved in the legal decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dziezek",
+      "mention_texts": [
+        "Stanislaum\nDziezek"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "Actores"
+      ],
+      "justification": "Lviv citizen acting on his own and his wife's behalf."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Eva Luwinowna",
+      "mention_texts": [
+        "Eva Luwinowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Coniugis\nsuae",
+        "haeredes",
+        "Actores"
+      ],
+      "justification": "Wife of Stanislaus Dziezek and heir to the Luwinowska house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Smythek",
+      "mention_texts": [
+        "Laurentium Smythek"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "affines",
+        "Actores",
+        "haeredes"
+      ],
+      "justification": "In-law/relative acting alongside Stanislaus Dziezek and Eva Luwinowna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae",
+        "Luwinowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "The deceased Lviv citizen whose heirs are transferring the house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Luwinowska House",
+      "mention_texts": [
+        "Luwinowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "domus praedictae lapideae"
+      ],
+      "justification": "Masonry house named Luwinowska in Lviv being sold."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Subremissale House",
+      "mention_texts": [
+        "Subremissale"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring stone house bordering the Luwinowska property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Dolińska House",
+      "mention_texts": [
+        "Dolinska"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring stone house bordering the Luwinowska property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jaszein",
+      "mention_texts": [
+        "Stanislai Jaszein"
+      ],
+      "descriptive_mentions": [
+        "Fidelis",
+        "D.",
+        "unius ex Arbitris"
+      ],
+      "justification": "Arbitrator who drew up the inscription formula."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaum Dziezek Civem Leopoliensem suo et Honesta Eva Luwinowna Coniugis suae nominibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_heir_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesta Eva Luwinowna Coniugis suae nominibus atque Honestam Laurentium Smythek affines Actores hinc certores nimirum Honestae Barbarae olim Luwinowna Civis Leopoliensis atque haeredes"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_heir_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestam Laurentium Smythek affines Actores hinc certores nimirum Honestae Barbarae olim Luwinowna Civis Leopoliensis atque haeredes"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "bought_property_from",
+      "tail_entity_id": "E5",
+      "evidence": "contractum Emptionis et venditionis inter se et partem citatam non aliter nisi eo pacto"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_located_in",
+      "tail_entity_id": "E3",
+      "evidence": "domus lapideae Luwinowska vocatae in eiusdem Civitatis arealis"
+    }
+  ]
+}

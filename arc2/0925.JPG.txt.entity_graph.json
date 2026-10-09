@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0925.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document references the consular office (Officium) and its official records (Actis nostris)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lwów is explicitly named as the place of actum (Leopoli) and in the civic designation of Joannes Sawanstowski (Civem Leopoliensem)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia post Festum Sancti Remigii proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The main date of the legal entry recorded before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Doctoris Stanislai Dziurowic",
+        "Stanislaus Dziurowicz"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Spectabilis Dominus",
+        "Medicinae Doctor",
+        "Collega noster Consularis",
+        "Dominus legittimus",
+        "Plenipotentem"
+      ],
+      "justification": "Stanislaus Dziurowicz, doctor of medicine and councilor, matching corpus entity PER-0007."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Thomas Drencz",
+      "mention_texts": [
+        "Thomae Drencz"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "praefato Principali",
+        "principalis sui"
+      ],
+      "justification": "The principal who granted power of attorney to Stanislaus Dziurowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta postridie Festi Beati Mathaei Apostoli et Evangelistae Anno 1595 proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous act wherein Thomas Drencz appointed Stanislaus Dziurowicz as plenipotentiary."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sawanstowski Zietor",
+      "mention_texts": [
+        "Joannem Sa-wanstowszki Zietorem"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Civem Leopoliensem",
+        "suum Plenipotentem",
+        "substituto Plenipotenti"
+      ],
+      "justification": "Noble citizen of Lviv substituted as plenipotentiary by Stanislaus Dziurowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Duto Enudis",
+      "mention_texts": [
+        "Andrea Duto Enudis"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Aurifabro",
+        "Cive Premysliensi"
+      ],
+      "justification": "Goldsmith and citizen of Przemyśl holding deposited jewelry and money belonging to Thomas Drencz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Premysliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which Andreas Duto Enudis holds citizenship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Cive Premysliensi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "quem Plenipotentem ex eisdem Actis nostris ... authenticis exhibuit"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "substituit in suum Plenipotentem ... potestatem emonendi et exigendi res praefati Thomae Drencz principalis sui"
+    }
+  ]
+}

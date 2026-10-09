@@ -1,0 +1,164 @@
+{
+  "document_id": "arc2/0278.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kloszewski",
+      "mention_texts": [
+        "Andream Kloszewski",
+        "Andreas Kloszewski"
+      ],
+      "descriptive_mentions": [
+        "discretum Nobilem",
+        "Praefatus Nobilis"
+      ],
+      "justification": "Noble advocate acting on behalf of the executors and widow."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Georgius",
+      "mention_texts": [
+        "Georgium"
+      ],
+      "descriptive_mentions": [
+        "alterum"
+      ],
+      "justification": "Person mentioned in the opening court formula."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland referenced as having issued the royal mandate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero idem Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "offi- cio",
+        "Officio"
+      ],
+      "justification": "The consular court of Lviv adjudicating the matter."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Rupertus",
+      "mention_texts": [
+        "Ruperti"
+      ],
+      "descriptive_mentions": [
+        "demortui",
+        "Patrum demortuum"
+      ],
+      "justification": "The deceased person whose estate and inheritance are in dispute."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kwensiek",
+      "mention_texts": [
+        "Lucas Kwensiek",
+        "Lucae"
+      ],
+      "descriptive_mentions": [
+        "frater germanus",
+        "Haeredes eius fratrum et legitimi superstites"
+      ],
+      "justification": "Full brother and heir of the deceased Rupert, residing in Legnica."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Legnica",
+      "mention_texts": [
+        "Legnica"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City in Silesia where Lucas Kwensiek resides."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Silesia",
+      "mention_texts": [
+        "Silesia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region where the city of Legnica is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lucas",
+      "mention_texts": [
+        "Lucam"
+      ],
+      "descriptive_mentions": [
+        "Pellionem artificij societati",
+        "filii",
+        "verum et legitimum esse Nepotem"
+      ],
+      "justification": "Son of Lucas Kwensiek and nephew of the deceased Rupert, a furrier."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Henricus",
+      "mention_texts": [
+        "Henricum"
+      ],
+      "descriptive_mentions": [
+        "Aurifabrorum artificij socium",
+        "filii"
+      ],
+      "justification": "Son of Lucas Kwensiek and companion of the goldsmiths' guild."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "nam supersunt Haeredes eius fratrum et legitimi superstites nimirum frater germanus Lucas Kwensiek ... demortui Ruperti"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resides_in",
+      "tail_entity_id": "E7",
+      "evidence": "Lucas Kwensiek in Legnica Civitate Silesia manens"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Legnica Civitate Silesia"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "duo eiusdem Lucae filii quorum unum Lucam Pellionem artificij societati personaliter ad Seint aithon Officio Praesentauerunt"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "duo eiusdem Lucae filii ... alterum vero Henricum Aurifabrorum artificij socium Praesentium venturum fecerunt"
+    }
+  ]
+}

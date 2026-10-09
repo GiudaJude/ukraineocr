@@ -1,0 +1,175 @@
+{
+  "document_id": "arc2/0586.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quarta post Festum Paschae proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session recorded in the document heading."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Ławinowska House",
+      "mention_texts": [
+        "Lowincowska",
+        "Lawinowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "lapidea"
+      ],
+      "justification": "Masonry tenement house mentioned in the text on which debts are secured."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Central square of Lviv where the tenement house is located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "huius Civitatis"
+      ],
+      "justification": "City in which the citizens and property are situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bogdan Donowakowicz",
+      "mention_texts": [
+        "Bogdano Donowakowicz",
+        "Bogdani Donowakowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "Civi Leopoliensi",
+        "praefati",
+        "Famati",
+        "praedicti",
+        "possorem"
+      ],
+      "justification": "Armenian burgher of Lviv to whom rights and possession of parts of the house are transferred."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Grosz",
+      "mention_texts": [
+        "Grosz"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "Principalis"
+      ],
+      "justification": "Person acting in the legal recognition and cession."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "florenorum quinquaginta Florenis"
+      ],
+      "descriptive_mentions": [
+        "praetactam summam"
+      ],
+      "justification": "Monetary sum mentioned in connection with the rights being ceded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Barbara Ławinowna",
+      "mention_texts": [
+        "Barbara Lawinowna",
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "matrem suam"
+      ],
+      "justification": "Deceased woman whose son acts in the transaction and who contracted the previous debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0321: Stanislaus Wilczek",
+      "mention_texts": [
+        "Stanislai Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis et Interpretis Leopoliensis",
+        "affinis sui"
+      ],
+      "justification": "Burgher and interpreter of Lviv, in-law of the recognizant."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "350 Polish florins",
+      "mention_texts": [
+        "trecentorum quinquaginta Florenis"
+      ],
+      "descriptive_mentions": [
+        "eiusmodi debitum"
+      ],
+      "justification": "Debt amount contracted by deceased Petrus and Barbara."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus",
+      "mention_texts": [
+        "Petrum"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person who originally contracted the debt with Barbara."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "domus lapideae Lowincowska in circulo huius Civitatis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "circulo huius Civitatis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Bogdano Donowakowicz Armeno Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Wilczek Civis et Interpretis Leopoliensis"
+    }
+  ]
+}

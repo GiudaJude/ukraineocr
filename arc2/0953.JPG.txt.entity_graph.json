@@ -1,0 +1,200 @@
+{
+  "document_id": "arc2/0953.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stessanowicz Oleatrix",
+      "mention_texts": [
+        "Stessanowicz Oleatrix"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "tanquam natu maior",
+        "haeredes",
+        "consuccessores praefati"
+      ],
+      "justification": "Eldest sister participating in the division of inheritance: praefatus Stessanowicz Oleatrix tanquam natu maior per diuisionem et portionem elegit."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0118: Franciscus",
+      "mention_texts": [
+        "Francisci"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deceased person whose surviving heirs receive the second share: Francisci vero relicti et procreati altera sors posterio."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta praesentia"
+      ],
+      "descriptive_mentions": [
+        "actisque"
+      ],
+      "justification": "Lviv municipal council and its court records: ad Acta praesentia inscribi curauerunt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Joannes Szolcz Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "collega noster Consularis"
+      ],
+      "justification": "Councilor of Lviv acknowledging the receipt of debt: Spectabilis Dominus Joannes Szolcz Wolfowicz collega noster Consularis."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "220 Polish florins",
+      "mention_texts": [
+        "Ducentorum et viginti florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "debiti"
+      ],
+      "justification": "Debt amount paid: de summa Ducentorum et viginti florenorum debiti."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Włodkowicz",
+      "mention_texts": [
+        "Andrea Wlodkowic",
+        "Andream Wlodrowicz",
+        "Andrea Wlodrowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum et Ciuem Leopoliensem",
+        "Honorato",
+        "debitore",
+        "ipsum"
+      ],
+      "justification": "Lviv bench member and debtor who satisfied his obligation: Honoratum Andream Wlodrowicz Scabinum et Ciuem Leopoliensem."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv: Ciuem Leopoliensem, Actum Leopoli."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "vt supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date referenced as above in the record formula: Actum Leopoli vt supra."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Anna Stepanczanka",
+      "mention_texts": [
+        "Anna Stepanczanka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party noted in the marginal heading: Anna Stepanczanka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Cyganek",
+      "mention_texts": [
+        "Iacobus Cyganek",
+        "Jacobus Cyganek"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Textor Civis Camenecensis",
+        "sibi"
+      ],
+      "justification": "Weaver and citizen of Kamieniec submitting a letter of attorney: Honestus Jacobus Cyganek Textor Civis Camenecensis."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Gwozdzissina",
+      "mention_texts": [
+        "Dorothea Gwozdzissina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Coniuge sua"
+      ],
+      "justification": "Wife of Jacobus Cyganek issuing the plenipotentiary letter: Honesta Dorothea Gwozdzissina Coniuge sua."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensis",
+        "Camenecensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Kamieniec Podolski: Civis Camenecensis, Consulum Camenecensium."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "Kamieniec Podolski City Council",
+      "mention_texts": [
+        "Consulum Camenecensium"
+      ],
+      "descriptive_mentions": [
+        "Famatourm Patronorum et Consulum Camenecensium"
+      ],
+      "justification": "Council of Kamieniec under whose seal the document was issued: sigillo Famatourm Patronorum et Consulum Camenecensium."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Spectabilis Dominus Joannes Szolcz Wolfowicz collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "indebted_to",
+      "tail_entity_id": "E4",
+      "evidence": "satisfactum esse sibi sufficienter et plenarie de summa Ducentorum et viginti florenorum debiti sibi iuxta inscriptionem officiosam per Honoratum Andream Wlodrowicz Scabinum et Ciuem Leopoliensem contracti, ab eodem Honorato Andrea Wlodrowicz debitore"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andream Wlodrowicz Scabinum et Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honesta Dorothea Gwozdzissina Coniuge sua"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Jacobus Cyganek Textor Civis Camenecensis"
+    }
+  ]
+}

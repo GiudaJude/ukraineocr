@@ -1,0 +1,175 @@
+{
+  "document_id": "arc2/0761.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Mathias Kaczorowicz",
+      "mention_texts": [
+        "Mathias Kaczorowicz",
+        "Mathiae Kaczorowic",
+        "Mathia Kaczorowicz",
+        "Mathiam Kaczorowicz"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Suburbanus Leopoliensis",
+        "Provido",
+        "Suburbano Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Named as a party in both acquittances, suburban resident of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kalussowicz",
+      "mention_texts": [
+        "Stanislai Kalussowic",
+        "Stanislao Kalussowicz",
+        "Stanislaus Kalussowicz"
+      ],
+      "descriptive_mentions": [
+        "Provido",
+        "Suburbano Leopoliensi",
+        "eundem",
+        "Providus",
+        "incola prothunc Przemysliensis"
+      ],
+      "justification": "Named suburban resident of Lviv and resident of Przemyśl in both acquittances."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the text and date formulas."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Przemysliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Stanislaus Kalussowicz is currently resident."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where Stanislaus Kalussowicz's house on the rampart is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio",
+        "eisdem Actis"
+      ],
+      "justification": "The municipal office before which the registrations and acquittances were enacted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta post Festum Circumcisionis Domini Proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded acts."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "florenis quadraginta pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum paid and acknowledged in the first acquittance."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "65 florins",
+      "mention_texts": [
+        "Florenorum sexaginta quinque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total debt sum mentioned in the first acquittance."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "25 florins",
+      "mention_texts": [
+        "Florenos ... viginti quinque"
+      ],
+      "descriptive_mentions": [
+        "residuos"
+      ],
+      "justification": "Remaining balance reserved in the first acquittance."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "45 Polish florins",
+      "mention_texts": [
+        "florenis quadraginta quinque Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum acknowledged in the second acquittance regarding the house."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum ... florenorum"
+      ],
+      "descriptive_mentions": [
+        "praefatorum"
+      ],
+      "justification": "Total sum of one hundred florins mentioned in the second acquittance."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathias Kaczorowicz Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislao Kalussowicz Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaus Kalussowicz incola prothunc Przemysliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in suburbio Haliciensi supra vallum sita"
+    }
+  ]
+}

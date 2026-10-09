@@ -1,0 +1,70 @@
+{
+  "document_id": "arc2/0346.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Dawidman Isaacowicz",
+      "mention_texts": [
+        "Dawidman Isaacowicz"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaei inuectoriarii"
+      ],
+      "justification": "Identified as the Jewish importer against whose plenipotentiary the replication is brought."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Georgius Harbowiz",
+      "mention_texts": [
+        "Georgius Harbowiz"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "Factor",
+        "Plenipotens"
+      ],
+      "justification": "Identified as the plaintiff and plenipotentiary/factor for Sebald Schiriter."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schiriter",
+      "mention_texts": [
+        "Sebaldi Schiriter"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis",
+        "Mercatoris"
+      ],
+      "justification": "Identified as the merchant and citizen of Gdańsk represented by Georgius Harbowiz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as the city of citizenship/trade for Sebald Schiriter."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Georgius Harbowiz Factor et Plenipotens Famati Sebaldi Schiriter"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Sebaldi Schiriter Civis et Mercatoris Gedanensis"
+    }
+  ]
+}

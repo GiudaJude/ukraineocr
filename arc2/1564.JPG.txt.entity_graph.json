@@ -1,0 +1,162 @@
+{
+  "document_id": "arc2/1564.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jaslowic",
+      "mention_texts": [
+        "Joannes Iaslowic"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "Creditor",
+        "ipsi",
+        "Creditori suo",
+        "Creditorem",
+        "Creditoris",
+        "praefatus Creditor",
+        "Creditori"
+      ],
+      "justification": "Named as creditor in the debt and property inscription."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestate",
+        "Maiestatis"
+      ],
+      "justification": "Referred to by royal title regarding royal safe-conducts and decrees."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the title of the Armenian elders of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Armenian Court",
+      "mention_texts": [
+        "Armonorum Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Honoratorum Dominorum Aduocati et Seniorum"
+      ],
+      "justification": "Court and elders of the Armenian community of Lviv whose seals were affixed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum",
+        "Officiumque",
+        "Acta praesentia",
+        "Officio"
+      ],
+      "justification": "The municipal office recording the present act into its records."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Georgius Krempen",
+      "mention_texts": [
+        "Georgius Krempen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header or margin of the succeeding entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Lucas Frey",
+      "mention_texts": [
+        "Lucas Frey"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Germanus",
+        "nepos"
+      ],
+      "justification": "Appears personally to make a declaration regarding his deceased uncle."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lindau",
+      "mention_texts": [
+        "Lindauia"
+      ],
+      "descriptive_mentions": [
+        "Ciuitate Seminonorum Imperiali"
+      ],
+      "justification": "Imperial city mentioned as the origin or affiliation of Lucas Frey."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hannus Kremle",
+      "mention_texts": [
+        "Hannussi Kremle"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "demortui"
+      ],
+      "justification": "The deceased relative who died without issue near Creazuto."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Creazuto",
+      "mention_texts": [
+        "Creazuto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place near which Hannus Kremle died."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Dominicus Kremle",
+      "mention_texts": [
+        "Dominico Kremle"
+      ],
+      "descriptive_mentions": [
+        "fratre"
+      ],
+      "justification": "Brother of Hannus Kremle and father of Lucas Frey."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "sigilla Honoratorum Dominorum Aduocati et Seniorum Armonorum Leopoliensium"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Hannussi Kremle steriliter circa Creazuto demortui nepos ex fratre Dominico Kremle"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Lucas Frey Germanus ... nepos ex fratre Dominico Kremle"
+    }
+  ]
+}

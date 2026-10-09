@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0972.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Lenckowic",
+      "mention_texts": [
+        "Albertum Lenckowic",
+        "Alberto Lenckowic"
+      ],
+      "descriptive_mentions": [
+        "praefatum",
+        "ipsum",
+        "Famato",
+        "eiusdem Simonis Curatore",
+        "eiusque successoribus",
+        "eodem",
+        "praefato"
+      ],
+      "justification": "Named multiple times as former curator (Curatore) of pupil Simon Simonowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Dzibowiant"
+      ],
+      "descriptive_mentions": [
+        "Excellens D.",
+        "Medicinae Doctor",
+        "collega noster Consularis",
+        "ipse",
+        "praefatus recognoscens"
+      ],
+      "justification": "Named as the medical doctor and council colleague who personally appeared before the court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij nostri"
+      ],
+      "descriptive_mentions": [
+        "Consularis",
+        "officij nostri"
+      ],
+      "justification": "Referred to by the council's office formulas ('officij nostri', 'collega noster Consularis')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Słotkowicz",
+      "mention_texts": [
+        "Joannis Słotkowicz",
+        "Joannes Słotkowicz",
+        "Joanne Słotkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Aurifabri",
+        "Civis Leopoliensis",
+        "praefatus",
+        "moderno et novo Curatore"
+      ],
+      "justification": "Named as the goldsmith and citizen of Lviv appointed as new curator."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City indicated in the citizenship of Joannes Słotkowicz ('Civis Leopoliensis')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Simonowicz",
+      "mention_texts": [
+        "Simonis Simonowicz",
+        "Simonis",
+        "Simone"
+      ],
+      "descriptive_mentions": [
+        "Eugenij",
+        "pupillo"
+      ],
+      "justification": "Named as the ward (pupillus) whose curatorship is in question."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0346: Joannes Radowski",
+      "mention_texts": [
+        "Joanne Radowski",
+        "Joanni Radowski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "affine ipsius",
+        "altero concuratore",
+        "praefato"
+      ],
+      "justification": "Named as relative of Słotkowicz and co-curator for Simon Simonowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Dzibowiant Medicinae Doctor collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannis Słotkowicz Aurifabri Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "cum Famato Joanne Radowski affine ipsius altero concuratore"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "cui onus Curatoriae ex parte Eugenij Simonis Simonowicz ... adiudicat est"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "cum Famato Joanne Radowski affine ipsius altero concuratore"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "Albertum Lenckowic eiusdem Simonis Curatore"
+    }
+  ]
+}

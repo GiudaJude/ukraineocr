@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/0466.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City mentioned in the context of decree execution and council/court records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "1593."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year referenced regarding wine tax determinations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the Sejm was held and where the royal decree was given."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Dominicam Sanctissimae Trinitatis proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issuance of the royal declaration."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regnorum meorum"
+      ],
+      "justification": "Kingdom ruled by Sigismund III Vasa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [
+        "Regnorum meorum"
+      ],
+      "justification": "Kingdom ruled by Sigismund III Vasa."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Rex"
+      ],
+      "descriptive_mentions": [
+        "Rex",
+        "meorum",
+        "meum",
+        "nostri",
+        "volumus"
+      ],
+      "justification": "King Sigismund III Vasa issuing the royal declaration."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Szembek",
+      "mention_texts": [
+        "Szembek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal secretary countersigning the king's declaration."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lviv Lower Castle",
+      "mention_texts": [
+        "Castro inferiori Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Lower Castle of Lviv where proceedings were previously held."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Judicio Castrensi Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castrense court of Lviv where the case was prosecuted."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "acta praesentia",
+        "officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv consular office and its court registers."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E5",
+      "evidence": "Regnorum meorum Poloniae octavus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E6",
+      "evidence": "Sueciae secundo. Sigismundus Rex"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "officium Consulare Leopoliense"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Judicio Castrensi Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Castro inferiori Leopoliensis"
+    }
+  ]
+}

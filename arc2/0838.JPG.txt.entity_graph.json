@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/0838.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium nostrum",
+        "officio nostro",
+        "Acta praesentia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document references the municipal council office and its books acting in an official capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis istius",
+        "Loci huius"
+      ],
+      "justification": "The act was performed in Lviv ('Actum Leopoli') and refers to 'this city' and 'this place'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Krzosowska Plot",
+      "mention_texts": [
+        "Krzosowska"
+      ],
+      "descriptive_mentions": [
+        "area"
+      ],
+      "justification": "Named real estate plot adjacent to the sold property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Nieposzko",
+      "mention_texts": [
+        "Alberti Nieposzkowey",
+        "Alberto Nieposzkowy"
+      ],
+      "descriptive_mentions": [
+        "Iuratoris",
+        "Iuratori",
+        "emptori"
+      ],
+      "justification": "Lviv assessor (iurator) and buyer of the property shares."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "8 Polish florins",
+      "mention_texts": [
+        "Florenos octo pecuniae Polonicalibus"
+      ],
+      "descriptive_mentions": [
+        "precio"
+      ],
+      "justification": "Transaction price of the maternal shares."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard date formula referencing the year and date previously recorded."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensibus",
+        "Cracoviensis",
+        "Cracoviensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to citizens and consul of Kraków."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Antonius Frankowicz",
+      "mention_texts": [
+        "Antonius Frankowicz"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Dominus",
+        "Consul Cracoviensis"
+      ],
+      "justification": "Noble consul of Kraków appearing before the council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacra Regia Maiestate",
+        "Sacrae Regiae Maiestatis",
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Domino Domino clementissimo"
+      ],
+      "justification": "The King of Poland issuing the mandate."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jerzy Mniszech",
+      "mention_texts": [
+        "Georgium Mniszek"
+      ],
+      "descriptive_mentions": [
+        "Magnificum",
+        "Palatinum Terrae Sendomiriensis",
+        "Loci huius Capitaneum"
+      ],
+      "justification": "Voivode of Sandomierz and Starosta of Lviv to whom the royal mandate is addressed."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Kończyce Wielkie",
+      "mention_texts": [
+        "Magna Kunczycze"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Seat/origin of Jerzy Mniszech ('de Magna Kunczycze')."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0084: Sandomierz",
+      "mention_texts": [
+        "Sendomiriensis"
+      ],
+      "descriptive_mentions": [
+        "Terrae"
+      ],
+      "justification": "Voivodeship/land of Sandomierz governed by Jerzy Mniszech."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "held_role",
+      "tail_entity_id": "E7",
+      "evidence": "Nobilis Dominus Antonius Frankowicz Consul Cracoviensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "submitted_document_to",
+      "tail_entity_id": "E1",
+      "evidence": "Antonius Frankowicz Consul Cracoviensis... obtulit officio nostro hoc mandatum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "issued_document_to",
+      "tail_entity_id": "E10",
+      "evidence": "mandatum a Sacra Regia Maiestate... ad Magnificum Georgium Mniszek... dati"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "held_role",
+      "tail_entity_id": "E12",
+      "evidence": "Georgium Mniszek... Palatinum Terrae Sendomiriensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "held_role",
+      "tail_entity_id": "E2",
+      "evidence": "Georgium Mniszek... Loci huius Capitaneum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "associated_with",
+      "tail_entity_id": "E11",
+      "evidence": "Georgium Mniszek de Magna Kunczycze"
+    }
+  ]
+}

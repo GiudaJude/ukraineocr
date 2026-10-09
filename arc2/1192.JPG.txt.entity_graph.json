@@ -1,0 +1,213 @@
+{
+  "document_id": "arc2/1192.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in multiple entries as the place of residence, suburb location, and legal action."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rupert",
+      "mention_texts": [
+        "Stanislaum Rapst",
+        "Stanislai Dupert",
+        "Stanislai Rapst"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Civem Leopoliensis",
+        "praedicti",
+        "olim",
+        "Famatum olim",
+        "praedicti"
+      ],
+      "justification": "Deceased burgher of Lviv whose widow Agnes settles debts contracted by him."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnete",
+        "Agneta"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "eandem"
+      ],
+      "justification": "Widow of Stanislaus Rupert/Rapst paying off obligations and obtaining receipts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szenchey",
+      "mention_texts": [
+        "Stanislaus Szenchey"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Grangiarus",
+        "Civis Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Burgher and granger who acknowledges receipt of 500 florins."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "Florenis quingentis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of debt paid to Stanislaus Szenchey."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Marcus Venediger",
+      "mention_texts": [
+        "Marcus Venediger"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "factor et Plenipotens Nobilis Joannis Rapp Iuris supremi Cracoviensis Scabini et Andreae olim Rothenmundi tutorum",
+        "factor",
+        "Plenipotens",
+        "sibi"
+      ],
+      "justification": "Agent and plenipotentiary representing the guardians Joannes Rapp and the late Andreas Rothenmund."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Seat of the supreme Magdeburg law court where Joannes Rapp served as scabinus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rapp",
+      "mention_texts": [
+        "Joannis Rapp"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Iuris supremi Cracoviensis Scabini",
+        "tutorum",
+        "principalium suorum",
+        "principalibus suis"
+      ],
+      "justification": "Noble scabinus of the supreme court in Kraków, acting as guardian."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Rothenmund",
+      "mention_texts": [
+        "Andreae Rothenmundi"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "tutorum",
+        "principalium suorum",
+        "principalibus suis"
+      ],
+      "justification": "Deceased co-guardian represented by Marcus Venediger."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "1200 florins",
+      "mention_texts": [
+        "Florenis mille et ducentis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of debt acknowledged as received by Marcus Venediger on behalf of his principals."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Doctor",
+      "mention_texts": [
+        "Jacobus Doctor",
+        "Iacobi"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaeus de Suburbio Leopoliensi",
+        "Judaeus",
+        "Iudaici"
+      ],
+      "justification": "Jewish suburbanite who appears before the city council with an appointed guardian."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Paulus Evans",
+      "mention_texts": [
+        "Paulum Evans"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Ostiarium",
+        "tutorem sibi assumptum"
+      ],
+      "justification": "Court usher acting as legal guardian for Jacobus Doctor."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The municipal council office before which the legal actions take place."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "was_widow_of",
+      "tail_entity_id": "E2",
+      "evidence": "ab Honesta Agnete praedicti Stanislai Dupert vidua relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "agent_of",
+      "tail_entity_id": "E8",
+      "evidence": "Marcus Venediger tanquam factor et Plenipotens Nobilis Joannis Rapp"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "agent_of",
+      "tail_entity_id": "E9",
+      "evidence": "Marcus Venediger tanquam factor et Plenipotens Nobilis Joannis Rapp Iuris supremi Cracoviensis Scabini et Andreae olim Rothenmundi tutorum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "per Honestum Paulum Evans Ostiarium tutorem sibi assumptum"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "document_id": "arc2/1160.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio eiusdem Civitatis Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by the phrase 'suburbio eiusdem Civitatis Haliciensi', matching known alias for the Halych Suburb."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Blasius Klimczyk",
+      "mention_texts": [
+        "Blasij Klimczyk"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as the owner of an adjacent property in the Halych suburb."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Glonerzyna",
+      "mention_texts": [
+        "Dorotheae Glonerzyna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as the owner of an adjacent property in the Halych suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Generosa Anna",
+        "Generosa",
+        "Generosae Credetrici",
+        "Generosae",
+        "Credetricem suam"
+      ],
+      "justification": "Noblewoman creditor entering into a contract for habitation and possession of mortgaged property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0131: 120 Polish florins",
+      "mention_texts": [
+        "Centum viginti Florenos"
+      ],
+      "descriptive_mentions": [
+        "totam simul et integram summam",
+        "summa essentiali"
+      ],
+      "justification": "Monetary sum specified for the redemption of the mortgaged property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Zopek",
+      "mention_texts": [
+        "Martinus Zopek"
+      ],
+      "descriptive_mentions": [
+        "idem",
+        "debitoris oppignorantis"
+      ],
+      "justification": "Debtor and pledger of the house, entering obligations towards the creditor Anna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "totam simul et integram summam Centum viginti Florenos eidem Generosae Credetrici aut eius legitimis posteritati parata pecunia persolverit et exonerauerit"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "owns_property_in",
+      "tail_entity_id": "E1",
+      "evidence": "in domo sua propria et haereditaria in suburbio eiusdem Civitatis Haliciensi"
+    }
+  ]
+}

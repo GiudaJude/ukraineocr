@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/0171.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lucia",
+      "mention_texts": [
+        "Lucia"
+      ],
+      "descriptive_mentions": [
+        "eadem",
+        "fassionata"
+      ],
+      "justification": "Appears as 'Lucia' entering a protestation into the council records regarding debts incurred because of her husband."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as 'Suburbio Haliciensi'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Potters' Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb identified as 'platea Figulorum'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis praesentibus"
+      ],
+      "justification": "Identified by back-reference to the council's record book 'Actis praesentibus'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Gargo",
+      "mention_texts": [
+        "Andreas Gargo"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensi"
+      ],
+      "justification": "Citizen of Lviv appearing in person to sell a plot of land."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City of Lviv, referenced in 'Civis Leopoliensi', 'Ciuitatis', and 'Ciui Leopoliensi'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Anna Sztychowna",
+      "mention_texts": [
+        "Annae Sztychowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae"
+      ],
+      "justification": "Wife of Andreas Gargo, on whose behalf he promises ratification."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Łan Sztychowski",
+      "mention_texts": [
+        "Laneo Sztychowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Plot/hide located in the suburb, described as 'Laneo Sztychowski dicto'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sixt",
+      "mention_texts": [
+        "Tomas Sztych",
+        "Tomae Sixt"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Mensatori",
+        "Ciui Leopoliensi",
+        "emptori suo"
+      ],
+      "justification": "Buyer of the land plot, named 'Tomas Sztych' in the margin and 'Tomae Sixt Mensatori Ciui Leopoliensi' in the text."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "96 Polish florins",
+      "mention_texts": [
+        "Florenorum triginta sexaginta sex pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price of the land mentioned as 'Florenorum triginta sexaginta sex pecuniae et numeri Polonicalis'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in Suburbio Haliciensi in platea Figulorum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famatus Andreas Gargo Civis Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestae Annae Sztychowna coniugis suae"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Suburbio eiusdem Ciuitatis in Laneo Sztychowski dicto"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tomae Sixt Mensatori Ciui Leopoliensi"
+    }
+  ]
+}

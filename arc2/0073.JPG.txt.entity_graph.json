@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/0073.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0088: Paulus Craues",
+      "mention_texts": [
+        "Paulo Kraues",
+        "Paulum Kraues",
+        "Paulus Kraues"
+      ],
+      "descriptive_mentions": [
+        "Ostiario"
+      ],
+      "justification": "Appears settling disputes; identified with known entity PER-0088: Paulus Craues."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Balthazar",
+      "mention_texts": [
+        "Paulo Balthazaro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party with whom Paulus Kraues had controversies and who mutual quietatio was concluded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Wasil Balikowicz",
+      "mention_texts": [
+        "Wasil Balikowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armenorum Senior",
+        "Civis Leopoliensis",
+        "haeres et successor legitimus"
+      ],
+      "justification": "Appears personally as Armenian elder and heir to Brilszfi Czeuikowic issuing a quietatio."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Brilszfi Czeuikowic",
+      "mention_texts": [
+        "Brilszfi Czeuikowic"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Senioris Armenorum",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Deceased Armenian elder whose heir and successor is Wasil Balikowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0045: Joannes Wojnar",
+      "mention_texts": [
+        "Joannis Woynar",
+        "Joannes Woynar"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Famatus olim",
+        "in viuis existens",
+        "Cives Leopolienses",
+        "praefatos debitores"
+      ],
+      "justification": "Deceased debtor quieted for a debt of 1000 florins; known entity PER-0045."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Catherina Wojnarowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx eius",
+        "Cives Leopolienses",
+        "praefatos debitores"
+      ],
+      "justification": "Wife of the late Joannes Wojnar, joint debtor in the quieted obligation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "1000 Polish florins",
+      "mention_texts": [
+        "mille florenorum pecuniae numeri et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summa debiti"
+      ],
+      "justification": "Sum of the debt satisfied and quieted in the document."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Six-Men Bench of Lviv",
+      "mention_texts": [
+        "Iudicio Sexaeuirali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal judicial body where the original inscription was registered."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Thursday after Quinquagesima 1587",
+      "mention_texts": [
+        "feria quinta post Omnium Quinquagesimam proxima Anno Domini 1587 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry made in the Six-Men court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Wojnarowska House",
+      "mention_texts": [
+        "Woynarowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "habitationibus domus lapideae"
+      ],
+      "justification": "Stone house whose apartments were given in real possession for the debt."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "hac Ciuitate"
+      ],
+      "justification": "City referenced in the citizenship and council formulas."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consules Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Acta nostra",
+        "Custodes Iuris"
+      ],
+      "justification": "The governing consular body receiving and registering the quietatio."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "settled_dispute_with",
+      "tail_entity_id": "E2",
+      "evidence": "Paulus Kraues omnes controuersias praedictasque sibi cum Paulo Balthazaro fideliter intercesserant, asseruit armisit laut et mortificauit"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "heir_of",
+      "tail_entity_id": "E4",
+      "evidence": "vt Famati olim Brilszfi Czeuikowic Senioris Armenorum Ciuis Leopoliensis haeres et successor legitimus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "olim Joannes Woynar debuit in viuis existens et Honesta Catherina coniunx eius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "quieted",
+      "tail_entity_id": "E5",
+      "evidence": "De qua eiusmodi sufficienti satisfactione praefatos debitores et ipsorum successores quietauit"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "quieted",
+      "tail_entity_id": "E6",
+      "evidence": "De qua eiusmodi sufficienti satisfactione praefatos debitores et ipsorum successores quietauit"
+    }
+  ]
+}

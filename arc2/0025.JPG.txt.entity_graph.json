@@ -1,0 +1,189 @@
+{
+  "document_id": "arc2/0025.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Głogowski",
+      "mention_texts": [
+        "Sigismundum Glogowski"
+      ],
+      "descriptive_mentions": [
+        "actor"
+      ],
+      "justification": "Appears as the actor acting on behalf of Nicolaus Jazłowiecki."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Jazłowiecki",
+      "mention_texts": [
+        "Nicolai Iaslowieczki"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Capitanei Sniatynensis et Zamuliensis",
+        "a Buczac"
+      ],
+      "justification": "Starosta of Śniatyn on whose mandate Sigismundus Głogowski acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Buczacz",
+      "mention_texts": [
+        "Buczac"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town mentioned in the title/origin of Nicolaus Jazłowiecki ('a Buczac')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Śniatyn",
+      "mention_texts": [
+        "Sniatynensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Starostwo/town mentioned in Nicolaus Jazłowiecki's title."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Martinus Doktorkowicz",
+      "mention_texts": [
+        "Martinum Doktorkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Sacinum",
+        "Civem Leopoliensem",
+        "citatus",
+        "praefatus citatus"
+      ],
+      "justification": "Party in the legal dispute, described as an alderman/burgher of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Fabianus Knab",
+      "mention_texts": [
+        "Fabiani Knab"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased father whose children's guardians are the subject of the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, setting of the action and citizenship origin of parties."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij",
+        "Officii"
+      ],
+      "justification": "The municipal council/bench office issuing decrees and receiving declarations."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Tuesday before the Feast of the Holy Cross 1595",
+      "mention_texts": [
+        "Feria tertia ante Festa crucis proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording the act."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv scabinus testifying regarding the testament of Stanislaus Aberman."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Ślibowna",
+      "mention_texts": [
+        "Hedvigis Slibowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "secundarum nuptiarum consortis",
+        "viduae relictae"
+      ],
+      "justification": "Surviving widow of Stanislaus Aberman."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Aberman",
+      "mention_texts": [
+        "Siberman",
+        "Stanislai Aberman",
+        "Stanislaus Aberman"
+      ],
+      "descriptive_mentions": [
+        "Olim",
+        "Famati olim",
+        "Civis Leopoliensis",
+        "Famatus olim"
+      ],
+      "justification": "Deceased Lviv burgher whose last will is related."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "Sigismundum Glogowski Rga D. Nicolai Iaslowieczki a Buczac Capitanei Sniatynensis et Zamuliensis ex mandato cuius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honoratum Martinum Doktorkowicz Sacinum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Simonowicz Scabinus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Hedvigis Slibowna Famati olim Stanislai Aberman Civis Leopoliensis secundarum nuptiarum consortis viduae relictae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stanislai Aberman Civis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "document_id": "arc2/1466.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucas"
+      ],
+      "descriptive_mentions": [
+        "Cerdo",
+        "praefatus Lucas Cerdo",
+        "genero"
+      ],
+      "justification": "Lucas the tanner/artisan mentioned in the property agreement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Banned Court of Lviv where the resignation of the property is to be submitted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Adam de Larto",
+      "mention_texts": [
+        "Adamus",
+        "Adams de Larto"
+      ],
+      "descriptive_mentions": [
+        "Murator",
+        "Honesti",
+        "coniugibus",
+        "propinquis suis"
+      ],
+      "justification": "Adam de Larto, a mason (Adamus Murator), buyer of the property in the Halych suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Klimkowic",
+      "mention_texts": [
+        "Stanislaus Sumikowic",
+        "Stanislaus Klimkowic",
+        "Stanislao"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Stanislaus Klimkowic (recorded as Sumikowic in the margin note), seller of inherited property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Cascianka",
+      "mention_texts": [
+        "Hedvigis Cascianka"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Hedvigis Cascianka, wife of Stanislaus Klimkowic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Anna Klimkowicza",
+      "mention_texts": [
+        "Annae Klimkowicza"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "propinquis suis"
+      ],
+      "justification": "Anna Klimkowicz, wife of Adam de Larto."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbiis Haliciensibus"
+      ],
+      "descriptive_mentions": [
+        "eisdem Civitatis Suburbiis"
+      ],
+      "justification": "Halych Suburb of Lviv where the sold property is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Cerkiewska Street",
+      "mention_texts": [
+        "platea Cerkiewska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the property is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "46 Polish florins",
+      "mention_texts": [
+        "quadraginta sexte Florenorum pecuniae et muneri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price of 46 Polish florins paid for the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesti Stanislaus Klimkowic et Hedvigis Cascianka coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Adams de Larto et Annae Klimkowicza coniugibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in eisdem Civitatis Suburbiis Haliciensibus in platea Cerkiewska"
+    }
+  ]
+}

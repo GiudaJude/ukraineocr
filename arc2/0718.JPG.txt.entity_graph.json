@@ -1,0 +1,118 @@
+{
+  "document_id": "arc2/0718.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consu- lari",
+        "nostri Consu- laris Officij",
+        "Officium praesens",
+        "officij",
+        "Officio"
+      ],
+      "descriptive_mentions": [
+        "nostro Consulari"
+      ],
+      "justification": "The municipal council/office of Lviv is referenced repeatedly regarding council authority and proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Goldsmiths' Guild",
+      "mention_texts": [
+        "Contubernij Euri fabrorum"
+      ],
+      "descriptive_mentions": [
+        "aurifices"
+      ],
+      "justification": "Mentioned as 'Magistri Contubernij Euri fabrorum' (masters of the goldsmiths' guild) appealing a decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Dominum Dominum suum clementissimum"
+      ],
+      "justification": "King Sigismund III Vasa, to whose royal court the guild masters appealed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Tkacz",
+      "mention_texts": [
+        "Tkacz Tomas",
+        "Thomas Tkacz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopolien- sis"
+      ],
+      "justification": "A Lviv burgher who personally appeared and recognized a debt of 32 florins."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolien- sis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, mentioned in the citizenship descriptor 'Civis Leopolien- sis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gasparo Gulincki"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Collegae nostro Consulari"
+      ],
+      "justification": "Caspar Guliński, a member of the city council, to whom the debt is owed."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "32 Polish florins",
+      "mention_texts": [
+        "Florenos Triginta duos"
+      ],
+      "descriptive_mentions": [
+        "numeri Poloni"
+      ],
+      "justification": "The loan sum of thirty-two Polish florins acknowledged by Thomas Tkacz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo Sancti Agnct- is"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The due date for repayment of the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Thomas Tkacz Civis Leopolien- sis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Domino Gasparo Gulincki Collegae nostro Consulari"
+    }
+  ]
+}

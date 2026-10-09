@@ -1,0 +1,194 @@
+{
+  "document_id": "arc2/1483.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolien- ses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act was transacted and of which Joannes Cwirsz and Ursula were citizens."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Sabbato ante Festum Sancti\nMartini Episcopi Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded quittance (Saturday before St. Martin 1590)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "actis"
+      ],
+      "descriptive_mentions": [
+        "iisdem"
+      ],
+      "justification": "The municipal books/acts in which the transaction and earlier inscription were registered."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zantes Kryglus",
+      "mention_texts": [
+        "Joannes Zantes Kryglus",
+        "Joannes Zantes",
+        "Joanni Zantes"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Creditori",
+        "Creditoris",
+        "praedictus",
+        "ipsi"
+      ],
+      "justification": "Creditor acknowledging satisfaction of debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "1285 Polish florins",
+      "mention_texts": [
+        "florenorum mille\nducentorum et sexdecim sexaginta et novem Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total debt amount registered in the municipal acts."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Cwirsz",
+      "mention_texts": [
+        "Joannis Woyth",
+        "Joannem Cwirsz Kraglicen",
+        "Joannis Woyt",
+        "Joannem Cwirsz",
+        "Joannis Cwirsz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Cives Leopolien-\nses",
+        "debitoris",
+        "debitoribus",
+        "coniuges",
+        "coniugum",
+        "eundem",
+        "memorati"
+      ],
+      "justification": "Debtor citizen of Lviv receiving quittance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Ursulam",
+        "Ursulae"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolien-\nses",
+        "debitoris",
+        "coniugum"
+      ],
+      "justification": "Wife of Joannes Cwirsz and co-debtor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "740 florins",
+      "mention_texts": [
+        "septingentis et qua-\ndraginta florenis",
+        "septingentos et quadragin-\nta florenorum",
+        "septingentorum et quadraginta\nflorenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount satisfied through the delivery of cereal skins/hides."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublini"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where part of the hides were to be collected."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Isaac Medicoff",
+      "mention_texts": [
+        "Isaaco Medicoff"
+      ],
+      "descriptive_mentions": [
+        "Cive Samoscensi",
+        "dicto"
+      ],
+      "justification": "Citizen of Zamość from whom hides are to be received in Lublin."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Samoscensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Isaac Medicoff holds citizenship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "per Famatum Joannem Cwirsz Kraglicen et Ursulam coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Famatum Joannem Cwirsz Kraglicen et Ursulam coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannem Cwirsz Kraglicen et Ursulam coniuges Cives Leopolien- ses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannem Cwirsz Kraglicen et Ursulam coniuges Cives Leopolien- ses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Isaaco Medicoff Cive Samoscensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "mutuo de- bitoris et Creditoris contractu"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "creditor_of",
+      "tail_entity_id": "E6",
+      "evidence": "mutuo de- bitoris et Creditoris contractu"
+    }
+  ]
+}

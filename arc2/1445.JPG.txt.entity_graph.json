@@ -1,0 +1,259 @@
+{
+  "document_id": "arc2/1445.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "Anno Domini 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Established corpus identifier for the year 1592."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Barbara Zesławska",
+      "mention_texts": [
+        "Barbarae Zeslavia"
+      ],
+      "descriptive_mentions": [
+        "praefatae"
+      ],
+      "justification": "Party mentioned in the satisfaction/quittance text with reference to Lapidea Zeslawwska."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joanna",
+      "mention_texts": [
+        "Joannam"
+      ],
+      "descriptive_mentions": [
+        "eundem"
+      ],
+      "justification": "Person mentioned through whose hands satisfaction was conducted."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Officium idem Consulare",
+        "Consulatu",
+        "Officium suum Reconsulare"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Established corpus entity for the Lviv City Council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard corpus city name."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Foltynowicz",
+      "mention_texts": [
+        "Simonem Foltynowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellionem",
+        "actorem",
+        "Cives Leopolienses",
+        "eundem actorem",
+        "Actor",
+        "Actorem",
+        "idem Actor"
+      ],
+      "justification": "Plaintiff in the council decree regarding division of land."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szot",
+      "mention_texts": [
+        "Tomam Szot",
+        "Tomam Szot"
+      ],
+      "descriptive_mentions": [
+        "Cineratorem",
+        "citatum",
+        "Cives Leopolienses",
+        "citatus praefatus",
+        "citatus"
+      ],
+      "justification": "Defendant/cited party in the decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Przeminski",
+      "mention_texts": [
+        "Martino Przeminski",
+        "Przeminski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi"
+      ],
+      "justification": "Lviv burgher from whom land sort was acquired."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Jakubowic",
+      "mention_texts": [
+        "Andrea Jakubowic"
+      ],
+      "descriptive_mentions": [
+        "Civibus Belzensibus"
+      ],
+      "justification": "Belz burgher involved in previous title transfer."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Adrianus Saulic",
+      "mention_texts": [
+        "Adriano Saulic"
+      ],
+      "descriptive_mentions": [
+        "Civibus Belzensibus"
+      ],
+      "justification": "Belz burgher involved in previous title transfer."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0150: Belz",
+      "mention_texts": [
+        "Belzensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Established corpus identifier for Belz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Proteska",
+      "mention_texts": [
+        "Jacobus Proteska"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "Collega in Consulatu manus Reconsulis munere gerens"
+      ],
+      "justification": "Lviv councilman and acting proconsul recording the quittance."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Jacik",
+      "mention_texts": [
+        "Bartholomaei Czart",
+        "Bartholomei Jacik"
+      ],
+      "descriptive_mentions": [
+        "Paleari",
+        "Famato",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv burgher at whose instance the recognition/quittance is made."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jacik",
+      "mention_texts": [
+        "Stenislaei Jacik"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "sutoris",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Father of Martinus Carius, cobbler and Lviv burgher."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Martinus Carius",
+      "mention_texts": [
+        "Martinus Carius"
+      ],
+      "descriptive_mentions": [
+        "Honestus et Ingenuus",
+        "filius"
+      ],
+      "justification": "Adult son of Stanislaus Jacik making the quittance declaration."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "inter Famatum Simonem Foltynowicz Pellionem actorem, et Tomam Szot Cineratorem citatum Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "inter Famatum Simonem Foltynowicz Pellionem actorem, et Tomam Szot Cineratorem citatum Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "a Famato Martino Przeminski Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Andrea Jakubowic et Adriano Saulic Civibus Belzensibus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Andrea Jakubowic et Adriano Saulic Civibus Belzensibus"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Spectabilis Dominus Jacobus Proteska Collega in Consulatu manus Reconsulis munere gerens"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "ad instantiam Famati Bartholomei Jacik Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati Stenislaei Jacik sutoris Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "child_of",
+      "tail_entity_id": "E14",
+      "evidence": "Martinus Carius Famati Stenislaei Jacik sutoris Civis Leopoliensis filius"
+    }
+  ]
+}

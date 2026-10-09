@@ -1,0 +1,209 @@
+{
+  "document_id": "arc2/0565.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenorum Quinquaginta Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debitum amount specified in the court extract."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Trzechronowicz",
+      "mention_texts": [
+        "Tomam Trzechronowiz",
+        "Toma Trzechronowiz"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Geometram",
+        "Civem Leopoliensem",
+        "praefati olim"
+      ],
+      "justification": "Deceased surveyor and citizen of Lviv who incurred the debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in civic, judicial, and resident titles."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sieroński",
+      "mention_texts": [
+        "Alberto Sieronski"
+      ],
+      "descriptive_mentions": [
+        "Nobili"
+      ],
+      "justification": "Noble creditor mentioned in the inscription."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Spectabili",
+        "Actis praesentibus",
+        "Actis praesentibus"
+      ],
+      "justification": "Consular office and acts of Lviv where the contract was made and relation recorded."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "sabbato ante Dominicam Invocavit proxima Anno 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of contract registration before the consular office."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio Advocatiali Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial office of Lviv before which execution was obtained."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Skobwiński",
+      "mention_texts": [
+        "Albertum Skobwinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "plenipotentem"
+      ],
+      "justification": "Noble representative who acted on behalf of Elthea Sierańska."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Elthea Sierańska",
+      "mention_texts": [
+        "Eltheae Sieranski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble principal represented by Albertus Skobwiński."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "Sabbato pridie Dominica Conductus Pascha Anno Domini 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of act before the advocatial office."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Scabinus",
+        "Scabinus Iuratus Civitatis Leopoliensem",
+        "Fideles ex officio obtenti"
+      ],
+      "justification": "Juror (scabinus) of Lviv who made and submitted the legal report."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislao Doctore",
+        "Stanislai Dziewięciolidicia Doctoris"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Spectabilis et Excellen.",
+        "collegae nostri Consularis",
+        "praefatus Domino Doctor"
+      ],
+      "justification": "Doctor and consular colleague at whose instance the second report was made."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rothendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorabilis",
+        "locum Ordinarij Advocati Leopoliensem tenens",
+        "Fideles ex officio obtenti",
+        "praedictorum Honoratorum"
+      ],
+      "justification": "Vice-advocate of Lviv appearing personally."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Alembekowska House",
+      "mention_texts": [
+        "domo Alembekowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "House mentioned in the rubric at the end of the text."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Szczęsnic",
+      "mention_texts": [
+        "Szczęsnic"
+      ],
+      "descriptive_mentions": [
+        "Domino"
+      ],
+      "justification": "Recipient of the adjudication of spaces in the Alembekowska house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E9",
+      "evidence": "Nobilem Albertum Skobwinski uti Nobilis Eltheae Sieranski plenipotentem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E7",
+      "evidence": "Martinus Rothendorff locum Ordinarij Advocati Leopoliensem tenens"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislai Dziewięciolidicia Doctoris collegae nostri Consularis"
+    }
+  ]
+}

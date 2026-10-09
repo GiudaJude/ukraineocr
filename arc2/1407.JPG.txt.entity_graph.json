@@ -1,0 +1,276 @@
+{
+  "document_id": "arc2/1407.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Król",
+      "mention_texts": [
+        "Valentini Krol Fratricidæ",
+        "Valentinum Krol",
+        "Valentino Krol"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Ciuis Leopoliensis",
+        "fratrem ipsius"
+      ],
+      "justification": "Named citizen of Lviv acting in the court registration regarding a house inheritance/debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Ciuitatis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Ciuitatis"
+      ],
+      "justification": "Corpus place name (Leopolis/Lviv)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio suo",
+        "actis nostris",
+        "iudicio",
+        "Officio præsenti"
+      ],
+      "descriptive_mentions": [
+        "ijsdem actis nostris"
+      ],
+      "justification": "Corpus council office producing and registering the records."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "Platea Crakowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Corpus street name in Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0113: Stanislaus Slachetka",
+      "mention_texts": [
+        "Słathethka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Corpus person owning an adjoining tenement house on Kraków Street."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Kurowski",
+      "mention_texts": [
+        "Gregorij Kurowskis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of neighboring tenement house on Kraków Street."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum mentioned in the prior inscription."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Król",
+      "mention_texts": [
+        "Sebastianum Krol Fratricidam"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "olim",
+        "fratrem"
+      ],
+      "justification": "Deceased brother of Valentinus Król."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Zubrza Town Council",
+      "mention_texts": [
+        "Magistratus Zubrzensis",
+        "Magistratum",
+        "Magistratui præfato Zubrzensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal authority of Zubrza giving/receiving quittance."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Zubrza",
+      "mention_texts": [
+        "Zubrzensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town/village near Lviv referred to in 'natione Zubrzensis' and 'coloni Zubrzensis'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0031: 1589",
+      "mention_texts": [
+        "1589"
+      ],
+      "descriptive_mentions": [
+        "anno domini die vt supra"
+      ],
+      "justification": "Year given in the margin/text for the act."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zubrzeński",
+      "mention_texts": [
+        "Stanislaus",
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "natione Zubrzensis",
+        "Filius",
+        "seruitor pecuniæ"
+      ],
+      "justification": "Person appearing in the second entry receiving money for his paternal plot."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus",
+      "mention_texts": [
+        "Sebastiani"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "coloni Zubrzensis",
+        "Fausti Sebastiani prioris sui mariti"
+      ],
+      "justification": "Deceased father of Stanislaus and prior husband of Catharina."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catharinæ"
+      ],
+      "descriptive_mentions": [
+        "superstitis viduæ",
+        "uxoris"
+      ],
+      "justification": "Surviving mother of Stanislaus, former wife of Sebastian and present wife of Stephanus Sutor."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Sutor",
+      "mention_texts": [
+        "Stephani Sutoris"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbanorum Leopoliensium"
+      ],
+      "justification": "Cobbler from the Lviv suburb, current husband of Catharina."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Gadzimski",
+      "mention_texts": [
+        "Hieronymi Gadzimsky"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "militis"
+      ],
+      "justification": "Soldier in the company of Paulus Jazłowiecki, master of Stanislaus."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Paulus Jazłowiecki",
+      "mention_texts": [
+        "Pauli Iasłowiecij"
+      ],
+      "descriptive_mentions": [
+        "Illustrissimi"
+      ],
+      "justification": "Commander of the military company."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Albertus Fedorowicz",
+      "mention_texts": [
+        "Albertum Ferorouici Foederiti"
+      ],
+      "descriptive_mentions": [
+        "Nobiliem",
+        "Fratrem"
+      ],
+      "justification": "Noble mentioned in connection with Stanislaus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "has_kinship_with",
+      "tail_entity_id": "E8",
+      "evidence": "debiti per Famatum olim Sebastianum Krol Fratricidam fratrem ipsius Valentini"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "has_kinship_with",
+      "tail_entity_id": "E13",
+      "evidence": "Filius olim Sebastiani coloni Zubrzensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "has_kinship_with",
+      "tail_entity_id": "E14",
+      "evidence": "Catharinæ superstitis viduæ ... coniugum Filius"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "has_kinship_with",
+      "tail_entity_id": "E15",
+      "evidence": "Catharinæ superstitis viduæ ... Honesti Stephani Sutoris Suburbanorum Leopoliensium uxoris"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "has_kinship_with",
+      "tail_entity_id": "E13",
+      "evidence": "Fausti Sebastiani prioris sui mariti"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "is_servant_of",
+      "tail_entity_id": "E16",
+      "evidence": "seruitor pecuniæ Generosi Hieronymi Gadzimsky militis"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "is_servant_of",
+      "tail_entity_id": "E17",
+      "evidence": "militis ex cohorte Illustrissimi Pauli Iasłowiecij"
+    }
+  ]
+}

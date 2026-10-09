@@ -1,0 +1,210 @@
+{
+  "document_id": "arc2/1403.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Adam Iwański",
+      "mention_texts": [
+        "Adam Iwarnski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Appears as Nobilis Adam Iwarnski, acknowledging receipt of payment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Georgius Jurkowicz",
+      "mention_texts": [
+        "Georgij Swiastkowic Furman",
+        "Georgio Iurszkowicz Furmano"
+      ],
+      "descriptive_mentions": [
+        "Fammato",
+        "Cive Leopoliensi",
+        "eumdem"
+      ],
+      "justification": "Debtor and carter (Furman), citizen of Lviv, settling debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "Florenis trecentis"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Sum of 300 florins paid by Georgius Jurkowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv as place of citizenship and actum location."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni",
+        "Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kingdom of Poland and Polish currency specified."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas Piskorowski",
+      "mention_texts": [
+        "Tomas Piskorowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Vice Notarius",
+        "Famulus Generosi Domini Pauli Iesiezki Secretarij et Secretariatum Sacrae Regiae Maiestatis Notarij"
+      ],
+      "justification": "Noble vice-notary appointing a plenipotentiary."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Jasiecki",
+      "mention_texts": [
+        "Pauli Iesiezki"
+      ],
+      "descriptive_mentions": [
+        "Generosi Domini",
+        "Secretarij et Secretariatum Sacrae Regiae Maiestatis Notarij"
+      ],
+      "justification": "Royal secretary and notary whose famulus is Thomas Piskorowski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The king whose secretary is Paulus Jasiecki."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Gyritius",
+      "mention_texts": [
+        "Jacobi Gyrius",
+        "Jacobum Gyritium"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum",
+        "Artium Baccalaureum",
+        "missum verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "Plenipotens"
+      ],
+      "justification": "Bachelor of arts appointed plenipotentiary by Thomas Piskorowski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio praesenti",
+        "Officij Advocatialis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv municipal offices mentioned in the case."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sobierajowic",
+      "mention_texts": [
+        "Toma Sobierayowic"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Longamentarij artificij Swiętoborani sociis",
+        "incarceratis"
+      ],
+      "justification": "One of the incarcerated defendants in the wounding matter."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Luca"
+      ],
+      "descriptive_mentions": [
+        "Longamentarij artificij Swiętoborani sociis",
+        "incarceratis"
+      ],
+      "justification": "Lucas, peer of Thomas Sobierajowic involved in the wounding action."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festum Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast used in the date formula."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria tertia post Festum Sancti Michaelis Archangeli proxima Anno Domini 1590",
+        "Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document date: Tuesday after Michaelmas 1590."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Georgio Iurszkowicz Furmano Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "settled_debt_with",
+      "tail_entity_id": "E2",
+      "evidence": "satisfactum esse sibi de Florenis trecentis pecuniae et numeri Polonicalis debiti sibi iuxta certam inscriptionem contracti a Fammato Georgio Iurszkowicz Furmano Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "subordinate_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nobilis Tomas Piskorowski Vice Notarius et Famulus Generosi Domini Pauli Iesiezki"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "subordinate_of",
+      "tail_entity_id": "E8",
+      "evidence": "Pauli Iesiezki Secretarij et Secretariatum Sacrae Regiae Maiestatis Notarij"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "has_legal_representative",
+      "tail_entity_id": "E9",
+      "evidence": "fecit constituit et solenniter ordinauit missum verum legitimum indubitatumque Plenipotentem et mandatarium Ingenuum Jacobum Gyritium"
+    }
+  ]
+}

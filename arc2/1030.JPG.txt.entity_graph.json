@@ -1,0 +1,172 @@
+{
+  "document_id": "arc2/1030.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Anna Kalecina",
+      "mention_texts": [
+        "Kalecina",
+        "Anna",
+        "Anna Kalecina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consortis",
+        "eiusdem Anna",
+        "praefata Anna Kalecina"
+      ],
+      "justification": "Party named as petitioner in the testimony entry and wife of Stanislaus Kaleta."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Knog",
+      "mention_texts": [
+        "Andreas Knog"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Caussenarius",
+        "Suburbanus Leopoliensis",
+        "testis perhibens"
+      ],
+      "justification": "Witness appearing in court to give testimony for Anna Kalecina."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in suburban descriptions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Czerniechowska Street",
+      "mention_texts": [
+        "Cerniechowsska"
+      ],
+      "descriptive_mentions": [
+        "platea eiusdem Suburbij dicta Cerniechowsska"
+      ],
+      "justification": "Street in the Lviv suburb where Andreas Knog resides."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kaleta",
+      "mention_texts": [
+        "Stanislai Kaleta"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sutris de Suburbio Leopoliensi"
+      ],
+      "justification": "Shoemaker from the Lviv suburb, husband of Anna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-2505: Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Sadorski"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem sibi assumption agentis"
+      ],
+      "justification": "Spokesperson/prolocutor acting on behalf of Anna Kalecina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Gladysz",
+      "mention_texts": [
+        "Valentini Gladysz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the title of the acquittance/quietatio record."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Petrus Suchorabski",
+      "mention_texts": [
+        "Petrus Suchorabski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famatus",
+        "Successores"
+      ],
+      "justification": "Noble appearing as successor to the deceased Agnes Kroniczyna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Caspar Tembarowski",
+      "mention_texts": [
+        "Caspar Tembarowski"
+      ],
+      "descriptive_mentions": [
+        "Pellio",
+        "Successores"
+      ],
+      "justification": "Furrier appearing as successor to the deceased Agnes Kroniczyna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Catherina Zwonczanka",
+      "mention_texts": [
+        "Catherina Zwonczan-\nka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Successores"
+      ],
+      "justification": "Woman appearing as successor to the deceased Agnes Kroniczyna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Agnes Kroniczyna",
+      "mention_texts": [
+        "Agnetis Kroniczyna"
+      ],
+      "descriptive_mentions": [
+        "Honesta olim"
+      ],
+      "justification": "Deceased woman whose estate successors appear in court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Anna Honesti Stanislai Kaleta Sutris de Suburbio Leopoliensi consortis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "heir_of",
+      "tail_entity_id": "E11",
+      "evidence": "Petrus Suchorabski ... tanquam Successores Honesta olim Agnetis Kroniczyna"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "heir_of",
+      "tail_entity_id": "E11",
+      "evidence": "Caspar Tembarowski Pellio ... tanquam Successores Honesta olim Agnetis Kroniczyna"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "heir_of",
+      "tail_entity_id": "E11",
+      "evidence": "Catherina Zwonczan- ka tanquam Successores Honesta olim Agnetis Kroniczyna"
+    }
+  ]
+}

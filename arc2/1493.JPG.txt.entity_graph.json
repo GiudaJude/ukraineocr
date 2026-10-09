@@ -1,0 +1,174 @@
+{
+  "document_id": "arc2/1493.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Honratorum Iuris Fidelium",
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court records (Actis praesentibus) and the court officials (Honratorum Iuris Fidelium) refer to the Lviv municipal office/court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Aromatanus",
+      "mention_texts": [
+        "Mathias Aromatanus"
+      ],
+      "descriptive_mentions": [
+        "idem"
+      ],
+      "justification": "Appears acting on his own behalf and on behalf of his wife."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Wife of Mathias Aromatanus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "coniugis suae"
+      ],
+      "justification": "Mentioned as the wife of Mathias Aromatanus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Szakowic",
+      "mention_texts": [
+        "Bartholomaeus Szakowic"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis",
+        "Iudex Iuratus Leopoliensis"
+      ],
+      "justification": "The grantor of the power of attorney, identified as a sworn judge of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Kalinowski",
+      "mention_texts": [
+        "Petrum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Tutorem et Curatorem"
+      ],
+      "justification": "Noble who acts as tutor and curator for Bartholomaeus Szakowic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Uberwic",
+      "mention_texts": [
+        "Bartholomaei Uberwyc",
+        "Bartholomaeum Uberwic"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Canonicum Iuris Civilis Magdeburgensis mea Civitate Jerosolawien Iurati",
+        "verum certum legitimumque Lemptorem et mandatarium",
+        "plenipotenti",
+        "Plenipotens"
+      ],
+      "justification": "The appointed attorney/mandatary from Jarosław."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Jarosław",
+      "mention_texts": [
+        "Civitate Jerosolawien",
+        "Civitate Jaroslawiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Bartholomaeus Uberwic is a court official and where actions are to be pursued."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kaskowic",
+      "mention_texts": [
+        "Paulo Kaskowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Lublinen"
+      ],
+      "justification": "Citizen of Lublin involved in legal actions with the grantor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublinen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of which Paulus Kaskowic is a citizen."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where Szakowic serves as judge and where the act is enacted."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "feria sexta post festum S. Martini Episcopi proxima",
+      "mention_texts": [
+        "feria sexta post festum S. Martini Episcopi proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date on which the legal action was recorded."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathias Aromatanus suo et nomine coniugis suae agens"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "Bartholomaeus Szakowic Iudex Iuratus Leopoliensis per Nobilem Petrum Kalinowski in Tutorem et Curatorem sibi ad eum praesentem actum assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "appoints_agent",
+      "tail_entity_id": "E6",
+      "evidence": "constituit et solenniter ordinavit in suum verum certum legitimumque Lemptorem et mandatarium Honoratum Bartholomaeum Uberwic"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E10",
+      "evidence": "Bartholomaeus Szakowic Iudex Iuratus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Bartholomaeum Uberwic Canonicum Iuris Civilis Magdeburgensis mea Civitate Jerosolawien Iurati"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Paulo Kaskowic Cive Lublinen"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "document_id": "arc2/0746.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Florenis sexaginta"
+      ],
+      "descriptive_mentions": [
+        "pernota et numeri Polonicalis debiti principalibus suis"
+      ],
+      "justification": "Text states 'de Florenis sexaginta pernota et numeri Polonicalis debiti principalibus suis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "feria quinta post Festum Sanctissimi Zachariae proxima Anno eodem currenti",
+      "mention_texts": [
+        "feria quinta post Festum Sanctissimi Zachariae proxima Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous recorded contract mentioned in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0825: Laurentius Zaleski",
+      "mention_texts": [
+        "Laurentio Zaleski"
+      ],
+      "descriptive_mentions": [
+        "Nobili et Famato",
+        "Coniugibus Civibus Leopoliensibus"
+      ],
+      "justification": "Debtor/party acknowledging satisfaction: 'Nobili et Famato Laurentio Zaleski'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus Civibus Leopoliensibus"
+      ],
+      "justification": "Wife of Laurentius Zaleski: 'Sophia Coniugibus Civibus Leopoliensibus'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensi",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the entry in adjectival forms."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Tomas Chmielowski",
+      "mention_texts": [
+        "Tomas Chmielowskij",
+        "Tomas Chmielowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Actor"
+      ],
+      "justification": "Complainant before the council: 'Nobilis Tomas Chmielowski'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Officii",
+        "Officii eiusdem"
+      ],
+      "justification": "Judicial authority receiving the appearance: 'Coram Officio Consulari Leopoliensi'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Ratendorf",
+        "Martinum Ratendorff",
+        "Martinus Ratendorff"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Iuris Iudaeorum Scabinum Civem Leopoliensem",
+        "Honoratus",
+        "ipse idem"
+      ],
+      "justification": "Scabinus and party summoned regarding the custody of horses."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio Advocatiali"
+      ],
+      "descriptive_mentions": [
+        "praedicti Ordinarii Advocati Officio"
+      ],
+      "justification": "Court in which Jacobus Wróblewski presided: 'praesidenti Officio Advocatiali'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wróblewski",
+      "mention_texts": [
+        "Jacobo Wróblewski"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "praesidenti Officio Advocatiali",
+        "praedicti Ordinarii Advocati",
+        "Ordinario Advocato"
+      ],
+      "justification": "Ordinary advocate mentioned in relation to the legal dispute: 'Honorato Jacobo Wróblewski'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Boguszewski",
+      "mention_texts": [
+        "Boguszewski"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "praefato",
+        "violento arreptatore equorum controversorum"
+      ],
+      "justification": "Party involved in the lawsuit over horses: 'cum Nobili Boguszewski'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Laurentio Zaleski et Sophia Coniugibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Laurentio Zaleski et Sophia Coniugibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "praesidenti Officio Advocatiali Honorato Jacobo Wróblewski"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "document_id": "arc2/1232.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Mathias Justior",
+      "mention_texts": [
+        "Mathia Justiore"
+      ],
+      "descriptive_mentions": [
+        "mariti prioris"
+      ],
+      "justification": "Father of the children from the first marriage."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Adam",
+      "mention_texts": [
+        "Adams"
+      ],
+      "descriptive_mentions": [
+        "liberis",
+        "praedicti liberi"
+      ],
+      "justification": "Child of Mathias Justior from the first marriage."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sina",
+      "mention_texts": [
+        "Si-na"
+      ],
+      "descriptive_mentions": [
+        "liberis",
+        "praedicti liberi"
+      ],
+      "justification": "Child from the first marriage with Mathias Justior."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus",
+      "mention_texts": [
+        "Alberto"
+      ],
+      "descriptive_mentions": [
+        "marito",
+        "secundi matrimonij"
+      ],
+      "justification": "Husband from the second marriage."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joanne"
+      ],
+      "descriptive_mentions": [
+        "filio",
+        "liberorum secundi matrimonij"
+      ],
+      "justification": "Son of Albertus from the second marriage."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacko Kuczyłowicz",
+      "mention_texts": [
+        "Jacko Kuczyłowicz"
+      ],
+      "descriptive_mentions": [
+        "eundem Emptorem",
+        "Empti",
+        "idem",
+        "eidem Emptori"
+      ],
+      "justification": "Buyer of the house and garden."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Semozen"
+      ],
+      "descriptive_mentions": [
+        "Honorabilem D.",
+        "suum verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "suus Plenipotens"
+      ],
+      "justification": "Appointed legal proxy before the civil court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio Ciuili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which resignation of property is to be made."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City of Lviv mentioned in official titles and court designations."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Ostroszowski Butwojt",
+      "mention_texts": [
+        "Gregorius Ostroszowski",
+        "Butwojt"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Doctor",
+        "Aduocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate and doctor appearing in office."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes So- kol"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini"
+      ],
+      "justification": "Bench judge of Lviv appearing in office."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adam Smierzek"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini"
+      ],
+      "justification": "Bench judge of Lviv appearing in office."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Euphemia Radkowa",
+      "mention_texts": [
+        "Eufemia Rustiwa",
+        "Eufemia Radkowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta vidua"
+      ],
+      "justification": "Widow requesting legal entry of possession."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Iwan Młynarz",
+      "mention_texts": [
+        "Swani Mlynarz",
+        "Radko Radsem"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "dicti",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Deceased miller and citizen of Lviv, late husband of Euphemia."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "liberis matrimonij prioris cum Mathia Justiore vocat Adams"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "liberis matrimonij prioris cum Mathia Justiore vocat Adams et Si-na"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "secundi matrimonij cum Alberto marito vero Joanne filio"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Eufemia Radkowa, Famati olim Swani Mlynarz dicti Radko Radsem Ciuis Leopoliensis relicta vidua"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Ciuis Leopoliensis"
+    }
+  ]
+}

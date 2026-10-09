@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/0455.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliense",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council is located and acts are performed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "officio nostro",
+        "Officij nostri",
+        "eodem officio"
+      ],
+      "justification": "City council of Lviv acting as the judicial body."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-1306: Henricus",
+      "mention_texts": [
+        "Henricum"
+      ],
+      "descriptive_mentions": [
+        "fratrem suum germanum",
+        "conuutorem",
+        "alter conuocator"
+      ],
+      "justification": "Brother of Lucas Auenszog traveling to Germany."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Luxtam fuenskat"
+      ],
+      "descriptive_mentions": [
+        "rei"
+      ],
+      "justification": "The party appearing before the council, identified as Lucas Auenszog."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Germany",
+      "mention_texts": [
+        "Germaniam"
+      ],
+      "descriptive_mentions": [
+        "patriam"
+      ],
+      "justification": "Homeland to which Henricus departed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato post Sancti Bartolomei proximo Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Dziewulski",
+      "mention_texts": [
+        "Christophorus Dziewulski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "Vexillifer Trocensis Sacrae Regiae Maiestatis aulicus"
+      ],
+      "justification": "Royal courtier and ensign of Trakai."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland mentioned in the courtier's title."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lugowski",
+      "mention_texts": [
+        "Joannes Lugowski"
+      ],
+      "descriptive_mentions": [
+        "generosus Nobilis",
+        "famulus suus"
+      ],
+      "justification": "Servant/famulus of Christophorus Dziewulski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schembek",
+      "mention_texts": [
+        "Stanislai Schembek",
+        "Stanislao Schembegk"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Ciue et Mercatore Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Lviv burgher and merchant settling a dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Henricum fratrem suum germanum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "servant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannes Lugowski famulus suus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "courtier_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sacrae Regiae Maiestatis aulicus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Ciue et Mercatore Leopoliensi"
+    }
+  ]
+}

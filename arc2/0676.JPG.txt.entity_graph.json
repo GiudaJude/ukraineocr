@@ -1,0 +1,214 @@
+{
+  "document_id": "arc2/0676.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Txorek",
+      "mention_texts": [
+        "Txorek"
+      ],
+      "descriptive_mentions": [
+        "maritum",
+        "mariti sui"
+      ],
+      "justification": "Named as the husband of Lucia Txorkowa whose authentic consent must be produced."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Lucia Txorkowa",
+      "mention_texts": [
+        "Lucia Tzorzkowa",
+        "Luciae Txor- kowa"
+      ],
+      "descriptive_mentions": [
+        "praedicta",
+        "eadem"
+      ],
+      "justification": "Seller of the house who must present her husband's consent or refund the money."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Choma Wylk",
+      "mention_texts": [
+        "Choma Wylk",
+        "Cho- ma Wylk"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "idem"
+      ],
+      "justification": "Buyer of the house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount received for the sale of the house to be refunded if consent is lacking."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos centum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Remaining balance to be paid upon submission of the husband's consent."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "actis praesentibus"
+      ],
+      "descriptive_mentions": [
+        "officio",
+        "officium",
+        "officio eodem"
+      ],
+      "justification": "The municipal council/chancery before which the contract and consent are registered."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die et anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the act referring to the date above."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Scholz",
+        "Jacobus Scholz Stadniczer"
+      ],
+      "descriptive_mentions": [
+        "Civis",
+        "Mercator Civis Leopoliensis"
+      ],
+      "justification": "Lviv citizen and merchant submitting registration notes for a property sale."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gelasinus",
+      "mention_texts": [
+        "Joannes Gelasinus",
+        "Joannem Gelasinum"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem"
+      ],
+      "justification": "Citizen who sold a share of the masonry house and garden to Jacobus Scholz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City of Lviv where the parties hold citizenship and properties are situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Catherina Grzebieniowa",
+      "mention_texts": [
+        "Catherinae Grz- blionvy"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner in Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Casparis Brzesdziczki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner in Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Leopoliensi Haliciaskie",
+        "Haliciaskie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Halych suburb of Lviv where the garden is located."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Terniczowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the garden is located."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Paulus Rozentyp",
+      "mention_texts": [
+        "Pauli Rozentypiam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor adjacent to the garden plot."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "mariti sui eadem Lucia Tzorzkowa"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Mercator Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Joannem Gelasinum Civem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in Suburbio Leopoliensi Haliciaskie dicto in platea Terniczowska"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "in Suburbio Leopoliensi Haliciaskie dicto"
+    }
+  ]
+}

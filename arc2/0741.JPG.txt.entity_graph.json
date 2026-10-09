@@ -1,0 +1,117 @@
+{
+  "document_id": "arc2/0741.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "104 florins",
+      "mention_texts": [
+        "104. florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money secured and mortgaged in the inscription."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestate",
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "King of Poland referenced in legal exception clauses."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "The Kingdom of Poland referenced via its dignitaries ('Proceribus Regni')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officium"
+      ],
+      "justification": "The municipal council office of Lviv issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Bram",
+      "mention_texts": [
+        "Christophoro",
+        "Christophorum Bram",
+        "Christophorus"
+      ],
+      "descriptive_mentions": [
+        "Crumenario",
+        "Actorem",
+        "Crumenarium",
+        "praedictus",
+        "Actor",
+        "eundem",
+        "ipsi",
+        "praefatum Actorem",
+        "Actori"
+      ],
+      "justification": "Purse-maker (crumenarius) acting as plaintiff against guild elders."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Venceslaus Swieboda",
+      "mention_texts": [
+        "Venceslaum Swieboda"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Crumenarios Magistros Seniores",
+        "citatos",
+        "ipsos citatos",
+        "citati"
+      ],
+      "justification": "Senior master of the purse-makers' guild cited as defendant."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kendzierszki",
+      "mention_texts": [
+        "Jacobum Kendzierszki"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Crumenarios Magistros Seniores",
+        "citatos",
+        "ipsos citatos",
+        "citati"
+      ],
+      "justification": "Senior master of the purse-makers' guild cited as defendant alongside Venceslaus Swieboda."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "litigates_against",
+      "tail_entity_id": "E6",
+      "evidence": "inter Actorem Christophorum Bram Crumenarium Actorem et Famatos Venceslaum Swieboda atque Jacobum Kendzierszki Crumenarios Magistros Seniores citatos"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "litigates_against",
+      "tail_entity_id": "E7",
+      "evidence": "inter Actorem Christophorum Bram Crumenarium Actorem et Famatos Venceslaum Swieboda atque Jacobum Kendzierszki Crumenarios Magistros Seniores citatos"
+    }
+  ]
+}

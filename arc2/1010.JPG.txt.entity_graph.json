@@ -1,0 +1,144 @@
+{
+  "document_id": "arc2/1010.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named city where the legal acts are enacted and jurisdiction of the Tribune."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra",
+        "Sabbato ante Dominicam oculi proximo Anno eodem currenti",
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date references to the current year 1595 and specific recording dates within the same year."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "eisdem Actis",
+        "Actu"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council records in which the prior and current acts are entered."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Joviant Barczianerus",
+      "mention_texts": [
+        "Jacobus Joviant Barczianerus"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus"
+      ],
+      "justification": "Noble recognizant who cedes back rights over the Woloszkowicze estate to Hinko Woloszkowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Woloszowicz",
+      "mention_texts": [
+        "Bartholomeo Woloszo- wicz"
+      ],
+      "descriptive_mentions": [
+        "Provido"
+      ],
+      "justification": "Burgher from whom Jacobus Joviant Barczianerus had previously acquired rights."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Wołoszkowice",
+      "mention_texts": [
+        "Woloszkowicze"
+      ],
+      "descriptive_mentions": [
+        "bona",
+        "bona praefata"
+      ],
+      "justification": "The estate over which rights are being transferred."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hinko Woloszkowicz",
+      "mention_texts": [
+        "Hinkonis Woloszkowicz"
+      ],
+      "descriptive_mentions": [
+        "eiusdem",
+        "praefati"
+      ],
+      "justification": "Recipient of the retrocession of rights concerning the estate of Woloszkowicze."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sienko Woloszowic",
+      "mention_texts": [
+        "Sienko Woloszowic"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "mente et corpore sanus"
+      ],
+      "justification": "Burgher who cedes his entire hereditary rights to Caspar Kościński."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kościński",
+      "mention_texts": [
+        "Casparo Koscinski",
+        "Casparis Koscioszynski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Tribuno Leopoliensi",
+        "cessionarium suum",
+        "praefati Generosi"
+      ],
+      "justification": "Tribune of Lviv who acquires the hereditary rights from Sienko Woloszowic."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "ceded_rights_to",
+      "tail_entity_id": "E4",
+      "evidence": "ex vicecisionis a Provido Bartholomeo Woloszo- wicz iuxta inscriptionem superius in eisdem Actis sub Actu Sabbato ante Dominicam oculi proximo Anno eodem currenti contentam acquisitum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "ceded_rights_to",
+      "tail_entity_id": "E7",
+      "evidence": "hoc idem ius in personam eiusdem Hinkonis Woloszkowicz plenarie retrocedit"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "ceded_rights_to",
+      "tail_entity_id": "E9",
+      "evidence": "cedere ius suum totum et integrum haereditarium quodcunque ... Generoso Casparo Koscinski Tribuno Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "held_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Generoso Casparo Koscinski Tribuno Leopoliensi"
+    }
+  ]
+}

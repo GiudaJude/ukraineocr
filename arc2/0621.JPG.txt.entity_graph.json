@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/0621.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czekrzowski",
+      "mention_texts": [
+        "Joannem Czekrzowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "plenipotentes suos"
+      ],
+      "justification": "partibus actorea per Nobilem Joannem Czekrzowski ... plenipotentes suos"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łakarzewicz",
+      "mention_texts": [
+        "Joannem Łakarzewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "plenipotentes suos"
+      ],
+      "justification": "Citata vero per Famatum Joannem Łakarzewicz plenipotentes suos"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0060: ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Officij Castrensis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "sententia Officij Castrensis Leopoliensis retractata"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Officij Castrensis Leopoliensis ... Actum Leopoli"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "officium Civile"
+      ],
+      "descriptive_mentions": [],
+      "justification": "officium Civile eidem iustitiam iuris ordine administrare debere"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Datus Cracoviae"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta post Festum Sancti Francisci proxima. Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "feria quarta post Festum Sancti Francisci proxima. Anno Domini 1595"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regnorum nostrorum",
+        "Regni"
+      ],
+      "justification": "Regnorum nostrorum Poloniae octavo ... Joannes Tarnowski Regni Poloniae Vicecancellarius"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [
+        "Regnorum nostrorum"
+      ],
+      "justification": "Regnorum nostrorum Poloniae octavo Sueciae Secundo"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joannes Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Regni Poloniae Vicecancellarius",
+        "Vicecancellarius"
+      ],
+      "justification": "Joannes Tarnowski Regni Poloniae Vicecancellarius"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens",
+        "Officium vero Consulare"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "ad Officium praesens sunt remissi ... Officium vero Consulare motu proprio"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Officij Castrensis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannes Tarnowski Regni Poloniae Vicecancellarius"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Actum Leopoli ... Officium vero Consulare"
+    }
+  ]
+}

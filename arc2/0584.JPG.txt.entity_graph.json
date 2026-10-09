@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0584.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Domaniewski",
+      "mention_texts": [
+        "Domaniewski"
+      ],
+      "descriptive_mentions": [
+        "tutorem"
+      ],
+      "justification": "Named as tutor assumed in the legal proceeding at the start of the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Foltinek",
+      "mention_texts": [
+        "Simone Foltinek",
+        "Simonem Cingulatorem"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "priorem maritum"
+      ],
+      "justification": "Named in the decree heading as Simone Foltinek and in the text as the deceased prior husband of Catherina Brzemieńska."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Foltinek",
+      "mention_texts": [
+        "Andream Foltinek"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Pellificem",
+        "Actorem",
+        "Cives Leopolienses"
+      ],
+      "justification": "Named as the plaintiff (actor) and furrier in the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Tonam ciat",
+      "mention_texts": [
+        "Tonam ciat"
+      ],
+      "descriptive_mentions": [
+        "Mensatorem",
+        "citatum",
+        "Cives Leopolienses"
+      ],
+      "justification": "Named as the cited defendant (mensator) in the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Catherina Brzemieńska",
+      "mention_texts": [
+        "Catherinam Brzemineska",
+        "Catherina Brzemineska"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "praedictae"
+      ],
+      "justification": "Named as the deceased wife whose inheritance rights are subject to succession."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Caszinus Brzeminski",
+      "mention_texts": [
+        "Caszinum Brzeminski"
+      ],
+      "descriptive_mentions": [
+        "Famatum"
+      ],
+      "justification": "Named as Famatum Caszinum Brzeminski involved in the devolution of the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Petrus",
+      "mention_texts": [
+        "Petro"
+      ],
+      "descriptive_mentions": [
+        "ipsi"
+      ],
+      "justification": "Individual to whom the property condescended through Caszinus Brzeminski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis ijsdem",
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Actis",
+        "officij Consularis"
+      ],
+      "justification": "The municipal council issuing the decree and maintaining the records."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in the council title and the citizenship of the parties."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse of",
+      "tail_entity_id": "E5",
+      "evidence": "post Famatum olim Simonem Cingulatorem praedictae Catherina Brzemineska priorem maritum spectan-"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen of",
+      "tail_entity_id": "E9",
+      "evidence": "Andream Foltinek Pellificem Actorem et Tonam ciat Mensatorem citatum Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen of",
+      "tail_entity_id": "E9",
+      "evidence": "Tonam ciat Mensatorem citatum Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located in",
+      "tail_entity_id": "E9",
+      "evidence": "officij Consularis Leopoliensis"
+    }
+  ]
+}

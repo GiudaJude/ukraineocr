@@ -1,0 +1,191 @@
+{
+  "document_id": "arc2/0859.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paula Czop",
+      "mention_texts": [
+        "Paulam Czop"
+      ],
+      "descriptive_mentions": [
+        "praenominatam",
+        "matrem"
+      ],
+      "justification": "Mother mentioned in connection with legacies from Sambor castle records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samboriensibus"
+      ],
+      "descriptive_mentions": [
+        "Actis Castrensibus"
+      ],
+      "justification": "Town whose castle court records are referenced."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kołomyjski",
+      "mention_texts": [
+        "Casparo Colomyiski",
+        "Caspare",
+        "Casparem",
+        "Casparo",
+        "Caspar"
+      ],
+      "descriptive_mentions": [
+        "praefatis",
+        "Coniugibus",
+        "praedictos",
+        "eosdem",
+        "eisdem",
+        "praenominati"
+      ],
+      "justification": "Spouse of Catherina receiving renunciation of rights to property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherinam",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "praefatis",
+        "praedictos",
+        "eosdem",
+        "eisdem",
+        "praenominati"
+      ],
+      "justification": "Wife of Caspar Kołomyjski and daughter of Paulus Czop (Catherina Czopowna)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis",
+        "Agneta",
+        "Agnetem"
+      ],
+      "descriptive_mentions": [
+        "dictae",
+        "praefatis",
+        "generositatibus",
+        "eosdem"
+      ],
+      "justification": "Daughter of Paulus Czop (Agnes Czopowa) renouncing rights."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Caspar Starski",
+      "mention_texts": [
+        "Casparis Starzski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Presbyteri",
+        "praedicti",
+        "Preshyteri"
+      ],
+      "justification": "Nobleman and priest whose potential claims are safeguarded against."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertum Domygala"
+      ],
+      "descriptive_mentions": [
+        "supranominatum",
+        "Fideiussorem"
+      ],
+      "justification": "Guarantor (fideiussor) appointed for eviction defense."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Perczyński",
+      "mention_texts": [
+        "Thoma",
+        "Thomam Perczyński"
+      ],
+      "descriptive_mentions": [
+        "praefatis",
+        "generositatibus",
+        "eosdem"
+      ],
+      "justification": "Party acting alongside Agnes in the property transaction."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv mentioned in the scabinal court title."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Eaposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Banned Court before which registration was to occur."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli Czop"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "parentis sui"
+      ],
+      "justification": "Deceased parent of Agnes whose estate is being settled."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "praefatis Casparo Colomyiski et Catherina Coniugibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "praefatis Casparo Colomyiski et Catherina Coniugibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Agnetem de mobilibus bonis cuiuscunque generis post mortem praefati Pauli Czop parentis sui"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Agnetem de mobilibus bonis cuiuscunque generis post mortem praefati Pauli Czop parentis sui"
+    }
+  ]
+}

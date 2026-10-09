@@ -1,0 +1,234 @@
+{
+  "document_id": "arc2/0602.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "summa praefata",
+        "summa principali"
+      ],
+      "justification": "Sum of 200 florins mentioned in the preceding contract secured against all goods."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officij"
+      ],
+      "justification": "The consular council/office of Lviv issuing the decree and providing execution."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Mazurowa",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "relictam",
+        "consortem",
+        "Actricem",
+        "suae"
+      ],
+      "justification": "Anna Mazurowa, widow of Joannes Mazur, current wife of Mathias Bartosz, plaintiff."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Mazur",
+      "mention_texts": [
+        "Joannis Mazur",
+        "Mazur",
+        "Joanne Mazur"
+      ],
+      "descriptive_mentions": [
+        "ciuium",
+        "olim",
+        "praefati olim",
+        "eodem"
+      ],
+      "justification": "Deceased citizen of Lviv, former husband of Anna and father of Dorothea."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Bartosz",
+      "mention_texts": [
+        "Mathiae Bartosz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "incolae Leopoliensis"
+      ],
+      "justification": "Current husband of Anna Mazurowa, resident of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in civic titles and jurisdiction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Horodelski",
+      "mention_texts": [
+        "Andream Horodelski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Executorem suum"
+      ],
+      "justification": "Noble representative/executor acting on behalf of the plaintiff Anna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobum Ogorzałek"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Ciues Leopolienses",
+        "citatos",
+        "tutores",
+        "praefati tutores"
+      ],
+      "justification": "Jacobus Ogorzałek, citizen and guardian of the children of the late Mazur."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sledz",
+      "mention_texts": [
+        "Jacobum Sledz"
+      ],
+      "descriptive_mentions": [
+        "Pannificem",
+        "Ciues Leopolienses",
+        "citatos",
+        "tutores",
+        "praefati tutores"
+      ],
+      "justification": "Clothier citizen and guardian of the children of the late Mazur."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "filiae suae",
+        "filiae"
+      ],
+      "justification": "Daughter of Anna from her second marriage with the late Joannes Mazur."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "15 florins",
+      "mention_texts": [
+        "quindecim florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "census",
+        "Censu"
+      ],
+      "justification": "Annual house rental sum of 15 florins from which the third part is owed."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0056: 5 florins",
+      "mention_texts": [
+        "florenos quinque"
+      ],
+      "descriptive_mentions": [
+        "tertia sorte"
+      ],
+      "justification": "The five florins representing the third share of the rent to be paid."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda ante Festum Sancti Martini Confessoris proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The legal date of registration: Monday before the feast of St. Martin, 1595."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Annam olim Joannis Mazur ciuium relictam"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "ad praesens vero Honesti Mathiae Bartosz incolae Leopoliensis secundo ac actu nuptiarum consortem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "filiae suae Dorotheae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "ex secundo matrimonio cum eodem Joanne Mazur procreatae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "agent_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Nobilem Andream Horodelski Executorem suum Actricem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Mathiae Bartosz incolae Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Jacobum Ogorzałek atque Jacobum Sledz Pannificem Ciues Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Jacobum Ogorzałek atque Jacobum Sledz Pannificem Ciues Leopolienses"
+    }
+  ]
+}

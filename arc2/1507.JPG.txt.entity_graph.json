@@ -1,0 +1,146 @@
+{
+  "document_id": "arc2/1507.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named city referred to in the text in adjective forms."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Officium D. Advocati"
+      ],
+      "descriptive_mentions": [
+        "Officii",
+        "sententia Officii"
+      ],
+      "justification": "The municipal council issuing and handling the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Daniel Lorek",
+      "mention_texts": [
+        "Danielis Lutek",
+        "Danielem Lorek"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Lainium",
+        "actorem",
+        "Actoris",
+        "Actori",
+        "Actor"
+      ],
+      "justification": "Butcher acting as plaintiff in the property dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus",
+      "mention_texts": [
+        "Paulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named party in the decree heading ('Decretum Pro Paulo Danielis Lutek')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "consortem legitimam",
+        "citata",
+        "eadem citata",
+        "citata praedicta"
+      ],
+      "justification": "Defendant in the lawsuit, widow of Bartholomaeus and remarried to Blasius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0837: Bartholomeus",
+      "mention_texts": [
+        "Bartholomei",
+        "Bartholomeum"
+      ],
+      "descriptive_mentions": [
+        "Lanni",
+        "priori ipsius marito",
+        "marito suo",
+        "mariti"
+      ],
+      "justification": "Deceased first husband of Regina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Blasius Feruila",
+      "mention_texts": [
+        "Blasij feruila"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Lanni",
+        "mariti sui"
+      ],
+      "justification": "Second husband of Regina appearing alongside her."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Szychowska",
+      "mention_texts": [
+        "lapidea Scihowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Tenement house whose rent is disputed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Wiśniowiecka",
+      "mention_texts": [
+        "Lapidea Wyszniowscia"
+      ],
+      "descriptive_mentions": [
+        "Domus"
+      ],
+      "justification": "Tenement house cited in the margin/footer note."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Regina cum priori ipsius marito facta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "praesentis vero secundi matrimonij Famati Blasij feruila similiter Lanni consortem legitimam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Decretum Pro Paulo Danielis Lutek"
+    }
+  ]
+}

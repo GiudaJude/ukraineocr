@@ -1,0 +1,133 @@
+{
+  "document_id": "arc2/0807.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "200 Polish florins",
+      "mention_texts": [
+        "ducentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Sum of 200 florins mentioned in the cautionary condition."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Cameram Officij nostri Consularis",
+        "Acta",
+        "Actis prae-\nsentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council of Lviv, referenced through its camera and official records."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference formula pointing to the established recording date."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Novicampianus",
+      "mention_texts": [
+        "Paulus Novicampianus",
+        "Pauli Campiani"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Excellens Dominus",
+        "Medicinae Doctor",
+        "Collega et Consularis",
+        "haeredi",
+        "Doctor",
+        "Doctoris",
+        "sibi",
+        "se"
+      ],
+      "justification": "Prominent physician and city councilor of Lviv lodging a protest regarding unpaid ground rents."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kampianowska House",
+      "mention_texts": [
+        "Kaphionst-\noviani"
+      ],
+      "descriptive_mentions": [
+        "domus et horti"
+      ],
+      "justification": "House and garden belonging to the Kampian property holdings divided into four portions."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kalecza Góra",
+      "mention_texts": [
+        "Caleczagora"
+      ],
+      "descriptive_mentions": [
+        "fundo suo haereditario"
+      ],
+      "justification": "Hereditary land and hill in Lviv where the house and garden portions were located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "One of the individuals against whom the protest regarding unpaid emphyteutic rent was directed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Agnes",
+      "mention_texts": [
+        "Agnetem Zelianoska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Tenant or possessor of a portion of the property named in the protestation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rottendorff",
+      "mention_texts": [
+        "Joannem Rorhendorff"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv goldsmith and possessor of a portion of the property cited in the protest."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Paulus Novicampianus Medicinae Doctor Collega et Consularis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "domus et horti Kaphionst-\noviani in fundo suo haereditario Caleczagora vocata siti"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "owner_of",
+      "tail_entity_id": "E6",
+      "evidence": "in fundo suo haereditario Caleczagora vocata siti"
+    }
+  ]
+}

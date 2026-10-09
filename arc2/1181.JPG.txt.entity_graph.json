@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/1181.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Officii",
+        "eiusdem Officii",
+        "officio"
+      ],
+      "justification": "The court/council issuing the decrees and before which the parties appear ('Officium decrevit', 'Coram officio Consulari Leopoliensi')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referred to in 'statuti Regni regnicolis satisfecit'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Langis",
+      "mention_texts": [
+        "Bartholomaei Langis"
+      ],
+      "descriptive_mentions": [
+        "interempti"
+      ],
+      "justification": "The deceased individual whose death is at issue: 'consanguineorum interempti Bartholomaei Langis'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "1582",
+      "mention_texts": [
+        "1582"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date in the margin: 'Stan: Doliator Staniowa 1582.'"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in 'incola Leopoliensis' and 'Civem Leopoliensem'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Doliator",
+      "mention_texts": [
+        "Joannes Doliator"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "incola Leopoliensis",
+        "idem"
+      ],
+      "justification": "The plaintiff/denouncer: 'comparens personaliter Honestus Joannes Doliator incola Leopoliensis'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Stankonis",
+      "mention_texts": [
+        "Bartholomaeum Stankonis Sartorem",
+        "Bartholomaeus Sartor"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "praefatus"
+      ],
+      "justification": "The defendant tailor: 'contra Famatum Bartholomaeum Stankonis Sartorem Civem Leopoliensem'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Stanionowa",
+        "Annam Stankowa",
+        "Staniowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "dictam"
+      ],
+      "justification": "The woman produced before the office: 'Honesta Anna Stanionowa', 'dictam Annam Stankowa', mother of Stanislaus Siacko."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Belczerowska House",
+      "mention_texts": [
+        "Belczerowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "sortem domus lapideae"
+      ],
+      "justification": "The stone townhouse whose share is leased: 'sortem domus lapideae Belczerowska'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Siacko",
+      "mention_texts": [
+        "Stannem Siacko alias Szanowis"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Tutorem filium suum",
+        "provide naturalem tutorem"
+      ],
+      "justification": "Anna's son and guardian: 'per Honestum Stannem Siacko alias Szanowis Tutorem filium suum et provide naturalem tutorem'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Tutorem filium suum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Tutorem filium suum et provide naturalem tutorem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "incola Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Civem Leopoliensem"
+    }
+  ]
+}

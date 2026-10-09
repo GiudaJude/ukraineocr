@@ -1,0 +1,143 @@
+{
+  "document_id": "arc2/0628.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city council issuing the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolitanos"
+      ],
+      "descriptive_mentions": [
+        "civitatis eiusdem",
+        "Civitatis eiusdem"
+      ],
+      "justification": "The city of Lviv mentioned in official titles and locational references."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Matthias Szaraski",
+      "mention_texts": [
+        "Matthiam Szaraski",
+        "Szwrach"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "actorem",
+        "actori",
+        "Actori Creditori",
+        "Actori"
+      ],
+      "justification": "The plaintiff/creditor pursuing recovery of a debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Łopamka",
+      "mention_texts": [
+        "Georgium Łopamka",
+        "Georgius Łopamka",
+        "Szyhalka"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "secundarum nuptiarum Coniuges suburbanos Leopolitanos citatos",
+        "citatos",
+        "mariti",
+        "eiusdem mariti debitoris",
+        "debitoris",
+        "idem",
+        "citatus",
+        "marito"
+      ],
+      "justification": "The defendant and debtor husband ordered to evacuate two shares of the house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "secundarum nuptiarum Coniuges suburbanos Leopolitanos citatos",
+        "citatos",
+        "uxor praedicta",
+        "eandem"
+      ],
+      "justification": "Wife of Georgius Łopamka and co-debtor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "153 Polish florins",
+      "mention_texts": [
+        "Centum quinquaginta trium Florenorum"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "debito"
+      ],
+      "justification": "The total amount of debt contracted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The suburb of Lviv where the mortgaged house is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officium Florenis D. Advocati et Fidelium iuris Civitatis eiusdem Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officium Honoratorum"
+      ],
+      "justification": "The advocatial court tasked with the execution and intromission of the decree."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-1101: Sigismundus Błazowski",
+      "mention_texts": [
+        "Sigismundus Blazwieja"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Name appearing at the end of the text page."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Georgium Łopamka atque Honestam Barbaram secundarum nuptiarum Coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "civitatis eiusdem suburbio Haliciensi dicto"
+    }
+  ]
+}

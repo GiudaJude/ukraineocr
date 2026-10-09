@@ -1,0 +1,148 @@
+{
+  "document_id": "arc2/1161.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Catherina Klaczkowa",
+      "mention_texts": [
+        "Catherina Klaczkowa",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Famati olim Stanislai Klaczek Doliatoris consors relicta",
+        "eandem"
+      ],
+      "justification": "Debtor recorded as paying her obligation and receiving quietatio."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes Duchnina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Famati olim Joannis Duchna Aurifabri Civis Leopoliensis relicta Vidua"
+      ],
+      "justification": "Widow of Joannes Duchna issuing the quietatio."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Duchna"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Aurifabri Civis Leopoliensis",
+        "patris sui"
+      ],
+      "justification": "Deceased goldsmith citizen of Lviv, husband of Agnes Duchnina and father of Petrus Duchna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Duchna",
+      "mention_texts": [
+        "Petrum Duchna",
+        "Petrus Duchna"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "filium suum",
+        "tutorem naturalem",
+        "idem"
+      ],
+      "justification": "Son and natural guardian of Agnes Duchnina."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Klaczek",
+      "mention_texts": [
+        "Stanislai Klaczek"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Doliatoris"
+      ],
+      "justification": "Deceased cooper, late husband of Catherina Klaczkowa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the civic status of Joannes Duchna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos triginta pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 30 florins paid to settle the debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "ijsdem Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv council records wherein the debt was previously recorded."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria tertia post Festum Sancti Stanislai in Maio Anno Domini 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of contract inception in May 1593."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Agnes Duchnina Famati olim Joannis Duchna Aurifabri Civis Leopoliensis relicta Vidua"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Petrum Duchna filium suum et proinde tutorem naturalem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Petrus Duchna suo et aliorum conuocatorum in bona praedicti Joannis Duchna patris sui"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Catherina Famati olim Stanislai Klaczek Doliatoris consors relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannis Duchna Aurifabri Civis Leopoliensis"
+    }
+  ]
+}

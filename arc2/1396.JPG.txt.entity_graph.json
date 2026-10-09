@@ -1,0 +1,239 @@
+{
+  "document_id": "arc2/1396.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanisława",
+      "mention_texts": [
+        "Stanislawam"
+      ],
+      "descriptive_mentions": [
+        "praedictam"
+      ],
+      "justification": "Named as one of the parties who inherited the house and property from their parents."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Laraska",
+      "mention_texts": [
+        "Laraskam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named alongside Stanisława as inheriting and selling the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Kalwaria",
+      "mention_texts": [
+        "monte Calva-rycza"
+      ],
+      "descriptive_mentions": [
+        "in monte Calva- rycza dicto"
+      ],
+      "justification": "Named hill location where the property being sold is situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Borowski",
+      "mention_texts": [
+        "Christophoro Borowski"
+      ],
+      "descriptive_mentions": [
+        "provido",
+        "Suburbano Leopoliensi",
+        "emptori",
+        "eundem emptorem"
+      ],
+      "justification": "Buyer of the house and lot on Mount Calvary."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Leopoliensis"
+      ],
+      "justification": "City referenced throughout the legal document."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "C.",
+      "mention_texts": [
+        "C."
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Seniorem Scabinum Civitatis Leopoliensis",
+        "suum verum legitimum indubitatumque Procuratorem et mandatarium",
+        "idem suus Procurator"
+      ],
+      "justification": "Senior bench officer appointed as legal procurator."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court where the resignation of rights is to be executed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0023: Petrus de Tarnopol",
+      "mention_texts": [
+        "Petrus Gmadel",
+        "Petro Gmadel"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensi",
+        "dicto suo Creditori"
+      ],
+      "justification": "Creditor in the transaction, recorded as Petrus Gmadel (Gniadek)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Matias Zahasia",
+      "mention_texts": [
+        "Matias Zahasia",
+        "Matias Zahasią"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Ferrifaber Suburbanus Leopoliensis",
+        "praefatus recognoscens"
+      ],
+      "justification": "Blacksmith residing in the Lviv suburbs, appearing as debtor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Consulari residentia",
+        "Officii no-"
+      ],
+      "justification": "The consular magistracy before which Matias Zahasia appears."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "florenos quinquaginta Polonicales",
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "certi veri liquidique debiti"
+      ],
+      "justification": "Amount of debt acknowledged by Matias Zahasia."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "priore olim coniuge",
+        "Famatam"
+      ],
+      "justification": "Deceased former wife of Matias Zahasia."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbio Krakowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kraków Suburb of Lviv where the mortgaged property is located."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Badura",
+      "mention_texts": [
+        "Badural"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the mortgaged property."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Zelat",
+      "mention_texts": [
+        "Zelat"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the mortgaged property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sold_to",
+      "tail_entity_id": "E4",
+      "evidence": "vendidisse fassique et inscriptos vigore redere domum et sortem sua propria et hereditaria in monte Calva- rycza dicto ... provido Christophoro Borowski"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sold_to",
+      "tail_entity_id": "E4",
+      "evidence": "vendidisse fassique et inscriptos vigore redere domum et sortem sua propria et hereditaria in monte Calva- rycza dicto ... provido Christophoro Borowski"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Christophoro Borowski Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Seniorem Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Matias Zahasią Ferrifaber Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "debtor_of",
+      "tail_entity_id": "E8",
+      "evidence": "Se debere et teneri certi veri liquidique debiti florenos quinquaginta Polonicales ... Famato Petro Gmadel Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Petro Gmadel Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "cum priore olim coniuge post Famatam Annam contracti"
+    }
+  ]
+}

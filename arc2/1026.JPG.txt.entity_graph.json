@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/1026.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "officio",
+        "officii",
+        "Sigillum nostrum"
+      ],
+      "justification": "City council office issuing the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City where the council and property in question are located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanus Oborzonski",
+      "mention_texts": [
+        "Stanum Oborzonski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Plenipotentem"
+      ],
+      "justification": "Plenipotentiary acting on behalf of Paulus Jacimirski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Jacimirski",
+      "mention_texts": [
+        "Paulo Jacimirski",
+        "Pauli Jacimirski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Generosi",
+        "Tribuni Buscensis",
+        "Actorem",
+        "eiusdem Generosi Actoris",
+        "Actor",
+        "Creditoris",
+        "Actor praedictus"
+      ],
+      "justification": "Noble plaintiff (tribunus Buscensis) seeking execution against Kuryło's estate."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Busk",
+      "mention_texts": [
+        "Buscensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town referenced in Paulus Jacimirski's official title (Tribunus Buscensis)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Kuryło Pistor",
+      "mention_texts": [
+        "Kurylo Pistoris",
+        "Kurylo",
+        "Kurylone"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "antea Suburbani Leopoliensis",
+        "donator"
+      ],
+      "justification": "Deceased debtor whose house and estate are subject to legal division."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Kuryłowicz",
+      "mention_texts": [
+        "Nicolaum Constantinowien[sem] vel Laczkowem Kurylowicz"
+      ],
+      "descriptive_mentions": [
+        "Successores",
+        "filium",
+        "Citati",
+        "Citatorum"
+      ],
+      "justification": "Son and heir of Kuryło Pistor, summoned as defendant."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Hyeronimus Pistor",
+      "mention_texts": [
+        "Hyeronimum Pistorem"
+      ],
+      "descriptive_mentions": [
+        "Successores",
+        "generos",
+        "generos citatos",
+        "Citati",
+        "Citatorum"
+      ],
+      "justification": "Son-in-law and successor of Kuryło Pistor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Sartor",
+      "mention_texts": [
+        "Nicolaum Sartorem"
+      ],
+      "descriptive_mentions": [
+        "Successores",
+        "generos",
+        "generos citatos",
+        "Citati",
+        "Citatorum"
+      ],
+      "justification": "Son-in-law and successor of Kuryło Pistor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0219: DATE-0017: 1590",
+      "mention_texts": [
+        "1590"
+      ],
+      "descriptive_mentions": [
+        "Anno adhuc"
+      ],
+      "justification": "Year when the initial judicial arrest was placed on Kuryło's goods."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judiciis Expositis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the proceedings were continually pursued."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "1594"
+      ],
+      "descriptive_mentions": [
+        "Anno vero"
+      ],
+      "justification": "Year when the alleged fraudulent donation was made in Konstantynów."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Konstantynów",
+      "mention_texts": [
+        "Constantinowia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the fraudulent donation deed was made."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officium Honoratorum Dominorum Advocati et Fidelium iuris"
+      ],
+      "descriptive_mentions": [
+        "Honora- torum Iuris fidelium"
+      ],
+      "justification": "Judicial bench tasked with carrying out assignment and demarcation of property portions."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestum Stanum Oborzonski Plenipotentem Generosi Pauli Jacimirski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Kurylo Pistoris antea Suburbani Leopoliensis nunc vero Nicolaum Constantinowien[sem] vel Laczkowem Kurylowicz filium"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E6",
+      "evidence": "Successores Providi Kurylo Pistoris ... Hyeronimum Pistorem et Nicolaum Sartorem generos"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E6",
+      "evidence": "Successores Providi Kurylo Pistoris ... Hyeronimum Pistorem et Nicolaum Sartorem generos"
+    }
+  ]
+}

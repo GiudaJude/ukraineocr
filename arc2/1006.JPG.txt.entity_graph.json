@@ -1,0 +1,84 @@
+{
+  "document_id": "arc2/1006.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the act was recorded."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post Dominicam Laetare proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office issuing the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Serrifaber",
+      "mention_texts": [
+        "Martinum Serrifabrum"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Actorem",
+        "Suburbanos Leopolitanos"
+      ],
+      "justification": "The plaintiff in the case, a locksmith and Lviv suburbanite."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Grzywonka",
+      "mention_texts": [
+        "Christofero Wizanka",
+        "Christophorum Gzywonka"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "tutorem citatum",
+        "Suburbanos Leopolitanos"
+      ],
+      "justification": "The defendant and guardian cited in the case."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbanos Leopolitanos"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbanos Leopolitanos"
+    }
+  ]
+}

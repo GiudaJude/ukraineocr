@@ -1,0 +1,119 @@
+{
+  "document_id": "arc2/1356.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Officium verò Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council of Lviv issuing decrees and resolving the dispute."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "S. R. Maiestas",
+        "S. R. Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland whose decree is cited regarding the restitution of the parchment."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Festinter",
+      "mention_texts": [
+        "Festintero",
+        "Festinteri Złotem"
+      ],
+      "descriptive_mentions": [
+        "dicto",
+        "Creditori primario",
+        "eundem"
+      ],
+      "justification": "Primary creditor to whom the membrane was ordered to be returned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szembek",
+      "mention_texts": [
+        "Stanislao Szembek",
+        "Stanislaus Szembek"
+      ],
+      "descriptive_mentions": [
+        "eidem",
+        "Famatus"
+      ],
+      "justification": "Party involved in the dispute over the membrane and inspection."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicium Ciuile Leopoliensis",
+        "Judicium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The civil/banned court of Lviv to which the parties were referred."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in the title of the municipal notary."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Włotko",
+      "mention_texts": [
+        "Jacobi Włotki"
+      ],
+      "descriptive_mentions": [
+        "Honoratus Notarius Ciuitatis Leopoliensis",
+        "praedicti",
+        "Honorati"
+      ],
+      "justification": "Town notary of Lviv who inspected the document and gave a report."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nathman",
+      "mention_texts": [
+        "Nathman"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "eundem Iadarium",
+        "Iadacus"
+      ],
+      "justification": "Jewish respondent accused of possessing the allegedly stolen membrane."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honoratus Notarius Ciuitatis Leopoliensis eandem membranam inspexit... praedicti Honorati Jacobi Włotki"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "litigates_with",
+      "tail_entity_id": "E8",
+      "evidence": "allegauit sibi causam minime esse criminalem cum eodem Nathman occasione eius membranae prout asseritur furtiua"
+    }
+  ]
+}

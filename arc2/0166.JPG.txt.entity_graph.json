@@ -1,0 +1,254 @@
+{
+  "document_id": "arc2/0166.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [
+        "Officio praesenti",
+        "Officii praesentis"
+      ],
+      "justification": "The document references the city council office before which the parties appear and which issued the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "30 marks",
+      "mention_texts": [
+        "triginta marcarum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The judicial decree mentions a penalty of thirty marks."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The act was executed in Lviv ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "1 June 1595",
+      "mention_texts": [
+        "feria quinta post festum Sacratissimi Corporis proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording the act: the Thursday after Corpus Christi 1595."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Laurentius de Stracz",
+      "mention_texts": [
+        "Laurentius de Stracz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or official named at the end of the first entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Zaleski",
+      "mention_texts": [
+        "Laurentius Zaleski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famatus",
+        "coniuges",
+        "Cives Leopolienses",
+        "iidem recognoscentes"
+      ],
+      "justification": "Debtor and citizen of Lviv appearing personally to acknowledge a loan."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sophia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "iidem recognoscentes"
+      ],
+      "justification": "Wife of Laurentius Zaleski, jointly acknowledging the debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Wednesday before Corpus Christi 1583",
+      "mention_texts": [
+        "Anno 1583 feria quarta pridie festi Sacratissimi Corporis Christi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original obligation contracted in 1583."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenos sexaginta pecuniae et numeri Polonicalis",
+        "florenorum sexaginta"
+      ],
+      "descriptive_mentions": [
+        "veri iusti liquidique debiti",
+        "eamdem summam"
+      ],
+      "justification": "The sum of 60 Polish florins owed by the debtors."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Musicus",
+      "mention_texts": [
+        "Laurentio Musico"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Civibus Ostrogiensibus",
+        "Creditoribus suis"
+      ],
+      "justification": "Creditor, former musician of Prince Konstanty Ostrogski, and citizen of Ostroh."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Konstanty Wasyl Ostrogski",
+      "mention_texts": [
+        "Constantini Ducis Ostrogiensis"
+      ],
+      "descriptive_mentions": [
+        "olim Domini",
+        "Ducis"
+      ],
+      "justification": "Prince/Duke of Ostroh, former patron/master of Laurentius Musicus."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Ostroh",
+      "mention_texts": [
+        "Ostrogiensis",
+        "Ostrogiensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ducal seat and city where Laurentius Musicus and Anna are citizens."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugibus",
+        "Civibus Ostrogiensibus",
+        "Creditoribus suis"
+      ],
+      "justification": "Wife of Laurentius Musicus, co-creditor."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "24 June 1596",
+      "mention_texts": [
+        "Festo Sancti Joannis Baptistae proximo in anno proxime venturo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Repayment deadline set for the feast of St. John the Baptist in the upcoming year."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Laurentius Zaleski et Sophia coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Laurentius Zaleski et Sophia coniuges"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Laurentio Musico ... et Honestae Annae coniugibus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Laurentio Musico ... et Honestae Annae coniugibus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "employed_by",
+      "tail_entity_id": "E11",
+      "evidence": "Laurentio Musico olim Domini Constantini Ducis Ostrogiensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_to",
+      "tail_entity_id": "E10",
+      "evidence": "Laurentius Zaleski et Sophia coniuges Cives Leopolienses palam publice benevoleque recognoverunt, se manui coniuncta et divisa debere et teneri ... Honesto Laurentio Musico"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "debtor_to",
+      "tail_entity_id": "E10",
+      "evidence": "Laurentius Zaleski et Sophia coniuges Cives Leopolienses palam publice benevoleque recognoverunt, se manui coniuncta et divisa debere et teneri ... Honesto Laurentio Musico"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_to",
+      "tail_entity_id": "E13",
+      "evidence": "Laurentius Zaleski et Sophia coniuges ... debere et teneri ... Honestae Annae coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "debtor_to",
+      "tail_entity_id": "E13",
+      "evidence": "Laurentius Zaleski et Sophia coniuges ... debere et teneri ... Honestae Annae coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Laurentius Zaleski et Sophia coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Laurentius Zaleski et Sophia coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honesto Laurentio Musico ... et Honestae Annae coniugibus Civibus Ostrogiensibus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honesto Laurentio Musico ... et Honestae Annae coniugibus Civibus Ostrogiensibus"
+    }
+  ]
+}

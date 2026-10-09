@@ -1,0 +1,250 @@
+{
+  "document_id": "arc2/1165.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular office of Lviv issuing the decree and receiving legal submissions."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Doleator",
+      "mention_texts": [
+        "Joannem Doleatrem"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "actorem",
+        "Cives Leopolienses"
+      ],
+      "justification": "Plaintiff in the first municipal lawsuit."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Siackowicz",
+      "mention_texts": [
+        "Bartholomaeum Siackowicz"
+      ],
+      "descriptive_mentions": [
+        "citatum",
+        "Cives Leopolienses",
+        "idem Citatus"
+      ],
+      "justification": "Defendant cited before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Siackowska House",
+      "mention_texts": [
+        "domum Siackowszka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "House property at issue in the court decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam Siackowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "euictricem"
+      ],
+      "justification": "Person to be presented as evictrix in the lawsuit."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses",
+        "Leopoli",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts are recorded and the citizens reside."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria sexta ante festum Pentecostes proxima Anno Domini 1596",
+        "die et anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording for the second act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Zopothus",
+      "mention_texts": [
+        "Jacobus Zopothus"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Mercator",
+        "Armeni",
+        "Cives Leopolienses"
+      ],
+      "justification": "Armenian merchant citizen of Lviv acting as principal."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Matias Dawidowicz",
+      "mention_texts": [
+        "Matias Dawidowicz"
+      ],
+      "descriptive_mentions": [
+        "gener ipsius",
+        "Armeni",
+        "Cives Leopolienses"
+      ],
+      "justification": "Son-in-law of Jacobus Zopothus, appearing jointly."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Federatus",
+      "mention_texts": [
+        "Federatij"
+      ],
+      "descriptive_mentions": [
+        "ad rationem Armeni hospes et aduena Leopoliensis"
+      ],
+      "justification": "Armenian guest/sojourner mentioned among the appearing parties."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Mercatus Sierzymoni",
+      "mention_texts": [
+        "Mercati Sierzymoni"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armenii",
+        "Civis Leopoliensis",
+        "proxime absentis"
+      ],
+      "justification": "Absent Armenian citizen for whose ratification the parties guarantee."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Bogdan Donowakowic",
+      "mention_texts": [
+        "Bogdano Donowakowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "Civi Leopoliensi",
+        "fideiussor",
+        "praefato Bogdano Donowakowic",
+        "eumdem"
+      ],
+      "justification": "Armenian citizen indemnified by the guarantors."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Armenian Court",
+      "mention_texts": [
+        "Judicio Armenico Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Armenian judicial bench of Lviv where judgment was given."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Sepher Kunijdzionowicz",
+      "mention_texts": [
+        "Sephero Kunijdzionowicz"
+      ],
+      "descriptive_mentions": [
+        "praefato"
+      ],
+      "justification": "Party involved in the judgment before the Armenian court."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0319: Nicolaus Abrek the Younger",
+      "mention_texts": [
+        "Dauidi Serepkowiz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Armenian citizen in whose lawsuit the surety was undertaken."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E8",
+      "evidence": "Matias Dawidowicz gener ipsius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Armeno Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Armeno Civi Leopoliensi"
+    }
+  ]
+}

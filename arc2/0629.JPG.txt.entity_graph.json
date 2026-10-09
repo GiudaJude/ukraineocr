@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/0629.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Officij",
+        "Officium",
+        "Officij nostri",
+        "Officij",
+        "Actis praesentibus"
+      ],
+      "justification": "Identifies the consular office and records of Lviv before which the proceedings take place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-1101: Sigismundus Błazowski",
+      "mention_texts": [
+        "Sigismundus Blazowski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "causa Actor",
+        "Actoris",
+        "praedicti Generosi"
+      ],
+      "justification": "Named nobleman and plaintiff who failed to appear in court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal title of the King of Poland whose decree is cited."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Marusza Łukaszkowa",
+      "mention_texts": [
+        "Maruschina Lukaskowa",
+        "Maruschina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Coniunx legitima"
+      ],
+      "justification": "Suburban woman lodging a protestation regarding the repurchase of a house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucae",
+        "Lucam"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "currifsoris Suburbani Leopoliensis",
+        "maritum suum"
+      ],
+      "justification": "Husband of Marusza and courier/messenger of the Lviv suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szadrowski",
+      "mention_texts": [
+        "Albertum Sadrowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem et subscriptorem suum"
+      ],
+      "justification": "Guardian and signatory assisting Marusza in her legal protest."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Petrus Gallus",
+      "mention_texts": [
+        "Petrum Gallum"
+      ],
+      "descriptive_mentions": [
+        "Pexorem"
+      ],
+      "justification": "Fuller/cloth dresser against whom the protestation is made."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "centum quinquaginta Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum received in the house retraction agreement."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of damages estimated by Marusza."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council office is seated and where the act was recorded."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato ante Festum Praesentationis B. M. V. proximo Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry of the legal protest."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Maruschina Honesti Lucae currifsoris Suburbani Leopoliensis Coniunx legitima"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Honestum Albertum Sadrowski tutorem et subscriptorem suum"
+    }
+  ]
+}

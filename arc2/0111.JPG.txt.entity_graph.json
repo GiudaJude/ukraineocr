@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/0111.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "159 quarto"
+      ],
+      "descriptive_mentions": [
+        "anno proxime praeterito"
+      ],
+      "justification": "Identifies the year 1594 in which the testament was taken."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0004: Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobi Szieszkowski"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Domini",
+        "minoris Proconsulis munus obeuntis"
+      ],
+      "justification": "Proconsul under whose mandate the officials visited the dying man's house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Tarło",
+      "mention_texts": [
+        "Stanislai Tarlo",
+        "Stanislaum Tarlo"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Suburbani Leopoliensis",
+        "testatoris",
+        "praedictum Famatum olim",
+        "praedicti testatoris"
+      ],
+      "justification": "Deceased testator whose last will is discussed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburbs the Tarło family inhabited."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Actis",
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/court issuing decrees and recording testimonies."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas Tarło",
+      "mention_texts": [
+        "Tomas",
+        "Tarlocowie"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "praedicti testatoris filii"
+      ],
+      "justification": "Son of late Stanislaus Tarło protesting the testament."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Tarło",
+      "mention_texts": [
+        "Jacobus",
+        "Tarlocowie"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "praedicti testatoris filii"
+      ],
+      "justification": "Son of late Stanislaus Tarło protesting the testament."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Szwarc",
+      "mention_texts": [
+        "Martinum Szwarc"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Cratatricem",
+        "actorom"
+      ],
+      "justification": "Plaintiff in a decree of the consular office."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Ledworigowski",
+      "mention_texts": [
+        "Sigismundum Ledworigowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Jonestem",
+        "artis Stomaticae socium",
+        "famatum ipsius actatum"
+      ],
+      "justification": "Party involved in the decree against Martinus Szwarc."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "ex mandato Spectabilis Domini Jacobi Szieszkowski minoris Proconsulis munus obeuntis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Tarlo Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Tomas et Jacobus Tarlocowie Suburbani Leopolienses praedicti testatoris filii"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Tomas et Jacobus Tarlocowie Suburbani Leopolienses praedicti testatoris filii"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Tomas et Jacobus Tarlocowie Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Tomas et Jacobus Tarlocowie Suburbani Leopolienses"
+    }
+  ]
+}

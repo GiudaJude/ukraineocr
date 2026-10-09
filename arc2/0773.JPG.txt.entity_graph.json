@@ -1,0 +1,135 @@
+{
+  "document_id": "arc2/0773.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari",
+        "Officij Consularis Leopoliensis",
+        "Officio Leopoliensi",
+        "Acta Officij"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Officij",
+        "Officium praefatum",
+        "idem Officium",
+        "Offici-",
+        "Acto praesentibus"
+      ],
+      "justification": "The municipal council of Lviv before which the protestation was filed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopolienisum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, appearing in adjectival forms."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Doliński",
+      "mention_texts": [
+        "Stanislaus Dolinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "tutro Coniugales et Dominus legitimus",
+        "protestans"
+      ],
+      "justification": "Noble who appeared before the council acting on behalf of his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martha Filipowicz",
+      "mention_texts": [
+        "Martha Philipowna"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "consortem",
+        "consortis",
+        "consortis ipsius",
+        "consortis sua"
+      ],
+      "justification": "Daughter of the late Philip Joaneliwicz and wife of Stanislaus Doliński."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Philipus Joaneliwicz",
+      "mention_texts": [
+        "Philipi Joaneliwicz",
+        "Philipi"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "olim"
+      ],
+      "justification": "Deceased father of Martha and Wasyl."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Wasyl Philipowicz",
+      "mention_texts": [
+        "Wasilium Philipowicz",
+        "Wasilij Philipowicz",
+        "Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "dicti olim Philipi filium",
+        "sua autem consortis fratrem legitimum",
+        "partem auditatam",
+        "citato",
+        "Inuenum Leopolienisum"
+      ],
+      "justification": "Brother of Martha Filipowicz and son of the late Philip."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacram Regiam Maiestatem"
+      ],
+      "justification": "King Sigismund III Vasa, referred to via his royal title."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nobilis Stanislaus Dolinski Acta Martha Philipowna... filia tutro Coniugales et Dominus legitimus... ad praefatam suam consortem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martha Philipowna Famati olim Philipi Joaneliwicz Generi Leopoliensis filia"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Wasilium Philipowicz dicti olim Philipi filium"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Wasilium Philipowicz dicti olim Philipi filium sua autem consortis fratrem legitimum"
+    }
+  ]
+}

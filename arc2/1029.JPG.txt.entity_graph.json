@@ -1,0 +1,196 @@
+{
+  "document_id": "arc2/1029.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ledliczny",
+      "mention_texts": [
+        "Joannes Ledliczny"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "gener",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Appears as an entering party, described as son-in-law (gener) and lawful husband of Dorothea."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea Fiaczkorowna"
+      ],
+      "descriptive_mentions": [
+        "coniuge sua legitima"
+      ],
+      "justification": "Wife of Joannes Ledliczny and successor of Franciscus Skaryszowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0118: Franciscus",
+      "mention_texts": [
+        "Franciscus"
+      ],
+      "descriptive_mentions": [
+        "filius eorum"
+      ],
+      "justification": "Son of Joannes Ledliczny and Dorothea Fiaczkorowna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Skaryszowicz",
+      "mention_texts": [
+        "Francisci Skaryszowicz",
+        "Francisci"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Lanij",
+        "Civis Leopoliensis",
+        "patris sui",
+        "parentis",
+        "mariti",
+        "olim mariti sui"
+      ],
+      "justification": "Deceased butcher and citizen of Lviv whose estate is being settled."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joannis",
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratris et consuccessoris sui",
+        "fratris"
+      ],
+      "justification": "Brother and co-heir of the successors."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors vidua",
+        "noverca"
+      ],
+      "justification": "Widow and stepmother of the deceased butcher's heirs."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Catherina Jerzykowa",
+      "mention_texts": [
+        "Catherinam Jerzykowa"
+      ],
+      "descriptive_mentions": [
+        "fatam olim",
+        "olim Prymas"
+      ],
+      "justification": "Deceased woman whose property was also left in the house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Śmietanczyna House",
+      "mention_texts": [
+        "Smietonczynska"
+      ],
+      "descriptive_mentions": [
+        "domus lapidea",
+        "lapidea",
+        "lapidea praedicta"
+      ],
+      "justification": "Stone townhouse mentioned as containing property and subject to usufruct."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sadowicz",
+      "mention_texts": [
+        "Albertum Sadowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Tutorem"
+      ],
+      "justification": "Guardian appointed to Catherina."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The municipal council/bench approving the agreement."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv where the act took place."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "die anno quo supra"
+      ],
+      "justification": "Reference to the current date of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestus Joannes Ledliczny gener cum Dorothea Fiaczkorowna coniuge sua legitima"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "Franciscus filius eorum iam legitimae aetatis attingentur"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Franciscus filius eorum iam legitimae aetatis attingentur"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Catherina praedicti olim Francisci Lanij genitrix secundarum nuptiarum consors vidua"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Honestum Albertum Sadowicz Tutorem sibi actumlatum"
+    }
+  ]
+}

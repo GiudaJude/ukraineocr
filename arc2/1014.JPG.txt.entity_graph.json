@@ -1,0 +1,177 @@
+{
+  "document_id": "arc2/1014.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Anna Balczina",
+      "mention_texts": [
+        "Anna",
+        "Anna Balczina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "praedicta"
+      ],
+      "justification": "Woman appearing with her guardian concerning testimony of legitimate birth."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Balcza",
+      "mention_texts": [
+        "Stanislai Balcza"
+      ],
+      "descriptive_mentions": [
+        "providi",
+        "sutoris"
+      ],
+      "justification": "Shoemaker from the Lviv suburb, husband of Anna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-2505: Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Sadowski",
+        "Albertum Sadowski"
+      ],
+      "descriptive_mentions": [
+        "tutorem sibi ad actum praesentem assumptum",
+        "tutorem"
+      ],
+      "justification": "Guardian appointed for Anna Balczina and Anna Rosolowa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium nostrum",
+        "officij",
+        "officio nostro"
+      ],
+      "justification": "The municipal council/court office handling the proceedings."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Theoto Bielmacz",
+      "mention_texts": [
+        "Theotone Bielmacz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "occupatore annexo partis"
+      ],
+      "justification": "Witness attesting to the testimony."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0618: Gregorius Cele",
+      "mention_texts": [
+        "Gregorio Liszek",
+        "Gregorius Liszek"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "praedictus"
+      ],
+      "justification": "Recognizant confirming the testimony by oath, matched to Gregorius Liszek under known entity PER-0618."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "de Suburbio",
+        "Suburbana"
+      ],
+      "justification": "City whose suburb is referenced in connection with the parties."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Rosolowa",
+        "Anna Rosolowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Suburbana Leopoliensis"
+      ],
+      "justification": "Woman from the Lviv suburb confessing a debt, matching Anna Rostolowa under known entity PER-0026."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Girnaus",
+      "mention_texts": [
+        "Jacobus Girnaus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Creditor named in the margin/heading of the debt confession."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "16 florins",
+      "mention_texts": [
+        "Florenos sedecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt acknowledged by Anna Rosolowa."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Anna providi Stanislai Balcza sutoris"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Albertum Sadowski tutorem sibi ad actum praesentem assumptum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Anna providi Stanislai Balcza sutoris de Suburbio Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stanislai Balcza sutoris de Suburbio Leopoliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "tutorem Albertum Sadowski"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Anna Rosolowa Suburbana Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_to",
+      "tail_entity_id": "E9",
+      "evidence": "Anna Rosolowa Jacobus Girnaus Comparens personaliter Honesta Anna Rosolowa... recognouit, se debere... Florenos sedecim"
+    }
+  ]
+}

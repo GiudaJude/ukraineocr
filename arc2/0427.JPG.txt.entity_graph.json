@@ -1,0 +1,185 @@
+{
+  "document_id": "arc2/0427.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Piskorowski",
+      "mention_texts": [
+        "Paulus Piskorowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Coniuges",
+        "incolae Leopolienses",
+        "maritum et tutorem suum legitimum"
+      ],
+      "justification": "Named as the principal noble appearing with his wife before the court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Zomorzanska",
+      "mention_texts": [
+        "Hedvigis Zomorzanska",
+        "Hedvigim Zomorzanska"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "Coniuges",
+        "incolae Leopolienses"
+      ],
+      "justification": "Named as the wife of Paulus Piskorowski and daughter of deceased Mathias Zomorzanski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zomorzanski",
+      "mention_texts": [
+        "Mathiae Zomorzanski"
+      ],
+      "descriptive_mentions": [
+        "olim Nobilis"
+      ],
+      "justification": "Named as the deceased noble father of Hedvigis Zomorzanska."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears as the city of residence ('incolae Leopolienses') and descriptor of citizenship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Stołek",
+      "mention_texts": [
+        "Andream Stołek"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "verum et legitimum Plenipotentem",
+        "Factorem Civium Leopoliensium",
+        "Plenipotentem"
+      ],
+      "justification": "Appointed plenipotentiary factor to handle the sale of the house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Jewish Street",
+      "mention_texts": [
+        "platea Judaica"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the masonry house is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Rzemień",
+      "mention_texts": [
+        "Jacobi Rzemien"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased neighbor whose property borders the house in question."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Petrus Kwepweck",
+      "mention_texts": [
+        "Petri Kwepweck"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property borders the house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Cantor",
+      "mention_texts": [
+        "Jacobo Cantori",
+        "Jacobi Cantori"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sacristae",
+        "Civi Posnaniensi",
+        "moderni possessoris et tenetarij"
+      ],
+      "justification": "Citizen and sacristan of Poznań who holds the mortgage on the house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0050: Poznań",
+      "mention_texts": [
+        "Posnaniensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Jacobus Cantor is a citizen ('Civi Posnaniensi')."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Barycz",
+      "mention_texts": [
+        "Alberto Barycz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the final decree note ('Decretum pro Alberto Barycz')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nobilis Paulus Piskorowski et Hedvigis Zomorzanska... Coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "Hedvigis Zomorzanska olim Nobilis Mathiae Zomorzanski filia"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nobilis Paulus Piskorowski et Hedvigis Zomorzanska... Coniuges incolae Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nobilis Paulus Piskorowski et Hedvigis Zomorzanska... Coniuges incolae Leopolienses"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E5",
+      "evidence": "constituerunt et solenniter ordinaverunt in suum verum et legitimum Plenipotentem Famatum Andream Stołek"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E5",
+      "evidence": "constituerunt et solenniter ordinaverunt in suum verum et legitimum Plenipotentem Famatum Andream Stołek"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E10",
+      "evidence": "Famato Jacobo Cantori Sacristae Civi Posnaniensi"
+    }
+  ]
+}

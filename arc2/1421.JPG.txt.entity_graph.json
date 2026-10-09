@@ -1,0 +1,158 @@
+{
+  "document_id": "arc2/1421.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Rochus Pustułka",
+      "mention_texts": [
+        "Rochus Pustułka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header of the legal deed as the principal or beneficiary of the transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors vidua relicta",
+        "maternum"
+      ],
+      "justification": "Appears personally before the council as the widow selling a share of the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Romanus Aszale Pardo",
+      "mention_texts": [
+        "Romani Aszale Pardowi"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Barbara, identified as a burgher of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius",
+        "Civitatis eiusdem"
+      ],
+      "justification": "The city of Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal authority under which the act is registered and which provided the legal guardian."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Caspar Brzozowski",
+      "mention_texts": [
+        "Casparum Brzozowski"
+      ],
+      "descriptive_mentions": [
+        "Tutorem",
+        "D",
+        "Collegam nostrum Consularem"
+      ],
+      "justification": "Appointed council colleague serving as guardian (tutor) for Barbara."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Szustarowska",
+      "mention_texts": [
+        "Szustarowska"
+      ],
+      "descriptive_mentions": [
+        "domus Lapideae vocata"
+      ],
+      "justification": "The named masonry townhouse (kamienica) being partially sold."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Market Square of Lviv where the property is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "plateae Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "nuncupatae"
+      ],
+      "justification": "The street at the corner of which the townhouse stands."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Beyde Sika",
+      "mention_texts": [
+        "Beydem Sika"
+      ],
+      "descriptive_mentions": [
+        "Famatorum"
+      ],
+      "justification": "Owner of the adjacent tenement house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Barbara Famati olim Romani Aszale Pardowi Civis Leopoliensis consors vidua relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Romani Aszale Pardowi Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Casparum Brzozowski Collegam nostrum Consularem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "domus Lapideae Szustarowska vocata in circulo Civitatis huius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in acie plateae Cracoviensis nuncupatae"
+    }
+  ]
+}

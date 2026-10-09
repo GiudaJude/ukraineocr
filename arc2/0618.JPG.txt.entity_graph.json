@@ -1,0 +1,204 @@
+{
+  "document_id": "arc2/0618.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Lysy",
+      "mention_texts": [
+        "Valentinus Lysy",
+        "Valentinus",
+        "Lysy"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "sartor",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Appears in text as tailor and citizen of Lviv selling his small house: 'Famatus Valentinus Lysy sartor Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis",
+        "Civitatis",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensibus",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Ciuitatis",
+        "huius"
+      ],
+      "justification": "City context throughout the entries ('Civis Leopoliensis', 'Actum Leopoli', 'Officio Consulari Leopoliensi')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "platea Girsanowska",
+      "mention_texts": [
+        "platea Girsanowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street name where the house is situated: 'in suburbio eiusdem Ciuitatis in platea Girsanowska'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Conradus Koniliskowicz",
+      "mention_texts": [
+        "Conrado Koniliskowicz"
+      ],
+      "descriptive_mentions": [
+        "Providis",
+        "Coniugibus Suburbanis Leopoliensibus"
+      ],
+      "justification": "Buyer named in the transaction: 'Providis Conrado Koniliskowicz et Annae Coniugibus Suburbanis Leopoliensibus'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus Suburbanis Leopoliensibus"
+      ],
+      "justification": "Wife of Conradus Koniliskowicz, co-buyer: 'Conrado Koniliskowicz et Annae Coniugibus'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "15 florins",
+      "mention_texts": [
+        "quindecim Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Transaction price: 'pro rens quindecim Florenis'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned court for legal resignation: 'in Judicio Exposito Bannito praesentem constituit'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia post Festum Sancti Martini Episcopi proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the second session recorded: 'Actum Leopoli feria tertia post Festum Sancti Martini Episcopi proxima Anno Domini 1595'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-1101: Sigismundus Błazowski",
+      "mention_texts": [
+        "Blazewsky"
+      ],
+      "descriptive_mentions": [
+        "Ius"
+      ],
+      "justification": "Official noted in the margin/heading: 'Ius Blazewsky'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the merchants appear: 'Coram Officio Consulari Leopoliensi comparentes'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Pompeius de Campus",
+      "mention_texts": [
+        "Pompeio de Campus"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famati",
+        "Mercatores"
+      ],
+      "justification": "Dalmatian merchant appearing before the council: 'Nobiles et Famati Pompeio de Campus Leonardus Bersano et Antonius Constantino'."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Bersano",
+      "mention_texts": [
+        "Leonardus Bersano"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famati",
+        "Mercatores"
+      ],
+      "justification": "Merchant appearing with Pompeius de Campus."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Antonius Constantino",
+      "mention_texts": [
+        "Antonius Constantino"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famati",
+        "Mercatores"
+      ],
+      "justification": "Merchant appearing with Pompeius de Campus and Leonardus Bersano."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Conrado Koniliskowicz et Annae Coniugibus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E4",
+      "evidence": "Valentinus Lysy sartor Civis Leopoliensis palam publice benevoleque recognouit se perpetuo et in aevicabili venditionis titulo vendidisse funditusque inscripsisse vigore verdere domunculam suam ... Providis Conrado Koniliskowicz et Annae Coniugibus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E5",
+      "evidence": "Valentinus Lysy sartor Civis Leopoliensis palam publice benevoleque recognouit se perpetuo et in aevicabili venditionis titulo vendidisse funditusque inscripsisse vigore verdere domunculam suam ... Providis Conrado Koniliskowicz et Annae Coniugibus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "appeared_before",
+      "tail_entity_id": "E10",
+      "evidence": "Coram Officio Consulari Leopoliensi comparentes personaliter Nobiles et Famati Pompeio de Campus"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "appeared_before",
+      "tail_entity_id": "E10",
+      "evidence": "Coram Officio Consulari Leopoliensi comparentes personaliter Nobiles et Famati Pompeio de Campus Leonardus Bersano"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "appeared_before",
+      "tail_entity_id": "E10",
+      "evidence": "Coram Officio Consulari Leopoliensi comparentes personaliter Nobiles et Famati Pompeio de Campus Leonardus Bersano et Antonius Constantino"
+    }
+  ]
+}

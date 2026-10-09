@@ -1,0 +1,230 @@
+{
+  "document_id": "arc2/0457.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City mentioned in adjectival forms identifying the merchants and victims."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "1594"
+      ],
+      "descriptive_mentions": [
+        "Anno praeterito",
+        "anno praeterito"
+      ],
+      "justification": "The previous year in which the events occurred."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachia",
+        "Valachia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Territory/region referenced in the text."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Iași",
+      "mention_texts": [
+        "Jassi",
+        "Jassen"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "Emporij",
+        "Civitatem",
+        "praedicta Civitate"
+      ],
+      "justification": "City where the murder took place and where witnesses resided."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0086: Moldavia",
+      "mention_texts": [
+        "Moldaviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principality ruled by Aaron Zalatini."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Aaron Zalatini",
+      "mention_texts": [
+        "Aaronis Zalatini",
+        "Aaron Zalatini",
+        "Aaroni Zalatino",
+        "Aaronis"
+      ],
+      "descriptive_mentions": [
+        "Magnifici",
+        "Magi"
+      ],
+      "justification": "Prince/Hospodar of Moldavia mentioned as ruler during the murder."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jeremias Suchorowicz",
+      "mention_texts": [
+        "Jeremias Suchorowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armenus Leopoliensis",
+        "praedicti Armeni",
+        "praefati Armeni"
+      ],
+      "justification": "Lviv Armenian who was killed in Iași."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Demetrio",
+      "mention_texts": [
+        "Nicolaum Demetrio"
+      ],
+      "descriptive_mentions": [
+        "Servu[m]",
+        "familiarem",
+        "fratrem suum patruelem"
+      ],
+      "justification": "Servant/courtier of Aaron suspected or investigated regarding the crime."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lambo",
+      "mention_texts": [
+        "Lambo"
+      ],
+      "descriptive_mentions": [
+        "Ftus",
+        "de Jassi domo Graecus"
+      ],
+      "justification": "Greek merchant from Iași testifying as a witness."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Gregorius",
+      "mention_texts": [
+        "Gregorius"
+      ],
+      "descriptive_mentions": [
+        "Ftus",
+        "Armenus Leopoliensis"
+      ],
+      "justification": "Armenian merchant from Lviv named by witness Lambo as the murder victim."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Riwrer",
+      "mention_texts": [
+        "Riwrer",
+        "Riwre:"
+      ],
+      "descriptive_mentions": [
+        "generosum olim",
+        "Aulicum"
+      ],
+      "justification": "Late courtier of Aaron who advised investigating the homicide."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Georgius Paleologo",
+      "mention_texts": [
+        "Georgius Paleologo"
+      ],
+      "descriptive_mentions": [
+        "Graecus"
+      ],
+      "justification": "Greek witness offering testimony."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Anselmo",
+      "mention_texts": [
+        "Nicolaus Anselmo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Witness testifying before the council."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio",
+        "Nos",
+        "nobis"
+      ],
+      "justification": "The municipal authority examining witnesses."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E5",
+      "evidence": "sub Principatu Magnifici Aaronis Zalatini Moldaviae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatus Jeremias Suchorowicz Armenus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "servant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nicolaum Demetrio Servu[m] vidi praedicti Magi Aaronis familiarem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Ftus Lambo de Jassi domo Graecus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Ftus Gregorius Armenus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "servant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Riwrer Aulicum Magi Aaron Zalatini Moldaviae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in Civitate Valachia Jassi dicta"
+    }
+  ]
+}

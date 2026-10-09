@@ -1,0 +1,247 @@
+{
+  "document_id": "arc2/0763.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kapolski",
+      "mention_texts": [
+        "Andreas Kapolski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "tutor legitime constitutus minorrenium Annae et Catharinae"
+      ],
+      "justification": "Named as the noble guardian of the minor daughters Anna and Catharina."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "minorrenium"
+      ],
+      "justification": "Minor daughter of the deceased Emanuel (Samuel) Aszlam and Anna Szczerbowna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catharinae"
+      ],
+      "descriptive_mentions": [
+        "minorrenium"
+      ],
+      "justification": "Minor daughter of the deceased Emanuel (Samuel) Aszlam and Anna Szczerbowna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-1347: Emanuel Szurcz",
+      "mention_texts": [
+        "Samuelis Aszlam",
+        "Emanuelis Stefani",
+        "Emanuelis"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Graeci Civis Leopoliensis"
+      ],
+      "justification": "Deceased Greek citizen of Lviv, father of the minors Anna and Catharina and former husband of Anna Szczerbowna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joanna Krarzowska",
+      "mention_texts": [
+        "Joannae Krarzoweska"
+      ],
+      "descriptive_mentions": [
+        "Famatae",
+        "Rutheni Civis Leopoliensis",
+        "conthoralis suae"
+      ],
+      "justification": "Wife of Andreas Kapolski, Ruthenian citizen of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Anna Szczerbowna",
+      "mention_texts": [
+        "Annae Szczerbowna"
+      ],
+      "descriptive_mentions": [
+        "fffae",
+        "vidua relicta",
+        "praedictorum vero minorrenium mater"
+      ],
+      "justification": "Widow of Emanuel and mother of the minor children Anna and Catharina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Petrus Lauretus Krauz",
+      "mention_texts": [
+        "Petrum Lauretum Krauz"
+      ],
+      "descriptive_mentions": [
+        "Scabinum",
+        "tutorem sibi ad eum actum assumptum et per Officium nostrum constitutum"
+      ],
+      "justification": "Lviv alderman acting as court-appointed guardian to Anna Szczerbowna for this act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sultam del Sace",
+      "mention_texts": [
+        "Sultam del Sace"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et Famatum",
+        "Italum Civem Cracoviensem",
+        "Plenipotentem et mandatarium",
+        "Plenipotentiario"
+      ],
+      "justification": "Italian citizen of Kraków appointed as plenipotentiary representative."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Domeshai Keuridi",
+      "mention_texts": [
+        "Nicolai Domeshai Keuridi"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "olim",
+        "Graeci Hagaeri Haromis quondam Zalatin Valachiae Fomitiarii"
+      ],
+      "justification": "Deceased Greek whose estate in Wallachia is the subject of litigation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacrae Regia Maiestate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland, whose royal court is handling the remanded case."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose citizenship is referenced for several persons."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Sultam del Sace is a citizen."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principality where the estate/goods of Nicolaus Domeshai Keuridi originated."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium nostrum",
+        "Officio nostro Consulari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular court of Lviv issuing the document and remanding the cause."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is guardian of",
+      "tail_entity_id": "E2",
+      "evidence": "Andreas Kapolski uti tutor legitime constitutus minorrenium Annae et Catharinae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "is guardian of",
+      "tail_entity_id": "E3",
+      "evidence": "Andreas Kapolski uti tutor legitime constitutus minorrenium Annae et Catharinae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is spouse of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannae Krarzoweska Rutheni Civis Leopoliensis conthoralis suae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is spouse of",
+      "tail_entity_id": "E4",
+      "evidence": "Annae Szczerbowna eiusdem Emanuelis Stefani vidua relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is parent of",
+      "tail_entity_id": "E2",
+      "evidence": "Annae Szczerbowna... praedictorum vero minorrenium mater"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is parent of",
+      "tail_entity_id": "E3",
+      "evidence": "Annae Szczerbowna... praedictorum vero minorrenium mater"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is parent of",
+      "tail_entity_id": "E2",
+      "evidence": "minorrenium Annae et Catharinae Famatas olim Samuelis Aszlam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is parent of",
+      "tail_entity_id": "E3",
+      "evidence": "minorrenium Annae et Catharinae Famatas olim Samuelis Aszlam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is guardian of",
+      "tail_entity_id": "E6",
+      "evidence": "per Petrum Lauretum Krauz Scabinum tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is legal representative of",
+      "tail_entity_id": "E1",
+      "evidence": "Fecerunt constituerunt et solemniter ordinaverunt in suum verum legitimum indubitatumque Plenipotentem et mandatarium Nobilem et Famatum Sultam del Sace"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is legal representative of",
+      "tail_entity_id": "E6",
+      "evidence": "Fecerunt constituerunt et solemniter ordinaverunt in suum verum legitimum indubitatumque Plenipotentem et mandatarium Nobilem et Famatum Sultam del Sace"
+    }
+  ]
+}

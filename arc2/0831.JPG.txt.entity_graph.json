@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/0831.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schemberg",
+      "mention_texts": [
+        "Stanislaum Schembegr",
+        "Stanislaus Schembegr",
+        "Stanislao Schembegr"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem et negotiatorem Leopoliensem",
+        "tanquam Elemosinarium",
+        "Actorem",
+        "praefatus",
+        "eodem"
+      ],
+      "justification": "Plaintiff in the case, citizen and merchant of Lviv acting as administrator for Sebald Schöner."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the parties reside and the council exercises jurisdiction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schöner",
+      "mention_texts": [
+        "Sebaldi Schöner",
+        "Schöner"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Gedanensis",
+        "praefato"
+      ],
+      "justification": "Citizen of Gdańsk on whose behalf Stanislaus Schemberg is acting."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of origin/citizenship of Sebald Schöner."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nachman Izakowicz",
+      "mention_texts": [
+        "Nachman Izacowicz",
+        "Nachman",
+        "Nachmano"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Judaeum Leopoliensem",
+        "citatum",
+        "parte conventa",
+        "Citatus",
+        "Judaeo"
+      ],
+      "justification": "Defendant in the lawsuit, a Jewish resident of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Regale"
+      ],
+      "justification": "The King of Poland whose decree and court are referenced."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij praesentis",
+        "Officium Consulare Leopoliense",
+        "Officium suum",
+        "Officij"
+      ],
+      "descriptive_mentions": [
+        "acta praesentia"
+      ],
+      "justification": "The consular court of Lviv deliberating on the jurisdiction of the case."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Gąsiorowicz",
+      "mention_texts": [
+        "Pauli Gąsiorowicz",
+        "Szenworowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "eundem"
+      ],
+      "justification": "Citizen of Lviv whose receipt was presented by the defendant."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "1500 florins",
+      "mention_texts": [
+        "Mille quingentos florenos"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Monetary sum involved in the obligation between Gąsiorowicz and Schöner."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Civitas Tsernonensis",
+      "mention_texts": [
+        "Tsernonensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose bench court records produced the alleged seal/document."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Josephus Wolfowicz",
+      "mention_texts": [
+        "Jozephum Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "fideiussorem",
+        "Qui"
+      ],
+      "justification": "Citizen of Lviv who stands surety for Stanislaus Schemberg."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaum Schembegr Civem et negotiatorem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Sebaldi Schöner Civis Gedanensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "tanquam Elemosinarium Famati Sebaldi Schöner Civis Gedanensis Actorem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nachman Izacowicz Judaeum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Pauli Gąsiorowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jozephum Wolfowicz Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "surety_for",
+      "tail_entity_id": "E1",
+      "evidence": "fideiussorem Famatum Jozephum Wolfowicz Civem Leopoliensem, Qui stans personaliter onus decantati fideiussionis pro eodem Stanislao Schembegr... suscepit"
+    }
+  ]
+}

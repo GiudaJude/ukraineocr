@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0832.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "City where the legal proceedings and the baker's bench are located."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "feria sexta post Festum Conversionis Beati Pauli Apostoli proxima",
+      "mention_texts": [
+        "feria sexta post Festum Conversionis Beati Pauli Apostoli proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the first recorded court action."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta an- te Festum Purificat: Mariae Anno 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the main registration act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Walkowic",
+      "mention_texts": [
+        "Gregorius",
+        "Gregorius Walkowic"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim Woytkoms Lawrowisko Pistoris Suburbani Leopoliensis et Honesta Sophia Coniugum filius",
+        "filius"
+      ],
+      "justification": "Son of late Woytko Lawrowisko and Sophia, consenting to the sale of the baker's bench."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Woytko Lawrowisko",
+      "mention_texts": [
+        "Woytkoms Lawrowisko"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Pistoris Suburbani Leopoliensis",
+        "Coniugum"
+      ],
+      "justification": "Deceased suburban baker of Lviv, father of Gregorius Walkowic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Coniugum",
+        "praedictam matrem suam"
+      ],
+      "justification": "Mother of Gregorius Walkowic and widow of Woytko Lawrowisko."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szyzel",
+      "mention_texts": [
+        "Stanislaus Szyzel",
+        "Stanislao Szyzel"
+      ],
+      "descriptive_mentions": [
+        "emptori"
+      ],
+      "justification": "Buyer of the baker's bench."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo Civitatis eiusdem Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the baker's bench in Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Henczel",
+      "mention_texts": [
+        "D. Henczel"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person near whose former location the baker's bench is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari"
+      ],
+      "descriptive_mentions": [
+        "eodem Officio Consulari"
+      ],
+      "justification": "Consular office before which the contract was registered."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "1587",
+      "mention_texts": [
+        "Sabbato post Festum Sancti Bartholomaei Apostoli proximo Anno Domini 1587"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous resignation act by Sophia."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolaus"
+      ],
+      "descriptive_mentions": [
+        "gener"
+      ],
+      "justification": "Person named in the note at the end of the text."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Protwysawer",
+      "mention_texts": [
+        "Protwysawer"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Father-in-law of Nicolaus named in the note."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margareta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned at the end of the text."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Johan",
+      "mention_texts": [
+        "Johana"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in 'Syn Johana' at the end of the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Juris Gregorius Honesti olim Woytkoms Lawrowisko Pistoris Suburbani Leopoliensis et Honesta Sophia Coniugum filius"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Juris Gregorius Honesti olim Woytkoms Lawrowisko Pistoris Suburbani Leopoliensis et Honesta Sophia Coniugum filius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesti olim Woytkoms Lawrowisko Pistoris Suburbani Leopoliensis et Honesta Sophia Coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E13",
+      "evidence": "Nicolaus gener Protwysawer"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "document_id": "arc2/1076.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szyrek",
+      "mention_texts": [
+        "Thomam Szyrek",
+        "Thomae Szyrek"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Calceatorem Suburbanum Leopoliensem",
+        "Plenipotentem",
+        "successori suo",
+        "suus Plenipotens"
+      ],
+      "justification": "Appointed as attorney/plenipotentiary in the document: 'constituerunt et solemniter ordinaverunt in suam veram legitimam ac indubitatam Plenipotentem Honestum Thomam Szyrek Calceatorem Suburbanum Leopoliensem'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the text ('Suburbanum Leopoliensem', 'Civis Leopoliensis'). Matches known corpus entity Lwów."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Suszka",
+      "mention_texts": [
+        "Nicolai Suszka"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Ferrifabri Suburbani Leopoliensem",
+        "vita functi"
+      ],
+      "justification": "Deceased blacksmith whose estate is being claimed: 'post obitum Honesti olim Nicolai Suszka Ferrifabri Suburbani Leopoliensem'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0391: Martinus Suburbanus",
+      "mention_texts": [
+        "Martini"
+      ],
+      "descriptive_mentions": [
+        "praefati"
+      ],
+      "justification": "Relative/constituent mentioned as 'praefati Martini dwe affinis siquidem sororem illius germanam in matrimonio habuit'. Matches known entity PER-0391: Martinus Suburbanus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Ząbek",
+      "mention_texts": [
+        "Pauli Ząbek"
+      ],
+      "descriptive_mentions": [
+        "dicti"
+      ],
+      "justification": "Relative/constituent mentioned as 'dicti vero Pauli Ząbek fratrem patruelem'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referencing the date established earlier in the session, matching known corpus date alias."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Sapiżina",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx legitima"
+      ],
+      "justification": "Party involved in the quietatio: 'Quietatio Anna Sapiżina', 'Honesta Anna primarum Famati olim Sapiha ad praesens vero secundarum nuptiarum Honesti Fabii Lary coniunx legitima'. Matches known entity PER-0026: Anna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Kurołtowski",
+      "mention_texts": [
+        "Nicolaus Kurołtowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "haereditarius",
+        "Aurifaber Civis Leopoliensis",
+        "gener",
+        "Plenipotens"
+      ],
+      "justification": "Goldsmith and citizen of Lviv appearing before the court: 'Comparens personaliter Famatus Nicolaus Kurołtowski haereditarius raterki Aurifaber Civis Leopoliensis tanqe gener et Plenipotens'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Catherina Czygoszowa",
+      "mention_texts": [
+        "Catherinae Czygoszowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "ad praesens peregre abientis"
+      ],
+      "justification": "Mother-in-law represented by Kurołtowski: 'Plenipotens Honestae Catherinae Czygoszowa ad praesens peregre abientis'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Sapiha",
+      "mention_texts": [
+        "Sapiha"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "First deceased husband of Anna: 'primarum Famati olim Sapiha'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Fabius Lary",
+      "mention_texts": [
+        "Fabii Lary"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Second current husband of Anna: 'secundarum nuptiarum Honesti Fabii Lary coniunx legitima'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "agent_of",
+      "tail_entity_id": "E9",
+      "evidence": "tanqe gener et Plenipotens Honestae Catherinae Czygoszowa"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "relative_of",
+      "tail_entity_id": "E9",
+      "evidence": "tanqe gener et Plenipotens Honestae Catherinae Czygoszowa"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesta Anna primarum Famati olim Sapiha"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "secundarum nuptiarum Honesti Fabii Lary coniunx legitima"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "agent_of",
+      "tail_entity_id": "E4",
+      "evidence": "constituerunt et solemniter ordinaverunt in suam veram legitimam ac indubitatam Plenipotentem Honestum Thomam Szyrek ... praefati Martini"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "agent_of",
+      "tail_entity_id": "E5",
+      "evidence": "constituerunt et solemniter ordinaverunt in suam veram legitimam ac indubitatam Plenipotentem Honestum Thomam Szyrek ... dicti vero Pauli Ząbek"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "relative_of",
+      "tail_entity_id": "E3",
+      "evidence": "dicti vero Pauli Ząbek fratrem patruelem"
+    }
+  ]
+}

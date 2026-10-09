@@ -1,0 +1,126 @@
+{
+  "document_id": "arc2/1329.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Warsaw",
+      "mention_texts": [
+        "Varsoviensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as Warsaw (LOC-0278) via adjectival reference to the past Warsaw Sejm ('Comitijs praeteritis Varsoviensibus')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Poland",
+      "mention_texts": [
+        "Regni",
+        "Regnum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as the Kingdom of Poland (LOC-0093: Poland)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Sacrae Regiae Maiestatem"
+      ],
+      "justification": "King Sigismund III Vasa (PER-0556: Sigismundus) referenced by his royal title."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Swasnowski",
+      "mention_texts": [
+        "Joannis Swasnowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Praefati"
+      ],
+      "justification": "Noble named in the document seeking contribution payments."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Krasuszewski",
+      "mention_texts": [
+        "Krasuszewski"
+      ],
+      "descriptive_mentions": [
+        "Generosus"
+      ],
+      "justification": "Noble tax collector mentioned in relation to the collection."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv (LOC-0001: Lwów) in the citizenship designation 'Civem Leopoliensis'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Farmom Lukassowic",
+      "mention_texts": [
+        "Farmom Lukassonici"
+      ],
+      "descriptive_mentions": [
+        "Interpretem",
+        "Famatus",
+        "Civem Leopoliensis"
+      ],
+      "justification": "Lviv citizen serving as an interpreter for the merchants."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Błazowski",
+      "mention_texts": [
+        "Błaszowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Historical figure and noble Sigismundus Błazowski (PER-1101) who previously attempted to extract the contribution."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "sui Officij"
+      ],
+      "justification": "The governing council court of Lviv (ORG-0003: Lviv City Council)."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard closing formula referring to the document's heading date (DATE-0001: 1595)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "secum Famatus Farmom Lukassonici Civem Leopoliensis"
+    }
+  ]
+}

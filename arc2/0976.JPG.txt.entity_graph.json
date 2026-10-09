@@ -1,0 +1,253 @@
+{
+  "document_id": "arc2/0976.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [
+        "officii"
+      ],
+      "justification": "The document refers to the council's decree and present acts (Actis praesentibus, sententia officii)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus Gniadek",
+      "mention_texts": [
+        "Petrus Gniadek",
+        "Petri",
+        "Petrum Gniadek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "praedictum"
+      ],
+      "justification": "Petrus Gniadek appears alongside his wife Hedwigis making a formal legal protest."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigi"
+      ],
+      "descriptive_mentions": [
+        "consorte sua",
+        "Sorores"
+      ],
+      "justification": "Wife of Petrus Gniadek and sister of the late Stanislaus Winkler."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors vidua relicta",
+        "Sorores"
+      ],
+      "justification": "Widow of Valentinus Zistoris and sister of the late Stanislaus Winkler."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Zistoris",
+      "mention_texts": [
+        "Valentini Zistoris"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "olim"
+      ],
+      "justification": "Late husband of Dorothea, designated as a citizen of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensem",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv is referenced in citizen titles and the place of entry (Actum Leopoli)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Winkler",
+      "mention_texts": [
+        "Stanislai Winkler",
+        "Winkler"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Lany",
+        "Civis Leopoliensis",
+        "olim"
+      ],
+      "justification": "The deceased brother of Hedwigis and Dorothea whose succession is at issue."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbaram Straynerowa",
+        "Streynerowa",
+        "Barbara Stroignerowa"
+      ],
+      "descriptive_mentions": [
+        "viduae",
+        "ipsam",
+        "praedicta"
+      ],
+      "justification": "Widow against whom the protest regarding a wall is lodged."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adami Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Tutoris"
+      ],
+      "justification": "Guardian (tutor) of Barbara Stegnerowa/Straynerowa."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Szczykotowska House",
+      "mention_texts": [
+        "domo Sczykotowsski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "A house mentioned in connection with damages/injuries sustained by the protesters."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Smuchowa",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of Valentinus Szniczek who acknowledges a debt to Thomas Laterski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Szniczek",
+      "mention_texts": [
+        "Valentini Szniczek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Pellionis",
+        "Civis Leopoliensis",
+        "olim"
+      ],
+      "justification": "Deceased furrier and citizen of Lviv, late husband of Anna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Paulus Bieleski",
+      "mention_texts": [
+        "Paulum Bieleski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem",
+        "Cingulatorem Suburbanum Leopoliensem"
+      ],
+      "justification": "Beltmaker of the Lviv suburb acting as legal tutor for Anna."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos Centum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "The debt amount of 100 Polish florins."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Thomas Laterski",
+      "mention_texts": [
+        "Tomas Smuchacz",
+        "Tomae Laterski"
+      ],
+      "descriptive_mentions": [
+        "provido",
+        "Suburbano Leopoliensi"
+      ],
+      "justification": "Suburban resident of Lviv to whom the debt is owed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famatus Petrus Gniadek cum Petri Hedwigi consorte sua"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Hedwigi consorte sua et Honesta Dorothea ... Sorores olim Famati Stanislai Winkler"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Dorothea olim Famati Valentini Zistoris Civis Leopoliensis consors vidua relicta Sorores olim Famati Stanislai Winkler"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "widow_of",
+      "tail_entity_id": "E5",
+      "evidence": "Dorothea olim Famati Valentini Zistoris Civis Leopoliensis consors vidua relicta"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "in praesentia eiusdem Streynerowa viduae eiusque Tutoris Adami Kalinowski"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "widow_of",
+      "tail_entity_id": "E12",
+      "evidence": "Anna Famati olim Valentini Szniczek Pellionis Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "per assumptionem sibi tutorem Honestum Paulum Bieleski"
+    }
+  ]
+}

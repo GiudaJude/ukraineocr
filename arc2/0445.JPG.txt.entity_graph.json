@@ -1,0 +1,238 @@
+{
+  "document_id": "arc2/0445.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium idem",
+        "officio nostro"
+      ],
+      "justification": "City council office before which the legal proceedings take place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Ciuitatis Leopoliensis",
+        "Leopoli",
+        "Civis Leopoliensis",
+        "Ciuem Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in municipal titles and the date formula."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Samko",
+      "mention_texts": [
+        "Andreas Samko"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Graecus",
+        "Civis Samoscensis",
+        "parte Actorea"
+      ],
+      "justification": "Greek burgher of Zamość initiating legal action against Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Samoscensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Andreas Samko is a citizen."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Czkodowa",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Actam",
+        "viduam relictam",
+        "citata",
+        "persona citata"
+      ],
+      "justification": "Widow of Albertus a Chodel, cited in the case."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus a Chodel",
+      "mention_texts": [
+        "Alberti a Chodell"
+      ],
+      "descriptive_mentions": [
+        "Consulis Leopoliensis",
+        "mariti olim suo"
+      ],
+      "justification": "Deceased former consul of Lviv and husband of Anna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zawisza",
+      "mention_texts": [
+        "Joannes Zauischa"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "nomine Prouisoris Hospitalis Sancti Spiritus Ciuitatis Leopoliensis"
+      ],
+      "justification": "Person intervening on behalf of the provisor of the Holy Spirit Hospital."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitalis Sancti Spiritus Ciuitatis Leopoliensis",
+        "Hospitale"
+      ],
+      "descriptive_mentions": [
+        "eorundem Hospitalium"
+      ],
+      "justification": "Holy Spirit Hospital in Lviv, creditor to the estate."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Schola Hierosolymitana",
+      "mention_texts": [
+        "Schola Hierosolitana"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Institution claiming rights over the debt alongside the hospital."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "Florenorum quingentorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 500 florins inscribed on the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "feria secunda ante Festum Sancti Bartholomei Anno Domini 1595"
+      ],
+      "justification": "Date of the recorded council session."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Wojciech Konieczny",
+      "mention_texts": [
+        "Woyciechus Konieczny"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the second entry's header."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Kaustowa",
+      "mention_texts": [
+        "Kaustowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the heading of the second case."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of the late Albertus Zawiszek appearing with a guardian."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Albertus Zawiszek",
+      "mention_texts": [
+        "Alberti Zauischek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Late burgher of Lviv, deceased husband of Agnes."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobum Gorzalek"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Famatum",
+        "Zellionem",
+        "Ciuem Leopoliensem"
+      ],
+      "justification": "Burgher and furrier/pellio acting as appointed guardian for Agnes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestus Andreas Samko Graecus Civis Samoscensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_widow_of",
+      "tail_entity_id": "E6",
+      "evidence": "Annam Filis olim Alberti a Chodell Consulis Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannes Zauischa nomine Prouisoris Hospitalis Sancti Spiritus Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "is_widow_of",
+      "tail_entity_id": "E15",
+      "evidence": "Honesta Agnes Famati olim Alberti Zauischek Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "tutorem Famatum Jacobum Gorzalek Zellionem Ciuem Leopoliensem"
+    }
+  ]
+}

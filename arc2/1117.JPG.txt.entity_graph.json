@@ -1,0 +1,235 @@
+{
+  "document_id": "arc2/1117.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "159 septimo"
+      ],
+      "descriptive_mentions": [
+        "futuro"
+      ],
+      "justification": "Date mentioned for future debt payment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "summa"
+      ],
+      "justification": "Amount of the debt mentioned repeatedly in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0075: CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "hanc ipsam summam"
+      ],
+      "justification": "Amount inscribed and secured on property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0837: Bartholomeus",
+      "mention_texts": [
+        "Bartholomaei"
+      ],
+      "descriptive_mentions": [
+        "fratris",
+        "proprij"
+      ],
+      "justification": "Brother whose share in house and garden was mortgaged."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0618: Gregorius Cele",
+      "mention_texts": [
+        "Gregorio Ciele"
+      ],
+      "descriptive_mentions": [
+        "eisdem"
+      ],
+      "justification": "Creditor from whom money was received."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sophia Radziubas",
+      "mention_texts": [
+        "Sophia Radziubas"
+      ],
+      "descriptive_mentions": [
+        "eisdem",
+        "suis"
+      ],
+      "justification": "Person receiving or acting in relation to the sum of 100 florins."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamus Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "Tutores liberorum Nobilis et Honesti olim Martini Zurowski Suburbani Leopoliensis"
+      ],
+      "justification": "Guardian of the children of the late Martinus Żurowski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Malik",
+      "mention_texts": [
+        "Nicolaus Malik"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "Tutores liberorum Nobilis et Honesti olim Martini Zurowski Suburbani Leopoliensis"
+      ],
+      "justification": "Co-guardian of the children of Martinus Żurowski."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburbs are inhabited by the actors."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Martinus Żurowski",
+      "mention_texts": [
+        "Martini Zurowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honesti olim",
+        "Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased suburbanite whose children had guardians."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "53 florins",
+      "mention_texts": [
+        "Quinquaginta trium Florenorum"
+      ],
+      "descriptive_mentions": [
+        "praefata summa"
+      ],
+      "justification": "Amount restored by the guardians to the city council's treasury."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Siedlicki",
+      "mention_texts": [
+        "Stanislai",
+        "Medliczki",
+        "Siedlecki"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person whose children were entitled to the sum."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Camera Officij nostri",
+        "eisdem Actis",
+        "Cameram nostram",
+        "Camera Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal office handling registrations and deposits."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Festum Exaltationis Sanctae Crucis proxima Anno 159 quinto"
+      ],
+      "descriptive_mentions": [
+        "proxime praeterito"
+      ],
+      "justification": "Date of the previous obligation in the council books."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Kuzanica",
+      "mention_texts": [
+        "Sebastianus Kuzamicza",
+        "Sebastiani Ruzanicza"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburbanite acknowledging receipt of funds from the council's chamber."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesti Adamus Kalinowski et Nicolaus Malik Suburbani Leopolienses tanquam Tutores liberorum Nobilis et Honesti olim Martini Zurowski"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesti Adamus Kalinowski et Nicolaus Malik Suburbani Leopolienses tanquam Tutores liberorum Nobilis et Honesti olim Martini Zurowski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "lives_in",
+      "tail_entity_id": "E9",
+      "evidence": "Adamus Kalinowski et Nicolaus Malik Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "lives_in",
+      "tail_entity_id": "E9",
+      "evidence": "Adamus Kalinowski et Nicolaus Malik Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "lives_in",
+      "tail_entity_id": "E9",
+      "evidence": "Martini Zurowski Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "lives_in",
+      "tail_entity_id": "E9",
+      "evidence": "Honestus Sebastianus Kuzamicza Suburbanus Leopoliensis"
+    }
+  ]
+}

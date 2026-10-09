@@ -1,0 +1,140 @@
+{
+  "document_id": "arc2/0887.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "praedicti mariti",
+        "praedicta"
+      ],
+      "justification": "Identified by name in property sale: 'praedicta Catherina sortem suam certam in domo hactenus communi habitata'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Zielogorski",
+      "mention_texts": [
+        "Sebastiano Zielogorski",
+        "Sebastiano"
+      ],
+      "descriptive_mentions": [
+        "praedicti mariti",
+        "marito suo",
+        "eidem"
+      ],
+      "justification": "Identified as the husband and buyer: 'vendidit haereditarie eidem Sebastiano Zielogorski eiusque legitimis Successoribus'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Elbech Domgala"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as neighbor of the property: 'penes posticum Elbech Domgala ex vna'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Xrzawajski",
+      "mention_texts": [
+        "Xrzawajski"
+      ],
+      "descriptive_mentions": [
+        "domum"
+      ],
+      "justification": "Identified as neighbor of the property: 'et Xrzawajski domum parte ex altera sita est'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Semenum"
+      ],
+      "descriptive_mentions": [
+        "Scabinum Juratum"
+      ],
+      "justification": "Identified as sworn assessor: 'Semenum Scabinum Juratum in Judicio Exposito Bannito praesentem constituit'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbis Italici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the house: 'quam Civitatis istius Suburbis Italici'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the house is situated: 'in platea Figulorum penes posticum Elbech Domgala'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court mentioned: 'in Judicio Exposito Bannito praesentem constituit'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Civitatis istius"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Officium nostrum"
+      ],
+      "justification": "City council referred to as 'Officium' and 'Officium nostrum'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Centum quinquaginta Florenos pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sale price: 'pretio Centum quinquaginta Florenos pecuniae et numeri Polonici'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "eidem Sebastiano marito suo cessit et condescendit"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Semenum Scabinum Juratum in Judicio Exposito Bannito praesentem constituit"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "Civitatis istius Suburbis Italici in platea Figulorum"
+    }
+  ]
+}

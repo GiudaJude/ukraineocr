@@ -1,0 +1,170 @@
+{
+  "document_id": "arc2/0421.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Albertus Pedanius"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles Domini Magi",
+        "Consulares"
+      ],
+      "justification": "City councilor appearing to make a formal record of proxy on behalf of the Archbishop of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Dziubrawius"
+      ],
+      "descriptive_mentions": [
+        "Medicinae Doctor collegij Maioris",
+        "Consulares"
+      ],
+      "justification": "City councilor and doctor of medicine appearing alongside Albertus Pedanius."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Zapolski",
+      "mention_texts": [
+        "Andreae Zapolski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Regij et Reverendissimi Domini Archiepiscopi Leopoliensis familiaris"
+      ],
+      "justification": "Noble courtier/familiar of the King and the Archbishop requesting the record."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0164: Archbishop of Lviv",
+      "mention_texts": [
+        "Archiepiscopi Leopoliensis",
+        "Joannes Demetrius Solikowski",
+        "Archiepiscopus Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Reverendissimi Domini",
+        "Illustrissimus et Reverendissimus Dominus"
+      ],
+      "justification": "Archbishop of Lviv appointing a plenipotentiary for legal proceedings."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Melchior Michałowski",
+      "mention_texts": [
+        "Melchiorem Michalowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "suum verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "Plenipotenti et mandatario suo",
+        "eidem",
+        "eum plenipotentem suum"
+      ],
+      "justification": "Appointed plenipotentiary representing Archbishop Solikowski in the royal court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Regij",
+        "Domini nostri Clementissimi"
+      ],
+      "justification": "The Polish monarch, whose tribunal and court are hearing the case."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Giecz",
+      "mention_texts": [
+        "Joannis Giecz"
+      ],
+      "descriptive_mentions": [
+        "interempti"
+      ],
+      "justification": "Deceased individual killed in Wallachia whose estate in Lviv is contested."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Territory where Joannes Giecz was slain."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council sits, the Archbishop resides, and the estate is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio hoc",
+        "officio nostro"
+      ],
+      "justification": "The municipal office before which the delegation and declaration occurred."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertus Pedanius et Stanislaus Dziubrawius Medicinae Doctor collegij Maioris Consulares"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislaus Dziubrawius Medicinae Doctor collegij Maioris Consulares"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "servant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andreae Zapolski Regij et Reverendissimi Domini Archiepiscopi Leopoliensis familiaris"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "servant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andreae Zapolski Regij et Reverendissimi Domini Archiepiscopi Leopoliensis familiaris"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E5",
+      "evidence": "Joannes Demetrius Solikowski Archiepiscopus Leopoliensis... fecit constituit ac solenniter ordinavit in suum verum legitimum indubitatumque Plenipotentem et mandatarium Nobilem Melchiorem Michalowski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "died_in",
+      "tail_entity_id": "E8",
+      "evidence": "morte Joannis Giecz in Valachia non ita pridem interempti"
+    }
+  ]
+}

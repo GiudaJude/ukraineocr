@@ -1,0 +1,112 @@
+{
+  "document_id": "arc2/0782.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Christophorus",
+      "mention_texts": [
+        "Christopherus"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "iunior haeres",
+        "Actori",
+        "pars aduersa",
+        "praefatus Actor"
+      ],
+      "justification": "Party demanding partition as the younger co-heir"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0816: Gregorius",
+      "mention_texts": [
+        "Gregorij"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "praenominati olim Gregorij nati senioris haeredis"
+      ],
+      "justification": "Deceased senior heir whose inheritance is subject to division"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "vidua",
+        "citata",
+        "vidua citata"
+      ],
+      "justification": "Widow of the deceased Gregorius contesting the division"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland appealed to by Sophia"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council acting as the judicial authority in the case"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Honoratorum Suis fidelium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial and scabinal office instructed to perform the partition"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille florenorum",
+        "Mille florenos"
+      ],
+      "descriptive_mentions": [
+        "debito",
+        "debiti"
+      ],
+      "justification": "Alleged debt of 1000 florins invoked by the widow"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Praefata autem Sophia vidua citata sentiens se eo grauam... praedicti olim Gregorij"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "praedictus Christopherus Actor tanquam iunior haeres... praenominati olim Gregorij nati senioris haeredis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "appealed_to",
+      "tail_entity_id": "E4",
+      "evidence": "Praefata autem Sophia vidua citata sentiens se eo grauam ab eodem ad sacram Regiam Maiestatem in isto appellauit."
+    }
+  ]
+}

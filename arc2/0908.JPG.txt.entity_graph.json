@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/0908.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sywa Fidorowicz",
+      "mention_texts": [
+        "Sywa Fidorowicz",
+        "Faria Fidorowis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Graeci",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Famati olim Sywa Fidorowicz Graeci Civis Leopoliensis ... ad praedictos Tutores Faria Fidorowis pertinentem"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civis Leopoliensis, Suburbani Leopolienses"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "aerarium nostrum Civile",
+        "Collegii nostris Consulari",
+        "officii"
+      ],
+      "justification": "aerarium nostrum Civile quietavit ... Collegii nostris Consulari"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "summam illis- le ducentorum florenorum pro necessitate publica apud eosdem tutores mutuatum"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1591",
+      "mention_texts": [
+        "Anno 1591 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Anno 1591 primo circa calculum declarata pro grata suscepimus"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaus Anserinus",
+        "Stanislao Anserino"
+      ],
+      "descriptive_mentions": [
+        "Spectabili Domino",
+        "Collegii nostris Consulari"
+      ],
+      "justification": "Stanislaus Anserinus Debitores eiusdem ... Spectabili Domino Stanislao Anserino Collegii nostris Consulari"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Lopek",
+      "mention_texts": [
+        "Martinus Lopek"
+      ],
+      "descriptive_mentions": [
+        "Debitores",
+        "Providi",
+        "Ruedonis Cocor",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Debitores eiusdem ... Martinus Lopek Ruedonis Cocor ... Suburbani Leopolienses"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Casparowicz",
+      "mention_texts": [
+        "Martinus Casparowicz"
+      ],
+      "descriptive_mentions": [
+        "Debitores",
+        "Providi",
+        "Pileator",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Martinus Casparowicz Pileator et Fedko Hriscowicz cerdo Suburbani Leopolienses"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Fedko Hriscowicz",
+      "mention_texts": [
+        "Fedko Hriscowicz"
+      ],
+      "descriptive_mentions": [
+        "Debitores",
+        "Providi",
+        "cerdo",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Fedko Hriscowicz cerdo Suburbani Leopolienses"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "336 Polish florins",
+      "mention_texts": [
+        "Florenos Trecentos Triginta sex pecuniae monetae et numeri Polonici",
+        "Trecentorum triginta sex florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "debent veri et liquidi debiti Spectabili Domino Stanislao Anserino ... Florenos Trecentos Triginta sex pecuniae monetae et numeri Polonici"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Third Sunday after Easter",
+      "mention_texts": [
+        "Dominica tertia post festum Conductum Paschae in eodem anno currenti proxime ventura"
+      ],
+      "descriptive_mentions": [],
+      "justification": "pro Dominica tertia post festum Conductum Paschae in eodem anno currenti proxime ventura"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famati olim Sywa Fidorowicz Graeci Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Domino Stanislao Anserino Collegii nostris Consulari"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Martinus Lopek Ruedonis Cocor ... Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Martinus Casparowicz Pileator ... Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Fedko Hriscowicz cerdo Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "owes",
+      "tail_entity_id": "E6",
+      "evidence": "Martinus Lopek ... debent veri et liquidi debiti Spectabili Domino Stanislao Anserino"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "owes",
+      "tail_entity_id": "E6",
+      "evidence": "Martinus Casparowicz ... debent veri et liquidi debiti Spectabili Domino Stanislao Anserino"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "owes",
+      "tail_entity_id": "E6",
+      "evidence": "Fedko Hriscowicz ... debent veri et liquidi debiti Spectabili Domino Stanislao Anserino"
+    }
+  ]
+}

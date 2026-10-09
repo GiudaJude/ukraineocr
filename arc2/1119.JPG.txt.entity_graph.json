@@ -1,0 +1,232 @@
+{
+  "document_id": "arc2/1119.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Simonowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the heading of the first act as Anna Simonowa."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanus Gurnath Klamperk",
+      "mention_texts": [
+        "Stanus Gurnath Klamperk"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "Civis"
+      ],
+      "justification": "Appearing citizen of Lviv providing testimony under oath."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopolitanis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as the location of the acts and citizenship/residence of the parties."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Antonius Klamperk",
+      "mention_texts": [
+        "Antonij Klamperk"
+      ],
+      "descriptive_mentions": [
+        "Ipsius Magni",
+        "lega nostri Consularis"
+      ],
+      "justification": "Council member at whose instance the testimony is given."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nostri Consularis"
+      ],
+      "justification": "Referenced in the phrase '[col]lega nostri Consularis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Lukasowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv citizen requesting the testimony alongside Antonius Klamperk."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia post Cantate Cantate proxima. Anno quo supra",
+        "feria quarta post Dominicam Cantate Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "anno eodem currenti proxime venturo"
+      ],
+      "justification": "Dating clauses for the two court acts and repayment schedule."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Wilczkowicz",
+      "mention_texts": [
+        "Wilczkowicze",
+        "Wilczkowski"
+      ],
+      "descriptive_mentions": [
+        "Cives"
+      ],
+      "justification": "Mentioned in the margin heading as citizens."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mazurkowicz",
+      "mention_texts": [
+        "Mazurkowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the margin heading."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Rzezapolszki",
+      "mention_texts": [
+        "Albertus Rzezapolszki"
+      ],
+      "descriptive_mentions": [
+        "Honestus"
+      ],
+      "justification": "Debtor recognizing a debt of 10 florins."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "florenos decem"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "The monetary amount of the debt acknowledged by Albertus Rzezapolszki."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobo Zgorbatek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Pellioni",
+        "Suburbanis Leopolitanis",
+        "successoribus"
+      ],
+      "justification": "Furrier and suburban creditor receiving the debt recognition as successor."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Zratnicki",
+      "mention_texts": [
+        "Jacobo Zratnicki"
+      ],
+      "descriptive_mentions": [
+        "Suburbanis Leopolitanis",
+        "successoribus"
+      ],
+      "justification": "Suburban creditor receiving the debt recognition jointly with Jacobus Gorszalek."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased original owner of the funds to whom the creditors succeed."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festo Assumptionis in Caelum Beatissimae Virginis Mariae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Term set for debt payment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanus Gurnath Klamperk Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Antonij Klamperk lega nostri Consularis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannis Lukasowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_debtor_to",
+      "tail_entity_id": "E12",
+      "evidence": "Albertus Rzezapolszki palam publice et benevoleque recognovit se debere certi veri liquidique debiti florenos decem pecuniae et numeri Polonicalis Famato Jacobo Zgorbatek Pellioni"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_debtor_to",
+      "tail_entity_id": "E13",
+      "evidence": "Albertus Rzezapolszki palam publice et benevoleque recognovit se debere certi veri liquidique debiti florenos decem pecuniae et numeri Polonicalis Famato Jacobo Zgorbatek Pellioni et Jacobo Zratnicki"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "is_successor_of",
+      "tail_entity_id": "E14",
+      "evidence": "Jacobo Zgorbatek Pellioni et Jacobo Zratnicki Suburbanis Leopolitanis successoribus successoris olim Jacobi"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "is_successor_of",
+      "tail_entity_id": "E14",
+      "evidence": "Jacobo Zgorbatek Pellioni et Jacobo Zratnicki Suburbanis Leopolitanis successoribus successoris olim Jacobi"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "document_id": "arc2/1475.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council before which the parties appeared."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Frendtke",
+      "mention_texts": [
+        "Frendtkes"
+      ],
+      "descriptive_mentions": [
+        "comparentes",
+        "Famati"
+      ],
+      "justification": "Party appearing before the council to respond to a citation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Rogala",
+      "mention_texts": [
+        "Rogalioni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party in whose citation response was being made."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "appeared_before",
+      "tail_entity_id": "E1",
+      "evidence": "Coram Officio Consulari Leopoliensi personaliter comparentes Famati Frendtkes"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "in_litigation_with",
+      "tail_entity_id": "E3",
+      "evidence": "Frendtkes Rogalioni in termino responsionis satisfaciendo citacioni"
+    }
+  ]
+}

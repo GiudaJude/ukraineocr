@@ -1,0 +1,248 @@
+{
+  "document_id": "arc2/1340.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Krzystanowic",
+      "mention_texts": [
+        "Krzystanowic"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "emptorum"
+      ],
+      "justification": "Named as husband and buyer alongside Anna, described as citizens of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "emptorum"
+      ],
+      "justification": "Named as wife of Krzystanowic and buyer."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensi",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal city of Lviv mentioned across several descriptions and court titles."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "450 Polish florins",
+      "mention_texts": [
+        "quadringentorum et quinquaginta florenorum pecuniae et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "precio"
+      ],
+      "justification": "Transaction price recorded in the contract."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Olszer",
+      "mention_texts": [
+        "Andrea Olszer"
+      ],
+      "descriptive_mentions": [
+        "praenominato"
+      ],
+      "justification": "Person from whom the property was previously acquired."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Dominicus",
+      "mention_texts": [
+        "Dominicum"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum",
+        "missum vero legitimum indubitatiumque Liatem et mandatorium",
+        "Lias"
+      ],
+      "justification": "Appointed proxy and scabinus resident in the Lviv Banned Court."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv mentioned where the resignation is to take place."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Konos",
+      "mention_texts": [
+        "Simon Konos"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses",
+        "arbitri"
+      ],
+      "justification": "Burgher of Lviv acting as an arbiter."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Tacik",
+      "mention_texts": [
+        "Stanislaus Tacik"
+      ],
+      "descriptive_mentions": [
+        "Festor",
+        "Cives Leopolienses",
+        "arbitri"
+      ],
+      "justification": "Burgher and weaver of Lviv acting as an arbiter."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martino Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino",
+        "arbitri"
+      ],
+      "justification": "Lviv scabinus serving as an arbiter."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Sigismuntowic",
+      "mention_texts": [
+        "Petro Sigismuntowic"
+      ],
+      "descriptive_mentions": [
+        "Cive Leopoliensi",
+        "arbitri"
+      ],
+      "justification": "Burgher of Lviv acting as an arbiter."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Droszek",
+      "mention_texts": [
+        "Stanislaus",
+        "Stanislaum Drossek"
+      ],
+      "descriptive_mentions": [
+        "Pilsc",
+        "Honestos",
+        "Pistorum Suburbanum Leopoliensem"
+      ],
+      "justification": "Suburban baker of Lviv involved in an arbitration dispute."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Caterina Pzowidi",
+      "mention_texts": [
+        "Caterina Smarthwa",
+        "Caterinam Pzowidi"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "viduam relictam"
+      ],
+      "justification": "Widow of Joannes Dobromysl involved in an arbitration dispute."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dobromysl",
+      "mention_texts": [
+        "Joannis Dobromysl"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Muratoris Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased suburban bricklayer/mason of Lviv, former husband of Caterina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Krzystanowic et Annae coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Krzystanowic et Annae coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "widow_of",
+      "tail_entity_id": "E14",
+      "evidence": "Caterinam Pzowidi olim Joannis Dobromysl Muratoris Suburbani Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Dominicum Scabinum in Exposito Judicio Bannito Leopoliensi quacunque celebrari residentem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Krzystanowic et Annae coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Krzystanowic et Annae coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simon Konos et Stanislaus Tacik Festor Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simon Konos et Stanislaus Tacik Festor Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Petro Sigismuntowic Cive Leopoliensi"
+    }
+  ]
+}

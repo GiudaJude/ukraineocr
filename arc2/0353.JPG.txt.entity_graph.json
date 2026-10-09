@@ -1,0 +1,242 @@
+{
+  "document_id": "arc2/0353.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Novicampianus",
+      "mention_texts": [
+        "Domini Nouicampiani",
+        "Paulus Nouicampianus"
+      ],
+      "descriptive_mentions": [
+        "Domino Doctori",
+        "Dominus Doctor",
+        "Medicinae Doctor",
+        "Collega noster Consularis",
+        "haereditario Domino",
+        "ipse",
+        "sibi"
+      ],
+      "justification": "Appears as Dr. Paulus Novicampianus, council colleague and hereditary lord refusing rent."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "12 groschen",
+      "mention_texts": [
+        "gnostos duodecim"
+      ],
+      "descriptive_mentions": [
+        "census"
+      ],
+      "justification": "Amount of rent offered to Paulus Novicampianus (OCR error for grossos duodecim)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "1595"
+      ],
+      "descriptive_mentions": [
+        "anno"
+      ],
+      "justification": "Year for which rent was tendered."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio",
+        "Collega noster Consularis"
+      ],
+      "justification": "The municipal council office before which the protestation and entries are made."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hilibertus Mathias Tomrzyk",
+      "mention_texts": [
+        "Hiliberti Mathiae Tomrzyk"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Aurifabri"
+      ],
+      "justification": "Goldsmith possessing the plot who lodged an action against Novicampianus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Manuel Suram",
+      "mention_texts": [
+        "Manuelis Suram",
+        "Manuelis"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Graeci",
+        "Civis Leopoliensis",
+        "praedicti olim"
+      ],
+      "justification": "Deceased Greek citizen of Lviv whose young heirs are represented by guardians."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Domicilia Niewiurka",
+      "mention_texts": [
+        "Domicilia Niewiurki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the section heading alongside the guardians of the youths of Manuel Suram."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Klapsiski",
+      "mention_texts": [
+        "Andreas Klapsiski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Institor",
+        "Tutores Iuuenum Manuelis Suram",
+        "viri Plenipotens"
+      ],
+      "justification": "Merchant acting as tutor/guardian and plenipotentiary of Manuel Suram's successors."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jonas Jaak",
+      "mention_texts": [
+        "Jonas Jaak"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Tutores Iuuenum Manuelis Suram",
+        "viri Plenipotens"
+      ],
+      "justification": "Co-tutor and plenipotentiary of Manuel Suram's successors."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City of Lviv, mentioned in citizen status and municipal servant title."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Dziwny",
+      "mention_texts": [
+        "Nicolaum",
+        "Dziwni"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honestos",
+        "Domesticos Zewridi",
+        "aduocatos",
+        "citatos",
+        "comparentes"
+      ],
+      "justification": "Servant/domestic of Nicolaus Zewrida summoned for examination."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dziwny",
+      "mention_texts": [
+        "Joannem",
+        "Dziwni"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honestos",
+        "Domesticos Zewridi",
+        "aduocatos",
+        "citatos",
+        "comparentes"
+      ],
+      "justification": "Servant/domestic of Nicolaus Zewrida summoned for examination."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Zewrida",
+      "mention_texts": [
+        "Zewridi",
+        "Nicolao Zewridi dicto Rzewien"
+      ],
+      "descriptive_mentions": [
+        "generoso"
+      ],
+      "justification": "Master of Nicolaus and Joannes Dziwny, whose relationship to Manuel Suram is examined."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szroda",
+      "mention_texts": [
+        "Joannis Szroda"
+      ],
+      "descriptive_mentions": [
+        "Famuli Ciuitatis iurati"
+      ],
+      "justification": "Sworn municipal servant who served the citation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tutores Iuuenum Manuelis Suram"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tutores Iuuenum Manuelis Suram"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "servant_of",
+      "tail_entity_id": "E13",
+      "evidence": "Domesticos Zewridi"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "servant_of",
+      "tail_entity_id": "E13",
+      "evidence": "Domesticos Zewridi"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "employee_of",
+      "tail_entity_id": "E10",
+      "evidence": "Famuli Ciuitatis iurati Joannis Szroda"
+    }
+  ]
+}

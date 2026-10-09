@@ -1,0 +1,117 @@
+{
+  "document_id": "arc2/0430.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolim",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document references the city of Lwów (Leopolis) and its suburb."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0005: Jarosław",
+      "mention_texts": [
+        "Jaroslawiam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Destination of the transported goods."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The municipal office recording the testimony and denunciations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria sexta post die Sancti Laurentii Anno Domini 1589 Quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the entry: Friday after the feast of St. Lawrence in 1594."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schemberger",
+      "mention_texts": [
+        "Stanislaus Schembegr"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Mercator Leopoliensis"
+      ],
+      "justification": "Citizen and merchant of Lviv making the formal denunciation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Bobrowski",
+      "mention_texts": [
+        "Stanum Bobrowski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honestos",
+        "Vectores Suburbanum Leopoliensem"
+      ],
+      "justification": "Suburban transporter produced as a witness."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Koparowski",
+      "mention_texts": [
+        "Mathias Ksparowicz",
+        "Mathias Koparowski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honestos",
+        "Vectores Suburbanum Leopoliensem",
+        "praedictos"
+      ],
+      "justification": "Witness who testified concerning the purchase and transit of goods."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Blasius Boleszka",
+      "mention_texts": [
+        "Blasium Boleszka",
+        "Blasius Boleszka"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honestos",
+        "Vectores Suburbanum Leopoliensem"
+      ],
+      "justification": "Witness who gave testimony before the court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislaus Schembegr Civis et Mercator Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "appeared_before",
+      "tail_entity_id": "E3",
+      "evidence": "Comparens personaliter Famatus Stanislaus Schembegr Civis et Mercator Leopoliensis denunciavit officio nostro"
+    }
+  ]
+}

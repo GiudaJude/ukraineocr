@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/1370.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "florenorum quadraginta"
+      ],
+      "descriptive_mentions": [
+        "precio florenorum quadraginta pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Purchase price recorded at the beginning of the entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court where the resignation was to be registered by the appointed plenipotentiary."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopolienses",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in the judicial context and the citizenship of the parties."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szpasther",
+      "mention_texts": [
+        "Stanislaus Szpasther",
+        "Stanislaw",
+        "Spaztur"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aurifaber",
+        "coniuges",
+        "Cives Leopolienses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Goldsmith and citizen of Lviv acting together with his wife to resign their property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses"
+      ],
+      "justification": "Wife of Stanislaus Szpasther, participating in the sale under her husband's tutelage."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "platea Angusta",
+      "mention_texts": [
+        "platea Angusta"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis suburbio in platea Angusta"
+      ],
+      "justification": "Street in the Lviv suburb where the alienated house and lot are located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "propugnaculum Strennitovia",
+      "mention_texts": [
+        "Strennitovia"
+      ],
+      "descriptive_mentions": [
+        "propugnaculum Strennitovia dictum"
+      ],
+      "justification": "Fortification or bastion behind which the street and property are located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Phuty Flak",
+      "mention_texts": [
+        "Pauli Phuty Flak"
+      ],
+      "descriptive_mentions": [
+        "sartoris"
+      ],
+      "justification": "Tailor whose property borders the alienated house on one side."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helizabethae",
+        "Strzalkowska"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "The purchaser of the property, widow of the late nobleman Joannes Strzalkowski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Strzalkowski",
+      "mention_texts": [
+        "Joannis Strzalkowski"
+      ],
+      "descriptive_mentions": [
+        "nobilis",
+        "olim",
+        "Ministerialis"
+      ],
+      "justification": "Deceased nobleman and ministerial, former husband of Helisabetha."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatus Stanislaus Szpasther Aurifaber et Anna coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatus Stanislaus Szpasther Aurifaber et Anna coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honestae Helizabethae nobilis olim Joannis Strzalkowski Ministerialis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in eiusdem Civitatis suburbio in platea Angusta"
+    }
+  ]
+}

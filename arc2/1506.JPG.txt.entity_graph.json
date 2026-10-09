@@ -1,0 +1,189 @@
+{
+  "document_id": "arc2/1506.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [],
+      "descriptive_mentions": [],
+      "justification": "Florenos centum pecuniae numeri Polonicalis in the text refers to 100 Polish florins."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Krol",
+      "mention_texts": [
+        "Valentino Krol"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Frontifici",
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "Creditoribus",
+        "dicti Creditores oppignoratarij",
+        "iidem Creditores",
+        "ipsis Creditoribus"
+      ],
+      "justification": "Named as creditor and husband of Anna in the mortgage contract."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniugibus",
+        "Civibus Leopoliensibus",
+        "Creditoribus",
+        "dicti Creditores oppignoratarij",
+        "iidem Creditores",
+        "ipsis Creditoribus"
+      ],
+      "justification": "Identified as wife of Valentinus Krol."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Refers to the city of Lviv / Leopolis."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "portam Haliciensem"
+      ],
+      "descriptive_mentions": [
+        "suburbio"
+      ],
+      "justification": "Location specified outside the Halych gate in the suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0463: Valentinus Gładysz",
+      "mention_texts": [
+        "Valentini Gładysz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor mentioned in the property boundary description."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Crusik",
+      "mention_texts": [
+        "Jacobi Crusik"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor mentioned on the other side of the property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office issuing the decree."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Brokowic",
+      "mention_texts": [
+        "Albertum Brokowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famato",
+        "Plenipotentem",
+        "Citorem"
+      ],
+      "justification": "Legal proctor representing Bohdan Dziurdzi."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Bohdan Dziurdzi",
+      "mention_texts": [
+        "Dziurdzi",
+        "Bohdan Dziurdzi"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famati",
+        "Civis Jaroslaviensis"
+      ],
+      "justification": "Citizen of Jarosław and principal in the dispute."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0005: Jarosław",
+      "mention_texts": [
+        "Jaroslaviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin for Bohdan Dziurdzi."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Jaśliska",
+      "mention_texts": [
+        "Jaslicensibus",
+        "Jasliski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the bench court records and cyrograph were drawn."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Raida",
+      "mention_texts": [
+        "Stanisław",
+        "Stanislaum Raida"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famato",
+        "Civem Graecensem",
+        "citatum"
+      ],
+      "justification": "Citizen cited in the court proceeding."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Valentino Krol Frontifici et Annae secundarum nuptiarum coniugibus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertum Brokowic Plenipotentem Famati Bohdan Dziurdzi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Bohdan Dziurdzi Civis Jaroslaviensis"
+    }
+  ]
+}

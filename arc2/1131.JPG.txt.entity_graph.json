@@ -1,0 +1,133 @@
+{
+  "document_id": "arc2/1131.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City where the legal transactions and the consular decree took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council issuing the judicial decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaum Didrowicium"
+      ],
+      "descriptive_mentions": [
+        "Doctorem",
+        "Excellentem Dominum",
+        "Medicinae Doctorem",
+        "Consulem Leopoliensem",
+        "actorem",
+        "Actori",
+        "Excellenti Doctori"
+      ],
+      "justification": "Doctor of medicine, consul of Lviv, and plaintiff in the lawsuit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kuczkoperka",
+      "mention_texts": [
+        "Joannem Kuczkoperka"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Aromatharium",
+        "Civem Leopoliensem",
+        "citatum",
+        "praefatus Citatus"
+      ],
+      "justification": "Apothecary and citizen of Lviv, summoned defendant in the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adam Szepsa",
+      "mention_texts": [
+        "Adamum Szepsam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Original debtor to Stanislaus Didrowicius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Szaszko",
+      "mention_texts": [
+        "Szaszkon",
+        "Szas",
+        "Szaszo Schomkorvis"
+      ],
+      "descriptive_mentions": [
+        "emptori",
+        "Emptoris",
+        "emptoris",
+        "Doliarium"
+      ],
+      "justification": "Buyer of the house in the first contract and holder of funds mentioned in the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta Florenorum",
+        "40. Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt adjudicated in the decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Ex Decreto Officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaum Didrowicium Medicinae Doctorem Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E1",
+      "evidence": "Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannem Kuczkoperka Aromatharium Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "ratione debiti quadraginta Florenorum pecuniae et numeri Polonicalis eidem Actori per Adamum Szepsam contracti"
+    }
+  ]
+}

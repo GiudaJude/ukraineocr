@@ -1,0 +1,282 @@
+{
+  "document_id": "arc2/1375.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the legal entries."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Iani Iszferdik",
+      "mention_texts": [
+        "Iani Iszferdik"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Graecus Civis Leopoliensis",
+        "seipsum"
+      ],
+      "justification": "Greek citizen of Lviv making a legal obligation before the court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Sabricha",
+      "mention_texts": [
+        "Hieronymo Sabricha",
+        "Sabricha"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Rutheno Civi Leopoliensi",
+        "idem Sabricha",
+        "ipso Sabricha"
+      ],
+      "justification": "Ruthenian citizen of Lviv acting as co-curator."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Ivan Kiaszowski",
+      "mention_texts": [
+        "Ivani Kiaszowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Concuratores"
+      ],
+      "justification": "Co-curator mentioned in the obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Paulicov",
+      "mention_texts": [
+        "Constantini"
+      ],
+      "descriptive_mentions": [
+        "Honestorum"
+      ],
+      "justification": "Ward under curatorship."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Daniel Paulicov",
+      "mention_texts": [
+        "Danielis Paulicovi"
+      ],
+      "descriptive_mentions": [
+        "Honestorum"
+      ],
+      "justification": "Ward under curatorship."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Marussna",
+      "mention_texts": [
+        "Marussna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of Matis Zelikiers granting power of attorney."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Matis Zelikiers",
+      "mention_texts": [
+        "Matis Zelikiers"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Rutheni Civis Leopoliensis"
+      ],
+      "justification": "Deceased Ruthenian citizen of Lviv, former husband of Marussna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Skawski",
+      "mention_texts": [
+        "Joannem Skawski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "affinem suum tutorem sibi ad infrascripta assumptum"
+      ],
+      "justification": "Noble relative assisting Marussna as tutor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Zberowic",
+      "mention_texts": [
+        "Bartholomaei Zberowic",
+        "Bartholomeum Zberowic"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Regium",
+        "legitimum Plenipotentem",
+        "Plenipotens suus",
+        "idem Plenipotens suus"
+      ],
+      "justification": "Plenipotentiary appointed by Marussna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal office recording the entries and royal decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sigismundus Tertius"
+      ],
+      "descriptive_mentions": [
+        "Rex Poloniae",
+        "Magnus Dux Lithuaniae",
+        "Dei gratia Rex"
+      ],
+      "justification": "King Sigismund III Vasa issuing a royal decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dohotor",
+      "mention_texts": [
+        "Dziatkowic",
+        "Joannem Dohotorem"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Actorem"
+      ],
+      "justification": "Plaintiff in the lawsuit registered by the royal decree."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam Ziankowna",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "viduam relictam citatam appellatam"
+      ],
+      "justification": "Widow of Martinus Ziamko, defendant and appellant in the suit."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Martinus Ziamko",
+      "mention_texts": [
+        "Martini Ziamko"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Mercatoris Civis Leopoliensis"
+      ],
+      "justification": "Deceased merchant and burgher of Lviv, former husband of Anna."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom in the royal intitulation."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0274: Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Grand Duchy in the royal intitulation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesta Marussna Famati olim Matis Zelikiers Rutheni Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "represented_by",
+      "tail_entity_id": "E10",
+      "evidence": "constituit et solemniter ordinavit in seu vero legitimum Plenipotentem Honoratum Bartholomeum Zberowic"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Honestam Annam Famati olim Martini Ziamko Mercatoris Civis Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "ruler_of",
+      "tail_entity_id": "E16",
+      "evidence": "Sigismundus Tertius Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "ruler_of",
+      "tail_entity_id": "E17",
+      "evidence": "Magnus Dux Lithuaniae"
+    }
+  ]
+}

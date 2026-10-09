@@ -1,0 +1,131 @@
+{
+  "document_id": "arc2/0031.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitas"
+      ],
+      "justification": "City referenced in the text through citizen status and the consular office ('Cives Leopolienses', 'Leopoliensis')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii",
+        "Officio",
+        "Officium nostrum"
+      ],
+      "justification": "Municipal council acting as the judicial authority in the dispute ('Officium vero Consulare Leopoliensis')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "praedicta Catherina",
+        "coniuges"
+      ],
+      "justification": "Wife of Tobias Tłumaczowic, involved in the propination dispute before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0109: Tobias Tłumaczowic",
+      "mention_texts": [
+        "Tobias",
+        "Tobiae"
+      ],
+      "descriptive_mentions": [
+        "praedictus Tobias",
+        "coniuges"
+      ],
+      "justification": "Husband of Catherina, defendant defending their propination rights."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Krassnicki",
+      "mention_texts": [
+        "Stanislaum Krassnicki"
+      ],
+      "descriptive_mentions": [
+        "Procuratorem",
+        "Nobilem"
+      ],
+      "justification": "Noble legal procurator acting on behalf of Tobias and Catherina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0111: Joannes Jaszkowic",
+      "mention_texts": [
+        "Joannes Jasikowicz"
+      ],
+      "descriptive_mentions": [
+        "praedictus Joannes Jasikowicz",
+        "parte adversa"
+      ],
+      "justification": "Plaintiff who challenged the liquor propination and appealed the council's decree to the Crown."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Domina Jasikowicz",
+      "mention_texts": [
+        "Jasikowicz"
+      ],
+      "descriptive_mentions": [
+        "Dominam"
+      ],
+      "justification": "Mentioned as a party in the house also entitled to peace and quiet ('prout et Dominam Jasikowicz')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedictus Tobias et Catherina coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "praedictus Tobias et Catherina coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "praedictus Tobias et Catherina coniuges per Procuratorem secum Nobilem Stanislaum Krassnicki allegaverunt"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedictus Tobias et Catherina coniuges per Procuratorem secum Nobilem Stanislaum Krassnicki allegaverunt"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Officium vero Consulare Leopoliensis"
+    }
+  ]
+}

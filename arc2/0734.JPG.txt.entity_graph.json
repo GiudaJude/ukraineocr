@@ -1,0 +1,199 @@
+{
+  "document_id": "arc2/0734.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0319: Nicolaus Abrek the Younger",
+      "mention_texts": [
+        "Nicolai",
+        "Nicolai Laskowicz",
+        "Nicolai olim Laszkowicz",
+        "Nicolaus"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "auunculi",
+        "olim praedicti Laboriosi",
+        "cognati sui",
+        "olim",
+        "cognatus"
+      ],
+      "justification": "Deceased relative whose estate in Lviv is being settled by his heirs."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Michael Lesknowicz",
+      "mention_texts": [
+        "Michael Lesknowicz"
+      ],
+      "descriptive_mentions": [
+        "sucessor"
+      ],
+      "justification": "One of the heirs from the village Sordów settling the estate."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Sordów",
+      "mention_texts": [
+        "Sordow"
+      ],
+      "descriptive_mentions": [
+        "villa",
+        "villae praefata",
+        "eadem Sordow"
+      ],
+      "justification": "Village from which the heirs Michael Lesknowicz and Kotek Chicowicz originate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Alexander",
+      "mention_texts": [
+        "Alexandri"
+      ],
+      "descriptive_mentions": [
+        "Patris sui",
+        "dicti Oprophia Palatini Vohlinensis"
+      ],
+      "justification": "Father of Michael Lesknowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Jaczkowski",
+      "mention_texts": [
+        "Alberti Iaczkorowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Advocati et Tenutarij villae praefata Sordow"
+      ],
+      "justification": "Noble advocate and leaseholder of the village Sordów."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Helena",
+      "mention_texts": [
+        "Felena"
+      ],
+      "descriptive_mentions": [
+        "matris suae"
+      ],
+      "justification": "Mother of Michael Lesknowicz and sister of Nicolaus Laskowicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Kotek Chicowicz",
+      "mention_texts": [
+        "Kotek Chicowicz"
+      ],
+      "descriptive_mentions": [
+        "Laboriosus",
+        "filius",
+        "furor"
+      ],
+      "justification": "Heir from Sordów, son of Anna Chiczowa and nephew of Nicolaus Laskowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Anna Chiczowa",
+      "mention_texts": [
+        "Annae Chiczowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "praedicti Nicolai sororis germanae"
+      ],
+      "justification": "Full sister of Nicolaus Laskowicz and mother of Kotek Chicowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hanka Szecowa",
+      "mention_texts": [
+        "Hanka Szecowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "sororis sua germanae"
+      ],
+      "justification": "Full sister of Kotek Chicowicz on whose behalf he gives assurance."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the estate goods are situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Annam",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta sua",
+        "affine",
+        "Coniugis",
+        "satisfacientem"
+      ],
+      "justification": "Widow of the late Nicolaus Laskowicz who makes satisfaction to the heirs."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Volhynia",
+      "mention_texts": [
+        "Vohlinensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Palatinate referenced in the palatine designation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Michael Lesknowicz de villa Sordow Patris sui Alexandri"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Kotek Chicowicz de eadem Sordow Honestae Annae Chiczowa praedicti Nicolai sororis germanae filius"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestae Annae Chiczowa praedicti Nicolai sororis germanae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honestae Hanka Szecowa sororis sua germanae"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "ab Honesta Anna praedicti Nicolai olim Laszkowicz vidua relicta sua"
+    }
+  ]
+}

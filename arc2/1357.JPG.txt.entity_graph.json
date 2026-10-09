@@ -1,0 +1,209 @@
+{
+  "document_id": "arc2/1357.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulum Kaszcowic",
+        "Paulus Kaszcowic",
+        "Pauli Kaszcowic",
+        "Paulo Kaszcowic"
+      ],
+      "descriptive_mentions": [
+        "Principalem"
+      ],
+      "justification": "Principal party in the financial dispute mentioned repeatedly in the court proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szembek",
+      "mention_texts": [
+        "Stanislaus Szembek",
+        "Szem- bek",
+        "Stanislao Szembek"
+      ],
+      "descriptive_mentions": [
+        "Actoris Pars",
+        "creditorem",
+        "Civi",
+        "Famato"
+      ],
+      "justification": "Creditor in the dispute who appealed to the king and received the settled sum."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland appealed to by Stanislaus Szembek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal office/court passing decrees and conducting official descent."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "1700 florins",
+      "mention_texts": [
+        "floren mille septingenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total sum calculated in the dispute."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "390 florins",
+      "mention_texts": [
+        "Floren trecenti nona- ginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Remaining balance mentioned in the financial accounting."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Floren sexaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount credited for a pledge or piece of jewelry."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "456 Polish florins",
+      "mention_texts": [
+        "Florenos quadringentos quinquaginta sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Final amount paid and counted to Stanislaus Szembek."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to Polish currency."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Adwocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate appearing in court to make the official report."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Proteski",
+      "mention_texts": [
+        "Jacobus Proteski"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati"
+      ],
+      "justification": "Sworn scabinus of Lviv appearing in court."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0074: Joannes Sobol",
+      "mention_texts": [
+        "Joan: Solul"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati"
+      ],
+      "justification": "Sworn scabinus appearing alongside Jacobus Proteski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in official and citizenship designations."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Simon Lurch",
+      "mention_texts": [
+        "Simonem Lurch"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ruthenum",
+        "Civem Leopoliensis"
+      ],
+      "justification": "Ruthenian burgher of Lviv who requested the court descent."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "appealed_to",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Szembek ad Sacrae Regiae Maiestatem appellavit"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "creditor_of",
+      "tail_entity_id": "E1",
+      "evidence": "creditorem Pauli Kaszcowic iure lucratae persolvit et numera- vit eidem Sebast: Szsinter Civi: Famato Stanislao Szembek"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorius Dobrocki Adwocatus Ordinarius et Honorati Jacobus Proteski atque Joan: Solul Scabini Jurati Civitatis Leopoliensis in vim sua venae et Fidelis re- lationis palam publice benevoleque recognoverunt: Quia prae- senti ex Officio exntes"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobus Proteski atque Joan: Solul Scabini Jurati Civitatis Leopoliensis in vim sua venae et Fidelis re- lationis palam publice benevoleque recognoverunt: Quia prae- senti ex Officio exntes"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joan: Solul Scabini Jurati Civitatis Leopoliensis in vim sua venae et Fidelis re- lationis palam publice benevoleque recognoverunt: Quia prae- senti ex Officio exntes"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Simonem Lurch Ruthenum Civem Leopoliensis"
+    }
+  ]
+}

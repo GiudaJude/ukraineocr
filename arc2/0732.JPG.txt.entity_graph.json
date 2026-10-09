@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0732.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae",
+        "Sophia",
+        "Sophia Dronicka"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "filiae suae",
+        "eadem filia sua",
+        "eadem",
+        "donataria",
+        "Honesta",
+        "devortiata vidua relicta",
+        "citata",
+        "requisita"
+      ],
+      "justification": "Sophia, daughter of Catherina, receives property donation with guardian Paulus Kraus, and later appears as Sophia Dronicka to testify."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "eadem praedicta",
+        "matri sua"
+      ],
+      "justification": "Mother donating property to her daughter Sophia."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kraus",
+      "mention_texts": [
+        "Paulum Kraus"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "tutorem",
+        "Honestum",
+        "Ordinarium"
+      ],
+      "justification": "Tutor assisting Sophia in her legal promise and mentioned as ordinary in the second entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Civili Leopoliensi Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The civil banned court of Lviv designated for the formal resignation of the donated property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut SUPRA"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference indicating the date recorded above in the protocol (1595)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sartor",
+      "mention_texts": [
+        "Joanne Sartore",
+        "Joannis Sartoris"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopoliensis"
+      ],
+      "justification": "Tailor and suburban resident of Lviv at whose instance testimony was taken."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Smotka",
+      "mention_texts": [
+        "Mathiae Smotka"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased former husband of Sophia Dronicka."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the adjectival reference to Joannes Sartor's residence."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "filiae suae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "matri sua"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "per eundem Paulum Kraus tutorem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "olim Mathiae Smotka devortiata vidua relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Iudicio Civili Leopoliensi Exposito"
+    }
+  ]
+}

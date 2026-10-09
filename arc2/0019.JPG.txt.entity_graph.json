@@ -1,0 +1,169 @@
+{
+  "document_id": "arc2/0019.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastiano Karckowic",
+        "Sebastianum Karckowicz"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem",
+        "mandatarium",
+        "Famatum",
+        "Ciuem Leopoliensem",
+        "fratrem suum germanum",
+        "eidem praefato",
+        "Plenipotens suus"
+      ],
+      "justification": "Appointed as legal plenipotentiary by his brother Matias Karckowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Karszowic",
+      "mention_texts": [
+        "Matias Karckowicz"
+      ],
+      "descriptive_mentions": [
+        "Comparens",
+        "Ingenuus ac Discretus",
+        "legitimus Successor"
+      ],
+      "justification": "Appears before the council to grant power of attorney to his brother Sebastian."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Karsz",
+      "mention_texts": [
+        "Alberti Karcz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Late citizen of Lviv, deceased father of Mathias and Sebastian."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the citizenship designations of Albertus and Sebastianus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Maczurka",
+      "mention_texts": [
+        "Stanislao Maczurka"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "coniugibus"
+      ],
+      "justification": "Mentioned alongside his wife Dorothea regarding a debt obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Mentioned as the wife of Stanislaus Maczurka."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the house Jaroszowska is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "ulica Grodzieńska",
+      "mention_texts": [
+        "platea Grodensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych Suburb where the house Jaroszowska is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Jaroszowska House",
+      "mention_texts": [
+        "Iarossowska"
+      ],
+      "descriptive_mentions": [
+        "domum ligneam"
+      ],
+      "justification": "Wooden house located in the Halych Suburb to be sold by Sebastian."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Sebastianum Karckowicz Ciuem Leopoliensem fratrem suum germanum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Sebastianum Karckowicz Ciuem Leopoliensem fratrem suum germanum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Matias Karckowicz Famati olim Alberti Karcz Civis Leopoliensis legitimus Successor"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Matias Karckowicz Famati olim Alberti Karcz Civis Leopoliensis legitimus Successor ... Sebastianum Karckowicz ... fratrem suum germanum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislao Maczurka et Dorothea coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislao Maczurka et Dorothea coniugibus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "domum ligneam in Suburbio Haliciensi in platea Grodensium sitam Iarossowska vocatam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "domum ligneam in Suburbio Haliciensi in platea Grodensium sitam Iarossowska vocatam"
+    }
+  ]
+}

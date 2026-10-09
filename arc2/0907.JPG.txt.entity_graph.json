@@ -1,0 +1,40 @@
+{
+  "document_id": "arc2/0907.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis",
+        "Officii Consularis"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Collega nostro Consulari"
+      ],
+      "justification": "The consular office and magistracy of Lviv issuing a judicial decision and recording an act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0300: Andreas Dambrowski",
+      "mention_texts": [
+        "Andreas Dabrow-szki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Generosus Dominus",
+        "tutor testamentarius"
+      ],
+      "justification": "Noble Andreas Dąbrowski appearing personally as a testamentary guardian."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "appears_before",
+      "tail_entity_id": "E1",
+      "evidence": "Quietatio Officii Consularis Comparens personaliter Nobilis et Generosus Dominus Andreas Dabrow-szki"
+    }
+  ]
+}

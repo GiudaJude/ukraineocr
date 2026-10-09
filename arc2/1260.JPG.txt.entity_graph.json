@@ -1,0 +1,60 @@
+{
+  "document_id": "arc2/1260.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Torossowic",
+      "mention_texts": [
+        "Joanni Torossowic",
+        "Torossowic",
+        "Joanni\nTorossowic"
+      ],
+      "descriptive_mentions": [
+        "supranominato\nFamato",
+        "praefati"
+      ],
+      "justification": "Named individual to whom payment, peaceful possession, and obligation satisfaction are owed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille\nflorenorum",
+        "mille florenorum"
+      ],
+      "descriptive_mentions": [
+        "summae essentialis",
+        "summam essentialem"
+      ],
+      "justification": "Monetary principal sum specified in the obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0060: ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Judicium siue Officium\nCastrense Leopoliense",
+        "Judicis siue Officio\nillo Castrensi Leopoliensi",
+        "Judicio siue Officio\nCastrensi"
+      ],
+      "descriptive_mentions": [
+        "praefato"
+      ],
+      "justification": "The Castle Court of Lviv specified as the forum of citation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the jurisdictional title of the court."
+    }
+  ],
+  "relationships": []
+}

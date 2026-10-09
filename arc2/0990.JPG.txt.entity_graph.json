@@ -1,0 +1,174 @@
+{
+  "document_id": "arc2/0990.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatem"
+      ],
+      "justification": "Actum Leopoli die anno quo supra... redeundo versus Civitatem"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli die anno quo supra."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobroczski"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "Advocatus ordinarius"
+      ],
+      "justification": "Excellens Gregorius Dobroczski Advocatus ordinarius"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgangus Bernts"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Honorati Wolfgangus Bernts et Martinus Rothendorff"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rothendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Honorati Wolfgangus Bernts et Martinus Rothendorff"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Stonicki Plicatorius",
+      "mention_texts": [
+        "Plicatorius",
+        "Stanislai Stonicki Plicatorii"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "sartoris",
+        "tutorum",
+        "eorundem tutorum",
+        "dictorum tutorum"
+      ],
+      "justification": "ad instantiam Honestorum Stanislai Stonicki Plicatorii sartoris et Alexiej tutoris"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Alexy",
+      "mention_texts": [
+        "Alexiej"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "tutoris",
+        "tutorum",
+        "eorundem tutorum",
+        "dictorum tutorum"
+      ],
+      "justification": "Alexiej tutoris ortorum puerorum olim Ilkonis Rybittu relictorum"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Ilko Rybitwa",
+      "mention_texts": [
+        "Ilkonis Rybittu",
+        "Ilkonis Rybitwa"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "praefati defuncti",
+        "defuncti",
+        "praefati"
+      ],
+      "justification": "olim Ilkonis Rybittu relictorum... domum et hortum praefati defuncti... praefati Ilkonis Rybitwa"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakow",
+        "platea Lyczakow"
+      ],
+      "descriptive_mentions": [
+        "eadem platea"
+      ],
+      "justification": "in domum et hortum praefati defuncti in Lyczakow... in eadem platea Lyczakow"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Trojan",
+      "mention_texts": [
+        "Troiani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "inter Troiani et Nicolai Organistis domos et hortos"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Organista",
+      "mention_texts": [
+        "Nicolai Organistis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "inter Troiani et Nicolai Organistis domos et hortos"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Fama Sławsz",
+      "mention_texts": [
+        "Fama Sławszem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "inter Fama Sławszem et Stanislai Gryzło sitos"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gryzło",
+      "mention_texts": [
+        "Stanislai Gryzło"
+      ],
+      "descriptive_mentions": [],
+      "justification": "inter Fama Sławszem et Stanislai Gryzło sitos"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in domum et hortum praefati defuncti in Lyczakow... redeundo versus Civitatem"
+    }
+  ]
+}

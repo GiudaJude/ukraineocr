@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0856.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Doctoris"
+      ],
+      "descriptive_mentions": [
+        "praefati Domini"
+      ],
+      "justification": "Doctor mentioned in court record, matching known corpus entity PER-0007: Stanislaus Doctor."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudiciali Leopoliensi",
+        "Iudicij Necessarij banniti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Banned Court (Iudicium Necessarium bannitum Leopoliense)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "5 February 1596",
+      "mention_texts": [
+        "feria secunda die Sanctae Agathae Virginis Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court date specified by Monday of the Feast of St Agatha in the current year."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0149: Stanislaus Aberman",
+      "mention_texts": [
+        "Stanislaus Habermannowic",
+        "Stanislaus Habermannowicz",
+        "Stanislao Habermannowicz"
+      ],
+      "descriptive_mentions": [
+        "Fatus",
+        "Campanifusor",
+        "personam suam",
+        "Campanifusori",
+        "Creditori",
+        "idem Creditor"
+      ],
+      "justification": "Bellfounder (campanifusor) Stanislaus Habermannowicz, matching known entity PER-0149: Stanislaus Aberman."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Niedzwiedz",
+      "mention_texts": [
+        "Bartholomaeum Niedzwiedz",
+        "Bartholomaei Niedzwiedz"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Coniuges",
+        "praefati sui mariti"
+      ],
+      "justification": "Deceased husband of Barbara."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Niedzwiedzia",
+        "Barbaram",
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Ista",
+        "praedicti olim Bartholomaei Niedzwiedz vidua relicta"
+      ],
+      "justification": "Widow of Bartholomaeus Niedzwiedz, corresponding to corpus entity PER-0283: Barbara."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "64 Polish florins 25 grosz",
+      "mention_texts": [
+        "sexaginta quatuor florenorum et grossorum viginti quinque",
+        "Florenos sexaginta quatuor et grossos viginti quinque pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "residualem debiti",
+        "certi veri liquidique debiti",
+        "summam",
+        "summam eandem",
+        "summa principali",
+        "praefati debiti"
+      ],
+      "justification": "Monetary sum of debt recognized and inscribed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Dąbek",
+      "mention_texts": [
+        "Mathiam Dąbek"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "sutorem",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Shoemaker acting as legal guardian (tutor) for the widow Barbara."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal office/court cited regarding intromissio."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "per olim Bartholomaeum Niedzwiedz et Barbaram Coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Honestum Mathiam Dąbek sutorem tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_to",
+      "tail_entity_id": "E4",
+      "evidence": "recognovit se debere certi veri liquidique debiti Florenos sexaginta quatuor et grossos viginti quinque pecuniae et numeri Polonicalis praedicto Stanislao Habermannowicz Campanifusori"
+    }
+  ]
+}

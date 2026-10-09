@@ -1,0 +1,143 @@
+{
+  "document_id": "arc2/0682.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Statis Gelatinus",
+      "mention_texts": [
+        "Statis Gelatinus"
+      ],
+      "descriptive_mentions": [
+        "praenominatus",
+        "venditor"
+      ],
+      "justification": "Named as the seller (venditor) in the contract fragment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobo Scholcz"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Buyer and spouse of Ursula, matching known entity Jacobus Scholz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Ursulae"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Wife of Jacobus Scholz, matching known entity Ursula."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0022: Kraków City Council",
+      "mention_texts": [
+        "Actorum Consularium Cracoviensium"
+      ],
+      "descriptive_mentions": [
+        "Protocolo"
+      ],
+      "justification": "Council records cited at the close of the entry, matching known entity Kraków City Council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council of Lviv before which the denunciation was made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in civic titles and guild affiliations."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Kinost",
+      "mention_texts": [
+        "Martinus Kinost",
+        "Martinus Smolc"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "Civis Leopoliensis",
+        "Fannifex"
+      ],
+      "justification": "Plaintiff (actor) ropemaker appearing before the council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Contubernium Funificum",
+      "mention_texts": [
+        "Contubernium Funificum",
+        "Contubernij Fannificum et sellatorud"
+      ],
+      "descriptive_mentions": [
+        "Seniores Magistros et Seniores Contubernij"
+      ],
+      "justification": "Ropemakers' guild of Lviv against whose elders the action was brought."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Thomas Tarik",
+      "mention_texts": [
+        "Thomam Tarik"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem suum"
+      ],
+      "justification": "Attorney/prolocutor representing Martinus Kinost."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse of",
+      "tail_entity_id": "E3",
+      "evidence": "dictis Jacobo Scholcz et Ursulae Coniugibus emptoribus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal representative of",
+      "tail_entity_id": "E7",
+      "evidence": "per Stern Thomam Tarik Prolocutorem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident of",
+      "tail_entity_id": "E6",
+      "evidence": "Martinus Kinost Fannifex Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located in",
+      "tail_entity_id": "E6",
+      "evidence": "Contubernij Fannificum et sellatorud Civitatis Leopoliensis"
+    }
+  ]
+}

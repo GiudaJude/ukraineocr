@@ -1,0 +1,89 @@
+{
+  "document_id": "arc2/0720.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium praesens",
+        "acta praesentia",
+        "officio"
+      ],
+      "justification": "City council office and records where the act and obligation were presented"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Bartulus Krzyzianowicz",
+      "mention_texts": [
+        "Bartulus Krzyzianowicz"
+      ],
+      "descriptive_mentions": [
+        "servitor",
+        "se",
+        "manuque sua propria",
+        "ipse"
+      ],
+      "justification": "Servant who was imprisoned and issued a written obligation of compensation to his master"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Siedzidza",
+      "mention_texts": [
+        "Siedzidza"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin associated with Bartulus Krzyzianowicz ('de Siedzidza')"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szymonowicz",
+      "mention_texts": [
+        "Petri Szymonowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis et Lanicidae Leopoliensis",
+        "hero suo praefato",
+        "heri sui",
+        "eidem hero suo",
+        "dicto hero suo"
+      ],
+      "justification": "Butcher and citizen of Lviv whose servant caused damages"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the civic title of Petrus Szymonowicz"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "originates_from",
+      "tail_entity_id": "E3",
+      "evidence": "Bartulus Krzyzianowicz de Siedzidza"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "servant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famati Petri Szymonowicz Civis et Lanicidae Leopoliensis servitor"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Petri Szymonowicz Civis et Lanicidae Leopoliensis"
+    }
+  ]
+}

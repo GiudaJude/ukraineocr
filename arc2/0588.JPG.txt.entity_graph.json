@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/0588.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gallus",
+      "mention_texts": [
+        "Gallum",
+        "Gallus"
+      ],
+      "descriptive_mentions": [
+        "Scultetum",
+        "citatum",
+        "citato",
+        "citatus",
+        "praedictus",
+        "authorem esse damnorum"
+      ],
+      "justification": "Cited party in the property dispute, referred to as Gallus Scultetus."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margareta"
+      ],
+      "descriptive_mentions": [
+        "Actoricem",
+        "eadem",
+        "advitalitia",
+        "actricem",
+        "eadem actrix",
+        "actrix",
+        "eadem actrice",
+        "Praedicta"
+      ],
+      "justification": "Plaintiff in the property dispute, named Margareta."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Luca"
+      ],
+      "descriptive_mentions": [
+        "maritum",
+        "marito ipsius",
+        "mariti",
+        "maritus"
+      ],
+      "justification": "Husband of Margaretha, named Lucas."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florens"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Settlement amount of 50 florins mentioned in the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jaroszewicz",
+      "mention_texts": [
+        "Joannis Saykiewic",
+        "Joannes Jaroszewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "senior Linenus Leopoliensis",
+        "suus affinis",
+        "eundem",
+        "eundemque"
+      ],
+      "justification": "Debtor quieted in the record, identified as Joannes Saykiewic in the heading and Joannes Jaroszewicz in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Tobiasz Hamartowicz",
+      "mention_texts": [
+        "Tobiasz Hamartowicz"
+      ],
+      "descriptive_mentions": [
+        "Hti",
+        "Coniuges",
+        "ille",
+        "maritum suum naturalem tutorem"
+      ],
+      "justification": "Husband appearing to acknowledge receipt of payment."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "haec"
+      ],
+      "justification": "Wife of Tobiasz Hamartowicz (Catherina Tobiaszowa), appearing alongside her husband."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "decem Florenos Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 10 Polish florins paid by Joannes Jaroszewicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the document text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Luca marito ipsius"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Tobiasz Hamartowicz et Catherina Coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "relative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannes Jaroszewicz senior Linenus Leopoliensis suus affinis"
+    }
+  ]
+}

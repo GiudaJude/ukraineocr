@@ -1,0 +1,230 @@
+{
+  "document_id": "arc2/1268.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "eiusdem Officii",
+        "Officium praesens",
+        "Praefati Officii"
+      ],
+      "justification": "The municipal council of Lviv issuing and referencing earlier decrees in the dispute."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned via adjectival civic descriptors."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbaram Stogniewowa",
+        "Barbara Stogniewowa",
+        "Barbaro"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "consortem viduam",
+        "actricem",
+        "pars Actrix",
+        "eadem Actrix"
+      ],
+      "justification": "The plaintiff in the case, widow of Tobiasz Inszykiot and Krzysztof Stogniew."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Tobias Inszykiot",
+      "mention_texts": [
+        "Tobiae Inszykiot"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Institoris Civis Leopoliensis",
+        "Institoris"
+      ],
+      "justification": "First husband of Barbara Stogniewowa, deceased merchant and citizen of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Stogniew",
+      "mention_texts": [
+        "Christophori Stogniew"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Second husband of Barbara Stogniewowa, a nobleman."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adami Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopoliensis",
+        "Tutores ipsius"
+      ],
+      "justification": "Court-appointed guardian assisting Barbara Stogniewowa."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0023: Petrus de Tarnopol",
+      "mention_texts": [
+        "Petrum Gmadek"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "citatos",
+        "pars citata",
+        "citatis",
+        "citatorum"
+      ],
+      "justification": "Petrus Gniadek, cited successor of Joannes Winkler."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigi"
+      ],
+      "descriptive_mentions": [
+        "consorte ipsius"
+      ],
+      "justification": "Wife of Petrus Gniadek and co-successor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheam"
+      ],
+      "descriptive_mentions": [
+        "viduam relictam"
+      ],
+      "justification": "Widow of Valentinus Bystrzis, co-successor cited in the dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Bystrzis",
+      "mention_texts": [
+        "Valentini Bystrzis"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Late husband of Dorothea."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Winkler",
+      "mention_texts": [
+        "Winkler",
+        "Joanniszij"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Lanii Civis Leopoliensis",
+        "Lanii"
+      ],
+      "justification": "Deceased butcher and citizen of Lviv whose estate and successors are litigating."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post Dominicam Oculi proxima Anno 159 sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree referenced by the cited party."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestam Barbaram Stogniewowa primarum nuptiarum Famati olim Tobiae Inszykiot Institoris Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "posterioris vero Nobilis Christophori Stogniew consortem viduam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "cum assistentia Honesti Adami Kalinowski Suburbani Leopoliensis Tutores ipsius per Officium unum appobati"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Petrum Gmadek cui Hedvigi consorte ipsius"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Dorotheam Famati olim Valentini Bystrzis viduam relictam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "successor_of",
+      "tail_entity_id": "E11",
+      "evidence": "Petrum Gmadek cui Hedvigi consorte ipsius necnon Dorotheam ... tanquam successores Famati olim Joanniszij"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "successor_of",
+      "tail_entity_id": "E11",
+      "evidence": "Hedvigi consorte ipsius necnon Dorotheam Famati olim Valentini Bystrzis viduam relictam tanquam successores Famati olim Joanniszij"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "successor_of",
+      "tail_entity_id": "E11",
+      "evidence": "Dorotheam Famati olim Valentini Bystrzis viduam relictam tanquam successores Famati olim Joanniszij"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Tobiae Inszykiot Institoris Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joanniszij eorumdem Lanii Civis Leopoliensis"
+    }
+  ]
+}

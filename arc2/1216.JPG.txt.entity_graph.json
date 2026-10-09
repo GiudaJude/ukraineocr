@@ -1,0 +1,240 @@
+{
+  "document_id": "arc2/1216.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officij Aduocatialis"
+      ],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "Advocatial office issuing a decree referenced in the court record"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Gładysz",
+      "mention_texts": [
+        "Tomas Valentinus",
+        "Szczut Gladysz",
+        "Valentinus",
+        "Gladysz",
+        "Valentinus Gladis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Caldeator",
+        "coniuges",
+        "Suburbani Leopolienses",
+        "ille",
+        "maritum",
+        "tutorem suum legitimum",
+        "venditorum"
+      ],
+      "justification": "Coppersmith and suburbanite of Lviv selling his rights to a house"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Suburbani Leopolienses",
+        "hac vero",
+        "venditorum"
+      ],
+      "justification": "Wife of Valentinus Gładysz participating in the sale under marital tutelage"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sczyrek",
+      "mention_texts": [
+        "Tomas",
+        "Szczut",
+        "Thomae Sczyrek"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Caldeatori",
+        "Coniugibus",
+        "Suburbanis Leopoliensibus",
+        "Emptores"
+      ],
+      "justification": "Coppersmith and suburbanite of Lviv purchasing rights to the house"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "Suburbanis Leopoliensibus",
+        "Emptores"
+      ],
+      "justification": "Wife of Thomas Sczyrek purchasing the house rights"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Wasik",
+      "mention_texts": [
+        "Martini Wasik"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased previous owner of the house burdened with debts"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Helisabetha",
+      "mention_texts": [
+        "Hielisabethae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum"
+      ],
+      "justification": "Wife of deceased Martinus Wasik"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Krasikowska House",
+      "mention_texts": [
+        "Crasikowszka"
+      ],
+      "descriptive_mentions": [
+        "domum",
+        "eadem domo praefata",
+        "eadem domo praedicta"
+      ],
+      "justification": "House being transferred, situated in the Halych suburb"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Jendrzejkowska House",
+      "mention_texts": [
+        "Jendrzejkowski"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house defining the boundary of Krasikowska house"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Judasowska House",
+      "mention_texts": [
+        "Iudasowski"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house defining the other boundary of Krasikowska house"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Halych Suburb",
+      "mention_texts": [
+        "Haliciensem"
+      ],
+      "descriptive_mentions": [
+        "in eiusdem Civitatis Suburbiis ante portam"
+      ],
+      "justification": "Lviv suburb located outside the Halych gate where the property lies"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City whose suburbs and citizens are referred to"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "450 florins",
+      "mention_texts": [
+        "quadringentorum et quinquaginta Florenorum",
+        "Quadringentorum et quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "precio"
+      ],
+      "justification": "Purchase and valuation price of the property"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesti Valentinus Gladis Caldeator et Hedvigis coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Thomae Sczyrek Caldeatori et Annae Coniugibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Thomae Sczyrek Caldeatori et Annae Coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Martini Wasik et Hielisabethae Coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Martini Wasik et Hielisabethae Coniugum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in eadem domo praedicta in eiusdem Civitatis Suburbiis ante portam Haliciensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "in eiusdem Civitatis Suburbiis ante portam Haliciensem"
+    }
+  ]
+}

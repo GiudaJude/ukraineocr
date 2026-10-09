@@ -1,0 +1,43 @@
+{
+  "document_id": "arc2/0104.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Latin locative form designating the city of Lwów."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Ruthenia",
+      "mention_texts": [
+        "Russia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Historical territory/voivodeship of Red Ruthenia (Ruś Czerwona)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "3 December 1590",
+      "mention_texts": [
+        "feria secunda post festum Sancti Andreae Apostoli Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Formula dating the entry to the Monday after the feast of Saint Andrew the Apostle in the year 1590, which corresponds to 3 December 1590."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Leopoli in Russia"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/1364.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "90 Polish florins",
+      "mention_texts": [
+        "nonaginta florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid for property described in the first act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Le-opoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City referenced throughout the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where a hereditary house is located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Fratrum Bernardinorum"
+      ],
+      "descriptive_mentions": [
+        "Religiosorum"
+      ],
+      "justification": "Monastery located in the Halych Suburb near the house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court before which resignation of property is to be made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0248: Stanislaus Krasnicki",
+      "mention_texts": [
+        "Stanislao Krainick",
+        "Stanislai Krasnicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Civitatis huius Syndici"
+      ],
+      "justification": "Syndic of Lviv requesting witness testimony regarding the death of Martinus Tworzel."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Fleer",
+      "mention_texts": [
+        "Paulus fleer"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Institor",
+        "Civis Le-opoliensis",
+        "Civis Juratus"
+      ],
+      "justification": "Merchant and sworn citizen of Lviv testifying as a witness."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Tworzel",
+      "mention_texts": [
+        "Martini Tworzel",
+        "Martinus Tworzel"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "filii",
+        "praefatus",
+        "uxoris sue frater germanus"
+      ],
+      "justification": "Deceased son of Sebastianus Tworzel and brother-in-law of Paulus Fleer."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Tworzel",
+      "mention_texts": [
+        "Sebastiani Tworzel"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Late father of Martinus Tworzel and former citizen of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Martinus Tworzel lived and died."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0138: 1591",
+      "mention_texts": [
+        "nonagesimum primum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Approximate year of Martinus Tworzel's death."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "nonagesimum secundum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Alternative approximate year of Martinus Tworzel's death."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0004: Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobus Miej-"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles"
+      ],
+      "justification": "Lviv official or notable appearing at the end of the testimonial entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Martini Tworzel Famati olim Sebastiani Tworzel Civis Leopoliensis ex priori matrimonio filii"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Paulus fleer Institor Civis Le-opoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Sebastiani Tworzel Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislai Krasnicki Civitatis huius Syndici"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "died_in",
+      "tail_entity_id": "E10",
+      "evidence": "praefatus Martinus Tworzel uxoris sue frater germanus Cracoviae degens diem suum obijt"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "document_id": "arc2/0767.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baptista",
+      "mention_texts": [
+        "Joanne Baptista",
+        "Joannis Baptiste"
+      ],
+      "descriptive_mentions": [
+        "praedicto olim",
+        "olim maritus suus"
+      ],
+      "justification": "Deceased husband whose estate and children are under guardianship."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Wilczek",
+      "mention_texts": [
+        "Stanislai Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "Senioribus Fraternitatis Conctorum"
+      ],
+      "justification": "Senior of the fraternity appointed as guardian; matches known entity PER-0321."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Georgius Szerski",
+      "mention_texts": [
+        "Georgio Szerski"
+      ],
+      "descriptive_mentions": [
+        "Senioribus Fraternitatis Conctorum"
+      ],
+      "justification": "Senior of the fraternity appointed as guardian."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Fraternitas Conctorum",
+      "mention_texts": [
+        "Fraternitatis Conctorum"
+      ],
+      "descriptive_mentions": [
+        "fraternitatem",
+        "contubernijs"
+      ],
+      "justification": "Fraternity/guild whose seniors are entrusted with guardianship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adamus Sauerbach",
+      "mention_texts": [
+        "Adami Sauerbach",
+        "Adamus Sauerbach"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Lanionida Leopoliensis",
+        "praefatus"
+      ],
+      "justification": "Citizen and butcher of Lviv filing a legal protestation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Louicani",
+        "Dominus Louicani"
+      ],
+      "descriptive_mentions": [
+        "Excellentis Domini",
+        "Doctoris",
+        "eundem",
+        "Domini Doctoris",
+        "praedictus Excellens",
+        "Domino Doctori"
+      ],
+      "justification": "Doctor against whom the protestation is lodged; variant of Paulus Novicampianus (PER-0001)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "huius Civitatis"
+      ],
+      "justification": "City of Lviv, referenced in civic designations."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [
+        "officium"
+      ],
+      "justification": "The municipal recording office/acts; matches known entity ORG-0003."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatis Stanislai Wilczek et Georgio Szerski Senioribus Fraternitatis Conctorum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatis Stanislai Wilczek et Georgio Szerski Senioribus Fraternitatis Conctorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Adamus Sauerbach Civis et Lanionida Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "document_id": "arc2/1451.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council of Lviv issuing decrees mentioned twice in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kalinowski",
+      "mention_texts": [
+        "Albertum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Tutorem authoratum",
+        "actorem"
+      ],
+      "justification": "Appears as plaintiff and appointed guardian of late Alaskan Plachtowa."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Alaskan Plachtowa",
+      "mention_texts": [
+        "Nicola Plachtowa",
+        "Alaskani Plachtowa",
+        "Alaskoni Placzkoni"
+      ],
+      "descriptive_mentions": [
+        "Infidelis olim",
+        "Iudaei Leopoliensis",
+        "Iudaei",
+        "mariti ipsius priores"
+      ],
+      "justification": "Deceased Jewish resident of Lviv whose estate and debts are subject of litigation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the municipal jurisdiction and residency."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Zaneta",
+      "mention_texts": [
+        "Zanetam"
+      ],
+      "descriptive_mentions": [
+        "Iudaeam",
+        "primarum nuptiarum eiusdem Iudaei relictae",
+        "ad praesens vero secundarum nuptiarum Valentini Kuth coniugem legitimam",
+        "possessorem bonorum morte Iudaei mariti ipsius priores relictorum",
+        "citatam",
+        "eadem citata bonorum mariti sui priores possessor et executrice"
+      ],
+      "justification": "First wife and widow of Alaskan Plachtowa, now wife of Valentinus Kuth, cited as defendant."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Kuth",
+      "mention_texts": [
+        "Valentini Kuth"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum ... coniugem"
+      ],
+      "justification": "Current husband of Zaneta."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gomiski",
+      "mention_texts": [
+        "Stanislao Gomiski"
+      ],
+      "descriptive_mentions": [
+        "Delatore suo",
+        "Honesto"
+      ],
+      "justification": "Representative/advocate assisting Zaneta in court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "18 florins",
+      "mention_texts": [
+        "octo decem Florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae"
+      ],
+      "justification": "Amount of debt claimed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Petrus Gurnica",
+      "mention_texts": [
+        "Petrum Gurnicam"
+      ],
+      "descriptive_mentions": [
+        "praefatum olim"
+      ],
+      "justification": "Deceased party who originally contracted the debt to Alaskan Plachtowa."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Advocatialis",
+        "Honorati Domini Advocati",
+        "Officio Domini Advocati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial office/court of Lviv which issued the previous decree appealed from."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0138: 1591",
+      "mention_texts": [
+        "Anno Domini 1591 primo"
+      ],
+      "descriptive_mentions": [
+        "feria sexta post festum Sancti Apostolorum"
+      ],
+      "justification": "Date of the previous advocatial decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Somicki",
+      "mention_texts": [
+        "Stanislai Chomieti",
+        "Stanislaum Somicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et Honestum",
+        "actorem"
+      ],
+      "justification": "Plaintiff in the second decree regarding census on a tenement."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Scholtz Szobocha",
+      "mention_texts": [
+        "Joannem Scholtzianum Quam Szobocha"
+      ],
+      "descriptive_mentions": [
+        "Honoratam",
+        "citatum"
+      ],
+      "justification": "Defendant cited in the second decree."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Krasnowska",
+      "mention_texts": [
+        "Lapideae Krasnowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Tenement house over which the census was owed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_legal_guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertum Kalinowski tanquam Tutorem authoratum Infidelis olim Alaskani Plachtowa Iudaei Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Zanetam Iudaeam primarum nuptiarum eiusdem Iudaei relictae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "secundarum nuptiarum Valentini Kuth coniugem legitimam"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Alaskani Plachtowa Iudaei Leopoliensis"
+    }
+  ]
+}

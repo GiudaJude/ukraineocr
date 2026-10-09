@@ -1,0 +1,198 @@
+{
+  "document_id": "arc2/0858.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito",
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity for the Lviv Banned/Civil court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopolitanus",
+        "Ciuitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where the act is enacted and individuals hold citizenship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno vt supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date reference back to the current entry date in 1595."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli Czop",
+        "Pauli Czop",
+        "Paulum Czop"
+      ],
+      "descriptive_mentions": [
+        "Pellionis Ciuis Leopoliensis",
+        "praenominatum olim",
+        "parentem"
+      ],
+      "justification": "Deceased furrier Paulus Czop whose estate is the subject of the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Tomasz Szawrzyski",
+      "mention_texts": [
+        "Thomasz Szawrzyski",
+        "Thomae",
+        "Thomas Szawrzyski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "peditis suo Regij Libri dispensarius",
+        "mariti sui",
+        "Coniuges"
+      ],
+      "justification": "Second husband of Agnes appearing in the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes",
+        "Agnes",
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "primarum nuptiarum olim Pauli Czop",
+        "secundarum nuptiarum eiusdem Thomae coniux legitima",
+        "hac",
+        "Coniuges",
+        "praedicta"
+      ],
+      "justification": "Widow of Paulus Czop and current wife of Tomasz Szawrzyski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertum Domagala"
+      ],
+      "descriptive_mentions": [
+        "Curiificem Suburbanum Leopolitanus",
+        "tutorem"
+      ],
+      "justification": "Appointed guardian assisting Agnes in the legal transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/bench recording and approving the transaction."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kołomyyski",
+      "mention_texts": [
+        "Caspar Kołomyyski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Curiifex",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Husband of Catherina Czopowna entering into the agreement."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Catherina Czopowna",
+      "mention_texts": [
+        "Catherina Czopowna",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuge sua",
+        "haec",
+        "praefata",
+        "parentem relictorum"
+      ],
+      "justification": "Daughter and heir of the deceased Paulus Czop, wife of Caspar Kołomyyski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasm Zelinek"
+      ],
+      "descriptive_mentions": [
+        "Famatum"
+      ],
+      "justification": "Neighboring property owner cited in the boundary description."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Spasulier",
+      "mention_texts": [
+        "Stanislai Spasulier"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner near Mount Kamionka."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "secundarum nuptiarum eiusdem Thomae coniux legitima"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Agnes primarum nuptiarum olim Pauli Czop"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Albertum Domagala Curiificem Suburbanum Leopolitanus tutorem sibi ad eum actum ac praesentaneo mariti sui consensu assumptum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Caspar Kołomyyski Curiifex cum Honesta Catherina Czopowna coniuge sua"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "occasione bonorum omnium post praenominatum olim Paulum Czop praefata Catherina parentem relictorum"
+    }
+  ]
+}

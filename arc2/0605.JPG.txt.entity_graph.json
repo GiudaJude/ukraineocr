@@ -1,0 +1,241 @@
+{
+  "document_id": "arc2/0605.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliensis",
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officium"
+      ],
+      "justification": "The consular office / city council of Lviv before which the proceedings take place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Consistorial Court",
+      "mention_texts": [
+        "Officio Iuridico Domini Officialis",
+        "Officium Domini Officialis",
+        "Officium praefatum Domini Officialis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The ecclesiastical court of the Official of Lviv to which the case was remitted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Agnes Corona",
+      "mention_texts": [
+        "Agnes Corona"
+      ],
+      "descriptive_mentions": [
+        "eadem"
+      ],
+      "justification": "Party who took the burden of the case upon herself and requested referral to the Official's court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date reference back to the primary date recorded at the head of the act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Agnes Pajarczkowa",
+      "mention_texts": [
+        "Agnes Tkaczowa",
+        "Agnieszka Jurczakowa",
+        "Agnes",
+        "Agnes Pajarczkowa"
+      ],
+      "descriptive_mentions": [
+        "Actrix",
+        "relicta",
+        "praenominata",
+        "praedicta"
+      ],
+      "justification": "The plaintiff, widow of Albertus Pajarczek, appearing with her tutor to take an oath."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pajarczek",
+      "mention_texts": [
+        "Alberti Pajarczek"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased burgher of Lviv and late husband of Agnes."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned as citizenship descriptor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobo Gonzalerz"
+      ],
+      "descriptive_mentions": [
+        "tutore suo",
+        "Famato"
+      ],
+      "justification": "Appointed guardian (tutor) assisting Agnes Pajarczkowa."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simonis Zinost",
+        "Simonem Zinost",
+        "Simon Zinost",
+        "Zinost"
+      ],
+      "descriptive_mentions": [
+        "tutoris",
+        "praedictus",
+        "praefatus"
+      ],
+      "justification": "Opposing party and guardian of Sophia."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "honestae",
+        "filiae suae",
+        "tutricis coniugis relictae",
+        "filia sua"
+      ],
+      "justification": "Daughter of Simon Kinost and widow of Gregorius Dzimmas."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dzimmas",
+      "mention_texts": [
+        "Gregorij Dzimmas"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased burgher and late husband of Sophia."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Felix Aurifaber",
+      "mention_texts": [
+        "Felicem Aurifabrum"
+      ],
+      "descriptive_mentions": [
+        "compurgatores",
+        "Famatos",
+        "Cives Leopolienses"
+      ],
+      "justification": "Burgher and goldsmith of Lviv presented as an oath-helper (compurgator)."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Adamus Sartor",
+      "mention_texts": [
+        "Adamum sartorem"
+      ],
+      "descriptive_mentions": [
+        "compurgatores",
+        "Famatos",
+        "Cives Leopolienses"
+      ],
+      "justification": "Burgher and tailor of Lviv presented as an oath-helper (compurgator)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "relicta",
+      "tail_entity_id": "E6",
+      "evidence": "Agnes Famati olim Alberti Pajarczek Civis Leopoliensis relicta"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "tutor",
+      "tail_entity_id": "E5",
+      "evidence": "vna cum tutore suo Famato Jacobo Gonzalerz"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "tutor",
+      "tail_entity_id": "E10",
+      "evidence": "Simonis Zinost tutoris honestae Sophiae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "filia",
+      "tail_entity_id": "E9",
+      "evidence": "honestae Sophiae filiae suae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "relicta",
+      "tail_entity_id": "E11",
+      "evidence": "Sophiae filiae suae, Famati olim Gregorij Dzimmas ambae tutricis coniugis relictae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "compurgator",
+      "tail_entity_id": "E5",
+      "evidence": "Statuitque compurgatores Famatos Felicem Aurifabrum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "compurgator",
+      "tail_entity_id": "E5",
+      "evidence": "Statuitque compurgatores Famatos Felicem Aurifabrum et Adamum sartorem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Alberti Pajarczek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Felicem Aurifabrum et Adamum sartorem Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Adamum sartorem Cives Leopolienses"
+    }
+  ]
+}

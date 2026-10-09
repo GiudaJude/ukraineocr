@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0805.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity ORG-0007: Lviv Banned Court appearing in the Latin formula 'in Exposito Judicio'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Tomas Calceator",
+      "mention_texts": [
+        "Tomas Calceator"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "venditor"
+      ],
+      "justification": "Debtor and suburban shoemaker appearing personally in the entry ('Honestus Tomas Calceator Suburbanus Leopoliensis')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0814: Valentinus",
+      "mention_texts": [
+        "Valentini"
+      ],
+      "descriptive_mentions": [
+        "fratrum",
+        "filiorum",
+        "Actorum"
+      ],
+      "justification": "One of the brothers of the late Andreas Złotomiszki, matching known entity PER-0814 (Valentinus Złotomiczki)."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "fratrum",
+        "filiorum",
+        "Actorum"
+      ],
+      "justification": "One of the brothers of the late Andreas Złotomiszki, matching known entity PER-0018 (Jacobus Złotomiczki)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Złotomieyski",
+      "mention_texts": [
+        "Bartholomaei"
+      ],
+      "descriptive_mentions": [
+        "fratrum",
+        "filiorum",
+        "Actorum"
+      ],
+      "justification": "Brother of Valentinus and Jacobus, son of the late Andreas and Agnes."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Złothomiszki",
+      "mention_texts": [
+        "Andreae",
+        "Złothomiszkii",
+        "Andreae Złothomiszkii",
+        "Andreae Złotomiskii"
+      ],
+      "descriptive_mentions": [
+        "olim ferrifabri",
+        "ferrifabri"
+      ],
+      "justification": "Deceased blacksmith of the Lviv suburb, father of the brothers."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnet"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Wife of the late Andreas and mother of the brothers, matching known entity PER-0079."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Florenos quadraginta per et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of 40 Polish florins confessed as debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Actorum",
+        "filiorum absentium"
+      ],
+      "justification": "Absent son of late Andreas Złotomiszki and Agnes, matching known entity PER-0071 (Joannes Złotomiczki)."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolientium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in suburban designations ('Suburbanus Leopoliensis', 'Suburbanorum Leopolientium')."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Blacksmiths' Guild",
+      "mention_texts": [
+        "Iudicium Contubernii Ferrifabror"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Guild court/guild of blacksmiths mentioned in the bottom endorsement."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Valentini Jacobi et Bartholomaei fratrum Andreae olim ferrifabri dicti Złothomiszkii et Agnet coniugum Subur- banorum Leopolientium filiorum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Valentini Jacobi et Bartholomaei fratrum Andreae olim ferrifabri dicti Złothomiszkii et Agnet coniugum Subur- banorum Leopolientium filiorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Valentini Jacobi et Bartholomaei fratrum Andreae olim ferrifabri dicti Złothomiszkii et Agnet coniugum Subur- banorum Leopolientium filiorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Valentini Jacobi et Bartholomaei fratrum Andreae olim ferrifabri dicti Złothomiszkii et Agnet coniugum Subur- banorum Leopolientium filiorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Valentini Jacobi et Bartholomaei fratrum Andreae olim ferrifabri dicti Złothomiszkii et Agnet coniugum Subur- banorum Leopolientium filiorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Valentini Jacobi et Bartholomaei fratrum Andreae olim ferrifabri dicti Złothomiszkii et Agnet coniugum Subur- banorum Leopolientium filiorum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannis et Złothomiszkis Actorum olim Andreae Złothomiszkii ferrifabri et Ag- net coniugum filiorum absentium"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannis et Złothomiszkis Actorum olim Andreae Złothomiszkii ferrifabri et Ag- net coniugum filiorum absentium"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreae olim ferrifabri dicti Złothomiszkii et Agnet coniugum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E10",
+      "evidence": "Tomas Calceator Suburbanus Leopoliensis"
+    }
+  ]
+}

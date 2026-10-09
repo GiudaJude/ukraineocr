@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/1208.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jerusala",
+      "mention_texts": [
+        "Jerusalam"
+      ],
+      "descriptive_mentions": [
+        "praefatam"
+      ],
+      "justification": "Named as the predecessor or heir to the paternal and maternal shares being transferred."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Lvoviensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City context where the masonry house is situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Schopyowska House",
+      "mention_texts": [
+        "Schopyowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "lapidea",
+        "eadem lapidea"
+      ],
+      "justification": "The masonry house being sold."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lower Castle",
+      "mention_texts": [
+        "Castrum inferius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Topographical reference point for the location of the property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Thomas Fusus",
+      "mention_texts": [
+        "Thomae fusi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kozak",
+      "mention_texts": [
+        "Stanislao Kozak"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Sartori",
+        "coniugibus",
+        "Emptoribus",
+        "emptoribus",
+        "Emptores"
+      ],
+      "justification": "Buyer of the property shares."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "filiae",
+        "Emptoribus",
+        "emptoribus",
+        "Emptores"
+      ],
+      "justification": "Wife of Stanislaus Kozak and co-buyer."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sołtys",
+      "mention_texts": [
+        "Thomae Soltis"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "praedicti"
+      ],
+      "justification": "Deceased father of Dorothea."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mother of Dorothea from the third marriage of Thomas Sołtys."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "700 Polish florins",
+      "mention_texts": [
+        "septingentorum Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "precium"
+      ],
+      "justification": "Purchase price paid for the property shares."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Bełz",
+      "mention_texts": [
+        "Belzensi"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City where the sellers' goods are located and obligated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Martinus Konieczski",
+      "mention_texts": [
+        "Martino Konieczski"
+      ],
+      "descriptive_mentions": [
+        "Gnoto",
+        "Gnoto Creditori"
+      ],
+      "justification": "Creditor holding a mortgage/pledge on living quarters in the house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Ducentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Pledged sum owed to Martinus Konieczski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesto Stanislao Kozak Sartori et Dorotheae ... coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesto Stanislao Kozak Sartori et Dorotheae ... coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Dorotheae Famati olim praedicti Thomae Soltis et Sophiae tertij matrimonij filiae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Dorotheae Famati olim praedicti Thomae Soltis et Sophiae tertij matrimonij filiae"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Thomae Soltis et Sophiae tertij matrimonij"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in domo lapidea Schopyowska vocata in platea eius Civitatis Lvoviensis"
+    }
+  ]
+}

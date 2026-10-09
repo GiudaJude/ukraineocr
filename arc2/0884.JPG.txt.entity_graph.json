@@ -1,0 +1,210 @@
+{
+  "document_id": "arc2/0884.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officij",
+        "Officium praefatum",
+        "officij",
+        "Officij",
+        "Officium",
+        "officio"
+      ],
+      "justification": "City council of Lviv acting in its judicial capacity to issue decrees."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Chryszczuszko",
+      "mention_texts": [
+        "Chryszczuszka"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Caminarium Eorum",
+        "fictoris praefati",
+        "ille",
+        "fictori",
+        "fictor transnominatus",
+        "fictor"
+      ],
+      "justification": "Party in the first suit, identified as a stovemaker (caminarius/fictor)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Venceslaus Swieboda",
+      "mention_texts": [
+        "Venceslaum Swieboda"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Caminarios Magistros Seniores citatos",
+        "citatos",
+        "citati",
+        "Magistros"
+      ],
+      "justification": "Senior stovemaker cited by Chryszczuszko."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Bendzierski",
+      "mention_texts": [
+        "bendzierski"
+      ],
+      "descriptive_mentions": [
+        "Caminarios Magistros Seniores citatos",
+        "citatos",
+        "citati",
+        "Magistros"
+      ],
+      "justification": "Co-defendant stovemaker elder cited along with Swieboda."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nastasia Stoyniewowa",
+      "mention_texts": [
+        "Nastawiała Styniewowa"
+      ],
+      "descriptive_mentions": [
+        "viduam relictam citatam",
+        "praefata citata"
+      ],
+      "justification": "Named in the decree title as the widow of Stoynew."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Petrus Gnidelsus",
+      "mention_texts": [
+        "Petrum Gnidelsus"
+      ],
+      "descriptive_mentions": [
+        "Famatum"
+      ],
+      "justification": "Plaintiff in the second dispute."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consortis sua"
+      ],
+      "justification": "Wife of Petrus Gnidelsus, co-party in the suit."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0118: Franciscus",
+      "mention_texts": [
+        "Franciscum"
+      ],
+      "descriptive_mentions": [
+        "Procuratorem suum"
+      ],
+      "justification": "Procurator acting for Petrus Gnidelsus and his wife."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbaram Kobilis"
+      ],
+      "descriptive_mentions": [
+        "Famatam",
+        "viduam relictam citatam"
+      ],
+      "justification": "Cited woman in the second dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Feciski",
+      "mention_texts": [
+        "Feciski"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem suum"
+      ],
+      "justification": "Prolocutor of the cited party in the second decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Stoynew",
+      "mention_texts": [
+        "Chropsecu Stoynew"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased husband of the cited widow."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamo Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "tutoresus",
+        "comparentem"
+      ],
+      "justification": "Guardian (tutor) appearing alongside the cited widow."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Petrum Gnidelsus et Honesta Hedvigis consortis sua nominibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Petrum Gnidelsus et Honesta Hedvigis consortis sua nominibus et Franciscum Procuratorem suum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "Petrum Gnidelsus et Honesta Hedvigis consortis sua nominibus et Franciscum Procuratorem suum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E9",
+      "evidence": "Barbaram Kobilis et Feciski Prolocutorem suum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "widow_of",
+      "tail_entity_id": "E11",
+      "evidence": "Decretum inter Nastawiała Styniewowa ... olim Chropsecu Stoynew viduam relictam citatam"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "olim Chropsecu Stoynew viduam relictam citatam et cum tutoresus Adamo Kalinowski comparentem"
+    }
+  ]
+}

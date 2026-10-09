@@ -1,0 +1,163 @@
+{
+  "document_id": "arc2/1425.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act was recorded and where the defendant is described as a suburbanite."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta ante Festum S. Michaelis proxima A. D. 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the court record."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radzymski",
+      "mention_texts": [
+        "Joannem",
+        "Radzymscij"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "successorum Nobilis olim Alberti Radzymscij fratres eorum germanorum",
+        "Actores",
+        "praedicti Actores",
+        "Actorum"
+      ],
+      "justification": "Plaintiff in the oath proceeding, brother and successor of late Albertus Radzymski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Radzymski",
+      "mention_texts": [
+        "Nicolaum Radzymscij"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "successorum Nobilis olim Alberti Radzymscij fratres eorum germanorum",
+        "Actores",
+        "praedicti Actores",
+        "Actorum"
+      ],
+      "justification": "Plaintiff in the oath proceeding, brother and successor of late Albertus Radzymski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Radzymski",
+      "mention_texts": [
+        "Alberti Radzymscij",
+        "Alberto Radzymscij"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "olim"
+      ],
+      "justification": "Deceased brother of Joannes and Nicolaus Radzymski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sławicki",
+      "mention_texts": [
+        "Stanislaw Sławicki",
+        "Stanislaum Sławieczkij",
+        "Stanislaud Sławiecki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem Honoratum",
+        "Suburbani Leopolien",
+        "citato",
+        "citatus",
+        "principalem",
+        "idem citatus"
+      ],
+      "justification": "Defendant/cited party in the dispute."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money subject to the first claim."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Abraham Brodka",
+      "mention_texts": [
+        "Abrahambrodka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Co-juror produced by Stanislaus Sławicki."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szlocza",
+      "mention_texts": [
+        "Stanislaum Szlocza"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Co-juror produced by Stanislaus Sławicki."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/court issuing the decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "32 florins",
+      "mention_texts": [
+        "triginta duorum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money subject to the second claim regarding pastures."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nobiles Joannem et Nicolaum Radzymscij tanquam successorum Nobilis olim Alberti Radzymscij fratres eorum germanorum Actores"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nobiles Joannem et Nicolaum Radzymscij tanquam successorum Nobilis olim Alberti Radzymscij fratres eorum germanorum Actores"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nobiles Joannem et Nicolaum Radzymscij tanquam successorum Nobilis olim Alberti Radzymscij fratres eorum germanorum Actores"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "document_id": "arc2/1504.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas",
+      "mention_texts": [
+        "Andream"
+      ],
+      "descriptive_mentions": [
+        "filios"
+      ],
+      "justification": "Named as son of the deceased famosus and Eva."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0354: Elisabetha",
+      "mention_texts": [
+        "Helisabetam"
+      ],
+      "descriptive_mentions": [
+        "uxorem",
+        "filiam"
+      ],
+      "justification": "Named as daughter of Eva and wife of Joannes Mloskiewic."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Mloskiewic",
+      "mention_texts": [
+        "Joannis Mloskiewic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as the husband of Helisabeta."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "mention_texts": [
+        "Symonem"
+      ],
+      "descriptive_mentions": [
+        "filios"
+      ],
+      "justification": "Named as son of the deceased famosus and Eva."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Eva",
+      "mention_texts": [
+        "Eva"
+      ],
+      "descriptive_mentions": [
+        "coniuge"
+      ],
+      "justification": "Named as the mother/wife."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard formula referring back to the date specified supra."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Barbara Podlecka",
+      "mention_texts": [
+        "Barbara Podlecka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory at the end of the entry."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Nemptel",
+      "mention_texts": [
+        "Joannes Nemptel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory at the end of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Helisabetam uxorem Joannis Mloskiewic"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "Andream ... filios ... et Eva coniuge"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "Helisabetam ... filiam olim famosi et Eva coniuge"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Symonem filios ... et Eva coniuge"
+    }
+  ]
+}

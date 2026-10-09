@@ -1,0 +1,107 @@
+{
+  "document_id": "arc2/0673.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings took place, also appearing in adjectival form."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "sabbato post Festum Beati Andreae Apostoli proximo Anno Domini 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating formula of the entry: Saturday after the feast of Saint Andrew the Apostle in 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officium vero",
+        "officio suo",
+        "hui Officium",
+        "praefatum Officium",
+        "actis praesentibus"
+      ],
+      "justification": "The consular office/council of Lviv executing the decree and deliberating on the appeal."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Żołnierski",
+      "mention_texts": [
+        "Stanum Zolnierz- ski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Actorem"
+      ],
+      "justification": "Noble plaintiff in the lawsuit before the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Philipowicz",
+      "mention_texts": [
+        "Joannem Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "Citatus",
+        "Famatos",
+        "Armenium",
+        "Civem Leopoliensem",
+        "citatum",
+        "citato",
+        "Citata vero pars",
+        "citatus praefatus"
+      ],
+      "justification": "Armenian burgher of Lviv, the defendant requesting an appeal."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Sacram Regiam Maiestatem",
+        "eiusdem"
+      ],
+      "justification": "King Sigismund III Vasa, author of the royal decree being executed and recipient of the requested appeal."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannem Philipowicz Armenium Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "opposing_party",
+      "tail_entity_id": "E5",
+      "evidence": "inter Nobilem Stanum Zolnierz- ski Actorem et Famatos Joannem Philipowicz Armenium Civem Leopoliensem citatum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "appealed_to",
+      "tail_entity_id": "E6",
+      "evidence": "petit sibi concedi appellationem ad Sacram Regiam Maiestatem"
+    }
+  ]
+}

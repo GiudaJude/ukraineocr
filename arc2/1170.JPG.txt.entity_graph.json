@@ -1,0 +1,135 @@
+{
+  "document_id": "arc2/1170.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced by the adjectival forms 'Civis Leopoliensis' and 'Simonis Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Caspar Sutor",
+      "mention_texts": [
+        "Gaspar Sutor",
+        "Casparis Sutoris"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "pater",
+        "mariti sui",
+        "mariti"
+      ],
+      "justification": "Primary party appearing with his wife and son, designated as a citizen of Lviv and shoemaker."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Organigen",
+      "mention_texts": [
+        "Gaspar Organigen",
+        "Gaspar"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "eiusdem Casparis Sutoris filius iam adultus",
+        "filius"
+      ],
+      "justification": "Adult son of Caspar Sutor appearing as a witness."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Simonowska House",
+      "mention_texts": [
+        "Simonowiska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae"
+      ],
+      "justification": "Masonry townhouse on Grodzka Street inhabited by Caspar Sutor and his family."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Grodzka Street",
+      "mention_texts": [
+        "platea Grodzka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the Simonowska townhouse was located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Simonis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Domini",
+        "collegae nostri Consularis",
+        "affinium"
+      ],
+      "justification": "Lviv city councillor at whose request the witnesses appeared."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lukatowicz",
+      "mention_texts": [
+        "Joannis Lukatowics"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "affinium"
+      ],
+      "justification": "Citizen of Lviv at whose instance, together with Simon Leopolita, the testimony was summoned."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0849: Paulus Kraus",
+      "mention_texts": [
+        "Paulum Kraus"
+      ],
+      "descriptive_mentions": [
+        "Curatorem"
+      ],
+      "justification": "Appointed legal curator assisting Caspar Sutor's wife."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Gaspar Organigen eiusdem Casparis Sutoris filius iam adultus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Gaspar Sutor Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannis Lukatowics Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "domus lapideae Simonowiska in platea Grodzka"
+    }
+  ]
+}

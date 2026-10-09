@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/1045.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0321: Stanislaus Wilczek",
+      "mention_texts": [
+        "Stanislaus Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv acknowledging satisfaction of payment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0399: Laurentius",
+      "mention_texts": [
+        "Laurentij Smid"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "affinis sui absentis",
+        "praefatum affinem suum",
+        "praefati sui affinis"
+      ],
+      "justification": "Absent relative/in-law of Stanislaus Wilczek on whose behalf he acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Serstianus",
+      "mention_texts": [
+        "Leonardo Serstiano",
+        "Leonardo Serstiano"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensi",
+        "praefatum Emptorem",
+        "eodem praefato",
+        "Emptore",
+        "eundem"
+      ],
+      "justification": "Buyer of the stone house who made the payment."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "florenis ducentis",
+        "ducentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of two hundred florins paid for the property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensis",
+        "Terrae Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City and region of Lviv referenced throughout the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis praesentibus",
+        "Officio nostro praesenti",
+        "Actis nostris",
+        "Actis nostris"
+      ],
+      "justification": "The municipal chancellery/office where the transactions and decreta are entered."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Josephus Wolfowicz",
+      "mention_texts": [
+        "Wolfowicz",
+        "Josephus Wolfowicz",
+        "Josephum Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "se citatum",
+        "Suroglectorem"
+      ],
+      "justification": "Citizen of Lviv presenting the decree of the Crown Tribunal."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Crown Tribunal",
+      "mention_texts": [
+        "Tribunalis Regni",
+        "Tribunalis Regni"
+      ],
+      "descriptive_mentions": [
+        "Judicijs Ordinarijs Generalibus Tribunalis Regni"
+      ],
+      "justification": "The Crown Tribunal in Lublin that issued the judicial decree."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublinensis",
+        "Lublin"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Seat of the Crown Tribunal where the decree was issued."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kraszyczynski",
+      "mention_texts": [
+        "Casparum Kraszyczynski",
+        "Casparum Kraszyczynski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "Tribuni Leopoliensis",
+        "Actorem",
+        "Exactorem antea Contributionis Terrae Leopoliensis"
+      ],
+      "justification": "Noble actor/plaintiff in the Crown Tribunal proceedings."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni",
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the title of the Crown Tribunal (Tribunal Regni)."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "1615",
+      "mention_texts": [
+        "Sabbato pro die Festi Nativitatis Sancti Joannis Baptistae Anno Domini 1615"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the decree issued by the Crown Tribunal."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "relative_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Laurentij Smid affinis sui absentis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislaus Wilczek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Leonardo Serstiano Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Josephus Wolfowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "Tribunalis Regni Lublinensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "litigates_against",
+      "tail_entity_id": "E7",
+      "evidence": "in causa inter Generosum Casparum Kraszyczynski Tribuni Leopoliensis Actorem et se citatum"
+    }
+  ]
+}

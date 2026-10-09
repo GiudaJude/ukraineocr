@@ -1,0 +1,131 @@
+{
+  "document_id": "arc2/0251.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliense",
+        "Civitatis huius Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "emporio",
+        "Civitatis huius"
+      ],
+      "justification": "City of Lviv, referenced in territorial and civic jurisdiction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officio praesenti",
+        "Acta nostra",
+        "Consules"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "ab eodem Officio",
+        "nos Consules iuxta Juris modum Subscripti",
+        "Acta nostra"
+      ],
+      "justification": "The municipal council and its court office receiving the arresta declarations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Zombecki",
+      "mention_texts": [
+        "Zombecki"
+      ],
+      "descriptive_mentions": [
+        "praefato"
+      ],
+      "justification": "Person against whose goods or debts an arrest was announced."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachorum",
+        "Valachicorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Wallachian origin of the merchants specified in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Aaron Bicis",
+      "mention_texts": [
+        "Aaronem Prima-sem",
+        "Aaronem Bi- cisem"
+      ],
+      "descriptive_mentions": [
+        "contrahentium"
+      ],
+      "justification": "Debtor/contractor mentioned in connection with Wallachian merchants."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Berniano",
+      "mention_texts": [
+        "Leonardum Berniano",
+        "Bernardo"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Graeco Cive Leopoliense",
+        "exactores",
+        "praefato"
+      ],
+      "justification": "Greek burgher of Lviv involved in the custody/arrest of goods."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Cormay",
+      "mention_texts": [
+        "Constantinum Gor- mai",
+        "Constantinium Cormayto"
+      ],
+      "descriptive_mentions": [
+        "Gratiosum",
+        "Ffaturn Groszam",
+        "eidem Groso"
+      ],
+      "justification": "Person holding real estate or merchandise subject to arrest."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0381: Joannes Dąbrowski",
+      "mention_texts": [
+        "Dąbrowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum Civium Jurati banni- nem"
+      ],
+      "justification": "Official court/bannite juratus who personally served the notification of arrest."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Leonardum Berniano Graeco Cive Leopoliense"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatum Civium Jurati banni- nem Dąbrowski"
+    }
+  ]
+}

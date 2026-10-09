@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/1050.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts were recorded and of which several parties are citizens or suburban residents."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Karszowska",
+      "mention_texts": [
+        "Dorothea Karszowska"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniux legitima"
+      ],
+      "justification": "Noblewoman Dorothea Karszowska appearing to quiet a debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Karszowski",
+      "mention_texts": [
+        "Stanislai Karszowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "maritum suum"
+      ],
+      "justification": "Noble husband assisting his wife Dorothea Karszowska."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "Florenos Quingentis Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of the debt being quieted."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem Leopoliensem",
+        "Officy nostri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular magistracy and office recording the entries and confirming guardianship."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta ante Festum Sancti Adalberti proxima Anno Domini 1595. proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous consular inscription referenced in the text."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joanne Pelionek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Pellione",
+        "Cive Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Furrier and citizen of Lviv who is released and quieted from the debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szklarz",
+      "mention_texts": [
+        "Joannis Szklarcz",
+        "Joannis Szklarz",
+        "Joannem Szklarz",
+        "Joanne Szklarz"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "suburbanum Leopoliensem",
+        "emptorem dictorum bonorum",
+        "eodem praedicto"
+      ],
+      "justification": "Suburbanite of Lviv who bought property in Łyczaków and paid money to Laczka."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Laczka",
+      "mention_texts": [
+        "Laczka"
+      ],
+      "descriptive_mentions": [
+        "Pudica",
+        "virgo iam nubilis"
+      ],
+      "justification": "Maiden receiving payment for her maternal portion of property in Łyczaków."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "vicinum et tutorem"
+      ],
+      "justification": "Neighbor acting as legal guardian to Laczka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0057: 26 florins",
+      "mention_texts": [
+        "Florenos sex vigintos viginti pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money acknowledged as received by Laczka."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb/street of Lviv where the sold property was located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Dorothea Karszowska Nobilis Stanislai Karszowski coniux legitima"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joanne Pelionek Pellione Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "per Honestum Adamum Kalinowski vicinum et tutorem sibi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannem Szklarz suburbanum Leopoliensem"
+    }
+  ]
+}

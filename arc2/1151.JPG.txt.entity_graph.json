@@ -1,0 +1,130 @@
+{
+  "document_id": "arc2/1151.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij nostri Consularis",
+        "Officium nostrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council office acting in composition and hearing witness testimony."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the transaction was enacted and where the confraternity is based."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Rzeszowski",
+      "mention_texts": [
+        "Rzeszowski",
+        "Christophorum Rzeszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "ferorem"
+      ],
+      "justification": "Party in the legal settlement concerning honey storage and tavern/brewing rights."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radomski",
+      "mention_texts": [
+        "Radomski",
+        "Joannem Radomski"
+      ],
+      "descriptive_mentions": [
+        "concivem"
+      ],
+      "justification": "Fellow citizen of Lviv, party in the settlement with Christophorus Rzeszowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kuczarkow",
+      "mention_texts": [
+        "Pauli Kuczarkow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Subject/author mentioned in the heading of the testimony record."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Olsinski",
+      "mention_texts": [
+        "Stanislaw Olsinski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "socij brastij Lilkatorum"
+      ],
+      "justification": "Guild brother appearing personally to give testimony."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Ksieszyński",
+      "mention_texts": [
+        "Andreas Ksieszynski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "socij brastij Lilkatorum"
+      ],
+      "justification": "Guild companion appearing personally to give testimony."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Confraternitas Lillatorum",
+      "mention_texts": [
+        "brastij Lilkatorum",
+        "Confraterij Lillatorum Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "artificij",
+        "Confraterij"
+      ],
+      "justification": "Craft guild and confraternity of Lillatorzy in Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannem Radomski concivem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesti Stanislaw Olsinski Andreas Ksieszynski socij brastij Lilkatorum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesti Stanislaw Olsinski Andreas Ksieszynski socij brastij Lilkatorum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Confraterij Lillatorum Civitatis Leopoliensis"
+    }
+  ]
+}

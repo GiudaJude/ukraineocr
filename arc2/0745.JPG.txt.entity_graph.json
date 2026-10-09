@@ -1,0 +1,189 @@
+{
+  "document_id": "arc2/0745.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Actis quidem Consularibus"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "Officium",
+        "Officio",
+        "Actis praesentibus"
+      ],
+      "justification": "The consular office and council records of Lviv referenced in the proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City of Lwów where the acts are drawn up and of which the parties are citizens/officials."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria sexta ante Festum S. Francisci proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of previous consular act presented in court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595",
+        "Feria Quarta intra Festum Beati Thomae Apostoli Summa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recording of the protestation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Połomski",
+      "mention_texts": [
+        "Stanislai Polomij",
+        "Stanislaus Polomski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "praefatus",
+        "Actor"
+      ],
+      "justification": "Noble actor who lodged a formal protestation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Barszko Philipowicz",
+      "mention_texts": [
+        "Barszkowem Philipowicz",
+        "Barszkoque Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Aurifabrum",
+        "Civem Leopoliensem",
+        "praedicto"
+      ],
+      "justification": "Goldsmith and citizen of Lwów summoned before the council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Oszoba",
+      "mention_texts": [
+        "Joannes Oszoba"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famulus Ciuitatis Juratus",
+        "Famulus praedictus"
+      ],
+      "justification": "Sworn town servant making a report on court summons."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Zaleski",
+      "mention_texts": [
+        "Laurentij Zaleski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the title of the acquittance."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Środzieński",
+      "mention_texts": [
+        "Joannes Srodzienski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotens"
+      ],
+      "justification": "Noble proxy appearing on behalf of Laurentius Sławicz and Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Sławicz",
+      "mention_texts": [
+        "Laurentij Slawicz"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Coniugum"
+      ],
+      "justification": "Principal represented by Joannes Środzieński."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Coniugum",
+        "Ciuium Oradegen"
+      ],
+      "justification": "Spouse of Laurentius Sławicz, represented by Joannes Środzieński."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Barszkowem Philipowicz Aurifabrum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "officer_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannes Oszoba Famulus Ciuitatis Juratus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "Nobilis Joannes Srodzienski tanquam Plenipotens Honestorum Laurentij Slawicz"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Nobilis Joannes Srodzienski tanquam Plenipotens Honestorum Laurentij Slawicz Suecis Ducis Ordinegier et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Laurentij Slawicz Suecis Ducis Ordinegier et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Laurentij Slawicz Suecis Ducis Ordinegier et Annae Coniugum"
+    }
+  ]
+}

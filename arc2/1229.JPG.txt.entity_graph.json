@@ -1,0 +1,235 @@
+{
+  "document_id": "arc2/1229.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "acta nostra",
+        "Officio nostro praesenti",
+        "Acta nostra praesentia"
+      ],
+      "justification": "City council office receiving and inserting legal acts."
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Samborowski",
+      "mention_texts": [
+        "Petrus Samborowski"
+      ],
+      "descriptive_mentions": [
+        "partes",
+        "praefatus"
+      ],
+      "justification": "Party confirming the agreement before the council."
+    },
+    {
+      "entity_id": "PER-0527",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casper Tembowski"
+      ],
+      "descriptive_mentions": [
+        "partes"
+      ],
+      "justification": "Party confirming the agreement; known alias Casper Tembarski / Tembowski."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wistek",
+      "mention_texts": [
+        "Jacobus Wistek",
+        "Jacobi Wistek",
+        "Jacobo Wistek"
+      ],
+      "descriptive_mentions": [
+        "Honoratus Dominus",
+        "Scabinus et Civis Leopoliensis",
+        "Famati",
+        "quondam Lublinensis ad praesens vero Civis et Scabini Leopoliensis",
+        "eodem"
+      ],
+      "justification": "Person submitting the Lublin act into Lviv records."
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in titles of scabinus and citizen."
+    },
+    {
+      "entity_id": "ORG-0004",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Regestis Aduocatialibus et Scabinalibus Lublinensibus"
+      ],
+      "descriptive_mentions": [
+        "officio Domini Aduocati"
+      ],
+      "justification": "Advocatial and bench court records of Lublin (mapped to known Advocatial Office entity)."
+    },
+    {
+      "entity_id": "LOC-0176",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublin",
+        "Lublinensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Regiae"
+      ],
+      "justification": "City where the inserted legal act was originally recorded."
+    },
+    {
+      "entity_id": "DATE-0004",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia post Dominicam Facardi proxima Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the Lublin act."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Felix Śmiałek",
+      "mention_texts": [
+        "Felix Smialek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Scabini Iurati",
+        "subdelegati",
+        "deputati"
+      ],
+      "justification": "Lublin juror acting as subdelegate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Liszowski",
+      "mention_texts": [
+        "Stanislaus Liszowski"
+      ],
+      "descriptive_mentions": [
+        "Scabini Iurati",
+        "subdelegati",
+        "deputati"
+      ],
+      "justification": "Lublin juror acting as subdelegate."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kupszrowicz",
+      "mention_texts": [
+        "Joannem Kupszrowicz",
+        "Joannes Kupszrowicz"
+      ],
+      "descriptive_mentions": [
+        "Famathium",
+        "Civitatis Regiae Lublinensis Aduocatum Ordinarium",
+        "praefatus"
+      ],
+      "justification": "Ordinary advocate of the royal city of Lublin making the recognitio."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szalloński",
+      "mention_texts": [
+        "Stanislao Szallonski"
+      ],
+      "descriptive_mentions": [
+        "Nobili"
+      ],
+      "justification": "Noble surety mentioned in Kupszrowicz's statement."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Balthasar Dzyrnek",
+      "mention_texts": [
+        "Balthasare",
+        "Dzyrnecom"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "Civibus et Negociatoribus"
+      ],
+      "justification": "Merchant creditor mentioned in the recognitio."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Melchior Dzyrnek",
+      "mention_texts": [
+        "Melchiori",
+        "Dzyrnecom"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "Civibus et Negociatoribus"
+      ],
+      "justification": "Merchant creditor mentioned in the recognitio."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Scabinus et Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0176",
+      "evidence": "quondam Lublinensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "LOC-0176",
+      "evidence": "Civitatis Regiae Lublinensis Aduocatum Ordinarium"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "LOC-0176",
+      "evidence": "Scabini Iurati ex officio Domini Aduocati subdelegati"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "LOC-0176",
+      "evidence": "Scabini Iurati ex officio Domini Aduocati subdelegati"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "ORG-0004",
+      "evidence": "Scabini Iurati ex officio Domini Aduocati subdelegati"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "ORG-0004",
+      "evidence": "Scabini Iurati ex officio Domini Aduocati subdelegati"
+    }
+  ]
+}

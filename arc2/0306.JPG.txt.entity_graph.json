@@ -1,0 +1,183 @@
+{
+  "document_id": "arc2/0306.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "260 florins 15 groschen",
+      "mention_texts": [
+        "ducentorum sexa-ginta florenorum et grossorum quindecim"
+      ],
+      "descriptive_mentions": [
+        "praefata summa"
+      ],
+      "justification": "Sum of money mentioned in the quietantia at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officij eiusdem",
+        "Officium",
+        "Magistratus Ciuitatis huius"
+      ],
+      "justification": "The municipal council of Lviv acting in its official capacity."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius"
+      ],
+      "justification": "The city of Lviv mentioned in official municipal formulas and citizen designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szenke",
+      "mention_texts": [
+        "Stanislaus Szenke"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the title of entry 326 concerning the takeover of goods."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lucas Koszczyca",
+      "mention_texts": [
+        "Lucas Koszrzicza",
+        "Lucas Koszczicza"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Generosi Pauli Zawisza deseruitur",
+        "Nobiles",
+        "constitutus",
+        "eidem Dembostensi"
+      ],
+      "justification": "Noble servant/agent of Paulus Zawisza appearing before the council."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Zawisza",
+      "mention_texts": [
+        "Pauli Zawisza",
+        "Paulo Zawisza"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Generoso",
+        "Decretorum Sacrae Regiae Maiestatis Notarii"
+      ],
+      "justification": "Royal decree notary and recipient of the escheat property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Domini Domini sui Clementissimi"
+      ],
+      "justification": "The reigning king of Poland whose decrees are being executed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Henla",
+      "mention_texts": [
+        "Hento",
+        "Henle"
+      ],
+      "descriptive_mentions": [
+        "Famatae",
+        "eiusdem Famatae"
+      ],
+      "justification": "Deceased woman whose estate is inventoried and delivered."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Zoterasszowski",
+      "mention_texts": [
+        "Zoteras-szowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi"
+      ],
+      "justification": "Noble named in the preamble of entry 327."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Andreas Alsszcti",
+      "mention_texts": [
+        "Andreas Alsszcti"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "amici propinqui"
+      ],
+      "justification": "Noble witness and close associate appearing in entry 327."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Corosswiez",
+      "mention_texts": [
+        "Joannes Corosswiez"
+      ],
+      "descriptive_mentions": [
+        "amici propinqui"
+      ],
+      "justification": "Witness and close associate appearing in entry 327."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szenc",
+      "mention_texts": [
+        "Joannis Szenc"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "defuncti"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate was granted by royal escheat."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "servant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nobilis Lucas Koszrzicza Generosi Pauli Zawisza deseruitur"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Pauli Zawisza Decretorum Sacrae Regiae Maiestatis Notarii"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannis Szenc Civis Leopoliensis"
+    }
+  ]
+}

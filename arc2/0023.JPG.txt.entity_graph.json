@@ -1,0 +1,148 @@
+{
+  "document_id": "arc2/0023.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar Iosephowic",
+      "mention_texts": [
+        "Caspar Iosephowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pomatorius",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Plaintiff bringing a complaint on his own behalf and on behalf of Susanna."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by citizenship designation 'Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Susanna",
+      "mention_texts": [
+        "Susannae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "filiae"
+      ],
+      "justification": "Party in whose name the complaint is made, identified as daughter of Franciscus and Barbara."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Szamrijzerowic",
+      "mention_texts": [
+        "Francisci Szamrijzerowic"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "figulatoris",
+        "coniugum"
+      ],
+      "justification": "Deceased husband of Barbara Vianowna and father of Susanna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Barbara Vianowna",
+      "mention_texts": [
+        "Barbarae Vianowna"
+      ],
+      "descriptive_mentions": [
+        "Suburbanae",
+        "coniugum",
+        "praedictae"
+      ],
+      "justification": "Mother of Susanna and wife of the late Franciscus Szamrijzerowic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Vianosz",
+      "mention_texts": [
+        "Simonem Vianosz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Procuratorem suum"
+      ],
+      "justification": "Legal procurator acting on behalf of Caspar Iosephowic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Anna Vianowna",
+      "mention_texts": [
+        "Annam Vianowna",
+        "Anna Vianowskiej"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "viduam relictam",
+        "praedicta"
+      ],
+      "justification": "Defendant, widow of Valentinus Szamrijzerowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Szamrijzerowic",
+      "mention_texts": [
+        "Valentini Szamrijzerowis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased husband of Anna Vianowna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Caspar Iosephowic Pomatorius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Susannae Famati olim Francisci Szamrijzerowic ... coniugum filiae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Susannae ... Barbarae Vianowna Suburbanae figulatoris coniugum filiae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Francisci Szamrijzerowic Barbarae Vianowna Suburbanae figulatoris coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Famatum Simonem Vianosz Procuratorem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Annam Vianowna Famati olim Valentini Szamrijzerowis viduam relictam"
+    }
+  ]
+}

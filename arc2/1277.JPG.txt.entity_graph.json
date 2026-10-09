@@ -1,0 +1,42 @@
+{
+  "document_id": "arc2/1277.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court of Lviv mentioned as the court in which the bencher resides ('in Exposito Iudicio Leopoliensi')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Skarowic",
+      "mention_texts": [
+        "Andreae Skarowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Notarij et Scabini Ciuitatis huius"
+      ],
+      "justification": "City notary and bencher receiving the legal inscription ('ad manus Honorati Andreae Skarowic Notarij et Scabini Ciuitatis huius')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Franciscanorum"
+      ],
+      "descriptive_mentions": [
+        "Conventu Franciscanorum",
+        "Conventu"
+      ],
+      "justification": "Franciscan convent mentioned in the document margin/rubric ('Cessio iurium pro Conventu Franciscanorum')."
+    }
+  ],
+  "relationships": []
+}

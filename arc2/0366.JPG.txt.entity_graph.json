@@ -1,0 +1,203 @@
+{
+  "document_id": "arc2/0366.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "praefata summa",
+        "pecuniae Summa"
+      ],
+      "justification": "Sum of 100 florins secured on the stone house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City context for the street, house, and citizen status."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "platea Cracovi-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the house is situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Grodzka Street",
+      "mention_texts": [
+        "plateam Castrensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street towards which the corner of the house faces."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Antonius Czern",
+      "mention_texts": [
+        "Antonij Czern"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "D."
+      ],
+      "justification": "Former owner of the adjacent house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "6 florins",
+      "mention_texts": [
+        "Florenos sex"
+      ],
+      "descriptive_mentions": [
+        "paratae pecuniae"
+      ],
+      "justification": "Annual census interest paid on the 100 florins principal."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "31 May",
+      "mention_texts": [
+        "die ultima Mensis Maij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Annual payment due date."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Catherina",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx legitima"
+      ],
+      "justification": "Principal party acknowledging receipt of payment."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Miłoczkowic",
+      "mention_texts": [
+        "Stanislai Milocekowuiz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased first husband of Catherina."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Maszlarowic",
+      "mention_texts": [
+        "Alberti Maxlarowiz",
+        "Albertum Maxlarowiz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sartoris",
+        "Civis Leopoliensis",
+        "maritum suum et tutorem legitimum"
+      ],
+      "justification": "Current husband and legal guardian of Catherina."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos ducentis"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Debt amount paid."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Sartor",
+      "mention_texts": [
+        "Grygori Sartoris",
+        "Gregorium Sartorem"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim"
+      ],
+      "justification": "Deceased debtor."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Andreas Tuczamista",
+      "mention_texts": [
+        "Andreae Tucamista"
+      ],
+      "descriptive_mentions": [
+        "Honesto"
+      ],
+      "justification": "Original creditor named in the registered debt."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis",
+        "Acti"
+      ],
+      "descriptive_mentions": [
+        "ijsdem Actis superius"
+      ],
+      "justification": "Council court registers cited in the document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in eiusdem Civitatis platea Cracovi-"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Catherina Famati olim Stanislai Milocekowuiz priorum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "posteriori vero nuptiarum Honesti Alberti Maxlarowiz Sartoris Civis Leopoliensis coniunx legitima"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Alberti Maxlarowiz Sartoris Civis Leopoliensis"
+    }
+  ]
+}

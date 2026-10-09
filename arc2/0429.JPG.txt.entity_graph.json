@@ -1,0 +1,172 @@
+{
+  "document_id": "arc2/0429.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officioque",
+        "officium nostrum",
+        "Actis nostris"
+      ],
+      "justification": "The municipal council/chancellery of Lviv receiving and registering the testimony into its official acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the adjectival forms specifying citizenship and residence."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Ziedelski",
+      "mention_texts": [
+        "Hieronymus Ziedelski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famatus",
+        "Aromatharius",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Witness testifying to the legitimate birth of Balthasar."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zemanek",
+      "mention_texts": [
+        "Mathias Zemanek"
+      ],
+      "descriptive_mentions": [
+        "Curifex",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Witness testifying to the legitimate birth of Balthasar."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Rogacka",
+      "mention_texts": [
+        "Annae Rogacka",
+        "Rogaczka"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "consortis praesentis absentis",
+        "probisque et honestis parentibus",
+        "Coniugibus superstitibus",
+        "ipsius inducenti"
+      ],
+      "justification": "Mother of Balthasar at whose instance the testimonial was taken."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Laszkowski",
+      "mention_texts": [
+        "Nicolai Laszkowski",
+        "Nicolao Laszkowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Suburbani Leopoliensis",
+        "probisque et honestis parentibus",
+        "Coniugibus superstitibus"
+      ],
+      "justification": "Husband of Anna Rogacka and father of Balthasar."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Balthasar Sassowic",
+      "mention_texts": [
+        "Baltazar Sassowic",
+        "Balthasaris",
+        "Balthasarem",
+        "Balthasar"
+      ],
+      "descriptive_mentions": [
+        "filij sui",
+        "citati",
+        "praedictum Ingenuum",
+        "prolemque suam",
+        "adolescentum",
+        "praedictus Ingenuus",
+        "ipsum"
+      ],
+      "justification": "Subject of the genealogy whose legitimate birth is attested."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Silesia",
+      "mention_texts": [
+        "Silesia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location/territory where Balthasar was born/stationed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Roman Catholic Church",
+      "mention_texts": [
+        "Ecclesiae Catholicae Romanae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The ecclesiastical body according to whose rite the parents were married."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Hieronymus Ziedelski Aromatharius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Mathias Zemanek Curifex Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nicolai Laszkowski Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Annae Rogacka Nobilis Nicolai Laszkowski Suburbani Leopoliensis consortis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nicolao Laszkowski et eadem Rogaczka Coniugibus superstitibus iuxta ritum Ecclesiae Catholicae Romanae matrimoniali vinculo iunctis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "de legitimo ortu filij sui Balthasaris"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "progenitum esse ex legitimo thoro probisque et honestis parentibus utpote Nobilibus Nicolao Laszkowski et eadem Rogaczka"
+    }
+  ]
+}

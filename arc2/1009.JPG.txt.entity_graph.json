@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/1009.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Venceslaus Swieboda",
+      "mention_texts": [
+        "Venceslaus Swieboda"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cumerarii",
+        "Seniores Magistri"
+      ],
+      "justification": "Named as guild chamberlain and senior master appearing before the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kedzierski",
+      "mention_texts": [
+        "Jacobus Kedzierski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cumerarii",
+        "Seniores Magistri"
+      ],
+      "justification": "Named as guild chamberlain and senior master appearing before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Blasius Klutowicz",
+      "mention_texts": [
+        "Blasius Klutowicz"
+      ],
+      "descriptive_mentions": [
+        "Seniores Magistri"
+      ],
+      "justification": "Named as senior master of the masons' guild appearing before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Masons' Guild of Lviv",
+      "mention_texts": [
+        "Contubernij Caemenatariorum et Smiglamatorum"
+      ],
+      "descriptive_mentions": [
+        "praefatum Contubernium",
+        "Contubernium"
+      ],
+      "justification": "The craft guild of masons and plasterers admitting a new master."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Snajder",
+      "mention_texts": [
+        "Gregorij Snajder",
+        "Gregorius Snajder"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Caementarij Murarij recenter creati",
+        "praedictus",
+        "eundem"
+      ],
+      "justification": "Mason newly admitted as master to the guild."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts are drawn up and where the municipal offices and citizens reside."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato ante Lucam Euangelistam proximo Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "die anno quo supra"
+      ],
+      "justification": "Date of recording in the council acts."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "idem Officium"
+      ],
+      "justification": "Council office rendering the decree of remission."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sienko Woloszynka",
+      "mention_texts": [
+        "Sienkonis Wolossowic",
+        "Sienkonem Woloszynka"
+      ],
+      "descriptive_mentions": [
+        "Prouidam",
+        "Ruthenam",
+        "Actorem",
+        "praefatam Actorem"
+      ],
+      "justification": "Ruthenian plaintiff in an inheritance property dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Sapricka",
+      "mention_texts": [
+        "Sapricka",
+        "Hieronymum Sapricka"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ruthenum",
+        "Ciuem Leopoliensem",
+        "citatum"
+      ],
+      "justification": "Ruthenian burgher cited as defendant in the inheritance dispute."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Kolszowska House",
+      "mention_texts": [
+        "Kolszowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Stone house subject to the hereditary claim."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0007: Ruthenian Street",
+      "mention_texts": [
+        "platea Ruthenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the disputed stone house is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Ciuili"
+      ],
+      "descriptive_mentions": [
+        "Iudicium",
+        "Iudicium praefatum"
+      ],
+      "justification": "Civil court to which the inheritance cause is remitted."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Venceslaus Swieboda et Jacobus Kedzierski Cumerarii et Blasius Klutowicz tanquam Seniores Magistri Contubernij Caemenatariorum et Smiglamatorum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobus Kedzierski Cumerarii et Blasius Klutowicz tanquam Seniores Magistri Contubernij Caemenatariorum et Smiglamatorum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Blasius Klutowicz tanquam Seniores Magistri Contubernij Caemenatariorum et Smiglamatorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "praedictus Gregorius Snajder in toto satisfecit ordinationi in suscipiendis nouis Magistris ad praefatum Contubernium usitatae et praescriptae... eundemque ut moris est in medium sui susceperunt et cooptauerunt"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "litigates_against",
+      "tail_entity_id": "E10",
+      "evidence": "inter Prouidam Sienkonem Woloszynka Ruthenam Actorem, et Famatum Hieronymum Sapricka itidem Ruthenum Ciuem Leopoliensem citatum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Hieronymum Sapricka itidem Ruthenum Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "in domo lapidea Kolszowska in platea Ruthenorum sita"
+    }
+  ]
+}

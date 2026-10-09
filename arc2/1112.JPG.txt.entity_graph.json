@@ -1,0 +1,108 @@
+{
+  "document_id": "arc2/1112.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Cingulator",
+      "mention_texts": [
+        "Paulus Cingulator"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named at the beginning of the entry making a recognitio."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szpacwicz",
+      "mention_texts": [
+        "Paulus",
+        "Szpacwicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Witness named as also making a recognitio."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Joannis Nicolai Wolophowicz",
+        "Joannem Wolofowicz",
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "Solis",
+        "possessoris",
+        "praedictum",
+        "Solenem",
+        "possessorem",
+        "Praedictus",
+        "D."
+      ],
+      "justification": "Party at whose instance the witness testimonies were executed, identified as possessor of the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Bieńkowski",
+      "mention_texts": [
+        "Bieńkowski"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "dicti haereditarij possessoris"
+      ],
+      "justification": "Referred to as the hereditary possessor whose estate/title is involved in the property description."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Więzlik",
+      "mention_texts": [
+        "Andreas Więzlik"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Party appearing voluntarily to clarify and interpret the registration error and impose perpetual silence on further claims."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus"
+      ],
+      "descriptive_mentions": [
+        "eisdem"
+      ],
+      "justification": "The consular acts/office of Lviv containing the original registration from 1571."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1571",
+      "mention_texts": [
+        "feria quarta die Decollationis S. Joannis Baptistae Anno Domini 1571"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier deed of sale recorded in the consular acts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "testified_for",
+      "tail_entity_id": "E3",
+      "evidence": "sua testimonia cum ad instantiam praedicti Solis Joannis Nicolai Wolophowicz"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "testified_for",
+      "tail_entity_id": "E3",
+      "evidence": "sua testimonia cum ad instantiam praedicti Solis Joannis Nicolai Wolophowicz"
+    }
+  ]
+}

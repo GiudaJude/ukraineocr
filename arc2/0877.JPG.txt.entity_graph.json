@@ -1,0 +1,92 @@
+{
+  "document_id": "arc2/0877.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced as the origin of the suburban spouses and as the location of the legal act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Suburbanos Leopolienses"
+      ],
+      "justification": "Party involved in the decree regarding deposited funds."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Cameram nostram",
+        "deposito nostro",
+        "Officium",
+        "Actis nostris"
+      ],
+      "justification": "Municipal office and chamber retaining the deposited sum and administering the proceedings."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Schole"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Present in court and presenting a schedule concerning the appeal."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0705: Andreas Bienkowic",
+      "mention_texts": [
+        "Andreas Gelazinus",
+        "Andream Gelazinum"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum"
+      ],
+      "justification": "Party making an appeal before the council office."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "złoty",
+      "mention_texts": [
+        "florenos"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "pecuniaria",
+        "pecunia"
+      ],
+      "justification": "Currency referred to in the deposited sum."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Annam Coniuges Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Actum Leopoli ut supra"
+    }
+  ]
+}

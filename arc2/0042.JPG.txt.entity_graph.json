@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/0042.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kuczkowski",
+      "mention_texts": [
+        "Joannis Kuczkowic",
+        "Joannis Kuczkowski",
+        "Kuczkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aromatarii",
+        "Civis Leopoliensis",
+        "affinis sui",
+        "Famatorum",
+        "affinis"
+      ],
+      "justification": "Named as an apothecary and citizen of Lviv, and in-law (affinis) to whom the acquittance is issued."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jelonkowic",
+      "mention_texts": [
+        "Joannes Jelonkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aromatarius",
+        "Famati olim Alberti Jelonek filius",
+        "annos adultae et legitimae aetatis assecutus",
+        "filius satis iam adultus et sui iuris",
+        "ipsius"
+      ],
+      "justification": "Principal party issuing the acquittance, described as an apothecary and son of the late Albert Jelonek."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Jelonek",
+      "mention_texts": [
+        "Alberti Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "olim"
+      ],
+      "justification": "Deceased father of Joannes Jelonkowic."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Urban location mentioned in titles and citizenship descriptions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Actis",
+        "Actis ipsis",
+        "Acta nostra Praesentia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council office before which the legal declaration and insertion into city records were made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "44 florins",
+      "mention_texts": [
+        "quadraginta quatuor florenorum"
+      ],
+      "descriptive_mentions": [
+        "summae"
+      ],
+      "justification": "Sum recognized by Paulus Jelonek."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Jelonek",
+      "mention_texts": [
+        "Paulum Jelonek",
+        "Pauli Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Fidelem olim D.",
+        "Consulem Leopoliensem",
+        "auum suum",
+        "Spectabilis olim",
+        "Consulis Leopoliensis",
+        "aui sui"
+      ],
+      "justification": "Late consul of Lviv and grandfather of Joannes Jelonkowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jelonek",
+      "mention_texts": [
+        "Jelonek",
+        "Joannis Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "fabri",
+        "fabri"
+      ],
+      "justification": "Blacksmith (faber) present alongside Joannes Kuczkowski during the quietatio."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famati olim Alberti Jelonek filius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "grandchild_of",
+      "tail_entity_id": "E7",
+      "evidence": "Paulum Jelonek Consulem Leopoliensem auum suum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "relative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannis Kuczkowski Aromatarii Civis Leopoliensis affinis sui"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Paulum Jelonek Consulem Leopoliensem"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "document_id": "arc2/0582.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Łączkowicz",
+      "mention_texts": [
+        "Albertus Lączkowicz"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "citatus",
+        "praedicti citati",
+        "eundem citatum"
+      ],
+      "justification": "Cited respondent in the curatorship matter before the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council acting as the judicial authority adjudicating the dispute."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacra Regia Maiestate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland referenced as having granted the letters of curatorship."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Rzeszowski",
+      "mention_texts": [
+        "Christopheri Rzeszowski"
+      ],
+      "descriptive_mentions": [
+        "Actorem vero praedictum",
+        "Curatorem",
+        "moderno Actore",
+        "praedicti"
+      ],
+      "justification": "The plaintiff confirmed as curator for the ward."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "released_from_obligation",
+      "tail_entity_id": "E1",
+      "evidence": "Liberum esse debere praedictum citatum ab eo munere Curatorio"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "confirmed_curator",
+      "tail_entity_id": "E4",
+      "evidence": "Actorem vero praedictum in Curatorem pupillo praefato confirmavit authoritate sua superioritas Curatoria"
+    }
+  ]
+}

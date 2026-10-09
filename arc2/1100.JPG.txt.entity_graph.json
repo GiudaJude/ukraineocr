@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/1100.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij",
+        "Officium",
+        "Officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The judicial office/bench before which the parties submit the case and from which the officials act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv, referenced in titles of the advocate, the bench, and the suburban burghers."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Halych suburb of Lviv, where the properties inspected are situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karas",
+      "mention_texts": [
+        "Thomas Karas"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "locum Ordinarij Advocati Leopoliensis tenens"
+      ],
+      "justification": "Acting advocate of Lviv participating in the legal inspection."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini iurati Civitatis Leopoliensis",
+        "ipsi"
+      ],
+      "justification": "Juror (scabinus) of Lviv delivering the official relation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adam Śmieszek"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini iurati Civitatis Leopoliensis",
+        "ipsi"
+      ],
+      "justification": "Juror of Lviv making the official report."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Potylicki",
+      "mention_texts": [
+        "Stanislai Potyliczki"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Ferrifabri Suburbani Leopoliensis",
+        "eiusdem"
+      ],
+      "justification": "Blacksmith of the Lviv suburb at whose instance the official descent occurred."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krostka",
+      "mention_texts": [
+        "Joannis Krostki"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Owner of the house in the Halych suburb visited by the officials."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mathias Mursalowski",
+      "mention_texts": [
+        "Mathia Mursalowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Sartoris Suburbani Leopoliensis"
+      ],
+      "justification": "Late tailor of the Lviv suburb whose property neighbors Krostka's."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Thomas Karas locum Ordinarij Advocati Leopoliensis tenens"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Andreas Simonowic ... Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Adam Śmieszek Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislai Potyliczki Ferrifabri Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "owns_property_in",
+      "tail_entity_id": "E3",
+      "evidence": "descenderunt in domum Honesti Joannis Krostki in suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "olim Mathia Mursalowski Sartoris Suburbani Leopoliensis"
+    }
+  ]
+}

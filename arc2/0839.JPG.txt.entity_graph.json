@@ -1,0 +1,134 @@
+{
+  "document_id": "arc2/0839.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kalnowski",
+      "mention_texts": [
+        "Joanne Kalnowski",
+        "Joannis Kalnowski"
+      ],
+      "descriptive_mentions": [
+        "G",
+        "generosi"
+      ],
+      "justification": "Named party at whose request the relation was made."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dzietrich",
+      "mention_texts": [
+        "Gregorius Dzietrich"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "Juris utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate and doctor of laws appearing to submit the relation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati"
+      ],
+      "justification": "Sworn benchman of Lviv making the official inspection and report."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Adamus Smierzek",
+      "mention_texts": [
+        "Adamus Smierzek"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati"
+      ],
+      "justification": "Sworn benchman of Lviv participating in the inspection."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis eiusdem"
+      ],
+      "justification": "City whose councilors/advocate/benchmen are acting and where the suburb is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stibactor",
+      "mention_texts": [
+        "Stibactoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Current possessor of the house inspected by the court officials."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Doctor Oelszki",
+      "mention_texts": [
+        "Oelszki"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Doctoris"
+      ],
+      "justification": "Former owner of the house, deceased doctor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliczkie"
+      ],
+      "descriptive_mentions": [
+        "suburbio eiusdem Civitatis",
+        "suburbio"
+      ],
+      "justification": "Lviv suburb where the inspected property is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Advocatus Ordinarius ... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in suburbio eiusdem Civitatis Haliczkie dicto"
+    }
+  ]
+}

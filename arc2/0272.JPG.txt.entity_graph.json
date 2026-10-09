@@ -1,0 +1,210 @@
+{
+  "document_id": "arc2/0272.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Zaremba",
+      "mention_texts": [
+        "Andreas Zaremba",
+        "Andreas"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "coniuges Suburbani Leopolienses",
+        "vir ipse per se",
+        "maritum suum",
+        "dictus",
+        "praefatorum coniugum"
+      ],
+      "justification": "Named suburban resident of Lviv who grants a room for life to Zophia Strubniczka."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses",
+        "uxor per maritum suum",
+        "praefatorum coniugum"
+      ],
+      "justification": "Wife of Andreas Zaremba participating in the grant to Zophia Strubniczka."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Zofia Strubnicka",
+      "mention_texts": [
+        "Zophia Strubnicza",
+        "Zophiae Strubniczka",
+        "Zophia Strubniczka",
+        "Sophia Strubniczka"
+      ],
+      "descriptive_mentions": [
+        "praedicta",
+        "dicta"
+      ],
+      "justification": "Mother of Andreas Zaremba's former deceased wife, granted life tenancy in their suburban house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Civitatis istius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in civic designations of the benchers and the location of the market square."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "locum Ordinarii Advocati Leopoliensis tenens"
+      ],
+      "justification": "Acting advocate of Lviv who inspects the Utianowska house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolffgangus Bernt"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Jurati Leopolienses"
+      ],
+      "justification": "Lviv sworn bencher participating in the building inspection."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Gallus"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Leopolienses"
+      ],
+      "justification": "Lviv sworn bencher participating in the building inspection."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparis Josephowicz",
+        "Casparis"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aromatarii",
+        "praedicti",
+        "Civis Leopoliensis",
+        "eiusdem"
+      ],
+      "justification": "Apothecary and citizen of Lviv at whose request the inspection of the Utianowska house is held."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Barbara Ulianowska",
+      "mention_texts": [
+        "Barbarae Vlianowska"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Honestae",
+        "filiam haeredis"
+      ],
+      "justification": "Deceased woman whose dowry rights in the Utianowska tenement are noted."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0169: Utianowska House",
+      "mention_texts": [
+        "Vlianowska"
+      ],
+      "descriptive_mentions": [
+        "domo Vlianowska",
+        "domus lapideae Vlianowska",
+        "praefatam domum"
+      ],
+      "justification": "Stone tenement house on the Lviv market square subjected to judicial inspection."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Market square of Lviv where the Utianowska house is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0015: Christopherus Mozanc",
+      "mention_texts": [
+        "Christophori Moszant"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis"
+      ],
+      "justification": "Neighboring house owner on the market square."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Melchior Scholz",
+      "mention_texts": [
+        "Melchioris Szolc"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Consulum"
+      ],
+      "justification": "Lviv councilor and neighboring house owner on the market square."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestus Andreas Zaremba et Anna coniuges Suburbani Leopolienses vir ipse per se et uxor per maritum suum recognoverunt"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestus Andreas Zaremba et Anna coniuges Suburbani Leopolienses vir ipse per se et uxor per maritum suum recognoverunt"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "descenderunt in praefatam domum in Circulo Civitatis istius"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Circulo Civitatis istius"
+    }
+  ]
+}

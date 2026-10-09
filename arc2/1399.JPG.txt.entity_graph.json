@@ -1,0 +1,126 @@
+{
+  "document_id": "arc2/1399.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Paszkowski",
+      "mention_texts": [
+        "Gasparis\nPaszkowski",
+        "Caspar Paszkowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi Domini",
+        "Tribuni Leopoliensis",
+        "causa Actoris",
+        "Generoso\nActore",
+        "Generosus Actor",
+        "Actor",
+        "Generosi",
+        "Exactori contributionis publicae Anni 1588",
+        "Generosus vero Actor"
+      ],
+      "justification": "Gaspar Paszkowski is named as the plaintiff and tribune of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Josephus Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Civis Leo-\npoliensis",
+        "pars conventa",
+        "citatus modernus",
+        "citatus"
+      ],
+      "justification": "Josephus Wolfowicz is the defendant, identified as a burgher/citizen of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii eiusdem Consulares",
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officii praesentis"
+      ],
+      "justification": "The consular court/office of Lviv presiding over the matter and issuing the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leo-\npoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned adjectivally in the official title and citizenship descriptors."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King Sigismund III Vasa, whose royal court and fisc are referenced regarding ongoing litigation and appeal."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Assumptionis\nBeatae Mariae"
+      ],
+      "descriptive_mentions": [
+        "Feria quarta in vigilia Assumptionis\nBeatae Mariae"
+      ],
+      "justification": "Liturgical date for the prior adjournment of the consular court."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1588",
+      "mention_texts": [
+        "1588"
+      ],
+      "descriptive_mentions": [
+        "Anni 1588"
+      ],
+      "justification": "The year of the public tax/contribution mentioned in relation to the plaintiff's role as tax collector."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Gasparis\nPaszkowski Tribuni Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Josephus Wolfowicz Civis Leo-\npoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "litigates_against",
+      "tail_entity_id": "E2",
+      "evidence": "Generosi Domini Gasparis\nPaszkowski Tribuni Leopoliensis causa Actoris ... Josephus Wolfowicz Civis Leo-\npoliensis pars conventa"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Officium vero Consulare Leopoliense"
+    }
+  ]
+}

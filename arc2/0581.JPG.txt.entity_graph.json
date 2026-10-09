@@ -1,0 +1,145 @@
+{
+  "document_id": "arc2/0581.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "officij Consularis Leopoliensis",
+        "Officij Consularis",
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council of Lviv acting in its official judicial capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "civitatis"
+      ],
+      "justification": "The city of Lviv referenced in civic titles and jurisdictional mentions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Uskowicza",
+        "Joannem Olszowski",
+        "Joannis Olszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Pellificem",
+        "Leopoliensem",
+        "Cives Leopolienses",
+        "praedicti",
+        "Famati"
+      ],
+      "justification": "Joannes Olszowski (Ossowski/Uskowicz), furrier and citizen of Lviv involved in a building dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Sellatores",
+        "Jacobum sellatorem",
+        "Jacobus Sellator"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cives Leopolienses",
+        "praedictus"
+      ],
+      "justification": "Jacobus Sellator (saddler), citizen of Lviv identified in the corpus as Jacobus Balcertowic."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Rzeszowski",
+      "mention_texts": [
+        "Christopherus Rzeszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "dactor Leopoliensis"
+      ],
+      "justification": "Christopherus Rzeszowski, plaintiff making a formal denunciation before the council."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Zgodowicz",
+      "mention_texts": [
+        "Albertus Beckowic",
+        "Albertum Zgodowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Sartorem",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Albertus Zgodowicz (also referenced in the heading as Albertus Beckowic), tailor and citizen of Lviv, cited by the plaintiff."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mika",
+      "mention_texts": [
+        "mika"
+      ],
+      "descriptive_mentions": [
+        "famuli iurati civitatis"
+      ],
+      "justification": "Sworn town servant whose report is cited in court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannem Olszowski Pellificem Leopoliensem et Jacobum sellatorem civitatis Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jacobum sellatorem civitatis Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Christopherus Rzeszowski dactor Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Albertum Zgodowicz Sartorem Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "employee_of",
+      "tail_entity_id": "E2",
+      "evidence": "famuli iurati civitatis mika"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "litigates_against",
+      "tail_entity_id": "E6",
+      "evidence": "Christopherus Rzeszowski dactor Leopoliensis denunciationem fecit contra Famatum Albertum Zgodowicz Sartorem Civem Leopoliensem"
+    }
+  ]
+}

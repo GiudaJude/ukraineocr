@@ -1,0 +1,124 @@
+{
+  "document_id": "arc2/1178.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Podczyna",
+        "Sophia Podczyna",
+        "Sophia Podczyna"
+      ],
+      "descriptive_mentions": [
+        "praenominata",
+        "ipsa",
+        "praenominata Actrice",
+        "dicta",
+        "praefata"
+      ],
+      "justification": "Party requesting the surrender of property under decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Alberto",
+        "Albertum"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "Notario",
+        "ille",
+        "Notarium",
+        "ille"
+      ],
+      "justification": "Notary of the council who demanded security before handing over property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Brzeżany",
+      "mention_texts": [
+        "Brzezanensi"
+      ],
+      "descriptive_mentions": [
+        "oppido"
+      ],
+      "justification": "Town where the security was provided."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Officium Brzezanense",
+      "mention_texts": [
+        "Officio Brzezanensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal office of Brzeżany where caution was deposited."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0004: Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobi Myszkowski"
+      ],
+      "descriptive_mentions": [
+        "Notarij Brzezanensis",
+        "vti qui eas res ad seruandum acceperat et pro illis inscriptionem fecerat"
+      ],
+      "justification": "Notary of Brzeżany in whose name Sophia also acted."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "praenominata",
+        "eius neptis"
+      ],
+      "justification": "Niece/granddaughter of Sophia who acquitted through her tutors."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Nos"
+      ],
+      "justification": "Adjudicating council issuing the decree ('Nos ... decreuimus')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E1",
+      "evidence": "praenominata Catherina eius neptis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "office_holder_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobi Myszkowski Notarij Brzezanensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in oppido Brzezanensi. Nos attenta cautione coram Officio Brzezanensi facta"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "office_holder_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nos attenta cautione coram Officio Brzezanensi facta decreuimus debere extradi huiusmodi res dicta Sophia Podczyna per Albertum Notarium"
+    }
+  ]
+}

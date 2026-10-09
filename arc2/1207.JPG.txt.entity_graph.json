@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/1207.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Daniel Semozen",
+      "mention_texts": [
+        "Danielem Semozem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum",
+        "Plenipotentem",
+        "mandatarium",
+        "praesidentem",
+        "praedictus Plenipotens suus"
+      ],
+      "justification": "Honoratum Danielem Semozem Scabinum in Judicio Exposito Bannito quandoquincque celebrando praesidentem"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "in Judicio Exposito Bannito quandoquincque celebrando praesidentem"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli die et anno quo supra."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die et anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli die et anno quo supra."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Fiszak",
+      "mention_texts": [
+        "Stanislaus",
+        "Fissak"
+      ],
+      "descriptive_mentions": [
+        "Garnczar"
+      ],
+      "justification": "Stanislaus Fissak Garnczar"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Lukowski",
+      "mention_texts": [
+        "Jacobus",
+        "Lukowicz",
+        "Jacobus Lukowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Tramfex",
+        "Ciues Seltzerenses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Famatus Jacobus Lukowski Tramfex... maritum tutorem suum legitimum"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Ursula"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "filia",
+        "Ciues Seltzerenses"
+      ],
+      "justification": "Honesta Ursula Famati olim Thomae Poltheis et Annae secundi matrimonij coniugum filia"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Poltheis",
+      "mention_texts": [
+        "Thomae Poltheis"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "coniugum"
+      ],
+      "justification": "Famati olim Thomae Poltheis et Annae secundi matrimonij coniugum"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "secundi matrimonij coniugum"
+      ],
+      "justification": "Thomae Poltheis et Annae secundi matrimonij coniugum filia"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honoratum Danielem Semozem Scabinum in Judicio Exposito Bannito quandoquincque celebrando praesidentem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Comparentes personaliter Famatus Jacobus Lukowski Tramfex et Honesta Ursula... haec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Thomae Poltheis et Annae secundi matrimonij coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Ursula Famati olim Thomae Poltheis et Annae secundi matrimonij coniugum filia"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Ursula Famati olim Thomae Poltheis et Annae secundi matrimonij coniugum filia"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "document_id": "arc2/1533.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0622: Felix",
+      "mention_texts": [
+        "Felix"
+      ],
+      "descriptive_mentions": [
+        "germani fratris sui"
+      ],
+      "justification": "Felix mentioned as brother whose children are referenced in the guardianship matter."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Actisque nostris",
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council before which the declarations and proceedings were recorded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensem",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in council titles, citizen descriptors, and document location."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szmulewski",
+      "mention_texts": [
+        "Szmulewicz",
+        "Thomas Szmulewski",
+        "Thomasz Smulewski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "actor"
+      ],
+      "justification": "Noble plaintiff making a denunciation against Martinus Rottendorff."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Roendorff",
+        "Martinum Rehendorff",
+        "Martinum Rohendorff"
+      ],
+      "descriptive_mentions": [
+        "Honoratis",
+        "Scabinum",
+        "Civem Leopoliensem",
+        "citatum",
+        "contumace"
+      ],
+      "justification": "Lviv bench magistrate and citizen summoned by Thomas Szmulewski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czaloszyk",
+      "mention_texts": [
+        "Joannem Czaloszyk"
+      ],
+      "descriptive_mentions": [
+        "Providum",
+        "Famatum Civium Iuratum"
+      ],
+      "justification": "Sworn town servant who cited Martinus Rottendorff."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Pruszlikowski",
+      "mention_texts": [
+        "Pruszkowicz",
+        "Joannes Pruszlikowski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburbanite of Lviv lodging a protest against Albertus Domagala."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Domagala",
+        "Albertum Domagalic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civem Leopoliensem",
+        "eundem"
+      ],
+      "justification": "Lviv citizen against whom Joannes Pruszlikowski brings a protest."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Domiński",
+      "mention_texts": [
+        "Joannis Dominski"
+      ],
+      "descriptive_mentions": [
+        "Famuli Civili Jurati",
+        "Honesti"
+      ],
+      "justification": "Sworn civic servant mentioned in connection with summons."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Halicien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Halych suburb of Lviv where the disputed property is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Feria secunda an festum S. Thomae Apostoli proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The entry date (Monday before the feast of St. Thomas the Apostle, 1596)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "opposes",
+      "tail_entity_id": "E5",
+      "evidence": "Thomas Szmulewski Denontiationem fecit con Honoratis Martinum Rehendorff"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Martinum Rehendorff Scabinum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "opposes",
+      "tail_entity_id": "E8",
+      "evidence": "Joannes Pruszlikowski Suburbanus Leopoliensis denontiatione fecit contra Famatus Albertum Domagalic"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Pruszlikowski Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertum Domagalic Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in suburbio Halicien sito"
+    }
+  ]
+}

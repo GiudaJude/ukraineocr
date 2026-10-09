@@ -1,0 +1,252 @@
+{
+  "document_id": "arc2/0258.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Kozakowska Street",
+      "mention_texts": [
+        "platea Kozakowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as the street or location where the property is situated."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Kowalska Street",
+      "mention_texts": [
+        "Ferrariorum"
+      ],
+      "descriptive_mentions": [
+        "platea Ciuitatis huius"
+      ],
+      "justification": "Blacksmiths' Street ('platea Ferrariorum') in the city of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lea Woznaz",
+      "mention_texts": [
+        "Lea Woznaz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Rottendorff",
+      "mention_texts": [
+        "Christophori Rottendorff"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "feria secunda post Dominicam Invocauit proxima Anno 159 quarto"
+      ],
+      "descriptive_mentions": [
+        "praeterito"
+      ],
+      "justification": "Date of the previous division recorded in the acts (Monday after Invocavit 1594)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Stas",
+      "mention_texts": [
+        "Simoni Stas"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "coniugibus",
+        "Ciuibus Leopoliensem",
+        "emptoribus",
+        "sed emptoribus",
+        "praefatos emptores"
+      ],
+      "justification": "Buyer of the property shares, husband of Ursula."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Ursula",
+      "mention_texts": [
+        "Orsulae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "quondam memorata Papillorum maternae",
+        "coniugibus",
+        "Ciuibus Leopoliensem",
+        "emptoribus",
+        "sed emptoribus",
+        "praefatos emptores"
+      ],
+      "justification": "Buyer of the shares, wife of Simon Stas and maternal relation/mother of the wards."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius"
+      ],
+      "justification": "City of Lviv, mentioned repeatedly in citizen and court designations."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "760 Polish florins",
+      "mention_texts": [
+        "Florenorum septingentorum florenorum sexcenti et numeri Polonicali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the shares."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanisława Gagatkowa",
+      "mention_texts": [
+        "Stanissiam Gagatkowa",
+        "Gagatkowa"
+      ],
+      "descriptive_mentions": [
+        "Tutrice Papillorum naturalem",
+        "Honestam",
+        "praefatam"
+      ],
+      "justification": "Natural guardian of the wards Margaretha, Dorothea, and Melchior."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margarethae"
+      ],
+      "descriptive_mentions": [
+        "praefatam Judicatarum",
+        "Pupillorum Judicatarum",
+        "Pupillorum"
+      ],
+      "justification": "One of the ward heirs whose property rights are guaranteed."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "Pupillorum"
+      ],
+      "justification": "One of the ward heirs."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Melchior",
+      "mention_texts": [
+        "Melchioris"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Pupillorum"
+      ],
+      "justification": "One of the ward heirs."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "providatum",
+        "Dominum",
+        "Scabinorum Ciuitatis Leopoliensem",
+        "Plenipotentiarium et mandatarium suu[m]",
+        "praesidentem"
+      ],
+      "justification": "Lviv bench official (scabinus) appointed as plenipotentiary to resign the property in court."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the resignation of the property is to be performed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Simoni Stas et Honestae Orsulae quondam memorata Papillorum maternae coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simoni Stas et Honestae Orsulae quondam memorata Papillorum maternae coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Simoni Stas et Honestae Orsulae quondam memorata Papillorum maternae coniugibus Ciuibus Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Simoni Stas et Honestae Orsulae quondam memorata Papillorum maternae coniugibus Ciuibus Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanissiam Gagatkowa Tutrice Papillorum naturalem ... ab impetitione eorundem Pupillorum Judicatarum Margarethae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "Tutrice Papillorum naturalem ... Pupillorum Judicatarum Margarethae Dorotheae et Honestis Melchioris"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "Tutrice Papillorum naturalem ... Pupillorum Judicatarum Margarethae Dorotheae et Honestis Melchioris"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Dominum Simonem Scabinorum Ciuitatis Leopoliensem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E15",
+      "evidence": "Dominum Simonem Scabinorum Ciuitatis Leopoliensem in Judicio Exposito Bannito Leopoliensem quandoquocumque celebrando praesidentem"
+    }
+  ]
+}

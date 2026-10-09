@@ -1,0 +1,128 @@
+{
+  "document_id": "arc2/0927.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Koziełkowski",
+      "mention_texts": [
+        "Joannes Kozielkowszki"
+      ],
+      "descriptive_mentions": [
+        "Praefatus",
+        "Nobilis"
+      ],
+      "justification": "Named as the noble consenting party in the transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Abraham Koziekowicz",
+      "mention_texts": [
+        "Abrahamum Koziekowicz",
+        "Abraham"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Seniorem Judaeum Leopoliensem",
+        "Judaeus",
+        "praefati Abraham Judaei"
+      ],
+      "justification": "Named Jewish elder of Lviv acting as fideiussor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannem Lukaszowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem sibi assumptum"
+      ],
+      "justification": "Assumed guardian for Abraham Koziekowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Barbara Łaniowa",
+      "mention_texts": [
+        "Barbara Laniowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named party in the rubric of the subsequent court act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lucas Cwirliczer",
+      "mention_texts": [
+        "Lucas Cwirliczer"
+      ],
+      "descriptive_mentions": [
+        "pars conuenta"
+      ],
+      "justification": "Defendant named in the rubric and text of the case."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act is registered and of which Abraham is an elder."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij",
+        "Officium",
+        "Officio",
+        "regno Officij",
+        "an- neo officio"
+      ],
+      "justification": "Municipal council office before which the legal actions take place."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard date formula referencing the year and date of the preceding record."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "100 Hungarian florins",
+      "mention_texts": [
+        "Centum aureorum Ungaricalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of the pledge mentioned in the bond."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "has_guardian",
+      "tail_entity_id": "E3",
+      "evidence": "per Famatum Joannem Lukaszowicz tutorem sibi assumptum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Abrahamum Koziekowicz Seniorem Judaeum Leopoliensem"
+    }
+  ]
+}

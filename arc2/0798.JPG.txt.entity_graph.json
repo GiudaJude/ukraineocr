@@ -1,0 +1,162 @@
+{
+  "document_id": "arc2/0798.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Kwaśniowska",
+      "mention_texts": [
+        "Kwaśniowska"
+      ],
+      "descriptive_mentions": [
+        "dictam"
+      ],
+      "justification": "Property mentioned in the text as subject to legal evacuation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adam Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Scabini Civitatis Leopoliensis",
+        "qui"
+      ],
+      "justification": "Identified as scabinus of Lviv accepting legal obligations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "The city of Lviv mentioned in various locative and adjectival forms."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislaus"
+      ],
+      "descriptive_mentions": [
+        "praefatus Famatus",
+        "Plenipotens"
+      ],
+      "justification": "Plenipotentiary requesting the record of the surety's report."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard date formula referring to the preceding entry date."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consules Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officij nostri"
+      ],
+      "justification": "The consular magistracy of Lviv issuing the plenipotentiary grant."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Saprico",
+      "mention_texts": [
+        "Hieronymi Saprico"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis nostri Leopoliensis",
+        "eiusdem Civis nostri",
+        "eundem",
+        "praedictam Ciuem depraedatum"
+      ],
+      "justification": "Lviv citizen who suffered violent despoliation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Lodwiszoski",
+      "mention_texts": [
+        "Simonis Finiti",
+        "Simonem Lodwiszoski"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem",
+        "mandatarium",
+        "Famatum",
+        "Ciuem Leopoliensem",
+        "exhibitorem praesentium",
+        "nostro Plenipotenti"
+      ],
+      "justification": "Citizen of Lviv constituted as plenipotentiary by the council to investigate the robbery."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0060: ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Actis Castrensibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Castle Court of Lviv where the protestation was filed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Adam Kalinowski Scabini Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Consules Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Hieronymi Saprico Cae. Lutitem Civis nostri Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simonem Lodwiszoski Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Consules Civitatis Leopoliensis suo et Honoratorum Domini Advocati scabinorum totiusque communitatis Leopoliensis nominibus ... in suum verum legitimum indubitatumque Plenipotentem et mandatarium Famatum Simonem Lodwiszoski Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Actis Castrensibus Leopoliensibus"
+    }
+  ]
+}

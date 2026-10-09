@@ -1,0 +1,196 @@
+{
+  "document_id": "arc2/0606.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "officium",
+        "Consulari residentia"
+      ],
+      "descriptive_mentions": [
+        "nostra Consulari residentia"
+      ],
+      "justification": "The municipal council issuing decrees and before whose residence the parties appear."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Kynost"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "Honoratum"
+      ],
+      "justification": "Party ordered by the council decree to deposit seventy florins."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "septuaginta Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sum of census money specified in the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officio Domini Advocati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The advocatial court/office where the dispute regarding the sum is to take place."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Zaiąnczkowa",
+      "mention_texts": [
+        "Zaiąnczkowa"
+      ],
+      "descriptive_mentions": [
+        "Egre- i"
+      ],
+      "justification": "Mentioned in the decree concerning potential pledge defense."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szczerbicz",
+      "mention_texts": [
+        "Stanislai Szczerbicz",
+        "Stanislao Szczerbicz",
+        "Stanislaus Szczerbicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "praefatus"
+      ],
+      "justification": "The attorney/representative whose plenipotentiary power is revoked."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szcer",
+      "mention_texts": [
+        "Paulus Szcer"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "gener",
+        "maritum suum"
+      ],
+      "justification": "Son-in-law of the late Sebastianus Wowzel who appears to revoke the power of attorney."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Wowzel",
+      "mention_texts": [
+        "Sebastiani Wowzel"
+      ],
+      "descriptive_mentions": [
+        "olim Famati",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, father-in-law of Paulus Szcer and father of Anna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Wowzelionna"
+      ],
+      "descriptive_mentions": [
+        "Coniunx eius legitima",
+        "Honesta",
+        "Coniunx ipsius"
+      ],
+      "justification": "Wife of Paulus Szcer and daughter of Sebastianus Wowzel."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court in which the plenipotentiary authority had originally been conferred."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "1591",
+      "mention_texts": [
+        "feria quarta prima invas post Dominicam Conductus Paschae Anno Domini 1591"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date when the power of attorney was previously granted."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0006: Andreas Szambor",
+      "mention_texts": [
+        "Andream Sambor"
+      ],
+      "descriptive_mentions": [
+        "Fidelem Dominum",
+        "Consulem Leopoliensem"
+      ],
+      "justification": "Lviv consul against whom the legal action was directed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Anna Wowzelionna Coniunx eius legitima"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "praedictum maritum suum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Anna Wowzelionna"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Sebastiani Wowzel Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Andream Sambor Consulem Leopoliensem"
+    }
+  ]
+}

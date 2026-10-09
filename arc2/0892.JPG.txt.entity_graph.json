@@ -1,0 +1,114 @@
+{
+  "document_id": "arc2/0892.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Georgius Szeczkowicz",
+      "mention_texts": [
+        "Georgij Sze- / czkowicz",
+        "Sseczkowicz",
+        "Georgius Sseczkowicz",
+        "Seczko- / wicz"
+      ],
+      "descriptive_mentions": [
+        "sculteti praedicti",
+        "eidem",
+        "praefatus"
+      ],
+      "justification": "Party in the property division who was assigned the third portion and granted precarium to Barbara Stogmjerowna."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara / Stogmjerowna",
+        "Barbara Sto- / gmyerowna",
+        "Stogmjerowna"
+      ],
+      "descriptive_mentions": [
+        "praedicta",
+        "Honesta",
+        "praefata",
+        "praefata Honesta",
+        "eidem"
+      ],
+      "justification": "Matched to known entity PER-0283: Barbara, who appears here under the surname Stogmjerowna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festum S. Michaelis"
+      ],
+      "descriptive_mentions": [
+        "proxime futurum"
+      ],
+      "justification": "Feast day serving as the deadline for the precarium arrangement."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of court enactment (Lwów)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta post / Invocavit Dominica proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court session date formula in the year 1596."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consules / Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "officium"
+      ],
+      "justification": "The municipal authority and consular body presiding over the registration."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Regallia",
+      "mention_texts": [
+        "Stanislaus / Regallia"
+      ],
+      "descriptive_mentions": [
+        "Consules / Leopolienses"
+      ],
+      "justification": "Consul of Lviv presiding over the subsequent record."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0165: 1500 florins",
+      "mention_texts": [
+        "Florenos Mille et Quingentos pecuniae / et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of 1500 Polish florins mentioned in the debt acknowledgement."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaus Consules / Regallia Leopolienses"
+    }
+  ]
+}

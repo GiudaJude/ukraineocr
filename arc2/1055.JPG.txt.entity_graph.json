@@ -1,0 +1,169 @@
+{
+  "document_id": "arc2/1055.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Abraham Żelatrzym",
+      "mention_texts": [
+        "Abraham Zelatrzym"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum"
+      ],
+      "justification": "Named in the first court entry ('per Ingenuum Abraham Zelatrzym oblatos')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij",
+        "Officij Consularis Leopoliensis",
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council court issuing the decree and hearing the protest."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienes",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatem",
+        "ea Civitate"
+      ],
+      "justification": "The city of Lviv identified adjectivally and by city references."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Torbeg",
+      "mention_texts": [
+        "Torbecz",
+        "Torbeg",
+        "Torbegc"
+      ],
+      "descriptive_mentions": [
+        "Armenos",
+        "Cives Leopolienes",
+        "Famatum",
+        "Actores",
+        "Actorum",
+        "Actoribus"
+      ],
+      "justification": "Armenian burgher of Lviv and plaintiff in the lawsuit over detained merchandise."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Murat Szakiewicz",
+      "mention_texts": [
+        "Muslawis",
+        "Murat Szakiewicz",
+        "Murat"
+      ],
+      "descriptive_mentions": [
+        "Armenos",
+        "Cives Leopolienes",
+        "Actores",
+        "Actorum",
+        "Actoribus"
+      ],
+      "justification": "Armenian burgher of Lviv and co-actor with Torbeg."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Ilia Iasym Serepkowicz",
+      "mention_texts": [
+        "Iliam Iasym Szrephkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "seniorem Armenorum",
+        "Civem Leopoliensem",
+        "citatum",
+        "Citatus"
+      ],
+      "justification": "Elder of the Armenian community and defendant ('citatum') who arrested the goods."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Manacius Davidowicz",
+      "mention_texts": [
+        "Manacium Davidowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "praedicti Torbegc generum",
+        "negociorum gestorem"
+      ],
+      "justification": "Son-in-law and business factor of Torbeg who transported the goods."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-1785: David Serepkowicz",
+      "mention_texts": [
+        "Dawidis Perephkowicz"
+      ],
+      "descriptive_mentions": [
+        "Iamadi",
+        "debitoris",
+        "fratrem suum"
+      ],
+      "justification": "Alleged debtor and brother of the defendant Ilia Serepkowicz in whose name the arrest was made."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [
+        "Dominum clementissimum"
+      ],
+      "justification": "The Polish king, to whom the defendant appealed the council's decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "has_family_relation",
+      "tail_entity_id": "E4",
+      "evidence": "praedicti Torbegc generum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "has_family_relation",
+      "tail_entity_id": "E6",
+      "evidence": "fratrem suum cuius hoc nomine arrestum posuerat"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "lives_in",
+      "tail_entity_id": "E3",
+      "evidence": "Torbeg et Murat Armenos et Cives Leopolienes"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "lives_in",
+      "tail_entity_id": "E3",
+      "evidence": "Torbeg et Murat Armenos et Cives Leopolienes"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "lives_in",
+      "tail_entity_id": "E3",
+      "evidence": "Iliam Iasym Szrephkowicz seniorem Armenorum Civem Leopoliensem"
+    }
+  ]
+}

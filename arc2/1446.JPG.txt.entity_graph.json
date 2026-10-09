@@ -1,0 +1,202 @@
+{
+  "document_id": "arc2/1446.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenis quinquaginta",
+        "quinquaginta Florenorum",
+        "Florenos quinquaginta"
+      ],
+      "descriptive_mentions": [
+        "alteram medietatem",
+        "residuos"
+      ],
+      "justification": "Sum of money (fifty florins) mentioned in the settlement and reservation of inheritance."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa esponzali"
+      ],
+      "justification": "Dotal sum of one hundred florins."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislawa Cacik",
+      "mention_texts": [
+        "Stanislawam Cacik"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "olim",
+        "aviam suam paternam"
+      ],
+      "justification": "Deceased paternal grandmother who bequeathed money by testament."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal civil/banned court of Lviv where proceedings took place."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Tacik",
+      "mention_texts": [
+        "Bartholomeo Tacik"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "patruo suo",
+        "suique praefato depositario",
+        "eundem patruum suum"
+      ],
+      "justification": "Paternal uncle and depository of the inheritance."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Cacius",
+      "mention_texts": [
+        "Martinus Cacius"
+      ],
+      "descriptive_mentions": [
+        "idem praefatus"
+      ],
+      "justification": "Grandson and nephew acknowledging receipt of half the legacy before embarking on a journey."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus",
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Acta"
+      ],
+      "justification": "The consular/council office and books of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Civitatis eiusdem Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post festum Sancti Lucae Evangelistae proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry in the council records: Monday after St. Luke 1596."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Bridlemakers' Guild",
+      "mention_texts": [
+        "Contubernium Fremnicum",
+        "Contubernii Fremnicum"
+      ],
+      "descriptive_mentions": [
+        "totius Contubernii"
+      ],
+      "justification": "Bridlemakers' guild (frenifices) appearing in court."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Goldsmiths' Guild",
+      "mention_texts": [
+        "Contubernium Aurifabrorum",
+        "Contubernium totum Aurifabrorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Goldsmiths' guild of Lviv named as a respondent party."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Semiszek",
+      "mention_texts": [
+        "Albertum Semiszek"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cerdones",
+        "praefati Cerdones"
+      ],
+      "justification": "A tanner cited before the council."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Sielmowicz",
+      "mention_texts": [
+        "Nicolaum Sielmowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cerdones",
+        "praefati Cerdones"
+      ],
+      "justification": "A tanner cited alongside Albertus Semiszek."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Bartholomeo Tacik patruo suo... Stanislawam Cacik aviam suam paternam"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "relative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Bartholomeo Tacik patruo suo"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislawam Cacik aviam suam paternam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Contubernii Fremnicum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Contubernium totum Aurifabrorum Civitatis eiusdem Leopoliensis"
+    }
+  ]
+}

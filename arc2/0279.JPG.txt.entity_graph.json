@@ -1,0 +1,110 @@
+{
+  "document_id": "arc2/0279.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Castle Chancery",
+      "mention_texts": [
+        "Castrensi Cancellaria Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document references letters issued from the Lviv Castle Chancery ('Castrensi Cancellaria Leopoliensi')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lwów is named adjectivally in the chancery title."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari"
+      ],
+      "descriptive_mentions": [
+        "sigillo nostro",
+        "iisdem Actis"
+      ],
+      "justification": "The text refers to the council's seal ('sigillo nostro Consulari') and its register ('iisdem Actis')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "1572",
+      "mention_texts": [
+        "feria secunda post Dominicam Jubilate proxima Anno Domini 1572do"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Legal date of the earlier extract."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Zoe Dzierzeck",
+      "mention_texts": [
+        "Zoe Dzierzeck"
+      ],
+      "descriptive_mentions": [
+        "gnatis"
+      ],
+      "justification": "A person mentioned in the letter of plenipotence."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hannus Dzierzek",
+      "mention_texts": [
+        "Hannussium",
+        "Dzierzek"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Person named in the letters of plenipotence concernig estate rights."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1585",
+      "mention_texts": [
+        "feria secunda ante Festum Sancti Bartholomei Anno 158quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the plenipotence letters."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jurij",
+      "mention_texts": [
+        "Iurie"
+      ],
+      "descriptive_mentions": [
+        "fratris sui germano",
+        "demortui"
+      ],
+      "justification": "The deceased brother whose testament was produced ('demortui Iurie', 'fratris sui germano')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Castrensi Cancellaria Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "fratris sui germano concernere"
+    }
+  ]
+}

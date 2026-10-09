@@ -1,0 +1,217 @@
+{
+  "document_id": "arc2/0593.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar Zwierzchowski",
+      "mention_texts": [
+        "Caspar Zwierzchowski"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "praenominatus",
+        "reco- gnoscentes"
+      ],
+      "justification": "Party in the legal contract cancellation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Cieszkowski",
+      "mention_texts": [
+        "Joanne Cieszkowski"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "eodem",
+        "reco- gnoscentes"
+      ],
+      "justification": "Counterparty in the contract cancellation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Sołtanowicz",
+      "mention_texts": [
+        "Simone Soltanowic",
+        "Simonem Sol- tanowicz"
+      ],
+      "descriptive_mentions": [
+        "Fos",
+        "Pellionem",
+        "Ciuem Leopoliensem",
+        "citantem",
+        "praedicti Actoris",
+        "Actoris"
+      ],
+      "justification": "Plaintiff furrier citizen of Lviv in the council decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council office issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in institutional and civic titles."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Honorati Aduocati et Fidelium Scabinorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court of the advocate and benchers referenced in the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Koczurowski",
+      "mention_texts": [
+        "lanes Koczurowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Defendant named in the dispute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Baczewski",
+      "mention_texts": [
+        "Martino Baczewski"
+      ],
+      "descriptive_mentions": [
+        "Famoto"
+      ],
+      "justification": "Person whose held items are involved in the dispute."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Albertus Se- distanius",
+        "Sedilani"
+      ],
+      "descriptive_mentions": [
+        "Magi",
+        "Collega noster Consularis",
+        "Aduocati Ordinarij Leopoliensis",
+        "praedictus"
+      ],
+      "justification": "Former advocate and current councilor testifying regarding a will."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Melchior Rozbicki",
+      "mention_texts": [
+        "Melcher Rozbicki"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati Ciuitatis Leopoliensis"
+      ],
+      "justification": "Bencher testifying regarding the testamental inspection."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Thomas Panczarz",
+      "mention_texts": [
+        "Thomas Panczarz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati Ciuitatis Leopoliensis"
+      ],
+      "justification": "Bencher testifying regarding the testamental inspection."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zofiae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "relictae"
+      ],
+      "justification": "Widow of Paulus Samsorski requesting the relation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Paulus Samsorski",
+      "mention_texts": [
+        "Pauli Samsorski",
+        "Pawel Samsorski",
+        "Samsorski"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "praedicti olim"
+      ],
+      "justification": "Deceased person whose testament is being registered."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "anno 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year when the officials visited the testator's house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simonem Sol- tanowicz Pellionem Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Albertus Se- distanius Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Melcher Rozbicki et Thomas Panczarz Scabini iurati Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Thomas Panczarz Scabini iurati Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Honestae Zofiae olim Pawel Samsorski relictae"
+    }
+  ]
+}

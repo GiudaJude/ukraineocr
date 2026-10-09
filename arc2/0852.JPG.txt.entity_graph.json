@@ -1,0 +1,344 @@
+{
+  "document_id": "arc2/0852.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito",
+        "Judicium Ciuile Leopoliense Necessarium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv mentioned in the introductory text and entry 802."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal consular office issuing decrees in entries 802 and 803."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Moses Czern",
+      "mention_texts": [
+        "Fischen",
+        "Gasparem Mosen Czern"
+      ],
+      "descriptive_mentions": [
+        "Judaeum Samoiscen",
+        "actorem",
+        "ipsorum autorem"
+      ],
+      "justification": "Jewish plaintiff from Zamość in entry 802."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Samoiscen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City from which Gaspar Moses Czern originates."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Lukaszewic",
+        "Joannem Lukaszewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ciuem Leopoliensem",
+        "citatum"
+      ],
+      "justification": "Lviv citizen and defendant cited in entry 802."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliense",
+        "Leopoliensium",
+        "Ciuitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The royal city of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenos"
+      ],
+      "descriptive_mentions": [
+        "summae"
+      ],
+      "justification": "Sum in dispute in entry 802."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date closing formula referring to the current year/session."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Czarny",
+      "mention_texts": [
+        "Sumkowicza",
+        "Simonem Czarny"
+      ],
+      "descriptive_mentions": [
+        "Ferrifabrum",
+        "Tutores",
+        "actorem"
+      ],
+      "justification": "Blacksmith acting as guardian on behalf of Clemens Aurifaber's estate in entry 803."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margaretae"
+      ],
+      "descriptive_mentions": [
+        "consortis legitimae"
+      ],
+      "justification": "Wife of Simon Czarny."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Fragancz",
+      "mention_texts": [
+        "Alberti Fragancz"
+      ],
+      "descriptive_mentions": [
+        "Coniugum",
+        "Tutores",
+        "actorem"
+      ],
+      "justification": "Co-guardian of Clemens's estate in entry 803."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum"
+      ],
+      "justification": "Wife of Albertus Fragancz."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Martinus Janiszowski",
+      "mention_texts": [
+        "Martini Janiszowski"
+      ],
+      "descriptive_mentions": [
+        "Kobilis",
+        "Coniugum",
+        "Tutores",
+        "actorem"
+      ],
+      "justification": "Noble co-guardian of Clemens's estate."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum"
+      ],
+      "justification": "Wife of Martinus Janiszowski."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "Viduae",
+        "Tutores",
+        "actorem"
+      ],
+      "justification": "Widow acting as co-guardian of Clemens's estate."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Clemens",
+      "mention_texts": [
+        "Clementis",
+        "Clementem"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "olim",
+        "Aurifabri",
+        "Aurifabrum",
+        "coniugum",
+        "Ciuium Leopoliensium"
+      ],
+      "justification": "Deceased goldsmith of Lviv whose estate is represented in entry 803."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "Ciuium Leopoliensium"
+      ],
+      "justification": "Deceased wife of Clemens Aurifaber."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Duchnina",
+        "Agnetem Nicolina"
+      ],
+      "descriptive_mentions": [
+        "viduam relictam",
+        "citatam",
+        "praefata Citata"
+      ],
+      "justification": "Widow of Joannes Duchna, cited defendant in entry 803."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Duchna",
+        "Joanni Duchna"
+      ],
+      "descriptive_mentions": [
+        "Aurifabri",
+        "Famato olim"
+      ],
+      "justification": "Late goldsmith of Lviv to whom Clemens Aurifaber contracted a debt."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Andreas Korcicki",
+      "mention_texts": [
+        "Indrea Korcicki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "tutore",
+        "Prolocutore"
+      ],
+      "justification": "Noble guardian and spokesperson appearing with Agnes Duchnina."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "Florenos septuaginta"
+      ],
+      "descriptive_mentions": [
+        "summae",
+        "debiti"
+      ],
+      "justification": "Debt sum contracted by Clemens Aurifaber."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio eius Ciuitatis Haliciensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the mortgaged garden is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Petri Simonem Czarny Ferrifabrum suo et Item Margaretae consortis legitimae"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Petri Alberti Fragancz et Dorotheae Coniugum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Martini Janiszowski et Sophiae Coniugum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "spouse_of",
+      "tail_entity_id": "E17",
+      "evidence": "Famati olim Clementis Aurifabri et Sophiae coniugum"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "spouse_of",
+      "tail_entity_id": "E18",
+      "evidence": "Agnetem Nicolina Joannis Duchna Aurifabri viduam relictam"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E18",
+      "evidence": "citatam cum Nobili que Indrea Korcicki tutore et Prolocutore sibi assumpto comparentem"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "debtor_of",
+      "tail_entity_id": "E19",
+      "evidence": "debiti per praefatum olim Clementem Aurifabrum Famato olim Joanni Duchna officiose contracti"
+    },
+    {
+      "head_entity_id": "E22",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "suburbio eius Ciuitatis Haliciensis"
+    }
+  ]
+}

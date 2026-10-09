@@ -1,0 +1,202 @@
+{
+  "document_id": "arc2/1250.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium",
+        "officium praesens",
+        "officij",
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office in Lviv before which the proceedings and registration take place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Ryndina",
+      "mention_texts": [
+        "Ryndina"
+      ],
+      "descriptive_mentions": [
+        "eadem"
+      ],
+      "justification": "Woman named Ryndina involved in requesting the recognition of the signature and seal."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Dziadowski",
+      "mention_texts": [
+        "Sigismundo Dziadowski"
+      ],
+      "descriptive_mentions": [
+        "praefato Generoso",
+        "Qui"
+      ],
+      "justification": "Noble who acknowledged his seal and signature on the presented document."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łosiński Ryndus",
+      "mention_texts": [
+        "Ryndus",
+        "Ryndus Joannes Losinski"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "praefatus"
+      ],
+      "justification": "Party who lodged a denunciation and placed an arrest on the chest via his procurator."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaum Anserinum"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "suum Procuratorem"
+      ],
+      "justification": "Procurator acting on behalf of Ryndus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Torosowicz",
+      "mention_texts": [
+        "Jacobum Torosowic",
+        "Torosowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Generum Leopoliensium",
+        "quem comparentem",
+        "dictus",
+        "Citatus",
+        "praedictum",
+        "praefatus"
+      ],
+      "justification": "Lviv burgher summoned concerning the deposit and debt of the late Antonius Czebulski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in the jurisdiction, citizenship, and dating."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Antonius Czebulski",
+      "mention_texts": [
+        "Antonij Czebulski",
+        "Czebulski"
+      ],
+      "descriptive_mentions": [
+        "praedicti olim",
+        "praefati"
+      ],
+      "justification": "Deceased person who deposited a sealed chest with Jacobus Torosowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "debitum"
+      ],
+      "justification": "The debt amount of 100 florins owed to Torosowicz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Vicecapitaneus Leopoliensis",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Domini Vicecapitanei"
+      ],
+      "justification": "The Vice-Starosta whose consent was given for the arrest of the chest."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato post Festum Visitationis Mariae Virginis Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the record: Saturday after the Feast of the Visitation of the Virgin Mary, 1596."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sławecki",
+      "mention_texts": [
+        "Stanislaus Slawecki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official/clerk signing the act."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Hempel",
+      "mention_texts": [
+        "Joannes Hempel"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Lanio",
+        "coniuges",
+        "Cives Leopolienses",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Lviv butcher appearing personally alongside his wife Dorothea Antonowna."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea Antonowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuges",
+        "Cives Leopolienses"
+      ],
+      "justification": "Wife of Joannes Hempel appearing in the act under his tutelage."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "acts_for",
+      "tail_entity_id": "E4",
+      "evidence": "praedictus Ryndus per suum Procuratorem Generosum Stanislaum Anserinum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "married_to",
+      "tail_entity_id": "E14",
+      "evidence": "Joannes Hempel Lanio et Honesta Dorothea Antonowna coniuges"
+    }
+  ]
+}

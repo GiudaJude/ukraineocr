@@ -1,0 +1,231 @@
+{
+  "document_id": "arc2/0045.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Simone Leopolita"
+      ],
+      "descriptive_mentions": [
+        "Spectabili Domino Magistro",
+        "Collega meo Consulari",
+        "affinibus",
+        "eosdem",
+        "satisfactoribus"
+      ],
+      "justification": "Named as consul and recipient of satisfaction/quitclaim alongside Joannes Luhassowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0101: Joannes Lukaszowic",
+      "mention_texts": [
+        "Joanne Luhassowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "affinibus",
+        "eosdem",
+        "satisfactoribus"
+      ],
+      "justification": "Identified as a citizen of Lviv acting alongside Simon Leopolita."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis",
+        "Actis meis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council records in which the actions and obligations are recorded."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli",
+        "Cive Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts and citizens are situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "31 January 1595",
+      "mention_texts": [
+        "feria tertia ante festum Purificationis B.M.V. proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry, Tuesday before the Feast of the Purification of Mary 1595."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Klenczer",
+      "mention_texts": [
+        "Joannes Klenczeris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official/person named in the heading or register record."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Winseirt Gürtler",
+      "mention_texts": [
+        "Winseirt Gürtler"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official/person appearing below Joannes Klenczer in the register heading."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Gewter",
+      "mention_texts": [
+        "Christophorus Gewter"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honestus",
+        "conuictu Kemptensis"
+      ],
+      "justification": "Agent representing Caspar Gewter in the cession of debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kempten",
+      "mention_texts": [
+        "Kemptensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin/association noted for Christophorus Gewter ('conuictu Kemptensis')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Caspar Gewter",
+      "mention_texts": [
+        "Casparis Gewter"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Spectabilis",
+        "Consulis Cracoviensis",
+        "principalis sui",
+        "Spectabili principali suo",
+        "memorato principali suo"
+      ],
+      "justification": "Consul of Kraków, the principal party whose debt rights are being ceded."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis",
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Caspar Gewter's consulate and Joannes Gonsior's residence."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "312 florins",
+      "mention_texts": [
+        "trecentorum duodecim florenorum",
+        "trecentorum duodecim florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money owed by Joannes Nynczicz and ceded to Joannes Gonsior."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Nynczicz",
+      "mention_texts": [
+        "Nynczowic",
+        "Joannis Nynczicz"
+      ],
+      "descriptive_mentions": [
+        "Provisore",
+        "Rutheno Cive Leopoliensi"
+      ],
+      "justification": "Debtor and Ruthenian burgher of Lviv whose house is mortgaged."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "Monday after Saint John the Baptist 1582",
+      "mention_texts": [
+        "feria secunda post diem sancti Joannis Baptistae Anno 1582 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original contract entry in the council records."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0007: Ruthenian Street",
+      "mention_texts": [
+        "platea Ruthenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where Joannes Nynczicz's house is situated."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gonsior",
+      "mention_texts": [
+        "Joanni Gonsior",
+        "Joannem Gonsior"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi et Rzegodatori Cracoviensi"
+      ],
+      "justification": "Citizen/negotiator of Kraków to whom the mortgage debt is transferred."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joanne Luhassowicz Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "agent_of",
+      "tail_entity_id": "E10",
+      "evidence": "ius totum et integrum praefati principalis sui super summam trecentorum duodecim florenorum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Casparis Gewter Consulis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nynczowic Rutheno Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joanni Gonsior Civi et Rzegodatori Cracoviensi"
+    }
+  ]
+}

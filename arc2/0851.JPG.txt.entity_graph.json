@@ -1,0 +1,180 @@
+{
+  "document_id": "arc2/0851.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czechanowicz",
+      "mention_texts": [
+        "Stanislai Czechanzowicz",
+        "Stanislaum Czechanowicz",
+        "Czechanowicz Stanislaus",
+        "Stanislaus Czechanzowicz"
+      ],
+      "descriptive_mentions": [
+        "honesti",
+        "artificy Ferrarii",
+        "istum praedictum",
+        "artificy anuariorum socium",
+        "Honestus",
+        "Fabri filij",
+        "anuariorum sotius"
+      ],
+      "justification": "Appears as the blacksmith/artisan seeking birth certification and selling a plot of land."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Suburbio"
+      ],
+      "justification": "Identified as the suburb of Lviv where the plot of land is located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolien",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv is referenced as the place of origin and municipal authority."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Czechanowicz",
+      "mention_texts": [
+        "Petri"
+      ],
+      "descriptive_mentions": [
+        "Civibus",
+        "Conjugum Suburbanorum Leopolien"
+      ],
+      "justification": "Father of Stanislaus Czechanowicz, mentioned in the legitimate marriage clause."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joanna Czechanowicz",
+      "mention_texts": [
+        "Joanna Czechanowicz"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Civibus"
+      ],
+      "justification": "Mother/deceased spouse mentioned in the legitimate marriage clause regarding Stanislaus' birth."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0030: Anastasia",
+      "mention_texts": [
+        "Anastasia"
+      ],
+      "descriptive_mentions": [
+        "Conjugum Suburbanorum Leopolien"
+      ],
+      "justification": "Spouse mentioned in the suburban marital context."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum"
+      ],
+      "justification": "The issuing municipal council/office that requested testimony."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actum ut supra"
+      ],
+      "justification": "Formula referring to the preceding date entry of the record."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomae Klancz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning an adjoining land plot in the Halych suburb."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Martinus Sevrifaber",
+      "mention_texts": [
+        "Martini Sevrifabri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning the other adjoining land plot."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Pieronka",
+      "mention_texts": [
+        "Christophoro Pieronka"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "sutori",
+        "Suburbano Leopoliense"
+      ],
+      "justification": "The shoemaker of the Lviv suburb purchasing the plot of land."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0172: 6 florins",
+      "mention_texts": [
+        "sex Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the plot of land."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaum Czechanowicz artificy anuariorum socium progenitum esse ex legitimo et iusto matrimonio Petri"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislaum Czechanowicz artificy anuariorum socium progenitum esse ex legitimo et iusto matrimonio Petri cum olim Joanna Czechanowicz"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "legitimo et iusto matrimonio Petri cum olim Joanna Czechanowicz"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Civitatis Suburbio Haliciensi"
+    }
+  ]
+}

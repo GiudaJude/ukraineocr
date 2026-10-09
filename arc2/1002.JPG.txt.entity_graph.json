@@ -1,0 +1,73 @@
+{
+  "document_id": "arc2/1002.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martini Rosthendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini",
+        "praedictorum"
+      ],
+      "justification": "Juror/scabinus present at the recording of the act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Laurencowicz",
+      "mention_texts": [
+        "Joannis Laurencowicz"
+      ],
+      "descriptive_mentions": [
+        "Notarij",
+        "praedictorum"
+      ],
+      "justification": "Town notary present during the proceedings."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotea Mozanconna",
+        "Dorothea Mozanconna"
+      ],
+      "descriptive_mentions": [
+        "dicta",
+        "Honesta",
+        "praedicta",
+        "matris liberorum"
+      ],
+      "justification": "Mother of the minors petitioning the registration of the pre-guardianship accounts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0762: PER-0015: Christopherus Mozanc",
+      "mention_texts": [
+        "Christophorum Mozanc",
+        "Christopherum Mozanc"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "patrem suum",
+        "memoratum",
+        "parentem",
+        "tutorem suum naturalem"
+      ],
+      "justification": "Father and natural guardian acting on behalf of Dorothea Mozanczowna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Famatum Christophorum Mozanc patrem suum"
+    }
+  ]
+}

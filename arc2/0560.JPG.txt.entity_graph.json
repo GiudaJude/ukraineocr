@@ -1,0 +1,109 @@
+{
+  "document_id": "arc2/0560.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Sartor",
+      "mention_texts": [
+        "Constantino Sartori",
+        "Constantinum",
+        "Constantinum"
+      ],
+      "descriptive_mentions": [
+        "affini",
+        "Civibus",
+        "Coniugibus",
+        "emptoribus",
+        "Coniuges",
+        "emptores",
+        "coniuges"
+      ],
+      "justification": "Named as buyer together with his wife Catherina: 'Constantino Sartori et Catherinae Coniugibus'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae",
+        "Catherinam",
+        "Catherinam"
+      ],
+      "descriptive_mentions": [
+        "sorori",
+        "Civibus",
+        "Coniugibus",
+        "emptoribus",
+        "Coniuges",
+        "emptores",
+        "coniuges"
+      ],
+      "justification": "Named as wife and sister/relative of the sellers: 'Constantino Sartori et Catherinae Coniugibus affini et sorori suis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "210 florins",
+      "mention_texts": [
+        "ducentorum et decem florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sale price paid for the portion of property: 'pretio ducentorum et decem florenorum'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoli",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in citizen titles, court jurisdiction, and the datum line: 'Civibus Leopoliensibus', 'Judicio Bannito Exposito Leopoli', 'Actum Leopoli'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Exposito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The judicial body before which the resignation of the property is to be confirmed: 'in Judicio Bannito Exposito Leopoli'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Constantino Sartori et Catherinae Coniugibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Constantino Sartori et Catherinae Coniugibus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Constantino Sartori et Catherinae Coniugibus affini et sorori suis Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Constantino Sartori et Catherinae Coniugibus affini et sorori suis Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Judicio Bannito Exposito Leopoli"
+    }
+  ]
+}

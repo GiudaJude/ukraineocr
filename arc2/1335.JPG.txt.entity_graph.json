@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/1335.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarea Langissowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears in court record as the cited party."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the actor arrives and where the act is executed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Roman Surma",
+      "mention_texts": [
+        "ROMAN SURMA",
+        "Paulo Romano Zatori"
+      ],
+      "descriptive_mentions": [
+        "Fratri suo",
+        "Fratri emptori",
+        "eidem Fratri emptori"
+      ],
+      "justification": "Appears in the heading and body as the brother purchasing the property share."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Ewa Zoliesanka",
+      "mention_texts": [
+        "Ewa Zoliesanka"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "Woman appearing before the council to sell her inheritance share."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Tutorem sibi ad eum actum assumptum et per Officium nostrum confirmatum"
+      ],
+      "justification": "Appointed guardian assisting Ewa Zoliesanka in the legal act."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium nostrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal authority confirming the guardian and recording the resignation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Marusna",
+      "mention_texts": [
+        "Marusnam"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "sororem suam"
+      ],
+      "justification": "Deceased sister from whom Ewa inherited the share in the house and garden."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Skałka",
+      "mention_texts": [
+        "Skalka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the house and garden sold in the transaction."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Martinus Rokoszowski",
+      "mention_texts": [
+        "Martin Rokoszowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property is adjacent to the house and garden."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "11 Polish florins",
+      "mention_texts": [
+        "undecim Florenos pecuniae et meri Polonicali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the share."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria secunda post Festum S. Bartholomei... Anno Domini 1590",
+        "Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded legal transaction."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gyeker",
+      "mention_texts": [
+        "Stanislaue Gyeker"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or scribe at the conclusion of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "Adamum Kalinowski Tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "post Honestam olim Marusnam sororem suam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Paulo Romano Zatori Fratri suo"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "document_id": "arc2/1168.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertum Domagala"
+      ],
+      "descriptive_mentions": [
+        "fideiussores"
+      ],
+      "justification": "Named surety in the initial court act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Krakowian",
+      "mention_texts": [
+        "Martinum Krakowian"
+      ],
+      "descriptive_mentions": [
+        "fideiussores"
+      ],
+      "justification": "Named surety in the court act."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Chirurgus",
+      "mention_texts": [
+        "Andream Chirurgum"
+      ],
+      "descriptive_mentions": [
+        "fideiussores"
+      ],
+      "justification": "Named surety, surgeon by trade."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Blasius Crucifex",
+      "mention_texts": [
+        "Blasium Crucificem"
+      ],
+      "descriptive_mentions": [
+        "fideiussores"
+      ],
+      "justification": "Named surety in the court act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the court act and residence of suburbanite Simon Koval."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato in vigilia Pentecostes Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded legal entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0847: Lucia Cwartowa",
+      "mention_texts": [
+        "Lucia Tworkowa"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Jacobi Tworek coniunx divorciata",
+        "illa"
+      ],
+      "justification": "Principal party in the obligation, identified as divorced wife of Jacobus Tworek."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Tworek",
+      "mention_texts": [
+        "Jacobi Tworek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Former husband of Lucia Tworkowa."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Koval",
+      "mention_texts": [
+        "Simon Koval"
+      ],
+      "descriptive_mentions": [
+        "Suburbanus Leopolitanus",
+        "tutor",
+        "filius eiusdem",
+        "hic"
+      ],
+      "justification": "Son and co-debtor of Lucia Tworkowa, suburbanite of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0320: PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simonem Kirost"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem sibi ad eum actum assumptum et ex officio nostro approbatum"
+      ],
+      "justification": "Burgher appointed as legal guardian (tutor) for Lucia Tworkowa."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The municipal council/bench in whose presence the entry is registered."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenos quinquaginta",
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici",
+        "veri certi iusti liquidique debiti ex causa mutui contracti",
+        "eandem summam",
+        "summa praefata",
+        "summa principali"
+      ],
+      "justification": "Principal debt amount recorded in the contract."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Martinus Mlynek",
+      "mention_texts": [
+        "Martinus Mlynek",
+        "Martino",
+        "Tworko Martino"
+      ],
+      "descriptive_mentions": [
+        "lintinatori de Rokitnia",
+        "Creditori suo"
+      ],
+      "justification": "Creditor from Rokitnia, a linen weaver, named in margin as Martinus Mlynek."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Rokitnia",
+      "mention_texts": [
+        "Rokitnia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin/residence of the creditor Martinus."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Festo Pentecostes",
+        "Festum praefatum Pentecostes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date term for repayment of the loan."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno 159 septimo"
+      ],
+      "descriptive_mentions": [
+        "venturo"
+      ],
+      "justification": "Year term of the upcoming Pentecost feast (1597)."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the mortgaged hereditary house is located."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Thomas Figulus",
+      "mention_texts": [
+        "Thomae Figuli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning a house adjacent to the mortgaged property."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Browarijna",
+      "mention_texts": [
+        "Browarijna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning a house adjacent to the mortgaged property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Lucia Tworkowa Jacobi Tworek coniunx divorciata"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Simon Koval Suburbanus Leopolitanus tutor filius eiusdem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simon Koval Suburbanus Leopolitanus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E14",
+      "evidence": "Martino lintinatori de Rokitnia"
+    }
+  ]
+}

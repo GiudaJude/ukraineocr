@@ -1,0 +1,362 @@
+{
+  "document_id": "arc2/0220.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Baldasar",
+      "mention_texts": [
+        "Baldasar"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "debitor"
+      ],
+      "justification": "Debtor mentioned in the continuation of the initial legal act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Georgius",
+      "mention_texts": [
+        "Georgii"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "Party in whose favor the assignment/sale was concluded in the first entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Adam Fawrbart",
+      "mention_texts": [
+        "Adamus Fawrbart"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Mercator Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Lviv citizen and merchant granting receipt and release for a settled debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Blasius Swinka",
+      "mention_texts": [
+        "Blasii Swinka",
+        "Blasium Swinka",
+        "Blasio Swinka"
+      ],
+      "descriptive_mentions": [
+        "Lamii",
+        "Lamium",
+        "Civem Leopoliensem",
+        "Famatum",
+        "praefato",
+        "eundem",
+        "ipsius",
+        "eiusdem"
+      ],
+      "justification": "Butcher and Lviv citizen who paid off his debt to Adam Fawrbart."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Suburbanorum Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the acts are drawn up and where the citizens and suburbs pertain."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "112 Polish florins",
+      "mention_texts": [
+        "Florenos centum et duodecim pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summa debiti",
+        "debiti"
+      ],
+      "justification": "Monetary sum acknowledged as paid and satisfied."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "Wednesday after Judica Sunday 1594",
+      "mention_texts": [
+        "feria quarta post Dominicam Iudicauit proxima Anno 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original debt obligation contract."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Saturday before Rogation Sunday 1595",
+      "mention_texts": [
+        "Sabbato an Dominicam Rogationum proximo A. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the act of quietatio."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rotendorff"
+      ],
+      "descriptive_mentions": [
+        "Dominus",
+        "Honorati et Famati",
+        "locum Ordinarii Advocati Leopoliensis tenens"
+      ],
+      "justification": "Acting advocate of Lviv who led the division of property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Constantius Bernat",
+      "mention_texts": [
+        "Constantius Bernat"
+      ],
+      "descriptive_mentions": [
+        "Scabini Senati Civitatis Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv participating in the property division."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Folat",
+      "mention_texts": [
+        "Joannes Folat"
+      ],
+      "descriptive_mentions": [
+        "Scabini Senati Civitatis Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv participating in the property division."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio"
+      ],
+      "descriptive_mentions": [
+        "Officio"
+      ],
+      "justification": "The court of the advocate and scabini from which the officials went out on duty."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wilhynski",
+      "mention_texts": [
+        "Joannis Wilhynski"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Suburbanorum Leopoliensium iunioris coniugum"
+      ],
+      "justification": "Petitioner for the division of the house, husband of Anna."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Anna Wilhyńska",
+      "mention_texts": [
+        "Annae",
+        "Annae Wilhinska"
+      ],
+      "descriptive_mentions": [
+        "filiae olim Honesti Joannis Lawryncz",
+        "coniugum",
+        "praefatae"
+      ],
+      "justification": "Wife of Joannes Wilhynski and daughter of late Joannes Lawryncz."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lawryncz",
+      "mention_texts": [
+        "Joannis Lawryncz"
+      ],
+      "descriptive_mentions": [
+        "olim Honesti",
+        "Suburbanorum Leopoliensium"
+      ],
+      "justification": "Deceased suburbanite of Lviv, father of Anna and Dorothea."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Krakowczykowa",
+      "mention_texts": [
+        "Dorotheae Krakowczykowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "consortis",
+        "sororis vero germanae natu maioris natae maioris praefatae Annae Wilhinska"
+      ],
+      "justification": "Older sister of Anna and co-heir to the house."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Albertus Krakowczyk",
+      "mention_texts": [
+        "Alberti Krakowczyk"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Bractariorum"
+      ],
+      "justification": "Husband of Dorothea Krakowczykowa."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "Warszewska House",
+      "mention_texts": [
+        "Warsziawski",
+        "Starsziałowska"
+      ],
+      "descriptive_mentions": [
+        "domus",
+        "domum",
+        "vocatam",
+        "praefata domo"
+      ],
+      "justification": "The house divided into two shares between the sisters."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciense"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "Suburb of Lviv where the house is situated."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "location",
+      "canonical_name": "Garbarska Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Halych Suburb where the divided house is located."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "Andreas Zdanat",
+      "mention_texts": [
+        "Andreae Zdanata"
+      ],
+      "descriptive_mentions": [
+        "Lutrinis"
+      ],
+      "justification": "Neighboring householder on platea Figulorum."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "location",
+      "canonical_name": "Lukianowska House",
+      "mention_texts": [
+        "Lukianowski"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring property adjoining the divided house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "settled_debt_with",
+      "tail_entity_id": "E3",
+      "evidence": "satisfactum esse sibi plenarie et sufficienter de Florenos centum et duodecim pecuniae et numeri Polonicalis debiti sibi per Famatum Blasium Swinka Lamium Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E12",
+      "evidence": "Dominus Martinus Rotendorff locum Ordinarii Advocati Leopoliensis tenens ... ex Officio euntes dati debito"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E12",
+      "evidence": "Constantius Bernat et Joannes Folat Scabini Senati Civitatis Leopoliensis ... ex Officio euntes dati debito"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E12",
+      "evidence": "Constantius Bernat et Joannes Folat Scabini Senati Civitatis Leopoliensis ... ex Officio euntes dati debito"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Honestorum Joannis Wilhynski et Annae filiae olim Honesti Joannis Lawryncz Suburbanorum Leopoliensium iunioris coniugum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E15",
+      "evidence": "Annae filiae olim Honesti Joannis Lawryncz"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "child_of",
+      "tail_entity_id": "E15",
+      "evidence": "sororis vero germanae natu maioris natae maioris praefatae Annae Wilhinska"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "sibling_of",
+      "tail_entity_id": "E14",
+      "evidence": "sororis vero germanae natu maioris natae maioris praefatae Annae Wilhinska"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Honestae Dorotheae Krakowczykowa Honestis Alberti Krakowczyk Bractariorum consortis"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "located_in",
+      "tail_entity_id": "E19",
+      "evidence": "in domum Starsziałowska vocatam in Suburbio Haliciense"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "located_in",
+      "tail_entity_id": "E20",
+      "evidence": "in domum Starsziałowska vocatam in Suburbio Haliciense in platea Figulorum"
+    }
+  ]
+}

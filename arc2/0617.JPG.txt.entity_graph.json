@@ -1,0 +1,189 @@
+{
+  "document_id": "arc2/0617.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rzepecki",
+      "mention_texts": [
+        "Joannes Rzepecki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Appears in person in the court acknowledging satisfaction and quieting Petrus Suchorabski."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus Suchorabski",
+      "mention_texts": [
+        "Petri Suchorabski",
+        "Petro Suchorabski",
+        "Petrus Suchorabski"
+      ],
+      "descriptive_mentions": [
+        "eiusdem",
+        "praedicto Nobili et Famato",
+        "ipsius",
+        "Nobilis et Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Recipient of quittance from Joannes Rzepecki and grantor of quittance to Hieronymus Waidolth."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lwoszek",
+      "mention_texts": [
+        "Joanni Lwoszek"
+      ],
+      "descriptive_mentions": [
+        "Generosi"
+      ],
+      "justification": "Mentioned as the original debtor of the debt transferred/secured onto Suchorabski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Waidolth",
+      "mention_texts": [
+        "Waidolt",
+        "Hieronymum Graldth",
+        "Hieronymo Waidolth"
+      ],
+      "descriptive_mentions": [
+        "Successorum",
+        "Famatum",
+        "pellionem",
+        "Civem Leopoliensis",
+        "praedicto Famato",
+        "Pellione",
+        "eundem"
+      ],
+      "justification": "Furrier and Lviv citizen who satisfied his 40-florin debt to Petrus Suchorabski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the transactions took place and of which the parties are citizens."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Klonoczyńska House",
+      "mention_texts": [
+        "Klonoczyńska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae"
+      ],
+      "justification": "Masonry house whose third part was encumbered as security for the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris"
+      ],
+      "justification": "The municipal council records in which the original inscription was contained."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Castle Court",
+      "mention_texts": [
+        "Actis Castrensibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The castle/grodzki court records of Lviv mentioned regarding the security."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Scabinali Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sixteenth Banned Scabinal Court of Lviv held in 1594 where the inscription was registered."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenis Centum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount paid to Joannes Rzepecki."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "40 Polish florins",
+      "mention_texts": [
+        "florenis quadraginta pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount paid to Petrus Suchorabski by Hieronymus Waidolth."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Festo Sanctorum Trium Regum Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "die et Anno quo supra"
+      ],
+      "justification": "Date of entry of both quittances (6 January 1595)."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria quinta post festum Sancti Bartholomaei proxima Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the 16th Banned Scabinal Court session in 1594."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "quiets",
+      "tail_entity_id": "E2",
+      "evidence": "De qua satisfactione eundem quietauit perpetuis temporibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Petrus Suchorabski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "quiets",
+      "tail_entity_id": "E4",
+      "evidence": "De qua satisfactione eundem quietauit liberumque et absolutum perpetuis temporibus pronunciauit."
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatum Hieronymum Graldth pellionem Civem Leopoliensis"
+    }
+  ]
+}

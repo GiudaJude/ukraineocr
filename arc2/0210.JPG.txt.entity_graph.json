@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0210.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensi",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to across multiple entries and municipal designations."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii",
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office issuing decrees and hearing appearances."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Shoemakers' Guild",
+      "mention_texts": [
+        "Contubernij Sutorum Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Craft guild of shoemakers in the city of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kosmider",
+      "mention_texts": [
+        "Joannes Kosmider"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble plaintiff making a denunciation before the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Mliszka",
+      "mention_texts": [
+        "Sebastianus Muszkowski",
+        "Muszkua",
+        "Sebastianum Oszonka",
+        "Sebastianus Mliszcka"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Prontorem",
+        "Ciuem Leopoliensem",
+        "citatus",
+        "praedictus"
+      ],
+      "justification": "Citizen of Lviv cited as defendant in the suit."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannem Sokol",
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "fideiussorem suum"
+      ],
+      "justification": "Guarantor established by Sebastianus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Buczek",
+      "mention_texts": [
+        "Hieronymum Buczek"
+      ],
+      "descriptive_mentions": [
+        "Religiosum",
+        "Custode",
+        "principalem"
+      ],
+      "justification": "Franciscan custodian of the Church of the Holy Cross named as principal."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0022: Church of the Holy Cross",
+      "mention_texts": [
+        "Conuentus",
+        "Ecclesiae Sanctae Crucis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Franciscan convent and church in Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Franciscan Order",
+      "mention_texts": [
+        "Ordinis Sancti Francisci"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Religious order of St. Francis."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "based_in",
+      "tail_entity_id": "E1",
+      "evidence": "Contubernij Sutorum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Sebastianum Oszonka Prontorem Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E5",
+      "evidence": "statuit eiusdem Honoratus Joannem Sokol fideiussorem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Religiosum Hieronymum Buczek Custode Con- uentus et Ecclesiae Sanctae Crucis Ordinis Sancti Francisci"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Hieronymum Buczek Custode Con- uentus et Ecclesiae Sanctae Crucis"
+    }
+  ]
+}

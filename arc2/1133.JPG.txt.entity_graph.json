@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/1133.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum"
+      ],
+      "justification": "The document opens with the council formula 'Officium nostrum confirmatum'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Oszmińska House",
+      "mention_texts": [
+        "Oszminska",
+        "Oszminska"
+      ],
+      "descriptive_mentions": [
+        "domus Lapideae",
+        "eadem praefata domus",
+        "lapidea"
+      ],
+      "justification": "Identified as the stone house ('domus Lapideae Oszminska vocata') whose life-tenancy rights are being sold."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eadem Civitate"
+      ],
+      "justification": "The city where the house is situated and of which the parties are burghers."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "circulo"
+      ],
+      "justification": "Identifies the central market square ('circulo') where the house is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Srebrna House",
+      "mention_texts": [
+        "Srebrniska"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring stone house ('penes Srebrniska... domos lapideas')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kasprowska House",
+      "mention_texts": [
+        "Kasprowieski"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring stone house ('penes... Kasprowieski domos lapideas')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "Sabbato ante Dominicam Palmarum proximo Anno Domini 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/inscription referenced in the text."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Siedmiączka",
+      "mention_texts": [
+        "Nicolao Siedmiadzki",
+        "Nicolaus Siedmiączki",
+        "Nicolaus Siedmiaczki"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Aurifabro",
+        "Aurifaber",
+        "secundarum nuptiarum coniugibus",
+        "Civibus Leopoliensibus",
+        "Civis Leopoliensis",
+        "Emptoribus"
+      ],
+      "justification": "Goldsmith and burgher of Lviv who purchases the life-rent rights."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Gąsiorowna",
+      "mention_texts": [
+        "Hedvigi Gąsiorowna",
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniugibus",
+        "Civibus Leopoliensibus",
+        "Emptoribus",
+        "Honesta",
+        "coniugis sua secundi matrimonij"
+      ],
+      "justification": "Second wife of Nicolaus Siedmiączka, co-purchaser of the rights."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes Duchnina"
+      ],
+      "descriptive_mentions": [
+        "se"
+      ],
+      "justification": "Widow selling her life-tenancy/dotal rights in the Oszmińska tenement."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Famato Nicolao Siedmiadzki Aurifabro et Hedvigi Gąsiorowna secundarum nuptiarum coniugibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "domus Lapideae Oszminska vocata in eadem Civitate circulo"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "domus Lapideae Oszminska vocata in eadem Civitate"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civibus Leopoliensibus"
+    }
+  ]
+}

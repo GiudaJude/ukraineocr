@@ -1,0 +1,172 @@
+{
+  "document_id": "arc2/0983.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Friderici Galli"
+      ],
+      "descriptive_mentions": [
+        "Scabinorum",
+        "Tutorum",
+        "Tutores",
+        "praedicti Tutores",
+        "praefati Tutores"
+      ],
+      "justification": "Appears as a city scabinus and guardian (tutor) of the late Stanislaus Scholz's children."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Scholz",
+      "mention_texts": [
+        "Stanislai Szolc"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis",
+        "olim",
+        "Caelidis"
+      ],
+      "justification": "Deceased citizen whose children and estate are under guardianship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensem",
+        "Leopoliensia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location and urban context of the persons, act, and court records."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officium nostrum",
+        "Officio nostro",
+        "Actis nostris praesentibus"
+      ],
+      "justification": "The municipal council before which the estate evaluation took place and whose acts record the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referencing the date specified earlier in the register."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lunginzonis",
+      "mention_texts": [
+        "Joannes Lunginzonis"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aromatarius",
+        "Civis",
+        "sibi"
+      ],
+      "justification": "Apothecary and citizen of Lviv acknowledging full satisfaction of a debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0165: 1500 florins",
+      "mention_texts": [
+        "Florenis Mille Quingentis"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis debiti"
+      ],
+      "justification": "Amount of the debt owed by Andreas Saxo and settled with Joannes Lunginzonis."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Saxo",
+      "mention_texts": [
+        "Andreae Saxo",
+        "Andream Saxo",
+        "Saxo"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civem",
+        "dicti",
+        "praedicti",
+        "eodem",
+        "praefato",
+        "eundem"
+      ],
+      "justification": "Citizen of Lviv who was quieted of a debt secured by his masonry house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kornacowska House",
+      "mention_texts": [
+        "Kornacowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "haereditaria hypothecati"
+      ],
+      "justification": "Masonry house belonging to Andreas Saxo hypothecated for the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "tanquam Tutorum liberorum Spectabilis olim Stanislai Szolc"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Friderici Galli Scabinorum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famatus Joannes Lunginzonis Aromatarius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Andream Saxo Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_of",
+      "tail_entity_id": "E6",
+      "evidence": "debiti sibi per Famatum Andream Saxo Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "owner_of",
+      "tail_entity_id": "E9",
+      "evidence": "in domo lapidea antiquitus Kornacowska dicti praedicti Saxo haereditaria"
+    }
+  ]
+}

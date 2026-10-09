@@ -1,0 +1,240 @@
+{
+  "document_id": "arc2/0482.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1583",
+      "mention_texts": [
+        "Anno Domini 1583"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of a prior contract mentioned in the opening line."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Caspar Bliechawrzowicz",
+      "mention_texts": [
+        "Casparis ... Bliechawrzowicz",
+        "Casparum Bliechawrzowicz"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased suburbanite whose house, garden, and debts are discussed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburban resident was Caspar Bliechawrzowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "suburbio Cracoviensi",
+        "Suburbii Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the property is situated and where the guarantor resides."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Kulikowski",
+      "mention_texts": [
+        "Kulikowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property holder in the Kraków suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Urbanus Liwak",
+      "mention_texts": [
+        "Urbani Liwak"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property holder in the Kraków suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Liudwik",
+      "mention_texts": [
+        "Stanislao Liudwik",
+        "Stanislaus Liudwik"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Textori",
+        "Suburbano Samboriensi",
+        "praedictus",
+        "cessionarius"
+      ],
+      "justification": "Weaver and suburbanite of Sambor who acquires the right."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samboriensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of which Stanislaus Liudwik is a suburban resident."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "16 florins",
+      "mention_texts": [
+        "Florenos sedecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum expended on the building."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Cieadrozatus",
+      "mention_texts": [
+        "Paulum Stephanum Cieadrozatum",
+        "Stephanus Cieadrozatus"
+      ],
+      "descriptive_mentions": [
+        "fideiussorem",
+        "idem"
+      ],
+      "justification": "Guarantor from the Kraków suburb who undertakes fideiussio."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Martin",
+      "mention_texts": [
+        "Festum Sancti Martini"
+      ],
+      "descriptive_mentions": [
+        "proximum"
+      ],
+      "justification": "Target feast by which Stanislaus Liudwik must take civil rights."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas Humieński",
+      "mention_texts": [
+        "Andreas Humienki",
+        "Andreas Humieński"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "secundarum nuptiarum coniuges",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Noble recognizer acting for himself and his wife Anna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuges",
+        "haec",
+        "coniuges"
+      ],
+      "justification": "Wife of Andreas Humieński, formerly married to Simon Suchodolski."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Hołowsko Małe",
+      "mention_texts": [
+        "minori Hołowsko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of residence/origin of Andreas Humieński and Anna."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "28 florins",
+      "mention_texts": [
+        "florenorum viginti octo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the debt ceded."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Simon Suchodolski",
+      "mention_texts": [
+        "Simoni Suchodolski"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "priorum nuptiarum mariti"
+      ],
+      "justification": "Deceased first husband of Anna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Casparis olim Bliechawrzowicz Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislao Liudwik Textori Suburbano Samboriensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Paulum Stephanum Cieadrozatum Suburbii Cracoviensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Andreas Humieński et Anna secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E14",
+      "evidence": "Andreas Humieński et Anna secundarum nuptiarum coniuges de minori Hołowsko"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E14",
+      "evidence": "Andreas Humieński et Anna secundarum nuptiarum coniuges de minori Hołowsko"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Simoni Suchodolski praefata Anna priorum nuptiarum mariti"
+    }
+  ]
+}

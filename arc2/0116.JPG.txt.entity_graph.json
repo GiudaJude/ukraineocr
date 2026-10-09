@@ -1,0 +1,122 @@
+{
+  "document_id": "arc2/0116.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmus Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Mercator Leopoliensis"
+      ],
+      "justification": "Appears by name granting power of attorney as a burgher and merchant of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced via citizenship of Erasmus Jelonek and as location to return the fugitive to."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Ludovicus Bisi",
+      "mention_texts": [
+        "Ludovici Bisi",
+        "Ludovicum Bisi"
+      ],
+      "descriptive_mentions": [
+        "suum verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "Famatum",
+        "Civem et Negociatorem Cracoviensem",
+        "eidem Famato mandatario suo",
+        "mandatario"
+      ],
+      "justification": "Named in the title and text as the designated plenipotentiary and merchant citizen of Kraków."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensem",
+        "Cracoviam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as the city of origin/citizenship of Ludovicus Bisi and destination."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adam",
+      "mention_texts": [
+        "Adamum teapiss"
+      ],
+      "descriptive_mentions": [
+        "famulum et factorem suum fugitiuum",
+        "praefatum famulum suum fugitiuum et legitimum"
+      ],
+      "justification": "Fugitive servant and factor accused of absconding with goods and gold."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Toruniszewia",
+      "mention_texts": [
+        "Toruniszewia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin indicated for Adam ('de Toruniszewia')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Kingdom of Poland",
+      "mention_texts": [
+        "Regno Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the territorial scope of courts and officers ('tam in Regno Poloniae quam extra')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Erasmus Jelonek Civis et Mercator Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Ludovicum Bisi Civem et Negociatorem Cracoviensem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E1",
+      "evidence": "constituit et sereniter ordinauit in suum verum legitimum indubitatumque Plenipotentem et mandatarium Famatum Ludovicum Bisi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "servant_of",
+      "tail_entity_id": "E1",
+      "evidence": "Adamum teapiss de Toruniszewia famulum et factorem suum fugitiuum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "originates_from",
+      "tail_entity_id": "E6",
+      "evidence": "Adamum teapiss de Toruniszewia"
+    }
+  ]
+}

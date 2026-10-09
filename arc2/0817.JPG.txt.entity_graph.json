@@ -1,0 +1,152 @@
+{
+  "document_id": "arc2/0817.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "64 florins 10 grosze",
+      "mention_texts": [
+        "Sexaginta quatuor Florenos et grossorum decem",
+        "64 florenos et grossorum decem"
+      ],
+      "descriptive_mentions": [
+        "eandem summam",
+        "summam"
+      ],
+      "justification": "Sum of expenses liquidated by the sworn assessors."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Feloxen",
+      "mention_texts": [
+        "Paulum Feloxen",
+        "Paulo"
+      ],
+      "descriptive_mentions": [
+        "praedictum",
+        "praefato",
+        "actore"
+      ],
+      "justification": "Actor against whom action is reserved regarding wall construction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officij Aduocatalis"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Officio"
+      ],
+      "justification": "The advocatial court office whose decree was issued."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Aula Regia",
+      "mention_texts": [
+        "Aulam Regiam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal court to which the cited party appealed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the first legal action."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Romanowicz",
+      "mention_texts": [
+        "Paulus Romanowicz",
+        "Domini Romanowiczianis"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et excellens Dominus",
+        "praxius Medicinae Doctor",
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Doctor of medicine and colleague of the consular bench."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij"
+      ],
+      "descriptive_mentions": [
+        "Collegae nostri Consularis"
+      ],
+      "justification": "The consular magistracy/council whose office issued a decree and of which Romanowicz is a colleague."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0134: Paulus Aromatarius",
+      "mention_texts": [
+        "Pauli Szumatarz",
+        "Paulo Aromatario",
+        "Paulus Aromatarius"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Apothecary and Lviv citizen quieting expenses with Paulus Romanowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Paulus Aromatarius is a citizen."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "florenis decem"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Ten Polish florins paid for the construction of a partition wall."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E9",
+      "evidence": "Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "releases_from_obligation",
+      "tail_entity_id": "E8",
+      "evidence": "De qua satisfactione eundem quietauit."
+    }
+  ]
+}

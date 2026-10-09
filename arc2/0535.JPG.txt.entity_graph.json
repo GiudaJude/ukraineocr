@@ -1,0 +1,91 @@
+{
+  "document_id": "arc2/0535.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the city of Lwów (Actum Leopoli, Cives Leopolienses)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referencing the year 1595 established earlier in the volume."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Iskratowicz",
+      "mention_texts": [
+        "Stanislaus Jskratowic",
+        "Stanislaus Jskratowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "mariti sui"
+      ],
+      "justification": "Primary male party to the marital concord entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paraska",
+      "mention_texts": [
+        "Paraska"
+      ],
+      "descriptive_mentions": [
+        "Vxor",
+        "Coniuges",
+        "Cives Leopolienses",
+        "hac"
+      ],
+      "justification": "Wife of Stanislaus Iskratowicz entering into the marital composition."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Krawcz Ochacius",
+      "mention_texts": [
+        "Paulum Krawcz Ochacium"
+      ],
+      "descriptive_mentions": [
+        "praefatum",
+        "tutorem"
+      ],
+      "justification": "Legal guardian (tutor) appointed to assist Paraska for the act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Stanislaus Jskratowicz et Paraska Coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesti Stanislaus Jskratowicz et Paraska Coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Paulum Krawcz Ochacium tutorem sibi ad eum actum cum praesentaneo mariti sui consensu assumptum"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "document_id": "arc2/1070.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Siedmiazracki",
+      "mention_texts": [
+        "Nicolao Siedmiazracki"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Furifabro",
+        "genero suo",
+        "plenipotens"
+      ],
+      "justification": "facultatem Famato Nicolao Siedmiazracki Furifabro genero suo ad omnes generaliter causas in absentia sua huc Leopoli expediendas"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sapiezyna",
+      "mention_texts": [
+        "Sapiezyna"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "nominatim vero et peculiariter ad causam cum Honesta Sapiezyna"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "praesenti Officio",
+        "Officij nostri"
+      ],
+      "justification": "huc coram praesenti Officio ratione medietatis impensarum... authoritate Officij nostri approbatum"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "in absentia sua huc Leopoli expediendas... Actum Leopoli... Actum Leopoli"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta post Dominicam Conductus Paschae proxima Anno quoque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli feria quinta post Dominicam Conductus Paschae proxima Anno quoque."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato ante Dominicam Misericordia Proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli Sabbato ante Dominicam Misericordia Proxima Anno Domini 1596"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Nossek",
+      "mention_texts": [
+        "Martinum Nossek",
+        "Martinus Nossek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Lignifaber",
+        "Coniuges Suburbani Leopolitani",
+        "ille",
+        "mariti sui"
+      ],
+      "justification": "Intermatus inter Martinum Nossek et Hedvigim. Comparens personaliter Honesti Martinus Nossek Lignifaber et Hedvigis Coniuges Suburbani Leopolitani"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigim",
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Suburbani Leopolitani",
+        "ipsa"
+      ],
+      "justification": "Intermatus inter Martinum Nossek et Hedvigim... Martinus Nossek Lignifaber et Hedvigis Coniuges"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertum Domagała"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Civem item Suburbanum Leopolitanum",
+        "tutorem"
+      ],
+      "justification": "ipsa vero per Honestum Albertum Domagała Civem item Suburbanum Leopolitanum tutorem sibi ad actum praesentem cum consensu mariti sui assumptum"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse of",
+      "tail_entity_id": "E8",
+      "evidence": "Martinus Nossek Lignifaber et Hedvigis Coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse of",
+      "tail_entity_id": "E7",
+      "evidence": "Martinus Nossek Lignifaber et Hedvigis Coniuges Suburbani Leopolitani ambo sani mente et corpore ille per se ipsa vero per Honestum Albertum Domagała... cum consensu mariti sui"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal representative of",
+      "tail_entity_id": "E8",
+      "evidence": "ipsa vero per Honestum Albertum Domagała Civem item Suburbanum Leopolitanum tutorem sibi ad actum praesentem cum consensu mariti sui assumptum"
+    }
+  ]
+}

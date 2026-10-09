@@ -1,0 +1,208 @@
+{
+  "document_id": "arc2/1449.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam",
+        "Officium",
+        "Acta praesentia Consularia"
+      ],
+      "descriptive_mentions": [
+        "praesentem Consularem residentiam"
+      ],
+      "justification": "The document records a property registration made before the Lviv city council and entered into the consular acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Choma Zello",
+      "mention_texts": [
+        "Choma",
+        "Choma Zello"
+      ],
+      "descriptive_mentions": [
+        "Pater",
+        "Famatus",
+        "Civis Leopoliensis",
+        "ille",
+        "sibi",
+        "affinis sui",
+        "parentibus",
+        "parentes",
+        "donatori"
+      ],
+      "justification": "A burgher of Lviv who donates half of his real estate to his son Stephanus and daughter-in-law Sophia."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitate Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City where Choma Zello resides and where the donated real property is situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Pellifex",
+      "mention_texts": [
+        "Stephanus",
+        "Stephani",
+        "Stephano"
+      ],
+      "descriptive_mentions": [
+        "Filius",
+        "Pellificis",
+        "filij sui legittimi",
+        "ipse",
+        "filio suo supradicto",
+        "filio suo",
+        "coniugum"
+      ],
+      "justification": "Son of Choma Zello and furrier, recipient of the property donation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus",
+      "mention_texts": [
+        "Hieronimi"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Kijouia Civitatis in Districtu Samboriensi sede",
+        "affinis sui"
+      ],
+      "justification": "Burgher of Kijovia in Sambir district and father of Sophia."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kijovia",
+      "mention_texts": [
+        "Kijouia"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The town in the Sambir district where Hieronymus is a citizen."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samboriensi"
+      ],
+      "descriptive_mentions": [
+        "Districtu"
+      ],
+      "justification": "District in which Kijovia is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "filiae suae legittimae",
+        "eandem",
+        "consorti ipsius legittimae",
+        "coniugum"
+      ],
+      "justification": "Daughter of Hieronymus and legitimate wife of Stephanus Pellifex."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "exorres sua",
+        "Honesta"
+      ],
+      "justification": "Wife of Choma Zello, exempted from the inscription."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Samboreński",
+      "mention_texts": [
+        "Samborenski"
+      ],
+      "descriptive_mentions": [
+        "Graeci"
+      ],
+      "justification": "Greek neighbor whose house borders the transferred property on one side."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0866: Israel Josephowicz",
+      "mention_texts": [
+        "Israelits Josephowiz"
+      ],
+      "descriptive_mentions": [
+        "Judei"
+      ],
+      "justification": "Jewish neighbor whose property borders the transferred house on the other side."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Choma Zello Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stephani Pellificis filij sui legittimi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Hieronimi Civis Kijouia Civitatis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Kijouia Civitatis in Districtu Samboriensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Sophiae filiae suae legittimae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestae Sophiae consorti ipsius legittimae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "exorres sua Honesta Anna"
+    }
+  ]
+}

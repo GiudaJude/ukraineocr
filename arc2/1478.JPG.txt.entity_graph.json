@@ -1,0 +1,261 @@
+{
+  "document_id": "arc2/1478.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post festum Omnium Sanctorum proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dziatkowicz",
+      "mention_texts": [
+        "Joannes Dziatkowicz"
+      ],
+      "descriptive_mentions": [
+        "Advocatus"
+      ],
+      "justification": "Advocate presiding over the court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Praesenti Officio",
+        "Officium meum"
+      ],
+      "justification": "City court office recording and confirming the transactions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Famati olim Martini Czarnik alias Korner vidua relicta",
+        "victrici",
+        "sibi"
+      ],
+      "justification": "Widow of Martinus Czarnik alias Korner acknowledging receipt of legal expenses."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Czarnik alias Korner",
+      "mention_texts": [
+        "Martini Czarnik alias Korner"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased husband of Anna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Korner",
+      "mention_texts": [
+        "Joannem Korner"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Tutorem",
+        "filium suum natu maiorem et provide legitimum",
+        "Tutori"
+      ],
+      "justification": "Eldest son and guardian of Anna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stanisławski",
+      "mention_texts": [
+        "Joanne Stanislawski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Doliatore",
+        "medii praefati",
+        "ipso",
+        "eundem"
+      ],
+      "justification": "Cooper who paid court expenses to Anna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Balcerowicz",
+      "mention_texts": [
+        "Joannes Baltzerowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "sartor",
+        "coniuges",
+        "vir",
+        "eundem maritum tutorem suum legitimum"
+      ],
+      "justification": "Tailor appearing together with his wife Regina."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim Martini Tarnesnik et Agnetis Zawieskowna prioris matrimonii coniugum filia",
+        "coniuges",
+        "foemina",
+        "praefatam",
+        "ipsius"
+      ],
+      "justification": "Wife of Joannes Balcerowicz and daughter of Martinus Tarnesnik."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Martinus Tarnesnik",
+      "mention_texts": [
+        "Martini Tarnesnik",
+        "Martinum Tarnesnik"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "parentes ipsius praedictos",
+        "praedicti olim",
+        "praedictum olim"
+      ],
+      "justification": "Deceased father of Regina."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis Zawieskowna"
+      ],
+      "descriptive_mentions": [
+        "prioris matrimonii coniugum",
+        "parentes ipsius praedictos"
+      ],
+      "justification": "Deceased first wife of Martinus Tarnesnik and mother of Regina."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Anna Paczkowa",
+      "mention_texts": [
+        "Anna Paczkowa",
+        "Anna Tarnkowna",
+        "Anna Paczkowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "noverca sua praedicti olim Martini Tarnesnik secundarum nuptiarum vidua relicta",
+        "dicta Honesta",
+        "eandem"
+      ],
+      "justification": "Widow of Martinus Tarnesnik from his second marriage and stepmother to Regina."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobum Sgersalek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "tutorem sibi ad eum actum assumptum et per Officium meum confirmatum"
+      ],
+      "justification": "Guardian appointed to assist Anna Paczkowa."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesta Anna Famati olim Martini Czarnik alias Korner vidua relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "per Honestum Joannem Korner Tutorem filium suum natu maiorem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "per Honestum Joannem Korner Tutorem filium suum natu maiorem et provide legitimum Tutori"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesti Joannes Baltzerowicz sartor et Regina Honesti olim Martini Tarnesnik et Agnetis Zawieskowna prioris matrimonii coniugum filia coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Regina Honesti olim Martini Tarnesnik et Agnetis Zawieskowna prioris matrimonii coniugum filia"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Regina Honesti olim Martini Tarnesnik et Agnetis Zawieskowna prioris matrimonii coniugum filia"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Martini Tarnesnik et Agnetis Zawieskowna prioris matrimonii coniugum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Anna Tarnkowna noverca sua praedicti olim Martini Tarnesnik secundarum nuptiarum vidua relicta"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "dicta Honesta Anna Paczkowna otaros personaliter per Famatus Jacobum Sgersalek tutorem sibi ad eum actum assumptum"
+    }
+  ]
+}

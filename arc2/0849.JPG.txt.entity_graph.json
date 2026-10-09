@@ -1,0 +1,166 @@
+{
+  "document_id": "arc2/0849.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens",
+        "officio praesenti"
+      ],
+      "descriptive_mentions": [
+        "praesentis fori"
+      ],
+      "justification": "The urban council court receiving an appeal from the advocatial office."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio Advocatiali",
+        "officio Advocatiali Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The lower court from which the lawsuit was appealed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zaleski",
+      "mention_texts": [
+        "Mathiam Zalleszki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Actorem",
+        "praefato Actori",
+        "eidem Actori",
+        "actor"
+      ],
+      "justification": "Noble plaintiff pursuing a debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Swath",
+      "mention_texts": [
+        "Jacobus Swath",
+        "Jacobum Swattek"
+      ],
+      "descriptive_mentions": [
+        "Leuuydam",
+        "fratrem Famati Mathia Swathak",
+        "debitorem",
+        "Citatum",
+        "debitori",
+        "debitorem suum"
+      ],
+      "justification": "Defendant and debtor in the lawsuit."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Swath",
+      "mention_texts": [
+        "Matias Swath",
+        "Mathia Swathak"
+      ],
+      "descriptive_mentions": [
+        "famatum",
+        "famati",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Brother of Jacobus Swath and burgher of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Zraygala",
+      "mention_texts": [
+        "Alberto Zraygala"
+      ],
+      "descriptive_mentions": [
+        "Dnorido",
+        "Concaue ipsius",
+        "Citatum"
+      ],
+      "justification": "Co-defendant cited jointly with Jacobus Swath."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopolim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in civic titles and jurisdiction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Kamionka",
+      "mention_texts": [
+        "Kamionka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the chirograph obligation was drawn up."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "in Crastino Festi Sancti Joannis Anno 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date when the debt agreement was executed in Kamionka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "71 Polish florins 15 groschen",
+      "mention_texts": [
+        "florenorum Septuaginta vnius et grossorum quindecim per Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "debiti certi et liquidi"
+      ],
+      "justification": "The primary debt sum demanded by the plaintiff."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginta florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Damages and legal costs claimed by the plaintiff."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "fratrem Famati Mathia Swathak"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Mathia Swathak Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "actionem inter Nobilem Mathiam Zalleszki Actorem ex vna et Leuuydam Jacobum Swattek ... debitorem"
+    }
+  ]
+}

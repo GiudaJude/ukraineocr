@@ -1,0 +1,194 @@
+{
+  "document_id": "arc2/0212.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Mirosławski",
+      "mention_texts": [
+        "Mirosławski"
+      ],
+      "descriptive_mentions": [
+        "Praedicto",
+        "Praefati",
+        "Actoris",
+        "Actorem"
+      ],
+      "justification": "Party in the legal dispute whose proxy appealed the city council's decree to the royal chancellery."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii",
+        "Officium"
+      ],
+      "justification": "The municipal council of Lviv acting in its judicial capacity."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius",
+        "eiusdem Civitatis"
+      ],
+      "justification": "The city of Lviv, referenced in the council's title and as the location of the suburban property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szwat",
+      "mention_texts": [
+        "Stanislaus Szwat"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the transaction heading as a party to the contract."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Regina Kwassek",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "soror",
+        "res suito- res"
+      ],
+      "justification": "Sister and co-heir selling her maternal inheritance share."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Tobias Kwassek",
+      "mention_texts": [
+        "Tobias"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratres",
+        "tutores suos legitimos",
+        "res suito- res"
+      ],
+      "justification": "Brother, legal guardian of Regina, and co-heir selling the maternal inheritance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kwassek",
+      "mention_texts": [
+        "Alberti Kwassek"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "coniugum",
+        "patrem olim suum"
+      ],
+      "justification": "Deceased father of Regina and Tobias, formerly married to Anna de Lublin."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Anna de Lublin",
+      "mention_texts": [
+        "Annae de Lublin",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "posteriorum nuptiarum coniugum",
+        "Honestae olim",
+        "matris suae"
+      ],
+      "justification": "Deceased wife of Albertus Kwassek and mother of the heirs Regina and Tobias."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lublin",
+      "mention_texts": [
+        "Lublin"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Bednarowskie",
+      "mention_texts": [
+        "Bednarow- skie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property in the Lviv suburb."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Ostrowowskie",
+      "mention_texts": [
+        "Ostrowowskie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property in the Lviv suburb."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Officium vero Consulare Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesti olim Alberti Kwassek et Annae de Lublin posteriorum nuptiarum coniugum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "originated_from",
+      "tail_entity_id": "E9",
+      "evidence": "Annae de Lublin"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "post obitum Honestae olim Annae matris suae pertinentem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "post obitum Honestae olim Annae matris suae pertinentem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "patrem olim suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "patrem olim suum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesti Regina soror et Tobias fili- beatusque fratres"
+    }
+  ]
+}

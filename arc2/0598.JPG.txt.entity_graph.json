@@ -1,0 +1,182 @@
+{
+  "document_id": "arc2/0598.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Surma",
+      "mention_texts": [
+        "Wawrz Surma"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the decree heading as the party for whom the decree is issued."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officii eiusdem",
+        "offitio",
+        "Civitatis"
+      ],
+      "justification": "The consular court/office issuing the decree and employing the sworn servant."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Warchoł Gnostkorowic",
+      "mention_texts": [
+        "Warchoł Gnostkorowic",
+        "Warchoł"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenum",
+        "Actorem",
+        "Actor",
+        "praedictus Warchoł Actor"
+      ],
+      "justification": "Armenian plaintiff demanding reimbursement of building expenses."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Iwanowicz",
+      "mention_texts": [
+        "Iwanowicz"
+      ],
+      "descriptive_mentions": [
+        "Armeni",
+        "olim"
+      ],
+      "justification": "Deceased Armenian whose guardians were cited in court."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenorum Polonicales"
+      ],
+      "descriptive_mentions": [
+        "sumam"
+      ],
+      "justification": "Sum of 100 florins assessed for damages and legal costs."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Cosinus",
+      "mention_texts": [
+        "Nicolaus",
+        "Cosinus"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honesti",
+        "Graeci de Insula Chio"
+      ],
+      "justification": "Greek nobleman/merchant from Chios appearing before the court."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dziani Pometoni Zewridi",
+      "mention_texts": [
+        "Joannes",
+        "Dziani Pometoni Zewridi"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honesti",
+        "Graeci de Insula Chio"
+      ],
+      "justification": "Greek merchant from Chios appearing on behalf of himself and his brother."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Fratris sui"
+      ],
+      "justification": "Brother of Nicolaus and Joannes on whose behalf they appear."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0272: Chios",
+      "mention_texts": [
+        "Insula Chio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Island of Chios, place of origin of the Greek merchants."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in the context of visiting merchants and city officials."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szaro",
+      "mention_texts": [
+        "Jacobi Szaro"
+      ],
+      "descriptive_mentions": [
+        "Famuli Civitatis Jurati"
+      ],
+      "justification": "Sworn city servant who delivered the summons."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Domenicus Fleuridi",
+      "mention_texts": [
+        "Nicolai Domenici Fleuridi"
+      ],
+      "descriptive_mentions": [
+        "Generosi olim"
+      ],
+      "justification": "Deceased nobleman whose assets are the subject of an inquiry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nobilis Jacobi Fratris sui nominibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "originates_from",
+      "tail_entity_id": "E9",
+      "evidence": "Nicolaus alias Cosinus et Joannes dictus Dziani Pometoni Zewridi Graeci de Insula Chio"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "originates_from",
+      "tail_entity_id": "E9",
+      "evidence": "Nicolaus alias Cosinus et Joannes dictus Dziani Pometoni Zewridi Graeci de Insula Chio"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "servant_of",
+      "tail_entity_id": "E2",
+      "evidence": "ex relatione Famuli Civitatis Jurati Jacobi Szaro"
+    }
+  ]
+}

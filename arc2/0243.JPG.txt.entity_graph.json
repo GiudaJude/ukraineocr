@@ -1,0 +1,198 @@
+{
+  "document_id": "arc2/0243.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wrzosobnitski",
+      "mention_texts": [
+        "Jacobi Wrzosobnitski"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Named as the deceased person connected previously to the Holy Spirit Hospital Church."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Ecclesiae Hospitalis Sancti Spiritus Leopoliensis",
+        "Leopoliensem Ecclesiam"
+      ],
+      "descriptive_mentions": [
+        "dictae",
+        "hanc ipsam"
+      ],
+      "justification": "Matches known entity LOC-0035: Holy Spirit Hospital."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "15 florins",
+      "mention_texts": [
+        "Quindecim Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 15 florins mentioned in the transaction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Siedlicki",
+      "mention_texts": [
+        "Albertum Siedlicki"
+      ],
+      "descriptive_mentions": [
+        "eundem"
+      ],
+      "justification": "Presented to the chapter for institution/investiture."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "hac Civitate",
+        "Civitate"
+      ],
+      "justification": "Matches known entity Lwów."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "28 October 1595",
+      "mention_texts": [
+        "die XXVIII Octobris Anno Domini Millesimo Quingentesimo Nonagesimo Quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issuance of the presented document."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "25 May 1595",
+      "mention_texts": [
+        "feria quinta post Festa Solemnia Pentecostes proxima A. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of legal act (Thursday after Pentecost 1595)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "27 May 1595",
+      "mention_texts": [
+        "Sabbato in Vigilia Sanctissimae Trinitatis A. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of legal act (Saturday in the vigil of Trinity Sunday 1595)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "eidem Officio"
+      ],
+      "justification": "Matches known entity ORG-0003: Lviv City Council."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Lucas Łoscecza",
+      "mention_texts": [
+        "Lucas Łoscecza"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "mandatarius"
+      ],
+      "justification": "Appears personally before the council as mandatory for Paulus Szczurkowski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szczurkowski",
+      "mention_texts": [
+        "Pauli Szczurkowski",
+        "Paulo Szczurkowski"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Generosi Domini",
+        "Secretarii et Secretarii Sacrae Regiae Maiestatis Secretarii",
+        "Domino",
+        "Generosi",
+        "Secretarij nostri"
+      ],
+      "justification": "Royal secretary receiving the royal donation of escheat property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szonle",
+      "mention_texts": [
+        "Joannussi Szonle",
+        "Joannis Szonle"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "vita functi",
+        "steriliter defuncti"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate passed to the king by caducity."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sigismund III Vasa",
+      "mention_texts": [
+        "Sigismundus Tertius"
+      ],
+      "descriptive_mentions": [
+        "Rex Poloniae, Magnus Dux Lithuaniae, Russiae, Prussiae, Masouiae, Samogitiae, Liuoniaeque necnon Suecorum Gottorum Vandalorumque Rex Haereditarius",
+        "Sacrae Regiae Maiestatis",
+        "Sacra Regia Maiestate Domino Generoso Clementissimo"
+      ],
+      "justification": "King of Poland granting the letters of donation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E11",
+      "evidence": "Nobilis Lucas Łoscecza Leopoliense et mandatarius Generosi Domini Pauli Szczurkowski"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "servant_of",
+      "tail_entity_id": "E13",
+      "evidence": "Generosi Domini Pauli Szczurkowski Secretarii et Secretarii Sacrae Regiae Maiestatis Secretarii"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati olim Joannussi Szonle Civis Leopoliensis non ita pridem in hac Civitate vita functi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Ecclesiae Hospitalis Sancti Spiritus Leopoliensis"
+    }
+  ]
+}

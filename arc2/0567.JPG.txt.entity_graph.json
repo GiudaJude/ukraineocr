@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/0567.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Przyborz",
+      "mention_texts": [
+        "Przyborz"
+      ],
+      "descriptive_mentions": [
+        "Gnorosum D."
+      ],
+      "justification": "Named in the legal decree regarding possession and obligation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Henle",
+      "mention_texts": [
+        "Joannis Henle"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person whose rights and possession are represented."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0020: 600 Polish florins",
+      "mention_texts": [
+        "sex-centorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summae originalis"
+      ],
+      "justification": "Original sum specified in the obligation instrument."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Alembekowa",
+      "mention_texts": [
+        "Catherina Alembekowa",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Praefata",
+        "Hra",
+        "Coniunx relicta"
+      ],
+      "justification": "Widow appearing in person to register a protest."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Alembek",
+      "mention_texts": [
+        "Joannis Alembegk"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis et Licentiatus Leopoliensis"
+      ],
+      "justification": "Deceased husband of Catherina Alembekowa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Joannes Alembek and Paulus Henle were citizens."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Alembek",
+      "mention_texts": [
+        "Alembegk"
+      ],
+      "descriptive_mentions": [
+        "Filium suum vt tutorem legitimum et naturalem praesentem"
+      ],
+      "justification": "Son and legitimate guardian of Catherina Alembekowa."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Morawski",
+      "mention_texts": [
+        "Andreae Morawski",
+        "Andreas Morawski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotenti",
+        "praedictus Nobilis",
+        "Blius"
+      ],
+      "justification": "Plenipotentiary of Paulus Szczerbicz against whom the protest is lodged."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-1142: PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli Szczerbicz",
+        "Szczerbicz"
+      ],
+      "descriptive_mentions": [
+        "Gnor.",
+        "secretarij et Decretoru S.R.Mti Regis Actis extanti",
+        "donatary",
+        "D.",
+        "Principalis"
+      ],
+      "justification": "Royal secretary and donatary of the estate of Paulus Henle."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "S.R.Mti Regis"
+      ],
+      "justification": "The reigning king whose secretary is Paulus Szczerbicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Paulus Henle",
+      "mention_texts": [
+        "Pauli Henle",
+        "Henle"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis steriliter vita functi",
+        "dicto olim"
+      ],
+      "justification": "Deceased citizen whose estate was donated to Paulus Szczerbicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Alembekowska House",
+      "mention_texts": [
+        "Alembeckowska",
+        "Alembekowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "domus praefata"
+      ],
+      "justification": "Stone tenement house subject to property claims and modifications."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Catherina Famati olim Joannis Alembegk Civis et Licentiatus Leopoliensis Coniunx relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Alembegk Filium suum vt tutorem legitimum et naturalem praesentem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "eorundem Alembegk Filium suum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "agent_of",
+      "tail_entity_id": "E9",
+      "evidence": "Nobilis Andreae Morawski Gnor. Pauli Szczerbicz... Plenipotenti"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "courtier_of",
+      "tail_entity_id": "E10",
+      "evidence": "Pauli Szczerbicz secretarij et Decretoru S.R.Mti Regis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannis Alembegk Civis et Licentiatus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Pauli Henle Civis Leopoliensis"
+    }
+  ]
+}

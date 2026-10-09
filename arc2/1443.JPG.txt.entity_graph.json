@@ -1,0 +1,238 @@
+{
+  "document_id": "arc2/1443.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council decree was registered."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Sabbato in crastino Lucae Evangelistae Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of registration of the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Dominorum Consulum Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal governing body issuing the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Błaszkowicz",
+      "mention_texts": [
+        "Simonis Blaz- kowic",
+        "Simonem Blazkowicz"
+      ],
+      "descriptive_mentions": [
+        "Providum",
+        "Clarendinatorem de Iaroslav",
+        "actorem"
+      ],
+      "justification": "Actor representing his wife and family in the dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Jarosław",
+      "mention_texts": [
+        "Iaroslav"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin city of Simon Błaszkowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Margareta Sixtowna",
+      "mention_texts": [
+        "Margareta",
+        "Margareta Sixtowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniugis sua",
+        "sororum"
+      ],
+      "justification": "Wife of Simon Błaszkowicz, daughter of Joannes Sixt and Sabina Kotoborzyna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Przybyłko",
+      "mention_texts": [
+        "Joannes Przybylko"
+      ],
+      "descriptive_mentions": [
+        "coniugum affinium suarum"
+      ],
+      "justification": "Husband of Sabina Sixtowna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sabina Sixtowna",
+      "mention_texts": [
+        "Sabinae",
+        "Sabina Sixtowna"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "affinium suarum",
+        "sororum"
+      ],
+      "justification": "Wife of Joannes Przybyłko, daughter of Joannes Sixt and Sabina Kotoborzyna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Anna Sixtowna",
+      "mention_texts": [
+        "Anna itidem Sixtowna"
+      ],
+      "descriptive_mentions": [
+        "sororum minimam",
+        "a multo tempore absentis"
+      ],
+      "justification": "Absent sister, daughter of Joannes Sixt and Sabina Kotoborzyna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sixt",
+      "mention_texts": [
+        "Joannis olim Sixt",
+        "Joannis Sixt"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "coniugum",
+        "Civium Leopoliensium",
+        "parentes suos"
+      ],
+      "justification": "Deceased father of the Sixtowna sisters."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Sabina Kotoborzyna",
+      "mention_texts": [
+        "Sabinam Kotobor-na",
+        "Sabina Kotoborzona"
+      ],
+      "descriptive_mentions": [
+        "matrem",
+        "coniugum",
+        "Civium Leopoliensium",
+        "parentes suos subradictas"
+      ],
+      "justification": "Deceased mother of the Sixtowna sisters."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karczewic",
+      "mention_texts": [
+        "Tomam Karczewic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "possessorem bonorum Kotosterskie",
+        "citata"
+      ],
+      "justification": "Possessor of the Kotosterskie estate cited in the court proceeding."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Kotosterskie",
+      "mention_texts": [
+        "Kotosterskie"
+      ],
+      "descriptive_mentions": [
+        "bonis",
+        "bonorum"
+      ],
+      "justification": "Estate mentioned in the succession dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "married_to",
+      "tail_entity_id": "E6",
+      "evidence": "Honesta Margareta Sixtowna coniugis sua"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "married_to",
+      "tail_entity_id": "E8",
+      "evidence": "Joannes Przybylko et Sabina Sixtowna coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "married_to",
+      "tail_entity_id": "E11",
+      "evidence": "Joannis Sixt et Sabina Kotoborzona coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Margareta Sixtowna ... olim Joannis Sixt ... parentes suos"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Margareta ... Sabinae matrem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Sabina Sixtowna ... olim Joannis Sixt ... parentes suos"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Sabina Sixtowna ... Sabina Kotoborzona coniugum ... parentes suos"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Anna itidem Sixtowna ... sororum minimam Famati olim Joannis Sixt ... parentes suos"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Anna itidem Sixtowna ... Sabina Kotoborzona coniugum ... parentes suos"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simonem Blazkowicz Clarendinatorem de Iaroslav"
+    }
+  ]
+}

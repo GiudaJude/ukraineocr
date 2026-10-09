@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/0541.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Brusko",
+      "mention_texts": [
+        "Joannes Brusko"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "recognoscentis"
+      ],
+      "justification": "Appears as the seller of the house and garden in the Halych suburb."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Szdebski",
+      "mention_texts": [
+        "Matias Szdebki",
+        "Mathiae Szdebski"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Suburbano Leopoliensi",
+        "emptorem",
+        "emptorem praefatum",
+        "praenominatum Emptorem"
+      ],
+      "justification": "Appears as the buyer of the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eius Civitatis"
+      ],
+      "justification": "City where the transaction is enacted and whose suburbs are referenced."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis suburbio Haliciensi dicto"
+      ],
+      "justification": "Suburb of Lwów where the house and garden are situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Temryczowska Street",
+      "mention_texts": [
+        "platea Temrzyczowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the sold property is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Kozmanek",
+      "mention_texts": [
+        "Sebastiani Kozmanek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of an adjacent plot bordering the sold property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szabrowic",
+      "mention_texts": [
+        "Alberti Szabrowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of an adjacent plot bordering the sold property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sophia Szwabowa",
+      "mention_texts": [
+        "Sophiae Szwabowa"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased previous possessor whose barren death left the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta Florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [
+        "pretio",
+        "pecuniae"
+      ],
+      "justification": "Purchase price paid for the house and garden."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the resignation of the property is to be formally executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "transacted_with",
+      "tail_entity_id": "E2",
+      "evidence": "vendidisse praesentique inscriptione vendere domum et hortum ... Mathiae Szdebski"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Brusko Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathiae Szdebski Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in eiusdem Civitatis suburbio Haliciensi dicto"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "suburbio Haliciensi dicto in platea Temrzyczowska"
+    }
+  ]
+}

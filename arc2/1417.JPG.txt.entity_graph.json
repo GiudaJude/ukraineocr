@@ -1,0 +1,238 @@
+{
+  "document_id": "arc2/1417.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0020: 600 Polish florins",
+      "mention_texts": [
+        "sexcentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Contract sum mentioned at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0138: 1591",
+      "mention_texts": [
+        "nonagesimo primo"
+      ],
+      "descriptive_mentions": [
+        "anno"
+      ],
+      "justification": "Year of the earlier transaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii praesentis",
+        "Officio Consulari Leopoliensi",
+        "Officii",
+        "Actis praesentibus",
+        "Officii Consularis Leopoliensis",
+        "Officio Advocatiali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council and municipal recording body issuing decrees and recording transactions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbaram Stegniewowa",
+        "Barbarae Stegniewowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "eiusdem",
+        "praefatae"
+      ],
+      "justification": "Party appearing for division of the property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamus Kalinowski",
+        "Adamo Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Finiti",
+        "Causarum Iuris Civilis Leopoliensis Ordinarius Restatus",
+        "Tutor ex Officio",
+        "mandatarius",
+        "Honesto",
+        "Tutore suo",
+        "Tutori"
+      ],
+      "justification": "Legal proctor and court-assigned guardian."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zophia"
+      ],
+      "descriptive_mentions": [
+        "filiam ipsius"
+      ],
+      "justification": "Daughter of Barbara Stegniewowa."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigim"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person whose share is involved."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Moszkowicz",
+      "mention_texts": [
+        "Simon Moszkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus"
+      ],
+      "justification": "Party accepting the first share of the tenement house division."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam Gradkowska"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "olim",
+        "filiam"
+      ],
+      "justification": "Deceased daughter of Barbara Stegniewowa."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts are recorded and the parties reside."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post Festum Sancti Andreae Summa Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded court session."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparem T權barski",
+        "Casparem Tombarski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Zolkiewien",
+        "Civem Leopoliensis",
+        "actorem",
+        "Actoris",
+        "Actor"
+      ],
+      "justification": "Plaintiff in the debt claim."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Agnes Grodzona",
+      "mention_texts": [
+        "Agnetem Grodzona"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Suburbanam Leopoliensis",
+        "citatam",
+        "citatae"
+      ],
+      "justification": "Suburban resident cited in the debt case."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetae Krawcowa",
+        "Krawcyna"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Civi Leopoliensi",
+        "cognatae eiusdem Actoris",
+        "praefatam"
+      ],
+      "justification": "Deceased relative of the plaintiff through whom the debt originated."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "1581",
+      "mention_texts": [
+        "Anno 1581 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year when the initial recognizance was made before the Advocatial court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Adamus Kalinowski Causarum Iuris Civilis Leopoliensis Ordinarius Restatus tanquam Tutor ex Officio mox eidem Barbarae Stegniewowa assignatus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "filiam ipsius Zophia"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "post Honestam olim Annam Gradkowska eiusdem Barbarae Stegniewowa filiam"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E13",
+      "evidence": "cum Tutore suo Honesto Adamo Kalinowski comparentem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "kinship_with",
+      "tail_entity_id": "E12",
+      "evidence": "Agnetae Krawcowa Civi Leopoliensi cognatae eiusdem Actoris"
+    }
+  ]
+}

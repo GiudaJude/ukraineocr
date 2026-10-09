@@ -1,0 +1,197 @@
+{
+  "document_id": "arc2/1271.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "July 1598",
+      "mention_texts": [
+        "Julii Anno Domini 1598"
+      ],
+      "descriptive_mentions": [
+        "sub actu hodierno"
+      ],
+      "justification": "Date entry at the head of the record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kwasz",
+      "mention_texts": [
+        "Stanislaus Wuss",
+        "Stanislaus Kwasz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "lanius",
+        "Civis Leopoliensis",
+        "sui"
+      ],
+      "justification": "Butcher and citizen of Lviv depositing money to the council chamber."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in citizen titles and council names."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "cameram Officii nostri",
+        "Cameram nostram",
+        "Officii"
+      ],
+      "justification": "Lviv municipal council receiving the deposit and issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Florenos Centum quinquaginta Polonicales"
+      ],
+      "descriptive_mentions": [
+        "pecuniam"
+      ],
+      "justification": "Amount of money deposited by Stanislaus Kwasz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Costersarszky",
+      "mention_texts": [
+        "Stanislao Costersarszky"
+      ],
+      "descriptive_mentions": [
+        "ipsi"
+      ],
+      "justification": "Buyer of the deserted plot from Stanislaus Kwasz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Debt amount mentioned regarding the pledge."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gralis",
+      "mention_texts": [
+        "Joannem Gralis"
+      ],
+      "descriptive_mentions": [
+        "Honorati olim",
+        "Scabinum Leopoliensis"
+      ],
+      "justification": "Deceased bencher of Lviv involved in the contract/pledge."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jesyk",
+      "mention_texts": [
+        "Joannis Jesyk"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the decree rubric heading."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czerski",
+      "mention_texts": [
+        "Joannem Czerski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "debiti auctorem"
+      ],
+      "justification": "Debtor/party named in the decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0002: 36 Polish florins",
+      "mention_texts": [
+        "triginta sex florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of debt in the council decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Simon Mendelowic",
+      "mention_texts": [
+        "Simone Mendelowic"
+      ],
+      "descriptive_mentions": [
+        "Judeo Leopoliensis",
+        "cessionarium",
+        "actorem"
+      ],
+      "justification": "Jewish assignee and plaintiff in the suit."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Caspar Smietanka",
+      "mention_texts": [
+        "Casparum Smietanka"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensis",
+        "citatum",
+        "eundem citatus"
+      ],
+      "justification": "Citizen of Lviv cited as defendant in the lawsuit."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Kwasz lanius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "held_office_in",
+      "tail_entity_id": "E3",
+      "evidence": "Joannem Gralis Scabinum Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Simone Mendelowic Judeo Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Casparum Smietanka Civem Leopoliensis"
+    }
+  ]
+}

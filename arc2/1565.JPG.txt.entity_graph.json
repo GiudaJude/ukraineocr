@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/1565.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Hans Glocz",
+      "mention_texts": [
+        "Hanczsij Glocz"
+      ],
+      "descriptive_mentions": [
+        "fratrui sui praedicti",
+        "ipsius",
+        "fratrui sui"
+      ],
+      "justification": "Deceased uncle whose estate is being claimed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Iwaszey",
+      "mention_texts": [
+        "Lwaszey"
+      ],
+      "descriptive_mentions": [
+        "sibi",
+        "isvemet",
+        "recognoscens",
+        "ipsemet",
+        "suo",
+        "sibi",
+        "se"
+      ],
+      "justification": "Principal/recognizor appointing a plenipotentiary to claim the estate of his paternal uncle."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Georgius Dremcui",
+      "mention_texts": [
+        "Joanni Georgio Dremcui",
+        "Joanni Georgio"
+      ],
+      "descriptive_mentions": [
+        "affini suo",
+        "simultaneo Leopoliensi",
+        "ipsi",
+        "Plenipotens"
+      ],
+      "justification": "Appointed plenipotentiary and in-law of the recognizor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Grodno",
+      "mention_texts": [
+        "Grodnae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the prior power of attorney was issued."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Hnidava",
+      "mention_texts": [
+        "Gnidauiensis",
+        "Gnidauiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin/residence designation of the plenipotence and Joannes Georgius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Joannes Georgius is currently co-resident/associated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacri Regiae Maiestatis",
+        "Suo Regiae Maiestatis"
+      ],
+      "justification": "Reigning monarch whose royal court will hear the lawsuit."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Royal Court",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Judicio Sacri Regiae Maiestatis",
+        "Judicio Suo Regiae Maiestatis"
+      ],
+      "justification": "The royal tribunal before which the action is to be conducted."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "28 July 1598",
+      "mention_texts": [
+        "die vigesimo octauo Mensis Julii Anno eodem currenti 1593 octo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the plenipotence issued in Grodno."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "nephew of",
+      "tail_entity_id": "E1",
+      "evidence": "fratrui sui praedicti Hanczsij Glocz"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "affine of",
+      "tail_entity_id": "E2",
+      "evidence": "affini suo"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "originated from",
+      "tail_entity_id": "E5",
+      "evidence": "Joanni Georgio Dremcui Gnidauiensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident of",
+      "tail_entity_id": "E6",
+      "evidence": "simultaneo Leopoliensi"
+    }
+  ]
+}

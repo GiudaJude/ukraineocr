@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/0285.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Vssowsky",
+        "Joannes Ossowski",
+        "Joannem"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Pellio",
+        "Cives",
+        "praefatum"
+      ],
+      "justification": "Appears as a furrier (pellio) and citizen of Lviv entering a concord and division of a stone house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sellator",
+      "mention_texts": [
+        "Iacobum Sellatorem",
+        "Jacobus Sellator",
+        "Jacobus",
+        "Jacobo"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives",
+        "praefatus",
+        "eidem",
+        "ipse"
+      ],
+      "justification": "Appears as a saddler (sellator) and co-owner of the property dividing it with Joannes Ossowski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Fawszkowska House",
+      "mention_texts": [
+        "Fawszkowska",
+        "Czelawska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "domus praefatae"
+      ],
+      "justification": "Stone townhouse situated in the city, also called Czelawska, subject of the property division."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "decem Florenos"
+      ],
+      "descriptive_mentions": [
+        "paratae Polonicalis"
+      ],
+      "justification": "Sum of ten Polish florins paid by Joannes Ossowski to Jacobus Sellator."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "ipsa"
+      ],
+      "justification": "Widow appearing to issue a receipt for wages due for her five years of service."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Gauss",
+      "mention_texts": [
+        "Paulum Gauss"
+      ],
+      "descriptive_mentions": [
+        "Prouidum",
+        "tutore sibi assumptum"
+      ],
+      "justification": "Citizen appointed as guardian (tutor) for Catherina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Zencle",
+      "mention_texts": [
+        "Scenle",
+        "Zencle"
+      ],
+      "descriptive_mentions": [
+        "Famatissimo olim",
+        "Famato olim",
+        "Famatissimo"
+      ],
+      "justification": "Deceased employer whose executors are receipted by Catherina for services rendered."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal court/office through which the residual payment was handled."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "agreed_with",
+      "tail_entity_id": "E2",
+      "evidence": "Concordia inter Vssowsky et Iacobum Sellatorem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "co_owner_of",
+      "tail_entity_id": "E3",
+      "evidence": "ambo domus lapideae Fawszkowska in Civitate existentaliter dicta Czelawska sita"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "co_owner_of",
+      "tail_entity_id": "E3",
+      "evidence": "ambo domus lapideae Fawszkowska in Civitate existentaliter dicta Czelawska sita"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "per Prouidum Paulum Gauss nostri Ciuitaticam pro tutore sibi assumptum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "served",
+      "tail_entity_id": "E7",
+      "evidence": "ipsa pro seruitiis suis quibus Famato olim Famatissimo Zencle per quinquennium inseruiebat"
+    }
+  ]
+}

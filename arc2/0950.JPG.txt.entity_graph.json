@@ -1,0 +1,145 @@
+{
+  "document_id": "arc2/0950.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City where the legal acts take place and where Jacobus Woisiecki is an assessor."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentos florenos Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money mentioned in connection with Wilhelmus's inheritance portion."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Jacubuszowna"
+      ],
+      "descriptive_mentions": [
+        "sta"
+      ],
+      "justification": "Deceased first wife mentioned in the text."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Wilhelmus",
+      "mention_texts": [
+        "Wilhelmus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "filius suus ex primi matrimonio cum sta Anna Jacubuszowna progenitus"
+      ],
+      "justification": "Son born from the first marriage."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato in Incam- danti proximo Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of registration of the protestation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Moyses Tubicz",
+      "mention_texts": [
+        "Moylis Tubiczi",
+        "Moyses Tubicz"
+      ],
+      "descriptive_mentions": [
+        "Iudaei",
+        "Iudaeus"
+      ],
+      "justification": "Jewish merchant from Constantinople lodging a protestation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0294: Constantinople",
+      "mention_texts": [
+        "Constantinopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Moyses Tubicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kramski",
+      "mention_texts": [
+        "Stanislaum Kramski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "litatorem et Prolocutorem sibi assumptum"
+      ],
+      "justification": "Prolocutor representing Moyses Tubicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Woisiecki",
+      "mention_texts": [
+        "Jacobum Woisiecki"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem et Scabinum Leopoliensem"
+      ],
+      "justification": "Lviv citizen and bench member against whom the protestation is made."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestus Wilhelmus filius suus ex primi matrimonio cum sta Anna Jacubuszowna progenitus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "originating_from",
+      "tail_entity_id": "E7",
+      "evidence": "Moyses Tubicz Iudaeus Constantinopolitanus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Moyses Tubicz Iudaeus Constantinopolitanus per Nobilem Stanislaum Kramski litatorem et Prolocutorem sibi assumptum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "protested_against",
+      "tail_entity_id": "E9",
+      "evidence": "Moyses Tubicz Iudaeus Constantinopolitanus ... protestatus est contra Famatum Jacobum Woisiecki"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobum Woisiecki Civem et Scabinum Leopoliensem"
+    }
+  ]
+}

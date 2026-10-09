@@ -1,0 +1,139 @@
+{
+  "document_id": "arc2/0986.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the legal act took place ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [
+        "Anno eodem currenti venturo"
+      ],
+      "justification": "Date of the act referring to the preceding entry in the register."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Gargo",
+      "mention_texts": [
+        "Andreas Gargo",
+        "Andrea Gargo",
+        "Andreae Gargo"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Famato Andrea Gargo",
+        "Civi Leopoliensi",
+        "Creditore"
+      ],
+      "justification": "Creditor selling a stone house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Armatus",
+      "mention_texts": [
+        "Joannes Armatus",
+        "Joannes Longinconius Fumatarius"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famatus Joannes Longinconius Fumatarius",
+        "coniuges",
+        "Cives Leopolienses",
+        "maritum tutorem suum legitimum",
+        "coniuges recognoscentes"
+      ],
+      "justification": "Debtor and buyer of the stone house, husband of Regina."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "coniuges recognoscentes"
+      ],
+      "justification": "Wife of Joannes, co-buyer of the stone house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "1800 Polish florins",
+      "mention_texts": [
+        "Mille Octingentorum Florenorum pecuniae et numeri Polonici",
+        "Mille Octingentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "restantis praecij summam",
+        "summam eandem Mille Octingentorum florenorum debiti"
+      ],
+      "justification": "Debt amount owed for the stone house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0152: DATE-0061: DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Festo solennis Pentecostes",
+        "Festo praefato Pentecostes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Payment due date specified in the agreement."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "2700 florins",
+      "mention_texts": [
+        "duorum Millium et septingentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summamque duorum Millium et septingentorum florenorum eidem Emptori iam datam"
+      ],
+      "justification": "Amount already paid towards the house that is subject to forfeiture."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatus Joannes Longinconius Fumatarius et Regina coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatus Joannes Longinconius Fumatarius et Regina coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "se debere et teneri veri iusti liquidique debiti ex causa Emptionis domus lapideae a Famato Andrea Gargo"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "se debere et teneri veri iusti liquidique debiti ex causa Emptionis domus lapideae a Famato Andrea Gargo"
+    }
+  ]
+}

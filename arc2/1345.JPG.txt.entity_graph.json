@@ -1,0 +1,288 @@
+{
+  "document_id": "arc2/1345.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Wasilczyk",
+      "mention_texts": [
+        "Petri Wasilczyk"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the document's heading title"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrski"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Iuris Utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Advocate of Lviv appearing in the record"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Wojciech Szczepańczyk Bernat",
+      "mention_texts": [
+        "Woyciech Szczepanczyk Bernat"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabini"
+      ],
+      "justification": "Lviv bench scabinus making the judicial relation"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Tomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Scabini"
+      ],
+      "justification": "Lviv bench scabinus making the judicial relation"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Młoszicki",
+      "mention_texts": [
+        "Andreae Mloszicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "acquisitoris Iuris Cessionarii",
+        "cessionarii",
+        "praefati cessionarii",
+        "praenominato"
+      ],
+      "justification": "Assignee obtaining rights to the property"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Serebrowski",
+      "mention_texts": [
+        "Paulo Serebrowski",
+        "Serebrowski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Sacrae Regiae Maiestatis Secretarium",
+        "Generoso Domino",
+        "Generosi Domini"
+      ],
+      "justification": "Royal secretary who assigned his rights"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland mentioned in the secretary's title and the royal fisc"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kingdom of Poland mentioned in the text"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Żelazo",
+      "mention_texts": [
+        "Joannis Zeleze",
+        "Joanni Zeleze",
+        "Zeleze"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Famato",
+        "Civi Leopolitano",
+        "praedictum"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate was assigned"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Necessario",
+        "Iudiciis Expositis Bannitis"
+      ],
+      "descriptive_mentions": [
+        "Iudicii Scabinalis",
+        "Arbitrarii Iudicii Civitatis"
+      ],
+      "justification": "Lviv municipal judicial court referenced in decrees"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post Festum Trium Regum proxima Anno eodem currenti 159 sexto",
+        "159 sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of decree: Monday after Epiphany 1596"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis",
+        "Leopoliani",
+        "Civitatis eiusdem",
+        "Leopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Georgius Żelazo",
+      "mention_texts": [
+        "Georgii Zeleza",
+        "Georgio Zeleza"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "Lanionis Suburbani Leopoliani",
+        "praefato",
+        "debitricem"
+      ],
+      "justification": "Suburban butcher whose house is subject to judicial assignment"
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio eiusdem Civitatis Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Halych suburb of Lviv where the property is situated"
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Szeroka Street",
+      "mention_texts": [
+        "platea Sziroka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the house is situated"
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Ziklosz",
+      "mention_texts": [
+        "Ziklosz"
+      ],
+      "descriptive_mentions": [
+        "Equisonum Regustrium"
+      ],
+      "justification": "Royal equerry owning adjacent house"
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Petrus Żywa",
+      "mention_texts": [
+        "Petri olim Ziwowa"
+      ],
+      "descriptive_mentions": [
+        "sutorem",
+        "olim"
+      ],
+      "justification": "Deceased shoemaker owning adjacent house"
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "currency",
+      "canonical_name": "78 Polish florins",
+      "mention_texts": [
+        "Florenorum septuaginta octo pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt"
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Casparo Gutinski"
+      ],
+      "descriptive_mentions": [
+        "Nobili et Spectabili",
+        "Collegae nostro Consulari"
+      ],
+      "justification": "Lviv city councillor who received the surety"
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Collegae nostro Consulari"
+      ],
+      "justification": "Council referenced via consular collegiality"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "employee_of",
+      "tail_entity_id": "E7",
+      "evidence": "Sacrae Regiae Maiestatis Secretarium"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "associated_with",
+      "tail_entity_id": "E6",
+      "evidence": "acquisitoris Iuris Cessionarii a Generoso Paulo Serebrowski"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "member_of",
+      "tail_entity_id": "E20",
+      "evidence": "Collegae nostro Consulari"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "located_in",
+      "tail_entity_id": "E14",
+      "evidence": "in Suburbio eiusdem Civitatis Haliciensi dicto in platea Sziroka"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "in Suburbio eiusdem Civitatis Haliciensi"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "document_id": "arc2/0610.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus",
+        "Officium vero Consulare Leopoliensis",
+        "Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "ijsdem"
+      ],
+      "justification": "City council office and its acts mentioned in the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria quarta pridie Festi Sancti Andreae Apostoli proxima Anno Domini 1593."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous consular act referred to in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "florenos 150."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 150 florins mentioned in the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "florenos 30."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 30 florins mentioned as biennial interest."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in official titles and citizenship descriptors."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helizabetham"
+      ],
+      "descriptive_mentions": [
+        "consortem suam",
+        "pupilli sororem germanam",
+        "supradictam"
+      ],
+      "justification": "Mentioned as full sister of the ward and wife of the actor."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Rzeszowski",
+      "mention_texts": [
+        "Christophoro Rzeszowski"
+      ],
+      "descriptive_mentions": [
+        "praecitato",
+        "praedictus Citatus",
+        "Citatus"
+      ],
+      "justification": "Mentioned as the curator to whom the actor is joined."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "octoginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 80 florins required for security/property guarantee."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Scabinal Court",
+      "mention_texts": [
+        "Judicium Scabinale"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Bench/scabinal court of Lviv mentioned in the heading of the remission."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Agnes Lękawska",
+      "mention_texts": [
+        "Agnetem Lękawska"
+      ],
+      "descriptive_mentions": [
+        "Actam"
+      ],
+      "justification": "Plaintiff party mentioned in the new court entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Garsciocha",
+      "mention_texts": [
+        "Joannis Garsciocha"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Pellionis",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased furrier and former husband of Agnes Lękawska."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Agnetem Lękawska priorum nuptiarum Famati olim Joannis Garsciocha"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannis Garsciocha Pellionis Civis Leopoliensis"
+    }
+  ]
+}

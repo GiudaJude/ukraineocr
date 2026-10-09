@@ -1,0 +1,109 @@
+{
+  "document_id": "arc2/0835.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Skrzynski",
+      "mention_texts": [
+        "Stephanus Skrzynski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named at the beginning of the testimony regarding his genealogy: 'Stephanus Skrzynski praestito prius super Sacra de veritate dicenda corporali iuramento testimonium genealogiae'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Zegrzyr",
+      "mention_texts": [
+        "Thomas Zegrzyr"
+      ],
+      "descriptive_mentions": [
+        "Primus testis",
+        "Ciuis Skrzyniensis"
+      ],
+      "justification": "Named as the first witness testifying on the genealogy: 'Primus testis Thomas Zegrzyr habens annos Nonaginta circa vel ultra Ciuis Skrzyniensis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Skrzynno",
+      "mention_texts": [
+        "Skrzyniensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town mentioned via the citizenship of Thomas Zegrzyr: 'Ciuis Skrzyniensis'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zostrowicz",
+      "mention_texts": [
+        "Mathias Zostrowicz"
+      ],
+      "descriptive_mentions": [
+        "Secundus testis",
+        "Famatus"
+      ],
+      "justification": "Named as the second witness: 'Secundus testis Famatus Mathias Zostrowicz maiens Annos Octaginta circa vel ultra deposuit'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Ciesot",
+      "mention_texts": [
+        "Mathias Ciesot"
+      ],
+      "descriptive_mentions": [
+        "Quartus testis",
+        "Laboriosus",
+        "Subditus"
+      ],
+      "justification": "Named as the fourth witness: 'Quartus testis Laboriosus Mathias Ciesot de Villa Kozlowicze Subditus'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kozłowice",
+      "mention_texts": [
+        "Kozlowicze"
+      ],
+      "descriptive_mentions": [
+        "Villa"
+      ],
+      "justification": "Village from which Mathias Ciesot originates: 'de Villa Kozlowicze'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Thomas Zegrzyr habens annos Nonaginta circa vel ultra Ciuis Skrzyniensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Mathias Ciesot de Villa Kozlowicze Subditus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "witness_for",
+      "tail_entity_id": "E1",
+      "evidence": "Stephanus Skrzynski praestito prius super Sacra de veritate dicenda corporali iuramento testimonium genealogiae ea qui sequitur modo deposuerunt. Primus testis Thomas Zegrzyr"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "witness_for",
+      "tail_entity_id": "E1",
+      "evidence": "Stephanus Skrzynski ... testimonium genealogiae ... deposuerunt. ... Secundus testis Famatus Mathias Zostrowicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "witness_for",
+      "tail_entity_id": "E1",
+      "evidence": "Stephanus Skrzynski ... testimonium genealogiae ... deposuerunt. ... Quartus testis Laboriosus Mathias Ciesot"
+    }
+  ]
+}

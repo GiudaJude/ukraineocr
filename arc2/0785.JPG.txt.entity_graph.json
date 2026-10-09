@@ -1,0 +1,147 @@
+{
+  "document_id": "arc2/0785.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Zacharias Smieszek",
+      "mention_texts": [
+        "Zacharia Smieszek",
+        "Zacharias Smieszek"
+      ],
+      "descriptive_mentions": [
+        "dicto",
+        "Generoso",
+        "fratre germano",
+        "eodem"
+      ],
+      "justification": "Zacharias Smieszek is named as the brother of Anna who obtained and transferred an emphyteutic property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "praefata"
+      ],
+      "justification": "Anna is mentioned as having acquired the emphyteusis from her full brother Zacharias Smieszek."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Smieszek",
+      "mention_texts": [
+        "Stanislao Smieszek"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "The deceased Stanislaus Smieszek is mentioned in relation to the original limits of the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0238: PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreae Mądrowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino et Notario Civitatis Leopoliensis",
+        "affini",
+        "Coniugibus Civibus Leopoliensibus"
+      ],
+      "justification": "Andreas Mądrowicz, alderman and notary of Lviv, is named as purchaser together with his wife Eva."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Eva Śmieszkowna",
+      "mention_texts": [
+        "Evae Szmieszkowna"
+      ],
+      "descriptive_mentions": [
+        "sorori germanae",
+        "Coniugibus Civibus Leopoliensibus"
+      ],
+      "justification": "Eva Szmieszkowna is identified as the full sister of Anna and Zacharias and wife of Andreas Mądrowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv is referenced in civic titles and statuses."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Śmieszkowska House",
+      "mention_texts": [
+        "domo lapidea Smieszkowszka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The masonry house 'Smieszkowszka' where rooms/premises are located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Florenorum Mille pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sum of 1000 Polish florins paid for the emphyteusis."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria sexta post Festum Exaltationis Sanctae Crucis proxima Anno Domini 1594",
+        "Anno 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date of the prior inscription and acquisition."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "feria sexta post Festum Sancti Martini Episcopi proxima Anno Domini 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date of the garden division among co-heirs."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Zacharia Smieszek praefata Anna fratre germano"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Evae Szmieszkowna sorori germanae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andreae Mądrowicz ... et Evae Szmieszkowna ... Coniugibus"
+    }
+  ]
+}

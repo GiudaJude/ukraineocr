@@ -1,0 +1,93 @@
+{
+  "document_id": "arc2/1034.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium nostrum",
+        "officij nostri",
+        "officij",
+        "Nos",
+        "Camera nostra"
+      ],
+      "justification": "The municipal council/office of Lviv acting in its official capacity and holding funds in its chamber."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Mleczko",
+      "mention_texts": [
+        "Stanislawi",
+        "Stanislao Mleczko"
+      ],
+      "descriptive_mentions": [
+        "vendatore Kulikowiensi",
+        "praenominato"
+      ],
+      "justification": "Person referred to as vendator of Kulików who submitted letters and received the sequestered money."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Goszkowski",
+      "mention_texts": [
+        "Goszkowski"
+      ],
+      "descriptive_mentions": [
+        "memoratum",
+        "praedictus depositor",
+        "Depositario"
+      ],
+      "justification": "The individual who deposited the sequestered forty florins."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0849: Paulus Kraus",
+      "mention_texts": [
+        "Pauli Kraus"
+      ],
+      "descriptive_mentions": [
+        "Ostiarij"
+      ],
+      "justification": "The doorkeeper (ostiarius) whose wife petitioned for the deposit."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kulików",
+      "mention_texts": [
+        "Kulikowiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The town near Lviv indicated by the adjectival form 'Kulikowiensi'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta Florenos",
+        "Florenos quadraginta"
+      ],
+      "descriptive_mentions": [
+        "sequestro",
+        "praefata summa",
+        "summa praefata",
+        "eosdem"
+      ],
+      "justification": "The sum of 40 florins deposited and subsequently released."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "a vendatore Kulikowiensi"
+    }
+  ]
+}

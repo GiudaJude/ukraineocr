@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/1366.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam",
+        "Officium praesens",
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [
+        "Officium suum Proconsulatus"
+      ],
+      "justification": "The municipal council before which the chirograph was presented and testified."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the ecclesiastical title and citizenship of the debtor spouses."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Karszo",
+      "mention_texts": [
+        "Joannem fartus",
+        "Joannes Karszo"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "factorum",
+        "Culinae Magister"
+      ],
+      "justification": "Nobleman and master of the Archbishop's kitchen who presents the chirograph to the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0164: Archbishop of Lviv",
+      "mention_texts": [
+        "Archiepiscopi Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Illustrissimi et Reverendissimi in Christo Patris Domini"
+      ],
+      "justification": "Archbishop of Lviv whose kitchen master submitted the obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Georgius de Byczynia",
+      "mention_texts": [
+        "Georgij de Byczynia",
+        "Wtork",
+        "Georgij"
+      ],
+      "descriptive_mentions": [
+        "Honestorum olim",
+        "fartoris",
+        "dicti",
+        "Civium Leopoliensium",
+        "coniugum",
+        "eosdem coniuges",
+        "praefati olim"
+      ],
+      "justification": "Deceased citizen and sausage maker who contracted the debt with his wife."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Byczyna",
+      "mention_texts": [
+        "Byczynia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin for Georgius."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Civium Leopoliensium",
+        "coniugum",
+        "eosdem coniuges"
+      ],
+      "justification": "Wife of Georgius who contracted the debt alongside him."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0044: 160 Polish florins",
+      "mention_texts": [
+        "Florenorum centum sexaginta Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of the debt specified in the chirograph."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Trzescinski",
+      "mention_texts": [
+        "Stanislai Trzescinski",
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Domini",
+        "Collegae nostri Consularis",
+        "testis ad praemissa vocati et rogati",
+        "Domini",
+        "Inscriptoris",
+        "Collegam nostrum Consularem",
+        "citatus"
+      ],
+      "justification": "Council colleague and witness who signed the chirograph."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Alberto Edriano"
+      ],
+      "descriptive_mentions": [
+        "Spectabili Domino"
+      ],
+      "justification": "Proconsul of Lviv who received the testimony in the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "servant_of",
+      "tail_entity_id": "E4",
+      "evidence": "factorum Illustrissimi et Reverendissimi in Christo Patris Domini Archiepiscopi Leopoliensis Culinae Magister"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Georgij de Byczynia fartoris dicti Wtork et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "origin_from",
+      "tail_entity_id": "E6",
+      "evidence": "Georgij de Byczynia"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislai Trzescinski Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "subdelegato in Officium suum Proconsulatus Spectabili Domino Alberto Edriano"
+    }
+  ]
+}

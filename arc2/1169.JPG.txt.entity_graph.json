@@ -1,0 +1,117 @@
+{
+  "document_id": "arc2/1169.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Slaszinski",
+      "mention_texts": [
+        "Albertus Slaszinski",
+        "Slaszinski",
+        "Slaczynski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honestus",
+        "incola",
+        "praedictus"
+      ],
+      "justification": "Appears in the text as the plaintiff: 'Nobilis et Honestus Albertus Slaszinski incola Suburbij Haliciensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbij Haliciensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches known entity LOC-0012: Halych Suburb, designated as the residence of Albertus Slaszinski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0612: Bartholomaeus Łopuszyński",
+      "mention_texts": [
+        "Bartholomaeum Łopuszyński",
+        "Łopuszynski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Suburbanum Leopoliensem"
+      ],
+      "justification": "Matches known entity PER-0612: Bartholomaeus Łopuszyński, the defendant in the wound complaint."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches known entity Lwów, occurring in the adjectival form 'Suburbanum Leopoliensem'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium",
+        "curiam nostram",
+        "Actis"
+      ],
+      "justification": "The issuing authority of the record ('Nos etiam reprotestati sumus... Actis inseri fecimus') and target of the protest ('contra officium')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Zeller",
+      "mention_texts": [
+        "Zellerem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Commissioner or official before whom the witnesses were examined: 'coram Zellerem et Bartholomaeum Bebeł'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Bebeł",
+      "mention_texts": [
+        "Bartholomaeum Bebeł"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Examiner/commissioner alongside Zeller: 'coram Zellerem et Bartholomaeum Bebeł se examinari'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Simo: nova"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Corresponds to the known witness Simonowa (Anna Simonowa, PER-0026), giving testimony for Slaczynski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nobilis et Honestus Albertus Slaszinski incola Suburbij Haliciensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Bartholomaeum Łopuszyński Suburbanum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "legal_opponent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertus Slaszinski incola Suburbij Haliciensis contra Honestum Bartholomaeum Łopuszyński Suburbanum Leopoliensem pro certis vulneribus sibi illatis querelam de- posuisset"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/1337.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Lis",
+      "mention_texts": [
+        "Toma Lis",
+        "Tomas",
+        "Tomam"
+      ],
+      "descriptive_mentions": [
+        "fratrem suum"
+      ],
+      "justification": "Party in the property division/quietatio, brother of Laurentius."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Szanków",
+      "mention_texts": [
+        "Szankow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where land shares are situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Soryj",
+      "mention_texts": [
+        "Toma Soryj"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Former occupant or possessor of land."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus",
+      "mention_texts": [
+        "Alberti"
+      ],
+      "descriptive_mentions": [
+        "filii Vice-advocati"
+      ],
+      "justification": "Son of the vice-advocate mentioned in relation to land."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Halicz",
+      "mention_texts": [
+        "Haliczen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town/district where the properties are situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Laurentius",
+      "mention_texts": [
+        "Laurentius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Brother of Thomas Lis who releases rights."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Owska",
+      "mention_texts": [
+        "Matias Owska",
+        "Matias"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "maritum suum legitimum Tutorem"
+      ],
+      "justification": "Husband and legal guardian of Marusza appearing to sell land."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Marusza",
+      "mention_texts": [
+        "Marusza na"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Wife of Mathias Owska selling her hereditary land."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Wólka",
+      "mention_texts": [
+        "Wowlca",
+        "Wolca"
+      ],
+      "descriptive_mentions": [
+        "praedio Civili",
+        "pago"
+      ],
+      "justification": "Village and civil estate where the land plot is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Miśkowa Grobińczyna",
+      "mention_texts": [
+        "Miskowa Grobinczyna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landholder in Wólka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Hrycko",
+      "mention_texts": [
+        "Hryckonis",
+        "Hryckoni"
+      ],
+      "descriptive_mentions": [
+        "Fratris sui",
+        "fratri suo",
+        "emptori"
+      ],
+      "justification": "Brother of Marusza and buyer of the plot of land."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "18 Polish florins",
+      "mention_texts": [
+        "octodecim Florenos pecuniae et numeri Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the plot of land."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the procurator is to resign the property."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kramarczyk",
+      "mention_texts": [
+        "Joannis Kramarczii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the marginalia/heading."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefatus Laurentius eius praedictum Tomam fratrem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Matias Owska et Marusza na coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "Hryckonis Fratris sui siti eius praefato Hryckoni fratri suo"
+    }
+  ]
+}

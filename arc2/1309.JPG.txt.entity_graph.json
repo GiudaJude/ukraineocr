@@ -1,0 +1,133 @@
+{
+  "document_id": "arc2/1309.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Exposito Judicio"
+      ],
+      "justification": "Court before which the mandatary was to act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the name of the banned court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Klusik",
+      "mention_texts": [
+        "Albertus Klusicus"
+      ],
+      "descriptive_mentions": [
+        "praenominatus"
+      ],
+      "justification": "Person receiving the power of attorney from his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Varia Ziółtkowna",
+      "mention_texts": [
+        "va-ria Zioltkowna"
+      ],
+      "descriptive_mentions": [
+        "uxore sua"
+      ],
+      "justification": "Wife of Albertus Klusik granting power of attorney."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Actis Advocatialibus Praesensibus",
+        "Officio Advocatiali Praesensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial office and its acts where the power of attorney was entered."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda pro-xima post festum Transfigurationis Anno 159 sexto",
+        "Anno 159 sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded power of attorney."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Klussikowski",
+      "mention_texts": [
+        "Jacobus Klussikowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual associated with the power of attorney record."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Martinowic",
+      "mention_texts": [
+        "Alberti Martinowic",
+        "Albertus Martinicus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "faenator"
+      ],
+      "justification": "Party issuing a quietatio."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Adam Hieronim Sieniawski",
+      "mention_texts": [
+        "Adam Hieronymi Sienawski"
+      ],
+      "descriptive_mentions": [
+        "Palatinida Terrarum Russiae"
+      ],
+      "justification": "Son of the Palatine of Ruthenia mentioned in the entry."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Terrarum Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Province governed by the palatine whose son is mentioned."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "praenominatus Albertus Klusicus ab uxore sua va-ria Zioltkowna"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Exposito Judicio Civitatis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "document_id": "arc2/0246.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli Szorbic"
+      ],
+      "descriptive_mentions": [
+        "Generosi Domini Secretarii",
+        "donatarius",
+        "donatarii",
+        "Principalis"
+      ],
+      "justification": "Identified as royal secretary and donatary protesting against the council through a proxy ('Generosi Domini Pauli Szorbic donatarii')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Henk",
+      "mention_texts": [
+        "Francisci Henk"
+      ],
+      "descriptive_mentions": [
+        "demortuum",
+        "demortui"
+      ],
+      "justification": "Deceased individual whose estate is sequestered and disputed ('morte memorati Francisci Henk relicta')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Domini Domini sui Clementissimi"
+      ],
+      "justification": "The King of Poland referenced via his royal title ('Sacrae Regiae Maiestatis Domini Domini sui Clementissimi')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv mentioned in the city council's title and 'Civitatis vero eiusdem Leopoliensis'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii Praesentis",
+        "Officii Praetorialis",
+        "Praefatum Officium"
+      ],
+      "justification": "The consular office of Lviv deciding on the sequester of Henk's estate."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Officium vero Consulare Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "protested_against",
+      "tail_entity_id": "E5",
+      "evidence": "Plenipotens vero Praedicti Generosi Domini Pauli Szorbic donatarii contra Praefatum Officium nomine sui Principalis in foro et tempore solemniter Protestatus est"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "subordinate_to",
+      "tail_entity_id": "E3",
+      "evidence": "Officium vero Consulare Leopoliensis exauditis cum ea qua decet reverentia Sacrae Regiae Maiestatis Domini Domini sui Clementissimi"
+    }
+  ]
+}

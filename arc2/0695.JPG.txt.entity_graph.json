@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/0695.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Gardzwic",
+      "mention_texts": [
+        "Sebestyanus Gardzwic",
+        "Sebastiano Gardzwic",
+        "Sebastianum"
+      ],
+      "descriptive_mentions": [
+        "filio colono Zamarstnowiensi",
+        "emptori",
+        "Emptorem"
+      ],
+      "justification": "Named as the buyer of the field in Zamarstynów."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catherina Stolomczyna",
+      "mention_texts": [
+        "Katherina Stolomczyna",
+        "Catherina Stolomczyna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "olim Simonis Stolomka Coniunx legitima",
+        "inscriptrix"
+      ],
+      "justification": "Named as the seller of the land and widow of Simon Stolomka."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Stolomka",
+      "mention_texts": [
+        "Simonis Stolomka"
+      ],
+      "descriptive_mentions": [
+        "marito suo"
+      ],
+      "justification": "Named as the deceased husband of Catherina Stolomczyna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Sadowski"
+      ],
+      "descriptive_mentions": [
+        "tutorem suum"
+      ],
+      "justification": "Named as Catherina's guardian assumed for this transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0191: Zamarstynów",
+      "mention_texts": [
+        "pago Zamarstnow",
+        "Zamarstnowiensi"
+      ],
+      "descriptive_mentions": [
+        "pago"
+      ],
+      "justification": "Village location of the sold field and residence of Sebastian Gardzwic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Semion Ostrygn",
+      "mention_texts": [
+        "Semionis Ostrygn"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landowner adjacent to the sold field."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "97 Polish florins",
+      "mention_texts": [
+        "nonaginta septem florenis pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sale price paid for the field."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joanni"
+      ],
+      "descriptive_mentions": [
+        "filio suo",
+        "filius suus"
+      ],
+      "justification": "Son of Catherina Stolomczyna whose share is transferred to other property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Zulice",
+      "mention_texts": [
+        "pago Zulezyce"
+      ],
+      "descriptive_mentions": [
+        "pago"
+      ],
+      "justification": "Village location of other goods belonging to Catherina."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Czabrowskie",
+      "mention_texts": [
+        "Czabrowskie"
+      ],
+      "descriptive_mentions": [
+        "bona",
+        "bonis Czabrowskie"
+      ],
+      "justification": "Named estate/lands in Zulice where Joannes's share is transferred."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "wasSpouseOf",
+      "tail_entity_id": "E3",
+      "evidence": "Catherina Stolomczyna olim Simonis Stolomka Coniunx legitima"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "isChildOf",
+      "tail_entity_id": "E2",
+      "evidence": "Joanni filio suo"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "isGuardianOf",
+      "tail_entity_id": "E2",
+      "evidence": "Albertum Sadowski tutorem suum"
+    }
+  ]
+}

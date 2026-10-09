@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/1121.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Mazurkowic",
+      "mention_texts": [
+        "Joanne Mazurkowic",
+        "Joannem Mazurkowic"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "praedicto",
+        "praefatumque"
+      ],
+      "justification": "Named in the release/settlement clause regarding property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Coronak",
+      "mention_texts": [
+        "Coronak"
+      ],
+      "descriptive_mentions": [
+        "ipsum"
+      ],
+      "justification": "Named party whom the declarant obligates not to disturb."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobus Gorzalek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Civis Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Appears personally acknowledging satisfaction of a debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referenced in civic and suburban designations."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "Florenis quingentis pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of the debt satisfied."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Szpianiowa",
+        "Barbara",
+        "Barbaram",
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuge",
+        "uxore",
+        "eandem"
+      ],
+      "justification": "The debtor's former wife who satisfied the obligation and is acquitted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolai"
+      ],
+      "descriptive_mentions": [
+        "olim Nobilis ac olim Suburbani Leopoliensis",
+        "praedicti Nobilis"
+      ],
+      "justification": "Deceased nobleman and first husband of Barbara who contracted the debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Georgius Szpania",
+      "mention_texts": [
+        "Georgij Szpania"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Second husband of Barbara Szpianiowa."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Bartel",
+      "mention_texts": [
+        "Albertus Bartel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header of act 1013."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ruten",
+      "mention_texts": [
+        "Joannes Ruten",
+        "Joannes Ruten"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Seller appearing with his wife to alienate inherited shares."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis",
+        "Hedvigim"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "haec",
+        "praefatam"
+      ],
+      "justification": "Wife of Joannes Ruten selling her inherited portion."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Bacgiel",
+      "mention_texts": [
+        "Stanislaum Bacgiel"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "patrem"
+      ],
+      "justification": "Deceased father of Hedvigis from whom the inheritance devolved."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "ab Honesta Barbara praedicti Nobilis Nicolai coniuge"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "iam ad praesens secundarum nuptiarum Nobilis Georgij Szpania uxore"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannes Ruten et Hedvigis coniuges"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "parent_of",
+      "tail_entity_id": "E11",
+      "evidence": "ad praefatam Hedvigim iure naturali successionis post Familiam olim Stanislaum Bacgiel patrem devolutam"
+    }
+  ]
+}

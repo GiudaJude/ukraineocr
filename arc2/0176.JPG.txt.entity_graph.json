@@ -1,0 +1,81 @@
+{
+  "document_id": "arc2/0176.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Lwowskie",
+        "Lwowiom",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "The city of Lviv is mentioned in adjectival, dative, and genitive civic forms."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus Jastrzębski",
+      "mention_texts": [
+        "Petro Sastrabski",
+        "Petri Jastrzebski"
+      ],
+      "descriptive_mentions": [
+        "viduus",
+        "maritus",
+        "marito",
+        "eodem",
+        "ipsius"
+      ],
+      "justification": "Petrus Jastrzębski (also written Sastrabski), the surviving husband, involved in the property settlement and protest."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "500 florins",
+      "mention_texts": [
+        "florenos 500"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 500 florins to be paid/deposited prior to division of the estate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "Protocolo Testamentorum Civitatis istius"
+      ],
+      "justification": "The municipal council office and its testament registry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "22 September 1593",
+      "mention_texts": [
+        "Anno Domini 1593 die vigesima secunda Septembris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry/protestation extracted from the testament register."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Civitatis Leopoliensis extractionem ex Protocolo Testamentorum Civitatis istius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "protested_on",
+      "tail_entity_id": "E5",
+      "evidence": "Anno Domini 1593 die vigesima secunda Septembris haec est Protestatio ex parte Petri Jastrzebski"
+    }
+  ]
+}

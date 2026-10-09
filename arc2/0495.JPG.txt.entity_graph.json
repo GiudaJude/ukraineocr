@@ -1,0 +1,166 @@
+{
+  "document_id": "arc2/0495.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolaum"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum",
+        "filiastrum"
+      ],
+      "justification": "Named in the opening legal clause as 'Nicolaum filiastrum'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act took place and civic jurisdiction identified."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta ante Festum Exaltationis Sanctae Crucis proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recording of the act: Wednesday before the Exaltation of the Holy Cross, 1595."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Wawrzyniec Skrzeczek",
+      "mention_texts": [
+        "Wawrz Skrzeczk",
+        "Isaac- cyk Smarkrowicz Semeni",
+        "Wawrzyk"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "praedicti Famati",
+        "eiusdem",
+        "idem"
+      ],
+      "justification": "Principal party commissioning the wall valuation; named in header and text ('Wawrz Skrzeczk', OCR variant 'Isaac- cyk Smarkrowicz Semeni', and 'Wawrzyk')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Zosterdorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "locum Ordinarij Advocati tenens"
+      ],
+      "justification": "Acting advocatus (locumtenens) who inspected the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Gallus"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv bench assessor participating in the on-site inspection."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-1814: PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv bench assessor participating in the wall valuation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Armenian Hospital",
+      "mention_texts": [
+        "Hospitalis Armenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Institution whose property borders the masonry house being appraised."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szabo",
+      "mention_texts": [
+        "Joannis Szabo"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Scabini Leopoliensis",
+        "praefati"
+      ],
+      "justification": "Deceased former assessor of Lviv whose house borders Wawrzyk's wall."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Eli Szabo",
+      "mention_texts": [
+        "Aeli Szabia"
+      ],
+      "descriptive_mentions": [
+        "filij natu semi- oris"
+      ],
+      "justification": "Older son and representative/guardian of the late Joannes Szabo's estate present during the appraisal."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E2",
+      "evidence": "Martinus Zosterdorff locum Ordinarij Advocati tenens ... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E2",
+      "evidence": "Fridericus Gallus ... Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E2",
+      "evidence": "Thomas Karcz Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E2",
+      "evidence": "olim Joannis Szabo filij natu semi- noris Scabini Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannis Szabo ... Aeli Szabia filij natu semi- oris"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "document_id": "arc2/1079.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court mentioned in the text for property resignation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv is referenced as the place of the legal act and the origin of its inhabitants."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Oszarowic",
+      "mention_texts": [
+        "Laurentius Oszarowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the subscription or heading of the act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Szurma",
+      "mention_texts": [
+        "Georgius Szurma"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honesti",
+        "incolae Leopolienses",
+        "Ille",
+        "mariti sui"
+      ],
+      "justification": "Noble/honest citizen of Lviv who sells the house together with his wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "coniuge legitima",
+        "haec"
+      ],
+      "justification": "Wife of Georgius Szurma who consents to and participates in the sale."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium praesens",
+        "officio nostro"
+      ],
+      "justification": "The council office before which the transaction is recognized."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Spitko",
+      "mention_texts": [
+        "Stanislaw Spitco"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem"
+      ],
+      "justification": "Guardian appointed to assist Barbara during the act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "Suburb of Lviv where the sold house is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Silisla Street",
+      "mention_texts": [
+        "Silisla"
+      ],
+      "descriptive_mentions": [
+        "platea"
+      ],
+      "justification": "Street in the Halych Suburb where the property is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Sedloszowski",
+      "mention_texts": [
+        "Sedloszowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the house on one side."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Forstli",
+      "mention_texts": [
+        "Nicolai Forstli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the house on the other side."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Tokarzowic",
+      "mention_texts": [
+        "Laurentio Tokarzowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sartori"
+      ],
+      "justification": "Tailor who purchases the house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Co-buyer named alongside Laurentius Tokarzowic."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Georgius Szurma cum Barbara coniuge legitima"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "haec vero per Honestum Stanislaw Spitco tutorem de praesentantis mariti sui consensu ad eum tantummodo actum assumptum"
+    }
+  ]
+}

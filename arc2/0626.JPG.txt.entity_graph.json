@@ -1,0 +1,217 @@
+{
+  "document_id": "arc2/0626.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara",
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "fata",
+        "uxor fidelis",
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Appears as Barbara, faithful wife and surviving widow of Bartholomaeus Dziedzniczlo."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Dziedzniczlo",
+      "mention_texts": [
+        "Bartholomaei",
+        "Bartholomaei Dziedzniczlo",
+        "Bartholomaei Dziedzniczlo",
+        "Bartholomaei Dziedzniczlo",
+        "Bartholomaeum Dziedzniczlo"
+      ],
+      "descriptive_mentions": [
+        "marito suo",
+        "olim",
+        "Famati olim",
+        "Senioris Sutoris",
+        "sutoris",
+        "praedictum olim"
+      ],
+      "justification": "Deceased shoemaker elder whose estate and debts are being settled."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die et anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date reference at the end of the entry pointing back to the preceding record date."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Michael Ungarus",
+      "mention_texts": [
+        "Michaelis Vngari",
+        "Michaelem Ungarum"
+      ],
+      "descriptive_mentions": [
+        "plenipotentem mandatarium",
+        "Suburbanum Leopoliensem"
+      ],
+      "justification": "Appointed plenipotentiary attorney to recover goods in Transylvania/Hungary."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Abermanowicz",
+      "mention_texts": [
+        "Stanislaum Abermanowicz"
+      ],
+      "descriptive_mentions": [
+        "fratrem suum",
+        "Ciuem Leopoliensiem",
+        "tutorem suum"
+      ],
+      "justification": "Brother and official guardian of the widow Barbara."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensiem",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose citizenship and suburb are mentioned."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium"
+      ],
+      "justification": "The municipal office confirming the guardianship."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Satu Mare",
+      "mention_texts": [
+        "Sathmar Remeyensi",
+        "Sathmariensem"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "Town (Szatmárnémeti) where Bartholomaeus Dziedzniczlo died and left property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Barily Mester",
+      "mention_texts": [
+        "Barily Mester"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Iudicis Primarij"
+      ],
+      "justification": "Chief judge holding deceased's goods in Satu Mare."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Thomas Politor",
+      "mention_texts": [
+        "Thomam Politorem"
+      ],
+      "descriptive_mentions": [
+        "Civem Sathmariensem"
+      ],
+      "justification": "Citizen of Satu Mare holding property of the deceased."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Transylvania",
+      "mention_texts": [
+        "Transylvania"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region named where the deceased's assets may be located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Hungary",
+      "mention_texts": [
+        "Vngaria"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Country named alongside Transylvania."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Samszowski",
+      "mention_texts": [
+        "Samszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum"
+      ],
+      "justification": "Individual holding a chirograph given by the deceased."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Barbara Famati olim Bartholomaei Dziedzniczlo Senioris Sutoris vidua relicta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislaum Abermanowicz fratrem suum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "tutorem suum per officium rerum ad infrascripta confirmata"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Ciuem Leopoliensiem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "agent_of",
+      "tail_entity_id": "E1",
+      "evidence": "constituit et solemniter ordinauit in suum verum legitimum et indubitatum plenipotentem mandatarium Itidem Michaelem Ungarum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbanum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Thomam Politorem Civem Sathmariensem"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "document_id": "arc2/1280.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Iebber",
+      "mention_texts": [
+        "Iebber"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Iurisditionis Armenus",
+        "Mercator aduena"
+      ],
+      "justification": "Armenian merchant appearing to submit written testimony into the municipal record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Kozbeg Zopowi",
+      "mention_texts": [
+        "Serwerynus Kozbeie",
+        "Kozbeg Zopowi",
+        "Kozbeg"
+      ],
+      "descriptive_mentions": [
+        "Famatorem",
+        "Armenorum",
+        "sociorum",
+        "praedictorum",
+        "praefatorem"
+      ],
+      "justification": "Armenian merchant at whose instance the recognition is made, business partner of Murat Krzymowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Murat Krzymowicz",
+      "mention_texts": [
+        "Murat Krzymowicz",
+        "Murat"
+      ],
+      "descriptive_mentions": [
+        "Armenorum",
+        "sociorum",
+        "praedictorum",
+        "praefatorem"
+      ],
+      "justification": "Armenian partner of Kozbeg mentioned in the registration of trade."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Acta praesentia",
+        "Actis"
+      ],
+      "justification": "The municipal council/bench whose acts receive and register the document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "business_partner_of",
+      "tail_entity_id": "E3",
+      "evidence": "Eidem Kozbeg in mercatura sociorum legitime ad perhibendum testimonium citatus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "business_partner_of",
+      "tail_entity_id": "E2",
+      "evidence": "mercatura sociorum praedictorum Kozbeg et Murat factam in scripto parato ad Acta praesentia porrexit"
+    }
+  ]
+}

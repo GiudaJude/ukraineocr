@@ -1,0 +1,277 @@
+{
+  "document_id": "arc2/1342.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gostkowski",
+      "mention_texts": [
+        "Nicolaus Gostkowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Appears as a citizen of Lwów acknowledging receipt of payment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anna Dworiankiszanka",
+      "mention_texts": [
+        "Annae Dworiankiszanka"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae"
+      ],
+      "justification": "Wife of Nicolaus Gostkowski mentioned in the obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Mensator Cedryn",
+      "mention_texts": [
+        "Stanislai Mensatowic",
+        "Stanislaus Mensator dictus Cedryn"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "vir praedictus",
+        "eundem"
+      ],
+      "justification": "The debtor who paid 50 florins for dwelling in the Dworianska house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Dworiańska",
+      "mention_texts": [
+        "Dworianska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Masonry house in Lviv mentioned in the lease contract."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "florenos quinquaginta pecuniae Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount paid by Stanislaus Mensator."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Dominica Laetare",
+      "mention_texts": [
+        "Dominica Laetare Quadragesimali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Payment due date."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensium",
+        "Civitate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose citizenship is cited throughout."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Jucha",
+      "mention_texts": [
+        "Andreas Jucha"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Civis Leopoliensis",
+        "gener"
+      ],
+      "justification": "Furrier and son-in-law of Thomas and Dorothea Grzechnikowic who reports the orphaning of Stanislaus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Thomas Grzechnikowic",
+      "mention_texts": [
+        "Thomae Grzechnikowic",
+        "Thomae"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Frenificis",
+        "coniugum",
+        "Civium Leopoliensium",
+        "praedictorum"
+      ],
+      "justification": "Deceased bridlemaker and father of minor Stanislaus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Wydalanka",
+      "mention_texts": [
+        "Dorotheae Wydalanka",
+        "Dorotheae",
+        "Doroteae Czapzalanka"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "Civium Leopoliensium",
+        "praedictorum",
+        "suburbanities ab ea Civitate praesens absentis coniugis"
+      ],
+      "justification": "Mother of minor Stanislaus Grzechnikowic."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Grzechnikowic",
+      "mention_texts": [
+        "Stanislai Grzechnikowic",
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "filii",
+        "minorennis"
+      ],
+      "justification": "Orphaned minor son of Thomas and Dorothea Grzechnikowic."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "Officii nostri"
+      ],
+      "justification": "The municipal office granting the guardianship."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Bakeski",
+      "mention_texts": [
+        "Laurentium Bakeski",
+        "Bakeski",
+        "Laurentius Bakesski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensis",
+        "Nobilis et Famatus",
+        "frater Tutor",
+        "Tutore"
+      ],
+      "justification": "Appointed guardian of minor Stanislaus Grzechnikowic."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Uberowic",
+      "mention_texts": [
+        "Vberowic",
+        "Bartholomaeum Vberowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "verum legitimum indubitatumque Plenipotentem et mandatarium"
+      ],
+      "justification": "Appointed attorney by Laurentius Bakeski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nicolaus Gostkowski Civis Leopoliensis cavendo de ratihabitione Honestae Annae Dworiankiszanka coniugis suae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nicolaus Gostkowski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Jucha Pellio Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "relative_of",
+      "tail_entity_id": "E9",
+      "evidence": "Famati olim Thomae Grzechnikowic Frenificis et Dorotheae Wydalanka coniugum Civium Leopoliensium gener"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "relative_of",
+      "tail_entity_id": "E10",
+      "evidence": "Famati olim Thomae Grzechnikowic Frenificis et Dorotheae Wydalanka coniugum Civium Leopoliensium gener"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Thomae Grzechnikowic Frenificis et Dorotheae Wydalanka coniugum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Thomae Grzechnikowic Frenificis et Dorotheae Wydalanka coniugum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Thomae Grzechnikowic Frenificis et Dorotheae Wydalanka coniugum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislai Grzechnikowic praedictorum Thomae et Dorotheae filii"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislai Grzechnikowic praedictorum Thomae et Dorotheae filii"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "Laurentius Bakesski Civis Leopoliensis uti frater Tutor Ingenui Stanislai filii minorennis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Laurentium Bakeski Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E13",
+      "evidence": "constituit et solemniter ordinauit motu et autoritate sua tutelae in suum verum legitimum indubitatumque Plenipotentem et mandatarium Famatum Bartholomaeum Vberowic"
+    }
+  ]
+}

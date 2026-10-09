@@ -1,0 +1,55 @@
+{
+  "document_id": "arc2/1149.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Opaliński",
+      "mention_texts": [
+        "Petrus Opalinski de Bnyn",
+        "Petrum Opalinski"
+      ],
+      "descriptive_mentions": [
+        "Magnificus",
+        "Magnificum"
+      ],
+      "justification": "Named nobleman in the legal record ('Magnificus Petrus Opalinski de Bnyn')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Alexius",
+      "mention_texts": [
+        "Alexius"
+      ],
+      "descriptive_mentions": [
+        "Praefatus",
+        "recognoscens"
+      ],
+      "justification": "Principal recognizant entering into the legal submission ('Praefatus vero Alexius', 'ipse recognoscens')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Officio Castrensi Capitaneali Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The castle/capitaneal court of Lviv before which the submission is made."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mention of the general convention of the Kingdom of Poland ('Conventione Regni generali')."
+    }
+  ],
+  "relationships": []
+}

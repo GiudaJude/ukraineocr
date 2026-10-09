@@ -1,0 +1,139 @@
+{
+  "document_id": "arc2/1251.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Pławski",
+      "mention_texts": [
+        "Stanislao Pławscki"
+      ],
+      "descriptive_mentions": [
+        "Nobili et Honesto",
+        "Suburbano Leopoliensi",
+        "Creditori suo",
+        "Praenominato suo Creditori",
+        "idem Creditor",
+        "Creditori praefato",
+        "Creditorem praefatum",
+        "Creditor praedictus"
+      ],
+      "justification": "Creditor to whom the debt is acknowledged and who is granted possession of the property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Czedelski",
+      "mention_texts": [
+        "Hieronymi Czedelski"
+      ],
+      "descriptive_mentions": [
+        "Aromatarii"
+      ],
+      "justification": "Neighbor owning a neighboring house and property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitate istius"
+      ],
+      "justification": "City whose suburb and residents are referenced."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the property is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Temricowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the mortgaged house is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "210 Polish florins",
+      "mention_texts": [
+        "Florenos ducentos et decem pecuniae et numeri Polonicalis",
+        "ducentorum et decem florenorum",
+        "ducentorum et decem florenorum"
+      ],
+      "descriptive_mentions": [
+        "ipsam summam",
+        "summa praedicta",
+        "eadem summa debiti",
+        "summam praefatam",
+        "summam debitam"
+      ],
+      "justification": "Amount of debt and mortgage mentioned in the contract."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festo Sancti Michaelis Archangeli",
+        "festo S. Michaelis",
+        "festo S. Michaelis Archangeli",
+        "Festo S. Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day serving as the term for debt repayment and intromission."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Anno 1590mo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year specified for the repayment term."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officii Honoratorum Juris Fideicom."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal judicial office invoked in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "lives_in",
+      "tail_entity_id": "E3",
+      "evidence": "Nobili et Honesto Stanislao Pławscki Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Civitate istius Suburbio Haliciensi vocato in platea Temricowska"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in Civitate istius Suburbio Haliciensi"
+    }
+  ]
+}

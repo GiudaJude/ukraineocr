@@ -1,0 +1,227 @@
+{
+  "document_id": "arc2/0759.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as the city of Lviv in the dating formula and citizen descriptor."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia in quatuor Circumcisionis Domini proxima Anno Domini Millesimo Quingentesimo nonagesimo sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause at the beginning of the act indicating the year 1596."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0004: Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobus Schieschowszki"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Spectabiles Domini",
+        "Collegae nostri Consulares",
+        "tutores Officio additi"
+      ],
+      "justification": "Councilor of Lviv acting as guardian."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Dziedoszycki",
+      "mention_texts": [
+        "Andreas Dzedossiczki"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Spectabiles Domini",
+        "Collegae nostri Consulares",
+        "tutores Officio additi"
+      ],
+      "justification": "Councilor from Sambor acting as guardian."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Sambor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place associated with councilor Andreas Dziedoszycki."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio"
+      ],
+      "justification": "Municipal office that assigned the guardians."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Jelatinowicz",
+      "mention_texts": [
+        "Andreae Jelatinowicz",
+        "Andreae"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "filij",
+        "praedicti pupilli sui",
+        "pupilli",
+        "praefatum vero Andream pupillum"
+      ],
+      "justification": "The ward for whom the power of attorney is granted."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Jelatinus",
+      "mention_texts": [
+        "Nicolai Jelatini",
+        "Gelazino"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Iuris Utriusque Doctoris Consulis Leopoliensis"
+      ],
+      "justification": "Deceased father of the ward, former doctor of laws and councilor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Scholcz",
+        "Jacobum Scholcz"
+      ],
+      "descriptive_mentions": [
+        "Itum Dominum",
+        "Civem habitem et Negotiatorem Leopoliensem",
+        "verum certum legitimum mandatariumque Plenipotentem ac mandatarium",
+        "Honorato",
+        "Plenipotentibus et mandatarijs suis"
+      ],
+      "justification": "Citizen and merchant of Lviv appointed as plenipotentiary."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Jelatinus the Younger",
+      "mention_texts": [
+        "Nicolaum Jelatinum"
+      ],
+      "descriptive_mentions": [
+        "Itum",
+        "Civem Leopoliensem",
+        "fratrem natu maiorem praedicti Andreae pupilli",
+        "Famatis Plenipotentibus et mandatarijs suis"
+      ],
+      "justification": "Elder brother of the ward, also appointed plenipotentiary."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jelatinowicz",
+      "mention_texts": [
+        "Stanislai Jelatinowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Cracoviensis",
+        "praedicti pupilli sui fratris germani",
+        "defuncti"
+      ],
+      "justification": "Deceased citizen of Kraków whose estate is the subject of the power of attorney."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "civitate"
+      ],
+      "justification": "City where Stanislaus Jelatinowicz resided and died."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Jacobus Schieschowszki ... Collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Dzedossiczki ... Collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "originates_from",
+      "tail_entity_id": "E5",
+      "evidence": "Andreas Dzedossiczki de Sambor"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Andreae Jelatinowicz filij olim Nicolai Jelatini"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nicolai Jelatini Iuris Utriusque Doctoris Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobum Scholcz Civem habitem et Negotiatorem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nicolaum Jelatinum Civem Leopoliensem fratrem natu maiorem praedicti Andreae pupilli"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Nicolaum Jelatinum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stanislai Jelatinowicz Civis Cracoviensis praedicti pupilli sui fratris germani"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E12",
+      "evidence": "Stanislai Jelatinowicz Civis Cracoviensis"
+    }
+  ]
+}

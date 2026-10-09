@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/1138.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacram Regiam Maiestatem",
+        "Maiestatis"
+      ],
+      "justification": "Identified as King Sigismund III Vasa, referred to by his royal title."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officii eiusdem",
+        "Acta",
+        "acta",
+        "Protocollo",
+        "Actis"
+      ],
+      "justification": "The municipal council of Lviv before which the proceedings took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv where the act was recorded and of which the parties are citizens."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "Sabbato post Festum Epiphaniae Domini proxima. Anno Domini Millesimo quingentesimo Nonagesimo Tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded council session."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Iwan Bildaha Parstennik",
+      "mention_texts": [
+        "Iwan Bildaha Parstennik"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "pars adversa"
+      ],
+      "justification": "The plaintiff who entered the denunciation via his proctor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Procuratorem suum",
+        "Honestum"
+      ],
+      "justification": "Procurator acting on behalf of Iwan Bildaha Parstennik."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Iwan Ziemionowicz",
+      "mention_texts": [
+        "Iwanisko",
+        "Iwanis Ziemionowicz"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "citatus",
+        "Famatum",
+        "aurificem Leopoliensem",
+        "citatum",
+        "quem"
+      ],
+      "justification": "The defendant goldsmith who appealed against the council's decree to the royal court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Iudicium Regium",
+      "mention_texts": [
+        "Iudicium Regium",
+        "Iudicium Regium Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Royal Court to which the appeal was directed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Iwan Bildaha Parstennik Civis Leopoliensis per Procuratorem suum Honestum Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "opposes",
+      "tail_entity_id": "E7",
+      "evidence": "denunciationem fecit contra Famatum Iwanis Ziemionowicz aurificem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "appealed_to",
+      "tail_entity_id": "E1",
+      "evidence": "praedictus Iwanisko citatus appellationem ad Sacram Regiam Maiestatem interposuit"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "appealed_to",
+      "tail_entity_id": "E8",
+      "evidence": "appellationem praedictam ad Iudicium Regium inseri expediri mandauimus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Iwan Bildaha Parstennik Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Iwanis Ziemionowicz aurificem Leopoliensem"
+    }
+  ]
+}

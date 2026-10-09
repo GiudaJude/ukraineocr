@@ -1,0 +1,247 @@
+{
+  "document_id": "arc2/0433.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Leopolitanorum",
+        "Ciuitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the entry as the location of the acts and the jurisdiction of the guild."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The calendar year of the record."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Vigilia Assumptionis B.M.V.",
+        "Festo Assumptionis Beatae Virginis Mariae",
+        "Festum Assumptionis"
+      ],
+      "descriptive_mentions": [
+        "praesenti Festo",
+        "aliud simile Festum"
+      ],
+      "justification": "Feast day cited in the dating formula and as terms of payment."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0025: Shoemakers' Guild",
+      "mention_texts": [
+        "Contubernii Sutorum",
+        "Contubernij Sutorum Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "contubernium praedictum",
+        "Contubernalium",
+        "contubernij",
+        "totius contubernij",
+        "contubernium"
+      ],
+      "justification": "The shoemakers' guild of Lviv represented by its guildmasters."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Dambek",
+      "mention_texts": [
+        "Mathias Dambek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Cechmagri Contubernij Sutorum Civitatis Leopoliensis",
+        "recognoscentium"
+      ],
+      "justification": "Guildmaster of the Shoemakers' Guild appearing in the record."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Obuch",
+      "mention_texts": [
+        "Jacobus Obuch"
+      ],
+      "descriptive_mentions": [
+        "Cechmagri Contubernij Sutorum Civitatis Leopoliensis",
+        "recognoscentium"
+      ],
+      "justification": "Guildmaster of the Shoemakers' Guild appearing in the record."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Dudczek",
+      "mention_texts": [
+        "Bartholomaei Dudczek"
+      ],
+      "descriptive_mentions": [
+        "honestorum",
+        "Fratrum suorum contubernalium"
+      ],
+      "justification": "Guild brother present during the transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Adamus Mieszkanczyk",
+      "mention_texts": [
+        "Adami Mieszkanczyk"
+      ],
+      "descriptive_mentions": [
+        "honestorum",
+        "Fratrum suorum contubernalium"
+      ],
+      "justification": "Guild brother present during the transaction."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "128 Polish florins",
+      "mention_texts": [
+        "Florenorum Centum viginti octo Polonicalium",
+        "Centum viginti octo Florenos"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount held and owed to the ward Albertus Wieliczic."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wieliczic",
+      "mention_texts": [
+        "Albertus Wieliczic",
+        "Albertum Wieliczic",
+        "Alberto"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum",
+        "filiastrum olim Famati Wieliczic et Annae coniugum Suburbanorum Leopolitanorum",
+        "ingenuo",
+        "minori",
+        "Ingenuo"
+      ],
+      "justification": "Minor beneficiary of the deposit held by the guild."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Wieliczic",
+      "mention_texts": [
+        "Wieliczic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "coniugum Suburbanorum Leopolitanorum anno praeterito tempore pestis peste vita functorum"
+      ],
+      "justification": "Deceased suburbanite of Lviv, deceased relative of Albertus."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugum Suburbanorum Leopolitanorum anno praeterito tempore pestis peste vita functorum"
+      ],
+      "justification": "Deceased wife of Wieliczic."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "12 florins",
+      "mention_texts": [
+        "Florenos duodecim"
+      ],
+      "descriptive_mentions": [
+        "censum"
+      ],
+      "justification": "Annual interest payment owed for board and clothing."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Future date of the payment term."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "guildmaster_of",
+      "tail_entity_id": "E4",
+      "evidence": "Mathias Dambek et Jacobus Obuch Cechmagri Contubernij Sutorum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guildmaster_of",
+      "tail_entity_id": "E4",
+      "evidence": "Mathias Dambek et Jacobus Obuch Cechmagri Contubernij Sutorum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Bartholomaei Dudczek et Adami Mieszkanczyk Fratrum suorum contubernalium"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Bartholomaei Dudczek et Adami Mieszkanczyk Fratrum suorum contubernalium"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Contubernij Sutorum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Famati Wieliczic et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "relative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Albertum Wieliczic filiastrum olim Famati Wieliczic"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "relative_of",
+      "tail_entity_id": "E12",
+      "evidence": "Albertum Wieliczic filiastrum olim Famati Wieliczic et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E10",
+      "evidence": "teneri et debere summam Florenorum Centum viginti octo Polonicalium numeri ad Ingenuum Albertum Wieliczic"
+    }
+  ]
+}

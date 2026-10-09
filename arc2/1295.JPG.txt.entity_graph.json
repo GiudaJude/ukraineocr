@@ -1,0 +1,209 @@
+{
+  "document_id": "arc2/1295.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar Brankus",
+      "mention_texts": [
+        "Caspar Brancus",
+        "Casparo Brankus"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Nobili",
+        "Presbytero",
+        "dicti Nobilis condescensarii"
+      ],
+      "justification": "Named in the header and the text as a noble priest receiving the debt cession."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0037: Thomas Leonowic",
+      "mention_texts": [
+        "Tomas Vngarus",
+        "Tomas Saryszki Vngarus"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honesti",
+        "coniuges",
+        "eundem maritum tutorem suum legitima"
+      ],
+      "justification": "Identified as Thomas Szawrzyski (Vngarus), husband of Agnes."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honesti",
+        "coniuges",
+        "praedicte Agnes"
+      ],
+      "justification": "Wife of Tomas Saryszki and former wife of the deceased Paulus Czop."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "praesentis Offitii",
+        "Officiosa",
+        "Officiose"
+      ],
+      "justification": "The municipal office before which the parties appeared."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "33 florins 10 groschen",
+      "mention_texts": [
+        "triginta trium florenorum et grossorum decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sum of debt being ceded."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Libator",
+      "mention_texts": [
+        "Sebastianum Libatorem"
+      ],
+      "descriptive_mentions": [
+        "Honestum"
+      ],
+      "justification": "The debtor who owed the money from the purchase of goods."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulo Czob",
+        "Pauli Czob"
+      ],
+      "descriptive_mentions": [
+        "Famato olim",
+        "priore marito"
+      ],
+      "justification": "The late first husband of Agnes, to whom the debt was originally owed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city where the act was recorded."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post festum Sancti Mathie Apostoli Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Szlesnek",
+      "mention_texts": [
+        "Erasmus Szlesnek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the subsequent entry's header."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szydliczka",
+      "mention_texts": [
+        "Joannes Szydliczka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the header of entry 1163."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kobierzycki",
+      "mention_texts": [
+        "Joannes Kobyerziczkii"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Socius"
+      ],
+      "justification": "Appearing party in entry 1163, partner of Belzendorf."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Belzendorf",
+      "mention_texts": [
+        "Belzendori"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person whose partner is Joannes Kobierzycki."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "St. George's Hill",
+      "mention_texts": [
+        "monte Sancti Georgii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Topographical landmark in the Kraków Suburb."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracouien"
+      ],
+      "descriptive_mentions": [
+        "suburbio"
+      ],
+      "justification": "The Kraków Suburb of Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Tomas Saryszki Vngarus et Agnes coniuges approbando sua sponte perum et uires distronem praesentis Offitii ibo perse Jacvero per eundem maritum tutorem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Paulo Czob praedicte Agnes priore marito"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "associate_of",
+      "tail_entity_id": "E13",
+      "evidence": "Joannes Kobyerziczkii Belzendori Socius"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E15",
+      "evidence": "sub monte Sancti Georgii in Cracouien suburbio situm"
+    }
+  ]
+}

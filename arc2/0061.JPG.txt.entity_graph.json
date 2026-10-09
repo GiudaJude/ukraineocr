@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/0061.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolitani",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the text across multiple administrative and conventual contexts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij"
+      ],
+      "descriptive_mentions": [
+        "Judicio Officij",
+        "sententia Officij",
+        "nostram Consularem residentiam"
+      ],
+      "justification": "The municipal council/court before which the declarations were made."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "quadringetorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of four hundred florins mentioned in the context of matrimonial legacy/compensation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Melchior Osmolski",
+      "mention_texts": [
+        "Melchior Osmolski"
+      ],
+      "descriptive_mentions": [
+        "praenominatus"
+      ],
+      "justification": "Person appearing in court revoking a legacy."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Regina Piotrkowic",
+      "mention_texts": [
+        "Regina",
+        "Reginae",
+        "Regina Piotrkowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Woman named as the beneficiary of the legacy and wife of Martinus Jurad."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Jurad",
+      "mention_texts": [
+        "Martino Jurad"
+      ],
+      "descriptive_mentions": [
+        "marito suo"
+      ],
+      "justification": "Husband of Regina Piotrkowic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus",
+      "mention_texts": [
+        "Albertus",
+        "Albertus Skarnowicen",
+        "Albertus de magna Opatow"
+      ],
+      "descriptive_mentions": [
+        "Religiosus",
+        "Frater",
+        "Praedicatorum Societatis Praedicator",
+        "Filius"
+      ],
+      "justification": "Bernardine friar making a declaration before the council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Order of Friars Minor",
+      "mention_texts": [
+        "Fratrum Minorum de Observantia Sancti Francisci"
+      ],
+      "descriptive_mentions": [
+        "religionem praefatam"
+      ],
+      "justification": "Religious order of Friars Minor Observant to which Frater Albertus belongs."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose Franciscan/Bernardine convent Frater Albertus is associated with."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Opatów",
+      "mention_texts": [
+        "magna Opatow",
+        "Opatoviensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Albertus and his parents."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Georgius Fabriluta",
+      "mention_texts": [
+        "Georgij Fabriluta"
+      ],
+      "descriptive_mentions": [
+        "Honestorum olim",
+        "coniugum",
+        "Ciuium Opatoviensium"
+      ],
+      "justification": "Deceased citizen of Opatów, father of Albertus."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "Ciuium Opatoviensium"
+      ],
+      "justification": "Deceased citizen of Opatów, wife of Georgius Fabriluta and mother of Albertus."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Antonius Zaremba",
+      "mention_texts": [
+        "Antonij Zaremba"
+      ],
+      "descriptive_mentions": [
+        "Religiosi Patris",
+        "Leopolitani Conuentus eiusdem Confessarij",
+        "socium simul et testem"
+      ],
+      "justification": "Father confessor of the Lviv Franciscan/Bernardine convent."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Martinus",
+      "mention_texts": [
+        "Stanislaum Martinum"
+      ],
+      "descriptive_mentions": [
+        "Dominum",
+        "Collegam meum Consularem",
+        "Fideiussorem"
+      ],
+      "justification": "Councilor and guarantor named in the record."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "vna cum sec ipso marito suo Martino Jurad"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honestorum olim Georgij Fabriluta et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestorum olim Georgij Fabriluta et Annae coniugum Ciuium Opatoviensium Filius"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honestorum olim Georgij Fabriluta et Annae coniugum Ciuium Opatoviensium Filius"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Albertus de magna Opatow Fratrum Minorum de Observantia Sancti Francisci"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Religiosi Patris Antonij Zaremba Leopolitani Conuentus eiusdem Confessarij"
+    }
+  ]
+}

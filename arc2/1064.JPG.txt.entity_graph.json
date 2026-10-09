@@ -1,0 +1,109 @@
+{
+  "document_id": "arc2/1064.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv (Leopolis), referenced by name and suburban origin."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis",
+        "officio praesens",
+        "Actis nostris",
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular municipal office and court records of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Nouicampiano"
+      ],
+      "descriptive_mentions": [
+        "Dominus Doctor",
+        "spectabilis Domini",
+        "Collega nostro Consulari",
+        "eiusdem",
+        "eundem",
+        "praefatus Dominus Doctor",
+        "Domino Doctori",
+        "ille",
+        "Doctori"
+      ],
+      "justification": "Paulus Novicampianus, referred to as council colleague and doctor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Augustinus Szolarz",
+      "mention_texts": [
+        "Augustini Szolarz",
+        "Augustinus Kirslans",
+        "Augustinus Illicianos"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "suburbanus Leopoliensis",
+        "praedictus"
+      ],
+      "justification": "Suburban resident protesting the increase in annual ground rent."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus",
+        "Jacobus Siboles"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus"
+      ],
+      "justification": "Jacobus Scholz (scabinus), appearing before the consular office."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Gelasij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Gelasinus, whose curators are mentioned in the entry heading."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "spectabilis Domini Pauli Nouicampiano Collega nostro Consulari"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestus Augustinus Kirslans suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honoratus Jacobus Siboles Scabinus"
+    }
+  ]
+}

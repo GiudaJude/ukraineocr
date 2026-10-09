@@ -1,0 +1,73 @@
+{
+  "document_id": "arc2/0024.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis",
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The consular office of Lviv presiding over the legal proceedings and issuing the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Irzanowska House",
+      "mention_texts": [
+        "Irzanowska"
+      ],
+      "descriptive_mentions": [
+        "domus praefatae",
+        "praefatam domum",
+        "domum praedictam"
+      ],
+      "justification": "The mortgaged house property subject to the dispute."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "350 florins",
+      "mention_texts": [
+        "trecentis quinquaginta florenis",
+        "trecentorum quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary obligation sum regarding the house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Clara Irzanowna",
+      "mention_texts": [
+        "Clarae Irzanowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named to whom the 350 florins obligation sum is to be repaid."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Głazowski",
+      "mention_texts": [
+        "Sigismundo Głazowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Noble for whom a decree is recorded at the end of the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "issued_decree_for",
+      "tail_entity_id": "E5",
+      "evidence": "Decretum pro Sigismundo Głazowski Ex Decreto Officii Consularis Leopoliensis"
+    }
+  ]
+}

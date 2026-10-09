@@ -1,0 +1,116 @@
+{
+  "document_id": "arc2/0707.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the text via the adjective/demonym 'Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officij"
+      ],
+      "justification": "The municipal office/court before which the controversy was settled."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "David Jonepkowicz",
+      "mention_texts": [
+        "Davide Jonepkowicz"
+      ],
+      "descriptive_mentions": [
+        "praedicto"
+      ],
+      "justification": "Party involved in the legal controversy mentioned at the start of the entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Szaszor Jaroszowicz",
+      "mention_texts": [
+        "Szaszsorem Jaroszowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Civem Leopoliensis"
+      ],
+      "justification": "Burgher of Lviv against whom the plaintiffs took action."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szaszor",
+      "mention_texts": [
+        "Joannem Szaszsorem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in connection with the legal claim."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "David Pereszlowicz",
+      "mention_texts": [
+        "Davidem Pereszlowicz"
+      ],
+      "descriptive_mentions": [
+        "praedictam"
+      ],
+      "justification": "Individual mentioned in relation to the claims concerning the inheritance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Palatin Soldatowia",
+      "mention_texts": [
+        "Palatin Soldatowia"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "olim"
+      ],
+      "justification": "Deceased individual whose estate/goods are discussed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Jaroszewicz",
+      "mention_texts": [
+        "Paulus Jaroszewicz"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "Famatus"
+      ],
+      "justification": "Party responding with an exception to the claim."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Janos",
+      "mention_texts": [
+        "Janoss"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual whose mandate ('mandatum Janoss') was presented upon petition."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Szaszsorem Jaroszowicz Civem Leopoliensis"
+    }
+  ]
+}

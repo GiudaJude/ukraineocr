@@ -1,0 +1,81 @@
+{
+  "document_id": "arc2/0977.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo solenni Paschae",
+        "Festum Paschae",
+        "Festum Paschae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Easter feast terms set for the repayment of the mortgage"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno 159 septimo",
+        "Anno 159 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1597 specified in the repayment terms"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "eiusdem summae",
+        "eandem summam"
+      ],
+      "justification": "Principal sum of one hundred florins for which the house and garden were mortgaged"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Staliczkie"
+      ],
+      "descriptive_mentions": [
+        "suburbio Civitatis huius",
+        "suburbio"
+      ],
+      "justification": "Halych suburb where the mortgaged property is situated"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Ewa Smoczkowa",
+      "mention_texts": [
+        "Ewa Smoczkowa",
+        "Smoczkowa"
+      ],
+      "descriptive_mentions": [
+        "oppignoratrix"
+      ],
+      "justification": "Pledgor mortgaging her house and garden"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Ambroży",
+      "mention_texts": [
+        "Ambrozy"
+      ],
+      "descriptive_mentions": [
+        "Juratores"
+      ],
+      "justification": "Juror whose house neighbors the mortgaged property"
+    }
+  ],
+  "relationships": []
+}

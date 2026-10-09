@@ -1,0 +1,81 @@
+{
+  "document_id": "arc2/0670.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sigismund II Augustus",
+      "mention_texts": [
+        "Sigismundi Augusti"
+      ],
+      "descriptive_mentions": [
+        "Serenissimi olim ... Regis",
+        "Regis",
+        "Regiae Maiestati"
+      ],
+      "justification": "King of Poland referenced as having issued a decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Sanok",
+      "mention_texts": [
+        "Sanocensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis eiusdem"
+      ],
+      "justification": "City whose community and officials were parties to the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Piotrków Trybunalski",
+      "mention_texts": [
+        "Petricouia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the General Sejm where the decree was dated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kingdom of Poland referred to in 'Conuentu Generali Regni'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1563",
+      "mention_texts": [
+        "feria secunda ante Festum Sanctae Agnetis proxima Anno Domini 1563"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the royal decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "ruler_of",
+      "tail_entity_id": "E4",
+      "evidence": "Serenissimi olim Sigismundi Augusti Regis ... Regni"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Petricouia in Conuentu Generali Regni"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Ciuitatis eiusdem Sanocensis ... Regni"
+    }
+  ]
+}

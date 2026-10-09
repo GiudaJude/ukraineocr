@@ -1,0 +1,104 @@
+{
+  "document_id": "arc2/0765.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "Florenos Quadringentos",
+        "Florenos 400.",
+        "Florenos 400.",
+        "Florenos 400."
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "hanc ipsam summam",
+        "supra recensita summa",
+        "summa principali",
+        "hanc ipsam praefatam summam"
+      ],
+      "justification": "Debt amount specified as 400 florins, calculated at 30 grosze per florin in Polish currency."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni Pologno",
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the Kingdom of Poland whose currency and royal processes are mentioned."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Mikolayowicz",
+      "mention_texts": [
+        "Stephano Mikolayowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Leoniensi",
+        "Civi Leopoliensi",
+        "affini suo",
+        "Creditori suo"
+      ],
+      "justification": "Creditor and citizen of Lviv to whom the debt is owed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City of Lviv where Stephanus is a citizen and where the secured property is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo Sanctae Agnetis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day set as repayment deadline."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno 1597."
+      ],
+      "descriptive_mentions": [
+        "proxime futuro"
+      ],
+      "justification": "Year of the repayment deadline."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestate"
+      ],
+      "justification": "The King of Poland referenced in the standard legal renunciation clause against royal safe-conducts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Civi Leopoliensi"
+    }
+  ]
+}

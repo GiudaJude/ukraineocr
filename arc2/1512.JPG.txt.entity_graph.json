@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/1512.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobo Zgorzalek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Pellioni",
+        "Ciui Leopoliensi",
+        "praedicto Creditori",
+        "idem Creditor"
+      ],
+      "justification": "Identified by name and trade as furrier and citizen of Lviv, creditor of the transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "eiusdem Civitatis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the acts were registered and of which the persons and guilds were citizens."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo S. Agnetis"
+      ],
+      "descriptive_mentions": [
+        "mercatu Leopoliensi Festo S. Agnetis proxime celebrando"
+      ],
+      "justification": "Payment due date tied to the Lviv market."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Segliczna Wola",
+      "mention_texts": [
+        "Segliczna Wola"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the pledged plot of land (sortula) was situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "27 florins",
+      "mention_texts": [
+        "viginti septem Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum owed by the debtor to the creditor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quarta ante festum\nS. Andreae Festi proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Goldsmiths' Guild",
+      "mention_texts": [
+        "Contubernium\nAurifabrorum",
+        "Contubernium Aurifabrorum Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Famatos\nMagistros totumque Contubernium",
+        "actores",
+        "pars"
+      ],
+      "justification": "The plaintiffs in the guild dispute over gilding/metalwork rights."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Loriners' Guild",
+      "mention_texts": [
+        "Contubernium\nFrenificum",
+        "Contubernium Frenificum eiusdem Civitatis"
+      ],
+      "descriptive_mentions": [
+        "citatos",
+        "citata",
+        "pars"
+      ],
+      "justification": "The summoned guild in the legal dispute."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij",
+        "praesenti Officio",
+        "Officium\npraesens",
+        "Officium"
+      ],
+      "justification": "The municipal council acting in its judicial capacity."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Civitatis Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose guild customs are cited in the dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famato Jacobo Zgorzalek Pellioni Ciui Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Contubernium Aurifabrorum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Contubernium Frenificum eiusdem Civitatis"
+    }
+  ]
+}

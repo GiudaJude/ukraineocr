@@ -1,0 +1,90 @@
+{
+  "document_id": "arc2/0719.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0134: Paulus Aromatarius",
+      "mention_texts": [
+        "Pauli Stromaczarii",
+        "Paulus Abrahamowicz Aromatarius"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "protestatus"
+      ],
+      "justification": "Identified as Paulus Abrahamowicz Aromatarius (corrupted as Pauli Stromaczarii in heading), burgher of Lviv submitting a protestation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Loxanioviciani"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Doctoris",
+        "moderni Doctorem Consulem Leopoliensis"
+      ],
+      "justification": "Doctor of Medicine and current consul of Lviv, referred to via an OCR variation 'Pauli Loxanioviciani' for Pauli Novicampiani."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears adjectivally in 'Civis Leopoliensis' and 'Consulem Leopoliensis'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra",
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause referencing the date established at the beginning of the session."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Zygmuntowic",
+      "mention_texts": [
+        "Paulus Zygmuntowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or witness at the conclusion of the entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Szewcowic",
+      "mention_texts": [
+        "Martinus Szewcowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or witness at the conclusion of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "moderni Doctorem Consulem Leopoliensis"
+    }
+  ]
+}

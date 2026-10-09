@@ -1,0 +1,180 @@
+{
+  "document_id": "arc2/1140.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [
+        "Domini Domini Clementissimam"
+      ],
+      "justification": "Royal majesty to whom the appellant appealed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "officium nostrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office which handled the appeal and confirmed the appointment of the guardian."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referencing the date recorded in the entry immediately preceding this act in the 1595 council book."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Anna Bolezanka",
+      "mention_texts": [
+        "Anna Vyszlezanka",
+        "Anna Bolezanka"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "Woman who personally appeared with her tutor to sell her hereditary share in a house and garden."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Suburbanum Leopoliensem",
+        "tutorem sibi ad eum actum assumptum",
+        "tutorem"
+      ],
+      "justification": "Suburban inhabitant of Lviv who acted as appointed guardian for Anna Bolezanka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius"
+      ],
+      "justification": "City of Lviv, referenced in the suburban descriptor and city suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius Suburbio Haliciensi nuncupato"
+      ],
+      "justification": "Halych suburb of Lviv, where the property being sold is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Skałka",
+      "mention_texts": [
+        "montis Skalka"
+      ],
+      "descriptive_mentions": [
+        "decliuio montis Skalka dicti"
+      ],
+      "justification": "Slope of Mount Skałka where the property is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mathias Rottendorff",
+      "mention_texts": [
+        "Mathiam Rotherdorps"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner on the slope of Mount Skałka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Damian Dridua",
+      "mention_texts": [
+        "Damian Dridua"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner on the slope of Mount Skałka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Lusma",
+      "mention_texts": [
+        "Stanislaus Susma",
+        "Stanislao Lusma"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Pistori",
+        "Emptori"
+      ],
+      "justification": "Baker who purchased the inherited share in the house and garden."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Florenos decem"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici"
+      ],
+      "justification": "Amount of ten Polish florins paid for the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Adamum Kalinowski Suburbanum Leopoliensem tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sold_to",
+      "tail_entity_id": "E11",
+      "evidence": "vendidisse praesentisque inscriptionis vigore vendere sortem suam... Honestis Stanislao Lusma Pistori"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in Ciuitatis huius Suburbio Haliciensi nuncupato in decliuio montis Skalka dicti"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Ciuitatis huius Suburbio Haliciensi nuncupato"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Adamum Kalinowski Suburbanum Leopoliensem"
+    }
+  ]
+}

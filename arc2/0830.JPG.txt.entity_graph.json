@@ -1,0 +1,127 @@
+{
+  "document_id": "arc2/0830.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The municipal council office deliberating and recording court transactions."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Iwan Kluczar",
+      "mention_texts": [
+        "Iwan Kluczar"
+      ],
+      "descriptive_mentions": [
+        "Creditori suo",
+        "Creditor"
+      ],
+      "justification": "Creditor in entry 779 to whom Ilko Faykowic owes money."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Ilko Faykowic",
+      "mention_texts": [
+        "Ilko Faykowic",
+        "Ilko Faykowic"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Debtor who acknowledges owing six florins to Iwan Kluczar and pledges a land plot."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, where Ilko Faykowic resides in the suburbs and where the court session is held."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0172: 6 florins",
+      "mention_texts": [
+        "florenos sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount acknowledged by Ilko Faykowic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Beatissimi Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for repayment of the loan."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Most Wołoski",
+      "mention_texts": [
+        "ponte Walachico"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the plot of land pledged by Ilko Faykowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Klis Schumacher",
+      "mention_texts": [
+        "Klis Schumacher"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the heading of entry 780."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Wachman Tkaczowic",
+      "mention_texts": [
+        "Wachman Tkaczowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the heading of entry 780."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria secunda post Festum Conversionis Beati Pauli Apostoli proxima Anno Domini 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry 780."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestus Ilko Faykowic Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E2",
+      "evidence": "Ilko Faykowic Suburbanus Leopoliensis palam publice benevoleque recognovit se debere veri certi veri liquidique debiti ex causa mutui contracti florenos sex... eidem Creditori suo"
+    }
+  ]
+}

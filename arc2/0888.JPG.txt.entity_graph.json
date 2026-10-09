@@ -1,0 +1,211 @@
+{
+  "document_id": "arc2/0888.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "officium nostrum",
+        "ijsdem Actis"
+      ],
+      "justification": "The municipal council/chancellery before which the witnesses testified and registration was enacted ('officium nostrum', 'Actis nostris')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bolek",
+      "mention_texts": [
+        "Joannes Bolek"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cives Leopolienses",
+        "Cives iurati"
+      ],
+      "justification": "Witness testifying to the legitimate birth of Adam Brodzic."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Łysiakorowski",
+      "mention_texts": [
+        "Thomas Lusyia- korowski"
+      ],
+      "descriptive_mentions": [
+        "Scamfex",
+        "Cives Leopolienses",
+        "Cives iurati"
+      ],
+      "justification": "Shoemaker/scamfex and citizen of Lviv acting as a witness."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned repeatedly in adjectival forms."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adam Brodzic",
+      "mention_texts": [
+        "Adam Brozic",
+        "Adami Brodzic",
+        "Adamum Brodzicz"
+      ],
+      "descriptive_mentions": [
+        "ingenui",
+        "civis",
+        "artifacio Sellificam operam navantem"
+      ],
+      "justification": "Subject of the legitimate birth certification, currently working as a saddler in Poznań."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Grabiecz",
+      "mention_texts": [
+        "Christopheri Grabiecz",
+        "Christopherus Grabiecz"
+      ],
+      "descriptive_mentions": [
+        "civis",
+        "affinis"
+      ],
+      "justification": "Citizen of Lviv and in-law/relative of Adam Brodzic requesting the certification."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0050: Poznań",
+      "mention_texts": [
+        "Posnaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Adam Brodzic is currently residing/practicing his trade."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Broda",
+      "mention_texts": [
+        "Joanne Broda"
+      ],
+      "descriptive_mentions": [
+        "Patre olim",
+        "patre",
+        "coniugibus",
+        "Civibus Leopoliensibus"
+      ],
+      "justification": "Late father of Adam Brodzic."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnete"
+      ],
+      "descriptive_mentions": [
+        "matre",
+        "coniugibus",
+        "Civibus Leopoliensibus"
+      ],
+      "justification": "Mother of Adam Brodzic and wife of Joannes Broda."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Gładysz",
+      "mention_texts": [
+        "Albertus Gladysz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Laniator",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Butcher and citizen of Lviv who acknowledges receipt of debt satisfaction."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Florenis Centum quinquaginta"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Amount of the settled debt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Daniel Loyk",
+      "mention_texts": [
+        "Danielis Loyk",
+        "Danielem Loyk",
+        "Daniele Loyk"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "eodem praedicto"
+      ],
+      "justification": "Deceased debtor whose obligation is satisfied."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Loykowska House",
+      "mention_texts": [
+        "Loykowskiej"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae"
+      ],
+      "justification": "Stone townhouse on which the debt had been hypothecated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Patre olim Joanne Broda patre ... progenitum esse"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Agnete matre ... progenitum esse"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Patre olim Joanne Broda patre et Agnete matre coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Christopheri Grabiecz Leopoliensis civis eorundem fadam affinis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "associated_with",
+      "tail_entity_id": "E13",
+      "evidence": "in certis habitationibus domus lapideae Loykowskiej hipotecati"
+    }
+  ]
+}

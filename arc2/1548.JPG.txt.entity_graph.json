@@ -1,0 +1,226 @@
+{
+  "document_id": "arc2/1548.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Juris Utrinque Doctor Advocatus Ordinarius"
+      ],
+      "justification": "Named as the presiding advocate of the city council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Melchior Troelsszwic",
+      "mention_texts": [
+        "Melchior Troelsszwic"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini",
+        "Juris Fideles"
+      ],
+      "justification": "Named as a bencher (scabinus) of the city of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamus Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini",
+        "Juris Fideles"
+      ],
+      "justification": "Named as a bencher (scabinus) alongside Melchior Troelsszwic."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Senatu Civitatis Leopoliensis",
+        "Officio suo",
+        "Acta praesentia",
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal authority and bench court conducting the legal action and recording it."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis",
+        "Civitatis eiusdem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city where the court sits and the jurisdiction applies."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Sbarbiowic",
+      "mention_texts": [
+        "Hieronymo Cerdone",
+        "Hieronymi Sbarbiowic Cerdonis",
+        "Hieronymo Cerdoni",
+        "Hieronymo",
+        "Hieronymi"
+      ],
+      "descriptive_mentions": [
+        "Cerdonis Suburbani Leopoliensis",
+        "Creditori",
+        "Parte vero adversa"
+      ],
+      "justification": "Creditor at whose instance the judicial entry into property (intromissio) is granted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "sabbato postridie Festi Sancti Nicolai Episcopi Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the decree by which the benchers acted, matching the corpus calendar formula for 1597."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lucas Cerdo",
+      "mention_texts": [
+        "Lucae Cerdonis",
+        "Lucas Cerdo",
+        "Lucas",
+        "Lucam"
+      ],
+      "descriptive_mentions": [
+        "socrum",
+        "ipsum Lucam"
+      ],
+      "justification": "Debtor against whose house and shares intromission is being executed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio eiusdem Civitatis Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The suburb where the subject house is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "platea Cerdonum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The street where the house is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Adam Szalewski",
+      "mention_texts": [
+        "Adam Szalewski"
+      ],
+      "descriptive_mentions": [
+        "Cerdonis"
+      ],
+      "justification": "Neighbor adjacent to the property in question."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Poltva",
+      "mention_texts": [
+        "Poltew"
+      ],
+      "descriptive_mentions": [
+        "fluvium"
+      ],
+      "justification": "River above which the disputed house is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "28 Polish florins 20 groschen",
+      "mention_texts": [
+        "viginti octo florenorum atque viginti grossorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Amount of debt being recovered."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Vianna Sienkowa",
+      "mention_texts": [
+        "Viannam Sienkowa",
+        "Vianna"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "vidua",
+        "socrum",
+        "socru sua",
+        "principalis debitricis"
+      ],
+      "justification": "Widow and mother-in-law of Lucas Cerdo, who originally contracted the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Dominus Gregorius Dobrocki Juris Utrinque Doctor Advocatus Ordinarius, et Honorati Melchior Troelsszwic atque Adamus Smieszek Scabini Senatu Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Melchior Troelsszwic atque Adamus Smieszek Scabini Senatu Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Melchior Troelsszwic atque Adamus Smieszek Scabini Senatu Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "parent_in_law_of",
+      "tail_entity_id": "E8",
+      "evidence": "Viannam Sienkowa vidua traditi et Lucae Cerdonis socrum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in Suburbio eiusdem Civitatis Haliciensi vacato in platea Cerdonum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in Suburbio eiusdem Civitatis Haliciensi"
+    }
+  ]
+}

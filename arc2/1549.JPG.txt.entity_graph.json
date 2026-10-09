@@ -1,0 +1,310 @@
+{
+  "document_id": "arc2/1549.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium ipsius",
+        "Officio nostro"
+      ],
+      "justification": "The document references the Lviv consular office acting as the municipal court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Chmielowski",
+      "mention_texts": [
+        "Tomas Chmielowski",
+        "Thomas Chmielowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "praedictus"
+      ],
+      "justification": "Noble plaintiff lodging a denunciation against Martinus Rokossowski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Rokossowski",
+      "mention_texts": [
+        "Martinum Rokossowsky"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Scabinum Curia Leopoliensi",
+        "citatum",
+        "eundem citatum"
+      ],
+      "justification": "Defendant and bencher cited before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Gałogrzyk",
+      "mention_texts": [
+        "Alberti Galogrzyk"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "Famati Civis Iurati"
+      ],
+      "justification": "Sworn citizen who reported the citation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Curia Leopoliensi",
+        "Civitatis eiusdem",
+        "Civitas Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Eva Suszkowa",
+      "mention_texts": [
+        "Eva Suszkowa",
+        "Eva"
+      ],
+      "descriptive_mentions": [
+        "Devota",
+        "Monialis",
+        "coheredes"
+      ],
+      "justification": "Nun from the convent of All Saints releasing her former guardians."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Galiciensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem Suburbio Galiciensi dicto"
+      ],
+      "justification": "The Halych suburb of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Church of All Saints",
+      "mention_texts": [
+        "Ecclesiam Omnium Sanctorum",
+        "Ecclesiae Omnium Sanctorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Church located in the Halych suburb."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Convent of All Saints",
+      "mention_texts": [
+        "Caenobio Virginum"
+      ],
+      "descriptive_mentions": [
+        "Caenobio Virginum circa Ecclesiam Omnium Sanctorum in Civitatis eiusdem Suburbio Galiciensi dicto sita"
+      ],
+      "justification": "Monastery of nuns located next to All Saints church."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czam",
+      "mention_texts": [
+        "Joannis Czam"
+      ],
+      "descriptive_mentions": [
+        "Venerabilis Domini",
+        "Praepositi Ecclesiae Omnium Sanctorum"
+      ],
+      "justification": "Provost of All Saints church providing personal assistance."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Szwarc",
+      "mention_texts": [
+        "Bartholomeum Szwarc"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Tutorem sibi ad eum actum assumpti"
+      ],
+      "justification": "Guardian appointed ad hoc for Eva."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Alberto Pomagata"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Carnificibus",
+        "Tutoribus suis"
+      ],
+      "justification": "Butcher and guardian of Eva."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Mathias Giermianek",
+      "mention_texts": [
+        "Matra Giermianek"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Carnificibus",
+        "Tutoribus suis"
+      ],
+      "justification": "Butcher and guardian of Eva."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Wojciech Szwat",
+      "mention_texts": [
+        "Szwat",
+        "Woyciechus"
+      ],
+      "descriptive_mentions": [
+        "Liberorum"
+      ],
+      "justification": "Mentioned in the marginalia and heading concerning the children of Szwat."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Piotr Szwat",
+      "mention_texts": [
+        "Piotr Szwat"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned alongside Wojciech Szwat in the margin."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Anna Herburt z Bobrku",
+      "mention_texts": [
+        "Anna de Bobrek"
+      ],
+      "descriptive_mentions": [
+        "Magnifici Domini",
+        "Suis amicis amantissimae"
+      ],
+      "justification": "Wife of Mikołaj Herburt z Fulsztyna."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Mikołaj Herburt z Fulsztyna",
+      "mention_texts": [
+        "Nicolai Herbort a Fulstyn"
+      ],
+      "descriptive_mentions": [
+        "Magnifici Domini et Domini",
+        "Palatini Sandomiriensis",
+        "Leopoliensis ac Terrarum Russiae Capitanei"
+      ],
+      "justification": "Palatine of Sandomierz and captain of Lviv and Ruthenia."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "LOC-0084: Sandomierz",
+      "mention_texts": [
+        "Sandomiriensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Palatinate of Sandomierz."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Terrarum Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ruthenian lands/palatinate."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "circa Ecclesiam Omnium Sanctorum in Civitatis eiusdem Suburbio Galiciensi dicto sita"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "suburb_of",
+      "tail_entity_id": "E5",
+      "evidence": "in Civitatis eiusdem Suburbio Galiciensi dicto"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "praepositus_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannis Czam Praepositi Ecclesiae Omnium Sanctorum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "ab Honestis Alberto Pomagata et Matra Giermianek Carnificibus Tutoribus suis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "ab Honestis Alberto Pomagata et Matra Giermianek Carnificibus Tutoribus suis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "Bartholomeum Szwarc Tutorem sibi ad eum actum assumpti"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "spouse_of",
+      "tail_entity_id": "E17",
+      "evidence": "Anna de Bobrek Magnifici Domini et Domini Nicolai Herbort a Fulstyn Palatini Sandomiriensis Leopoliensis ac Terrarum Russiae Capitanei"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "palatine_of",
+      "tail_entity_id": "E18",
+      "evidence": "Nicolai Herbort a Fulstyn Palatini Sandomiriensis"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "captain_of",
+      "tail_entity_id": "E5",
+      "evidence": "Palatini Sandomiriensis Leopoliensis ac Terrarum Russiae Capitanei"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "captain_of",
+      "tail_entity_id": "E19",
+      "evidence": "Leopoliensis ac Terrarum Russiae Capitanei"
+    }
+  ]
+}

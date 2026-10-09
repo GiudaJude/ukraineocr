@@ -1,0 +1,191 @@
+{
+  "document_id": "arc2/1202.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Bosneniacen",
+      "mention_texts": [
+        "Bosneniacen"
+      ],
+      "descriptive_mentions": [
+        "Ciuitate"
+      ],
+      "justification": "Named in the text as the city from which rights were inherited ('a Ciuitate Bosneniacen')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catherina Sadkowska",
+      "mention_texts": [
+        "Catherinam Sadkowska"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Named as noble Catherina Sadkowska, heir to the succession."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sedlingoski",
+      "mention_texts": [
+        "Sedlingoski"
+      ],
+      "descriptive_mentions": [
+        "ipse"
+      ],
+      "justification": "Named in the context of receiving or assigning authorization in the legal matter."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard locality where the act took place ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Rączka",
+      "mention_texts": [
+        "Nicolaus Raczka",
+        "Nicolaus Rączka"
+      ],
+      "descriptive_mentions": [
+        "Advocatus",
+        "Wilnensis",
+        "Famatus",
+        "Ciuis Vilnensis",
+        "ipse",
+        "consuccessor"
+      ],
+      "justification": "Named as Nicolaus Rączka, citizen and advocate of Vilnius, who appeared in court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Vilnius",
+      "mention_texts": [
+        "Wilnensis",
+        "Vilnensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin city associated with Nicolaus Rączka and the Vilnius council books."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Faszimieszkiewicz",
+      "mention_texts": [
+        "Nicolai Faszimieszkiewicz"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famae olim",
+        "Civitatis Consulis",
+        "coniugum"
+      ],
+      "justification": "Late city consul whose succession rights are presented to the court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae",
+        "Annam Laczmasska"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "praedictam"
+      ],
+      "justification": "Wife of the late Nicolaus Faszimieszkiewicz, also described as Anna Laczmasska."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Ema Ferenzowna",
+      "mention_texts": [
+        "Ema Ferenzowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuge",
+        "consuccessor"
+      ],
+      "justification": "Wife and co-heir of Nicolaus Rączka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Vilnius City Council",
+      "mention_texts": [
+        "Actis Consularibus Vilnensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council records of Vilnius from which the letters of succession originated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nobis",
+        "acta nostra",
+        "Actis",
+        "ijsdem Actis"
+      ],
+      "justification": "The court receiving the appearance and recording the registration in Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenorum Centum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of 100 florins paid in accordance with the succession rights."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Zieliński",
+      "mention_texts": [
+        "Stephano Zielienszki"
+      ],
+      "descriptive_mentions": [
+        "Nobili"
+      ],
+      "justification": "Recipient of the obligation/inscription referenced in the act."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "feria secunda ante Festum Purificationis Gloriosissimae Virginis Mariae",
+      "mention_texts": [
+        "feria secunda ante Festum Purificationis Gloriosissimae Virginis Mariae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/inscription referenced in the court books."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "una cum Honesta Ema Ferenzowna coniuge consuccessor"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Nicolai Faszimieszkiewicz Civitatis Consulis et Annae coniugum"
+    }
+  ]
+}

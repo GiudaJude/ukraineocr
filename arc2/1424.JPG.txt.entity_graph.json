@@ -1,0 +1,252 @@
+{
+  "document_id": "arc2/1424.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis huius",
+        "Civitatis eiusdem Leopoliensis",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [
+        "intra moenia Civitatis huius",
+        "intra moenia Civitatis eiusdem Leopoliensis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City of Lviv referenced in civic designations and territorial markers."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris",
+        "Officio nostro",
+        "Officij Iuris",
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [
+        "Collegam nostrum Consularem",
+        "nobis ex Officio nostro",
+        "nobis tanquam a Tutoribus et Fabrano Hospitalis Sancti Spiritus"
+      ],
+      "justification": "The municipal council acting as the registering authority and tutor/director of the hospital."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Caspar Szostakiewicz",
+      "mention_texts": [
+        "Casparum Szostakiewicz"
+      ],
+      "descriptive_mentions": [
+        "Fabium Dominum",
+        "Collegam nostrum Consularem",
+        "tutorem sibi ad eum actum rogatum et officiose approbatum"
+      ],
+      "justification": "Councilor serving as appointed legal guardian for Barbara."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Barbara Szostakiecka",
+      "mention_texts": [
+        "Barbara",
+        "Barbaram Szostakiecka",
+        "Barbara Szostacka"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis vidua relicta",
+        "Honesta Barbara",
+        "fassam",
+        "Civem Leopoliensis",
+        "Honesta Barbara Szostacka"
+      ],
+      "justification": "Widow and citizen of Lviv releasing and transferring a debt and property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitalis Sancti Spiritus",
+        "Hospitali",
+        "Sancti Spiritus"
+      ],
+      "descriptive_mentions": [
+        "Hospitalis Sancti Spiritus intra moenia Civitatis huius ad Ecclesiam Metropoliticam siti",
+        "Hospitalis Sancti Spiritus intra moenia Civitatis eiusdem Leopoliensis circa Ecclesiam Metropoliticam siti",
+        "Hospitali eidem",
+        "Hospitali praefato",
+        "dicto Hospitali"
+      ],
+      "justification": "Municipal hospital in Lviv holding censuses."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiam Metropoliticam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Cathedral church near which the hospital was situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1574",
+      "mention_texts": [
+        "feria quarta post festum Decollationis Sancti Joannis Baptistae Anno Domini 1574"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous registration in the council acts."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "florenorum centum",
+        "centum florenorum",
+        "centum florenos pecuniae numeri et monetae Polonicalis",
+        "centum florenis",
+        "florenos centum"
+      ],
+      "descriptive_mentions": [
+        "summa debitam",
+        "eadem summa centum florenorum",
+        "summam principalem"
+      ],
+      "justification": "Principal sum of 100 florins redeemed and re-inscribed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "8 Polish florins",
+      "mention_texts": [
+        "octo florenorum",
+        "florenos octo Polonicales"
+      ],
+      "descriptive_mentions": [
+        "censu annuo",
+        "annua pensionem"
+      ],
+      "justification": "Annual pension/census of 8 florins."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Henricus Kobelski",
+      "mention_texts": [
+        "Henricus Kobelski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Lanicida",
+        "Civis Leopoliensis",
+        "gener Honorati Joannis Sola Scabini"
+      ],
+      "justification": "Butcher and Lviv citizen taking over the debt of 100 florins."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sola",
+      "mention_texts": [
+        "Joannis Sola"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini"
+      ],
+      "justification": "Lviv bench judge (scabinus) and father-in-law of Henricus Kobelski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Zuskanowska",
+      "mention_texts": [
+        "Zuskanowska"
+      ],
+      "descriptive_mentions": [
+        "medietate domus lapideae Zuskanowska",
+        "lapideam"
+      ],
+      "justification": "Tenement house on the corner of Market Square and Kraków Street."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circulo"
+      ],
+      "descriptive_mentions": [
+        "Circulo eiusdem Civitatis"
+      ],
+      "justification": "Main market square of Lviv."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "plateam Cracoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street entering from the Market Square."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Hanus Rusart",
+      "mention_texts": [
+        "Hanussij Rusart"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Previous owner or descriptor of the stone house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is_legal_guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Fabium Dominum Casparum Szostakiewicz Collegam nostrum Consularem tutorem sibi ad eum actum rogatum et officiose approbatum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_son_in_law_of",
+      "tail_entity_id": "E11",
+      "evidence": "Henricus Kobelski Lanicida Civis Leopoliensis gener Honorati Joannis Sola Scabini"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Henricus Kobelski Lanicida Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Barbaram Szostakiecka Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Hospitalis Sancti Spiritus intra moenia Civitatis eiusdem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in medietate domus lapideae Zuskanowska in Circulo eiusdem Civitatis"
+    }
+  ]
+}

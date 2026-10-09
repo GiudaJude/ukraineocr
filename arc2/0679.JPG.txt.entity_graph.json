@@ -1,0 +1,139 @@
+{
+  "document_id": "arc2/0679.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "venditoris Coniunx legitima"
+      ],
+      "justification": "Honesta Anna appears as the legitimate wife of Joannes Sclasim giving consent to the sale."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Lucas Garka",
+      "mention_texts": [
+        "Lucae Garka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lucas Garka is mentioned in connection with Anna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sclasim",
+      "mention_texts": [
+        "Joannis Sclasim"
+      ],
+      "descriptive_mentions": [
+        "venditoris",
+        "mariti sui",
+        "praenominatum maritum suum",
+        "memoratum maritum suum"
+      ],
+      "justification": "Joannes Sclasim is identified as the vendor and legitimate husband of Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jora",
+      "mention_texts": [
+        "Joannem Jora"
+      ],
+      "descriptive_mentions": [
+        "Spectabilem Dominum",
+        "Consulem Cracoviensem",
+        "tutorem"
+      ],
+      "justification": "Joannes Jora, consul of Kraków, is appointed as legal guardian (tutor) for Anna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Cracoviensem refers to the city of Kraków in Joannes Jora's title as consul."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Officij refers to the municipal court/council confirming the guardianship."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobo Scholz",
+        "Jacobus Scholz"
+      ],
+      "descriptive_mentions": [
+        "supradicto",
+        "Coniugibus"
+      ],
+      "justification": "Jacobus Scholz is the buyer along with his wife Dorothea, and signs the record."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorithae"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus"
+      ],
+      "justification": "Dorothea (Doritha) is the wife of Jacobus Scholz, acquiring property jointly with him."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gelasinus",
+      "mention_texts": [
+        "Stanislaus Gelasinus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Stanislaus Gelasinus signs at the bottom of the document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Anna Lucae Garka sepulteti Joannis Sclasim venditoris Coniunx legitima"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Jacobo Scholz et Dorithae Coniugibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "consul_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannem Jora Consulem Cracoviensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannem Jora Consulem Cracoviensem ibi ad Actum hunc cum praesentatus mariti sui consensu assumptum et sententia Officij penitus confirmatum tutorem"
+    }
+  ]
+}

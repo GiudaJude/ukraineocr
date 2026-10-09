@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0359.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "mater",
+        "venditores",
+        "recognoscentes"
+      ],
+      "justification": "Anna is named as the mother and co-vendor of half of the stone house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolaus"
+      ],
+      "descriptive_mentions": [
+        "filius",
+        "venditores",
+        "recognoscentes"
+      ],
+      "justification": "Nicolaus is identified as the son of Anna and co-vendor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Aromatarius",
+      "mention_texts": [
+        "Joannem Aromataxium"
+      ],
+      "descriptive_mentions": [
+        "idem emptor",
+        "emptorem suum",
+        "praedicti Emptoris"
+      ],
+      "justification": "Joannes Aromatarius is mentioned as the buyer of the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Guido",
+      "mention_texts": [
+        "Guidonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civitatis Leopoliensis",
+        "Plenipotentem",
+        "mandatarium",
+        "plenipotens"
+      ],
+      "justification": "Guido is a Lviv bench-officer appointed as legal representative."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv is referenced in the title of the scabinus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv where Guido is present."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Adamus Kotora",
+      "mention_texts": [
+        "Adamus Kotora"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adamus Kotora is recorded at the foot of the act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Klimkowic",
+      "mention_texts": [
+        "Mathias Klimkowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mathias Klimkowic is recorded at the foot of the act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "parent of",
+      "tail_entity_id": "E2",
+      "evidence": "Anna mater et Nicolaus filius"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official of",
+      "tail_entity_id": "E5",
+      "evidence": "Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "representative of",
+      "tail_entity_id": "E1",
+      "evidence": "fecerunt constituerunt et solemniter ordinaverunt in suam verum legitimum indubitatumque Plenipotentem et mandatarium Honoratum Guidonem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "representative of",
+      "tail_entity_id": "E2",
+      "evidence": "fecerunt constituerunt et solemniter ordinaverunt in suam verum legitimum indubitatumque Plenipotentem et mandatarium Honoratum Guidonem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "transacted with",
+      "tail_entity_id": "E3",
+      "evidence": "venditores Anna mater et Nicolaus filius inscripserunt se ... quod eundem Joannem Aromataxium emptorem suum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "transacted with",
+      "tail_entity_id": "E3",
+      "evidence": "venditores Anna mater et Nicolaus filius inscripserunt se ... quod eundem Joannem Aromataxium emptorem suum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "appears in",
+      "tail_entity_id": "E6",
+      "evidence": "in Judicio Exposito Bannito quandocunque praesentem"
+    }
+  ]
+}

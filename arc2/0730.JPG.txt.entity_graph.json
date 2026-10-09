@@ -1,0 +1,196 @@
+{
+  "document_id": "arc2/0730.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium",
+        "officij Consularis Leopoliensis",
+        "officij",
+        "Officij",
+        "officium praesens",
+        "officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office issuing decrees and hearing witness testimonies."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kingdom of Poland mentioned in the phrase 'ad Judicium Regni'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobum Zgorzałek"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Pellionem",
+        "Civem Leopoliensem",
+        "tutorem suum agentem",
+        "Actorem"
+      ],
+      "justification": "Furrier and citizen of Lviv acting as legal guardian for Agnes Knastowa."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamo Kalinowszki"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "tutore suo"
+      ],
+      "justification": "Legal guardian appearing with the cited Sophia Zknotowna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Agnes Knastowa",
+      "mention_texts": [
+        "Agnete Knastowa",
+        "Agnetem Zakustowa"
+      ],
+      "descriptive_mentions": [
+        "Actorem"
+      ],
+      "justification": "Plaintiff represented by tutor Jacobus Zgorzałek regarding an annual census."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sophia Zknotowna",
+      "mention_texts": [
+        "Sophia Zknotowna"
+      ],
+      "descriptive_mentions": [
+        "citatam",
+        "praefata citata"
+      ],
+      "justification": "Defendant ordered to pay census money within three weeks."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Seraphinowska House",
+      "mention_texts": [
+        "Seraphinowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Stone townhouse from which the biennial census is due."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Apostolowski",
+      "mention_texts": [
+        "Hieronymo",
+        "Hieronymus Apostolowski"
+      ],
+      "descriptive_mentions": [
+        "Cordonie",
+        "Honestus",
+        "Cerdonis",
+        "Suburbanus Leopolitanus"
+      ],
+      "justification": "Suburban tanner appearing to request inquiry of cited witnesses."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Mathias Dąbek",
+      "mention_texts": [
+        "Mathiam Dabek"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "sutores Suburbanos Leopolitanus",
+        "citatos"
+      ],
+      "justification": "Suburban shoemaker cited as a witness."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Dudaczek",
+      "mention_texts": [
+        "Bartholomeum Dudatcek"
+      ],
+      "descriptive_mentions": [
+        "sutores Suburbanos Leopolitanus",
+        "citatos"
+      ],
+      "justification": "Suburban shoemaker cited to provide testimony."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "is_tutor_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Honestum Jacobum Zgorzałek Pellionem Civem Leopoliensem tutorem suum agentem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_tutor_of",
+      "tail_entity_id": "E7",
+      "evidence": "cum Honesto Adamo Kalinowszki tutore suo comparentem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "occasione Census biennalis ex domo lapidea Seraphinowska retro et Decretis eiusdem officij"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestus Hieronymus Apostolowski Cerdonis Suburbanus Leopolitanus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Mathiam Dabek et Bartholomeum Dudatcek sutores Suburbanos Leopolitanus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Mathiam Dabek et Bartholomeum Dudatcek sutores Suburbanos Leopolitanus"
+    }
+  ]
+}

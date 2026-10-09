@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/0625.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitate"
+      ],
+      "justification": "City where the council and shoemakers' guild operate and of which the persons are citizens."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Officij"
+      ],
+      "justification": "City council office issuing the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radowski",
+      "mention_texts": [
+        "Joanne Radowski",
+        "Joannem Radowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Actorem",
+        "Actore"
+      ],
+      "justification": "Plaintiff in the decreetum."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Łączkowicz",
+      "mention_texts": [
+        "Albertum Lączkowicz"
+      ],
+      "descriptive_mentions": [
+        "Citatum",
+        "Tutores",
+        "Citato",
+        "idem Citatus",
+        "praefatus Citatus",
+        "citatum"
+      ],
+      "justification": "Summoned party and former guardian required to provide accounts and a guarantor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Januszowicz",
+      "mention_texts": [
+        "Simonis Januszowicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "Pupilli"
+      ],
+      "justification": "The ward whose property and person are under curatorship."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-2484: Christophorus Rzeszowski",
+      "mention_texts": [
+        "Christophoro Rzerzowski"
+      ],
+      "descriptive_mentions": [
+        "auunculo praefati Pupilli"
+      ],
+      "justification": "Uncle of the pupil granted guardianship."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Xelis",
+      "mention_texts": [
+        "Joannem Xelis"
+      ],
+      "descriptive_mentions": [
+        "Fideiussorem",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Guarantor provided by Albertus Łączkowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Barbara Siedziewska",
+      "mention_texts": [
+        "Barbara Siedziewska",
+        "Barbarae Siedziewiczowina",
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "praedictam",
+        "uxorem fuisse legitimam"
+      ],
+      "justification": "Widow of the shoemaker Bartholomaeus Dziedziewicz for whom testimony is given."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wąsowicz",
+      "mention_texts": [
+        "Jacobus Wąsowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Sutores Cives Leopolienses",
+        "Contubernij Sutorum in Civitate Leopoliensi Seniores Magistri"
+      ],
+      "justification": "Shoemaker and senior master of the shoemakers' guild in Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Adam Mleczchowik",
+      "mention_texts": [
+        "Adam Mleczchowik"
+      ],
+      "descriptive_mentions": [
+        "Sutores Cives Leopolienses",
+        "Contubernij Sutorum in Civitate Leopoliensi Seniores Magistri"
+      ],
+      "justification": "Shoemaker and senior guild master providing testimony."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0025: Shoemakers' Guild",
+      "mention_texts": [
+        "Contubernij Sutorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Guild of shoemakers in Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Dziedziewicz",
+      "mention_texts": [
+        "Bartholomaei Dziedziewicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Sutoris Civis Leopoliensis",
+        "fatis sui contubernalis"
+      ],
+      "justification": "Deceased shoemaker, citizen of Lviv, and late husband of Barbara."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Satu Mare",
+      "mention_texts": [
+        "Zathmar Niemenez"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City where Bartholomaeus Dziedziewicz died."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "uncle_of",
+      "tail_entity_id": "E5",
+      "evidence": "Christophoro Rzerzowski auunculo praefati Pupilli"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E4",
+      "evidence": "praefatus Citatus satisfaciendo statuit Fideiussorem Joannem Xelis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "istam praedictam Barbaram uxorem fuisse legitimam iuxta ritum Sanctae Ecclesiae Catholicae matrimonio copulatam Famati olim Bartholomaei Dziedziewicz"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Jacobus Wąsowicz ... Contubernij Sutorum in Civitate Leopoliensi Seniores Magistri"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Adam Mleczchowik Sutores Cives Leopolienses et Contubernij Sutorum in Civitate Leopoliensi Seniores Magistri"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "died_in",
+      "tail_entity_id": "E13",
+      "evidence": "in Civitate Zathmar Niemenez diem suum obierit"
+    }
+  ]
+}

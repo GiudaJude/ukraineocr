@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/1534.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Budny",
+      "mention_texts": [
+        "Valentinus Budny",
+        "Valentino Budny"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "suburbano Leopoliense",
+        "Creditori suo",
+        "praefatus Creditor seus"
+      ],
+      "justification": "Creditor in the loan agreement, suburban of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Wojciech Świstek",
+      "mention_texts": [
+        "Woyciech Swistek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual recorded in the document heading."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "David Kost",
+      "mention_texts": [
+        "Davidi Kost"
+      ],
+      "descriptive_mentions": [
+        "Funifex",
+        "coniuges Suburbani Leopolienses",
+        "ille",
+        "maritum suum legitimum Tutorem"
+      ],
+      "justification": "Debtor and ropemaker appearing before the court with his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Helena",
+      "mention_texts": [
+        "Helena"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses",
+        "haec"
+      ],
+      "justification": "Wife of David Kost, co-debtor in the loan agreement."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliense",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "Civitatis"
+      ],
+      "justification": "City whose council and suburbs are referenced."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Krakowska",
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [
+        "suburbio Civitatis eiusdem",
+        "vico"
+      ],
+      "justification": "Lviv suburb where the parties reside and where the mortgaged property is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenos viginti",
+        "viginti florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et monetae communis Polonicalis",
+        "summa praefatae",
+        "summae"
+      ],
+      "justification": "Amount of the debt acknowledged by David Kost and Helena."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Paschatis",
+        "Paschat festum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Term for repayment of the loan."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "1598",
+      "mention_texts": [
+        "Anno 159 octavo",
+        "Anni Domini 159 Octavi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year specified for repayment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Andreas Ostrowski",
+      "mention_texts": [
+        "Andreas Ostrowski",
+        "Andrea Ostrowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Famatus",
+        "eodem"
+      ],
+      "justification": "Person appearing in entry 1433 concerning an oath and transaction."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Tanners' Guild",
+      "mention_texts": [
+        "Tannicidarum"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Civitatis Leopoliensis"
+      ],
+      "justification": "Craft guild of Lviv at whose instance Andreas Ostrowski was summoned."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "Magistratum"
+      ],
+      "justification": "Municipal authority questioning Andreas Ostrowski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Petrus Jambrzyński",
+      "mention_texts": [
+        "Petro Iambrynski"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "Excellentissimo Domino Doctore"
+      ],
+      "justification": "Doctor of medicine involved in an agreement with Andreas Ostrowski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Davidi Kost Funifex et Helena coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "maritum suum legitimum Tutorem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E1",
+      "evidence": "Se debere tenerique manu communi et in solidum certi veri iusti liquidique debiti ex causa mutui contracti Florenos viginti pecuniae et monetae communis Polonicalis Honesto Valentino Budny"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E1",
+      "evidence": "Se debere tenerique manu communi et in solidum certi veri iusti liquidique debiti ex causa mutui contracti Florenos viginti pecuniae et monetae communis Polonicalis Honesto Valentino Budny"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "coniuges Suburbani Leopolienses de Krakowska"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "coniuges Suburbani Leopolienses de Krakowska"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesto Valentino Budny suburbano Leopoliense"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati Leopolienses Andreas Ostrowski"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Tannicidarum Civitatis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "document_id": "arc2/0469.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Mathias",
+      "mention_texts": [
+        "Mathias"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named party appearing at the beginning of the text: 'Mathias Camerarii fratrem dedere'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacra Regia Maiestas"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland referenced regarding his royal decree and declaration: 'decretum Sacrae Regiae Maiestatis', 'Sacra Regia Maiestas'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachicos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Geographical reference to Wallachian disturbances: 'propter tumultus Valachicos'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the context of the plague: 'pestem Leopoliensis'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare",
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "officium",
+        "officij",
+        "Officij"
+      ],
+      "justification": "The consular office of Lviv adjudicating the case: 'Officium vero Consulare', 'Officium vero Consulare Leopoliense'."
+    }
+  ],
+  "relationships": []
+}

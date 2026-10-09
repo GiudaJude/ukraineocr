@@ -1,0 +1,136 @@
+{
+  "document_id": "arc2/1227.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bygot Lany",
+      "mention_texts": [
+        "Joannis Bygot Lany"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Named as the deceased husband of the widow Margareta."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margareta"
+      ],
+      "descriptive_mentions": [
+        "vidua relicta",
+        "satisfactrix",
+        "praedicta",
+        "quietatricem",
+        "evictrix",
+        "intercessor",
+        "defensrix"
+      ],
+      "justification": "Identified as the widow of Joannes Bygot Lany executing a quietatio."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locative adjectival designations of citizenship."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "160 florins",
+      "mention_texts": [
+        "centum et sexaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt specified in the document."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of payment mentioned in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Petrus Suchorabski",
+      "mention_texts": [
+        "Suchorabski",
+        "Petrus Suchorabski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famati",
+        "affines",
+        "Cives Leopolienses"
+      ],
+      "justification": "Party entering into the agreement."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Czembarski",
+        "Gaspar Czembarzki"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "affines",
+        "Cives Leopolienses"
+      ],
+      "justification": "Party entering into the agreement, matching known alias Caspar Cembarski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae Czembarszka"
+      ],
+      "descriptive_mentions": [
+        "Coniugis suae"
+      ],
+      "justification": "Wife of Gaspar Czembarzki, matching known alias Catharina Szembarska."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio nostro",
+        "actis praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal governing and recording body before which the parties appear."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famati olim Joannis Bygot Lany Civis Leopoliensis vidua relicta... eadem Margareta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Famatus Gaspar Czembarzki Pellio suo et Coniugis suae Catherinae Czembarszka nominibus"
+    }
+  ]
+}

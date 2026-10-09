@@ -1,0 +1,38 @@
+{
+  "document_id": "arc2/0963.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0705: Andreas Bienkowic",
+      "mention_texts": [
+        "Andreae\nGelczin"
+      ],
+      "descriptive_mentions": [
+        "ingenui adolescentis",
+        "eum",
+        "suis",
+        "Eique"
+      ],
+      "justification": "Named as the noble youth reaching the age of puberty (fourteen years old)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjectival reference indicating citizenship or residence in Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Andreae\nGelczin Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/0563.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Xarchman",
+      "mention_texts": [
+        "Xarchman",
+        "Xarchmani"
+      ],
+      "descriptive_mentions": [
+        "tenutarius domuculae"
+      ],
+      "justification": "Named tenant who was granted usufruct of the small house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis"
+      ],
+      "descriptive_mentions": [
+        "Festo Sancti Michaelis proxime praeterito"
+      ],
+      "justification": "Feast date used as the start of the ten-year census-free term."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "1 Polish florin",
+      "mention_texts": [
+        "florenum unum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Annual census sum owed to the city after the ten-year period."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij nostri",
+        "officij",
+        "officij nostri"
+      ],
+      "descriptive_mentions": [
+        "Decreto officij",
+        "Decretique officij nostri"
+      ],
+      "justification": "The municipal council/bench issuing the decrees and recording the transactions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitati",
+        "Civitatis"
+      ],
+      "justification": "City where the transactions occurred and the property was situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595",
+        "Sabbato ante Festum Sanctae Hedvigis proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "Anno et die quo supra"
+      ],
+      "justification": "Date of the legal act."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Wayszanowska House",
+      "mention_texts": [
+        "Wayszanowska",
+        "Wayszanow- ska"
+      ],
+      "descriptive_mentions": [
+        "Lapidea Wayszanowska",
+        "praefatam domum Lapideam",
+        "domum Lapideam"
+      ],
+      "justification": "Stone townhouse on Jewish Street divided into two parts and assigned in court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrosielski",
+      "mention_texts": [
+        "Gregorius Dobrosielski"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "iuris Utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate appearing in court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgangus Bernth"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn municipal assessor of Lviv appearing in court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sokul"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn municipal assessor of Lviv appearing in court."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zaprzecki",
+      "mention_texts": [
+        "Joannis Zaprzecki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Nobilis Joannis Zaprzecki"
+      ],
+      "justification": "Noble party requesting judicial intromission."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Lucas Złotany",
+      "mention_texts": [
+        "Lucae Zlotany"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim",
+        "cohorti Zdzerowien agenti"
+      ],
+      "justification": "Deceased nobleman whose associate acted at court."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0047: Jewish Street",
+      "mention_texts": [
+        "platea Iudaeorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the Wayszanowska townhouse is situated."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Venceslaus Riemcali",
+      "mention_texts": [
+        "Venceslai Riemcali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of neighboring property next to the Wayszanowska townhouse."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Simon Franek",
+      "mention_texts": [
+        "Simonis Franek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of neighboring townhouse on Jewish Street."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "held_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorius Dobrosielski iuris Utriusque Doctor Advocatus Ordinarius"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "held_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Wolfgangus Bernth et Joannes Sokul Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "held_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Wolfgangus Bernth et Joannes Sokul Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in praefatam domum Lapideam in eiusdem Civitatis platea Iudaeorum dicta"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in eiusdem Civitatis platea Iudaeorum dicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in praefatam domum Lapideam in eiusdem Civitatis platea Iudaeorum dicta"
+    }
+  ]
+}

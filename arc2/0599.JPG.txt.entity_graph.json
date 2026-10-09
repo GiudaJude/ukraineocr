@@ -1,0 +1,55 @@
+{
+  "document_id": "arc2/0599.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named territory in the document context: 'Palatini Valachiae'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears in the adjectival form specifying the place of deposit: 'in deposito Leopoliensi'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hirst Ambruxi",
+      "mention_texts": [
+        "Hirst Ambruxi"
+      ],
+      "descriptive_mentions": [
+        "testes"
+      ],
+      "justification": "Witness presenting testimony: 'Ac primum Hirst Ambruxi de Alexandria testificatus est'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Alexandria",
+      "mention_texts": [
+        "Alexandria"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin or residence for witness Hirst Ambruxi: 'de Alexandria'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "originating_from",
+      "tail_entity_id": "E4",
+      "evidence": "Ac primum Hirst Ambruxi de Alexandria testificatus est"
+    }
+  ]
+}

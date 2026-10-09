@@ -1,0 +1,274 @@
+{
+  "document_id": "arc2/1439.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "praedicta summa"
+      ],
+      "justification": "Sum of money mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Woltwus",
+      "mention_texts": [
+        "Mathiae Woltwus",
+        "Mathiae Molitoris",
+        "Mathia"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "priore marito"
+      ],
+      "justification": "Deceased former husband of Anna Szewczid, father of the minor children."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Szewczid"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "olim Mathiae Molitoris de Kamienobrod vidua",
+        "coniunx legitima"
+      ],
+      "justification": "Widow of Mathias and current wife of Lucas Molitor appearing before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Kamienobród",
+      "mention_texts": [
+        "Kamienobrod"
+      ],
+      "descriptive_mentions": [
+        "eadem Kamienobrod"
+      ],
+      "justification": "Place of origin/residence of Mathias and Lucas Molitor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lucas Molitor",
+      "mention_texts": [
+        "Lucae Molitoris"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "mariti"
+      ],
+      "justification": "Third husband of Anna Szewczid."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski",
+        "Adamus Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "quaesitorem Juris Civilis Terrestrium zonetum tutorem sibi ad eum actum assumpto"
+      ],
+      "justification": "Legal representative and guarantor for Anna Szewczid."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Officio praesenti",
+        "Officij nostri"
+      ],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "The municipal office/court before which the parties appear."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-3131: PER-0320: PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simeonem Kurnost",
+        "Simonem Kurnost",
+        "Simo Kurnost"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "praedictos",
+        "alter Tutor",
+        "Famatus"
+      ],
+      "justification": "Citizen of Lviv appointed as guardian (tutor) of the children of deceased Mathias."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in civic titles and legal actions."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sorselnik",
+      "mention_texts": [
+        "Stanislaum Sorselnik",
+        "Stanislaus Sorselnik"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "praefatis pupillis",
+        "Tutores",
+        "praefatus"
+      ],
+      "justification": "Appointed guardian of the minor children of deceased Mathias."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Dibwicius"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Nobilis Dominus",
+        "Medicinae Doctor",
+        "Collega noster Consularis",
+        "successor bonorum"
+      ],
+      "justification": "Stanislaus Dibonicius, Doctor of Medicine and city councilor, appearing regarding inheritance rights."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Anna Zamaradzka",
+      "mention_texts": [
+        "Annae Zamaradi"
+      ],
+      "descriptive_mentions": [
+        "bonae memoriae olim",
+        "vidua relicta"
+      ],
+      "justification": "Deceased widow of Andreas Simonides."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreae Smiannideska"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, late husband of Anna Zamaradzka."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnam"
+      ],
+      "descriptive_mentions": [
+        "uxorem suam",
+        "Honestam",
+        "antiquam Filiam"
+      ],
+      "justification": "Wife of Stanislaus Dibwicius and daughter of late Anna and Andreas."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Andreas",
+      "mention_texts": [
+        "Andreae"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "affinis sui"
+      ],
+      "justification": "Relative by marriage assisting Stanislaus Dibwicius."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "was_spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "olim Mathiae Molitoris de Kamienobrod vidua"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesti Lucae Molitoris de eadem Kamienobrod coniunx legitima"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "lived_in",
+      "tail_entity_id": "E4",
+      "evidence": "Mathiae Molitoris de Kamienobrod"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "lived_in",
+      "tail_entity_id": "E4",
+      "evidence": "Lucae Molitoris de eadem Kamienobrod"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "lived_in",
+      "tail_entity_id": "E9",
+      "evidence": "Simeonem Kurnost Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "circa uxorem suam Honestam Agnam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "olima Annae Zamaradi Andreae Smiannideska simi Civis Leopoliensis vidua relicta circa uxorem suam Honestam Agnam eorundem antiquam Filiam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "olima Annae Zamaradi Andreae Smiannideska simi Civis Leopoliensis vidua relicta circa uxorem suam Honestam Agnam eorundem antiquam Filiam"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "was_spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Annae Zamaradi Andreae Smiannideska simi Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "relative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Ingenui Andreae affinis sui"
+    }
+  ]
+}

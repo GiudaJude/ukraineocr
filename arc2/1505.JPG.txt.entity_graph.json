@@ -1,0 +1,216 @@
+{
+  "document_id": "arc2/1505.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Hembel",
+      "mention_texts": [
+        "Joannes Hembel"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Lanius",
+        "coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Primary contracting party acknowledging debt and pledging a butcher's stall."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anita"
+      ],
+      "descriptive_mentions": [
+        "Coniux Authonnoma secondarum nuptiarum",
+        "coniuges",
+        "Cives Leopolienses",
+        "hec"
+      ],
+      "justification": "Wife of Joannes Hembel participating in the obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Terrae Leopoliensis",
+        "Nundinarum Leopoliensium",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City and territory where the acts and parties are located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Zolecki",
+      "mention_texts": [
+        "Krasnstawski",
+        "Zolecki"
+      ],
+      "descriptive_mentions": [
+        "Generoso Domino",
+        "Podstoli Terrae Leopoliensis",
+        "Dziedzici",
+        "praedicto Generoso",
+        "praedicto Creditori",
+        "eidem Creditori"
+      ],
+      "justification": "Noble creditor and land officer to whom the debt is owed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "45 florins",
+      "mention_texts": [
+        "45 Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum mentioned in the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "floreno septuaginta",
+        "septuaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis",
+        "summam"
+      ],
+      "justification": "Principal debt amount pledged and secured."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo Sancti Agnetis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Fair/feast date set as repayment deadline."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Domino Officii",
+        "ex Officio"
+      ],
+      "justification": "Municipal court/office recording and approving legal acts."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta ipso die Praesentationis Mariae Anno 1596",
+        "Sabbato in Vigilia Sanctissimae Trinitatis Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the court entries in the document."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0814: Valentinus",
+      "mention_texts": [
+        "Valentinus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual name recorded in the entry heading."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Świątek",
+      "mention_texts": [
+        "Bartholomaeus",
+        "Sfal Swiastek",
+        "Bartholomaeus Swiastek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sutor",
+        "coniuges Suburbani Leopolienses",
+        "ille",
+        "mariti"
+      ],
+      "justification": "Cobbler from Lviv suburb entering into an obligation."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Sabina",
+      "mention_texts": [
+        "Sabina"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses",
+        "hec"
+      ],
+      "justification": "Wife of Bartholomaeus Swiastek participating in the legal act."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem"
+      ],
+      "justification": "Appointed legal guardian assisting Sabina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Joannes Hembel Lanius et Anita Coniux Authonnoma secondarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "ille per se hec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "promiserunt se praedicto Generoso Zolecki prompta et parata pecunia numerare ac soluere"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "promiserunt se praedicto Generoso Zolecki prompta et parata pecunia numerare ac soluere"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Bartholomaeus Swiastek Sutor et Sabina coniuges"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "hec vero per Honestum Adamum Kalinowski tutorem seorsim eum ad eum praesentem su mariti consensu assumptum et ex Officio approbatum"
+    }
+  ]
+}

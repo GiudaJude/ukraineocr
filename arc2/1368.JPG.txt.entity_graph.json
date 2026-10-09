@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/1368.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kluczowski",
+      "mention_texts": [
+        "Andreae Kluczowski"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Causarum Iuris Magdeburgensis Leopoliensis Tenato Byszenski",
+        "Plenipotentem"
+      ],
+      "justification": "Named as the noble plenipotentiary granted legal power of attorney."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears in territorial adjectives 'Leopoliensis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Iwanes Matwic",
+      "mention_texts": [
+        "Iwanes Matwic",
+        "Iwankoni"
+      ],
+      "descriptive_mentions": [
+        "Matia filio",
+        "affini",
+        "coniugibus",
+        "colonis de eadem Bieldoscza"
+      ],
+      "justification": "Named in title and text as buyer, husband of Malacha's sister."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Molitor",
+      "mention_texts": [
+        "Andreas Misiur",
+        "Andreas Molitor"
+      ],
+      "descriptive_mentions": [
+        "Laboriosi",
+        "coniuges",
+        "mariti sui"
+      ],
+      "justification": "Named as seller and husband of Malacha."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Rudno",
+      "mention_texts": [
+        "Rudno"
+      ],
+      "descriptive_mentions": [
+        "villa"
+      ],
+      "justification": "Village from which Andreas Molitor originates."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sienis",
+      "mention_texts": [
+        "Jacobi Sienis"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Subdapiferi Loci Leopoliensis"
+      ],
+      "justification": "Noble owner of Rudno village, Subdapifer of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Malacha",
+      "mention_texts": [
+        "Malacha",
+        "Malachiam",
+        "Malucha"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Wife of Andreas Molitor, selling her inherited property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucam"
+      ],
+      "descriptive_mentions": [
+        "Parentes ipsius",
+        "cohaeredes"
+      ],
+      "justification": "Deceased parent of Malacha from whom property was inherited."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Waszko",
+      "mention_texts": [
+        "Waskha"
+      ],
+      "descriptive_mentions": [
+        "Parentes ipsius",
+        "cohaeredes"
+      ],
+      "justification": "Deceased parent/spouse of Lucas from whom property was inherited."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Bieldoszyce",
+      "mention_texts": [
+        "Bieldosicza",
+        "Bieldoscza"
+      ],
+      "descriptive_mentions": [
+        "eadem villa",
+        "villa"
+      ],
+      "justification": "Village where the inherited plot being sold is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Iwan Dawidowicz",
+      "mention_texts": [
+        "Jwam Dawidowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the sold property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Antonius Kalak",
+      "mention_texts": [
+        "Antonii Kalak"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the sold property."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Manthea",
+      "mention_texts": [
+        "Manthei"
+      ],
+      "descriptive_mentions": [
+        "sorori",
+        "coniugibus",
+        "colonis de eadem Bieldoscza"
+      ],
+      "justification": "Sister of Malacha, wife of Iwanes Matwic."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "10 Polish marks",
+      "mention_texts": [
+        "decem marcarum"
+      ],
+      "descriptive_mentions": [
+        "pecunia et numeri Polonici"
+      ],
+      "justification": "The transaction price for the property."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the currency specification 'numeri Polonici'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Molitor de Rudno... et Malacha coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Iwankoni Matia filio affini et Manthei eiusdem Malucha sorori coniugibus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Manthei eiusdem Malucha sorori"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "post Lucam et Waskha cognoxos Bieldoszeni Parentes ipsius"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E7",
+      "evidence": "post Lucam et Waskha... Parentes ipsius"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E7",
+      "evidence": "post Lucam et Waskha... Parentes ipsius"
+    }
+  ]
+}

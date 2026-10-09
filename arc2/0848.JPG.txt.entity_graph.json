@@ -1,0 +1,166 @@
+{
+  "document_id": "arc2/0848.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "Descriptive reference to the royal majesty (Sigismund III Vasa)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "UT SUPRA",
+        "feria quarta post Dominicam Oculi proxima Anno Domini 1595 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date mentions in the text referring to 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Stachierowicz",
+      "mention_texts": [
+        "Martinus Stachierowicz",
+        "Martino Stachierowicz"
+      ],
+      "descriptive_mentions": [
+        "Famoto",
+        "affini",
+        "Coniugibus Suburbanis Leopoliensibus",
+        "Emptoribus",
+        "emptores"
+      ],
+      "justification": "Buyer of inheritance shares mentioned in the title and act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sołtysowicz",
+      "mention_texts": [
+        "Joannes Soltyssowic",
+        "Joannes Soltyszowicz"
+      ],
+      "descriptive_mentions": [
+        "Famosus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Seller of inheritance shares from Kleparzów."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kleparzów",
+      "mention_texts": [
+        "Kleparzow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin/residence of Joannes Sołtysowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburbs are inhabited by the parties."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Sołtys",
+      "mention_texts": [
+        "Valentinum Soltysz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "parentem suum"
+      ],
+      "justification": "Deceased father whose estate is being distributed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margaritae"
+      ],
+      "descriptive_mentions": [
+        "sorori germanae",
+        "Coniugibus Suburbanis Leopoliensibus",
+        "Emptoribus",
+        "emptores"
+      ],
+      "justification": "Sister of Joannes Sołtysowicz and wife of Martinus Stachierowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price of the shares."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Valentinum Soltysz parentem suum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Margaritae sorori germanae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Martino Stachierowicz affini et Margaritae sorori germanae Coniugibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Martino Stachierowicz affini et Margaritae sorori germanae Coniugibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "from_location",
+      "tail_entity_id": "E5",
+      "evidence": "Joannes Soltyszowicz de Kleparzow"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Coniugibus Suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Coniugibus Suburbanis Leopoliensibus"
+    }
+  ]
+}

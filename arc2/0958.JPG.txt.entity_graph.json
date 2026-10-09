@@ -1,0 +1,164 @@
+{
+  "document_id": "arc2/0958.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Bildaha",
+      "mention_texts": [
+        "Andreas Bildaha",
+        "Andreas Bildaha"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum",
+        "tutorem suum legitimum",
+        "praedicti ... Coniuges"
+      ],
+      "justification": "Appears as the seller alongside his wife Anna, selling their house in the Halych Suburb."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "haec",
+        "praedicti ... Anna Coniuges"
+      ],
+      "justification": "Wife of Andreas Bildaha, co-seller of their inherited house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City context referenced through citizen and suburban designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the house being sold."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Pastomsky",
+      "mention_texts": [
+        "Nicolai Pastomsky"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the sold property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lavry Institor",
+      "mention_texts": [
+        "Lavry Institoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the sold property on the other side."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Lavry Pistor",
+      "mention_texts": [
+        "Lavryo Pistori",
+        "Lavris"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "genero Freytek",
+        "coniugibus Suburbanis Leopoliensibus",
+        "emptoribus",
+        "Emptoribus",
+        "ipse",
+        "Emptores"
+      ],
+      "justification": "The baker buying the house, son-in-law of Freytek and husband of Szarushna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Freytek",
+      "mention_texts": [
+        "Freytek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Father-in-law of Lavry Pistor ('genero Freytek')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Szarushna",
+      "mention_texts": [
+        "Szarushna"
+      ],
+      "descriptive_mentions": [
+        "coniugibus Suburbanis Leopoliensibus",
+        "emptoribus",
+        "Emptoribus",
+        "Emptores"
+      ],
+      "justification": "Wife of Lavry Pistor and co-buyer of the property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "90 Polish florins",
+      "mention_texts": [
+        "Florenis Sexaginta tum et Triginta florenorum pecuniae et numeri polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price of sixty and thirty (90) Polish florins."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Andreas Bildaha et Anna coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Lavryo Pistori genero Freytek et Szarushna coniugibus Suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E8",
+      "evidence": "Lavryo Pistori genero Freytek"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in eiusdem Civitatis Suburbio Haliciensi dicto"
+    }
+  ]
+}

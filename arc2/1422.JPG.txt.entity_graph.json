@@ -1,0 +1,92 @@
+{
+  "document_id": "arc2/1422.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Henricus Rededore",
+      "mention_texts": [
+        "Henrico Rededore",
+        "Hen-rici Rededore"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Tannicidae",
+        "Civi Leopoliensi",
+        "fratris genero",
+        "eiusque legitimis successoribus",
+        "eodem",
+        "eundem",
+        "successoribus eiusdem",
+        "Emptoris",
+        "eidem Emptori eiusque legitimis successoribus",
+        "emptoris eiusque successorum",
+        "Emptor suus",
+        "eundem emptorem eiusque legitimos successores"
+      ],
+      "justification": "Buyer of half of the stone house, described as a tanner and citizen of Lviv, and son-in-law to the brother of Joannes Salet."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Urban context identified in the civic title of Henricus Rededore."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Salet",
+      "mention_texts": [
+        "Joannis Saleti"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Individual referenced in the kinship description of Henricus Rededore ('fratris genero')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0122: 2000 Polish florins",
+      "mention_texts": [
+        "duorum millium florenorum Peconiae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for half of the stone house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Barbara Zuskarka",
+      "mention_texts": [
+        "Barbarae Zuskarka",
+        "Barbara Zuskarka"
+      ],
+      "descriptive_mentions": [
+        "praefatae",
+        "eadem",
+        "venditrix",
+        "sibi suisque Posteris"
+      ],
+      "justification": "Seller of the property who acknowledges receipt of payment and cedes ownership rights."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "relative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honorati Joannis Saleti fratris genero"
+    }
+  ]
+}

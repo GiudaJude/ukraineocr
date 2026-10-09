@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/0975.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Bardziejowic",
+      "mention_texts": [
+        "Alberto Barzloszwic",
+        "Albertus Bardzieiowic"
+      ],
+      "descriptive_mentions": [
+        "praefatus"
+      ],
+      "justification": "Named seller of the plot of land."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Georgius Smoykiot",
+      "mention_texts": [
+        "Georgium Smoykiot",
+        "Georgij Smoykiot"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "olim",
+        "Scabinus",
+        "artecessorem",
+        "eiusdem",
+        "praedicti"
+      ],
+      "justification": "Former alderman who originally constructed the disputed wall."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea Stancowa"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person associated with the estate/land of Stanesta."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanesta",
+      "mention_texts": [
+        "Stanesta",
+        "Stanestij"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Owner of the adjacent plot of land on which the wall was built."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-1535: Theodora",
+      "mention_texts": [
+        "Theodoro"
+      ],
+      "descriptive_mentions": [
+        "praefata"
+      ],
+      "justification": "Individual associated with a portion of the vacant plot."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari Leopoliensi",
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "The municipal council court issuing the decree regarding the disputed wall."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Civitatis istius",
+        "eiusdem Civitatis"
+      ],
+      "justification": "The city of Lviv referenced in the municipal customs and council title."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1537",
+      "mention_texts": [
+        "feria quarta post Festum Sancti Francisci proxima Anno 1537"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous recognition before the council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Stegnerowna"
+      ],
+      "descriptive_mentions": [
+        "actricem",
+        "dicta",
+        "partes Actorea"
+      ],
+      "justification": "Plaintiff claiming sole property right to the wall."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Smoykiotowska House",
+      "mention_texts": [
+        "Smoykiotovska"
+      ],
+      "descriptive_mentions": [
+        "domus praefatae"
+      ],
+      "justification": "The house/tenement property named after Georgius Smoykiot."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "associated_with",
+      "tail_entity_id": "E10",
+      "evidence": "domus praefatae Smoykiotovska"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "associated_with",
+      "tail_entity_id": "E10",
+      "evidence": "dicta Barbara Stegnerowna eiusque Auctoritas vel aliqui ipsius domus praefatae Smoykiotovska haeredes"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "appeared_before",
+      "tail_entity_id": "E6",
+      "evidence": "Georgij Smoykiot recognitione coram Consulari Leopoliensi feria quarta post Festum Sancti Francisci proxima Anno 1537 facta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Consulari Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "arc2/0595.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Emerentia Zarnieska",
+      "mention_texts": [
+        "Emerentia Zarnieska"
+      ],
+      "descriptive_mentions": [
+        "praedicta",
+        "vidua relicta"
+      ],
+      "justification": "Named in the confirmation of testament recorded at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij nostri",
+        "Nos"
+      ],
+      "justification": "The municipal authority confirming the will and keeping the records."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Elmas Torotowicz",
+      "mention_texts": [
+        "Elmas Torotowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "senior Camerarius",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Senior Camerarius and citizen of Lviv who issues the power of attorney."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Ludovicus Cromer",
+      "mention_texts": [
+        "Sudovico Cromero",
+        "Ludovicum Cromerum",
+        "D. Ludovicum Cromerum"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem et man- datarium",
+        "Excellem et Strenuum",
+        "Notarium Civitatis Cracoviensis absentem tanquam praesentem",
+        "Honorato Plenipotenti suo"
+      ],
+      "justification": "Notary of Kraków appointed as plenipotentiary by Elmas Torotowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Ludovicus Cromer serves as notary."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of residence of Elmas Torotowicz, Petrus Zachariaszowicz, and location of the Armenian court."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Ephroim Disitem",
+      "mention_texts": [
+        "Ephroinium Disitem",
+        "Ephroimo Disitem"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "praenominato",
+        "debitore"
+      ],
+      "justification": "Debtor against whom the debt is to be claimed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Petrus Zachariaszowicz",
+      "mention_texts": [
+        "Petro Zachariaszowicz",
+        "Petrum Zachariaszowicz"
+      ],
+      "descriptive_mentions": [
+        "Dto",
+        "Semeno et Civi Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Original creditor who ceded the debt to Elmas Torotowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Armenian Court of Lviv",
+      "mention_texts": [
+        "Judicio Vectarario Armenico Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Armenian advocate/wójt court in Lviv where the debt cession took place."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "feria quarta post Dominicam Misericordia proxima Anno Domini 1594",
+        "Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous cession of the debt in the Armenian court."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "270 Polish florins",
+      "mention_texts": [
+        "Ducentorum septuaginta Florenos Polonicales",
+        "Ducentorum septuaginta Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt being recovered under the power of attorney."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "appoints_representative",
+      "tail_entity_id": "E4",
+      "evidence": "fecit constituit ac solemniter ordinavit in suum verum legitimum indubitatumque Plenipotentem et man- datarium Excellem et Strenuum D. Ludovicum Cromerum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E5",
+      "evidence": "Notarium Civitatis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "debtor_to",
+      "tail_entity_id": "E8",
+      "evidence": "debiti per Famatum Ephroinium Disitem Dto Petro Zachariaszowicz Semeno et Civi Leopoliensi iuxta inscriptionem chirographa- riam contracti"
+    }
+  ]
+}

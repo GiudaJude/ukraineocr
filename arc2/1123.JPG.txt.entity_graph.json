@@ -1,0 +1,263 @@
+{
+  "document_id": "arc2/1123.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Bagnet",
+      "mention_texts": [
+        "Albertus Bagnet"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "coniuges Cives Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Named as one of the appearing parties acknowledging a debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catharina Bagnetowa",
+      "mention_texts": [
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "secunda vota uxor praefati",
+        "coniuges Cives Leopolienses",
+        "haec"
+      ],
+      "justification": "Wife in a second marriage of Albertus Bagnet, acknowledging a debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sowziynski",
+      "mention_texts": [
+        "Alberto Sowziynski"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "repromissori",
+        "Creditori"
+      ],
+      "justification": "Creditor to whom the debt of 150 Polish florins is owed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Florenos Centum quinquaginta",
+        "centum quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et monetae Polonicalis",
+        "eam ipsam summam",
+        "summa praefata",
+        "summa eadem principali"
+      ],
+      "justification": "Sum of the debt acknowledged in the contract."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0152: DATE-0061: DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Pentecostes"
+      ],
+      "descriptive_mentions": [
+        "Festo Sacratissimo"
+      ],
+      "justification": "Due date set for repayment."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "1597"
+      ],
+      "descriptive_mentions": [
+        "Anno",
+        "proxime sequenti"
+      ],
+      "justification": "Year associated with the Pentecost repayment term."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Specifies Polish currency."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopolitani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin/citizenship of the parties (Cives Leopolienses, Suburbani Leopolitani)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal office whose assistance may be used in default of payment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "1615",
+      "mention_texts": [
+        "1615"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year heading for the second entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Lesko Pellio",
+      "mention_texts": [
+        "Lesko",
+        "Lesio",
+        "Lesis"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Pellio Conbeneonatus",
+        "coniuges Suburbani Leopolitani",
+        "ille",
+        "mariti sui"
+      ],
+      "justification": "Furrier appearing in the second entry with his wife."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Catharina Dawzynska",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "coniuges Suburbani Leopolitani",
+        "haec"
+      ],
+      "justification": "Daughter of Michael Dawzynski and wife of Lesko Pellio."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Michael Dawzynski",
+      "mention_texts": [
+        "Michaelis Dawzynski"
+      ],
+      "descriptive_mentions": [
+        "olim Nobilis et Honesti"
+      ],
+      "justification": "Deceased father of Catherina."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0849: Paulus Kraus",
+      "mention_texts": [
+        "Paulum Kraut"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Scabinum",
+        "tutorem sibi ad actum praesentem cum consensu mariti sui assumptum et officiosae approbatum"
+      ],
+      "justification": "Scabinus acting as legal guardian for Catherina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Albertus Bagnet et Honesta Catharina secunda vota uxor praefati coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatus Albertus Bagnet et Honesta Catharina secunda vota uxor praefati coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famatus Albertus Bagnet... recognoverunt se debere et teneri recti veri iusti liquidique debiti Florenos Centum quinquaginta... Nobili Alberto Sowziynski"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Catharina... recognoverunt se debere et teneri recti veri iusti liquidique debiti Florenos Centum quinquaginta... Nobili Alberto Sowziynski"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Albertus Bagnet... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Catharina... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honestus Lesko Pellio Conbeneonatus et Catherina olim Nobilis et Honesti Michaelis Dawzynski filia coniuges"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestus Lesko Pellio Conbeneonatus et Catherina olim Nobilis et Honesti Michaelis Dawzynski filia coniuges"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Catherina olim Nobilis et Honesti Michaelis Dawzynski filia"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "per Honestum Paulum Kraut Scabinum tutorem sibi ad actum praesentem cum consensu mariti sui assumptum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestus Lesko... coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E8",
+      "evidence": "Catherina... coniuges Suburbani Leopolitani"
+    }
+  ]
+}

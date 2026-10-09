@@ -1,0 +1,283 @@
+{
+  "document_id": "arc2/0984.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the transaction was originally made."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the previous entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Garzo",
+      "mention_texts": [
+        "Andreas Garzo",
+        "Andreas Garzo",
+        "Andream Garzo"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "legitimi Coniuges",
+        "Cives Leopolienses",
+        "vir ipse",
+        "mariti sui",
+        "successorem"
+      ],
+      "justification": "Vendor appearing before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Anna Szczerbionna",
+      "mention_texts": [
+        "Anna Szczerbionna"
+      ],
+      "descriptive_mentions": [
+        "legitimi Coniuges",
+        "Cives Leopolienses",
+        "praefata autem ipsius uxor",
+        "uxor"
+      ],
+      "justification": "Wife of Andreas Garzo."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Asseles",
+      "mention_texts": [
+        "Jacobum Asseles"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum",
+        "Civem Leopoliensis",
+        "patronum suum",
+        "tutorem"
+      ],
+      "justification": "Scabinus acting as legal guardian for Anna Szczerbionna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officij nostri"
+      ],
+      "justification": "Council approving the appointment of the guardian."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Czarnowska House",
+      "mention_texts": [
+        "Cznaronwka"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam suam propriam et haereditariam",
+        "lapideas"
+      ],
+      "justification": "The masonry house being sold."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas de Elberti",
+      "mention_texts": [
+        "Thomae de Elberti",
+        "Thomae de Elberti"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Italici",
+        "Thelonearij Russiae",
+        "Theloneatoris",
+        "Civis Leopoliensis",
+        "defuncti"
+      ],
+      "justification": "Deceased toll-collector whose estate included the tenement."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region for which Thomas was customs collector."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Crown Tribunal",
+      "mention_texts": [
+        "Tribunalis Regni Generalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court confirming the rights to the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni",
+        "Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopolienses",
+        "Leopoliensis",
+        "Civitate Leopolitana",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the parties reside and the house is situated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Staniszkowska House",
+      "mention_texts": [
+        "Staniskowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas"
+      ],
+      "justification": "Adjacent masonry house to the east."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Raloskowska House",
+      "mention_texts": [
+        "Raloskowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas"
+      ],
+      "justification": "Adjacent masonry house."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lozinczowicz Szumatawus",
+      "mention_texts": [
+        "Joannes Szumatawus",
+        "Joanni Lozinczowicz Szumatawus"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Coniugibus",
+        "Civibus Leopoliensibus",
+        "Emptoribus"
+      ],
+      "justification": "Buyer of the tenement house."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginae"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "Civibus Leopoliensibus",
+        "Emptoribus"
+      ],
+      "justification": "Wife of Joannes Lozinczowicz Szumatawus and co-purchaser."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "4500 Polish florins",
+      "mention_texts": [
+        "quatuor Millium et quingentorum florenorum pecuniae et numeratorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Purchase price of the tenement house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Garzo et Anna Szczerbionna legitimi Coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "uxor per Honoratum Jacobum Asseles Scabinum Civem Leopoliensis patronum suum cum praesentaneo mariti sui consensu sibi assumptum et authoritate officij nostri approbatum tutorem"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Joanni Lozinczowicz Szumatawus et Reginae Coniugibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Civibus Leopoliensibus"
+    }
+  ]
+}

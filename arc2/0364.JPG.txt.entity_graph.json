@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/0364.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Alberti Pediani",
+        "Albertus Pedianus"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Magistri",
+        "Spectabilis et Excellens Dominus Magister",
+        "collega noster Consularis",
+        "Spectabili",
+        "Spectabilis"
+      ],
+      "justification": "Named council member discharging an obligation mentioned in the quietatio."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "collega noster Consularis",
+        "nobis",
+        "officio nostro",
+        "Actis nostris",
+        "patronis et Tutoribus"
+      ],
+      "justification": "City council issuing the quietatio and acting as patrons and guardians of the school."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The royal city of Lviv referenced in institutional and civic designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Cathedral School",
+      "mention_texts": [
+        "Scholae Metropolitanae Leopoliensis",
+        "Scholam",
+        "Schola Leopoliensis",
+        "Scholae"
+      ],
+      "descriptive_mentions": [
+        "Scholae circa Ecclesiam eiusdem Civitatis Metropolitanae consisten"
+      ],
+      "justification": "Cathedral school receiving legacy and support."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Morawiński",
+      "mention_texts": [
+        "Laurentium Morawinski",
+        "Laurentium olim Morawinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Legatore",
+        "Nobilem et Fam"
+      ],
+      "justification": "Testator/legator of the sum for the school."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum",
+        "Centum Florenorum",
+        "Centum florenos pecunia Polonica"
+      ],
+      "descriptive_mentions": [
+        "florenorum Centum",
+        "eadem summa Centum Florenorum"
+      ],
+      "justification": "Sum of 100 florins released and received."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentorum",
+        "Trecentis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total endowment of 300 florins bequeathed by Laurentius Morawiński."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1581-09-30",
+      "mention_texts": [
+        "Sabbato postridie Sancti Michaelis Anno Domini 1581"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/inscription annulled by this record."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czeckowicz",
+      "mention_texts": [
+        "Joannes Aromatharius",
+        "Joannes Czeckowicz Aromatarius"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen and apothecary appearing in the second entry."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0050: Sophia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consortis sua legitima"
+      ],
+      "justification": "Wife of Joannes Czeckowicz mentioned for ratification."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lviv Cathedral",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Ecclesiam eiusdem Civitatis Metropolitanae"
+      ],
+      "justification": "Metropolitan cathedral near which the school is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member of",
+      "tail_entity_id": "E2",
+      "evidence": "Magister Albertus Pedianus collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse of",
+      "tail_entity_id": "E9",
+      "evidence": "Honesta Sophia consortis sua legitima"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Czeckowicz Aromatarius et Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located in",
+      "tail_entity_id": "E11",
+      "evidence": "Scholae circa Ecclesiam eiusdem Civitatis Metropolitanae consisten"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located in",
+      "tail_entity_id": "E3",
+      "evidence": "Ecclesiam eiusdem Civitatis Metropolitanae"
+    }
+  ]
+}

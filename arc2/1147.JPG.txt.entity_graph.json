@@ -1,0 +1,118 @@
+{
+  "document_id": "arc2/1147.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act was recorded and the court was sitting ('Acta sunt haec Leopoli', 'hic Leopoli')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quin- ta post Festum Epiphaniarum proxima Anno eiusdem Domini Millesimo Quingentesimo Nonagesimo Sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the legal act (Thursday after Epiphany 1596)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Land Court",
+      "mention_texts": [
+        "Judicij Terrestris Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Judicio",
+        "Actisque praesentibus Juribus Leopoliensibus",
+        "praesenti vero huic Juri et jurisdictioni Judicij Terrestris Leopoliensis"
+      ],
+      "justification": "The noble land court of Lviv before which the contract was submitted."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Łukasz Opaliński",
+      "mention_texts": [
+        "Leknus Opalinski"
+      ],
+      "descriptive_mentions": [
+        "Magnificus",
+        "Capitaneus Radzieioviensis Losnicensisque",
+        "recognoscentium"
+      ],
+      "justification": "Magnate and capitaneus of Radziejów submitting the contract for confirmation ('Magnificus Leknus Opalinski de Bnin Crain Capitaneus Radzieioviensis')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Bnin",
+      "mention_texts": [
+        "Bnin"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ancestral seat of the Opaliński family ('de Bnin')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Radziejów",
+      "mention_texts": [
+        "Radzieioviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "District of which Opaliński was capitaneus ('Capitaneus Radzieioviensis')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Rożyszcze",
+      "mention_texts": [
+        "Rozisciensis"
+      ],
+      "descriptive_mentions": [
+        "Castri Rozisciensis",
+        "bonorum Castri Rozisciensis"
+      ],
+      "justification": "Castle and estate leased in the mentioned contract ('ratione arendae bonorum Castri Rozisciensis')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "24 January 1596",
+      "mention_texts": [
+        "die vigesima quarta Mensis Januarij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date on which the contract/intercisa was drawn up."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "originates_from",
+      "tail_entity_id": "E5",
+      "evidence": "Magnificus Leknus Opalinski de Bnin"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Capitaneus Radzieioviensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Judicij Terrestris Leopoliensis"
+    }
+  ]
+}

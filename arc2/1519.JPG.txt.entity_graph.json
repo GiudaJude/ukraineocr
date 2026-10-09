@@ -1,0 +1,284 @@
+{
+  "document_id": "arc2/1519.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officio nostro"
+      ],
+      "justification": "City council referred to as 'Officio nostro' and 'Officium Consulare Leopoliense'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Salek",
+      "mention_texts": [
+        "Salek",
+        "Laurenti-\num Salek"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Civem Leopoliensem",
+        "cohabitato-\nres"
+      ],
+      "justification": "Burgher of Lviv involved in a quarrel with Stanisław Szabat."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szabat",
+      "mention_texts": [
+        "Sabat",
+        "Stanislaw Szabat"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Sartorem",
+        "incolam Leopoliensem",
+        "cohabitato-\nres"
+      ],
+      "justification": "Tailor and resident of Lviv involved in a dispute with Laurentius Salek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliense",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis huius"
+      ],
+      "justification": "The city of Lviv mentioned as the origin/location of burghers, buildings, and jurisdiction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Falczowska",
+      "mention_texts": [
+        "lapideae Falczowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Tenement house where Salek and Szabat cohabited."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Piekarska Street",
+      "mention_texts": [
+        "platea\nPistorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the Falczowska tenement was situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lower Castle of Lviv",
+      "mention_texts": [
+        "Castrum Inferius Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lower Castle used as a landmark for orientation of the tenement."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "50 marks",
+      "mention_texts": [
+        "quinquaginta marcarum"
+      ],
+      "descriptive_mentions": [
+        "vadium",
+        "vadijum praefatum"
+      ],
+      "justification": "Amount of bail imposed by the council between Salek and Szabat."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta ipsis die\nS. Barbarae Virginis Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the first record: Wednesday, Feast of St. Barbara, 1596."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Schramm",
+      "mention_texts": [
+        "Sebastianus Schramm",
+        "Sebastianus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Filius",
+        "artificij Muratorum discipulus"
+      ],
+      "justification": "Debtor acknowledging a debt to Sebastianus Czeszek."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Masons' Guild",
+      "mention_texts": [
+        "artificij Muratorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Guild of masons of which Sebastianus Schramm is an apprentice."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "20 florins 15 grosz",
+      "mention_texts": [
+        "Florenos viginti et grossos quindecim pecuniae et numeri Polonicalis",
+        "viginti Florenos et grossos quindecim"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Debt sum acknowledged by Sebastianus Schramm."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Czeszek",
+      "mention_texts": [
+        "Mularski",
+        "Sebastiano Czeszek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Muratori",
+        "Creditori",
+        "suo Creditori"
+      ],
+      "justification": "Mason and creditor receiving the obligation."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo S. Agnetis Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Term date for payment."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "anno\nfuturo 159 septimo venturo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1597 mentioned as the due date year."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "suburbio Civitatis huius\nHaliciensi vocato"
+      ],
+      "justification": "Suburb of Lviv where the debtor's paternal house is located."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "Tarnawska Street",
+      "mention_texts": [
+        "platea Tarnawoska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Halych suburb where the mortgaged property sits."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Caspar Szarstka",
+      "mention_texts": [
+        "Casparos Sarstka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor of the paternal house pledged by Sebastianus Schramm."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Skrzyński",
+      "mention_texts": [
+        "Skrzynski"
+      ],
+      "descriptive_mentions": [
+        "Scabini"
+      ],
+      "justification": "Alderman and neighboring property owner."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resides_in",
+      "tail_entity_id": "E5",
+      "evidence": "Laurenti- um Salek... unius et eiusdem lapideae Falczowska... cohabitato- res"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resides_in",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislaw Szabat Sartorem incolam Leopoliensem unius et eiusdem lapideae Falczowska... cohabitato- res"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_located_in",
+      "tail_entity_id": "E6",
+      "evidence": "lapideae Falczowska in platea Pistorum... sitae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "interposed_bail_between",
+      "tail_entity_id": "E2",
+      "evidence": "Officium Consulare Leopoliense... inter Famatos Laurenti- um Salek... et Honestum Stanislaw Szabat... vadium quinquaginta marcarum interposuit"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "interposed_bail_between",
+      "tail_entity_id": "E3",
+      "evidence": "Officium Consulare Leopoliense... inter Famatos Laurenti- um Salek... et Honestum Stanislaw Szabat... vadium quinquaginta marcarum interposuit"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Sebastianus... artificij Muratorum discipulus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "debtor_of",
+      "tail_entity_id": "E13",
+      "evidence": "Sebastianus... recognovit: se debere tenerique... Honesto Sebastiano Czeszek Muratori"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "is_located_in",
+      "tail_entity_id": "E16",
+      "evidence": "in suburbio Civitatis huius Haliciensi vocato in platea Tarnawoska"
+    }
+  ]
+}

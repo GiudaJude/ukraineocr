@@ -1,0 +1,90 @@
+{
+  "document_id": "arc2/1525.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Złotoruka",
+      "mention_texts": [
+        "Joannis Zlotoruka",
+        "Zlotoruka"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "praefatorum",
+        "praedicti olim"
+      ],
+      "justification": "Named person whose property rights are being transferred; referred to as deceased ('olim Zlotoruka')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "praefatorum",
+        "ipsi venditrici"
+      ],
+      "justification": "Spouse of Joannes Złotoruka and seller of the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Dobrzański",
+      "mention_texts": [
+        "Nicolao Dobrzanski"
+      ],
+      "descriptive_mentions": [
+        "Empthore",
+        "eundem",
+        "emptori",
+        "emptore",
+        "Emptoris moderni"
+      ],
+      "justification": "Buyer acquiring the rights and property of Joannes Złotoruka and Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoli"
+      ],
+      "descriptive_mentions": [
+        "praesenti celebrando"
+      ],
+      "justification": "The judicial forum in Lviv where the resignation of property is to be effectuated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Dmaszala",
+      "mention_texts": [
+        "Albertus Dmaszala"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or witness at the end of the legal entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sowa",
+      "mention_texts": [
+        "Albertus Sowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or witness at the end of the legal entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefatorum Joannis Zlotoruka et Annae coniugum"
+    }
+  ]
+}

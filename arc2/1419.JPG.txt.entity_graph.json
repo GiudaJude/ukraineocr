@@ -1,0 +1,140 @@
+{
+  "document_id": "arc2/1419.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Myszkowicz",
+      "mention_texts": [
+        "Simon Myszkowicz",
+        "Simonis"
+      ],
+      "descriptive_mentions": [
+        "idem",
+        "Olim"
+      ],
+      "justification": "Named party making selection of shares in the first clause and in the heading."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "praefata",
+        "matri ipsius"
+      ],
+      "justification": "Mother of Simon Myszkowicz mentioned in the opening postponement."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Florianus Adamowic",
+      "mention_texts": [
+        "Floriano Adamowic"
+      ],
+      "descriptive_mentions": [
+        "clerico"
+      ],
+      "justification": "Clerk of the guardian mentioned in the opening clause."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act was recorded and where the parties reside."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia ante festum Sanctae Hedwigis Proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Adamus Hermanowicz",
+      "mention_texts": [
+        "Adamus Hermanowic",
+        "Adamus Hermanowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coiuges",
+        "incolae Leopolienses",
+        "vir",
+        "mariti sui"
+      ],
+      "justification": "Spouse appearing before the council to register a debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "coiuges",
+        "incolae Leopolienses",
+        "uxor"
+      ],
+      "justification": "Wife of Adam Hermanowicz appearing before the council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szererski",
+      "mention_texts": [
+        "Albertum Szererski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Fratrem Germanum",
+        "tutorem"
+      ],
+      "justification": "Brother-german and guardian of Dorothea for this act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii nostri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal office whose authority approves the guardianship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "Barbara matri ipsius"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesti Adamus Hermanowicz et Dorothea coiuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "uxor vero per Nobilem Albertum Szererski Fratrem Germanum"
+    }
+  ]
+}

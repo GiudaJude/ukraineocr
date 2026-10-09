@@ -1,0 +1,172 @@
+{
+  "document_id": "arc2/1175.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in Latin form."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv mentioned as the venue for legal action."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Semoni"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino Civitatis Leopoliensis",
+        "Plenipotens praedictus"
+      ],
+      "justification": "Lviv alderman acting as plenipotentiary."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio nostro"
+      ],
+      "descriptive_mentions": [
+        "nostra residentia"
+      ],
+      "justification": "The municipal council before which the party appeared."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia",
+        "Wodczyina",
+        "Sliwczyna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "olim Alberti Centara Muris Civis Foxanen relicta vidua",
+        "vidua",
+        "D."
+      ],
+      "justification": "Widow appearing before the council to present letters of acquittance."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Centara Muris",
+      "mention_texts": [
+        "Alberti Centara Muris"
+      ],
+      "descriptive_mentions": [
+        "Civis Foxanen"
+      ],
+      "justification": "Deceased husband of Zofia, identified as a citizen of Focșani."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Focșani",
+      "mention_texts": [
+        "Foxanen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin/citizenship of Albertus Centara Muris."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sadrowicz",
+      "mention_texts": [
+        "Albertum Sadrowicz"
+      ],
+      "descriptive_mentions": [
+        "tutorem"
+      ],
+      "justification": "Assumed legal guardian (tutor) of Zofia."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Siemianowski",
+      "mention_texts": [
+        "Hieronymi a Radzanow Siemianowski"
+      ],
+      "descriptive_mentions": [
+        "magnifici",
+        "Palatinidis Russiae"
+      ],
+      "justification": "Son of the Palatine of Ruthenia whose letters were produced."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Radzanów",
+      "mention_texts": [
+        "Radzanow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Toponym indicating the origin/seat of Hieronymus Siemianowski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Province/Palatinate of Ruthenia mentioned in the title 'Palatinidis Russiae'."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Rataj",
+      "mention_texts": [
+        "Rataii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the heading of the acquittance."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honorato Semoni Scabino Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesta Sophia olim Alberti Centara Muris Civis Foxanen relicta vidua"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Alberti Centara Muris Civis Foxanen"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "per assumptum sibi tutorem Albertum Sadrowicz"
+    }
+  ]
+}

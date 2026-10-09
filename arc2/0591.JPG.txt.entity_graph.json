@@ -1,0 +1,187 @@
+{
+  "document_id": "arc2/0591.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office resolving execution of decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus Duchna",
+      "mention_texts": [
+        "Petri Duchna",
+        "Petro Duchna"
+      ],
+      "descriptive_mentions": [
+        "Aurifabri",
+        "Famato",
+        "Aurifabro",
+        "eundem"
+      ],
+      "justification": "Goldsmith acquiring quietatio for 500 florins."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Leczkowicz",
+      "mention_texts": [
+        "Albertus Leczkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sutor",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Shoemaker and citizen of Lviv acknowledging receipt of money."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "florenis quingentis pecuniae et numeri Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 500 Polish florins."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kramarzowska House",
+      "mention_texts": [
+        "Kraamarsowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae anielis Kraamarsowska vocatae",
+        "domus praedictae"
+      ],
+      "justification": "Stone house named Kraamarsowska."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Baltasar Cwrik",
+      "mention_texts": [
+        "Baltasaris Cwit",
+        "Baltasaro Cwrik"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "figulo",
+        "emptore domus praedictae",
+        "eundem"
+      ],
+      "justification": "Potter and buyer of the house who paid 20 florins."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow receiving money from the sale of a house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Vitus Cszempek",
+      "mention_texts": [
+        "Fiti",
+        "Fiti"
+      ],
+      "descriptive_mentions": [
+        "olim mariti sui"
+      ],
+      "justification": "Deceased husband of Anna whose legacy was fulfilled."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Cszempek",
+      "mention_texts": [
+        "Joannis Cszempek"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased father of Vitus Cszempek."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Paulus Kraas",
+      "mention_texts": [
+        "Petrum Paulum Kraas"
+      ],
+      "descriptive_mentions": [
+        "Fabrum",
+        "tutorem sibi assumptum"
+      ],
+      "justification": "Smith acting as legal guardian (tutor) for Anna."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenis viginti pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 20 Polish florins."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato post Dominicam Sanctarum Paschae. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording in 1595."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Anna Fiti olim Joannis Cszempek vidua relicta ... iuxta legatum Fiti olim mariti sui"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Fiti olim Joannis Cszempek"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "per Petrum Paulum Kraas Fabrum tutorem sibi assumptum"
+    }
+  ]
+}

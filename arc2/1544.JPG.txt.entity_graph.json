@@ -1,0 +1,163 @@
+{
+  "document_id": "arc2/1544.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "F. Thomae Apostoli proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court record entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Piatkowic",
+      "mention_texts": [
+        "Albertus Piatkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sartor",
+        "secundarum nuptiarum coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "innominati venditores",
+        "venditores"
+      ],
+      "justification": "Tailor and citizen of Lviv acting in the transaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "secundarum nuptiarum coniuges",
+        "Cives Leopolienses",
+        "hec",
+        "innominati venditores",
+        "venditores"
+      ],
+      "justification": "Wife of Albertus Piatkowic consenting to the sale."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Przeborowski",
+      "mention_texts": [
+        "Joannis Przeborowski"
+      ],
+      "descriptive_mentions": [
+        "olim Famati",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv formerly owning the stonehouse referenced."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Rzeszowski",
+      "mention_texts": [
+        "Christopherus Rzeszowski",
+        "Christophoro Rzeszowski",
+        "Christopheri Rzeszowski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sartori",
+        "Civi Leopoliensi",
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "dictos Emptores",
+        "Emptores",
+        "iidem Emptores",
+        "emptoribus"
+      ],
+      "justification": "Tailor and citizen of Lviv purchasing the property shares."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Justina",
+      "mention_texts": [
+        "Justinae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "dictos Emptores",
+        "Emptores",
+        "iidem Emptores",
+        "emptoribus"
+      ],
+      "justification": "Wife of Christophorus Rzeszowski purchasing the shares jointly with him."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv referenced in the citizenship designations and court context."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito"
+      ],
+      "descriptive_mentions": [
+        "Iudicio Exposito Civitatis"
+      ],
+      "justification": "The banned civil court of Lviv mentioned in connection with the senior scabinus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famatus Albertus Piatkowic Sartor et Honesta Anna secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famato Christophoro Rzeszowski Sartori Civi Leopoliensi et Honestae Justinae coniugibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Famatus Albertus Piatkowic Sartor et Honesta Anna secundarum nuptiarum coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "olim Famati Joannis Przeborowski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Famato Christophoro Rzeszowski Sartori Civi Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/1412.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Miscliwa",
+        "Barbaram",
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "minorenne filiam"
+      ],
+      "justification": "Referred to in the heading as 'Barbara Miscliwa' and in the text as minor daughter ('minorenne filiam') of the late Stanislaus Mularzowic and surviving Catherina; canonicalized to PER-0283."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Musicius",
+      "mention_texts": [
+        "Albertus Misiur",
+        "Albertus Musicius"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Civis vero Brzezanensis"
+      ],
+      "justification": "Named in the header as 'Albertus Misiur' and in text as 'Honestus Albertus Musicius', citizen of Brzeżany."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officium praesens",
+        "Actis hisce"
+      ],
+      "descriptive_mentions": [
+        "Officio"
+      ],
+      "justification": "Municipal council of Lviv before which the appearance is recorded."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lwów (Lviv), mentioned in official titles and citizenship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adamus Hieronymus Sieniawski",
+      "mention_texts": [
+        "Adami Hieronymi Sieniawski"
+      ],
+      "descriptive_mentions": [
+        "Magnifici",
+        "Palatinidis Russiae"
+      ],
+      "justification": "Nobleman identified as son of the Voivode of Ruthenia ('Magnifici Adami Hieronymi Sieniawski Palatinidis Russiae')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Voivodeship of Ruthenia, mentioned in Sieniawski's patronymic/title 'Palatinidis Russiae'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Brzeżany",
+      "mention_texts": [
+        "Brzezanensis",
+        "Brzezanensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of Brzeżany, origin of Albertus Musicius and location of its council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulum Simonowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Corresponds to alias 'Paulum Simonowic' under canonical PER-0621: Paulus Szczesny."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czopfrowic",
+      "mention_texts": [
+        "Joannis Czopfrowic"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Consulis Leopoliensis"
+      ],
+      "justification": "Lviv councilman ('Domini Joannis Czopfrowic Consulis Leopoliensis')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joanni Swiątkowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Aromatario"
+      ],
+      "justification": "Pharmacist identified as 'Joanni Swiątkowic Aromatario', mapped to PER-0071 via known aliases."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Monetary sum of 50 florins mentioned in the transaction."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Mularzowic",
+      "mention_texts": [
+        "Stanislai Mularzowic"
+      ],
+      "descriptive_mentions": [
+        "famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, father of Barbara ('famati olim Stanislai Mularzowic Civis Leopoliensis')."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Caterina"
+      ],
+      "descriptive_mentions": [
+        "supstitis",
+        "coniugum"
+      ],
+      "justification": "Surviving mother/wife ('Caterina supstitis coniugum'), canonicalized to PER-0110."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "Brzeżany City Council",
+      "mention_texts": [
+        "Offi- consulari Brzezanensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council office of the town of Brzeżany issuing the testimonial."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "has_residence",
+      "tail_entity_id": "E7",
+      "evidence": "Civis vero Brzezanensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Barbaram minorenne filiam famati olim Stanislai Mularzowic"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Barbaram minorenne filiam famati olim Stanislai Mularzowic Civis Leopoliensis et Caterina supstitis coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Stanislai Mularzowic Civis Leopoliensis et Caterina supstitis coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "has_residence",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Mularzowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannis Czopfrowic Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "originates_from",
+      "tail_entity_id": "E6",
+      "evidence": "Adami Hieronymi Sieniawski Palatinidis Russiae"
+    }
+  ]
+}

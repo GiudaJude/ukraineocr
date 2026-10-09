@@ -1,0 +1,251 @@
+{
+  "document_id": "arc2/1206.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar Smieszek",
+      "mention_texts": [
+        "Caspar Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Carnicida Leopoliensis",
+        "mente et corpore sanus",
+        "affini",
+        "manu sua"
+      ],
+      "justification": "Primary actor appearing in the record who sells inherited property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Smieszek",
+      "mention_texts": [
+        "Stanislaw Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "olim",
+        "coniuges parentes suos charissimos"
+      ],
+      "justification": "Deceased father of Caspar Smieszek."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Barbara Vidanowowa",
+      "mention_texts": [
+        "Barbaram Vidanowowa"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "olim",
+        "coniuges parentes suos charissimos"
+      ],
+      "justification": "Deceased mother of Caspar Smieszek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Mazowic",
+        "Andreae Mazowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Notario et Scabino Civitatis eiusdem Leopoliensis",
+        "affini",
+        "Coniugibus Civibus Leopoliensibus"
+      ],
+      "justification": "Town scribe and bench judge of Lviv purchasing the property portion with his wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Eva Smieszkowna",
+      "mention_texts": [
+        "Evae Smieszkowna"
+      ],
+      "descriptive_mentions": [
+        "sorori",
+        "Coniugibus Civibus Leopoliensibus"
+      ],
+      "justification": "Sister of Caspar Smieszek and wife of Andreas Madrowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "City where the transaction takes place and where actors reside."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0033: Jaroszowska House",
+      "mention_texts": [
+        "Janieskowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "lapideam",
+        "lapideae"
+      ],
+      "justification": "The masonry house being partially sold, identified by its common name."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0016: Halych Street",
+      "mention_texts": [
+        "Halicienska"
+      ],
+      "descriptive_mentions": [
+        "platea eiusdem Civitatis ... dicta"
+      ],
+      "justification": "Street where the house is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Sponarowska House",
+      "mention_texts": [
+        "Sponarowska"
+      ],
+      "descriptive_mentions": [
+        "lapideam"
+      ],
+      "justification": "Neighboring stone house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "feria quinta post Festum Nativitatis Beati Joanni Baptistae Anno 1591 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous division recorded in the town books."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "quingentorum Florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price of the property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "florenorum quadringentis Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Portion of the sum previously received under pawn contract."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "ipso die Sanctorum Philippi et Jacobi Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous written pawn agreement."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos centum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Portion of the payment received in the present transaction."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "ijsdem actis"
+      ],
+      "justification": "The municipal council whose register contains previous and present acts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "sortem suam haereditariam paternam et maternam ad se iure naturali successionis post Honestos olim Stanislaw Smieszek et Barbaram Vidanowowa coniuges parentes suos charissimos devolutam"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "sortem suam haereditariam paternam et maternam ad se iure naturali successionis post Honestos olim Stanislaw Smieszek et Barbaram Vidanowowa coniuges parentes suos charissimos devolutam"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaw Smieszek et Barbaram Vidanowowa coniuges parentes suos"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Evae Smieszkowna sorori"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andreae Mazowicz Notario et Scabino... et Evae Smieszkowna sorori Coniugibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "in_law_of",
+      "tail_entity_id": "E1",
+      "evidence": "Andreae Mazowicz... affini"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Caspar Smieszek Civis et Carnicida Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Notario et Scabino Civitatis eiusdem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in domo lapidea Janieskowska vocata qua in platea eiusdem Civitatis Halicienska dicta in acie penes lapideam Sponarowska sita est"
+    }
+  ]
+}

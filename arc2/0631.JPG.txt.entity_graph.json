@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/0631.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Attabiey Texanowicz",
+      "mention_texts": [
+        "Attabiey",
+        "Attabiey Texanowicz"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "praenominatus"
+      ],
+      "justification": "Party who settles expenses, quashes an inscription, and reserves action against successors."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Luteribus Szachi",
+      "mention_texts": [
+        "Luteribus Szachi"
+      ],
+      "descriptive_mentions": [
+        "eidem"
+      ],
+      "justification": "Individual against whom a suit regarding expenses had previously been instituted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officio Aduocatiali"
+      ],
+      "descriptive_mentions": [
+        "officij"
+      ],
+      "justification": "Municipal advocatial court before which the previous inscription and decree were made."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Doroszak",
+      "mention_texts": [
+        "Doroszak"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased citizen whose successors are subject to reserved legal action."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Twarik",
+      "mention_texts": [
+        "Twarik"
+      ],
+      "descriptive_mentions": [
+        "praefatis",
+        "haeredi"
+      ],
+      "justification": "Heir paid pursuant to the court's decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council office of Lviv issuing the decree concerning Tomasz Chmielowski and Joachim Rottendorff."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Tomasz Chmielowski",
+      "mention_texts": [
+        "Toma Chmielowski",
+        "Tomam Chmielowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Actorem"
+      ],
+      "justification": "Noble plaintiff in the council decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joachim Rottendorff",
+      "mention_texts": [
+        "Joachimum Zostherdorff",
+        "Joachimi Zostherdorff"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Scabinum et Ciuem Leopoliensem",
+        "citatum",
+        "praefati Honorati",
+        "praedictas Honoratus Citatus"
+      ],
+      "justification": "Scabinus and citizen of Lviv cited in the matter of horse presentation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in the citizenship descriptor and location of court action."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Petrus Boguszewski",
+      "mention_texts": [
+        "Petrum Boguszski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "eiusdem"
+      ],
+      "justification": "Noble mentioned in connection with the submission to present horses."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Boguszewski",
+      "mention_texts": [
+        "Stanislaus Boguszewski"
+      ],
+      "descriptive_mentions": [
+        "praedictus Nobilis"
+      ],
+      "justification": "Noble who failed to present the horses on the specified day."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda proxima post festum Sanctae Elisabethae Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Schultzabeta",
+      "mention_texts": [
+        "Schultzabeta"
+      ],
+      "descriptive_mentions": [
+        "Iudex dominus"
+      ],
+      "justification": "Judge presiding over the court entry."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Pistor",
+      "mention_texts": [
+        "Bartholomeus Pistor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court assessor present at the entry."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Judicius Gallus",
+      "mention_texts": [
+        "Judicius Gallus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court assessor present at the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "legal_opponent",
+      "tail_entity_id": "E2",
+      "evidence": "Causamque ratione eiusmodi impensarum eidem Luteribus Szachi institutam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_opponent",
+      "tail_entity_id": "E8",
+      "evidence": "inter Nobilem Tomam Chmielowski Actorem et Honestum Joachimum Zostherdorff Scabinum et Ciuem Leopoliensem citatum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Ciuem Leopoliensem"
+    }
+  ]
+}

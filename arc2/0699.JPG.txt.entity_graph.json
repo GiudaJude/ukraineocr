@@ -1,0 +1,248 @@
+{
+  "document_id": "arc2/0699.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Dominis"
+      ],
+      "justification": "Court before which the parties appeared and presented the royal mandate."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the council title and citizenship designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Saposzki",
+      "mention_texts": [
+        "Andreas Saposzki"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "Tutor Furiosarum",
+        "Actores"
+      ],
+      "justification": "Noble actor appearing as tutor of the wards of the late Emanuel Steffani."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Emanuel Steffani",
+      "mention_texts": [
+        "Emanuelis Steffani"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Graeci",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased Greek citizen of Lviv whose wards are under the guardianship of Andreas Saposzki."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Czirnier",
+      "mention_texts": [
+        "Nicola-us",
+        "Czirnier",
+        "Dominico Xenzki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honestus",
+        "Tutores",
+        "Actores"
+      ],
+      "justification": "Noble actor appearing on his own behalf and for his brother Joannes."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Donam Domestici Xenzki",
+      "mention_texts": [
+        "Joannis",
+        "Donam",
+        "Joannes",
+        "Domestici Xenzki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "sui germani",
+        "Graeci",
+        "aduena Leopoliensis",
+        "Tutores",
+        "Actores"
+      ],
+      "justification": "Brother of Nicolaus, Greek newcomer to Lviv and co-tutor of Nicolaus Zikoli's household."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Zikoli Soldaczia",
+      "mention_texts": [
+        "Nicolai Zikoli Soldaczia"
+      ],
+      "descriptive_mentions": [
+        "Generosi olim"
+      ],
+      "justification": "Deceased noble whose household is under the guardianship of Nicolaus and Joannes."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Biernatowicz",
+      "mention_texts": [
+        "Joannem Biernatowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Auonotatos",
+        "Cives Leopolienses",
+        "citatos"
+      ],
+      "justification": "Lviv citizen cited as defendant in the denunciation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "David Serepkowicz",
+      "mention_texts": [
+        "Davidem Serepkowicz",
+        "Dauid Serepkowicz"
+      ],
+      "descriptive_mentions": [
+        "Auonotatos",
+        "Cives Leopolienses",
+        "citatos",
+        "praedictus"
+      ],
+      "justification": "Lviv citizen cited as defendant, who makes an allocution through his prolocutor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Smalson Ierosowicz",
+      "mention_texts": [
+        "Smalsonem Ierosowicz"
+      ],
+      "descriptive_mentions": [
+        "Auonotatos",
+        "Cives Leopolienses",
+        "citatos"
+      ],
+      "justification": "Lviv citizen cited as defendant in the denunciation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kosiroski",
+      "mention_texts": [
+        "Andream Kosiroski"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem suum",
+        "iuratum"
+      ],
+      "justification": "Sworn prolocutor representing David Serepkowicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus III"
+      ],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Rex",
+        "Magnus Dux"
+      ],
+      "justification": "King of Poland and Grand Duke of Lithuania whose mandate is submitted to the council."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom ruled by Sigismund III."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0274: Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Grand Duchy ruled by Sigismund III."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nobilis Joannis alias Donam sui germani"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E9",
+      "evidence": "praedictus Dauid Serepkowicz per Prolocutorem suum Andream Kosiroski iuratum allocutionem fecit"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Emanuelis Steffani Graeci Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "contra Famatum Joannem Biernatowicz Davidem Serepkowicz atque Smalsonem Ierosowicz Auonotatos Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "contra Famatum Joannem Biernatowicz Davidem Serepkowicz atque Smalsonem Ierosowicz Auonotatos Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "contra Famatum Joannem Biernatowicz Davidem Serepkowicz atque Smalsonem Ierosowicz Auonotatos Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "ruler_of",
+      "tail_entity_id": "E13",
+      "evidence": "Sigismundus III Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "ruler_of",
+      "tail_entity_id": "E14",
+      "evidence": "Sigismundus III Dei gratia Rex Poloniae Magnus Dux Lithuaniae"
+    }
+  ]
+}

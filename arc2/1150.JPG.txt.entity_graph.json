@@ -1,0 +1,201 @@
+{
+  "document_id": "arc2/1150.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Suspurski",
+      "mention_texts": [
+        "Joani Suspur- ski"
+      ],
+      "descriptive_mentions": [
+        "Notario Juris Leopoliensis"
+      ],
+      "justification": "Notary of Lviv law to whom the fee was paid."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leo- poliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City mentioned in the title of the notary and the residency of Iwan Pistor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucas Szewczuk",
+      "mention_texts": [
+        "Lucas Szewczuk"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party or recognizor named at the conclusion of the preceding act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Iwan Pysar",
+      "mention_texts": [
+        "Iwan Pysar"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party or recognizor named at the conclusion of the preceding act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Iwan Pistor",
+      "mention_texts": [
+        "Iwan Pistor"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leo- poliensis"
+      ],
+      "justification": "Suburban baker who cedes his obligatory rights to the Zaborowski plot."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Zaborowski Plot",
+      "mention_texts": [
+        "Zaborowski"
+      ],
+      "descriptive_mentions": [
+        "fundo",
+        "fundo praefato",
+        "fundus praedictus"
+      ],
+      "justification": "Plot of land in the Kraków suburb ceded in the transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [
+        "sub- urbis"
+      ],
+      "justification": "Kraków suburb of Lviv where the plot is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Szeroka Street",
+      "mention_texts": [
+        "platea lata"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Broad Street in the Kraków suburb where the plot is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Skoworskie Plot",
+      "mention_texts": [
+        "Skoworskie"
+      ],
+      "descriptive_mentions": [
+        "fundos"
+      ],
+      "justification": "Adjacent plot bordering the Zaborowski plot."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Bernatrowskie Plot",
+      "mention_texts": [
+        "Bernatrowskie"
+      ],
+      "descriptive_mentions": [
+        "fundos"
+      ],
+      "justification": "Adjacent plot bordering the Zaborowski plot."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "67 Polish florins",
+      "mention_texts": [
+        "sexaginta septem florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Amount of money for which the plot was obligated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the Polish monetary denomination."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Skowrodzki",
+      "mention_texts": [
+        "Stanislao Skowrodzki"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pistori",
+        "genero suo",
+        "condescensario suo",
+        "cessionarius"
+      ],
+      "justification": "Baker and son-in-law of Iwan Pistor who receives the rights to the plot."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Closing date formula referencing the year and date established above."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E13",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E5",
+      "evidence": "genero suo"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in eiusdem sub- urbis Suburbio Cracoviensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in platea lata"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in eiusdem sub- urbis Suburbio Cracoviensi in platea lata"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Suburbanus Leo- poliensis"
+    }
+  ]
+}

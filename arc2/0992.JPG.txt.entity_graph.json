@@ -1,0 +1,178 @@
+{
+  "document_id": "arc2/0992.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Warszalowska",
+      "mention_texts": [
+        "Warszalowska"
+      ],
+      "descriptive_mentions": [
+        "uxoris"
+      ],
+      "justification": "Identified as the wife/widow whose dower (dos) was contracted after her husband's death."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Knotowska House",
+      "mention_texts": [
+        "Knotowskiey"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae praedictae",
+        "lapideae"
+      ],
+      "justification": "Tenement house mentioned in connection with the division of property shares."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitate",
+        "Ciuitatis Leopoliensis",
+        "Leopolitanum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City context established by mentions of the civic community and official bodies."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous registration referred to in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio",
+        "actis nostris Consularibus",
+        "officij Consularis Leopoliensis",
+        "officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular office and court issuing decrees and keeping consular books."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0126: 62 florins",
+      "mention_texts": [
+        "sexaginta duorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum specified in the document."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officium Iuris Fidelium",
+        "Honoratorum Iuris Fidelium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The scabinal/advocatial bench of Lviv making property assignment."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "Sabbato ante Dominicam Cantate proximo. Anno Domini Millesimo Quingentesimo Nonagesimo tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the consular entry referred to in the assignment."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Cerdonius",
+      "mention_texts": [
+        "Joannes Cerdonius"
+      ],
+      "descriptive_mentions": [
+        "Creditori",
+        "idem Creditor"
+      ],
+      "justification": "The creditor who requested the entry into the city books."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Hatmakers' Guild of Lviv",
+      "mention_texts": [
+        "Contubernii Pilcariorum",
+        "Contubernij Pileatorum Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Guild of hatmakers party to the decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastianum Zielogorski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Pileatorem",
+        "Contubernalem",
+        "suburbanum Leopolitanum",
+        "citatum"
+      ],
+      "justification": "Suburban hatmaker and guild colleague cited as defendant."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0025: Shoemakers' Guild",
+      "mention_texts": [
+        "Contubernali Sutorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Shoemakers' guild mentioned at the end of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "domus lapideae praedictae ad eundem iure gladii ab hac Ciuitate spectante... lapideae Knotowskiey"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "based_in",
+      "tail_entity_id": "E3",
+      "evidence": "officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "based_in",
+      "tail_entity_id": "E3",
+      "evidence": "officium Iuris Fidelium"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "based_in",
+      "tail_entity_id": "E3",
+      "evidence": "Contubernij Pileatorum Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Contubernij Pileatorum Ciuitatis Leopoliensis, Actores et Honestum Sebastianum Zielogorski Pileatorem Contubernalem"
+    }
+  ]
+}

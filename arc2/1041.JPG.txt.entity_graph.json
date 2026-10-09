@@ -1,0 +1,136 @@
+{
+  "document_id": "arc2/1041.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastiani",
+        "Subestiani"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "pupilli",
+        "praefati sui pupilli",
+        "eidem"
+      ],
+      "justification": "Identified as the pupil (ward) pursuing his studies, whose guardians manage rights to the butcher stall."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0134: Paulus Aromatarius",
+      "mention_texts": [
+        "Amoratheum"
+      ],
+      "descriptive_mentions": [
+        "verum et legitimum plenipotentem",
+        "D.",
+        "seniorem scabinum",
+        "praefatum suum Plenipotentem"
+      ],
+      "justification": "Senior scabinus appointed as plenipotentiary representative."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned civil court of Lviv where the scabinus serves."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in relation to the decuriae and court."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0149: Stanislaus Aberman",
+      "mention_texts": [
+        "Stanislaus Habermanovicz"
+      ],
+      "descriptive_mentions": [
+        "memoratus"
+      ],
+      "justification": "Co-guardian of Sebastianus and husband of Anna Laurentowna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Laurentowna"
+      ],
+      "descriptive_mentions": [
+        "ipsius uxor",
+        "matertera"
+      ],
+      "justification": "Wife of Stanislaus Habermanowicz and maternal aunt/guardian of Sebastianus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos Centum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of 100 florins delivered before the death of Catherina Długoszowa."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina Dlugoszowa"
+      ],
+      "descriptive_mentions": [
+        "eiusdem",
+        "Domina aduitalitalis"
+      ],
+      "justification": "Named as the life-tenant (domina advitalitatis) of the butcher stall."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "memoratus Stanislaus Habermanovicz et Anna Laurentowna ipsius uxor"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "memoratus Stanislaus Habermanovicz et Anna Laurentowna ipsius uxor Quia vero Subestiani matertera uterque ipsorum tutelam eiusmodi ex officio suo datam gerin publice libereque fassi sunt. Quia ipsi consilio suorum amicorum persuasi in meliorem conditionem praefati sui pupilli"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "memoratus Stanislaus Habermanovicz et Anna Laurentowna ipsius uxor Quia vero Subestiani matertera uterque ipsorum tutelam eiusmodi ex officio suo datam gerin publice libereque fassi sunt. Quia ipsi consilio suorum amicorum persuasi in meliorem conditionem praefati sui pupilli"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Anna Laurentowna ipsius uxor Quia vero Subestiani matertera"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "officer_of",
+      "tail_entity_id": "E3",
+      "evidence": "Amoratheum D. seniorem scabinum in Judicio Exposito bannito"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "document_id": "arc2/0049.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kensdorf",
+      "mention_texts": [
+        "Joanni Komsza"
+      ],
+      "descriptive_mentions": [
+        "Honorato Domino",
+        "Civi et Negoziatori Jaroslaviensi",
+        "Creditori suo",
+        "praefato Creditori",
+        "Honoratus Creditor"
+      ],
+      "justification": "Creditor and merchant of Jarosław to whom debt payments are registered."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Jarosław",
+      "mention_texts": [
+        "Jaroslaviensi"
+      ],
+      "descriptive_mentions": [
+        "mercato Jaroslaviensi"
+      ],
+      "justification": "Town of citizenship of the creditor and location of the market fair."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "150 Polish florins",
+      "mention_texts": [
+        "Florenos centum quinquaginta"
+      ],
+      "descriptive_mentions": [
+        "priorem pensionem et ratam"
+      ],
+      "justification": "First installment of the debt obligation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Matthew the Apostle",
+      "mention_texts": [
+        "Festo Beati Mathei Apostoli et Evangelistae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for the first debt installment."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Włodzimierz",
+      "mention_texts": [
+        "Vladimiensi"
+      ],
+      "descriptive_mentions": [
+        "mercato Vladimiensi"
+      ],
+      "justification": "Town where the first debt payment is scheduled at the market."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "200 Polish florins",
+      "mention_texts": [
+        "Florenos ducentos"
+      ],
+      "descriptive_mentions": [
+        "Alteram et residuam",
+        "alteram residuam pensionem"
+      ],
+      "justification": "Second and remaining installment of the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festo Assumptionis in Caelum Beatissimae Virginis Mariae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for the second debt installment."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1596",
+      "mention_texts": [
+        "Anno Domini 159 sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of the second installment."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Klimczowska House",
+      "mention_texts": [
+        "Glinczowska"
+      ],
+      "descriptive_mentions": [
+        "domo praedicta",
+        "domus praedictae",
+        "domus",
+        "ea domo"
+      ],
+      "justification": "Mortgaged house in Lviv securing the debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Ruthenian Street",
+      "mention_texts": [
+        "platea Ruthenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the mortgaged house is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Fabryczyńska House",
+      "mention_texts": [
+        "Jabryczewska"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house on Ruthenian Street."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Babriczowska House",
+      "mention_texts": [
+        "Babiczowska"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house on Ruthenian Street."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii"
+      ],
+      "justification": "Municipal office whose legal authority is invoked for execution."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honorato Domino Joanni Komsza Civi et Negoziatori Jaroslaviensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "in domo praedicta Glinczowska vocata in platea Ruthenorum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E11",
+      "evidence": "inter Jabryczewska et Babiczowska domos utrings sita"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E12",
+      "evidence": "inter Jabryczewska et Babiczowska domos utrings sita"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "associated_with",
+      "tail_entity_id": "E5",
+      "evidence": "pro Festo Beati Mathei Apostoli et Evangelistae in mercato Vladimiensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "associated_with",
+      "tail_entity_id": "E2",
+      "evidence": "pro Festo Assumptionis in Caelum Beatissimae Virginis Mariae in mercato Jaroslaviensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "occurs_in",
+      "tail_entity_id": "E8",
+      "evidence": "pro Festo Assumptionis in Caelum Beatissimae Virginis Mariae in mercato Jaroslaviensi Anno Domini 159 sexto venturo"
+    }
+  ]
+}

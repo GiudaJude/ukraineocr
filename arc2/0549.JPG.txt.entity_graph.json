@@ -1,0 +1,118 @@
+{
+  "document_id": "arc2/0549.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die sabbatino post Festum Sancti Georgij Anno Domini Millesimo Quingentesimo Nonagesimo Quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Primary record date formula matching the known entity DATE-0001: 1595."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Rzeszów Advocatial Office",
+      "mention_texts": [
+        "officio Advocati et Scabinorum Rzeszoviensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal judicial court of the advocate and scabini of Rzeszów before which the act was performed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Scrajber",
+      "mention_texts": [
+        "Joannes Scrajber",
+        "Joanne Schraiber",
+        "Joanni Schraiber"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Cracoviensis",
+        "praenominato",
+        "praefato"
+      ],
+      "justification": "Citizen of Kraków appointing a plenipotentiary to collect debts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Kraków, mentioned via the origin of Joannes Scrajber."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Aurifex",
+      "mention_texts": [
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [
+        "Honorabilem",
+        "Aurificem",
+        "Civem Leopoliensem",
+        "absentem tanquam praesentem",
+        "Plenipotentem et mandatarium",
+        "Plenipotentiario suo",
+        "plempotentem suum"
+      ],
+      "justification": "Goldsmith and citizen of Lviv constituted as primary plenipotentiary."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, mentioned via the citizenship of Stanislaus Aurifex."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Obrieński",
+      "mention_texts": [
+        "Stanislaum Obrienski"
+      ],
+      "descriptive_mentions": [
+        "substitutum Plenipotentem"
+      ],
+      "justification": "Substituted plenipotentiary appointed to demand and recover debts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatus Joannes Scrajber Civis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaum Aurificem et Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E3",
+      "evidence": "constituit, ac solemniter ordinavit in suum verum ac legitimum Plenipotentem et mandatarium, Honorabilem Stanislaum Aurificem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E5",
+      "evidence": "fecit substituit et solemniter ordinavit in suum substitutum Plenipotentem Stanislaum Obrienski"
+    }
+  ]
+}

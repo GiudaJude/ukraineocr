@@ -1,0 +1,60 @@
+{
+  "document_id": "arc2/1473.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Albertum Kapinos",
+        "Alberto",
+        "Albertus",
+        "Albertus Kapinos"
+      ],
+      "descriptive_mentions": [
+        "Creditori",
+        "Creditorem",
+        "oppignoratarius",
+        "oppignoratorio",
+        "oppignoratarium",
+        "Creditor",
+        "idem",
+        "praefatus"
+      ],
+      "justification": "Identified as the creditor and mortgagee (oppignoratarius) in the transaction, matching known aliases for PER-0005: Albertus Pedianus."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festo Sancti Michaelis",
+        "simile festum Sancti Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day of Saint Michael used as the term for redemption of the mortgage."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1599",
+      "mention_texts": [
+        "Anno 159 nono"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1599 specified in the contract terms."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "1600",
+      "mention_texts": [
+        "Anno millesimo sexcentesimo",
+        "anno praedicto millesimo sexcentesimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1600 specified as the term for mortgage repayment."
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,315 @@
+{
+  "document_id": "arc2/0857.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopolien",
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular office of Lviv issuing the court decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in the office title and suburbanite designation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0142: Hołowsko",
+      "mention_texts": [
+        "Itolosycen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The village near Lviv where Mathias was a peasant colonus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias Kisiel",
+      "mention_texts": [
+        "Matia Fifsiel",
+        "Mathiam Zekizwiel"
+      ],
+      "descriptive_mentions": [
+        "filium",
+        "colonum",
+        "Citatum",
+        "Citatus praenominatus",
+        "Citatus",
+        "Citatum"
+      ],
+      "justification": "Peasant cited as defendant in the inheritance case."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Wasil Jeremiowicz",
+      "mention_texts": [
+        "Itasil Jeremiowiz",
+        "Dzietelum Jeremiowicz"
+      ],
+      "descriptive_mentions": [
+        "Provide olim",
+        "Itis olim",
+        "praedictum olim"
+      ],
+      "justification": "Deceased individual whose estate is contested."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Machna",
+      "mention_texts": [
+        "Machnam"
+      ],
+      "descriptive_mentions": [
+        "Actores",
+        "Succores"
+      ],
+      "justification": "One of the plaintiffs in the inheritance dispute."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Katherina",
+      "mention_texts": [
+        "Katherinam",
+        "Katherinen"
+      ],
+      "descriptive_mentions": [
+        "uxoremq eius",
+        "filias",
+        "Actores"
+      ],
+      "justification": "Wife of Machna and daughter/claimant to the estate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Regina",
+      "mention_texts": [
+        "Xeginam"
+      ],
+      "descriptive_mentions": [
+        "uxoremq eius",
+        "Actores"
+      ],
+      "justification": "Party mentioned among the plaintiffs."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Zielon",
+      "mention_texts": [
+        "Ziehlonem",
+        "Ziehlonis"
+      ],
+      "descriptive_mentions": [
+        "Actores"
+      ],
+      "justification": "Plaintiff acting with his wife in the estate lawsuit."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Oryna",
+      "mention_texts": [
+        "Orynka"
+      ],
+      "descriptive_mentions": [
+        "uxore eius",
+        "filias"
+      ],
+      "justification": "Wife of Zielon and daughter/heir of the deceased."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Janather",
+      "mention_texts": [
+        "Janathern"
+      ],
+      "descriptive_mentions": [
+        "Actores",
+        "filium"
+      ],
+      "justification": "Son of Zielon mentioned as actor in the lawsuit."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Iwaszko Pisin",
+      "mention_texts": [
+        "Iwaszko Pisin"
+      ],
+      "descriptive_mentions": [
+        "Itus",
+        "Suburbanus Leopolien",
+        "coniuges",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Suburbanite of Lviv selling hereditary land."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Cutina",
+      "mention_texts": [
+        "Cutina",
+        "Cutinka"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "haec"
+      ],
+      "justification": "Wife of Iwaszko Pisin selling her parental property."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Iucko",
+      "mention_texts": [
+        "luco"
+      ],
+      "descriptive_mentions": [
+        "patrem"
+      ],
+      "justification": "Deceased father of Cutina."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Waska",
+      "mention_texts": [
+        "Wastam"
+      ],
+      "descriptive_mentions": [
+        "mrem"
+      ],
+      "justification": "Deceased mother of Cutina."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Biłohorszcze",
+      "mention_texts": [
+        "Bilohorza",
+        "Bilohoscen"
+      ],
+      "descriptive_mentions": [
+        "Zago"
+      ],
+      "justification": "Village near Lviv where the sold land is located."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Iwanko Dawidowicz",
+      "mention_texts": [
+        "Jwando Davidowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landholder in Biłohorszcze."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Iwanko Siackowic",
+      "mention_texts": [
+        "Iwanko Siackowi",
+        "Jwanis Miacikowic"
+      ],
+      "descriptive_mentions": [
+        "Hts",
+        "Filio",
+        "affini suo",
+        "colono Bilohoscen",
+        "eiusque legitimis Successoribus"
+      ],
+      "justification": "In-law and peasant colonus in Biłohorszcze purchasing the land."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Decem florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price of the land."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officij Consularis Leopolien"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "colonum Itolosycen"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Machnam uxoremq eius Katherinam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Ziehlonem cum uxore eius Orynka"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Janathern Ziehlonis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Suburbanus Leopolien"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Iwaszko Pisin Suburbanus Leopolien et Cutina coniuges"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E14",
+      "evidence": "post luco patrem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E15",
+      "evidence": "et Wastam mrem"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "resident_of",
+      "tail_entity_id": "E16",
+      "evidence": "colono Bilohoscen"
+    }
+  ]
+}

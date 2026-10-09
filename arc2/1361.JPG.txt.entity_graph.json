@@ -1,0 +1,95 @@
+{
+  "document_id": "arc2/1361.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Wdowic",
+      "mention_texts": [
+        "Bartosch: Wdowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the document title as the plenipotentiary."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Alexandra Olexiowiowna",
+      "mention_texts": [
+        "Alexandra Olexiowiowna"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honesta",
+        "filia",
+        "coniunx legitima"
+      ],
+      "justification": "Principal appearing personally before the court to grant a power of attorney."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Alexius Rubom",
+      "mention_texts": [
+        "Olexici Rubom"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "coniugum"
+      ],
+      "justification": "Deceased father of Alexandra Olexiowiowna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Zalachna Rostkowna",
+      "mention_texts": [
+        "Zalachna Rostkowna"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Mother of Alexandra Olexiowiowna and wife of Alexius Rubom."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Skarbski",
+      "mention_texts": [
+        "Joannis Skarbski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "maritum",
+        "Tutorem naturalem"
+      ],
+      "justification": "Husband and natural guardian of Alexandra Olexiowiowna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nobilis Joannis Skarbski coniunx legitima per eundem suum maritum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famati olim Olexici Rubom et Zalachna Rostkowna coniugum filia"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famati olim Olexici Rubom et Zalachna Rostkowna coniugum filia"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Olexici Rubom et Zalachna Rostkowna coniugum"
+    }
+  ]
+}

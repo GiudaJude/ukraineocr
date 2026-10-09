@@ -1,0 +1,165 @@
+{
+  "document_id": "arc2/0066.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Scabinal Court",
+      "mention_texts": [
+        "Curiae Regalis Scabinatus",
+        "Curiae"
+      ],
+      "descriptive_mentions": [
+        "Actis Curiae Regalis Scabinatus",
+        "Acta ... Curiae"
+      ],
+      "justification": "The court of scabini whose royal bench acts are cited ('Actis Curiae Regalis Scabinatus')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum"
+      ],
+      "justification": "The recording council office ('Officium nostrum'), an established alias for ORG-0003."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in civic descriptions ('Civis Leopoliensis', 'Cives Leopolienses')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Sambor",
+      "mention_texts": [
+        "Samboriensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The town of Sambir, designated in the adjectival form 'Judaeum Samboriensem'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Wilczek",
+      "mention_texts": [
+        "Stanislaus Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "idem"
+      ],
+      "justification": "Lviv burgher who made the formal denomination/demand for testimony."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolphgangum Bernt",
+        "Wolphgangus Bernt"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Scabinum",
+        "Cives Leopolienses",
+        "illi"
+      ],
+      "justification": "Known scabinus and citizen of Lviv called to provide testimony."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sedembek",
+      "mention_texts": [
+        "Stanislaum Sedembek",
+        "Stanislaus Sedembek"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cives Leopolienses",
+        "illi"
+      ],
+      "justification": "Citizen of Lviv called alongside Wolfgang Bernt to testify."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Barnus",
+      "mention_texts": [
+        "Barnus"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Judaeum Samboriensem",
+        "Judaeus ... praedictus"
+      ],
+      "justification": "Jewish man from Sambir called as a witness."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Leonardus",
+      "mention_texts": [
+        "Leonardi"
+      ],
+      "descriptive_mentions": [
+        "Famati Civis"
+      ],
+      "justification": "Citizen on whose report/citation the parties were called to testify."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dambrowski",
+      "mention_texts": [
+        "Joannem Dambrowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Guardian (tutor) appointed to assist Barnus in this judicial act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Wilczek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Wolphgangum Bernt Scabinum et Stanislaum Sedembek Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Wolphgangum Bernt Scabinum et Stanislaum Sedembek Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Barnus Judaeum Samboriensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "Judaeus vero praedictus per Honestum Joannem Dambrowski tutorem sibi ad eum actum assumptum"
+    }
+  ]
+}

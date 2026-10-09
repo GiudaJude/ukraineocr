@@ -1,0 +1,140 @@
+{
+  "document_id": "arc2/1495.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitano",
+        "Leopolitana"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts take place and where the persons reside as suburbanites."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post festum\nS. Elisabeth proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czganek",
+      "mention_texts": [
+        "Csganek",
+        "Joannes Csganek",
+        "Joannes Czganek"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Retificis recognoscens socius",
+        "fratri suo germano"
+      ],
+      "justification": "Principal seller who resigns his paternal portion to his brother."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Caspar Czganek",
+      "mention_texts": [
+        "Casparo Czganek",
+        "Casparo"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "fratri suo germano",
+        "Suburbano Leopolitano",
+        "fratri suo"
+      ],
+      "justification": "Brother of Joannes Czganek and purchaser of the paternal estate."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbii Crakoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków Suburb of Lviv where the house and garden are situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Oswaldus Trompeta",
+      "mention_texts": [
+        "Oswaldum Trompeta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the property on one side."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Sartor",
+      "mention_texts": [
+        "Mathiam Sartoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the property on the other side."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the resignation of the property is to take place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Anna Somnibranka",
+      "mention_texts": [
+        "Ciszanek",
+        "Anna Ciszanka",
+        "Anna Somnibranka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua suburbana Leopolitana"
+      ],
+      "justification": "Widow appearing in the subsequent legal act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Casparo Czganek fratri suo germano"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Casparo Czganek fratri suo germano"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbano Leopolitano"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E1",
+      "evidence": "suburbana Leopolitana"
+    }
+  ]
+}

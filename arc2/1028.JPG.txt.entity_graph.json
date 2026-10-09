@@ -1,0 +1,80 @@
+{
+  "document_id": "arc2/1028.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij eiusdem",
+        "Officium",
+        "Officij"
+      ],
+      "justification": "Municipal council office issuing decrees and judgments in the case."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomas Karicz"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "possessor",
+        "Tutor",
+        "Actori",
+        "suo locatori"
+      ],
+      "justification": "Plaintiff in the case, leasing property and acting as guardian (tutor)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Olynerszowna",
+      "mention_texts": [
+        "Dorotheam Olynerszowna"
+      ],
+      "descriptive_mentions": [
+        "uxorem",
+        "Honestam",
+        "praefatam"
+      ],
+      "justification": "Wife of the opposing party cited in the lawsuit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sad Regiam Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal majesty to whom the defendant initially appealed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "325 florins",
+      "mention_texts": [
+        "Trecentorum viginti quinque florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Sum of money claimed by the plaintiff."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum vt supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Formulaic date reference referring back to the preceding record heading."
+    }
+  ],
+  "relationships": []
+}

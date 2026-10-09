@@ -1,0 +1,61 @@
+{
+  "document_id": "arc2/0966.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bienias Wolosorowicz",
+      "mention_texts": [
+        "Bienias Wyszwyc",
+        "Bienias Wolosorowicz"
+      ],
+      "descriptive_mentions": [
+        "Providus"
+      ],
+      "justification": "Party making the legal cession in the record ('Comparens personaliter Providus Bienias Wolosorowicz')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Giercz",
+      "mention_texts": [
+        "Jacobus Giercus",
+        "Jacobo Gierczio"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "Fabro",
+        "Patruis",
+        "condescensory sui",
+        "Ingenuo cessionario suo"
+      ],
+      "justification": "Blacksmith and cessionary receiving the hereditary rights ('Ingenuo Jacobo Gierczio Fabro')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Zofia Bacalanzer",
+      "mention_texts": [
+        "Zophiae Bacalanzer"
+      ],
+      "descriptive_mentions": [
+        "Patruis"
+      ],
+      "justification": "Co-recipient/paternal relative named in the cession ('Zophiae Bacalanzer Patruis sibi')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "relative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobo Gierczio Fabro et Zophiae Bacalanzer Patruis sibi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobo Gierczio Fabro et Zophiae Bacalanzer Patruis sibi"
+    }
+  ]
+}

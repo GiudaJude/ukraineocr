@@ -1,0 +1,170 @@
+{
+  "document_id": "arc2/0597.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland mentioned in the context of a royal decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Żółwiński",
+      "mention_texts": [
+        "Stanislai Zółwinski",
+        "Stanislaum Zołwinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "praedicti",
+        "Domini",
+        "eundem Dominum",
+        "Medicinae Doctorem",
+        "depositorio"
+      ],
+      "justification": "Noble and doctor of medicine involved in court scheduling and holding a deposit."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the Armenian elder's citizenship."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Camerae Officii",
+        "Cameram Officij nostri",
+        "Camera Officij nostri"
+      ],
+      "descriptive_mentions": [
+        "officium nostrum"
+      ],
+      "justification": "The municipal council chamber and office holding the testament."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaus Inserwino",
+        "Stanislao Inserwino"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "collega noster Consularis",
+        "mandatarius",
+        "Plenipotens",
+        "Spectabili Domino"
+      ],
+      "justification": "Councilor of Lviv acting as plenipotentiary of the Archbishop."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0164: Archbishop of Lviv",
+      "mention_texts": [
+        "Joannis Denieky subhonestae",
+        "Archiepiscopi Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Dominorum",
+        "executor testamenti",
+        "praedictus Reverendissimus principalis Executor"
+      ],
+      "justification": "Archbishop Jan Dymitr Solikowski of Lviv, executor of the testament."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sophia Janicowna",
+      "mention_texts": [
+        "Sophiae Janicowna",
+        "Janicowna"
+      ],
+      "descriptive_mentions": [
+        "pie olim",
+        "demortuae",
+        "eiusdem",
+        "praedictae olim"
+      ],
+      "justification": "Deceased woman who died in the Holy Spirit Hospital and whose testament is being reclaimed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitali Sancti Spiritus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hospital in Lviv where Sophia Janicowna died."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bielicki",
+      "mention_texts": [
+        "Joannes Bielicki"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Organicenarmus"
+      ],
+      "justification": "Organist acknowledging receipt and satisfaction of a deposit."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenis Ducentis Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of 200 Polish florins held in deposit."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "tanquam mandatarius atque et Plenipotens Dominorum Dominorum Joannis Denieky subhonestae Archiepiscopi Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "executor_of",
+      "tail_entity_id": "E7",
+      "evidence": "uti executor testamenti pie olim Sophiae Janicowna"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "died_in",
+      "tail_entity_id": "E8",
+      "evidence": "Sophiae Janicowna in Hospitali Sancti Spiritus demortuae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "depositor_with",
+      "tail_entity_id": "E2",
+      "evidence": "quae in fideli deposito apud eundem Dominum Stanislaum Zołwinski Medicinae Doctorem habuit"
+    }
+  ]
+}

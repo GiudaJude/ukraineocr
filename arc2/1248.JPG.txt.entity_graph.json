@@ -1,0 +1,197 @@
+{
+  "document_id": "arc2/1248.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Szatkowski",
+      "mention_texts": [
+        "Valentini Szatkowski"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "supplicio affecti"
+      ],
+      "justification": "Recorded as an accomplice whose confessions implicated Janowski."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Janowski",
+      "mention_texts": [
+        "Janowski",
+        "Christopherus Janowski",
+        "Christopherum Janowski"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "praedictum",
+        "eidem",
+        "eum",
+        "praefatus",
+        "is idem",
+        "complicem in nece et depredatione",
+        "facinoris praedicti conscium",
+        "praedonibus cooperantem"
+      ],
+      "justification": "Accused of participation in the murder and robbery of Thomas Stenes, sentenced to death by the Castle Court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Stenes",
+      "mention_texts": [
+        "Thomae Stenes",
+        "Stenes"
+      ],
+      "descriptive_mentions": [
+        "dicti olim",
+        "praedicti dnis",
+        "praefati olim",
+        "interemptoris"
+      ],
+      "justification": "Victim of robbery and homicide."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rybiński",
+      "mention_texts": [
+        "Stanislaus Rybinski"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Confronted Janowski in court accusing him of complicity."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bagiński",
+      "mention_texts": [
+        "Baginski"
+      ],
+      "descriptive_mentions": [
+        "praedicto"
+      ],
+      "justification": "Accomplice with whom Janowski stood guard ('na strazy')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Officij Castrensis"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The court presiding over the criminal proceedings and sentencing."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Alexander Żelżycki",
+      "mention_texts": [
+        "Alexandro Zelzycki"
+      ],
+      "descriptive_mentions": [
+        "praedicto"
+      ],
+      "justification": "Accomplice mentioned in Janowski's confession regarding the stolen money."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "68 florins",
+      "mention_texts": [
+        "f68"
+      ],
+      "descriptive_mentions": [
+        "pecuniae"
+      ],
+      "justification": "Amount of money stolen from Thomas Stenes."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Josephus Latorzyński",
+      "mention_texts": [
+        "Josephus Liatorzynski"
+      ],
+      "descriptive_mentions": [
+        "Vicecapitaneus et Judex Causarum Officij Castrensis"
+      ],
+      "justification": "Vice-starosta and judge of the Castle Court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Conventum Bernardinorum",
+        "Ordinis Sancti Francisci de observantia",
+        "Conventus et Ecclesia tituli S. Andreae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monastery of the Bernardines / Observant Franciscans at the Church of St. Andrew in Lviv."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łosiński",
+      "mention_texts": [
+        "Joannes Losinski"
+      ],
+      "descriptive_mentions": [
+        "Syndicus",
+        "Pater",
+        "sub Guardianus"
+      ],
+      "justification": "Father and syndic of the Bernardine monastery."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the Bernardine monastery and Church of St. Andrew are situated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Zradowski",
+      "mention_texts": [
+        "Sigismundi Zradowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Vicecapitanei"
+      ],
+      "justification": "Vicecapitaneus present at the registration of the bequest."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "officer_of",
+      "tail_entity_id": "E6",
+      "evidence": "Josephus Liatorzynski Vicecapitaneus et Judex Causarum Officij Castrensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Pater Joannes Losinski Ordinis Sancti Francisci de observantia"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "Conventus et Ecclesia tituli S. Andreae extra muros huius Civitatis in Suburbio Haliciensi dicto"
+    }
+  ]
+}

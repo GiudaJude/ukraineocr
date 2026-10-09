@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/1264.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mosser",
+      "mention_texts": [
+        "Mosszer",
+        "Mossei"
+      ],
+      "descriptive_mentions": [
+        "Perside",
+        "Judaeo Constantinopolitano",
+        "Perfidus",
+        "Judaeus Tudetus Constantinopolitanus"
+      ],
+      "justification": "Jewish merchant from Constantinople mentioned in the quietatio."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Constantinople",
+      "mention_texts": [
+        "Constantinopolitano",
+        "Constantinopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Constantinople, origin of the Jewish creditor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Włosieski",
+      "mention_texts": [
+        "Jacobi Wlosieski",
+        "Jacobo Wlosieski"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Honorato",
+        "Scabino",
+        "Ciue Leopoliensi",
+        "debitore saetenus suo",
+        "praedicto"
+      ],
+      "justification": "Lviv bencher/citizen acquitted of debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Włosiecki",
+      "mention_texts": [
+        "Andream Wlosiecki"
+      ],
+      "descriptive_mentions": [
+        "nobilem",
+        "tutorem et Prolocutorem sibi ad hunc actum assumptum"
+      ],
+      "justification": "Nobleman appointed guardian and spokesperson for Mosser."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "consularem residentiam"
+      ],
+      "descriptive_mentions": [
+        "officium nostrum",
+        "iisdem Actis praesentibus",
+        "officio nostro"
+      ],
+      "justification": "The municipal council/magistrate office before which the acts are registered."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "2000 florins",
+      "mention_texts": [
+        "duorum millium florenorum"
+      ],
+      "descriptive_mentions": [
+        "summae"
+      ],
+      "justification": "The debt amount of 2,000 florins."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Blasius",
+      "mention_texts": [
+        "Blasius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Name appearing in the margin/heading of the second entry."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Ćwirlicz Czyżner",
+      "mention_texts": [
+        "Stanislao Cwirlicz Czyzner"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the entry header/heading."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Doctor"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "ferrifaber Suburbanus",
+        "vir"
+      ],
+      "justification": "Suburban blacksmith appearing before council to sell property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "secundi voti nuptiarum coniunx eius legitima",
+        "vxor"
+      ],
+      "justification": "Wife of Stanislaus Doctor selling their property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Waiszlaonius",
+      "mention_texts": [
+        "Stanislaum Waiszlaonium"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ciuem Leopoliensem",
+        "tutorem sibi ad praesentem actum mariti sui consensu assumptum"
+      ],
+      "justification": "Lviv citizen serving as guardian to Dorothea."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "originates_from",
+      "tail_entity_id": "E3",
+      "evidence": "Judaeo Constantinopolitano"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "per nobilem Andream Wlosiecki tutorem et Prolocutorem sibi ad hunc actum assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobo Wlosieski Scabino Ciue Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "creditor_of",
+      "tail_entity_id": "E4",
+      "evidence": "satisfactum esse sibi de debito duorum millium florenorum... ab Honorato Jacobo Wlosieski"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Dorothea secundi voti nuptiarum coniunx eius legitima"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislaum Waiszlaonium Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "vxor vero per Famatum Stanislaum Waiszlaonium Ciuem Leopoliensem tutorem sibi ad praesentem actum mariti sui consensu assumptum"
+    }
+  ]
+}

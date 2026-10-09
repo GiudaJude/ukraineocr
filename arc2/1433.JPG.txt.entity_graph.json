@@ -1,0 +1,244 @@
+{
+  "document_id": "arc2/1433.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Balthasar Flus",
+      "mention_texts": [
+        "Balthasar Flus"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "affines",
+        "Cives Leopolienses"
+      ],
+      "justification": "Appears as one of the comparants and citizens of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ungaricus",
+      "mention_texts": [
+        "Joannes",
+        "Ungaricus"
+      ],
+      "descriptive_mentions": [
+        "affines",
+        "Cives Leopolienses"
+      ],
+      "justification": "Appears as one of the comparants alongside Balthasar Flus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniugum suarum",
+        "filiarum",
+        "Cives Leopolienses"
+      ],
+      "justification": "Identified as daughter of late Simon Hanel and wife of one of the comparants."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "coniugum suarum",
+        "filiarum",
+        "Cives Leopolienses"
+      ],
+      "justification": "Identified as daughter of late Simon Hanel (Sophia Hamel/Hanel) and wife of one of the comparants."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Hanel",
+      "mention_texts": [
+        "Simonis Hanel",
+        "Simonem Hanel",
+        "Simon Hanel"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Cives Leopolienses",
+        "datorem suum",
+        "praedictum",
+        "praedictus"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and debts are referenced."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Anna Hanel",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "relicti",
+        "Vidua relicta",
+        "senis et morbo decumbentis"
+      ],
+      "justification": "Widow of the late Simon Hanel, bedridden by illness and old age."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Hanel",
+      "mention_texts": [
+        "Martini Hanel"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "fratrum",
+        "cohaeredum suorum"
+      ],
+      "justification": "Son/brother and co-heir of late Simon Hanel."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Hanel",
+      "mention_texts": [
+        "Joannis Hanel"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratrum",
+        "cohaeredum suorum"
+      ],
+      "justification": "Son/brother and co-heir of late Simon Hanel."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Felix Fuszkowicz",
+      "mention_texts": [
+        "Felicis",
+        "Fuszkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Consules Cracovienses",
+        "affinium et cohaeredum suorum"
+      ],
+      "justification": "Councilor of Kraków and co-heir/relative of the Hanel family."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Antonius Fuszkowicz",
+      "mention_texts": [
+        "Antonii Fuszkowicz"
+      ],
+      "descriptive_mentions": [
+        "Consules Cracovienses",
+        "affinium et cohaeredum suorum"
+      ],
+      "justification": "Councilor of Kraków and co-heir/relative of the Hanel family."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Dziezkowic",
+      "mention_texts": [
+        "Jacobo Dziezkowic",
+        "Jacobi Dziezkowic"
+      ],
+      "descriptive_mentions": [
+        "Fatis",
+        "Collega nostro Consulari",
+        "Fati",
+        "Spectabili Creditori",
+        "Creditorem"
+      ],
+      "justification": "Lviv councilor and creditor who provided a loan against the estate portion."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Collega nostro Consulari"
+      ],
+      "justification": "Council issuing the entry, referencing Dziezkowic as their consular colleague."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose burghers are mentioned."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracovienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose councilors are mentioned."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Florenos centum et quinquaginta pecuniae et numeri Polonici",
+        "centum quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa praefata",
+        "summa principali"
+      ],
+      "justification": "Monetary sum borrowed from Jacobus Dziezkowic."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Anna et Sophia coniugum suarum filiarum vero Famati olim Simonis Hanel"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Anna et Sophia coniugum suarum filiarum vero Famati olim Simonis Hanel"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestae Annae relicti olim Simonis Hanel Vidua relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E8",
+      "evidence": "Martini Hanel atque Honesti Joannis Hanel fratrum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Jacobo Dziezkowic Collega nostro Consulari"
+    }
+  ]
+}

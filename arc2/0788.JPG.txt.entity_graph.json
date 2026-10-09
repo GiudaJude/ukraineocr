@@ -1,0 +1,141 @@
+{
+  "document_id": "arc2/0788.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes Ewa",
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "marito suo",
+        "personam suam"
+      ],
+      "justification": "Agnes is mentioned as the widow of Paulus Czop ('Pauli Ozop'), matching PER-0079 (Agnes Czopowa)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli Ozop"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "moderni vero postea Bobrecensis",
+        "praedicto olim marito suo"
+      ],
+      "justification": "Paulus Ozop (Czop) is deceased and noted as former husband of Agnes, citizen of Lviv, and later of Bóbrka."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears in adjectival forms describing citizenship/suburban residence."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Bóbrka",
+      "mention_texts": [
+        "Bobrecensis",
+        "Bobrecensi"
+      ],
+      "descriptive_mentions": [
+        "Oppidi illius"
+      ],
+      "justification": "Referenced in adjectival forms denoting the residence of Paulus Czop and the local court/town."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertum Domagala"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civitem Suburbanum Leopoliensem",
+        "tutorem sibi ad eum actum assumptum et per officium nostrum approbatum"
+      ],
+      "justification": "Appears by name acting as legal tutor for Agnes."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium nostrum",
+        "officio nostro",
+        "Actis praesentibus",
+        "Acta nostra"
+      ],
+      "justification": "The municipal authority recording and approving the instrument."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Bóbrka Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bobrecensi"
+      ],
+      "descriptive_mentions": [
+        "sigillo Scabinali Oppidi illius"
+      ],
+      "justification": "The judicial forum of Bóbrka before which the original donation was enacted."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta post Festum S. Mathaei Apostoli et Evangelistae proxima Anno Domini 1595. proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date of the original legal transaction in Bóbrka."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Agnes Famati olim Pauli Ozop Civis Leopoliensis moderni vero postea Bobrecensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Famatum Albertum Domagala Civitem Suburbanum Leopoliensem tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Pauli Ozop Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertum Domagala Civitem Suburbanum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "moderni vero postea Bobrecensis"
+    }
+  ]
+}

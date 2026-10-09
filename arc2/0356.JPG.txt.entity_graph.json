@@ -1,0 +1,144 @@
+{
+  "document_id": "arc2/0356.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kraszerski",
+      "mention_texts": [
+        "Joannem Kraszerski"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem suum",
+        "Honestum"
+      ],
+      "justification": "Appears as a procurator/prolocutor in the legal proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij",
+        "Officio Consulari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council court before which the case and decree were recorded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sobieszczanski",
+      "mention_texts": [
+        "Sobieszczanski",
+        "Albertus Sobieszczanski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "A noble party issuing the quietatio/settlement."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sławecki",
+      "mention_texts": [
+        "Sławecki",
+        "Stanislao Sławeczki"
+      ],
+      "descriptive_mentions": [
+        "Nobili et Honesto",
+        "Suburbano",
+        "citatum"
+      ],
+      "justification": "The suburban resident of Lviv involved in the dispute over salt fish tolls."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in the suburban designation of Sławecki."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Friderico Gallo"
+      ],
+      "descriptive_mentions": [
+        "Honoratis",
+        "Scabinis",
+        "arbitris",
+        "compositoribus"
+      ],
+      "justification": "Town bencher acting as an arbiter in the dispute."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Adamus Smieszek",
+      "mention_texts": [
+        "Adamo Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Honoratis",
+        "Scabinis",
+        "arbitris",
+        "compositoribus"
+      ],
+      "justification": "Town bencher acting as an arbiter."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Woszczanowski",
+      "mention_texts": [
+        "Alberto Woszczanowski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Rothmagistro",
+        "arbitris",
+        "compositoribus"
+      ],
+      "justification": "Captain/rotamaster acting as an arbiter."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Romatarius",
+      "mention_texts": [
+        "Hieronymo Romatario"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "arbitris",
+        "compositoribus"
+      ],
+      "justification": "Party acting as an arbiter."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "38 florins",
+      "mention_texts": [
+        "florenis triginta octo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum awarded for damages and legal expenses."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislao Sławeczki Suburbano Leopolitano"
+    }
+  ]
+}

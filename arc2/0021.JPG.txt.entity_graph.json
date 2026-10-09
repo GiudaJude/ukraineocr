@@ -1,0 +1,178 @@
+{
+  "document_id": "arc2/0021.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Zofia Kłosowa",
+      "mention_texts": [
+        "Sofia Kłosowa"
+      ],
+      "descriptive_mentions": [
+        "patruela"
+      ],
+      "justification": "Named in the opening settlement: 'Sofia Kłosowa patruela'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1590",
+      "mention_texts": [
+        "15 nonagesimo",
+        "sabbato post Omnium Sanctorum Cantate proximo Eodem 15 nonagesimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous legal inscription referenced in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the council court action ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "11 January 1595",
+      "mention_texts": [
+        "feria quarta post festum Epiphaniae Domini proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the current court session, Wednesday after Epiphany 1595."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Novicampianus",
+      "mention_texts": [
+        "Paulum Novicampianum"
+      ],
+      "descriptive_mentions": [
+        "Excellentem Dominum",
+        "Medicinae Doctorem",
+        "Consulem Leopoliensem",
+        "actorem",
+        "Actor",
+        "Actorem",
+        "ipsum Actorem"
+      ],
+      "justification": "Plaintiff in the lawsuit, identified as doctor of medicine and Lviv consul."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Aromatarius",
+      "mention_texts": [
+        "Paulo Aromatario",
+        "Paulum Aromatarium",
+        "Pauli Aromatarii",
+        "Paulus Aromatarius"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "citatum",
+        "mutuos possessores et cohaeredes",
+        "praedictum citatum",
+        "memoratus",
+        "tertia pars in eadem lapidea possessorem et haeredem",
+        "citatus",
+        "praefatum"
+      ],
+      "justification": "Defendant in the lawsuit, citizen and apothecary of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Caspar Szabiński House",
+      "mention_texts": [
+        "Caspar Szabinski"
+      ],
+      "descriptive_mentions": [
+        "domus",
+        "eadem domo lapidea",
+        "eadem lapidea",
+        "braxatorio praedicto",
+        "eadem braxatoria",
+        "eiusdem braxatorii",
+        "eo braxatorio"
+      ],
+      "justification": "Masonry house and brewery subject to litigation: 'domus Caspar Szabinski nuncupatae'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitalis Sancti Spiritus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Landmark hospital used to locate the house: 'e regione Hospitalis Sancti Spiritus'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Officij"
+      ],
+      "justification": "Governing council that issued the decree: 'Officium Consulare Leopoliensis talem tulit sententiam'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Honoratorum Domini Advocati & Fidelium Jan is"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial body appointed by the council to appraise the brewery buildings."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "opposes",
+      "tail_entity_id": "E6",
+      "evidence": "In causa et actione inter Excellentem Dominum Paulum Novicampianum Medicinae Doctorem Consulem Leopoliensem actorem et Famatum Paulum Aromatarium Civem Leopoliensem citatum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member of",
+      "tail_entity_id": "E9",
+      "evidence": "Paulum Novicampianum Medicinae Doctorem Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen of",
+      "tail_entity_id": "E3",
+      "evidence": "Paulum Aromatarium Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "co-owner of",
+      "tail_entity_id": "E7",
+      "evidence": "ob domus Caspar Szabinski nuncupatae ... mutuos possessores et cohaeredes"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "co-owner of",
+      "tail_entity_id": "E7",
+      "evidence": "ob domus Caspar Szabinski nuncupatae ... mutuos possessores et cohaeredes"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located near",
+      "tail_entity_id": "E8",
+      "evidence": "domus Caspar Szabinski nuncupatae e regione Hospitalis Sancti Spiritus"
+    }
+  ]
+}

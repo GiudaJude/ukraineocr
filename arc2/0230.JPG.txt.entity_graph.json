@@ -1,0 +1,272 @@
+{
+  "document_id": "arc2/0230.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the scabinal court record and in citizenship designations."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned civil court mentioned at the beginning of the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lazar Luchsowicz",
+      "mention_texts": [
+        "Lazar Luchsowicz"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Party who canceled previous inscriptions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria quinta post Dominicam Oculi proxima Anno 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the first canceled inscription."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos triginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of thirty florins in the canceled entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "11 florins 20 groschen",
+      "mention_texts": [
+        "Florenos undecim et grossos viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of eleven florins and twenty groschen in the second canceled entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Dominicam Misericordia proxima Anno Domini 159 Quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the second canceled inscription."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Simonowicz",
+      "mention_texts": [
+        "Joannes Szimnowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the marginal entry annotation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Catherina Wolfowa",
+      "mention_texts": [
+        "Katherina Wolfowa",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "viduae relictae",
+        "matris suae",
+        "praefata matre sua"
+      ],
+      "justification": "Widow of Stanislaus Wolfszotowicz and mother of Wolfgang, Balthasar, and Erasmus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Wolfszotowicz",
+      "mention_texts": [
+        "Wolssangus Wolfssotowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "Filius et Lempotens",
+        "ille"
+      ],
+      "justification": "Son acting for himself, his mother, and his minor brothers."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Wolfszotowicz",
+      "mention_texts": [
+        "Stanislai Wolfssotowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, late husband of Catherina."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio praesenti Scabinatus",
+        "Actis nostris"
+      ],
+      "justification": "The bench of scabini before which Wolfgang appeared."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Balthasar Wolfszotowicz",
+      "mention_texts": [
+        "Baltazaris"
+      ],
+      "descriptive_mentions": [
+        "minorennium fratrum suorum",
+        "fratribusque suis supra nominatis"
+      ],
+      "justification": "Minor brother of Wolfgang."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Wolfszotowicz",
+      "mention_texts": [
+        "Erasmi"
+      ],
+      "descriptive_mentions": [
+        "minorennium fratrum suorum",
+        "fratribusque suis supra nominatis"
+      ],
+      "justification": "Minor brother of Wolfgang."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kosmowski",
+      "mention_texts": [
+        "Joanni Kosmowski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "eiusque legitimis Successoribus",
+        "eidem Generoso"
+      ],
+      "justification": "Creditor to whom the debt is owed."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos ducentos numeri et monetae Polonicalis",
+        "ducentorum Florenorum",
+        "ducentos Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt sum recognized in the entry."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille Florenorum",
+        "mille florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Prior debt sum to which the 200 florins are joined."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "date",
+      "canonical_name": "1588",
+      "mention_texts": [
+        "feria quater post Festum Sanctae Dorotheae Virginis proxima Anno Domini 1588"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the prior recorded contract from 1588."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Filius et Lempotens Honestae Catherinae ... matris suae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Filius et Lempotens Honestae Catherinae Famati olim Stanislai Wolfssotowicz"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Catherinae Famati olim Stanislai Wolfssotowicz Civis Leopoliensis viduae relictae"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "tum etiam nomine Baltazaris et Erasmi minorennium fratrum suorum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "tum etiam nomine Baltazaris et Erasmi minorennium fratrum suorum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "una cum praefata matre sua fratribusque suis supra nominatis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "una cum praefata matre sua fratribusque suis supra nominatis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Wolssangus Wolfssotowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislai Wolfssotowicz Civis Leopoliensis"
+    }
+  ]
+}

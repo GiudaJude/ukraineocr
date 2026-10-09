@@ -1,0 +1,352 @@
+{
+  "document_id": "arc2/1244.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Kazimierz",
+      "mention_texts": [
+        "Cazimiria"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as a location near Kraków ('de Cazimiria ad Cracoviam citta')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviam",
+        "Cracovia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reused known entity LOC-0014: Kraków."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Petrus Beznat",
+      "mention_texts": [
+        "Petrus Beznat"
+      ],
+      "descriptive_mentions": [
+        "frater uterinus Generosi olim Thomae Keres",
+        "praedictus"
+      ],
+      "justification": "Uterine brother of the deceased Thomas Keres bringing an accusation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Keres",
+      "mention_texts": [
+        "Thomae Keres",
+        "Thomas Keres",
+        "Keres"
+      ],
+      "descriptive_mentions": [
+        "Generosi olim",
+        "praedicti olim",
+        "olim",
+        "viator",
+        "praedictum olim",
+        "dictus olim",
+        "idem olim"
+      ],
+      "justification": "Deceased nobleman who was attacked, robbed, and murdered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Żarów",
+      "mention_texts": [
+        "Zsarow"
+      ],
+      "descriptive_mentions": [
+        "Oppido"
+      ],
+      "justification": "Town of origin for the late Thomas Keres ('de Oppido Zsarow')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio",
+        "Actis praesentibus",
+        "Carcerem Officij praesent",
+        "officio"
+      ],
+      "justification": "Reused known entity ORG-0003: Lviv City Council, appearing via jurisdictional references."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rybiński",
+      "mention_texts": [
+        "Stanon Rybinski",
+        "Rybinski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "filium",
+        "praedones",
+        "homicidas",
+        "Praedonibus"
+      ],
+      "justification": "Noble accused of highway robbery and murder."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Rybiński",
+      "mention_texts": [
+        "Martini Rybinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim"
+      ],
+      "justification": "Father of the accused Stanislaus Rybiński."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Rybno",
+      "mention_texts": [
+        "Rybno"
+      ],
+      "descriptive_mentions": [
+        "villa"
+      ],
+      "justification": "Village from which Martinus Rybiński hailed."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Sochaczew",
+      "mention_texts": [
+        "Sochaczoviensis"
+      ],
+      "descriptive_mentions": [
+        "districtus"
+      ],
+      "justification": "District in which the village of Rybno is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Janowski",
+      "mention_texts": [
+        "Christophorum Janowski",
+        "Janowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "filium",
+        "praedones",
+        "homicidas",
+        "Praedonibus"
+      ],
+      "justification": "Noble accused of murder and robbery alongside Stanislaus Rybiński."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Felix Janowski",
+      "mention_texts": [
+        "Felicis Janowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim"
+      ],
+      "justification": "Deceased father of the accused Christophorus Janowski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Jaromice",
+      "mention_texts": [
+        "Jaromice"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of Felix Janowski in the Sandomierz Palatinate."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0084: Sandomierz",
+      "mention_texts": [
+        "Sandomiriensis"
+      ],
+      "descriptive_mentions": [
+        "Palatinatus et Districtus"
+      ],
+      "justification": "Reused known entity LOC-0084: Sandomierz (Sandomierz Voivodeship and District)."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Alexander Zelebicki",
+      "mention_texts": [
+        "Alexandro Zelebicki"
+      ],
+      "descriptive_mentions": [
+        "Praedonum"
+      ],
+      "justification": "Accomplice named among the robbers."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Szczerbno Szadkowski",
+      "mention_texts": [
+        "Faczerbno Szadkowski"
+      ],
+      "descriptive_mentions": [
+        "Praedonum"
+      ],
+      "justification": "Accomplice named among the highway robbers."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Bagroli",
+      "mention_texts": [
+        "Christophoro Bagroli"
+      ],
+      "descriptive_mentions": [
+        "Praedonum"
+      ],
+      "justification": "Accomplice named among the highway robbers."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Patritius Licbicki",
+      "mention_texts": [
+        "Patritio Licbicki"
+      ],
+      "descriptive_mentions": [
+        "Praedonum"
+      ],
+      "justification": "Accomplice named among the highway robbers."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "location",
+      "canonical_name": "Kańczuga",
+      "mention_texts": [
+        "Kanczutam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Destination town where Thomas Keres was travelling for trade."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Bykja",
+      "mention_texts": [
+        "Bykja"
+      ],
+      "descriptive_mentions": [
+        "famulo suo"
+      ],
+      "justification": "Servant travelling with Thomas Keres."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "location",
+      "canonical_name": "Trybze",
+      "mention_texts": [
+        "Trybze"
+      ],
+      "descriptive_mentions": [
+        "villa"
+      ],
+      "justification": "Village with the tavern where Keres lodged."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "location",
+      "canonical_name": "Rybna",
+      "mention_texts": [
+        "Rybyna",
+        "Rybnam"
+      ],
+      "descriptive_mentions": [
+        "Oppido",
+        "oppidum"
+      ],
+      "justification": "Town one mile from the tavern of Trybze."
+    },
+    {
+      "entity_id": "E23",
+      "entity_type": "date",
+      "canonical_name": "14 May",
+      "mention_texts": [
+        "die Quatuordecima Maij Mensis anno presenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date Keres lodged at the tavern."
+    },
+    {
+      "entity_id": "E24",
+      "entity_type": "date",
+      "canonical_name": "15 May",
+      "mention_texts": [
+        "Quindecima die Mensis praefati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the attack and murder."
+    },
+    {
+      "entity_id": "E25",
+      "entity_type": "currency",
+      "canonical_name": "3012 florins",
+      "mention_texts": [
+        "Tria millia et Duodecim Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money stolen from the victim."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "frater uterinus Generosi olim Thomae Keres"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanon Rybinski filium (ut se dixit) Nobilis olim Martini Rybinski"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Christophorum Janowski filium (ut se dixit) Nobilis olim Felicis Janowski"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "servant_of",
+      "tail_entity_id": "E4",
+      "evidence": "cum tertium famulo suo Bykja"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "villa Rybno districtus Sochaczoviensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E14",
+      "evidence": "Jaromice Palatinatus et Districtus Sandomiriensis"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "document_id": "arc2/0875.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli die anno quo supra."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis praesentibus",
+        "officio praesenti",
+        "officij",
+        "officij praesentis",
+        "hoc idem officium",
+        "officij huius",
+        "Collegarum nostro Consularium"
+      ],
+      "justification": "Official council records and references to the present consular office."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Inewicoski",
+      "mention_texts": [
+        "Inewicoski"
+      ],
+      "descriptive_mentions": [
+        "Ipsius Generosi Domini Successores",
+        "suum Principalem",
+        "Generosi Domini",
+        "Generosi Domini Inewicoski"
+      ],
+      "justification": "Mentioned as 'Generosi Domini Inewicoski' and 'Ipsius Generosi Domini Successores'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannes Druszkowicz",
+        "Joannem Druzkowiczkem",
+        "Joannem Dyszkowitzi"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Civitatis",
+        "eundem",
+        "praefati Citati",
+        "Citorum"
+      ],
+      "justification": "Known corpus alias: Joannes Druszkowicz maps to PER-0071: Joannes Ossowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Owczarski",
+      "mention_texts": [
+        "Paulus Owczarski",
+        "Pauli",
+        "Pauli Lowiczkoni"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "praefatus Dominus Actori"
+      ],
+      "justification": "Appears in heading as 'Paulus Owczarski' and in text as plaintiff 'Honestorum Pauli... Pauli Lowiczkoni'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0107: Helena",
+      "mention_texts": [
+        "Helenae"
+      ],
+      "descriptive_mentions": [
+        "Honestorum"
+      ],
+      "justification": "Honestorum Pauli et Helenae Pauli Lowiczkoni."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Civitatis"
+      ],
+      "justification": "Joannem Druzkowiczkem et Annam Coniuges Civitatis."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanossek",
+      "mention_texts": [
+        "Stanossek"
+      ],
+      "descriptive_mentions": [
+        "ipsius"
+      ],
+      "justification": "bonorum ipsius Stanossek dicta antea in obligane."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0221: CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "Florenorum 80.",
+        "Florenos 80."
+      ],
+      "descriptive_mentions": [
+        "sortem tam ipsis ipsorum haereditariam summam pecuniariam",
+        "summam"
+      ],
+      "justification": "Specified amounts of 80 florins (Florenorum 80., Florenos 80.)."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Guilhelmus Balbinus",
+      "mention_texts": [
+        "Guilhelmum Balbinum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "coram Actum Guilhelmum Balbinum citatus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "is spouse of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestorum Pauli et Helenae Pauli Lowiczkoni"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is spouse of",
+      "tail_entity_id": "E7",
+      "evidence": "citati Joannem Druzkowiczkem et Annam Coniuges Civitatis"
+    }
+  ]
+}

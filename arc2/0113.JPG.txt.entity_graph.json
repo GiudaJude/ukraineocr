@@ -1,0 +1,105 @@
+{
+  "document_id": "arc2/0113.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the act was recorded and of which the office and parties are suburbanites/citizens."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officium"
+      ],
+      "justification": "The municipal consular court issuing the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "Monday after the Finding of the Holy Cross 1595",
+      "mention_texts": [
+        "Feria secunda post Inuentionem Sanctae Crucis Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session and decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Soltysowic",
+      "mention_texts": [
+        "Joanne Soltysowic",
+        "Joannem Soltysowic"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Doliarium Capitanealem",
+        "actorem",
+        "praedictus",
+        "actoribus"
+      ],
+      "justification": "Castle cooper and actor in the case concerning maternal inheritance."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Agnes Klawonowska",
+      "mention_texts": [
+        "Agnetis Klawonowska",
+        "Agnetem"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "suburbanae Leopoliensis",
+        "Honestam",
+        "sororem",
+        "auctores"
+      ],
+      "justification": "Suburbanite of Lviv on whose behalf and with whom the inheritance claim is pursued."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Barbara Klawonowska",
+      "mention_texts": [
+        "Barbare Klawonowska",
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "praedictae"
+      ],
+      "justification": "Deceased woman whose maternal estate (tertia maternalis) is being divided."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Georgius Sklekowic",
+      "mention_texts": [
+        "Georgio Sklekowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the subsequent decree heading."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "occasione extraditionis certis tertiae maternalis bonorum olim mobilium et immobilium ad praedictam Honestam Agnetem eiusque maritum auctores vigore Plenipotentiae eius Ciuitates post obitum Honestae olim Barbarae Klawonowska promulgata"
+    }
+  ]
+}

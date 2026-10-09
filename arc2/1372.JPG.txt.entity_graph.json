@@ -1,0 +1,292 @@
+{
+  "document_id": "arc2/1372.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-2505: Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Borrem Sadowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum actum praesentem cum consensu mariti sui spontaneo assumptum"
+      ],
+      "justification": "Appears as the tutor assisting the wife with her husband's consent."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium meum",
+        "Officii",
+        "Officii huius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal court/office before which recognitions are made."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopolitano",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburban residents are mentioned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalis",
+        "Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Denominates the Polish currency system."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "34 Polish florins",
+      "mention_texts": [
+        "Florenos triginta quatuor",
+        "triginta quatuor florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Debt amount acknowledged."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kłasowski",
+      "mention_texts": [
+        "Joanni Kłasowski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Ferrifici Suburbano Leopolitano"
+      ],
+      "justification": "Creditor, blacksmith in the Lviv suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Sanctissimis Paschatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for payment."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno 159 septimo"
+      ],
+      "descriptive_mentions": [
+        "proximè sequenti venturo"
+      ],
+      "justification": "Year of payment term."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Ferrifex",
+      "mention_texts": [
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Ferrificis"
+      ],
+      "justification": "Neighbor owning property on one side."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Michaelisowski",
+      "mention_texts": [
+        "Michaelisowski"
+      ],
+      "descriptive_mentions": [
+        "sartoris doliaris"
+      ],
+      "justification": "Neighbor owning property on the other side."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Florianus Paszkowski",
+      "mention_texts": [
+        "Florianus Paszkowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Nobleman issuing the receipt (quietatio)."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Dirsicza",
+      "mention_texts": [
+        "Dirsicza"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Estate/locality associated with Florianus Paszkowski in the Bełz region."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Bełz",
+      "mention_texts": [
+        "Belzensi",
+        "Belzensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region and town associated with Paszkowski and the Wolski spouses."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "24 Polish florins",
+      "mention_texts": [
+        "Florenis viginti quatuor"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici"
+      ],
+      "justification": "Amount of debt satisfied."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wolski",
+      "mention_texts": [
+        "Joannis Wolski",
+        "Joannem Toolski",
+        "Joanne Toolski"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "coniuges",
+        "eisdem",
+        "coniugibus Suburbanis Belzensibus"
+      ],
+      "justification": "Suburban debtor from Bełz quieted by Paszkowski."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Felix",
+      "mention_texts": [
+        "Felicem",
+        "Felice"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "eisdem",
+        "coniugibus Suburbanis Belzensibus"
+      ],
+      "justification": "Wife of Joannes Wolski, also quieted."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "organization",
+      "canonical_name": "Stojanów City Council",
+      "mention_texts": [
+        "Magistratu Stoianowiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Magistracy of Stojanów before which the original obligation was recorded."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "date",
+      "canonical_name": "17 May",
+      "mention_texts": [
+        "die 17 Maiori Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the contract in Stojanów."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Joannes Malerycz",
+      "mention_texts": [
+        "Joannis Malerycz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the section heading."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Joannes Maiorowski",
+      "mention_texts": [
+        "Joannes Maiorowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Appearing party in entry 1239."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joannes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Second appearing party at the end of line 1239."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Ferrifici Suburbano Leopolitano"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E12",
+      "evidence": "Nobilis Florianus Paszkowski de Dirsicza"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Honestos Joannem Toolski et Felicem coniuges"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Honestos Joannem Toolski et Felicem coniuges"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "coniugibus Suburbanis Belzensibus"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "coniugibus Suburbanis Belzensibus"
+    }
+  ]
+}

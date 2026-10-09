@@ -1,0 +1,243 @@
+{
+  "document_id": "arc2/0889.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officij",
+        "Cameram Officij",
+        "Officio",
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "Decreto Officij eiusdem"
+      ],
+      "justification": "The municipal council/bench of Lviv before which the declaration and settlement were enacted."
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopolienses",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the jurisdictional title and civic affiliations."
+    },
+    {
+      "entity_id": "DATE-0001",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die et Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the current date and year of the session."
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "feria quarta ante Festum Sancti Petri Cathedrae proxime praeterita",
+      "mention_texts": [
+        "feria quarta ante Festum Sancti Petri Cathedrae proxime praeterita"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date when the council decree was issued."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radomski",
+      "mention_texts": [
+        "Joannes Radomski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Sutor",
+        "affines Cives Leopolienses",
+        "Curatores"
+      ],
+      "justification": "Shoemaker and citizen of Lviv acting as curator of the minor Simon."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Loskierowic",
+      "mention_texts": [
+        "Joannes Loskierowic",
+        "Joanne Loskierowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aurifaber",
+        "affines Cives Leopolienses",
+        "Curatores",
+        "eodem"
+      ],
+      "justification": "Goldsmith and citizen of Lviv acting as curator of the minor Simon."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "mention_texts": [
+        "Simonis",
+        "Simonem",
+        "Simoniszowic"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "filij nondum aetatem legitimam assecuti",
+        "praefatum Ingenuum",
+        "praefatum",
+        "pupillum"
+      ],
+      "justification": "The underage ward for whom curatorial accounts are rendered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jonas Pastor",
+      "mention_texts": [
+        "Jonasy Pastoris Vngari"
+      ],
+      "descriptive_mentions": [
+        "Famatorum olim"
+      ],
+      "justification": "Deceased father of the ward Simon, identified as Hungarian."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Eva Dzierzanowska",
+      "mention_texts": [
+        "Evae Dzierzanowska"
+      ],
+      "descriptive_mentions": [
+        "Famatorum olim"
+      ],
+      "justification": "Deceased mother of the ward Simon."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Leopolowicz",
+      "mention_texts": [
+        "Albertus Kielszowic",
+        "Albertus Leopolowicz",
+        "Alberto Leopolowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Suetor",
+        "quondam etiam munus Curatorium in praefatum Ingenuum Simonem gerens",
+        "praefatus",
+        "eodem"
+      ],
+      "justification": "Shoemaker and former curator of Simon rendering curatorial accounts."
+    },
+    {
+      "entity_id": "PER-0014",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andrea Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino",
+        "Civibus Leopoliensibus",
+        "Arbitris",
+        "Dominorum Arbitrorum"
+      ],
+      "justification": "Scabinus and citizen of Lviv acting as an arbitrator."
+    },
+    {
+      "entity_id": "PER-0015",
+      "entity_type": "person",
+      "canonical_name": "PER-0015: Christopherus Mozanc",
+      "mention_texts": [
+        "Christophoro Morancz"
+      ],
+      "descriptive_mentions": [
+        "Civibus Leopoliensibus",
+        "Arbitris",
+        "Dominorum Arbitrorum"
+      ],
+      "justification": "Citizen of Lviv acting as an arbitrator."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "curator_of",
+      "tail_entity_id": "E4",
+      "evidence": "tanquam Ingenui Simonis Famatorum olim Jonasy Pastoris Vngari et Evae Dzierzanowska filij nondum aetatem legitimam assecuti Curatores"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "curator_of",
+      "tail_entity_id": "E4",
+      "evidence": "tanquam Ingenui Simonis Famatorum olim Jonasy Pastoris Vngari et Evae Dzierzanowska filij nondum aetatem legitimam assecuti Curatores"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "curator_of",
+      "tail_entity_id": "E4",
+      "evidence": "Albertus Leopolowicz Suetor quondam etiam munus Curatorium in praefatum Ingenuum Simonem gerens"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Ingenui Simonis Famatorum olim Jonasy Pastoris Vngari et Evae Dzierzanowska filij"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Ingenui Simonis Famatorum olim Jonasy Pastoris Vngari et Evae Dzierzanowska filij"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famatorum olim Jonasy Pastoris Vngari et Evae Dzierzanowska filij"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "PER-0014",
+      "relation": "member_of",
+      "tail_entity_id": "ORG-0003",
+      "evidence": "Andrea Simonowicz Scabino"
+    },
+    {
+      "head_entity_id": "PER-0014",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "PER-0015",
+      "relation": "resident_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Civibus Leopoliensibus"
+    }
+  ]
+}

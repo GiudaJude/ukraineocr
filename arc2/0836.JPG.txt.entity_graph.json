@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/0836.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Włodarkowicz",
+      "mention_texts": [
+        "Stanislaus Wlodarkowicz"
+      ],
+      "descriptive_mentions": [
+        "Quartus testis",
+        "Laboriosus",
+        "subditi",
+        "testium supranominatorum",
+        "testes"
+      ],
+      "justification": "Witness testifying in the matter of Stephanus Skrzyński."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Kozłowicze",
+      "mention_texts": [
+        "Kozlowicze"
+      ],
+      "descriptive_mentions": [
+        "villa Kozlowicze",
+        "eadem villa",
+        "eadem Kozlowicze"
+      ],
+      "justification": "Village of origin of the witnesses Stanislaus Włodarkowicz and Adam Ciekotowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Adam Ciekotowicz",
+      "mention_texts": [
+        "Adam Ciekotowicz"
+      ],
+      "descriptive_mentions": [
+        "subditi",
+        "testium supranominatorum",
+        "testes"
+      ],
+      "justification": "Witness from the village of Kozłowicze."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gieczew",
+      "mention_texts": [
+        "Gieczew"
+      ],
+      "descriptive_mentions": [
+        "eorundem Dominorum",
+        "Dominorum Gieczew"
+      ],
+      "justification": "Lords whose subjects are the witnesses Stanislaus Włodarkowicz and Adam Ciekotowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Skrzyński",
+      "mention_texts": [
+        "Stephanus Skrzynski",
+        "Stephano Skrzynski"
+      ],
+      "descriptive_mentions": [
+        "ipse Principalis",
+        "Nobilis",
+        "Principalem",
+        "Nobili",
+        "acceptanti et memoriali solidante"
+      ],
+      "justification": "Noble principal taking an oath regarding his deceased brother Laurentius Kaskawski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Kaskawski",
+      "mention_texts": [
+        "Laurentius Kaskawski"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "frater suus germanus"
+      ],
+      "justification": "Deceased brother of Stephanus Skrzyński mentioned in the oath."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari",
+        "Officium nostrum",
+        "Sigillum nostrum Consulare"
+      ],
+      "descriptive_mentions": [
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council/office ordering the entry of the testimony into the council records."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "The city of Lviv whose records are cited."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Tristana",
+      "mention_texts": [
+        "Simonem Tristana"
+      ],
+      "descriptive_mentions": [
+        "Notarij nostri",
+        "Notarium"
+      ],
+      "justification": "Notary of the city acts who extracted and corrected the record."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Twardysz",
+      "mention_texts": [
+        "Jacobi Twardysz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the entry heading 'Renunciatio Jacobi Twardysz'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Quia olim Laurentius Kaskawski frater suus germanus fuerat"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaus Wlodarkowicz de eadem villa Kozlowicze"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "subject_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaus Wlodarkowicz de eadem villa Kozlowicze subditi eorundem Dominorum ... Gieczew"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Adam Ciekotowicz de eadem Kozlowicze"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "subject_of",
+      "tail_entity_id": "E4",
+      "evidence": "Adam Ciekotowicz de eadem Kozlowicze subditi eorundem Dominorum Gieczew"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "employee_of",
+      "tail_entity_id": "E7",
+      "evidence": "Notarij nostri manu propria subscriptum ... per me Simonem Tristana eorundem Actorum Notarium"
+    }
+  ]
+}

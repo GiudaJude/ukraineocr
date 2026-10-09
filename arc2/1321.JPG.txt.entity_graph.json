@@ -1,0 +1,124 @@
+{
+  "document_id": "arc2/1321.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "Civitatem"
+      ],
+      "justification": "City referenced for property location and the citizenship of Joannes Adamowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0354: Elisabetha",
+      "mention_texts": [
+        "Elisabeth"
+      ],
+      "descriptive_mentions": [
+        "consors sua charissima ac legitima",
+        "uxor sua",
+        "praefata consorte sua"
+      ],
+      "justification": "Woman who resigned and sold her paternal and maternal hereditary shares."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officii nostri Consularis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular office whose seal was affixed to the instrument."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "die sexta mensis Augusti Anno Domini Millesimo Quingentesimo Nonagesimo Sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the cited power of attorney instrument: 6 August 1596."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Niedźwiedzina",
+      "mention_texts": [
+        "Hedvigi Niedzwiedzowa"
+      ],
+      "descriptive_mentions": [
+        "moderna coniuge sua"
+      ],
+      "justification": "Wife of the late father mentioned in the settlement of paternal goods."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Adamowicz",
+      "mention_texts": [
+        "Joanni Adamowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensi",
+        "suo germano fratri",
+        "praenominatis coniugibus"
+      ],
+      "justification": "Brother of Elisabeth who purchased her hereditary shares."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Olizarowna",
+      "mention_texts": [
+        "Dorotheae Olizarowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "eius consorti",
+        "praenominatis coniugibus"
+      ],
+      "justification": "Wife of Joannes Adamowicz, co-purchaser of the inheritance."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "165 Polish florins",
+      "mention_texts": [
+        "centum et sexaginta quinque florenorum pecuniae monetae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum paid for the hereditary goods."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famato Joanni Adamowicz Civi Leopoliensi suo germano fratri"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Famato Joanni Adamowicz Civi Leopoliensi suo germano fratri et eius consorti Honestae Dorotheae Olizarowna"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joanni Adamowicz Civi Leopoliensi"
+    }
+  ]
+}

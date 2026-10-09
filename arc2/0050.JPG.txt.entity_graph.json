@@ -1,0 +1,213 @@
+{
+  "document_id": "arc2/0050.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "PER-0028",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kensdorf",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "idem Creditor",
+        "Creditor"
+      ],
+      "justification": "Creditor mentioned in the continuation of the contract from the preceding page"
+    },
+    {
+      "entity_id": "PER-0029",
+      "entity_type": "person",
+      "canonical_name": "Alexa Wyszibant",
+      "mention_texts": [
+        "Olexa"
+      ],
+      "descriptive_mentions": [
+        "idem",
+        "fassiduum"
+      ],
+      "justification": "Debtor binding himself and his property on behalf of his wife"
+    },
+    {
+      "entity_id": "PER-0030",
+      "entity_type": "person",
+      "canonical_name": "Anastasia",
+      "mention_texts": [
+        "Anastasiam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "coniugem suam"
+      ],
+      "justification": "Wife of Olexa mentioned as required to give personal consent"
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "Laetare Sunday 1595",
+      "mention_texts": [
+        "Festum Letare proxime venturum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deadline set for Anastasia's appearance before the council"
+    },
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "eodem Officio",
+        "Officio",
+        "Officij"
+      ],
+      "justification": "City council office before which the legal declarations and acts take place"
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place and of which the parties are citizens"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1 February 1595",
+      "mention_texts": [
+        "feria quarta intra festa Purificationis B. Mariae Virginis Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Act date of the document"
+    },
+    {
+      "entity_id": "PER-0032",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Scholz",
+      "mention_texts": [
+        "Bartel Schulz",
+        "Bartholomeo Schulz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Ciui Leopoliensi",
+        "fadicto Famato",
+        "praefato Creditori suo",
+        "Creditori suo"
+      ],
+      "justification": "Creditor granted intromission into the house"
+    },
+    {
+      "entity_id": "PER-0031",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rottendorff",
+      "mention_texts": [
+        "Joannes Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aurifex",
+        "Civis Leopoliensis",
+        "ipse"
+      ],
+      "justification": "Goldsmith and citizen of Lviv acknowledging his debt"
+    },
+    {
+      "entity_id": "CUR-0005",
+      "entity_type": "currency",
+      "canonical_name": "75 Polish florins",
+      "mention_texts": [
+        "Florenos septuaginta quinque pecuniae et numeri Polonicalis",
+        "septuaginta quinque florenorum"
+      ],
+      "descriptive_mentions": [
+        "restas videlicet duas ultimas principalis debiti"
+      ],
+      "justification": "Amount of the remaining debt acknowledged"
+    },
+    {
+      "entity_id": "CUR-0006",
+      "entity_type": "currency",
+      "canonical_name": "400 florins",
+      "mention_texts": [
+        "quadringentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "principalis debiti"
+      ],
+      "justification": "Amount of the principal debt originally contracted"
+    },
+    {
+      "entity_id": "DATE-0005",
+      "entity_type": "date",
+      "canonical_name": "1586",
+      "mention_texts": [
+        "feria secunda in vigilia Sanctae Catherinae Virginis et Martyris Anno Domini 1580 sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier registered debt cited in the act"
+    },
+    {
+      "entity_id": "LOC-0009",
+      "entity_type": "location",
+      "canonical_name": "Zozulinski House",
+      "mention_texts": [
+        "Zozulinski"
+      ],
+      "descriptive_mentions": [
+        "domum et sorte suam Zozulinski vocatam"
+      ],
+      "justification": "House and property pledged in intromission"
+    },
+    {
+      "entity_id": "LOC-0010",
+      "entity_type": "location",
+      "canonical_name": "Mount Calvary",
+      "mention_texts": [
+        "monte Calvarium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hill in Lviv where the Zozulinski property is situated"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "PER-0030",
+      "relation": "spouse_of",
+      "tail_entity_id": "PER-0029",
+      "evidence": "Honestam Anastasiam coniugem suam"
+    },
+    {
+      "head_entity_id": "PER-0031",
+      "relation": "debtor_of",
+      "tail_entity_id": "PER-0032",
+      "evidence": "recognouit se debere et teneri certi veri iusti liquidique debiti Florenos septuaginta quinque... Famato Bartholomeo Schulz"
+    },
+    {
+      "head_entity_id": "PER-0031",
+      "relation": "citizen_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Joannes Rottendorff Aurifex Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "PER-0032",
+      "relation": "citizen_of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Famato Bartholomeo Schulz Ciui Leopoliensi"
+    },
+    {
+      "head_entity_id": "LOC-0009",
+      "relation": "located_in",
+      "tail_entity_id": "LOC-0010",
+      "evidence": "domum et sorte suam Zozulinski vocatam in monte Calvarium"
+    },
+    {
+      "head_entity_id": "PER-0031",
+      "relation": "owner_of",
+      "tail_entity_id": "LOC-0009",
+      "evidence": "dedit et obtulit praefato Creditori suo exnunc et ipso facto realem intromissionem et pacificam possessionem ac usumfructum in domum et sorte suam Zozulinski vocatam"
+    }
+  ]
+}

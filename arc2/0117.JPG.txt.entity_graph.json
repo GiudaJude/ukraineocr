@@ -1,0 +1,104 @@
+{
+  "document_id": "arc2/0117.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal action took place and of which Valentinus is a suburbanite."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "25 October 1595",
+      "mention_texts": [
+        "feria quarta post Lucam Evangelistam proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the council record act."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Consularem nostram residentiam"
+      ],
+      "justification": "The municipal council seat where the parties appeared."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Sołtys",
+      "mention_texts": [
+        "Valentini Soltys",
+        "Valentinus Soltys"
+      ],
+      "descriptive_mentions": [
+        "Prouidus",
+        "senex Suburbanus Leopoliensis",
+        "ipse"
+      ],
+      "justification": "The suburban elder from Kleparów making the property disposition."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kleparów",
+      "mention_texts": [
+        "Kleparow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv of which Valentinus Sołtys was an inhabitant."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Zofia Zadworna",
+      "mention_texts": [
+        "Sobbiam",
+        "Zadworna"
+      ],
+      "descriptive_mentions": [
+        "uxoris suae"
+      ],
+      "justification": "Deceased wife of Valentinus Sołtys."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Czeski",
+      "mention_texts": [
+        "Czeski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin associated with the late Zofia Zadworna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "post Sobbiam olim Zadworna de Czeski uxoris suae obitum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Valentinus Soltys de Kleparow"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "originates_from",
+      "tail_entity_id": "E7",
+      "evidence": "Sobbiam olim Zadworna de Czeski"
+    }
+  ]
+}

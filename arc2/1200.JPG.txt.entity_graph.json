@@ -1,0 +1,203 @@
+{
+  "document_id": "arc2/1200.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Lomathnic",
+      "mention_texts": [
+        "Stanislaum Lomathnics"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "sartorem",
+        "incolam Leopoliensem",
+        "citatum",
+        "citati",
+        "citatus"
+      ],
+      "justification": "Identified as a tailor and resident of Lviv summoned before the court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Chropski",
+      "mention_texts": [
+        "Chropscii"
+      ],
+      "descriptive_mentions": [
+        "praefati"
+      ],
+      "justification": "Owner of the house mentioned in the rental dispute."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius",
+        "Civitatis huius"
+      ],
+      "justification": "City where the council and courts reside and where the parties live or act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi",
+        "Consulari"
+      ],
+      "descriptive_mentions": [
+        "sententia officii",
+        "officio",
+        "Officio Civitatis huius tam Consulari"
+      ],
+      "justification": "The consular municipal council court of Lviv issuing decrees and receiving testimony."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Bernat",
+      "mention_texts": [
+        "Petrus Bernat"
+      ],
+      "descriptive_mentions": [
+        "Actorus",
+        "Actori",
+        "Famatus",
+        "institor",
+        "Civis Kazimirziensis ad Cracoviam"
+      ],
+      "justification": "Merchant and citizen of Kazimierz pursuing the murderers of his brother."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kazimierz",
+      "mention_texts": [
+        "Kazimirziensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town near Kraków of which Petrus Bernat is a citizen."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviam",
+        "Cracovia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City near Kazimierz where trials/executions of some bandits took place."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Knesstof",
+      "mention_texts": [
+        "Thomae Knesstofi"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "fratris sui verini",
+        "Civis Tarnowiensis"
+      ],
+      "justification": "Deceased brother of Petrus Bernat, citizen of Tarnów, murdered on the public highway."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Tarnów",
+      "mention_texts": [
+        "Tarnowiensis",
+        "Tarnovia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of which Thomas Knesstof was a citizen and where perpetrators were tried."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Castrensi"
+      ],
+      "descriptive_mentions": [
+        "Officijs tam Castrensi",
+        "tam Consulari quam Castrensi"
+      ],
+      "justification": "Castle (grodzki) court of Lviv mentioned in connection with receiving testimonies."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Bagiński",
+      "mention_texts": [
+        "Baginski"
+      ],
+      "descriptive_mentions": [
+        "unum compliciem ipsorum",
+        "eum"
+      ],
+      "justification": "Accomplice of the bandits apprehended in Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Alexander Pełczyski",
+      "mention_texts": [
+        "Alexandrum Pelczyski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "istorum praedonum antesignanam"
+      ],
+      "justification": "Noble identified as the ringleader of the bandits."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Ciuili"
+      ],
+      "descriptive_mentions": [
+        "Officijs tam Castrensi quam Ciuili"
+      ],
+      "justification": "Civil/banned city court of Lviv requested to supply testimony."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaum Lomathnics sartorem incolam Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Petrus Bernat institor Civis Kazimirziensis ad Cracoviam"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E8",
+      "evidence": "Thomae Knesstofi fratris sui verini"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Thomae Knesstofi fratris sui verini Civis Tarnowiensis"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "document_id": "arc2/1231.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the municipal office / council to which offenses were reported."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the central market square of Lviv where bread could be sold."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis"
+      ],
+      "justification": "Identifies the city of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta",
+        "foemina",
+        "primarum nuptiarum coniuges",
+        "praefatam",
+        "praedicta"
+      ],
+      "justification": "Identifies Anna, widow of the shoemaker Mathias of Kamienopol."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Sutor",
+      "mention_texts": [
+        "Mathiae Sutoris",
+        "Mathiam Sutorem"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Honestam",
+        "praedictum",
+        "primarum nuptiarum coniuges"
+      ],
+      "justification": "Identifies the deceased shoemaker Mathias of Kamienopol, former husband of Anna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kamienopol",
+      "mention_texts": [
+        "Kamienopole"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the village of Kamienopol near Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislai",
+        "Stanislao"
+      ],
+      "descriptive_mentions": [
+        "gener",
+        "coniuges",
+        "coloni",
+        "vir",
+        "tutore suum legitimum",
+        "praefato",
+        "marito suo"
+      ],
+      "justification": "Identifies Stanislaus, son-in-law of Anna and husband of Agnes."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "coniuges",
+        "coloni",
+        "foemina",
+        "Mathiae Sutoris filia"
+      ],
+      "justification": "Identifies Agnes, daughter of Mathias Sutor and Anna, and wife of Stanislaus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Halicie"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis Suburbio"
+      ],
+      "justification": "Identifies the Halych suburb of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Terniowka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies Temriczowska / Ternicowska Street in the Halych suburb."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Iasko Kuriłowicz",
+      "mention_texts": [
+        "Iaskoni Kuriłowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pistori Suburbano Leopoliensi",
+        "Emptorem"
+      ],
+      "justification": "Identifies Iasko Kuriłowicz, suburban baker in Lviv, buyer of the house and garden."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "5 marks",
+      "mention_texts": [
+        "quinque Marcarum"
+      ],
+      "descriptive_mentions": [
+        "poena"
+      ],
+      "justification": "Fine of five marks mentioned in the bakers' regulation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "63 Polish florins",
+      "mention_texts": [
+        "sexaginta trium Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The total purchase price of sixty-three Polish florins."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "10 florins and 10 grosze",
+      "mention_texts": [
+        "Florenos decem et grossos decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Portion received by Anna from the sale."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "20 florins and 20 grosze",
+      "mention_texts": [
+        "Florenos viginti et grossos viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Portion received by Agnes and Stanislaus from the sale."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "olim Mathiae Sutoris toris de Kamienopole relicta"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Agnes Mathiae Sutoris filia"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai gener eiusque filia"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "praedicta Agnes Mathiae Sutoris filia cum praefato Stanislao marito suo"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in eiusdem Civitatis Suburbio Halicie dicto in platea Terniowka"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "eiusdem Civitatis Suburbio Halicie dicto"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Pistori Suburbano Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/0611.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Lękawski",
+      "mention_texts": [
+        "Martini Lękawski",
+        "Martini Lękawski"
+      ],
+      "descriptive_mentions": [
+        "maritum",
+        "tutorem legitimum",
+        "Nobilis",
+        "praedicti mariti sui"
+      ],
+      "justification": "Appears as the husband and legal representative of Agnes."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnete Sctawska",
+        "agnetem"
+      ],
+      "descriptive_mentions": [
+        "Martini Lękawski Coniugem legitimam",
+        "citatam",
+        "Citatam",
+        "citata",
+        "ipsius"
+      ],
+      "justification": "Identified by name and as wife of Martinus Lękawski and former wife of Joannes Ganschur."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rottendorff",
+      "mention_texts": [
+        "Joannem Rotherdorff",
+        "Joanni-ius Rotherdorff",
+        "Joanne Rotherdorff"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Aurifabrem",
+        "Civem Leopoliensem",
+        "citatum",
+        "citatus",
+        "moderni possessoris",
+        "praedicto"
+      ],
+      "justification": "Appears as a goldsmith and citizen of Lviv in dispute over the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Mons Calcareus",
+      "mention_texts": [
+        "monte calcareo",
+        "Calceo cagerea"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location (Kalcza Góra / Mons Calcareus) where the property in question is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensem",
+        "Leopoliensem",
+        "Leopoliensem",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in civic and official titles."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicium Civile"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The civil court to which the defendant sought exemption."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Merchants' Court",
+      "mention_texts": [
+        "Iudicium Mercatorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court of merchants to which the parties were remanded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die et anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard reference dating back to the active year 1595."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Officia- tum"
+      ],
+      "justification": "The consular office of Lviv issuing the decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Actam",
+        "viduam relictam",
+        "Actricem",
+        "Actantem",
+        "Actrici",
+        "Actricis"
+      ],
+      "justification": "Widow of Antonius Wildt and plaintiff in the lawsuit."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Antonius Wildt",
+      "mention_texts": [
+        "Antony Wildt"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensem"
+      ],
+      "justification": "Late citizen of Lviv, deceased husband of Anna."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Luszkowski",
+      "mention_texts": [
+        "Albertum Luscouium"
+      ],
+      "descriptive_mentions": [
+        "Honorabilem",
+        "Iudicij Leopoliensem Notarium",
+        "tutorem sibi ad actum praesentem assumptum"
+      ],
+      "justification": "Court notary acting as guardian/tutor for Anna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ganschur",
+      "mention_texts": [
+        "Joannis Ganschur",
+        "Joannem Ganschur",
+        "Joannem Ganschur"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Pellionis",
+        "Civis Leopoliensem",
+        "olim",
+        "maritum ipsius priorem"
+      ],
+      "justification": "Late furrier and citizen of Lviv, first husband of Agnes."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0002: 36 Polish florins",
+      "mention_texts": [
+        "Florenorum Triginta sex Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt at issue in the litigation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "posteriorum vero Nobilis Martini Lękawski Coniugem legitimam"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "per praedictum maritum tutorem legitimum agentem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "agnetem priorum nuptiarum Famati olim Joannis Ganschur Pellionis Civis Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Annam Famati olim Antony Wildt Civis Leopoliensem viduam relictam"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "per Honorabilem Albertum Luscouium Iudicij Leopoliensem Notarium tutorem sibi ad actum praesentem assumptum"
+    }
+  ]
+}

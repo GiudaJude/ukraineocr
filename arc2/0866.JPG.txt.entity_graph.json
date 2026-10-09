@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/0866.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0300: Andreas Dambrowski",
+      "mention_texts": [
+        "Andreas Dabrowski",
+        "Andreae Dambrowski Samboriensi"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Nobili et spectabili Domino",
+        "Collegae nostro Consulari",
+        "Spectabili Creditori suo"
+      ],
+      "justification": "Creditor and council colleague mentioned in the debt obligation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Tomas Organarius",
+      "mention_texts": [
+        "Tomas Organarius"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "incola pro tunc Leopoliensis"
+      ],
+      "justification": "Debtor entering an obligation before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the residency, court title, and departure restrictions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "76 florins",
+      "mention_texts": [
+        "florenorum videlicet septuaginta sex"
+      ],
+      "descriptive_mentions": [
+        "certum debitum",
+        "debitum praefatum",
+        "summa praedicta",
+        "praedicto debito"
+      ],
+      "justification": "Amount of debt specified in the obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which Tomas has proceedings against his creditors."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Magistrate of Jarosław",
+      "mention_texts": [
+        "Magistratu Jaroslaviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal government of Jarosław from which certification must be brought."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi",
+        "officio nostro",
+        "actisque praesentibus"
+      ],
+      "descriptive_mentions": [
+        "officium"
+      ],
+      "justification": "The municipal council and its records before which the matters take place."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Scholc",
+        "Jacobus Szholcz"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis"
+      ],
+      "justification": "Councilor/citizen intervening against the presentation of curatorial letters."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Gelasinus",
+      "mention_texts": [
+        "Andreas Gelasinus",
+        "Andreae"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "filius",
+        "fratris sui germani natu senioris",
+        "Ingenui Andreae"
+      ],
+      "justification": "Son of late Nicolaus Gelasinus presenting royal letters of curatorship."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelasinus the Elder",
+      "mention_texts": [
+        "Nicolai Gelasini"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis olim",
+        "Iuris Utriusque Doctoris Consulis Leopoliensis"
+      ],
+      "justification": "Late doctor of laws and consul of Lviv, father of Andreas and Nicolaus."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelasinus the Younger",
+      "mention_texts": [
+        "Nicolai Gelasini"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "fratris sui germani natu senioris"
+      ],
+      "justification": "Elder brother assisting Andreas Gelasinus."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0039: Christophorus Lewicki",
+      "mention_texts": [
+        "Christopheri Lemicki"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Prolocutoris sui"
+      ],
+      "justification": "Advocate/prolocutor representing Andreas Gelasinus."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland who granted the curatorial letters."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "has_debt_towards",
+      "tail_entity_id": "E1",
+      "evidence": "Honestus Tomas Organarius... evadendi sessionem carceris cui ob certum debitum florenorum videlicet septuaginta sex Nobili et spectabili Domino Andreae Dambrowski Samboriensi Collegae nostro Consulari contractum mancipatus erat obligavit"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Ingenuus Andreas Gelasinus Spectabilis olim Nicolai Gelasini Iuris Utriusque Doctoris Consulis Leopoliensis filius"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Nicolai Gelasini Civis Leopoliensis fratris sui germani natu senioris"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "acts_as_legal_representative_of",
+      "tail_entity_id": "E9",
+      "evidence": "Christopheri Lemicki Prolocutoris sui obtulit officio nostro literas Curatorias"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_in-law_of",
+      "tail_entity_id": "E9",
+      "evidence": "Spectabilis Jacobus Szholcz... protestando solemniter sibi uti iuxta uxorem suam, sororem germanam praefati Ingenui Andreae competere prioritatem"
+    }
+  ]
+}

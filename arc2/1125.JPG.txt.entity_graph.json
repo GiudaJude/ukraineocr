@@ -1,0 +1,155 @@
+{
+  "document_id": "arc2/1125.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lesko",
+      "mention_texts": [
+        "Lesko"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "vir"
+      ],
+      "justification": "Named as the husband resigning paternal and maternal properties."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "uxor"
+      ],
+      "justification": "Named as wife of Lesko, acting through her legal guardian."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0030: Anastasia",
+      "mention_texts": [
+        "Anastatia"
+      ],
+      "descriptive_mentions": [
+        "matri"
+      ],
+      "justification": "Named as the mother to whom goods are resigned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal banned court of Lviv mentioned in the resignation clause."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "The city of Lviv mentioned as the setting and origin of participants."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato ante Dominicam Refocillationum post Festum Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date given for the act."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Georgius Keszler",
+      "mention_texts": [
+        "Georgium Keszler",
+        "Georgius Keszler"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "vir",
+        "mariti sui",
+        "praefati mariti sui",
+        "praefatus"
+      ],
+      "justification": "Suburban resident of Lviv entering into a mutual testamentary donation with his wife."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheam",
+        "Dorothea Testes korona"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors ipsius legitima",
+        "uxor",
+        "consortem suam"
+      ],
+      "justification": "Wife of Georgius Keszler making a mutual testamentary contract."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0849: Paulus Kraus",
+      "mention_texts": [
+        "Paulum Czaus"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Qviriarium",
+        "autorem suum"
+      ],
+      "justification": "Legal assistor (author) appointed for Dorothea."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam",
+        "Officij nostri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The council office before which the testators appeared."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Lesko et Catherina coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "uxor vero per supradictum authorem suam bina omnia immobilia paterna et adfutura materna quidem distincto et matri Anastatia resignari"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Georgius Keszler Suburbanus Leopoliensis et Honesta Dorothea Testes korona consors ipsius legitima"
+    }
+  ]
+}

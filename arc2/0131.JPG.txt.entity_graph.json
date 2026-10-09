@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/0131.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Woloszyk",
+      "mention_texts": [
+        "Andream Woloszyk"
+      ],
+      "descriptive_mentions": [
+        "artificio sutorio operam nauantem",
+        "progenitum esse",
+        "dignumque esse qui propter honestatem ortus in numero proborum hominum habeatur"
+      ],
+      "justification": "Named as the son of Albertus and Sophia practicing shoemaking."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Woloswiez",
+      "mention_texts": [
+        "Alberti Woloswiez"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "coniugum"
+      ],
+      "justification": "Father of Andreas Woloszyk, deceased husband of Sophia."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sophia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Mother of Andreas Woloszyk, wife of Albertus Woloswiez."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the marginal note 'Relatio Civium Civitatis per Stanislaum'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Thomas Kancy",
+      "mention_texts": [
+        "Thomas Kancy"
+      ],
+      "descriptive_mentions": [
+        "Honorati Domini",
+        "locum Advocati Ordinarii tenens"
+      ],
+      "justification": "Acting advocate of Lviv appearing before the court/office."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rostendorff"
+      ],
+      "descriptive_mentions": [
+        "Scabini Iurati Civitatis Leopoliensis",
+        "Scabinorum Honoratorum Iuris Fidelium"
+      ],
+      "justification": "Lviv sworn bench juror making the official report."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Gallus"
+      ],
+      "descriptive_mentions": [
+        "Scabini Iurati Civitatis Leopoliensis",
+        "Scabinorum Honoratorum Iuris Fidelium"
+      ],
+      "justification": "Lviv sworn bench juror making the official report."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose bench officers and citizens are referenced."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmi Jelonek",
+        "Erasmus Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis et Pharmacopolae Leopoliensis",
+        "praedicti",
+        "hero suo",
+        "dictus"
+      ],
+      "justification": "Apothecary and citizen of Lviv who requested the inspection regarding his escaped servant."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Paulus Grauss",
+      "mention_texts": [
+        "Pauli Grauss"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Ostiarii nostri",
+        "eiusdem Ostiarii"
+      ],
+      "justification": "Doorkeeper (ostiarius) near the town hall whose cellar was connected to the jail."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Morochowski",
+      "mention_texts": [
+        "Morochowski"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis"
+      ],
+      "justification": "Owner of the house situated opposite the doorkeeper's dwelling."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Filarcz",
+      "mention_texts": [
+        "Nicolaus Filarcz"
+      ],
+      "descriptive_mentions": [
+        "Discretus",
+        "quondam praedicti Erasmi Jelonek Famulus et scriba Pharmacopolae",
+        "captivus",
+        "famuli sui profugi"
+      ],
+      "justification": "Former servant and scribe of Erasmus Jelonek who escaped from jail through the cellar wall."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Andream Woloszyk ... progenitum esse ex legitimo et honesto matrimonio Honesti olim Alberti Woloswiez et Sophiae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Andream Woloszyk ... progenitum esse ex legitimo et honesto matrimonio Honesti olim Alberti Woloswiez et Sophiae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Alberti Woloswiez et Sophiae coniugum iustis et legitimis nuptiis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Martinus Rostendorff et Fridericus Gallus Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Martinus Rostendorff et Fridericus Gallus Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Erasmi Jelonek Civis et Pharmacopolae Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "employee_of",
+      "tail_entity_id": "E9",
+      "evidence": "Nicolaus Filarcz quondam praedicti Erasmi Jelonek Famulus et scriba Pharmacopolae"
+    }
+  ]
+}

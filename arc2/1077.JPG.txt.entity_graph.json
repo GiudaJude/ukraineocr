@@ -1,0 +1,185 @@
+{
+  "document_id": "arc2/1077.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Dlugoscowa"
+      ],
+      "descriptive_mentions": [
+        "praedictam"
+      ],
+      "justification": "Identified as Catherina Dlugoszowa, alias of PER-0110, from whose dower goods funds were preserved."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "125 Polish florins",
+      "mention_texts": [
+        "florenorum Centum viginti quinque pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount paid from dotal goods mentioned in the first entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Saprzyina",
+        "Saprzyina",
+        "Saprzyina"
+      ],
+      "descriptive_mentions": [
+        "praedicta",
+        "eandem"
+      ],
+      "justification": "Anna Sapiżina, recorded in the text as Saprzyina, exonerated alongside her husband."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officij praesentis",
+        "actisque praesentibus",
+        "nobis",
+        "officio nostro"
+      ],
+      "justification": "The municipal office and registry before which the parties appeared."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Sebastianowska House",
+      "mention_texts": [
+        "Sebastyanowska"
+      ],
+      "descriptive_mentions": [
+        "domus"
+      ],
+      "justification": "House property whose heirs were admitted to the use of the husband."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act took place."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Felderski",
+      "mention_texts": [
+        "Mathias Felderski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Germanus Piger Magni Loci Capitanea seruitor"
+      ],
+      "justification": "Party appearing in court to issue a quietatio for an injury."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Kazimierski",
+      "mention_texts": [
+        "Valentini Kazimierski"
+      ],
+      "descriptive_mentions": [
+        "Fidelis"
+      ],
+      "justification": "Assistant present with Mathias Felderski in court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Szuss",
+      "mention_texts": [
+        "Szuff",
+        "Stephano Szuss",
+        "Stephano Szuss"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "eundem",
+        "eodem"
+      ],
+      "justification": "Individual quieted by Mathias Felderski regarding a wound."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Melchior Bramicki",
+      "mention_texts": [
+        "Bramicki",
+        "Melchior Bramicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble who entered an induction of a wound before the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Adalbert",
+      "mention_texts": [
+        "vigilia Festi Sancti Adalberti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date (the vigil of the feast) when the assault occurred."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sternicz",
+      "mention_texts": [
+        "Stanislao Sternicz"
+      ],
+      "descriptive_mentions": [
+        "quodam"
+      ],
+      "justification": "Individual denounced for violently inflicting a head wound on Melchior Bramicki."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "assisted_by",
+      "tail_entity_id": "E8",
+      "evidence": "vna cum assistentia Fidelis Valentini Kazimierski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "wounded_by",
+      "tail_entity_id": "E9",
+      "evidence": "occasione vulneris per eundem Stephano Szuss socijs artijque eiusdem famulis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "settled_with",
+      "tail_entity_id": "E9",
+      "evidence": "publice et libere recognouit satisfactum esse sibi sufficienter ab Honesto Stephano Szuss socijs artijque eiusdem famulis occasione vulneris per eundem Stephano Szuss socijs artijque eiusdem famulis occasione eundem quietauit"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "wounded_by",
+      "tail_entity_id": "E12",
+      "evidence": "violenter et minitiose vulneratum se in platea publica esse a quodam Stanislao Sternicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "appeared_before",
+      "tail_entity_id": "E4",
+      "evidence": "denunciauit nobis ... Quod verificando ostendit officio nostro vulnus in parte sinistra Capitis"
+    }
+  ]
+}

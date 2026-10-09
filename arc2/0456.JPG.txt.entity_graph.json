@@ -1,0 +1,286 @@
+{
+  "document_id": "arc2/0456.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "Anno eodem currenti",
+        "feria sexta ante Dominicam Laetare Anno eodem currenti",
+        "feria secunda post Sancti Bartholomaei Anno Domini 1595"
+      ],
+      "justification": "Date of the court session and the registered legal obligation in 1595."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1592",
+      "mention_texts": [
+        "Anno 1595 secundo feria quinta ante Festum Nativitatis Sancti Joannis Baptistae proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous legal action referenced in the first entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officii Consularis Leopoliensis"
+      ],
+      "justification": "Municipal council of Lviv issuing the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Siewlicz",
+      "mention_texts": [
+        "Siewlicz"
+      ],
+      "descriptive_mentions": [
+        "Generoso"
+      ],
+      "justification": "Noble named in the rubric of the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adamus Ruiski",
+      "mention_texts": [
+        "Adamum Ruiski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "famulum et Plenipotentem",
+        "Actorem"
+      ],
+      "justification": "Noble servant and plenipotentiary of Christophorus Kienowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Kienowicz",
+      "mention_texts": [
+        "Christophori Kienowicz"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Praefecti Lubartowiensis"
+      ],
+      "justification": "Noble prefect of Lubartów represented by Adamus Ruiski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lubartów",
+      "mention_texts": [
+        "Lubartowiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town whose prefecture is held by Christophorus Kienowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "plenipotentem"
+      ],
+      "justification": "Noble acting as plenipotentiary for Anna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "primarum nuptiarum",
+        "consortis legitimae",
+        "citata",
+        "citatam"
+      ],
+      "justification": "Woman involved in the lawsuit, formerly married to Georgius Fralizarum, now wife of Bgozdowski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Georgius Fralizarum",
+      "mention_texts": [
+        "Georgii Fralizarum"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Sutoris",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Late shoemaker and citizen of Lviv, first husband of Anna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civis",
+        "Civili"
+      ],
+      "justification": "City where the court acts are recorded and where the parties reside."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Bgozdowski",
+      "mention_texts": [
+        "Bgozdowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble, current legitimate husband of Anna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorii Dobrowolski"
+      ],
+      "descriptive_mentions": [
+        "Facellen",
+        "Generosi",
+        "Iuris Utriusque Doctoris",
+        "Advocati Ordinarii Leopoliensis",
+        "praedicti Excellentis Domini Advocati"
+      ],
+      "justification": "Doctor of both laws and ordinary advocate of Lviv whose ruling was appealed."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "septuaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae"
+      ],
+      "justification": "Amount of debt claimed in the lawsuit."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis Advocatialibus",
+        "officio Advocatiali Leopoliensi"
+      ],
+      "justification": "Advocatial court of Lviv before which the inscription was made."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Domesko",
+      "mention_texts": [
+        "Nicolai",
+        "Corinus",
+        "Nicolaus Domesko"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble appearing personaliter in the third entry on behalf of himself and his agnates."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Nobilium",
+        "Domesticorum"
+      ],
+      "justification": "Noble agnate of Nicolaus Domesko mentioned in the third record."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "Nobilium",
+        "Domesticorum"
+      ],
+      "justification": "Noble agnate of Nicolaus Domesko mentioned in the third record."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "is_servant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nobilem Adamum Ruiski famulum et Plenipotentem Generosi Christophori Kienowicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nobilem Adamum Ruiski famulum et Plenipotentem Generosi Christophori Kienowicz"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_representative_of",
+      "tail_entity_id": "E9",
+      "evidence": "Generosum Adamum Kalinowski plenipotentem Honestae Annae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honestae Annae primarum nuptiarum Famati olim Georgii Fralizarum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "ad praesens vero Nobilis Bgozdowski consortis legitimae"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "is_member_of",
+      "tail_entity_id": "E15",
+      "evidence": "Generosi Gregorii Dobrowolski Iuris Utriusque Doctoris Advocati Ordinarii Leopoliensis"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "is_relative_of",
+      "tail_entity_id": "E16",
+      "evidence": "Testimonia pro Agnatis Nicolai Comparens personaliter Nobilis Corinus alias Nicolaus Domesko Seuniidi suo et Nobilium Joannis et Jacobi"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "is_relative_of",
+      "tail_entity_id": "E16",
+      "evidence": "Testimonia pro Agnatis Nicolai Comparens personaliter Nobilis Corinus alias Nicolaus Domesko Seuniidi suo et Nobilium Joannis et Jacobi"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "document_id": "arc2/1148.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Opaliński",
+      "mention_texts": [
+        "Petrus Opalinski"
+      ],
+      "descriptive_mentions": [
+        "Magnificus",
+        "una pars",
+        "ambo"
+      ],
+      "justification": "Named nobleman entering into a legal obligation with Lucas Suroviecz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regno"
+      ],
+      "justification": "Mentioned as the kingdom within which both parties' estates are located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucas Surowiec",
+      "mention_texts": [
+        "Lucas Suroviecz",
+        "Suroviecz"
+      ],
+      "descriptive_mentions": [
+        "Praefatus",
+        "partem"
+      ],
+      "justification": "Contracting party bound by the obligation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "5000 Polish florins",
+      "mention_texts": [
+        "quinque Millium Florenorum communis Poloniae"
+      ],
+      "descriptive_mentions": [
+        "vadio",
+        "vadijs",
+        "Summa"
+      ],
+      "justification": "Vadium/penalty amount stipulated in the contract."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "contracted_with",
+      "tail_entity_id": "E3",
+      "evidence": "submittunt et obligant se una pars alteri cum Successoribus suis esse videlicet Magnificus Petrus Opalinski ... Praefatus vero Lucas Suroviecz"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "owns_property_in",
+      "tail_entity_id": "E2",
+      "evidence": "Petrus Opalinski de omnibus bonis suis haereditarijs ubicunque in Regno Poloniae existentibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "owns_property_in",
+      "tail_entity_id": "E2",
+      "evidence": "Lucas Suroviecz de omnibus bonis suis haereditarijs, obligatorijs, mobilibus et immobilibus per ipsum nunc et in posterum ubicunque in Regno"
+    }
+  ]
+}

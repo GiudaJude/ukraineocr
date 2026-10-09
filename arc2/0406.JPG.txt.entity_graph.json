@@ -1,0 +1,217 @@
+{
+  "document_id": "arc2/0406.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Balneator",
+      "mention_texts": [
+        "Joannis Balneatoris"
+      ],
+      "descriptive_mentions": [
+        "olim Honesti"
+      ],
+      "justification": "Named deceased party in the contract."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Pellifex",
+      "mention_texts": [
+        "Pauli"
+      ],
+      "descriptive_mentions": [
+        "Pellificis de Przemorzko",
+        "Creditor"
+      ],
+      "justification": "Named creditor and party from Przemorzko."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Przemorzko",
+      "mention_texts": [
+        "Przemorzko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin for Paulus Pellifex."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0043: DATE-0004: 1596",
+      "mention_texts": [
+        "1596",
+        "Anno sequenti 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year specified in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summae praefatae",
+        "summa principali"
+      ],
+      "justification": "Amount of money pledged."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus",
+      "mention_texts": [
+        "Albertus"
+      ],
+      "descriptive_mentions": [
+        "recognoscentes",
+        "Debitores"
+      ],
+      "justification": "Debtor entering into the recognizance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "recognoscentes"
+      ],
+      "justification": "Debtor entering into the recognizance alongside Albertus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal judicial authority issuing the decree."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Thomas Korbath",
+      "mention_texts": [
+        "Thomam Korbath"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Succores",
+        "partes Actores"
+      ],
+      "justification": "Actor/successor in the suit regarding Albertus Wyszorski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Mathias Soreski",
+      "mention_texts": [
+        "Mathiam Soreski"
+      ],
+      "descriptive_mentions": [
+        "Succores",
+        "partes Actores"
+      ],
+      "justification": "Actor/successor in the suit regarding Albertus Wyszorski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Janussius Trygason",
+      "mention_texts": [
+        "Janussium Trygason"
+      ],
+      "descriptive_mentions": [
+        "Succores",
+        "partes Actores"
+      ],
+      "justification": "Actor/successor in the suit regarding Albertus Wyszorski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wyszorski",
+      "mention_texts": [
+        "Wyszki",
+        "Alberti Wyszorski",
+        "Wyszorski",
+        "Wyszowski"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Ciuis Leopoliensis",
+        "Testator",
+        "praedicti"
+      ],
+      "justification": "Deceased citizen whose testament is the subject of litigation."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Thomas Kazes",
+      "mention_texts": [
+        "Thomam Kazes"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum et Ciuem Leopoliensem",
+        "Executorem Testamenti",
+        "citatum"
+      ],
+      "justification": "Bench judge and executor of the testament of Albertus Wyszorski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "originates_from",
+      "tail_entity_id": "E3",
+      "evidence": "Pauli Pellificis de Przemorzko"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Alberti Wyszorski Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Thomam Kazes Scabinum et Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "executor_for",
+      "tail_entity_id": "E13",
+      "evidence": "Executorem Testamenti eiusdem Wyszorski"
+    }
+  ]
+}

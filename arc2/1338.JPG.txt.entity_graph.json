@@ -1,0 +1,272 @@
+{
+  "document_id": "arc2/1338.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Ziebricius",
+      "mention_texts": [
+        "Sebastianus Ziebricius"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "D.",
+        "Medicinae Doctor",
+        "Doctori",
+        "D. Doctori"
+      ],
+      "justification": "Named as the physician appearing in court to acknowledge payment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Koryntowicz",
+      "mention_texts": [
+        "Joannes Koryntowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aromatarius",
+        "Civis Leopoliensis",
+        "Joannes Aromatarius"
+      ],
+      "justification": "Apothecary and citizen of Lviv paying the physician's fee."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii mei"
+      ],
+      "justification": "The municipal office whose decree settled the medical bill."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Assumptionis Marie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day used to specify the date of the decree: 'Sabbato post Assumptionis Marie nuper praeterito'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "8 florins 6 groschen",
+      "mention_texts": [
+        "Florenos octo et grossos sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount paid to Doctor Ziebricius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Rosnowski",
+      "mention_texts": [
+        "Rosnowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi olim",
+        "praenominati olim"
+      ],
+      "justification": "The deceased nobleman whose treatment was the reason for the fee."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Location of the act and origin of citizens."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post festum Sancti Bartholomei proxima Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "Actum ut supra"
+      ],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Morcicki",
+      "mention_texts": [
+        "Andreas Morcicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotens"
+      ],
+      "justification": "Plenipotentiary of Konstanty Korniakt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Konstanty Korniakt",
+      "mention_texts": [
+        "Constantini Corniarto"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "principalis sui"
+      ],
+      "justification": "Principal represented by Andreas Morcicki."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Civili Judicio"
+      ],
+      "justification": "The civil court where the debt was contracted."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Wilhelm Allant",
+      "mention_texts": [
+        "Wilhelm Allant",
+        "Guilhelmo Allant"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "coniugibus Civibus Leopoliensibus",
+        "debitoribus suis"
+      ],
+      "justification": "Debtor making the payment."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Smieszkowna",
+      "mention_texts": [
+        "Dorothea Smieszkowna"
+      ],
+      "descriptive_mentions": [
+        "coniugibus Civibus Leopoliensibus",
+        "debitoribus suis"
+      ],
+      "justification": "Wife of Wilhelm Allant and co-debtor."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Fedko Ihnatowicz",
+      "mention_texts": [
+        "Fedko Ihnatowicz",
+        "Ihnatowic"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "coniuges coloni de maiori Holowsko Praedio Civili",
+        "ille"
+      ],
+      "justification": "Peasant/colonus appearing in Entry 1204."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Waska",
+      "mention_texts": [
+        "Waska"
+      ],
+      "descriptive_mentions": [
+        "coniuges coloni de maiori Holowsko Praedio Civili",
+        "haec"
+      ],
+      "justification": "Wife of Fedko Ihnatowicz."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0142: Hołowsko",
+      "mention_texts": [
+        "maiori Holowsko"
+      ],
+      "descriptive_mentions": [
+        "Praedio Civili"
+      ],
+      "justification": "Village/estate where Ihnatowicz resides."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Albertus Blaiozxany",
+      "mention_texts": [
+        "Albertum Blaiozxany"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Suburbanum"
+      ],
+      "justification": "Suburbanite assisting Waska in court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "acts_as_agent_of",
+      "tail_entity_id": "E10",
+      "evidence": "Andreas Morcicki tanquam Plenipotens Generosi Constantini Corniarto"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Guilhelmo Allant et Dorothea Smieszkowna coniugibus"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Fedko Ihnatowicz et Waska coniuges"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "resides_in",
+      "tail_entity_id": "E16",
+      "evidence": "Fedko Ihnatowicz et Waska coniuges coloni de maiori Holowsko"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "resides_in",
+      "tail_entity_id": "E16",
+      "evidence": "Fedko Ihnatowicz et Waska coniuges coloni de maiori Holowsko"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resides_in",
+      "tail_entity_id": "E7",
+      "evidence": "Joannes Koryntowicz Aromatarius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resides_in",
+      "tail_entity_id": "E7",
+      "evidence": "Guilhelmo Allant et Dorothea Smieszkowna coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resides_in",
+      "tail_entity_id": "E7",
+      "evidence": "Guilhelmo Allant et Dorothea Smieszkowna coniugibus Civibus Leopoliensibus"
+    }
+  ]
+}

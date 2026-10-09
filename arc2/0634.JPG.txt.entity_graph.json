@@ -1,0 +1,130 @@
+{
+  "document_id": "arc2/0634.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officium praesens Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "eiusdem Officij",
+        "Officium"
+      ],
+      "justification": "The municipal council of Lviv acting as a court of record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Barbara Uliamianka",
+      "mention_texts": [
+        "Barbara Vliamanka",
+        "Annam Barbaram Vliamianka"
+      ],
+      "descriptive_mentions": [
+        "Actricem",
+        "earundem partium",
+        "partes",
+        "parte actorea"
+      ],
+      "justification": "Party plaintiff in a property division dispute concerning the Dziurowska house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Łosicki",
+      "mention_texts": [
+        "Andream Losicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "tutorem et Procuratorem sibi assumptum"
+      ],
+      "justification": "Noble appointed as guardian and procurator for Barbara Uliamianka."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Anna Emma Uliamianka",
+      "mention_texts": [
+        "Annam Emmam Vliamianka"
+      ],
+      "descriptive_mentions": [
+        "sororem citatam",
+        "earundem partium",
+        "eadem citata",
+        "partes",
+        "Citataque"
+      ],
+      "justification": "Sister of Barbara Uliamianka cited to select her portion of the shared inherited house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Dziurowska House",
+      "mention_texts": [
+        "Dziurowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "hactenus in comune habita"
+      ],
+      "justification": "Tenement house in Lviv being divided between the Uliamianka sisters."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Blasius Lutawicz",
+      "mention_texts": [
+        "Niesstroy",
+        "Blasium Lutawicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Actorem"
+      ],
+      "justification": "Plaintiff in a suit against goldsmith Joannes Scorszkiewicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Scorszkiewicz",
+      "mention_texts": [
+        "Zamiesnik",
+        "Joannem Scorszkiewicz"
+      ],
+      "descriptive_mentions": [
+        "Aurifabrum",
+        "Citatum"
+      ],
+      "justification": "Goldsmith of Lviv cited in the suit against Blasius Lutawicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Royal Court",
+      "mention_texts": [
+        "Sadi Regij Liti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal court issuing a decree presented to the Lviv council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nobilem Andream Losicki tutorem et Procuratorem sibi assumptum Actricem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Annam Emmam Vliamianka sororem citatam"
+    }
+  ]
+}

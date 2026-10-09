@@ -1,0 +1,116 @@
+{
+  "document_id": "arc2/0158.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Advocatus et Scabini Jurati Civitatis Regiae Leopoliensis",
+        "Officio nostro Praesentiali et Scabinali Jurato",
+        "Officii Advocatialis Scabinalis"
+      ],
+      "descriptive_mentions": [
+        "Officio Judicio seu Magistratu"
+      ],
+      "justification": "The court before which the constituent appears and whose seal is appended to the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the court's name, Lewicki's citizenship, and document dating."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Baltazar Frank is a citizen and merchant."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Baltazar Frank",
+      "mention_texts": [
+        "Baltazar Frank"
+      ],
+      "descriptive_mentions": [
+        "Civis et Negociator Gedanensis",
+        "Famatus"
+      ],
+      "justification": "Merchant and citizen of Gdańsk who appoints Lewicki as his legal representative."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0039: Christophorus Lewicki",
+      "mention_texts": [
+        "Christophorum Lewicki"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "suum verum legitimum et indubitatum Plenipotentiarium et mandatarium",
+        "eidem Plenipotenti",
+        "Praefatum Plenipotentem suum"
+      ],
+      "justification": "Citizen of Lviv appointed as plenipotentiary by Baltazar Frank."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "3 March 1595",
+      "mention_texts": [
+        "feria sexta post Dominicam Oculi proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of granting and executing the plenipotentiary instrument."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "18 March 1595",
+      "mention_texts": [
+        "Sabbato ante Domicam Palmarum proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court entry in Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civis et Negociator Gedanensis Famatus Baltazar Frank"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Christophorum Lewicki Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "appoints_plenipotentiary",
+      "tail_entity_id": "E5",
+      "evidence": "fecit constituit et solemniter ordinavit in suum verum legitimum et indubitatum Plenipotentiarium et mandatarium Famatum Christophorum Lewicki"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "appears_before",
+      "tail_entity_id": "E1",
+      "evidence": "coram Officio nostro Praesentiali et Scabinali Jurato comparens personaliter Civis et Negociator Gedanensis Famatus Baltazar Frank"
+    }
+  ]
+}

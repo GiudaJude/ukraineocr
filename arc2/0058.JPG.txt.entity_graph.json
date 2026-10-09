@@ -1,0 +1,148 @@
+{
+  "document_id": "arc2/0058.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaum Doctorem"
+      ],
+      "descriptive_mentions": [
+        "Dominum",
+        "eundem"
+      ],
+      "justification": "Identified by name and academic title in the text, matching established person PER-0007."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "9 February 1595",
+      "mention_texts": [
+        "feria quinta post festum Sancti Dorotheae Virginis proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "anno et die quibus supra"
+      ],
+      "justification": "Dating clause of the entry, designating Thursday after the feast of Saint Dorothy in 1595."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Dambrowski",
+      "mention_texts": [
+        "Andreas Dambrowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famatus Dominus",
+        "Scabinorum Collega noster Consularis",
+        "se",
+        "sibi"
+      ],
+      "justification": "Councilor/assessor and principal party making the cession."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Catherina",
+      "mention_texts": [
+        "Catherinae",
+        "Catherinam"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "coniugis suae",
+        "praefata",
+        "coniugem suam"
+      ],
+      "justification": "Wife of Andreas Dambrowski, on whose behalf and inheritance right the cession is made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Georgius Karszycki",
+      "mention_texts": [
+        "Georgium Karszycki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Noble predecessor from whom the property right devolved to Catherina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Ludovicus Hippoliti",
+      "mention_texts": [
+        "Ludovici Hippoliti",
+        "Ludovico"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Cracoviensis",
+        "praefato condescensario",
+        "eundem",
+        "eidem"
+      ],
+      "justification": "Citizen of Kraków receiving the cession of the cloth-cutting stall rights."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis",
+        "Cracoviensi",
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the residency of Ludovicus Hippoliti, the city alderman, and the court venue."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kraków Market Square",
+      "mention_texts": [
+        "Circulo Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Market Square of Kraków (Circulus Cracoviensis) where the cloth stalls were located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nobilis Catherinae coniugis suae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nobilis Catherinae coniugis suae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Ludovici Hippoliti Civis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in Circulo Cracoviensi"
+    }
+  ]
+}

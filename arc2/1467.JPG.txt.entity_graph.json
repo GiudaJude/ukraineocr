@@ -1,0 +1,197 @@
+{
+  "document_id": "arc2/1467.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City referenced in the scabinal court title and citizenship designation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Scabino Judicio Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Scabinal court of Lviv where legal matters are transacted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum",
+        "Plenipotentem",
+        "Plenipotens suus"
+      ],
+      "justification": "Alderman appointed as plenipotentiary."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Ubroesic",
+      "mention_texts": [
+        "Bartholomeus Vbroesic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Plenipotens"
+      ],
+      "justification": "Person appearing as plenipotentiary to acknowledge receipt of debt repayment."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Iszaczowa",
+      "mention_texts": [
+        "Iszaczowa"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Ciuis Judea",
+        "praedictae Iszaczowa"
+      ],
+      "justification": "Jewish creditor represented by Bartholomeus Ubroesic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislai Klimkowic",
+        "Stanislao Klimkowic"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "eundem"
+      ],
+      "justification": "Debtor who satisfied his obligation; Stanislaus Klimkowic is a known alias of PER-0007."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as part of Polish currency reckoning."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Domini Consules"
+      ],
+      "descriptive_mentions": [
+        "nos",
+        "nobis"
+      ],
+      "justification": "Lviv City Council issuing the decree granting a market bench."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Wuszelmayr",
+      "mention_texts": [
+        "Dorotheae Wuyszelmayra",
+        "Dorotheae Wuszelmayra",
+        "Wuschelmayra"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "consortis legitimae",
+        "eiusdem"
+      ],
+      "justification": "Petitioner granted a stall/bench for life."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Caselmus Allant",
+      "mention_texts": [
+        "Caselmi Allant"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv, lawful husband of Dorothea Wuszelmayr."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Braun",
+      "mention_texts": [
+        "Jonne Brauni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner/holder of an adjoining bench."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas Rowar",
+      "mention_texts": [
+        "Andrea Rowarii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner/holder of an adjoining bench on the other side."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "1567",
+      "mention_texts": [
+        "Anno 1567"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year cited regarding previous bench provisions."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Dominum Stanislaum Scabinum in Scabino Judicio Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Bartholomeus Vbroesic tanquam Plenipotens Infidelis Iszaczowa"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E5",
+      "evidence": "debiti ab Honesto Stanislao Klimkowic. De qua satisfactione eundem nomine praedictae Iszaczowa quietauit perpetuo"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Dorotheae Wuyszelmayra Famati Caselmi Allant Ciuis Leopoliensis seruo conserti consortis legitimae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Caselmi Allant Ciuis Leopoliensis"
+    }
+  ]
+}

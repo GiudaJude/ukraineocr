@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/0389.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacram Regiam Maiestatem",
+        "Sacrae Regiae Maiestatis",
+        "Sae Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [
+        "Dominus suus clementissimus",
+        "Dominum Dominum Clementissimum"
+      ],
+      "justification": "King of Poland referenced as the sovereign authority to whom the case is remitted."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jomtow Isaak",
+      "mention_texts": [
+        "Iomtem Isaak"
+      ],
+      "descriptive_mentions": [
+        "Honestorumque",
+        "vti plenipotentem Suorum",
+        "Actores"
+      ],
+      "justification": "Plenipotentiary acting on behalf of the successors of Emanuel Aszkanis."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-1347: Emanuel Szurcz",
+      "mention_texts": [
+        "Emanuelis Aszkanis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Greci Civis Leopoliensis"
+      ],
+      "justification": "Deceased Greek citizen of Lviv whose estate and successors are party to the suit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis",
+        "Leopolienses",
+        "Leopoliense",
+        "Lwoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, appearing in toponymic references and municipal titles."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Wacław Donesko Flewid",
+      "mention_texts": [
+        "Waclaum",
+        "Doneskos Flewidi"
+      ],
+      "descriptive_mentions": [
+        "Nobiles ac Honestos",
+        "fratres",
+        "Lubnenses",
+        "Grecos aduenas Leopolienses",
+        "citatos",
+        "filiorum",
+        "propinquos conuenientes"
+      ],
+      "justification": "One of the Greek brothers from Lublin cited in the case."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Dziury Donesko Flewid",
+      "mention_texts": [
+        "Dziury",
+        "Doneskos Flewidi"
+      ],
+      "descriptive_mentions": [
+        "Nobiles ac Honestos",
+        "fratres",
+        "Lubnenses",
+        "Grecos aduenas Leopolienses",
+        "citatos",
+        "filiorum",
+        "propinquos conuenientes"
+      ],
+      "justification": "Brother of Wacław, cited in the case concerning inheritance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Doneszko Flewid",
+      "mention_texts": [
+        "Nicolai Doneszko Flewidi"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "dicti"
+      ],
+      "justification": "Deceased father of the sons referenced in relation to service in Wallachia."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Walachia"
+      ],
+      "descriptive_mentions": [
+        "terris"
+      ],
+      "justification": "Principality of Wallachia, mentioned in connection with the Palatine's court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "officiique praesens",
+        "eodem Officio"
+      ],
+      "justification": "The city council office before which the deliberation took place and which issued the remissio."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0164: Archbishop of Lviv",
+      "mention_texts": [
+        "Archiepiscopum Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Illustrissimum Dominum"
+      ],
+      "justification": "The Archbishop of Lviv, appearing through representatives before the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Chodakowski",
+      "mention_texts": [
+        "Nicolaum Chodakowski"
+      ],
+      "descriptive_mentions": [
+        "Generosum"
+      ],
+      "justification": "Nobleman appearing before the council for the Archbishop."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Dziuzel",
+      "mention_texts": [
+        "Christophorum Dziuzel"
+      ],
+      "descriptive_mentions": [
+        "Generosum"
+      ],
+      "justification": "Nobleman appearing before the council."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Krzymuski",
+      "mention_texts": [
+        "Christophorum Krzymuski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Nobleman acting on behalf of the Standard-bearer's wife of Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Iomtem Isaak vti plenipotentem Suorum Famati olim Emanuelis Aszkanis Greci Civis Leopoliensis nomine eorundem Successorum Actores"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Emanuelis Aszkanis Greci Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "Waclaum et Dziury Doneskos Flewidi fratres"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Waclaum et Dziury Doneskos Flewidi fratres"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Waclaum et Dziury Doneskos Flewidi fratres Lubnenses Grecos aduenas Leopolienses citatos occasione iniurius et poboris propinquitatis cum Gross olim Nicolai Doneszko Flewidi dicti filiorum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Waclaum et Dziury Doneskos Flewidi fratres Lubnenses Grecos aduenas Leopolienses citatos occasione iniurius et poboris propinquitatis cum Gross olim Nicolai Doneszko Flewidi dicti filiorum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "Archiepiscopum Leopoliensem coram eodem Officio per Generosum Nicolaum Chodakowski"
+    }
+  ]
+}

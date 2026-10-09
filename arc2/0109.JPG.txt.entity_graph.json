@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/0109.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertus Domagalic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "illius"
+      ],
+      "justification": "Appears as the citizen presenting the deed of cession to the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City whose citizenship Albertus holds and whose suburb is referenced."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio",
+        "Actis praesentibus",
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council office before which the cession document is produced."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio eiusdem Civitatis",
+        "Suburbio"
+      ],
+      "justification": "The Halych suburb where the inherited property is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Propugnaculum Szeninik",
+      "mention_texts": [
+        "Szeninika"
+      ],
+      "descriptive_mentions": [
+        "propugnaculi Szeninika nuncupati",
+        "propugnaculi"
+      ],
+      "justification": "Bastion/propugnaculum near which the property is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Alexius Ziemonius",
+      "mention_texts": [
+        "Alexii Ziemonii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose springs/wells border the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobi Gorsa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the property penes fontes."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Domagacz",
+      "mention_texts": [
+        "Nicolaum Domagacz"
+      ],
+      "descriptive_mentions": [
+        "Honestos"
+      ],
+      "justification": "Party executing the original cession."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Smaticzen Zonia",
+      "mention_texts": [
+        "Smaticzen Zonia"
+      ],
+      "descriptive_mentions": [
+        "Honestos"
+      ],
+      "justification": "Party executing the original cession alongside Nicolaus Domagacz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "13 June 1594",
+      "mention_texts": [
+        "feria secunda post Dominicam Corporis Christi Anno proxime praeterito 1594 quarto",
+        "feria secunda post festum Corporis Christi proxima Anno Domini 1594 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the underlying act of cession."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio Advocatiali et Scabinali"
+      ],
+      "descriptive_mentions": [
+        "Officio Advocatiali et Scabinali"
+      ],
+      "justification": "The advocatial and bench court before which the act was first recorded."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Theatrum",
+      "mention_texts": [
+        "Theatro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location/court chamber where the act was recorded."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Andreas Górnicki",
+      "mention_texts": [
+        "Andrea Gorniecki"
+      ],
+      "descriptive_mentions": [
+        "Viceadvocato Jurato"
+      ],
+      "justification": "Sworn vice-advocate presiding over the transaction."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Sziko",
+      "mention_texts": [
+        "Valentino Sziko"
+      ],
+      "descriptive_mentions": [
+        "Scabino Jurato"
+      ],
+      "justification": "Sworn scabinus witnessing the act."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Michail Woskooboinik",
+      "mention_texts": [
+        "Michailo Woskooboinik"
+      ],
+      "descriptive_mentions": [
+        "Scabino"
+      ],
+      "justification": "Scabinus witnessing the act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Albertus Domagalic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in Suburbio eiusdem Civitatis Haliciensi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Suburbio eiusdem Civitatis Haliciensi e regione propugnaculi Szeninika nuncupati"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "coram Andrea Gorniecki Viceadvocato Jurato"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Valentino Sziko Scabino Jurato"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Michailo Woskooboinik Scabino"
+    }
+  ]
+}

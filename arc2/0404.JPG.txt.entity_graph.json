@@ -1,0 +1,116 @@
+{
+  "document_id": "arc2/0404.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced with respect to the scabinus and the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Proconsuli cum Consulibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Dominis Dominis Proconsuli cum Consulibus Leopoliensibus",
+        "Dominis et amicis gratiosis"
+      ],
+      "justification": "The consular office of Lviv receiving and recording the letter."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Gołogóry",
+      "mention_texts": [
+        "Goligori"
+      ],
+      "descriptive_mentions": [
+        "Oppidi"
+      ],
+      "justification": "Town referenced as the origin of Anna and the issuing authority of the letter."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna de Goligori",
+      "mention_texts": [
+        "An-na de Goligori"
+      ],
+      "descriptive_mentions": [
+        "praedicta"
+      ],
+      "justification": "Woman submitting the letter via her son."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobum"
+      ],
+      "descriptive_mentions": [
+        "praenominatum",
+        "filium suum",
+        "Plenipotens suus"
+      ],
+      "justification": "Son and plenipotentiary of Anna de Goligori."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Gołogóry Town Council",
+      "mention_texts": [
+        "Proconsuli et Consulibus Oppidi Goligori"
+      ],
+      "descriptive_mentions": [
+        "Honestis Proconsuli et Consulibus Oppidi Goligori"
+      ],
+      "justification": "Town council of Gołogóry that issued and sealed the letter."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Jacobum filium suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Proconsuli et Consulibus Oppidi Goligori"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Proconsuli cum Consulibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Scabinum Leopoliensem in Judicio Exposito Bannito"
+    }
+  ]
+}

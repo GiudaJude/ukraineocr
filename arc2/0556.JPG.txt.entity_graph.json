@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0556.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiam Leopolitanam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity matching the Latin cathedral in Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitalis Sancti Spiritus",
+        "Hospitale Sancti Spiritus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity matching the Holy Spirit Hospital in Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kawałek",
+      "mention_texts": [
+        "Stanislao Kawałek",
+        "Stanislaus Kawałek",
+        "Stanislai Kawałek"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "idem",
+        "eiusdem"
+      ],
+      "justification": "Individual permitted to sell bread in a stall near the cemetery gate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Bakers' Guild",
+      "mention_texts": [
+        "Contubernij praedicti Pistorij",
+        "Pistorum"
+      ],
+      "descriptive_mentions": [
+        "seniorum",
+        "Seniorum Contubernij praedicti Pistorij"
+      ],
+      "justification": "The bakers' guild whose seniors are referenced regarding bread sales and rights to the stall."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Bernardine Monastery",
+      "mention_texts": [
+        "Coenobium Dominorum et Fratrum Bernardinorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monastery of the Bernardine friars mentioned in the bread supply obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officij",
+        "Officij"
+      ],
+      "justification": "Known entity for the consular office of Lviv before which the parties appeared."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kowalski",
+      "mention_texts": [
+        "Andreas Kowalski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotens"
+      ],
+      "justification": "Noble serving as legal plenipotentiary for Henry Rapa."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Henricus Rapa",
+      "mention_texts": [
+        "Rapa",
+        "Henrici Rapa",
+        "Henricum Rapa"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Angli",
+        "Actorem",
+        "eiusdem sui Principalis"
+      ],
+      "justification": "Noble English plaintiff in the suit."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Danis",
+      "mention_texts": [
+        "Andream Danis",
+        "Andreas Danis"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "eratorem",
+        "praedictus",
+        "Civis Zamosicen"
+      ],
+      "justification": "Citizen of Zamość who is the opposing party in the lawsuit."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Zamosicen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity for the town of Zamość, of which Andreas Danis was a citizen."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "Nobilis Andreas Kowalski Plenipotens prout ex eidem Actis superioris constat Nobilis Henrici Rapa Angli"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "praedictus Andreas Danis Civis Zamosicen citatus ex Decreto suo"
+    }
+  ]
+}

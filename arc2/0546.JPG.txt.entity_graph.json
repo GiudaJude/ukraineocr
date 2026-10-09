@@ -1,0 +1,130 @@
+{
+  "document_id": "arc2/0546.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis",
+        "officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "hoc idem officium",
+        "sententiam praefatam officij Consularis Leopoliensis"
+      ],
+      "justification": "The document references the Lviv city council whose prior sentence is under appeal."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Henricus Sapon",
+      "mention_texts": [
+        "Henricum Sapon"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Actorem",
+        "autori",
+        "actori"
+      ],
+      "justification": "Noble plaintiff (actor) in the lawsuit."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Domis",
+      "mention_texts": [
+        "Andream Domis"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "citatum",
+        "eundem citatum",
+        "citato",
+        "citatus",
+        "citati"
+      ],
+      "justification": "Cited defendant (citatus) in the legal case regarding the Moldavian customs and deposit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "25000 thalers",
+      "mention_texts": [
+        "viginti quinque millium talerorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum claimed in the dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0086: Moldavia",
+      "mention_texts": [
+        "Moldauiae",
+        "Moldauia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principality whose customs and Palatine are referenced."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Ottoman Sultan",
+      "mention_texts": [
+        "Turcarum Imperatoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the Sublime Porte of the Ottoman Sultan ('ad portam Turcarum Imperatoris')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachia"
+      ],
+      "descriptive_mentions": [
+        "terra"
+      ],
+      "justification": "Land where the office of customs collector was allegedly held."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Petrus Alexandrowicz",
+      "mention_texts": [
+        "Petro Alexandrowicz",
+        "Petri Alexandrowicz"
+      ],
+      "descriptive_mentions": [
+        "Palatinum Moldauiae",
+        "Palatino",
+        "eidem Palatino",
+        "Seruum Palatinum"
+      ],
+      "justification": "Palatine (Voivode) of Moldavia during whose reign the dispute originated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "held_office_in",
+      "tail_entity_id": "E5",
+      "evidence": "Palatinum Moldauiae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "opposing_party",
+      "tail_entity_id": "E3",
+      "evidence": "actionem inter Nobilem Henricum Sapon Actorem et Famatum Andream Domis citatum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "judged_case_of",
+      "tail_entity_id": "E3",
+      "evidence": "In qua causa hoc idem officium Consulare Leopoliense quoad primam ratam citat thelonea Moldauia tenuerit et exegerit eundem citatum iuxta negatiuam et interpretem suam propinqua esse iuramento cum sex testibus euadere decreuerat"
+    }
+  ]
+}

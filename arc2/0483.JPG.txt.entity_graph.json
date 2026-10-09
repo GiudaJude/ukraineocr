@@ -1,0 +1,232 @@
+{
+  "document_id": "arc2/0483.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris",
+        "Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the council records ('Actis nostris')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1581",
+      "mention_texts": [
+        "Sabbato post Festum omnium Sanctorum proximo Anno Domini 1581"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous act cited."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Liudwik",
+      "mention_texts": [
+        "Stanislao Liudwik",
+        "Stanislai Liudwik"
+      ],
+      "descriptive_mentions": [
+        "Textori",
+        "incola Samboriensi",
+        "Successoribus",
+        "praedicti"
+      ],
+      "justification": "Weaver and resident of Sambor mentioned in the entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samboriensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town referenced in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "38 florins",
+      "mention_texts": [
+        "Triginta octo Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum mentioned in the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Czieadwocrat",
+      "mention_texts": [
+        "Stephanum Czieadwocratum",
+        "Stephanus Czieadwocratvs"
+      ],
+      "descriptive_mentions": [
+        "Fideiussorem",
+        "Fidem",
+        "idem"
+      ],
+      "justification": "Guarantor mentioned in the document."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Suburbium Czatowiense",
+      "mention_texts": [
+        "Suburbij Czatowiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb associated with Stephanus Czieadwocrat."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Martin",
+      "mention_texts": [
+        "Festum Sancti Martini proximum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day by which civil rights are to be accepted."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0248: Stanislaus Krasnicki",
+      "mention_texts": [
+        "Stanislaus Krasnicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Syndicus Leopoliensis"
+      ],
+      "justification": "Syndic of Lviv ceding rights."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose syndic is Stanislaus Krasnicki."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Kierstranowska House",
+      "mention_texts": [
+        "Kierstranowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "praedicta lapidea"
+      ],
+      "justification": "Masonry house in Kazimierz subject to the cession."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Kazimierz",
+      "mention_texts": [
+        "Kazimiiriensi",
+        "Kazimiiriensem"
+      ],
+      "descriptive_mentions": [
+        "circulo"
+      ],
+      "justification": "Town near Kraków where the house and its consul are located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracouiam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City near which Kazimierz is located."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ruczki",
+      "mention_texts": [
+        "Joannem Ruczki"
+      ],
+      "descriptive_mentions": [
+        "Consulem Kazimiiriensem"
+      ],
+      "justification": "Consul of Kazimierz whose property is adjacent to the house."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Różycki",
+      "mention_texts": [
+        "Stanislao Rozycki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "legitimis Successoribus",
+        "Successoribus suis"
+      ],
+      "justification": "Recipient of the cession of rights."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislao Liudwik Textori incola Samboriensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "associated_with",
+      "tail_entity_id": "E7",
+      "evidence": "Stephanum Czieadwocratum Suburbij Czatowiensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislaus Krasnicki Syndicus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "in domo lapidea Kierstranowska in circulo Kazimiiriensi"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in circulo Kazimiiriensi ad Cracouiam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E12",
+      "evidence": "Joannem Ruczki Consulem Kazimiiriensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E14",
+      "evidence": "in domo lapidea Kierstranowska in circulo Kazimiiriensi ad Cracouiam penes Joannem Ruczki"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "ceded_rights_to",
+      "tail_entity_id": "E15",
+      "evidence": "Stanislaus Krasnicki ... recognouit se perpetuo et irreuocabili cessionis titulo remittere praesentisque inscriptionis vigore cedere ius suum ... Nobili Stanislao Rozycki"
+    }
+  ]
+}

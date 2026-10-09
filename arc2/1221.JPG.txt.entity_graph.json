@@ -1,0 +1,301 @@
+{
+  "document_id": "arc2/1221.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitanus",
+        "Leopolim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the city of Lviv / Leopolis in the dating formulas and suburban descriptions."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0091: Gródek",
+      "mention_texts": [
+        "Grodecensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Refers to the town of Gródek where the bench-court officer and burgher originate."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Durzenka",
+      "mention_texts": [
+        "Jacobo Durzenka"
+      ],
+      "descriptive_mentions": [
+        "Emptori"
+      ],
+      "justification": "The buyer of the wards' property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Druch",
+      "mention_texts": [
+        "Druch"
+      ],
+      "descriptive_mentions": [
+        "Seniorem",
+        "Scabinum Civitatis Grodecensis",
+        "Plenipotentem",
+        "Plenipotens suus",
+        "dictus Plenipotens suus"
+      ],
+      "justification": "Senior bench-member (scabinus) of Gródek constituted as plenipotentiary for property resignation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Martinus Drapata",
+      "mention_texts": [
+        "Martinus Drapatus",
+        "Martinus Drapetha"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopolitanus",
+        "Tutorem",
+        "probum Tutorem et avunculum",
+        "avunculum"
+      ],
+      "justification": "Suburbanite of Lviv, uncle and guardian of the orphaned children of his sister Sophia."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Caspar Durzenka",
+      "mention_texts": [
+        "Casparii Durzenka"
+      ],
+      "descriptive_mentions": [
+        "Civis Grodecensis",
+        "olim"
+      ],
+      "justification": "Late burgher of Gródek, deceased husband of Sophia and father of the children."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "sorore sua",
+        "consorte"
+      ],
+      "justification": "Sister of Martinus Drapata and late wife of Caspar Durzenka."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Magdalena Durzenka",
+      "mention_texts": [
+        "Magdalenam"
+      ],
+      "descriptive_mentions": [
+        "neptes",
+        "pupillas",
+        "praedictas neptes suas",
+        "pupillis",
+        "pupillis nepotibus"
+      ],
+      "justification": "Daughter of Caspar Durzenka and Sophia, ward under Martinus Drapata's tutelage."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginam"
+      ],
+      "descriptive_mentions": [
+        "neptes",
+        "pupillas",
+        "praedictas neptes suas",
+        "pupillis",
+        "pupillis nepotibus"
+      ],
+      "justification": "Daughter of Caspar Durzenka and Sophia, ward under Martinus Drapata's tutelage."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Zofia Durzenka",
+      "mention_texts": [
+        "Sophiam"
+      ],
+      "descriptive_mentions": [
+        "neptes",
+        "pupillas",
+        "praedictas neptes suas",
+        "pupillis",
+        "pupillis nepotibus"
+      ],
+      "justification": "Daughter of Caspar Durzenka and Sophia, ward under Martinus Drapata's tutelage."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Durzenka",
+      "mention_texts": [
+        "Albertum"
+      ],
+      "descriptive_mentions": [
+        "nepotem",
+        "pupillas",
+        "pupillis",
+        "pupillis nepotibus"
+      ],
+      "justification": "Son of Caspar Durzenka and Sophia, nephew and ward under Martinus Drapata's tutelage."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "36 Polish marks",
+      "mention_texts": [
+        "marcas triginta sex pecuniae Polonicalis",
+        "Triginta sex marcarum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "eadem summa"
+      ],
+      "justification": "The sum received from the sale of property belonging to the wards."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "48 groschen",
+      "mention_texts": [
+        "grossos quadraginta octo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Accounting rate per mark (48 groschen per mark)."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "9 marks",
+      "mention_texts": [
+        "marcas novem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Portion of 36 marks per child when divided into four parts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Seniorem Druch Scabinum Civitatis Grodecensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Martinus Drapetha Suburbanus Leopolitanus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "ex sorore sua Sophia"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Casparii Durzenka Civis Grodecensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Sophia olim Casparii Durzenka Civis Grodecensis consorte"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "ad neptes et nepotem ex sorore sua Sophia... videlicet Magdalenam Reginam Sophiam et Albertum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "ad neptes et nepotem ex sorore sua Sophia... videlicet Magdalenam Reginam Sophiam et Albertum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E10",
+      "evidence": "ad neptes et nepotem ex sorore sua Sophia... videlicet Magdalenam Reginam Sophiam et Albertum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E11",
+      "evidence": "ad neptes et nepotem ex sorore sua Sophia... videlicet Magdalenam Reginam Sophiam et Albertum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "ad neptes et nepotem ex sorore sua Sophia olim Casparii Durzenka Civis Grodecensis consorte videlicet Magdalenam Reginam Sophiam et Albertum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "ad neptes et nepotem ex sorore sua Sophia olim Casparii Durzenka Civis Grodecensis consorte videlicet Magdalenam Reginam Sophiam et Albertum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E10",
+      "evidence": "ad neptes et nepotem ex sorore sua Sophia olim Casparii Durzenka Civis Grodecensis consorte videlicet Magdalenam Reginam Sophiam et Albertum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E11",
+      "evidence": "ad neptes et nepotem ex sorore sua Sophia olim Casparii Durzenka Civis Grodecensis consorte videlicet Magdalenam Reginam Sophiam et Albertum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "praedictas neptes suas dove- forendas et educandas suscepit, qui ipsis victum et amictum decentem prout ad probum Tutorem et avunculum attinet subministrare"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "praedictas neptes suas dove- forendas et educandas suscepit, qui ipsis victum et amictum decentem prout ad probum Tutorem et avunculum attinet subministrare"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "praedictas neptes suas dove- forendas et educandas suscepit, qui ipsis victum et amictum decentem prout ad probum Tutorem et avunculum attinet subministrare"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "praedictas neptes suas dove- forendas et educandas suscepit, qui ipsis victum et amictum decentem prout ad probum Tutorem et avunculum attinet subministrare"
+    }
+  ]
+}

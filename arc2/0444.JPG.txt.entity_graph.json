@@ -1,0 +1,281 @@
+{
+  "document_id": "arc2/0444.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "residentia",
+        "actaque praesentia"
+      ],
+      "justification": "The document references the Lviv city council and consular authority ('Consulari residentia', 'Officij Consularis Leopoliensis')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Giorglowski",
+      "mention_texts": [
+        "Nicolaus Giorglowski"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "partes ambae supradictae contrahentes"
+      ],
+      "justification": "Party in the first legal act acknowledged together with his wife Anna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Wife of Nicolaus Giorglowski, mentioned in the first entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stais"
+      ],
+      "descriptive_mentions": [
+        "memorati"
+      ],
+      "justification": "Person mentioned alongside Catherina who paid the 100 florins ('memorati Stais et Catherina')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "memorati"
+      ],
+      "justification": "Person mentioned alongside Stas satisfying the contract condition."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "florenos Centum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Sum paid in the contract."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sołtys",
+      "mention_texts": [
+        "Andreas Soltys"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Czechniagri Contubernij Textorum",
+        "Executores"
+      ],
+      "justification": "Master of the weavers' guild and executor acknowledged receiving the bequest."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Kądziel",
+      "mention_texts": [
+        "Laurentius Kadziel"
+      ],
+      "descriptive_mentions": [
+        "Czechniagri Contubernij Textorum",
+        "Executores"
+      ],
+      "justification": "Co-executor and guild master alongside Andreas Sołtys."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Weavers' Guild",
+      "mention_texts": [
+        "Contubernij Textorum"
+      ],
+      "descriptive_mentions": [
+        "totius contubernij"
+      ],
+      "justification": "Weavers' guild on whose behalf the masters appeared."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "florenos decem",
+        "hosce florenos decem"
+      ],
+      "descriptive_mentions": [
+        "numeri Polonicalis"
+      ],
+      "justification": "Amount of ten florins bequeathed in the testament."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Woyrocki",
+      "mention_texts": [
+        "Woytka",
+        "Albertum Woyroczki",
+        "Woyrocki"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "olim",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Deceased burgher who bequeathed money to St. Stanislaus church."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "hanc Civitatis"
+      ],
+      "justification": "City of Lviv referenced in civic titles and jurisdiction."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Church of Saint Stanislaus",
+      "mention_texts": [
+        "S. Stanislai",
+        "Ecclesiam S. Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Ecclesia",
+        "praedicta Ecclesia"
+      ],
+      "justification": "Church located in the Kraków suburb of Lviv."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "suburbio eius Civitatis Cracoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the Church of St. Stanislaus is situated."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Thomas Kraus",
+      "mention_texts": [
+        "Thomae Kraus"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini",
+        "eiusdem Woyrocki testamenti Executoris"
+      ],
+      "justification": "Scabinus and executor of the late Albertus Woyrocki's testament."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Petrus Magros",
+      "mention_texts": [
+        "Petrum Magros"
+      ],
+      "descriptive_mentions": [
+        "Cerdones Ritus Greci",
+        "Actores"
+      ],
+      "justification": "Greek-rite tanner who acted as plaintiff in the council decree."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Florenorum quadraginta",
+        "florenos quadraginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Forty florins in dispute between the tanners."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Casparis Przeszdziecki"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Proconsulis"
+      ],
+      "justification": "Proconsul of Lviv named in the decree regarding the tanners' guild."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nicolaus Giorglowski et Anna coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honestus Andreas Soltys et Laurentius Kadziel Czechniagri Contubernij Textorum nomine totius contubernij"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honestus Andreas Soltys et Laurentius Kadziel Czechniagri Contubernij Textorum nomine totius contubernij"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E12",
+      "evidence": "Albertum Woyroczki Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E14",
+      "evidence": "Ecclesiam S. Stanislai in suburbio eius Civitatis Cracoviensem sitam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "suburbio eius Civitatis Cracoviensem"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "D. Casparis Przeszdziecki Proconsulis"
+    }
+  ]
+}

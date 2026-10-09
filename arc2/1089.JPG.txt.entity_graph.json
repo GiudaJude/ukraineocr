@@ -1,0 +1,279 @@
+{
+  "document_id": "arc2/1089.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity in corpus representing the city council of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pleckowic",
+      "mention_texts": [
+        "Albertum Pleckowic"
+      ],
+      "descriptive_mentions": [
+        "Sartorem",
+        "Civem Leopoliensis",
+        "Actorem",
+        "Actoris",
+        "coniugem",
+        "patri legitimo"
+      ],
+      "justification": "Tailor and citizen of Lviv acting as plaintiff regarding his deceased wife's property portion."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0346: Joannes Radowski",
+      "mention_texts": [
+        "Joannem Radowski"
+      ],
+      "descriptive_mentions": [
+        "Sartorem",
+        "Cives Leopolienses",
+        "Curatorem",
+        "Curatoribus",
+        "Curatores citati"
+      ],
+      "justification": "Known entity in corpus, tailor and citizen of Lviv acting as curator of the children."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Maszlierz",
+      "mention_texts": [
+        "Joannem Maszlierz"
+      ],
+      "descriptive_mentions": [
+        "Cives Leopolienses",
+        "maritum",
+        "concuratorem",
+        "Curatoribus",
+        "Curatores citati"
+      ],
+      "justification": "Citizen of Lviv, husband of Helisabetha Janussowna and co-curator of Simon."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Januszowic",
+      "mention_texts": [
+        "Simonis"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "Liberorum",
+        "priuignorum"
+      ],
+      "justification": "Underage child of deceased Januarius Sartor and Ewa Rzeszowianka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lucas",
+      "mention_texts": [
+        "Lucae",
+        "Dominici",
+        "Fratris Dominici"
+      ],
+      "descriptive_mentions": [
+        "Liberorum",
+        "priuignorum"
+      ],
+      "justification": "Child of deceased Januarius Sartor and Ewa Rzeszowianka, entered religion as Brother Dominicus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Januarius Sartor",
+      "mention_texts": [
+        "Januarij Sartoris"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased tailor of Lviv, first husband of Ewa Rzeszowianka and father of Simon, Lucas, and Helisabetha."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Ewa Rzeszowianka",
+      "mention_texts": [
+        "Ewa Rzeszowianka",
+        "Ewa",
+        "Ewam"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "Janusarijova",
+        "coniugem",
+        "praefatam olim",
+        "coniugem suam legitimam secundarum nuptiarum"
+      ],
+      "justification": "Deceased wife first of Januarius Sartor and secondly of Albertus Pleckowic."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helizabetae Janussowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "Known entity in corpus, daughter of Janusz/Januarius Sartor and wife of Joannes Maszlierz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbacam Rzeszowska"
+      ],
+      "descriptive_mentions": [
+        "matrem"
+      ],
+      "justification": "Mother of Ewa Rzeszowianka, from whom the hereditary property share originated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "huius Civitatis",
+        "Ciuitatis"
+      ],
+      "justification": "Known city entity where the court and citizens reside."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Rzeszowska House",
+      "mention_texts": [
+        "domo Lapidea Rzeszowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Masonry house in Lviv subject to the inheritance dispute."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Hospital Street",
+      "mention_texts": [
+        "platea eius Civitatis Hospitalari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the Rzeszowska house is located."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Mathiastzowska House",
+      "mention_texts": [
+        "Mathiastzowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjacent property next to which the Rzeszowska house is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "secundo ducum nuptiarum praefati Actoris coniugem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Liberorum Famati olim Januarij Sartoris Pueri et Ewa Rzeszowianka coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simonis et Lucae Relicti Dominici... Liberorum Famati olim Januarij Sartoris"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simonis et Lucae Relicti Dominici... Liberorum Famati olim Januarij Sartoris"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "Helizabetae Janussowna"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simonis et Lucae Relicti Dominici... Liberorum Famati olim Januarij Sartoris Pueri et Ewa Rzeszowianka coniugum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simonis et Lucae Relicti Dominici... Liberorum Famati olim Januarij Sartoris Pueri et Ewa Rzeszowianka coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "post matrem ipsius Barbacam Rzeszowska"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "maritum Honestae Helizabetae Janussowna"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "ut Curatorem Ingenui Simonis et Lucae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "ut Curatorem Ingenui Simonis et Lucae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "concuratorem supranominati Simonis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in domo Lapidea Rzeszowska in platea eius Civitatis Hospitalari dicta"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in platea eius Civitatis Hospitalari dicta"
+    }
+  ]
+}

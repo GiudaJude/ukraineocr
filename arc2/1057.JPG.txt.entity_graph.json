@@ -1,0 +1,258 @@
+{
+  "document_id": "arc2/1057.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "24 January",
+      "mention_texts": [
+        "feria quarta pridie Conversionis S. Pauli Apostoli Anno eodem currenti"
+      ],
+      "descriptive_mentions": [
+        "die anno quo supra"
+      ],
+      "justification": "Date of the court proceeding recorded in the entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kuncz",
+      "mention_texts": [
+        "Joannem Kuncz",
+        "Joanni Kunczi"
+      ],
+      "descriptive_mentions": [
+        "maritam",
+        "dicti",
+        "mariti illius"
+      ],
+      "justification": "Deceased husband whose succession is litigated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Numes",
+      "mention_texts": [
+        "Pauli Numes"
+      ],
+      "descriptive_mentions": [
+        "praefati"
+      ],
+      "justification": "Person whose paternal and maternal estate goods are mentioned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Radoszowa",
+      "mention_texts": [
+        "Radoszowa"
+      ],
+      "descriptive_mentions": [
+        "Actricem",
+        "eandem",
+        "praefata"
+      ],
+      "justification": "Plaintiff/actor and wife of the late Joannes Kuncz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Monka Minczowna",
+      "mention_texts": [
+        "Monka Minczowna",
+        "Monka"
+      ],
+      "descriptive_mentions": [
+        "citatam ac continacem",
+        "istam",
+        "eiusdem"
+      ],
+      "justification": "Cited contumacious party in the inheritance dispute."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Secka nahore Dziewosier",
+      "mention_texts": [
+        "Secka nahore Dziewosier"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "Principal granting power of attorney to her sister Anna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karwat",
+      "mention_texts": [
+        "Tonam Karwati"
+      ],
+      "descriptive_mentions": [
+        "providum",
+        "Suburbanum Leopolitanum",
+        "maritum ac proinde tutorem suum naturalem"
+      ],
+      "justification": "Husband and legal guardian of Secka nahore Dziewosier."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Zoltkowic",
+        "Annam Zoltkowska",
+        "Annae Zoltkowska"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Plenipotentem",
+        "suam vero germanam sororem",
+        "sorori sua"
+      ],
+      "justification": "Appointed plenipotentiary, sister of Secka and widow of Christophorus Żółtkowski."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Żółtkowski",
+      "mention_texts": [
+        "Christophori Zoltkowski"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "quondam Iuris Civis Leopoliensis derelictam"
+      ],
+      "justification": "Late husband of Anna Żółtkowska and citizen of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Petrus Skilnoski",
+      "mention_texts": [
+        "Petri Skilnoski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Sutoris Civis Grodicensis"
+      ],
+      "justification": "Shoemaker and citizen of Gródek, husband of the late Anna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Anna Skilnoska",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugem suam",
+        "sourinam steriliter defunctae derelictam",
+        "sourina"
+      ],
+      "justification": "Deceased wife of Petrus Skilnoski and niece of Secka and Anna Żółtkowska."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "sorore germana"
+      ],
+      "justification": "Full sister of Secka and mother of the deceased Anna Skilnoska."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanum",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburb and citizenship are referenced."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0091: Gródek",
+      "mention_texts": [
+        "Grodicensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town where Petrus Skilnoski held citizenship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "dicti Joanni Kunczi mariti illius"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tonam Karwati Suburbanum Leopolitanum maritum ac proinde tutorem suum naturalem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tonam Karwati Suburbanum Leopolitanum maritum ac proinde tutorem suum naturalem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Suburbanum Leopolitanum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E8",
+      "evidence": "suam vero germanam sororem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Christophori Zoltkowski quondam Iuris Civis Leopoliensis derelictam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E13",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Annae Famati Petri Skilnoski Sutoris Civis Grodicensis coniugem suam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E14",
+      "evidence": "Civis Grodicensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E12",
+      "evidence": "ex sorore germana Honesta Dorothea"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "parent_of",
+      "tail_entity_id": "E11",
+      "evidence": "ex sorore germana Honesta Dorothea sourinam"
+    }
+  ]
+}

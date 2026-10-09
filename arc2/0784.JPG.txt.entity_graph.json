@@ -1,0 +1,208 @@
+{
+  "document_id": "arc2/0784.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Koenig",
+      "mention_texts": [
+        "Francisco Koenig",
+        "Franciscus Koenig"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis",
+        "Spectabilis Dominus",
+        "Collega in Consulatu",
+        "Coniuges Cives Leopolienses",
+        "maritum tutorem suum legitimum",
+        "ille"
+      ],
+      "justification": "Named as city councilor and husband of Anna Smieszkowna selling parts of a townhouse."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Madrowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Recorded as a signatory/party at the conclusion of the previous entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna Smieszkowna",
+      "mention_texts": [
+        "Anna Smieszkowna",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Cives Leopolienses",
+        "haec"
+      ],
+      "justification": "Wife of Franciscus Koenig and daughter of the late Stanislaus Smieszek and Barbara Vedranowna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Smieszkowska House",
+      "mention_texts": [
+        "Smieszkowska"
+      ],
+      "descriptive_mentions": [
+        "lapidea praedicta",
+        "domo lapidea"
+      ],
+      "justification": "The stone house mentioned as the object of hereditary division and sale."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Italian Street",
+      "mention_texts": [
+        "platea Italica"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the Smieszkowska townhouse is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "City context where the townspeople, council, and real estate are located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Augustus Simonis Senior",
+      "mention_texts": [
+        "Augusti Simonis Senioris"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Domini",
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Councilor whose adjacent townhouse is referenced as a border."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobi Ogorzalek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Pellionis"
+      ],
+      "justification": "Furrier whose stone house borders the property on the other side."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Smieszek",
+      "mention_texts": [
+        "Stanislaum Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Fatos olim",
+        "Scabinum",
+        "parentes praedictae Annae"
+      ],
+      "justification": "Deceased bench alderman and father of Anna Smieszkowna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Barbara Vedranowna",
+      "mention_texts": [
+        "Barbaram Vedranowna"
+      ],
+      "descriptive_mentions": [
+        "parentes praedictae Annae"
+      ],
+      "justification": "Deceased mother of Anna Smieszkowna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulatu",
+        "Consularis",
+        "Actis superioribus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office and records governing the transaction."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "feria quinta postridie Festi Nativitatis Beati Joannis Baptistae Anno Domini 1592",
+        "Anno Domini 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous division recorded in the council acts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Franciscus Koenig Collega in Consulatu et Anna Smieszkowna Coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislaum Smieszek Scabinum et Barbaram Vedranowna parentes praedictae Annae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaum Smieszek Scabinum et Barbaram Vedranowna parentes praedictae Annae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaum Smieszek Scabinum et Barbaram Vedranowna parentes praedictae Annae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Franciscus Koenig Collega in Consulatu"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Augusti Simonis Senioris Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in domo lapidea Smieszkowska nuncupata in Civitatis istius platea Italica dicta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Civitatis istius platea Italica dicta"
+    }
+  ]
+}

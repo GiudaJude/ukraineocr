@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/1562.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Nativity of the Lord",
+      "mention_texts": [
+        "festo Nativitatis Domini"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast date mentioned in the conditional payment clause."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "septuaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "eandem summam"
+      ],
+      "justification": "The monetary amount secured on goods."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii",
+        "Officium praesens",
+        "acta Officii nostri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal office and official court books of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jaszkowicz",
+      "mention_texts": [
+        "Joannes Jaszkowic",
+        "Joanni Jaszkowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "socero suo"
+      ],
+      "justification": "Father-in-law of Helizabeth Tlumaczka to whom debts and obligations are transferred or acknowledged."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha Tłumaczowa",
+      "mention_texts": [
+        "Helizabeth Tlumaczka"
+      ],
+      "descriptive_mentions": [
+        "honesta",
+        "relicta vidua"
+      ],
+      "justification": "Widow of Christophorus Tlumacz appearing before the council."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Tłumacz",
+      "mention_texts": [
+        "Christophori Tlumacz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Armenii",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased Armenian burgher of Lviv and husband of Elisabetha."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensium",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The royal city of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Moszycki",
+      "mention_texts": [
+        "Andream Moszicki"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Nobilem",
+        "Terrendarium"
+      ],
+      "justification": "Noble assisting as tutor for Helizabeth Tlumaczka."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Tobias Tłumacz",
+      "mention_texts": [
+        "Tobia"
+      ],
+      "descriptive_mentions": [
+        "honesto",
+        "filio suo"
+      ],
+      "justification": "Son of Helizabeth Tlumaczka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "110 Polish florins",
+      "mention_texts": [
+        "centum et decem florenorum pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Monetary sum specified in the 1581 Armenian council inscription."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Armenian Elder Council",
+      "mention_texts": [
+        "Officio Famatorum Seniorum Armenorum Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The office of the Armenian Elders of Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "10 September 1581",
+      "mention_texts": [
+        "die decima Septembris Anno 1581mo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the first presented inscription."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Armenian Court",
+      "mention_texts": [
+        "Judicio Necessario Armenorum Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court of the Armenian community of Lviv."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria tertia post Dominicam Judica proxima Anno 1594to"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the second inscription presented before the Armenian Court."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "125 florins",
+      "mention_texts": [
+        "centum viginti quinque florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Monetary sum specified in the 1594 inscription."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Helizabeth Tlumaczka Famati olim Christophori Tlumacz Armenii Civis Leopoliensis relicta vidua"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Christophori Tlumacz Armenii Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "per assumptum sibi ad eum actum tutorem Nobilem Andream Moszicki Terrendarium"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_in_law_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joanni Jaszkowic socero suo"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Tobia filio suo"
+    }
+  ]
+}

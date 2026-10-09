@@ -1,0 +1,83 @@
+{
+  "document_id": "arc2/1139.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1587",
+      "mention_texts": [
+        "feria proxima Anno Domini 158 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court act."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Literowicz",
+      "mention_texts": [
+        "Joannes Literowicz",
+        "Joannis Literowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "praedicti"
+      ],
+      "justification": "Party in the legal dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Philipowicz",
+      "mention_texts": [
+        "Stanislaus Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "seruo famatus Leopoliensis",
+        "actor in iure"
+      ],
+      "justification": "Plaintiff/actor appearing in the court proceedings."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bildasza",
+      "mention_texts": [
+        "Bildasza",
+        "Bildaßa"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "idem"
+      ],
+      "justification": "Person/tenant named as actor involved in the claim."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "officij",
+        "Officij"
+      ],
+      "justification": "The municipal council acting as the judicial body issuing the decree."
+    }
+  ],
+  "relationships": []
+}

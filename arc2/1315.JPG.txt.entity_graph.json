@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/1315.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "Acta sua"
+      ],
+      "justification": "The municipal council/office that received the protestation into its acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis praefatae"
+      ],
+      "justification": "City of Lviv referenced in the jurors' and citizens' titles."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Iuris Utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Advocate ordinary and doctor of laws submitting the relation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn juror of Lviv making the relation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Melchior Sobek Wolfowic",
+      "mention_texts": [
+        "Melchior Sobek Wolfowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn juror of Lviv appearing alongside Joannes Sokol."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Doliator",
+      "mention_texts": [
+        "Joannis Doliatoris",
+        "Joannes Doliator"
+      ],
+      "descriptive_mentions": [
+        "honesti",
+        "Civis Leopoliensis",
+        "praefati",
+        "ipse"
+      ],
+      "justification": "Citizen and cooper of Lviv at whose instance the official inspection was made."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Ziamko",
+      "mention_texts": [
+        "Martini Ziamko"
+      ],
+      "descriptive_mentions": [
+        "laboriosorum Scabinorum olim",
+        "Scabini Civitatis praefatae"
+      ],
+      "justification": "Deceased former juror of Lviv whose house is referenced."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Rozmouroska",
+      "mention_texts": [
+        "Rozmouroska"
+      ],
+      "descriptive_mentions": [
+        "sartoribus"
+      ],
+      "justification": "Tailor or neighbor mentioned on the other side of the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Ziamkowska",
+      "mention_texts": [
+        "Ziamkowska"
+      ],
+      "descriptive_mentions": [
+        "conductrix"
+      ],
+      "justification": "Female tenant residing in the house of the late Martinus Ziamko."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "advocate_of",
+      "tail_entity_id": "E2",
+      "evidence": "Gregorius Dobrocki Iuris Utriusque Doctor Advocatus Ordinarius atque circa ipsum Honorati Joannes Sokol et Melchior Sobek Wolfowic Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "juror_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannes Sokol et Melchior Sobek Wolfowic Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "juror_of",
+      "tail_entity_id": "E2",
+      "evidence": "Melchior Sobek Wolfowic Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "honesti Joannis Doliatoris Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "former_juror_of",
+      "tail_entity_id": "E2",
+      "evidence": "olim Martini Ziamko Scabini Civitatis praefatae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "tenant_in_house_of",
+      "tail_entity_id": "E7",
+      "evidence": "in domo laboriosorum Scabinorum olim Martini Ziamko Scabini Civitatis praefatae ... vbi habitet Ziamkowska conductrix"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "document_id": "arc2/1318.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulus Kapcowicz",
+        "Paulum Kapcowicz",
+        "Paulo Kapcowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named party in the dispute remitted to the consular court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schnitzer",
+      "mention_texts": [
+        "Sebaldum Schnitzer",
+        "Sebaldus Schnitzer"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "eumdem"
+      ],
+      "justification": "Principal party suing in the legal action."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose authority and court are referenced."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Natsman Isaacowicz",
+      "mention_texts": [
+        "Natsman Judaeum",
+        "Natsmannum",
+        "Natsman Isaacowicz Judaeum"
+      ],
+      "descriptive_mentions": [
+        "Judaeum"
+      ],
+      "justification": "Party involved in the decree opposite Sebaldus Schnitzer."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense",
+        "Officium eidem Consulare"
+      ],
+      "descriptive_mentions": [
+        "Fideli nobis Dilectis",
+        "Famati Fideles nobis dilecti",
+        "Fidelitatibus Vestris"
+      ],
+      "justification": "Municipal governing and judicial body instructed to execute the decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0278: Warsaw",
+      "mention_texts": [
+        "Varsaviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of issue of the royal decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post Octavas Corporis Christi proxima Anno Domini Millesimo Quingetesimo Nonagesimo Sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issuance of the decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae",
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the regnal years and titles."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Suetici",
+        "Suecorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden referenced in regnal years and titles."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joannis Tarnowski",
+        "Joannes Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Regalis Vladislaviensis",
+        "Cancellarii Regni Generalis ac Regiae Maiestatis Vicecancellarii",
+        "Vicecancellarii"
+      ],
+      "justification": "Crown vice-chancellor providing the relatio."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Regiae Maiestatis",
+        "Sacrae Regiae Maiestatis",
+        "S. R. M.",
+        "Sigismundus Tertius"
+      ],
+      "descriptive_mentions": [
+        "Rex Poloniae",
+        "Magnus Dux Lithuaniae Russiae Prussiae Masoviae Samogitiae Livoniaeque",
+        "Suecorum Gottorum Vandalorumque Serenus Rex"
+      ],
+      "justification": "King of Poland issuing the mandate."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "P. Szczerbicz"
+      ],
+      "descriptive_mentions": [
+        "m.p."
+      ],
+      "justification": "Official who countersigned the decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0274: Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal intitulation."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal intitulation."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0158: Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal intitulation."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0275: Mazovia",
+      "mention_texts": [
+        "Masoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal intitulation."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0276: Samogitia",
+      "mention_texts": [
+        "Samogitiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal intitulation."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "LOC-0277: Livonia",
+      "mention_texts": [
+        "Livoniaeque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal intitulation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "servant_of",
+      "tail_entity_id": "E11",
+      "evidence": "Regiae Maiestatis Vicecancellarii"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "issued_decree_to",
+      "tail_entity_id": "E5",
+      "evidence": "Mandamus Fidelitatibus Vestris"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Officium Consulare Leopoliense"
+    }
+  ]
+}

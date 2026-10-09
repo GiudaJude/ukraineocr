@@ -1,0 +1,114 @@
+{
+  "document_id": "arc2/1245.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Jazłowiec",
+      "mention_texts": [
+        "Jazlowiecz"
+      ],
+      "descriptive_mentions": [
+        "Oppidi"
+      ],
+      "justification": "Town mentioned in reference to its magistrate and register of testaments."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Jazłowiec City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Magistratus eorum Oppidi Jazlowiecz"
+      ],
+      "justification": "Municipal governing body of Jazłowiec possessing the book of testaments."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio praesenti",
+        "Officium"
+      ],
+      "justification": "The court/office of Lviv before which the proceedings take place."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Czarkowski",
+      "mention_texts": [
+        "Valentini Czarkowski"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "olim",
+        "Nobilis"
+      ],
+      "justification": "Deceased nobleman whose recorded confession was submitted."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dzierzkowski",
+      "mention_texts": [
+        "Dzierzkowski",
+        "Stanislaus Dzierzkowski"
+      ],
+      "descriptive_mentions": [
+        "praedictos",
+        "praedictis",
+        "praedictus"
+      ],
+      "justification": "Person accused and personally constituted before the court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Janowski",
+      "mention_texts": [
+        "Janowski"
+      ],
+      "descriptive_mentions": [
+        "praedictos",
+        "praedictis"
+      ],
+      "justification": "Person accused alongside Stanislaus Dzierzkowski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "Monday after the Feast of Saints Vitus and Modestus",
+      "mention_texts": [
+        "feria secunda post Festum Sanctorum Viti et Modesti Martyrum proxima anno praesenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry in the Jazłowiec book of testaments."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Rogation Monday",
+      "mention_texts": [
+        "Feria Rogationum proxima praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date when Dzierzkowski was previously arrested and brought to court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Magistratus eorum Oppidi Jazlowiecz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "associated_with",
+      "tail_entity_id": "E6",
+      "evidence": "praedictos Dzierzkowski et Janowski"
+    }
+  ]
+}

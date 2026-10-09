@@ -1,0 +1,58 @@
+{
+  "document_id": "arc2/1142.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "24 January",
+      "mention_texts": [
+        "24. Januarij"
+      ],
+      "descriptive_mentions": [
+        "die"
+      ],
+      "justification": "Date of consignment under the seal of the magistrate."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "praedicti Magistratus",
+        "actisque praesentibus"
+      ],
+      "justification": "The municipal magistrate and its current register (acta praesentia) receiving the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Actis Castrensibus Capitanealibus"
+      ],
+      "justification": "The Lviv Castle Starost Court from whose records the agreement emanated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the adjectival form Leopoliensibus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Actis Castrensibus Capitanealibus Leopoliensibus"
+    }
+  ]
+}

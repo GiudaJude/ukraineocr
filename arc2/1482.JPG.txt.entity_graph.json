@@ -1,0 +1,57 @@
+{
+  "document_id": "arc2/1482.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "100 marks",
+      "mention_texts": [
+        "centum marcarum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Penalty amount specified in the court document"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stefan Batory",
+      "mention_texts": [
+        "Stephano",
+        "Stephani"
+      ],
+      "descriptive_mentions": [
+        "Serenissimo olim",
+        "Rege",
+        "Serenissimi olim",
+        "Regis"
+      ],
+      "justification": "King of Poland referenced as grantor of the privilege"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1577",
+      "mention_texts": [
+        "die 12 Mensis Novembris Anno 1577"
+      ],
+      "descriptive_mentions": [
+        "de data"
+      ],
+      "justification": "Date of the royal privilege"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundum Tertium"
+      ],
+      "descriptive_mentions": [
+        "modernum Serenissimum",
+        "Regem"
+      ],
+      "justification": "Reigning King Sigismund III Vasa confirming the privilege"
+    }
+  ],
+  "relationships": []
+}

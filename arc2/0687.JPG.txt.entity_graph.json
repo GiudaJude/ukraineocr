@@ -1,0 +1,83 @@
+{
+  "document_id": "arc2/0687.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Marcus",
+      "mention_texts": [
+        "Marcum"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Provisores",
+        "Cives Leopolienses",
+        "citatos",
+        "quos"
+      ],
+      "justification": "Named as one of the defendants/provisors against whom denunciation was made."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Lange",
+      "mention_texts": [
+        "Paulum Lange"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Provisores",
+        "Cives Leopolienses",
+        "citatos",
+        "quos"
+      ],
+      "justification": "Named as a summoned provisor and citizen of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Felix Szermanowicz",
+      "mention_texts": [
+        "Felicem Szermanowic"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Provisores",
+        "Cives Leopolienses",
+        "citatos",
+        "quos"
+      ],
+      "justification": "Named as a summoned provisor and citizen of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referenced in the civic designation 'Cives Leopolienses'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Cives Leopolienses"
+    }
+  ]
+}

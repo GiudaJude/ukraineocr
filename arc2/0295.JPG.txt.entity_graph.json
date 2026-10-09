@@ -1,0 +1,171 @@
+{
+  "document_id": "arc2/0295.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari",
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Senatum"
+      ],
+      "justification": "City council of Lviv acting in its official judicial and administrative capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the royal decree was given."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Millesimo Quingentesimo Nonagesimo Quinto"
+      ],
+      "descriptive_mentions": [
+        "feria tertia infra Octavas Sacratissimi Corporis Christi Anno Domini Millesimo Quingentesimo Nonagesimo Quinto"
+      ],
+      "justification": "Date of the royal decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regnorum nostrorum",
+        "Regiae Maiestatis Domini Domini sui Clementissimi",
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "King Sigismund III Vasa, referencing the regnal years in Poland and Sweden."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jan Zamoyski",
+      "mention_texts": [
+        "Joannes Zamoyski"
+      ],
+      "descriptive_mentions": [
+        "Cancellarius"
+      ],
+      "justification": "Crown Chancellor who signed the royal document."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Tarnowski",
+      "mention_texts": [
+        "Joannes Tarnowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory of the royal document."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulo Szorbie"
+      ],
+      "descriptive_mentions": [
+        "Actori",
+        "Actore",
+        "parti actoris",
+        "Actorem",
+        "Praefato Generoso"
+      ],
+      "justification": "Paweł Szczerbic (recorded here as Paulo Szorbie), the actor/claimant receiving the possession of the deceased's estate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dide",
+      "mention_texts": [
+        "Joannis Dide"
+      ],
+      "descriptive_mentions": [
+        "praefati"
+      ],
+      "justification": "Deceased person whose estate is contested."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Henricci",
+      "mention_texts": [
+        "Joannis Henricci"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "olim",
+        "vita functi"
+      ],
+      "justification": "Deceased burgher of Lviv whose estate was adjudged to Paulus Szczerbic."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis huius"
+      ],
+      "justification": "City of Lviv referred to directly and via adjectives."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the regnal dating."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden mentioned in the regnal dating."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "Officium vero Consulare Leopoliense"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "olim Joannis Henricci Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "issued_in",
+      "tail_entity_id": "E2",
+      "evidence": "Datum Cracoviae feria tertia infra Octavas Sacratissimi Corporis Christi Anno Domini Millesimo Quingentesimo Nonagesimo Quinto, Regnorum nostrorum Poloniae octauo Sueciae Secundo."
+    }
+  ]
+}

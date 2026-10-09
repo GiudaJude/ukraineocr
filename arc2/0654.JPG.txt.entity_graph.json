@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/0654.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrowolski"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "D.",
+        "J. V. Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Appears as the ordinary advocate of Lviv heading the court delegation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz",
+        "Andrea"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati",
+        "praefato"
+      ],
+      "justification": "Identified as a sworn bencher accompanying the advocate."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0303: PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgangus Bernth"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati"
+      ],
+      "justification": "Identified as a sworn bencher alongside Andreas Simonowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopolitanae"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "The city of Lviv is referenced throughout the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Catherina Matysowiczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "relicta",
+        "Honesta Consorte sua"
+      ],
+      "justification": "Widow and spouse of the deceased butcher Franciszek Matysowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Matysowicz",
+      "mention_texts": [
+        "Francici Matissowic",
+        "Floriani Matysowicz",
+        "Francici olim Matysowicz"
+      ],
+      "descriptive_mentions": [
+        "lanio",
+        "Famati olim",
+        "Lany",
+        "Civis Leopoliensis",
+        "praenominati",
+        "olim",
+        "praedicti"
+      ],
+      "justification": "The deceased butcher whose last will is being attested (inadvertently written as Floriani in one mention, then back-referenced with praenominati Francici)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Caspar Smietanka",
+      "mention_texts": [
+        "Casparum Smietanka"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "sibi ad actum praesentem rogatum agentis"
+      ],
+      "justification": "Citizen of Lviv acting as legal agent on behalf of the widow Catherina."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Todotzyn",
+      "mention_texts": [
+        "Joanne Todotzyn"
+      ],
+      "descriptive_mentions": [
+        "Vicario"
+      ],
+      "justification": "Vicar of the Lviv city church attending the testament recording."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiae Leopolitanae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal/cathedral church of Lviv where Joannes Todotzyn is vicar."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Blacharska Street",
+      "mention_texts": [
+        "platea Ferrorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The street where the testator's stone house was located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Matysowska House",
+      "mention_texts": [
+        "Matysowska"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring stone townhouse on Blacharska Street."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Lucas Pogrinaz",
+      "mention_texts": [
+        "Luca",
+        "Pogrinaz"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Late owner of the adjacent stone house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "Saturday before the Feast of Saint Hedwig",
+      "mention_texts": [
+        "sabbato pridie S. Hedvigis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date when the court officials visited the sick testator."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "praesentibus Honesta Consorte sua Catherina"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "relicta per Famatum Casparum Smietanka Civem Leopoliensem sibi ad actum praesentem rogatum agentis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "cleric_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joanne Todotzyn Ecclesiae Leopolitanae Civitatis exiuiis Vicario"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "property_located_at",
+      "tail_entity_id": "E10",
+      "evidence": "in domum lapideam praedicti Francici olim Matysowicz propriam in Civitatis istius platea Ferrorum nuncupata"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Excellens D. Gregorius Dobrowolski J. V. Doctor Advocatus Ordinarius... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honorati Andreas Simonowicz atque Wolfgangus Bernth Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honorati Andreas Simonowicz atque Wolfgangus Bernth Scabini iurati Civitatis Leopoliensis"
+    }
+  ]
+}

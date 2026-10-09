@@ -1,0 +1,204 @@
+{
+  "document_id": "arc2/0797.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Machno Smirowski",
+      "mention_texts": [
+        "Stanislaum Machnum Smirowyski"
+      ],
+      "descriptive_mentions": [
+        "tutorem sibi ad eum actum datum"
+      ],
+      "justification": "Appointed guardian assisting the woman in the mutual donation entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "civitatis Leopoliensis",
+        "Civitatis Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned multiple times as the city and suburb jurisdiction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [
+        "officio meo"
+      ],
+      "justification": "The municipal office and current acts registering the donation and decreta."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Jarzimorski",
+      "mention_texts": [
+        "Paulo Saczmijrek",
+        "Pauli Jarzimorski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Tribuni Bustrensis",
+        "Generosi",
+        "eidem Generoso Cedenti"
+      ],
+      "justification": "Noble Tribune of Busk for whom execution against Paweł Zisto is registered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Busk",
+      "mention_texts": [
+        "Bustrensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location associated with the office of Paulus Jarzimorski (Tribunus Bustrensis)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrocki",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "Dominus",
+        "Iuris Utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Doctor of both laws and ordinary advocate making the report."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Juror/scabinus of Lviv appearing in the relation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Adam Szmerzek",
+      "mention_texts": [
+        "Adam Szmerzek"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Juror/scabinus of Lviv accompanying the advocate."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Chozienski",
+      "mention_texts": [
+        "Castanislai Chozienski",
+        "Stanislai Chozienski"
+      ],
+      "descriptive_mentions": [
+        "uti Plenipotentis",
+        "praedicti"
+      ],
+      "justification": "Plenipotentiary acting on behalf of Paulus Jarzimorski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Paulus Zisto",
+      "mention_texts": [
+        "Pauli Zistonis",
+        "Paulo Zistone"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "suburbani Leopoliensis",
+        "praefato"
+      ],
+      "justification": "Suburbanite of Lviv whose house is subjected to legal execution."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Barelis Xwatzna",
+      "mention_texts": [
+        "Barelis Xwatzna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner in the lane."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Zisto",
+      "mention_texts": [
+        "Jacobi Zistonis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner bordering Paulus Zisto's house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Szeytnek Street",
+      "mention_texts": [
+        "Szeytnek"
+      ],
+      "descriptive_mentions": [
+        "vico"
+      ],
+      "justification": "Street/lane where Paulus Zisto's house is situated."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv in which the execution was decreed."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "120 florins",
+      "mention_texts": [
+        "Centum viginti florenorum"
+      ],
+      "descriptive_mentions": [
+        "debito"
+      ],
+      "justification": "Debt amount for which execution on the property was granted."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "ad instantiam Castanislai Chozienski uti Plenipotentis Generosi Pauli Jarzimorski Tribuni Bustrensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Providi Pauli Zistonis suburbani Leopoliensis"
+    }
+  ]
+}

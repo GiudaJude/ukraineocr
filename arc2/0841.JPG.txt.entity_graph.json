@@ -1,0 +1,236 @@
+{
+  "document_id": "arc2/0841.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Taratowa",
+      "mention_texts": [
+        "Taratowa"
+      ],
+      "descriptive_mentions": [
+        "olim Faska Textoris relicta",
+        "debitrix Taratowa",
+        "sola"
+      ],
+      "justification": "Identified as a principal party in the debt acknowledgment and widow of Fasko Textor."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Fasko Textor",
+      "mention_texts": [
+        "Faska"
+      ],
+      "descriptive_mentions": [
+        "Textoris",
+        "olim"
+      ],
+      "justification": "Identified as the deceased husband of Taratowa, noted by his profession as a weaver."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Senior",
+      "mention_texts": [
+        "Martinum"
+      ],
+      "descriptive_mentions": [
+        "Seniorem",
+        "tutorem sibi ad eam actam assumptum"
+      ],
+      "justification": "Guardian appointed to assist Taratowa in making her legal confession."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Wieliczka",
+      "mention_texts": [
+        "Wieliczka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Martinus Senior."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "65 Polish florins",
+      "mention_texts": [
+        "Florenos sexaginta quinque pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summae praefatae",
+        "summa principali"
+      ],
+      "justification": "Amount of money acknowledged as a debt by Taratowa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Dzierzyk Stohal",
+      "mention_texts": [
+        "Dzierzyk Stohal"
+      ],
+      "descriptive_mentions": [
+        "Creditori suo",
+        "Creditor"
+      ],
+      "justification": "Creditor to whom Taratowa owes the loan and pledges land."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Zamoście",
+      "mention_texts": [
+        "Zamostinensi"
+      ],
+      "descriptive_mentions": [
+        "lago"
+      ],
+      "justification": "Location where the pledged agricultural lands are situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Philippowicz",
+      "mention_texts": [
+        "Sebastianus Philippowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Ruthenus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Ruthenian burgher of Lviv establishing a power of attorney."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of residence of the parties and location where the chirograph was dated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Adamus Smieszek",
+      "mention_texts": [
+        "Adamo Smieszek",
+        "Adamum Smieszek"
+      ],
+      "descriptive_mentions": [
+        "verum legitimum mandatarium Plenipotentem",
+        "mandatarium",
+        "Scabinum",
+        "Civem Leopoliensem",
+        "praedicto Plenipoten-"
+      ],
+      "justification": "Scabinus and burgher of Lviv appointed as attorney/proxy by Sebastianus Philippowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "120 florins",
+      "mention_texts": [
+        "Centum et viginti Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the debt recorded in the two chirographs."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "4 February 1595",
+      "mention_texts": [
+        "die quarta Februarii Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "proxime praeterito"
+      ],
+      "justification": "Date of the contracted loan chirographs."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Kasprowicz",
+      "mention_texts": [
+        "Gregorio Casprowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "debitore et damnatore suo",
+        "debitoris"
+      ],
+      "justification": "Debtor against whom the legal action was pursued."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "Lutsk City Council",
+      "mention_texts": [
+        "Magistratu Civitatis Lucensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Magistrate of Łuck before whom legal proceedings against the debtor took place."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Łuck",
+      "mention_texts": [
+        "Civitatis Lucensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the debtor was sued in default of payment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Taratowa olim Faska Textoris relicta"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E6",
+      "evidence": "se debere certi veri liquidique debiti ex causa mutui contracti Florenos sexaginta quinque pecuniae et numeri Polonicalis ... eidem Creditori suo"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "originating_from",
+      "tail_entity_id": "E4",
+      "evidence": "Martinum Seniorem de Wieliczka"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Sebastianus Philippowicz Ruthenus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E10",
+      "evidence": "constituit et solenniter ordinavit in suum verum legitimum mandatarium Plenipotentem et mandatarium Fanum Adamum Smieszek"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Adamum Smieszek Scabinum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "debtor_of",
+      "tail_entity_id": "E8",
+      "evidence": "cum Famato Gregorio Casprowicz Famero Leopoliensi debitore et damnatore suo"
+    }
+  ]
+}

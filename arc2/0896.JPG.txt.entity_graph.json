@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/0896.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the legal act took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato post In-carnisuiuium Christi Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Frankstowic",
+      "mention_texts": [
+        "Joan: Frankstowic"
+      ],
+      "descriptive_mentions": [
+        "Nobili"
+      ],
+      "justification": "Noble named in the rubric of the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Decreto"
+      ],
+      "justification": "Lviv City Council issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Skolkorowski",
+      "mention_texts": [
+        "Joan- nem Skolkorowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Regium",
+        "famulum",
+        "Actorem"
+      ],
+      "justification": "Noble plaintiff and servant acting on behalf of the Vice-Chancellor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joanni Faz- kowski"
+      ],
+      "descriptive_mentions": [
+        "Illustrissimi Domini",
+        "Regni Poloniae Vicecancellarij"
+      ],
+      "justification": "Vice-Chancellor of the Kingdom of Poland."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "Kingdom of Poland mentioned in the Vice-Chancellor's title."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Leyser Fabriey",
+      "mention_texts": [
+        "Leyser Fabriey"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Judæum Constantinopolitanum",
+        "citatum",
+        "Citatum",
+        "praedictus citatus"
+      ],
+      "justification": "Jewish merchant from Constantinople summoned before the court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0294: Constantinople",
+      "mention_texts": [
+        "Constantinopolitanum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City origin of Leyser Fabriey."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joanne Lukassowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "tutore sibi assumpto"
+      ],
+      "justification": "Assumed guardian of Leyser Fabriey appearing in court."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "507 thalers",
+      "mention_texts": [
+        "qvingentorum et septem Talerorum"
+      ],
+      "descriptive_mentions": [
+        "Summæ",
+        "debiti",
+        "debitum eiusmodi"
+      ],
+      "justification": "Debt sum specified in the decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas Salvago",
+      "mention_texts": [
+        "Andreae Salvago"
+      ],
+      "descriptive_mentions": [
+        "Graeco"
+      ],
+      "justification": "Greek merchant with whom the original debt was contracted."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Petrus",
+      "mention_texts": [
+        "Petro"
+      ],
+      "descriptive_mentions": [
+        "praefato Nobili",
+        "offanso",
+        "eidem"
+      ],
+      "justification": "Noble party to whom the debt is ordered to be paid."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "servant_of",
+      "tail_entity_id": "E6",
+      "evidence": "in causa Illustrissimi Domini Joanni Faz- kowski Regni Poloniae Vicecancellarij famulum Actorem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Regni Poloniae Vicecancellarij"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "originates_from",
+      "tail_entity_id": "E9",
+      "evidence": "Judæum Constantinopolitanum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "cum Famato Joanne Lukassowicz tutore sibi assumpto compa- rentem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_of",
+      "tail_entity_id": "E12",
+      "evidence": "debiti per Citatum Andreae Salvago Graeco contracti"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_of",
+      "tail_entity_id": "E13",
+      "evidence": "Debet praedictus citatus debitum eiusmodi qvingen- torum et septem Talerorum eidem Petro parata pecunia"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "document_id": "arc2/1395.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Czarkoyszowic",
+      "mention_texts": [
+        "Jacobum Czarkoyszowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armenum Civem Leopoliensem"
+      ],
+      "justification": "Identified as an Armenian citizen of Lviv acting clandestinely in construction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in civic descriptions and the dating formula."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officio Consulari Leopoliensi",
+        "ipsius Officio",
+        "Officium Honoratorum D. Pussceck et Fidelium"
+      ],
+      "descriptive_mentions": [
+        "praesens Judicium"
+      ],
+      "justification": "The municipal council/bench before which the legal actions and appointments took place."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quarta post festum Sanctorum trium Regum Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating line of the act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Wacław Stawski Trawnicki",
+      "mention_texts": [
+        "Waclaw Staws Frawnicki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party who paid/settled fees noted in the margin/heading."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Jaworski",
+      "mention_texts": [
+        "Christophorus Iaworski",
+        "CHRISTOPHORUS IAWORSKI"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Scabinus Civis Leopoliensis",
+        "praefatus Christophorus Tutor et executor"
+      ],
+      "justification": "Lviv scabinus and guardian/executor presenting the relation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szedli Ducat",
+      "mention_texts": [
+        "Pauli Szedli Ducati"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "Court official whose relation was obtained by Jaworski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Joannam",
+        "Jaesslawa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "relictam viduam",
+        "vidua"
+      ],
+      "justification": "Widow of the late Gregorius Jakubowic."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Jakubowic",
+      "mention_texts": [
+        "Gregorii Iakubowic"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Armeni"
+      ],
+      "justification": "Deceased Armenian citizen of Lviv, husband of the widow Joanna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0248: Stanislaus Krasnicki",
+      "mention_texts": [
+        "Stanislao Krasmizki",
+        "Stanislaus Krasmizki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "curatore ipsius",
+        "Nobilis"
+      ],
+      "justification": "Curator appearing before the council on behalf of Joanna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Serenissimae"
+      ],
+      "justification": "The ruling Polish monarch referenced in the royal decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Hawryło Curtrykiusz",
+      "mention_texts": [
+        "Hawrylo Curtrykiuss",
+        "HAWRYLO WAWTUS"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Party appearing in the subsequent entry and signing at the end."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Moroszka",
+      "mention_texts": [
+        "Moroszka",
+        "Naroszka"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "praedictae"
+      ],
+      "justification": "Wife of Hawryło appearing before the court."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Zacasska",
+      "mention_texts": [
+        "Zacasska"
+      ],
+      "descriptive_mentions": [
+        "soror germana"
+      ],
+      "justification": "Full sister of Moroszka."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jacobum Czarkoyszowic Armenum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Christophorus Iaworski Scabinus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Christophorus Iaworski Scabinus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannam Famati olim Gregorii Iakubowic Armeni relictam viduam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "curatore ipsius Nobili Stanislao Krasmizki coram Officio coparente"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Hawrylo Curtrykiuss et Moroszka coniuges"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "sibling_of",
+      "tail_entity_id": "E13",
+      "evidence": "Zacasska praedictae Naroszka soror germana"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "document_id": "arc2/1173.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "27 April 1596",
+      "mention_texts": [
+        "Vigesima septima die Mensis Aprilis, Anno Domini Millesimo Quingentesimo Nonagesimo Sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0155: Toruń",
+      "mention_texts": [
+        "Thuren"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Regiae"
+      ],
+      "justification": "Royal city from whose council records the act was copied."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius",
+        "eiusdem Civitatis",
+        "huius Civitatis"
+      ],
+      "justification": "City of Lviv referred to in council titles, citizenship, and statutes."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Kazimierski",
+      "mention_texts": [
+        "Nicolai Lazimirski"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis olim",
+        "Civitatis huius quondam Consulis",
+        "emptoris",
+        "uxoris suae avi materni",
+        "avi materni"
+      ],
+      "justification": "Former consul of Lviv and maternal grandfather of Anna Ferenconna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Ferenconna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consortis suae",
+        "uxore sua praefata",
+        "uxoris suae"
+      ],
+      "justification": "Wife on whose behalf the recognizance is made; granddaughter of Nicolaus and Agnes Kazimierski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "suburbio eiusdem Civitatis Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the property is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Holy Cross Church",
+      "mention_texts": [
+        "Ecclesiam S. Crucis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Church landmark defining the street in the Kraków suburb."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Balneator",
+      "mention_texts": [
+        "Andreae Balneatoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Michael Pigan",
+      "mention_texts": [
+        "Michaelis Pigani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Wojciech Philipowicz",
+      "mention_texts": [
+        "Woythechi Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Senioris Armenorum",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Armenian elder and citizen of Lviv currently holding the property portion."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetem Kazimierska",
+        "Agnes Kazimierska"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "uxoris suae aviam",
+        "avia sua"
+      ],
+      "justification": "Grandmother of Anna Ferenconna who originally made the sale to Sebald Fistingier."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Sebald Fistingier",
+      "mention_texts": [
+        "Sebaldi Fistingier"
+      ],
+      "descriptive_mentions": [
+        "praefatum Famatum"
+      ],
+      "justification": "Buyer of the property in the earlier contract from 1556."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv consular office whose earlier records are cited."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "feria secunda post Dominicam Reminiscere Anno Domini 1556",
+      "mention_texts": [
+        "feria secunda post Dominicam Reminiscere Anno Domini 1551exto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier contract registered in the consular acts."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Bogaronoski House and Garden",
+      "mention_texts": [
+        "Bogaronoski"
+      ],
+      "descriptive_mentions": [
+        "domus et horti",
+        "porcionis"
+      ],
+      "justification": "House and garden named Bogaronoski in the Kraków suburb."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "grandchild_of",
+      "tail_entity_id": "E4",
+      "evidence": "uxoris suae avi materni"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "grandchild_of",
+      "tail_entity_id": "E11",
+      "evidence": "uxoris suae aviam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E13",
+      "evidence": "Civitatis huius quondam Consulis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "domus et horti Bogaronoski dicti in suburbio eiusdem Civitatis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in suburbio eiusdem Civitatis Cracoviensis in platea qua itur ad Ecclesiam S. Crucis"
+    }
+  ]
+}

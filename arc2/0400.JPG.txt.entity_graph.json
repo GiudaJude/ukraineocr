@@ -1,0 +1,213 @@
+{
+  "document_id": "arc2/0400.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Maciejowicz",
+      "mention_texts": [
+        "Jacobum Maczieiowiczo",
+        "Jaubus Klupac"
+      ],
+      "descriptive_mentions": [
+        "praestatorem",
+        "ipse",
+        "eundem"
+      ],
+      "justification": "Restrained by the court for tearing down an entire stone house without necessity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Ostiarius",
+      "mention_texts": [
+        "Pauli"
+      ],
+      "descriptive_mentions": [
+        "Ostiary"
+      ],
+      "justification": "City doorkeeper/beadle whose report regarding the demolished stone house is cited."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "huius Ciuitatis"
+      ],
+      "justification": "City where the legal acts were executed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta in vigi- lia Beatae Mariae Magdalenae Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the council record."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Agnes Stolczna",
+      "mention_texts": [
+        "Agnes",
+        "Agnes Stolczna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx relicta"
+      ],
+      "justification": "Appears before the council to make a legal acknowledgment; widow of Albertus Pasternak and Blasius Stolka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pasternak",
+      "mention_texts": [
+        "Alberti Pasternak"
+      ],
+      "descriptive_mentions": [],
+      "justification": "First husband of Agnes Stolczna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Blasius Stolka",
+      "mention_texts": [
+        "Blasy Stolka"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Honestum",
+        "illo"
+      ],
+      "justification": "Late husband of Agnes Stolczna and second husband of Anna Jaroska."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium nostrum",
+        "Actis nostris",
+        "ijsdem Actis nostris"
+      ],
+      "justification": "The municipal council authority confirming the guardian and recording the act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jonas Karczbabinensis",
+      "mention_texts": [
+        "Jonam Karczba- binensem"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Honoratum",
+        "Ciuem Leopoliensem"
+      ],
+      "justification": "Burgher of Lviv appointed and confirmed by the council as tutor to Agnes Stolczna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Suburbio Cracouien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the house and garden mentioned in the act."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Martinus Pistor",
+      "mention_texts": [
+        "Martini"
+      ],
+      "descriptive_mentions": [
+        "Pistoris"
+      ],
+      "justification": "Neighboring property owner in the Kraków suburb."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Jaroszka",
+      "mention_texts": [
+        "Nicolaum Jaroska",
+        "Cygan",
+        "Jaroska"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "dictum",
+        "mariti sui",
+        "praefati"
+      ],
+      "justification": "Late former owner of the third part of the house and garden, alias Cygan."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "uxor praefati Jaroska"
+      ],
+      "justification": "Wife of Nicolaus Jaroska who later remarried Blasius Stolka."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "1575",
+      "mention_texts": [
+        "feria quarta in Vigilia Nativitatis Beatae Mariae Virginis Anno Domini 1575"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier property acquisition recorded in the council books."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesta Agnes priorum quidem nuptiarum Alberti Pasternak"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "posteriorum vero Honesti olim Blasy Stolka coniunx relicta"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "per assumptionem sibi ad eum actum tutorem et per officium nostrum confirmatum Honoratum Jonam Karczba- binensem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Nicolaum Jaroska dictum Cygan et Annam coniuges"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "qua quidem Anna uxor praefati Jaroska post obitum mariti sui conuolauit ad secundas nuptias Honestum Blasy Stolka"
+    }
+  ]
+}

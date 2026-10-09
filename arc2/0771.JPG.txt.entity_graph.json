@@ -1,0 +1,146 @@
+{
+  "document_id": "arc2/0771.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "Officij",
+        "Officium"
+      ],
+      "justification": "Lviv municipal council before which the legal action is brought."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the jurisdictional title and origin description."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Połomski",
+      "mention_texts": [
+        "Stanislaus Polomski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotens",
+        "Actor mixtus decretalis"
+      ],
+      "justification": "Noble who appears before the council personally and as proxy for his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martha",
+      "mention_texts": [
+        "Marthae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "filiae olim Phillipi Armeni Leopoliensis",
+        "consortis suae legitimae",
+        "uxoris suae praefatae"
+      ],
+      "justification": "Wife of Stanislaus Połomski and daughter of Phillipus Armenus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Phillipus Armenus",
+      "mention_texts": [
+        "Phillipi Armeni"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased father of Martha, described as an Armenian of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Doctor Philippowicz",
+      "mention_texts": [
+        "Doctorem Philippowicz",
+        "Doctor Philippowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "uxoris suae praefatae fratrem germanum",
+        "Doctorem",
+        "Affinem suum",
+        "Citatus"
+      ],
+      "justification": "Full brother of Martha and in-law of Stanislaus Połomski, cited before the council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stroba",
+      "mention_texts": [
+        "Joannis Stroba"
+      ],
+      "descriptive_mentions": [
+        "famuli civici"
+      ],
+      "justification": "Civic servant (beadle) who served the court citation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland referenced regarding royal citations, decree, and chancellery."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "feria secunda ante festum Sancti Thomae Apostoli anno proxime praeterito",
+      "mention_texts": [
+        "feria secunda ante Festi Sancti Thomae Apostoli anno proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree mentioned in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestae Marthae filiae olim Phillipi Armeni Leopoliensis consortis suae legitimae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Marthae filiae olim Phillipi Armeni Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Doctorem Philippowicz Sunernum uxoris suae praefatae fratrem germanum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "employed_by",
+      "tail_entity_id": "E1",
+      "evidence": "secundum relationem famuli civici Joannis Stroba"
+    }
+  ]
+}

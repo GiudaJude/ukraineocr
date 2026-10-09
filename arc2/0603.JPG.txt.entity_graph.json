@@ -1,0 +1,209 @@
+{
+  "document_id": "arc2/0603.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis",
+        "officioque nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known municipal governing council of Lviv recorded in city acta."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses",
+        "Leopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City context of the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Zygota",
+      "mention_texts": [
+        "Valentino Zygota",
+        "Valentinum Zygota"
+      ],
+      "descriptive_mentions": [
+        "Actorem",
+        "Suburbanos",
+        "praedictus Actor",
+        "auunculus",
+        "Actoris"
+      ],
+      "justification": "Plaintiff and suburban resident seeking guardianship over his niece Ewa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Koczmarek",
+      "mention_texts": [
+        "Joannem Koczmarek",
+        "Joannis Koczmarek"
+      ],
+      "descriptive_mentions": [
+        "citatum",
+        "Suburbanos",
+        "Thayma",
+        "citatus"
+      ],
+      "justification": "Cited party regarding the maternal portion and guardianship of Ewa."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Ewa Sasiedzina",
+      "mention_texts": [
+        "Ewa Sasiedzina",
+        "Eua"
+      ],
+      "descriptive_mentions": [
+        "ex sorore nepte"
+      ],
+      "justification": "Niece of Valentinus Zygota under dispute for guardianship."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Regina Gakowianka",
+      "mention_texts": [
+        "Regina Lwatowianka",
+        "Regina Gakowianka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx legitima"
+      ],
+      "justification": "Woman registering debt secured on her property portion."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Handzlarz",
+      "mention_texts": [
+        "Joannis Handzlarz"
+      ],
+      "descriptive_mentions": [
+        "olim Honesti"
+      ],
+      "justification": "Deceased first husband of Regina."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Peczkus",
+      "mention_texts": [
+        "Andreae Peczkus Sxortini"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Present second husband of Regina."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulum Gass"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Oskariau"
+      ],
+      "justification": "Court-appointed tutor assisting Regina, identified with Paulus Ostiarius / Cas."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "26 Polish florins",
+      "mention_texts": [
+        "Florenos viginti sex",
+        "Viginti sex Florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici"
+      ],
+      "justification": "Debt sum acknowledged by Regina."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Iwanko Swantek",
+      "mention_texts": [
+        "Iwanko Swantek",
+        "Joankoni Lzopolan"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Rutheno",
+        "Suburbano Leopolitano"
+      ],
+      "justification": "Creditor of the acknowledged debt, described as a Ruthenian suburbanite."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno sequenti 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date year for repayment."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbij Haliciensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb in which the mortgaged house portion is located."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Paulus Jaymiamin",
+      "mention_texts": [
+        "Pauli Jaymiamin"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning a neighboring house in Halych Suburb."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "kin_of",
+      "tail_entity_id": "E5",
+      "evidence": "praedictus Actor tanquam auunculus ad eiusmodi Tutelam praevitiis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Regina Gakowianka primarum olim Honesti Joannis Handzlarz"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "ac praesens vero secundarum Honesti Andreae Peczkus Sxortini caucionibus maritatis coniunx legitima"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_to",
+      "tail_entity_id": "E11",
+      "evidence": "recognouit se debere et teneri veri iusti liquidique debiti ad urgentem suam necessitatem contracti Florenos viginti sex pecuniae et numeri Polonici, Honesto Joankoni Lzopolan Rutheno Suburbano Leopolitano"
+    }
+  ]
+}

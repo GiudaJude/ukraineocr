@@ -1,0 +1,202 @@
+{
+  "document_id": "arc2/1285.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zaleski",
+      "mention_texts": [
+        "Joannes Zalesky"
+      ],
+      "descriptive_mentions": [
+        "recognoscentes"
+      ],
+      "justification": "Co-recognizer in the property obligation record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "recognoscentes",
+        "secundarum nuptiarum coniuges",
+        "vxor"
+      ],
+      "justification": "Named as recognoscente in the first record and as the second-marriage wife of Stanislaus Czecher in the second record."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czecher",
+      "mention_texts": [
+        "Stanislaus Czecher"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Ceruifex",
+        "secundarum nuptiarum coniuges",
+        "maritus",
+        "venditorum"
+      ],
+      "justification": "Brewer and suburbanite of Lviv selling a plot of land."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jarik",
+      "mention_texts": [
+        "Stanislaum Jarik"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Suburbanum Leopoliensem",
+        "tutorem"
+      ],
+      "justification": "Suburbanite of Lviv acting as legal guardian for Dorothea."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czacz",
+      "mention_texts": [
+        "Stanislai Czacz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Lani",
+        "Civis Leopolien"
+      ],
+      "justification": "Butcher and citizen of Lviv whose plot borders the property being sold."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Hanoel",
+      "mention_texts": [
+        "Simonis Hanoel"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopolien"
+      ],
+      "justification": "Deceased citizen of Lviv whose successors own an adjacent property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Pziss",
+      "mention_texts": [
+        "Stanislaum Pziss"
+      ],
+      "descriptive_mentions": [
+        "Praenominatum"
+      ],
+      "justification": "Individual from whom the sellers originally bought the property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Christophorus",
+      "mention_texts": [
+        "Christoferus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Recorded in the marginal heading corresponding to the contract."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officium nostrum",
+        "iisdem Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council and its official registers."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Le-",
+        "Leopoliensem",
+        "Leopolien"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis eiusdem"
+      ],
+      "justification": "The city of Lviv mentioned across suburban and citizenship references."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Halych Suburb of Lviv where the sold property is situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Feria quarta post Festum S. Margarethae Virginis et Martyris proxi- Anno eodem currenti nonagesimo sexto",
+        "Anno eodem currenti nonagesimo sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date cited for the earlier purchase of the property (Wednesday after St. Margaret 1596)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaus Czecher Ceruifex et Dorothea secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "vxor vero per Honestum Stanislaum Jarik Suburbanum Leopoliensem tutorem sibi cum praesentaneo mariti sui consensu ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislaus Czecher Ceruifex et Dorothea secundarum nuptiarum coniuges Suburbani Le-"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislaum Jarik Suburbanum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislai Czacz Lani Civis Leopolien"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Simonis Hanoel Civis Leopolien"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "suburb_of",
+      "tail_entity_id": "E10",
+      "evidence": "Ciuitatis eiusdem Leopolien Suburbio Haliciensi"
+    }
+  ]
+}

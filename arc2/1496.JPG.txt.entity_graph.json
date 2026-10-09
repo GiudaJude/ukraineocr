@@ -1,0 +1,167 @@
+{
+  "document_id": "arc2/1496.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kalinowski",
+      "mention_texts": [
+        "Joannem Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Suburbanum Leopoliensis",
+        "se"
+      ],
+      "justification": "Appears in the court record making a donation of property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City referenced in the suburban identity and location of the plot."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Zakroczym Suburb",
+      "mention_texts": [
+        "Zakroczine"
+      ],
+      "descriptive_mentions": [
+        "Suburbio",
+        "eiusdem Civitatis Suburbio"
+      ],
+      "justification": "Identified as the suburb in which the house and garden are located: 'Suburbio Zakroczine dicto'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Cyganek",
+      "mention_texts": [
+        "Joannem Cyganek"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Textorem",
+        "sororinum suum",
+        "coniuges",
+        "Cives Camenecen"
+      ],
+      "justification": "Identified as weaver and brother-in-law of Joannes Kalinowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheam"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Camenecen",
+        "sorore"
+      ],
+      "justification": "Wife of Joannes Cyganek and sister of Joannes Kalinowski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Joannes Cyganek and Dorothea are citizens ('Cives Camenecen')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "sabbato ante Dominicam Oculi proximo Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous land court inscription referred to in the document."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparo Cyganek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "suo ex sorore nepoti",
+        "legitimis successoribus",
+        "eodem",
+        "donatario"
+      ],
+      "justification": "Recipient of the donation, identified as nephew from the sister (Caspar Cyganek)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [
+        "praesenti"
+      ],
+      "justification": "Court in which the resignation of rights and power of attorney are to be registered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannem Cyganek Textorem sororinum suum et Dorotheam coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesto Casparo Cyganek suo ex sorore nepoti"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesto Casparo Cyganek suo ex sorore nepoti"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannem Cyganek Textorem sororinum suum et Dorotheam coniuges ... suo ex sorore nepoti"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannem Cyganek Textorem sororinum suum et Dorotheam coniuges Cives Camenecen"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannem Cyganek Textorem sororinum suum et Dorotheam coniuges Cives Camenecen"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestum Joannem Kalinowski Suburbanum Leopoliensis"
+    }
+  ]
+}

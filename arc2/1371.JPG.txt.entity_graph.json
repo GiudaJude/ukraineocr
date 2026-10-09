@@ -1,0 +1,153 @@
+{
+  "document_id": "arc2/1371.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis istius"
+      ],
+      "justification": "Identified from the suburban resident of Lviv ('Suburbano Leopoliensi') and local municipal law ('secundum Jura Ciuitatis istius')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenis pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase sum specified in Polish florins."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv mentioned in the empowerment clause."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/chancery office that confirmed the tutor and recorded the act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Helisabeth Strachowska",
+      "mention_texts": [
+        "Helisabeth Strachowska"
+      ],
+      "descriptive_mentions": [
+        "praefata",
+        "vidua",
+        "illa"
+      ],
+      "justification": "Widow making the declaration of funds and property resignation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Koronska",
+      "mention_texts": [
+        "Albertum Koronska"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Tutore",
+        "Praetori Octavirum",
+        "praefatus Tutor"
+      ],
+      "justification": "Elected council official acting as official guardian (tutor) for Helisabeth Strachowska."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Szadkowski",
+      "mention_texts": [
+        "Bartholomei Szadkowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Patricii",
+        "Lutores"
+      ],
+      "justification": "Patrician of Lviv acting as guardian to the minor children of the late Joannes Szadkowski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szadkowski",
+      "mention_texts": [
+        "Joannis Szadkowski"
+      ],
+      "descriptive_mentions": [
+        "Dicti",
+        "Patricii",
+        "mariti"
+      ],
+      "justification": "Deceased patrician husband whose estate is referenced in the declaration."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "66 florins",
+      "mention_texts": [
+        "Florenos sexaginta sex",
+        "sexaginta sex florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of florins derived from the deceased husband's estate."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wasyl",
+      "mention_texts": [
+        "Joannes Wasyl",
+        "Joannes Wosiol Radziszek"
+      ],
+      "descriptive_mentions": [
+        "Honestus"
+      ],
+      "justification": "Person appearing in the subsequent act entry, noted as 'Joannes Wasyl' in the margin and 'Joannes Wosiol Radziszek' in the entry header."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0622: Felix",
+      "mention_texts": [
+        "Felix"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person appearing at the conclusion of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "praefata Helisabeth Strachowska vidua per praesumptum sibi Tutore ex Officio nostro confirmata Honestum Albertum Koronska"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Helisabeth Strachowska vidua ... sui mariti relictos"
+    }
+  ]
+}

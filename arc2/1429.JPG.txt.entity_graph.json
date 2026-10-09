@@ -1,0 +1,198 @@
+{
+  "document_id": "arc2/1429.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Praefatum",
+        "Judicii Consulari praefato",
+        "Officium Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officium"
+      ],
+      "justification": "ORG-0003 is the municipal council of Lviv mentioned in the legal proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regnum",
+        "Regni"
+      ],
+      "descriptive_mentions": [
+        "Reipublicae"
+      ],
+      "justification": "LOC-0093 refers to the Kingdom of Poland (Regnum)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post festum Sancti Michaelis Archangeli proxima Anno Domini Millesimo Quingentesimo Nonagesimo Sexto"
+      ],
+      "descriptive_mentions": [
+        "anno decimo Regni",
+        "Regni vero nostri sexto"
+      ],
+      "justification": "The document is dated the Monday after the Feast of St. Michael in 1596."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festum Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the feast day of Saint Michael the Archangel used in the date clause."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Rex",
+        "Regis",
+        "nos"
+      ],
+      "justification": "King Sigismund III Vasa, who issued the royal decree and is referenced as Sacra Regia Maiestas."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joannis Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Conciliarii",
+        "Cancelarii Regni",
+        "Regisque Vicecancellarii",
+        "Vicecancellarii"
+      ],
+      "justification": "Jan Tarnowski, royal vice-chancellor delivering the relation of the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannes Zamoyski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Corpus alias list groups the chancellor Joannes Zamoyski under PER-0071."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Orga",
+      "mention_texts": [
+        "Nicolaus Orga",
+        "Theolonus Orga",
+        "Orga"
+      ],
+      "descriptive_mentions": [
+        "Theolonus",
+        "Exactor",
+        "terrae Exactor"
+      ],
+      "justification": "Nicolaus Orga, former toll collector/exactor of the Halicz land."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mathias Sowic",
+      "mention_texts": [
+        "Mathiam Sowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum"
+      ],
+      "justification": "Famatus Mathias Sowic appearing on behalf of Nicolaus Orga."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sassowski",
+      "mention_texts": [
+        "Joannem Sassowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Nobilis Joannes Sassowski appearing for the assessors of the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Swystowski",
+      "mention_texts": [
+        "Joanni Swystowski",
+        "Joannes Swystowski"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "per fatus"
+      ],
+      "justification": "Joannes Swystowski, appointed by the king to collect the toll."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Złotnik",
+      "mention_texts": [
+        "Joannem Złotniko-"
+      ],
+      "descriptive_mentions": [
+        "Honoratum"
+      ],
+      "justification": "Honoratus Joannes Złotnik(owicz) appearing for the cited merchants."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "J. Jerzembic",
+      "mention_texts": [
+        "J. Jerzembic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Chancery clerk or secretary countersigning the decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "Nicolaus Orga per Famatum Mathiam Sowic"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "ruler_of",
+      "tail_entity_id": "E2",
+      "evidence": "anno decimo Regni. Regni vero nostri sexto"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Cancelarii Regni Regis Regnique Vicecancellarii"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Cancelarii Regni Regis Regnique Vicecancellarii"
+    }
+  ]
+}

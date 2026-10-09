@@ -1,0 +1,185 @@
+{
+  "document_id": "arc2/1437.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "Officii eiusdem",
+        "officio",
+        "Decreto Officii"
+      ],
+      "justification": "The consular office/city council of Lviv before which the dispute is heard and which renders the interlocutory decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Duttendorff"
+      ],
+      "descriptive_mentions": [
+        "citatus",
+        "Executor",
+        "Tutor",
+        "praedictus citatus",
+        "ciuis",
+        "eundem citatum"
+      ],
+      "justification": "Martinus Rottendorff (spelled Duttendorff), citizen of Lviv, cited as executor and guardian of the estate of the late Catherina Wojnarowa."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "feria secunda ante festum Nativitatis Mariae",
+      "mention_texts": [
+        "feria secunda ante festum Nativitatis Mariae Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree mentioned in the proceedings."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "27 florins",
+      "mention_texts": [
+        "viginti septem florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The total debt of twenty-seven florins demanded from the estate."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Caterinam Woinarowa",
+        "Catorinae Woinarowa",
+        "Choinarowa",
+        "Woinarowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "Civem Leopoliensem",
+        "praefatae",
+        "eiusdem",
+        "praenominatae",
+        "debetricis"
+      ],
+      "justification": "The deceased debtor whose testament and remaining estate are under examination."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, whose citizenship Catherina Wojnarowa and Martinus Rottendorff held."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Israel Judaeus",
+      "mention_texts": [
+        "Israeli Judaeo"
+      ],
+      "descriptive_mentions": [
+        "actor modernus",
+        "idem Judaeus",
+        "Actor",
+        "Actor Judaeus"
+      ],
+      "justification": "Jewish creditor who acts as plaintiff demanding payment of the debts recorded in Wojnarowa's testament."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "17 florins",
+      "mention_texts": [
+        "decemseptem florenos",
+        "septemdecim florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of seventeen florins bequeathed/recognized to Israel the Jew in Wojnarowa's testament."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Israel the Other",
+      "mention_texts": [
+        "Israeli Judaeo",
+        "Israele",
+        "Israelis Judaei"
+      ],
+      "descriptive_mentions": [
+        "Alteri",
+        "altero",
+        "alterius illius"
+      ],
+      "justification": "The second Jewish creditor named Israel mentioned in Wojnarowa's testament as being owed ten florins."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "decem florenos",
+        "decem florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of ten florins recognized to the other Israel the Jew in Wojnarowa's testament."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "executor of will of",
+      "tail_entity_id": "E5",
+      "evidence": "cuius testamenti idem citatus est Executor"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "guardian of children of",
+      "tail_entity_id": "E5",
+      "evidence": "et liberorum Tutor contracti"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen of",
+      "tail_entity_id": "E6",
+      "evidence": "Caterinam Woinarowa Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen of",
+      "tail_entity_id": "E6",
+      "evidence": "sed si citatus vt ciuis est probare vult quod asserit"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor of",
+      "tail_entity_id": "E7",
+      "evidence": "Item recognouit se debere Israeli Judaeo decemseptem florenos."
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor of",
+      "tail_entity_id": "E9",
+      "evidence": "Item recognouit: Alteri Israeli Judaeo debere se decem florenos vel plus aliquid."
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located in",
+      "tail_entity_id": "E6",
+      "evidence": "Officium Consulare Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "document_id": "arc2/0960.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officium praesens",
+        "officij eiusdem"
+      ],
+      "justification": "The court before which the parties appear and which issued the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Scholz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "The alderman and citizen of Lviv submitting the denunciation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the jurisdictional and civic titles."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0191: PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Casparum Gidzinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et Spectabilem",
+        "D.",
+        "Consulem Leopoliensem",
+        "Curatores"
+      ],
+      "justification": "The consul of Lviv acting as curator, summoned to the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorium Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellentem",
+        "D.",
+        "Iuris Utriusque Doctorem",
+        "praetoris Advocatum Ordinarium Leopoliensis",
+        "Curatores"
+      ],
+      "justification": "Doctor of both laws and ordinary advocate acting as curator."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0705: Andreas Bienkowic",
+      "mention_texts": [
+        "Andreae Gelazini"
+      ],
+      "descriptive_mentions": [
+        "Eugenii",
+        "filij"
+      ],
+      "justification": "The ward under the curatorship of Caspar Gidziński and Gregorius Dobrocki."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelazini",
+      "mention_texts": [
+        "Nicolai Gelazini"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "I. U. Doctoris Consulti quondam Leopoliensis"
+      ],
+      "justification": "The deceased father of Andreas Gelazini, doctor of laws in Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "uti Curatores Eugenii Andreae Gelazini filij"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "uti Curatores Eugenii Andreae Gelazini filij"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreae Gelazini filij olim Nicolai Gelazini"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobus Scholz Scabinus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Casparum Gidzinski Consulem Leopoliensem"
+    }
+  ]
+}

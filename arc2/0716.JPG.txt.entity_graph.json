@@ -1,0 +1,64 @@
+{
+  "document_id": "arc2/0716.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "ciuitatis"
+      ],
+      "justification": "The city of Lwów referenced adjectivally in the titles of the municipal council and in reference to the city's common order."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari Leopoliensis",
+        "Magistratus consularis Leopoliensis",
+        "Magistratui Consulari",
+        "Consulari"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Officium illud"
+      ],
+      "justification": "The consular magistracy and governing council of Lviv whose jurisdiction over the creation and dissolution of guilds is asserted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Goldsmiths' Guild",
+      "mention_texts": [
+        "Contubernij Aurifabrorum"
+      ],
+      "descriptive_mentions": [
+        "Contuberniorum",
+        "contuberniorum",
+        "contubernia",
+        "contubernij",
+        "Contubernium Citatorum",
+        "suum contubernium"
+      ],
+      "justification": "The Goldsmiths' Guild of Lviv, whose masters appear in a dispute concerning guild division and separation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Magistratus consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Magistri Contubernij Aurifabrorum ... propter bonum ordinem ciuitatis commune sit"
+    }
+  ]
+}

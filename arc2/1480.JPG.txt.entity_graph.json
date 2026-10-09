@@ -1,0 +1,263 @@
+{
+  "document_id": "arc2/1480.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szorostan",
+      "mention_texts": [
+        "Andreae Szorostan"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Identified by proper name as former owner of the house bordering the property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Caterinae",
+        "Caterina"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugi",
+        "filiabus",
+        "filius"
+      ],
+      "justification": "Caterina, daughter of Błażej Surma and wife of Simon Doliator (bednarz)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Simonis Doliatoris",
+        "Symone Doliatorem"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "maritum suum",
+        "Famatus"
+      ],
+      "justification": "Simon the cooper (Doliator), husband of Catherina."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae",
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "virgini adultae",
+        "filiabus",
+        "filia",
+        "coniuge"
+      ],
+      "justification": "Dorothea, daughter of Błażej Surma and wife of Valentinus Jartys."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Blasius Surma",
+      "mention_texts": [
+        "Blasii Surma",
+        "Surma",
+        "Surmka",
+        "Blasii Surmka",
+        "Blasius Surmka"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "praesentis",
+        "idem"
+      ],
+      "justification": "Father of Catherina and Dorothea, making the property transfer."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Honesta",
+        "coniuge sua primariae nuptiarum"
+      ],
+      "justification": "Late first wife of Blasius Surma, mother of Catherina and Dorothea."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Jartys",
+      "mention_texts": [
+        "Valentini Jartys",
+        "Valentinum"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Camenecensis",
+        "maritum suum",
+        "Tutorem naturalem"
+      ],
+      "justification": "Citizen of Kamieniec Podolski and husband of Dorothea."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cziorzeiski",
+      "mention_texts": [
+        "Stanislai Cziorzeiski"
+      ],
+      "descriptive_mentions": [
+        "Nobilitatem",
+        "Tutores suos"
+      ],
+      "justification": "Noble guardian acting on behalf of Dorothea."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "Civitatem",
+        "Civitatis Praefatae",
+        "Civitatis istius"
+      ],
+      "justification": "City in which the properties and court are situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Judicio Praesenti"
+      ],
+      "justification": "The municipal court receiving the renunciation for record in the memoriale."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensis",
+        "Civitas Camenecen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Valentinus Jartys is a citizen and whose municipal seal authenticated documents."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0053: Podolia",
+      "mention_texts": [
+        "podoliae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region in which Kamieniec is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginam"
+      ],
+      "descriptive_mentions": [
+        "suam uxorem modernam",
+        "Honestam",
+        "prioris matrimonii Bartholomaei Kotz coniugem"
+      ],
+      "justification": "Present wife of Blasius Surma, formerly married to Bartholomaeus Kotz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Kotz",
+      "mention_texts": [
+        "Bartholomaei Kotz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Former husband of Regina from her prior marriage."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Caterinae coniugi Famati Simonis Doliatoris"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Caterinae ... filiabus dicti Blasii Surma"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Caterinae ... filiabus dicti Blasii Surma ex olim Honesta Anna coniuge sua primariae nuptiarum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Dorotheae virgini adultae filiabus dicti Blasii Surma"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Dorotheae virgini adultae filiabus dicti Blasii Surma ex olim Honesta Anna coniuge sua primariae nuptiarum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Dorothea filia dicti Surma syna coniuge praedicti Famati Valentini Jartys ... per Valentinum maritum suum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "dicti Blasii Surma ex olim Honesta Anna coniuge sua primariae nuptiarum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "dicti Blasii Surmka ... circa modernam coniugem eius ... circa suam uxorem modernam Honestam Reginam"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Reginam prioris matrimonii Bartholomaei Kotz coniugem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Valentini Jartys Civis Camenecensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "Civitas Camenecen podoliae"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/1286.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Czusonka",
+      "mention_texts": [
+        "Grissero Czusonka",
+        "Christophorus Cvysonka"
+      ],
+      "descriptive_mentions": [
+        "Sutori",
+        "coniugibus Suburbanis Leopoliensibus",
+        "emptor",
+        "emptoribus",
+        "eisdem"
+      ],
+      "justification": "Christophorus Czusonka (referred to in dative as Grissero Czusonka Sutori and in nominative as Christophorus Cvysonka emptor) buys half of a plot of land with his wife Catherina."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus Suburbanis Leopoliensibus",
+        "emptoribus"
+      ],
+      "justification": "Catherina is the wife of Christophorus Czusonka, buying the property jointly with him."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Barber",
+      "mention_texts": [
+        "Stanislaus Barber",
+        "Stanislai Barber"
+      ],
+      "descriptive_mentions": [
+        "venditor",
+        "venditores"
+      ],
+      "justification": "Stanislaus Barber is the seller of the plot of land."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "barbara Maroszaikowna"
+      ],
+      "descriptive_mentions": [
+        "primi matrimonii consorte",
+        "olim"
+      ],
+      "justification": "The deceased first wife of Stanislaus Barber, mother of his children whose maternal inheritance is mentioned."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Samson",
+      "mention_texts": [
+        "Samiorom"
+      ],
+      "descriptive_mentions": [
+        "Honorabilem",
+        "D.",
+        "Scabinum in Judicio Exposito Bannito",
+        "Plenipotentem",
+        "mandatarium",
+        "Plenipotens"
+      ],
+      "justification": "The honorable juror appointed as plenipotentiary for the resignation in the Bannite Court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitati"
+      ],
+      "justification": "The city of Lwów (Leopolis), mentioned in Suburbanis Leopoliensibus, Leopoli, and Civitati."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Bannite Court of Lviv where the scabin presides and the resignation is to be registered."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0221: CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "octoginta florenorum Polonicalium",
+        "octoginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "praetio",
+        "praecio"
+      ],
+      "justification": "The purchase price paid for half of the plot."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "12 Polish groschen",
+      "mention_texts": [
+        "grossos duodecim Polonicales"
+      ],
+      "descriptive_mentions": [
+        "census"
+      ],
+      "justification": "The annual rent originally paid to the city from the whole plot."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Grissero Czusonka Sutori et Catherinae coniugibus Suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Barber ex olim barbara Maroszaikowna primi matrimonii consorte"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Scabinum in Judicio Exposito Bannito"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Judicio Exposito Bannito quandoqunqs Leopoli celebrari xesidenti"
+    }
+  ]
+}

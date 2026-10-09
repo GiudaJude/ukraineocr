@@ -1,0 +1,248 @@
+{
+  "document_id": "arc2/0806.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Potomkowicz",
+      "mention_texts": [
+        "Bartholomeus",
+        "Potomkowyczy"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "fratres germani",
+        "satis iam adulti"
+      ],
+      "justification": "Appears in entry 754 to acknowledge receipt of his inheritance and release the goldsmiths' guild from guardianship."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Potomkowicz",
+      "mention_texts": [
+        "Jacobus",
+        "Potomkowyczy"
+      ],
+      "descriptive_mentions": [
+        "fratres germani",
+        "satis iam adulti"
+      ],
+      "justification": "Brother of Bartholomeus, appearing alongside him in entry 754."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Stomiaszko",
+      "mention_texts": [
+        "Andreae Stomiaszkí"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Aurifabricii",
+        "coniugium Suburbanorum Leopoliensis",
+        "parentum"
+      ],
+      "justification": "Deceased goldsmith and father of Bartholomeus, Jacobus, and Albertus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Stomiaszko",
+      "mention_texts": [
+        "Alberti"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "fratris sui germani",
+        "eodem fratre"
+      ],
+      "justification": "Deceased brother of Bartholomeus and Jacobus, whose share of the inheritance is settled."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Goldsmiths' Guild of Lviv",
+      "mention_texts": [
+        "Contubernij Aurifabrorum Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Magni Contubernij Aurifabrorum Civitatis Leopoliensis",
+        "Contubernium praefatum",
+        "Contubernium"
+      ],
+      "justification": "Guild that administered the guardianship of the orphans of Andreas Stomiaszko."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis",
+        "Leopolienses",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the parties reside, the guild operates, and the court records were drafted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Krocieiewski",
+      "mention_texts": [
+        "Erasmus Krocieiewski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Nobleman who grants power of attorney in entry 755."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Maślicki",
+      "mention_texts": [
+        "Andreae Maslicki",
+        "Mosciczkí"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Plenipotentem",
+        "mandatarium",
+        "causamque iuris Civilis Magdeburgensis Frendiarium",
+        "Pleni"
+      ],
+      "justification": "Legal proctor appointed by Erasmus Krocieiewski to collect a deposit."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "260 Polish florins",
+      "mention_texts": [
+        "Ducentorum sexaginta Zlotorum Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money deposited in Kraków to be recovered by the attorney."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the money was entrusted to Martinus Hanel."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Martinus Hanel",
+      "mention_texts": [
+        "Martino Hanel"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensis",
+        "memorato",
+        "depositario suo"
+      ],
+      "justification": "Citizen of Lviv who received the deposit in Kraków."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Actis Advocatialibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv court registry where the debt inscription was recorded."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria sexta in Crastino Circumcisionis Domini Anno eiusdem 1596 currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry in the advocatial acts referenced in entry 755."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestus Bartholomeus et Jacobus Potomkowyczy fratres germani"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestus Bartholomeus et Jacobus Potomkowyczy fratres germani"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Bartholomeus et Jacobus Potomkowyczy fratres germani Actorum olim Andreae Stomiaszkí Aurifabricii"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Bartholomeus et Jacobus Potomkowyczy fratres germani Actorum olim Andreae Stomiaszkí Aurifabricii"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "olim Alberti fratris sui germani ... ab obitu parentum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "olim Alberti fratris sui germani"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "olim Alberti fratris sui germani"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andreae Stomiaszkí Aurifabricii ... Contubernij Aurifabrorum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "based_in",
+      "tail_entity_id": "E6",
+      "evidence": "Contubernij Aurifabrorum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "ordinauit nimirum verum legitimum in disputationibus Plenipotentem et mandatarium Nobilem Fidelem Mosciczkí"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Martino Hanel Civi Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "based_in",
+      "tail_entity_id": "E6",
+      "evidence": "Actis Advocatialibus Leopoliensibus"
+    }
+  ]
+}

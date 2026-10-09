@@ -1,0 +1,171 @@
+{
+  "document_id": "arc2/1073.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stephanus",
+      "mention_texts": [
+        "Stephani",
+        "Stephano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual mentioned in the preceding testimony regarding a marriage and dowry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "matre",
+        "coniugibus"
+      ],
+      "justification": "Mother named in the marriage testimony in paragraph one."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Cosmas Poclik",
+      "mention_texts": [
+        "Cosma Poclik"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges Suburbani Leopoliense",
+        "maritum tutorem suum legitimum",
+        "praefatis quietatoribus"
+      ],
+      "justification": "Party issuing the acquittance together with his wife Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopoliense",
+        "praefatis quietatoribus"
+      ],
+      "justification": "Wife of Cosmas Poclik appearing in the quietatio."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburb is inhabited by Cosmas Poclik and Anna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "florenis quinquaginta",
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 50 Polish florins refunded by Lucia Tworzowa."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0847: Lucia Cwartowa",
+      "mention_texts": [
+        "Luciae Tworzowa",
+        "Luciam Tworzowa",
+        "Lucia Tworzowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Honesta",
+        "Praefata",
+        "Famati Jacobi Tworek coniuge divorciata",
+        "eandem"
+      ],
+      "justification": "Divorced wife of Jacobus Tworek who repaid the purchase price and received the acquittance."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "ijsdem Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official municipal records in which the prior entry and current acquittance were inscribed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta post Omnium Sanctorum Latoris proxima Anno Domini 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous transaction record."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Paschatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deadline by which the payment was originally due."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Tworek",
+      "mention_texts": [
+        "Jacobi Tworek"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Former husband of Lucia Tworzowa."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem Koral"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "filium suum praesentem"
+      ],
+      "justification": "Son of Lucia Tworzowa acting on her behalf."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Cosma Poclik et Anna coniuges Suburbani Leopoliense"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Lucia Tworzowa Famati Jacobi Tworek coniuge divorciata"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Lucia Tworzowa per Honestum Simonem Koral filium suum praesentem"
+    }
+  ]
+}

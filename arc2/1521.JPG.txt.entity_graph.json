@@ -1,0 +1,308 @@
+{
+  "document_id": "arc2/1521.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrix",
+      "mention_texts": [
+        "Petricem"
+      ],
+      "descriptive_mentions": [
+        "Actrix",
+        "actrici"
+      ],
+      "justification": "Named in the first text fragment as having sold a small house ('domuncula certa per Petricem citatis... vendita')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "feria quarta ante festum Purificationis Beatae Mariae Virginis",
+      "mention_texts": [
+        "feria quarta an Purificationis Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of a previous act referred to in the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "iisdem Actis",
+        "Officii Consulatus Leopoliensis",
+        "Officio Domini Advocati",
+        "Honoratorum Domini Advocati et Fideiussorum Juris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council and advocatial judicial authorities issuing and recording the decrees."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Swirzmiow",
+      "mention_texts": [
+        "Paulum Swirzmiow"
+      ],
+      "descriptive_mentions": [
+        "Cerdonem"
+      ],
+      "justification": "Appears in the title rubric of the decree as a tanner/shoemaker."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Apostolowski",
+      "mention_texts": [
+        "Hieronymum Apostolowski"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "actorem",
+        "Cerdones Suburbanos Leopolienses",
+        "Actori",
+        "Creditori"
+      ],
+      "justification": "Plaintiff in the lawsuit over a debt of 28 Polish florins."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucam"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "citatum",
+        "Cerdones Suburbanos Leopolienses",
+        "citati",
+        "citatum",
+        "Cerdones citatus",
+        "praedicto debitori"
+      ],
+      "justification": "Defendant tanner in the debt decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "28 Polish florins",
+      "mention_texts": [
+        "viginti octo florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary amount of the debt at dispute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, place of jurisdiction and citizenship."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "sabbato postridie festi Beati Nicolai Episcopi Anno Domini 1597",
+        "Anno Domini 1597"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry of the decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Gabriel Suarez",
+      "mention_texts": [
+        "Gabriel Suarez"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory/consular officer subscribing the decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Farrus Regul",
+      "mention_texts": [
+        "Farrus Regul"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official/signatory subscribing the decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honestae ac Pudicae",
+        "Filiae Legitimae",
+        "earum",
+        "illa"
+      ],
+      "justification": "Daughter of late consul Jacobus Regulus and Agnes, appearing in court."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Christina Bertczeles",
+      "mention_texts": [
+        "Christina Bertczeles"
+      ],
+      "descriptive_mentions": [
+        "Honestae ac Pudicae",
+        "Filiae Legitimae",
+        "earum",
+        "illa"
+      ],
+      "justification": "Daughter of late consul Jacobus Regulus and Agnes, appearing with her sister Sophia."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Regulus",
+      "mention_texts": [
+        "Jacobi Reguli"
+      ],
+      "descriptive_mentions": [
+        "olim Domini",
+        "Consulis Leopoliensis",
+        "coniugum Civium Leopoliensium"
+      ],
+      "justification": "Deceased consul of Lviv, father of Sophia and Christina."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "Honestae Dominae",
+        "coniugum Civium Leopoliensium"
+      ],
+      "justification": "Wife of deceased consul Jacobus Regulus and mother of Sophia and Christina."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Felt",
+      "mention_texts": [
+        "Jacobum Felt"
+      ],
+      "descriptive_mentions": [
+        "Idem Dominum",
+        "Collegam meum Consularem",
+        "tutorem suum legitimum ad hoc assumptum et approbatum"
+      ],
+      "justification": "Lviv councilman acting as legal guardian for Sophia and Christina."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "suburbio Cracoviensi dicto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kraków Suburb of Lviv, where the inherited property is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "litigates against",
+      "tail_entity_id": "E6",
+      "evidence": "inter Honestos Hieronymum Apostolowski actorem, et Lucam citatum Cerdones Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident of",
+      "tail_entity_id": "E8",
+      "evidence": "Hieronymum Apostolowski... Cerdones Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident of",
+      "tail_entity_id": "E8",
+      "evidence": "Lucam citatum Cerdones Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse of",
+      "tail_entity_id": "E15",
+      "evidence": "olim Domini Jacobi Reguli Consulis Leopoliensis et Honestae Dominae Agnetis coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child of",
+      "tail_entity_id": "E14",
+      "evidence": "Sophia et Christina Bertczeles olim Domini Jacobi Reguli Consulis Leopoliensis... Filiae Legitimae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child of",
+      "tail_entity_id": "E15",
+      "evidence": "Sophia et Christina Bertczeles olim Domini Jacobi Reguli Consulis Leopoliensis et Honestae Dominae Agnetis coniugum Civium Leopoliensium Filiae Legitimae"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child of",
+      "tail_entity_id": "E14",
+      "evidence": "Sophia et Christina Bertczeles olim Domini Jacobi Reguli Consulis Leopoliensis... Filiae Legitimae"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child of",
+      "tail_entity_id": "E15",
+      "evidence": "Sophia et Christina Bertczeles olim Domini Jacobi Reguli Consulis Leopoliensis et Honestae Dominae Agnetis coniugum Civium Leopoliensium Filiae Legitimae"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "legal guardian of",
+      "tail_entity_id": "E12",
+      "evidence": "per Idem Dominum Jacobum Felt Collegam meum Consularem tutorem suum legitimum ad hoc assumptum et approbatum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "legal guardian of",
+      "tail_entity_id": "E13",
+      "evidence": "per Idem Dominum Jacobum Felt Collegam meum Consularem tutorem suum legitimum ad hoc assumptum et approbatum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member of",
+      "tail_entity_id": "E3",
+      "evidence": "olim Domini Jacobi Reguli Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "member of",
+      "tail_entity_id": "E3",
+      "evidence": "Dominum Jacobum Felt Collegam meum Consularem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "property owner in",
+      "tail_entity_id": "E17",
+      "evidence": "sortes certas suas sexvitanas in domo et sorto in suburbio Cracoviensi dicto"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "property owner in",
+      "tail_entity_id": "E17",
+      "evidence": "sortes certas suas sexvitanas in domo et sorto in suburbio Cracoviensi dicto"
+    }
+  ]
+}

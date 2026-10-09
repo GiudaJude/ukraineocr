@@ -1,0 +1,223 @@
+{
+  "document_id": "arc2/0451.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts were executed and where Hans Rupert was a citizen."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia post Sancti Bartholomei Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "die et Anno vt supra"
+      ],
+      "justification": "Date of the recorded council acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis",
+        "Officij"
+      ],
+      "descriptive_mentions": [
+        "Fisy nostri",
+        "nobis"
+      ],
+      "justification": "The municipal council office before which the parties appeared."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Ligomades",
+      "mention_texts": [
+        "Nicolaus Ligomades Irenus"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "Party acknowledging receipt of his chest from sequestration."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Dzierzak",
+      "mention_texts": [
+        "Christophori Dzierzak"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Vexilliferi Trocensis"
+      ],
+      "justification": "Noble witness present at the receipt of the chest."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as part of the title of the Castellan at whose instance the chest was sequestrated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Lucas Smarsnik",
+      "mention_texts": [
+        "Lucas Smarsnik"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Funifex",
+        "ex fratre nepos",
+        "Citatos"
+      ],
+      "justification": "Ropemaker and nephew of the deceased Hans Rupert."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Hans Rupert",
+      "mention_texts": [
+        "Hannis Rupret",
+        "Hannys Rupert",
+        "Hannis Rupert"
+      ],
+      "descriptive_mentions": [
+        "Famatam",
+        "olim",
+        "Ciuis Leopoliensis",
+        "steriliter vite functi",
+        "praedicti"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and royal decree are referenced."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Helias",
+      "mention_texts": [
+        "Heluis"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "fratris sui germani"
+      ],
+      "justification": "Full brother of Lucas Smarsnik."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "praedicti Hannis Rupert vidua relicta",
+        "Citatos"
+      ],
+      "justification": "Widow of the deceased Hans Rupert."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Andreas Moraciński",
+      "mention_texts": [
+        "Andream Moracinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Tutorem",
+        "Prolocutorem suum"
+      ],
+      "justification": "Guardian and legal advocate representing Agnes."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland whose royal decree is submitted."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Słozowski",
+      "mention_texts": [
+        "Laurentium Słozowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Sacrae Regiae Maiestatis Secretarium",
+        "Actorem"
+      ],
+      "justification": "Royal secretary and canon of Kraków named as plaintiff in the decree."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracouiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Laurentius Słozowski is canon."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "nephew_of",
+      "tail_entity_id": "E8",
+      "evidence": "Lucas Smarsnik Funifex Bellio- nem scilicet Famatam olim Hannys Rupert Funeristic Ciuis Leo- poliensis steriliter vite functi ex fratre nepos"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "brother_of",
+      "tail_entity_id": "E9",
+      "evidence": "in absentia prouident Honestae Heluis fratris sui germani"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "widow_of",
+      "tail_entity_id": "E8",
+      "evidence": "Agnes praedicti Hannis Rupert vidua relicta"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "per Nobilem Andream Moracinski Tutorem et Prolocu- torem suum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "secretary_of",
+      "tail_entity_id": "E12",
+      "evidence": "Laurentium Słozowski Canonici Cracouiensis Sacrae Regiae Maiestatis Secretarium"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "olim Hannys Rupert Funeristic Ciuis Leo- poliensis"
+    }
+  ]
+}

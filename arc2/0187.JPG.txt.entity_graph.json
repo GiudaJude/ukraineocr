@@ -1,0 +1,202 @@
+{
+  "document_id": "arc2/0187.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joanni Jelonek",
+        "Joanne Jelonek",
+        "Joannes Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pellione Cive Leopoliensi",
+        "Famato eodem",
+        "Pellione",
+        "Cive Leopoliensi",
+        "Famatus",
+        "Pellio Civis Leopoliensis"
+      ],
+      "justification": "Named as the inheritor, furrier, and citizen of Lviv making the quietatio and recognitio."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [
+        "Civitas",
+        "Civitatis eiusdem"
+      ],
+      "justification": "The city of Lviv is referenced in citizen titles and suburb designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis",
+        "iisdem Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Refers to the municipal acts/registers of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "29 November 1594",
+      "mention_texts": [
+        "feria secunda in vigilia Beati Andreae Apostoli Anno Domini 1591 farto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/recognitio cited in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "80 Polish florins",
+      "mention_texts": [
+        "octoginta florenorum pecuniae et monetae Polonicalis",
+        "florenorum octoginta pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "summam debiti"
+      ],
+      "justification": "Monetary sum received and hypothecated on behalf of the hospital."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Hospital of Saint Stanislaus",
+      "mention_texts": [
+        "Hospitali Sancti Stanislai Episcopi",
+        "Hospitalis Sancti Stanislai",
+        "Hospitales ... Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Suburbano Hospitali",
+        "Pauperibus Hospitalis Sancti Stanislai"
+      ],
+      "justification": "The suburban hospital of St. Stanislaus to which the legacy was made."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Dzyianowska House",
+      "mention_texts": [
+        "Dzyianowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "domo lapidea antiquitus Dzyianowska vocata",
+        "domoque praedictam Dzyianowska vocatam"
+      ],
+      "justification": "A masonry house formerly called Dzyianowska mentioned in the previous inscription."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0246: Paulus Jelonek",
+      "mention_texts": [
+        "Paulum Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Civis et Mercatorem"
+      ],
+      "justification": "Deceased merchant and citizen mentioned in connection with the legacy."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmi Jelonek",
+        "Erasmum"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis et Mercatoris Leopoliensis",
+        "patris sui germani",
+        "praedictum Erasmum Patrem suum"
+      ],
+      "justification": "Father of Joannes Jelonek, freed from debt obligation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "1 July 1585",
+      "mention_texts": [
+        "feria secunda post crastino festi Sanctorum Petri et Pauli Apostolorum Anno Domini 1585 facto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/inscription cited from the acts."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Szeynowska House",
+      "mention_texts": [
+        "Szeynowska"
+      ],
+      "descriptive_mentions": [
+        "domo sua lapidea Szeynowska"
+      ],
+      "justification": "Masonry house of Joannes Jelonek on which the sum was secured."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stayszla",
+      "mention_texts": [
+        "Joannes Stayszla",
+        "Joannes",
+        "LASAROWIC Stayszta"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburban resident of Lviv making an entry at the bottom of the page."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "patris sui germani"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Pellione Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis et Mercatoris Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "property_owner",
+      "tail_entity_id": "E11",
+      "evidence": "domo sua lapidea Szeynowska"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Suburbanus Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "document_id": "arc2/1379.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare",
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii"
+      ],
+      "justification": "The municipal council of Lviv issuing decrees in the recorded matters."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "hac Civitate"
+      ],
+      "justification": "The city of Lviv referenced in the council's title and the jurisdiction of possession."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Aurifaber",
+      "mention_texts": [
+        "Joanni"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "Aurifabro"
+      ],
+      "justification": "Goldsmith named Joannes mentioned in the first decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szatkowic",
+      "mention_texts": [
+        "Alberti Szatkowic",
+        "Alberto Szatkowic"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Honesto",
+        "Brasiatore",
+        "patre",
+        "coniugibus"
+      ],
+      "justification": "Brewer and father of Catherina, receiving receipt of maternal inheritance."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Skrzypek",
+      "mention_texts": [
+        "Andreas Skrzypek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Husband of Catherina acting on her behalf in the quittance."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Catherina Szatkowic",
+      "mention_texts": [
+        "Caterina",
+        "Catharinam"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "ipsam",
+        "eiusdem"
+      ],
+      "justification": "Daughter of Albertus Szatkowic and Barbara, wife of Andreas Skrzypek."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Barbara Szatkowicowa",
+      "mention_texts": [
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "olim",
+        "matrem"
+      ],
+      "justification": "Deceased mother of Catherina and former wife of Albertus Szatkowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Szatkowicowa",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "noverca posteriorum nuptiarum",
+        "coniugibus"
+      ],
+      "justification": "Stepmother of Catherina and current wife of Albertus Szatkowic."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Catherina Szewczina",
+      "mention_texts": [
+        "Caterina Szewczina",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "honestam"
+      ],
+      "justification": "Person subject to the following council decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesti Andreas Skrzypek et Caterina coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "ad ipsam Catharinam... ab Honesto Alberto Szatkowic Brasiatore patre"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "ad ipsam Catharinam post Honestam olim Barbaram eiusdem matrem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "ad ipsam Catharinam post Honestam olim Barbaram eiusdem matrem iure naturali succorni pertinentem ab Honesto Alberto Szatkowic Brasiatore patre"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "ab Honesto Alberto Szatkowic Brasiatore patre et Dorothea noverca posteriorum nuptiarum coniugibus"
+    }
+  ]
+}

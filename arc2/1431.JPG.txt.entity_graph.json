@@ -1,0 +1,200 @@
+{
+  "document_id": "arc2/1431.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv before which the plenipotentiary was appointed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitet"
+      ],
+      "justification": "The city of Lviv referenced directly and through suburban designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kwatowicz",
+      "mention_texts": [
+        "Andreas Kwatowicz",
+        "Andreae Kwatowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopoliensi",
+        "fratri suo germano",
+        "emptore"
+      ],
+      "justification": "Buyer of the inherited share from his sister Martha."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kwatowicz",
+      "mention_texts": [
+        "Joannes Kwatowicz",
+        "Joannem"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "tutorem"
+      ],
+      "justification": "Named in the entry heading and acting as tutor for Martha."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Świątkowski",
+      "mention_texts": [
+        "Joanna Swiatkowska"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "Suburbani Leopolienses",
+        "ille",
+        "mariti"
+      ],
+      "justification": "Husband of Martha, appearing alongside her to consent to the sale."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martha",
+      "mention_texts": [
+        "Matha",
+        "Szathurna"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "filia",
+        "coniuges",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Sister of Andreas Kwatowicz who sells her inheritance with her husband's consent."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Alexius",
+      "mention_texts": [
+        "Alexiu"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "tutorem"
+      ],
+      "justification": "Tutor appointed alongside Joannes to assist Martha."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Halicio"
+      ],
+      "descriptive_mentions": [
+        "Subverbo"
+      ],
+      "justification": "The Halych suburb of Lviv where the property is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Zoncowska Street",
+      "mention_texts": [
+        "platea Zoncowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the sold house and plot are located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stybla",
+      "mention_texts": [
+        "Joannis Stybla"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the sold property on one side."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Martinus Koper",
+      "mention_texts": [
+        "Martini Koper"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the sold property on the other side."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "34 Polish florins",
+      "mention_texts": [
+        "triginta quattuor florenorum polonicalium numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesti Joanna Swiatkowska et Matha filia Szathurna coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesto Andreae Kwatowicz Suburbano Leopoliensi fratri suo germano"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestos Joannem et Alexiu tutorem sibi ad eum actum cum consensu mariti suis assumpteum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestos Joannem et Alexiu tutorem sibi ad eum actum cum consensu mariti suis assumpteum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Subverbo Halicio vocato in platea Zoncowska"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in eadem Civitet Subverbo Halicio vocato"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in Judicio Exposito Leopoli"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/1528.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officiis",
+        "Officio Consulari Leopoliensi",
+        "Officium praesens",
+        "Officium Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii eiusdem"
+      ],
+      "justification": "The municipal council and court of Lviv before which the surety and legal decree were enacted."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Radzowski",
+      "mention_texts": [
+        "Andream Radzowski"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "fideiussorem",
+        "Qui quidem",
+        "Praedicto quoque Honorato fideiussori",
+        "idem Honoratus fideiussor"
+      ],
+      "justification": "Guarantor who stood surety for Albertus Feski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Feski",
+      "mention_texts": [
+        "Alberto Feski",
+        "Albertho Feski",
+        "Albertus Feski"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "vita donato",
+        "praedictus"
+      ],
+      "justification": "Individual receiving surety who pledged his goods and person to Andreas Radzowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, place of jurisdiction and citizenship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Sabbato post festum\nConceptionis Mariae Virginis Sacrae Anno Domini 1590",
+        "sabbato ante Dominicam\nSanctissimae Trinitatis Anno eodem currenti"
+      ],
+      "descriptive_mentions": [
+        "Anno Domini 1590",
+        "Anno eodem currenti"
+      ],
+      "justification": "The primary act date and the referenced date of the earlier municipal decree in 1590."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Maszko",
+      "mention_texts": [
+        "Maszkiodo"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Actores"
+      ],
+      "justification": "Plaintiff(s) bringing suit against Andreas Ostrowski before the Lviv council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Ostrowski",
+      "mention_texts": [
+        "Andream Iwanysza",
+        "Andrea Ostrowski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "eundem",
+        "ipse",
+        "vilipensorem Decretorum",
+        "citatus praedictus",
+        "se",
+        "sibi",
+        "citatus"
+      ],
+      "justification": "Citizen of Lviv summoned by Maszko and sentenced to prison for contempt of a court decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Lent 1591",
+      "mention_texts": [
+        "futuram quadragesimam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Future date of Lent set as the final deadline for Ostrowski to fulfill the decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E3",
+      "evidence": "Honoratum Andream Radzowski . Qui quidem comparens personaliter fideiussit pro eodem Alberto Feski"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "obligated_to",
+      "tail_entity_id": "E2",
+      "evidence": "Praedicto quoque Honorato fideiussori inscripsit se in omnibus bonis suis habetis et habendis et in persona sua praedictus Albertus Feski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "litigates_against",
+      "tail_entity_id": "E7",
+      "evidence": "Famati Maszkiodo Leopoliensis adcitato ad Officium praesens Famato Andrea Ostrowski Cive Leopoliensi proporuerunt contra eundem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andrea Ostrowski Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "judged_by",
+      "tail_entity_id": "E7",
+      "evidence": "Officium Consulare Leopoliensis partium controversiis exauditis et perpenssis... eundem ob contemptum praefati Decreti ad sessionem carcerariam destinauit"
+    }
+  ]
+}

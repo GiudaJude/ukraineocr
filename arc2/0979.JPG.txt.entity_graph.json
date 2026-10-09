@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0979.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City where the legal proceedings took place and where the persons and properties were located."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die Anno quo supra",
+        "ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Formulaic reference to the date and year established earlier in the court register."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jakubowic",
+      "mention_texts": [
+        "Jakubowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named person in the heading of entry 884."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officium praesens",
+        "Officij",
+        "officium nostrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular office and governing council of Lviv acting in the appeal and recording recognitions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Israel",
+      "mention_texts": [
+        "Israelem"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Judaeorum Judicatum Leopoliensem"
+      ],
+      "justification": "Lviv Jewish elder/judge involved in the litigation against Martinus Rottendorff."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Grodzicki",
+      "mention_texts": [
+        "Jacobum Grodzicium"
+      ],
+      "descriptive_mentions": [
+        "Honorabilem",
+        "Actorem"
+      ],
+      "justification": "Actor/proctor acting on behalf of Israel in the consular court."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinum Zothendorff"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civem Leopoliensem",
+        "praedictus citatus",
+        "citatus",
+        "contumax",
+        "praefatus Conventus"
+      ],
+      "justification": "Scabinus and burgher of Lviv cited as defendant/appellant in the debt case."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Czoło",
+      "mention_texts": [
+        "Nicolai Czolo"
+      ],
+      "descriptive_mentions": [
+        "Famosi",
+        "Famuli Civitatis Jurati"
+      ],
+      "justification": "Sworn town servant/beadle who delivered the court citation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "7 florins",
+      "mention_texts": [
+        "septem florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Original debt amount under dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officium eiusdem Domini Advocati"
+      ],
+      "descriptive_mentions": [
+        "Domini Advocati Ordinarij",
+        "Domini Advocati"
+      ],
+      "justification": "The advocatial court of Lviv whose initial judgment was appealed and to which the case was remitted."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szawrus",
+      "mention_texts": [
+        "Stanislaw Szawrus",
+        "Stanislaus Szawrus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliense"
+      ],
+      "justification": "Suburbanite of Lviv who recognized the sale of his hereditary dowry."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Martinus Scurifaber",
+      "mention_texts": [
+        "Martinus Scurifaber",
+        "Martini Sexrifabri"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopoliense"
+      ],
+      "justification": "Suburbanite at whose instance the recognition was recorded."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "16 Polish florins",
+      "mention_texts": [
+        "florenorum sedecim pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Price for the sale of the hereditary dowry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Israelem Judaeorum Judicatum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "represented_by",
+      "tail_entity_id": "E6",
+      "evidence": "Israelem Judaeorum Judicatum Leopoliensem per Honorabilem Jacobum Grodzicium Actorem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "litigates_against",
+      "tail_entity_id": "E7",
+      "evidence": "inter Infidelem Israelem Judaeorum Judicatum Leopoliensem per Honorabilem Jacobum Grodzicium Actorem et Honoratum Martinum Zothendorff Scabinum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Martinum Zothendorff Scabinum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "employee_of",
+      "tail_entity_id": "E1",
+      "evidence": "Nicolai Czolo Famuli Civitatis Jurati"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislaus Szawrus Suburbanus Leopoliense"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Martini Sexrifabri Suburbani Leopoliense"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/0522.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Baur",
+      "mention_texts": [
+        "Simon"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "Famosi olim Nicolai Baur et Reginae Gęzinorzanka coniugum Quondam Civium Leopoliensium filius",
+        "filius annos iam legitimae aetatis assecutus",
+        "Studiosus Militari"
+      ],
+      "justification": "Described as the legitimate son of the late citizens of Lviv and student/soldier acknowledging settlement of estate."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Baur",
+      "mention_texts": [
+        "Nicolai Baur"
+      ],
+      "descriptive_mentions": [
+        "Famosi olim",
+        "Civium Leopoliensium"
+      ],
+      "justification": "Deceased citizen of Lviv, named alongside Regina Gęzinorzanka as parent/spouse."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Regina Gęzinorzanka",
+      "mention_texts": [
+        "Reginae Gęzinorzanka",
+        "Reginam Gęsinorzanka"
+      ],
+      "descriptive_mentions": [
+        "coniugum Quondam Civium Leopoliensium",
+        "matrem"
+      ],
+      "justification": "Deceased mother of Simon, daughter of Stanislaus and Hedwigis Gęsinorzanka."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Civitatis huius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in citizen titles and privileges."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gęsinorzanka",
+      "mention_texts": [
+        "Stanislaum Gęsinorzanka"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "avum"
+      ],
+      "justification": "Deceased maternal grandfather of Simon."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigim"
+      ],
+      "descriptive_mentions": [
+        "aviam"
+      ],
+      "justification": "Deceased maternal grandmother of Simon."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Ladislaus Baur",
+      "mention_texts": [
+        "Ladislaum Baur"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "patrem"
+      ],
+      "justification": "Deceased father of Simon whose estate is being settled."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislao Anszelino",
+        "D. Anszelinus",
+        "Anszelinus"
+      ],
+      "descriptive_mentions": [
+        "Spectabili Domino",
+        "collega nostro Consulari",
+        "avunculo",
+        "eosdem praefatos avunculum",
+        "Nobilis Domino",
+        "Collega noster Consularis",
+        "ipsius recognoscentis"
+      ],
+      "justification": "Lviv councilor and maternal uncle (avunculus) of Simon."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Clara Grągrodna",
+      "mention_texts": [
+        "Clara"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Famosi Thomae Grągrodny consorte",
+        "matertera",
+        "materteram"
+      ],
+      "justification": "Maternal aunt (matertera) of Simon, wife of Thomas Grągrodny."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Thomas Grągrodny",
+      "mention_texts": [
+        "Thomae Grągrodny"
+      ],
+      "descriptive_mentions": [
+        "Famosi"
+      ],
+      "justification": "Husband of Clara."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari",
+        "officio nostro",
+        "Actis folii Consularis",
+        "Actisque nostris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The governing council and chancery office before which the parties appear."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Benedictus",
+      "mention_texts": [
+        "Benedictum"
+      ],
+      "descriptive_mentions": [
+        "Religiosum Patrem",
+        "ad praesens Ministrum Ordinis Sancti Francisci de observantia",
+        "pro tunc adhuc secularem"
+      ],
+      "justification": "Franciscan minister who previously executed the deed of donation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Ordinis Sancti Francisci de observantia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Franciscan order of which Benedict is currently minister."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "1574",
+      "mention_texts": [
+        "feria secunda in Vigilia Sancti Mathaei Apostoli et Evangelistae Anno Domini 157 quarto",
+        "Anno Domini millesimo quingentesimo Septuagesimo Quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of the registered donation letter."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simon Famosi olim Nicolai Baur et Reginae Gęzinorzanka coniugum Quondam Civium Leopoliensium filius"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "post Famatum olim Ladislaum Baur patrem et Reginam Gęsinorzanka matrem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nicolai Baur et Reginae Gęzinorzanka coniugum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Clara Famosi Thomae Grągrodny consorte"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Domino Stanislao Anszelino collega nostro Consulari"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E13",
+      "evidence": "Patrem Benedictum ad praesens Ministrum Ordinis Sancti Francisci de observantia"
+    }
+  ]
+}

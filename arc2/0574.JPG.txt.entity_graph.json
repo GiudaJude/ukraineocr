@@ -1,0 +1,85 @@
+{
+  "document_id": "arc2/0574.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Eugenius Nicolaus Radomicz",
+      "mention_texts": [
+        "Eugenii",
+        "Eugenium Nicolaum Radomicz"
+      ],
+      "descriptive_mentions": [
+        "pupilli sui",
+        "pupilli",
+        "praefati pupilli sui",
+        "praedictum",
+        "pupillum"
+      ],
+      "justification": "Ward whose hereditary estate located in the suburb of Biecz is being authorized for sale."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Łakowicz",
+      "mention_texts": [
+        "Thomam Łakowicz"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "nuncium verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "praefato suo plenipotenti",
+        "Plenipotentem",
+        "suum Plenipotentem Nobilem"
+      ],
+      "justification": "Noble appointed as plenipotentiary and mandatory to sell the estate."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0339: Biecz",
+      "mention_texts": [
+        "Bieczen"
+      ],
+      "descriptive_mentions": [
+        "suburbio"
+      ],
+      "justification": "Town in whose suburb the estate is situated, and whose court/bench is mentioned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samorzen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town from whose consular acts an instrument was extracted and presented."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta postridie Festi Exaltationis Sanctae Crucis Anno eodem currenti",
+        "Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the act extracted from the consular records."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E1",
+      "evidence": "fecit constituit et solemniter ordinavit nuncium verum legitimum indubitatumque Plenipotentem et mandatarium Nobilem Thomam Łakowicz idque ad vendendum praedium certum in suburbio Bieczen situm praefati pupilli sui haereditarium... praedictum Eugenium Nicolaum Radomicz"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "holds_property_in",
+      "tail_entity_id": "E3",
+      "evidence": "praedium certum in suburbio Bieczen situm praefati pupilli sui haereditarium... praedictum Eugenium Nicolaum Radomicz haereditarie spectans"
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "document_id": "arc2/1515.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "2 Polish florins",
+      "mention_texts": [
+        "duos Florenos Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Specified payment amount at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czekowic",
+      "mention_texts": [
+        "Joanni Czekowicz",
+        "Joannes Czekowic",
+        "Joanni Czekowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Providum"
+      ],
+      "justification": "Party acquiring property shares and receiving payments."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eadem Civitate",
+        "eius Civitatis"
+      ],
+      "justification": "City where the transaction takes place and the citizens reside."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sophia Twardawowna",
+      "mention_texts": [
+        "Sophia Twardawowna",
+        "Szulszowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "primario olim Szulszi secondario vero nuptiarum Adami Sutoris Civis Leopoliensis vidua relicta",
+        "materni",
+        "eadem Sophia",
+        "ipsi quidem Sophiae"
+      ],
+      "justification": "Widow resigning her property shares."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Szulsz",
+      "mention_texts": [
+        "Szulszi",
+        "Szulszko"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "olim patre",
+        "patrem"
+      ],
+      "justification": "First husband of Sophia Twardawowna and father of her deceased children."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Adamus Sutor",
+      "mention_texts": [
+        "Adami Sutoris",
+        "Adamo"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "subducto"
+      ],
+      "justification": "Second husband of Sophia Twardawowna and father of Anna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaum Anserminum"
+      ],
+      "descriptive_mentions": [
+        "Nobilem Dominum",
+        "Collegam nostrum",
+        "tutore sibi rogato"
+      ],
+      "justification": "Council member serving as legal guardian."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "Actis praesentibus",
+        "Collegam nostrum"
+      ],
+      "justification": "Council office acting as the recording authority."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Famela",
+      "mention_texts": [
+        "Jacobus Famela",
+        "Jacobus",
+        "Jacobo"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "sutor",
+        "Gener",
+        "maritum suum",
+        "tutorem legitimum",
+        "marito"
+      ],
+      "justification": "Son-in-law of Sophia, husband and guardian of Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Filia",
+        "consorte sua"
+      ],
+      "justification": "Daughter of Sophia and Adam Sutor, wife of Jacobus Famela."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Krotowska Tenement",
+      "mention_texts": [
+        "Krotowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea dicta"
+      ],
+      "justification": "Stone house whose shares are being transferred."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Cerkiewna Street",
+      "mention_texts": [
+        "Cirkovnica"
+      ],
+      "descriptive_mentions": [
+        "platea qua ... vocatur"
+      ],
+      "justification": "Street where the tenement is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Forma",
+      "mention_texts": [
+        "Stanislai Forma"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning a neighboring house."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sznygiel",
+      "mention_texts": [
+        "Joannes Sznygiel"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Neighbor whose successors own the adjacent house."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Simon Szulszowic",
+      "mention_texts": [
+        "Simone"
+      ],
+      "descriptive_mentions": [
+        "Religioso",
+        "Ordinis Minorum de Observantia",
+        "Leskytoro",
+        "filio suo"
+      ],
+      "justification": "Son of Sophia and Szulsz, member of the Franciscan order."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Ordinis Minorum de Observantia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Religious order of Simon."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "anno 159 secundo decobato in vigilia Sancti Barneslai in Autumno"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/contract."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Szulszowic",
+      "mention_texts": [
+        "Gregorii"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "liberorum"
+      ],
+      "justification": "Deceased child of Sophia and Szulsz."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "liberorum"
+      ],
+      "justification": "Deceased child of Sophia and Szulsz."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szulszowic",
+      "mention_texts": [
+        "Alberti"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "liberorum"
+      ],
+      "justification": "Deceased child of Sophia and Szulsz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "primario olim Szulszi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "secondario vero nuptiarum Adami Sutoris Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Nobilem Dominum Stanislaum Anserminum Collegam nostrum pro tutore sibi rogato et ex Officio nostro"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Providus Jacobus Famela sutor cui Honesta Anna ex eadem Sophia et Adamo subducto progenita consorte sua"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Anna ex eadem Sophia et Adamo subducto progenita"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Anna ex eadem Sophia et Adamo subducto progenita"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simone ... filio suo ex Szulszko olim patre progenito"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simone ... filio suo ex Szulszko olim patre progenito"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "member_of",
+      "tail_entity_id": "E16",
+      "evidence": "Simone Ordinis Minorum de Observantia"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorii Regina et Alberti liberorum ex Szulszko etiam susceptorum post patrem in simam suum materni"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Gregorii Regina et Alberti liberorum ex Szulszko etiam susceptorum"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorii Regina et Alberti liberorum ex Szulszko etiam susceptorum post patrem in simam suum materni"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Gregorii Regina et Alberti liberorum ex Szulszko etiam susceptorum"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorii Regina et Alberti liberorum ex Szulszko etiam susceptorum post patrem in simam suum materni"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Gregorii Regina et Alberti liberorum ex Szulszko etiam susceptorum"
+    }
+  ]
+}

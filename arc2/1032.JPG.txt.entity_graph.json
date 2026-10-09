@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/1032.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Hempel",
+      "mention_texts": [
+        "Joannes Hempel"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Lanio",
+        "Civis Leopoliensis",
+        "secundarum nuptiarum Coniuges",
+        "ille",
+        "mariti sui",
+        "memorati recognoscentes debitores",
+        "praefati Coniuges",
+        "alter Coniugum",
+        "alter eorum coniugum"
+      ],
+      "justification": "Named as the debtor appearing before the court with his wife."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Anthoniowna",
+      "mention_texts": [
+        "Dorothea Anthoniowna"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum Coniuges",
+        "haec",
+        "memorati recognoscentes debitores",
+        "praefati Coniuges",
+        "alter Coniugum",
+        "alter eorum coniugum"
+      ],
+      "justification": "Wife of Joannes Hempel, appearing together with him."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-2505: Albertus Sadowski",
+      "mention_texts": [
+        "Alberti Sadowski"
+      ],
+      "descriptive_mentions": [
+        "Fausti",
+        "Suburbani Leopoliensis",
+        "tutorem"
+      ],
+      "justification": "Appointed as legal tutor for Dorothea Anthoniowna for this legal act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Goslicki",
+      "mention_texts": [
+        "Joanni Goslicki"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Generoso Creditori suo",
+        "dicto Creditori"
+      ],
+      "justification": "Noble creditor to whom the debt of 270 Polish florins is owed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Woyt",
+      "mention_texts": [
+        "Joannes Woyt"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header/marginal note of the record."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the citizenship and suburban affiliations of the parties and offices."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Podhajce",
+      "mention_texts": [
+        "Podhajcze"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Estate or place associated with Joannes Goslicki."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officium",
+        "ab officio"
+      ],
+      "justification": "The municipal council/court office mentioned as approving the tutor and competent for citation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Advocatiale"
+      ],
+      "descriptive_mentions": [
+        "officium"
+      ],
+      "justification": "The advocatial court office mentioned as competent for citation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno currenti 1596",
+        "Anno currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year in which the debt payments are scheduled."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Peter the Apostle",
+      "mention_texts": [
+        "Festo Sancti Petri Apostoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for the first instalment of the debt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festo Assumptionis in Caelum Beatae Mariae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for the second instalment of the debt."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "270 Polish florins",
+      "mention_texts": [
+        "Florenos Ducentos et septuaginta polonicales"
+      ],
+      "descriptive_mentions": [
+        "certi et liquidi debiti"
+      ],
+      "justification": "Total debt owed to Joannes Goslicki."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "135 Polish florins",
+      "mention_texts": [
+        "Florenos Centum Triginta quinque polonicales",
+        "Florenos Centum Triginta quinque Polonicales"
+      ],
+      "descriptive_mentions": [
+        "Primam quidem ratam",
+        "Alteram vero"
+      ],
+      "justification": "Amount of each of the two debt instalments."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannes Hempel Lanio Civis Leopoliensis et Dorothea Anthoniowna secundarum nuptiarum Coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannes Hempel Lanio Civis Leopoliensis et Dorothea Anthoniowna secundarum nuptiarum Coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "haec autem per Fausti Alberti Sadowski Suburbani Leopoliensis tutorem sibi ad actum praesentem cum praesentanes mariti sui consensu assumptam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "originated_from",
+      "tail_entity_id": "E7",
+      "evidence": "Generoso Joanni Goslicki de Podhajcze"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannes Hempel Lanio Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Alberti Sadowski Suburbani Leopoliensis"
+    }
+  ]
+}

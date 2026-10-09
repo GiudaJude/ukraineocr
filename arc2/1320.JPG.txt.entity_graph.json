@@ -1,0 +1,251 @@
+{
+  "document_id": "arc2/1320.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulo Kasprowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Identified in context as a party to an agreement, matching known alias 'Paulo Kasprowicz'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Rudolphus",
+      "mention_texts": [
+        "Rudolphum"
+      ],
+      "descriptive_mentions": [
+        "eundem"
+      ],
+      "justification": "Identified as the person who was supposed to return an item/document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kasprowic",
+      "mention_texts": [
+        "Andreae Kasprowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Mentioned as providing fidejussory caution in the court act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensium",
+        "Civitate Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings take place and citizenship is held."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Sabbato post festum Assumptionis Mariae Virginis Anno Domini 1590",
+        "Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the entry: Saturday after the Assumption 1590."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Adamus Oberman",
+      "mention_texts": [
+        "Adamus Oberman"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header/margin note of the record."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Helisabeth Gintrowa",
+      "mention_texts": [
+        "Helizabet Gintrowa",
+        "Helisabet",
+        "Helizabeth"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "filia",
+        "uxor",
+        "a se"
+      ],
+      "justification": "Principal party appearing before the court regarding her inheritance and power of attorney."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0149: Stanislaus Aberman",
+      "mention_texts": [
+        "Stanislai Oberman"
+      ],
+      "descriptive_mentions": [
+        "olim Famati",
+        "coniugum Civium Leopoliensium"
+      ],
+      "justification": "Deceased citizen of Lviv, father of Helisabeth Gintrowa."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Anna Sienkowna",
+      "mention_texts": [
+        "Anna Sienkowna"
+      ],
+      "descriptive_mentions": [
+        "coniugum Civium Leopoliensium"
+      ],
+      "justification": "Mother of Helisabeth Gintrowa and wife of Stanislaus Oberman."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Gintar",
+      "mention_texts": [
+        "Gregorij Gintar",
+        "Gregorio",
+        "Gregorius Gintar"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis et Consulis Camenecensis",
+        "marito suo",
+        "Honestus Famatus Dominus",
+        "Civis et Consul Camenecensis"
+      ],
+      "justification": "Husband of Helisabeth Gintrowa, citizen and councilor of Kamieniec Podolski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kluskowicz",
+      "mention_texts": [
+        "Albertum Kluskowicz"
+      ],
+      "descriptive_mentions": [
+        "Tutorem",
+        "Honoratum",
+        "Iudicii nostri Scabinalis Notarium",
+        "affinem suum"
+      ],
+      "justification": "Assumed guardian, in-law relative, and notary of the scabinal court."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "Actis in- sineri"
+      ],
+      "justification": "The municipal office/court in whose books the power of attorney is registered."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensis",
+        "Camenecen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Gregorius Gintar serves as councilor and from which the letter of attorney originated."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0053: Podolia",
+      "mention_texts": [
+        "Podolia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region where Kamieniec Podolski is located."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "Kamieniec Podolski City Council",
+      "mention_texts": [
+        "Officii Consularis Camenecen",
+        "Consules Civitatis Camenecen in Podolia"
+      ],
+      "descriptive_mentions": [
+        "Plenaria mai Consulari residentia"
+      ],
+      "justification": "The consular magistracy of Kamieniec issuing the authenticated plenipotentiary letter."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Helisabet filia olim Famati Stanislai Oberman"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Helisabet filia olim Famati Stanislai Oberman et Anna Sienkowna"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislai Oberman et Anna Sienkowna coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "uxor vero Famati Gregorij Gintar"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "per assumpium sibi ad actum praesente Tutorem Honoratum Albertum Kluskowicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E15",
+      "evidence": "Gregorij Gintar Civis et Consulis Camenecensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Civis et Consulis Camenecensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Oberman et Anna Sienkowna coniugum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Oberman et Anna Sienkowna coniugum Civium Leopoliensium"
+    }
+  ]
+}

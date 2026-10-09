@@ -1,0 +1,190 @@
+{
+  "document_id": "arc2/0559.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Chłopowska House",
+      "mention_texts": [
+        "Chlopovska"
+      ],
+      "descriptive_mentions": [
+        "domus et horti Chlopovska dicti",
+        "bonis nuper emptis"
+      ],
+      "justification": "Named house and garden mentioned as the subject of purchase: 'ex causa emptionis domus et horti Chlopovska dicti'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenorum Centum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "praedictam summam",
+        "tota eadem summa"
+      ],
+      "justification": "Debt amount specified: 'Florenorum Centum pecuniae et numeri Polonicalis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kaphellon",
+      "mention_texts": [
+        "Paulo Kaphelloni"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensi",
+        "creditor"
+      ],
+      "justification": "Creditor mentioned: 'Famato Paulo Kaphelloni Civi Leopoliensi'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civic origin of Paulus Kaphellon: 'Civi Leopoliensi'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "23 florins 10 groschen",
+      "mention_texts": [
+        "Florenos viginti trium et grossorum decem",
+        "viginti trium Florenorum et grossorum decem",
+        "Florenos viginti tres grossos decem"
+      ],
+      "descriptive_mentions": [
+        "Primam ratam",
+        "Secundam",
+        "Tertiam et residuam",
+        "ratam quamlibet"
+      ],
+      "justification": "Installment sums specified in the debt obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Adalbert",
+      "mention_texts": [
+        "Festo S. Adalberti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "First installment payment due date."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "1596 sexto",
+        "Anno 96"
+      ],
+      "descriptive_mentions": [
+        "Anno proxime sequenti ... Futuro",
+        "eodem Anno ... futuro",
+        "anno eciam praedicto"
+      ],
+      "justification": "The year 1596 designated for the repayment installments."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saints Peter and Paul",
+      "mention_texts": [
+        "Festo Sanctorum Petri et Pauli Apostolorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Second installment payment due date."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo S. Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Third installment payment due date."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zając",
+      "mention_texts": [
+        "Mathias Sautor Zaiac",
+        "Mathias Zaiancz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "kersner",
+        "Coniuges",
+        "ille per se",
+        "maritum dictorem suum legitimum"
+      ],
+      "justification": "Seller appearing in the second entry: 'Honestus Mathias Zaiancz kersner'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "hac vero",
+        "praefatam Reginam"
+      ],
+      "justification": "Wife of Mathias Zając: 'Regina Coniuges'."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Tokarzowska House",
+      "mention_texts": [
+        "Tokarzowski"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea dicta Tokarzowski"
+      ],
+      "justification": "Tenement house whose paternal share is being sold: 'in domo lapidea dicta Tokarzowski'."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Szpitalna Street",
+      "mention_texts": [
+        "platea hospitalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where Tokarzowska House is located: 'in platea hospitalis'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Paulo Kaphelloni Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestus Mathias Zaiancz kersner et Regina Coniuges"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in domo lapidea dicta Tokarzowski in platea hospitalis"
+    }
+  ]
+}

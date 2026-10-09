@@ -1,0 +1,180 @@
+{
+  "document_id": "arc2/0163.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Valentinus",
+      "mention_texts": [
+        "Valentinum",
+        "Valentino"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "olim",
+        "Pistorem",
+        "Civem Leopoliensis",
+        "maritum suum",
+        "praefato"
+      ],
+      "justification": "Deceased baker of Lviv and late husband of the recognizant."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in citizenship and jurisdiction descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Donewaticz",
+      "mention_texts": [
+        "Stephano Donewaticz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Barwiro",
+        "Ciui Leopoliensi"
+      ],
+      "justification": "Lviv citizen and barber-surgeon who held the debt obligation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii nostri"
+      ],
+      "descriptive_mentions": [
+        "Offi-cii nostri Praefectis et iuratis"
+      ],
+      "justification": "Lviv municipal council granting consent to the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Gregorius",
+      "mention_texts": [
+        "Gregorij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of an adjacent parcel or mill bordering the bakery bench."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Soldoniasius",
+      "mention_texts": [
+        "Soldoniasii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose stone border abuts the bakery bench."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szopek",
+      "mention_texts": [
+        "Stanislao Szopek"
+      ],
+      "descriptive_mentions": [
+        "Erasio",
+        "Pistori",
+        "Suburbano Leopoliensi",
+        "coniugibus",
+        "eodem",
+        "eundem",
+        "emptoribus"
+      ],
+      "justification": "Suburban Lviv baker who purchases the bakery bench."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Wife of Stanislaus Szopek and co-purchaser of the bench."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "precio certum"
+      ],
+      "justification": "Purchase price paid for the bakery bench."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Docentianus",
+      "mention_texts": [
+        "Dozencianorem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Ciuitatis Leopoliensis",
+        "suum verum legitimum indubitatumque Plenarium et mandatarium"
+      ],
+      "justification": "Lviv scabinus appointed as plenipotentiary for the resignation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Ban-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court where the formal resignation of the bench is to be enacted."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident of",
+      "tail_entity_id": "E2",
+      "evidence": "Valentinum Pistorem Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident of",
+      "tail_entity_id": "E2",
+      "evidence": "Stephano Donewaticz Barwiro Ciui Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislao Szopek Pistori Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislao Szopek Pistori Suburbano Leopoliensi et Dorotheae coniugibus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident of",
+      "tail_entity_id": "E2",
+      "evidence": "Scabinum Ciuitatis Leopoliensis"
+    }
+  ]
+}

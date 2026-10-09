@@ -1,0 +1,232 @@
+{
+  "document_id": "arc2/0978.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gaszeczki",
+      "mention_texts": [
+        "Stanislaus Gaszeczki"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Named as the suburbanite acknowledging satisfaction of debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenis viginti pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount of 20 Polish florins mentioned in the receipt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato post Festum Sancti Andreae Apostoli proximo Anno Domini 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous obligation: Saturday after St. Andrew's Day 1595."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Smoczkowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Suburbana Leopoliensi",
+        "eandem"
+      ],
+      "justification": "Person repaying the debt, matches known entity PER-0026: Anna (alias Anna Smoczkowa)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv where the act was recorded and where the persons reside."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Actu",
+        "Decreto"
+      ],
+      "justification": "Lviv City Council issuing the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Bernardus",
+      "mention_texts": [
+        "Leonardum Bernar",
+        "Leonardum Bernardum",
+        "Leonardum Bernardo",
+        "Bernardo"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et Famatum",
+        "Italum",
+        "Civem Leopoliensis",
+        "actorem",
+        "emptorem",
+        "Emptori",
+        "Nobilem"
+      ],
+      "justification": "Buyer/actor in the decree concerning the tenement house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0321: Stanislaus Wilczek",
+      "mention_texts": [
+        "Stanislavam Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Famatam",
+        "Civem Leopoliensis",
+        "Coniuges Cives Leopolienses",
+        "generos",
+        "citatos",
+        "venditores"
+      ],
+      "justification": "Seller cited in the case, husband of Anna Smithowna; matches known entity PER-0321: Stanislaus Wilczek."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam Smithowna"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Coniuges Cives Leopolienses",
+        "liberos",
+        "filiam",
+        "citatos",
+        "venditores"
+      ],
+      "justification": "Wife of Stanislaus Wilczek and daughter of late Laurentius Smith; matches known entity PER-0026: Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Smith",
+      "mention_texts": [
+        "Laurentium Smith"
+      ],
+      "descriptive_mentions": [
+        "Honestas",
+        "liberos",
+        "filium",
+        "citatos",
+        "venditores"
+      ],
+      "justification": "Son of late Laurentius Smith, cited alongside his sister and brother-in-law."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0399: Laurentius",
+      "mention_texts": [
+        "Laurentii Smith"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Chirurgi",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased surgeon and citizen of Lviv, father of Anna and Laurentius Smith; matches PER-0399: Laurentius."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Smitowska",
+      "mention_texts": [
+        "Smitowska",
+        "Lowinczowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "eandem domum lapideam"
+      ],
+      "justification": "Stone townhouse situated in the Lviv Market Square."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Market square of Lviv where the stone house is located."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Honoratorum Dominorum Advocati et Fidelium Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "Advocatial and bench court of Lviv appointed to give intromission and assess the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislavam Wilczek Civem Leopoliensis, atque Honestam Annam Smithowna Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Annam Smithowna Coniuges Cives Leopolienses, atque Honestas Laurentium Smith Famati olim Laurentii Smith Chirurgi Civis Leopoliensis liberos prout generos filiam et filium"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Laurentium Smith Famati olim Laurentii Smith Chirurgi Civis Leopoliensis liberos prout generos filiam et filium"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in domo lapidea Smitowska seu Lowinczowska dicta in eius Civitatis circulo sita"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in eius Civitatis circulo sita"
+    }
+  ]
+}

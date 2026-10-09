@@ -1,0 +1,250 @@
+{
+  "document_id": "arc2/1083.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Syslius",
+      "mention_texts": [
+        "Jacobus Syslius"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "Honorabilis"
+      ],
+      "justification": "Appears as the actor obtaining a postponement in court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria secunda post Iudicam Misericordia Domini Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Strach",
+      "mention_texts": [
+        "Simonis Strach"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the document heading 'Litterae Simonis Strach'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Stanissow",
+      "mention_texts": [
+        "Jacobus Stanissow"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Dominis",
+        "praefati",
+        "Tutores"
+      ],
+      "justification": "Comparent in court appearing on his own behalf and for his wife Catharina, acting as tutor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jarodzinski",
+      "mention_texts": [
+        "Stanislaus Jarodzinski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "sartor",
+        "Dominis",
+        "praedicti",
+        "Tutores"
+      ],
+      "justification": "Comparent appearing on his own behalf and for his wife Helizabetha, acting as tutor."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catharinae"
+      ],
+      "descriptive_mentions": [
+        "Honostarum",
+        "Coniugum suarum"
+      ],
+      "justification": "Wife of Jacobus Stanissow."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helizabethae"
+      ],
+      "descriptive_mentions": [
+        "Honostarum",
+        "Coniugum suarum"
+      ],
+      "justification": "Wife of Stanislaus Jarodzinski."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sagarek",
+      "mention_texts": [
+        "Albertus Sagarek"
+      ],
+      "descriptive_mentions": [
+        "Tutores"
+      ],
+      "justification": "Comparent appearing on behalf of his wife Sophia, acting as tutor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "uxoris suae"
+      ],
+      "justification": "Wife of Albertus Sagarek."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro"
+      ],
+      "justification": "Issuing council authority confirming the tutors."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margarethae"
+      ],
+      "descriptive_mentions": [
+        "filiarum"
+      ],
+      "justification": "Minor under guardianship of the tutors."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "filiarum"
+      ],
+      "justification": "Minor under guardianship of the tutors."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Melchior",
+      "mention_texts": [
+        "Melchioris"
+      ],
+      "descriptive_mentions": [
+        "filii",
+        "inno-"
+      ],
+      "justification": "Minor under guardianship of the tutors."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Catharinae praefati Jacobi et Helizabethae praedicti Stanislai Coniugum suarum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Catharinae praefati Jacobi et Helizabethae praedicti Stanislai Coniugum suarum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertus Sagarek nomine uxoris suae Sophiae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "uti Tutores ex Officio nostro confirmati Iudicata Margarethae et Dorotheae atque Melchioris filiarum et filii inno-"
+    }
+  ]
+}

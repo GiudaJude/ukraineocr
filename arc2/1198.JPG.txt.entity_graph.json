@@ -1,0 +1,256 @@
+{
+  "document_id": "arc2/1198.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate",
+        "Civitate"
+      ],
+      "justification": "Actum Leopoli indicates the city of Lwów; Suburbani Leopolienses refers to suburban residents of Lwów."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv where the scabinus is presiding."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas",
+      "mention_texts": [
+        "Femosi"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino",
+        "in Exposito Judicio praesidenti",
+        "Plenipotens",
+        "praefatus suus Plenipotens"
+      ],
+      "justification": "Scabinus presiding in the Banned Court receiving full power of attorney."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Wasko Maximowic",
+      "mention_texts": [
+        "Wasko Maximowic",
+        "Wasko"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Tutor",
+        "Coniuges Suburbani Leopolienses",
+        "eisdem praefatis Coniugum"
+      ],
+      "justification": "Guardian and current husband of Maszyna, resident of the Lviv suburb."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Maszyna",
+      "mention_texts": [
+        "Maszyna"
+      ],
+      "descriptive_mentions": [
+        "primarum quidem nuptiarum Leonidi olim Luczyk secundi vero matrimonij praefati Wasko uxor et mater",
+        "uxor",
+        "mater",
+        "Coniuges Suburbani Leopolienses",
+        "Coniugum",
+        "sinum matris"
+      ],
+      "justification": "Wife of Wasko Maximowic, formerly wife of Leonid Luczyk, and mother of the minor children."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Leonid Luczyk",
+      "mention_texts": [
+        "Pryncik",
+        "Leonidi",
+        "Luczyk",
+        "Proczyk",
+        "Leo- czyk"
+      ],
+      "descriptive_mentions": [
+        "Ruteni",
+        "olim"
+      ],
+      "justification": "Deceased first husband of Maszyna and father of the minors Luczko and Didura."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Luczko",
+      "mention_texts": [
+        "Luczkonem"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum",
+        "filium",
+        "liberos impuberes",
+        "iure naturalis Successoris"
+      ],
+      "justification": "Minor son of deceased Leonid Luczyk and Maszyna presented before the council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Didura Matwiowna",
+      "mention_texts": [
+        "Diduron Matwiownam"
+      ],
+      "descriptive_mentions": [
+        "filiam",
+        "liberos impuberes",
+        "iure naturalis Successoris"
+      ],
+      "justification": "Minor daughter of deceased Leonid Luczyk and Maszyna presented before the council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Ludioe Anna"
+      ],
+      "descriptive_mentions": [
+        "sororis suae minorennis"
+      ],
+      "justification": "Deceased underage sister of Luczko and Didura."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Glaskowicz",
+      "mention_texts": [
+        "Nicolai Glaskowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatorum"
+      ],
+      "justification": "Neighbor owning a garden adjacent to the inherited property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Tarzowicz",
+      "mention_texts": [
+        "Christophori Tarzowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatorum"
+      ],
+      "justification": "Neighbor owning a garden on the other side of the inherited property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Subburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kraków Suburb of Lviv where the house and garden are situated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio praesenti",
+        "Officio praesenti",
+        "viri suppremis in ea Civitate et vltra eandem omnium pupillorum tutoribus"
+      ],
+      "justification": "The council office acting as supreme guardians of all orphans in and around the city."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "secundi vero matrimonij praefati Wasko uxor"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "primarum quidem nuptiarum Leonidi olim Luczyk"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "filium ... ex primi matrimonio praefati olim Proczyk et Maszyna Coniugum procreat"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "filium ... ex primi matrimonio praefati olim Proczyk et Maszyna Coniugum procreat"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "filiam ex primi matrimonio praefati olim Proczyk et Maszyna Coniugum procreat"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "filiam ex primi matrimonio praefati olim Proczyk et Maszyna Coniugum procreat"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Ludioe Anna sororis suae minorennis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "Tutor liberorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Tutor liberorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Scabino in Exposito Judicio praesidenti"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "document_id": "arc2/1132.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij",
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv City Council referenced as issuing the decree and whose seals are affixed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolitanum",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in official titles, location of origin, and act dating."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Rakowski",
+      "mention_texts": [
+        "Paulum Rakowski",
+        "Rakowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "actorem",
+        "idem actor"
+      ],
+      "justification": "Noble plaintiff wounded in a tavern."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Fusza",
+      "mention_texts": [
+        "Albertum",
+        "Fusza"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Fabrum Lignarium",
+        "Suburbanum Leopolitanum",
+        "citatum",
+        "praedicti citati",
+        "praedictis citatus",
+        "idem citatus"
+      ],
+      "justification": "Honest carpenter from the Lviv suburb, tavern keeper and cited party."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato ante Dominicam Exaudi Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "Anno et die quo supra"
+      ],
+      "justification": "Date and year of the recorded court acts."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Siodłmarz",
+      "mention_texts": [
+        "Nicolaus Siodlmarz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party recorded in the margin of entry 1023."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes Duchnina",
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Honest Agnes, widow of the late blacksmith Joannes Duchna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Duchna"
+      ],
+      "descriptive_mentions": [
+        "famati",
+        "olim",
+        "civis fabri"
+      ],
+      "justification": "Late blacksmith and citizen of Lviv, deceased husband of Agnes; conflated in corpus with Joannes Ossowski."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ostrowski",
+      "mention_texts": [
+        "Joannem Ostrowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et Famatum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Noble and famed Joannes Ostrowski, appointed legal guardian of Agnes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "based_in",
+      "tail_entity_id": "E2",
+      "evidence": "officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "litigates_with",
+      "tail_entity_id": "E4",
+      "evidence": "Decretum inter Rakowski & Fusza"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Suburbanum Leopolitanum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "widow_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesta Agnes famati olim Joannis Duchna civis fabri vidua relicta"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannem Ostrowski tutorem sibi ad eum actum assumptum"
+    }
+  ]
+}

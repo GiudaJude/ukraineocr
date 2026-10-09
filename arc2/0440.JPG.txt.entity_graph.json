@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/0440.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Iwaszowicz",
+      "mention_texts": [
+        "Andreas Iwaszowic",
+        "Andreas Iwaszowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "coniuges",
+        "cives Leopolienses",
+        "ille",
+        "maritum suum",
+        "venditores recognoscentes"
+      ],
+      "justification": "Named as the seller of the house portion and husband of Catherina."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "cives Leopolienses",
+        "haec vero",
+        "uxorem legitimam",
+        "venditores recognoscentes"
+      ],
+      "justification": "Named as the wife of Andreas Iwaszowicz, co-selling the house property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Indicated by the civic status of the sellers ('cives Leopolienses')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Temerowczam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The street where the sold house is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Kwitkowicz",
+      "mention_texts": [
+        "Christopheri Kvitkowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as a neighbor bordering the house on one side."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Iwaszko",
+      "mention_texts": [
+        "Stanislai Iwaskonis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as a neighbor bordering the house on the other side."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Oluszka Kotona",
+      "mention_texts": [
+        "Oluszko Kotona",
+        "Oluszka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "ipsius",
+        "eidem",
+        "praedicta Oluszka"
+      ],
+      "justification": "The buyer of the half of the wooden house on behalf of herself and her children."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Koch Iwaszowicz",
+      "mention_texts": [
+        "Kocha Iwaszowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as the father of Oluszka's children."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Foltin Iwaszowicz",
+      "mention_texts": [
+        "Foltina Iwaszowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the summary heading of the act."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "florenorum quingentorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sale price paid for the half of the house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Andreas Iwaszowicz et Catherina coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "haec vero per eundem maritum suum uti uxorem legitimam"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sold_to",
+      "tail_entity_id": "E7",
+      "evidence": "recognoverunt se perperam et irrevocabili venditionis titulo vendidisse praesentique inscriptione vigore vendere medietatem domus ligneae ... Honesta Oluszko Kotona"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "document_id": "arc2/0821.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulo Campiano"
+      ],
+      "descriptive_mentions": [
+        "Excellentissimo et Spectabili Domino",
+        "Medicinae Doctori",
+        "Collegae nostro Consulari",
+        "eidem Excellenti et Spectabili Emptori",
+        "praefatus Excellens et Spectabilis emptor",
+        "idem Emptor",
+        "ipsum Emptorem",
+        "eundem Emptorem"
+      ],
+      "justification": "Doctor of medicine and consular colleague purchasing revenues from city mills."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [
+        "summae praefatae"
+      ],
+      "justification": "Sum of one thousand Polish florins paid in the transaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Wawrowski",
+      "mention_texts": [
+        "Stanislai Wawrowsski"
+      ],
+      "descriptive_mentions": [
+        "praedicti Nobilis"
+      ],
+      "justification": "Nobleman who previously held a share in the mentioned mills."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitas Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "civitatis"
+      ],
+      "justification": "The city community/municipality of Lviv granting the mill revenues."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "associated_with",
+      "tail_entity_id": "E2",
+      "evidence": "Paulo Campiano Medicinae Doctori Collegae nostro Consulari eiusque legitimis successoribus praeconijsque mille pecuniae et numeri Polonici"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resides_in",
+      "tail_entity_id": "E4",
+      "evidence": "Paulo Campiano Medicinae Doctori Collegae nostro Consulari"
+    }
+  ]
+}

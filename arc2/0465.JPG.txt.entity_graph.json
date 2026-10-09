@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0465.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0248: Stanislaus Krasnicki",
+      "mention_texts": [
+        "Stanum Krasnicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Prolocutorem suum"
+      ],
+      "justification": "Nobiles et Famati Servatores per Nobilem Stanum Krasnicki Prolocutorem suum"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Tertius"
+      ],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Rex Poloniae",
+        "Magnus Dux",
+        "Haereditarius Rex",
+        "nos"
+      ],
+      "justification": "Decretum Sacrae Regiae Maiestatis... Sigismundus Tertius Dei Gratia Rex Poloniae Magnus Dux Lituaniae Russiae Prussiae Masoviae Samogitiae Livoniae etc nec non Regni Sueciae Haereditarius Rex"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium consulare Leopoliense",
+        "Officio Consulari Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "officium",
+        "Magistratum Civilem Leopoliensem",
+        "Magistratum Civilem"
+      ],
+      "justification": "iustitiam per officium consulare Leopoliense administrari debere... ad Magistratum Civilem Leopoliensem... Officio Consulari Leopoliensem"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense",
+        "Leopolienses",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "officium consulare Leopoliense... Cives Leopolienses... Magistratum Civilem Leopoliensem"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Rex Poloniae"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lithuania",
+      "mention_texts": [
+        "Lituaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Magnus Dux Lituaniae"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dux Lituaniae Russiae"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Prussiae Masoviae"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Mazovia",
+      "mention_texts": [
+        "Masoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Prussiae Masoviae Samogitiae"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Samogitia",
+      "mention_texts": [
+        "Samogitiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Masoviae Samogitiae Livoniae"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Livonia",
+      "mention_texts": [
+        "Livoniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Samogitiae Livoniae"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "Regni Sueciae Haereditarius Rex"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-1101: Sigismundus Błazowski",
+      "mention_texts": [
+        "Sigismundum Blastowski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "Terrarum Podoliae Vicepalatinum",
+        "Actorem"
+      ],
+      "justification": "Generosum Sigismundum Blastowski Terrarum Podoliae Vicepalatinum Actorem"
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0053: Podolia",
+      "mention_texts": [
+        "Podoliae"
+      ],
+      "descriptive_mentions": [
+        "Terrarum"
+      ],
+      "justification": "Terrarum Podoliae Vicepalatinum"
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "Anno Millesimo quingentesimo Nonagesimo tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "in Anno Millesimo quingentesimo Nonagesimo tertio lati data"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "ruler_of",
+      "tail_entity_id": "E5",
+      "evidence": "Sigismundus Tertius Dei Gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "ruler_of",
+      "tail_entity_id": "E12",
+      "evidence": "Regni Sueciae Haereditarius Rex"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "official_of",
+      "tail_entity_id": "E14",
+      "evidence": "Sigismundum Blastowski Terrarum Podoliae Vicepalatinum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "officium consulare Leopoliense"
+    }
+  ]
+}

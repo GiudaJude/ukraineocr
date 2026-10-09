@@ -1,0 +1,199 @@
+{
+  "document_id": "arc2/0843.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Xarszowska",
+      "mention_texts": [
+        "Dorothea Xarszowska"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "sibi"
+      ],
+      "justification": "Nobilis Dorothea Xarszowska personally appears to acknowledge partial satisfaction of a debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Xarszowski",
+      "mention_texts": [
+        "Stanislaum Xarszowski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "maritum suum",
+        "tutorem coniugalem et legitimum"
+      ],
+      "justification": "Stanislaus Xarszowski acts as the husband and legal guardian of Dorothea Xarszowska."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "Florenis Trecentis pecuniae et numeri Polonicalis",
+        "Florenos Trecentos Florenos"
+      ],
+      "descriptive_mentions": [
+        "particula vero maiore de summa",
+        "solutos"
+      ],
+      "justification": "Sum of 300 Polish florins received by Dorothea."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "Florenis quingentorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Original debt amount of 500 florins registered in Szczerzec."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Szczerzec",
+      "mention_texts": [
+        "Szczerzecz",
+        "Szczerzecensem"
+      ],
+      "descriptive_mentions": [
+        "Oppidi"
+      ],
+      "justification": "Town of Szczerzec where the initial debt contract was recorded."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joanne Jellonek",
+        "Joannes Jellonek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Pellione",
+        "Cive Leopoliensi",
+        "eundem",
+        "debitor stans personaliter",
+        "idem"
+      ],
+      "justification": "Furrier and citizen of Lviv, debtor who paid the 300 florins and promised the rest."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, place of citizenship and venue of the recorded acts."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos Ducentos",
+        "Florenos Ducenti"
+      ],
+      "descriptive_mentions": [
+        "residuos",
+        "nondum sibi persolutos"
+      ],
+      "justification": "Residual debt sum of 200 florins remaining to be paid."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Paschae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Term promised for final settlement of the remaining debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Ao. 1596",
+        "feria quarta post Festum Purificat. Mariae V. Ao. 1596"
+      ],
+      "descriptive_mentions": [
+        "anno eodem proxime venturo"
+      ],
+      "justification": "Date of registration of the act: Wednesday after Purification of the Virgin Mary, 1596."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0300: Andreas Dambrowski",
+      "mention_texts": [
+        "Andreas Dabrowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Spectabilis Dominus",
+        "Scabinus",
+        "collega noster Consularis"
+      ],
+      "justification": "Noble bencher and consular colleague appointing a plenipotentiary."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Lamus",
+      "mention_texts": [
+        "Alberto Lami",
+        "Albertum Lamum"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civem Leopoliensem",
+        "suum verum legitimum indubitatumque Plenipotentem et manditarium"
+      ],
+      "justification": "Citizen of Lviv constituted as plenipotentiary by Andreas Dąbrowski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislaum Xarszowski maritum suum et proinde tutorem coniugalem et legitimum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E1",
+      "evidence": "debita sibi coram Officio Oppidi Szczerzecz inscripta et in bonis hypotecatis a Famato Joanne Jellonek"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joanne Jellonek Pellione Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Albertum Lamum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "has_plenipotentiary",
+      "tail_entity_id": "E12",
+      "evidence": "constituit et solenniter ordinavit in suum verum legitimum indubitatumque Plenipotentem et manditarium Famatum Albertum Lamum"
+    }
+  ]
+}

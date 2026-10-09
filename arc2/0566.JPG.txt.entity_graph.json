@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/0566.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kosiczki",
+      "mention_texts": [
+        "Andreae Kosiczki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "viri illius legitimi"
+      ],
+      "justification": "Named as the complainant and legitimate representative appearing in the case."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Grzybiarz",
+      "mention_texts": [
+        "Pauli Grzybiarz"
+      ],
+      "descriptive_mentions": [
+        "Generosi D.",
+        "Secretarij et Senatorum Sacrae Regiae Maiestatis Lictoris",
+        "donatarij Juris Caducij Fisci Sacrae Regiae Maiestatis",
+        "realis possessoris",
+        "tutoris"
+      ],
+      "justification": "Named as royal secretary/courtier and beneficiary of the royal caducary right."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King Sigismund III Vasa, mentioned as the royal authority whose court Grzybiarz serves and whose fiscus holds caducary rights."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kiente",
+      "mention_texts": [
+        "Joannis Kiente",
+        "Joanni Kiente",
+        "Kiente"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "vita functi",
+        "praefati"
+      ],
+      "justification": "Deceased person whose estate and former leased rooms are the subject of the dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Agnes Catherina Alembekowa",
+      "mention_texts": [
+        "Agnetem Catherinam"
+      ],
+      "descriptive_mentions": [
+        "viduam relictam",
+        "Famati olim Joannis Alembek Civis Leopoliensis viduam relictam",
+        "citatam",
+        "comparentem",
+        "Praefata etiam citata",
+        "citata"
+      ],
+      "justification": "Widow of the late Joannes Alembek, summoned as the defendant regarding rights to parts of the townhouse."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Alembek",
+      "mention_texts": [
+        "Joannis Alembek",
+        "Joannem Alembek",
+        "Joanne Alembek"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "olim Famatum",
+        "olim"
+      ],
+      "justification": "Deceased citizen of Lviv, former owner of the Alembekowska tenement house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the civic designation of Joannes Alembek."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Officium praes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council acting as the judicial authority in this matter."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Alembekowska House",
+      "mention_texts": [
+        "Alembekowszka"
+      ],
+      "descriptive_mentions": [
+        "domo Lapidea posteriori"
+      ],
+      "justification": "The rear stone house (kamienica) belonging to the Alembek family where the disputed chambers are situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "Ad querellam Nobilis Andreae Kosiczki viri illius legitimi Generosi D. Pauli Grzybiarz"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "court_official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Pauli Grzybiarz Secretarij et Senatorum Sacrae Regiae Maiestatis Lictoris"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Agnetem Catherinam Famati olim Joannis Alembek Civis Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "olim Joannis Alembek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "owner_of",
+      "tail_entity_id": "E9",
+      "evidence": "in domo Lapidea posteriori Alembekowszka"
+    }
+  ]
+}

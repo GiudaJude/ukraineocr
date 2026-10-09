@@ -1,0 +1,204 @@
+{
+  "document_id": "arc2/0786.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0009: Franciscus Wengr",
+      "mention_texts": [
+        "Franciscum Wengi"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "venditores"
+      ],
+      "justification": "Appears as one of the sellers ('venditores D. Franciscum Wengi') appointing a legal proxy."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Gnieszkaowna"
+      ],
+      "descriptive_mentions": [
+        "venditores"
+      ],
+      "justification": "Appears as one of the sellers ('venditores... Anna Gnieszkaowna') appointing a proxy."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0321: Stanislaus Wilczek",
+      "mention_texts": [
+        "stan C."
+      ],
+      "descriptive_mentions": [
+        "Seniorem Scabinum Iuratum Leopolien",
+        "mandatarium",
+        "verum legitimum mandatarum gzlem- potenten et mandatarium",
+        "Dnus suus"
+      ],
+      "justification": "Senior bench-officer of Lviv appointed as plenipotentiary mandatary by the sellers."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolien",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City context mentioned in judicial titles and citizen designations."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court where the resignation is to be registered ('in Iudicio Exposito Bannito')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date closing formula referring to the ongoing session date."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simon Smorc"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the document line 'Simon Smorc Gorsqua filia'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia Kurowstowna"
+      ],
+      "descriptive_mentions": [
+        "Hta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of the late Gregorius Dzirmasabati who appears personally to acknowledge a debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0618: Gregorius Cele",
+      "mention_texts": [
+        "Gregorij Dzirmasabati"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Furifiris",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen and goldsmith of Lviv, late husband of Sophia."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Htum Famum",
+        "tutorem sibi ad actum pantem rogatent"
+      ],
+      "justification": "Guardian requested by and acting for Sophia Kurowstowna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium neum"
+      ],
+      "justification": "The municipal council office confirming the guardianship."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0100: Seraphinowska House",
+      "mention_texts": [
+        "Seraphinska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "dicta"
+      ],
+      "justification": "Stone townhouse from which winter ground rent was due ('ex domo lapidea Seraphinska dicta')."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agneti Zaczkowna"
+      ],
+      "descriptive_mentions": [
+        "Htri",
+        "Civi Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv to whom the debt is owed."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "florenos quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The amount of the loan recognized as debt ('florenos quinquaginta pecuniae')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "venditores D. Franciscum Wengi et Anna Gnieszkaowna fecerunt constitueru et solemniter ordinaverunt in suum verum legitimum mandatarum gzlem- potenten et mandatarium stan C."
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "venditores D. Franciscum Wengi et Anna Gnieszkaowna fecerunt constitueru et solemniter ordinaverunt in suum verum legitimum mandatarum gzlem- potenten et mandatarium stan C."
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Sophia Kurowstowna Famati olim Gregorij Dzirmasabati Furifiris Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "per Htum Famum Kalinowski tutorem sibi ad actum pantem rogatent"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_to",
+      "tail_entity_id": "E13",
+      "evidence": "Sophia Kurowstowna ... recognovit se teneri et debere certi veri liquidique debiti ex causa mutui ... Htri Agneti Zaczkowna Civi Leopoliensis contracti florenos quinquaginta"
+    }
+  ]
+}

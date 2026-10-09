@@ -1,0 +1,176 @@
+{
+  "document_id": "arc2/0998.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baptista de Albori",
+      "mention_texts": [
+        "Baptistae de Albori",
+        "Joannis Baptistae Itali"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Famati",
+        "Institoris",
+        "Civis Leopoliensis",
+        "praefati defuncti"
+      ],
+      "justification": "Deceased merchant whose estate is being inventoried."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobczerski Sixtus",
+      "mention_texts": [
+        "Gregorius Dobczerski Sixtus"
+      ],
+      "descriptive_mentions": [
+        "Excellens D.",
+        "Chirurgus Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Advocate and surgeon presiding over the official report."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Smirkowicz",
+      "mention_texts": [
+        "Andreas Smirkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinis Juratis Leopoliensibus"
+      ],
+      "justification": "Lviv bench judge participating in the inventory."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamo Smierzek"
+      ],
+      "descriptive_mentions": [
+        "Scabinis Juratis Leopoliensibus"
+      ],
+      "justification": "Lviv bench judge participating in the inventory; known corpus entity PER-0975."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Szaranczyna",
+      "mention_texts": [
+        "Dorotheae Szaranczyna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "consortis relictae"
+      ],
+      "justification": "Surviving widow of Joannes Baptista de Albori."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martini Rotherdorff"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Scabini",
+        "Civium Leopoliensium",
+        "tutorum"
+      ],
+      "justification": "Lviv bench judge and guardian of the minor heirs; known corpus entity PER-0091."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Loynecowicz",
+      "mention_texts": [
+        "Joannis Loynecowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cromatarij",
+        "Civium Leopoliensium",
+        "tutorum"
+      ],
+      "justification": "Lviv citizen and guardian of the minor heirs."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensis",
+        "Civitatis",
+        "Leopoliensium",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where the events took place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officio suo"
+      ],
+      "justification": "The municipal council of Lviv that deputed the guardians."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Instita Stanisscholowska",
+      "mention_texts": [
+        "Stanisscholowska"
+      ],
+      "descriptive_mentions": [
+        "institam aeneam",
+        "institam aeneam Stanisscholowska vocatam",
+        "praefata instita"
+      ],
+      "justification": "Brass stall/shop located in the market where goods were inventoried."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Dorotheae Szaranczyna Famati olim Joannis Baptistae Itali Institoris Civis Leopoliensis consortis relictae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannis Baptistae Itali Institoris Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E8",
+      "evidence": "Martini Rotherdorff Scabini et Famati Joannis Loynecowicz Cromatarij Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannis Loynecowicz Cromatarij Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "descenderunt in Institas Civitatis, nempe in institam aeneam Stanisscholowska vocatam"
+    }
+  ]
+}

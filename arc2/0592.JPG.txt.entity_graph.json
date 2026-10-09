@@ -1,0 +1,218 @@
+{
+  "document_id": "arc2/0592.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City and its suburbs where the participants reside."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Gladisowa",
+      "mention_texts": [
+        "Hedvigis Gladisowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Relicta Valentini Gladis Calceatoris Suburbani Leopoliensis",
+        "se"
+      ],
+      "justification": "Widow of Valentinus Gladis who acknowledges receipt of a deposit."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Gladis",
+      "mention_texts": [
+        "Valentini Gladis"
+      ],
+      "descriptive_mentions": [
+        "Calceatoris Suburbani Leopoliensis",
+        "mariti sui"
+      ],
+      "justification": "Deceased husband of Hedvigis Gladisowa, a shoemaker in the Lviv suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Adam Sebastianus Gorczyca",
+      "mention_texts": [
+        "Adam Sebastiarum Gorczycza"
+      ],
+      "descriptive_mentions": [
+        "Suburbanum Leopoliensem",
+        "tutorem sibi ad eum actum assumptum et ex officio nostro confirmatum"
+      ],
+      "justification": "Guardian appointed to assist Hedvigis Gladisowa in the legal transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "Camera nostri Officij",
+        "officium nostrum",
+        "nobis"
+      ],
+      "justification": "The municipal council and its office registering the transactions."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "66 Polish florins",
+      "mention_texts": [
+        "Florenos sexagintes Polonicales",
+        "sexaginta sex florenos"
+      ],
+      "descriptive_mentions": [
+        "depositum suum fidele",
+        "eiusdem depositi"
+      ],
+      "justification": "The sum received as a deposit and promised to be returned."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Kwassek",
+      "mention_texts": [
+        "Nicolai Kwassek",
+        "Nicolao Kwassek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Doliaris Suburbani Leopoliensis",
+        "eidem"
+      ],
+      "justification": "Cooper in the Lviv suburb who provided the deposit."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Nativity of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festo Nativitatis Beatae Virginis Mariae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The feast day by which the deposit must be repaid."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry referenced by 'Factum ut supra'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Skarga",
+      "mention_texts": [
+        "Skarga"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Councilor witnessing or recording the entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Przezdzucki",
+        "Gasparum Przezdzwieiski",
+        "Casparum Przezdwiski"
+      ],
+      "descriptive_mentions": [
+        "Spectabilem Dominum",
+        "collegam nostrum Consularem",
+        "praefatum Splendidum Dominum"
+      ],
+      "justification": "Lviv city councilor who had deposited the funds in the council chamber."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Cieszkowski",
+      "mention_texts": [
+        "Joannes Cieszkowic",
+        "Joannes Cieszkowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble who acknowledges collecting the 300 florins."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "florenorum trecentorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "The sum collected from the council chamber."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Mathias Jodłowski",
+      "mention_texts": [
+        "Mathiae Jodlowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Lublinensis"
+      ],
+      "justification": "Citizen of Lublin who had previously placed an arrest on the funds."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Lublin",
+      "mention_texts": [
+        "Lublinensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Mathias Jodłowski holds citizenship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Hedvigis Gladisowa Relicta Valentini Gladis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "per Adam Sebastiarum Gorczycza Suburbanum Leopoliensem tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Gasparum Przezdzwieiski collegam nostrum Consularem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "resident_of",
+      "tail_entity_id": "E15",
+      "evidence": "Mathiae Jodlowski Civis Lublinensis"
+    }
+  ]
+}

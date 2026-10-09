@@ -1,0 +1,224 @@
+{
+  "document_id": "arc2/1331.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Isidorus",
+      "mention_texts": [
+        "Isidorus"
+      ],
+      "descriptive_mentions": [
+        "praefatus"
+      ],
+      "justification": "Party in the first legal resolution who accepted a sum of money and quieted his tutor."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Moschici",
+      "mention_texts": [
+        "Andream Moschici"
+      ],
+      "descriptive_mentions": [
+        "praedictum",
+        "tutorem et Prolocutorem suum"
+      ],
+      "justification": "Tutor and legal representative of Isidorus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Antonius Catarallo",
+      "mention_texts": [
+        "Antonio Catarallo"
+      ],
+      "descriptive_mentions": [
+        "aurariorum"
+      ],
+      "justification": "Goldsmith involved in the dispute with Isidorus and Andreas Moschici."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sabina",
+      "mention_texts": [
+        "Sabinam"
+      ],
+      "descriptive_mentions": [
+        "ipsam"
+      ],
+      "justification": "Person mentioned in connection with a bond/syngraph."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Suchowalka",
+      "mention_texts": [
+        "Suchowalka",
+        "Petrus Suchowalka"
+      ],
+      "descriptive_mentions": [
+        "nobilis et Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Noble citizen of Lviv who sells a third part of a house and garden."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eius Civitatis"
+      ],
+      "justification": "City whose citizenship and suburb are referenced."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Pełtew River",
+      "mention_texts": [
+        "Poltew"
+      ],
+      "descriptive_mentions": [
+        "fluuium"
+      ],
+      "justification": "River above which the property is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0211: Blasius Apothecarius",
+      "mention_texts": [
+        "Blasij Klutarij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner; matches known entity Blasius Alutarius."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Sztrosowska Street",
+      "mention_texts": [
+        "Sztrosowska"
+      ],
+      "descriptive_mentions": [
+        "plateam"
+      ],
+      "justification": "Street adjoining the property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnete Krowczyna"
+      ],
+      "descriptive_mentions": [
+        "coniuge sua quondam",
+        "praefatae Krowczyna coniugis sua"
+      ],
+      "justification": "Deceased wife of Petrus Suchowalka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zembaczki",
+      "mention_texts": [
+        "Stocaszacze Zembacski"
+      ],
+      "descriptive_mentions": [
+        "Tellione"
+      ],
+      "justification": "Furrier, husband of Casimira, succeeding to Krowczyna's estate."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Casimira",
+      "mention_texts": [
+        "Cassemira"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Wife of Stanislaus Zembaczki, succeeding to Krowczyna's estate."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Hannus Krauser",
+      "mention_texts": [
+        "Krausner",
+        "Hannussio Krauser"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pellionario",
+        "haereditario possessori",
+        "emptori"
+      ],
+      "justification": "Furrier who buys the property share from Petrus Suchowalka."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria quarta post festa Solemnia Pentecostes proxima Anno Domini 1594 quato"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous arbitral compromise."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Dominicam Jubilate proxima Anno Domini 1595 Quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the estate division."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "treco trecentorum Florenorum pecuniae et mi Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price for the property share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "praedictum Andream Moschici tutorem et Prolocutorem suum in causa praesenti"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "cum coniuge sua quondam Agnete Krowczyna"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Stocaszacze Zembacski Tellione et Cassemira coniugibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "seller_to",
+      "tail_entity_id": "E13",
+      "evidence": "vendidisse praesentisque inscriptionis vigore vendere sortem tertiam domus et horti Krowczynski ... Honesto Hannussio Krauser"
+    }
+  ]
+}

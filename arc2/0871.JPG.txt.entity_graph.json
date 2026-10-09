@@ -1,0 +1,106 @@
+{
+  "document_id": "arc2/0871.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius",
+        "hac Civitate"
+      ],
+      "justification": "Identified as the city of Lviv from the citizenship description and urban references."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joannes Szolmes",
+        "Joannes Jelsonek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio Civis Leopoliensis",
+        "mariti sui",
+        "maritus suus",
+        "ipse"
+      ],
+      "justification": "The furrier and citizen of Lviv who recognizes the transfer and cession of property to his wife."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Barbara Scholz",
+      "mention_texts": [
+        "Barbara Szolssowna",
+        "Barbara Szeltlowna",
+        "Barbara Szolcsowna"
+      ],
+      "descriptive_mentions": [
+        "Fata",
+        "Coniugis suae",
+        "vna sua",
+        "consorti suae",
+        "solam vxorem suam",
+        "praedicta"
+      ],
+      "justification": "Wife of Joannes Jelonek and sister of Jacobus Scholz, recipient of the estate settlement."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobum Scholcz"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "fratrem suum germanum",
+        "tutorem sibi ad rem praesentem assumptum"
+      ],
+      "justification": "Brother and assumed guardian of Barbara Scholz in the legal act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Scholz",
+      "mention_texts": [
+        "Laudem Szolnek"
+      ],
+      "descriptive_mentions": [
+        "solem quondam",
+        "Consulem",
+        "parentem suum"
+      ],
+      "justification": "Deceased former consul of Lviv through whose estate ordination the property was originally devolved."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "ijsdem Actis"
+      ],
+      "justification": "The municipal council acts in which the ordination was registered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Barbara Szeltlowna Coniugis suae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobum Scholcz fratrem suum germanum"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "document_id": "arc2/0985.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Aromatarius",
+      "mention_texts": [
+        "Joannis Aromatory"
+      ],
+      "descriptive_mentions": [
+        "Emptorum",
+        "Coniugum"
+      ],
+      "justification": "Buyer mentioned in the legal transaction along with his wife Regina."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum",
+        "Emptorum"
+      ],
+      "justification": "Spouse of Joannes Aromatarius and co-buyer of the stone house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court in which the property is to be formally resigned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the title of the senior scabinus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannis Aromatory et Reginae Coniugum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannis Aromatory et Reginae Coniugum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Iudicio Exposito Bannito quandocunque illud celebrabitur Honoratum Dominum Seniorem Scabinum Leopoliensis"
+    }
+  ]
+}

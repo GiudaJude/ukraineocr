@@ -1,0 +1,334 @@
+{
+  "document_id": "arc2/0554.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Friderici Galli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named adjacent property owner."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Piliski",
+      "mention_texts": [
+        "Stanislaw Pilisski"
+      ],
+      "descriptive_mentions": [
+        "Provido",
+        "coniugibus",
+        "affinibus suis",
+        "emptoribus"
+      ],
+      "justification": "Buyer of the property together with his wife."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Maruchna",
+      "mention_texts": [
+        "Maruchina"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "affinibus suis",
+        "emptoribus"
+      ],
+      "justification": "Wife of Stanislaus Piliski and buyer."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "15 Polish florins",
+      "mention_texts": [
+        "quindecim Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "precio"
+      ],
+      "justification": "Purchase price of the property share."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the procuration was to be submitted."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "ijsdem Actis superioris"
+      ],
+      "justification": "Civic council issuing the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0025: Shoemakers' Guild",
+      "mention_texts": [
+        "Sutores Contubernales",
+        "contubernij",
+        "contubernium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The shoemakers' guild (contubernium) involved in the dispute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Rak",
+      "mention_texts": [
+        "Matthiam Rak"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Sutores contubernales",
+        "Tutores"
+      ],
+      "justification": "Guild brother and tutor appearing in court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Martinus Wirobieski",
+      "mention_texts": [
+        "Martinum Wirobieski"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Sutores contubernales",
+        "Tutores"
+      ],
+      "justification": "Guild brother and tutor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Balthasar Adamowicz",
+      "mention_texts": [
+        "Balthasarem Adamowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Sutores contubernales",
+        "Tutores"
+      ],
+      "justification": "Guild brother and tutor."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Ziedonnicz",
+      "mention_texts": [
+        "Bartholomaeum Ziedonniczs"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Sutores contubernales",
+        "Tutores"
+      ],
+      "justification": "Guild brother and tutor."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Begat",
+      "mention_texts": [
+        "Joannem Begat"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Sutores contubernales",
+        "Tutores"
+      ],
+      "justification": "Guild brother and tutor."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Mathias Dąbek",
+      "mention_texts": [
+        "Mathiam Dąbek"
+      ],
+      "descriptive_mentions": [
+        "Tutores contubernales",
+        "citatos"
+      ],
+      "justification": "Cited guild brother and tutor on the opposing side."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Odwroć Stramthanek",
+      "mention_texts": [
+        "Jacobum Odwroć Stramthanek"
+      ],
+      "descriptive_mentions": [
+        "Tutores contubernales",
+        "citatos"
+      ],
+      "justification": "Cited guild brother and tutor on the opposing side."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Mathias Simiezek",
+      "mention_texts": [
+        "Mathiam Simiezek"
+      ],
+      "descriptive_mentions": [
+        "Tutores contubernales",
+        "citatos"
+      ],
+      "justification": "Cited guild brother and tutor on the opposing side."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gotek",
+      "mention_texts": [
+        "Joannem Gotek"
+      ],
+      "descriptive_mentions": [
+        "Tutores contubernales",
+        "citatos"
+      ],
+      "justification": "Cited guild brother and tutor on the opposing side."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Adamus Luczkowczyk",
+      "mention_texts": [
+        "Adamum Luczkowczyk"
+      ],
+      "descriptive_mentions": [
+        "Tutores contubernales",
+        "citatos"
+      ],
+      "justification": "Cited guild brother and tutor on the opposing side."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Judatczek",
+      "mention_texts": [
+        "Bartholomaeum Judatczek"
+      ],
+      "descriptive_mentions": [
+        "Tutores contubernales",
+        "citatos"
+      ],
+      "justification": "Cited guild brother and tutor on the opposing side."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "currency",
+      "canonical_name": "28 florins",
+      "mention_texts": [
+        "Florenorum Viginti octo"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Amount of money collected on behalf of the guild."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "feria secunda in Vigilia Assumptionis Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry cited in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Provido Stanislaw Pilisski et Maruchina coniugibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Matthiam Rak ... Sutores contubernales Tutores"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Martinum Wirobieski ... Sutores contubernales Tutores"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Balthasarem Adamowicz ... Sutores contubernales Tutores"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Bartholomaeum Ziedonniczs ... Sutores contubernales Tutores"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannem Begat Sutores contubernales Tutores"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Mathiam Dąbek ... itidem Tutores contubernales"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobum Odwroć Stramthanek ... itidem Tutores contubernales"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Mathiam Simiezek ... itidem Tutores contubernales"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannem Gotek ... itidem Tutores contubernales"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Adamum Luczkowczyk ... itidem Tutores contubernales"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Bartholomaeum Judatczek itidem Tutores contubernales"
+    }
+  ]
+}

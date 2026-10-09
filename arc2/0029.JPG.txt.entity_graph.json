@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/0029.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "istius Civitatis",
+        "Civitatis seuius"
+      ],
+      "justification": "City where the legal proceedings and the metropolitan church are situated."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "25 January 1590",
+      "mention_texts": [
+        "feria quinta post festum Sanctae Agnetis Virginis proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous court decree cited in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Piorowa",
+      "mention_texts": [
+        "Hedvigis Piorowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta praedicta",
+        "eadem ipsa",
+        "mater praedicta",
+        "mater"
+      ],
+      "justification": "Woman who contracted a debt together with her husband and faced imprisonment."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutore"
+      ],
+      "justification": "Guardian assisting Hedvigis Piorowa in court."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta Florenos",
+        "Florenorum",
+        "Floreni quadraginta"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "sortis praedictorum Florenorum",
+        "eiusmodi debitum quadraginta Florenorum"
+      ],
+      "justification": "Sum of debt contracted and secured on property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Zofica Agnes",
+      "mention_texts": [
+        "Zofica Agnes",
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "praedicta Zofica Agnes",
+        "praedicta vero Agnes",
+        "ipsaque Agnes",
+        "ipsam"
+      ],
+      "justification": "Daughter of Hedvigis Piorowa who successfully claimed the shares by natural succession."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Hulewyk",
+      "mention_texts": [
+        "Stephano Hulewyk",
+        "Hulewyk"
+      ],
+      "descriptive_mentions": [
+        "eidem",
+        "praedicto Hulewyk obligatorio"
+      ],
+      "justification": "Creditor to whom the debt is owed and in whose possession the shares are pledged."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Briszofszki",
+      "mention_texts": [
+        "Briszofszcum"
+      ],
+      "descriptive_mentions": [
+        "praedictum",
+        "fratrem suum"
+      ],
+      "justification": "Brother of Zofica Agnes through whom she acted out of filial piety."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [
+        "iisdem Actis",
+        "Actis",
+        "Actis nostris"
+      ],
+      "justification": "Consular council and office before which declarations and transactions were recorded."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Didowicius",
+      "mention_texts": [
+        "Stanislaus Didowicius"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles Domini",
+        "Medicinae Doctor",
+        "Collegae nostri Consulares"
+      ],
+      "justification": "Doctor of medicine and city councilor who personally appeared before the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Joannes Wolszowicz"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles Domini",
+        "Collegae nostri Consulares"
+      ],
+      "justification": "City councilor who appeared before the council."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Latin Cathedral of Lviv",
+      "mention_texts": [
+        "Ecclesia Metropolitana"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Metropolitan church in Lviv containing the chapel mentioned in the inscription."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Mathiaronka Chapel",
+      "mention_texts": [
+        "Mathiaronka"
+      ],
+      "descriptive_mentions": [
+        "facella Mathiaronka nuncupati"
+      ],
+      "justification": "Chapel located inside the Metropolitan Church on the north upper side."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0007: 1593",
+      "mention_texts": [
+        "anni 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of the council acts containing the inscription being cancelled."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestum Adamum Kalinowski tutore adstetit"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "mota pietate erga matrem easdem sortes suas alias ipsi adiudicatas in domo praefata misit"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "praedicta Zofica Agnes per praedictum Briszofszcum fratrem suum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislaus Didowicius Medicinae Doctor et Joannes Wolszowicz Collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislaus Didowicius Medicinae Doctor et Joannes Wolszowicz Collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "facella Mathiaronka nuncupati in Ecclesia Metropolitana Civitatis seuius in parte superiori versus septemtrionem consistentis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in Ecclesia Metropolitana Civitatis seuius"
+    }
+  ]
+}

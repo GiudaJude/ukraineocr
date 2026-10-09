@@ -1,0 +1,124 @@
+{
+  "document_id": "arc2/0930.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublinensis",
+        "Lublin"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose jurisdiction is cited and where the act was enacted ('Civitatis Lublinensis', 'Actum et Datum Lublin')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Zdanca",
+      "mention_texts": [
+        "Jacobi Zdancy"
+      ],
+      "descriptive_mentions": [
+        "Ingenui adolescentis",
+        "fratris sui germani"
+      ],
+      "justification": "Young nobleman whose brother acts on his behalf ('Ingenui adolescentis Jacobi Zdancy fratris sui germani')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Krasnosielski",
+      "mention_texts": [
+        "Stanislaw Krasnosielski"
+      ],
+      "descriptive_mentions": [
+        "Syndicum Leopoliensem",
+        "tutorem suum ad id sibi assumptum et iuridice approbatum"
+      ],
+      "justification": "Syndic of Lviv acting as guardian ('Stanislaw Krasnosielski Syndicum Leopoliensem tutorem suum')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaum Fryszerinon"
+      ],
+      "descriptive_mentions": [
+        "Solem et Famatum Dominum",
+        "Civem et Consulem Leopoliensem absentem tanquam praesentem",
+        "suum verum et legitimum plenipotentiarium",
+        "praefato Plenipoten- suo",
+        "praefatum plenipotentem suum"
+      ],
+      "justification": "Consul of Lviv appointed as plenipotentiary ('Dominum Stanislaum Fryszerinon Civem et Consulem Leopoliensem')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Civitatem Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatem"
+      ],
+      "justification": "City of Lviv, referenced in titles ('Syndicum Leopoliensem', 'Consulem Leopoliensem') and property locations."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta in Vigilia Sancti Joannis Baptistae Anno Domini 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded legal act (Friday, vigil of St. John the Baptist, 1595)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciakie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Halych suburb of Lviv where the house is situated ('in eiusdem Civitatis Suburbio Haliciakie nuncupato')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Josephowski",
+      "mention_texts": [
+        "Josephowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor or adjacent property owner in the Halych suburb ('inter Josephowski')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "syndic_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislaw Krasnosielski Syndicum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "consul_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislaum Fryszerinon Civem et Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "suburb_of",
+      "tail_entity_id": "E5",
+      "evidence": "in eiusdem Civitatis Suburbio Haliciakie nuncupato"
+    }
+  ]
+}

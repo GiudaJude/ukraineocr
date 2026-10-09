@@ -1,0 +1,98 @@
+{
+  "document_id": "arc2/0669.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Polomski",
+      "mention_texts": [
+        "Stanislaum Polomski",
+        "Stanislaus Polomski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "agen",
+        "praefatus Nobilis",
+        "Actor"
+      ],
+      "justification": "Noble plaintiff acting on behalf of himself and his sister."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Artis Sancta Philippona",
+      "mention_texts": [
+        "Artis Sanctae Philipponae"
+      ],
+      "descriptive_mentions": [
+        "soris ipsius"
+      ],
+      "justification": "Sister of Stanislaus Polomski on whose behalf he is litigating."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Philipowicz",
+      "mention_texts": [
+        "Joannem Philipowicz",
+        "Joannes Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenum",
+        "actum",
+        "Citatem",
+        "praefatus",
+        "citatum"
+      ],
+      "justification": "Armenian defendant cited to take an oath."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "King whose royal decree enjoined the oath."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "ea Ciuitate"
+      ],
+      "justification": "City where the legal proceedings and the Armenian church are located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Armenian Church",
+      "mention_texts": [
+        "Ecclesiam Armenorum",
+        "Ecclesiam Armenicam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Armenian church in Lviv where the oath was requested to be sworn."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislaum Polomski suo et Artis Sanctae Philipponae soris ipsius"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Leopoliensis in ea Ciuitate obseruata addi fideles iuris ad Ecclesiam Armenorum"
+    }
+  ]
+}

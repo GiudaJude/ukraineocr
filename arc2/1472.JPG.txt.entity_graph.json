@@ -1,0 +1,184 @@
+{
+  "document_id": "arc2/1472.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festo S. Michaelis Archangeli",
+        "festo S. Michaelis",
+        "festo S. Michaelis",
+        "festum S. Michaelis"
+      ],
+      "descriptive_mentions": [
+        "nuper praeterito",
+        "proxime praeterito"
+      ],
+      "justification": "Feast of Saint Michael mentioned as the start and end reference of the three-year mortgage term."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1599",
+      "mention_texts": [
+        "Anno Domini 159nono",
+        "Anno Domini 159nono"
+      ],
+      "descriptive_mentions": [
+        "venturo",
+        "venturum"
+      ],
+      "justification": "Year 1599 mentioned as the expiration date of the mortgage."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "quadringentorum florenorum",
+        "quadringentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "debiti",
+        "summa principalis debiti"
+      ],
+      "justification": "Sum of 400 florins secured by the mortgage."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kapinos",
+      "mention_texts": [
+        "Alberto Kapinos",
+        "Albertus"
+      ],
+      "descriptive_mentions": [
+        "Creditori suo",
+        "idem Creditor",
+        "oppigneratarium praedictum",
+        "Creditores",
+        "effato",
+        "ipse"
+      ],
+      "justification": "The creditor taking the mortgage over the shares of the tenement house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Matysowska",
+      "mention_texts": [
+        "Matissowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "earundem sortium lapideae",
+        "sortium lapideae praedictae",
+        "sortibus",
+        "sortes praefatas",
+        "sortes lapideae"
+      ],
+      "justification": "Tenement house whose two shares are being mortgaged."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City in which the tenement house and street are located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Zewrańska Street",
+      "mention_texts": [
+        "Zewranska"
+      ],
+      "descriptive_mentions": [
+        "platea",
+        "dicta"
+      ],
+      "justification": "Street where the Matysowska tenement house is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Jeleniowska",
+      "mention_texts": [
+        "Jeleniowska"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring tenement house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Frąckowska",
+      "mention_texts": [
+        "Frackowska"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring tenement house on the other side."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Toma Kares"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Person from whose obligation one share of the house was liberated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "330 florins",
+      "mention_texts": [
+        "trecentorum et triginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "The monetary value under which the second share had been held."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Matysowicz",
+      "mention_texts": [
+        "Joanne Matisowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "olim",
+        "avunculo suo"
+      ],
+      "justification": "Late uncle from whom the second share was held under mortgage."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "domus lapideae Matissowska in eiusdem Civitatis platea Zewranska dicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in eiusdem Civitatis platea Zewranska dicta"
+    }
+  ]
+}

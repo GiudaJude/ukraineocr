@@ -1,0 +1,243 @@
+{
+  "document_id": "arc2/1380.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Głowka",
+      "mention_texts": [
+        "Simonis Głowka"
+      ],
+      "descriptive_mentions": [
+        "patris citatorum",
+        "marito"
+      ],
+      "justification": "Deceased father whose estate and debts are being contested by his widow and heirs."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Żółkiew",
+      "mention_texts": [
+        "maiori Zolkvia",
+        "Zolkvia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location from which Simon Głowka and his heirs originate."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-2505: Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Sadowie"
+      ],
+      "descriptive_mentions": [
+        "tutorem et Executorem suum"
+      ],
+      "justification": "Guardian and executor acting on behalf of Simon Głowka's widow."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Głowka",
+      "mention_texts": [
+        "Gregorium",
+        "Zobruszęta",
+        "Głowka"
+      ],
+      "descriptive_mentions": [
+        "praiiugxes",
+        "citatos",
+        "sutores"
+      ],
+      "justification": "Stepson of the plaintiff actrix and son/heir of late Simon Głowka."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Głowka",
+      "mention_texts": [
+        "Stanislaum",
+        "Zobruszęta",
+        "Głowka"
+      ],
+      "descriptive_mentions": [
+        "praiiugxes",
+        "citatos",
+        "sutores"
+      ],
+      "justification": "Stepson of the plaintiff actrix and son/heir of late Simon Głowka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Głowka",
+      "mention_texts": [
+        "Joannem"
+      ],
+      "descriptive_mentions": [
+        "Filium",
+        "eiusdem actricis"
+      ],
+      "justification": "Son of the actrix and Simon Głowka mentioned in division of debt responsibilities."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/court issuing the decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts take place and where Andreas Glinka and his wife reside."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria tertia post festum Exaltationis Sanctae Crucis Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording for the second entry."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Georgius Szlenda",
+      "mention_texts": [
+        "Georgius Szlenda"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Creditor named in the margin/heading of the second entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0261: Lukaszowic",
+      "mention_texts": [
+        "Andreas Glinka"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "coniuges",
+        "Cives Leopolienses",
+        "vir",
+        "mariti sui"
+      ],
+      "justification": "Furrier and burgher of Lviv acknowledging a debt together with his wife."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helizabetha"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "uxor"
+      ],
+      "justification": "Wife of Andreas Glinka, appearing assisted by a guardian."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Zborowic",
+      "mention_texts": [
+        "Bartholomeum Zborowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "tutore"
+      ],
+      "justification": "Appointed guardian assisting Helizabetha in the legal transaction."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "Florenos quadringentos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt acknowledged by Andreas Glinka and his wife."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "based_in",
+      "tail_entity_id": "E2",
+      "evidence": "Simonis Głowka de maiori Zolkvia"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "Simonis Głowka patris citatorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "based_in",
+      "tail_entity_id": "E2",
+      "evidence": "Gregorium et Stanislaum Zobruszęta nicolas maioris Zolkvia"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "Simonis Głowka patris citatorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "based_in",
+      "tail_entity_id": "E2",
+      "evidence": "Gregorium et Stanislaum Zobruszęta nicolas maioris Zolkvia"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Andreas Glinka Pellio et Helizabetha coniuges"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Andreas Glinka Pellio et Helizabetha coniuges"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E12",
+      "evidence": "uxor vero per Famatus Bartholomeum Zborowic tutore sibi quoad actum et effectum infrascriptorum cum praesentia mariti sui consensu assumptum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "based_in",
+      "tail_entity_id": "E8",
+      "evidence": "Andreas Glinka Pellio et Helizabetha coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "based_in",
+      "tail_entity_id": "E8",
+      "evidence": "Andreas Glinka Pellio et Helizabetha coniuges Cives Leopolienses"
+    }
+  ]
+}

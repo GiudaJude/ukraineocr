@@ -1,0 +1,413 @@
+{
+  "document_id": "arc2/1254.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis",
+        "Offi- nostro",
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [
+        "Collega noster Consularis"
+      ],
+      "justification": "City council records and magistracy referenced by the scribal formula."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0199: 16 florins",
+      "mention_texts": [
+        "Florenos sedecim"
+      ],
+      "descriptive_mentions": [
+        "mi Polonicales"
+      ],
+      "justification": "Sum of sixteen florins mentioned in the satisfaction acknowledgment."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Janussius Beriex",
+      "mention_texts": [
+        "Janussio Beriex"
+      ],
+      "descriptive_mentions": [
+        "Nobili olim praedicto"
+      ],
+      "justification": "Deceased nobleman mentioned as original creditor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Jewissowski",
+      "mention_texts": [
+        "Georgio Jewissowski"
+      ],
+      "descriptive_mentions": [
+        "praefato"
+      ],
+      "justification": "Individual who satisfied the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the court acts were drawn and civic affiliation of Kurosz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta ante festum Sanctae Margarethae virginis proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Waisz",
+      "mention_texts": [
+        "Stanislaus Waiss"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the margin/heading of the record."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "filia et successor"
+      ],
+      "justification": "Widow of Lucas Tozmiar, daughter of Joannes Waiss and Eva."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lucas Tozmiar",
+      "mention_texts": [
+        "Lucae Tozmiar"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased husband of Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Waisz",
+      "mention_texts": [
+        "Joannis Waiss"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Scabini",
+        "coniugum",
+        "praedicti",
+        "praedictorum"
+      ],
+      "justification": "Deceased council scabinus, father of the Waiss successors."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Ewa",
+      "mention_texts": [
+        "Euae"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Wife of Joannes Waiss and mother of the heirs."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Tomam Karol"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum",
+        "tutorem suum"
+      ],
+      "justification": "Scabinus acting as guardian to Anna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus",
+        "Tutor testamentarius"
+      ],
+      "justification": "Scabinus acting as testamentary guardian of Zofia and Bartholomaeus minor."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zofiae"
+      ],
+      "descriptive_mentions": [
+        "filiae"
+      ],
+      "justification": "Daughter/minor heir of Joannes Wojnar and Catharina Waisz."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Wojnar",
+      "mention_texts": [
+        "Bartholomaeique",
+        "Barthomaei"
+      ],
+      "descriptive_mentions": [
+        "minoris"
+      ],
+      "justification": "Minor son/heir of Joannes Wojnar and Catharina Waisz."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wojnar",
+      "mention_texts": [
+        "Joannis Wojnarowna"
+      ],
+      "descriptive_mentions": [
+        "Famatorum olim"
+      ],
+      "justification": "Deceased father of Zofia and Bartholomaeus minor."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catharinae Czewissowna"
+      ],
+      "descriptive_mentions": [
+        "Famatorum olim",
+        "filia coniugum"
+      ],
+      "justification": "Deceased daughter of Joannes Waiss and wife of Joannes Wojnar."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Strzeżymierz",
+      "mention_texts": [
+        "Stanislaus Strzerzimis"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Collega noster Consularis",
+        "Tutor"
+      ],
+      "justification": "Consul and appointed guardian of Margaretha."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margarethae"
+      ],
+      "descriptive_mentions": [
+        "filiae"
+      ],
+      "justification": "Daughter of Joannes Waiss and Eva."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Simon Kurosz",
+      "mention_texts": [
+        "Simonis Kurosz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Scabinus",
+        "Ciuis Leopoliensis",
+        "Tutor seu potius Curator"
+      ],
+      "justification": "Scabinus appointed curator of Magister Joannes Waisz."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "Joannes Waisz the Younger",
+      "mention_texts": [
+        "Joannis Cvais"
+      ],
+      "descriptive_mentions": [
+        "Excellentis Magistri",
+        "mente capti"
+      ],
+      "justification": "Mentally incapacitated son of Joannes Waiss and Eva detained in Kraków."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracouiensi"
+      ],
+      "descriptive_mentions": [
+        "Academia"
+      ],
+      "justification": "Kraków Academy where Joannes Waisz the Younger is detained."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesti autem olim Joannis Waiss Scabini et Euae coniugum filia et successor"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honesti autem olim Joannis Waiss Scabini et Euae coniugum filia et successor"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Famati olim Lucae Tozmiar vidua relicta"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannis Waiss Scabini et Euae coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "per Honoratum Tomam Karol Scabinum tutorem suum"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Catharinae Czewissowna nempe praedicti Joannis Waiss et Euae filia coniugum"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Catharinae Czewissowna nempe praedicti Joannis Waiss et Euae filia coniugum"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Famatorum olim Joannis Wojnarowna et Catharinae Czewissowna nempe praedicti Joannis Waiss et Euae filia coniugum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E16",
+      "evidence": "Zofiae, Bartholomaeique minoris filiae Famatorum olim Joannis Wojnarowna et Catharinae Czewissowna"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E17",
+      "evidence": "Zofiae, Bartholomaeique minoris filiae Famatorum olim Joannis Wojnarowna et Catharinae Czewissowna"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "child_of",
+      "tail_entity_id": "E16",
+      "evidence": "Zofiae, Bartholomaeique minoris filiae Famatorum olim Joannis Wojnarowna et Catharinae Czewissowna"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "child_of",
+      "tail_entity_id": "E17",
+      "evidence": "Zofiae, Bartholomaeique minoris filiae Famatorum olim Joannis Wojnarowna et Catharinae Czewissowna"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "Martinus Rottendorff Scabinus tanquam Tutor testamentarius Zofiae, Bartholomaeique minoris"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E15",
+      "evidence": "Martinus Rottendorff Scabinus tanquam Tutor testamentarius Zofiae, Bartholomaeique minoris"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E19",
+      "evidence": "Stanislaus Strzerzimis Collega noster Consularis tanquam Tutor ... datus et constitutus Zofiae Margarethae praedictorum Joannis Waiss et Euae coniugum filiae"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Margarethae praedictorum Joannis Waiss et Euae coniugum filiae"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Margarethae praedictorum Joannis Waiss et Euae coniugum filiae"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E21",
+      "evidence": "Simonis Kurosz Scabinus Ciuis Leopoliensis tanquam Tutor seu potius Curator ... Excellentis Magistri Joannis Cvais"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simonis Kurosz Scabinus Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E21",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Excellentis Magistri Joannis Cvais mente capti ... praedictorum quoque coniugum"
+    },
+    {
+      "head_entity_id": "E21",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Excellentis Magistri Joannis Cvais mente capti ... praedictorum quoque coniugum"
+    }
+  ]
+}

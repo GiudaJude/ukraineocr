@@ -1,0 +1,164 @@
+{
+  "document_id": "arc2/1279.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gnesius",
+      "mention_texts": [
+        "Gnesius"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "Plenipotens suus"
+      ],
+      "justification": "Named as the plenipotentiary in the concluding formula of the first entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Festes Scultetus",
+      "mention_texts": [
+        "Festes Scultetus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Cracoviensis"
+      ],
+      "justification": "Principal party appearing before the office to appoint a plenipotentiary."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna minus",
+      "mention_texts": [
+        "Anna minus"
+      ],
+      "descriptive_mentions": [
+        "Mercator Ducatus Leopolien(sis)"
+      ],
+      "justification": "Merchant from Kaffa appearing in connection with the plenipotence."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Tomasz Szarbariany",
+      "mention_texts": [
+        "Tomaszum Szarbariany"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "legitimo indubitatoque Plenipotentem",
+        "mandatarium"
+      ],
+      "justification": "Individual appointed as plenipotentiary and legal representative."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "David Serebkowicz",
+      "mention_texts": [
+        "Davidi Jevoblonic",
+        "Davidi reebkovic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Armenian burgher of Lviv against whom legal proceedings are directed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City with which Festes Scultetus is associated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Kaffa",
+      "mention_texts": [
+        "Kaffa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Trading city from which merchant Anna minus originates."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolien(sis)",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "hac Civitate"
+      ],
+      "justification": "City where the office is held and of which David is a citizen."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "praesentis Officii",
+        "Officio et Actis Praesentibus"
+      ],
+      "justification": "Municipal office before which the legal declaration is officially made."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio D. Advocati Judicis Civitatis Magdeburgensis"
+      ],
+      "justification": "Advocatial court of Magdeburg law mentioned in relation to previous acts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "origin_from",
+      "tail_entity_id": "E6",
+      "evidence": "Honestus Festes Scultetus Cracoviensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "origin_from",
+      "tail_entity_id": "E7",
+      "evidence": "Anna minus de Kaffa"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "appointed_representative",
+      "tail_entity_id": "E4",
+      "evidence": "fecit constituit et solemniter ordinavit in suum vero legitimo indubitatoque Plenipotentem et mandatarium Honestum Tomaszum Szarbariany"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "appointed_representative",
+      "tail_entity_id": "E4",
+      "evidence": "fecerunt se... fecit constituit et solemniter ordinavit in suum vero legitimo indubitatoque Plenipotentem et mandatarium Honestum Tomaszum Szarbariany"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Davidi Jevoblonic Armeno Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_action_against",
+      "tail_entity_id": "E5",
+      "evidence": "ad instruendam causam et actionem Famato Davidi Jevoblonic Armeno Civi Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "document_id": "arc2/1500.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Philippowic",
+      "mention_texts": [
+        "Valentini Philippowic",
+        "Valentinus Philippowic",
+        "Evationi Philippowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armigerus",
+        "Civis Leopoliensis",
+        "ipse"
+      ],
+      "justification": "Primary protestor appearing personally before the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Ivan Bieldata",
+      "mention_texts": [
+        "Ivani Bieldata",
+        "Ivano Bieldata",
+        "Ivam Bieldata",
+        "Bieldata",
+        "Ivan Bieldata"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Instructionis Civis Leopoliensis",
+        "idem",
+        "eidem"
+      ],
+      "justification": "Party against whom the protest is lodged, who also gives a response."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of jurisdiction and citizenship."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij nostri",
+        "Officij praesentis",
+        "Actis Advocatilibus Leopoliensibus",
+        "actis ijsdem"
+      ],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "Council court and registry in which the protestation is filed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zivieronowic",
+      "mention_texts": [
+        "Joannis Zivieronowic",
+        "Zivieronowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armoni",
+        "conductore suo",
+        "eodem"
+      ],
+      "justification": "Armenian tenant mentioned in earlier rental records."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenos viginti",
+        "Florenos viginti Polonicales"
+      ],
+      "descriptive_mentions": [
+        "census",
+        "census annui"
+      ],
+      "justification": "Amount of annual rent."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0138: 1591",
+      "mention_texts": [
+        "Anno 1591 primo",
+        "feria tertia infra Octavas Corporis Christi Anno 1591 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded inscription exhibited by Valentinus Philippowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia ante festum Sanctae Caterinae Virginis proxima Anno Domini 1596",
+        "feria quarta ante festum Sanctae Catarinae Virginis proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date entries of the act in the consular book."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Hanel",
+      "mention_texts": [
+        "Stanislai Hanel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deceased individual whose successors are mentioned in the heading of the following act."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0039: Christophorus Lewicki",
+      "mention_texts": [
+        "Christophorus Lowicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honestus"
+      ],
+      "justification": "Person appearing personally in the subsequent quitclaim entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "has_residence",
+      "tail_entity_id": "E3",
+      "evidence": "Valentinus Philippowic Armigerus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "has_residence",
+      "tail_entity_id": "E3",
+      "evidence": "Ivani Bieldata Instructionis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "has_residence",
+      "tail_entity_id": "E3",
+      "evidence": "Joannis Zivieronowic Armoni"
+    }
+  ]
+}

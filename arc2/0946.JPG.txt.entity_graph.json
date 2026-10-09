@@ -1,0 +1,225 @@
+{
+  "document_id": "arc2/0946.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act was recorded and of which the deponents and subjects are citizens/suburbans."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post Do-\nminicam Reminiscere Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "Actum ut supra"
+      ],
+      "justification": "Date of recording the act."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Falieski",
+      "mention_texts": [
+        "Laurentius Falieski"
+      ],
+      "descriptive_mentions": [
+        "Famati et Honesti",
+        "Cives Leopolienses"
+      ],
+      "justification": "Witness testifying to the genealogy."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Woythek",
+      "mention_texts": [
+        "Stanislaus Woythek"
+      ],
+      "descriptive_mentions": [
+        "Famati et Honesti",
+        "Cives Leopolienses"
+      ],
+      "justification": "Witness testifying to the genealogy."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium nostrum"
+      ],
+      "justification": "City council office recording the testimony."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Czupitko",
+      "mention_texts": [
+        "Andreae Czupitko",
+        "Andreae\nCzupithko",
+        "Andreas Czupith-\nko",
+        "Andrea-\nas Czupithko",
+        "Andreas Czupitko"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sutoris",
+        "ex fundo conuonatoris Leopoliensis",
+        "filij",
+        "Honestus",
+        "frater germanus praedicti Christophori vita functi",
+        "haeredem",
+        "solus praedictus",
+        "Famatus",
+        "Sutor Suburba-\nnus Leopoliensis"
+      ],
+      "justification": "Subject of the genealogy testifying he is the sole surviving heir."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Czupit",
+      "mention_texts": [
+        "Valentinum Czupitis",
+        "Valentinus"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "facto-\nrem Suburbanum Leopoliensem",
+        "coniuges legitimos",
+        "Coniuges"
+      ],
+      "justification": "Deceased father of Andreas and Christophorus Czupitko."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "suburbio Domini Cracoviensis dicto"
+      ],
+      "justification": "Kraków suburb of Lviv mentioned as residence of Valentinus Czupit."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigim",
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "coniuges legitimos",
+        "Coniuges"
+      ],
+      "justification": "Wife of Valentinus and mother of Andreas and Christophorus Czupitko."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Czupitka",
+      "mention_texts": [
+        "Christophorus Czupitka",
+        "Christophori",
+        "Christophorum"
+      ],
+      "descriptive_mentions": [
+        "filij",
+        "Honestus",
+        "Sutoris fusij socius",
+        "mortuus",
+        "vita functi",
+        "haeredem",
+        "vita steriliter functum"
+      ],
+      "justification": "Deceased brother of Andreas Czupitko."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Sokal",
+      "mention_texts": [
+        "Sokal"
+      ],
+      "descriptive_mentions": [
+        "oppido"
+      ],
+      "justification": "Town where Christophorus Czupitka died."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Dzidowic",
+      "mention_texts": [
+        "Alberti Dzidowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the heading of entry 854 regarding power of attorney."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Petrum olim Valentinum Czupitis... et Hedvigim coniuges legitimos et iustis nuptijs iuxta ritum Sanctae Romanae Ecclesiae Catholicae copulatos et coniunctos fuisse"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Petrum olim Valentinum Czupitis... et Hedvigim coniuges legitimos et iustis nuptijs iuxta ritum Sanctae Romanae Ecclesiae Catholicae copulatos et coniunctos fuisse"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E10",
+      "evidence": "Ex quod matrimonio progeniti sunt duo filij et totidem nimirum Honestus Christophorus Czupitka"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Ex quod matrimonio progeniti sunt duo filij et totidem nimirum Honestus Christophorus Czupitka... et praedictus Honestus Andreas Czupithko"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent_of",
+      "tail_entity_id": "E10",
+      "evidence": "Ex quod matrimonio progeniti sunt duo filij et totidem nimirum Honestus Christophorus Czupitka"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Ex quod matrimonio progeniti sunt duo filij et totidem nimirum Honestus Christophorus Czupitka... et praedictus Honestus Andreas Czupithko"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "praedictus Honestus Andreas Czupithko frater germanus praedicti Christophori vita functi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "praedictus Honestus Andreas Czupithko frater germanus praedicti Christophori vita functi"
+    }
+  ]
+}

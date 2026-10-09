@@ -1,0 +1,141 @@
+{
+  "document_id": "arc2/1373.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the city of Lviv in 'Suburbani Leopoliensis' and 'Suburbano Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium",
+        "Officio praesenti",
+        "Officium"
+      ],
+      "descriptive_mentions": [
+        "officium miram"
+      ],
+      "justification": "The municipal council/office before which the witness testimony and legal resignation took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0006: Roman Catholic Church",
+      "mention_texts": [
+        "S. Romanae Catholicae Ecclesiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ecclesiastical institution referenced in connection with legitimate Catholic marriage rites."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Malyrzkowicz",
+      "mention_texts": [
+        "Joannis Malyrzkowicz",
+        "Joannem Malyrzkowic",
+        "Joannes",
+        "Joannes Malyrzkowicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "praefatum",
+        "Filius",
+        "Ingenuus",
+        "artificiij Lanificium socius",
+        "heres"
+      ],
+      "justification": "The son whose legitimate birth is attested and who releases his father from his maternal inheritance."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Malyruk",
+      "mention_texts": [
+        "Nicolai Malyruk",
+        "Nicolaus Malyrzk",
+        "Nicolaus Malyruk",
+        "Nicolao Malyruk"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Fabrilignarii",
+        "Suburbano Leopoliensis",
+        "pater",
+        "praefatus",
+        "Honesti",
+        "suburbanis",
+        "patre suo",
+        "patrem suum"
+      ],
+      "justification": "The father, a carpenter residing in the Lviv suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginam"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "matrem suam",
+        "coniugem",
+        "matrem suam praefatam"
+      ],
+      "justification": "Deceased mother of Joannes Malyrzkowicz and first wife of Nicolaus Malyruk."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Rzetawic",
+      "mention_texts": [
+        "Albertus Rzetawic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the marginal/entry heading."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Rzetawicki",
+      "mention_texts": [
+        "Christopherus Rzetawicki",
+        "Christopherus Rzetawiski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sacristan C."
+      ],
+      "justification": "Named individual appearing at the end of the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "praefatus Nicolaus Malyrzk pater ... Nicolaus Malyruk Joannes Filius"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "post matrem suam Honestam olim Reginam Honesti Nicolai Malyruk suburbanis primarum nuptiarum coniugem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestam olim Reginam Honesti Nicolai Malyruk suburbanis primarum nuptiarum coniugem"
+    }
+  ]
+}

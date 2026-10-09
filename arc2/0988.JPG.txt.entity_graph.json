@@ -1,0 +1,178 @@
+{
+  "document_id": "arc2/0988.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi",
+        "Consulari residentia"
+      ],
+      "descriptive_mentions": [
+        "nostra"
+      ],
+      "justification": "The municipal council office and consular residence before which the legal proceedings took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacob Scholz",
+        "Jacobus Scholz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus",
+        "Civis Leopoliensis",
+        "tutorio",
+        "Tutorem"
+      ],
+      "justification": "Lviv bencher and citizen appearing as guardian in the lawsuit."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Caspar Gulinski"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Consul Leopoliensis"
+      ],
+      "justification": "Lviv councilman providing surety for ratification."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorij Dobroszki"
+      ],
+      "descriptive_mentions": [
+        "Excellenti Domini",
+        "I. V. Doctoris",
+        "Advocati Ordinarij"
+      ],
+      "justification": "Ordinary advocate and doctor of laws mentioned in the ratification clause."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Gelani",
+        "Andreae Gelosini"
+      ],
+      "descriptive_mentions": [
+        "Ingenij"
+      ],
+      "justification": "Person subject to the curatorship / guardianship action."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festa solemnia Paschat"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Easter feast specified as the term limit for the legal exception."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv cited in civic designations."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Giernus",
+      "mention_texts": [
+        "Jacobus Giernus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the heading of entry 895."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Ryssiowa",
+        "Anna Rostolowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Vidua"
+      ],
+      "justification": "Widow on whose behalf Marcus Zlesta appeared in entry 895."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Marcus Zlesta",
+      "mention_texts": [
+        "Marcus Zlesta"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus"
+      ],
+      "justification": "Suburbanite of Lviv appearing in person for Anna Rostolowa."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sadowicz",
+      "mention_texts": [
+        "Alberti Sadowicz"
+      ],
+      "descriptive_mentions": [
+        "Tutoris",
+        "Subur-"
+      ],
+      "justification": "Guardian of the widow Anna Rostolowa."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "ad Curatoriam Ingenij Andreae Gelosini per Tutorem praefata citatis instituta"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobus Scholz Scabinus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "D. Caspar Gulinski Consul Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "Anna Rostolowa Vidua eiusque Tutoris Alberti Sadowicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Marcus Zlesta Suburbanus Leopolitanus"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/1172.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "filiae"
+      ],
+      "justification": "Named as seller alongside Dorothea Feterzowna."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea Feterzowna"
+      ],
+      "descriptive_mentions": [
+        "filiae"
+      ],
+      "justification": "Named as seller alongside Catherina."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Beata",
+      "mention_texts": [
+        "Beata"
+      ],
+      "descriptive_mentions": [
+        "dicta"
+      ],
+      "justification": "Named acting through husbands/guardians."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Raczka",
+      "mention_texts": [
+        "Nicolao Raczka",
+        "Nicolaum Raczka"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "affini",
+        "dictorum Emptorum",
+        "Emptoribus",
+        "eosdem Emptores suos",
+        "suum Plenipotentem",
+        "maritum suum",
+        "marito"
+      ],
+      "justification": "Buyer of hereditary shares and husband of Anna Feterzowna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Feterzowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Coniugi",
+        "sorori sua",
+        "dictorum Emptorum",
+        "praedicta"
+      ],
+      "justification": "Sister of the sellers and wife of Nicolaus Raczka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "460 thalers",
+      "mention_texts": [
+        "quadringentis sexagintis talerorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price specified in the sale agreement."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the properties are situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków suburb of Lwów where the houses and gardens are located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Church of Saint George",
+      "mention_texts": [
+        "templum D. Georgij"
+      ],
+      "descriptive_mentions": [
+        "religionis Graecae"
+      ],
+      "justification": "Landmark near which the sold property is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Church of the Holy Cross",
+      "mention_texts": [
+        "templum S. Crucis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Church landmark marking the property boundaries/location."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "M. Saeler Lingowski",
+      "mention_texts": [
+        "M. Saeler Lingowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "autorem"
+      ],
+      "justification": "Noble appointed as legal assistant/tutor."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesto Nicolao Raczka affini et eius Coniugi Honesta Anna Feterzowna"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nicolaum Raczka maritum suum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Anna Feterzowna sorori sua"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Anna Feterzowna sorori sua"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta autem Catherina et Dorothea Feterzowna filiae"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Leopoli in Suburbio Cracoviensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in Suburbio Cracoviensi ad templum D. Georgij"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in Suburbio Cracoviensi ... et ad templum S. Crucis"
+    }
+  ]
+}

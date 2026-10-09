@@ -1,0 +1,100 @@
+{
+  "document_id": "arc2/1560.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "City referenced as the jurisdiction of the notary and town officials."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Iwaszkowicz",
+        "Iwaszkowiczow"
+      ],
+      "descriptive_mentions": [
+        "praedicti Famati",
+        "Famatorum praedictorum"
+      ],
+      "justification": "Litigant party in the matter; family name matched to corpus entity PER-0071."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Kaprus",
+      "mention_texts": [
+        "Kaprus"
+      ],
+      "descriptive_mentions": [
+        "praedicti Famati"
+      ],
+      "justification": "Opposing party present during the proceedings."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Armenian Church",
+      "mention_texts": [
+        "Templo Armenico",
+        "Templum Armenicale"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Armenian Church in Lviv where the oath and testimony were to take place."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Nadgornic",
+      "mention_texts": [
+        "Andream Nadgornic"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Notarium Civitatis eiusdem Leopoliensis"
+      ],
+      "justification": "City notary appointed to oversee the oath in the Armenian Church."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sieroński",
+      "mention_texts": [
+        "Albertum Sieronski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Praeconem Rectori Civitatis Praefecti"
+      ],
+      "justification": "City beadle/praeco deputed along with the notary to witness the oath."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Notarium Civitatis eiusdem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Praeconem Rectori Civitatis Praefecti"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in Templo Armenico deputauimus Honoratum Andream Nadgornic Notarium Civitatis eiusdem Leopoliensis"
+    }
+  ]
+}

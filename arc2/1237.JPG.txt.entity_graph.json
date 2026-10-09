@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/1237.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court of Lviv mentioned in the formula of proxy/resignation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Josephus Gołosowic",
+      "mention_texts": [
+        "Josephus Golosowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Creditor acknowledging receipt of payment."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "dictae Civitatis",
+        "Civitatem"
+      ],
+      "justification": "City where the acts and residents are located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Damis",
+      "mention_texts": [
+        "Andreae Damis",
+        "Andreas Damis",
+        "Damis"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Graecus Mercator",
+        "incola praesentis Leopoliensis"
+      ],
+      "justification": "Greek merchant who paid the contribution sum."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "64 Polish florins",
+      "mention_texts": [
+        "sexaginta quatuor Florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum paid by Andreas Damis."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Walmatrcis House",
+      "mention_texts": [
+        "domo Walmatrcis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "House from which the contribution was due."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii nostri",
+        "officium praesens"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office issuing decrees and recording protests."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Wednesday after Corpus Christi",
+      "mention_texts": [
+        "feria quarta post Festum Corporis Christi"
+      ],
+      "descriptive_mentions": [
+        "proxime praeterita"
+      ],
+      "justification": "Date of the previous council decree mentioned in the text."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Koczan",
+      "mention_texts": [
+        "Stanislaum Koczan",
+        "Stanislaus Koczan",
+        "Stanislaus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Coquus Suburbanus Leopoliensis",
+        "praefatus Stanislaus"
+      ],
+      "justification": "Cook from the Lviv suburb protesting against Paulus Novicampianus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Lo- wczambiani"
+      ],
+      "descriptive_mentions": [
+        "Excellentis et Spectabilis Domini",
+        "Medici",
+        "dictae Civitatis collegae nostri",
+        "Spectabili",
+        "Domino fundi illius",
+        "praefatus Spectabilis",
+        "primarium haeredem"
+      ],
+      "justification": "Doctor of medicine, city councillor, and ground landlord of the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lacoutrowska House",
+      "mention_texts": [
+        "domo Lacoutrowska"
+      ],
+      "descriptive_mentions": [
+        "eadem domo",
+        "praefata domo"
+      ],
+      "justification": "House purchased hereditarily by Stanislaus Koczan."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb in which the Lacoutrowska house is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "Platea Ierviczowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the house is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Josephus Golosowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "incola praesentis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "dictae Civitatis collegae nostri"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "domo Lacoutrowska in Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "domo Lacoutrowska in Suburbio Haliciensi in forte Platea Ierviczowski sita"
+    }
+  ]
+}

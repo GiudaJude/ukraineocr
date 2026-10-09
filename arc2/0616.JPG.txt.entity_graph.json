@@ -1,0 +1,140 @@
+{
+  "document_id": "arc2/0616.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Drużyjkowski",
+      "mention_texts": [
+        "Druzyjkowski",
+        "Joannes Druzyjkowski"
+      ],
+      "descriptive_mentions": [
+        "ipsi",
+        "partes ambae"
+      ],
+      "justification": "Party involved in the property decree regarding access to gardens and use of the gate."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Alberti Dediani"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Magnificorum Consulum Leopoliensium"
+      ],
+      "justification": "Known entity PER-0005: Albertus Pedianus, mentioned as consul inspecting the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Casparis Przezdziewski"
+      ],
+      "descriptive_mentions": [
+        "Magnificorum Consulum Leopoliensium"
+      ],
+      "justification": "Known entity PER-1233: PER-0011: Caspar Przedzucki, mentioned as consul inspecting the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulum Leopoliensium",
+        "officium",
+        "officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council of Lviv issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis",
+        "Ciuitati"
+      ],
+      "justification": "City of Lviv, context of jurisdiction and location of the act."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Alberto Domagalicz",
+        "Albertus Domagalicz"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "partes ambae"
+      ],
+      "justification": "Known entity PER-0254: Albertus Domagala, party granted shared access to the gate."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day on which the annual census is due."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "6 groschen",
+      "mention_texts": [
+        "sex grossorum"
+      ],
+      "descriptive_mentions": [
+        "censu annuo",
+        "integritatem censuum"
+      ],
+      "justification": "Annual rent due to the city for the use of the gate."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "3 groschen",
+      "mention_texts": [
+        "grossos tres",
+        "trium grossorum"
+      ],
+      "descriptive_mentions": [
+        "censum"
+      ],
+      "justification": "Portion of the rent owed by each neighbor."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Domini Alberti Dediani et Casparis Przezdziewski Magnificorum Consulum Leopoliensium"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Domini Alberti Dediani et Casparis Przezdziewski Magnificorum Consulum Leopoliensium"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Consulum Leopoliensium"
+    }
+  ]
+}

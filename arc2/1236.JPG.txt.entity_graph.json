@@ -1,0 +1,239 @@
+{
+  "document_id": "arc2/1236.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes",
+        "Agnes",
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Pudica",
+        "Virgines",
+        "illa",
+        "natu senior",
+        "sororis suae",
+        "praedictam sororem suam"
+      ],
+      "justification": "Daughter of the late Martinus Szczerbaczka and Anna, who resides in the Holy Spirit hospital."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Annae",
+        "Annae",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Virgines",
+        "filia",
+        "sororis suae",
+        "Pudicae",
+        "germanae suae sorori",
+        "praefatam",
+        "sororem suam optime de se meritam",
+        "praenominata",
+        "famula"
+      ],
+      "justification": "Daughter of Martinus Szczerbaczka and Anna, sister of Agnes."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Xenodochio Sancti Spiritus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hospital in Lviv where Agnes lives for devotional reasons."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Scholz",
+      "mention_texts": [
+        "Pauli Szoltz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Scabini"
+      ],
+      "justification": "Lviv bench alderman mentioned in connection with Anna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Martinus Szczerbaczka",
+      "mention_texts": [
+        "Martini Szczerbaczka"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased father of Agnes and Anna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Anna Szczerbaczka",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum"
+      ],
+      "justification": "Wife of the late Martinus Szczerbaczka and mother of Agnes and Anna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Georgius Brzewski",
+      "mention_texts": [
+        "Georgium Brzewski"
+      ],
+      "descriptive_mentions": [
+        "Tutorem sibi assumptum",
+        "Famatum",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Guardian appointed by Agnes, citizen of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "City of Lviv referenced in civic and suburban contexts."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "platea Cordonum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the suburb where the Szczerbaczyńskie property is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Benedictus Cerdo",
+      "mention_texts": [
+        "Benedicti Cordonis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property borders the Szczerbaczyńskie estate."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobi Szoli-"
+      ],
+      "descriptive_mentions": [
+        "Domini"
+      ],
+      "justification": "Master employing Anna as a domestic servant."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City court bench where the legal registration is directed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "filia Honesti olim Martini Szczerbaczka et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "filia Honesti olim Martini Szczerbaczka et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "filia Honesti olim Martini Szczerbaczka et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "filia Honesti olim Martini Szczerbaczka et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Martini Szczerbaczka et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martini Szczerbaczka et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Annae sororis suae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Annae germanae suae sorori"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Tutorem sibi assumptum Famatum Georgium Brzewski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Georgium Brzewski Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "illa Agnes vixit in Xenodochio Sancti Spiritus devotionis causa degens"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "employee_of",
+      "tail_entity_id": "E11",
+      "evidence": "praenominata Anna Domini Jacobi Szoli- famula"
+    }
+  ]
+}

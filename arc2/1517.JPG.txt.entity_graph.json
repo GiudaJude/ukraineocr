@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/1517.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "Feria Sancti Andreae Apostoli Proxima Anno Domini 1596"
+      ],
+      "justification": "Date of the legal act recorded in the document header."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Garsczki",
+      "mention_texts": [
+        "Jacobus Garsczki",
+        "Jacobo Garczki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "suburbii eiusdem Leopoliensis incola",
+        "Creditori",
+        "suo Creditori",
+        "suum Creditorem",
+        "Creditor",
+        "ipsi Creditori suo"
+      ],
+      "justification": "Creditor mentioned in the header and text, resident of the Lviv suburb."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kilian",
+      "mention_texts": [
+        "Joannes Kilian"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the header of the record."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zlat",
+      "mention_texts": [
+        "Joannes Zlat"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Serrifaber",
+        "Civis Leopoliensis",
+        "debitor",
+        "praedictus Joannes Zlat debitor",
+        "suos",
+        "praedictus debitor"
+      ],
+      "justification": "Debtor, locksmith and citizen of Lviv who confesses the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Leopoliensis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City whose citizenship and suburb are mentioned in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "153 Polish florins",
+      "mention_texts": [
+        "Florenos cento quinquaginta tres",
+        "centum quinquaginta trium Florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et monetae Polonicalis in quolibet florenum grossos triginta computando",
+        "summam",
+        "summae praefatae"
+      ],
+      "justification": "Debt amount specified in the agreement."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Pentecostes"
+      ],
+      "descriptive_mentions": [
+        "Festo Joannis Pentecostes"
+      ],
+      "justification": "Due date feast for the debt repayment."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "159 septimo"
+      ],
+      "descriptive_mentions": [
+        "Anno praeterito sequenti 159 septimo futuro"
+      ],
+      "justification": "Year in which the repayment is due."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "portam Haliciensem"
+      ],
+      "descriptive_mentions": [
+        "suburbii eiusdem Leopoliensis",
+        "suburbio eiusdem Civitatis ante portam Haliciensem"
+      ],
+      "justification": "Location outside the Halych Gate where the debtor's house is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Lisnia",
+      "mention_texts": [
+        "Stanislai Lisnia"
+      ],
+      "descriptive_mentions": [
+        "arealem"
+      ],
+      "justification": "Neighbor owning land next to the debtor's mortgaged house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zasziglo",
+      "mention_texts": [
+        "Matiae Zasziglo"
+      ],
+      "descriptive_mentions": [
+        "ferrifabri"
+      ],
+      "justification": "Blacksmith/locksmith neighbor adjoining the debtor's mortgaged house."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Woliam",
+      "mention_texts": [
+        "Alberti Woliam"
+      ],
+      "descriptive_mentions": [
+        "D."
+      ],
+      "justification": "Person mentioned at the end of the entry in the auctarium note."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "has_debt_with",
+      "tail_entity_id": "E2",
+      "evidence": "Joannes Zlat Serrifaber Civis Leopoliensis palam et libere recognouit: Se debere et teneri veri iusti liquidi debiti ex causa emptionis rationis contracti Florenos cento quinquaginta tres ... Nobili Jacobo Garczki"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "lives_in",
+      "tail_entity_id": "E9",
+      "evidence": "Jacobo Garczki pro tunc suburbii eiusdem Leopoliensis incola"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "lives_in",
+      "tail_entity_id": "E5",
+      "evidence": "Joannes Zlat Serrifaber Civis Leopoliensis"
+    }
+  ]
+}

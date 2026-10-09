@@ -1,0 +1,71 @@
+{
+  "document_id": "arc2/1270.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Elias Kopyszynski",
+      "mention_texts": [
+        "Eliam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Elias, heir participating in the inheritance division alongside his brothers Joannes and Bartholomaeus Kopyszynski."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannem Kopszynski"
+      ],
+      "descriptive_mentions": [
+        "fratrem iuniorem"
+      ],
+      "justification": "Joannes Kopyszynski, the younger brother, receiving inheritance."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0837: Bartholomeus",
+      "mention_texts": [
+        "Bartholomaei"
+      ],
+      "descriptive_mentions": [
+        "eodem fratre seniore",
+        "fratris senioris"
+      ],
+      "justification": "Bartholomaeus Kopyszynski, the older brother holding the inherited estate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council/chancellery whose acts are requested to record the transaction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannem Kopszynski fratrem iuniorem iure successionis naturali post parentes ipsius praefatos aequali portione cum eodem fratre seniore spectantium, et spectantis in dispositione et manibus praefati Bartholomaei fratris senioris"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "ad Eliam et Joannem Kopszynski fratrem iuniorem iure successionis naturali post parentes ipsius praefatos aequali portione cum eodem fratre seniore spectantium, et spectantis in dispositione et manibus praefati Bartholomaei fratris senioris"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "ad Eliam et Joannem Kopszynski fratrem iuniorem"
+    }
+  ]
+}

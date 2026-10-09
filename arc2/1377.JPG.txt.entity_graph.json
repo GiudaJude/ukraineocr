@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/1377.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Tomaszewski",
+      "mention_texts": [
+        "Joannis Tomaszewski",
+        "Tomaszoni Tomaszewski",
+        "Tomaszewski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "praedicto Nobili",
+        "principali Creditori",
+        "Nobilem"
+      ],
+      "justification": "Nobilis Joannis Tomaszewski ... praedicto Nobili Tomaszoni Tomaszewski vti principali Creditori"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenis Ducentis pecuniae et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "de Florenis Ducentis pecuniae et monetae Polonicalis debiti"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Ciuili"
+      ],
+      "descriptive_mentions": [],
+      "justification": "debiti eidem Judicio Bannito Ciuili"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Castrensi Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castrensi Leopoliensi iuxta inscriptionem subeuntis"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Saturday before the Feast of Saint Sebastian",
+      "mention_texts": [
+        "Sabbato ante Festum Sancti Sebastiani Martyris"
+      ],
+      "descriptive_mentions": [
+        "proximo Anno eodem currente"
+      ],
+      "justification": "Sabbato ante Festum Sancti Sebastiani Martyris proximo Anno eodem currente"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dąbrowski",
+      "mention_texts": [
+        "Stanislai Dabrowsco"
+      ],
+      "descriptive_mentions": [
+        "Spectabili Domino",
+        "Medicinae Doctore",
+        "Collega pro Consulari"
+      ],
+      "justification": "Spectabili Domino Stanislai Dabrowsco Medicinae Doctore Collega pro Consulari"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "eodem Officio",
+        "Officio"
+      ],
+      "justification": "coram eodem Officio ... Coram Officio Consulari Leopoliensi"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civis Leopoliensis ... Scabino Civitatis Leopoliensis"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Aszko Philippowicz",
+      "mention_texts": [
+        "Aszko Philippowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armenus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Famatus Aszko Philippowicz Armenus Civis Leopoliensis"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andrea Marzowic",
+        "Andreas Marzowic"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino Civitatis Leopoliensis",
+        "fideiussore",
+        "praefatus Honoratus"
+      ],
+      "justification": "Honorato Andrea Marzowic Scabino Civitatis Leopoliensis"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stebanowicz",
+      "mention_texts": [
+        "Joanne Stebanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Receptore"
+      ],
+      "justification": "Famato Joanne Stebanowicz Receptore"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Gorielski",
+      "mention_texts": [
+        "Jacobus Gorielski"
+      ],
+      "descriptive_mentions": [
+        "Regens",
+        "Baccalaureus",
+        "amicus rogatus"
+      ],
+      "justification": "Regens Jacobus Gorielski Baccalaureus eidem negotio assistens tanquam amicus rogatus"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Collega pro Consulari"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "creditor_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tomaszoni Tomaszewski vti principali Creditori ... contracti a Spectabili Domino Stanislai Dabrowsco"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Scabino Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "surety_for",
+      "tail_entity_id": "E11",
+      "evidence": "fideiussore pro Famato Joanne Stebanowicz Receptore"
+    }
+  ]
+}

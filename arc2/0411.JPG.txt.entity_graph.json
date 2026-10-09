@@ -1,0 +1,217 @@
+{
+  "document_id": "arc2/0411.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Alexander Borzen",
+      "mention_texts": [
+        "Jacobum Alexandrum Borzen"
+      ],
+      "descriptive_mentions": [
+        "Civem",
+        "fratres",
+        "mercium Leopoliensium mercaturam agentes",
+        "testes suprascriptos",
+        "testes",
+        "testium praefatorum"
+      ],
+      "justification": "Witness summoned to testify regarding the drowned servant."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus Bernath",
+      "mention_texts": [
+        "Petrum Bernath"
+      ],
+      "descriptive_mentions": [
+        "fratres",
+        "mercium Leopoliensium mercaturam agentes",
+        "testes suprascriptos",
+        "testes",
+        "testium praefatorum"
+      ],
+      "justification": "Witness, brother of Jacobus Alexander Borzen, testifying about the servant."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the context of the merchants trading in Lviv goods."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jan Zelazki",
+      "mention_texts": [
+        "Ian Zelazki"
+      ],
+      "descriptive_mentions": [
+        "famuli Civis incolae"
+      ],
+      "justification": "Servant/resident through whose report the witnesses were summoned."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [
+        "Decreto nostro",
+        "sigillum nostrum"
+      ],
+      "justification": "The municipal council/chancellery of Lviv receiving the deposition."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Felix Hanutius Liw",
+      "mention_texts": [
+        "Felix Hanutius Liw",
+        "Feli- Hanuscium Liw"
+      ],
+      "descriptive_mentions": [
+        "Faber",
+        "famulus suus",
+        "sartorem",
+        "famulum",
+        "mercede conductum"
+      ],
+      "justification": "Hired servant of Jacobus Laron who drowned in the river at Łańcut."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Germany",
+      "mention_texts": [
+        "Germaniam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Destination to which the servant was sent with money."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Łańcut",
+      "mention_texts": [
+        "Civitate Lancuth",
+        "Lancuth"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town where the servant drowned."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Łańcut Municipal Office",
+      "mention_texts": [
+        "Officij Lancutiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The office in Łańcut that recorded or returned the money recovered from the body."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Mary Magdalene",
+      "mention_texts": [
+        "die Beatae Mariae Magdalenae"
+      ],
+      "descriptive_mentions": [
+        "sabbato proxime praeterito"
+      ],
+      "justification": "Date on which the servant departed."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Laron",
+      "mention_texts": [
+        "Jambo Laron",
+        "Jambi Laron",
+        "Jacobus Laron"
+      ],
+      "descriptive_mentions": [
+        "hero suo",
+        "praefatus"
+      ],
+      "justification": "Master of Felix Hanutius Liw and owner of the recovered money."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus King",
+      "mention_texts": [
+        "Alberto King"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Cracoviensi",
+        "Institutore Ferramentario"
+      ],
+      "justification": "Citizen of Kraków and hardware merchant traveling in company with Felix."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Albertus King holds citizenship."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Lucas Samusij",
+      "mention_texts": [
+        "Lucas Samusij"
+      ],
+      "descriptive_mentions": [
+        "Gladiatoris"
+      ],
+      "justification": "Mentioned in the document heading as a swordsmith."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kazbay Czata",
+      "mention_texts": [
+        "Lucas Kazbay Czata"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Nobleman appearing before the court in the subsequent entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jacobum Alexandrum Borzen et Petrum Bernath fratres"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "employee_of",
+      "tail_entity_id": "E11",
+      "evidence": "Felix Hanutius Liw Faber qui nuper a se cum certa pecunia summa in Germaniam missus in Civitate Lancuth aquis demersus interijt sit famulus suus"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E13",
+      "evidence": "Alberto King Cive Cracoviensi"
+    }
+  ]
+}

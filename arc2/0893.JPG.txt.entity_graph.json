@@ -1,0 +1,117 @@
+{
+  "document_id": "arc2/0893.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rogalski",
+      "mention_texts": [
+        "Stanislao Rogalski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Generoso Creditori",
+        "eidem praedicto Generoso Creditori"
+      ],
+      "justification": "Named as the creditor to whom the debt is owed and mortgaged."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1597",
+      "mention_texts": [
+        "Quinta post Festum Epiphaniae Domini proxima Anno proxime venturo 159 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date of the debt specified in the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "eiusdem Civitatis",
+        "Communitas Civitatis eiusdem"
+      ],
+      "justification": "City context where the mortgaged property and town council are located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Gaslarowska House",
+      "mention_texts": [
+        "Gaslarowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea Civitatis eiusdem Leopoliensis propria et haereditaria antiquitus Gaslarowska vocata",
+        "domus lapideae",
+        "praedictae domus lapideae"
+      ],
+      "justification": "The municipal stone house mortgaged to Stanislaus Rogalski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Felix",
+      "mention_texts": [
+        "Felicis"
+      ],
+      "descriptive_mentions": [
+        "Advocati",
+        "Civis",
+        "Consulis Leopoliensis",
+        "olim Felicis Advocati Civis Consulis Leopoliensis"
+      ],
+      "justification": "Late advocate and consul of Lviv whose successors own an adjacent property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Honoratorum Domini Advocati et Fidelium Iuris",
+        "Officium Honorati Domini Advocati et Fidelium Suis"
+      ],
+      "justification": "Municipal judicial body referenced for the execution of the mortgage."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Langisszowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory at the bottom of the document."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kurczyk",
+      "mention_texts": [
+        "Lucas Kurczyk"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory at the bottom of the document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "is_located_in",
+      "tail_entity_id": "E3",
+      "evidence": "domo lapidea Civitatis eiusdem Leopoliensis propria et haereditaria antiquitus Gaslarowska vocata"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E3",
+      "evidence": "olim Felicis Advocati Civis Consulis Leopoliensis"
+    }
+  ]
+}

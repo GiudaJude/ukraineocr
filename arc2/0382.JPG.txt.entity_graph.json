@@ -1,0 +1,103 @@
+{
+  "document_id": "arc2/0382.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Iwan Suszałkowski",
+      "mention_texts": [
+        "Iwan Suszałkowski",
+        "Joannes Koszalkorowski"
+      ],
+      "descriptive_mentions": [
+        "Ministerialis",
+        "Nobilis",
+        "Ministerialis Regni Generalis",
+        "ipse",
+        "Ministerialis"
+      ],
+      "justification": "General court ministerial appearing to make an official report of citation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Krasnidus Błazowski",
+      "mention_texts": [
+        "Krasnidum Błazowski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "Vicepalatinum Terrae Sandomiriensis",
+        "pro rogata Contributionis collectorem",
+        "eundem",
+        "illum",
+        "Qui",
+        "se"
+      ],
+      "justification": "Vicepalatine of Sandomierz cited before the consular office regarding wine duties."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0084: Sandomierz",
+      "mention_texts": [
+        "Sandomiriensis"
+      ],
+      "descriptive_mentions": [
+        "Terrae"
+      ],
+      "justification": "Sandomierz land mentioned in the title of the vicepalatine."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officij Praesentis",
+        "Officium",
+        "Officio Domini Proconsulis",
+        "Officium praesens Consulare"
+      ],
+      "justification": "The municipal council/consular office before which the citation was served and relation recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "The city of Lviv mentioned in reference to citizens and the emporium."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "The King of Poland referenced by his royal title in the context of royal decrees/rotuli."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "summoned",
+      "tail_entity_id": "E2",
+      "evidence": "citavit illum ad Officium praesens Consulare"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "vicepalatine_of",
+      "tail_entity_id": "E3",
+      "evidence": "Generosum Krasnidum Błazowski Vicepalatinum Terrae Sandomiriensis"
+    }
+  ]
+}

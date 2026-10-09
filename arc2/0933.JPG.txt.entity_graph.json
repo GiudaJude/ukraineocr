@@ -1,0 +1,29 @@
+{
+  "document_id": "arc2/0933.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "officio Castrensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Castle Court (urząd grodzki) mentioned in the legal passage regarding jurisdictional conflict."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium"
+      ],
+      "descriptive_mentions": [
+        "officio",
+        "nobis"
+      ],
+      "justification": "The municipal council office (urząd radziecki) asserting its jurisdiction and requiring names to be given ('nobis da')."
+    }
+  ],
+  "relationships": []
+}

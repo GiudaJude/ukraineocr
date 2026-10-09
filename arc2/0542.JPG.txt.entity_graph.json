@@ -1,0 +1,187 @@
+{
+  "document_id": "arc2/0542.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "nobis",
+        "libris nostris praesentibus"
+      ],
+      "justification": "The municipal council of Lviv issuing decrees and recording the concord."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dobiekowski",
+      "mention_texts": [
+        "Stanislaum Dobiekowski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "Vicepalatinum Terrae Russiae",
+        "eidem Generoso"
+      ],
+      "justification": "Noble Stanislaus Dobiekowski, Vice-Palatine of the Ruthenian land."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Terrae Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ruthenia (Terra Russiae), of which Stanislaus Dobiekowski is Vice-Palatine."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Jurowska House",
+      "mention_texts": [
+        "Iurowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "Domus lapidea",
+        "domus praedictae lapideae"
+      ],
+      "justification": "The masonry house (kamienica) involved in the property dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0009: Franciscus Wengr",
+      "mention_texts": [
+        "Francisci Twenge"
+      ],
+      "descriptive_mentions": [
+        "Consulis moderni",
+        "portionis evictorem authorem"
+      ],
+      "justification": "Current consul Franciscus Twengr/Wengr mentioned regarding eviction/warranty of the share."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wolczek",
+      "mention_texts": [
+        "Joannem Woltchek",
+        "Joannes Woltchek"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "figulum",
+        "citatum",
+        "conductor domus praedictae lapideae"
+      ],
+      "justification": "Potter and tenant of the aforementioned masonry house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Wolscy",
+      "mention_texts": [
+        "Woltskow",
+        "Woltskowis",
+        "Woltczki"
+      ],
+      "descriptive_mentions": [
+        "Generosorum",
+        "obligatoris",
+        "Generosos"
+      ],
+      "justification": "Noble family holding a portion/obligation on the property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Dobieccy",
+      "mention_texts": [
+        "Dobieckis"
+      ],
+      "descriptive_mentions": [
+        "Generosis"
+      ],
+      "justification": "The Dobiecki nobles referenced in the decree."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0111: Joannes Jaszkowic",
+      "mention_texts": [
+        "Joannes Jaskiewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "tenens Senior",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen and elder of Lviv submitting an agreement before the council."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in titles and civic statuses."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zofia Fiumasrowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "Party submitting the concord before the council."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Coniuge sua"
+      ],
+      "justification": "Catherina, party to the concord."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "held_office_in",
+      "tail_entity_id": "E3",
+      "evidence": "Generosum Stanislaum Dobiekowski Vicepalatinum Terrae Russiae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Francisci Twenge Consulis moderni"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "tenant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Woltchek eans conductor domus praedictae lapideae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Joannes Jaskiewicz tenens Senior Civis Leopoliensis"
+    }
+  ]
+}

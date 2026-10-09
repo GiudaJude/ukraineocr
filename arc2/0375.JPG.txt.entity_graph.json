@@ -1,0 +1,164 @@
+{
+  "document_id": "arc2/0375.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0070: Gutterowska House",
+      "mention_texts": [
+        "Guthertherowska"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam",
+        "lapideae"
+      ],
+      "justification": "Identified as the stone house 'Guthertherowska' where barrels of honey were inspected in the cellar."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "17 Polish florins",
+      "mention_texts": [
+        "Florenos septemdecem pecuniae Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appraised value of each barrel of honey."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Ioseus",
+      "mention_texts": [
+        "Ioseus"
+      ],
+      "descriptive_mentions": [
+        "praefatus"
+      ],
+      "justification": "Present during the inspection and acknowledged the count of 99 barrels."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nachman Szafrowicz",
+      "mention_texts": [
+        "Nachman Szaronowicz",
+        "Nachmanowicz",
+        "Szasman Szafrowicz"
+      ],
+      "descriptive_mentions": [
+        "Iudaeus",
+        "praenominatus",
+        "Infidelis",
+        "Iudaeus Leopoliensis"
+      ],
+      "justification": "Jewish merchant of Lviv involved in the dispute over honey barrels and requesting official registration of the inspection and surety."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in the citizenship and origin of the parties."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacram Regiam Maiestatem",
+        "Sacra Regia Maiestate",
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King Sigismund III Vasa, to whom the appeal regarding the honey was submitted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij nostri",
+        "officio nostro Consulari",
+        "officio nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal consular office recording the act and issuing the decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schorer",
+      "mention_texts": [
+        "Sebaldi Schorer"
+      ],
+      "descriptive_mentions": [
+        "Ciuis Gedanensis"
+      ],
+      "justification": "Citizen of Gdańsk involved in the case via his factor/plenipotentiary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Gdańsk, origin of Sebaldus Schorer."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "1595-07-05",
+      "mention_texts": [
+        "feria quarta post Festum Sanctorum Petri et Pauli Apostolorum proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous decree issued between the parties."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinum Rothendorff"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum et Ciuem Leopoliensem",
+        "Fideiussorem"
+      ],
+      "justification": "Scabinus and citizen of Lviv acting as surety (fideiussor) for Nachman Szafrowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E11",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E4",
+      "evidence": "statuit pro se Fideiussorem deponendo iuri in praefata actione Honoratum Martinum Rothendorff"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Sebaldi Schorer Ciuis Gedanensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martinum Rothendorff Scabinum et Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Szasman Szafrowicz Iudaeus Leopoliensis"
+    }
+  ]
+}

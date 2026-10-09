@@ -1,0 +1,42 @@
+{
+  "document_id": "arc2/0842.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joannes Jelonek"
+      ],
+      "descriptive_mentions": [
+        "obseruaturum",
+        "se"
+      ],
+      "justification": "Appears by name at the conclusion of the procuration/agreement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Faryzowska",
+      "mention_texts": [
+        "Dorothea Faryzowska"
+      ],
+      "descriptive_mentions": [
+        "habituram",
+        "se"
+      ],
+      "justification": "Appears by name alongside Joannes Jelonek at the end of the legal instrument."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating formula referencing the date established above in the register."
+    }
+  ],
+  "relationships": []
+}

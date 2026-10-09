@@ -1,0 +1,96 @@
+{
+  "document_id": "arc2/1043.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "eadem summa"
+      ],
+      "justification": "Sum of one hundred florins acknowledged as received."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinam"
+      ],
+      "descriptive_mentions": [
+        "eandem"
+      ],
+      "justification": "Person guaranteed and protected against claims regarding the goods."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Lisik",
+      "mention_texts": [
+        "Stanislai Lisik"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "praefati olim",
+        "praefati"
+      ],
+      "justification": "Deceased individual whose estate of two shares is being resigned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus",
+      "mention_texts": [
+        "Sebastianum"
+      ],
+      "descriptive_mentions": [
+        "praefatum",
+        "suum pupillum",
+        "pupilli",
+        "suum praefatum pupillum"
+      ],
+      "justification": "Ward (pupillus) entitled to goods left by the deceased Stanislaus Lisik."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court in Lviv where the appointed plenipotentiary serves."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the banned court is held."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium praesens"
+      ],
+      "justification": "The present council office that approves and confirms the acts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "is_located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Iudicio Exposito Bannito quandocunque Leopoli celebran"
+    }
+  ]
+}

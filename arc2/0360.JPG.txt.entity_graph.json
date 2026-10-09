@@ -1,0 +1,228 @@
+{
+  "document_id": "arc2/0360.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Mathias Klimkowicz",
+      "mention_texts": [
+        "Mathias Klimkowicz"
+      ],
+      "descriptive_mentions": [
+        "Filius",
+        "filius",
+        "recognoscens",
+        "idem recognoscens"
+      ],
+      "justification": "Mathias Klimkowicz sells his inherited shares in a house and garden."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Clemens",
+      "mention_texts": [
+        "Clementis"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "olim",
+        "coniugum Suburbanorum Leopoliensium"
+      ],
+      "justification": "Late father of Mathias Klimkowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "olim",
+        "coniugum Suburbanorum Leopoliensium"
+      ],
+      "justification": "Late mother of Mathias Klimkowicz and wife of Clemens."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Leopoliensibus",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose suburbs and banned court are mentioned."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Laniorum Street",
+      "mention_texts": [
+        "platea Laniorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Lviv suburb where the property is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Despot",
+      "mention_texts": [
+        "Pauli Despot"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Felix",
+      "mention_texts": [
+        "felicis"
+      ],
+      "descriptive_mentions": [
+        "sutoris"
+      ],
+      "justification": "Cobbler owning adjacent property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Adam Pokora",
+      "mention_texts": [
+        "Adamo Pokora"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "iuratori",
+        "affini",
+        "Coniugibus Suburbanis Leopoliensibus",
+        "emptoribus",
+        "affini"
+      ],
+      "justification": "Buyer of the property, juror, and brother-in-law of Mathias Klimkowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Anna Pokora",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "sorori germanae",
+        "Coniugibus Suburbanis Leopoliensibus",
+        "emptoribus",
+        "sorori"
+      ],
+      "justification": "Sister of Mathias Klimkowicz and wife of Adam Pokora."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "precio"
+      ],
+      "justification": "Purchase price of the property shares."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Lenox",
+      "mention_texts": [
+        "Lenoxem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum",
+        "plenipotentem",
+        "mandatarium",
+        "Dominus suus praefatus"
+      ],
+      "justification": "Scabinus in the Lviv Banned Court appointed as attorney by Mathias Klimkowicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court where the resignation is to be registered."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Eucaresia",
+      "mention_texts": [
+        "Stanislaus Eucaresia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory at the bottom of the record."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Snorek Coli Snorek",
+      "mention_texts": [
+        "Snorek Coli Snorek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory at the bottom of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Mathias Klimkowicz Honestorum olim Clementis et Annae coniugum ... filius"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathias Klimkowicz Honestorum olim Clementis et Annae coniugum ... filius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Clementis et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Adamo Pokora iuratori affini et Annae sorori germanae Coniugibus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Annae sorori germanae"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Scabinum in Iudicio Exposito Bannito Leopoli"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in suburbio eiusdem Civitatis in platea Laniorum"
+    }
+  ]
+}

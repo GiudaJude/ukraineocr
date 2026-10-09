@@ -1,0 +1,144 @@
+{
+  "document_id": "arc2/1234.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Wolphowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears at the top of the excerpt: 'Wolphowicz in haec verba recognouit'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adam Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Named as the petitioner requesting insertion of testimonies into the acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location formula given as 'Actum Leopoli ut supra'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicium Civile",
+        "Aduocatum et Scabinos Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Actores"
+      ],
+      "justification": "Named in the decree heading and body as the party plaintiff."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Jembarsky",
+        "Casparum Jembarski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Pellionem",
+        "Ciuem Leopoliensem",
+        "citatum",
+        "Citatus"
+      ],
+      "justification": "Furrier and citizen of Lviv cited in the lawsuit."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular office issuing the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "quingentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money mentioned in the dispute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiae Metropolitanae Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Metropolitan Church of Lviv referenced regarding the foundation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetem Zwonczyna"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "olim",
+        "Ciuem Leopoliensem",
+        "Antecessoris suae"
+      ],
+      "justification": "Deceased citizen whose foundation and last will are at the center of the dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famatum Casparum Jembarski Pellionem Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestam olim Agnetem Zwonczyna Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Ecclesiae Metropolitanae Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Officium Consulare Leopoliense"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Aduocatum et Scabinos Ciuitatis Leopoliensis"
+    }
+  ]
+}

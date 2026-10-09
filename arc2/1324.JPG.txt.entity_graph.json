@@ -1,0 +1,336 @@
+{
+  "document_id": "arc2/1324.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliensis",
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "hoc idem Officium"
+      ],
+      "justification": "The document records acts submitted before the Lviv consular office."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Wizynka",
+      "mention_texts": [
+        "Christophori Wizynka",
+        "Christophoro Wizynka"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Sutore",
+        "eundem"
+      ],
+      "justification": "Shoemaker who purchased a parcel of land and received a quitclaim."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cerder",
+      "mention_texts": [
+        "Stanislaus Cerder"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Ferrifaber",
+        "coniuges Suburbani Leopolienses",
+        "ille",
+        "maritum suum legitimum tutorem"
+      ],
+      "justification": "Blacksmith suburbanite of Lviv issuing a receipt along with his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses",
+        "hec"
+      ],
+      "justification": "Wife of Stanislaus Cerder issuing a receipt under his guardianship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Civitatis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "The city of Lviv is referenced for its suburban residents, intramural Dominican convent, and citizenship."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Florenis quadraginta pecuniae et numerae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary amount of the debt satisfied."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Krasowski plot",
+      "mention_texts": [
+        "fundi Krasowski"
+      ],
+      "descriptive_mentions": [
+        "certae particulae"
+      ],
+      "justification": "The parcel of real estate sold to Christophorus Wizynka."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Bytomiensis",
+      "mention_texts": [
+        "Matias Bitomien"
+      ],
+      "descriptive_mentions": [
+        "Religiosus Pater",
+        "Sacristanus"
+      ],
+      "justification": "Sacristan of the Dominican convent appearing on behalf of the convent."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0029: Order of Preachers",
+      "mention_texts": [
+        "Conventus Dominicanorum",
+        "Ordinis Praedicatorum S. Dominici Conventus et Ecclesiae tituli Sacratissimi Corporis Christi"
+      ],
+      "descriptive_mentions": [
+        "Conventus",
+        "praedicti Conventus"
+      ],
+      "justification": "The Dominican Order and their convent of Corpus Christi in Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Antoninus Przemyski",
+      "mention_texts": [
+        "Antonini Przemisliensis"
+      ],
+      "descriptive_mentions": [
+        "Reverendi Patris",
+        "Generalis Russiae Provi-rii"
+      ],
+      "justification": "Dominican provincial/vicar of the province of Ruthenia."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Province of the Dominican Order."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas Nosicki",
+      "mention_texts": [
+        "Andream Nosicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "tutorem"
+      ],
+      "justification": "Nobleman appointed as tutor for Brother Mathias Bytomiensis."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Andreas Frygier",
+      "mention_texts": [
+        "Andream",
+        "Dominicum"
+      ],
+      "descriptive_mentions": [
+        "Religiosum Fratrem",
+        "filium"
+      ],
+      "justification": "Dominican friar named Andreas at baptism and Dominicus in religion."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Janusz Frygier",
+      "mention_texts": [
+        "Jannussi Frygari"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Sartores",
+        "coniugum"
+      ],
+      "justification": "Deceased tailor, father of Brother Andreas."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Ewa Przebawszczanka",
+      "mention_texts": [
+        "Evae Przebawsczanka",
+        "Evae"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "Honestae"
+      ],
+      "justification": "Deceased mother of Brother Andreas from whom he inherited a share in the house."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Przebawska Tenement",
+      "mention_texts": [
+        "domo lapidea Przebawska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Masonry house located on Hospital Street."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "Hospital Street",
+      "mention_texts": [
+        "platea Hospitalari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the Przebawska tenement is situated."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislai Dzibowiczi"
+      ],
+      "descriptive_mentions": [
+        "spectabilis Domini",
+        "Medicinae Doctoris"
+      ],
+      "justification": "Neighbor owning a neighboring house to the Przebawska tenement."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "location",
+      "canonical_name": "Stalińska Tenement",
+      "mention_texts": [
+        "domum Stalinska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring house to the Przebawska tenement on the other side."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pechtwic",
+      "mention_texts": [
+        "Albertus Pechtwic",
+        "Alberto Pechtwic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sartori",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Tailor and citizen of Lviv acquiring the maternal inheritance share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaus Cerder Ferrifaber et Dorothea coniuges Suburbani Leopolienses ille per se et hec per eundem maritum suum legitimum tutorem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resided_in",
+      "tail_entity_id": "E5",
+      "evidence": "coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resided_in",
+      "tail_entity_id": "E5",
+      "evidence": "coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Religiosus Pater Matias Bitomien Ordinis Praedicatorum S. Dominici Conventus et Ecclesiae tituli Sacratissimi Corporis Christi intra moenia Civitatis huius sito Sacristanus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Reverendi Patris Antonini Przemisliensis Generalis Russiae Provi-rii missus nomine totius praedicti Conventus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Religiosum Fratrem Andream in baptismate, in successione vero Regulae Dominicum vocatum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E14",
+      "evidence": "Famati olim Jannussi Frygari Sartores et Evae Przebawsczanka coniugum filium"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E15",
+      "evidence": "Famati olim Jannussi Frygari Sartores et Evae Przebawsczanka coniugum filium"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Jannussi Frygari Sartores et Evae Przebawsczanka coniugum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "located_in",
+      "tail_entity_id": "E17",
+      "evidence": "in domo lapidea Przebawska dicta in eadem Civitatis platea Hospitalari"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in eadem Civitatis platea Hospitalari"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "resided_in",
+      "tail_entity_id": "E5",
+      "evidence": "Alberto Pechtwic Sartori Civi Leopoliensi"
+    }
+  ]
+}

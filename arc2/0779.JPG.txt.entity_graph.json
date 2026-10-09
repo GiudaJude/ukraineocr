@@ -1,0 +1,61 @@
+{
+  "document_id": "arc2/0779.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gregorius",
+      "mention_texts": [
+        "Gregorius"
+      ],
+      "descriptive_mentions": [
+        "fratres germani"
+      ],
+      "justification": "Named brother sharing rights to the stone house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus",
+      "mention_texts": [
+        "Christophorus"
+      ],
+      "descriptive_mentions": [
+        "fratres germani"
+      ],
+      "justification": "Named brother sharing rights to the stone house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Zadikowicz",
+      "mention_texts": [
+        "Thomam Zadikowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum"
+      ],
+      "justification": "Neighboring property holder mentioned in the description of the stone house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Korniakt",
+      "mention_texts": [
+        "Constantinum Korniakto"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Noble neighbor mentioned in the description of the stone house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Gregorius et Christophorus fratres germani"
+    }
+  ]
+}

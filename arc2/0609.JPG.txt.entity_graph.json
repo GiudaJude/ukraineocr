@@ -1,0 +1,94 @@
+{
+  "document_id": "arc2/0609.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Peczkowicz",
+      "mention_texts": [
+        "Alberti Peczkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Named in the legal record regarding the ward's curatorship."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radomski",
+      "mention_texts": [
+        "Joanni Radomski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named alongside Albertus Peczkowicz in the curatorship litigation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Dzierzonowski",
+      "mention_texts": [
+        "Chrisopherum",
+        "Christopherus Dzierzonowski"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "citatus",
+        "avunculum",
+        "fratrem ger- manum matris olim pupilli"
+      ],
+      "justification": "Maternal uncle claiming priority for the ward's curatorship."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Moskiewicz",
+      "mention_texts": [
+        "Joanni Moskiewicz"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "coniugibus",
+        "Actor",
+        "Actorem"
+      ],
+      "justification": "Husband of Elisabetha, seeking curatorship of the ward."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha Moskiewicz",
+      "mention_texts": [
+        "Elisabethae",
+        "Eli- zabetham"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "sorori",
+        "sororem pupilli",
+        "filia qui personam sua coniugis gerit"
+      ],
+      "justification": "Sister of the ward and wife of Joannes Moskiewicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "praedicto Joanni Moskiewicz et Elisabethae coniugibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "praedicto Joanni Moskiewicz et Elisabethae coniugibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_uncle_of",
+      "tail_entity_id": "E5",
+      "evidence": "Christopherus Dzierzonowski citatus respondit, se vti avunculum propiorem esse ad Curatoriam quam praedictam Eli- zabetham sororem pupilli"
+    }
+  ]
+}

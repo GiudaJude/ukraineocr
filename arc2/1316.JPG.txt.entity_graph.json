@@ -1,0 +1,212 @@
+{
+  "document_id": "arc2/1316.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Doliator",
+      "mention_texts": [
+        "Joannes Doliator"
+      ],
+      "descriptive_mentions": [
+        "dictus"
+      ],
+      "justification": "Named in the opening lines reserving the right to deduct expenses."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Daniel Lyck",
+      "mention_texts": [
+        "Daniel Lyck"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Lanius",
+        "incola Leopoliensis"
+      ],
+      "justification": "Butcher and resident of Lviv who sells half of his inherited property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Lyck",
+      "mention_texts": [
+        "Simonem Lyck"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "patrem suum"
+      ],
+      "justification": "Deceased father of Daniel Lyck, whose estate was divided."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Scholz",
+      "mention_texts": [
+        "Joannis Szolc"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Domini",
+        "Proconsulis",
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Proconsul and consular colleague owning neighboring property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szulc",
+      "mention_texts": [
+        "Thomae Szulc"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Sensatoris"
+      ],
+      "justification": "Broker owning property adjacent on the other side."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Antonius Lewicki",
+      "mention_texts": [
+        "Antonius Lewicki",
+        "Antonio Lewicki"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Serrifabro",
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "emptori"
+      ],
+      "justification": "Locksmith and citizen of Lviv who purchases the share of the estate."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Leykorowna"
+      ],
+      "descriptive_mentions": [
+        "sorori germanae",
+        "coniugibus",
+        "Civibus Leopoliensibus"
+      ],
+      "justification": "Sister german of Daniel Lyck and wife of Antonius Lewicki."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "eius Civitatis"
+      ],
+      "justification": "The city of Lviv, referenced in titles, jurisdiction, and location of the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Szetszowska Street",
+      "mention_texts": [
+        "platea Szetszowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Lviv suburb where the property is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "sexaginta Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in Lviv where the resignation of property is to be celebrated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis iisdem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/chancery whose acts recorded the division of the estate."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "post Famatum olim Simonem Lyck patrem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Annae Leykorowna sorori germanae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Antonio Lewicki Serrifabro et Annae Leykorowna sorori germanae coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Antonio Lewicki Serrifabro et Annae Leykorowna sorori germanae coniugibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E8",
+      "evidence": "Daniel Lyck Lanius incola Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Antonio Lewicki Serrifabro et Annae Leykorowna sorori germanae coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Antonio Lewicki Serrifabro et Annae Leykorowna sorori germanae coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Joannis Szolc Proconsulis Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in Suburbio eius Civitatis post portulam in platea Szetszowska"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "document_id": "arc2/0132.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Michael Flama",
+      "mention_texts": [
+        "Michaelem Flama"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "effractorem et violatore carceri publica Civitatis"
+      ],
+      "justification": "Named in the legal complaint regarding a prison breach."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Constantia Zielińska",
+      "mention_texts": [
+        "Constantia Zielinska"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Ciuis Belzensis"
+      ],
+      "justification": "Citizen of Belz who appears personally to sell her third share of a stone house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Belz",
+      "mention_texts": [
+        "Belzensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin for Constantia Zielińska."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Postendorff",
+      "mention_texts": [
+        "Christophorum Postendorff"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutore sibi ad eum actum assumptum"
+      ],
+      "justification": "Appointed guardian assisting Constantia Zielińska."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium meum"
+      ],
+      "justification": "The municipal office before which the legal act is recognized and confirmed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0016: Halych Street",
+      "mention_texts": [
+        "Haliciola"
+      ],
+      "descriptive_mentions": [
+        "platea eius Civitatis"
+      ],
+      "justification": "Street in Lviv where the stone house is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Śmieszkowska House",
+      "mention_texts": [
+        "Smieszkowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea civili"
+      ],
+      "justification": "House towards which the subject property is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobus Igorzalek",
+        "Jacobo Ogorzałek",
+        "Jacobum Ogorzałek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Pellioni",
+        "Civi Leopoliensi",
+        "emptori",
+        "emptorem"
+      ],
+      "justification": "Lviv burgher and furrier buying the property share."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eius Civitatis"
+      ],
+      "justification": "City where the transaction takes place and where the property is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "centum quinquaginta florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sale price paid for the third share of the house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Constantia Zielinska Ciuis Belzensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "per Famatum Christophorum Postendorff tutore sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Jacobo Ogorzałek Pellioni Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in domo lapidea civili in platea eius Civitatis Haliciola versus Smieszkowska sita"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in platea eius Civitatis Haliciola"
+    }
+  ]
+}

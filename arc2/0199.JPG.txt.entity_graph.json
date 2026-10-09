@@ -1,0 +1,201 @@
+{
+  "document_id": "arc2/0199.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus",
+      "mention_texts": [
+        "Petrum"
+      ],
+      "descriptive_mentions": [
+        "Salvatores Soletzianorum"
+      ],
+      "justification": "Decree subject discharged by the council: 'dictos Petrum et Jarosium Salvatores Soletzianorum fecit et debestravit'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jarosius",
+      "mention_texts": [
+        "Jarosium"
+      ],
+      "descriptive_mentions": [
+        "Salvatores Soletzianorum"
+      ],
+      "justification": "Named alongside Petrus in the opening discharge."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Olearczyk",
+      "mention_texts": [
+        "Albertus Tkacz",
+        "Albertus Olearczyk"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "Suburbani Leopolitani"
+      ],
+      "justification": "Vendor selling a house and garden in the suburb; heading refers to him as Albertus Tkacz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Barbara",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Suburbani Leopolitani"
+      ],
+      "justification": "Wife of Albertus Olearczyk and co-vendor: 'Albertus Olearczyk et Barbara coniuges'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Jarząb",
+      "mention_texts": [
+        "Valentinum Jarzab"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner: 'inter Valentinum Jarzab una'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Fabiola Zoltez",
+      "mention_texts": [
+        "Fauiolam Zoltez"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property boundary: 'supra Fauiolam Zoltez parte ex altera situm'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szubik",
+      "mention_texts": [
+        "Andreas Szubik",
+        "Andreae Szubik"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "coniugibus",
+        "Suburbanis Leopoliensibus",
+        "emptoribus"
+      ],
+      "justification": "Buyer of the suburban property: 'Honesto Andreae Szubik et Anastasiae coniugibus'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Anastasia",
+      "mention_texts": [
+        "Anastasiae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Suburbanis Leopoliensibus",
+        "emptoribus"
+      ],
+      "justification": "Wife of Andreas Szubik and co-buyer."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Transaction price: 'pro quinquaginta Florenis pecuniae'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court specified for future resignation: 'in Judicio Exposito Bannito quicunque legitimo celebrando'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitani",
+        "Civitatis",
+        "Leopoliensibus",
+        "Civitatis Leopoliensis",
+        "Leopoli",
+        "Civitatis huius Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv named as location of the act and origin of parties."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Dominicam Jubilate Proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording the transaction."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Civitatis Ipsius Consularis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular body of Lviv before which the entry is registered: 'Actum Leopoli ... Civitatis Ipsius Consularis'."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kraśnicki",
+      "mention_texts": [
+        "Stanislaus Krasnicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Syndicus Civitatis huius Leopoliensis"
+      ],
+      "justification": "Town syndic appearing before the council in the concluding record: 'Nobilis Stanislaus Krasnicki Syndicus Civitatis huius Leopoliensis'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Albertus Olearczyk et Barbara coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Andreae Szubik et Anastasiae coniugibus Suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sold_to",
+      "tail_entity_id": "E7",
+      "evidence": "vendidisse praesentibusque inscriptionis vigore vendere domum et hortum suum proprium ... Honesto Andreae Szubik"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "official_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislaus Krasnicki Syndicus Civitatis huius Leopoliensis"
+    }
+  ]
+}

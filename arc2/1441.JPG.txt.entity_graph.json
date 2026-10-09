@@ -1,0 +1,253 @@
+{
+  "document_id": "arc2/1441.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulus Dzovica Triang- telerena"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Generosus Dominus",
+        "Coactor",
+        "Collega noster Consularis",
+        "sibi",
+        "suo"
+      ],
+      "justification": "Identified as Paulus Novicampianus, doctor and councilor in Lviv, here referred to as consular colleague."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularis"
+      ],
+      "descriptive_mentions": [
+        "Collega noster Consularis"
+      ],
+      "justification": "Referred to through the consular collegium of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "florenis quadraginta"
+      ],
+      "descriptive_mentions": [
+        "pecuniae"
+      ],
+      "justification": "Forty florins paid for the mill census."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "sexaginta Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "census"
+      ],
+      "justification": "Sixty Polish florins of census mentioned in the entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Haliczagora",
+      "mention_texts": [
+        "Haliczagora"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location beyond which the mill is situated (Halicka Góra)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Dziwoniowski",
+      "mention_texts": [
+        "Martino Dziwoniowski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Molendinatore",
+        "qui molendinum praefatum conduxerat",
+        "eundem"
+      ],
+      "justification": "Miller who leased the mill from Paulus Novicampianus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicii Scabinalis",
+        "Judicio"
+      ],
+      "descriptive_mentions": [
+        "Officii eiusdem",
+        "eodem Judicio"
+      ],
+      "justification": "The Lviv scabinal court issuing decrees and administering oaths."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rottendorff",
+        "Martinum Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "Scabinalis",
+        "Honoratum",
+        "Scabinum"
+      ],
+      "justification": "Lviv scabinus taking part in the legal procedure."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Regina Wojnarowa",
+      "mention_texts": [
+        "Reginae Wainarowa",
+        "Wainarowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Civis Leopoliensis",
+        "praefatae"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and debts are under court review."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in citizenship designations and place of action."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0866: Israel Josephowicz",
+      "mention_texts": [
+        "Israelis Jakubowicz"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaei Leopoliensis",
+        "actor Judaeus"
+      ],
+      "justification": "Jewish creditor demanding payment from the estate of Regina Wojnarowa."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Wojnarowicz",
+      "mention_texts": [
+        "Bartholomaeo Vainarowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Tutore et Procuratore ipsius"
+      ],
+      "justification": "Guardian and legal proxy for the successors of Regina Wojnarowa."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia post fe- stum Sancti Viti. Anno Domini 1596."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording the legal transaction."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotea Venczowa",
+        "Wentzowa",
+        "Wilhelmsowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx legitima"
+      ],
+      "justification": "Legitimate wife of Wilhelm Allant appearing personally."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Wilhelmus Allant",
+      "mention_texts": [
+        "Wilhelmi Allant"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "annis et aegritudine confecti"
+      ],
+      "justification": "Husband of Dorothea, citizen of Lviv impaired by age and illness."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "tenant_of",
+      "tail_entity_id": "E1",
+      "evidence": "ab Honesto Martino Dziwoniowski Molendinatore qui molendinum praefatum conduxerat"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Martinum Rottendorff Scabinum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honestae Reginae Wainarowa Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Israelis Jakubowicz Judaei Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "representative_of",
+      "tail_entity_id": "E9",
+      "evidence": "cum Famato Bartholomaeo Vainarowicz Tutore et Procuratore ipsius"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Honesta Dorotea Venczowa Famati Wilhelmi Allant Civis Leopoliensis annis et aegritudine confecti coniunx legitima"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Wilhelmi Allant Civis Leopoliensis"
+    }
+  ]
+}

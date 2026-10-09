@@ -1,0 +1,122 @@
+{
+  "document_id": "arc2/0686.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Fryczko Haeremita",
+      "mention_texts": [
+        "Fryczkonis Haeremitae"
+      ],
+      "descriptive_mentions": [
+        "supradicti"
+      ],
+      "justification": "Named individual to whom rights and possession were transferred."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the legal act recorded in the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szwarc",
+      "mention_texts": [
+        "Joanne Szwarc",
+        "Joannis Sartoris"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Suburbani Leopoliensis",
+        "pars instans"
+      ],
+      "justification": "Party on whose behalf testimony was requested."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Hieronimus Kulik",
+      "mention_texts": [
+        "Hieronimus Kulik"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Civis Samoriensis",
+        "testis",
+        "citatus",
+        "examinatus"
+      ],
+      "justification": "Witness from Sambor providing testimony."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samoriensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of citizenship of Hieronimus Kulik."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the suburban description and council office."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal governing and judicial body before which the goldsmiths appear."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Goldsmiths' Guild",
+      "mention_texts": [
+        "Confraternitatis Aurifabrorum",
+        "Aurifabri"
+      ],
+      "descriptive_mentions": [
+        "Seniores Magni reliquique Seniores Magni Confraternitatis Aurifabrorum"
+      ],
+      "justification": "Guild/confraternity of goldsmiths mentioned appearing before the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Providus Hieronimus Kulik Civis Samoriensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannis Sartoris Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "appears_before",
+      "tail_entity_id": "E7",
+      "evidence": "Coram Officio Consulari Leopoliensi comparent personaliter Famati Seniores Magni reliquique Seniores Magni Confraternitatis Aurifabrorum"
+    }
+  ]
+}

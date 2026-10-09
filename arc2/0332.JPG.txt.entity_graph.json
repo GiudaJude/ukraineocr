@@ -1,0 +1,172 @@
+{
+  "document_id": "arc2/0332.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "subburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the house and garden mentioned in the entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Trembowelska Street",
+      "mention_texts": [
+        "plateae Trembowelska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the property borders."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Novicampiani"
+      ],
+      "descriptive_mentions": [
+        "Splendidum Dominum",
+        "Medicinae Doctoris",
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Council colleague and doctor of medicine whose property borders the discussed plot."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobo Szolcz"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino",
+        "Civi Leopoliensi",
+        "affini suo",
+        "praedictis emptoribus"
+      ],
+      "justification": "Alderman and citizen of Lviv purchasing the garden property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Ursulae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "sorori suae germanae",
+        "praedictis emptoribus"
+      ],
+      "justification": "Sister of the seller and wife/co-buyer with Jacobus Scholz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "centum quinquaginta florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the garden share."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Civitatis Leopoliensis",
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the legal document."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court before which resignation of the property is to be performed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sophia Rymarka",
+      "mention_texts": [
+        "Sophia Rymarka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors vidua relicta"
+      ],
+      "justification": "Appearing widow of the late Sebastian."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus",
+      "mention_texts": [
+        "Sebastiani"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased suburban citizen of Lviv, late husband of Sophia Rymarka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Grozycza",
+      "mention_texts": [
+        "Valentinum Grozycza"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Pistorem",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Baker acting as legal tutor for Sophia Rymarka."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "Municipal governing council approving the appointment of the tutor."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honorato Jacobo Szolcz Scabino et Civi Leopoliensi affini suo et Honestae Ursulae sorori suae germanae eorumque legitimis Successoribus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesta Sophia Rymarka Honesti olim Sebastiani in Sobrossii Scamphis Suburbani Leopoliensis consors vidua relicta"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "per Honestum Valentinum Grozycza Pistorem tutorem sibi ad eum actum assumptum"
+    }
+  ]
+}

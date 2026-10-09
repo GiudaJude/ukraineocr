@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/0873.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Choma Babucz",
+      "mention_texts": [
+        "Choma Babucz"
+      ],
+      "descriptive_mentions": [
+        "praefatorum",
+        "Coniugum"
+      ],
+      "justification": "Named as the owner of goods and husband of Anna in the cession record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "praefatorum",
+        "Coniugum"
+      ],
+      "justification": "Named as the wife of Choma Babucz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Bildaha",
+      "mention_texts": [
+        "Andream Bildaha"
+      ],
+      "descriptive_mentions": [
+        "eundem"
+      ],
+      "justification": "Transferee of rights in the cession."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Zonszowski",
+      "mention_texts": [
+        "Albertus Zonszowski"
+      ],
+      "descriptive_mentions": [
+        "praefatus Gnosus"
+      ],
+      "justification": "Noble who requested the cession to be recorded into the city council books."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta praesentia",
+        "eisdem Actis"
+      ],
+      "descriptive_mentions": [
+        "Sigillum nostrum"
+      ],
+      "justification": "The municipal authority and its official record books where the quietatio and cession were registered."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Starczewski",
+      "mention_texts": [
+        "Stanislaus Starczewski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburban resident of Lviv who issues a receipt/acquittance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Georgius Scholz",
+      "mention_texts": [
+        "Georgij Scholc",
+        "Georgio Scholtz"
+      ],
+      "descriptive_mentions": [
+        "Lanij",
+        "Lanio",
+        "Cive Leopoliensi",
+        "Famato",
+        "praefati satisfactoris"
+      ],
+      "justification": "Butcher and citizen of Lviv who receives the quietatio regarding butcher stalls."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act was recorded and of which the parties are citizen and suburban resident."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta post Festum Assumptionis Beatae Virginis Mariae proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous inscription cited in the quietatio."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Actum ut supra",
+        "feria quarta in Crastino Circumcisionis Domini Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of execution for the registered legal acts."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse of",
+      "tail_entity_id": "E1",
+      "evidence": "praefatorum Choma Babucz et Anna Coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident of",
+      "tail_entity_id": "E8",
+      "evidence": "Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen of",
+      "tail_entity_id": "E8",
+      "evidence": "Cive Leopoliensi"
+    }
+  ]
+}

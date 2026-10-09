@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/0690.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense",
+        "Officij"
+      ],
+      "descriptive_mentions": [
+        "Magistratum"
+      ],
+      "justification": "The municipal council of Lviv acting in its official capacity to resolve disputes and issue guardianship decrees."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense",
+        "Civitatis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the council's name and identifying the suburbs of the comparants."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Zegota",
+      "mention_texts": [
+        "Valentinus Zegota",
+        "Zegota"
+      ],
+      "descriptive_mentions": [
+        "Tutores",
+        "Honesti",
+        "Suburbani Leopolienses",
+        "praefati"
+      ],
+      "justification": "Suburban resident of Lviv acting as tutor for his niece Ewa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sęk",
+      "mention_texts": [
+        "Joannes Sęk"
+      ],
+      "descriptive_mentions": [
+        "Tutores",
+        "Honesti",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburban resident of Lviv acting as tutor alongside Valentinus Zegota."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Ewa Gąsiorkowna",
+      "mention_texts": [
+        "Ewam Gąsiorkowna",
+        "Ewa",
+        "Eua Kormankowa"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "filiam",
+        "praefata",
+        "Vidua",
+        "praedictae",
+        "neptis",
+        "eidem"
+      ],
+      "justification": "Daughter of late Anna, receiving her maternal inheritance under the care of tutors."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Gąsiorkowa",
+        "Annae Kormankowa"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "sorore"
+      ],
+      "justification": "Deceased mother of Ewa, sister of Valentinus Zegota, and former wife of Joannes Kormanek."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kormanek",
+      "mention_texts": [
+        "Joannis Kormanek"
+      ],
+      "descriptive_mentions": [
+        "Hti"
+      ],
+      "justification": "Husband of the late Anna from whose house the maternal share is derived."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "67 florins 15 grosze",
+      "mention_texts": [
+        "sexhaginta septem Florenos et grossorum quindecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum representing the maternal inheritance share received by the tutors."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Tutores Annae Gąsiorkowa filia ... Valentinus Zegota et Joannes Sęk ... ad tutelam ... Ewam Gąsiorkowna"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Tutores Annae Gąsiorkowa filia ... Valentinus Zegota et Joannes Sęk ... ad tutelam ... Ewam Gąsiorkowna"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Ewam Gąsiorkowna Hti olim Annae Kormankowa cum priore mariti suspensas filiam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "praefati Zegota ex sorore"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Valentinus Zegota et Joannes Sęk Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Valentinus Zegota et Joannes Sęk Suburbani Leopolienses"
+    }
+  ]
+}

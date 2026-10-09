@@ -1,0 +1,125 @@
+{
+  "document_id": "arc2/0822.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The document was enacted in Lwów ('Actum Leopoli'), and refers to the city and its jurisdiction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "sabbato post festum Sanctae Agnetis Virginis proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date of the act: Saturday after the feast of St. Agnes in the year 1596."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Iwanko Zyszka",
+      "mention_texts": [
+        "Iwanko Zyszka"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Sartor Suburbanus Leopoliensis",
+        "viduus",
+        "venditor"
+      ],
+      "justification": "A tailor from the Lwów suburbs selling shares in a house and garden."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Urbana",
+      "mention_texts": [
+        "Urbanam"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Coniugem legitimam steriliter demortuam"
+      ],
+      "justification": "The deceased legitimate wife of Iwanko Zyszka, from whom the maternal share derived."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Niepokojny",
+      "mention_texts": [
+        "Albertus Niepokojny",
+        "Alberti Niepokojny",
+        "Alberto Niepokojwany"
+      ],
+      "descriptive_mentions": [
+        "Curatores",
+        "Curatori",
+        "Emptori",
+        "Emptoris",
+        "eidem"
+      ],
+      "justification": "The buyer (curator) of the property shares."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The suburb of Lwów where the house and garden are situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "4.5 Polish florins",
+      "mention_texts": [
+        "quatuor Florenorum per media et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The purchase price paid for the property shares."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court in which the resignation of the property is to take place."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "ad se per et post olim Urbanam Coniugem legitimam steriliter demortuam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in eiusdem Civitatis Suburbio Cracoviensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in Exposito Judicio Leopoliensi"
+    }
+  ]
+}

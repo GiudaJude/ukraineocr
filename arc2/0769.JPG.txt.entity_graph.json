@@ -1,0 +1,182 @@
+{
+  "document_id": "arc2/0769.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Cameram Offitij praesentis",
+        "officij nostri",
+        "officio nostro",
+        "Actis praesentibus",
+        "officium meum Consulare",
+        "Acta nostra praesentia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council office mentioned as registry and depository for the composition and inscription."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "flor quadraginta Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money deposited into the council chamber."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the clothes are to be delivered and where the parties were expected to appear."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Ewa Staszkowska",
+      "mention_texts": [
+        "Eua Staszkowska"
+      ],
+      "descriptive_mentions": [
+        "eadem"
+      ],
+      "justification": "Person participating in the transaction regarding the clothes and silver."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lucia Kusczonka",
+      "mention_texts": [
+        "Luciae Cwirowa",
+        "Lucia Kusczonka",
+        "Lucia"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "praefata",
+        "offerente"
+      ],
+      "justification": "Woman submitting the property donation inscription to the city council."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Troczek",
+      "mention_texts": [
+        "Jacobi Tsozekzonian",
+        "Jacobum Troczek"
+      ],
+      "descriptive_mentions": [
+        "honesti",
+        "praenominatum",
+        "maritum suum",
+        "maritus suus"
+      ],
+      "justification": "Husband of Lucia who donated the house and garden to her."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem Kozal"
+      ],
+      "descriptive_mentions": [
+        "filium suum",
+        "Tutorem legitimum"
+      ],
+      "justification": "Son and legal guardian directing Lucia before the council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Halycz",
+        "Civitatis Halicien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the donated house and garden are located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Potters' street in the Halych Suburb where the property is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Recreatis Leopol Bipanno"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv court before which the original donation was recognized."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia post Sanctam Teclam Saluandas Anno proxime praeterito 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date in 1595 when the donation was entered into court records."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Jacobum Troczek maritum suum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Jacobum Troczek maritum suum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E7",
+      "evidence": "Simonem Kozal filium suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simonem Kozal filium suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simonem Kozal filium suum et praemisse Tutorem legitimum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in Suburbio Halycz Civitatis Halicien in platea Figulorum situm"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in Suburbio Halycz Civitatis Halicien"
+    }
+  ]
+}

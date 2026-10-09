@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/0570.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Cives Leopolienses",
+        "Leopolien'",
+        "Leopolim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Urban locality where the legal acts were executed and whose citizenship the mentioned persons hold."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta 18/19 die S. Lucae Evangel. Anno 1595",
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recording of the legal acts in 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Rzeszewski",
+      "mention_texts": [
+        "Chrostopherus Rzeszewski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sartor",
+        "maritum tutorem suum legitimum",
+        "coniuges",
+        "ille"
+      ],
+      "justification": "Tailor appearing before the council along with his wife Justina to grant a quietatio to her guardians."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Justina",
+      "mention_texts": [
+        "Justina",
+        "Ita Justina"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "coniuges",
+        "hoc",
+        "praefatam honestam Justinam"
+      ],
+      "justification": "Daughter of the late Stanislaus de Lasco and Anna, wife of Christopherus Rzeszewski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus de Lasco",
+      "mention_texts": [
+        "Stanislawij de Lasco"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Sartoris",
+        "Civis Leopoliensis",
+        "coniugum",
+        "parentes ipsius"
+      ],
+      "justification": "Late tailor and citizen of Lviv, father of Justina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "parentes ipsius"
+      ],
+      "justification": "Late wife of Stanislaus de Lasco and mother of Justina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses",
+        "Tutores"
+      ],
+      "justification": "One of the former guardians of Justina mentioned in the receipt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopolien'"
+      ],
+      "descriptive_mentions": [
+        "Decreto"
+      ],
+      "justification": "Municipal governing body issuing the decree."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Caspar Brantio",
+      "mention_texts": [
+        "Casparo Brancus",
+        "Caspareum Brantio"
+      ],
+      "descriptive_mentions": [
+        "Praesbyterum",
+        "actorem"
+      ],
+      "justification": "Priest who is the plaintiff in a decree against Paulus Czop."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulum Czyzo",
+        "Pauli Czopp"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Pellis: nem",
+        "Civem Leopolien'",
+        "citatum",
+        "citatus"
+      ],
+      "justification": "Furrier and citizen of Lviv cited in the decree concerning mobile property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse of",
+      "tail_entity_id": "E4",
+      "evidence": "Chrostopherus Rzeszewski Sartor et Justina ... filia coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child of",
+      "tail_entity_id": "E5",
+      "evidence": "Justina Famati olim Stanislawij de Lasco Sartoris Civis Leopoliensis et Annae coniugum filia"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child of",
+      "tail_entity_id": "E6",
+      "evidence": "Justina Famati olim Stanislawij de Lasco Sartoris Civis Leopoliensis et Annae coniugum filia"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislawij de Lasco Sartoris Civis Leopoliensis et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislawij de Lasco Sartoris Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident of",
+      "tail_entity_id": "E1",
+      "evidence": "Paulum Czyzo Pellis: nem Civem Leopolien'"
+    }
+  ]
+}

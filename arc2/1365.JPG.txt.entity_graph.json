@@ -1,0 +1,251 @@
+{
+  "document_id": "arc2/1365.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaus Anselminus"
+      ],
+      "descriptive_mentions": [
+        "Collega noster Consulares"
+      ],
+      "justification": "Appears as a councilor testifying to the death of Martinus Worol."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Worol",
+      "mention_texts": [
+        "Martini Worol"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "Deceased person whose death was attested."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Koźmiński",
+      "mention_texts": [
+        "Stanisla- us Kozminski"
+      ],
+      "descriptive_mentions": [
+        "praefatus"
+      ],
+      "justification": "Requested the attestation to be entered into the acts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Rzeszucki",
+      "mention_texts": [
+        "Gaspar Rzeszucki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis ac Cautus",
+        "Collega noster Consularis",
+        "Tutor",
+        "praefato",
+        "Spectabilis Tutor",
+        "praenominati Tutoris"
+      ],
+      "justification": "Councilor and guardian of Joannes Albrychtowic acknowledging receipt of annuity."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Albrychtowic",
+      "mention_texts": [
+        "Joannis Albrychtowic"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "filii legitimi",
+        "aetate minoris",
+        "praefatum pupillum",
+        "pupilli",
+        "eiusdem pupilli"
+      ],
+      "justification": "Minor child under guardianship of Gaspar Rzeszucki."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Albrycht",
+      "mention_texts": [
+        "Bartholomei Albrycht"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Aurifabri",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased goldsmith and citizen of Lviv, father of Joannes Albrychtowic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sophia Boguszówna",
+      "mention_texts": [
+        "Sophiae Bogusowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mother of Joannes Albrychtowic and wife of Bartholomaeus Albrycht."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rupert",
+      "mention_texts": [
+        "Stanisslaum Rubert",
+        "Famassi Rubert"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Civis Leopoliensis",
+        "Tutorem dativum",
+        "Tutore demortui",
+        "mariti sui"
+      ],
+      "justification": "Deceased citizen of Lviv, former guardian of Joannes Albrychtowic, and husband of Agnes."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes Rubertowa",
+        "Agnete",
+        "Agnes",
+        "Agneti Ruberto- wa",
+        "Agnes Ruberto- wa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "praedicta",
+        "Honeste",
+        "eadem"
+      ],
+      "justification": "Widow of Stanislaus Rupert who settles the annuity payment with the guardian."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned as citizenship origin and location of legal act."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The municipal council before which the legal declaration is recorded."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of the four-year rent received by the guardian."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "quin- gentorum florenorum",
+        "quingentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal sum belonging to the minor Joannes Albrychtowic."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda postridie festi Nativitatis Beatissimae Virginis Mariae Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislaus Anselminus Collega noster Consulares"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Gaspar Rzeszucki Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Gaspar Rzeszucki Collega noster Consularis uti Tutor Ingenui Joannis Albrychtowic"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannis Albrychtowic Famati olim Bartholomei Albrycht Aurifabri Civis Leopoliensis et Sophiae Bogusowna filii legitimi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannis Albrychtowic Famati olim Bartholomei Albrycht Aurifabri Civis Leopoliensis et Sophiae Bogusowna filii legitimi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Bartholomei Albrycht Aurifabri Civis Leopoliensis et Sophiae Bogusowna filii legitimi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Bartholomei Albrycht Aurifabri Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanisslaum Rubert Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanisslaum Rubert Civis Leopoliensis eiusdem pupilli Tutorem dativum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Agnete praedicti Famassi Rubert Tutore demortui vidua relicta"
+    }
+  ]
+}

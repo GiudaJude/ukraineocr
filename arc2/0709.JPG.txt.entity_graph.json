@@ -1,0 +1,122 @@
+{
+  "document_id": "arc2/0709.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "suo"
+      ],
+      "justification": "The document references the city council's judicial authority ('sententiae Officij', 'Decreto Officij', 'Officium vero Consulare Leopoliense')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv is referenced in Latin adjectival forms specifying citizenship and court jurisdictions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Toros Bernatowicz",
+      "mention_texts": [
+        "Torothen Barnathowicz",
+        "Toros Bernathowicz"
+      ],
+      "descriptive_mentions": [
+        "tertium citatum",
+        "Famatum",
+        "Armenum Seniorem",
+        "Civem Leopoliensem",
+        "jpsi",
+        "auctor",
+        "praedictus"
+      ],
+      "justification": "Toros Bernatowicz is the third summoned party, an elder of the Armenian community and citizen of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Siagniba Saxoniss",
+      "mention_texts": [
+        "Siagniba Saxoniss"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named individual to whom contested property was asserted to belong."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Zalatin Swiedowicz",
+      "mention_texts": [
+        "Zalatin Swiedowicz"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased individual whose property is in dispute ('olim Zalatin Swiedowicz propria')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "David Serepkowicz",
+      "mention_texts": [
+        "David Serepkowicz"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Named earlier defendant who also mounted a defense in the same matter."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Armenian Court",
+      "mention_texts": [
+        "Iudicium Armenicum Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Armenian municipal court to which Toros asked to be remanded ('ad Iudicium Armenicum Leopoliense remitti expostulabat')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "The King of Poland referenced via royal title in the council's sequestration decree ('mandatum Sacrae Regiae Maiestatis')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatum Torothen Barnathowicz Armenum Seniorem Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Iudicium Armenicum Leopoliense"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officium vero Consulare Leopoliense"
+    }
+  ]
+}

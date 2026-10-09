@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/0473.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis",
+        "Officio Consulari Leopoliensi",
+        "actis praesentibus",
+        "Officio Praesentis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council of Lviv acting in its official judicial and recording capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv referenced in official titles and citizenship designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Isaaconuz",
+      "mention_texts": [
+        "Isaaconuz"
+      ],
+      "descriptive_mentions": [
+        "Judaei",
+        "Autorumque ipsius"
+      ],
+      "justification": "Jewish person mentioned in connection with building demolition caution."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Leartman Kaaronuz",
+      "mention_texts": [
+        "Leartman Kaaronuz"
+      ],
+      "descriptive_mentions": [
+        "idem praedictus"
+      ],
+      "justification": "Ward consenting to the caution through his appointed tutor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Krauz",
+      "mention_texts": [
+        "Paulum Krauz"
+      ],
+      "descriptive_mentions": [
+        "tutorem sibi assumptum",
+        "ipsum"
+      ],
+      "justification": "Guardian acting on behalf of Leartman Kaaronuz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szembek",
+      "mention_texts": [
+        "Schembek",
+        "Stanislaus Schembegk",
+        "Stanislai Schembegk"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis",
+        "actoris",
+        "praedictus Famatus"
+      ],
+      "justification": "Plaintiff who makes a citation and files a protest against Paulus Kyspornicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kyspornicz",
+      "mention_texts": [
+        "Suurcowic",
+        "Paulum Kyspornicz",
+        "Surcowic",
+        "Paulus Kyspornicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem",
+        "citati",
+        "absentis",
+        "citato",
+        "praedictus",
+        "contumax",
+        "eundem"
+      ],
+      "justification": "Defendant cited by Stanislaus Schembek who fails to appear."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus",
+      "mention_texts": [
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Famuli Civitatis"
+      ],
+      "justification": "City servant who delivered the summons."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wawruch",
+      "mention_texts": [
+        "Joannis Wawruch"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the title of the acquittance."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Klyszowicz",
+      "mention_texts": [
+        "Joannes Klyszowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Kotarczis"
+      ],
+      "justification": "Individual appearing before the council guaranteeing ratification on behalf of his wife."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Agnes Kamarzancka",
+      "mention_texts": [
+        "Agnetis Kamarzancka"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Coniugis sua"
+      ],
+      "justification": "Wife of Joannes Klyszowicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Kamionka Strumiłowa",
+      "mention_texts": [
+        "Camionacen"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Town of which Joannes Klyszowicz is a citizen."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "per ipsum Paulum Krauz tutorem sibi assumptum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaus Schembegk Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Paulum Kyspornicz Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "servant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famuli Civitatis Stanislai"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Agnetis Kamarzancka Coniugis sua"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Joannes Klyszowicz Kotarczis Civitatis Camionacen"
+    }
+  ]
+}

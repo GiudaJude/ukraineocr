@@ -1,0 +1,129 @@
+{
+  "document_id": "arc2/0885.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "collegio",
+        "nostrum"
+      ],
+      "justification": "The municipal council of Lviv issuing decrees and judgments in the record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the council's title and the suburban descriptor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kraków suburb of Lviv where the burned house was situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Wlodkowna",
+        "Annam Szedelszynska na"
+      ],
+      "descriptive_mentions": [
+        "haeredem",
+        "Actes",
+        "Actores",
+        "partem Actorum",
+        "ambae partes"
+      ],
+      "justification": "Plaintiff and heir of the burned property, referred to as Włodkówna / Szedelszyńska."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sartor",
+      "mention_texts": [
+        "Joannem Sartorem"
+      ],
+      "descriptive_mentions": [
+        "conductorem",
+        "Actores",
+        "partem Actorum",
+        "ambae partes"
+      ],
+      "justification": "Co-plaintiff and tenant of the house in the Kraków suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Szedelszyńska House",
+      "mention_texts": [
+        "Szedelszynska"
+      ],
+      "descriptive_mentions": [
+        "domus",
+        "domus praefata"
+      ],
+      "justification": "The named residential property that was damaged by fire."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Szewcowic",
+      "mention_texts": [
+        "Szewcowic",
+        "F- amem Lupcrowicz"
+      ],
+      "descriptive_mentions": [
+        "oleatorem",
+        "Suburbanum Leopoliensem",
+        "incusatum",
+        "eundem",
+        "Citabit",
+        "ambae partes"
+      ],
+      "justification": "Suburban oilmaker of Lviv accused of accidentally starting the fire with a firearm."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "domus Szedelszynska in Suburbio Cracoviensi sita"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "tenant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannem Sartorem conductorem domus Szedelszynska"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "owner_of",
+      "tail_entity_id": "E6",
+      "evidence": "Annam Szedelszynska na haeredem ... domus Szedelszynska"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "oleatorem Suburbanum Leopoliensem"
+    }
+  ]
+}

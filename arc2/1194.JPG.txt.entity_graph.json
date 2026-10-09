@@ -1,0 +1,140 @@
+{
+  "document_id": "arc2/1194.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Ci-\nuitatis"
+      ],
+      "justification": "City where the legal acts were performed and whose council/bench Thomas Karcz served on."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Tomasz\nKarcz",
+        "Thomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Scabinus",
+        "Honoratus",
+        "Scabinus",
+        "se"
+      ],
+      "justification": "Lviv bench magistrate who acknowledges a debt of 100 florins as guarantor for his affine Melchior Doskonicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Melchior Doskonicz",
+      "mention_texts": [
+        "Melchiore Doskonicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "affine suo"
+      ],
+      "justification": "In-law of Thomas Karcz who originally contracted the debt with Sebastian Syslowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Syslowski",
+      "mention_texts": [
+        "Sebastiano\nSyslowski"
+      ],
+      "descriptive_mentions": [
+        "Gnosis",
+        "ipsi Creditori",
+        "Creditori"
+      ],
+      "justification": "Creditor to whom the sum of 100 Polish florins is owed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos centum pecunia et numeri Polonicalis",
+        "Centum flo-\nrenorum",
+        "Centum florenis"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "praedicta summa"
+      ],
+      "justification": "Amount of debt acknowledged in the obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for repayment of the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Festa solemnia Pentecostes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Liturgical feast used in the date formula of the act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno\nDomini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of registration given at the foot of the document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E3",
+      "evidence": "ex causa fideiussoria rationis pii Fa- mato Melchiore Doskonicz affine suo contracti"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "in_law_of",
+      "tail_entity_id": "E3",
+      "evidence": "Melchiore Doskonicz affine suo"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "Thomas Karcz Scabinus Ci- uitatis Leopoliensis palam publice benevoleque recognouit se debere... Gnosis Sebastiano Syslowski Florenos centum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "ex causa fideiussoria rationis pii Fa- mato Melchiore Doskonicz affine suo contracti Gnosis Sebastiano Syslowski"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Thomas Karcz Scabinus Ci- uitatis Leopoliensis"
+    }
+  ]
+}

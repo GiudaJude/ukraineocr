@@ -1,0 +1,183 @@
+{
+  "document_id": "arc2/0471.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Actorum Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council referred to as 'Officium' and via its official records 'Actum Actorum Civitatis Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopolitanaque"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv (Leopolis)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato ante festum Nativitatis B. M. V. Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Act date of Saturday before the Nativity of the Blessed Virgin Mary in 1595."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Iurko Hreczkewicz",
+      "mention_texts": [
+        "Iurko Hreczkiewicznick",
+        "Iurko Hreczkewicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburban resident of Lviv who cedes property rights/claim to Iwan Hreczkewicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Iwan Hreczkewicz",
+      "mention_texts": [
+        "Iwan Hreczkewicz",
+        "Iwano Hreczkewicz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "suburbano Leopoliensi",
+        "satisfactori"
+      ],
+      "justification": "Suburban resident of Lviv receiving the cession of rights."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0002: 36 Polish florins",
+      "mention_texts": [
+        "triginta sex florenos"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "numeri Polonicalis"
+      ],
+      "justification": "Sum of 36 Polish florins recorded in 1593."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria quarta post Festum Sancti Francisci Confessoris proxima Anno Domini 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Registration date of the original debt inscription in 1593."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Margaretha Simonowa",
+      "mention_texts": [
+        "Margarethae Simonowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "pistricis",
+        "Viduae",
+        "olim Honestae"
+      ],
+      "justification": "Deceased baker and widow whose house was mortgaged."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Halych suburb of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Stryjska Street",
+      "mention_texts": [
+        "Platea Stryiek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb of Lviv."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kalikowski",
+      "mention_texts": [
+        "Joannes Kalikowski"
+      ],
+      "descriptive_mentions": [
+        "Praedictus",
+        "tutor liberorum praedictae olim Honestae Margarethae Simonowa"
+      ],
+      "justification": "Guardian of the children of the late Margaretha Simonowa."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Rachuman",
+      "mention_texts": [
+        "Rachumano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person granted permission to raise a building."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Iurko Hreczkewicz Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Iwano Hreczkewicz suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in Suburbio Haliciensi in Platea Stryiek dicta sita"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "domus Honestae Margarethae Simonowa pistricis Viduae in Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannes Kalikowski tanquam tutor liberorum praedictae olim Honestae Margarethae Simonowa"
+    }
+  ]
+}

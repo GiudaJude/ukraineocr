@@ -1,0 +1,195 @@
+{
+  "document_id": "arc2/0731.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv where the act is recorded and to which the participants belong."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium meum",
+        "Collegae nostri Consulares"
+      ],
+      "justification": "Council office acting in the judicial and registration matters."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Niedziura Doctor"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Collegae nostri Consulares"
+      ],
+      "justification": "Councilor confirming the testimony."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Szemys",
+      "mention_texts": [
+        "Franciscus Szemys"
+      ],
+      "descriptive_mentions": [
+        "Collegae nostri Consulares"
+      ],
+      "justification": "Councilor confirming the decree and witness testimonies."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Dąbek",
+      "mention_texts": [
+        "Mathiae Dąbek"
+      ],
+      "descriptive_mentions": [
+        "testes Citati",
+        "praedictorum"
+      ],
+      "justification": "Witness in the assault case."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Ludałek",
+      "mention_texts": [
+        "Bartholomaei Ludałek"
+      ],
+      "descriptive_mentions": [
+        "testes Citati",
+        "praedictorum"
+      ],
+      "justification": "Witness in the assault case."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Roganz",
+      "mention_texts": [
+        "Martinum Roganz"
+      ],
+      "descriptive_mentions": [
+        "praefatos"
+      ],
+      "justification": "Subject of the court decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Uxor Martini Roganz",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "coniungem eius",
+        "praefatos"
+      ],
+      "justification": "Wife of Martinus Roganz against whom the decree was also issued."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Catherina Michałowska",
+      "mention_texts": [
+        "Catherina Muchalowiczna",
+        "Catherina Michalowszka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Suburbana Leopoliensis"
+      ],
+      "justification": "Lviv suburban resident making a deed of donation to her daughter."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kraus",
+      "mention_texts": [
+        "Paulum Kraus"
+      ],
+      "descriptive_mentions": [
+        "Strenuum",
+        "Notarium meorum sibi ad eum actum assumptum"
+      ],
+      "justification": "Notary assisting Catherina Michałowska."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "Filia sua"
+      ],
+      "justification": "Daughter of Catherina Michałowska receiving the donation."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Sellator",
+      "mention_texts": [
+        "Petri"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "sellatoris"
+      ],
+      "justification": "Deceased saddler, late husband of Sophia."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Dominus Stanislaus Niedziura Doctor et ipsis Franciscus Szemys Collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Franciscus Szemys Collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "contra praefatos Martinum Roganz et coniungem eius"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent_of",
+      "tail_entity_id": "E11",
+      "evidence": "ab Honesta Sophia Honesti olim Petri sellatoris vidua relicta Filia sua"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Sophia Honesti olim Petri sellatoris vidua relicta"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "representative_of",
+      "tail_entity_id": "E9",
+      "evidence": "Catherina Michalowszka Suburbana Leopoliensis per Strenuum Paulum Kraus Notarium meorum sibi ad eum actum assumptum"
+    }
+  ]
+}

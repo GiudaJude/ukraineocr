@@ -1,0 +1,171 @@
+{
+  "document_id": "arc2/1344.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Podlesny",
+      "mention_texts": [
+        "Joannes Podleym",
+        "Joannes Zodleszny"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "coniuges",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "debitores",
+        "recognoscentes debitores"
+      ],
+      "justification": "Debtor acknowledging debt, suburban resident of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "haec",
+        "recognoscentes debitores"
+      ],
+      "justification": "Wife of Joannes Podlesny, co-recognizor of the debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Karnysz",
+      "mention_texts": [
+        "Albertus Karnysz",
+        "Alberto Karnysz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Muratori Suburbano Leopoliensi",
+        "Creditori suo",
+        "praedicto Creditori suo",
+        "praedicto Creditori",
+        "Creditorem et offitiatarium suum",
+        "Creditorem"
+      ],
+      "justification": "Creditor and bricklayer of the Lviv suburbs."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the residency descriptions of the parties."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos centum",
+        "Florenos centum",
+        "Florenorum centum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis quemlibet grossis triginta Polonicales computando",
+        "priorem summam debiti",
+        "praesentem summam",
+        "summam eandem praefatam",
+        "priore debito",
+        "praedicta summa"
+      ],
+      "justification": "Principal debt sum recorded in the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta in vigilia Sancti Jacobi Apostoli Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous debt agreement in the current year (Wednesday, 24 July 1596)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "31 August 1598",
+      "mention_texts": [
+        "ultima scilicet mensis Augusti Anno 1590 octavo"
+      ],
+      "descriptive_mentions": [
+        "terminus solutionis"
+      ],
+      "justification": "Maturity date set for repayment two years later."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Masiowska House",
+      "mention_texts": [
+        "Masiowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea Masiowska dicta"
+      ],
+      "justification": "Masonry house mortgaged as collateral for the debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Zernawien Street",
+      "mention_texts": [
+        "Zernawien"
+      ],
+      "descriptive_mentions": [
+        "platea Zernawien"
+      ],
+      "justification": "Street where the mortgaged house is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "iisdem Actis superioris sub actis"
+      ],
+      "justification": "Court records of the municipal office."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honesti Joannes Zodleszny Suburbani Leopolienses et Dorothea coniuges ille per se haec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "se debere certi veri liquidique debiti ex causa mutui contracti Florenos centum pecuniae et numeri Polonicalis quemlibet grossis triginta Polonicales computando Honesto Alberto Karnysz Muratori Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "se debere certi veri liquidique debiti ex causa mutui contracti Florenos centum pecuniae et numeri Polonicalis quemlibet grossis triginta Polonicales computando Honesto Alberto Karnysz Muratori Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in domo lapidea Masiowska dicta in platea Zernawien sita"
+    }
+  ]
+}

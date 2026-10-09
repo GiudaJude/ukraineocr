@@ -1,0 +1,124 @@
+{
+  "document_id": "arc2/1359.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0221: CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "octoginta florenorum",
+        "octoginta florenos"
+      ],
+      "descriptive_mentions": [
+        "debitum",
+        "summa haec",
+        "summam eiusmodi",
+        "tantilla summa haec"
+      ],
+      "justification": "Debitum of 80 florins mentioned as deducted and deposited with the merchant."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "eandem",
+        "venditores",
+        "iidem venditores"
+      ],
+      "justification": "Co-seller of the property who previously contracted a debt with her former husband."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mathias Gregowic",
+      "mention_texts": [
+        "malta Gregowic"
+      ],
+      "descriptive_mentions": [
+        "priori marito"
+      ],
+      "justification": "Former husband of Barbara, with whom the debt was contracted."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "638 florins",
+      "mention_texts": [
+        "sexcentorum triginta octo florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa praenotata"
+      ],
+      "justification": "Total purchase sum from which the 80 florins were deducted."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Tomas Fixi",
+      "mention_texts": [
+        "Tome Fixi",
+        "Tomas Fixi"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Mercatori",
+        "Famatus"
+      ],
+      "justification": "Merchant into whose faithful hands the 80 florins were deposited as escrow."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "sabata Sfatk-",
+      "mention_texts": [
+        "sabata Sfatk-"
+      ],
+      "descriptive_mentions": [
+        "emptricis",
+        "emptrici",
+        "emptricem"
+      ],
+      "justification": "Buyer of the share/property being transferred and indemnified."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jan Arisabinus",
+      "mention_texts": [
+        "Iano Arisabino"
+      ],
+      "descriptive_mentions": [
+        "Honorato D."
+      ],
+      "justification": "Person granted full power of attorney to appear before the court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court where the resignation/quietatio was to be submitted."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "cum priori marito malta Gregowic"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "contulerunt plenariam potestatem Honorato D. Iano Arisabino"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "document_id": "arc2/0639.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council that hears the dispute and issues the decree"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the court acts and of which Thomas Radowski is a resident"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "citatae",
+        "citata",
+        "iunior",
+        "sorores",
+        "Citata"
+      ],
+      "justification": "Litigating party and younger sister involved in the estate division"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Gasparum Jozephowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Aromatharium"
+      ],
+      "justification": "Apothecary ordered by the council to pay Anna a certain share"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacram Regiam Majestatem"
+      ],
+      "justification": "The King of Poland to whom the cited party refused to appeal"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "1604",
+      "mention_texts": [
+        "Feria Quarta ante festum Sanctae Katherinae Virginis Anno Domini Millesimo Sexcentesimo Quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded entry"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea Radowicka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the marginal heading of the subsequent entry"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Radowski",
+      "mention_texts": [
+        "Tomas Radowicki",
+        "Thomas Radowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "incola Leopoliensis"
+      ],
+      "justification": "Noble resident of Lviv appearing before the council"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officium vero Consulare Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_to",
+      "tail_entity_id": "E3",
+      "evidence": "Gasparum Jozephowicz Aromatharium debere certa eidem Annae citatae ex altera medietate sorticula Apostatae solvere"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Thomas Radowski incola Leopoliensis"
+    }
+  ]
+}

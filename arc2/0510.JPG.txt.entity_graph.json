@@ -1,0 +1,224 @@
+{
+  "document_id": "arc2/0510.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Scadrowicz",
+      "mention_texts": [
+        "Nicolaum Scadrowicz",
+        "Nicolai Scadrowicz"
+      ],
+      "descriptive_mentions": [
+        "pupillo",
+        "pupilli",
+        "eidem pupillo",
+        "Ingenui",
+        "filij"
+      ],
+      "justification": "Named as the minor ward whose inheritance is under curatorship."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Majdey",
+      "mention_texts": [
+        "Stanislaw Majdey",
+        "Stanislai Majdey"
+      ],
+      "descriptive_mentions": [
+        "Nobilem olim",
+        "parentes ipsius",
+        "Nobilis olim",
+        "Fratris sui patruelis"
+      ],
+      "justification": "Deceased noble father of Nicolaus Scadrowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Catherina Lubierowna",
+      "mention_texts": [
+        "Catherinam Lubierowna",
+        "Catharinae Lubierowna"
+      ],
+      "descriptive_mentions": [
+        "parentes ipsius"
+      ],
+      "justification": "Mother of Nicolaus Scadrowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Scadrowicz",
+      "mention_texts": [
+        "Andream Scadrowicz",
+        "Andreas Scadrowicz"
+      ],
+      "descriptive_mentions": [
+        "Curator",
+        "Scabinum et Notarium Civitatis nostrae Leopoliensis",
+        "Scabinus et Notarius Leopoliensis",
+        "Honoratus"
+      ],
+      "justification": "Appointed curator of Nicolaus Scadrowicz, bench-officer and notary of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Biecz City Council",
+      "mention_texts": [
+        "officij Consularis Bicen",
+        "residentia nostra Consulari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office of Biecz mentioned in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [
+        "nos",
+        "nostrae",
+        "Regni nostri",
+        "Regnorum nostri"
+      ],
+      "justification": "King Sigismund III Vasa who appointed the curator and confirmed the caution."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joannes Tarnowski",
+        "Joannis Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "R. Pol: Vicecancell.",
+        "R. P. Vicecancell."
+      ],
+      "justification": "Crown Vice-Chancellor of Poland countersigning the royal document."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis nostrae"
+      ],
+      "justification": "City where Andreas Scadrowicz is scabinus and notary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Crac"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the royal decree was given."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Pol:",
+        "R. Pol:",
+        "R. P."
+      ],
+      "descriptive_mentions": [
+        "Regni nostri",
+        "Regnorum nostri"
+      ],
+      "justification": "Kingdom of Poland."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [
+        "Regnorum nostri"
+      ],
+      "justification": "Kingdom of Sweden."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0339: Biecz",
+      "mention_texts": [
+        "Bicen",
+        "Biciensi"
+      ],
+      "descriptive_mentions": [
+        "Praetorio"
+      ],
+      "justification": "Town of Biecz where the local council and town hall are located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die xix mensis Maij. Anno Domini MDIC V.",
+        "feria secunda an Festum Sancti Bartholomei Apostoli proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the royal issue and the court session in Biecz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "ad praedictum Nicolaum Scadrowicz post Nobilem olim Stanislaw Majdey et Catherinam Lubierowna parentes ipsius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "ad praedictum Nicolaum Scadrowicz post Nobilem olim Stanislaw Majdey et Catherinam Lubierowna parentes ipsius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nobilem olim Stanislaw Majdey et Catherinam Lubierowna parentes ipsius"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "Curator Ingenui Nicolai Scadrowicz ... per Sacram Regiam Maiestatem eidem Nicolao datus et assignatus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E10",
+      "evidence": "Regnorum nostri Pol: s. Sueciae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E11",
+      "evidence": "Regnorum nostri Pol: s. Sueciae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E10",
+      "evidence": "Joannes Tarnowski R. Pol: Vicecancell."
+    }
+  ]
+}

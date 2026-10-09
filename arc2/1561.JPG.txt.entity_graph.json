@@ -1,0 +1,173 @@
+{
+  "document_id": "arc2/1561.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus",
+      "mention_texts": [
+        "Petrus"
+      ],
+      "descriptive_mentions": [
+        "memoratus"
+      ],
+      "justification": "Appears in the first entry performing an oath ceremony according to Armenian law."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sasser Sermens",
+      "mention_texts": [
+        "Sasser Sermens"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Mercator",
+        "Docena Armenus"
+      ],
+      "justification": "Armenian merchant who appoints a plenipotentiary."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Iwanis",
+      "mention_texts": [
+        "Swianis",
+        "Iwanis"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenum Leopoliensem",
+        "Plenipotentem",
+        "mandatarium",
+        "Plenipotenti",
+        "mandatario suo",
+        "mandatario",
+        "praefatus Plenipotens"
+      ],
+      "justification": "Armenian resident of Lviv appointed as plenipotentiary by Sasser Sermens."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the title of the Castle Court (officij Castrensis Camenecensis)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Streblowicz",
+      "mention_texts": [
+        "Paulo Streblowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "Cive Leopoliensi"
+      ],
+      "justification": "Armenian citizen of Lviv against whom Sasser Sermens is taking legal action."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by adjectival forms referencing the city of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Jesut",
+      "mention_texts": [
+        "Bartholomaeus Jesut",
+        "Bartholomeus Jesuthi"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Sartor",
+        "civis et suburbanus Leopoliensis"
+      ],
+      "justification": "Tailor and suburban citizen of Lviv acknowledging a debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenos sexaginta pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of the loan owed by Bartholomaeus Jesut."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Kainc",
+      "mention_texts": [
+        "Wolffangus Kainc",
+        "Wolffango Kainc"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Bench officer and citizen of Lviv, creditor of Bartholomaeus Jesut."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E3",
+      "evidence": "constituit et solemniter ordinavit in suum verum certum legitimumque Plenipotentem et mandatarium Famatum Iwanis Armenum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Iwanis Armenum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Paulo Streblowicz Armeno Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "debtor_of",
+      "tail_entity_id": "E9",
+      "evidence": "Bartholomeus Jesuthi Sartor civis et suburbanus Leopoliensis palam publice benevoleque recognovit: se debere ac teneri... Honorato Wolffango Kainc"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "owes",
+      "tail_entity_id": "E8",
+      "evidence": "se debere ac teneri certi veri iusti liquidique debiti ex causa mutui contracti florenos sexaginta pecuniae et numeri Polonicalis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Bartholomeus Jesuthi Sartor civis et suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Wolffango Kainc Scabino Civi Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "document_id": "arc2/0453.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Opicjonowski",
+      "mention_texts": [
+        "Nicolaum Opitionowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Procutores suos"
+      ],
+      "justification": "Proctor representing the plaintiff (actorata) party before the court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Morawski",
+      "mention_texts": [
+        "Andream Morawski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Procutores suos"
+      ],
+      "justification": "Proctor representing the cited (citata) party before the court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Ioannes Rapent",
+      "mention_texts": [
+        "Io-annes Rapent"
+      ],
+      "descriptive_mentions": [
+        "idem ipse praedictus olim",
+        "sterilis",
+        "patrui"
+      ],
+      "justification": "Deceased uncle who raised the nephews and left the contested estate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Lucas Armonstag",
+      "mention_texts": [
+        "Luca Armonstag"
+      ],
+      "descriptive_mentions": [
+        "fratris germani"
+      ],
+      "justification": "Full brother (frater germanus) named in connection with the inheritance."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Henricus",
+      "mention_texts": [
+        "Henrici"
+      ],
+      "descriptive_mentions": [
+        "praefatorum ... nepotum",
+        "nepotum"
+      ],
+      "justification": "Nephew and testamentary heir of Ioannes Rapent."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Laurus",
+      "mention_texts": [
+        "Lauri"
+      ],
+      "descriptive_mentions": [
+        "praefatorum ... nepotum",
+        "nepotum"
+      ],
+      "justification": "Nephew and testamentary heir of Ioannes Rapent."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agneta"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Honest widow claiming her life interest (ius aduitalitium) and third share by city statute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolien",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in reference to the cited party and the municipal plebiscite."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio quoque Consulari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular court/council office of Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "fratris germani Luca Armonstag"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "nephew_of",
+      "tail_entity_id": "E3",
+      "evidence": "praefatorum Henrici et Lauri nepotum testamentoque haeredam et successorum institutionem comportan atque se circa eiusmodi bona omnia et singula mobilia et immobilia morte praefati sui patrui derelicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "nephew_of",
+      "tail_entity_id": "E3",
+      "evidence": "praefatorum Henrici et Lauri nepotum testamentoque haeredam et successorum institutionem comportan atque se circa eiusmodi bona omnia et singula mobilia et immobilia morte praefati sui patrui derelicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "widow_of",
+      "tail_entity_id": "E3",
+      "evidence": "Praefata vero Honesta Agneta vidua relicta acrata per praefatum suum plenipotentem salua sua tertia sorte vigore plebisciti Civitatis Leopoliensis ad se plenario et sine quavis exceptione pertinen reseruata orta ius suum aduitalitium conseruari postulan"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/0316.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Acta praesentia",
+        "Acta nostra praesentia",
+        "Officio"
+      ],
+      "justification": "The municipal council/chancellery of Lviv recording the deed and division."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gelatinus",
+      "mention_texts": [
+        "Joannis Gelatini"
+      ],
+      "descriptive_mentions": [
+        "Emptori",
+        "Civis Cracoviensis absentis"
+      ],
+      "justification": "Citizen of Kraków mentioned as seller/buyer from whom rights were acquired."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0004: Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobo Mieszkowski"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "tutor nomine Ingenui Andreae Gelatini natu minoris pupilli sui",
+        "Tutor praefatus"
+      ],
+      "justification": "Known entity PER-0004, acting as guardian for Andreas Gelatinus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Gelatinus",
+      "mention_texts": [
+        "Andreae Gelatini",
+        "Andreae"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "natu minoris pupilli sui",
+        "fratris natu minoris"
+      ],
+      "justification": "Minor heir represented by guardian Jacobus Mieszkowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gelatinus",
+      "mention_texts": [
+        "Stas Gelatinus",
+        "Stanislaus Gelazinowicz"
+      ],
+      "descriptive_mentions": [
+        "Dominus",
+        "affinis"
+      ],
+      "justification": "One of the heirs choosing a portion in the division and later issuing a quietatio."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Szkolc",
+        "Jacobo Szkolc",
+        "Jacobi Szkolc",
+        "Jacobi Szkoliz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Domini"
+      ],
+      "justification": "Known entity PER-0797, acting on behalf of himself and his wife Agneta Ursula."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Agneta Ursula",
+      "mention_texts": [
+        "Agnetae Ursulae"
+      ],
+      "descriptive_mentions": [
+        "coniugis sua",
+        "vxorem suam"
+      ],
+      "justification": "Wife of Jacobus Scholz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity LOC-0014, cited in the descriptor of Joannes Gelatinus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelatinus",
+      "mention_texts": [
+        "Nicolaus Gelatinus"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "One of the heirs choosing a share for himself and his wife Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "vxoris sua"
+      ],
+      "justification": "Known entity PER-0026, wife of Nicolaus Gelatinus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "Domino Jacobo Mieszkowski vti tutor nomine Ingenui Andreae Gelatini natu minoris pupilli sui"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_married_to",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobus Szkolc suo et Agnetae Ursulae coniugis sua"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_married_to",
+      "tail_entity_id": "E10",
+      "evidence": "Nicolaus Gelatinus suo et Annae vxoris sua"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannis Gelatini Civis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_kin_of",
+      "tail_entity_id": "E6",
+      "evidence": "Dominus Stanislaus Gelazinowicz... Jacobi Szkoliz affinis sui"
+    }
+  ]
+}

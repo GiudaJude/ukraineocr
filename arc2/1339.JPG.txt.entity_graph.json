@@ -1,0 +1,194 @@
+{
+  "document_id": "arc2/1339.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopo-",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the legal proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Zubrza",
+      "mention_texts": [
+        "Zubrza"
+      ],
+      "descriptive_mentions": [
+        "Pago",
+        "eodem Pago"
+      ],
+      "justification": "Village where the sold plot of land is located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Abschutha",
+      "mention_texts": [
+        "Abschutha"
+      ],
+      "descriptive_mentions": [
+        "sorores suas"
+      ],
+      "justification": "Neighboring landowner and sister mentioned in the land demarcation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Fedko Zubrawka",
+      "mention_texts": [
+        "Fedkoni Zubrawka"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "affini suo",
+        "coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Buyer of the fourth of arable and barren land."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Kasia",
+      "mention_texts": [
+        "Kasia"
+      ],
+      "descriptive_mentions": [
+        "sorori germanae",
+        "coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Sister of the grantor and wife of Fedko Zubrawka, co-buyer of the land."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginti florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Sum paid for the land transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Iudicium bannitum"
+      ],
+      "justification": "Court in which the resignation of the land is scheduled to be performed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Felicianus Szawlawski",
+      "mention_texts": [
+        "Felicianus Szawlawski",
+        "Felici"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Purchaser of the blade mill."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paulus Borowicz",
+      "mention_texts": [
+        "Paulus Borowicz",
+        "Paulus Borowcowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopo-",
+        "coniuges",
+        "mariti sui"
+      ],
+      "justification": "Seller of the blade mill and husband of Susanna Krasnussowna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Susanna Krasnussowna",
+      "mention_texts": [
+        "Susanna Krasnussowna"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses"
+      ],
+      "justification": "Co-seller of the blade mill and wife of Paulus Borowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krzyzecki",
+      "mention_texts": [
+        "Joannem Krzyzecki"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem"
+      ],
+      "justification": "Appointed legal guardian for Susanna Krasnussowna in the transaction."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas Offner",
+      "mention_texts": [
+        "Andrea Offner"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Prior owner from whom the blade mill had been acquired."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "Officio"
+      ],
+      "justification": "Civic office approving and registering the transactions."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestos Fedkoni Zubrawka redicto affini suo et Kasia sorori germanae coniugibus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Famatus Paulus Borowcowic Civis Leopo- et Susanna Krasnussowna coniuges"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "has_guardian",
+      "tail_entity_id": "E11",
+      "evidence": "Susanna Krasnussowna coniuges Cives Leopolienses illa per se hac vero per Honestum Joannem Krzyzecki tutorem sibi ad id actum"
+    }
+  ]
+}

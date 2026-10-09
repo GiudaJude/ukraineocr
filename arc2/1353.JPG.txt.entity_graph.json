@@ -1,0 +1,165 @@
+{
+  "document_id": "arc2/1353.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Samuel Krall",
+      "mention_texts": [
+        "Samuel Krall",
+        "Samuel"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Viridarius Civium",
+        "coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "recogniti",
+        "recognitores",
+        "Viridarius"
+      ],
+      "justification": "Named as debtor along with his wife Zofia, city gardener ('Viridarius Civium')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zofia"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "haec",
+        "recogniti",
+        "recognitores"
+      ],
+      "justification": "Identified as the wife of Samuel Krall and recognized debtor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in citizen appellations and court designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-1069: Andreas Dąbrowski",
+      "mention_texts": [
+        "Andreae Dambrowski Sambor"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Spectabili",
+        "Collegam nostro Consulari",
+        "Creditori",
+        "Creditori suis",
+        "eidem Creditori suo"
+      ],
+      "justification": "Town councillor and creditor in the debt recognition."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Collegam nostro Consulari",
+        "Officio suo",
+        "Officio Consulari Leopoliensi",
+        "Officio",
+        "Decreti Of-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal governing and judicial body before which the entries are enacted."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festum Sancti Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day used to specify the debt repayment term."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0172: 6 florins",
+      "mention_texts": [
+        "Florenos sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money mentioned in connection with security."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sostembel",
+      "mention_texts": [
+        "Sostiner",
+        "Stanislaus Sostembel"
+      ],
+      "descriptive_mentions": [
+        "Plenipotens",
+        "Famatus",
+        "Plenipotens Festinori"
+      ],
+      "justification": "Plenipotentiary appearing in the second entry."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Wachman",
+      "mention_texts": [
+        "Wachman"
+      ],
+      "descriptive_mentions": [
+        "Judaeus",
+        "citatus",
+        "Infidelis Wachman"
+      ],
+      "justification": "Jewish party cited regarding the delivery/inspection of vats of honey."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Samuel Krall Viridarius Civium et Zofia coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "has_legal_guardian",
+      "tail_entity_id": "E2",
+      "evidence": "per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_to",
+      "tail_entity_id": "E4",
+      "evidence": "Se debere et teneri manu coniuncta et in solidum veri puri liquidique debiti ex causa exemptronis contracti florenos sexcentos sexaginta duos et grossos decem pecuniae et monetae Polonicalis Nobili et Spectabili Andreae Dambrowski Sambor"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_to",
+      "tail_entity_id": "E4",
+      "evidence": "Se debere et teneri manu coniuncta et in solidum veri puri liquidique debiti ex causa exemptronis contracti florenos sexcentos sexaginta duos et grossos decem pecuniae et monetae Polonicalis Nobili et Spectabili Andreae Dambrowski Sambor"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andreae Dambrowski Sambor Collegam nostro Consulari"
+    }
+  ]
+}

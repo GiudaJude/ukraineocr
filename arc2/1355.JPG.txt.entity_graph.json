@@ -1,0 +1,173 @@
+{
+  "document_id": "arc2/1355.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thaddaeus",
+      "mention_texts": [
+        "Tade-us",
+        "Tadeuszam"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "praefato"
+      ],
+      "justification": "Principal party in the dispute who appoints Andreas Majnrowic as his guarantor."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andream Majnrowic"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum et Notarium Civitatis Leopoliensem",
+        "Fideiussorem",
+        "Fideiussor",
+        "idem Fideiussor"
+      ],
+      "justification": "Lviv bench officer and notary serving as guarantor for Thaddaeus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose council/office Andreas Majnrowic serves."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schintzer",
+      "mention_texts": [
+        "Sebaldum Schintzer",
+        "Sebaldus Schintzer"
+      ],
+      "descriptive_mentions": [
+        "praedictum Famatum",
+        "idem"
+      ],
+      "justification": "Party involved in the tax settlement and potential legal claims."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulo Kab-czowic",
+        "Pauli Kabczowic"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "eiusdem"
+      ],
+      "justification": "Individual whose consent regarding the tax fraction is cited."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Aschenbel",
+      "mention_texts": [
+        "Stanislaus Aschenbel",
+        "Stanislao Aschenbel"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famato"
+      ],
+      "justification": "Party asserting the right of his principal concerning the disputed document/parchment."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joannes Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "Party named regarding a receipt on the parchment."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "SR. M."
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King (Sacra Regia Maiestas), whose decree specified the documents."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wrobel",
+      "mention_texts": [
+        "Jacobus Wrobel"
+      ],
+      "descriptive_mentions": [
+        "Honestus"
+      ],
+      "justification": "Individual filing a denunciation and protestation regarding the parchment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rajkowicz",
+      "mention_texts": [
+        "Joannem Raykowic"
+      ],
+      "descriptive_mentions": [
+        "Advocatum Castrensem"
+      ],
+      "justification": "Castle advocate mentioned in connection with satisfaction for the parchment."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Paweł Rajkowicz",
+      "mention_texts": [
+        "Paweł Raykowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual referenced in the record from Lublin."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublin"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose records/acts are referenced."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "feria tertia post Dominicam Trinitatis",
+      "mention_texts": [
+        "feria tertia post Dominicam Trinitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Calendar date of the Lublin act cited in the document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E1",
+      "evidence": "Et praedictus Tade-us statuit pro se Fideiussorem Honoratum Andream Majnrowic... Qui comparens personaliter Fideiussit et cauit pro praefato Tadeuszam."
+    }
+  ]
+}

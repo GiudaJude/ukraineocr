@@ -1,0 +1,162 @@
+{
+  "document_id": "arc2/0766.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Mikołajowicz",
+      "mention_texts": [
+        "Stephanum",
+        "Stephano Mikolajowicz"
+      ],
+      "descriptive_mentions": [
+        "creditorem suum",
+        "creditore",
+        "creditoris",
+        "Creditoris"
+      ],
+      "justification": "Creditor mentioned in the opening contractual clause."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bajor",
+      "mention_texts": [
+        "Joan: Bajor",
+        "Joannis Radij Szall"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis et Instoris Leopoliensis"
+      ],
+      "justification": "Deceased citizen and merchant of Lviv whose widow reports the guardianship of their children."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the citizenship descriptor of Joannes Bajor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea Moszonczyna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow appearing before the court, daughter of Christophorus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0015: Christopherus Mozanc",
+      "mention_texts": [
+        "Christophorum Maszonis"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "parentem suum",
+        "Tutorem naturalem"
+      ],
+      "justification": "Father and natural guardian assisting Dorothea Moszonczyna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The municipal office before which the declaration of orphanhood and tutelage is made."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Cecilia",
+      "mention_texts": [
+        "Cecilia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "One of the orphan children of the deceased Joannes."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [],
+      "justification": "One of the orphan children of the deceased Joannes."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "One of the orphan children of the deceased Joannes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Dorothea Moszonczyna Famati olim Joannis Radij Szall Civis et Instoris Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Dorothea Moszonczyna... per Famatum Christophorum Maszonis parentem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Tutores liberorum Joan: Bajor... Cecilia, Catherina et Anna"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Tutores liberorum Joan: Bajor... Cecilia, Catherina et Anna"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Tutores liberorum Joan: Bajor... Cecilia, Catherina et Anna"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesta Dorothea Moszonczyna... denunciarit officio nostro orbitatem suam et provide Cecilia, Catherina et Anna"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesta Dorothea Moszonczyna... denunciarit officio nostro orbitatem suam et provide Cecilia, Catherina et Anna"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesta Dorothea Moszonczyna... denunciarit officio nostro orbitatem suam et provide Cecilia, Catherina et Anna"
+    }
+  ]
+}

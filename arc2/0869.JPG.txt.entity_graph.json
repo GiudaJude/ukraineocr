@@ -1,0 +1,314 @@
+{
+  "document_id": "arc2/0869.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus"
+      ],
+      "descriptive_mentions": [
+        "Consulari residentia",
+        "officij"
+      ],
+      "justification": "The court before which the transaction is recognized is the council of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joannes Zelionek",
+        "Joannis Zelionek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "legitimi Coniuges",
+        "Cives Leopolienses",
+        "venditoris",
+        "seipsum"
+      ],
+      "justification": "Joannes Jelonek (furrier), citizen of Lviv, is selling his inherited tenement house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Barbara Szeczkowna",
+      "mention_texts": [
+        "Barbara Szeczkowna"
+      ],
+      "descriptive_mentions": [
+        "legitimi Coniuges",
+        "Cives Leopolienses",
+        "praefata",
+        "ipsius uxor"
+      ],
+      "justification": "Wife of Joannes Jelonek, co-seller of the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliens",
+        "Leopoliensibus",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "huius Civitatis",
+        "Civitatis istius"
+      ],
+      "justification": "The city of Lviv is referenced in citizen titles and location descriptions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobum Szoloh"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Scabinum",
+        "Civem Leopoliens",
+        "fratrem suum germanum",
+        "tutorem"
+      ],
+      "justification": "Brother and appointed tutor of Barbara Szeczkowna; bench councillor (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0246: Paulus Jelonek",
+      "mention_texts": [
+        "Pauli Zelionek"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "huius Civitatis Consulis",
+        "parentem olim suam"
+      ],
+      "justification": "Deceased former councillor of Lviv, father of Joannes Jelonek."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria secunda in Vigilia Sancti Beati Andreae Apostoli Anno Domini 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous consular act regarding the division of goods among the brothers."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius circulo"
+      ],
+      "justification": "The town square of Lviv where the sold tenement house is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Szonorowska House",
+      "mention_texts": [
+        "Szonorowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas"
+      ],
+      "justification": "Adjacent tenement house on one side."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Gregorowska House",
+      "mention_texts": [
+        "Gregorowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas"
+      ],
+      "justification": "Adjacent tenement house on the other side."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Adamus Faustbach",
+      "mention_texts": [
+        "Adamo Faustbach"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Pannicida",
+        "Coniugibus Civibus Leopoliensibus",
+        "Emptoribus",
+        "praefati Emptores"
+      ],
+      "justification": "Draper and citizen of Lviv, buyer of the house along with his wife."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Hedwigis Szeczkowna",
+      "mention_texts": [
+        "Hedwigi Szeczkowna"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus Civibus Leopoliensibus",
+        "Emptoribus",
+        "praefati Emptores"
+      ],
+      "justification": "Wife of Adamus Faustbach, co-buyer of the house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "1600 Polish florins",
+      "mention_texts": [
+        "florenorum mille Sexcentorum Polonicales et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sale price of the tenement house."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitali Sancti Spiritus"
+      ],
+      "descriptive_mentions": [
+        "intra muros huius Civitatis consistenti"
+      ],
+      "justification": "Hospital within the walls of Lviv owed 400 florins."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "florenos Quadringentos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount owed to the Holy Spirit Hospital."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Cathedral Chapter",
+      "mention_texts": [
+        "Capitulo Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Chapter of the Lviv Cathedral owed 200 florins."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "florenos Ducentos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount owed to the Lviv Chapter."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "Piątkowska Chapel",
+      "mention_texts": [
+        "Capellam Piatechowska",
+        "Zebratha"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Piątkowska chapel (or Zebratha) owed 80 florins."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0221: CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "florenos Octoginta",
+        "florenos octoginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debts of 80 florins owed to Piątkowska Chapel and St. Stanislaus Hospital."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "location",
+      "canonical_name": "Saint Stanislaus Hospital",
+      "mention_texts": [
+        "Hospitale Sancti Stanislai"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hospital of St. Stanislaus owed 80 florins."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Zelionek Pellio et Barbara Szeczkowna legitimi Coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobum Szoloh Scabinum Civem Leopoliens fratrem suum germanum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobum Szoloh ... sibi assumptum et authoritate officij mihi confirmatum tutorem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "inter fratres dotes olim Pauli Zelionek huius Civitatis Consulis tradita Joannis Zelionek venditoris"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Pauli Zelionek huius Civitatis Consulis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Adamo Faustbach Pannicida et Hedwigi Szeczkowna Coniugibus"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Hospitali Sancti Spiritus intra muros huius Civitatis consistenti"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Zelionek Pellio et Barbara Szeczkowna legitimi Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Adamo Faustbach Pannicida et Hedwigi Szeczkowna Coniugibus Civibus Leopoliensibus"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "document_id": "arc2/0254.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Czernig",
+      "mention_texts": [
+        "Franciscus Czernig",
+        "Franciscum Czernig"
+      ],
+      "descriptive_mentions": [
+        "filium",
+        "filio",
+        "cessionarius"
+      ],
+      "justification": "Franciscus Czernig is named as the son and cessionary acquiring rights to the house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Bernardus",
+      "mention_texts": [
+        "Bernardi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Bernardus is mentioned as the father of Franciscus Czernig."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Szberkowiczowa House",
+      "mention_texts": [
+        "Szberkowiczam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as a house or property in which possession is held."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Triacińska House",
+      "mention_texts": [
+        "Triacinsca"
+      ],
+      "descriptive_mentions": [
+        "domus relicta praefata"
+      ],
+      "justification": "Named as the house ('domus relicta praefata Triacinsca vocata')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "2046 florins 19.5 groschen",
+      "mention_texts": [
+        "duorum millium quadraginta sex Florenorum et quisnorum decemnouem a medio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of 2046 florins and 19.5 groschen."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the document ('Civis Cracoviensis')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the document ('Civium Leopolien')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Duxa",
+      "mention_texts": [
+        "Joannis Duxa"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "coniugum"
+      ],
+      "justification": "Late husband of Cristina."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Cristina",
+      "mention_texts": [
+        "Cristina"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Wife of Joannes Duxa."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "2600 florins",
+      "mention_texts": [
+        "duobus millibus et sexcentis Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary evaluation sum of 2600 florins."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "eisdem Actis superius"
+      ],
+      "justification": "Reference to the council records."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "6 August 1565",
+      "mention_texts": [
+        "feria secunda ante festum Sancti Laurentii proxima Anno Domini 1565"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry cited in the acts."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sophia Anna",
+      "mention_texts": [
+        "Sophiam Anna de Ilinli"
+      ],
+      "descriptive_mentions": [
+        "Generosam",
+        "Castellana Sandomirien"
+      ],
+      "justification": "Castellan of Sandomierz named as having made expenditures on the house."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Sandomierz",
+      "mention_texts": [
+        "Sandomirien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locality referenced in the title Castellana Sandomiriensis."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Martinus Walcek",
+      "mention_texts": [
+        "Martinus Walcek"
+      ],
+      "descriptive_mentions": [
+        "Famulures Gnosas"
+      ],
+      "justification": "Person named as having made renovations on the house."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Pstrokorosli",
+      "mention_texts": [
+        "Pstrokorosli"
+      ],
+      "descriptive_mentions": [
+        "Fidelibus Generosis",
+        "condescensior",
+        "transfusor"
+      ],
+      "justification": "Noble who ceded and transferred the rights."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "ipsi Bernardi filio condescensionis, in dictam domum intromissionem ... dictus Franciscus Czernig obtinuisset"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "olim Joannis Duxa et Cristina coniugum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Joannis Duxa et Cristina coniugum"
+    }
+  ]
+}

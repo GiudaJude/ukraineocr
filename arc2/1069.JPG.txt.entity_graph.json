@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/1069.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelazinus",
+      "mention_texts": [
+        "Nicolai Gelazim"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles olim Domini",
+        "Juris Utriusque Doctoris",
+        "Consulis Leopoliensis"
+      ],
+      "justification": "Deceased Doctor of Both Laws and consul of Lviv whose son is appointing a plenipotentiary."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the official titles of the consul, advocate, and court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Jasik",
+      "mention_texts": [
+        "Tomam Jasik",
+        "Toma Jasik",
+        "Tomas Jasik"
+      ],
+      "descriptive_mentions": [
+        "Ciuem ac Scabinum Ciuitatis Magdeburgensis",
+        "verum legitimum mandatatoremque, Plenipotentem et mandatarium Expressum",
+        "Patruo suo",
+        "praefatus",
+        "Eius suus"
+      ],
+      "justification": "Citizen and bencher of Magdeburg appointed as plenipotentiary and paternal uncle of the constituent."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Magdeburg",
+      "mention_texts": [
+        "Ciuitatis Magdeburgensis"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate"
+      ],
+      "justification": "City where Thomas Jasik is a citizen and bencher."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sobil",
+      "mention_texts": [
+        "Jacobum Sobil"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Nobilem"
+      ],
+      "justification": "Noble party in the legal action."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Casparem Gulinski"
+      ],
+      "descriptive_mentions": [
+        "Consulem",
+        "Proveloquutorem"
+      ],
+      "justification": "Consul of Lviv mentioned in the legal proceedings."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sua Regia Maiestate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland who appointed curators."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Buchminski",
+      "mention_texts": [
+        "Nicolai Buchminski",
+        "Nicolaum"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Famatum",
+        "generum suum"
+      ],
+      "justification": "Son-in-law and tutor acting on behalf of Catherina."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Famati olim Stanislai Dlugosz Coniunx vidua relicta"
+      ],
+      "justification": "Widow of Stanislaus Długosz appearing personally to grant power of attorney."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislai Dlugosz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased husband of Catherina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "holds title in",
+      "tail_entity_id": "E2",
+      "evidence": "olim Domini Nicolai Gelazim Juris Utriusque Doctoris Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen of",
+      "tail_entity_id": "E4",
+      "evidence": "Tomam Jasik Ciuem ac Scabinum Ciuitatis Magdeburgensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "holds title in",
+      "tail_entity_id": "E2",
+      "evidence": "Casparem Gulinski Consulem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesta Catherina Famati olim Stanislai Dlugosz Coniunx vidua relicta"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "son-in-law of",
+      "tail_entity_id": "E9",
+      "evidence": "tutorem Famatum Nicolaum de Licze Factorem generum suum"
+    }
+  ]
+}

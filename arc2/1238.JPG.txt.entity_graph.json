@@ -1,0 +1,239 @@
+{
+  "document_id": "arc2/1238.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius"
+      ],
+      "justification": "City referred to in actum clauses, jurisdiction titles, and town wall references."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Sigillum nostrum",
+        "nos"
+      ],
+      "justification": "The municipal consular office issuing the decree and water conduit grant."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobum Sedzicz",
+        "Jacobus Scholcz"
+      ],
+      "descriptive_mentions": [
+        "Scabinum",
+        "Tutorem et patruum Successorum Spectabilis olim Stanislai Szolc Consulis Leopoliensis",
+        "citatum",
+        "idem",
+        "Honoratus",
+        "Honoratum"
+      ],
+      "justification": "Lviv bench alderman (scabinus) acting as tutor and uncle to the successors of Stanislaus Scholz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Scholz",
+      "mention_texts": [
+        "Szbolc",
+        "Stanislai Szolc",
+        "Stanislai Szolcz"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis",
+        "olim",
+        "Consulis Leopoliensis"
+      ],
+      "justification": "Deceased former consul of Lviv whose estate and land income are in dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krasowiecki",
+      "mention_texts": [
+        "Joannem Krazoweczki"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Actores"
+      ],
+      "justification": "Plaintiff representing the nobles in the decree regarding missal grain/proceeds."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "florenos quingentos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount mentioned in the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sasyn",
+      "mention_texts": [
+        "Andreas Sasyn"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "eorundem Stanislai Szolcz gener"
+      ],
+      "justification": "Son-in-law of Stanislaus Scholz who paid the sum in the previous year."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno Domini 1596",
+        "feria secunda in vigilia Visitationis Mariae Virginis Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "anno praesenti"
+      ],
+      "justification": "Year and date formula of the second recorded entry."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Potocki",
+      "mention_texts": [
+        "Stanislai Potocki"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Palatini Terrarum Russiae"
+      ],
+      "justification": "Palatine of the Ruthenian Lands intervening for the Franciscan friars."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Podhajce",
+      "mention_texts": [
+        "Podhayce"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Estate/locality of origin of Stanislaus Potocki."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Terrarum Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ruthenian lands (Palatinate of Ruthenia)."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Rozwadowski",
+      "mention_texts": [
+        "Sigismundi de Rozadowski"
+      ],
+      "descriptive_mentions": [
+        "Vicecapitanei Leopoliensis"
+      ],
+      "justification": "Vice-starosta (Vicecapitaneus) of Lviv intervening for the friars."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Franciscanis",
+        "Ordinis Sancti Francisci"
+      ],
+      "descriptive_mentions": [
+        "Religiosis Fratribus"
+      ],
+      "justification": "Franciscan friars granted an aqueduct conduit."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0082: LOC-0022: Church of the Holy Cross",
+      "mention_texts": [
+        "Ecclesiam Sanctae Crucis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Church of the Holy Cross around which the Franciscan monastery is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "tanquam Tutorem et patruum Successorum Spectabilis olim Stanislai Szolc"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "held_role_at",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislai Szolc Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Sasyn eorundem Stanislai Szolcz gener"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "associated_with",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislai Potocki de Podhayce"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "held_role_at",
+      "tail_entity_id": "E11",
+      "evidence": "Palatini Terrarum Russiae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "held_role_at",
+      "tail_entity_id": "E1",
+      "evidence": "Vicecapitanei Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_at",
+      "tail_entity_id": "E14",
+      "evidence": "Religiosis Fratribus Ordinis Sancti Francisci in Caenobio circa Ecclesiam Sanctae Crucis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Ecclesiam Sanctae Crucis intra moenia Ciuitatis huius sitam"
+    }
+  ]
+}

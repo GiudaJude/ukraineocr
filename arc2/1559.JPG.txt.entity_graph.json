@@ -1,0 +1,232 @@
+{
+  "document_id": "arc2/1559.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum"
+      ],
+      "justification": "The municipal council office confirming the legal acts and receiving testimonies."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliiense",
+        "Leopolienses",
+        "Leopoliensium",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in the text in adjectival forms."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kamondo Jedrass Theoseres",
+      "mention_texts": [
+        "Jacobus Kamondo Jedrass Theoseres"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "tamquam Lembergens Infidelis Mosei Karmare Jedory Potinoviensis"
+      ],
+      "justification": "Person appearing before the council to acknowledge receipt of satisfaction and issue an acquittal."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Moses Karmare Jedory",
+      "mention_texts": [
+        "Mosei Karmare Jedory"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Potinoviensis"
+      ],
+      "justification": "Person represented by Jacobus Kamondo."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Elias Andrejewicz",
+      "mention_texts": [
+        "Eliam Andreiovicz",
+        "Elias Andreieovicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenorum tutorem",
+        "Famati",
+        "Armeni Leopolienses"
+      ],
+      "justification": "Armenian guardian appointed for Jacobus Kamondo, also giving testimony."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Elias Augustynowicz",
+      "mention_texts": [
+        "Eliahiey Augustynowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenus",
+        "Cive Leopoliiense",
+        "eodem praedicto",
+        "principalem debitorem"
+      ],
+      "justification": "Principal debtor acquitted upon satisfaction of the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Iwashkowicz",
+        "Pany Iwaszkowicow",
+        "Georgii",
+        "Iwashkowiczow",
+        "Iwashkowicze"
+      ],
+      "descriptive_mentions": [
+        "fideiussores",
+        "Famatorum",
+        "Armenorum Civium Leopoliensium",
+        "praedictos"
+      ],
+      "justification": "Known entity in corpus covering the Iwaszkowicz / Georgius Iwaszkowicz family acting as guarantors and summoning witnesses."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Armenorum Civium Leopoliensium"
+      ],
+      "justification": "Barbara Iwaszkowicz, party requesting testimony along with Georgius."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Szlubowicz",
+      "mention_texts": [
+        "Christophorus Szlubowic",
+        "Christophorus Szlubowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armeni Leopolienses",
+        "praedictus"
+      ],
+      "justification": "Armenian witness testifying before the court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Mathias",
+      "mention_texts": [
+        "Mathias"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armeni Leopolienses"
+      ],
+      "justification": "Armenian resident of Lviv appearing as a witness."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Kaszusz Zahout",
+      "mention_texts": [
+        "Kaszusz Zahout",
+        "Kaszusz"
+      ],
+      "descriptive_mentions": [
+        "Civi Leopoliensi",
+        "praedicti Famati"
+      ],
+      "justification": "Lviv citizen involved in financial matters in Turkey, present during testimonies."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Turkey",
+      "mention_texts": [
+        "Turciam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Destination of money sent in factorio nomine."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Famatum Eliam Andreiovicz Armenorum tutorem sibi ad eum actum assumptum et per Officium nostrum confirmatum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "tamquam Lembergens Infidelis Mosei Karmare Jedory Potinoviensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Eliahiey Augustynowicz Armenus Cive Leopoliiense"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E6",
+      "evidence": "tam eundem Eliahiey Augustynowicz principalem debitorem quam etiam praedictos Iwashkowicz fideiussores quietavit"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Georgii et Barbarae Iwashkowiczow Armenorum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Georgii et Barbarae Iwashkowiczow Armenorum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Christophorus Szlubowic, Mathias, atque Elias Andreieovicz Armeni Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Christophorus Szlubowic, Mathias, atque Elias Andreieovicz Armeni Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Christophorus Szlubowic, Mathias, atque Elias Andreieovicz Armeni Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Kaszusz Zahout nomine factorio morem Civi Leopoliensi"
+    }
+  ]
+}

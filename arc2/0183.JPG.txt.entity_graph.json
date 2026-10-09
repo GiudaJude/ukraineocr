@@ -1,0 +1,175 @@
+{
+  "document_id": "arc2/0183.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Primary city where the legal acts and suburban residency are recorded."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "Thursday after Conductus Paschae 1595",
+      "mention_texts": [
+        "feria quinta post Dominicam Conductus Paschae proxima Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the first recorded session heading."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "Saturday after Conductus Paschae 1595",
+      "mention_texts": [
+        "Sabbato post Dominicam Conductus Paschae proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the contract/entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "1595"
+      ],
+      "descriptive_mentions": [
+        "Anno Domini"
+      ],
+      "justification": "Year recorded in the date clause."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wank",
+      "mention_texts": [
+        "Albertus Wank"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Textor",
+        "coniuges Suburbani Leopolienses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Seller of the property portion, husband of Zophia Szomniczanka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Zofia Szomniczanka",
+      "mention_texts": [
+        "Zophia Szomniczanka"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses"
+      ],
+      "justification": "Co-seller and wife of Albertus Wank."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Słomczyński Sort",
+      "mention_texts": [
+        "Slomczynski"
+      ],
+      "descriptive_mentions": [
+        "particulam sorti sui proprii et haereditarii",
+        "particulam sorti praefatam"
+      ],
+      "justification": "Inherited sort/plot of land in the Kraków Suburb sold in the transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the property is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mathias Niebaba",
+      "mention_texts": [
+        "Matias Niebaba",
+        "Mathiae Niebaba"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Sartori",
+        "coniugibus affinibus suis",
+        "emptoribus"
+      ],
+      "justification": "Buyer of the property portion, tailor and husband of Agnes Szomniczanka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Agnes Szomniczanka",
+      "mention_texts": [
+        "Agneti Szomniczanka"
+      ],
+      "descriptive_mentions": [
+        "coniugibus affinibus suis",
+        "emptoribus"
+      ],
+      "justification": "Co-buyer and wife of Mathias Niebaba."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "20 Polish florins",
+      "mention_texts": [
+        "viginta Florenos Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price for the plot of land."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Expo-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicio Exposito Bannito mentioned in connection with appointing the Senior of the Bench as procurator."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Albertus Wank Textor et Zophia Szomniczanka coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Mathiae Niebaba Sartori et Agneti Szomniczanka coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "sorti sui proprii et haereditarii Slomczynski vocati in eiusdem Civitatis Suburbio Cracoviensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in eiusdem Civitatis Suburbio Cracoviensi"
+    }
+  ]
+}

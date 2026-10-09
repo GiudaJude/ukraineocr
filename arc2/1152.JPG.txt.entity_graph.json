@@ -1,0 +1,132 @@
+{
+  "document_id": "arc2/1152.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "D. Consules Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "officio nostro",
+        "Consuli officio",
+        "sigillum nostrum"
+      ],
+      "justification": "The document is addressed to and issued under the seal and authority of the Lviv City Council (Consules Leopolienses)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitati",
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "The city of Lviv is referenced in multiple municipal and territorial descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowic",
+      "mention_texts": [
+        "Andreas Madrowic",
+        "Madrawi"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Notarius",
+        "Scabini Jurati Civitatis Leopoliensis",
+        "praedictos fideiussores"
+      ],
+      "justification": "Andreas Madrowic, notary and sworn bench official (scabinus juratus), appears as one of the guarantors."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Salomon Smieszek",
+      "mention_texts": [
+        "Salomon Śmietzek",
+        "Śmietzek"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati Civitatis Leopoliensis",
+        "praedictos fideiussores"
+      ],
+      "justification": "Salomon Śmietzek (Smieszek), sworn bench official of Lviv, appears as co-guarantor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetha Śmietzkowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta",
+        "vidua relicta",
+        "ipsa",
+        "domina et possessor advitalitia bonorum mariti olim mariti sui relictorum"
+      ],
+      "justification": "Agnetha Śmietzkowa is the widow of the late consul Franciscus Genige (Wenig/Wengr), for whom the caution is provided."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0009: Franciscus Wengr",
+      "mention_texts": [
+        "Francisci Genige"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Consulis Leopoliensis",
+        "mariti",
+        "olim mariti sui"
+      ],
+      "justification": "The late Franciscus Genige (Franciscus Wengr/Wenig), former consul of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "4000 groschen",
+      "mention_texts": [
+        "quatuor millium grossorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary amount involved in the calculation error of city revenue."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Agnetha Śmietzkowa relicta olim Francisci Genige Consulis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Francisci Genige Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E5",
+      "evidence": "Honorati Andreas Madrowic Notarius et Salomon Śmietzek Scabini Jurati Civitatis Leopoliensis palam, publice benevoleque recognoverunt caverunt et fideiusserunt officio nostro adque adeo toti Civitati in omnibus bonis suis habere et haberi pro Honesta Agnetha Śmietzkowa"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E5",
+      "evidence": "Honorati Andreas Madrowic Notarius et Salomon Śmietzek Scabini Jurati Civitatis Leopoliensis palam, publice benevoleque recognoverunt caverunt et fideiusserunt officio nostro adque adeo toti Civitati in omnibus bonis suis habere et haberi pro Honesta Agnetha Śmietzkowa"
+    }
+  ]
+}

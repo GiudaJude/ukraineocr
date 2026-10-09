@@ -1,0 +1,216 @@
+{
+  "document_id": "arc2/0114.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officium",
+        "Officio",
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office rendering decrees and granting legal representatives."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in the consular jurisdiction and citizen/suburban descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Georgius Stefanowicz",
+      "mention_texts": [
+        "Georgium Stefanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenium",
+        "Civem Leopoliensem",
+        "actorem"
+      ],
+      "justification": "Armenian citizen of Lviv acting as plaintiff in a council court case."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Barbara Trogniewowa",
+      "mention_texts": [
+        "Barbaram Trogniewowa",
+        "Trogniewowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "citatam",
+        "citata",
+        "citatae"
+      ],
+      "justification": "Honesta cited party in the council court case without a guardian."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem et Procuratorem"
+      ],
+      "justification": "Appointed guardian and procurator for Barbara Trogniewowa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Glazys",
+      "mention_texts": [
+        "Albertus Glazys"
+      ],
+      "descriptive_mentions": [
+        "oppignoratorio suo"
+      ],
+      "justification": "Creditor/pledgee receiving property in pledge."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Daniel Lowek",
+      "mention_texts": [
+        "Daniel Lowek"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Lanius"
+      ],
+      "justification": "Butcher pledging property for 150 florins."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Luikowska House",
+      "mention_texts": [
+        "Luikowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Masonry house in which part of the property is pledged."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Capnez",
+      "mention_texts": [
+        "Andreae Capnez"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning a neighboring masonry house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Wilhelmus Allant",
+      "mention_texts": [
+        "Wilhelmi Allant"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning a neighboring masonry house on the other side."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "florenis centum quinquaginta"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Amount of money for which the property is pledged."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Simon Zyszka",
+      "mention_texts": [
+        "Simone Zyszka"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Suburbanum Leopoliensem",
+        "actorem"
+      ],
+      "justification": "Lviv suburban resident acting as plaintiff in a court decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Helisabeth Krzetkowna",
+      "mention_texts": [
+        "Helisabet Krzetkowna",
+        "Helisabetham"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "secundo voter nuptiarum coniugem"
+      ],
+      "justification": "Party in the court decree and wife of Jacobus Krzetkowicz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Krzetkowicz",
+      "mention_texts": [
+        "Jacobi Krzetkoyici"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "mariti",
+        "tutoris"
+      ],
+      "justification": "Husband and guardian assisting Helisabeth Krzetkowna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Georgium Stefanowicz Armenium Civem Leopoliensem actorem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "addidit eidem citatae Trogniewowa Elem tutorem et Procuratorem Famatum Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Simone Zyszka Suburbanum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Helisabetham Honesti Jacobi Krzetkoyici secundo voter nuptiarum coniugem una cum assistentia eiusdem mariti"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Helisabetham Honesti Jacobi Krzetkoyici secundo voter nuptiarum coniugem una cum assistentia eiusdem mariti"
+    }
+  ]
+}

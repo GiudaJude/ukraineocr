@@ -1,0 +1,198 @@
+{
+  "document_id": "arc2/0583.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Rzeszowski",
+      "mention_texts": [
+        "Christophorus Rzeszowski"
+      ],
+      "descriptive_mentions": [
+        "idem"
+      ],
+      "justification": "Named in the text resolving curatorial accounts with Albertus Lepolowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Lepolowicz",
+      "mention_texts": [
+        "Alberto Lepolowicz"
+      ],
+      "descriptive_mentions": [
+        "eodem"
+      ],
+      "justification": "Named as the person providing the release from curatorial duty."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "Decreto Officij Consularis Leopoliensis"
+      ],
+      "justification": "The municipal council issuing decrees and referenced as council colleagues."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislao Doctore",
+        "Stanislaum Didowicium"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Famatum et Excellentem Domino",
+        "Medicinae Doctorem",
+        "Consulem Leopoliensem",
+        "actorem",
+        "praedictus colis tutor",
+        "Actor"
+      ],
+      "justification": "Identified as Dr. Stanislaus Didowicius (Doctor), councilor and plaintiff in a boundary wall dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Stanaszkowa",
+      "mention_texts": [
+        "Annam Stanaszkowa"
+      ],
+      "descriptive_mentions": [
+        "Sutoritorem suburbanam Leopoliensem",
+        "citatam",
+        "vicinos",
+        "idem citatus"
+      ],
+      "justification": "Named as the suburban neighbor summoned regarding the repair of the dividing wall."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Urban and territorial designation for Lviv occurring in council and suburban titles."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Augustinus Kiestlarz",
+      "mention_texts": [
+        "Augustinus Kiestlarz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Named appearing personally as a suburbanite in service to Dr. Paulus Novicampianus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Endreas Drzizdosowicz",
+      "mention_texts": [
+        "Endreas Drzizdosowicz"
+      ],
+      "descriptive_mentions": [
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Named appearing in service to Dr. Paulus Novicampianus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Catherina Zlatkowiczkowna",
+      "mention_texts": [
+        "Catherina",
+        "Zlatkowiczkowna"
+      ],
+      "descriptive_mentions": [
+        "Suburbani Leopolienses",
+        "praedicta vero faemina"
+      ],
+      "justification": "Suburban woman in service to Dr. Paulus Novicampianus represented by Jacobus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Nouicampiani"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis et Excellentis Domini",
+        "Medicinae Doctoris",
+        "Collegae nostri Consularis"
+      ],
+      "justification": "City councilor and doctor of medicine whose servants make an entry in the court."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobum"
+      ],
+      "descriptive_mentions": [
+        "Honestum"
+      ],
+      "justification": "Named as representing Catherina Zlatkowiczkowna in the proceedings."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Domino Stanislaum Didowicium Medicinae Doctorem Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Domini Pauli Nouicampiani Medicinae Doctoris Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "litigates_against",
+      "tail_entity_id": "E5",
+      "evidence": "inter Famatum et Excellentem Domino Stanislaum Didowicium Medicinae Doctorem Consulem Leopoliensem actorem et Annam Stanaszkowa Sutoritorem suburbanam Leopoliensem citatam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "servant_of",
+      "tail_entity_id": "E10",
+      "evidence": "Augustinus Kiestlarz Endreas Drzizdosowicz et Catherina dicta Zlatkowiczkowna Suburbani Leopolienses servitutis Spectabilis et Excellentis Domini Pauli Nouicampiani"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "servant_of",
+      "tail_entity_id": "E10",
+      "evidence": "Augustinus Kiestlarz Endreas Drzizdosowicz et Catherina dicta Zlatkowiczkowna Suburbani Leopolienses servitutis Spectabilis et Excellentis Domini Pauli Nouicampiani"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "servant_of",
+      "tail_entity_id": "E10",
+      "evidence": "Augustinus Kiestlarz Endreas Drzizdosowicz et Catherina dicta Zlatkowiczkowna Suburbani Leopolienses servitutis Spectabilis et Excellentis Domini Pauli Nouicampiani"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "representative_of",
+      "tail_entity_id": "E9",
+      "evidence": "praedicta vero faemina per Honestum Jacobum"
+    }
+  ]
+}

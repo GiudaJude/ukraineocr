@@ -1,0 +1,44 @@
+{
+  "document_id": "arc2/1228.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "eodem officio",
+        "actis"
+      ],
+      "justification": "The document references the registration of the act coram eodem officio et actis, denoting the Lviv municipal council."
+    },
+    {
+      "entity_id": "PER-0527",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparo Tembarski",
+        "Casper Tembarski"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "suo"
+      ],
+      "justification": "Caspar Tembarski (Cembarski), also known in corpus as Caspar Balcerowicz, acting before the office."
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Agneta Swirczabska",
+      "mention_texts": [
+        "Agneta Swirczabskiey"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "olim"
+      ],
+      "justification": "Deceased noblewoman whose contracts or deposit are discussed in the act."
+    }
+  ],
+  "relationships": []
+}

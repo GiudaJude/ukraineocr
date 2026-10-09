@@ -1,0 +1,176 @@
+{
+  "document_id": "arc2/0551.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Zlotoust",
+      "mention_texts": [
+        "Simon Zlotoust"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Pannifex Civis Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Identified as a cloth weaver and citizen of Lviv in the first quietatio entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard urban location mentioned in the citizenship designations and suburban designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Kulszankowska House",
+      "mention_texts": [
+        "Kulszankowska",
+        "Lapidea Kulszankowska",
+        "Camino Kulszankowska",
+        "demum Kulszankowska"
+      ],
+      "descriptive_mentions": [
+        "domo Lapidea",
+        "Lapidea"
+      ],
+      "justification": "Tenement house bordering the property and wall of Simon Zlotoust."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Kazimierzowska Street",
+      "mention_texts": [
+        "platea Casimiriensi"
+      ],
+      "descriptive_mentions": [
+        "plateam ipsam"
+      ],
+      "justification": "Street where the house and wall are situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Ingans",
+      "mention_texts": [
+        "Paulo Ingans"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Aurifabro Cive Leopoliensi",
+        "haerede certae partis in eadem Lapidea Kulszankowska",
+        "eundem"
+      ],
+      "justification": "Goldsmith and Lviv citizen holding rights in the Kulszankowska tenement."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Snopek",
+      "mention_texts": [
+        "Stanislaus Snopek"
+      ],
+      "descriptive_mentions": [
+        "Sartor Suburbanus Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Tailor from the Lviv suburb participating in the second quietatio."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Catherina Szalmanka",
+      "mention_texts": [
+        "Czaczna Szalmanka",
+        "Catherinam Szalmanka",
+        "Catherina Szalmanka"
+      ],
+      "descriptive_mentions": [
+        "Istam",
+        "eadem praefata",
+        "eandem"
+      ],
+      "justification": "Person settling a debt with Stanislaus Snopek."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Szalmanka",
+      "mention_texts": [
+        "Valentini",
+        "Szalmanka"
+      ],
+      "descriptive_mentions": [
+        "fily"
+      ],
+      "justification": "Son of Catherina Szalmanka mentioned in connection with a suburban plot."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Prokopowicz",
+      "mention_texts": [
+        "Prokopowicz"
+      ],
+      "descriptive_mentions": [
+        "filiorum"
+      ],
+      "justification": "Father whose sons and estate are placed under guardianship in the third entry."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Sobocolski",
+      "mention_texts": [
+        "Gregorius Sobocolski"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Honorati D.",
+        "Phil: Vtriusque Doctor"
+      ],
+      "justification": "Doctor appearing in the guardianship entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati D."
+      ],
+      "justification": "Corpus individual appearing in the official registration of guardianship."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Adam Ko-",
+      "mention_texts": [
+        "Adam Ko-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual appearing as guardian alongside Gregorius Sobocolski and Andreas Simonowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "Valentini eiusdem Szalmanka fily"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "a domo Lapidea Kulszankowska erga viam in platea Casimiriensi"
+    }
+  ]
+}

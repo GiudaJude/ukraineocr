@@ -1,0 +1,112 @@
+{
+  "document_id": "arc2/1322.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the resignation of rights is to be performed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius",
+        "hac Civitate"
+      ],
+      "justification": "City of Lviv referenced in the citizenship of Waidelt and local jurisdiction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Waidelt",
+      "mention_texts": [
+        "Hieronymus Waidelt"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellifex",
+        "Civis Leopoliensis",
+        "memorati Adami Abermanowic in rem praesentem constitutus Tutor",
+        "Tutor",
+        "ille"
+      ],
+      "justification": "Furrier and citizen of Lviv acting as guardian for Adam Abermanowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Adamus Abermanowicz",
+      "mention_texts": [
+        "Adami Abermanowic",
+        "Adami"
+      ],
+      "descriptive_mentions": [
+        "principalis",
+        "ipsius"
+      ],
+      "justification": "Principal buyer who is absent from the city, represented by his guardian and wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Osznarowna",
+      "mention_texts": [
+        "Dorotea Osznarowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "ipsius Adami consors legitima",
+        "haec"
+      ],
+      "justification": "Legitimate wife of Adam Abermanowicz appearing in the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ruszbecki",
+      "mention_texts": [
+        "Hanusz Ioannem Ruszbecki"
+      ],
+      "descriptive_mentions": [
+        "Juratum Causarum Iuris Magdeburgensis Terendaniensem",
+        "sibi assumptum Tutorem"
+      ],
+      "justification": "Assumed guardian assisting Dorothea Osznarowna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Hieronymus Waidelt Pellifex Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "Hieronymus Waidelt Pellifex Civis Leopoliensis memorati Adami Abermanowic in rem praesentem constitutus Tutor"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Dorotea Osznarowna ipsius Adami consors legitima"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "haec vero per Hanusz Ioannem Ruszbecki Juratum Causarum Iuris Magdeburgensis Terendaniensem sibi assumptum Tutorem"
+    }
+  ]
+}

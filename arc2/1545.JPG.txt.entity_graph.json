@@ -1,0 +1,141 @@
+{
+  "document_id": "arc2/1545.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0352: Adamus Abermanowicz",
+      "mention_texts": [
+        "Adamus Oberman",
+        "Adamum Oberman"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "auriga",
+        "Civis Leopoliensis",
+        "coniuges",
+        "vir",
+        "mariti sui",
+        "coniuges recognoscentes"
+      ],
+      "justification": "Debtor appearing personally, identified as a coachman and citizen of Lviv, acting on behalf of himself and his wife."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea Olynowska"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "incola Leopoliensis",
+        "uxor",
+        "coniuges recognoscentes"
+      ],
+      "justification": "Wife of Adam Oberman and inhabitant of Lviv, co-recognizing the debt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Zlotawic",
+      "mention_texts": [
+        "Albertus Zlotawic",
+        "Alberto Zlotawic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "sartori",
+        "Civi Leopoliensi",
+        "Creditori suo",
+        "Creditori",
+        "Creditor",
+        "idem Creditor",
+        "Creditorem suum"
+      ],
+      "justification": "Creditor and tailor, citizen of Lviv, to whom the debt is owed and the meat stall share assigned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in citizenship and court titles."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as the currency unit denomination."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii huius",
+        "Officii"
+      ],
+      "justification": "The council/office approving the act and issuing the decree mentioned."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Officium Iuris Civilis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Civil Law court of Lviv responsible for intromission and reallocation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "164 Polish florins",
+      "mention_texts": [
+        "florenos centum sexaginta quatuor pecunia et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The principal monetary sum acknowledged in the debt recognition."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "124 florins",
+      "mention_texts": [
+        "centum viginti quatuor florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary sum stated for the satisfaction of the creditor."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Adamus Oberman auriga Civis Leopoliensis per se se ipsum et Dorothea Olynowska coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Se debere et teneri veri veri liquidique debiti ... florenos centum sexaginta quatuor pecunia et numeri Polonicalis Famato Alberto Zlotawic sartori Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Se debere et teneri veri veri liquidique debiti ... florenos centum sexaginta quatuor pecunia et numeri Polonicalis Famato Alberto Zlotawic sartori Civi Leopoliensi"
+    }
+  ]
+}

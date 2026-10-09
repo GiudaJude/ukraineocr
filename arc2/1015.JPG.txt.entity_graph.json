@@ -1,0 +1,187 @@
+{
+  "document_id": "arc2/1015.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitenses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City where the legal acts were performed and whose suburbs are referenced."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis suburbio Haliciensi dicto"
+      ],
+      "justification": "Suburb of Lviv where the real estate properties are situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij nostri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council whose decree ordered the retraction of the plot."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sosnicio",
+      "mention_texts": [
+        "Jacobo Sosnicio",
+        "Jacobo"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "Authentico Baccallaureo",
+        "Creditori suo",
+        "eidem"
+      ],
+      "justification": "Creditor receiving reformed debt and possession of the property share."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Bedellus",
+      "mention_texts": [
+        "Jacobi Bedelli"
+      ],
+      "descriptive_mentions": [
+        "patris sui"
+      ],
+      "justification": "Father of the debtor, owner of the house in the Halych suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "20 Polish groschen",
+      "mention_texts": [
+        "grossos viginti pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money mentioned in the debt entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "77 Polish florins",
+      "mention_texts": [
+        "florenos septuaginta septem Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total combined amount of the debt reformed and secured."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Wysznia",
+      "mention_texts": [
+        "Christopherus Wosnia",
+        "Christopherus Wysznia"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sutor",
+        "suburbani",
+        "maritum tutorem suum legitimum",
+        "ille"
+      ],
+      "justification": "Shoemaker and suburban resident selling a parcel of land."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "suburbani",
+        "haec"
+      ],
+      "justification": "Wife of Christopherus Wysznia co-selling the parcel of land."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szklarz",
+      "mention_texts": [
+        "Toma Szklars"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landowner in the Halych suburb."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Martinus Ferrifaber",
+      "mention_texts": [
+        "Martinus Ferrifaber",
+        "Martinum Ferrifabrum",
+        "Martino Ferrifabro"
+      ],
+      "descriptive_mentions": [
+        "dicti Stanislai Czechakowicz affini",
+        "eiusque legitimis Successoribus",
+        "eodem",
+        "eundem"
+      ],
+      "justification": "Blacksmith purchasing the parcel of land in the Halych suburb."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislao Czechakowiczi",
+        "Stanislai Czechakowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "dicti"
+      ],
+      "justification": "Previous owner of the parcel and affine of Martinus Ferrifaber."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Christopherus Wysznia Sutor et Catharina Coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Christopherus Wysznia Sutor et Catharina Coniuges"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "in_law_of",
+      "tail_entity_id": "E12",
+      "evidence": "Martino Ferrifabro dicti Stanislai Czechakowicz affini"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in eiusdem Civitatis suburbio Haliciensi dicto"
+    }
+  ]
+}

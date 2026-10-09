@@ -1,0 +1,144 @@
+{
+  "document_id": "arc2/1543.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sombenygener Sosbrowsky",
+      "mention_texts": [
+        "Stanislaus Sombenygener Sosbrowsky"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "affines",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Party appearing before the court to acknowledge receipt of money."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Czeczor",
+      "mention_texts": [
+        "Valentinus Czeczor"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "affines",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Party appearing alongside Stanislaus, identified as his affine."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Żelechów",
+      "mention_texts": [
+        "Zelechow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin place of Valentinus Czeczor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Suburbani",
+        "Suburbio"
+      ],
+      "justification": "City whose suburb is mentioned and where the act was recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "83 Polish florins",
+      "mention_texts": [
+        "octoginta trium florenorum Polonicalium",
+        "octaginta trium florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money received and secured."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjectival reference to Polish currency."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Molitor",
+      "mention_texts": [
+        "Matris Molitoris"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Molitoris"
+      ],
+      "justification": "Deceased miller whose children are beneficiaries of the transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Zadnepole",
+      "mention_texts": [
+        "Zadnenapole"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location associated with the late Mathias the miller."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jaczko Kazykowicz",
+      "mention_texts": [
+        "Kazykowic",
+        "Jaczko Kazykówicz"
+      ],
+      "descriptive_mentions": [
+        "Testoris",
+        "eorundem bonorum emptoris",
+        "Praefatus",
+        "Emptor"
+      ],
+      "justification": "Weaver and purchaser of the property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-3131: PER-0320: PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simone Kimost"
+      ],
+      "descriptive_mentions": [
+        "Tutor constitutis"
+      ],
+      "justification": "Appointed guardian of the wards/orphans."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "kin_of",
+      "tail_entity_id": "E2",
+      "evidence": "affines"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "kin_of",
+      "tail_entity_id": "E1",
+      "evidence": "affines"
+    }
+  ]
+}

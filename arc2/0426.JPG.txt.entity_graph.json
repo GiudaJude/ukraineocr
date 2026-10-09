@@ -1,0 +1,106 @@
+{
+  "document_id": "arc2/0426.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Toros Samborowicz",
+      "mention_texts": [
+        "Torosio Samborowicz",
+        "Torosij Samborowicz",
+        "Torosium Samborowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "cessionario",
+        "praedicto",
+        "eundem",
+        "cessionarij",
+        "praefatum"
+      ],
+      "justification": "The assignee of rights over the stone house and associated debts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referenced in Toros Samborowicz's civic status ('Civi Leopoliensi')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "2000 Polish florins",
+      "mention_texts": [
+        "duorum millium Florenorum per meam et numeri Polonicalis",
+        "duorum millium Florenorum"
+      ],
+      "descriptive_mentions": [
+        "tota summa",
+        "summaque"
+      ],
+      "justification": "The total monetary amount of the debt ceded to Toros Samborowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria quarta post Festa solennia Pentecostes proxima Anno Domini 1593",
+        "Anno Domini 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier registered relation entry cited in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Łukaszowicz",
+      "mention_texts": [
+        "Andream",
+        "Lukaszowicze"
+      ],
+      "descriptive_mentions": [
+        "debitores",
+        "praedictos debitores"
+      ],
+      "justification": "One of the original debtors whose obligations were ceded."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łukaszowicz",
+      "mention_texts": [
+        "Joannem",
+        "Lukaszowicze"
+      ],
+      "descriptive_mentions": [
+        "debitores",
+        "praedictos debitores"
+      ],
+      "justification": "One of the original debtors whose obligations were ceded."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szotek",
+      "mention_texts": [
+        "Andreae Szotek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Subject of the procuration/power of attorney rubricated at the end."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Torosio Samborowicz Armeno Civi Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/1556.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lucas Todroszowic",
+      "mention_texts": [
+        "Lucas Todrosnic"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "Contradicting party concerning the third wooden house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Zadzicowic",
+      "mention_texts": [
+        "Jacobum Zadzicowic"
+      ],
+      "descriptive_mentions": [
+        "praedictum"
+      ],
+      "justification": "Party whose interest in the house was disputed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Josephus Gnojosowski",
+      "mention_texts": [
+        "Josephus Gnoyossowski"
+      ],
+      "descriptive_mentions": [
+        "memoratus"
+      ],
+      "justification": "Petitioner who requested insertion of the report into the records."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Severinus Zawridzianowic",
+      "mention_texts": [
+        "Severini Zawridzianowic",
+        "Sester Zawridzianowic",
+        "Sester"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Armenus advena Leopoliensis",
+        "peregrinum et advenam in hoc Regnum cum mercibus advenientem",
+        "eodem"
+      ],
+      "justification": "Armenian newcomer in Lviv lodging a formal protestation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Toran Czerik",
+      "mention_texts": [
+        "Torran Caerik"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem suum",
+        "Honestum",
+        "Ferendarium Juratum"
+      ],
+      "justification": "Prolocutor representing Severinus Zawridzianowic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "David Serebkowicz",
+      "mention_texts": [
+        "David Serebkowicz",
+        "Davide"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenum Civem Leopoliensem",
+        "eodem",
+        "eundem"
+      ],
+      "justification": "Armenian citizen of Lviv against whom the protestation is directed."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regnum",
+        "hoc Regnum"
+      ],
+      "justification": "Kingdom entered by the merchant."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the Capitaneal Office cited in the text."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacram Regiam Maiestatem"
+      ],
+      "justification": "Royal majesty to whom appeal was made."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Bogdan Donowatowicz",
+      "mention_texts": [
+        "Bogdan Donowatowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armeni Cives Leopolienses",
+        "Fideiussores pro eodem Sester"
+      ],
+      "justification": "Armenian citizen of Lviv acting as surety."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Torobest",
+      "mention_texts": [
+        "Torobest"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armeni Cives Leopolienses",
+        "Fideiussores pro eodem Sester"
+      ],
+      "justification": "Armenian citizen of Lviv acting as surety."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of residence and venue of the disputes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "is_agent_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Prolocutorem suum Honestum Torran Caerik"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "protests_against",
+      "tail_entity_id": "E6",
+      "evidence": "est protestatus contra Famatum David Serebkowicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_surety_for",
+      "tail_entity_id": "E4",
+      "evidence": "tanquam Fideiussores pro eodem Sester"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "is_surety_for",
+      "tail_entity_id": "E4",
+      "evidence": "tanquam Fideiussores pro eodem Sester"
+    }
+  ]
+}

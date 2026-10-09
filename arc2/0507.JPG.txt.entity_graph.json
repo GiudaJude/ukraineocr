@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/0507.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andream Sladowic",
+        "Maydrowicz",
+        "Andream Maydrowicz"
+      ],
+      "descriptive_mentions": [
+        "Actus Iudicij",
+        "Notarius et Scabinus Ciuitatis Leopoliensis",
+        "Famatum",
+        "Scabinum et Notarium Leopoliensem"
+      ],
+      "justification": "Identified by name and role as court scribe and bencher of Lviv submitting royal letters to the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Maydrowicz",
+      "mention_texts": [
+        "Nicolai Maydrowicz"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Ingenui",
+        "fratris sui patruelis"
+      ],
+      "justification": "Cousin of Andreas Madrowicz, in whose name the royal letters were issued."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus iij"
+      ],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestate",
+        "Domino clementissimo",
+        "Sacrae Regiae Maiestatis",
+        "Domini nostri clementissimi",
+        "Regiae Maiestatis",
+        "Rex Poloniae",
+        "Magnus Dux Lituaniae Russiae Prussiae Masoviae Samogitiae Liuoniaeque",
+        "Suecorum Gottorum Vandalorumque Rex"
+      ],
+      "justification": "King Sigismund III Vasa, issuer of the cited royal letters patent."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "acta magnifica"
+      ],
+      "justification": "The municipal council of Lviv receiving and registering the oblation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in the municipal titles of Andreas Madrowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Biecz",
+      "mention_texts": [
+        "Biecensibus",
+        "Biecen'",
+        "Biecen."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of Biecz, from whose council records the transcript was extracted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland, named in the royal titulature."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lithuania",
+      "mention_texts": [
+        "Lituaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Grand Duchy of Lithuania, named in the royal titulature."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ruthenia, named in the royal titulature."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Prussia, named in the royal titulature."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Masovia",
+      "mention_texts": [
+        "Masoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Masovia, named in the royal titulature."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Samogitia",
+      "mention_texts": [
+        "Samogitiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Samogitia, named in the royal titulature."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Livonia",
+      "mention_texts": [
+        "Liuoniaeque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Livonia, named in the royal titulature."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Suecorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sweden, represented in the title of the King of the Swedes."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda pridie Festiter assumptionis Beatae Mariae Virginis 14. Augusti Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of registration in the Biecz council records (14 August 1595)."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festiter assumptionis Beatae Mariae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast of the Assumption of the Blessed Virgin Mary used in date reckoning."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "relative_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nicolai Maydrowicz fratris sui patruelis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E7",
+      "evidence": "Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E8",
+      "evidence": "Magnus Dux Lituaniae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E9",
+      "evidence": "Magnus Dux Lituaniae Russiae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E14",
+      "evidence": "Suecorum Gottorum Vandalorumque Rex"
+    }
+  ]
+}

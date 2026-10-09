@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0789.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "acta nostra"
+      ],
+      "justification": "The municipal council whose official records received and inscribed the Bobrka court extract."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini Millesimo Quingentesimo Nonagesimo quinto",
+        "Feria quarta post Festum Sancti Matthaei Apostoli et Evangelistae proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date when the banned court was held in Bóbrka."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Bóbrka Banned Court",
+      "mention_texts": [
+        "Judicium Bannitum Expositum"
+      ],
+      "descriptive_mentions": [
+        "actis scabinalibus"
+      ],
+      "justification": "The banned scabinal court of the town of Bóbrka which held the session and recorded the inscription."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Giskowicz",
+      "mention_texts": [
+        "Jacobum Giskowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Advocatum Juratum"
+      ],
+      "justification": "The sworn advocate presiding over the court session in Bóbrka."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Bóbrka",
+      "mention_texts": [
+        "Bobrka"
+      ],
+      "descriptive_mentions": [
+        "Oppidi"
+      ],
+      "justification": "The town from whose scabinal acts the court inscription was extracted."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Catherina Kolanijska",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Illa",
+        "coniunx legitima",
+        "filia ex priore matrimonio"
+      ],
+      "justification": "The woman who lodged a formal protestation against the Bóbrka court inscription."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kolanijski",
+      "mention_texts": [
+        "Casparis Kolanijski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aurifacis",
+        "mariti sui"
+      ],
+      "justification": "Goldsmith and lawful husband of Catherina."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli",
+        "Czop"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "olim"
+      ],
+      "justification": "Deceased father of Catherina from a previous marriage."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Howacki",
+      "mention_texts": [
+        "Andream Howacki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Advocatum"
+      ],
+      "justification": "The advocate who protested on behalf of Catherina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Judicium Bannitum Expositum celebratum extitit per Famatum Jacobum Giskowicz Advocatum Juratum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Ex actis scabinalibus Oppidi Bobrka extractum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Catherina Famati Casparis Kolanijski Aurifacis coniunx legitima"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "praedicti vero Pauli olim Czop filia ex priore matrimonio"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Nobilem Andream Howacki Advocatum Solemniter est protestata"
+    }
+  ]
+}

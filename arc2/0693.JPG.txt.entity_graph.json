@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0693.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Stano",
+      "mention_texts": [
+        "Jacobus Stano"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "famulus Civilis iuratus"
+      ],
+      "justification": "Appears as a sworn civil servant appointed to oversee the taking of the oath."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Korithkowicz",
+      "mention_texts": [
+        "Nicolao Korithkowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header of the testimony entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jan Salwago",
+      "mention_texts": [
+        "Jan Salwago"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Strenuus",
+        "Scultetus Baduera Leopoliensis"
+      ],
+      "justification": "Appears personally to deliver sworn testimony."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town reference in the title of the scultetus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum"
+      ],
+      "justification": "The municipal office requesting and recording the testimony."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Comesiczko Krewicki",
+      "mention_texts": [
+        "Nicolai",
+        "Comesiczkorum Krewicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilium"
+      ],
+      "justification": "Party at whose instance the testimony is recorded."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Comesiczko Krewicki",
+      "mention_texts": [
+        "Joannis",
+        "Comesiczkorum Krewicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilium"
+      ],
+      "justification": "Party at whose instance the testimony is recorded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Georgius Comesiczko",
+      "mention_texts": [
+        "Georgium",
+        "Comesiczkos scuridi"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "fratres fuisse germanos"
+      ],
+      "justification": "Full brother to Pantaleon and Constantinus, father of the deceased Nicolaus Krewicki."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Pantaleon Comesiczko",
+      "mention_texts": [
+        "Pantaleonem",
+        "Pantaleon",
+        "Comesiczkos scuridi"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "fratres fuisse germanos"
+      ],
+      "justification": "Full brother to Georgius and Constantinus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Comesiczko",
+      "mention_texts": [
+        "Constantinum",
+        "Comesiczkos scuridi"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "fratres fuisse germanos"
+      ],
+      "justification": "Full brother to Georgius and Pantaleon."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Theodora",
+      "mention_texts": [
+        "Theodora"
+      ],
+      "descriptive_mentions": [
+        "Coniuge"
+      ],
+      "justification": "Wife of Georgius Comesiczko and mother of Nicolaus Krewicki."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Krewicki",
+      "mention_texts": [
+        "Nicolaum Krewicki"
+      ],
+      "descriptive_mentions": [
+        "unicum Filium",
+        "Generosum",
+        "olim",
+        "interfectum"
+      ],
+      "justification": "Only son of Georgius and Theodora, killed in Galați."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Galați",
+      "mention_texts": [
+        "Galatza"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where Nicolaus Krewicki was killed."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Theodora",
+      "mention_texts": [
+        "Theodora"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Female relative/spouse associated with Pantaleon mentioned at the end of the text fragment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Nobiles Georgium Pantaleonem et Constantinum Comesiczkos scuridi vocatos, fratres fuisse germanos"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "Nobiles Georgium Pantaleonem et Constantinum Comesiczkos scuridi vocatos, fratres fuisse germanos"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "Nobiles Georgium Pantaleonem et Constantinum Comesiczkos scuridi vocatos, fratres fuisse germanos"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Georgius ex Theodora Coniuge"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Quorum quidem Georgius ex Theodora Coniuge procreauit unicum Filium Generosum olim Nicolaum Krewicki"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Quorum quidem Georgius ex Theodora Coniuge procreauit unicum Filium Generosum olim Nicolaum Krewicki"
+    }
+  ]
+}

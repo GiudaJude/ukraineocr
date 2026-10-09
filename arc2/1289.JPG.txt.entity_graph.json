@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/1289.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rzepisko",
+      "mention_texts": [
+        "Joanni Rzepisko"
+      ],
+      "descriptive_mentions": [
+        "eiusque legitimis successoribus",
+        "eodem",
+        "eundem",
+        "eidem emptori",
+        "eiusque successoribus legitimis",
+        "idem emptor",
+        "eidem emptori",
+        "personam ipsius",
+        "illum"
+      ],
+      "justification": "Buyer who paid the sum and was granted full rights and quietatio."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "622 Polish florins",
+      "mention_texts": [
+        "sexcentos viginti duorum florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum received and counted in the transaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Fabiana",
+      "mention_texts": [
+        "Fabiam",
+        "Fabianam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual through whose right the share in the property was held and conveyed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in Lviv where the assignment of the share was authorized."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Lis",
+      "mention_texts": [
+        "Stanislaus Lis",
+        "Stanislai Lis",
+        "Stanislaum Lis"
+      ],
+      "descriptive_mentions": [
+        "Coniuges"
+      ],
+      "justification": "Seller and spouse making the legal confession and quietatio."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Coniuges"
+      ],
+      "justification": "Spouse of Stanislaus Lis appearing and making the confession."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Catharina Gesticna",
+      "mention_texts": [
+        "Catharinam Gesticna"
+      ],
+      "descriptive_mentions": [
+        "matrem eiusdem Stanislai Lis",
+        "praenominatam"
+      ],
+      "justification": "Deceased mother of Stanislaus Lis whose movable property is referenced."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "7 florins",
+      "mention_texts": [
+        "Florenos septem"
+      ],
+      "descriptive_mentions": [
+        "parata pecunia"
+      ],
+      "justification": "Sum of ready money received from the maternal estate."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato post festum Sanctissimae Matris Mariae Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry of the legal document."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Pascha",
+      "mention_texts": [
+        "Pascha"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party mentioned in the heading concordia with Stanislaus Lis."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Becker",
+      "mention_texts": [
+        "Valentinus Becker"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "sartores",
+        "affines"
+      ],
+      "justification": "Tailor appearing in court."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Mathias Hanuszowicz",
+      "mention_texts": [
+        "Mathias Hanuszowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "sartores",
+        "affines"
+      ],
+      "justification": "Tailor appearing in court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaus Lis et Agnes Coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislaus Lis et Agnes Coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Catharinam Gesticna matrem eiusdem Stanislai Lis"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "document_id": "arc2/1060.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Zamarstynów",
+      "mention_texts": [
+        "Zamerstynow"
+      ],
+      "descriptive_mentions": [
+        "pago"
+      ],
+      "justification": "in pago Zamerstynow nouiter Jaxas et Cupiss sitis"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Kniczko Prasnikowicz",
+      "mention_texts": [
+        "Kniczokon Prasnikowicz",
+        "Kniczakom"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "emptori",
+        "Emptorem"
+      ],
+      "justification": "Honesto Kniczokon Prasnikowicz eiusque legitimis Successoribus pro eo quinquaginta Florenorum... eidem Kniczakom emptori"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici"
+      ],
+      "justification": "quinquaginta Florenorum pecuniae et numeri Polonici"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Ienro",
+      "mention_texts": [
+        "Ienroui"
+      ],
+      "descriptive_mentions": [
+        "Honorato Domino Scabino",
+        "Plenipotens"
+      ],
+      "justification": "Honorato Domino Scabino Ienroui in Iudicio Bannito Exposito... quicquid praedictus Plenipotens"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Bannito Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "in Iudicio Bannito Exposito quidecunque celebrando"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli die anno quo supra... Suburbani Leopoliensis... Ciuem Leopoliensem"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Smacztwa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Quietus Anna Smacztwa"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Ptak",
+      "mention_texts": [
+        "Mathias Ptak"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "sutor",
+        "coniuges",
+        "Suburbani Leopoliensis",
+        "ille",
+        "mariti sui"
+      ],
+      "justification": "Honestus Mathias Ptak sutor et Regina Szmocolkowna secundo votum nuptiarum coniuges Suburbani Leopoliensis"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Regina Szmocolkowna",
+      "mention_texts": [
+        "Regina Szmocolkowna"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Suburbani Leopoliensis",
+        "hac"
+      ],
+      "justification": "Regina Szmocolkowna secundo votum nuptiarum coniuges Suburbani Leopoliensis"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Mathias Wolff",
+      "mention_texts": [
+        "Mathiam Wolff"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Pellionem",
+        "Ciuem Leopoliensem",
+        "tutorem"
+      ],
+      "justification": "Famatum Mathiam Wolff Pellionem Ciuem Leopoliensem tutorem sibi quoad actum praesentem"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium nostrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "per officium nostrum confirmatum"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Mathias Ptak sutor et Regina Szmocolkowna secundo votum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "per Famatum Mathiam Wolff Pellionem Ciuem Leopoliensem tutorem sibi quoad actum praesentem cum consensu mariti sui assumptum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Mathiam Wolff Pellionem Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Mathias Ptak sutor et Regina Szmocolkowna secundo votum nuptiarum coniuges Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Mathias Ptak sutor et Regina Szmocolkowna secundo votum nuptiarum coniuges Suburbani Leopoliensis"
+    }
+  ]
+}

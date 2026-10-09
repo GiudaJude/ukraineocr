@@ -1,0 +1,247 @@
+{
+  "document_id": "arc2/1414.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0056: 5 florins",
+      "mention_texts": [
+        "florenos quinque"
+      ],
+      "descriptive_mentions": [
+        "praedictos"
+      ],
+      "justification": "Payment mentioned at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Marta Zajączkowna",
+      "mention_texts": [
+        "Marta Palaczkowna",
+        "Martam Zaiaczkowna"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "priorem",
+        "consortem legitimam",
+        "Actricem",
+        "Actrici"
+      ],
+      "justification": "Plaintiff in the decree, former wife of Simon Kasza and current wife of Mathias Stamatowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Officium Honoratorum Domini Advocati et Scabinorum Iuris",
+        "Officio consulari Leopoliensi",
+        "Actis Consularibus Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal and court authority issuing decrees and maintaining council records."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Kasza",
+      "mention_texts": [
+        "Simonis Kasza"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased first husband of Marta Zajączkowna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Stamatowicz",
+      "mention_texts": [
+        "Mathiae Stamatowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "eundem maritum suum"
+      ],
+      "justification": "Second husband of Marta Zajączkowna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Demetrius Krasowski",
+      "mention_texts": [
+        "Demetrium Krasowski Oculorum",
+        "Demetrio Krasowski",
+        "Demetrium"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "citatum nec tamen comparentem",
+        "eidem",
+        "praefatum"
+      ],
+      "justification": "Citizen of Lviv cited as debtor/defendant in the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in citizen designations."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czas",
+      "mention_texts": [
+        "Stanislai Czas"
+      ],
+      "descriptive_mentions": [
+        "famili Jerati"
+      ],
+      "justification": "Sworn servant who delivered the summons."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Stanislaus",
+      "mention_texts": [
+        "festis Sancti Stanislai"
+      ],
+      "descriptive_mentions": [
+        "praeteritis"
+      ],
+      "justification": "Feast date used as a reference point for the court summons."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount assigned in the decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Waidlik",
+      "mention_texts": [
+        "Hieronymo Waidlik",
+        "Hieronymus Waidlik"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Furrier and citizen of Lviv appearing before the council."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adami Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Scabini",
+        "vicinorum suorum",
+        "Praetorum"
+      ],
+      "justification": "Scabinus and neighboring property owner assisting Hieronymus Waidlik."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Georgius Dziurdzia",
+      "mention_texts": [
+        "Georgij Dziurdzi",
+        "Georgii Dziurdzi"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "vicinorum suorum"
+      ],
+      "justification": "Neighboring property owner and co-participant in the dispute."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparum Tembarski",
+        "Caspar Tembarski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "dictus"
+      ],
+      "justification": "Party undertaking construction at the Krowczyńska tenement house."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Krowczyńska",
+      "mention_texts": [
+        "lapidea Krowczynska",
+        "domus lapideae Krowczynska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Masonry house in Lviv involved in the boundary/window dispute."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "date",
+      "canonical_name": "1559-05-22",
+      "mention_texts": [
+        "feria secunda post festum Sanctae Trinitatis Anno 1559"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council record entry presented by Caspar Tembarski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestam Martam Zaiaczkowna priorem Famati olim Simonis Kasza"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "secundarum nuptiarum Honesti Mathiae Stamatowicz consortem legitimam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Demetrium Krasowski Oculorum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Hieronymus Waidlik Pellio Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "holds_title",
+      "tail_entity_id": "E3",
+      "evidence": "Adami Smieszek Scabini"
+    }
+  ]
+}

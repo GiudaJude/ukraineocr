@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/1477.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "eiusdem Officii",
+        "Decreto Officii praesentis",
+        "Officio"
+      ],
+      "justification": "Identified as the municipal council of Lviv before which the guild seniors appeared."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis huius",
+        "ea Civitate",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City context identified from multiple geographical references in the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gołombiowski",
+      "mention_texts": [
+        "Stanislaus Gołombiowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Seniores",
+        "Confratrum suorum",
+        "iidem actores",
+        "actores"
+      ],
+      "justification": "Guild elder appearing personally before the city council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Bielski",
+      "mention_texts": [
+        "Paulus Bielski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Seniores",
+        "Confratrum suorum",
+        "iidem actores",
+        "actores"
+      ],
+      "justification": "Guild elder appearing alongside Stanislaus Gołombiowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Girdlers' Guild",
+      "mention_texts": [
+        "Artificii Cingulatorum Civitatis huius Leopoliensis",
+        "Contubernium Cingulatorum"
+      ],
+      "descriptive_mentions": [
+        "corpore contubernii"
+      ],
+      "justification": "Guild of girdlers (cingulatores) represented by the elders."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circuli"
+      ],
+      "descriptive_mentions": [
+        "Medio Circuli"
+      ],
+      "justification": "The central market square of Lviv mentioned in connection with merchant stalls."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1581",
+      "mention_texts": [
+        "Sabbato ante festum Sanctificatoris S. Joannis Baptistae Anno Domini 1581 primo",
+        "feria secunda ante festum S. Margarethae Anno eodem 1581 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of the earlier decree and ordination cited in the proceeding."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria quarta post festa Solemnia Pentecostes Anno Domini 1594 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree referenced by the plaintiffs."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "100 marks",
+      "mention_texts": [
+        "centum marcarum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Fine amount stipulated in the decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "10 marks",
+      "mention_texts": [
+        "decem marcarum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Fine amount mentioned from the 1581 decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesti Stanislaus Gołombiowski et Paulus Bielski tanquam Seniores vigore Artificii Cingulatorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesti Stanislaus Gołombiowski et Paulus Bielski tanquam Seniores vigore Artificii Cingulatorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Artificii Cingulatorum Civitatis huius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in Medio Circuli Civitatis huius sitis"
+    }
+  ]
+}

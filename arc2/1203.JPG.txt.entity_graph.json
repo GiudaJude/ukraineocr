@@ -1,0 +1,144 @@
+{
+  "document_id": "arc2/1203.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1547",
+      "mention_texts": [
+        "Anno Domini 154 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year specified in the text for the initial contract."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Zeleński",
+      "mention_texts": [
+        "Sebastianum Zelenski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "eundem"
+      ],
+      "justification": "Noble who ceded and transferred the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulibus Leopoliensibus",
+        "officio nostro"
+      ],
+      "descriptive_mentions": [
+        "antecessoribus suis",
+        "antecessoribus nostris",
+        "nobis",
+        "nos"
+      ],
+      "justification": "The municipal council of Lviv acting in its official judicial and administrative capacity."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv mentioned as the municipal jurisdiction and location."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1557",
+      "mention_texts": [
+        "feria quinta ante Purificationis Beatae Mariae Virginis Anno Domini 155 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous scabinal court act."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Rączka",
+      "mention_texts": [
+        "NICOLAUM Raczka",
+        "Nicolao Raczka",
+        "Nicolaus Raczka"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "satisfactori",
+        "persona alienae iurisditionis",
+        "eodem"
+      ],
+      "justification": "Party acquiring/receiving the property upon satisfaction of debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Saint Stanislaus Hospital",
+      "mention_texts": [
+        "Hospitalis Sancti Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Hospitalis",
+        "eiusdem Hospitalis"
+      ],
+      "justification": "The hospital of St. Stanislaus located outside the city walls."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam praedictam centum florenorum",
+        "eadem pecunia summa"
+      ],
+      "justification": "Monetary sum of 100 florins paid on behalf of the hospital."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreae Madrowicz",
+        "Andreas Madrowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini et Prostatij eiusdem Civitatis"
+      ],
+      "justification": "Lviv bencher/prostates acting as legal guardian and surety for Nicolaus Rączka."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Hospitalis Sancti Stanislai extra muros Civitatis eiusdem consistentis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honorati Andreae Madrowicz Scabini et Prostatij eiusdem Civitatis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E6",
+      "evidence": "Qui etiam Andreas Madrowicz comparens personaliter cavit et fideiussit officio nostro inscribendo se et in omnibus bonis suis habitis et habendis pro eodem"
+    }
+  ]
+}

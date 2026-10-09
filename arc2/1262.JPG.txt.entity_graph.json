@@ -1,0 +1,123 @@
+{
+  "document_id": "arc2/1262.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named city in the court designation and citizenship reference."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv where Simon served as a sworn scabinus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal office to which the recording fee (memoriale) was paid."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Mikołajewicz",
+      "mention_texts": [
+        "Christophorus",
+        "Christophorus Mikolayewic"
+      ],
+      "descriptive_mentions": [
+        "Fati",
+        "Coniuges",
+        "eosdem coniuges",
+        "Honestus",
+        "Armenus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Armenian citizen of Lviv appearing on behalf of himself and his wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Annae Ziemczincowna"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Honestae",
+        "coniugis suae legitimae"
+      ],
+      "justification": "Wife of Christophorus Mikołajewicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum Juratum",
+        "Plenipotentem",
+        "fatus Plenipotens"
+      ],
+      "justification": "Sworn juror of the Lviv banned civil court constituted as plenipotentiary."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Mikołajewicz",
+      "mention_texts": [
+        "Stanislaw Mikolayewic",
+        "Kierucanscye"
+      ],
+      "descriptive_mentions": [
+        "Fratres"
+      ],
+      "justification": "Named in the section heading as one of the Kierucański brothers."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestae Annae Ziemczincowna coniugis suae legitimae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Christophorus Mikolayewic Armenus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Simonem Scabinum Juratum in Exposito Judicio Civili Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Kierucanscye Fratres Stanislaw Mikolayewic"
+    }
+  ]
+}

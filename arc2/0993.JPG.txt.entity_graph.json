@@ -1,0 +1,174 @@
+{
+  "document_id": "arc2/0993.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "officio",
+        "Officio",
+        "Officium"
+      ],
+      "justification": "City council office issuing decrees and hearing cases"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in descriptive contexts"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum vt supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Formula referencing current recording date"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "1580",
+      "mention_texts": [
+        "feria secunda ante Festi Sancti Bartholomaei proxima Anno 1580."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree presented to court"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "10 marks",
+      "mention_texts": [
+        "decem Marcarum",
+        "Marcas Decem"
+      ],
+      "descriptive_mentions": [
+        "vadii",
+        "poenae",
+        "poena",
+        "poenam praefatam"
+      ],
+      "justification": "Fine and penal amount specified in decree"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Śniatyn",
+      "mention_texts": [
+        "Sniathinen"
+      ],
+      "descriptive_mentions": [
+        "mercatum Sniathinen"
+      ],
+      "justification": "Market town mentioned as destination for trade"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus",
+      "mention_texts": [
+        "Sebestianus"
+      ],
+      "descriptive_mentions": [
+        "citatus",
+        "Conuentus",
+        "possessionatum incolam",
+        "ipsi",
+        "ille"
+      ],
+      "justification": "Defendant prosecuted by coopers and filing counter-protest"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Coopers' Guild",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Contubernij",
+        "Contubernio praefato",
+        "Magistros Doliatores",
+        "Magistris"
+      ],
+      "justification": "Guild of coopers in Lviv"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Fauber",
+      "mention_texts": [
+        "Joannis Fauber",
+        "Fauber"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Textoris Suburbani Leopoliensis"
+      ],
+      "justification": "Suburban weaver acting as plaintiff"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Anna Zolska",
+      "mention_texts": [
+        "Annam Zolska"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "viduam citatam"
+      ],
+      "justification": "Widow summoned in non-payment case"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamo Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "tutore",
+        "Prolocutore sibi assumpto"
+      ],
+      "justification": "Guardian and advocate assisting Anna Zolska"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "litigates_against",
+      "tail_entity_id": "E8",
+      "evidence": "Praefatus Sebestianus Conuentus protestatus est contra eosdem Magistros Doliatores"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "litigates_against",
+      "tail_entity_id": "E10",
+      "evidence": "ad querelam Honesti Joannis Fauber Textoris Suburbani Leopoliensis contra Honestam Annam Zolska viduam citatam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Joannis Fauber Textoris Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "cum Adamo Kalinowski tutore et Prolocutore sibi assumpto comparentem"
+    }
+  ]
+}

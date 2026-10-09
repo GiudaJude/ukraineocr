@@ -1,0 +1,166 @@
+{
+  "document_id": "arc2/0331.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis huius Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City where the legal acts occurred, referenced as Leopoli and in local designations."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Feria Quarta in Vigilia Sancti Petri et Pauli Anno 1595",
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry in the court record (Vigil of Sts. Peter and Paul, 1595)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Swierz",
+      "mention_texts": [
+        "Simon Swierz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sartor",
+        "Civis Leopoliensis",
+        "provisor et Oeconomus Conventus et Ecclesiæ Sancti Joannis in Corporis Christi intra muros Civitatis huius Leopoliensis siti Religiosorum Fratrum Ordinis Sancti Dominici nomine Religionis suæ Prioris et totius Conventus"
+      ],
+      "justification": "Tailor and citizen of Lviv acting as administrator/procurator for the Dominican monastery."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0029: Order of Preachers",
+      "mention_texts": [
+        "Ordinis Sancti Dominici"
+      ],
+      "descriptive_mentions": [
+        "Conventus et Ecclesiæ Sancti Joannis in Corporis Christi",
+        "Religiosorum Fratrum Ordinis Sancti Dominici",
+        "Conventui prædicto",
+        "totius Conventus"
+      ],
+      "justification": "Dominican monastery and church within the walls of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Florenis decem Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money bequeathed in the testament."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Luwarek de Stachminia",
+      "mention_texts": [
+        "Luwarek de Stachminia"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Famatus",
+        "a fratribus Fratrum suorum in Civitate Basilea finitima demortuum"
+      ],
+      "justification": "Deceased person who left the bequest."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Basel",
+      "mention_texts": [
+        "Basilea"
+      ],
+      "descriptive_mentions": [
+        "Civitate ... finitima"
+      ],
+      "justification": "City where Luwarek de Stachminia died."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radwicki",
+      "mention_texts": [
+        "Joannis Radwicki",
+        "Joanne Radwicki"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sartore",
+        "Cive Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Tailor and burgher of Lviv who paid out the testamentary deposit."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Scholc"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council official recorded in the document heading."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gelasinus",
+      "mention_texts": [
+        "Stanislaus Gelasinus"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Filius olim et Clarissimi Dominici Nicolai Gelasini Iuris Utriusque Doctoris Consulis Leopoliensis",
+        "Filius annos iam legitimæ et perfectæ ætatis assecutus",
+        "se"
+      ],
+      "justification": "Noble son of late consul Nicolaus Gelasinus appearing in the second entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelasinus",
+      "mention_texts": [
+        "Nicolai Gelasini"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Clarissimi Dominici",
+        "Iuris Utriusque Doctoris",
+        "Consulis Leopoliensis"
+      ],
+      "justification": "Late doctor of laws and consul of Lviv, father of Stanislaus Gelasinus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simon Swierz Sartor Civis Leopoliensis tanquam provisor et Oeconomus Conventus et Ecclesiæ Sancti Joannis in Corporis Christi intra muros Civitatis huius Leopoliensis siti Religiosorum Fratrum Ordinis Sancti Dominici nomine Religionis suæ Prioris et totius Conventus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislaus Gelasinus Filius olim et Clarissimi Dominici Nicolai Gelasini Iuris Utriusque Doctoris Consulis Leopoliensis"
+    }
+  ]
+}

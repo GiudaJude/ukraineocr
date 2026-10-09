@@ -1,0 +1,140 @@
+{
+  "document_id": "arc2/0954.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Feria tertia contra Cineres post Dominicam Quadrage-\nsimalem qua decantatur Invocavit proxima Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session recorded in the heading."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jaroszkowic",
+      "mention_texts": [
+        "Joanne Jaroszkowic"
+      ],
+      "descriptive_mentions": [
+        "Proconsule Famato",
+        "Proconsule"
+      ],
+      "justification": "Proconsul of Lviv before whom the act took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Cyganek",
+      "mention_texts": [
+        "Jacobum Cyganek"
+      ],
+      "descriptive_mentions": [
+        "praedictum",
+        "Textorem"
+      ],
+      "justification": "Weaver who inherited the parental property share."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Cyganek",
+      "mention_texts": [
+        "Cyganek"
+      ],
+      "descriptive_mentions": [
+        "olim dictum",
+        "pater",
+        "Coniuges Fibularios Leopolienses"
+      ],
+      "justification": "Deceased father of Jacobus Cyganek, buckle maker."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiam"
+      ],
+      "descriptive_mentions": [
+        "matrem",
+        "Coniuges Fibularios Leopolienses"
+      ],
+      "justification": "Deceased mother of Jacobus Cyganek and wife of Cyganek."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Słominsczanka"
+      ],
+      "descriptive_mentions": [
+        "matertera sua",
+        "Honestae"
+      ],
+      "justification": "Maternal aunt and recipient of the donation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City of Lviv referenced in the parents' description and suburb location."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio",
+        "eiusdem Civitatis Suburbio"
+      ],
+      "justification": "Kraków suburb of Lviv where the house and garden are located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "sortem suam haereditariam ad praedictum Jacobum Cyganek Textorem post olim dictum Cyganek pater ... devolutam"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "sortem suam haereditariam ad praedictum Jacobum Cyganek Textorem post ... Sophiam matrem ... devolutam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Cyganek pater et Sophiam matrem Coniuges Fibularios Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Cyganek pater et Sophiam matrem Coniuges Fibularios Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Ista Anna Słominsczanka matertera sua"
+    }
+  ]
+}

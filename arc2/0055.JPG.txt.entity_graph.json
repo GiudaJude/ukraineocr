@@ -1,0 +1,126 @@
+{
+  "document_id": "arc2/0055.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1593",
+      "mention_texts": [
+        "Feria quarta postridie Festi Beati Andreae Apostoli proxima Anno Domini 1591 tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the preceding act cited in the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Zophia Bigossowa",
+      "mention_texts": [
+        "Zophiae Bigossowa",
+        "Zophia Bigossowa",
+        "Biegoszowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "viduae relictae",
+        "Praefata",
+        "eandem",
+        "cessionariam",
+        "praefatae"
+      ],
+      "justification": "Widow of Joannes Bigos and party to the cession and property settlement."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bigos",
+      "mention_texts": [
+        "Joannis Bigos"
+      ],
+      "descriptive_mentions": [
+        "Famato olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased burgher of Lviv, late husband of Zophia Bigossowa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, urban community and judicial venue mentioned in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Ericus Adrleowit",
+      "mention_texts": [
+        "Ericae",
+        "Skritowic"
+      ],
+      "descriptive_mentions": [
+        "Condescensae"
+      ],
+      "justification": "Beneficiary in whose person the hereditary rights are transferred."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Abrikowic",
+      "mention_texts": [
+        "Nicolaus Habicourt"
+      ],
+      "descriptive_mentions": [
+        "praenominatus",
+        "verus condescensor"
+      ],
+      "justification": "Principal ceding the hereditary rights and appointing a proxy."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum Civitatis Leopoliensis",
+        "Plenipotentem et mandatarium",
+        "praesidentem"
+      ],
+      "justification": "Scabinus of Lviv appointed as plenipotentiary by Nicolaus Habicourt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestae Zophiae Bigossowa Famati olim Joannis Bigos Civis Leopoliensis viduae relictae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannis Bigos Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nicolaus Habicourt verus condescensor constituit et solemniter ordinavit in suum verum legitimum inderbitatumque Plenipotentem et mandatarium Honoratum Dominum Simonem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Scabinum Civitatis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "document_id": "arc2/1444.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jonas Kanczowic",
+      "mention_texts": [
+        "Jonas Kanczowic"
+      ],
+      "descriptive_mentions": [
+        "Ffatus",
+        "ipsius"
+      ],
+      "justification": "Named as the defendant appearing in person regarding an estate division."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium"
+      ],
+      "descriptive_mentions": [
+        "Honorato nam Dni Aduocati et Sedecim Iuris"
+      ],
+      "justification": "The municipal council/officium making the legal decree and appointing the court of the advocate and jurists."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Byttek",
+      "mention_texts": [
+        "Martinus Byttek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aromatarius",
+        "Ciuis Leopoliensis",
+        "consortis suae",
+        "sibi"
+      ],
+      "justification": "Named as a pharmacist and citizen of Lviv issuing quittances."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "consortis suae"
+      ],
+      "justification": "Wife of Martinus Byttek on whose behalf he acts."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the citizens reside and the act is drawn."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "1300 Polish florins",
+      "mention_texts": [
+        "florenis mille trecentis pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum acknowledged as paid."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Pustarta",
+        "Jacobanam Pustkarka",
+        "Barbara Pustkarka",
+        "Barbaram Pustkarka"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Ciuem Leopoliensem",
+        "eadem Praefata",
+        "Ciue Leopoliensi",
+        "satisfactrici",
+        "eadem",
+        "Honestam",
+        "Ciuem Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv discharging the debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "sabbato post Vnicam Laetare proximo anno Dni 159 quarto"
+      ],
+      "descriptive_mentions": [
+        "sub actu"
+      ],
+      "justification": "Date of the previous entry/contract."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Łuszkanzowska",
+      "mention_texts": [
+        "domus lapidea Luszkanzowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The masonry house wherein the rooms and apothecary shop are located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Caspari Przedziecki"
+      ],
+      "descriptive_mentions": [
+        "Hstem D.",
+        "tutorem",
+        "Collegam restris Consularem"
+      ],
+      "justification": "Councilor serving as legal guardian to Barbara Pustkarka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "228 Polish florins",
+      "mention_texts": [
+        "ducentorum viginti octo florenorum pecunia et moneti Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum acknowledged in the second quittance."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Paulus Podstolicz",
+      "mention_texts": [
+        "Paulo Podstolicz"
+      ],
+      "descriptive_mentions": [
+        "Verdificus Italicoct"
+      ],
+      "justification": "Creditor or principal mentioned in the debt inscription."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Country cited in the currency specification."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "suo et Honestae Agnetis consortis suae nominibus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "per assistum sibi tutorem Hstem D. Caspari Przedziecki"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Collegam restris Consularem"
+    }
+  ]
+}

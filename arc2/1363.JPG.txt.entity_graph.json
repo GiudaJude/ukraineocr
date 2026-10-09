@@ -1,0 +1,152 @@
+{
+  "document_id": "arc2/1363.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Augustinus Richter",
+      "mention_texts": [
+        "Augustino Richter",
+        "Augustinum Richter"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "memorato",
+        "ipsum",
+        "eodem"
+      ],
+      "justification": "Creditor or obligee named in the conditional contract at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitanus",
+        "Leopolien"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "The city of Lviv where the court acted and where the individuals are recorded as residents."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta ante festum Nativitatis Mariae Virginis Anno Domini 96"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording: Thursday before the Feast of the Nativity of the Blessed Virgin Mary, 1596."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sawch",
+      "mention_texts": [
+        "Joannes Sawch"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the entry heading/margin."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Blasius Balestra",
+      "mention_texts": [
+        "Blasius Balestra"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Vector Suburbanus Leopolitanus",
+        "se"
+      ],
+      "justification": "Suburban carter from Lviv who sells his inherited house and property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Catharina",
+      "mention_texts": [
+        "Catharinae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae legitimae"
+      ],
+      "justification": "Wife of Blasius Balestra, whose consent is promised in the contract."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "The Kraków Suburb of Lviv where the property being sold is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Caspar Jedliński",
+      "mention_texts": [
+        "Caspares Jedlinski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning estate adjacent to the sold property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Dziech",
+      "mention_texts": [
+        "Valentini Dziecha"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning the adjacent parcel on the other side."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Iwan Krzywy Fabiański",
+      "mention_texts": [
+        "Iuan Krzywy Fabianski"
+      ],
+      "descriptive_mentions": [
+        "Pavido"
+      ],
+      "justification": "Buyer of the house and lot from Blasius Balestra."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestae Catharinae coniugis suae legitimae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Vector Suburbanus Leopolitanus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Iuan Krzywy Fabianski Leopolien"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sold_to",
+      "tail_entity_id": "E10",
+      "evidence": "vendidisse generosis inscriptis inscriptis ergo vendere domum et Sortem suam propriam et haereditariam ex successione ad se spectantem in Civitate et eius Suburbio Cracoviensi sitis inter Caspares Jedlinski praedium ex una et Valentini Dziecha circa parte exaltera sell Pavido Iuan Krzywy Fabianski"
+    }
+  ]
+}

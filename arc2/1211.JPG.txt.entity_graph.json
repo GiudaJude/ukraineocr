@@ -1,0 +1,190 @@
+{
+  "document_id": "arc2/1211.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis huius"
+      ],
+      "justification": "City where the legal transactions occurred and residence of suburban parties."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacatowa",
+      "mention_texts": [
+        "Jacatowa"
+      ],
+      "descriptive_mentions": [
+        "Emptrici"
+      ],
+      "justification": "Buyer of inheritance shares mentioned in the first entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Praetorio",
+        "ijsdem actis"
+      ],
+      "descriptive_mentions": [
+        "Judicio"
+      ],
+      "justification": "Town hall court ('Praetorio Judicio') and municipal books recording the transactions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno vt supra",
+        "feria secunda post die Sanctae Barbarae Virginis Anno Domini 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates referenced in the act and previous inscription."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Zygota",
+      "mention_texts": [
+        "Valentinus Zygota"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Lviv suburban resident acknowledging receipt of inheritance money on behalf of his niece."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "77 Polish florins 15 groschen",
+      "mention_texts": [
+        "florenos septuaginta septem et grossos quindecim",
+        "septuaginta septem florenorum et grossorum quindecim"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et monetae Polonicae",
+        "ea summa praedicta",
+        "tota et integra eadem summa"
+      ],
+      "justification": "Maternal inheritance sum received and acquitted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Eva Scomerza",
+      "mention_texts": [
+        "Euam Scomerza",
+        "Euae"
+      ],
+      "descriptive_mentions": [
+        "Pudicam",
+        "olim Annae Kramarkowa ex primo matrimonio filiam",
+        "suam vero ex sorore neptem"
+      ],
+      "justification": "Daughter of deceased Anna Kramarkowa and niece of Valentinus Zygota."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Kramarkowa"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "sorore"
+      ],
+      "justification": "Deceased mother of Eva Scomerza and sister of Valentinus Zygota."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kramarek",
+      "mention_texts": [
+        "Joannis Kramarek",
+        "Kramarek"
+      ],
+      "descriptive_mentions": [
+        "prouidi",
+        "eiusdem Euae Patrici",
+        "eundem"
+      ],
+      "justification": "Stepfather/guardian of Eva from whose taxed estate the maternal inheritance derived."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sek",
+      "mention_texts": [
+        "Joanne Sek",
+        "Joannem Sek",
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopoliense",
+        "eidem"
+      ],
+      "justification": "Suburban resident who held and paid the share and received the quitclaim."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Krasnystaw",
+      "mention_texts": [
+        "Krasnost"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locality referenced in the rubric heading 'de Krasnost'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Annae Kramarkowa ex primo matrimonio filiam"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E8",
+      "evidence": "suam vero ex sorore neptem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "kin_of",
+      "tail_entity_id": "E7",
+      "evidence": "suam vero ex sorore neptem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Annae Kramarkowa ... de bonis prouidi Joannis Kramarek eiusdem Euae Patrici"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Valentinus Zygota Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joanne Sek Suburbano Leopoliense"
+    }
+  ]
+}

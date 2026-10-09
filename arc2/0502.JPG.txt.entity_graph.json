@@ -1,0 +1,247 @@
+{
+  "document_id": "arc2/0502.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gorczyca the Younger",
+      "mention_texts": [
+        "Joannis",
+        "Joannem",
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "acies Muratoria Drowidi",
+        "ex uxore secundi matrimonij procreati filij",
+        "eiusdem Joannis",
+        "filium Muratoria socium",
+        "praedictum Joannem artis muratoriae socium",
+        "praefatus"
+      ],
+      "justification": "Son of late Joannes Gorczyca from his second marriage, practicing the bricklayer trade (socius artis muratoriae)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gorczyca",
+      "mention_texts": [
+        "Joannis Gorczycza",
+        "Kosselnik",
+        "Joannes Gorczycza"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "dicti Kosselnik",
+        "praefati",
+        "quondam dictus olim",
+        "praenominatum olim",
+        "idem"
+      ],
+      "justification": "Deceased suburban resident of Lviv, father of Sebastian, Joannes, and Albert."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "City context identified by 'Suburbani Leopoliensis' and 'in Civitatis istius Suburbio Halickiensi'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Halickiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified in 'in Civitatis istius Suburbio Halickiensi dicto'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified in 'in Lyczakow sitta'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Gorczyca",
+      "mention_texts": [
+        "Sebastiani",
+        "Sebastiano",
+        "Sebastianum"
+      ],
+      "descriptive_mentions": [
+        "alterius ipsius ex eadem parte sed matre diversa fratris",
+        "praefato Sebastiano",
+        "eundem Sebastianum"
+      ],
+      "justification": "Son of Joannes Gorczyca from his first wife Anna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "mansueti",
+        "uxores",
+        "dictae uxoris suae",
+        "mortuae uxoris"
+      ],
+      "justification": "First wife of Joannes Gorczyca, mother of six children including Sebastian."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Anna Makaronna",
+      "mention_texts": [
+        "Annam Maxaronna"
+      ],
+      "descriptive_mentions": [
+        "alteram uxorem"
+      ],
+      "justification": "Second wife of Joannes Gorczyca, mother of Joannes and Albert."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Gorczyca",
+      "mention_texts": [
+        "Albertum",
+        "Alberto"
+      ],
+      "descriptive_mentions": [
+        "adhuc minorennem",
+        "minorennia"
+      ],
+      "justification": "Underage son of Joannes Gorczyca and Anna Makaronna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Florenis sexaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Valuation of the house and garden."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenos viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Maternal portion calculation mentioned in text."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Triginta florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum mentioned for joint sale."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Florenos decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount received by Joannes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "olim Joannis Gorczycza dicti Kosselnik Suburbani Leopoliensis ex uxore secundi matrimonij procreati filij"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "alteram uxorem similiter Annam Maxaronna ex qua suscepit liberos duos ut pote praefatum Joannem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "eiusdem Joannis et alterius ipsius ex eadem parte sed matre diversa fratris Sebastiani"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Annam cum qua procreauerat liberos sex ... venerunt praefato Sebastiano pro eius maternali sorte"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "idem Joannes Gorczycza alteram uxorem similiter Annam Maxaronna ex qua suscepit liberos duos ut pote praefatum Joannem filium Muratoria socium et Albertum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Annam Maxaronna ex qua suscepit liberos duos ut pote praefatum Joannem filium Muratoria socium et Albertum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "olim Joannes Gorczycza duas acceperat uxores mansueti Annam"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Superuixit postea idem Joannes Gorczycza alteram uxorem similiter Annam Maxaronna"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "alterius ipsius ex eadem parte sed matre diversa fratris Sebastiani"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "suscepit liberos duos ut pote praefatum Joannem filium Muratoria socium et Albertum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in Civitatis istius Suburbio Halickiensi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Civitatis istius Suburbio Halickiensi dicto in Lyczakow sitta"
+    }
+  ]
+}

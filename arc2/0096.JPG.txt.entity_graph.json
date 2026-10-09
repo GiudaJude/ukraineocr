@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/0096.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bogdan Steckowic",
+      "mention_texts": [
+        "Bogdanum Steckowic"
+      ],
+      "descriptive_mentions": [
+        "praedictum",
+        "Famatum",
+        "olim",
+        "parentem ipsius"
+      ],
+      "justification": "Named as the deceased father ('olim Bogdanum Steckowic parentem ipsius') from whom hereditary rights derived."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Boslanowic",
+      "mention_texts": [
+        "Christophoro Boslanowic",
+        "Christophorum Boslanowic",
+        "Christophoro"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno",
+        "Civi Leopoliensi",
+        "affini suo praedicto",
+        "Fratri germano",
+        "affinem suum",
+        "affini suo",
+        "emptorem",
+        "condescensarium suum"
+      ],
+      "justification": "Armenian burgher of Lviv to whom rights are ceded and who is acknowledged as buyer and in-law."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis",
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv mentioned in civic descriptions and jurisdictional designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Pod Jeleniem",
+      "mention_texts": [
+        "Sobultowska Pod Jeleniem"
+      ],
+      "descriptive_mentions": [
+        "medietate acius lapideae",
+        "domo praedicta lapidea",
+        "domo praefata lapidea",
+        "domo lapidea praedicta"
+      ],
+      "justification": "Tenement house in the Lviv city market circle identified as 'Sobultowska Pod Jeleniem'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "1,000 Polish florins",
+      "mention_texts": [
+        "mille florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "pretio"
+      ],
+      "justification": "Sum of 1000 Polish florins securing rights to the tenement house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0064: 40 florins",
+      "mention_texts": [
+        "florenis quadraginta Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 40 Polish florins paid for the hereditary portion."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "250 Hungarian florins",
+      "mention_texts": [
+        "florens Ungaricalibus ducentis quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 250 Hungarian florins for the obligatory right in the stone house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "D.",
+        "Scabinum Civitatis Leopoliensis",
+        "Plenipotentem",
+        "mandatarie"
+      ],
+      "justification": "Appointed plenipotentiary, identified as civic bencher of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The judicial forum in Lviv where the resignation of rights is to be executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Christophoro Boslanowic Armeno Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in eiusdem Civitatis circulo Sobultowska Pod Jeleniem dicitur"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simonem Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Iudicio Exposito Bannito Leopoli"
+    }
+  ]
+}

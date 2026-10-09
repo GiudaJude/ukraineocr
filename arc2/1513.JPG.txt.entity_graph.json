@@ -1,0 +1,128 @@
+{
+  "document_id": "arc2/1513.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officio praesenti",
+        "Officio",
+        "Officium",
+        "Officij eiusdem",
+        "eiusdem Officij Consularis",
+        "eiusdem Officij"
+      ],
+      "justification": "The municipal consular office of Lviv acting as the court passing decrees in this case."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Beltmakers' Guild",
+      "mention_texts": [
+        "CINGVLARIVM",
+        "Cingulatorum",
+        "Cingulatores"
+      ],
+      "descriptive_mentions": [
+        "Contubernium Famatorum Cingulatorum",
+        "praesentes Actores",
+        "pars Actorea",
+        "Pars vero Actorea"
+      ],
+      "justification": "The guild of beltmakers (contubernium cingulatorum) acting as plaintiff in the litigation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Shopkeepers' Guild",
+      "mention_texts": [
+        "INSTITORES",
+        "Institorum Tabernarium",
+        "Institores",
+        "Institoribus",
+        "Institorum"
+      ],
+      "descriptive_mentions": [
+        "partium ab altera",
+        "citatos",
+        "easdem Institores tam penes citatos",
+        "citatis",
+        "Citata"
+      ],
+      "justification": "The shopkeepers/stallkeepers (institores tabernarii) of Lviv acting as defendant in the case."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "The royal city of Lviv mentioned as the seat of the guilds and council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kingdom of Poland mentioned in reference to former kings grant of privileges."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "10 marks",
+      "mention_texts": [
+        "decem marcarum"
+      ],
+      "descriptive_mentions": [
+        "poenam"
+      ],
+      "justification": "A fine of ten marks imposed for transgression of prior council decrees."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacram Regiam Maiestatem",
+        "Dominum Clementissimum"
+      ],
+      "justification": "The reigning monarch of Poland (Sigismund III Vasa) to whom the defendants appeal."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Institorum Tabernarium Civitatis eiusdem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "appealed_to",
+      "tail_entity_id": "E7",
+      "evidence": "Citata vero ab eodem vel a gravamine ad Sacram Regiam Maiestatem Dominum Clementissimum appellavit"
+    }
+  ]
+}

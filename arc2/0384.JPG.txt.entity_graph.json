@@ -1,0 +1,88 @@
+{
+  "document_id": "arc2/0384.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Blasius Boletka",
+      "mention_texts": [
+        "Blasius Bolostka"
+      ],
+      "descriptive_mentions": [
+        "maritus",
+        "suum",
+        "ipsius",
+        "suos",
+        "suis",
+        "sui",
+        "sibi"
+      ],
+      "justification": "Husband making a mutual property disposition with his wife Catherina."
+    },
+    {
+      "entity_id": "PER-0110",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "modernae uxoris suae charissimae",
+        "praefatae Catherinae uxoris suae",
+        "praefata uxor sua",
+        "suam uxorem",
+        "consors praenominata"
+      ],
+      "justification": "Wife of Blasius Bolostka receiving a donation of two portions of the estate."
+    },
+    {
+      "entity_id": "LOC-0093",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regno"
+      ],
+      "justification": "Mentioned in the context of money current in the Kingdom of Poland ('pecuniae communis Poloniae numeri et monetae in Regno currentis')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "huius Civitatis"
+      ],
+      "justification": "City whose resolution/plebiscite ('laudi et Plebisciti huius Civitatis') is referenced in the municipal registry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "10 Polish marks",
+      "mention_texts": [
+        "Marcas decem"
+      ],
+      "descriptive_mentions": [
+        "pecuniae communis Poloniae numeri et monetae in Regno currentis, quamlibet marcam grossis quadraginta octo computando"
+      ],
+      "justification": "Monetary sum assigned to relatives from the estate."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "PER-0110",
+      "evidence": "Blasius Bolostka maritus perspectam habens ipsius Catherinae modernae uxoris suae charissimae"
+    },
+    {
+      "head_entity_id": "PER-0110",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Catherina consors praenominata"
+    }
+  ]
+}

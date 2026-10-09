@@ -1,0 +1,92 @@
+{
+  "document_id": "arc2/1137.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Consulari\nOfficio"
+      ],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "praefato Consulari\nOfficio"
+      ],
+      "justification": "City council of Lviv acting in its official judicial capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the court is located and of which the persons are residents/citizens."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joan Bildassa Lauterius",
+      "mention_texts": [
+        "Joan Bildassa Lauterius"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sutor",
+        "Civis Leopoliensis",
+        "Actorem"
+      ],
+      "justification": "The shoemaker and citizen of Lviv acting as plaintiff in the suit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathaeus Philipowicz",
+      "mention_texts": [
+        "Mathaei Philipowicz",
+        "Iwaskonem"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Censoris Leopoliensis",
+        "citati",
+        "eundem",
+        "citatum"
+      ],
+      "justification": "The censor of Lviv cited as defendant (also referenced as Iwasko)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato\npost Festum Epiphaniae Domini Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous court proceedings referenced in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Censoris Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "opposed_to",
+      "tail_entity_id": "E4",
+      "evidence": "inter se vti Actorem et eundem Iwaskonem citatum"
+    }
+  ]
+}

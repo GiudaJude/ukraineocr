@@ -1,0 +1,89 @@
+{
+  "document_id": "arc2/1333.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis"
+      ],
+      "justification": "Identified by context as the city ('eius Civitatis', 'fontanam Civitatis') where the Halych Suburb and municipal fountain are located."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciense"
+      ],
+      "descriptive_mentions": [
+        "Suburbium eius\nCivitatis"
+      ],
+      "justification": "Mentioned as 'Suburbium eius Civitatis Haliciense nuncupatum'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Łan Szetowski",
+      "mention_texts": [
+        "Szethowski",
+        "Szethowski"
+      ],
+      "descriptive_mentions": [
+        "laneum",
+        "lanei",
+        "laneum praefatum"
+      ],
+      "justification": "Agricultural plot described as 'laneum Szethowski dictum penes Szethowski laneum post fontanam Civitatis situ'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Felsztynowa",
+      "mention_texts": [
+        "Felsztynowie"
+      ],
+      "descriptive_mentions": [
+        "praedictae"
+      ],
+      "justification": "A woman mentioned as proving her entitlement to a portion of the Szethowski laneus ('praedictae Felsztynowie se habere')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "praeallegato Officio\nnostri"
+      ],
+      "justification": "Referred to by the council's standard self-designation 'praeallegato Officio nostri'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "360 Polish florins",
+      "mention_texts": [
+        "Florenis trecentis sexaginta nume-\nri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Tax valuation of the land parcel: 'taxaverunt Florenis trecentis sexaginta numeri Polonicalis'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Suburbium eius\nCivitatis Haliciense"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "exierant in Suburbium eius\nCivitatis Haliciense nuncupatum in laneum Szethowski dictum"
+    }
+  ]
+}

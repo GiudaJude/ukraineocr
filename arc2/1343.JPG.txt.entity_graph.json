@@ -1,0 +1,122 @@
+{
+  "document_id": "arc2/1343.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal transaction and property are situated."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "sabbato ante Festum Epiphaniarum Domini A. D. 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Sekuła",
+      "mention_texts": [
+        "Bartholomeus Sekula"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honestus",
+        "Frater",
+        "ille",
+        "fratrem tutorem suum legitimum et naturalem"
+      ],
+      "justification": "Party appearing before the court, brother and legal guardian of Hedviga Regina."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Regina",
+      "mention_texts": [
+        "Hedviga Regina"
+      ],
+      "descriptive_mentions": [
+        "soror",
+        "hac"
+      ],
+      "justification": "Sister of Bartholomaeus Sekula, represented by him."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "16 Polish florins 10 groszy",
+      "mention_texts": [
+        "florenis sedecim et grossis decem pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount received by the siblings in satisfaction of a legacy."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szwic",
+      "mention_texts": [
+        "Jacobum Szwic",
+        "Jacobum"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "olim",
+        "suum avunculum",
+        "praedictum"
+      ],
+      "justification": "Deceased uncle who bequeathed the money and property rights."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Balthasar Szwic",
+      "mention_texts": [
+        "Balthasaris Lwuc",
+        "Balthasaro Szwic"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Figulo Subuebano Leopoliensi",
+        "domus praefatae possessore",
+        "eundem"
+      ],
+      "justification": "Suburban potter and possessor of the house who satisfied the bequest."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "brother_of",
+      "tail_entity_id": "E4",
+      "evidence": "Bartholomeus Sekula Frater et Hedviga Regina soror"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "per eundem fratrem tutorem suum legitimum et naturalem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "uncle_of",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobum Szwic suum avunculum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "uncle_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobum Szwic suum avunculum"
+    }
+  ]
+}

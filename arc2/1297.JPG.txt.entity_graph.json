@@ -1,0 +1,128 @@
+{
+  "document_id": "arc2/1297.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Corpus match for Lwów (Leopolis)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jelonek",
+      "mention_texts": [
+        "Joannes Jelonek",
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "idem Praenominatus",
+        "nominatus"
+      ],
+      "justification": "Corpus match for PER-0247: Joannes Jelonek."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Zofia",
+      "mention_texts": [
+        "Sofiae",
+        "Sofia"
+      ],
+      "descriptive_mentions": [
+        "eidem",
+        "Praenominata",
+        "praefata",
+        "vidua"
+      ],
+      "justification": "Corpus match for PER-0019: Zofia."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "vxor sua"
+      ],
+      "justification": "Corpus match for PER-0110: Catherina Tłumaczowa."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Floronis",
+      "mention_texts": [
+        "Albertum Floronis"
+      ],
+      "descriptive_mentions": [
+        "tutorem"
+      ],
+      "justification": "Named legal guardian (tutor) of Sofia in the document text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmo",
+        "Erasmo Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Ciui et Mercatori Leopoliensi",
+        "eodem emptore"
+      ],
+      "justification": "Corpus match for PER-0061: Erasmus Jelonek."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "60 Polish florins",
+      "mention_texts": [
+        "sexaginta florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "Quae summa"
+      ],
+      "justification": "Corpus match for CUR-0062: 60 Polish florins."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Corpus match for ORG-0007: Lviv Banned Court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Catherina vxor sua consensit"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Erasmo Jelonek Ciui et Mercatori Leopoliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "represented_by",
+      "tail_entity_id": "E5",
+      "evidence": "Sofia vidua per praenominatam suam tutorem Albertum Floronis"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "document_id": "arc2/0796.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Swirnowiczki",
+      "mention_texts": [
+        "Martinus Swirnowiczki"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "molendinator",
+        "Coniuges Suburbani Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Named as the seller of the house and garden, suburban miller of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges Suburbani Leopolienses",
+        "haec"
+      ],
+      "justification": "Named as the wife of Martinus Swirnowiczki, co-seller of the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches known entity LOC-0012: Halych Suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Kalcza Góra",
+      "mention_texts": [
+        "Calczagora"
+      ],
+      "descriptive_mentions": [
+        "vico Calczagora dicto"
+      ],
+      "justification": "Street or lane in the Halych Suburb where the sold property is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sobiezayski",
+      "mention_texts": [
+        "Sobiezayski"
+      ],
+      "descriptive_mentions": [
+        "Sobiezayski fundum"
+      ],
+      "justification": "Owner of the adjacent plot of land."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Sepultor",
+      "mention_texts": [
+        "Laurentius Swirnowic Sepultor",
+        "Laurentio Sepultori",
+        "Laurentium Sepultorem",
+        "Laurentius sepultor"
+      ],
+      "descriptive_mentions": [
+        "Laborioso",
+        "circa Ecclesiam Metropolitanam Leopoliensem",
+        "Coniugibus",
+        "Honesti",
+        "sepultor iuxta Ecclesiam Metropolitanam Leopoliensem",
+        "Coniuges Suburbani"
+      ],
+      "justification": "Grave digger (sepultor) of the Lviv Metropolitan Church, purchaser of the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiam Metropolitanam Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches known entity LOC-0095: Lviv Latin Cathedral."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Catharina",
+      "mention_texts": [
+        "Catharinae",
+        "Catharinam",
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "coniuges",
+        "Honesti",
+        "Coniuges Suburbani"
+      ],
+      "justification": "Wife of Laurentius Sepultor, co-purchaser of the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "46 Polish florins",
+      "mention_texts": [
+        "quadraginta sex"
+      ],
+      "descriptive_mentions": [
+        "polonicalibus"
+      ],
+      "justification": "Purchase price of the property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches known entity ORG-0007: Lviv Banned Court."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches alias of known entity DATE-0001: 1595."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Martinus Swirnowiczki molendinator et Anna Coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Laurentio Sepultori circa Ecclesiam Metropolitanam Leopoliensem, et Catharinae Coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "associated_with",
+      "tail_entity_id": "E7",
+      "evidence": "Laurentio Sepultori circa Ecclesiam Metropolitanam Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in suburbio Haliciensi nuncupato in vico Calczagora dicto"
+    }
+  ]
+}

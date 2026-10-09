@@ -1,0 +1,289 @@
+{
+  "document_id": "arc2/0410.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Antonius",
+      "mention_texts": [
+        "Antonius"
+      ],
+      "descriptive_mentions": [
+        "Religiosus Pater",
+        "Praesbyter ad eum solum a Die Custode missus"
+      ],
+      "justification": "Franciscan priest appearing in the document on behalf of the convent."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Ordinis Sancti Francisci de observan"
+      ],
+      "descriptive_mentions": [
+        "praedicto Conventui",
+        "Conventui"
+      ],
+      "justification": "Franciscan convent referred to in the acquittance."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Church of Saint Andrew",
+      "mention_texts": [
+        "Ecclesiae Sancti Andreae"
+      ],
+      "descriptive_mentions": [
+        "extra muros huius Civitatis"
+      ],
+      "justification": "Church of St. Andrew outside the walls of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "huius Civitatis"
+      ],
+      "justification": "City where the act is registered and where the church and fairs are located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kraus",
+      "mention_texts": [
+        "Paulum Kraus"
+      ],
+      "descriptive_mentions": [
+        "Patrem",
+        "tutorem sibi ad eum actum partem assumptum"
+      ],
+      "justification": "Franciscan father acting as guardian/assessor for Father Antonius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenis viginti",
+        "Florenos hosce viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Legacy sum of 20 florins mentioned in the testament."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertum Wyszocki",
+        "Wyszocki"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "defuncti"
+      ],
+      "justification": "The deceased testator who bequeathed 20 florins to the convent."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karw",
+      "mention_texts": [
+        "Thoma Karw"
+      ],
+      "descriptive_mentions": [
+        "Illo",
+        "Scabino et Cive Leopoliensi",
+        "vi eiusdem Wyszocki testamenti Executore",
+        "Executoris",
+        "eiusdem"
+      ],
+      "justification": "Lviv bench magistrate and executor of Wyszocki's testament."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda in Vigilia Sancti Jacobi Apostoli proxima. Anno quo supra",
+        "Anno quo supra",
+        "feria quarta ipsa Die Sanctae Annae matris Mariae. Anno 1595",
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the court entries in July 1595."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Layson",
+      "mention_texts": [
+        "Jacobo Layson",
+        "Jacobus Layson"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Juris Civis Posnaniensis",
+        "advena Mercator"
+      ],
+      "justification": "Merchant and citizen of Poznań presenting a denunciation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0050: Poznań",
+      "mention_texts": [
+        "Posnaniensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of origin of Jacobus Layson."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Margaret",
+      "mention_texts": [
+        "Festo Sanctae Margaretate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Fair period referenced in the denunciation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Leomander Zin",
+      "mention_texts": [
+        "Leomandrum Zin"
+      ],
+      "descriptive_mentions": [
+        "Famatos et Honestos Senatores",
+        "Civem Czencinensem"
+      ],
+      "justification": "Citizen of Chęciny against whom denunciation is made."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Chęciny",
+      "mention_texts": [
+        "Czencinensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Leomander Zin."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Poritselmus Faabas",
+      "mention_texts": [
+        "Poritselmum Faabas"
+      ],
+      "descriptive_mentions": [
+        "Famatos et Honestos Senatores",
+        "Civem Clepariensem ad Cracoviam"
+      ],
+      "justification": "Citizen of Kleparz near Kraków."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Kleparz",
+      "mention_texts": [
+        "Clepariensem"
+      ],
+      "descriptive_mentions": [
+        "ibidem"
+      ],
+      "justification": "Town adjacent to Kraków where Faabas and Rydel are citizens."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City near which Kleparz is located."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Petrus Rydel",
+      "mention_texts": [
+        "Petrum Rydel"
+      ],
+      "descriptive_mentions": [
+        "Civem ibidem Clepariensem"
+      ],
+      "justification": "Citizen of Kleparz."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Wilhelm Bartla",
+      "mention_texts": [
+        "Wilhelmum Bartla"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the denunciation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Pater Antonius Ordinis Sancti Francisci de observan"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Patrem Paulum Kraus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "executor_of",
+      "tail_entity_id": "E7",
+      "evidence": "Thoma Karw Scabino et Cive Leopoliensi vi eiusdem Wyszocki testamenti Executore"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Jacobus Layson Juris Civis Posnaniensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "citizen_of",
+      "tail_entity_id": "E14",
+      "evidence": "Leomandrum Zin Civem Czencinensem"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "citizen_of",
+      "tail_entity_id": "E16",
+      "evidence": "Poritselmum Faabas Civem Clepariensem"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "citizen_of",
+      "tail_entity_id": "E16",
+      "evidence": "Petrum Rydel Civem ibidem Clepariensem"
+    }
+  ]
+}

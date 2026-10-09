@@ -1,0 +1,355 @@
+{
+  "document_id": "arc2/1317.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officium praesens",
+        "Officio praesenti",
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officij"
+      ],
+      "justification": "The consular office/city council of Lviv before which the parties appear and which remitted the case."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in civic descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szemberk",
+      "mention_texts": [
+        "Stanislaus Solemberk",
+        "Stanislaw Szemberk"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "Cessionarius Josephi et Juditae Coniugum Vachmanow",
+        "actorem",
+        "Famatos",
+        "Civem et Reparatorem Leopoliensem",
+        "Actor",
+        "Actorae"
+      ],
+      "justification": "Citizen of Lviv acting as plaintiff and cessionary."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Josephus Vachman",
+      "mention_texts": [
+        "Josephi",
+        "Vachmanow"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Vachmanow"
+      ],
+      "justification": "Husband of Judita Vachman."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Juditha Vachtman Szatkowic",
+      "mention_texts": [
+        "Juditae",
+        "Juditham Vachtman Szatkowic",
+        "Judam"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Vachmanow",
+        "Judeam Leopoliensem",
+        "citatam",
+        "Citata"
+      ],
+      "justification": "Jewish woman of Lviv cited in the lawsuit."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Judel Vachtman Isacharowicz",
+      "mention_texts": [
+        "Judelem Nachtman",
+        "Isacharowicz",
+        "Vachtmanum"
+      ],
+      "descriptive_mentions": [
+        "Judeum",
+        "Judeum Leopoliensem",
+        "citatum"
+      ],
+      "justification": "Jewish resident of Lviv summoned under cautionary surety."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Tertius"
+      ],
+      "descriptive_mentions": [
+        "Rex Poloniae Magnus Dux Lithuaniae Russiae Prussiae Massoviae Samogitiae Livoniaeque etc. necnon Suecorum Gotthorum Vandalorumque Haereditarius Rex",
+        "Sacrae Regiae Maiestatis",
+        "Sacrae Regiae Maiestatem",
+        "S. R. M.",
+        "nos",
+        "nostrum"
+      ],
+      "justification": "King Sigismund III Vasa issuing the royal decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in royal intitulation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0274: Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lithuania mentioned in royal intitulation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ruthenia mentioned in royal intitulation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0158: Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Prussia mentioned in royal intitulation."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0275: Mazovia",
+      "mention_texts": [
+        "Massoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mazovia mentioned in royal intitulation."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0276: Samogitia",
+      "mention_texts": [
+        "Samogitiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Samogitia mentioned in royal intitulation."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0277: Livonia",
+      "mention_texts": [
+        "Livoniaeque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Livonia mentioned in royal intitulation."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Suecorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sweden mentioned in royal intitulation."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kaskowicz",
+      "mention_texts": [
+        "Pauli Kaskowicz",
+        "Kaskowicz"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "eundem"
+      ],
+      "justification": "Citizen of Lviv who inscribed an obligation to Juditha."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "1500 florins",
+      "mention_texts": [
+        "mille quingentos florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the obligation mentioned in the text."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Mathias Jurij Grad",
+      "mention_texts": [
+        "Mathiam Jurij Grad"
+      ],
+      "descriptive_mentions": [
+        "Honorarium",
+        "Factes suos"
+      ],
+      "justification": "Procurator representing the actor Stanislaus Szemberk."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0248: Stanislaus Krasnicki",
+      "mention_texts": [
+        "Stanislaum Krasniski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Factes suos"
+      ],
+      "justification": "Procurator representing the cited defendant Juditha."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Rebalt",
+      "mention_texts": [
+        "Rebalti"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Person mentioned in reference to Stanislaus Szemberk."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaus Solemberk Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Josephi et Juditae Coniugum Vachmanow"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Josephi et Juditae Coniugum Vachmanow"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Juditham Vachtman Szatkowic Judeam Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Judelem Nachtman Judeum Isacharowicz Judeum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Pauli Kaskowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "partibus Actorae per Honorarium Mathiam Jurij Grad ... Factes suos"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Citata vero per Nobilem Stanislaum Krasniski Factes suos"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sigismundus Tertius Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E9",
+      "evidence": "Magnus Dux Lithuaniae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E10",
+      "evidence": "Magnus Dux ... Russiae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E11",
+      "evidence": "Magnus Dux ... Prussiae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E12",
+      "evidence": "Magnus Dux ... Massoviae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E13",
+      "evidence": "Magnus Dux ... Samogitiae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E14",
+      "evidence": "Magnus Dux ... Livoniaeque"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E15",
+      "evidence": "necnon Suecorum Gotthorum Vandalorumque Haereditarius Rex"
+    }
+  ]
+}

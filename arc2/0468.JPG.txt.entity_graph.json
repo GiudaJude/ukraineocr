@@ -1,0 +1,114 @@
+{
+  "document_id": "arc2/0468.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio",
+        "offitij"
+      ],
+      "justification": "The city council office and its notary before which the legal documents were presented."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensium",
+        "Camenecensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the context of the customs officials and council acts of Kamieniec."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Chocim",
+      "mention_texts": [
+        "Chocinensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Khotyn/Chocim mentioned in the recognition of its magister."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachiae",
+        "Valachia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Wallachia mentioned as the region where merchants were detained and disturbances occurred."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regnum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kingdom of Poland mentioned as the destination of returning merchants."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Moyses",
+      "mention_texts": [
+        "Moysis",
+        "Moyses"
+      ],
+      "descriptive_mentions": [
+        "unius Judaei ex citatis",
+        "idem",
+        "Judaei"
+      ],
+      "justification": "Moses, a Jewish merchant cited in the case regarding his written obligation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "The King of Poland mentioned with reference to the royal decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "anni 93."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1593 mentioned regarding the contribution deadline."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannem Lukasowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem et Exlocatorem suum"
+      ],
+      "justification": "Joannes Łukaszowicz appearing as tutor and legal representative of Moses."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "per tutorem et Exlocatorem suum Famatum Joannem Lukasowicz"
+    }
+  ]
+}

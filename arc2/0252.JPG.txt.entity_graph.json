@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/0252.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis istius Leopoliensis",
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "The document specifies that the legal action and inspection took place in Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post\nfestum Sanctissimae Trinitatis Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The record is dated on the Monday after Trinity Sunday in the year 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Brokowski",
+      "mention_texts": [
+        "Brokowski",
+        "Stanislai Ostrowski",
+        "Stanislao Brokowski"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Generosi",
+        "obligatarii",
+        "idem Generosus",
+        "Generoso",
+        "eidem Generoso"
+      ],
+      "justification": "The noble who held rights as an obligatee to the Uliczinska house and requested the scabinal inspection and record entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Vaterdorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Locum Ordinarii Advocati Leopoliensis tenens"
+      ],
+      "justification": "Acting advocate of Lviv who conducted the inspection of the townhouse."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Klarowicz",
+      "mention_texts": [
+        "Andreas\nKlarowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabini Jurati Leopolienses"
+      ],
+      "justification": "Lviv sworn bencher who participated in the inspection."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fredericus Gallus"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Leopolienses"
+      ],
+      "justification": "Lviv sworn bencher who participated in the inspection."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Felicitas Uliczinska",
+      "mention_texts": [
+        "Felicitatis Uliczinska"
+      ],
+      "descriptive_mentions": [
+        "Disclamantis"
+      ],
+      "justification": "Owner of the inspected townhouse who lodged a formal protest (disclamatio)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Uliczinska House",
+      "mention_texts": [
+        "Uliczinska"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas",
+        "praefatam domum",
+        "eandem do-\nmum",
+        "domum"
+      ],
+      "justification": "The stone townhouse in Market Square being inspected for structural damage."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The central square in Lviv where the inspected townhouse was located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0004: Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobi Wiebkowski",
+        "Wieszkowski"
+      ],
+      "descriptive_mentions": [
+        "Olim",
+        "Consulis Leopoliensis"
+      ],
+      "justification": "Deceased former consul of Lviv whose neighboring house bordered the inspected building."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Gutterowska House",
+      "mention_texts": [
+        "Gutterowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas caenobios",
+        "lapideam"
+      ],
+      "justification": "The neighboring townhouse bordering the inspected building on the other side."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Solembek",
+      "mention_texts": [
+        "Stanislai Solembek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "officiose citati"
+      ],
+      "justification": "Officially cited party present for the registration of the inspection report."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Advocati Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Hypocausto Officium",
+        "idem Officium",
+        "Actis nostris"
+      ],
+      "justification": "The municipal authority and registry under whose auspices the inspection and entry into the court records took place."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "holds_office",
+      "tail_entity_id": "E13",
+      "evidence": "Martinus Vaterdorff Locum Ordinarii Advocati Leopoliensis tenens"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "holds_office",
+      "tail_entity_id": "E13",
+      "evidence": "Andreas Klarowicz et Fredericus Gallus Scabini Jurati Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "holds_office",
+      "tail_entity_id": "E13",
+      "evidence": "Fredericus Gallus Scabini Jurati Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "holds_office",
+      "tail_entity_id": "E13",
+      "evidence": "Jacobi Wiebkowski Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "descenderunt in praefatam domum in circulo Civitatis istius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in circulo Civitatis istius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "property_owner_of",
+      "tail_entity_id": "E8",
+      "evidence": "domos lapideas Uliczinska obligatarii"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "holds_rights_to",
+      "tail_entity_id": "E8",
+      "evidence": "Generosi Stanislai Ostrowski ut domos lapideas Uliczinska obligatarii"
+    }
+  ]
+}

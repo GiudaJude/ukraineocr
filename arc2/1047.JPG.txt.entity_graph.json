@@ -1,0 +1,108 @@
+{
+  "document_id": "arc2/1047.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in 'Actis Regni' and 'Tribunalis Regni'"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublinensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lublin mentioned in 'Regni Lublinensis' and 'Tribunalis Regni Lublinensis'"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in 'Iura Leopoliensis' and 'Officio Civili Leopoliensi'"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Officio Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Iudicij banniti fori sui",
+        "Officio Civili",
+        "foro Civili"
+      ],
+      "justification": "Lviv civil/banned court before which the case was previously conducted"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Crown Tribunal",
+      "mention_texts": [
+        "Tribunalis Regni",
+        "Tribunalis Regni Lublinensis"
+      ],
+      "descriptive_mentions": [
+        "Iudicio praesenti Generali Tribunalis Regni",
+        "Iudicio praesenti Generali",
+        "Iudicium praesens Generale Tribunalis Regni Lublinensis",
+        "Iudicio his Generali",
+        "foroque praesenti",
+        "praesenti Iudicio"
+      ],
+      "justification": "Crown Tribunal in Lublin presiding over the present proceedings"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Gurski",
+      "mention_texts": [
+        "Martinum Gurski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Plenipotentes suos"
+      ],
+      "justification": "Noble serving as plenipotentiary for the actor/plaintiff party"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Melchior Mlibabowski",
+      "mention_texts": [
+        "Melchiorem Mlibabowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Plenipotentes suos"
+      ],
+      "justification": "Noble serving as plenipotentiary for the cited/defendant party"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in Officio Civili Leopoliensi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Iudicium praesens Generale Tribunalis Regni Lublinensis"
+    }
+  ]
+}

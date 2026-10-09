@@ -1,0 +1,329 @@
+{
+  "document_id": "arc2/1303.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "feria quarta post festum Sancti Bartholomaei proxima",
+      "mention_texts": [
+        "feria quarta post festum S. Bartholo- maei proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the decree mentioned in the opening sentence of the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Fabi- nali",
+        "Judici- is Expositis Bannitis Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Judicio"
+      ],
+      "justification": "The banned/scabinal civil court of Lviv before which the proceedings and execution occurred."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis",
+        "Civitatis",
+        "Civis Leopoliensis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis"
+      ],
+      "justification": "City context appearing across multiple municipal offices and citizen designations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio eiusdem Civitatis Ha- liciense"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "The Halych suburb of Lviv where the disputed property is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Georgius Zabora",
+      "mention_texts": [
+        "Georgij Zabora",
+        "Georgio Zabora",
+        "Zabora"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "lanij Suburbani Leopoliensis",
+        "praefato",
+        "eodem"
+      ],
+      "justification": "Suburban butcher debtor whose house is subjected to legal execution."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Siatka Rzymek",
+      "mention_texts": [
+        "Siatka Rzymek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Area or neighborhood in the Halych suburb named 'Siatka Rzymek' where the house is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Justinian Kulikowski",
+      "mention_texts": [
+        "Joannes Ju- stinian Kulikowski"
+      ],
+      "descriptive_mentions": [
+        "Providorum"
+      ],
+      "justification": "Neighbor owning a neighboring house on one side of Zabora's property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Petrus Piwowar",
+      "mention_texts": [
+        "Zetri Piwowar"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Neighbor whose heirs own the adjoining property on the other side."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "78 Polish florins",
+      "mention_texts": [
+        "Florenorum Septuaginta octo pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt being executed upon the house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Henric",
+      "mention_texts": [
+        "Francisci Henric",
+        "Henric"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "olim",
+        "Civis Leopoliensis",
+        "praefatam"
+      ],
+      "justification": "Deceased burgher creditor to whom the original debt was owed."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gwilinski"
+      ],
+      "descriptive_mentions": [
+        "sponso",
+        "Collega moderno Consulari"
+      ],
+      "justification": "Current city councilor who stood surety/caution for Zabora."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Paulus Pisorski",
+      "mention_texts": [
+        "Paulo Pisorski"
+      ],
+      "descriptive_mentions": [
+        "Generoso"
+      ],
+      "justification": "Noble who had received cession/donation of the debt claim."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Andreas Morawski",
+      "mention_texts": [
+        "Andre- ae Morawski",
+        "Andreas Mo- rawski"
+      ],
+      "descriptive_mentions": [
+        "Fato",
+        "Officiosi cordecessi",
+        "praefati Cessionarii",
+        "eidem cessionario",
+        "idem"
+      ],
+      "justification": "Cessionary who obtained execution and registration of the report into the council acts."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council register into which the resignation and report are recorded."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrocziski"
+      ],
+      "descriptive_mentions": [
+        "Generosus D.",
+        "Ad- vocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate of Lviv appearing in the second entry."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sesek",
+      "mention_texts": [
+        "Jacobus Sesek"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn bench officer (scabinus) of Lviv reporting on the property action."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamus Smaszek"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn scabinus of Lviv appearing alongside the advocate."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Gabriel Rucki",
+      "mention_texts": [
+        "Gabriel Rucki"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scrinarii Senioris",
+        "Civis Leopoliensis",
+        "Creditoris"
+      ],
+      "justification": "Senior joiner and burgher of Lviv acting as creditor."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Baran",
+      "mention_texts": [
+        "Valentini olim Baran"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "olim",
+        "Zistorum Suburbanorum Leopoliensium"
+      ],
+      "justification": "Deceased suburban resident named among the debtors."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lybaczek",
+      "mention_texts": [
+        "Joanni Lybaczek"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Zistorum Suburbanorum Leopoliensium"
+      ],
+      "justification": "Suburban resident named among the debtors."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "Martinus Koskowic",
+      "mention_texts": [
+        "Martini Koskowic"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Zistorum Suburbanorum Leopoliensium"
+      ],
+      "justification": "Suburban resident named among the debtors."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "has_residence",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Georgij Zabora lanij Suburbani Leopoliensis in Suburbio eiusdem Civitatis Ha- liciense"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E14",
+      "evidence": "Gwilinski Collega moderno Consulari"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Gregorius Dobrocziski Ad- vocatus Ordinarius ... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honorati Jacobus Sesek et Adamus Smaszek Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honorati Jacobus Sesek et Adamus Smaszek Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "is_creditor_of",
+      "tail_entity_id": "E19",
+      "evidence": "Gabriel Rucki Scrinarii Senioris Civis Leopoliensis uti Creditoris Hone- storum Valentini olim Baran"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "is_creditor_of",
+      "tail_entity_id": "E20",
+      "evidence": "Gabriel Rucki Scrinarii Senioris Civis Leopoliensis uti Creditoris Hone- storum Valentini olim Baran, Joanni Lybaczek"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "is_creditor_of",
+      "tail_entity_id": "E21",
+      "evidence": "Gabriel Rucki Scrinarii Senioris Civis Leopoliensis uti Creditoris Hone- storum Valentini olim Baran, Joanni Lybaczek, et Martini Koskowic"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0642.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0040: Antonius Frackowic",
+      "mention_texts": [
+        "Antonium Frączkowicz"
+      ],
+      "descriptive_mentions": [
+        "Consulem Cracoviensem",
+        "Plenipotenti",
+        "mandatarioque suo",
+        "Plenipotentem suum"
+      ],
+      "justification": "Appointed plenipotentiary and consul of Kraków authorized to collect the debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobo Szolcz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Scabino Leopoliensi",
+        "praenominato debitore suo",
+        "Scabino ac Mercatore Leopoliensi"
+      ],
+      "justification": "Debtor, merchant, and scabinus of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gelatinus",
+      "mention_texts": [
+        "Joanni Gelatino"
+      ],
+      "descriptive_mentions": [
+        "Civi Cracoviensi",
+        "principali suo",
+        "constituens",
+        "ipsemet constituens"
+      ],
+      "justification": "Principal creditor and citizen of Kraków who issued the power of attorney."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Ladislaus Gronek",
+      "mention_texts": [
+        "Ladislaus Gronek"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Cracoviensis Notarius",
+        "Notarius"
+      ],
+      "justification": "Notary of the city of Kraków."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensem",
+        "Cracoviensibus",
+        "Cracoviensi",
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Kraków where the procuration was drawn up and registered."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, associated with the debtor Jacobus Scholz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "quingentorum Florenorum",
+        "Florenorum quingentorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount of the debt collected."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595",
+        "anni currentis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1595 in which the acts were transacted."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Dans eidem Plenipotenti mandatarioque suo plenam omnimodamque facultatem et potestatem summam hanc a praenominato debitore suo ... debiti praedicto Joanni Gelatino Civi Cracoviensi principali suo"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Antonium Frączkowicz Consulem Cracoviensem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Jacobo Szolcz Scabino Leopoliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joanni Gelatino Civi Cracoviensi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Ladislaus Gronek Civitatis Cracoviensis Notarius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_to",
+      "tail_entity_id": "E3",
+      "evidence": "summam Florenorum quingentorum debiti praedicto Joanni Gelatino Civi Cracoviensi principali suo ... ab Honesto Jacobo Szolcz"
+    }
+  ]
+}

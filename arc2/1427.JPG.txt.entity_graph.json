@@ -1,0 +1,265 @@
+{
+  "document_id": "arc2/1427.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quinta ante festum S. Stanislai Martyris Anno Domini 1596",
+        "feria quarta post S. Margaretae Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Primary dating clause and internal cross-reference date."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "civitatis"
+      ],
+      "justification": "City where the legal proceedings took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Camera Officii nostri",
+        "ijsdem actis"
+      ],
+      "descriptive_mentions": [
+        "Officii nostri"
+      ],
+      "justification": "Municipal court and administrative office issuing decrees and holding deposited funds."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensem",
+        "Haliciensis"
+      ],
+      "descriptive_mentions": [
+        "suburbanae"
+      ],
+      "justification": "Suburb of Lviv mentioned in residences and property location."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Martinus Młynarczyk",
+      "mention_texts": [
+        "Martinum Mlynarczyk"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Suburbanum Haliciensem Leopoliensem",
+        "sartorem",
+        "Actorem",
+        "Actori"
+      ],
+      "justification": "Plaintiff tailor residing in the Halych Suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Florianus Szostakowski",
+      "mention_texts": [
+        "Flori- anum Szostakowski"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Eundem Suburbanum",
+        "citatum",
+        "praedictus citatus"
+      ],
+      "justification": "Defendant residing in the Halych Suburb ordered to pay a debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zaprecki",
+      "mention_texts": [
+        "Joannes Zaprecki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "successor pro rata parte"
+      ],
+      "justification": "Noble successor appearing to acknowledge debt receipt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Sanok District",
+      "mention_texts": [
+        "Sanoci- ensi"
+      ],
+      "descriptive_mentions": [
+        "Districtu"
+      ],
+      "justification": "District from which Joannes Zaprecki originates."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lucas Zakrzewski",
+      "mention_texts": [
+        "Lucae Zakrzewsky"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "olim"
+      ],
+      "justification": "Deceased predecessor whose succession is being settled."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wayz",
+      "mention_texts": [
+        "Joannis Wayz",
+        "Joannem Wayz",
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "olim",
+        "Scabinum Leopoliensem"
+      ],
+      "justification": "Deceased Lviv scabinus whose estate owes money to the successors of Lucas Zakrzewski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Wayz",
+      "mention_texts": [
+        "Stanislaum Wayz",
+        "Wayz"
+      ],
+      "descriptive_mentions": [
+        "praefatum",
+        "successori"
+      ],
+      "justification": "Heir of Joannes Wayz paying debt portions to Joannes Zaprecki."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0002: 36 Polish florins",
+      "mention_texts": [
+        "triginta sex florenorum",
+        "triginta sex florenorum et grossorum viginti sex"
+      ],
+      "descriptive_mentions": [
+        "debiti civitatis Polonicalis debiti"
+      ],
+      "justification": "Debt amount involved in the decree between Młynarczyk and Szostakowski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal debt amount owed by the late Joannes Wayz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "230 florins",
+      "mention_texts": [
+        "ducentorum et triginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total sum collected and acknowledged by Joannes Zaprecki."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "florenos centum quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum received from the Council chamber from the sale of suburban property."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0221: CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "Florenos vero octoginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum handed over directly by Stanislaus Wayz."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "septuaginta florenos"
+      ],
+      "descriptive_mentions": [
+        "residuis florenis"
+      ],
+      "justification": "Remaining balance owed by the estate of Joannes Wayz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "resident of",
+      "tail_entity_id": "E4",
+      "evidence": "Martinum Mlynarczyk Suburbanum Haliciensem Leopoliensem sartorem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident of",
+      "tail_entity_id": "E4",
+      "evidence": "Flori- anum Szostakowski Eundem Suburbanum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor to",
+      "tail_entity_id": "E5",
+      "evidence": "Debet praedictus citatus debitum eiusmodi triginta sex florenorum quod libere agnoscit Actori dare"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident of",
+      "tail_entity_id": "E8",
+      "evidence": "Nobilis Joannes Zaprecki ex Districtu Sanoci- ensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal successor of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannes Zaprecki ex Districtu Sanoci- ensi tanquam successor pro rata parte Nobilis olim Lucae Zakrzewsky"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannem Wayz Scabinum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal successor of",
+      "tail_entity_id": "E10",
+      "evidence": "eidem successori Wayz restant"
+    }
+  ]
+}

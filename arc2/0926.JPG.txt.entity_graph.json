@@ -1,0 +1,196 @@
+{
+  "document_id": "arc2/0926.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where the act is recorded and citizens reside."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard reference back to the year and day established at the top of the session entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi",
+        "Officium praesens",
+        "officij",
+        "officio",
+        "idem Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office of Lviv before which the declaration and litigation take place."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Królikowski",
+      "mention_texts": [
+        "Joannes Krolikowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "famulus",
+        "eundem Nobilem petentem",
+        "Nobili Petitori"
+      ],
+      "justification": "Noble servant of the Vice-Chancellor who brings the action."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the Polish monarch Sigismund III Vasa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Moyses",
+      "mention_texts": [
+        "Judrey",
+        "Moyses"
+      ],
+      "descriptive_mentions": [
+        "infidelem Judaeum",
+        "Judaeum Constantinopolitanum",
+        "citatum",
+        "quem comparentem",
+        "citatus"
+      ],
+      "justification": "Jewish merchant from Constantinople summoned before the council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0294: Constantinople",
+      "mention_texts": [
+        "Constantinopolitanum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of the Jewish merchant Moyses."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "507 thalers",
+      "mention_texts": [
+        "Quingentorum et septem Talerorum",
+        "Quingentorum et septem talerorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount in thalers."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lakatonis",
+      "mention_texts": [
+        "Joannem Lakatonis"
+      ],
+      "descriptive_mentions": [
+        "Tutorem et Subtutelarem sibi assumptum",
+        "Famatum",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Citizen of Lviv acting as guardian for Moyses."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Piwocki",
+      "mention_texts": [
+        "Jacobo Piwocki"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Scabino et Cive Leopoliensi"
+      ],
+      "justification": "Lviv councilman/scabinus who issued the bond."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "2000 Polish florins",
+      "mention_texts": [
+        "duorum Millium Florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the bond issued by Jacobus Piwocki."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Piotrowiczkowska House",
+      "mention_texts": [
+        "Piotrowczka"
+      ],
+      "descriptive_mentions": [
+        "domus lapidea",
+        "celario domus lapidea"
+      ],
+      "justification": "Stonehouse cellar in Lviv where the Malmsey wine is stored."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "served",
+      "tail_entity_id": "E5",
+      "evidence": "Nobilis Joannes Krolikowski Regiae Maiestatis et Regni Poloniae Vicecancellarij famulus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "originates_from",
+      "tail_entity_id": "E8",
+      "evidence": "Judaeum Constantinopolitanum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannem Lakatonis Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobo Piwocki Scabino et Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "praefatus Moyses citatus per Tutorem et Subtutelarem sibi assumptum Famatum Joannem Lakatonis"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "document_id": "arc2/1195.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis",
+        "Leopolienis",
+        "Leopolienses",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis",
+        "suburbio"
+      ],
+      "justification": "Corpus place name mentioned repeatedly (walls, suburbs, citizens)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum",
+        "collegae nostri Consularis"
+      ],
+      "justification": "City council issuing and recording the official resignation/sale."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Conventus S. Francisci",
+        "Ordinis Sancti Francisci"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Religious order of St. Francis mentioned in heading and text."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Ecclesia Sanctae Crucis",
+      "mention_texts": [
+        "Ecclesiae Sanctae Crucis",
+        "Monasterij S. Crucis"
+      ],
+      "descriptive_mentions": [
+        "intra muros Leopolienses consistentis",
+        "praedictae Ecclesiae"
+      ],
+      "justification": "Church and monastery of the Holy Cross in Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Cyprianus Limorar",
+      "mention_texts": [
+        "Antonius",
+        "Cyprianus"
+      ],
+      "descriptive_mentions": [
+        "Religiosus Frater in Baptismate",
+        "in susceptione vero Regula",
+        "Subdiaconus",
+        "filius"
+      ],
+      "justification": "Friar selling hereditary property, baptized Antonius and professed as Cyprianus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Caspar Limorar",
+      "mention_texts": [
+        "Caspari Limorar"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Coniugum Suburbanorum Leopolienis",
+        "parentes olim suos"
+      ],
+      "justification": "Deceased father of Frater Cyprianus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Suburbanorum Leopolienis",
+        "parentes olim suos"
+      ],
+      "justification": "Deceased mother of Frater Cyprianus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Drzewiecki",
+      "mention_texts": [
+        "Gregory Drewzeweczy"
+      ],
+      "descriptive_mentions": [
+        "Dispensatoris eiusdem praedictae Ecclesiae et Monasterij S. Crucis"
+      ],
+      "justification": "Dispensator of the monastery and church of the Holy Cross."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0320: PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simonem Zięroth"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem ad eum actum assumptum"
+      ],
+      "justification": "Tutor assisting the monk during the legal transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-1069: Andreas Dąbrowski",
+      "mention_texts": [
+        "Andrea Dąbrowski Sambor"
+      ],
+      "descriptive_mentions": [
+        "collegae nostri Consularis"
+      ],
+      "justification": "Lviv councilor possessing adjacent property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sobleskatos",
+      "mention_texts": [
+        "Stanislae Sobleskatos"
+      ],
+      "descriptive_mentions": [
+        "Successorum"
+      ],
+      "justification": "Deceased neighbor whose successors own bordering property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Szumnik",
+      "mention_texts": [
+        "Bartholomeo Szumnik",
+        "Bartholomeus Szumnytk"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Molendinatori",
+        "coniugibus",
+        "Emptoribus"
+      ],
+      "justification": "Miller purchasing the house and garden."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Emptoribus"
+      ],
+      "justification": "Wife of Bartholomaeus Szumnik, co-buyer."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesti olim Caspari Limorar et Barbarae Coniugum Suburbanorum Leopolienis filius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesti olim Caspari Limorar et Barbarae Coniugum Suburbanorum Leopolienis filius"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesti olim Caspari Limorar et Barbarae Coniugum Suburbanorum Leopolienis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Bartholomeo Szumnik Molendinatori et Sophiae coniugibus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "per Famatum Simonem Zięroth tutorem ad eum actum assumptum"
+    }
+  ]
+}

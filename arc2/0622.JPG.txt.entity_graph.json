@@ -1,0 +1,245 @@
+{
+  "document_id": "arc2/0622.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Iam Sancti Martini Episcopi Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry at the top of the record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szwankowski",
+      "mention_texts": [
+        "Swantkowic",
+        "Joannes Szwankowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "ipsi"
+      ],
+      "justification": "Noble who presented the royal privilege before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacram Regiam Maiestatem",
+        "Sigismundus tertius"
+      ],
+      "descriptive_mentions": [
+        "Domini Domini Clementissimi",
+        "Regiae Sancti",
+        "Rex Poloniae",
+        "Magnus Dux Lithuaniae, Russiae, Prussiae, Mazoviae, Samogitiae, Livoniaeque",
+        "Suecorum, Gottorum, Vandalorumque Rex haereditarius"
+      ],
+      "justification": "King of Poland who granted the privilege."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta nostra Consularia",
+        "officio nostro",
+        "Actis praesentibus",
+        "Actis nostris publicis"
+      ],
+      "descriptive_mentions": [
+        "nobis",
+        "Nos"
+      ],
+      "justification": "Lviv city consular office receiving the registration of the privilege."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "Sabbato post Dominicam Rogatitionum proximo Anno 1594",
+        "Anno 1594"
+      ],
+      "descriptive_mentions": [
+        "proxime praeterito"
+      ],
+      "justification": "Date of prior entry in consular records."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Fraternitas Ruthenorum Catholica",
+      "mention_texts": [
+        "Fraternitate Rutorum Catholica"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Confraternity/fraternity to be founded and instructed according to the royal privilege."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitate Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the fraternity is to be established."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom mentioned in the royal title."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0274: Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Grand Duchy mentioned in the royal title."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Duchy/realm mentioned in the royal title."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0158: Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Duchy/realm mentioned in the royal title."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0275: Mazovia",
+      "mention_texts": [
+        "Mazoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Duchy/realm mentioned in the royal title."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0276: Samogitia",
+      "mention_texts": [
+        "Samogitiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Duchy/realm mentioned in the royal title."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0277: Livonia",
+      "mention_texts": [
+        "Livoniaeque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Realm mentioned in the royal title."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Suecorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom mentioned in the royal title."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "appeared_before",
+      "tail_entity_id": "E4",
+      "evidence": "Comparens personaliter Nobilis Joannes Szwankowski ... palam libereque obtulit officio nostro"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "granted_privilege_to",
+      "tail_entity_id": "E2",
+      "evidence": "Priusquid Privilegio per eandem Sacram Regiam Maiestatem ipsi concesso"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "de fundanda et instruenda Fraternitate Rutorum Catholica in ea Civitate Leopoliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sigismundus tertius Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E9",
+      "evidence": "Magnus Dux Lithuaniae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E10",
+      "evidence": "Magnus Dux Lithuaniae, Russiae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E11",
+      "evidence": "Magnus Dux ... Prussiae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E12",
+      "evidence": "Magnus Dux ... Mazoviae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E13",
+      "evidence": "Magnus Dux ... Samogitiae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E14",
+      "evidence": "Magnus Dux ... Livoniaeque"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "ruler_of",
+      "tail_entity_id": "E15",
+      "evidence": "Suecorum, Gottorum, Vandalorumque Rex haereditarius"
+    }
+  ]
+}

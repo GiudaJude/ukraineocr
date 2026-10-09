@@ -1,0 +1,89 @@
+{
+  "document_id": "arc2/1453.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in 'Ciui Leopoliensi'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo S. Michaelis Archangeli",
+        "S. Michaelis",
+        "Festum S. Michaelis"
+      ],
+      "descriptive_mentions": [
+        "festitate"
+      ],
+      "justification": "Feast of Saint Michael Archangel specified as payment and contract term."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "159 septimo",
+        "Anni 159 septimi"
+      ],
+      "descriptive_mentions": [
+        "Anno proxime sequenti",
+        "Futuro"
+      ],
+      "justification": "Year 1597 specified in 'Anno proxime sequenti 159 septimo Futuro' and 'Anni 159 septimi'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenorum sexaginta"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Sum of sixty florins specified as debt obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "platea Cracouiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków Street in Lviv where the mortgaged house is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Georgius Rozendorph",
+      "mention_texts": [
+        "Georgij Rozendorph",
+        "Georgant"
+      ],
+      "descriptive_mentions": [
+        "praefati"
+      ],
+      "justification": "Person giving personal consent to the contract conditions."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "actis praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal books/office into which the intercisa is inscribed."
+    }
+  ],
+  "relationships": []
+}

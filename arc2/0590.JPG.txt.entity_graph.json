@@ -1,0 +1,95 @@
+{
+  "document_id": "arc2/0590.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis",
+        "Officij Consularis Leopoliensis",
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "officium illud",
+        "hoc idem Officium Consulare Leopoliense"
+      ],
+      "justification": "The municipal council of Lviv whose previous decree was appealed and to which the case is remanded."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae",
+        "R. P."
+      ],
+      "descriptive_mentions": [
+        "Regnorum meorum"
+      ],
+      "justification": "Mentioned in the royal dating formula ('Regnorum meorum Poloniae octavo') and in the title of the Crown Vice-Chancellor ('R. P. Vicecancellarius')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal dating formula ('Sueciae secundo')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "sabbato post Festum Sancti Viti proximo. Anno Domini 1595.",
+        "ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date on which the decree was issued and recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joan Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "R. P. Vicecancellarius",
+        "R. P. Vicecancellarij"
+      ],
+      "justification": "Vice-Chancellor of the Crown who signs and issues the royal decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned among the titles/ecclesiastical dignities associated with the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulus Szrzebicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Paulus Szczerbic, signatory/certifier on the decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E2",
+      "evidence": "Joan Tarnowski nowski R. P. Vicecancellarius"
+    }
+  ]
+}

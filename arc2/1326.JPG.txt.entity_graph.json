@@ -1,0 +1,198 @@
+{
+  "document_id": "arc2/1326.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lwów referenced as a location of property and former residence."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date concluding the preceding registration entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officia",
+        "Officij"
+      ],
+      "justification": "Lviv City Council issuing the judicial decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Moyses Casen",
+      "mention_texts": [
+        "Moysem Casen",
+        "Maioris Lyschen"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Judeum Samborensem",
+        "actorem",
+        "praefatus ... actor",
+        "actor"
+      ],
+      "justification": "Jewish plaintiff from Sambor in the debt case."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Samborensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of Sambor, origin of plaintiff Moyses Casen."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Teodor Kłosowski",
+      "mention_texts": [
+        "Foedrei Klosowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Procuratorem suum actorem"
+      ],
+      "justification": "Nobleman serving as legal procurator for Moyses Casen."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Antonius Gabrello",
+      "mention_texts": [
+        "Antonium Gabrello"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Graecum",
+        "quondam Leopoliensis",
+        "citatum",
+        "citato"
+      ],
+      "justification": "Greek former resident of Lviv summoned as defendant in the case."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kryszecki",
+      "mention_texts": [
+        "Joannem Kryszecki"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Procuratorem suum infrascripta expedientem"
+      ],
+      "justification": "Procurator representing Antonius Gabrello."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "120 Polish florins",
+      "mention_texts": [
+        "centum viginti Florenos rum",
+        "centum viginti Florenorum pecuniae Polonicalis",
+        "centum viginti Floren-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 120 florins in dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "220 Polish florins",
+      "mention_texts": [
+        "ducentorum et viginti Florenorum",
+        "ducentorum viginti Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Original debt principal of 220 florins."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Sambor City Council",
+      "mention_texts": [
+        "Acta Consularia Samborienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular records of the city of Sambor where the arbitration was registered."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szniczyński",
+      "mention_texts": [
+        "D. Pauli",
+        "Pauli Szniczynski"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "Nobilis",
+        "Exconsulis"
+      ],
+      "justification": "Former consul before whom the case was previously negotiated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 100 florins received by the plaintiff."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Moysem Casen Judeum Samborensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "represented_by",
+      "tail_entity_id": "E6",
+      "evidence": "Moysem Casen Judeum Samborensem per Nobilem Foedrei Klosowski Procuratorem suum actorem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Antonium Gabrello Graecum quondam Leopoliensis citatum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "represented_by",
+      "tail_entity_id": "E8",
+      "evidence": "Antonium Gabrello ... per Honestum Joannem Kryszecki Procuratorem suum infrascripta expedientem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Pauli Szniczynski cui tam tempore Exconsulis apud cuius Officia causa haec primum agitata fuerat"
+    }
+  ]
+}

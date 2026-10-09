@@ -1,0 +1,196 @@
+{
+  "document_id": "arc2/0036.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Staszowna",
+      "mention_texts": [
+        "Hedvigis Staszowna",
+        "Hedvigim",
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "consorte sua praedicta",
+        "praefatae",
+        "consortes ipsius",
+        "consortem suam"
+      ],
+      "justification": "Wife of Blasius and widow of Martinus Mankowic, whose maternal and reform assets are being ceded."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Mankowic",
+      "mention_texts": [
+        "Martini Mankowic"
+      ],
+      "descriptive_mentions": [
+        "olim Famati",
+        "Famati olim",
+        "fratris",
+        "mariti"
+      ],
+      "justification": "Deceased first husband of Hedvigis Staszowna whose estate and debts are referenced."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Blasius Apothecarius",
+      "mention_texts": [
+        "Blasium",
+        "Blasius",
+        "Blasius Apothecarius"
+      ],
+      "descriptive_mentions": [
+        "consortes ipsius",
+        "praefatus recognoscens"
+      ],
+      "justification": "Current husband of Hedvigis Staszowna who issues the formal cession before the court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Ludwig",
+      "mention_texts": [
+        "Jacobo Ludwig"
+      ],
+      "descriptive_mentions": [
+        "Honorato Domino",
+        "Scabino Iuxta supremum Castri Cracoviensis",
+        "tanquam vero et legitimo Creditori",
+        "praefato Domino",
+        "cessionarium suum"
+      ],
+      "justification": "Kraków castle scabinus and creditor of the late Martinus Mankowic receiving the property cession."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Mazga",
+      "mention_texts": [
+        "Joannes Mazga"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the marginal notation of the new act."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Felix Redecka",
+      "mention_texts": [
+        "Felix Redecka"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Figulus Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburban potter appearing in person to register a declaration."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Przemyśl",
+      "mention_texts": [
+        "Praemisliae",
+        "Praemisliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the referenced 1579 scabinal deed was issued."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Rabsztyn",
+      "mention_texts": [
+        "Rabsztin"
+      ],
+      "descriptive_mentions": [
+        "Ciuitate",
+        "extra Ciuitatem"
+      ],
+      "justification": "Town where the estate of late Martinus Mankowic was located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Poznań",
+      "mention_texts": [
+        "Posnaniensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City whose customs and plebiscites governed the third share of the estate."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "Castri"
+      ],
+      "justification": "City whose supreme castle court had Jacobus Ludwig as scabinus."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act was recorded and where Felix Redecka resided."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "12 January 1579",
+      "mention_texts": [
+        "feria secunda infra Octauas Sanctorum Trium Regum Anno Domini 1579"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous scabinal act from Przemyśl."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "25 January 1595",
+      "mention_texts": [
+        "feria quarta ipsa die Conuersionis Sancti Pauli Apostoli Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recording of the new act in Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Martini Mankowic praefatae Hedvigis primarum nuptiarum mariti"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "inter Blasium et Hedvigim consortes ipsius concernen"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "creditor_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jacobo Ludwig Scabino Iuxta supremum Castri Cracoviensis tanquam vero et legitimo Creditori Famati olim Martini Mankowic"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestus Felix Redecka Figulus Suburbanus Leopoliensis"
+    }
+  ]
+}

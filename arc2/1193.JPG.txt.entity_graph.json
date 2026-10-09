@@ -1,0 +1,110 @@
+{
+  "document_id": "arc2/1193.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szumlaw-Simonowic",
+      "mention_texts": [
+        "Stanislai Szumlaw-\nSimonowic"
+      ],
+      "descriptive_mentions": [
+        "Scabini",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Identified as a Lviv citizen and scabinus who drafted and sealed the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the citizenship descriptor of Stanislaus Szumlaw-Simonowic."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Simonowiczowska House",
+      "mention_texts": [
+        "Simonowiczka"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Stone townhouse identified by name where the annual rent quitclaim was issued."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actisque praesentibus"
+      ],
+      "justification": "Official municipal registry and council office where the record was entered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Krzeszowicz",
+      "mention_texts": [
+        "KRZESZOWICZ"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deceased individual whose post-mortem accounts are recorded in the document."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Rowicki",
+      "mention_texts": [
+        "Christopherus Rowicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "famulus",
+        "Mandans"
+      ],
+      "justification": "Noble servant and agent personally appearing to make a declaration."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Brzedzecki",
+      "mention_texts": [
+        "Andreae Brzedzecki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble principal on whose behalf Christopherus Rowicki serves and acts."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Felix Caspar Brzeszowski",
+      "mention_texts": [
+        "Faelicis Casparis Brzeszowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual possessing the booth or shed mentioned in the testimony."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislai Szumlaw-\nSimonowic Scabini Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "servant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Christopherus Rowicki famulus\net Mandans Nobilis Andreae Brzedzecki"
+    }
+  ]
+}

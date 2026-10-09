@@ -1,0 +1,161 @@
+{
+  "document_id": "arc2/0815.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City name mentioned in the judicial heading and the dating formula."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Domini Advocati Leopoliensis",
+        "Domini Advocati",
+        "Officio praedicto Domini Advocati"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "Advocatial court/office mentioned as the court of first instance in the appeal."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "Officii"
+      ],
+      "justification": "Lviv City Council/Consular office hearing the appeal and recording the subsequent recognizance."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "1596-01-22",
+      "mention_texts": [
+        "feria secunda post festum Sanctae Agnetis Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded legal act (Monday after St. Agnes 1596)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Śliwiński",
+      "mention_texts": [
+        "Albertus Sliwinski",
+        "Maga",
+        "Szemiaroski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "eundem maritum tutorem suum legitimum",
+        "ille",
+        "Coniuges",
+        "se",
+        "recognoscentes"
+      ],
+      "justification": "Debtor recognizing a loan obligation together with his wife."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Ziolkowna"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "haec",
+        "recognoscentes"
+      ],
+      "justification": "Matches known person PER-0026: Anna (with variant alias Anna Ziołkowska)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "34 Polish florins",
+      "mention_texts": [
+        "Florenos Triginta quatuor",
+        "triginta quatuor Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount of debt acknowledged in the obligation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Simonowicz",
+      "mention_texts": [
+        "Paulus Simonowic",
+        "Paulo Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Notario",
+        "praeheredi Domini Joannis Woysnarowicz Collegae sui Consularis"
+      ],
+      "justification": "Creditor and town notary to whom the money is owed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wojnarowicz",
+      "mention_texts": [
+        "Joannis Woysnarowicz"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Collegae sui Consularis"
+      ],
+      "justification": "Deceased city councillor whose heir is Paulus Simonowicz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "1596-03-24",
+      "mention_texts": [
+        "Dominica Laetare Quadragesimali in Anno currenti proxime ventura"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for payment of the debt (Laetare Sunday in 1596)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestus Albertus Sliwinski alias Maga dictus Szemiaroski Balatridis Luctua et Anna Ziolkowna Coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor to",
+      "tail_entity_id": "E8",
+      "evidence": "recognoverunt se debere et teneri certi veri iusti liquidique debiti ex causa mutui contracti Florenos Triginta quatuor per et numeri Polonicalis Generoso Paulo Simonowicz"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor to",
+      "tail_entity_id": "E8",
+      "evidence": "recognoverunt se debere et teneri certi veri iusti liquidique debiti ex causa mutui contracti Florenos Triginta quatuor per et numeri Polonicalis Generoso Paulo Simonowicz"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "heir of",
+      "tail_entity_id": "E9",
+      "evidence": "Paulo Simonowicz Notario praeheredi Domini Joannis Woysnarowicz"
+    }
+  ]
+}

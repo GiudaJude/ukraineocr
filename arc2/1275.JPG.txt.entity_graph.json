@@ -1,0 +1,119 @@
+{
+  "document_id": "arc2/1275.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-4166: Nicolaus Raczka",
+      "mention_texts": [
+        "Nicolao Raczka",
+        "Nicolaus Raczka"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "eundem",
+        "eidem",
+        "ipse",
+        "posteros illius",
+        "idem",
+        "dictus",
+        "tamquam heres bonorum",
+        "illiusque posteros",
+        "persona"
+      ],
+      "justification": "Appears repeatedly as the buyer/party receiving satisfaction and rights to the estate, identified as 'Nicolao Raczka' and 'Nicolaus Raczka'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetem Kaczmirska"
+      ],
+      "descriptive_mentions": [
+        "Relictam",
+        "olim"
+      ],
+      "justification": "Identified as the late widow 'Relictam olim Agnetem Kaczmirska' who previously recognized a sum of fifty florins."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Tarnawski",
+      "mention_texts": [
+        "Stanislao Tarnawski"
+      ],
+      "descriptive_mentions": [
+        "Fratri",
+        "olim"
+      ],
+      "justification": "Named as the late brother 'olim Stanislao Tarnawski' to whom Agnes recognized the sum of fifty florins."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kaczkorowski",
+      "mention_texts": [
+        "Joannes Kaczkorowski"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "recens",
+        "fassus"
+      ],
+      "justification": "Identified as 'praedicti Joannes Kaczkorowski', making the formal cession and admitting Nicolaus Raczka into possession."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenos quinquaginta",
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summae",
+        "summa"
+      ],
+      "justification": "Mentioned as 'Florenos quinquaginta' and 'quinquaginta florenorum' recognized by Agnes Kaczmirska."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv, referenced in 'Civitatis Leopoliensis' and 'Civitatis'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis iisdem",
+        "Officio nostro"
+      ],
+      "justification": "The consular recording office before which Nicolaus Raczka personally registered ('coram Officio nostro') and in whose records ('Actis iisdem') the entry exists."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Relictam olim Agnetem Kaczmirska eidem Fratri olim Stanislao Tarnawski Florenos quinquaginta recognovisse"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "transacted_with",
+      "tail_entity_id": "E1",
+      "evidence": "praedicti Joannes Kaczkorowski et recens eidem Nicolao Raczka fassus illiusque posteros in praefatum praedium intromissionem possessionem realemque cum usufructu expresserunt"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/1190.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "1597."
+      ],
+      "descriptive_mentions": [
+        "imo futuro"
+      ],
+      "justification": "Year specified in the lease contract expiration."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day on which the lease contract was set to expire."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Factor",
+      "mention_texts": [
+        "Bartholomaeo Factore"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "conductore eodem altero",
+        "conductore nouo",
+        "praefato"
+      ],
+      "justification": "Party involved in the new lease contract for the stone house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Ducentorum florenos"
+      ],
+      "descriptive_mentions": [
+        "summam pecuniae"
+      ],
+      "justification": "Sum of money offered in substitution for the contract."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "officij",
+        "Officium Consulare Leopoliense",
+        "officium praesens"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council ruling on the contract dispute and handling the royal remission."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "sexaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "vadio"
+      ],
+      "justification": "Vadium amount stipulated in the contract from which the defendant was released."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "suae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Domini Domini sui"
+      ],
+      "justification": "King of Poland to whose chancellery appeal is made and whose royal decree is referenced."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Langisowa",
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Honestam"
+      ],
+      "justification": "Party named in the case heading and royal remission."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Warsaw",
+      "mention_texts": [
+        "Varsauiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the royal decree was issued."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Langis",
+      "mention_texts": [
+        "Bartholomei",
+        "Langis"
+      ],
+      "descriptive_mentions": [
+        "militis",
+        "olim"
+      ],
+      "justification": "Deceased royal soldier whose homicide is the subject of the legal action."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Marcus Langis",
+      "mention_texts": [
+        "Marci Langis"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased husband of Barbara Langisowa."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "served",
+      "tail_entity_id": "E7",
+      "evidence": "Bartholomei olim Langis militis suae Regiae Maiestatis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestam Barbaram olim Famati Marci Langis"
+    }
+  ]
+}

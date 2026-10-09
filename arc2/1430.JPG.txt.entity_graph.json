@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/1430.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "Officium meum"
+      ],
+      "justification": "The municipal council acting in official capacity regarding appeal and property registration."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Caspar Wasieczynski",
+      "mention_texts": [
+        "Casparum Wasieczynski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "actorem"
+      ],
+      "justification": "Plaintiff in an appeal case before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Josephum Wolffowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "citatum"
+      ],
+      "justification": "Defendant cited in the appeal matter, identified as a Lviv burgher."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the legal proceedings and property are located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria secunda ante festum Sancti Galli Confessoris proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Gaspar Kolomeiski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aurifaber",
+        "coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "mariti sui"
+      ],
+      "justification": "Goldsmith and burgher of Lviv resigning/selling property with his wife."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Catharina Cossowna",
+      "mention_texts": [
+        "Catharina Cossowna",
+        "Catherinam"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "haec",
+        "praefatam"
+      ],
+      "justification": "Wife of Caspar Kołomyjski selling inherited property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Tatik",
+      "mention_texts": [
+        "Stanislaum Tatik"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "tutorem"
+      ],
+      "justification": "Lviv burgher appointed as guardian (tutor) for Catharina Cossowna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmi Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Neighboring landowner whose estate bounds the sold property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Petrus Mawroski",
+      "mention_texts": [
+        "Petro Mawroski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Doliatori Suburbano Leopoliensi"
+      ],
+      "justification": "Cooper residing in the suburb of Lviv who purchases the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "350 Polish florins",
+      "mention_texts": [
+        "trecentorum quinquaginta Florenorum pecuniae et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price for the house and land plot."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mathias Maswicz",
+      "mention_texts": [
+        "Matias Maswicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official noted in the margin of the record."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Caspar Comerier",
+      "mention_texts": [
+        "Caparsz Comerier"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official noted in the margin of the record."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatum Josephum Wolffowicz Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Gaspar Kolomeiski Aurifaber et Catharina Cossowna coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Gaspar Kolomeiski Aurifaber et Catharina Cossowna coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Gaspar Kolomeiski Aurifaber et Catharina Cossowna coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Gaspar Kolomeiski Aurifaber et Catharina Cossowna coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaum Tatik Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "tutorem sibi ad eum actum cum praesentaneo mariti sui consensu assumptum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Petro Mawroski Doliatori Suburbano Leopoliensi"
+    }
+  ]
+}

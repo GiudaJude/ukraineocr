@@ -1,0 +1,218 @@
+{
+  "document_id": "arc2/0802.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Actis Consularibus",
+        "Officio"
+      ],
+      "descriptive_mentions": [
+        "officio",
+        "eodem Officio"
+      ],
+      "justification": "City council office issuing decrees and recording legal acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobum Sellatorem"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Actorem",
+        "affines",
+        "Cives Leopolienses",
+        "Actores",
+        "Actori"
+      ],
+      "justification": "Plaintiff in the partition dispute concerning the Januszowska tenement house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Olszowski"
+      ],
+      "descriptive_mentions": [
+        "Famam",
+        "citatum",
+        "affines",
+        "Cives Leopolienses",
+        "Citatum",
+        "citatus",
+        "extranea personae",
+        "citati",
+        "aliarum sortium possessorem faradetarium"
+      ],
+      "justification": "Cited party (defendant) in the property partition dispute with Jacobus Sellator."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Januszowska House",
+      "mention_texts": [
+        "Januszowska",
+        "Janieszkowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "eadem lapidea"
+      ],
+      "justification": "Stone townhouse in Lviv where the disputed wall and partitioned rooms are located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in civic designations."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Chrzan Ssymanowic",
+      "mention_texts": [
+        "Chrzan Ssymanowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the decree's rubric heading."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joanna Essemister",
+      "mention_texts": [
+        "Joannam Es-semister"
+      ],
+      "descriptive_mentions": [
+        "Famatam",
+        "Clenparcen",
+        "Actorem"
+      ],
+      "justification": "Plenipotentiary acting on behalf of Joannes Komorowski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Komorowski",
+      "mention_texts": [
+        "Joannis Kormorowski",
+        "Joanni Kormorowski"
+      ],
+      "descriptive_mentions": [
+        "gnosci",
+        "praedicto Gndro",
+        "hospite"
+      ],
+      "justification": "Noble creditor on whose behalf the claim of 1500 florins is pursued."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta ante Festum Sancta Hedvigis proxima Anno 1595.",
+        "Anno 1595.",
+        "Sabbato an Dnicam Exaudi Anno praedicto 1595."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates in 1595 referenced for the power of attorney and the debt obligation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Wolfferszlowicz",
+      "mention_texts": [
+        "Wolfgangam Wolfferszlowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatam",
+        "Civem Leopoliensis",
+        "titulum",
+        "debitores"
+      ],
+      "justification": "Lviv burgher summoned as debtor on behalf of himself, his mother, and his brothers."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Catherina Szolcowna",
+      "mention_texts": [
+        "Catherina Szolcowna"
+      ],
+      "descriptive_mentions": [
+        "Fta",
+        "matris"
+      ],
+      "justification": "Mother of Wolfgang Wolfferszlowicz in whose name he acts."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "1500 florins",
+      "mention_texts": [
+        "Mille Quingentorum Floren"
+      ],
+      "descriptive_mentions": [
+        "summae",
+        "debiti"
+      ],
+      "justification": "Amount of the debt owed to Joannes Komorowski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "relative_of",
+      "tail_entity_id": "E3",
+      "evidence": "inter Famatos Jacobum Sellatorem Actorem et Famam Olszowski citatum affines"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Jacobum Sellatorem Actorem et Famam Olszowski citatum affines Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famam Olszowski citatum affines Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannam Es-semister Clenparcen gnosci Joannis Kormorowski"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Wolfgangam Wolfferszlowicz Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "parent_of",
+      "tail_entity_id": "E10",
+      "evidence": "Wolfgangam Wolfferszlowicz ... suo et Fta Catherina Szolcowna matris"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "debtor_of",
+      "tail_entity_id": "E8",
+      "evidence": "non persolutionis summae Mille Quingentorum Floren debiti praedicto Gndro Joanni Kormorowski"
+    }
+  ]
+}

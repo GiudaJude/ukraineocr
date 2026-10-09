@@ -1,0 +1,261 @@
+{
+  "document_id": "arc2/1464.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Maiorowic",
+      "mention_texts": [
+        "Alberti Maiorowic",
+        "Albertus Maiorowic"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "Honoratus Iuris Fidelium",
+        "idem"
+      ],
+      "justification": "Primary petitioner mentioned in the first entry regarding the intromission."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius",
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City context mentioned throughout the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Adam Haberman",
+      "mention_texts": [
+        "Adami Ebormansuir"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "incolam Leopoliensium"
+      ],
+      "justification": "Husband and co-debtor whose garden property was subject to legal execution."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "incolam Leopoliensium"
+      ],
+      "justification": "Wife of Adam Haberman and co-debtor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "158 Polish florins 11 grosze",
+      "mention_texts": [
+        "centum quinquaginta octo florenorum et grossos undecim pecuniae et monetae Polonicalis",
+        "centum quinquaginta octo florenorum et grossos undecim"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "debiti"
+      ],
+      "justification": "Debt amount mentioned in the first record."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Magistri Simonis"
+      ],
+      "descriptive_mentions": [
+        "O.",
+        "praefatis Successoribus"
+      ],
+      "justification": "The deceased master whose successors held the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Feria tertia ante festum S. Hedvigis proxima Anno eodem currenti",
+        "feria secunda post festum S. Lucae Evangelistae anno eodem currenti"
+      ],
+      "descriptive_mentions": [
+        "Anno eodem currenti",
+        "anno eodem currenti",
+        "hesterno"
+      ],
+      "justification": "Court session and decree dates mentioned in the text."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Actis",
+        "Actis Praesentibus",
+        "Officium praesens",
+        "Officii eiusdem"
+      ],
+      "justification": "The city council and its records referenced in both entries."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Siemionek",
+      "mention_texts": [
+        "Albertus Siomionek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cestimagestri Contubernii Aurifabrorum Civitatis huius Leopoliensis"
+      ],
+      "justification": "Elder/guildmaster of the Goldsmiths' Guild."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0319: Nicolaus Abrek the Younger",
+      "mention_texts": [
+        "Nicolaus Siedmiradski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cestimagestri Contubernii Aurifabrorum Civitatis huius Leopoliensis"
+      ],
+      "justification": "Guildmaster of the Goldsmiths' Guild appearing before the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Goldsmiths' Guild of Lviv",
+      "mention_texts": [
+        "Contubernium Aurificum",
+        "Contubernii Aurifabrorum Civitatis huius Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Contubernii"
+      ],
+      "justification": "The craft guild representing the goldsmiths in Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0304: Melchior Osmolski",
+      "mention_texts": [
+        "Melchiorem Omolski"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cestimagistros Contubernii Frenificum eiusdem Civitatis"
+      ],
+      "justification": "Elder/guildmaster of the Bridle-makers' Guild cited to the council."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobum Sellatorem"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cestimagistros Contubernii Frenificum eiusdem Civitatis"
+      ],
+      "justification": "Elder/guildmaster of the Bridle-makers' Guild cited to the council."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "Bridle-makers' Guild of Lviv",
+      "mention_texts": [
+        "Contubernium Frenificum",
+        "Contubernii Frenificum eiusdem Civitatis",
+        "Contubernio Frenificum"
+      ],
+      "descriptive_mentions": [
+        "totam Contubernio Frenificum"
+      ],
+      "justification": "The craft guild representing the bridle-makers/saddlers."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Adami Ebormansuir et Dorothea coniugum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Adami Ebormansuir et Dorothea coniugum incolam Leopoliensium"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Adami Ebormansuir et Dorothea coniugum incolam Leopoliensium"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guildmaster_of",
+      "tail_entity_id": "E11",
+      "evidence": "Albertus Siomionek et Nicolaus Siedmiradski Cestimagestri Contubernii Aurifabrorum Civitatis huius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guildmaster_of",
+      "tail_entity_id": "E11",
+      "evidence": "Albertus Siomionek et Nicolaus Siedmiradski Cestimagestri Contubernii Aurifabrorum Civitatis huius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guildmaster_of",
+      "tail_entity_id": "E14",
+      "evidence": "Melchiorem Omolski et Jacobum Sellatorem Cestimagistros Contubernii Frenificum eiusdem Civitatis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "guildmaster_of",
+      "tail_entity_id": "E14",
+      "evidence": "Melchiorem Omolski et Jacobum Sellatorem Cestimagistros Contubernii Frenificum eiusdem Civitatis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Contubernii Aurifabrorum Civitatis huius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Contubernii Frenificum eiusdem Civitatis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Coram Officio Consulari Leopoliensi"
+    }
+  ]
+}

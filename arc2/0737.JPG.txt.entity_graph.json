@@ -1,0 +1,252 @@
+{
+  "document_id": "arc2/0737.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "relicta vidua",
+        "viduaque",
+        "liberorum"
+      ],
+      "justification": "Widow of Martinus Grodkocki, daughter of Felix Szybost and Barbara."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Grodkocki",
+      "mention_texts": [
+        "Martini Grodkoczki"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "olim"
+      ],
+      "justification": "Deceased citizen of Lviv, late husband of Anna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensium",
+        "Civitatis istius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced via civic affiliations and city walls."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Szybost",
+      "mention_texts": [
+        "Simonis"
+      ],
+      "descriptive_mentions": [
+        "eius fratris",
+        "liberorum",
+        "liberos"
+      ],
+      "justification": "Brother of Anna, son of Felix Szybost and Barbara."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Felix Szybost",
+      "mention_texts": [
+        "Felicis Szybost",
+        "Felicis Mairkoth",
+        "Felicis Mazykot"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Coniugum Civium Leopoliensium",
+        "praefatorum",
+        "supradicti"
+      ],
+      "justification": "Deceased citizen of Lviv, husband of Barbara, father of Anna and Simon."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara",
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Civium Leopoliensium",
+        "matrem"
+      ],
+      "justification": "Wife of Felix Szybost, mother of Anna and Simon."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Szybostowska House",
+      "mention_texts": [
+        "Szybostowska"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam",
+        "lapidea praedicta",
+        "lapidea praefata",
+        "dicta quoque lapidea",
+        "lapidea praenominata",
+        "eiusdem domus praefata",
+        "lapidea"
+      ],
+      "justification": "Masonry house in Lviv being partitioned among heirs."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislai Iarczinka"
+      ],
+      "descriptive_mentions": [
+        "Successorum olim"
+      ],
+      "justification": "Deceased neighbor whose successors own an adjacent property (Stanisław Jarzynka)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Zeli Smadek",
+      "mention_texts": [
+        "Zeli Smadek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning an adjacent masonry house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Officium"
+      ],
+      "descriptive_mentions": [
+        "eidem",
+        "praefatum",
+        "idem"
+      ],
+      "justification": "The municipal council conducting the division of the house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Fatae",
+        "relicta viduae"
+      ],
+      "justification": "Late widow of Stanislaus Łazarz, previously holding a third part of the house."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Łazarz",
+      "mention_texts": [
+        "Stanislai Lazarur",
+        "Lazarur"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased husband of Zofia."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus sartor",
+      "mention_texts": [
+        "Sebastianum"
+      ],
+      "descriptive_mentions": [
+        "sartoris",
+        "olim"
+      ],
+      "justification": "Deceased tailor mentioned in connection with a previous sale of part of the property."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Jarzynkowska House",
+      "mention_texts": [
+        "Iarczynska"
+      ],
+      "descriptive_mentions": [
+        "domum",
+        "domus"
+      ],
+      "justification": "Adjacent house belonging to the heirs of Stanislaus Jarzynka."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Anna olim Martini Grodkoczki Civis Leopoliensis relicta vidua"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Anna ... atque Simonis eius fratris Famati olim Felicis Szybost et ... Barbara Coniugum ... legitimorum liberorum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Anna ... atque Simonis eius fratris Famati olim Felicis Szybost et ... Barbara Coniugum ... legitimorum liberorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Anna ... atque Simonis eius fratris"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simonis eius fratris Famati olim Felicis Szybost et ... Barbara Coniugum ... legitimorum liberorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simonis eius fratris Famati olim Felicis Szybost et ... Barbara Coniugum ... legitimorum liberorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Felicis Szybost et ... Barbara Coniugum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Sophiae olim Stanislai Lazarur relicta viduae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "domum lapideam Szybostowska nuncupatam in platea Civitatis istius"
+    }
+  ]
+}

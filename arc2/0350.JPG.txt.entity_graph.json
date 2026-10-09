@@ -1,0 +1,82 @@
+{
+  "document_id": "arc2/0350.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal judicial authority recording and adjudicating the dispute."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kupronowicz",
+      "mention_texts": [
+        "Pauli Kupronuicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "idem debitor",
+        "praedicti",
+        "praefati debitoris"
+      ],
+      "justification": "Debtor who pledged honey barrels under a chirographic obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Nachman",
+      "mention_texts": [
+        "Nachmano"
+      ],
+      "descriptive_mentions": [
+        "Judaeo",
+        "Creditori suo",
+        "Judaei",
+        "praefatus Judaeus"
+      ],
+      "justification": "Jewish creditor who received the pledge and keys to the cellar."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "1210 florins",
+      "mention_texts": [
+        "1210 florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "summa"
+      ],
+      "justification": "Principal amount specified in the obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saints Peter and Paul",
+      "mention_texts": [
+        "Festi Petri et Pauli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day around which the arrest was executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "creditor_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nachmano Judaeo Creditori suo"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "idem debitor certum vas a Mellis huiusmodi in Civitate in cellario certo extra Nachmano Judaeo Creditori suo in vim lapsus opposuit"
+    }
+  ]
+}

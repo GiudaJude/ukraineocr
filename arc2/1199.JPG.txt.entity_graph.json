@@ -1,0 +1,115 @@
+{
+  "document_id": "arc2/1199.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City referenced throughout the legal proceedings and decrees."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "officio nostro Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "Officio praesenti",
+        "Officium praesens",
+        "officij sui"
+      ],
+      "justification": "City council issuing confirmations and judicial decrees."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Clothmakers' Guild",
+      "mention_texts": [
+        "Fraternitatem Lannificariam Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Actorem",
+        "eiusdem Fraternitatis"
+      ],
+      "justification": "Guild acting as plaintiff against Andreas Iskrowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Iskrowicz",
+      "mention_texts": [
+        "Andream Iskrowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Lanicidam",
+        "Ciuem Leopoliensis",
+        "Citatum",
+        "praedictus citatus"
+      ],
+      "justification": "Butcher and citizen of Lviv summoned in a decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0762: PER-0015: Christopherus Mozanc",
+      "mention_texts": [
+        "Christophoro Moszanc",
+        "Christophorum Mozanc"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Pellionem",
+        "Ciuem Leopoliensis",
+        "Actorem"
+      ],
+      "justification": "Furrier and citizen of Lviv acting as plaintiff in a decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "First Sunday of Advent",
+      "mention_texts": [
+        "prima Dominicam Adventus Domini proxime venturam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Term assigned for Andreas Iskrowicz to take an oath."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatum Andream Iskrowicz Lanicidam Ciuem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatum Christophorum Mozanc Pellionem Ciuem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Fraternitatem Lannificariam Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Officij Consularis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0534.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "florenos Quinquaginta pecuniae et numeri Polonicalis",
+        "quin-quaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "hanc ipsam summam"
+      ],
+      "justification": "Sum of 50 Polish florins inscribed and due in four installments."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Doriost Snycz",
+      "mention_texts": [
+        "Joanni Doriost Snycz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Creditor to whom the debt of 50 florins is to be paid."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the transaction was recorded and where the parties reside as citizens."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "12 florins 15 grosz",
+      "mention_texts": [
+        "florenos duodecim et grossos quindecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount due per half-year installment."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Garus",
+      "mention_texts": [
+        "Jacobi Garus",
+        "Jacobi Garuszow",
+        "Jacobo"
+      ],
+      "descriptive_mentions": [
+        "Eugenium",
+        "mandatariumque Plenipotentem",
+        "mandatarium",
+        "fratrem",
+        "Barutarium",
+        "Plenipotenti suo"
+      ],
+      "justification": "Appointed plenipotentiary tasked with collecting debts."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Forest",
+      "mention_texts": [
+        "Joannes Forest"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Singularis",
+        "Coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Husband appearing alongside his wife Ursula to grant power of attorney."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Ursula"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Cives Leopolienses",
+        "hac"
+      ],
+      "justification": "Wife of Joannes Forest appointing a plenipotentiary."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident of",
+      "tail_entity_id": "E3",
+      "evidence": "Joanni Doriost Snycz Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannes Forest Singularis et Ursula Coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse of",
+      "tail_entity_id": "E6",
+      "evidence": "per eundem maritum tutorem suum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Forest Singularis et Ursula Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Forest Singularis et Ursula Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "appointed representative",
+      "tail_entity_id": "E5",
+      "evidence": "fecerunt constituerunt et solemniter ordinaverunt suum verum legitimum mandatariumque Plenipotentem et mandatarium Eugenium Jacobi Garuszow fratrem Barutarium"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "appointed representative",
+      "tail_entity_id": "E5",
+      "evidence": "fecerunt constituerunt et solemniter ordinaverunt suum verum legitimum mandatariumque Plenipotentem et mandatarium Eugenium Jacobi Garuszow fratrem Barutarium"
+    }
+  ]
+}

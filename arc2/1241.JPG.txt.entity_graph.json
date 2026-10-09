@@ -1,0 +1,268 @@
+{
+  "document_id": "arc2/1241.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sophia Dystrzouia",
+      "mention_texts": [
+        "Sophiam Dystrzouia"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "naturalem et legitimam tutricem"
+      ],
+      "justification": "Named as the natural and legitimate guardian receiving a co-guardian/curator for property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Casparum Bozezdzieki"
+      ],
+      "descriptive_mentions": [
+        "contutorem et con curatorem bonorum",
+        "Spectabilem et Excellentem Magistrum",
+        "Collegam nostrum Consularem"
+      ],
+      "justification": "Appointed council colleague and co-guardian, matching councilor Caspar Przedzucki."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Suburbio Leopoliensi",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis"
+      ],
+      "justification": "Place of legal action and referencing the city and its suburbs."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula referring back to the contemporary date entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Salwa",
+      "mention_texts": [
+        "Andreas Salwa"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "coniuges Suburbani",
+        "maritum tutorem suum legitimum",
+        "ille"
+      ],
+      "justification": "Suburbanite of Lviv, husband and legal guardian of Anna, co-seller of property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani",
+        "haec",
+        "fratris eiusdem Annae"
+      ],
+      "justification": "Wife of Andreas Salwa selling inherited family shares."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sterebiec",
+      "mention_texts": [
+        "Jacobi Sterebiec",
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "germani",
+        "fratris eiusdem Annae"
+      ],
+      "justification": "Deceased brother of Anna whose share of the house was inherited by her."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szreba",
+      "mention_texts": [
+        "Andream Szreba"
+      ],
+      "descriptive_mentions": [
+        "Honestos olim",
+        "coniuges",
+        "Authorem"
+      ],
+      "justification": "Deceased father (author) of Anna from whom parental property devolved."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honestos olim",
+        "coniuges"
+      ],
+      "justification": "Deceased mother of Anna, wife of Andreas Szreba."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the house and garden sold."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Temriczowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the sold house and garden are situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Bielmacz",
+      "mention_texts": [
+        "Stanislao Bielmacz",
+        "Kulmacz",
+        "Bielmanczowski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopoliensi",
+        "Emptori",
+        "eiusdem"
+      ],
+      "justification": "Buyer of the house and garden, and adjacent neighbor on Temriczowska Street."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Purchase price paid for the house and garden."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in reference to the legal sureties ('iura Regni')."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Felix Taradło",
+      "mention_texts": [
+        "Felix Taradło"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Fideiussores"
+      ],
+      "justification": "Guarantor/surety for the transaction regarding the share of deceased brother Jacobus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E1",
+      "evidence": "constituerunt et ordinauerunt contutorem et con curatorem bonorum ipsius ad praedictam Honestam Sophiam Dystrzouia naturalem et legitimam tutricem Spectabilem et Excellentem Magistrum Casparum Bozezdzieki"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Salwa inter et Anna coniuges Suburbani ex Suburbio Leopoliensi, ille per se haec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "sui germani olim Jacobi Sterebiec ... ad praedictam Annam iure naturali devolutas"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "post Honestos olim Andream Szreba eiusque Authorem et Annam coniuges devolutas"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "sortes suas paternas et maternas ... ad praedictam Annam iure naturali devolutas post Honestos olim Andream Szreba eiusque Authorem et Annam coniuges devolutas"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "sortes suas paternas et maternas ... ad praedictam Annam iure naturali devolutas post Honestos olim Andream Szreba eiusque Authorem et Annam coniuges devolutas"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "is_located_in",
+      "tail_entity_id": "E10",
+      "evidence": "in domo et horto in eiusdem Civitatis Suburbio Haliciensi dicto in platea Temriczowska"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in eiusdem Civitatis Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sells_to",
+      "tail_entity_id": "E12",
+      "evidence": "Andreas Salwa inter et Anna coniuges ... vendidisse praesentique inscriptione vigore vendere ... Honesto Stanislao Bielmacz Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sells_to",
+      "tail_entity_id": "E12",
+      "evidence": "Andreas Salwa inter et Anna coniuges ... vendidisse praesentique inscriptione vigore vendere ... Honesto Stanislao Bielmacz Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "guarantees_for",
+      "tail_entity_id": "E12",
+      "evidence": "fideiusserunt eidem Emptori Honestus Felix Taradło cauit de minus in doliose eamque cautionem in bonis suis appreuauit"
+    }
+  ]
+}

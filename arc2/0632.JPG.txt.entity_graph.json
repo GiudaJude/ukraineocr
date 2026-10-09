@@ -1,0 +1,138 @@
+{
+  "document_id": "arc2/0632.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Pustopczewic",
+      "mention_texts": [
+        "Bartholomaeus Pustopczewic"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "Suburbani Leopolienses",
+        "ille",
+        "maritum tutorem suum Legitimum"
+      ],
+      "justification": "Named as the suburban resident of Lviv and husband who sells his house and garden."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sara",
+      "mention_texts": [
+        "Sara"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "Suburbani Leopolienses",
+        "haec"
+      ],
+      "justification": "Named as the wife of Bartholomaeus Pustopczewic acting under his guardianship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Friderici Gallo",
+        "Friderico Gallo"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Honorato praedicto",
+        "emptore",
+        "emptori",
+        "eundem emptorem"
+      ],
+      "justification": "Matched with known entity PER-0043: Fridericus Gallus; buyer of the house and garden."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Regata",
+      "mention_texts": [
+        "Regata"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as adjacent property owner whose garden borders the sold property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Matched with known entity Lwów."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Suburbio Cracoviensie"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis Suburbio Cracoviensie dicto"
+      ],
+      "justification": "Matched with known entity LOC-0140: LOC-0019: Kraków Suburb; location of the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matched with known entity ORG-0007: Lviv Banned Court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "140 florins",
+      "mention_texts": [
+        "Centum quadraginta Florenorum",
+        "Centum quadraginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "precio",
+        "pretium praefatum"
+      ],
+      "justification": "Purchase price specified for the house and garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Bartholomaeus Pustopczewic et Sara coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Bartholomaeus Pustopczewic et Sara coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in eiusdem Civitatis Suburbio Cracoviensie dicto"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in Judicio Exposito Bannito Leopoli"
+    }
+  ]
+}

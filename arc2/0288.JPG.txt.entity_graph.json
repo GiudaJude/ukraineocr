@@ -1,0 +1,258 @@
+{
+  "document_id": "arc2/0288.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "46 florins",
+      "mention_texts": [
+        "florenos quadraginta sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Currency amount stated in the document text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "emptorum"
+      ],
+      "justification": "One of the buyers named in the conveyance clause."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "emptorum"
+      ],
+      "justification": "Co-buyer named alongside Joannes."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensi",
+        "Civis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced across jurisdictional titles and citizen designations."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv appointed to handle the property resignation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Emanuel Szurcz",
+      "mention_texts": [
+        "Manuelis",
+        "Emanuel",
+        "Emanuelis"
+      ],
+      "descriptive_mentions": [
+        "Infanti",
+        "mariti sui"
+      ],
+      "justification": "Deceased husband of Anna Steczkowna and father of Zina and Catharina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Szurcz",
+      "mention_texts": [
+        "Stephani Szurcz"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "olim"
+      ],
+      "justification": "Father of Emanuel Szurcz and deceased citizen of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Anna Steczkowna",
+      "mention_texts": [
+        "Anna Steczkowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta vidua"
+      ],
+      "justification": "Widow appearing to request guardians for her minor daughters."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Pietro",
+      "mention_texts": [
+        "Pietro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person appearing in the record alongside the widow Anna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Zina",
+      "mention_texts": [
+        "Zina"
+      ],
+      "descriptive_mentions": [
+        "minoribus",
+        "filiabus"
+      ],
+      "justification": "Minor daughter of late Emanuel Szurcz and Anna Steczkowna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Catharina",
+      "mention_texts": [
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "minoribus",
+        "filiabus"
+      ],
+      "justification": "Minor daughter of late Emanuel Szurcz and Anna Steczkowna."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Drapalski",
+      "mention_texts": [
+        "Biraam Drapalski",
+        "Joannem Dradran Napalski"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Praedictum",
+        "Tutoribus",
+        "dictorum Tutorum"
+      ],
+      "justification": "One of the appointed tutors/guardians."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "Officii nostri",
+        "nostri Officii"
+      ],
+      "justification": "The municipal office before which the parties appeared to appoint guardians."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kraszowski",
+      "mention_texts": [
+        "Joannem Kraszowski",
+        "Joann Kraszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Famati",
+        "Tutoribus",
+        "dictorum Tutorum",
+        "Cantores"
+      ],
+      "justification": "Co-tutor appointed for the children of late Emanuel Szurcz."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Andreas Leopoliensis",
+      "mention_texts": [
+        "Andreas Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Gnosis"
+      ],
+      "justification": "Person submitting an excerpt or statement on behalf of Joannes Kraszowski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Emanuel olim Stephani Szurcz"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Anna Steczkowna Emanuel olim Stephani Szurcz Civis Leopoliensis relicta vidua"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Zina et Catharina minoribus ex eodem matrimonio Emanuelis mariti sui susceptis filiabus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Zina et Catharina minoribus ex eodem matrimonio Emanuelis mariti sui susceptis filiabus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "illi filiabusque suis praefatis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "illi filiabusque suis praefatis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "petiit, quatenus illi filiabusque suis praefatis de Tutoribus ad curam praevideremus. Statuitque coram nobis Praedictum Joannem Dradran Napalski et Famatum Joannem Kraszowski"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "petiit, quatenus illi filiabusque suis praefatis de Tutoribus ad curam praevideremus. Statuitque coram nobis Praedictum Joannem Dradran Napalski et Famatum Joannem Kraszowski"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "petiit, quatenus illi filiabusque suis praefatis de Tutoribus ad curam praevideremus. Statuitque coram nobis Praedictum Joannem Dradran Napalski et Famatum Joannem Kraszowski"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "petiit, quatenus illi filiabusque suis praefatis de Tutoribus ad curam praevideremus. Statuitque coram nobis Praedictum Joannem Dradran Napalski et Famatum Joannem Kraszowski"
+    }
+  ]
+}

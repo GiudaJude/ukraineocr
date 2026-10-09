@@ -1,0 +1,180 @@
+{
+  "document_id": "arc2/1323.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Wyzerowna",
+      "mention_texts": [
+        "Dorothea Wyzerowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "legitima coniunx",
+        "Ipsa illa"
+      ],
+      "justification": "Named as the wife appearing before the court with her tutor to acknowledge a debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Adamus Abermanowicz",
+      "mention_texts": [
+        "Adamus Abermanowic",
+        "Adami Abermanowic",
+        "Adami"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "mariti ipsius",
+        "eiusdem Adami",
+        "praenominatus eius maritus",
+        "filius"
+      ],
+      "justification": "Named as the husband of Dorothea Wyzerowna, absent from the city."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "hac Civitate"
+      ],
+      "justification": "Mentioned as the city of residence/citizenship of Adam Abermanowicz and Hieronymus Czadoth Żółtek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Czadoth Żółtek",
+      "mention_texts": [
+        "Hieronymus Czadoth Zoltek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Appears in place of the absent husband Adam Abermanowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kuczerski",
+      "mention_texts": [
+        "Joannem Kuczerski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Tutorem",
+        "Causarum Juris Magdeburgensis Hereditarium"
+      ],
+      "justification": "Named as the tutor assisting Dorothea Wyzerowna in court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "65 Polish florins",
+      "mention_texts": [
+        "sexaginta et quinque Florenos Polonicales",
+        "sexaginta quinque Florenorum"
+      ],
+      "descriptive_mentions": [
+        "floreno quolibet grossis triginta computato",
+        "debitum"
+      ],
+      "justification": "The monetary debt contracted for the purchase of the Abermanowskie property shares."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Gintor",
+      "mention_texts": [
+        "Gregorio Gintor"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civis et Consuli Camenecensis",
+        "Creditores",
+        "dictis Creditoribus"
+      ],
+      "justification": "Citizen and consul of Kamieniec Podolski, creditor along with his wife."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of which Gregorius Gintor is a citizen and consul."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Elisabeth Abermanowna",
+      "mention_texts": [
+        "Eliszabet",
+        "Elisabethae Abermanowna"
+      ],
+      "descriptive_mentions": [
+        "consorti",
+        "Honestae",
+        "Civis praefatorum",
+        "Creditores"
+      ],
+      "justification": "Wife of Gregorius Gintor, co-creditor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Andrew",
+      "mention_texts": [
+        "festo Sancti Andreae Apostoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for the payment of the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Dorothea Wyzerowna Famati Adami Abermanowic Civis Leopoliensis legitima coniunx"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Adami Abermanowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Hieronymus Czadoth Zoltek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "per assumptum sibi Tutorem Famatum Joannem Kuczerski"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Gregorio Gintor Civis et Consuli Camenecensis eiusque consorti Honestae Elisabethae Abermanowna"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Gregorio Gintor Civis et Consuli Camenecensis"
+    }
+  ]
+}

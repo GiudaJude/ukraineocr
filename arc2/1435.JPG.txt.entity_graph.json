@@ -1,0 +1,79 @@
+{
+  "document_id": "arc2/1435.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Juris Fodalis"
+      ],
+      "descriptive_mentions": [
+        "actis iisdem"
+      ],
+      "justification": "Municipal office tasked with dividing the property and registering the act in the official records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Jakubowicz",
+      "mention_texts": [
+        "Christophorus Jakubowicz",
+        "Christophorus Jakubowicz"
+      ],
+      "descriptive_mentions": [
+        "partes",
+        "natu iuvenis"
+      ],
+      "justification": "Party involved in the partition of the tenement house who selected the second lot."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Jakubowicz",
+      "mention_texts": [
+        "Gregorij Jakubowicz"
+      ],
+      "descriptive_mentions": [
+        "praedicti olim"
+      ],
+      "justification": "Deceased father whose children and widow received the first lot."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "matre ipsorum",
+        "vidua",
+        "viduae"
+      ],
+      "justification": "Widow of the late Gregorius Jakubowicz and mother of his children."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Corostiec Jakubowicz",
+      "mention_texts": [
+        "Corostiec Jakubowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Tutor liberorum supradictorum",
+        "supradictum Tutorem suum"
+      ],
+      "justification": "Guardian (tutor) of the children of the late Gregorius Jakubowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "liberis praedicti olim Gregorij Jakubowicz cum matre ipsorum Sophia vidua"
+    }
+  ]
+}

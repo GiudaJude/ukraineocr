@@ -1,0 +1,327 @@
+{
+  "document_id": "arc2/1240.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Strach",
+      "mention_texts": [
+        "Martinus Strach"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Doleator",
+        "Viceadvocati Suburbij Italicienses",
+        "Cives Leopolienses"
+      ],
+      "justification": "Named as witness and cooper of the Halych Suburb: 'Famati Martinus Strach Doleator... Viceadvocati Suburbij Italicienses'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Lucas Curiewski",
+      "mention_texts": [
+        "Lucas Curieffki"
+      ],
+      "descriptive_mentions": [
+        "Viceadvocati Suburbij Italicienses",
+        "Cives Leopolienses"
+      ],
+      "justification": "Named alongside Martinus Strach as vice-advocate of the Halych Suburb."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbij Italicienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches known alias for the Halych Suburb ('Suburbij Italiceñ', 'Suburbis Italici')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli",
+        "Leopoliensium",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Urban and civic location of Lwów repeatedly specified."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Listwicki",
+      "mention_texts": [
+        "Stanislai Listwicki"
+      ],
+      "descriptive_mentions": [
+        "Doliatoris",
+        "Civis Leopoliensis",
+        "praedicti Stanislai",
+        "fratrem germanum"
+      ],
+      "justification": "Person at whose instance the testimony is recorded: 'ad instantiam per Fomam Stanislai Listwicki Doliatoris'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium nostrum",
+        "Officio nostro",
+        "Officij nostri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council office issuing the recording act."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Bertowicki",
+      "mention_texts": [
+        "Bartholomaeum Bertowicki"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum",
+        "studiosum Almae Academiae Cracoviensis",
+        "fratrem germanum"
+      ],
+      "justification": "Subject of the legitimacy declaration: 'Ingenuum Bartholomaeum Bertowicki tum temporis vt fama fert studiosum'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "Almae Academiae Cracoviensis"
+      ],
+      "justification": "Matches Kraków in the designation of the Academy/University of Kraków."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Felix Pietriski",
+      "mention_texts": [
+        "Felicis Pietriski"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Doliatoris",
+        "superstitis",
+        "coniugum",
+        "Civium Leopoliensium"
+      ],
+      "justification": "Father of Bartholomaeus and Stanislaus: 'Felicis Pietriski Doliatoris adhuc superstitis'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "iam vita functa",
+        "coniugum"
+      ],
+      "justification": "Mother of Bartholomaeus and deceased wife of Felix Pietriski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "feria quarta post festum Visitationis Mariae Virginis",
+      "mention_texts": [
+        "feria quarta post die festu Visitationis Mariae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of act registration in the text."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Abrucentowic",
+      "mention_texts": [
+        "Joannes Abrucentowic"
+      ],
+      "descriptive_mentions": [
+        "Tutores"
+      ],
+      "justification": "Marginal entry name: 'Tutores Joannes Abrucentowic'."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "tutrix",
+        "sui ex filia nepotis"
+      ],
+      "justification": "Widow of Joannes fainowicz / Szigot Lang, appearing to announce wardship of her grandson."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szigot Lang",
+      "mention_texts": [
+        "Joannis fainowicz",
+        "Szigot Lang"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Sophia: 'Famati olim Joannis fainowicz seu Szigot Lang'."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Strach",
+      "mention_texts": [
+        "Bartholomaeum Strach"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Civem Leopoliensem",
+        "tutorem sibi ad eum actum assumpthum"
+      ],
+      "justification": "Assumed guardian assisting Sophia: 'per Famatorum Bartholomaeum Strach Civem Leopoliensem tutorem sibi ad eum actum assumpthum'."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Joannes Albinkowic",
+      "mention_texts": [
+        "Joannis Albinckowic"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "nepotis",
+        "filij",
+        "praedicti pupilli"
+      ],
+      "justification": "Grandson/pupil of Sophia: 'tutrix Ingenui Joannis Albinckowic sui ex filia nepotis'."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Albinkowic",
+      "mention_texts": [
+        "Bartholomaei Albinckowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Furi fabri",
+        "Coniugum Civium Leopoliensium"
+      ],
+      "justification": "Late father of Joannes Albinkowic: 'post Famatum olim Bartholomaei Albinckowic Furi fabri'."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Sophia Begotowna",
+      "mention_texts": [
+        "Sophia Begotowna"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Civium Leopoliensium"
+      ],
+      "justification": "Late mother of Joannes Albinkowic and daughter of Sophia (E13)."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Stapert",
+      "mention_texts": [
+        "Stanislai Stapert"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "tutoris"
+      ],
+      "justification": "Former tutor/guardian whose death prompted the appointment: 'post obitum Famati olim Stanislai Stapert'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resided_in",
+      "tail_entity_id": "E3",
+      "evidence": "Martinus Strach Doleator et Lucas Curieffki Viceadvocati Suburbij Italicienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resided_in",
+      "tail_entity_id": "E3",
+      "evidence": "Martinus Strach Doleator et Lucas Curieffki Viceadvocati Suburbij Italicienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Bartholomaeum Bertowicki... progenitum esse ex legitimo matrimonio Famatorum Felicis Pietriski Doliatoris adhuc superstitis et Hedvigis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Bartholomaeum Bertowicki... progenitum esse ex legitimo matrimonio Famatorum Felicis Pietriski Doliatoris adhuc superstitis et Hedvigis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Felicis Pietriski Doliatoris adhuc superstitis et Hedvigis iam vita functa coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "eoque praedicti Stanislai fratrem germanum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Sophia Famati olim Joannis fainowicz seu Szigot Lang Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "spouse_of",
+      "tail_entity_id": "E18",
+      "evidence": "Bartholomaei Albinckowic Furi fabri, et Sophia Begotowna Coniugum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "child_of",
+      "tail_entity_id": "E17",
+      "evidence": "post Famatum olim Bartholomaei Albinckowic Furi fabri, et Sophia Begotowna Coniugum Civium Leopoliensium filij"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "child_of",
+      "tail_entity_id": "E18",
+      "evidence": "post Famatum olim Bartholomaei Albinckowic Furi fabri, et Sophia Begotowna Coniugum Civium Leopoliensium filij"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "vti tutrix Ingenui Joannis Albinckowic sui ex filia nepotis"
+    }
+  ]
+}

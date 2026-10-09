@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/1058.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Skliński",
+      "mention_texts": [
+        "Petro Sklinski"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "occupatori"
+      ],
+      "justification": "Named individual against whom legal action may be pursued."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officium",
+        "Officij"
+      ],
+      "justification": "The municipal council before which the legal complaint was lodged."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the council title."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina Dlugoszowa",
+        "Dlugoszowa"
+      ],
+      "descriptive_mentions": [
+        "Ho-",
+        "praedicta Dlugoszowa"
+      ],
+      "justification": "Complainant appearing through her guardian concerning a boundary wall."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Kiedrziadocki",
+      "mention_texts": [
+        "Nicolaum Kiedrziadocki"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "thinifabrum",
+        "generum",
+        "Tutorem suum"
+      ],
+      "justification": "Son-in-law and guardian acting for Catherina Długoszowa."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Anna Sapieżyna",
+      "mention_texts": [
+        "Annam Sapiezyna",
+        "Sapiezina"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "praefata"
+      ],
+      "justification": "Defendant cited before the council regarding the shared wall."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kapinos",
+      "mention_texts": [
+        "Albertum Kapinos"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Muratores"
+      ],
+      "justification": "Mason called to give evidence regarding the construction of the wall."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Ambrosius Przychylny",
+      "mention_texts": [
+        "Ambroziam Przychydnij"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Muratores"
+      ],
+      "justification": "Mason examined along with Kapinos regarding the completion of the wall."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Famatum Nicolaum Kiedrziadocki thinifabrum generum ... suum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nicolaum Kiedrziadocki thinifabrum generum et proinde Tutorem suum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "litigates_against",
+      "tail_entity_id": "E6",
+      "evidence": "denunciacionem fecit contra Honestam Annam Sapiezyna"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "colleague_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestos Albertum Kapinos et Ambroziam Przychydnij Muratores"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Officio Consulari Leopoliensi"
+    }
+  ]
+}

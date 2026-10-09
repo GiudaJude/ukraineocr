@@ -1,0 +1,197 @@
+{
+  "document_id": "arc2/0376.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Swarcz",
+      "mention_texts": [
+        "Swarcz"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "Appears in document header as the beneficiary of the testimony ('Testimonium pro Honesta Swarcz')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Monieski",
+      "mention_texts": [
+        "Albertus Monieski",
+        "Albertus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "Praedictus vero inductor",
+        "Tutor"
+      ],
+      "justification": "Party appearing before the council on behalf of himself and his wife Regina."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginae",
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "secundarum nuptiarum consortis suae legitimae",
+        "praefata"
+      ],
+      "justification": "Wife of Albertus Monieski and former wife of the deceased Petrus Mendel."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Laurentius",
+      "mention_texts": [
+        "Laurentium"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Lignifabrum",
+        "suburbanos Leopolienses"
+      ],
+      "justification": "Witness summoned to give testimony; designated as carpenter ('Lignifabrum')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "N. Piscator",
+      "mention_texts": [
+        "N. Piscatorem"
+      ],
+      "descriptive_mentions": [
+        "suburbanos Leopolienses"
+      ],
+      "justification": "Witness summoned to testify alongside Laurentius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Petrus Mendel",
+      "mention_texts": [
+        "Petri Mendel"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Suburbani",
+        "primarum nuptiarum mariti"
+      ],
+      "justification": "Deceased former husband of Regina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens",
+        "Officij Consularis",
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office before which the testimony was given and recorded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in suburban designations."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Augustianus Sutharz",
+      "mention_texts": [
+        "Augustianus Sutharz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or witness named in the margin/entry division."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Gorczyca",
+      "mention_texts": [
+        "Valentinus Gorczyca"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Pistori",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Party appearing in the subsequent entry, baker from the suburbs of Lviv."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "Honestae Coniugis suae legitimae"
+      ],
+      "justification": "Legitimate wife of Valentinus Gorczyca."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "suo et Honestae Reginae secundarum nuptiarum consortis suae legitimae nominibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "de obitu Honesti olim Petri Mendel Suburbani, et quid praefata Regina primarum nuptiarum mariti haberet"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "cavendo de ratihabitione Honestae Dorotheae Coniugis suae legitimae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Albertus Monieski Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Laurentium Lignifabrum et N. Piscatorem suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Laurentium Lignifabrum et N. Piscatorem suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Petri Mendel Suburbani"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Valentinus Gorczyca Pistori Suburbanus Leopoliensis"
+    }
+  ]
+}

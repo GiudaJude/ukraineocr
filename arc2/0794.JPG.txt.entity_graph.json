@@ -1,0 +1,134 @@
+{
+  "document_id": "arc2/0794.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Mille Florenos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae summam",
+        "memoratam summam debiti",
+        "summa praefata Mille Florenos",
+        "summae integrae",
+        "summa principali Mille Florenos"
+      ],
+      "justification": "Primary debt sum inscribed on the municipal stable."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Kaichman Judeus",
+      "mention_texts": [
+        "Kaichmano"
+      ],
+      "descriptive_mentions": [
+        "Judeo",
+        "ipsius Successoribus",
+        "praenominato Judaeo Creditori",
+        "Creditore",
+        "praefato Judaeo",
+        "idem Judaeus",
+        "ipsi"
+      ],
+      "justification": "Jewish creditor receiving the inscription of 1000 florins upon the municipal stable."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0047: Jewish Street",
+      "mention_texts": [
+        "platea Judaica"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location inside the city where the stable is situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festum Sancti Agnetis"
+      ],
+      "descriptive_mentions": [
+        "feria tertia ante Festum Sancti Agnetis"
+      ],
+      "justification": "Feast day used to determine the due date for the payment."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "1597."
+      ],
+      "descriptive_mentions": [
+        "Anno proxime sequenti 1597. venturo"
+      ],
+      "justification": "Year in which the debt repayment is due."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Honestorum Dominorum Advocati"
+      ],
+      "descriptive_mentions": [
+        "eo officio iuratis"
+      ],
+      "justification": "Advocatial office empowered to execute intromission if payment is not made."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginti Florenos"
+      ],
+      "descriptive_mentions": [
+        "Censum viginti Florenos",
+        "censum seu pensionem"
+      ],
+      "justification": "Annual interest or census sum payable to the creditor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Isaac Szkilnikowicz",
+      "mention_texts": [
+        "Izaaci Szkilnikowicz"
+      ],
+      "descriptive_mentions": [
+        "domui lapideae Izaaci Szkilnikowicz"
+      ],
+      "justification": "Neighboring stone house owner referenced for the dimensions of the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "Officij nostri"
+      ],
+      "justification": "The municipal council issuing the inscription and obligating itself to pay."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [
+        "Officium Regni"
+      ],
+      "justification": "Reference to any court and office of the Kingdom of Poland."
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,69 @@
+{
+  "document_id": "arc2/0776.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1589",
+      "mention_texts": [
+        "feria quarta post Domini Judica Anno 1589"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous transaction cited in the legal proceeding."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Zofia Garwolińska",
+      "mention_texts": [
+        "Zophia Garwolińska"
+      ],
+      "descriptive_mentions": [
+        "citata",
+        "praefata"
+      ],
+      "justification": "Party cited in the case who appears before the court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czarnioski",
+      "mention_texts": [
+        "Stanislai Czarnioski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "assessoria"
+      ],
+      "justification": "Nobleman providing legal assistancy/assessorship to Zofia Garwolińska."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Mościcki",
+      "mention_texts": [
+        "Rhodian Andream Mościcki",
+        "Andream Mościcki"
+      ],
+      "descriptive_mentions": [
+        "assumptum Prolocutorem",
+        "causarum iuris Magdeburgensis ferendarum iuratum"
+      ],
+      "justification": "Sworn advocate/prolocutor appearing on behalf of Zofia Garwolińska."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "assisted_by",
+      "tail_entity_id": "E3",
+      "evidence": "Zophia Garwolińska vna cum assessoria Nobilis Stanislai Czarnioski comparens"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "represented_by",
+      "tail_entity_id": "E4",
+      "evidence": "Zophia Garwolińska ... comparens per assumptum Prolocutorem Rhodian Andream Mościcki"
+    }
+  ]
+}

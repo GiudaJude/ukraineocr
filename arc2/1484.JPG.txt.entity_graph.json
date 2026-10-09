@@ -1,0 +1,219 @@
+{
+  "document_id": "arc2/1484.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Fritzia Krasnoszek",
+      "mention_texts": [
+        "Fritzia Krasnoszek"
+      ],
+      "descriptive_mentions": [
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Appears as the grantor/seller who cedes his rights and claims."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Szymonowicz",
+      "mention_texts": [
+        "Stephano Szymonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesto"
+      ],
+      "justification": "Previous holder from whom Fritzia Krasnoszek acquired rights."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "Florenorum septuaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the debt mentioned in the cession."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Lubska",
+      "mention_texts": [
+        "Andream Lubska"
+      ],
+      "descriptive_mentions": [
+        "Honestum olim"
+      ],
+      "justification": "Deceased person who contracted the debt on the plot."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburbs and inhabitants are referred to throughout the document."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Sub Mogila",
+      "mention_texts": [
+        "sub Mogila"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location/locality in the suburb of Lwów where the deserted plot is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jneasowski",
+      "mention_texts": [
+        "Jneasowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose land borders the plot in question."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mankowski",
+      "mention_texts": [
+        "Mankowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose land borders the plot in question."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Waszko Czyż",
+      "mention_texts": [
+        "Vascikoni Czyz",
+        "Wastonis Czyzk"
+      ],
+      "descriptive_mentions": [
+        "Vectori",
+        "Suburbano Leopoliensi",
+        "Honesto",
+        "supradicti"
+      ],
+      "justification": "Beneficiary of the cession of rights to the deserted plot."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Zadroznik",
+      "mention_texts": [
+        "Hieronymus Zadroznik",
+        "Hieronymum"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Pistoris Tabernae",
+        "coniuges",
+        "Suburbani Leopoliensis",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "praedictum"
+      ],
+      "justification": "Baker selling his inherited share in a house and plot in the Halych suburb."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lwów where the house and plot are located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Temriowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the property is situated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Murator",
+      "mention_texts": [
+        "Sebastiani Muratoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the sold plot on Temriczowska street."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Henkel",
+      "mention_texts": [
+        "Joannis Henkel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the sold plot on Temriczowska street."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Olech Rudnicki",
+      "mention_texts": [
+        "Olece Rudnicki"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pistori"
+      ],
+      "justification": "Buyer of the share in the house and plot on Temriczowska street."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "transfers_to",
+      "tail_entity_id": "E9",
+      "evidence": "cessisse praesentibusque inscriptionis vigore cedere ius suum proprium totum et integrum... Honesto Vascikoni Czyz"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "transfers_to",
+      "tail_entity_id": "E1",
+      "evidence": "ab Honesto Stephano Szymonowicz acquisitum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in eiusdem Civitatis Suburbio sub Mogila locata"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sells_to",
+      "tail_entity_id": "E15",
+      "evidence": "vendidisse prout hisce inscriptionis vigore vendunt sortem suam haereditariam... Honesto Olece Rudnicki"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in eadem Civitatis Suburbio Haliciensi dictum platea Temriowska"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Civitatis Suburbio Haliciensi"
+    }
+  ]
+}

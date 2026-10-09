@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/1217.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "96 florins",
+      "mention_texts": [
+        "quadraginta sex et quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summae"
+      ],
+      "justification": "Sum of money mentioned in the obligation in the first entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szwyt",
+      "mention_texts": [
+        "Tomas Szwyt",
+        "Thomae Szwyth"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Caldatori Suburbano Leopoliensi"
+      ],
+      "justification": "Kettle-maker from the Lviv suburb who acquired the debt title."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0463: Valentinus Gładysz",
+      "mention_texts": [
+        "Valentinus Glaus",
+        "Valentinus Gladis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Caldator",
+        "coniuges Suburbani Leopolitani",
+        "ille",
+        "maritum tutorem suum naturalem et legittimum"
+      ],
+      "justification": "Kettle-maker from the Lviv suburb who, with his wife, ceded their right over the debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Reduigis"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolitani",
+        "haec vero"
+      ],
+      "justification": "Wife of Valentinus Gładysz, acting under his guardianship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "140 florins",
+      "mention_texts": [
+        "Centum et quadraginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount of money in the debt title secured on the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Zwarzek",
+      "mention_texts": [
+        "Nicolao Zwarzek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pellione Suburbano Leopoliensi"
+      ],
+      "justification": "Furrier from the Lviv suburb from whom the principal right was originally acquired."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actis nostris superioribus"
+      ],
+      "justification": "The municipal office whose previous records are cited."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quinta ante Festum Nativitatis Mariae Anno Millesimo quingentesimo Nonagesimo"
+      ],
+      "descriptive_mentions": [
+        "actu"
+      ],
+      "justification": "Date of the previous entry cited in the acts."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitani",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburb is referenced in the parties' residency descriptors."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Valentinus Gladis Caldator et Reduigis coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Valentinus Gladis Caldator et Reduigis coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honesti Valentinus Gladis Caldator et Reduigis coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honesti Valentinus Gladis Caldator et Reduigis coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honesto Nicolao Zwarzek Pellione Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honesto Thomae Szwyth Caldatori Suburbano Leopoliensi"
+    }
+  ]
+}

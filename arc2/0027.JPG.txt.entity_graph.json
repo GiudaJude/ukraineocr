@@ -1,0 +1,66 @@
+{
+  "document_id": "arc2/0027.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the document was acted and recorded."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Acta Praesentia Advocatialia",
+        "Officii eiusdem Advocatialis Leopoliensis",
+        "Actorum Advocatialium Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Judicii Leopoliensis"
+      ],
+      "justification": "The advocatial bench and office of Lviv whose acts and seal are cited."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "21 November 1594",
+      "mention_texts": [
+        "feria secunda ipso die Praesentationis omni Beatissimae Virginis Mariae Anno Domini Millesimo Quingentesimo nonagesimo quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date the will was registered in the advocatial acts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Mufeccius",
+      "mention_texts": [
+        "Albertus Mufeccius"
+      ],
+      "descriptive_mentions": [
+        "Judicii Leopoliensis Notarius"
+      ],
+      "justification": "Notary of the Lviv court who issued the certified extract."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Albertus Mufeccius Judicii Leopoliensis Notarius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Officii eiusdem Advocatialis Leopoliensis"
+    }
+  ]
+}

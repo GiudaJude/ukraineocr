@@ -1,0 +1,132 @@
+{
+  "document_id": "arc2/0155.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij",
+        "idem Officium",
+        "iisdem Actis"
+      ],
+      "justification": "The municipal office of Lviv that imposed the fine and recorded the act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "50 marks",
+      "mention_texts": [
+        "quinquaginta marcarum pecuniae",
+        "quinquaginta marcarum"
+      ],
+      "descriptive_mentions": [
+        "vadium",
+        "poena pecuniaria",
+        "multam"
+      ],
+      "justification": "Monetary penalty/bail mentioned in the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "Saturday on the eve of All Saints' Day 1587",
+      "mention_texts": [
+        "sabbato in vigilia festi Sanctorum Omnium Anno Domini 158 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/inscription referenced in the text."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Surmowicz",
+      "mention_texts": [
+        "Surmowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party in the legal dispute noted at the end of the entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Surma",
+      "mention_texts": [
+        "Surma"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party in the legal dispute noted at the end of the entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Hadzryk",
+      "mention_texts": [
+        "Stephanus Hadzryk"
+      ],
+      "descriptive_mentions": [
+        "Prouidus",
+        "Tabernator de villa Czarnuszowic",
+        "subditus Illustrissimi Domini Archiepiscopi Leopoliensis"
+      ],
+      "justification": "Tavern keeper from Czarnuszowice appearing to cede rights to a house and garden."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Czarnuszowice",
+      "mention_texts": [
+        "Czarnuszowic"
+      ],
+      "descriptive_mentions": [
+        "villa"
+      ],
+      "justification": "Village associated with Stephanus Hadzryk."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Archbishop of Lviv",
+      "mention_texts": [
+        "Archiepiscopi Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Illustrissimi Domini"
+      ],
+      "justification": "Lord and superior of Stephanus Hadzryk."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referenced in the archbishop's title and civil jurisdiction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stephanus Hadzryk Tabernator de villa Czarnuszowic"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "subject_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stephanus Hadzryk Tabernator de villa Czarnuszowic subditus Illustrissimi Domini Archiepiscopi Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "based_in",
+      "tail_entity_id": "E9",
+      "evidence": "Archiepiscopi Leopoliensis"
+    }
+  ]
+}

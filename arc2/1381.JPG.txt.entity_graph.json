@@ -1,0 +1,94 @@
+{
+  "document_id": "arc2/1381.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Georgius Kolenda",
+      "mention_texts": [
+        "Georgio Kolenda"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Creditori",
+        "eidem Creditori",
+        "praefato Creditori",
+        "praefatus Nobilis Creditor",
+        "eidem suo Creditori",
+        "eundem Creditorem"
+      ],
+      "justification": "Creditor to whom a sum of money is owed and property rights are pledged."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Sacratissimae Paschatis",
+        "Festa Paschatis",
+        "Festo Paschatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Liturgical feast serving as the repayment deadline."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno sequenti 159 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Calendar year specifying the due date."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "quadringentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money owed by the recognizers to Georgius Kolenda."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "Municipal court/council referred to in the context of legal possession and intromission."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacra Regia Majestate",
+        "Sacrae Regiae Majestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland mentioned in legal non-prejudice and derogation clauses."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the legal exception clause ('Proceribus Regni')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is_owed",
+      "tail_entity_id": "E4",
+      "evidence": "In qua quidem summa quadringentorum florenorum eiusmodi eidem Creditori"
+    }
+  ]
+}

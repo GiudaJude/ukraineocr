@@ -1,0 +1,136 @@
+{
+  "document_id": "arc2/1243.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Solarz",
+      "mention_texts": [
+        "Petrus Solarz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header of the entry recording the act."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Petrus Bernat",
+      "mention_texts": [
+        "Petrus Bernat",
+        "Petrus Bernath"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sculptor",
+        "Civis Casimiriensis",
+        "Honestus"
+      ],
+      "justification": "Sculptor and citizen of Kazimierz who presented the decree from the Castle Court of Kraków."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Kazimierz",
+      "mention_texts": [
+        "Casimiriensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified in the descriptor of Petrus Bernat ('Civis Casimiriensis')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "Actis"
+      ],
+      "justification": "The municipal office receiving and recording the decree into its records."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Kraków Castle Court",
+      "mention_texts": [
+        "Officium Castrense Cracoviense",
+        "Officij Capitanealis Castrensis Cracoviensis"
+      ],
+      "descriptive_mentions": [
+        "Officio praesenti"
+      ],
+      "justification": "The court of the capitaneus and castle jurisdiction of Kraków that issued the decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Castro Cracoviensi",
+        "Cracoviense",
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the castle of Kraków and court affiliations."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta infra Octavas Festi Sacratissimi Corporis Christi Anno Domini 159 sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the castle decree insertion."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Josephus Lutoszyński",
+      "mention_texts": [
+        "Josephus Lutoszynski a Liutoszyn"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "Vicecapitaneus et Judex Castrensis Officij Capitanealis Castrensis Cracoviensis"
+      ],
+      "justification": "Vice-captain and castle judge of Kraków presiding over the court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lutoszyn",
+      "mention_texts": [
+        "Liutoszyn"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Toponymic origin in the name of Josephus Lutoszynski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "originates_from",
+      "tail_entity_id": "E3",
+      "evidence": "Petrus Bernat Sculptor Civis Casimiriensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E5",
+      "evidence": "Josephus Lutoszynski a Liutoszyn Vicecapitaneus et Judex Castrensis Officij Capitanealis Castrensis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "originates_from",
+      "tail_entity_id": "E9",
+      "evidence": "Josephus Lutoszynski a Liutoszyn"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "Actum in Castro Cracoviensi ... per Officium Castrense Cracoviense"
+    }
+  ]
+}

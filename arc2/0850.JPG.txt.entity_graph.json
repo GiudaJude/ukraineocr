@@ -1,0 +1,158 @@
+{
+  "document_id": "arc2/0850.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio praesenti",
+        "Officium praesens",
+        "officij",
+        "sententia officij"
+      ],
+      "justification": "The consular court/city council reviewing and confirming the judgment of the advocatus ordinarius on appeal."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officij Aduocatialis",
+        "Aduocatiali officio"
+      ],
+      "descriptive_mentions": [
+        "Aduocati Ordinarij",
+        "officium praefatum"
+      ],
+      "justification": "The advocatial court whose decree was reviewed and where the parties are ordered to reappear."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act took place and where the suburban residents live."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda ante festum Sancti Valentini Pontificis proxima Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "51 florins 15 groschen",
+      "mention_texts": [
+        "Florenos 51/15."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money specified for the debt and estimated damages."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Conwent",
+      "mention_texts": [
+        "Conuentus"
+      ],
+      "descriptive_mentions": [
+        "dictus Famatus",
+        "idem Famatus"
+      ],
+      "justification": "Burgher involved in the dispute who is determined not to be held liable for the debt directly."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czech",
+      "mention_texts": [
+        "Stanislai Czecha"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual referenced in the record header."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Doliator",
+      "mention_texts": [
+        "Martinus"
+      ],
+      "descriptive_mentions": [
+        "Doliator",
+        "Famatus",
+        "Honestus",
+        "Suburbanus Leopoliense"
+      ],
+      "justification": "Cooper and suburban resident of Lwów appearing personally before the court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Robota",
+      "mention_texts": [
+        "robota"
+      ],
+      "descriptive_mentions": [
+        "Ferrifaber",
+        "Famatus",
+        "Honestus",
+        "Suburbanus Leopoliense"
+      ],
+      "justification": "Blacksmith and suburban resident of Lwów appearing personally before the court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Liwonia",
+      "mention_texts": [
+        "Stas Liwonia"
+      ],
+      "descriptive_mentions": [
+        "Sartor",
+        "Famatus",
+        "Honestus",
+        "Suburbanus Leopoliense"
+      ],
+      "justification": "Tailor and suburban resident of Lwów appearing personally before the court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Officij Aduocatialis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Martinus Doliator ... Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "robota Ferrifaber ... Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stas Liwonia Sartor Suburbani Leopolienses"
+    }
+  ]
+}

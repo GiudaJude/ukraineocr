@@ -1,0 +1,49 @@
+{
+  "document_id": "arc2/0729.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense",
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Consules Aduocatus et Scabini"
+      ],
+      "justification": "The municipal consular court of Lviv mentioned as issuing the decree and handling the case."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in adjectival form within the court title."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regi: Stas",
+        "Sacrae Regiae Maiestatis",
+        "Sacrae Regiae Maiestatem",
+        "Dominum Dominum suum clementissimum"
+      ],
+      "justification": "King Sigismund III Vasa referred to via royal majesty titles and as the supreme appellate lord."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officium vero Consulare Leopoliense"
+    }
+  ]
+}

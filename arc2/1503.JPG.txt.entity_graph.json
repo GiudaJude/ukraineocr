@@ -1,0 +1,345 @@
+{
+  "document_id": "arc2/1503.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Bieskiensis",
+      "mention_texts": [
+        "Bieskiensis",
+        "Simon Bieskiensis"
+      ],
+      "descriptive_mentions": [
+        "eius",
+        "idem"
+      ],
+      "justification": "Party in property division recorded at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Foltinowic",
+      "mention_texts": [
+        "Foltinowic",
+        "Simon Foltinowic"
+      ],
+      "descriptive_mentions": [
+        "Pellio",
+        "idem"
+      ],
+      "justification": "Furrier party to the property division."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus",
+      "mention_texts": [
+        "Bartholomaei"
+      ],
+      "descriptive_mentions": [
+        "affinis sui",
+        "praedicti"
+      ],
+      "justification": "In-law (affinis) of Simon Foltinowic."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dziwulski",
+      "mention_texts": [
+        "Joannem Dziwulski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Pellionem"
+      ],
+      "justification": "Furrier standing surety for Bartholomaeus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Dominicus Szatinski",
+      "mention_texts": [
+        "Dominico Szatinski"
+      ],
+      "descriptive_mentions": [
+        "Honorato D.",
+        "Praesidenti",
+        "Plenipotens"
+      ],
+      "justification": "Presiding officer given full power over the division of property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court presided over by Dominicus Szatinski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radoski",
+      "mention_texts": [
+        "Radoskies",
+        "Joannes Radoski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sartor",
+        "Curator",
+        "Fratres",
+        "Curator Filii Dominici et Simonis Jannuszowicow"
+      ],
+      "justification": "Tailor acting as curator for the Januszowic heirs."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Dominicus Januszowic",
+      "mention_texts": [
+        "Dominici Januszowic",
+        "Dominici",
+        "Dominicum"
+      ],
+      "descriptive_mentions": [
+        "Fratris",
+        "Relictorum",
+        "Fratrem",
+        "Religiosum"
+      ],
+      "justification": "Dominican friar, son of late Janusz Sartor and Ewa Rzeszowczanka."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0029: Order of Preachers",
+      "mention_texts": [
+        "Ordinis S. Dominici",
+        "S. Dominici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Order to which Brother Dominicus Januszowic belongs."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the transactions and convent are located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Sygismundus Januszowic",
+      "mention_texts": [
+        "Sygismundi"
+      ],
+      "descriptive_mentions": [
+        "Fratrum",
+        "Liberorum"
+      ],
+      "justification": "Brother of Dominicus and Simon, child of late Janusz Sartor."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Simon Januszowic",
+      "mention_texts": [
+        "Simonis Januszowic",
+        "Simonis",
+        "Simonis Jannuszowicow"
+      ],
+      "descriptive_mentions": [
+        "Fratrum",
+        "Liberorum"
+      ],
+      "justification": "Son of late Janusz Sartor and Ewa Rzeszowczanka."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Janusz Sartor",
+      "mention_texts": [
+        "Janussii",
+        "Januari"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Famatus",
+        "Sartoris"
+      ],
+      "justification": "Deceased tailor, father of the Januszowic children."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Ewa Rzeszowczanka",
+      "mention_texts": [
+        "Eua Rzeszowczanka",
+        "Euae"
+      ],
+      "descriptive_mentions": [
+        "matris"
+      ],
+      "justification": "Deceased mother of Dominicus, Simon, and Elisabetha."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Woslikowic",
+      "mention_texts": [
+        "Woslikowic",
+        "Joannes Woslikowic",
+        "Joannes Wloslikowit"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Lanifaber",
+        "maritus",
+        "Tutor legitimus"
+      ],
+      "justification": "Weaver, husband and guardian of Elisabetha Januszowna."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Elisabethae Januszowna",
+        "Elisabethae",
+        "Elisabethae Jannyszowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "sororis germanae"
+      ],
+      "justification": "Daughter of Janusz and Ewa, wife of Joannes Woslikowic."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The council records where the transaction is registered."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "date",
+      "canonical_name": "25 July 1596",
+      "mention_texts": [
+        "die 25 Julij Anno 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded transaction."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Josephus Swalibowic",
+      "mention_texts": [
+        "Josepho Swalibowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Nobili"
+      ],
+      "justification": "Witness/arbiter called by the parties."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Andreas Wlosowit",
+      "mention_texts": [
+        "Andrea Wlosowit"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Witness/arbiter called by the parties."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "kinship",
+      "tail_entity_id": "E3",
+      "evidence": "sortem Bartholomaei affinis sui"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Dominico Szatinski Exposito Judicio Praesidenti"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "curator_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannes Radoski Sartor vti Curator Relictorum Fratris Dominici Januszowic"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "curator_of",
+      "tail_entity_id": "E12",
+      "evidence": "Joannes Radoski vti Curator Filii Dominici et Simonis Jannuszowicow"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Fratris Dominici Januszowic Ordinis S. Dominici Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "Ordinis S. Dominici Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Fratris Dominici Januszowic ... Liberorum Famati olim Janussii Sartoris"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E14",
+      "evidence": "Dominici Januszowic ... et Eua Rzeszowczanka ex priori conubio progenitorum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Simonis Januszowic Fratrum et Liberorum Famati olim Janussii Sartoris"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E14",
+      "evidence": "Simonis Januszowic ... et Eua Rzeszowczanka ex priori conubio progenitorum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "child_of",
+      "tail_entity_id": "E14",
+      "evidence": "Euae matris eorundem Dominici, Simonis & Elisabethae relictorum"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Joannes Woslikowic Lanifaber vti maritus et Tutor legitimus Honestae Elisabethae Januszowna"
+    }
+  ]
+}

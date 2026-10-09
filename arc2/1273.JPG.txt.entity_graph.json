@@ -1,0 +1,161 @@
+{
+  "document_id": "arc2/1273.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Pyszka",
+      "mention_texts": [
+        "Fratris Stanislai Wusta",
+        "Stanislaus Pyszka"
+      ],
+      "descriptive_mentions": [
+        "Religiosus Frater",
+        "novitiorum professus",
+        "ipse"
+      ],
+      "justification": "Novice making a disposition of his paternal and maternal property upon profession into religious life."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "ordinis Fratrum Sancti Francisci de Observantia Conventus et Ecclesiae Sancti Andreae Apostoli extra moenia Civitatis huius Leopoliensis sitae"
+      ],
+      "descriptive_mentions": [
+        "ea religione"
+      ],
+      "justification": "The Bernardine convent and Church of St. Andrew outside the walls of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis huius Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the location of the convent and the citizenship of Kaszkowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Przeworsk",
+      "mention_texts": [
+        "Przeworscia",
+        "Przeworsciae",
+        "Przeworscensem",
+        "Przeworcen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin town of Stanislaus and site of the paternal house, parish church, hospital, and Bernardine monastery."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Sasów",
+      "mention_texts": [
+        "Sassoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the Bernardine monastery receiving the maternal inheritance."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-4166: Nicolaus Raczka",
+      "mention_texts": [
+        "Nicolaus Raczka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the title rubric aiding Paulus Wiszlicza."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Wiszlicza",
+      "mention_texts": [
+        "Paulo Wiszlicze"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the section rubric as assisted by Nicolaus Raczka."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kaszkowski",
+      "mention_texts": [
+        "Joannes Kaszkowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pannotarius Civis Leopoliensis"
+      ],
+      "justification": "Lviv draper appearing on his own and his wife's behalf."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Catherina Szelonczoena",
+      "mention_texts": [
+        "Catherinae Szelonczoena"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae"
+      ],
+      "justification": "Wife of Joannes Kaszkowski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kanczek",
+      "mention_texts": [
+        "Joannes Kanczek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party appearing personally on his own and his wife's behalf."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Barbara Szceloszczona",
+      "mention_texts": [
+        "Barbarae Szceloszczona"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae"
+      ],
+      "justification": "Wife of Joannes Kanczek."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Religiosus Frater Stanislaus Pyszka Przeworscia ordinis Fratrum Sancti Francisci de Observantia Conventus et Ecclesiae Sancti Andreae Apostoli extra moenia Civitatis huius Leopoliensis sitae novitiorum professus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Kaszkowski Pannotarius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannes Kaszkowski Pannotarius Civis Leopoliensis suo et Honestae Catherinae Szelonczoena coniugis suae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannes Kanczek suo et Honestae Barbarae Szceloszczona coniugis suae"
+    }
+  ]
+}

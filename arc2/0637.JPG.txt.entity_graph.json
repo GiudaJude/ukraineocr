@@ -1,0 +1,231 @@
+{
+  "document_id": "arc2/0637.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicium Civile Leopoliensis",
+        "Judicium Civile"
+      ],
+      "descriptive_mentions": [
+        "forum competens"
+      ],
+      "justification": "Court appealed to by the cited party"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officium Consulare Leopoliensis",
+        "officio Consulari Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officio Consulari",
+        "forum esse competens",
+        "hoc idem Officium Consulare Leopoliensis"
+      ],
+      "justification": "City Council court judged competent for this pupillary matter"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nos",
+        "Judiciumque nostrum",
+        "Nos",
+        "Decreti nostri",
+        "sigillum nostrum",
+        "Regnorum nostrorum"
+      ],
+      "justification": "King of Poland issuing the decree, referenced through royal plurals"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the royal decree was given"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta post Festum Sancti Bartholomaei Apostoli proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issuance of the decree"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regnorum nostrorum",
+        "Regni"
+      ],
+      "justification": "Kingdom of Poland mentioned in the regnal and vice-chancellery titles"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Suetia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden mentioned in the royal regnal year formula"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jan Zamoyski",
+      "mention_texts": [
+        "Joannes Zamoyski",
+        "Joannis Zamoyski"
+      ],
+      "descriptive_mentions": [
+        "Regni Poloniae Vicecancellarius",
+        "Illustrissimi Reverendissimi",
+        "Regni Poloniae Vicecancellarij"
+      ],
+      "justification": "Vice-Chancellor of the Kingdom of Poland"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Szczerbicz",
+      "mention_texts": [
+        "Sctiberzicz",
+        "L. Szczerbicz"
+      ],
+      "descriptive_mentions": [
+        "Regni Poloniae Secretarij"
+      ],
+      "justification": "Royal Secretary who signed or reported the decree"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Barbara Uliamanka",
+      "mention_texts": [
+        "Barbara Vliamanka"
+      ],
+      "descriptive_mentions": [
+        "Vidua relicta"
+      ],
+      "justification": "Widow appearing before the Lviv council"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Stannifusor",
+      "mention_texts": [
+        "Francisci Stannifusoris"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Stannifusoris"
+      ],
+      "justification": "Deceased pewterer, late husband of Barbara Uliamanka"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas Luwiecki",
+      "mention_texts": [
+        "Andream Luwiecki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "tutorem et Prolocutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Noble appointed as tutor and prolocutor for Barbara Uliamanka"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparo Josephowicz"
+      ],
+      "descriptive_mentions": [
+        "assessore",
+        "Famato",
+        "Promatari",
+        "genero sui"
+      ],
+      "justification": "Son-in-law and assessor assisting Barbara Uliamanka"
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Anna Uliamanka",
+      "mention_texts": [
+        "Annam Vliamanka"
+      ],
+      "descriptive_mentions": [
+        "sororem germanam",
+        "relictam"
+      ],
+      "justification": "Sister-german of Barbara Uliamanka and widow of Valentinus Stannifusor"
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Stannifusor",
+      "mention_texts": [
+        "Valentini Stannifusoris"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Stannifusoris"
+      ],
+      "justification": "Deceased pewterer, late husband of Anna Uliamanka"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Barbara Vliamanka Famati olim Francisci Stannifusoris Vi- dua relicta"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "per Nobilem Andream Luwiecki tutorem et Prolo- cutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E10",
+      "evidence": "Famato Casparo Josephowicz Promatari genero sui"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "contra Annam Vliamanka sororem germanam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Annam Vliamanka sororem germanam Fa- mati olim Valentini Stannifusoris relictam"
+    }
+  ]
+}

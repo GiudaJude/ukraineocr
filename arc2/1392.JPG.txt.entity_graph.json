@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/1392.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Szulierna",
+      "mention_texts": [
+        "Szulierna"
+      ],
+      "descriptive_mentions": [
+        "Domini"
+      ],
+      "justification": "Named in the title of the protestation with the honorific title Domini."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaus Anserinus"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Dominus",
+        "Collega noster Consularis"
+      ],
+      "justification": "City council colleague entering a protestation into the council records."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Honoratorum Iuris Fidelium",
+        "Officium",
+        "Advocatum et Scabinos Civitatis Leopoliensis",
+        "Officii praesentis",
+        "Officium praesens"
+      ],
+      "descriptive_mentions": [
+        "Actores"
+      ],
+      "justification": "Municipal governing body issuing decrees and receiving submissions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Flora Minczowna",
+      "mention_texts": [
+        "Floris Minczowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual whose portion in the Minczowski houses is under dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0872: Eufemia",
+      "mention_texts": [
+        "Eufemiae Ruckowa",
+        "Eufemiam Quidlowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "Woman involved in the evacuation and property dispute concerning the Minczowski houses."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bohdan Omelianowicz",
+      "mention_texts": [
+        "Bohdani Omelianowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deceased individual mentioned in relation to hereditary house rights."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Civili Leopoliensi Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civil banned court where the inheritance case is pending."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which the court, council, and citizens are located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Gasparum Cembarium",
+        "Cembarii"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Pellionem",
+        "Succorem in bona et merita Honestae olim Agnetis Koczotyna",
+        "citatus",
+        "eundem citatum"
+      ],
+      "justification": "Furrier acting as successor to Agnes Koczotyna appealing a council decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis Koczotyna"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased female citizen of Lviv whose estate is under legal action."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "feria quarta post Festum Sancti Ioannis Baptistae proxima",
+      "mention_texts": [
+        "feria quarta post Festum Sancti Ioannis Baptistae proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous office decree that was appealed."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King of Poland to whom the appeal was submitted."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "quingentorum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount in florins mentioned in the dispute."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Basilius Żułkowski",
+      "mention_texts": [
+        "Basilium Zulkowski",
+        "Wajes"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenum"
+      ],
+      "justification": "Armenian party in the action regarding lease of tithes."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baldana",
+      "mention_texts": [
+        "Joannem Baldana",
+        "Baldana"
+      ],
+      "descriptive_mentions": [
+        "Ruthenum"
+      ],
+      "justification": "Ruthenian party in the action regarding lease of tithes."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Anserinus Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Iudicio Civili Leopoliensi Exposito"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Advocatum et Scabinos Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "successor_of",
+      "tail_entity_id": "E10",
+      "evidence": "Gasparum Cembarium Pellionem uti Succorem in bona et merita Honestae olim Agnetis Koczotyna"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Agnetis Koczotyna Civis Leopoliensis"
+    }
+  ]
+}

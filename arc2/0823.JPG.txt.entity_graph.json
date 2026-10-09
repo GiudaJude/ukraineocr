@@ -1,0 +1,163 @@
+{
+  "document_id": "arc2/0823.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Czula",
+      "mention_texts": [
+        "Laurentius Czula",
+        "Laurentio Zieska"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Emptori",
+        "Emptoris",
+        "emptores"
+      ],
+      "justification": "Buyer of the horticultural property named in the margin and the main text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Jurszyn",
+      "mention_texts": [
+        "Mathias Jurszyn"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "gener",
+        "coniuges",
+        "maritum tutorem suum legitimum",
+        "venditores"
+      ],
+      "justification": "Seller of the property acting on behalf of himself and as guardian of his wife."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Margaretha Jurszynka",
+      "mention_texts": [
+        "Margaretha Jurszynka"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "venditores"
+      ],
+      "justification": "Wife of Mathias Jurszyn and co-seller of the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Hołosko",
+      "mention_texts": [
+        "Hołosko"
+      ],
+      "descriptive_mentions": [
+        "Pago"
+      ],
+      "justification": "Village location of the horticultural property sold in the entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Strycko Lis",
+      "mention_texts": [
+        "Stryckonis Lis"
+      ],
+      "descriptive_mentions": [
+        "hortulanos"
+      ],
+      "justification": "Neighboring smallholder in the village of Hołosko."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lusko Hudniczyn",
+      "mention_texts": [
+        "Luskona Hudniczyna"
+      ],
+      "descriptive_mentions": [
+        "hortulanos"
+      ],
+      "justification": "Neighboring smallholder on the other side of the property in Hołosko."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the garden property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum Civitatis Leopoliensis",
+        "Plenipotentem",
+        "mandatarium",
+        "praedictus Plenipotens suus"
+      ],
+      "justification": "Lviv city bencher appointed as plenipotentiary by the sellers to resign the property before the banned court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City whose council and banned court are mentioned."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Bannito Bannis Leopoli"
+      ],
+      "descriptive_mentions": [
+        "iudicio"
+      ],
+      "justification": "The banned court of Lviv where the formal property resignation is to take place."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestus Mathias Jurszyn gener et Margaretha Jurszynka coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestus Mathias Jurszyn gener et Margaretha Jurszynka coniuges ille per se haec vero per eundem maritum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "venditores fecerunt constituerunt et solenniter ordinaverunt in suum verum legitimum indubitatumque Plenipotentem et mandatarium Honoratum Dominum Simonem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "venditores fecerunt constituerunt et solenniter ordinaverunt in suum verum legitimum indubitatumque Plenipotentem et mandatarium Honoratum Dominum Simonem"
+    }
+  ]
+}

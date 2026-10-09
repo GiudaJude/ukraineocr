@@ -1,0 +1,345 @@
+{
+  "document_id": "arc2/0812.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Elias Blachetta",
+      "mention_texts": [
+        "Eliae Blachetta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the section heading"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastianus Karczewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Appears personally to issue a quittance"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simon Karczewicz"
+      ],
+      "descriptive_mentions": [
+        "Honestis"
+      ],
+      "justification": "Appears personally with Sebastianus Karczewicz"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Karczewic",
+      "mention_texts": [
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "quondam",
+        "Famati",
+        "fratris sui"
+      ],
+      "justification": "Deceased brother mentioned in the quittance"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Karczewic",
+      "mention_texts": [
+        "Mathia"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "fratris sui absentis"
+      ],
+      "justification": "Absent brother on whose behalf the quittance is made"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos grossorum Ducentis",
+        "Floros"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money satisfied in the contract"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "ijsdem Actis",
+        "Officium Consulare Leopoliensis",
+        "Officij Consularis Leopoliensis",
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council court and registry in which the act and decree are recorded"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sedliaczek",
+      "mention_texts": [
+        "Stanislao Sedliaczecka"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "ferrifabro",
+        "Cive Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Blacksmith of Lviv who made the payment"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schmitzer",
+      "mention_texts": [
+        "Schmitzer",
+        "Sebaldum Schmitzer"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civem Gedanensem",
+        "Actorem",
+        "Actoris"
+      ],
+      "justification": "Plaintiff from Gdańsk in the royal decree"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Wachman Isaacowicz",
+      "mention_texts": [
+        "Wachmannum",
+        "Wachmanum Isaacowicz",
+        "Wachmanni"
+      ],
+      "descriptive_mentions": [
+        "Perfidum",
+        "Judaeum",
+        "citatum",
+        "praefati"
+      ],
+      "justification": "Defendant in the royal decree"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Sebaldus Schmitzer is a citizen"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krzywiecki",
+      "mention_texts": [
+        "Joannis Krzywiecki"
+      ],
+      "descriptive_mentions": [
+        "Honestis"
+      ],
+      "justification": "Present on behalf of the plaintiff Sebaldus Schmitzer"
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus iij."
+      ],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Dei gratia Rex Poloniae",
+        "Magnus Dux Lithuaniae Russiae Prussiae Masoviae Samogitiae Livoniaeque",
+        "haereditarius Rex Suecorum Gottorum Vandallorum etc.",
+        "nos"
+      ],
+      "justification": "King of Poland issuing the decree"
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom ruled by Sigismund III"
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0274: Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Grand Duchy ruled by Sigismund III"
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Land mentioned in royal titulature"
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "LOC-0158: Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Land mentioned in royal titulature"
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "location",
+      "canonical_name": "LOC-0275: Mazovia",
+      "mention_texts": [
+        "Masoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Land mentioned in royal titulature"
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "location",
+      "canonical_name": "LOC-0276: Samogitia",
+      "mention_texts": [
+        "Samogitiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Land mentioned in royal titulature"
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "location",
+      "canonical_name": "LOC-0277: Livonia",
+      "mention_texts": [
+        "Livoniaeque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Land mentioned in royal titulature"
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Suecorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom mentioned in royal titulature"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Sebastianus Karczewicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislao Sedliaczecka ferrifabro Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E12",
+      "evidence": "Sebaldum Schmitzer Civem Gedanensem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "Joannis Krzywiecki ex parte Actoris adstantis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "ruler_of",
+      "tail_entity_id": "E15",
+      "evidence": "Sigismundus iij. Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "ruler_of",
+      "tail_entity_id": "E16",
+      "evidence": "Magnus Dux Lithuaniae"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "ruler_of",
+      "tail_entity_id": "E17",
+      "evidence": "Magnus Dux ... Russiae"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "ruler_of",
+      "tail_entity_id": "E18",
+      "evidence": "Magnus Dux ... Prussiae"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "ruler_of",
+      "tail_entity_id": "E19",
+      "evidence": "Magnus Dux ... Masoviae"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "ruler_of",
+      "tail_entity_id": "E20",
+      "evidence": "Magnus Dux ... Samogitiae"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "ruler_of",
+      "tail_entity_id": "E21",
+      "evidence": "Magnus Dux ... Livoniaeque"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "ruler_of",
+      "tail_entity_id": "E22",
+      "evidence": "haereditarius Rex Suecorum"
+    }
+  ]
+}

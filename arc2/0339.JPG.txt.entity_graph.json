@@ -1,0 +1,96 @@
+{
+  "document_id": "arc2/0339.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Gniezno City Council",
+      "mention_texts": [
+        "officio Praesentis Consulatus Gnesnensis"
+      ],
+      "descriptive_mentions": [
+        "Actisque praesentibus"
+      ],
+      "justification": "Office of the council of Gniezno before which the entry was recorded"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Lypronisz",
+      "mention_texts": [
+        "Paulus Lypronisz"
+      ],
+      "descriptive_mentions": [
+        "Providus",
+        "Civis et Lapicida Lublinensis"
+      ],
+      "justification": "Citizen and stonemason of Lublin who made the legal recognition"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lublin",
+      "mention_texts": [
+        "Lublinensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of origin and citizenship of Paulus Lypronisz"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schruter",
+      "mention_texts": [
+        "Sebaldo Schruter"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive et Mercatore Gedanensi",
+        "praefato"
+      ],
+      "justification": "Citizen and merchant of Gdańsk to whom the debt is owed"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of citizenship of Sebaldus Schruter"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "1500 florins",
+      "mention_texts": [
+        "Mille quingentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Sum of money acknowledged as debt"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civis et Lapicida Lublinensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Cive et Mercatore Gedanensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "sedeberi ac teneri praefato Sebaldo Schruter"
+    }
+  ]
+}

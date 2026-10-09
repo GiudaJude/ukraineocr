@@ -1,0 +1,183 @@
+{
+  "document_id": "arc2/1332.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Civium Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eius Civitatis"
+      ],
+      "justification": "City of Lviv mentioned in the dating and official titles."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta ante festum Sancti Bartholomaei proxima Anno Domini 1596",
+        "1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recording of the act: Wednesday before St. Bartholomew 1596."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Zwaliwski",
+      "mention_texts": [
+        "Zwaliwski"
+      ],
+      "descriptive_mentions": [
+        "lanei"
+      ],
+      "justification": "Agricultural plot (laneus) Zwaliwski referred to in the entry header."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "Juris utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate and doctor of laws presenting the relation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati"
+      ],
+      "justification": "Sworn bench assessor (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Melchior Sedolo",
+      "mention_texts": [
+        "Melchior Sedolo"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati"
+      ],
+      "justification": "Sworn bench assessor (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Simon Feltynowic",
+      "mention_texts": [
+        "Simonis Feltscher",
+        "Simonem Feltynowic"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Sellarij",
+        "praefatum"
+      ],
+      "justification": "Saddler and citizen of Lviv at whose instance the relation is made."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Siat",
+      "mention_texts": [
+        "Tomae Siat"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Mensoris"
+      ],
+      "justification": "Surveyor (mensor) and citizen of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "Actis nostris",
+        "ijsdem Actis nostris"
+      ],
+      "justification": "Civic court office and records from which the decree was issued."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "sabbato post festum Omnium Sanctorum proximo Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous court decree referred to in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Advocatus Ordinarius... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Simonis Feltscher Sellarij... Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Tomae Siat Mensoris Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "held_role_in",
+      "tail_entity_id": "E9",
+      "evidence": "Gregorius Dobrocki... ex Officio nostro"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "held_role_in",
+      "tail_entity_id": "E9",
+      "evidence": "Andreas Simonowic... Scabini Jurati Civitatis Leopoliensis... ex Officio nostro"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "held_role_in",
+      "tail_entity_id": "E9",
+      "evidence": "Melchior Sedolo Scabini Jurati Civitatis Leopoliensis... ex Officio nostro"
+    }
+  ]
+}

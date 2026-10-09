@@ -1,0 +1,86 @@
+{
+  "document_id": "arc2/0772.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Officij",
+        "Officium praefatum Consulare",
+        "Officij eiusdem",
+        "Officio",
+        "Officium juris"
+      ],
+      "justification": "The municipal council of Lviv acting as a judicial body in the case."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Suae Regiae Maiestatis",
+        "Domini Clementissimi"
+      ],
+      "justification": "The ruling Polish monarch Sigismund III Vasa referred to by royal titles and as the supreme court of appeal."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Iwancko Philippowicz",
+      "mention_texts": [
+        "Iwancko Philippowicz"
+      ],
+      "descriptive_mentions": [
+        "parte citata",
+        "citatus hic",
+        "citatum",
+        "Citatus",
+        "citatus"
+      ],
+      "justification": "The cited party / defendant in the lawsuit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Polański",
+      "mention_texts": [
+        "Stanislao Polanski"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "Praefatus"
+      ],
+      "justification": "The plaintiff in the proceedings, referred to as Actor and at the conclusion as Praefatus Stanislao Polanski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actum ut supra."
+      ],
+      "justification": "The standard date formula referencing the date established in preceding entries."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "litigates_against",
+      "tail_entity_id": "E3",
+      "evidence": "Ex aduerso Actor allegauit... per citatum Iwancko Philippowicz"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "appealed_to",
+      "tail_entity_id": "E2",
+      "evidence": "quousque cognito Suae Regiae Maiestatis et Domini Clementissimi de non admissis appellationibus per citatum Iwancko Philippowicz"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "document_id": "arc2/0281.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ryffelt",
+      "mention_texts": [
+        "Ryffelt",
+        "Joannis Ryffelt",
+        "Joannis domini Ryffelt"
+      ],
+      "descriptive_mentions": [
+        "parentis eorum",
+        "demortui",
+        "praefatus olim",
+        "olim marito suo",
+        "ipsius olim",
+        "demortui",
+        "idem ipse demortuus",
+        "Fratris",
+        "marito olim suo",
+        "mariti sui",
+        "praefati"
+      ],
+      "justification": "Deceased person whose testament and estate are disputed before the city council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "coniunx demortui relicta",
+        "praefatam suam vxorem",
+        "domina",
+        "Honesta Agnes relicta vidua praefati Joannis Ryffelt"
+      ],
+      "justification": "Widow of the deceased Joannes Ryffelt."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucas Zwenstok",
+      "mention_texts": [
+        "Lucam Zwenstok",
+        "Lucas Zwenstok"
+      ],
+      "descriptive_mentions": [
+        "Fratrem eiusdem germanum",
+        "Executores testamenti",
+        "eodem Fratre"
+      ],
+      "justification": "Full brother and executor mentioned in Joannes Ryffelt's testament."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "Officium praesens"
+      ],
+      "justification": "The consular office of Lviv adjudicating the matter."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regiae Maiestatis"
+      ],
+      "justification": "The Polish monarch referenced through his royal title."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "praedicta Honesta Agnes relicta vidua praefati Joannis Ryffelt"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "praesertim vero Fratrem eiusdem germanum Lucam Zwenstok"
+    }
+  ]
+}

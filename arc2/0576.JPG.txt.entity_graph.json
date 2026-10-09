@@ -1,0 +1,222 @@
+{
+  "document_id": "arc2/0576.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Sadowski"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem suum"
+      ],
+      "justification": "Named as the legal representative (prolocutor) in the first entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobroski",
+      "mention_texts": [
+        "Gregorius Dobroski"
+      ],
+      "descriptive_mentions": [
+        "Excellens D.",
+        "J. V. Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Advocatus ordinarius presiding over the advocatial inquisition and intromission."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Assessor",
+        "Scabini Civitatis Leopoliensis"
+      ],
+      "justification": "Assessor and scabinus of Lviv appearing on the bench."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0303: PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "holangus Berenti"
+      ],
+      "descriptive_mentions": [
+        "Scabini Civitatis Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv, recorded here under the corrupted spelling 'holangus Berenti'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lawrus Piasecki",
+      "mention_texts": [
+        "Lawrus Piase-",
+        "Lawris Pectoris",
+        "Lawrix",
+        "Lawris"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopoliensis",
+        "tutoris",
+        "Tutoris",
+        "Tutori",
+        "Tutor"
+      ],
+      "justification": "Suburban resident of Lviv acting as the guardian (tutor) of the orphan Eugenius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Eugenius Szterkonic",
+      "mention_texts": [
+        "Eugenij Szterkonic",
+        "Szterkoni"
+      ],
+      "descriptive_mentions": [
+        "filij",
+        "pupillo",
+        "pupilli"
+      ],
+      "justification": "Ward (pupillus), son of the deceased Paulus Skrzypek and Euphrosina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Skrzypek",
+      "mention_texts": [
+        "Pauli Skrzypek"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "coniugum"
+      ],
+      "justification": "Deceased husband of Euphrosina and father of Eugenius."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Euphrosina",
+      "mention_texts": [
+        "Euphrosinae",
+        "Euphrosina",
+        "Fentam"
+      ],
+      "descriptive_mentions": [
+        "superstitis",
+        "coniugum",
+        "matrem"
+      ],
+      "justification": "Surviving widow of Paulus Skrzypek and mother of the ward Eugenius; also referred to by the diminutive 'Fenta'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Pellator",
+      "mention_texts": [
+        "Bartholomaei Pellatoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner in the Kraków suburb."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "suburbio Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the disputed house is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenos",
+        "Centum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 100 florins secured on the house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "1590",
+      "mention_texts": [
+        "feria quarta post Dominicam Jubilate proxima Anno Domini 1590."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous registration referred to in the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Eugenij Szterkonic filij olim Pauli Skrzypek"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Eugenij Szterkonic filij olim Pauli Skrzypek et Euphrosinae superstitis coniugum filij"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Pauli Skrzypek et Euphrosinae superstitis coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "Lawris Pectoris Suburbani Leopoliensis tanquam tutoris Eugenij Szterkonic"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E10",
+      "evidence": "Gregorius Dobroski J. V. Doctor Advocatus Ordinarius et Assessor Andreas Simonowicz atque holangus Berenti Scabini Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E10",
+      "evidence": "Andreas Simonowicz atque holangus Berenti Scabini Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E10",
+      "evidence": "holangus Berenti Scabini Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Lawris Pectoris Suburbani Leopoliensis"
+    }
+  ]
+}

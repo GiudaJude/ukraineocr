@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0775.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document records an act taking place before the Lviv City Council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the council title and citizenship designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Samborowicz",
+      "mention_texts": [
+        "Christoferus Jakubowic",
+        "Christoferus Samborowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Limentarz",
+        "Civis Leopoliensis"
+      ],
+      "justification": "The plaintiff who appears in person before the city council to lodge a denunciation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Anna Sophia",
+      "mention_texts": [
+        "Goszyna Grzeszkowa",
+        "Annam Sophiam"
+      ],
+      "descriptive_mentions": [
+        "Famati olim Groeszkonis Samborowicz Fratris sui viduam relictam",
+        "viduam relictam",
+        "actrix"
+      ],
+      "justification": "The defendant widow of the deceased Groeszko Samborowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Grzegorz Samborowicz",
+      "mention_texts": [
+        "Groeszkonis Samborowicz",
+        "Groeszkonis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Fratris sui",
+        "praedicti olim"
+      ],
+      "justification": "Deceased brother of Christophorus Samborowicz and late husband of Anna Sophia."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kozielski",
+      "mention_texts": [
+        "Joannem Kozielski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "prolocutorem suum"
+      ],
+      "justification": "Prolocutor representing the defendant Anna Sophia."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Trzciński",
+      "mention_texts": [
+        "Stanislao Trzatczinski"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "comparente"
+      ],
+      "justification": "A nobleman appearing in the legal proceedings."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joannam"
+      ],
+      "descriptive_mentions": [
+        "Fratres suos",
+        "tutores liberorum praedicti olim Groeszkonis legitime aetate minorum"
+      ],
+      "justification": "One of the guardians of the minor children of the late Groeszko Samborowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Grzegorz",
+      "mention_texts": [
+        "Grzaszkonis"
+      ],
+      "descriptive_mentions": [
+        "Fratres suos",
+        "tutores liberorum praedicti olim Groeszkonis legitime aetate minorum"
+      ],
+      "justification": "Another guardian of the minor children of the late Groeszko Samborowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Groeszkonis Samborowicz Fratris sui"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Annam Sophiam Famati olim Groeszkonis Samborowicz Fratris sui viduam relictam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Honestum Joannem Kozielski prolocutorem suum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    }
+  ]
+}

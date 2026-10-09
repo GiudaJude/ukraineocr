@@ -1,0 +1,245 @@
+{
+  "document_id": "arc2/0587.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "950 florins",
+      "mention_texts": [
+        "noningentis quinquaginta florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text specifies an amount of money: 'noningentis quinquaginta florenis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0020: 600 Polish florins",
+      "mention_texts": [
+        "sexcentorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Refers to the sum of six hundred florins: 'summa tam sexcentorum'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Gradzek",
+      "mention_texts": [
+        "Gradzkowi"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Creditor mentioned in prior registration: 'Famato Gradzkowi antea iuxta inscriptionem'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Saturday after Feast of Ascension 1591",
+      "mention_texts": [
+        "Sabbato post Festum Ascensionis Domini proximo Anno Domini 1591 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of previous inscription: 'Sabbato post Festum Ascensionis Domini proximo Anno Domini 1591 primo'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris",
+        "officij Consularis Leopoliensis",
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council and its court issuing decrees: 'officij Consularis Leopoliensis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "350 florins",
+      "mention_texts": [
+        "trecentorum quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text specifies an amount: 'trecentorum quinquaginta florenorum'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Ignocis Zajączkowa",
+      "mention_texts": [
+        "Kunczowa",
+        "Ignocem Zaiączkowa"
+      ],
+      "descriptive_mentions": [
+        "Astam",
+        "Civem Leopoliensem",
+        "Actorem",
+        "Actrix"
+      ],
+      "justification": "Plaintiff in decree: 'Astam Ignocem Zaiączkowa Civem Leopoliensem ... Actorem' and heading 'pro parte Kunczowa'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv cited in citizen and office descriptions."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobum Gorzałek"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "generum suum",
+        "Actorem"
+      ],
+      "justification": "Son-in-law and actor representing Zajączkowa: 'per Famatum Jacobum Gorzałek generum suum Actorem'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Sophia Kinostowa",
+      "mention_texts": [
+        "Sophiam Kinostowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "viduam relictam",
+        "citatam"
+      ],
+      "justification": "Defendant in decree: 'Honestam Sophiam Kinostowa Famati olim Gregorij Dymotrabbaß Aurifabri Civis Leopoliensis viduam relictam citatam'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dymotrabbaß",
+      "mention_texts": [
+        "Gregorij Dymotrabbaß",
+        "Gregorij Dzymaszabbath",
+        "Gregorio"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Aurifabri",
+        "Civis Leopoliensis",
+        "marito",
+        "defuncti mariti"
+      ],
+      "justification": "Deceased husband of Sophia Kinostowa: 'olim Gregorij Dymotrabbaß Aurifabri Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Simon Kinost",
+      "mention_texts": [
+        "Simone Kinost"
+      ],
+      "descriptive_mentions": [
+        "Asti",
+        "patre",
+        "naturali tutore"
+      ],
+      "justification": "Father and natural guardian of Sophia: 'Asti Simone Kinost patre et proinde naturali tutore'."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Serafińska",
+      "mention_texts": [
+        "lapidea Seraphinska"
+      ],
+      "descriptive_mentions": [
+        "hortulis certis"
+      ],
+      "justification": "House/property whose gardens were rented: 'hortulis certis lapidea Seraphinska'."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta florenos",
+        "florenorum 30.",
+        "triginta florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of rent acknowledged received: 'praeter triginta florenos', 'minus florenorum 30.'."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Margaretha Łukaszowa",
+      "mention_texts": [
+        "Margaritha Suthowa",
+        "Margaritham Lukaszowa"
+      ],
+      "descriptive_mentions": [
+        "Astam"
+      ],
+      "justification": "Party in decree: 'Decretum pro Margaritha Suthowa' and 'inter Astam Margaritham Lukaszowa'."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Sadowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem suum"
+      ],
+      "justification": "Guardian of Margaretha: 'per Honestum Albertum Sadowski tutorem suum'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobum Gorzałek generum suum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "widow_of",
+      "tail_entity_id": "E11",
+      "evidence": "Sophiam Kinostowa Famati olim Gregorij Dymotrabbaß Aurifabri Civis Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "father_of",
+      "tail_entity_id": "E10",
+      "evidence": "Simone Kinost patre et proinde naturali tutore"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "guardian_of",
+      "tail_entity_id": "E15",
+      "evidence": "Albertum Sadowski tutorem suum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Ignocem Zaiączkowa Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Gregorij Dymotrabbaß Aurifabri Civis Leopoliensis"
+    }
+  ]
+}

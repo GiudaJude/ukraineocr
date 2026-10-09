@@ -1,0 +1,251 @@
+{
+  "document_id": "arc2/0886.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kuczkowski",
+      "mention_texts": [
+        "Joannis Kuczkowski",
+        "Joanni Kuczkowski",
+        "Joanne Kuczkowski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "aromataecio",
+        "praefato"
+      ],
+      "justification": "Named as the recipient of the quietatio and executor of the legacy."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Josephus Jelionkowicz",
+      "mention_texts": [
+        "Josephus Jelionkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "filius",
+        "iam adultus annosque legitimae aetatis assecutus"
+      ],
+      "justification": "Appears personally acknowledging receipt of settlement."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Jelionek",
+      "mention_texts": [
+        "Alberti Jelionek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased father of Josephus Jelionkowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Siatkowna",
+      "mention_texts": [
+        "Catherina Siatkowna"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuge"
+      ],
+      "justification": "Mother of Josephus Jelionkowicz and second wife of Albertus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0246: Paulus Jelonek",
+      "mention_texts": [
+        "Paulum Jelonek",
+        "Paulus"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "avum suum charissimum",
+        "praefatus",
+        "avus suus"
+      ],
+      "justification": "Grandfather of Josephus Jelionkowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "224 florins 19 groschen",
+      "mention_texts": [
+        "florenis ducentis viginti quatuor et grossis decem novem pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of money settled in the quietatio."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia post Dominicam Invocavit proxima Anno quo supra",
+        "feria quarta post Dominicam Invocavit proxima Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the legal proceedings recorded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensibus",
+        "Civitatis istius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts are drawn up."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Żelegozski",
+      "mention_texts": [
+        "Sebastianus Zelezoczyk",
+        "Sebastiani Zelegozszki",
+        "Sebastianus Zelegozszki"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Pileatoris",
+        "maritus praefatus",
+        "separati Coniuges",
+        "praedictus"
+      ],
+      "justification": "Hatmaker appearing in the divorce division record."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Catherina Koszelniczanka",
+      "mention_texts": [
+        "Caterina",
+        "Catherina Koszelniczanka",
+        "Catherinam"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "uxor",
+        "quondam uxor divortiata",
+        "separati Coniuges",
+        "illa",
+        "praefatam"
+      ],
+      "justification": "Divorced wife of Sebastianus Żelegozski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0391: Martinus Suburbanus",
+      "mention_texts": [
+        "Martino Pieczonowski"
+      ],
+      "descriptive_mentions": [
+        "Suburbanis Leopoliensibus",
+        "Tutoribus sibi ex officio datis"
+      ],
+      "justification": "Suburban tutor assigned to Catherina Koszelniczanka."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Thomas Jacsik",
+      "mention_texts": [
+        "Thoma Jacsik"
+      ],
+      "descriptive_mentions": [
+        "Suburbanis Leopoliensibus",
+        "Tutoribus sibi ex officio datis"
+      ],
+      "justification": "Suburban tutor assigned to Catherina Koszelniczanka."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Spiritual Court",
+      "mention_texts": [
+        "spiritualis Officii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ecclesiastical court that decreed the divorce."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Civitatis istius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City authorities issuing the laudum on the division of goods."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Josephus Jelionkowicz Famati olim Alberti Jelionek ... filius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Josephus Jelionkowicz Famati olim Alberti Jelionek ex Catherina Siatkowna secundarum nuptiarum coniuge filius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Alberti Jelionek ex Catherina Siatkowna secundarum nuptiarum coniuge"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Paulum Jelionek avum suum charissimum ratione devolutionis suae paternae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "ex_spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Catherina Koszelniczanka Honesti Sebastiani Zelegozszki Pileatoris quondam uxor divortiata"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Catherina Koszelniczanka ... cum chori Martino Pieczonowski et Thoma Jacsik Suburbanis Leopoliensibus Tutoribus sibi ex officio datis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Catherina Koszelniczanka ... cum chori Martino Pieczonowski et Thoma Jacsik Suburbanis Leopoliensibus Tutoribus sibi ex officio datis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Martino Pieczonowski et Thoma Jacsik Suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Martino Pieczonowski et Thoma Jacsik Suburbanis Leopoliensibus"
+    }
+  ]
+}

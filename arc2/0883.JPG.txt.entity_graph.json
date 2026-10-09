@@ -1,0 +1,195 @@
+{
+  "document_id": "arc2/0883.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Hospitali",
+        "eodem Hospitali",
+        "eidem Hospitali",
+        "praedicti Hospitalis",
+        "Hospitalis",
+        "praefato Hospitali",
+        "hospitali praedicto"
+      ],
+      "justification": "Context refers to the Holy Spirit Hospital ('Hospitali', 'pauperum Hospitalis', 'Prouisorum praedicti Hospitalis')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiam"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "consortem relictam"
+      ],
+      "justification": "Deceased woman who built and bequeathed a brick apartment in the hospital ('Honestam olim Sophiam')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Stanek",
+      "mention_texts": [
+        "Stanislai Stanek"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased husband of Sophia ('Famati olim Stanislai Stanek')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Tomae Karcz",
+        "Thomam Karcz"
+      ],
+      "descriptive_mentions": [
+        "Scabini",
+        "Honoratum"
+      ],
+      "justification": "Lviv bencher assisting and consenting with Anna ('Tomae Karcz Scabini', 'Honoratum Thomam Karcz')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Josephus",
+      "mention_texts": [
+        "Josephi"
+      ],
+      "descriptive_mentions": [
+        "pro Ephoratus"
+      ],
+      "justification": "Citizen acting as ephor/provisor ('Josephi pro Ephoratus')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Elias Domagala",
+      "mention_texts": [
+        "Eliaesh Domagala"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Citizen mentioned acting on behalf of Anna ('Eliaesh Domagala')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae",
+        "Annae Eupomoma",
+        "Anna Eupomoma",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "viduae relictae",
+        "praefatam",
+        "praefata",
+        "praedicta"
+      ],
+      "justification": "Widow of Antonius Samok leasing the apartment in the hospital ('Honestae Annae Famati olim Antonij Samok Civis Leopoliensis viduae relictae')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Antonius Samok",
+      "mention_texts": [
+        "Antonij Samok"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, husband of Anna ('Famati olim Antonij Samok Civis Leopoliensis')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City specified in the title/citizenship of Antonius Samok ('Civis Leopoliensis')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum",
+        "arbitrium nostrum"
+      ],
+      "justification": "Issuing municipal council / office ('apud Officium nostrum factam locauimus', 'ad Officium nostrum')."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0117: 12 florins",
+      "mention_texts": [
+        "Florenorum duodecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Annual rent paid to the provisors of the hospital ('Florenorum duodecim quotannis')."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenos quinquaginta Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Donation bequeathed by Anna to the hospital ('Florenos quinquaginta Polonicales')."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date closing statement referring to the preceding date heading of the volume ('Actum ut supra.')."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Kram",
+      "mention_texts": [
+        "Christophero Kram"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Subject of the decree note at the end of the entry ('Decretum pro Christophero Kram')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestam olim Sophiam Famati olim Stanislai Stanek consortem relictam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestae Annae Famati olim Antonij Samok Civis Leopoliensis viduae relictae"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Antonij Samok Civis Leopoliensis"
+    }
+  ]
+}

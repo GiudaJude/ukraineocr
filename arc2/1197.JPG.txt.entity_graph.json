@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/1197.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopolitica"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referenced as the place of legal recording and location of citizenship and urban rights."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigis Szumiłina",
+        "Hedwigis"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "posteriorum nuptiarum vidua relicta"
+      ],
+      "justification": "Widow selling her hereditary share in a house and garden."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Caspar Zimonraczkowicz",
+      "mention_texts": [
+        "Casparis Zimonraczkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestioris",
+        "Civis Leopoliensis",
+        "mariti sui"
+      ],
+      "justification": "Late husband of Hedwigis."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Janik",
+      "mention_texts": [
+        "Tomam Janik"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum Actum assumptum"
+      ],
+      "justification": "Guardian appointed to assist Hedwigis in the legal transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Szumiło",
+      "mention_texts": [
+        "Bartholomeus Szumiła",
+        "Bartholomaeo Szumiłło"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Civico",
+        "coniugibus"
+      ],
+      "justification": "Buyer of the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Wife of Bartholomaeus Szumiło, co-purchaser of the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0300: Andreas Dambrowski",
+      "mention_texts": [
+        "Andreae Dambrowski",
+        "somba"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "collega mei Consularis"
+      ],
+      "justification": "Neighbouring property owner and member of the city council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Scholz",
+      "mention_texts": [
+        "Andreae mislai Scholz"
+      ],
+      "descriptive_mentions": [
+        "Patricij"
+      ],
+      "justification": "Patrician owning an adjacent garden."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Łan Richterowski",
+      "mention_texts": [
+        "Laneo dichterowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Specific laneus in the Lviv suburb where the property is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "13 florins 10 groschen",
+      "mention_texts": [
+        "Tredecim Florenorum et grossorum decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The transaction price for the property share."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "posteriorum nuptiarum vidua relicta ... post obitum praedicti mariti sui"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "per Honestum Tomam Janik tutorem sibi ad eum Actum assumptum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Bartholomaeo Szumiłło ... et Sophiae matri coniugibus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in eiusdem Civitatis Suburbio in Laneo dichterowska"
+    }
+  ]
+}

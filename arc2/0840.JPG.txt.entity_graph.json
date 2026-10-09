@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/0840.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0184: Glinska Street",
+      "mention_texts": [
+        "platea Gliniska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the house in question is located"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0816: Gregorius",
+      "mention_texts": [
+        "Gregorij Liszek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the property on Glinska Street"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kawałek",
+      "mention_texts": [
+        "Stanislai Kawałek"
+      ],
+      "descriptive_mentions": [
+        "Sartoris"
+      ],
+      "justification": "Tailor whose house borders the property on Glinska Street"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "Sabbato ante Festum Purificationis Beatae Mariae Virginis proximo Anno 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous registration of debt"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "80 florins",
+      "mention_texts": [
+        "Octaginta Florenis",
+        "octoginta Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt contracted by Bartholomaeus Osolski"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Osolski",
+      "mention_texts": [
+        "Bartholomaeum Osolski"
+      ],
+      "descriptive_mentions": [
+        "praefatum",
+        "eiusdem",
+        "debitoris praefati"
+      ],
+      "justification": "Debtor who mortgaged his house for an eighty-florin debt"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Fridericus Grott",
+      "mention_texts": [
+        "Friderici Grotti"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Chirurgi Leopoliensis"
+      ],
+      "justification": "Noble surgeon of Lviv receiving intromission into the house"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place and origin of the surgeon"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kalinowski",
+      "mention_texts": [
+        "Joannes Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "praedicto Generoso",
+        "Generoso Creditori",
+        "idem Generosus",
+        "praefati Generosi Creditores",
+        "praedicto Creditori"
+      ],
+      "justification": "Noble creditor granted intromission into two shares of the house"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato post die festu Purificationis. Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date the present act was recorded"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E9",
+      "evidence": "summam debiti Octaginta Florenis per praefatum Bartholomaeum Osolski praedicto Generoso contracti"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "owes",
+      "tail_entity_id": "E5",
+      "evidence": "summam debiti Octaginta Florenis per praefatum Bartholomaeum Osolski praedicto Generoso contracti"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Friderici Grotti Chirurgi Leopoliensis"
+    }
+  ]
+}

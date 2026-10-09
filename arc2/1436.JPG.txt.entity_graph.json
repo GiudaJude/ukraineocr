@@ -1,0 +1,194 @@
+{
+  "document_id": "arc2/1436.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zofia"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta",
+        "ipsa",
+        "vidua"
+      ],
+      "justification": "Identified as the widow of Gracianus Jakubowicz and represented by Andreas Mościcki."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Gracianus Jakubowicz",
+      "mention_texts": [
+        "Graciani Jakubowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Armeni Civis Leopoliensis"
+      ],
+      "justification": "Identified as the deceased Armenian citizen of Lviv, late husband of Zofia."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Demetrius",
+      "mention_texts": [
+        "Demetrius"
+      ],
+      "descriptive_mentions": [
+        "maritus suus"
+      ],
+      "justification": "Mentioned as the husband who furnished the chambers with chests and ornaments."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Mościcki",
+      "mention_texts": [
+        "Andream Moscicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "tutorem et Prolocutorem suum"
+      ],
+      "justification": "Identified as noble guardian and legal advocate of Zofia."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Jakubowicz",
+      "mention_texts": [
+        "Christophori Jakubowicz",
+        "Christophoro",
+        "Christophorum"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armeni Civis Leopoliensis"
+      ],
+      "justification": "Identified as an Armenian citizen of Lviv involved in the division of the Jakubowicz stone house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as a monetary sum debited to the deceased husband."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Acta praesentia",
+        "Officio",
+        "Acta"
+      ],
+      "justification": "Identified as the consular municipal judicial office in Lviv before which the proceedings are recorded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in civic, judicial, and ethnic descriptions."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Israel Jakubowicz",
+      "mention_texts": [
+        "Israel Jakubowicz",
+        "Israel"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaeus Leopoliensis",
+        "Judaeus"
+      ],
+      "justification": "Identified as a Jewish resident of Lviv appearing before the council."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Uberowicz",
+      "mention_texts": [
+        "Bartholomeum Vberowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Tutorem et Festatorem suum"
+      ],
+      "justification": "Identified as guardian and legal representative of Israel Jakubowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinum Roterdoff",
+        "Roterodoff"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum"
+      ],
+      "justification": "Identified as a city scabinus against whom a demonstration is filed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Zofia Famati olim Graciani Jakubowicz Armeni Civis Leopoliensis relicta"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "in quibus maritus suus Demetrius armaria subsedes et alia ornamenta suis propriis impensis comparauit"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Zofia ... per Nobilem Andream Moscicki tutorem et Prolocutorem suum assistens"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Graciani Jakubowicz Armeni Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Christophori Jakubowicz Armeni Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Israel Jakubowicz Judaeus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E9",
+      "evidence": "Israel Jakubowicz Judaeus Leopoliensis per Famatus Bartholomeum Vberowicz ... Tutorem et Festatorem suum"
+    }
+  ]
+}

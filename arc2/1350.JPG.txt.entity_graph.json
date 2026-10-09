@@ -1,0 +1,327 @@
+{
+  "document_id": "arc2/1350.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czebza",
+      "mention_texts": [
+        "Joannis Czebza",
+        "Joannes Czebza",
+        "Joannem Czebza"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Artificii Sutorum socii",
+        "ipsius",
+        "dictus",
+        "Eundem"
+      ],
+      "justification": "The text concerns the legitimate birth of Joannes Czebza, a journeyman shoemaker."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jarch",
+      "mention_texts": [
+        "Stanislaus Jarch"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Magistri Seniores Sutorum Contubernii Suburbani Leopoliensis"
+      ],
+      "justification": "Senior master of the suburban shoemakers' guild testifying to Joannes Czebza's birth."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Matias Sambek",
+      "mention_texts": [
+        "Matias Sambek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Magistri Seniores Sutorum Contubernii Suburbani Leopoliensis"
+      ],
+      "justification": "Senior master of the suburban shoemakers' guild testifying alongside Stanislaus Jarch."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Suburban Shoemakers' Guild",
+      "mention_texts": [
+        "Sutorum Contubernii Suburbani Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Contubernio suo",
+        "Contubernii",
+        "Artificii Sutorum"
+      ],
+      "justification": "The guild of suburban shoemakers of Lviv whose elders appear and testify."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kleparów",
+      "mention_texts": [
+        "Kleparow"
+      ],
+      "descriptive_mentions": [
+        "pago Civili",
+        "eadem Kleparow"
+      ],
+      "justification": "Village from which witnesses came and where the parents resided."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Czebza",
+      "mention_texts": [
+        "Valentini Czebza"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "coniugis",
+        "incolarum"
+      ],
+      "justification": "Father of Joannes Czebza, resident of Kleparów."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Egeta",
+      "mention_texts": [
+        "Egetis"
+      ],
+      "descriptive_mentions": [
+        "matris coniugis",
+        "incolarum"
+      ],
+      "justification": "Mother of Joannes Czebza and wife of Valentinus Czebza."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Roman Catholic Church",
+      "mention_texts": [
+        "Sanctae Romanae Catholicae Ecclesiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ecclesiastical institution according to whose rites the marriage took place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii nostri",
+        "officii"
+      ],
+      "justification": "Municipal council recording the testimony and issuing a decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda ante festum Nativitatis Mariae Anno 96",
+        "Anno 96"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded testimony."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Fruwirt",
+      "mention_texts": [
+        "Nicolai Fruwirt"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the title of the decree: 'Decretum pro parte Nicolai Fruwirt'."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czomski",
+      "mention_texts": [
+        "Stanislaum Czomski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem et Honestum",
+        "Dintem",
+        "actorem"
+      ],
+      "justification": "Noble actor acting as representative for Nicolaus Zawitren."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Zawitren",
+      "mention_texts": [
+        "Nicolai Zawitren"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "Tabernatoris Bilczani",
+        "actori"
+      ],
+      "justification": "Innkeeper of Bilcze represented by Stanislaus Czomski."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Bilcze",
+      "mention_texts": [
+        "Bilczani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town/village of which Nicolaus Zawitren is the tavernkeeper."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Przelupski",
+      "mention_texts": [
+        "Stanislaum Przelupski"
+      ],
+      "descriptive_mentions": [
+        "coniuges suburbanos Leopolienses",
+        "citatos",
+        "citati"
+      ],
+      "justification": "Suburban resident summoned in the decree along with his wife Nelka."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Nelka",
+      "mention_texts": [
+        "Nelka"
+      ],
+      "descriptive_mentions": [
+        "coniuges suburbanos Leopolienses",
+        "citatos",
+        "citati"
+      ],
+      "justification": "Wife of Stanislaus Przelupski, summoned as debtor."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "currency",
+      "canonical_name": "44 florins",
+      "mention_texts": [
+        "quadraginta quatuor florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the debt mentioned in the decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaus Jarch et Matias Sambek Magistri Seniores Sutorum Contubernii Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaus Jarch et Matias Sambek Magistri Seniores Sutorum Contubernii Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannis Czebza Artificii Sutorum socii"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannem Czebza progenitum esse ex matrimonio Honestorum Valentini Czebza et Egetis matris coniugis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannem Czebza progenitum esse ex matrimonio Honestorum Valentini Czebza et Egetis matris coniugis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "married_to",
+      "tail_entity_id": "E7",
+      "evidence": "Valentini Czebza et Egetis matris coniugis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "married_to",
+      "tail_entity_id": "E6",
+      "evidence": "Valentini Czebza et Egetis matris coniugis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Valentini Czebza et Egetis matris coniugis de eadem Kleparow incolarum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Valentini Czebza et Egetis matris coniugis de eadem Kleparow incolarum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E14",
+      "evidence": "Stanislaum Czomski tanquam Dintem Providi Nicolai Zawitren Tabernatoris Bilczani actorem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "resident_of",
+      "tail_entity_id": "E15",
+      "evidence": "Nicolai Zawitren Tabernatoris Bilczani"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "married_to",
+      "tail_entity_id": "E17",
+      "evidence": "Stanislaum Przelupski atque Nelka coniuges"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "married_to",
+      "tail_entity_id": "E16",
+      "evidence": "Stanislaum Przelupski atque Nelka coniuges"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislaum Przelupski atque Nelka coniuges suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislaum Przelupski atque Nelka coniuges suburbanos Leopolienses"
+    }
+  ]
+}

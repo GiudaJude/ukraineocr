@@ -1,0 +1,137 @@
+{
+  "document_id": "arc2/0959.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned as the seat and location of the court acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoli",
+        "Expositi Judicii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Lviv Banned Court before which the contract is registered and powers are granted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date reference back to the preceding act of the 1595 register."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Wolos Szoszyn",
+      "mention_texts": [
+        "Włos",
+        "Wolos Szoszyn Filius"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges",
+        "ille",
+        "maritum tutorem suum legittimum"
+      ],
+      "justification": "Seller of the land acting on behalf of himself and as legal guardian of his wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Tacia",
+      "mention_texts": [
+        "Tacia"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges",
+        "haec"
+      ],
+      "justification": "Wife of Wolos Szoszyn, co-selling the inherited parcel of land."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0142: Hołowsko",
+      "mention_texts": [
+        "maius Wolowisko",
+        "maioris Woloszyn"
+      ],
+      "descriptive_mentions": [
+        "Pago"
+      ],
+      "justification": "Village location of the land parcel and residence of the parties."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Josephus Omnikowicz",
+      "mention_texts": [
+        "Josepho Omnikowicz"
+      ],
+      "descriptive_mentions": [
+        "Emptore",
+        "eundem",
+        "eidem emptori"
+      ],
+      "justification": "Buyer of the land described in the transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "46 Polish florins",
+      "mention_texts": [
+        "quadraginta sex Florenorum pecunia et numeri Polonici"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Purchase price paid for the quarter-plot of land."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Iacobus Scholc"
+      ],
+      "descriptive_mentions": [
+        "Scabini"
+      ],
+      "justification": "Scabinus acting as signatory/official of the court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesti Wolos Szoszyn Filius et Tacia Coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "haec vero per eundem maritum tutorem suum legittimum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Scabinis Expositi Judicii ... Iacobus Scholc ... Scabini"
+    }
+  ]
+}

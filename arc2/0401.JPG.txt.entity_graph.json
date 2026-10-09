@@ -1,0 +1,134 @@
+{
+  "document_id": "arc2/0401.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "26 November 1586",
+      "mention_texts": [
+        "feria quarta in Crastino Sanctae Catherinae Virginis anno domini 1586"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the testament made on the day after the Feast of St. Catherine in 1586."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Blasius Stołka",
+      "mention_texts": [
+        "Blasio Stolka",
+        "Blasius Stolka"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "secundarum nuptiarum marito",
+        "patris",
+        "mariti sui"
+      ],
+      "justification": "Second husband who received property by testament and later remarried Agnes."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetem Stoszyna"
+      ],
+      "descriptive_mentions": [
+        "alteram uxorem",
+        "hanc ipsam",
+        "recognoscentem",
+        "matris",
+        "uxor"
+      ],
+      "justification": "Surviving second wife of Blasius Stołka (Stołczyna), selling the shares of the estate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Anna Sanyeczyna",
+      "mention_texts": [
+        "Annae Sanyeczyna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned whose part is contained in the third share."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Szczerzec",
+      "mention_texts": [
+        "Szczerzecien'"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of residence of the purchaser Jacobus Klapycz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Klapycz",
+      "mention_texts": [
+        "Jacobo Klapycz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "emptorem"
+      ],
+      "justification": "Resident of Szczerzec purchasing the house and garden shares."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "florenorum Triginta"
+      ],
+      "descriptive_mentions": [
+        "sex marcis pretio florenorum Triginta ... numeri Polonicalis"
+      ],
+      "justification": "Purchase price paid for the property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose bench holds jurisdiction."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Theorio Exposito Bannito"
+      ],
+      "descriptive_mentions": [
+        "Actum Iuris Dominii Seniorum Scabinorum Civitatis Leopoliensis in Theorio Exposito Bannito"
+      ],
+      "justification": "Banned court before which the legal resignation of the property is to be performed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Blasius Stolka superduxit alteram uxorem hanc ipsam Agnetem Stoszyna"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "incolis Szczerzecien' Egre- Honesto Jacobo Klapycz"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sold_to",
+      "tail_entity_id": "E6",
+      "evidence": "vendidit perpetuo et haereditarie egregijs peritis incolis Szczerzecien' Egre- Honesto Jacobo Klapycz"
+    }
+  ]
+}

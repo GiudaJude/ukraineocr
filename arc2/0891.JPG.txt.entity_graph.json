@@ -1,0 +1,184 @@
+{
+  "document_id": "arc2/0891.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "Officium",
+        "officij nostri",
+        "Civitatis istius",
+        "Acta praesentia"
+      ],
+      "justification": "The Lviv council office before which the parties and officials appeared."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobrowolski"
+      ],
+      "descriptive_mentions": [
+        "Honestus et Famati",
+        "I. V. Doctor et Advocatus Ordinarius"
+      ],
+      "justification": "Doctor of Laws and ordinary advocate making a relation before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szkil",
+      "mention_texts": [
+        "Joannes Szkil"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati"
+      ],
+      "justification": "Sworn bencher of Lviv delivering a report on the execution of the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamus Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati"
+      ],
+      "justification": "Sworn bencher of Lviv delivering a report on the execution of the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Starniczkowa",
+        "Barbarae Sztygiernowa",
+        "Barbara Sztygiernowa",
+        "Sztygiernowa",
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "praedicta",
+        "eidem",
+        "eandem"
+      ],
+      "justification": "Subject of the eviction order regarding a portion of the stone house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adami Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "ipsius tutoris dativi",
+        "Honesti"
+      ],
+      "justification": "Appointed guardian of Barbara present during the proceedings."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Georgius Gieczkowicz",
+      "mention_texts": [
+        "Georgius Gidziwic",
+        "Georgij Gieczkowicz",
+        "Georgium"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "furieri Civis Leopoliensis",
+        "praefatum",
+        "Creditorem"
+      ],
+      "justification": "Furrier and creditor who obtained the decree for possession of the house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis",
+        "Civitatis istius"
+      ],
+      "justification": "City where the court sat and where the disputed property is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda ante Festum Nativitatis Beatae Virginis Mariae proxima Anno 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree mentioned in the text."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lucykowska House",
+      "mention_texts": [
+        "Lucykowszka"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam",
+        "domus lapideae praefatae Lucykowszka vocata"
+      ],
+      "justification": "Stone house behind the butchers' stalls subject to eviction."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Kędzierzawski",
+      "mention_texts": [
+        "Kiedzierzawski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning an adjoining house."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Smadek",
+      "mention_texts": [
+        "Petri Smadek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning an adjoining house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "ipsius tutoris dativi Honesti Adami Kalinowski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "creditor_of",
+      "tail_entity_id": "E5",
+      "evidence": "per praefatum Georgium vt Creditorem in persona praefata Sztygiernowa electi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Civis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "document_id": "arc2/0662.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomae Karwicz"
+      ],
+      "descriptive_mentions": [
+        "emptoris",
+        "Honesti"
+      ],
+      "justification": "Named as the buyer of the property in the transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv mentioned for resignatio of the house and garden."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Rabiszowicz",
+      "mention_texts": [
+        "Francisci Rabiszowicz"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "demortui",
+        "parentem suum"
+      ],
+      "justification": "Deceased former owner and father of the heirs selling hereditary rights."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "seniorum nuptiarum eiusdem consors legitima"
+      ],
+      "justification": "Widow/wife of deceased Franciscus Rabiszowicz from his previous marriage."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Podlirzny",
+      "mention_texts": [
+        "Joannes Podlirzny"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "praedicti demortui generosus"
+      ],
+      "justification": "Son-in-law of the deceased Franciscus Rabiszowicz and husband of Dorothea."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea Rapuskowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniugis sua"
+      ],
+      "justification": "Wife of Joannes Podlirzny and daughter/heir of Franciscus Rabiszowicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0118: Franciscus",
+      "mention_texts": [
+        "Franciscus"
+      ],
+      "descriptive_mentions": [
+        "filij",
+        "adulti",
+        "annosque integrę aetati habentes"
+      ],
+      "justification": "Adult son and heir of deceased Franciscus Rabiszowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "filij",
+        "adulti",
+        "annosque integrę aetati habentes"
+      ],
+      "justification": "Adult son and heir of deceased Franciscus Rabiszowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "pudica",
+        "sororis sua",
+        "nondum annos legitima aetatis attingens"
+      ],
+      "justification": "Minor daughter of Franciscus Rabiszowicz and sister of his other heirs."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sadowski",
+      "mention_texts": [
+        "Albertum Sadowszki"
+      ],
+      "descriptive_mentions": [
+        "tutorem"
+      ],
+      "justification": "Appointed guardian acting on behalf of the minor Anna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0049: Sigismundus Smietanka",
+      "mention_texts": [
+        "Smietanka"
+      ],
+      "descriptive_mentions": [
+        "Succores"
+      ],
+      "justification": "Named in the header/marginal note of entry 654 regarding his successors."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Sławik",
+      "mention_texts": [
+        "Slawikow"
+      ],
+      "descriptive_mentions": [
+        "Succores"
+      ],
+      "justification": "Named in the marginal note alongside Smietanka regarding his successors."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrocki",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Iuris Utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate appearing personally in court in entry 654."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus"
+      ],
+      "justification": "Appearing in court alongside Gregorius Dobrocki in entry 654."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Catherina seniorum nuptiarum eiusdem consors legitima"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestus Joannes Podlirzny praedicti demortui generosus et Honesta Dorothea Rapuskowna coniugis sua nominibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_child_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedicti demortui generosus et Honesta Dorothea Rapuskowna coniugis sua nominibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Franciscus et Joannes eiusdem Francisci Rabiszowicz filij adulti"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Franciscus et Joannes eiusdem Francisci Rabiszowicz filij adulti"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Anna sororis sua nondum annos legitima aetatis attingens nominibus ... super eiusmodi venditionem iuris haereditarij per parentem suum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "illa vero per Albertum Sadowszki tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sold_to",
+      "tail_entity_id": "E1",
+      "evidence": "venditionem iuris haereditarij per parentem suum ... in personam Honesti Thomae Karwicz factam"
+    }
+  ]
+}

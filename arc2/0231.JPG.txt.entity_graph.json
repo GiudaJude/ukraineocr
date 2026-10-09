@@ -1,0 +1,84 @@
+{
+  "document_id": "arc2/0231.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saints Simon and Jude the Apostles",
+      "mention_texts": [
+        "Festo Sanctorum Simonis et Jude Apostolorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day specified for payment (28 October)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kosmowski",
+      "mention_texts": [
+        "Joannes Kosmowski"
+      ],
+      "descriptive_mentions": [
+        "Graszus",
+        "praefatus"
+      ],
+      "justification": "Creditor named in the satisfaction of debt clause."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officii praesentis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council before which the declaration and petition were made."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Błazowski",
+      "mention_texts": [
+        "Sigismundus Błazowij",
+        "Sigismundus Błazowski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "Vicedapifer Terrae Lublinensis",
+        "Exegregator Contributionis ex mandato Sacrae Regiae Maiestatis Domini Domini Clementissimi Collector",
+        "citatus"
+      ],
+      "justification": "Royal tax collector and deputy cupbearer of Lublin appearing before the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lublin Land",
+      "mention_texts": [
+        "Terrae Lublinensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Territory in the official title of Sigismundus Błazowski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "appeared_before",
+      "tail_entity_id": "E3",
+      "evidence": "Coram Officio Consulari Leopoliensi comparens personaliter Generosus Sigismundus Błazowski"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "document_id": "arc2/0200.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "nos",
+        "successores nostros",
+        "nobis",
+        "Nos"
+      ],
+      "justification": "The municipal authority acting in the record ('Officio nostro', 'nos et successores nostros', 'petiit a nobis')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "2000 Polish florins",
+      "mention_texts": [
+        "duorum millium florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "debiti"
+      ],
+      "justification": "The sum of debt mentioned as satisfied in the first entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria sexta post festum Purificationis Mariae Virginis proxima anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date of the original obligation referred to in the entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Zubrza",
+      "mention_texts": [
+        "Zuora"
+      ],
+      "descriptive_mentions": [
+        "milliis nostris haereditariis",
+        "villas praefatas"
+      ],
+      "justification": "One of the hereditary villages belonging to the city of Lviv securing the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Sichów",
+      "mention_texts": [
+        "Sichow"
+      ],
+      "descriptive_mentions": [
+        "villas praefatas"
+      ],
+      "justification": "Hereditary village belonging to the city of Lviv securing the debt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Hospital of Saint Stanislaus",
+      "mention_texts": [
+        "Hospitale Sancti Stanislai",
+        "Hospitalis Sancti Stanislai"
+      ],
+      "descriptive_mentions": [
+        "praedictum Hospitale"
+      ],
+      "justification": "Hospital in Lviv possessing the fundus/locus in question."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thomas Saur",
+      "mention_texts": [
+        "Tomas Sautz",
+        "Tomas Saur"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus Civitatis Leopoliensis",
+        "ipsi",
+        "eidem",
+        "ipsius"
+      ],
+      "justification": "The petitioner and Lviv bench assessor requesting the hospital plot."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv, referenced in the title of the scabinus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Waleczkowski plot",
+      "mention_texts": [
+        "Waleczkowski",
+        "Walatkowski"
+      ],
+      "descriptive_mentions": [
+        "loco",
+        "fundo",
+        "fundum praedictum",
+        "hortulum fundi"
+      ],
+      "justification": "The named estate/plot of land belonging to the Hospital of Saint Stanislaus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Simon Tanczymski",
+      "mention_texts": [
+        "Simonis Tanczymski"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "Person mentioned whose neighbouring land borders the subject plot."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "2 florins",
+      "mention_texts": [
+        "duorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "censu"
+      ],
+      "justification": "Annual rent on the old plot."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "15 groschen",
+      "mention_texts": [
+        "quindecim grossorum"
+      ],
+      "descriptive_mentions": [
+        "censu noviter recenti"
+      ],
+      "justification": "The newly added annual ground rent amount."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szerszenski",
+      "mention_texts": [
+        "Petrus Szerszenski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famati"
+      ],
+      "justification": "Noble appearing at the start of entry 224."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "owns",
+      "tail_entity_id": "E4",
+      "evidence": "villis nostris haereditariis Zuora et Sichow assecurati"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "owns",
+      "tail_entity_id": "E5",
+      "evidence": "villis nostris haereditariis Zuora et Sichow assecurati"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Tomas Saur Scabinus Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "owns",
+      "tail_entity_id": "E9",
+      "evidence": "in loco Waleczkowski vocato ad praedictum Hospitale iure legati pertinenti et spectanti"
+    }
+  ]
+}

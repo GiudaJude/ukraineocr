@@ -1,0 +1,219 @@
+{
+  "document_id": "arc2/0995.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorij Dobroczkÿ"
+      ],
+      "descriptive_mentions": [
+        "Excellentis Domini",
+        "Iuris Utriusque Doctoris",
+        "Advocati Ordinarij",
+        "praedicti Excellentis Advocati",
+        "praedictus Dominus Advocatus",
+        "Domini Advocati",
+        "Domino Salvo",
+        "praefato Domino Advocati"
+      ],
+      "justification": "Doctor of Both Laws and ordinary advocate appearing in the registration."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zaleski",
+      "mention_texts": [
+        "Mathiae Zaleski",
+        "Mathiam Zaleski",
+        "Mathias Zaleski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "praefati Zaleski",
+        "Fratrem",
+        "praedictus Nobilis"
+      ],
+      "justification": "Noble whose herring barrels were requisitioned and who submits to the city jurisdiction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mathia Jutrożak",
+      "mention_texts": [
+        "Mathia Iutrozak"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "praefati Zaleski debitrice"
+      ],
+      "justification": "Debtor of Mathias Zaleski named in the text."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Scholz",
+      "mention_texts": [
+        "Georgius Scholcz",
+        "Georgio Scholz",
+        "Georgij"
+      ],
+      "descriptive_mentions": [
+        "ipse",
+        "eidem",
+        "fideiussori"
+      ],
+      "justification": "Guarantor/fideiussor obligating himself on behalf of Mathias Zaleski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio praesenti",
+        "officio"
+      ],
+      "justification": "Current office before which the parties appear."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Anna Wilczkowa",
+      "mention_texts": [
+        "Annae Wilczkowa",
+        "Anna",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Spectabilis olim Valentini Wilczek Consulis Leopoliensis coniuge relicta vidua",
+        "vidua",
+        "eandem"
+      ],
+      "justification": "Widow of the late consul Valentinus Wilczek who pays 40 florins."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Wilczek",
+      "mention_texts": [
+        "Valentini Wilczek",
+        "Valentinum Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis olim",
+        "Consulis Leopoliensis",
+        "olim",
+        "praedictum olim"
+      ],
+      "justification": "Late consul of Lviv and husband of Anna Wilczkowa."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wilczek",
+      "mention_texts": [
+        "Joannem Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Spectabilem olim"
+      ],
+      "justification": "Late noble/patrician who bequeathed 80 florins to the chapel."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Chapel of the Three Mysteries",
+      "mention_texts": [
+        "capellam Trium Misteriorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Chapel in the Lviv Latin Cathedral that was bequeathed 80 florins."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesia Metropolitana Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Cathedral church where the Chapel of the Three Mysteries is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the title of consul and cathedral."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta florenos pecuniae et numeri Polonicales",
+        "quadraginta florenis",
+        "quadraginta florenos"
+      ],
+      "descriptive_mentions": [
+        "integros quadraginta florenos"
+      ],
+      "justification": "Amount of forty Polish florins paid and receipted."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0221: CUR-0095: 80 Polish florins",
+      "mention_texts": [
+        "octoginta Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total legacy of 80 florins left by Joannes Wilczek."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Mathia Iutrozak praefati Zaleski debitrice"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "fideiussor_for",
+      "tail_entity_id": "E2",
+      "evidence": "inscripsit se eidem Georgio Scholz fideiussori quod ipse ad primam requisitionem... comparebit"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "widow_of",
+      "tail_entity_id": "E7",
+      "evidence": "ab Honesta Anna Spectabilis olim Valentini Wilczek Consulis Leopoliensis coniuge relicta vidua"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "consul_of",
+      "tail_entity_id": "E11",
+      "evidence": "Valentini Wilczek Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "ad capellam Trium Misteriorum nuncupatam in Ecclesia Metropolitana Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in Ecclesia Metropolitana Leopoliensi"
+    }
+  ]
+}

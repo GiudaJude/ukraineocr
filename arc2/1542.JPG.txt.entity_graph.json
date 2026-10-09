@@ -1,0 +1,211 @@
+{
+  "document_id": "arc2/1542.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes",
+        "Agneta",
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "Dna",
+        "ipsa",
+        "eadem",
+        "eiusdem"
+      ],
+      "justification": "Named as the woman making testamentary arrangements and disposing of the sum and property inherited/acquired from Rupert."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wieszczołowski",
+      "mention_texts": [
+        "Albertum Wiesciolouium"
+      ],
+      "descriptive_mentions": [
+        "Tutorem Honoratum",
+        "Civitatis eiusdem Scabinum Teucitrum"
+      ],
+      "justification": "Appointed guardian of Agnes and alderman of the city."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis eiusdem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city whose bench/council is referenced and in whose suburbs Stanislaus Czachrowicz lives."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucas"
+      ],
+      "descriptive_mentions": [
+        "idem ipse",
+        "ipse"
+      ],
+      "justification": "The nephew of Rupert who takes on the obligation of the legacy."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Rupertus",
+      "mention_texts": [
+        "Ruperti"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "patrui sui"
+      ],
+      "justification": "Deceased paternal uncle of Lucas and former owner of the house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "900 Polish florins",
+      "mention_texts": [
+        "nongentorum florenorum pecuniae"
+      ],
+      "descriptive_mentions": [
+        "praefata summam",
+        "summae praefatae"
+      ],
+      "justification": "The monetary sum secured on the third share of the masonry house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/magistracy under whose authority execution and intromission are admitted."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czachrowicz",
+      "mention_texts": [
+        "Stanislaus Czachrowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "gener",
+        "dictus Gorielnik",
+        "Suburbanus Leopoliensis",
+        "Tutor datiuus",
+        "Tutori officioose constituto",
+        "sibi"
+      ],
+      "justification": "Appointed guardian of the children of the late Mathias Molitor of Kamienobród."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mathias Molitor",
+      "mention_texts": [
+        "Mattia Molitoris"
+      ],
+      "descriptive_mentions": [
+        "Prouidi",
+        "olim"
+      ],
+      "justification": "The deceased miller from Kamienobród whose children are under guardianship."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Kamienobród",
+      "mention_texts": [
+        "Kamiennobrod"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The place of origin/residence of the late Mathias Molitor."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Simon Kirst",
+      "mention_texts": [
+        "Simonis Kirst"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Contactoris sui"
+      ],
+      "justification": "Named as co-tutor alongside Stanislaus Czachrowicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "83 Polish florins",
+      "mention_texts": [
+        "Florenis octoginta tribus pecuniae et numeri Polonicalis",
+        "octoginta tribus florenis"
+      ],
+      "descriptive_mentions": [
+        "summa ea factionis"
+      ],
+      "justification": "The sum paid to the guardians from the sale of property."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Jaiko Lewikowic",
+      "mention_texts": [
+        "Surikowicz",
+        "Jaikone Lewikowic"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pistore",
+        "praedicto bonorum emptore",
+        "emptore",
+        "eodem"
+      ],
+      "justification": "The baker who bought property belonging to the wards and paid the 83 florins."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "eadem ciuidem Agneta propria per Tutorem Honoratum Albertum Wiesciolouium"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "nephew_of",
+      "tail_entity_id": "E5",
+      "evidence": "Ruperti patrui sui"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "lives_in",
+      "tail_entity_id": "E3",
+      "evidence": "Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "tanquam Tutor datiuus liberorum Prouidi olim Mattia Molitoris"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "originates_from",
+      "tail_entity_id": "E10",
+      "evidence": "Mattia Molitoris de Kamiennobrod"
+    }
+  ]
+}

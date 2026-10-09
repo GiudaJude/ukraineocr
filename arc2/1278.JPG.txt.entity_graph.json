@@ -1,0 +1,89 @@
+{
+  "document_id": "arc2/1278.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulus Kordicz- bianus"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Nobilis Dominus",
+        "Medicinae Doctor",
+        "Collega noster Consularis"
+      ],
+      "justification": "Appears as Excellens et Nobilis Dominus Paulus Kordiczbianus Medicinae Doctor Collega noster Consularis, identified with Dr. Paulus Novicampianus (Kampian)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Collega noster Consularis"
+      ],
+      "justification": "The document references the consular council through 'Collega noster Consularis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szaroszewski",
+      "mention_texts": [
+        "Stanislai Piurskowicz",
+        "Stanislaum Szaroszewski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Generosum",
+        "Sucepitatorem Terrestrem Russiae",
+        "suum verum legitimum indubitatumque Plenipotentem",
+        "Generoso Plenipotenti suo"
+      ],
+      "justification": "Named in the heading as Generosus Stanislaus Piurskowicz and in the text body as Generosus Stanislaus Szaroszewski, appointed plenipotentiary."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as the territory of the land collector (Sucepitator Terrestrem Russiae)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Śniatyn",
+      "mention_texts": [
+        "Sniatinen"
+      ],
+      "descriptive_mentions": [
+        "Oppido",
+        "Oppido praefato"
+      ],
+      "justification": "Mentioned as the town where ruinae occurred ('in Oppido Sniatinen')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E1",
+      "evidence": "fecit constituit et solenniter ordinavit in suum verum legitimum indubitatumque Plenipotentem Generosum Stanislaum Szaroszewski"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Sucepitatorem Terrestrem Russiae"
+    }
+  ]
+}

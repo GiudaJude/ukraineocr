@@ -1,0 +1,219 @@
+{
+  "document_id": "arc2/0082.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Consulare Decretum",
+        "Officio nostro"
+      ],
+      "justification": "The document references the consular decree and the office ('Officio nostro') of the city council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis",
+        "Civitate",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv is referenced throughout as the municipal jurisdiction and location."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanisława Świątkowska",
+      "mention_texts": [
+        "Stanisla Swiątkowka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Relicta",
+        "vidua relicta",
+        "suam"
+      ],
+      "justification": "She appears personally to ratify and confirm the donation inscription."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Kurch",
+      "mention_texts": [
+        "Simonis Kurch"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Terendarii Civitatis Iasielensis"
+      ],
+      "justification": "First deceased husband of Stanisława Świątkowska and tax-collector/leaseholder of Jasło."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Jasło",
+      "mention_texts": [
+        "Civitatis Iasielensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Simon Kurch served as 'terendarius'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Czurkis",
+      "mention_texts": [
+        "Iacobi Czurkis",
+        "Iacobum"
+      ],
+      "descriptive_mentions": [
+        "maritum olim suum"
+      ],
+      "justification": "Second deceased husband of Stanisława Świątkowska, former citizen of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Iacobum Gzorałek"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ballonem",
+        "Civem Leopoliensis",
+        "Tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Jacobus Gorszałek acts as the legally appointed tutor assisting Stanisława Świątkowska."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Grodzisko",
+      "mention_texts": [
+        "Grodzck"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location/landmark in the city near which the house is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stodko",
+      "mention_texts": [
+        "Stodkoni"
+      ],
+      "descriptive_mentions": [
+        "sutores"
+      ],
+      "justification": "Shoemaker whose property abuts the house in question."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Ferrifaber",
+      "mention_texts": [
+        "Nicolai Ferrifabri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Blacksmith whose property abuts the house in question."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Laurentius",
+      "mention_texts": [
+        "Laurentii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in property boundary description ('post Laurentii matris')."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Bannite Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The bannite court of Lviv where the donation inscription had been registered."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "Wednesday after Low Sunday 1581",
+      "mention_texts": [
+        "feria quarta post Dominicam Conductus Paschae proxima Anno Domini 1581 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original donation registration in the bannite court."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Christopher Kurch",
+      "mention_texts": [
+        "Christopheri Kurch",
+        "Christophero Kurch",
+        "Christopheri",
+        "Christophero"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Viceadvocati Praetoriensis",
+        "fratris illius",
+        "memorati"
+      ],
+      "justification": "Vice-advocate and brother of Simon Kurch, recipient of the property rights."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famati olim Simonis Kurch Terendarii Civitatis Iasielensis Relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "dein vero Iacobi Czurkis Civitatis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "associated_with",
+      "tail_entity_id": "E5",
+      "evidence": "Simonis Kurch Terendarii Civitatis Iasielensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Iacobi Czurkis Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "Iacobum Gzorałek Ballonem Civem Leopoliensis Tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Iacobum Gzorałek Ballonem Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Christopheri Kurch Viceadvocati Praetoriensis fratris illius"
+    }
+  ]
+}

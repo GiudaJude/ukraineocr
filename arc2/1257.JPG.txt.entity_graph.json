@@ -1,0 +1,244 @@
+{
+  "document_id": "arc2/1257.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Fabianus Federo",
+      "mention_texts": [
+        "Fabiani Federo"
+      ],
+      "descriptive_mentions": [
+        "Constantinopolitano"
+      ],
+      "justification": "Named in the opening quietatio transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0294: Constantinople",
+      "mention_texts": [
+        "Constantinopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matched with known entity LOC-0294: Constantinople."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "praesenti Officio",
+        "Consularem plenariam residentiam",
+        "foro et iurisdictioni praesenti",
+        "Collegam nostrum Consularem"
+      ],
+      "justification": "The consular magistracy before which the parties appear."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Laris",
+      "mention_texts": [
+        "Christophorus Laris"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Przemisliensis"
+      ],
+      "justification": "Noble appearing before the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Przemisliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matched with known entity LOC-0048: Przemyśl."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Catharina Kurnatowska",
+      "mention_texts": [
+        "Catharina Kurnatowna"
+      ],
+      "descriptive_mentions": [
+        "filii",
+        "successores legitimi"
+      ],
+      "justification": "Daughter and heir of Nicolaus Kurnatowski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Świerczek",
+      "mention_texts": [
+        "Stanislaus Swirczek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party appearing before the council."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lubin",
+      "mention_texts": [
+        "Lubin"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Stanislaus Swirczek ('de Lubin')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Margarita Kurnatowska",
+      "mention_texts": [
+        "Margarita",
+        "Kurnatowna"
+      ],
+      "descriptive_mentions": [
+        "Generosa",
+        "itidem",
+        "filii",
+        "successores legitimi"
+      ],
+      "justification": "Daughter and heir of Nicolaus Kurnatowski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kurnatowski",
+      "mention_texts": [
+        "Albertus Kornatowski"
+      ],
+      "descriptive_mentions": [
+        "filii",
+        "successores legitimi"
+      ],
+      "justification": "Son and heir of Nicolaus Kurnatowski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Anna Kurnatowska",
+      "mention_texts": [
+        "Anna",
+        "Kurnatowna"
+      ],
+      "descriptive_mentions": [
+        "Generosa",
+        "similiter",
+        "filii",
+        "successores legitimi"
+      ],
+      "justification": "Daughter and heir of Nicolaus Kurnatowski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Kurnatowski",
+      "mention_texts": [
+        "Nicolai Kurnatowski",
+        "Nicolai Kurnat",
+        "Nicolao Kurnat"
+      ],
+      "descriptive_mentions": [
+        "Generosi olim",
+        "antecessoris sui",
+        "parentum suorum",
+        "Generoso olim"
+      ],
+      "justification": "Deceased nobleman whose succession is recognized."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae polonicalis"
+      ],
+      "justification": "Matched with known entity CUR-0051: 1000 florins."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Liebaes Cvaszy",
+      "mention_texts": [
+        "Nicolaum Liebaes Cvaszy"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "dictum Collegam nostrum Consularem",
+        "olim"
+      ],
+      "justification": "Former consular colleague mentioned in connection with a debt."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "florenorum tercentum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matched with known entity CUR-0166: CUR-0061: CUR-0008: 300 Polish florins."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Fabiani Federo Constantinopolitano"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Generosi Christophorus Laris Przemisliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Catharina Kurnatowna... filii et iidem successores legitimi Generosi olim Nicolai Kurnatowski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaus Swirczek de Lubin"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Generosa Margarita itidem Kurnatowna... filii et iidem successores legitimi Generosi olim Nicolai Kurnatowski"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Albertus Kornatowski... filii et iidem successores legitimi Generosi olim Nicolai Kurnatowski"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Generosa Anna similiter quoque Kurnatowna filii et iidem successores legitimi Generosi olim Nicolai Kurnatowski"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nicolaum Liebaes Cvaszy dictum Collegam nostrum Consularem"
+    }
+  ]
+}

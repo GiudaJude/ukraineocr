@@ -1,0 +1,214 @@
+{
+  "document_id": "arc2/0957.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulus Łowicanus pienius"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Spectabilis Dominus",
+        "Medicinae Doctor",
+        "collega noster Consulari",
+        "D. haereditario fundi illius"
+      ],
+      "justification": "Named as city council colleague and doctor of medicine protesting unpaid ground rent."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Górnicki",
+      "mention_texts": [
+        "Gornicki"
+      ],
+      "descriptive_mentions": [
+        "prae- dicti"
+      ],
+      "justification": "Mentioned in the phrase 'audita relatione praedicti Gornicki'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Buldaha",
+      "mention_texts": [
+        "Andream Buldaha",
+        "Andreas Buldaha"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ruthenum",
+        "Civem Leopoliensem",
+        "Famatus",
+        "Ruthenus Luthenus",
+        "Coniuges Cives Leopoliensem",
+        "ille",
+        "mariti sui"
+      ],
+      "justification": "Ruthenian burgher of Lviv who appears with his wife regarding the Czermińska townhouse."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Babicz",
+      "mention_texts": [
+        "Thomae Babicz"
+      ],
+      "descriptive_mentions": [
+        "Successoribus"
+      ],
+      "justification": "Deceased or prior holder whose successors possess hereditary right."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kulikowa Góra",
+      "mention_texts": [
+        "Culegragora"
+      ],
+      "descriptive_mentions": [
+        "fundi illius"
+      ],
+      "justification": "Name of the plot/estate from which rent was owed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Dormition Brotherhood",
+      "mention_texts": [
+        "Fraternitas Ruthenica",
+        "Fraternitatem Ruthenicam Tituli Assumptionis Ma- riae Verulam"
+      ],
+      "descriptive_mentions": [
+        "eadem Fraternitate"
+      ],
+      "justification": "The Ruthenian Brotherhood of the Assumption of Mary in Lviv, granted exclusive right of repurchase/sale."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Cives Leopoliensem",
+        "hac"
+      ],
+      "justification": "Wife of Andreas Buldaha."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szauta",
+      "mention_texts": [
+        "Paulum Szautam"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Civis Leopoliensem",
+        "Octavium tutorem sibi ad eum actum cum praesentaneus mariti sui consensu assumptum"
+      ],
+      "justification": "Lviv burgher appointed as curator/guardian for Anna in this legal act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium no- strum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council confirming the act and tutor appointment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Czermińska House",
+      "mention_texts": [
+        "Czerminska"
+      ],
+      "descriptive_mentions": [
+        "lapidea"
+      ],
+      "justification": "Stone townhouse bought by Andreas Buldaha and Anna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0007: Ruthenian Street",
+      "mention_texts": [
+        "platea Ruthenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the Czermińska townhouse is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem",
+        "Civilem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where the act is registered and the properties are situated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Lawris Kuncar",
+      "mention_texts": [
+        "Lawris Kuncar"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or participant mentioned at the end of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Dominus Paulus Łowicanus pienius Medicinae Doctor collega noster Consulari"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Buldaha Ruthenus Lu- thenus et Anna Coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "per Honestum Paulum Szautam Civis Leopoliensem Octavium tutorem sibi ad eum actum cum praesentaneus mariti sui consensu assumptum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "lapidea Czerminska in platea Ruthenorum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "ad murum Civilem sita"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "owner_of",
+      "tail_entity_id": "E10",
+      "evidence": "post ipsi empta lapidea Czerminska"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "owner_of",
+      "tail_entity_id": "E10",
+      "evidence": "post ipsi empta lapidea Czerminska"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/1415.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Krowka",
+      "mention_texts": [
+        "Jacobi Krowka"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Sellatorem"
+      ],
+      "justification": "Named as the deceased saddler who originally erected the structure at his own expense."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamus Smietel",
+        "Adamus Smisetek"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "idem",
+        "Actores",
+        "iidem Actores"
+      ],
+      "justification": "One of the plaintiffs acting against the servitude claimed by the defendant."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Georgius Dziedzic",
+      "mention_texts": [
+        "Georgius Dziedzic",
+        "Georgij Dziedzic",
+        "Dziedzic",
+        "Georgio Dziedzic"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "idem",
+        "praedicti Georgij Dziedzic",
+        "praefato Georgio Dziedzic",
+        "Actores",
+        "iidem Actores"
+      ],
+      "justification": "One of the plaintiffs acting alongside Adamus Smieszek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus Leopoliensibus",
+        "Consulum Leopoliensium",
+        "Consulem Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii",
+        "Officium"
+      ],
+      "justification": "The consular council and records of Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1560",
+      "mention_texts": [
+        "feria quarta in crastino Visitationis Q. Mariae Virginis Anno Domini 1560"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous consular inscription produced as evidence."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krowka",
+      "mention_texts": [
+        "Joannem Krowka"
+      ],
+      "descriptive_mentions": [
+        "praedictum",
+        "Sellatorem"
+      ],
+      "justification": "Named in the consular inscription as having received compensation for expenses on the dividing wall."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Zdram",
+      "mention_texts": [
+        "Alberti Zdram"
+      ],
+      "descriptive_mentions": [
+        "Spectabilium Dominorum",
+        "Consulum Leopoliensium"
+      ],
+      "justification": "Councilman of Lviv whose inspection report was cited."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Gasparis Przedroczki"
+      ],
+      "descriptive_mentions": [
+        "Spectabilium Dominorum",
+        "Consulum Leopoliensium"
+      ],
+      "justification": "Councilman of Lviv who examined the wall alongside Albertus Zdram."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Woytski",
+      "mention_texts": [
+        "Jacobi Woytski"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Consulem Leopoliensis"
+      ],
+      "justification": "Councilman of Lviv who testified about being sent to negotiate with Agnes Krowczyna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetes Krowczyna",
+        "Agnetem Krowczyna"
+      ],
+      "descriptive_mentions": [
+        "Honestos olim",
+        "Honestam olim",
+        "praedicti lapidae haeredem"
+      ],
+      "justification": "Heir of the stone house who was approached regarding the servitude and openings in the wall."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Pykot",
+      "mention_texts": [
+        "Joanne Pykot"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino"
+      ],
+      "justification": "Scabinus of Lviv who went with Jacobus Woytski to Agnes Krowczyna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Spectabilium Dominorum Alberti Zdram et Gasparis Przedroczki Consulum Leopoliensium"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Spectabilium Dominorum Alberti Zdram et Gasparis Przedroczki Consulum Leopoliensium"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "D. Jacobi Woytski Consulem Leopoliensis"
+    }
+  ]
+}

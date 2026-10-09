@@ -1,0 +1,208 @@
+{
+  "document_id": "arc2/0415.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "REX",
+        "Sigismundus Rex"
+      ],
+      "descriptive_mentions": [
+        "haereditarius REX",
+        "nos",
+        "nostrum",
+        "mea",
+        "nostra"
+      ],
+      "justification": "King Sigismund III Vasa granting escheated goods by royal decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0248: Stanislaus Krasnicki",
+      "mention_texts": [
+        "Stanislao Krasnicki",
+        "Stanislao Krasnicki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "illi",
+        "eum",
+        "praedicto"
+      ],
+      "justification": "Recipient of the royal grant of escheated property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Zierkowa Furtrix",
+      "mention_texts": [
+        "Zierkowa Furtricem"
+      ],
+      "descriptive_mentions": [
+        "cuiusdam",
+        "Leopoliensis",
+        "steriliter defuncti"
+      ],
+      "justification": "Deceased resident of Lviv whose estate devolved to the royal treasury without heirs."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced by demographic adjectives and council title."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the royal decree was given."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die XXIX Mensis Martij, Anno Domini M. D. XCV."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the royal grant (29 March 1595)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regnorum nostrorum"
+      ],
+      "justification": "Kingdom of Poland mentioned in the regnal dating."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden mentioned in the regnal dating."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Mathias Posthumus",
+      "mention_texts": [
+        "Math. Posth."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal chancery official/scribe subscribing to the document."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Chmielowa",
+      "mention_texts": [
+        "Chmielowa"
+      ],
+      "descriptive_mentions": [
+        "Fama"
+      ],
+      "justification": "Party beneficiary named in the decree title."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council office under whose authority the decree was issued."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mathias Lubowski",
+      "mention_texts": [
+        "Mathiam Lubowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Plenipotentem",
+        "Tutorem"
+      ],
+      "justification": "Noble serving as plenipotentiary and guardian."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Semoltkowski",
+      "mention_texts": [
+        "Sigismundo Semoltkowski"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "substituto"
+      ],
+      "justification": "Noble who substituted Mathias Lubowski as legal proxy."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Thomas Chmielowski",
+      "mention_texts": [
+        "Thomae Chmielowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ward represented by tutor Mathias Lubowski."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rothendorff",
+      "mention_texts": [
+        "Joannem Rothendorff"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum et Ciuem Leopoliensem"
+      ],
+      "justification": "Lviv benchman and citizen party in the decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E12",
+      "relation": "is_legal_representative_of",
+      "tail_entity_id": "E14",
+      "evidence": "Mathiam Lubowski tanquam a Nobili Sigismundo Semoltkowski substituto Plenipotentem Thomae Chmielowski Tutorem"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "is_member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honoratum Joannem Rothendorff Scabinum et Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_member_of",
+      "tail_entity_id": "E4",
+      "evidence": "cuiusdam Zierkowa Furtricem Leopoliensis steriliter defuncti"
+    }
+  ]
+}

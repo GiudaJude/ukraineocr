@@ -1,0 +1,234 @@
+{
+  "document_id": "arc2/1408.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobrocki"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Juris Utriusque Doctor Advocatus Ordinarius",
+        "advocati administrantes"
+      ],
+      "justification": "Excellens Dominus Gregorius Dobrocki Juris Utriusque Doctor Advocatus Ordinarius"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Melchior Wolfowicz",
+      "mention_texts": [
+        "Melchior Wol-fowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati Civitatis Leopoliensis",
+        "advocati administrantes"
+      ],
+      "justification": "Honorati Melchior Wol-fowicz ... Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Schat",
+      "mention_texts": [
+        "Joannes Schat"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati Civitatis Leopoliensis",
+        "advocati administrantes"
+      ],
+      "justification": "Joannes Schat Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Civitatis istius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civitatis Leopoliensis and Civitatis istius identify the city of Lviv"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Honoratorum Juris Fideilium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "ex Officio deputati and Honoratorum Juris Fideilium denote the municipal court and council"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae",
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "superstitis",
+        "coniugum",
+        "matris",
+        "mater sua praedicta",
+        "mater ipsius"
+      ],
+      "justification": "Barbarae superstitis coniugum olim Felicis Mleyket Institoris et Barbarae matris"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Felix Mleyket",
+      "mention_texts": [
+        "Felicis Mleyket"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "coniugum",
+        "Institoris"
+      ],
+      "justification": "olim Felicis Mleyket Institoris"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Mlysztowic",
+      "mention_texts": [
+        "Pauli"
+      ],
+      "descriptive_mentions": [
+        "actoribus praedictis"
+      ],
+      "justification": "ad mediantiam Pauli Simonis Mlysztowic"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Mlysztowic",
+      "mention_texts": [
+        "Simonis Mlysztowic",
+        "Simoni Mlysztowic"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "actoribus praedictis"
+      ],
+      "justification": "Simonis Mlysztowic ... Domino Simoni Mlysztowic"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jarozonka",
+      "mention_texts": [
+        "Stanislai Jarozonka"
+      ],
+      "descriptive_mentions": [
+        "succorum"
+      ],
+      "justification": "succorum Stanislai Jarozonka"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0023: Petrus de Tarnopol",
+      "mention_texts": [
+        "Petri Gniadek"
+      ],
+      "descriptive_mentions": [
+        "succorum"
+      ],
+      "justification": "Petri Gniadek lapideas"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "sorores",
+        "in aetate tenora extincta tanquam natu maioris"
+      ],
+      "justification": "Hedvigis sorores sed in aetate tenora extincta tanquam natu maioris"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dalinowski",
+      "mention_texts": [
+        "Joannem Dali-nowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Causatus Juris Civilis Terrendariorum decretis",
+        "tutorem",
+        "faciatorem"
+      ],
+      "justification": "Honestum Joannem Dali-nowski Causatus Juris Civilis Terrendariorum decretis tutorem sua faciatorem"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Comparenres personaliter Excellens Dominus Gregorius Dobrocki Juris Utriusque Doctor Advocatus Ordinarius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Melchior Wol-fowicz atque Joannes Schat Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Melchior Wol-fowicz atque Joannes Schat Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Barbarae superstitis coniugum olim Felicis Mleyket"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "mater sua praedicta electionem sortis ipsi admonuit"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E12",
+      "evidence": "Hedvigis sorores sed in aetate tenora extincta tanquam natu maioris fecerat et exequuta praedicta vero Barbara mater ipsius"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E12",
+      "evidence": "electionem sortis ipsi admonuit in loco Zudnie Hedvigis sorores"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "ad mediantiam Pauli Simonis Mlysztowic"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Barbara mater ipsius per Honestum Joannem Dali-nowski Causatus Juris Civilis Terrendariorum decretis tutorem sua faciatorem postularunt"
+    }
+  ]
+}

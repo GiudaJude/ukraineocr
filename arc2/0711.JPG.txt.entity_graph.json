@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0711.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Doroszewski",
+      "mention_texts": [
+        "Joanni Doroszewski",
+        "Joannis Doroszewski"
+      ],
+      "descriptive_mentions": [
+        "donatarijs",
+        "donatarios suos",
+        "donatariorum"
+      ],
+      "justification": "Named recipient of the property donation mentioned alongside Sophia."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "donatarijs",
+        "donatariorum"
+      ],
+      "justification": "Named recipient of the property donation alongside Joannes Doroszewski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Siwucha",
+      "mention_texts": [
+        "Joannis Siwucha"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased individual whose former guardians appointed a plenipotentiary."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The judicial forum before which resignation of the property is to be performed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Leopolitani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the scabinal title, banned court, and burghers' origin."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "vt supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating reference formula concluding the first record."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Ussowski",
+        "Joannes Olsowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "tutores"
+      ],
+      "justification": "Furrier and former guardian quitclaimed by the spouses."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Balcerowicz",
+      "mention_texts": [
+        "Joannes Balcerowicz"
+      ],
+      "descriptive_mentions": [
+        "Sutor",
+        "Coniuges",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Shoemaker appearing personally to acknowledge satisfaction of his wife's guardianship."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina",
+        "Reginae"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Honestae"
+      ],
+      "justification": "Wife of Joannes Balcerowicz on whose behalf the receipt is issued."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money specified in the quitclaim."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannes Balcerowicz Sutor et Regina Coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "munere tutorio quod hactenus certi tutores gesserunt praesertim Famatus Joannes Olsowski Pellio in personam praedictae Honestae Reginae"
+    }
+  ]
+}

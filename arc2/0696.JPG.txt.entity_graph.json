@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/0696.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Judicio"
+      ],
+      "justification": "The text refers to the Lviv Banned Court (Exposito Judicio Leopoliensi) before which resignations take place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "The city of Lviv is referenced in jurisdictional, citizenship, and location contexts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis Gładyszka",
+        "Hedvigis Gladisczka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Coniunx legitima"
+      ],
+      "justification": "Hedvigis Gładyszka personally appears to make a legal declaration on her own behalf and on behalf of her husband."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Gładysz",
+      "mention_texts": [
+        "Valentini Gladisz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Calderatoris",
+        "mariti sui praedicti",
+        "mariti sui"
+      ],
+      "justification": "Valentinus Gladisz, a coppersmith (Calderator), is the husband of Hedvigis on whose behalf she pledges."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lazarus Stannifusor",
+      "mention_texts": [
+        "Lazarum Stannifusorem",
+        "Lazari Stannifusoris"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi coniugium",
+        "Honestorum",
+        "praedicti"
+      ],
+      "justification": "Lazarus Stannifusor, a pewterer, acts as tutor and arbitrator in the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0031: Joannes Rottendorff",
+      "mention_texts": [
+        "Joannis Rothendorff"
+      ],
+      "descriptive_mentions": [
+        "huiusmodi fabri"
+      ],
+      "justification": "Joannes Rothendorff acted as an arbitrator issuing the arbitral decision."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Biezimucha",
+      "mention_texts": [
+        "Joannes Biezimucha",
+        "Joanni Biezimucha"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Civi Leopoliensi",
+        "Creditori suo"
+      ],
+      "justification": "Joannes Biezimucha, citizen of Lviv, is the creditor to whom the sum is owed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "160 Polish florins",
+      "mention_texts": [
+        "Florenos centum sexaginta",
+        "Centum sexaginta Florinos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "The debt amount recognized and mortgaged in the record."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Dedicationis S. Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for payment of the recognized debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "anno domini 1596"
+      ],
+      "descriptive_mentions": [
+        "proxime venturo"
+      ],
+      "justification": "Year corresponding to the due date of Michaelmas."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo Sanctae Agnetis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Term for the return of pledged valuables."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesta Hedvigis Gladisczka Honesti Valentini Gladisz Calderatoris Coniunx legitima"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Honestum Lazarum Stannifusorem tutorem sibi coniugium recognovit"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E7",
+      "evidence": "debent manu coniuncta et divisa certi veri iusti liquidique debiti Florenos centum sexaginta pecuniae et numeri Polonicalis Honesto Joanni Biezimucha"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E7",
+      "evidence": "suo et mariti sui praedicti ... debent manu coniuncta et divisa certi veri iusti liquidique debiti Florenos centum sexaginta pecuniae et numeri Polonicalis Honesto Joanni Biezimucha"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joanni Biezimucha Civi Leopoliensi"
+    }
+  ]
+}

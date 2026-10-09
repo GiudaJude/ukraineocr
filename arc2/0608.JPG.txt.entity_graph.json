@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/0608.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Ildon",
+      "mention_texts": [
+        "Ildonis"
+      ],
+      "descriptive_mentions": [
+        "praefati patris illorum"
+      ],
+      "justification": "Named deceased father whose estate and debts are referenced in the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Iwanko Lopowicz",
+      "mention_texts": [
+        "Iwanko Lopowicz"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "debitores",
+        "transfugorum"
+      ],
+      "justification": "Mentioned as one of the debtor parties and heirs."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paraska",
+      "mention_texts": [
+        "Paraska"
+      ],
+      "descriptive_mentions": [
+        "debitores",
+        "transfugorum"
+      ],
+      "justification": "Mentioned alongside Iwanko Lopowicz as co-debtor and heir."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Przesdziecki",
+      "mention_texts": [
+        "Andreas Przesdriecki"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Creditor pursuing debts against the heirs."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "vt supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating formula referencing the date established supra."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi",
+        "Officium",
+        "officium praesens",
+        "offitioque"
+      ],
+      "descriptive_mentions": [
+        "Decreto officii"
+      ],
+      "justification": "The municipal consular office before which the proceedings and decrees take place."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in civic titles and office title."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Loszkiewicz",
+      "mention_texts": [
+        "Joannes Woytowicz",
+        "Joannes Loszkiewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Buxifaber",
+        "Civis Leopoliensis",
+        "comparens"
+      ],
+      "justification": "Plaintiff contesting the curatorship, named in heading as Joannes Woytowicz and in body as Joannes Loszkiewicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Rzeszowic",
+      "mention_texts": [
+        "Christopherus Rzeszowic",
+        "Christophorum Rzeszowic",
+        "Christophorum"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "kiffartorem",
+        "Civem Leopoliensem",
+        "affinem suum",
+        "citatus",
+        "avunculus"
+      ],
+      "justification": "Defendant appointed curator, affine of Loszkiewicz and uncle of the ward."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Renczkowicz",
+      "mention_texts": [
+        "Alberti Renczkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Curatoris"
+      ],
+      "justification": "Former curator who ceded the curatorship."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Simon Januszowicz",
+      "mention_texts": [
+        "Simoni Januszowicz",
+        "Simonis Januszowicz",
+        "Simonis"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "Ingenui",
+        "praefati Ingenui"
+      ],
+      "justification": "The ward whose curatorship is in dispute."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha Januszowna",
+      "mention_texts": [
+        "Helisabetam Januszowna"
+      ],
+      "descriptive_mentions": [
+        "uxorem suam",
+        "praefati Ingenui sororem germanam"
+      ],
+      "justification": "Wife of Joannes Loszkiewicz and full sister of Simon Januszowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefati Iwanko Lopowicz et Paraska debitores ... praefati patris illorum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefati Iwanko Lopowicz et Paraska debitores ... praefati patris illorum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "se vero circa uxorem suam Actam Helisabetam Januszowna"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "Helisabetam Januszowna praefati Ingenui sororem germanam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "relative_of",
+      "tail_entity_id": "E11",
+      "evidence": "cognatione eiusdem Ingenui Simonis tanquam avunculus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "relative_of",
+      "tail_entity_id": "E8",
+      "evidence": "contra Famatum Christophorum Rzeszowic kiffartorem Civem Leopoliensem affinem suum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannes Loszkiewicz Buxifaber Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Christophorum Rzeszowic kiffartorem Civem Leopoliensem"
+    }
+  ]
+}

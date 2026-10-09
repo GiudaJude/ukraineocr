@@ -1,0 +1,212 @@
+{
+  "document_id": "arc2/1552.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-2046: Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobrochi"
+      ],
+      "descriptive_mentions": [
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Advocate ordinary of Lviv who made the official inspection and report."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Juror/scabinus of Lviv participating in the inspection."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Salut",
+      "mention_texts": [
+        "Joannes Salut"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Juror/scabinus of Lviv participating in the inspection."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopolien",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis Suburbio",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City whose council and suburbs form the location of the recorded actions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sien Szurma",
+      "mention_texts": [
+        "Sienis Szurma",
+        "Sienkonis Szurma"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sutoris Suburbani Leopolien",
+        "dicti",
+        "idem"
+      ],
+      "justification": "Suburban shoemaker who requested the inspection of the house wall."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracovien"
+      ],
+      "descriptive_mentions": [
+        "portam"
+      ],
+      "justification": "Kraków Gate in Lviv, outside of which the property is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szidmarczyk",
+      "mention_texts": [
+        "Albertus Szidmarczyk"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "haeres domus praedictae Szidmarowska"
+      ],
+      "justification": "Heir of the Szidmarowski house who lodged a contradiction against the report."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "praesentis officii"
+      ],
+      "justification": "Consular office issuing the decree regarding the term of the oath."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Iwan Didula Pustelnik",
+      "mention_texts": [
+        "Iwanum Didula Pustennik"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopolien",
+        "actorem"
+      ],
+      "justification": "Lviv citizen and plaintiff in the oath dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Catherina Pelczyna",
+      "mention_texts": [
+        "Catarinam",
+        "Pelcina"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "consortem legitimam citatam",
+        "uxorem suam",
+        "praedictae citatae"
+      ],
+      "justification": "Wife of Lucas Pelka cited to take an oath."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Lucas Pelka",
+      "mention_texts": [
+        "Luce Pelka"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopolien",
+        "maritum suum praefatum",
+        "maritusque praedictae citatae"
+      ],
+      "justification": "Citizen of Lviv appearing on behalf of his pregnant wife."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quarta ante festum S. Thomae Appli proxima Anno Dni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorius Dobrochi Advocatus Ordinarius... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Simonowicz atque Joannes Salut Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Simonowicz atque Joannes Salut Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Sienis Szurma Sutoris Suburbani Leopolien"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Iwanum Didula Pustennik Civem Leopolien actorem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Luce Pelka Civis Leopolien"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Catarinam Famati Luce Pelka Civis Leopolien consortem legitimam citatam"
+    }
+  ]
+}

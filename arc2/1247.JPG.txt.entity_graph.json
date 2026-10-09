@@ -1,0 +1,54 @@
+{
+  "document_id": "arc2/1247.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Janowski",
+      "mention_texts": [
+        "Christophori Janowski",
+        "Christophorum Janowski"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "praedictum"
+      ],
+      "justification": "Appears personally in court as one of the parties making a recognition."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dąbiński",
+      "mention_texts": [
+        "Dąbiński",
+        "Szanislaum Dąbiński",
+        "Stanislaum Dąbiński"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "praedictum",
+        "eundem"
+      ],
+      "justification": "Appears personally before the court and is sentenced to death."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium atque praesens",
+        "Officium"
+      ],
+      "justification": "The municipal judicial council before which the recognition was made and which issued the decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sentenced",
+      "tail_entity_id": "E2",
+      "evidence": "decrevit eundem Stanislaum Dąbiński pro tantis favoribus paratum et supplicio mortis condigno puniendum esse"
+    }
+  ]
+}

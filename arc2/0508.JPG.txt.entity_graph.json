@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0508.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Rex",
+        "Sigismundus iij."
+      ],
+      "descriptive_mentions": [
+        "nos",
+        "Rex Poloniae Magnus Dux Lithuaniae Russiae Prussiae Masoviae Samogithiae, Livoniaeque nec non Suecorum Gottorum Vandalorumque Rex"
+      ],
+      "justification": "King Sigismund III Vasa issuing the royal decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Maydza",
+      "mention_texts": [
+        "Nicolao Maydzy",
+        "Nicolai Maydzy"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Stanislai Maydzy et Catherinae Kilianowna filio",
+        "pupilli"
+      ],
+      "justification": "Noble minor for whom a curator is appointed by royal authority."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Maydza",
+      "mention_texts": [
+        "Stanislai Maydzy"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Father of Nicolaus Maydza."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Kilianowna",
+      "mention_texts": [
+        "Catherinae Kilianowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mother of Nicolaus Maydza."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0238: PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andream Mądrowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Scabinum et Civitarium Leopoliensis",
+        "fratrem patruelem praenominati Nicolai Maydzy",
+        "Curator",
+        "praedictus Curator"
+      ],
+      "justification": "Paternal cousin appointed as curator for Nicolaus Maydza."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Andreas Mądrowicz is a bencher and citizen."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the royal document was given."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die xix Mensis Maij Anno Domini M D C CV."
+      ],
+      "descriptive_mentions": [
+        "Regnorum nostrorum Poloniae octavo Sueciae secundo"
+      ],
+      "justification": "Date of the royal document (19 May 1595, year 8 of Polish reign)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Gembicki",
+      "mention_texts": [
+        "Lauren: Gembicki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal secretary/chancellor countersigning the document."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "Kingdom of Poland."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae",
+        "Suecorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0119: Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ruthenia mentioned in the royal title."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0158: Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Prussia mentioned in the royal title."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Biecz",
+      "mention_texts": [
+        "Biecen"
+      ],
+      "descriptive_mentions": [
+        "Civitatis nostrae"
+      ],
+      "justification": "Town whose officials are addressed in the subsequent entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislai Maydzy et Catherinae Kilianowna filio"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Maydzy et Catherinae Kilianowna filio"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Maydzy et Catherinae Kilianowna filio"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "relative of",
+      "tail_entity_id": "E2",
+      "evidence": "fratrem patruelem praenominati Nicolai Maydzy"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian of",
+      "tail_entity_id": "E2",
+      "evidence": "Curatorem dari et assignandique fore duximus damusque et assignamus ... nempe Famatum Andream Mądrowicz ... praenominati Nicolai Maydzy"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident of",
+      "tail_entity_id": "E6",
+      "evidence": "Scabinum et Civitarium Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "document_id": "arc2/1272.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Korber",
+      "mention_texts": [
+        "Hieronymo Korber"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Cracoviensi"
+      ],
+      "justification": "Creditor mentioned with a chirograph against Simon Pielendowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Pielendowicz",
+      "mention_texts": [
+        "Simoni Pielendowicz"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "citato",
+        "citatus",
+        "idem citatus"
+      ],
+      "justification": "Debtor against whom the judgment of the advocate was affirmed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Leonardus de Radom",
+      "mention_texts": [
+        "Leonardum de Radom",
+        "Radomii",
+        "Leonardo",
+        "Leonardus"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Sartorem",
+        "actorem",
+        "praedicti",
+        "Actori",
+        "fidicius"
+      ],
+      "justification": "Tailor plaintiff who litigated against the Lviv tailors' guild."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii"
+      ],
+      "justification": "Lviv consular office issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio Domini Advocati"
+      ],
+      "descriptive_mentions": [
+        "Officio eius",
+        "Domini Advocati",
+        "Excellensis Domini Advocati"
+      ],
+      "justification": "Advocatial court whose decision was appealed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Tailors' Guild of Lviv",
+      "mention_texts": [
+        "Contubernium Sartorum",
+        "Contubernii Sartorum"
+      ],
+      "descriptive_mentions": [
+        "artificium et Contubernium hoc Sartorum",
+        "eiusdem Contubernii"
+      ],
+      "justification": "Guild of tailors in Lviv involved in a dispute with Leonard of Radom."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Tailors' Guild of Lublin",
+      "mention_texts": [
+        "Contubernio Sartorum"
+      ],
+      "descriptive_mentions": [
+        "Artificii Sartorum illius Civitatis"
+      ],
+      "justification": "Guild of tailors in Lublin that issued authentic letters regarding Leonard."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Hieronymus Korber is a citizen."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City of Lviv where the decree was enacted."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Radom",
+      "mention_texts": [
+        "Radom"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of Leonard the tailor."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublinensis",
+        "Lublinum"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "illius Civitatis"
+      ],
+      "justification": "City of Lublin where Leonard must travel to prove his innocence."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0219: DATE-0017: 1590",
+      "mention_texts": [
+        "Sabbato ante festum Sanctae Mariae Magdalenae proxima Anno Domini 1590",
+        "Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Famato Hieronymo Korber Cive Cracoviensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "origin_of",
+      "tail_entity_id": "E10",
+      "evidence": "Leonardum de Radom"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "Officii Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "Contubernii Sartorum eiusdem Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "Contubernio Sartorum Civitatis Lublinensis"
+    }
+  ]
+}

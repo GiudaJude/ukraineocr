@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/0297.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Palkowicz",
+      "mention_texts": [
+        "Martinus Palkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Famati",
+        "locum Ordinarii Advocati Leopoliensis tenens"
+      ],
+      "justification": "Appears as the deputy ordinary advocate of Lviv making an official statement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the titles 'Advocati Leopoliensis' and 'Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Caspar Praszedt"
+      ],
+      "descriptive_mentions": [
+        "Scabinus"
+      ],
+      "justification": "Appears as a bench officer (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Maruschina",
+      "mention_texts": [
+        "Maruschina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua"
+      ],
+      "justification": "Widow and successor of the late Gwozdek Poborytkowicz requesting land division."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Laurentius",
+      "mention_texts": [
+        "Laurentij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Co-successor of the late Gwozdek Poborytkowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Gwozdek Poborytkowicz",
+      "mention_texts": [
+        "Gwozdkonis Poborytkowicz",
+        "Gawedkonem"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased owner of the land parcel being divided among his successors."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Zboiska",
+      "mention_texts": [
+        "Zboiska"
+      ],
+      "descriptive_mentions": [
+        "pago"
+      ],
+      "justification": "Village near Lviv where the divided land plot is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Janes Korka",
+      "mention_texts": [
+        "Janes Korka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landowner bounding the divided land in Zboiska."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Dragomira",
+      "mention_texts": [
+        "Dragomiram"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring party on one side of the land parcel in Zboiska."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Martinus Poboryczko",
+      "mention_texts": [
+        "Martini Poboryczko"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person whose successors bound the land in Zboiska."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Juraszowicz",
+      "mention_texts": [
+        "Petrus Juraszowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Auctor",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv releasing Martinus Słuka from a debt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "68 florins",
+      "mention_texts": [
+        "florenis octo sexaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money paid to satisfy the debt."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Martinus Słuka",
+      "mention_texts": [
+        "Martini Sluka",
+        "Martino Sluka"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Custode Civili"
+      ],
+      "justification": "City guard who settled his debt with Petrus Juraszowicz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Proconsulis",
+        "Doctor",
+        "Collega noster Consularis"
+      ],
+      "justification": "Lviv proconsul and councilor making a report."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "widow_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honesta Maruschina vidua et Laurentij uti secedam successorum olim Gwozdkonis Poborytkowicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "successor_of",
+      "tail_entity_id": "E6",
+      "evidence": "Laurentij uti secedam successorum olim Gwozdkonis Poborytkowicz"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "debtor_of",
+      "tail_entity_id": "E11",
+      "evidence": "recognovit debitatum esse sibi plenarie de florenis octo sexaginta e ratione et Zolonicolis debiti sibi ex causa emptionis sortis contracti ab Honesto Martino Sluka"
+    }
+  ]
+}

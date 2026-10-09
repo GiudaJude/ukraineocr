@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/1558.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in citizen and resident designations."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Officium nostrum Civile",
+        "Officium nostrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The civil court confirming the legal tutor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum vt supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard dating formula referencing the year 1595 from preceding act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Iwaszkowicz",
+      "mention_texts": [
+        "Georgio Iwaszkowic",
+        "Georgij",
+        "Iwaszkowiczow",
+        "Iwaszkowicze",
+        "Iwaszkowic- zow"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno Cive Leopoliensi",
+        "Famatorum",
+        "praedictos",
+        "Fideiussores",
+        "fideiussores"
+      ],
+      "justification": "Armenian citizen of Lviv acting as surety."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Zacharias Iwaszkowicz",
+      "mention_texts": [
+        "Zachariae",
+        "Iwaszkowiczow",
+        "Iwaszkowicze",
+        "Iwaszkowic- zow"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "praedictos",
+        "Fideiussores",
+        "fideiussores"
+      ],
+      "justification": "Armenian burgher acting as surety alongside Georgius Iwaszkowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kamondo",
+      "mention_texts": [
+        "Jacobus Kamondo"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Viduus Butran",
+        "aduena Leopoliensis"
+      ],
+      "justification": "Non-Christian visitor to Lviv releasing debtors from an obligation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Titus Jędrzejowicz",
+      "mention_texts": [
+        "Titam Jedreiowicz",
+        "Titam Jedreiewicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Legal guardian appointed for Kamondo and Zaducus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Astabiej Augustynowicz",
+      "mention_texts": [
+        "Astabiei Augustynowicz",
+        "Astabiei Augustynowic",
+        "Astabiei Au- gustinowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Arme- num Civem Leopoliensem",
+        "Armenum Civem Leopoliensem",
+        "praedicto",
+        "eundem",
+        "principalem debitoremque",
+        "principalem debi- torem"
+      ],
+      "justification": "Armenian citizen of Lviv and principal debtor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Abraham Domas Zaducus",
+      "mention_texts": [
+        "Abrahamus Domas Zaducus"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "advena Leopoliensis"
+      ],
+      "justification": "Visitor to Lviv from Adrianople issuing a release."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Adrianople",
+      "mention_texts": [
+        "Adri- nopolien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of Abraham Domas Zaducus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famato Georgio Iwaszkowic Armeno Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Astabiei Augustynowicz Arme- num Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobus Kamondo Viduus Butran aduena Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Abrahamus Domas Zaducus Adri- nopolien advena Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "originates_from",
+      "tail_entity_id": "E10",
+      "evidence": "Abrahamus Domas Zaducus Adri- nopolien"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Famatum Titam Jedreiowicz tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "per Famatum Titam Jedreiewicz tuto- rem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "surety_for",
+      "tail_entity_id": "E8",
+      "evidence": "cautione fideiussoria Famatorum Georgij et Zachariae Iwaszkowiczow assecurati ab eodem praedicto Astabiei Augustynowic"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "surety_for",
+      "tail_entity_id": "E8",
+      "evidence": "cautione fideiussoria Famatorum Georgij et Zachariae Iwaszkowiczow assecurati ab eodem praedicto Astabiei Augustynowic"
+    }
+  ]
+}

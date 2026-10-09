@@ -1,0 +1,218 @@
+{
+  "document_id": "arc2/0613.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Carnifex",
+      "mention_texts": [
+        "Alberto Carnifici"
+      ],
+      "descriptive_mentions": [
+        "actori citato",
+        "Actori"
+      ],
+      "justification": "Party in the court dispute over a rented house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Łopyszyński",
+      "mention_texts": [
+        "Bartholomaeum Łopyszynski"
+      ],
+      "descriptive_mentions": [
+        "conductor",
+        "citatum"
+      ],
+      "justification": "Tenant cited to evacuate the house within a fortnight."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council issuing the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaus Anserinus",
+        "Stanislaum Anserinum"
+      ],
+      "descriptive_mentions": [
+        "Dominum",
+        "Consulem Leopoliensem",
+        "Actorem",
+        "Actori"
+      ],
+      "justification": "Lviv councilman and plaintiff in a debt proceeding."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Glinta",
+      "mention_texts": [
+        "Andreas Glunta",
+        "Andream Glinta"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Pellionem",
+        "Ciuem Leopoliensem",
+        "citatum",
+        "citatus"
+      ],
+      "justification": "Lviv citizen and furrier who owes money by chirograph."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "147 Polish florins",
+      "mention_texts": [
+        "Centum quadraginta septem Florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "debitum"
+      ],
+      "justification": "Amount of debt acknowledged before the council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose council, citizens, and suburbs are mentioned."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Iwan Kunaszowicz",
+      "mention_texts": [
+        "Iwan Kunaszowic",
+        "Iwan Kunaszowicz"
+      ],
+      "descriptive_mentions": [
+        "Providus"
+      ],
+      "justification": "Seller of two garden lots."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kamianopil",
+      "mention_texts": [
+        "Kamonopolie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin place of Iwan Kunaszowicz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the garden plots sold."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Walczek",
+      "mention_texts": [
+        "Stanislai Walczek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the garden plots."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Wierzynek",
+      "mention_texts": [
+        "Francisci Wierzynek"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Neighbor and fellow councilman."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Niedźwiedź",
+      "mention_texts": [
+        "Stanislaus Niedzwiedz",
+        "Stanislao Niedzwiedzek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopolitano"
+      ],
+      "justification": "Buyer of the garden plots in the Halych suburb."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Dominum Stanislaum Anserinum Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Domini Francisci Wierzynek Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andream Glinta Pellionem Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "inter ipsum Dominum Stanislaum Anserinum ... Actorem, et Famatum Andream Glinta ... citatum oratione debiti Centum quadraginta septem Florenorum Polonicalium per citatum Actori"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Iwan Kunaszowicz de Kamonopolie"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sold_to",
+      "tail_entity_id": "E13",
+      "evidence": "Iwan Kunaszowicz de Kamonopolie ... vendidisse praesentique inscriptione derelinquere vendere ... Stanislao Niedzwiedzek"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stanislao Niedzwiedzek Suburbano Leopolitano"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "horti in suburbio Haliciensi"
+    }
+  ]
+}

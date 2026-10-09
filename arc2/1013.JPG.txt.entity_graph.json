@@ -1,0 +1,212 @@
+{
+  "document_id": "arc2/1013.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Quadraginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "debito",
+        "debiti"
+      ],
+      "justification": "The document specifies a debt of forty florins contracted by Joannes Korytko and Catherina."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Domini Advocati Leopoliensis",
+        "Officium",
+        "Officium"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "foro"
+      ],
+      "justification": "The advocatial/consular court of Lviv before which the debt and exception were presented."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv is mentioned in the official title of the court and the suburban residence of Gregorius Lisek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Korytko",
+      "mention_texts": [
+        "Joannem Korytko"
+      ],
+      "descriptive_mentions": [
+        "praefatos",
+        "maritum suum",
+        "praefectum",
+        "debitorum suorum",
+        "maritus illius"
+      ],
+      "justification": "Co-contractor of the debt and husband of Catherina, serving as prefect to Joannes Kothmayer."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinam"
+      ],
+      "descriptive_mentions": [
+        "praefatos",
+        "Citata",
+        "ipsa",
+        "citata",
+        "eadem citata",
+        "citatam praedictam",
+        "ipsi",
+        "ipsa",
+        "eandem",
+        "se",
+        "conuenta"
+      ],
+      "justification": "Co-debtor and cited party, wife of the prefect of Joannes Kothmayer."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kothmayer",
+      "mention_texts": [
+        "Joannis Kothmayer",
+        "Kothmayer"
+      ],
+      "descriptive_mentions": [
+        "praefatum"
+      ],
+      "justification": "Master to whose service and family Catherina's husband was contracted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0152: DATE-0061: DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Festa Pentecostes",
+        "Festa Pentecostes"
+      ],
+      "descriptive_mentions": [
+        "terminum solutionis",
+        "tempus hoc"
+      ],
+      "justification": "The feast day to which the plaintiff postponed payment of the debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard dating formula referencing the date established earlier in the court register."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0618: Gregorius Cele",
+      "mention_texts": [
+        "Gregorius Lisek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Textor Suburbanus Leopoliensis",
+        "haeredes"
+      ],
+      "justification": "Weaver from the Lviv suburbs appearing in court as an heir in the valuation entry."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia Cochix"
+      ],
+      "descriptive_mentions": [
+        "Civis Sancti Spiritus",
+        "haeredes"
+      ],
+      "justification": "Citizen from Rozpatul appearing alongside the heirs."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Rozpatul",
+      "mention_texts": [
+        "Rozpatul"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin mentioned for Sophia Cochix."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Sancti Spiritus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Parish or hospital jurisdiction in Lviv of which Sophia Cochix is noted as a citizen."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigis dicta Sowiniacka"
+      ],
+      "descriptive_mentions": [
+        "Vidua",
+        "haeredes"
+      ],
+      "justification": "Widow appearing as one of the heirs regarding the Fabian estate."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "allegasset maritum suum cuius ipsa conditionem sequitur"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "allegasset maritum suum cuius ipsa conditionem sequitur"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "servant_of",
+      "tail_entity_id": "E6",
+      "evidence": "praefectum Joannis Kothmayer ad seruitia et in familiam ipsius scriptum esse"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Textor Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Sophia Cochix ex Rozpatul"
+    }
+  ]
+}

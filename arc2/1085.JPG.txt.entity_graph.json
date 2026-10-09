@@ -1,0 +1,148 @@
+{
+  "document_id": "arc2/1085.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito",
+        "Indicio Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the property transaction/resignation is to be recognized."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Blicharz",
+      "mention_texts": [
+        "Martinus Blichawic",
+        "Martinus Blicharz Filius",
+        "Bli- charz Filius"
+      ],
+      "descriptive_mentions": [
+        "Prouidus",
+        "Venditor"
+      ],
+      "justification": "Primary seller resigning hereditary shares of paternal and maternal property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consortis",
+        "sororis sua germana"
+      ],
+      "justification": "Sister of Martinus Blicharz, participating in the resignation of property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Bliok",
+      "mention_texts": [
+        "Stanislai Bliok"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Husband of Catherina mentioned in the marital relation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Czaus",
+      "mention_texts": [
+        "Paulum Czaus"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Ordinarium tutorem"
+      ],
+      "justification": "Appointed and confirmed tutor assisting Catherina in the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium nostrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal office confirming the guardianship and recording the entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Policza",
+      "mention_texts": [
+        "Policza"
+      ],
+      "descriptive_mentions": [
+        "Pago"
+      ],
+      "justification": "Village location where the sold property portions are situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kawawic",
+      "mention_texts": [
+        "Jacobus Kawawic",
+        "Jacobo Zanowic"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "colono violiter",
+        "emptori",
+        "Emptoris"
+      ],
+      "justification": "Buyer of the property shares."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0117: 12 florins",
+      "mention_texts": [
+        "duodecim florenos"
+      ],
+      "descriptive_mentions": [
+        "pecunia et moneta Polonicalis"
+      ],
+      "justification": "Purchase price paid for the property portions."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose council and courts are referenced."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Catherina Stanislai Bliok consortis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Martinus Blicharz Filius Iudi- us vna cum athletica Honesta Catherina Stanislai Bliok consortis sororis sua germana"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Honoratum Paulum Czaus Ordinarium tutorem sibi assumptum"
+    }
+  ]
+}

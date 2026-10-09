@@ -1,0 +1,199 @@
+{
+  "document_id": "arc2/0792.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Iandorowicz",
+      "mention_texts": [
+        "Joannes Iandorowicz"
+      ],
+      "descriptive_mentions": [
+        "praenominatus",
+        "praetenor"
+      ],
+      "justification": "Quarum attestationes praenominatus Joannes Iandorowicz praetenor in posterum sua indemnitati petiyt ad Acta praesentia inscribi."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Acta praesentia"
+      ],
+      "justification": "petiyt ad Acta praesentia inscribi."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actum ut supra."
+      ],
+      "justification": "Actum ut supra."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petronella Wawrzynkowicowa",
+      "mention_texts": [
+        "Petronella Wawrzynkowicowa",
+        "Petronellae"
+      ],
+      "descriptive_mentions": [
+        "germanae",
+        "sorori sua"
+      ],
+      "justification": "Petronella Wawrzynkowicowa... Ita Petronellae Famati Jacobi Szarog germanae... eidem sorori sua mittit et condescendit"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucas Lias Dziwnes",
+        "Lucas Chidzczenko alias Knakorowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "Famatus Civis Leopoliensis",
+        "donator",
+        "recognoscens"
+      ],
+      "justification": "Lucas Lias Dziwnes Comparens personaliter Famatus Lucas Chidzczenko alias Knakorowicz Famatus Civis Leopoliensis"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "huius Civitatis",
+        "Civitatis Leopoliensis"
+      ],
+      "justification": "Civis Leopoliensis... in Circulo huius Civitatis... Civitatis Leopoliensis"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "in Circulo huius Civitatis inter alias divites quintas"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Eustachius Andrzejowicz",
+      "mention_texts": [
+        "Eustachii Andrzejowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "penes Eustachii Andrzejowicz ex una"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Obwitowicz",
+      "mention_texts": [
+        "Nicolai Obwitowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "et Nicolai Obwitowicz postmodum"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Mathias Cauviage",
+      "mention_texts": [
+        "Matthiae cauviage"
+      ],
+      "descriptive_mentions": [
+        "Famatorum"
+      ],
+      "justification": "Famatorum Matthiae cauviage parte altera sitam"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szarog",
+      "mention_texts": [
+        "Jacobi Szarog"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Ita Petronellae Famati Jacobi Szarog germanae"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Semionem"
+      ],
+      "descriptive_mentions": [
+        "Astum Dominum",
+        "drabintum Civitatis Leopoliensis",
+        "Plenipotentem",
+        "mandatarium"
+      ],
+      "justification": "Astum Dominum Semionem drabintum Civitatis Leopoliensis in Judicio Exposito Bannito quouscunque celebran- praesidentem."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "in Judicio Exposito Bannito quouscunque celebran- praesidentem."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Ita Petronellae Famati Jacobi Szarog germanae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "eidem sorori sua mittit et condescendit"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Petronellae Famati Jacobi Szarog germanae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Lucas Chidzczenko alias Knakorowicz Famatus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Circulo huius Civitatis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "officer_of",
+      "tail_entity_id": "E13",
+      "evidence": "in Judicio Exposito Bannito quouscunque celebran- praesidentem."
+    }
+  ]
+}

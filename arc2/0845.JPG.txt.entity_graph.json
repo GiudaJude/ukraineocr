@@ -1,0 +1,102 @@
+{
+  "document_id": "arc2/0845.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actisque nostris"
+      ],
+      "justification": "The court/council registry in which the document is enacted and inserted."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Umicki",
+      "mention_texts": [
+        "Andreas Umicki",
+        "Andrea Vmenczki"
+      ],
+      "descriptive_mentions": [
+        "Nobili"
+      ],
+      "justification": "Noble buyer of the hereditary shares."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Samczyńczowic",
+      "mention_texts": [
+        "Joannes Samczinczwic",
+        "Joannes Tomasow Samczinczowkicius",
+        "Joannem"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "Coniuges",
+        "ille",
+        "maritum tutorem suam legitimum"
+      ],
+      "justification": "Seller of hereditary property alongside his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "haec"
+      ],
+      "justification": "Wife of Joannes, acting with her husband as guardian."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "The city of Lviv referenced in the suburban status and city gate."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Hołosko",
+      "mention_texts": [
+        "Holosnscen"
+      ],
+      "descriptive_mentions": [
+        "Pago"
+      ],
+      "justification": "Village outside Lviv where the land/field is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "złoty",
+      "mention_texts": [
+        "florenorum",
+        "Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Currency mentioned in the transaction price."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestus Joannes Tomasow Samczinczowkicius Suburbanus Leopoliensis et Sophia Coniuges"
+    }
+  ]
+}

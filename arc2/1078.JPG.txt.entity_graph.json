@@ -1,0 +1,223 @@
+{
+  "document_id": "arc2/1078.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szarnos",
+      "mention_texts": [
+        "Stanislaum Szarnos"
+      ],
+      "descriptive_mentions": [
+        "praedictum"
+      ],
+      "justification": "Named as the perpetrator of the injury."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Szetor",
+      "mention_texts": [
+        "Laurentius Szetor"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "coniuges legitimi",
+        "Cives Leopolienses",
+        "maritum suum",
+        "tutorem legitimum",
+        "venditores"
+      ],
+      "justification": "Seller of the half of the stone house Habrakowska, appearing with his wife."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "filia",
+        "coniuges legitimi",
+        "Cives Leopolienses",
+        "uxor",
+        "venditores"
+      ],
+      "justification": "Wife of Laurentius Szetor and daughter of the late Laurentius Szrek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Szrek",
+      "mention_texts": [
+        "Laurentij Szrek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "olim"
+      ],
+      "justification": "Deceased father of Hedwigis."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Habrakowska House",
+      "mention_texts": [
+        "Habrakowska"
+      ],
+      "descriptive_mentions": [
+        "medietatem domus lapideae parvae",
+        "domus lapideae"
+      ],
+      "justification": "Stone house whose half is being sold."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Peki Foliarzarowis",
+      "mention_texts": [
+        "Peki Foliarzarowis"
+      ],
+      "descriptive_mentions": [
+        "Civium Leopoliensium"
+      ],
+      "justification": "Neighboring homeowner."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Janek",
+      "mention_texts": [
+        "Janek"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Civium Leopoliensium"
+      ],
+      "justification": "Deceased citizen whose children's house neighbors the property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "platea Krakowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the house is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensium",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose burghers and council are mentioned."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulum Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Acta Duorum Consulum Leopoliensium",
+        "Acta"
+      ],
+      "justification": "Council whose register recorded the earlier division of estate."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0138: 1591",
+      "mention_texts": [
+        "Anno Domini 1591"
+      ],
+      "descriptive_mentions": [
+        "feria quarta proxima post Festum S. Catherinae Virginis et Martyris Anno Domini 1591"
+      ],
+      "justification": "Date of the previous division recorded in the council acts."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Adamus Laurentii Ołtarzowic",
+      "mention_texts": [
+        "Adamus Lawrenczij",
+        "Gutsz Oltarzowic",
+        "Adamo"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sutori",
+        "affini suo",
+        "Emptores"
+      ],
+      "justification": "Buyer of the half of the house, in-law of the sellers."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margareta"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuge",
+        "Emptores"
+      ],
+      "justification": "Wife of the buyer Adamus."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "350 Polish florins",
+      "mention_texts": [
+        "Florenorum 350 Florenorum et quinquaginta Polonicalium",
+        "Flor. 350"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price for the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Laurentius Szetor et Honesta Hedvigis Famati olim Laurentij Szrek filia coniuges legitimi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Hedvigis Famati olim Laurentij Szrek filia"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Adamo Sutori affini suo cum Honesta Margareta coniuge"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "medietatem domus lapideae parvae Habrakowska nuncupata ... in platea Krakowska dicta iacentem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in platea Krakowska dicta iacentem ... Civium Leopoliensium"
+    }
+  ]
+}

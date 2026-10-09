@@ -1,0 +1,177 @@
+{
+  "document_id": "arc2/1319.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "3000 Hungarian florins",
+      "mention_texts": [
+        "trium millium aureorum Hungaricalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document specifies a penalty amount in Hungarian gold coins ('sub poena trium millium aureorum Hungaricalium')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0278: Warsaw",
+      "mention_texts": [
+        "Varsaviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The royal decree was issued in Warsaw ('Datum Varsaviae')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "die 1. Mensis Iulii Anno M. D. XC. IV."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the royal document: 1 July 1594."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as part of the regnal year formula ('Regnorum vero nostrorum Poloniae Noni')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sveciae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as part of the regnal year formula ('Sveciae Tertio')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus"
+      ],
+      "descriptive_mentions": [
+        "Rex",
+        "Sacrae Regiae Maiestatis",
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "King Sigismund III Vasa who issued the royal decree ('Sigismundus Rex')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "Praetorium",
+        "Praetorio",
+        "Officii",
+        "Praetorii"
+      ],
+      "justification": "The municipal office/court before which the decree was presented and the proceedings took place."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Ubervari",
+      "mention_texts": [
+        "Bartholomaeum Ubervari"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem",
+        "tutorem",
+        "Famatum"
+      ],
+      "justification": "Acts as procurator/prolocutor for the summoned party ('per suum Prolocutorem et tutorem Famatum Bartholomaeum Ubervari')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schrambek",
+      "mention_texts": [
+        "Stanislaus Schrambek"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "The opposing party who objects to the requested postponement ('Famatus Stanislaus Schrambek dilationi expresse contradixit')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Varisman",
+      "mention_texts": [
+        "Varisman"
+      ],
+      "descriptive_mentions": [
+        "Judaeus",
+        "Praefatum Judaeum"
+      ],
+      "justification": "A Jewish individual taking an oath in the synagogue ('Varisman ab expatria ditione... Praefatum Judaeum')."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kapuczi",
+      "mention_texts": [
+        "Paulus Kapuczi"
+      ],
+      "descriptive_mentions": [
+        "Praefatus"
+      ],
+      "justification": "Mentioned regarding property that was not returned ('Praefatus Paulus Kapuczi ipsi non restituit')."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Schola Iudaica",
+      "mention_texts": [
+        "Schola Iudaica"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Jewish synagogue/school in Lviv where the oath was sworn ('in Schola Iudaica')."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Albertus Lirowski",
+      "mention_texts": [
+        "Albertum Lirowski"
+      ],
+      "descriptive_mentions": [
+        "Urolilem",
+        "Praetorii Praenum"
+      ],
+      "justification": "A municipal beadle/crier sent to witness the oath ('Albertum Lirowski Praetorii Praenum')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E4",
+      "evidence": "Regnorum vero nostrorum Poloniae Noni Sveciae Tertio. Sigismundus Rex."
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E5",
+      "evidence": "Regnorum vero nostrorum Poloniae Noni Sveciae Tertio. Sigismundus Rex."
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Albertum Lirowski Praetorii Praenum"
+    }
+  ]
+}

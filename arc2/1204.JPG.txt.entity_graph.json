@@ -1,0 +1,210 @@
+{
+  "document_id": "arc2/1204.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Rączka",
+      "mention_texts": [
+        "Nicolao Rączka",
+        "Nicolaus Rączka"
+      ],
+      "descriptive_mentions": [
+        "idem"
+      ],
+      "justification": "Party mentioned in the record providing genealogical proof and property indemnification."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Ferens",
+      "mention_texts": [
+        "Ferensÿ"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Father of the wife of Nicolaus Rączka."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Beata",
+      "mention_texts": [
+        "Beatae"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Mother of the wife of Nicolaus Rączka and wife of Ferens."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Kazimierski",
+      "mention_texts": [
+        "Kazimierski"
+      ],
+      "descriptive_mentions": [
+        "heredes"
+      ],
+      "justification": "Individual whose heirs are being verified."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Kaśmiczka",
+      "mention_texts": [
+        "Kaśmiczka"
+      ],
+      "descriptive_mentions": [
+        "heredes"
+      ],
+      "justification": "Individual mentioned alongside Kazimierski regarding heirs."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Elias Karszyński",
+      "mention_texts": [
+        "Elias Karszynski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Textor Civis Leopoliensis",
+        "Civis Juratus"
+      ],
+      "justification": "Weaver and sworn citizen of Lviv appearing personally to give testimony."
+    },
+    {
+      "entity_id": "PER-0003",
+      "entity_type": "person",
+      "canonical_name": "Simon Leopolita",
+      "mention_texts": [
+        "Simonis Leopolita"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Domini Magistri",
+        "Collegae nostri Consularis",
+        "affinium successorum",
+        "conuictores affines"
+      ],
+      "justification": "Lviv councilman and affine successor of the late Anna Simonowa requesting testimony."
+    },
+    {
+      "entity_id": "PER-0071",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Lukasowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "affinium successorum",
+        "conuictores affines"
+      ],
+      "justification": "Citizen of Lviv and affine successor of Anna Simonowa requesting testimony."
+    },
+    {
+      "entity_id": "PER-0026",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Annae Simonowa",
+        "Zmysłowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and stone house are subject to the recorded testimony."
+    },
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum",
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council before which the testimony is received and recorded."
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "istius Civitatis"
+      ],
+      "justification": "City where the council and citizens reside and where the act took place."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Simonowska House",
+      "mention_texts": [
+        "Simonowska"
+      ],
+      "descriptive_mentions": [
+        "domo Lapidea"
+      ],
+      "justification": "Stone house of the late Anna Simonowa mentioned in the testimony."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse of",
+      "tail_entity_id": "E3",
+      "evidence": "filia Ferensÿ et Beatae coniugum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse of",
+      "tail_entity_id": "E2",
+      "evidence": "filia Ferensÿ et Beatae coniugum"
+    },
+    {
+      "head_entity_id": "PER-0003",
+      "relation": "member of",
+      "tail_entity_id": "ORG-0003",
+      "evidence": "Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "PER-0003",
+      "relation": "relative of",
+      "tail_entity_id": "PER-0026",
+      "evidence": "affinium successorum Honestae olim Annae Simonowa"
+    },
+    {
+      "head_entity_id": "PER-0071",
+      "relation": "relative of",
+      "tail_entity_id": "PER-0026",
+      "evidence": "affinium successorum Honestae olim Annae Simonowa"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Elias Karszynski Textor Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "PER-0071",
+      "relation": "resident of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Joannis Lukasowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "PER-0026",
+      "relation": "resident of",
+      "tail_entity_id": "LOC-0001",
+      "evidence": "Honestae olim Annae Simonowa Civis Leopoliensis"
+    }
+  ]
+}

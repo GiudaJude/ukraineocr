@@ -1,0 +1,212 @@
+{
+  "document_id": "arc2/0663.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolphgangus Beers"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati"
+      ],
+      "justification": "Lviv assessor making an official judicial report."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensiem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City of Lviv mentioned in official titles and locations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Smietanka",
+      "mention_texts": [
+        "Joannis Smietanka",
+        "Joan Smietanka"
+      ],
+      "descriptive_mentions": [
+        "olim Honestorum",
+        "Coniugum infranominatorum",
+        "dicti"
+      ],
+      "justification": "Deceased husband of Anna Matysowna whose heirs are mentioned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Matysowna"
+      ],
+      "descriptive_mentions": [
+        "olim Honestorum",
+        "Coniugum infranominatorum"
+      ],
+      "justification": "Deceased wife of Joannes Smietanka."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0118: Franciscus",
+      "mention_texts": [
+        "Francisci Matysowic",
+        "Franciscum Matyisowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "praenominatum",
+        "sedentem in lecto licet corpore aegrum animo tamen bene sanum",
+        "ipsius",
+        "legitimum successorem et haeredem"
+      ],
+      "justification": "Lviv citizen disposing of his sister's inheritance from his sickbed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Szewska Street",
+      "mention_texts": [
+        "Szewszka"
+      ],
+      "descriptive_mentions": [
+        "platea Civitatis huius",
+        "dicta"
+      ],
+      "justification": "Street in Lviv where the stone tenement house is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Lucas Krzywan",
+      "mention_texts": [
+        "Lucae Krzywan"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Late owner of an adjacent house on Szewska Street."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Matysowska House",
+      "mention_texts": [
+        "Matyisowska",
+        "Matyisowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas",
+        "domo"
+      ],
+      "justification": "Stone tenement house on Szewska Street."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinam Matysowna",
+        "Catherina",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "olim Honestam",
+        "sororem ipsius germanam steriliter vita hac functam",
+        "dicta",
+        "praefata",
+        "sororis sua"
+      ],
+      "justification": "Deceased sister of Franciscus Matysowic whose estate is being settled."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "Trecentos Florenos Polonicales",
+        "Trecentos Florenos"
+      ],
+      "descriptive_mentions": [
+        "quos"
+      ],
+      "justification": "Monetary sum assigned to the heirs."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-1814: PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomam Kancz",
+        "Thomas Kancz"
+      ],
+      "descriptive_mentions": [
+        "Floratam",
+        "Civem et Scabinum Leopoliensiem",
+        "ipsemet"
+      ],
+      "justification": "Lviv citizen and assessor who purchased part of the tenement and garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E2",
+      "evidence": "Wolphgangus Beers Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannis Smietanka et Annae Matysowna Coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Francisci Matysowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Catherinam Matysowna sororem ipsius germanam"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in platea Civitatis huius Szewszka"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in platea Civitatis huius Szewszka Lapideas dicta inter Famati olim Lucae Krzywan et Matyisowska lapideas"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Thomam Kancz Civem et Scabinum Leopoliensiem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E2",
+      "evidence": "Thomam Kancz Civem et Scabinum Leopoliensiem"
+    }
+  ]
+}

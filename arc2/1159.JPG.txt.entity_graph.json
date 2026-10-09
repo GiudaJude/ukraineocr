@@ -1,0 +1,147 @@
+{
+  "document_id": "arc2/1159.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis"
+      ],
+      "descriptive_mentions": [
+        "nobis",
+        "nostrae"
+      ],
+      "justification": "Council referred to via its acts and official self-reference ('a nobis', 'nostrae')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "Royal title referring to King Sigismund III Vasa."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Paerzegiornic",
+      "mention_texts": [
+        "Jacobi Paerzegiornic"
+      ],
+      "descriptive_mentions": [
+        "dicti"
+      ],
+      "justification": "Witness or party named in the prior act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Lopek",
+      "mention_texts": [
+        "Martinus Podiestwa Lopek",
+        "Martinus Lopek"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Mellicicolar",
+        "Suburbanus Leopolitanus",
+        "sanus mente et corpore"
+      ],
+      "justification": "Suburban resident of Lviv acknowledging a debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae"
+      ],
+      "justification": "Wife of Martinus Lopek consenting to the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "120 Polish florins",
+      "mention_texts": [
+        "florenos centum viginti pecuniae et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The amount of the loan acknowledged."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae de Wielmki"
+      ],
+      "descriptive_mentions": [
+        "Generosae",
+        "Consorti relictae Generosi quondam Kowalski Subiudicis Terrae Leopoliensis consorti relictae",
+        "Generosae Haereditaria",
+        "Generosae"
+      ],
+      "justification": "Creditor and noble widow of the subjudge of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Kowalski",
+      "mention_texts": [
+        "Kowalski"
+      ],
+      "descriptive_mentions": [
+        "Generosi quondam",
+        "Subiudicis Terrae Leopoliensis"
+      ],
+      "justification": "Deceased subjudge of the Lviv Land, late husband of Anna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "huius Civitatis",
+        "eandem Civitatem"
+      ],
+      "justification": "City and land of Lviv referenced in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestae Hedvigis coniugis suae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestus Martinus Lopek... de ratihabitione Honestae Hedvigis coniugis suae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Generosae Annae de Wielmki Consorti relictae Generosi quondam Kowalski"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "owes_debt_to",
+      "tail_entity_id": "E7",
+      "evidence": "recognouit se debere et teneri certi veri liquidique debiti ex causa mutui contracti florenos centum viginti... Generosae Annae de Wielmki"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "document_id": "arc2/1413.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0004: Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobus Myszkowski"
+      ],
+      "descriptive_mentions": [
+        "Notarius Praeconum"
+      ],
+      "justification": "Notary mentioned at the top of the record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulus Simonowic"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "citatus",
+        "eundem",
+        "praefatus"
+      ],
+      "justification": "Party involved in the defalcation and deposit release."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Musicus",
+      "mention_texts": [
+        "Alberto Musico",
+        "Albertum Musicum",
+        "Alberti",
+        "Alberto Musico"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "dictum",
+        "Civis Cracoviensis",
+        "praefati",
+        "nominato",
+        "ipse"
+      ],
+      "justification": "Citizen of Kraków receiving the deposit and recognizing a debt to his minor relative."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Kraków City Council",
+      "mention_texts": [
+        "Magistratu Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Magistrate of Kraków providing testimony on property ownership."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "Officium",
+        "Officio",
+        "Officij"
+      ],
+      "justification": "Lviv consular office decreeing the transaction and recording the entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensi",
+        "Civitate Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which Albertus owns property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "Saturday before Cantate Sunday",
+      "mention_texts": [
+        "Sabata in cantate proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded testimony/possession decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenorum",
+        "quinquaginta Florenorum",
+        "quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "pecuniam praedictam",
+        "pecuniae et rei Zlotych"
+      ],
+      "justification": "Sum of money paid out and acknowledged as a debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Flora",
+      "mention_texts": [
+        "Florae"
+      ],
+      "descriptive_mentions": [
+        "charae armae uxoris suae",
+        "uxoris suae"
+      ],
+      "justification": "Wife of Albertus Musicus on whose behalf he also makes the obligation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Włochowic",
+      "mention_texts": [
+        "Stanislai Wlochowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "coniugum"
+      ],
+      "justification": "Deceased father of the minor girl to whom the debt is owed."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "superstitis",
+        "coniugum"
+      ],
+      "justification": "Surviving mother of the minor girl."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Zidna Włochowic",
+      "mention_texts": [
+        "Zidna"
+      ],
+      "descriptive_mentions": [
+        "Famati olim Stanislai Wlochowic et Catherinae superstitis coniugum filia",
+        "eidem",
+        "minorennam cognatam suam"
+      ],
+      "justification": "Minor daughter of Stanislaus Włochowic and Catherina, creditor of the 50 florins."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "suo et Florae charae armae uxoris suae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislai Wlochowic et Catherinae superstitis coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislai Wlochowic et Catherinae superstitis coniugum filia"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislai Wlochowic et Catherinae superstitis coniugum filia"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E12",
+      "evidence": "erga eandem minorennam cognatam suam"
+    }
+  ]
+}

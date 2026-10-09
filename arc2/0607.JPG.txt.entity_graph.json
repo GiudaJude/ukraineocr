@@ -1,0 +1,285 @@
+{
+  "document_id": "arc2/0607.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Feria 3. S. Martini praeterita A. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Przezdziecki",
+      "mention_texts": [
+        "Przezdziecki",
+        "Andreae Przezdziecki",
+        "Przezdziecki",
+        "Przezdziecki",
+        "Andreae Przezdziecki"
+      ],
+      "descriptive_mentions": [
+        "Generoso Domino",
+        "Nobilis",
+        "praefato",
+        "eidem",
+        "praefato",
+        "Creditori"
+      ],
+      "justification": "Noble creditor mentioned in the record."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Porembski",
+      "mention_texts": [
+        "Martinus Porembsky"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "locum ordinarij Advocati tenens"
+      ],
+      "justification": "Acting advocatus of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0303: PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Volffgangus Bernz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabini iurati Leopolienses"
+      ],
+      "justification": "Lviv sworn bench official (scabinus)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Caspar Przezdziecki"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Leopolienses"
+      ],
+      "justification": "Lviv bench official (scabinus)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopolensium",
+        "Leopolien-",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in official titles and locations."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łopotowicz",
+      "mention_texts": [
+        "Joannis mis Lopom",
+        "Joannis Lopotovicz"
+      ],
+      "descriptive_mentions": [
+        "Providorum",
+        "Coniugum Suburbanorum Leopolensium",
+        "praedicti",
+        "prefati consortis"
+      ],
+      "justification": "Suburban resident of Lviv and debtor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Zakszatka",
+      "mention_texts": [
+        "Zaxatca",
+        "Zaxatca",
+        "Zaxatca"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Suburbanorum Leopolensium",
+        "superstite Coniugum",
+        "matris"
+      ],
+      "justification": "Wife of Joannes Łopotowicz, previously married to Joannes Piscator."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Trojan",
+      "mention_texts": [
+        "Sebastianum Troiian"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning adjacent property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Liworodry",
+      "mention_texts": [
+        "Joannis Liworodrij"
+      ],
+      "descriptive_mentions": [
+        "olim Ath",
+        "artis muratoriae socij"
+      ],
+      "justification": "Deceased neighbor, bricklayer journeyman."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Halickie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where property is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "platea Lyczakow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street/quarter of Lviv where property is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio consulari Leopoliensi",
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular office where transaction was recorded."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "feria secunda post Dominicam Exaudi proxima Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous consular inscription."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "265 Polish florins",
+      "mention_texts": [
+        "Florenos ducent sexaginta quinque Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the debt."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Choiński",
+      "mention_texts": [
+        "Stanislai Choisinski"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Person into whose hands property was delivered."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Snatowicz",
+      "mention_texts": [
+        "Stanislaus Snatowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sartor",
+        "Civis",
+        "Tutores"
+      ],
+      "justification": "Tailor, citizen of Lviv, tutor of minor children."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Alexander Szafarnik",
+      "mention_texts": [
+        "Alexander Sapharnik"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Tutores"
+      ],
+      "justification": "Tutor of minor children."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Joannes Piscator",
+      "mention_texts": [
+        "Jelosnis Pistatoris"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "olim"
+      ],
+      "justification": "Deceased first husband of Zakszatka."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannis mis Lopom et Zaxatca Coniugum Suburbanorum Leopolensium"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "spouse of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestis olim Jelosnis Pistatoris et Zaxatca superstite Coniugum"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "guardian of",
+      "tail_entity_id": "E8",
+      "evidence": "Tutores liberorum mirokennum Honestis olim Jelosnis Pistatoris et Zaxatca superstite Coniugum"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "guardian of",
+      "tail_entity_id": "E8",
+      "evidence": "Tutores liberorum mirokennum Honestis olim Jelosnis Pistatoris et Zaxatca superstite Coniugum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located in",
+      "tail_entity_id": "E11",
+      "evidence": "Civitatis istius Leopolien- Suburbio Halickie dicto in platea Lyczakow euntes"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located in",
+      "tail_entity_id": "E6",
+      "evidence": "Civitatis istius Leopolien- Suburbio Halickie dicto"
+    }
+  ]
+}

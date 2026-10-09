@@ -1,0 +1,79 @@
+{
+  "document_id": "arc2/1046.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lviv Land",
+      "mention_texts": [
+        "Terrae Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Territorial designation occurring in 'Contributionis Terrae Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1588",
+      "mention_texts": [
+        "Anno 1588"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year referenced in 'in Anno 1588'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland referenced in 'Instigatore Regni'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Drewnowski",
+      "mention_texts": [
+        "Bartholomaei Drewnowski"
+      ],
+      "descriptive_mentions": [
+        "Generosorum",
+        "arrendatorum et ministratorum Jurium Contributionis"
+      ],
+      "justification": "Named person acting as tax collector/tax farmer: 'delatione Generosorum Bartholomaei Drewnowski'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Chełmski",
+      "mention_texts": [
+        "Nicolai Chełmski"
+      ],
+      "descriptive_mentions": [
+        "Generosorum",
+        "arrendatorum et ministratorum Jurium Contributionis"
+      ],
+      "justification": "Named person acting as tax collector/tax farmer: 'Nicolai Chełmski uti arrendatorum'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regiae Maiestatis"
+      ],
+      "justification": "King of Poland referenced by title in 'Decreti Regiae Maiestatis'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "associate",
+      "tail_entity_id": "E5",
+      "evidence": "Generosorum Bartholomaei Drewnowski et Nicolai Chełmski uti arrendatorum et ministratorum Jurium Contributionis"
+    }
+  ]
+}

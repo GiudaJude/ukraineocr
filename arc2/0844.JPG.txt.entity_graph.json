@@ -1,0 +1,187 @@
+{
+  "document_id": "arc2/0844.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actum vt supra."
+      ],
+      "justification": "Date formula referencing the date established in preceding acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Caspar Deiffers",
+      "mention_texts": [
+        "Caspar Deiffers"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Mercator"
+      ],
+      "justification": "Noble merchant from Sadzowz who acknowledged receipt of debt satisfaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Sadzowz",
+      "mention_texts": [
+        "Sadzowz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of Caspar Deiffers."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "florenis quingentis pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 500 Polish florins paid in satisfaction of the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hannus Rupert",
+      "mention_texts": [
+        "Hanu-sium Rupert",
+        "Hannusij Rupert"
+      ],
+      "descriptive_mentions": [
+        "famatum",
+        "olim",
+        "Ciuem Leopoliensem",
+        "mariti ipsius"
+      ],
+      "justification": "Deceased citizen of Lviv who contracted a debt for Hungarian wine."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, where Hannus Rupert was a citizen."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Agnes Rupertowa",
+      "mention_texts": [
+        "Agnetis Rupertowa",
+        "Agnete"
+      ],
+      "descriptive_mentions": [
+        "praedicti olim Hannusij Rupert vidua relicta",
+        "vidua",
+        "viduam",
+        "satisfactricem"
+      ],
+      "justification": "Widow of Hannus Rupert who satisfied the debt owed to Caspar Deiffers."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Moyses Cukla",
+      "mention_texts": [
+        "Moyes Cukla"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the act heading concerning a receipt/quietatio."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Judas Constantinopolitanus",
+      "mention_texts": [
+        "Iudas Constantinopolita-nus"
+      ],
+      "descriptive_mentions": [
+        "Perfidus Iudeus",
+        "Salomonis filius"
+      ],
+      "justification": "Jewish person from Constantinople, son of Salomon, who presented the chirograph."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Salomon",
+      "mention_texts": [
+        "Salomonis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Father of Judas Constantinopolitanus."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio praesenti"
+      ],
+      "justification": "Lviv municipal office to which the chirograph was presented."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "1100 florins",
+      "mention_texts": [
+        "mille et centum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 1100 florins specified in the presented chirograph."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Prostheski",
+      "mention_texts": [
+        "Jacobi Prostheski"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Individual whose handwriting and seal are presumed to be on the chirograph."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nobilis Caspar Deiffers de Sadzowz"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Agnete praedicti olim Hannusij Rupert vidua relicta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Hanu-sium Rupert Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Iudas Constantinopolita-nus Salomonis filius"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "appeared_before",
+      "tail_entity_id": "E11",
+      "evidence": "Iudas Constantinopolita-nus Salomonis filius palam libereque obtulit officio praesenti"
+    }
+  ]
+}

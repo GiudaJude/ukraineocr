@@ -1,0 +1,268 @@
+{
+  "document_id": "arc2/1470.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Polion",
+      "mention_texts": [
+        "Polion"
+      ],
+      "descriptive_mentions": [
+        "maritum",
+        "tutorem suum legitimum",
+        "coniuges",
+        "ille",
+        "venditores"
+      ],
+      "justification": "Named as husband and legal guardian of Anna in the opening clause of the deed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Annae",
+        "Annae Smietancze"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "sororis suae germanae",
+        "amita"
+      ],
+      "justification": "Appears both as the wife of Polion / sister of Gaspar (Anna Smietanka) and as the late wife of Joannes Smietanka."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Smietanka",
+      "mention_texts": [
+        "Gaspar"
+      ],
+      "descriptive_mentions": [
+        "dictus Gaspar",
+        "tutor eiusdem legitimus et naturalis"
+      ],
+      "justification": "Brother and natural guardian acting on behalf of his full sister Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Brzezinski",
+      "mention_texts": [
+        "Martinus Brzezinski"
+      ],
+      "descriptive_mentions": [
+        "maritum",
+        "tutorem suum legitimum",
+        "coniuges",
+        "ille",
+        "venditores"
+      ],
+      "justification": "Husband and legal guardian of Margaretha, co-seller of the hereditary share."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margaretha Fiamatowam"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Filia",
+        "haec",
+        "venditores"
+      ],
+      "justification": "Daughter of late Joannes Smietanka and Anna, wife of Martinus Brzezinski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0049: Sigismundus Smietanka",
+      "mention_texts": [
+        "Joannis Smietancka"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "coniugum",
+        "Parentes olim suos dictos",
+        "parentes sui"
+      ],
+      "justification": "Deceased parent whose estate was inherited by the sellers; matches canonical Joannes Smietanka entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis Suburbio"
+      ],
+      "justification": "City whose bench Thomas Koziel serves on and in whose suburb the property is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Swiencziczi",
+      "mention_texts": [
+        "Swiencziczi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Suburbio",
+        "vocato"
+      ],
+      "justification": "Named suburb of Lviv where the sold property is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joer",
+      "mention_texts": [
+        "Joeris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose habitacula border the property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Salotowski",
+      "mention_texts": [
+        "Salotowskie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose gardens border the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Thomas Koziel",
+      "mention_texts": [
+        "Tomse Koziel",
+        "Tomas Koziel"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino Civi Leopoliensi",
+        "Honoratus",
+        "Sabino",
+        "emptori",
+        "emptoris",
+        "Emptoris"
+      ],
+      "justification": "Lviv alderman and burgher who purchases the property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "230 florins",
+      "mention_texts": [
+        "ducentorum et triginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "precii"
+      ],
+      "justification": "Purchase price of the property."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "650 florins",
+      "mention_texts": [
+        "sexcentis et quinquaginta Florenis"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Sum previously contracted by the parents to Caspar Gutteter."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Caspar Gutteter",
+      "mention_texts": [
+        "Casparo Gutteter"
+      ],
+      "descriptive_mentions": [
+        "spectabili et Nobili",
+        "Consuli Cracovien"
+      ],
+      "justification": "Cracow consul who held the earlier mortgage/debt."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracovien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Caspar Gutteter served as consul."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "eodem Officio"
+      ],
+      "justification": "Municipal office before which satisfaction and registration were completed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Polion et Anna coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "dictus Gaspar nomine et ex parte dictae Annae sororis suae germanae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martinus Brzezinski et Margaretha Fiamatowam olim Joannis Smietancka et Annae coniugum Filia coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Margaretha Fiamatowam olim Joannis Smietancka et Annae coniugum Filia"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Margaretha Fiamatowam olim Joannis Smietancka et Annae coniugum Filia"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "olim Joannis Smietancka et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honorato Tomse Koziel Scabino Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E15",
+      "evidence": "Casparo Gutteter Consuli Cracovien"
+    }
+  ]
+}

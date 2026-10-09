@@ -1,0 +1,327 @@
+{
+  "document_id": "arc2/0733.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Ciuitatis nostrae",
+        "Officio nostro",
+        "Actis nostris"
+      ],
+      "justification": "Lviv municipal council acting through its officials and recording the acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sitarz",
+      "mention_texts": [
+        "Jacobus Sitarz"
+      ],
+      "descriptive_mentions": [
+        "Famosus",
+        "famulus Ciuitatis nostrae ad id datus et deputatus ab Officio nostro",
+        "famuli praedicti"
+      ],
+      "justification": "City servant appointed by the council to attend the swearing of the oath."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Constantinople",
+      "mention_texts": [
+        "Constantinopolitani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of the Jewish merchant Muroko."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Muroko",
+      "mention_texts": [
+        "Murokonis"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Iudaei Constantinopolitani",
+        "Mercatoris Aduenae Leopoliensis",
+        "praedicto Iudaeo"
+      ],
+      "justification": "Jewish merchant from Constantinople who took the oath."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Dziani Jatago",
+      "mention_texts": [
+        "Dziari Iataego",
+        "Iatrago"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Iurati Mercatores aduenae Leopoliensis",
+        "Famosus"
+      ],
+      "justification": "Merchant at whose instance the oath was taken and who requested registration in the council acts."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lviv Synagogue",
+      "mention_texts": [
+        "Nicolai Dudaicam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Jewish school/synagogue in Lviv where oaths of Jewish merchants were administered, corrupted in OCR to 'Nicolai Dudaicam'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joszko",
+      "mention_texts": [
+        "Iosszy"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "Iudaei"
+      ],
+      "justification": "Jewish person mentioned in connection with the oath."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Lasskowicz",
+      "mention_texts": [
+        "Nicolai Lasskowic",
+        "Nicolai Lasskowicz",
+        "Lurziek",
+        "Nicolai"
+      ],
+      "descriptive_mentions": [
+        "Laboriosi olim",
+        "dicti Lurziek",
+        "vita functi"
+      ],
+      "justification": "Deceased man whose estate sum is the subject of the quitclaim."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Ilko",
+      "mention_texts": [
+        "Ilko"
+      ],
+      "descriptive_mentions": [
+        "Laboriosi",
+        "subditus Generosi Xzezonowski",
+        "filius"
+      ],
+      "justification": "Peasant from Xzezowicze appearing personally, son of Pogus Lasskowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Xzezowicze",
+      "mention_texts": [
+        "Xzezowicze"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Village of Ilko."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Xzezonowski",
+      "mention_texts": [
+        "Xzezonowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi"
+      ],
+      "justification": "Noble lord of Ilko."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Pogus Lasskowicz",
+      "mention_texts": [
+        "Pogusi Lasskowicz"
+      ],
+      "descriptive_mentions": [
+        "Laboriosi olim",
+        "fratris germani"
+      ],
+      "justification": "Deceased brother of Nicolaus Lasskowicz and father of Ilko."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Hecta Szwastowna",
+      "mention_texts": [
+        "Hecta Szwastowna"
+      ],
+      "descriptive_mentions": [
+        "coniux legitima",
+        "sorores germanae"
+      ],
+      "justification": "Sister of deceased Nicolaus Lasskowicz and wife of Kuzma."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Kuzma",
+      "mention_texts": [
+        "Kuzma"
+      ],
+      "descriptive_mentions": [
+        "Laboriosi",
+        "subditi"
+      ],
+      "justification": "Peasant from Ziroczyn and husband of Hecta Szwastowna."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Ziroczyn",
+      "mention_texts": [
+        "Ziroczyn"
+      ],
+      "descriptive_mentions": [
+        "villa"
+      ],
+      "justification": "Village belonging to the Dukes of Ostrog."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "organization",
+      "canonical_name": "House of Ostrogski",
+      "mention_texts": [
+        "Ducum Ostrogia"
+      ],
+      "descriptive_mentions": [
+        "Illius"
+      ],
+      "justification": "Dukes of Ostrog, lords of the village of Ziroczyn."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Hecta Laskowszowna",
+      "mention_texts": [
+        "Hecta",
+        "Laskowszowna"
+      ],
+      "descriptive_mentions": [
+        "sorores germanae",
+        "praedicti Nicolai sorores germanae"
+      ],
+      "justification": "Sister of deceased Nicolaus Lasskowicz."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Foma",
+      "mention_texts": [
+        "Foma"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person associated with Hecta Laskowszowna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is_employed_by",
+      "tail_entity_id": "E1",
+      "evidence": "famulus Ciuitatis nostrae ad id datus et deputatus ab Officio nostro"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "originates_from",
+      "tail_entity_id": "E4",
+      "evidence": "Infidelis Murokonis Iudaei Constantinopolitani"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_located_in",
+      "tail_entity_id": "E2",
+      "evidence": "ad Nicolai Du: daicam Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "originates_from",
+      "tail_entity_id": "E11",
+      "evidence": "Ilko de Xzezowicze"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_subject_of",
+      "tail_entity_id": "E12",
+      "evidence": "Ilko de Xzezowicze subditus Generosi Xzezonowski"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Laboriosi olim Pogusi Lasskowicz fratris germani Laboriosi olim Nicolai Lasskowicz dicti Lurziek filius"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Pogusi Lasskowicz fratris germani Laboriosi olim Nicolai Lasskowicz dicti Lurziek"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Hecta Szwastowna Laboriosi Kuzma de Ziroczyn villa Illius Ducum Ostrogia subditi coniux legitima"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Hecta Szwastowna ... atque Hecta olim Foma Laskowszowna praedicti Nicolai sorores germanae"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Hecta olim Foma Laskowszowna praedicti Nicolai sorores germanae"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "originates_from",
+      "tail_entity_id": "E16",
+      "evidence": "Kuzma de Ziroczyn"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "is_subject_of",
+      "tail_entity_id": "E17",
+      "evidence": "Kuzma de Ziroczyn villa Illius Ducum Ostrogia subditi"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "is_owned_by",
+      "tail_entity_id": "E17",
+      "evidence": "Ziroczyn villa Illius Ducum Ostrogia"
+    }
+  ]
+}

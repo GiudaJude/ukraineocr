@@ -1,0 +1,107 @@
+{
+  "document_id": "arc2/1516.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Aromatarius",
+      "mention_texts": [
+        "Joanne",
+        "Joan-ne",
+        "Joannes Aromatarius"
+      ],
+      "descriptive_mentions": [
+        "Civi Leopoliensi",
+        "emptore",
+        "emptori",
+        "emptorem",
+        "emptoris"
+      ],
+      "justification": "Primary buyer named in the document: '...tario Civi Leopoliensi', 'Joanne emptore', and 'Joannes Aromatarius'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in citizen title ('Civi Leopoliensi'), municipal seal/faith ('fides Civitatis Leopoliensis'), and act location ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "quadringentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et monetae Polonicalis"
+      ],
+      "justification": "Purchase price: 'pretio quadringentorum florenorum pecuniae et monetae Polonicalis'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czerniol",
+      "mention_texts": [
+        "Stanislai Czernioli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named creditor/decree party: 'sententiam Stanislai Czernioli'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial bench where resignation is to be effected: 'Seniori Scabino in Exposito Judicio residenti'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sephra",
+      "mention_texts": [
+        "Sephrae"
+      ],
+      "descriptive_mentions": [
+        "viduae"
+      ],
+      "justification": "Widow receiving free habitation in compensation: 'eidem Sephrae viduae pro recompensa venditionis'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Acta nostra"
+      ],
+      "justification": "Issuing municipal office receiving the acts: 'ad Acta nostra susceptimus'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "feria sexta in vigilia Festi Sancti Andreae Apostoli",
+      "mention_texts": [
+        "feria sexta in vigilia Festi Sancti Andreae Apostoli Anno etc."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Registration date stated at the end of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civi Leopoliensi"
+    }
+  ]
+}

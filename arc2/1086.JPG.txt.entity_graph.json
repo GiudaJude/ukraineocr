@@ -1,0 +1,130 @@
+{
+  "document_id": "arc2/1086.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Szurmarowicz",
+      "mention_texts": [
+        "Martinus Szyrmar",
+        "Martinus Szurmarowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "sanus mente et corpore"
+      ],
+      "justification": "Primary debtor in the entry making the debt acknowledgement and hypothecation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Schulz",
+        "Jacobo Scholcz"
+      ],
+      "descriptive_mentions": [
+        "Honoratis",
+        "Scabinis Civibus Leopoliensibus",
+        "certos Creditores",
+        "Creditoribus suis"
+      ],
+      "justification": "Identified as city bench alderman and creditor receiving the financial obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adam Smieszek",
+        "Adamo Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Honoratis",
+        "Scabinis Civibus Leopoliensibus",
+        "certos Creditores",
+        "Creditoribus suis"
+      ],
+      "justification": "Identified as city bench alderman and co-creditor receiving the financial obligation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose citizenship is referenced and within which the property/transactions are situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "1400 Polish florins",
+      "mention_texts": [
+        "mille quadringentorum Florenorum pecuniae et numeri Polonici",
+        "Mille quadringentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "Summam",
+        "Summam praefatam"
+      ],
+      "justification": "Total debt sum registered and secured upon the debtor's goods."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festum Sanctae Agnetis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Calendar feast day referenced for payment terms during the Lviv fair."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "Laetare Sunday",
+      "mention_texts": [
+        "Dominica Quadragesimali Laetare"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lenten Sunday specified as payment deadline for the second half of the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Martinus Szurmarowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobo Scholcz et Adamo Smieszek Scabinis Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobo Scholcz et Adamo Smieszek Scabinis Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honoratis Jacobo Scholcz et Adamo Smieszek Scabinis Civibus Leopoliensibus quidem debet ac tenetur"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honoratis Jacobo Scholcz et Adamo Smieszek Scabinis Civibus Leopoliensibus quidem debet ac tenetur"
+    }
+  ]
+}

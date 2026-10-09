@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/0236.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Nouicampianum",
+        "Paulus Nouicampianus"
+      ],
+      "descriptive_mentions": [
+        "Doctores",
+        "Spectabiles et Excellentes Domini",
+        "Medicinae Doctores",
+        "Collegae nostri Consulares"
+      ],
+      "justification": "Named council colleague and doctor of medicine in the limitation agreement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Dzibonicium",
+        "Stanislaus Dzibonicius"
+      ],
+      "descriptive_mentions": [
+        "Doctores",
+        "Spectabiles et Excellentes Domini",
+        "Medicinae Doctores",
+        "Collegae nostri Consulares"
+      ],
+      "justification": "Named council colleague and doctor of medicine agreeing to the limitation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "festum Assumptionis Beatae Mariae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date until which the lawsuit between the doctors is postponed/limited."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta Praesentia",
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officii eiusdem"
+      ],
+      "justification": "The municipal council before which the legal actions and records are executed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Remigianus Mirosławski",
+      "mention_texts": [
+        "Mirosławska",
+        "Remigianus Mirosławski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble who revokes his appeal against the Franciscan friars."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Fratribus Sancti Francisci",
+        "Ordinis Sancti Francisci"
+      ],
+      "descriptive_mentions": [
+        "Religiosis"
+      ],
+      "justification": "Monastic order involved in the legal dispute with Mirosławski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0082: LOC-0022: Church of the Holy Cross",
+      "mention_texts": [
+        "Ecclesiae tituli Sanctae Crucis",
+        "Ecclesiae Sanctae Famosae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Church of the Franciscan convent in Lviv cited in the agreement."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0317: Hieronymus Buczek",
+      "mention_texts": [
+        "Hieronymi Buczek"
+      ],
+      "descriptive_mentions": [
+        "Religiosi",
+        "Custodes",
+        "praedicti",
+        "Custodis"
+      ],
+      "justification": "Franciscan custodian who paid the settlement sum to Mirosławski."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Florenorum sexaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Settlement amount in Polish florins received by Mirosławski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Domini Paulus Nouicampianus et Stanislaus Dzibonicius Medicinae Doctores Collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Domini Paulus Nouicampianus et Stanislaus Dzibonicius Medicinae Doctores Collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Hieronymi Buczek Custodes ... Ordinis Sancti Francisci"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "custodian_of",
+      "tail_entity_id": "E7",
+      "evidence": "Hieronymi Buczek Custodis Ecclesiae Sanctae Famosae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "settled_with",
+      "tail_entity_id": "E8",
+      "evidence": "Nobilis Remigianus Mirosławski palam et benevole appellationem in causa et actione cum Religiosis Fratribus Sancti Francisci Custodis et Ecclesiae tituli Sanctae Crucis Ordinis Sancti Francisci Custodis interpositam relaxavit et revocavit ... pro hac Religiosi Hieronymi Buczek Custodes praestitit et absolvit"
+    }
+  ]
+}

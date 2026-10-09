@@ -1,0 +1,285 @@
+{
+  "document_id": "arc2/1291.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis iisdem",
+        "Actis",
+        "Officium nostrum"
+      ],
+      "justification": "City council office and acts mentioned in the legal proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "Iernicouska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv mentioned in connection with a property plot."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Annatus",
+      "mention_texts": [
+        "Annati"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "praefatus heres",
+        "idem Dominus Doctor"
+      ],
+      "justification": "Property owner and doctor involved in the census protest."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Civitatis Leopoliensis",
+        "Civis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced across citizenship and location descriptions."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Blasius Elstorius",
+      "mention_texts": [
+        "Blasius Elstorius"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Lanii",
+        "Cives Leopolienses"
+      ],
+      "justification": "Lviv butcher and citizen appearing to give testimony."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Gombrisi",
+      "mention_texts": [
+        "Bartholomeus Gombrisi"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Lanii",
+        "Cives Leopolienses"
+      ],
+      "justification": "Lviv butcher and citizen appearing as a witness."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Daniel Król",
+      "mention_texts": [
+        "Danielis Piszkolawic",
+        "Danielis Krol",
+        "Danielem"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Piscidarii Iurati Civitatis Leopoliensis",
+        "praedictum",
+        "Famartum",
+        "filium"
+      ],
+      "justification": "Sworn fishmonger and citizen of Lviv, son of Martinus Król."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Henricus Horst",
+      "mention_texts": [
+        "Henricum Horst",
+        "Henrico Horst"
+      ],
+      "descriptive_mentions": [
+        "Famaturm olim",
+        "Lapicidam"
+      ],
+      "justification": "Late stonemason and husband of Barbara Król."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "ipsius superstitem",
+        "filiam"
+      ],
+      "justification": "Daughter of Martinus Król and surviving wife of Henricus Horst."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Martinus Król",
+      "mention_texts": [
+        "Martini Krol",
+        "Martinus Krol"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Lanii Civis Leopoliensis",
+        "praedictus",
+        "Lanius Civis Leopoliensis"
+      ],
+      "justification": "Late butcher and citizen of Lviv whose family genealogy is established."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigi de Szocin"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "uxorem",
+        "filia"
+      ],
+      "justification": "Wife of Martinus Król and daughter of Melchior Bogerz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Melchior Bogerz",
+      "mention_texts": [
+        "Melchioris alias Bogerz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Jaroslaviensis"
+      ],
+      "justification": "Citizen of Jarosław, father of Hedwigis."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Jarosław",
+      "mention_texts": [
+        "Jaroslaviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin for citizen Melchior Bogerz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Hester",
+      "mention_texts": [
+        "Hester"
+      ],
+      "descriptive_mentions": [
+        "honestas filias"
+      ],
+      "justification": "Daughter of Martinus Król and Hedwigis."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiam"
+      ],
+      "descriptive_mentions": [
+        "honestas filias"
+      ],
+      "justification": "Daughter of Martinus Król and wife of Martinus Elleberger."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Martinus Elleberger",
+      "mention_texts": [
+        "Martino Elleberger"
+      ],
+      "descriptive_mentions": [
+        "Aurifabro"
+      ],
+      "justification": "Goldsmith, first husband of Sophia Król."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honestam Barbaram ipsius superstitem Famati olim Martini Krol Lanii Civis Leopoliensis filiam"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Barbaram quae postea nupsit Henrico Horst"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "praedictus Martinus Krol Lanius Civis Leopoliensis duxerat uxorem Honestam Hedwigi de Szocin"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Hedwigi de Szocin Famati Melchioris alias Bogerz Civis Jaroslaviensis filia"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "suscepit ex eadem honestas filias et filium, Hester, et praedictum Famartum Danielem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "suscepit ex eadem honestas filias et filium, Hester, et praedictum Famartum Danielem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "suscepit ex eadem honestas filias et filium, Hester"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "suscepit ex eadem honestas filias et filium, Hester"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "suscepit ex eadem honestas filias et filium... atque Sophiam"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "suscepit ex eadem honestas filias et filium... atque Sophiam"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Sophiam quae primo nupsit Martino Elleberger Aurifabro"
+    }
+  ]
+}

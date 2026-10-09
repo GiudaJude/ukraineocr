@@ -1,0 +1,127 @@
+{
+  "document_id": "arc2/1458.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the court session took place and of which the parties are citizen and tribune."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quarta post festum SS. Simonis et Juda Apostolorum proxima 90"
+      ],
+      "descriptive_mentions": [
+        "die hodierna"
+      ],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kwaśniewski",
+      "mention_texts": [
+        "Gaspar Wojtowicz",
+        "Casparum Kwasniewski",
+        "Caspare Kwasniewski"
+      ],
+      "descriptive_mentions": [
+        "Tribunatum Leopoliensis",
+        "actorem",
+        "Generosum actorem",
+        "praedictum Generosum actorem",
+        "praedictus Generosus actor",
+        "Generosus actor",
+        "eundem Generosum actorem",
+        "eiusdem Generosi actoris",
+        "incoluito",
+        "idem Generosus revocatus",
+        "eodem Generoso"
+      ],
+      "justification": "Plaintiff in the lawsuit, tribune of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Josephum Wolszowic",
+        "Josephus Wolszowic"
+      ],
+      "descriptive_mentions": [
+        "Civem Leopoliensis",
+        "citatum",
+        "praefatus vero citatus",
+        "idem citatus",
+        "causo victor"
+      ],
+      "justification": "Defendant (citatum) in the case, identified with the Wolfowicz family."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens Consulare"
+      ],
+      "descriptive_mentions": [
+        "Officii",
+        "Decreto Officii praesentis",
+        "Officium",
+        "Actis ijsdem"
+      ],
+      "justification": "The municipal council/court issuing the decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "sabbato post festum S. Valentini Anno 1592 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous calculation and public record cited in the case."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "304 florins 17 groschen",
+      "mention_texts": [
+        "trecentorum quatuor florenorum et grossorum septendecim"
+      ],
+      "descriptive_mentions": [
+        "resta",
+        "summam"
+      ],
+      "justification": "Amount remaining due from the plaintiff to the defendant."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "litigates_against",
+      "tail_entity_id": "E4",
+      "evidence": "Gaspar Wojtowicz contra Josephum Wolszowic"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Josephum Wolszowic Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E4",
+      "evidence": "resta trecentorum quatuor florenorum et grossorum septendecim ... idem Generosus revocatus debere se comperitur"
+    }
+  ]
+}

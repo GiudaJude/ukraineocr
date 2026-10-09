@@ -1,0 +1,219 @@
+{
+  "document_id": "arc2/1111.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris praesentibus",
+        "concessione nostra",
+        "Consulatus",
+        "officium nostrum"
+      ],
+      "justification": "The municipal council of Lviv recording the testimony into its official books."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Honoratorum iuris Fidelium"
+      ],
+      "justification": "The bench of judicial benchmen (scabini/iuris fideles) whose report is entered into the record."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Czirniga",
+      "mention_texts": [
+        "Czirnagij",
+        "Czirniga"
+      ],
+      "descriptive_mentions": [
+        "chirurgi",
+        "dicti"
+      ],
+      "justification": "Surgeon owning a house next to the contested property on the Poltwa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Melchior Osmolski",
+      "mention_texts": [
+        "Melchior Osmolski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual requesting registration of the judicial report."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Bellarn",
+      "mention_texts": [
+        "Jacobus Bellarn"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual requesting registration of the judicial report."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis eiusdem"
+      ],
+      "justification": "City where the act took place and whose suburbs/citizens are referenced."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post Dominicam Cantate Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry of the testimony."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Prossiana Scholz",
+      "mention_texts": [
+        "Prossianae Scholc"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person in whose matter the witness testimony is being recorded."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Blasius Ślusarz",
+      "mention_texts": [
+        "Blasius Slusarz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburban witness appearing before the council."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Melchior Smigmator",
+      "mention_texts": [
+        "Melchior Smigmator",
+        "Melchioris Smigmatoris"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburban witness and neighboring homeowner."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Paulus Cyrulik",
+      "mention_texts": [
+        "Paulus Cyrulik"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburban witness appearing before the council."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0849: Paulus Kraus",
+      "mention_texts": [
+        "Paulus Krauz"
+      ],
+      "descriptive_mentions": [
+        "Ostiarius Civitatis Leopoliensis"
+      ],
+      "justification": "City beadle/doorkeeper testifying before the council."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Scholz",
+      "mention_texts": [
+        "Joannis Scholtz Postphonici"
+      ],
+      "descriptive_mentions": [
+        "collegae nostri Consulatus",
+        "Nobilis Domini"
+      ],
+      "justification": "Council member at whose instance the witness inspection took place."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Andreas Śmieciak",
+      "mention_texts": [
+        "Andreae Smieciaki"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Nobilis"
+      ],
+      "justification": "Person present during the inspection of the house."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Pełtew",
+      "mention_texts": [
+        "Peltew"
+      ],
+      "descriptive_mentions": [
+        "Fluvium"
+      ],
+      "justification": "River above which the contested property was situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Ostiarius Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "collegae nostri Consulatus"
+    }
+  ]
+}

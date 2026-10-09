@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/0148.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Tacik",
+      "mention_texts": [
+        "Stanislaum Tacik"
+      ],
+      "descriptive_mentions": [
+        "praedicti Actoris avum",
+        "avum"
+      ],
+      "justification": "Named as the deceased grandfather of the plaintiff Martinus who made a bequest in his will."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus",
+      "mention_texts": [
+        "Martino"
+      ],
+      "descriptive_mentions": [
+        "Actoris",
+        "Ingenuo Martino Actori",
+        "Actori"
+      ],
+      "justification": "Plaintiff receiving a bequest from his grandfather Stanislaus Tacik for continuing his studies."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicium Necessariorum Civile Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court to which the parties and case are referred to pursue their rights."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council whose decree referred the subsequent matter to the advocatial office."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sołtysowic",
+      "mention_texts": [
+        "Joan: Soltys",
+        "Jo-annem Soltysowic"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "actorem",
+        "nominatum actorem",
+        "Statis Actoribus",
+        "praedicti Actores"
+      ],
+      "justification": "One of the plaintiffs pursuing the division of the maternal inheritance."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Agnes Kanczarcissanka",
+      "mention_texts": [
+        "Agnetis Kanczarcissanka"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "actorem",
+        "Statis Actoribus",
+        "praedicti Actores"
+      ],
+      "justification": "One of the plaintiffs named in the suit regarding maternal property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kanczarciski",
+      "mention_texts": [
+        "Joannem Kanczarciski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Scabinum et Saxentem Suburbanum Leopoliensem",
+        "citatum"
+      ],
+      "justification": "The cited party (defendant), suburban bench officer of Lviv, holding the movable goods and house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Honoratorum Domini Advocati et Scabinorum Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "eiusdem Officii",
+        "praedicto Domino Advocato et Fidelibus Iuris"
+      ],
+      "justification": "The judicial office approached to issue a ruling on the inventory and partition."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Doliator",
+      "mention_texts": [
+        "Sebastiani Doliatoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the property to be divided."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Adam Figulus",
+      "mention_texts": [
+        "Adae Figuli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the other side of the property in question."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Potters' Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Lviv suburb where the house being divided is situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lviv Suburb",
+      "mention_texts": [
+        "Suburbio Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The suburban area of Lviv where the disputed real estate is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings took place."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "15 March 1595",
+      "mention_texts": [
+        "feria quarta post Dominicam Judica proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recording of the court act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "grandfather_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaum Tacik praedicti Actoris avum eidem Ingenuo Martino Actori"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "in Suburbio Leopoliense in platea Figulorum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "in Suburbio Leopoliense"
+    }
+  ]
+}

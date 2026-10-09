@@ -1,0 +1,148 @@
+{
+  "document_id": "arc2/0793.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts are enacted and location of the municipal council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria sexta ante Festum Sancti Sebastiani proxima Anno quo supra",
+        "Feria tertia ante festum S. Sebastiani Martyris Anno 1596",
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating formulas indicating dates in January 1596."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo S. Michaelis proximi Anno currenti venturo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Term assigned for repayment of the loan."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Kozakowicz",
+      "mention_texts": [
+        "Valentinus Kozakowicz",
+        "Valentinus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Muratoriae artificij socius"
+      ],
+      "justification": "Mason acknowledging a loan obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szatkowic",
+      "mention_texts": [
+        "Stanislao Szathkowic",
+        "Szatkowic",
+        "Szathkowic"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "eiusdem Artis socio"
+      ],
+      "justification": "Creditor and fellow mason to whom the debt is owed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Florenos Sexaginta pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal debt amount owed by Valentinus Kozakowicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Viginti Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Secured sum registered on the debtor's goods."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consules Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officij nostri"
+      ],
+      "justification": "City council of Lviv borrowing funds for municipal needs."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Rachman Isaacowicz",
+      "mention_texts": [
+        "Rachmano Isaacowicz"
+      ],
+      "descriptive_mentions": [
+        "Infideli",
+        "Judaeo Leopoliensi"
+      ],
+      "justification": "Jewish resident of Lviv extending a 1000 florin loan to the city council."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Mille Florenos pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum borrowed by the city council from Rachman Isaacowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "indebted_to",
+      "tail_entity_id": "E5",
+      "evidence": "Valentinus Kozakowicz Muratoriae artificij socius palam et libere recognouit se debere et teneri recti veri iusti liquidique debiti ex causa mutui contracti Florenos Sexaginta pecuniae et numeri Polonicalis Honesto Stanislao Szathkowic"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "indebted_to",
+      "tail_entity_id": "E9",
+      "evidence": "Consules Civitatis Leopoliensis ... accepimus in mutuum ab Infideli Rachmano Isaacowicz Judaeo Leopoliensi Mille Florenos pecuniae Polonicalis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Consules Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Rachmano Isaacowicz Judaeo Leopoliensi"
+    }
+  ]
+}

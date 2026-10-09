@@ -1,0 +1,302 @@
+{
+  "document_id": "arc2/0008.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ossowski",
+      "mention_texts": [
+        "Joannes Ossowski",
+        "Joanni Ossowski",
+        "Joannem Ossowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Civis Leopoliensis",
+        "Famato",
+        "Pellifici",
+        "Civi Leopoliensi",
+        "supradictum"
+      ],
+      "justification": "Furrier and citizen of Lviv who submits the testament and to whom Anna Grodkowska owes money."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Officii nostri"
+      ],
+      "descriptive_mentions": [
+        "actis mis"
+      ],
+      "justification": "Matches corpus entity ORG-0003."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna Grodkowska",
+      "mention_texts": [
+        "Grodzkowica",
+        "Annae Grodkowska",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "vita functa",
+        "Honesta",
+        "consors relicta vidua"
+      ],
+      "justification": "Testator, deceased widow of Martinus Grodkowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis",
+        "Civitatis istius Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches corpus entity Lwów."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "24 July 1594",
+      "mention_texts": [
+        "Anno a Nativitate Eiusdem Domini quingentesimo nonagesimo quarto die Dominica pridie festi Sancti Jacobi Apostoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recording of the testament (Sunday before the Feast of St. James 1594)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kraków Suburb",
+      "mention_texts": [
+        "suburbio dextro Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Right Kraków suburb of Lviv where the house is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Pajączkowska House",
+      "mention_texts": [
+        "Pajaczkowska"
+      ],
+      "descriptive_mentions": [
+        "domo"
+      ],
+      "justification": "House located in Holy Cross Street where the will was dictated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Holy Cross Street",
+      "mention_texts": [
+        "platea Sanctae Crucis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where Pajączkowska House is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Martinus Grodkowski",
+      "mention_texts": [
+        "Martini Grodkowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Institoris",
+        "Civis Leopoliensis",
+        "olim"
+      ],
+      "justification": "Deceased merchant and husband of Anna Grodkowska."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Włoszek",
+      "mention_texts": [
+        "Jacobum Wloszek"
+      ],
+      "descriptive_mentions": [
+        "Dominum",
+        "Honorabiles et Famatos",
+        "Ordinarii Advocati"
+      ],
+      "justification": "Ordinary advocate present at the writing of the will."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "mention_texts": [
+        "Andrea Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Scabinos Civitatis Leopoliensis"
+      ],
+      "justification": "Matches corpus entity PER-0014; alderman present at the writing of the will."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sobol",
+      "mention_texts": [
+        "Joanne Sobol"
+      ],
+      "descriptive_mentions": [
+        "Scabinos Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv alderman present at the writing of the will."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes de Rzeszów",
+      "mention_texts": [
+        "Joanne a Rzeszow"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Ecclesiae Metropolitanae Leopoliensis Vicario"
+      ],
+      "justification": "Vicar of the Metropolitan Church of Lviv present at the will."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "100 Polish florins",
+      "mention_texts": [
+        "florenos centum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount owed by Anna Grodkowska to Joannes Ossowski (matches CUR-0009 concept)."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festo Assumptionis in Caelum Beatissimae Virginis Mariae",
+        "Festo Assumptionis in Caelum Beatae Virginis Mariae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches corpus entity DATE-0003."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "currency",
+      "canonical_name": "50 florins",
+      "mention_texts": [
+        "Florenos quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount owed by Anna Grodkowska."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "Jarosław",
+      "mention_texts": [
+        "Jaroslaviensi"
+      ],
+      "descriptive_mentions": [
+        "nundinis"
+      ],
+      "justification": "Matches corpus entity LOC-0005; refers to the Jarosław fair."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "currency",
+      "canonical_name": "54 florins",
+      "mention_texts": [
+        "Florenos quinquaginta quatuor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount owed by Anna Grodkowska under obligation note."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Gabriela",
+      "mention_texts": [
+        "Gabrieli"
+      ],
+      "descriptive_mentions": [
+        "Famatae"
+      ],
+      "justification": "Creditor mentioned towards the end of the text fragment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "submitted_document_to",
+      "tail_entity_id": "E2",
+      "evidence": "Joannes Ossowski Pellio Civis Leopoliensis palam publice benevoleque obtulit Officio nostro testamentum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honesta Anna olim Famati Martini Grodkowski Institoris Civis Leopoliensis consors relicta vidua"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in domo Pajaczkowska in platea Sanctae Crucis sita"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "suburbio dextro Cracoviensi in domo Pajaczkowska in platea Sanctae Crucis sita"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Civitatis istius Leopoliensis suburbio dextro Cracoviensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "witness_to",
+      "tail_entity_id": "E3",
+      "evidence": "adierunt ad se Honorabiles et Famatos Dominum Jacobum Wloszek Ordinarii Advocati... tale suum Testamentum extremamque voluntate fecit"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "witness_to",
+      "tail_entity_id": "E3",
+      "evidence": "adierunt ad se... Andrea Simonowicz... Scabinos Civitatis Leopoliensis... tale suum Testamentum extremamque voluntate fecit"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "witness_to",
+      "tail_entity_id": "E3",
+      "evidence": "adierunt ad se... Joanne Sobol Scabinos Civitatis Leopoliensis... tale suum Testamentum extremamque voluntate fecit"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "witness_to",
+      "tail_entity_id": "E3",
+      "evidence": "adierunt ad se... Joanne a Rzeszow Ecclesiae Metropolitanae Leopoliensis Vicario... tale suum Testamentum extremamque voluntate fecit"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "owes_debt_to",
+      "tail_entity_id": "E1",
+      "evidence": "fassa est se debere Famato Joanni Ossowski Pellifici Civi Leopoliensi florenos centum"
+    }
+  ]
+}

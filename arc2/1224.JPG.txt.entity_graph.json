@@ -1,0 +1,128 @@
+{
+  "document_id": "arc2/1224.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location named in the legal enactment clause: 'Actum Leopoli ut supra.'"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Sinsik",
+      "mention_texts": [
+        "Simon Sinsik"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "Recognoscens"
+      ],
+      "justification": "Party making the legal cession in the entry: 'Famatus Simon Sinsik Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "Septua-\nginta Florenorum pecuniae et numeri Polonici",
+        "septuaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "praedictae summae",
+        "summam praedictam"
+      ],
+      "justification": "Debt amount of seventy Polish florins being ceded."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Stadlic",
+      "mention_texts": [
+        "Valentinum Stadlic"
+      ],
+      "descriptive_mentions": [
+        "Fatos",
+        "Caldeatorem",
+        "coniuges Suburba-\nnos Leopolienses",
+        "debitorum suorum"
+      ],
+      "justification": "Debtor coppersmith mentioned alongside his wife Hedwigis."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigim"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburba-\nnos Leopolienses"
+      ],
+      "justification": "Wife of Valentinus Stadlic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "Sabbato post Dominicam Rogationum proximo, Anno Domini 159 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original obligation registered in the books."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sczyrek",
+      "mention_texts": [
+        "Tomas Sczwet",
+        "Tomas Sczyrek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Caldeatori suburbano Leopolien'",
+        "condescensarij",
+        "Honesti",
+        "Caldeator",
+        "suburbano",
+        "maritus",
+        "legitimum Tutorem"
+      ],
+      "justification": "Suburban coppersmith who receives the cession and later appears with his wife Anna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "An-\nna"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses",
+        "vxor"
+      ],
+      "justification": "Wife of Thomas Sczyrek."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "married_to",
+      "tail_entity_id": "E5",
+      "evidence": "Valentinum Stadlic Caldeatorem et Hedwigim coniuges Suburba- nos Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "married_to",
+      "tail_entity_id": "E8",
+      "evidence": "Honesti Tomas Sczyrek Caldeator et An- na coniuges Suburbani Leopolienses"
+    }
+  ]
+}

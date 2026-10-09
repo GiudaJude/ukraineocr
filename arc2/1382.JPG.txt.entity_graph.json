@@ -1,0 +1,188 @@
+{
+  "document_id": "arc2/1382.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Erasmusowska",
+      "mention_texts": [
+        "Erasmussowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Tenement house referenced as 'in domo lapidea Erasmussowska'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Paschae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Easter feast date mentioned: 'pro Festo Paschae'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Georgius Kolenda",
+      "mention_texts": [
+        "Georgio Kolenda"
+      ],
+      "descriptive_mentions": [
+        "ipsum",
+        "ipso",
+        "Creditoris",
+        "Aciosarij",
+        "idem Creditor",
+        "eidem Creditori"
+      ],
+      "justification": "Creditor mentioned in the document: 'prae ipso Georgio Kolenda'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0261: Lukaszowic",
+      "mention_texts": [
+        "Andreas Glinka",
+        "Andreae Glinka",
+        "Andream Glinka"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "Famatus",
+        "persona sua",
+        "Pellio",
+        "Civis Leopoliensis",
+        "eundem",
+        "eiusdem",
+        "Pellionem",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Furrier and citizen of Lviv, identified in the corpus as PER-0261: Lukaszowic."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gulinski",
+        "Caspar Gulinski"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Nobilis et spectabilis Dominus",
+        "Collega noster Consularis",
+        "sibi"
+      ],
+      "justification": "Lviv city councilor granting receipt: 'Dominus Caspar Gulinski Collega noster Consularis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "eisdem Actis",
+        "Collega noster Consularis",
+        "Decreti Officij Praesentis"
+      ],
+      "justification": "The Lviv municipal council in whose acts and before whom the records are made."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in the citizenship descriptor 'Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "147 Polish florins",
+      "mention_texts": [
+        "centum quadraginta septem florenorum pecunia et moneta Polonica",
+        "florenis centum quadraginta septem pecuniae numeri et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of 147 Polish florins repaid by Andreas Glinka."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Feria secunda ante Festum Sancti Thomae Apostoli",
+      "mention_texts": [
+        "Feria secunda ante Festum Sancti Thomae Apostoli"
+      ],
+      "descriptive_mentions": [
+        "proxima anno proxime praeterito"
+      ],
+      "justification": "Date of the previous obligation inscription cited in the council books."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Anszerino",
+        "Stanislaus Anserinus"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Spectabilis Dominus",
+        "Collega noster Consularis",
+        "sibi"
+      ],
+      "justification": "Lviv city councilor granting receipt: 'Spectabilis Dominus Stanislaus Anserinus Collega noster Consularis'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Glinka Pellio Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Dominus Caspar Gulinski Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Dominus Stanislaus Anserinus Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andreas Glinka Pellio Civis Leopoliensis fecit sibi sufficientem solutionem debiti centum quadraginta septem florenorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E10",
+      "evidence": "satisfactionem esse sibi plenarie et in toto de florenis centum quadraginta septem... debiti sibi per Famatum Andream Glinka"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "prae ipso Georgio Kolenda habere praetendentibus... ad simplicem ipsius Creditoris... praedictus Famatus Andreas Glinka sese inscripsit submittitque ratione persona sua Debitum praetritum soluere"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "possesses",
+      "tail_entity_id": "E1",
+      "evidence": "ipsum in pacifica bonorum suorum possessione tam ad praesens obligatoriorum in domo lapidea Erasmussowska"
+    }
+  ]
+}

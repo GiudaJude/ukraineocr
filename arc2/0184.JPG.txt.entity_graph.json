@@ -1,0 +1,106 @@
+{
+  "document_id": "arc2/0184.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Zaborowski",
+      "mention_texts": [
+        "Paulus Zaborowski",
+        "Paulo Zaborowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Nobili",
+        "Creditori suo",
+        "Creditor praefatus"
+      ],
+      "justification": "Noble creditor mentioned in the quietatio and subsequent loan registration."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Borowcowic",
+      "mention_texts": [
+        "Pauli Borowcowic",
+        "Paulo Borowcowic",
+        "Paulus Borowcowic"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Lanione",
+        "Cive Leopoliensi",
+        "eundem",
+        "Famatus",
+        "Lanius",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Butcher and citizen of Lviv appearing in the quietatio and debt obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced as the citizenship location and location of assets."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenis centum pecuniae et numeri Polonicali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money specified in the quietatio."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenorum sexaginta pecuniae et numeri Polonicali",
+        "centri sexaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam eandem praefatam"
+      ],
+      "justification": "Amount of money borrowed by Paulus Borowcowic from Paulus Zaborowski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Andrew the Apostle",
+      "mention_texts": [
+        "Festo Beati Andreae Apostoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day set as the term for debt repayment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Paulo Borowcowic Lanione Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "creditor_of",
+      "tail_entity_id": "E2",
+      "evidence": "summam eandem praefatam centri sexaginta florenorum eidem Creditori suo inscripsit"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E1",
+      "evidence": "se teneri certi veri liquidique debiti ex causa mutui contracti Nobili Paulo Zaborowski"
+    }
+  ]
+}

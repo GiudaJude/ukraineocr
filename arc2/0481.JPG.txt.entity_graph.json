@@ -1,0 +1,173 @@
+{
+  "document_id": "arc2/0481.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kopytynski",
+      "mention_texts": [
+        "Stanislaus",
+        "Kopytyniczy"
+      ],
+      "descriptive_mentions": [
+        "Fratres"
+      ],
+      "justification": "Named in the margin note as one of the Kopytyński brothers."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Ludwik Kopytynski",
+      "mention_texts": [
+        "Ludwik",
+        "Kopytyniczy"
+      ],
+      "descriptive_mentions": [
+        "Fratres"
+      ],
+      "justification": "Named in the margin note as one of the Kopytyński brothers."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Kopytynski",
+      "mention_texts": [
+        "Bartholomeus Kopytynski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges",
+        "Suburbani Leopolitani",
+        "ille",
+        "maritum",
+        "tutorem suum legitimum",
+        "Fratres germani",
+        "haeredes legitimi"
+      ],
+      "justification": "Lviv suburban resident appearing to cede legal rights with his wife and brother."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Suburbani Leopolitani",
+        "haec"
+      ],
+      "justification": "Wife of Bartholomeus Kopytynski, appearing under his guardianship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kopytynski",
+      "mention_texts": [
+        "Joannes Kopytynski"
+      ],
+      "descriptive_mentions": [
+        "annos iam legitimae aetatis assecutus",
+        "Fratres germani",
+        "haeredes legitimi"
+      ],
+      "justification": "Brother german of Bartholomeus Kopytynski, co-heir of the late Joannes Balneator."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Balneator",
+      "mention_texts": [
+        "Joannis Balneatoris"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Leopoliensis"
+      ],
+      "justification": "Late bathhouse keeper of Lviv whose estate and rights are inherited by the Kopytynski brothers."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitani",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in the residential origins of the parties."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1571",
+      "mention_texts": [
+        "Sabbato post Festum omnium Sanctorum proximo Anno Domini 1578 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the first earlier inscription referenced in the cession."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Circumcision of the Lord",
+      "mention_texts": [
+        "feria secunda post Festum Circumcisionis Domini"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the second earlier inscription referenced in the cession."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaus Ludwik Kopytyniczy Fratres"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislaus Ludwik Kopytyniczy Fratres"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Bartholomeus Kopytynski et Anna Coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Bartholomeus Kopytynski ... et Joannes Kopytynski ... Fratres germani"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Bartholomeus Kopytynski ... et Joannes Kopytynski ... Fratres germani"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "heir_of",
+      "tail_entity_id": "E6",
+      "evidence": "tanquam haeredes legitimi Honesti olim Joannis Balneatoris Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "heir_of",
+      "tail_entity_id": "E6",
+      "evidence": "tanquam haeredes legitimi Honesti olim Joannis Balneatoris Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "document_id": "arc2/1108.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "burbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location identified as the Halych suburb of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Fabianus",
+      "mention_texts": [
+        "Fabiani"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Doleatoris"
+      ],
+      "justification": "Neighbor owning a house in the Halych suburb, described as a cooper (doleator)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Ostrzygarbieta",
+      "mention_texts": [
+        "Martini Ostrzygarbieta"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Ferrifabri"
+      ],
+      "justification": "Neighbor owning a house in the Halych suburb, described as a blacksmith (ferrifaber)."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "praefata",
+        "moxnata"
+      ],
+      "justification": "Woman involved in the inventory, kinswoman (cognata/moxnata) of the deceased parents."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Catherina Miszkowska",
+      "mention_texts": [
+        "Catherina Miszkowska"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "matris",
+        "defunctorum"
+      ],
+      "justification": "Deceased mother of the five minor children."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus",
+      "mention_texts": [
+        "Alberti"
+      ],
+      "descriptive_mentions": [
+        "artis Chirurgicae discipuli",
+        "patris",
+        "defunctorum"
+      ],
+      "justification": "Deceased father of the children, described as a surgery apprentice."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Caspar",
+      "mention_texts": [
+        "Gasparis",
+        "Caspar"
+      ],
+      "descriptive_mentions": [
+        "filij",
+        "liberi",
+        "minorennes"
+      ],
+      "justification": "One of the minor children of the deceased couple."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Kekiel",
+      "mention_texts": [
+        "Kekiel"
+      ],
+      "descriptive_mentions": [
+        "sellatorum socij"
+      ],
+      "justification": "Associate/fellow of the saddlers involved in recording the inventory."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "Sellatoris artificij discipulus",
+        "liberi",
+        "minorennes"
+      ],
+      "justification": "Child of the deceased couple, apprenticed in the saddler's craft."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Melchior",
+      "mention_texts": [
+        "Melchior"
+      ],
+      "descriptive_mentions": [
+        "liberi",
+        "minorennes"
+      ],
+      "justification": "One of the five minor children."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Baltasar",
+      "mention_texts": [
+        "Baltasar"
+      ],
+      "descriptive_mentions": [
+        "liberi",
+        "minorennes"
+      ],
+      "justification": "One of the five minor children."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Sophia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "liberi",
+        "minorennes"
+      ],
+      "justification": "One of the five minor children."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Catherina Miszkowska matris et Alberti artis Chirurgicae discipuli patris"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "kin_of",
+      "tail_entity_id": "E5",
+      "evidence": "praefata Dorothea moxnata Honesta Catherina Miszkowska"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "mother_of",
+      "tail_entity_id": "E9",
+      "evidence": "Catherina Miszkowska matris ... liberi quinque vt pote Joannes"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "mother_of",
+      "tail_entity_id": "E7",
+      "evidence": "Catherina Miszkowska matris ... Gasparis filij"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "mother_of",
+      "tail_entity_id": "E10",
+      "evidence": "Catherina Miszkowska matris ... Melchior"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "mother_of",
+      "tail_entity_id": "E11",
+      "evidence": "Catherina Miszkowska matris ... Baltasar"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "mother_of",
+      "tail_entity_id": "E12",
+      "evidence": "Catherina Miszkowska matris ... Sophia"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "father_of",
+      "tail_entity_id": "E9",
+      "evidence": "Alberti artis Chirurgicae discipuli patris ... liberi quinque vt pote Joannes"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "father_of",
+      "tail_entity_id": "E7",
+      "evidence": "Alberti artis Chirurgicae discipuli patris ... Caspar"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "father_of",
+      "tail_entity_id": "E10",
+      "evidence": "Alberti artis Chirurgicae discipuli patris ... Melchior"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "father_of",
+      "tail_entity_id": "E11",
+      "evidence": "Alberti artis Chirurgicae discipuli patris ... Baltasar"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "father_of",
+      "tail_entity_id": "E12",
+      "evidence": "Alberti artis Chirurgicae discipuli patris ... Sophia"
+    }
+  ]
+}

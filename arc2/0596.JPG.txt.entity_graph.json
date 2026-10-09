@@ -1,0 +1,123 @@
+{
+  "document_id": "arc2/0596.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kołomski",
+      "mention_texts": [
+        "Stanislaus Kołomski",
+        "Kołomiski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Actor"
+      ],
+      "justification": "Party in the court entry appearing on his own behalf and on behalf of his wife Marita."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Marita",
+      "mention_texts": [
+        "Maritae",
+        "Maritham"
+      ],
+      "descriptive_mentions": [
+        "Coniugis sua",
+        "praefatam"
+      ],
+      "justification": "Wife of Stanislaus Kołomski and daughter/heir of the late Philipus Wassiliowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Iwasko Philipowicz",
+      "mention_texts": [
+        "Vvassko Philipowicz"
+      ],
+      "descriptive_mentions": [
+        "Woyt",
+        "Famatus",
+        "Senior Armenus Civis Leopoliensis"
+      ],
+      "justification": "Armenian elder and citizen of Lviv involved in litigation over inheritance."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Philipus Wassiliowicz",
+      "mention_texts": [
+        "Philipum Wassiliowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "olim",
+        "Armenum",
+        "parentem ipsius"
+      ],
+      "justification": "Deceased Armenian whose estate is the subject of litigation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by the civic adjective Leopoliensis in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council before which the parties appear."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regia Maiestate",
+        "Regia Sars"
+      ],
+      "justification": "The reigning Polish monarch referred to as Regia Maiestas."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "The Kingdom of Poland whose general Sejm (Comitia Regni) is cited."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaus Kołomski suo et Coniugis sua Maritae nominibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "ad praefatam Maritham iure devolutorum naturalis post Famatus olim Philipum Wassiliowicz Armenum parentem ipsius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Vvassko Philipowicz Senior Armenus Civis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "document_id": "arc2/1218.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Sczyriek",
+      "mention_texts": [
+        "Thomae Sczyriek"
+      ],
+      "descriptive_mentions": [
+        "condescensarij"
+      ],
+      "justification": "Named as the cessionary of rights to the property Wasikowskie."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Wasikowskie",
+      "mention_texts": [
+        "Wasikowskie"
+      ],
+      "descriptive_mentions": [
+        "bona praefata"
+      ],
+      "justification": "Estate/land referred to in the cession act."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Szwaszek",
+      "mention_texts": [
+        "Szwaszek"
+      ],
+      "descriptive_mentions": [
+        "praenominatum Ruriarium"
+      ],
+      "justification": "Mentioned as having made a promise in an earlier inscription."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Iwan Pyszczkowicz",
+      "mention_texts": [
+        "Iwan Pyszc-\nkowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Recorded in the marginal heading of the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Marina Sczerbina",
+      "mention_texts": [
+        "Marina\nSczerbina"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Recorded in the marginal heading of the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martin Sczabin",
+      "mention_texts": [
+        "Martin Sczabin"
+      ],
+      "descriptive_mentions": [
+        "Laboriosus",
+        "gener",
+        "coniuges",
+        "Celoni",
+        "maritum tutorem suum legitimam"
+      ],
+      "justification": "One of the sellers of the plot of land in Hołowsko."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thionia",
+      "mention_texts": [
+        "Thionia"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Celoni"
+      ],
+      "justification": "Wife of Martin Sczabin, co-seller of the land."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Hołowsko",
+      "mention_texts": [
+        "maioris Holowosko",
+        "Pago maiore Ho-\nlowosko",
+        "Holowocensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches known entity LOC-0142: Hołowsko, location of the village and agricultural plot."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andrzej",
+      "mention_texts": [
+        "Andrey"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landholder in Hołowsko."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Iwan Scalczoz",
+      "mention_texts": [
+        "Iwan Scalczoze"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landholder in Hołowsko."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Ladislaus Iwan Droszyskow",
+      "mention_texts": [
+        "Ladislao Iwano\nDroszyskow"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Colonis",
+        "Emptoribus"
+      ],
+      "justification": "Buyer of the fourth part of the agricultural plot."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Colonis",
+        "Emptoribus"
+      ],
+      "justification": "Matches known entity PER-0026: Anna, wife of Ladislaus Iwan Droszyskow and co-buyer."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "22 Polish florins",
+      "mention_texts": [
+        "viginti duorum\nflorenorum percoma et numeri Polonici"
+      ],
+      "descriptive_mentions": [
+        "precio"
+      ],
+      "justification": "Purchase price paid for the agricultural field."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "is_married_to",
+      "tail_entity_id": "E7",
+      "evidence": "Laboriosus Martin Sczabin gener et Thionia coniuges"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "is_married_to",
+      "tail_entity_id": "E12",
+      "evidence": "Ladislao Iwano Droszyskow et Anna coniugibus"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/1432.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text states: 'dantes fratribus in Exposito Iudicio praesedenti'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Buidaczkowski",
+      "mention_texts": [
+        "Andreas",
+        "Andreas Bwidczewska"
+      ],
+      "descriptive_mentions": [
+        "Frater",
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Text records: 'Honestus Andreas Bwidczewska Suburbanus Leopoliensis palam et libere fassus est: Se teneri et debere... Adamo Buidaczkowski fratri suo germano'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text mentions 'Suburbanus Leopoliensis', 'Scabinarii Leopoliensis', and 'suburbano Leopoliensi'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0199: 16 florins",
+      "mention_texts": [
+        "florenos sedecim",
+        "sedecim floreni",
+        "sedecim florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text mentions 'florenos sedecim pecuniae et numeri Polonici', 'eandem summam sedecim florenorum', and 'sedecim floreni'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adamus Buidaczkowski",
+      "mention_texts": [
+        "Adamo Buidaczkowski",
+        "Adamus"
+      ],
+      "descriptive_mentions": [
+        "Creditori",
+        "eodem fratre suo",
+        "fratri suo germano",
+        "Honesto"
+      ],
+      "justification": "Text mentions debt owed to 'Honesto Adamo Buidaczkowski fratri suo germano'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "festo Solemni Paschatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text sets repayment 'hinc pro festo Solemni Paschatis in Anno 1595:'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text states 'in Anno 1595: istius proxime sequenti:'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii",
+        "Officii nostri",
+        "Praetorii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentions 'adminiculo Officii obtinendis', 'Praetorii Ostiarium', and 'autoritate Officii nostri approbati'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia Koryczka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta vidua"
+      ],
+      "justification": "Text mentions 'Honesta Sophia Koryczka Honesti olim Jacobi Koryczak Scabinarii Leopoliensis relicta vidua'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Koryczak",
+      "mention_texts": [
+        "Jacobi Koryczak"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Scabinarii Leopoliensis"
+      ],
+      "justification": "Text mentions the deceased 'Honesti olim Jacobi Koryczak Scabinarii Leopoliensis'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sierowski",
+      "mention_texts": [
+        "Albertum Sierowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Praetorii Ostiarium",
+        "tutorem sibi ad actum praesentem assumptum"
+      ],
+      "justification": "Text mentions 'per Nobilem Albertum Sierowski Praetorii Ostiarium tutorem sibi ad actum praesentem assumptum'."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "florenis decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Text mentions 'de florenis decem pecuniae et numeri Polonici debiti'."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Fauder",
+      "mention_texts": [
+        "Joanne Fauder",
+        "Joannis Fauder"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "suburbano Leopoliensi",
+        "Textore",
+        "Textoris"
+      ],
+      "justification": "Text mentions 'Quietatio Joannis Fauder Textoris' and 'ab Honesto Joanne Fauder Textore suburbano Leopoliensi'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Adamo Buidaczkowski fratri suo germano"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Adamo Buidaczkowski fratri suo germano"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestus Andreas Bwidczewska Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "widow_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesta Sophia Koryczka Honesti olim Jacobi Koryczak Scabinarii Leopoliensis relicta vidua"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E9",
+      "evidence": "per Nobilem Albertum Sierowski Praetorii Ostiarium tutorem sibi ad actum praesentem assumptum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "ab Honesto Joanne Fauder Textore suburbano Leopoliensi"
+    }
+  ]
+}

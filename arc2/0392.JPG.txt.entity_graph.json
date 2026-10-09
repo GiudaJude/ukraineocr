@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/0392.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0020: 600 Polish florins",
+      "mention_texts": [
+        "Florenis sexcentis",
+        "Florenos sexcentos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici",
+        "pecuniae et numeri Polonici debiti"
+      ],
+      "justification": "Amount of debt mentioned twice in the text as 600 Polish florins."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wysocki",
+      "mention_texts": [
+        "Alberto Wysocki"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased creditor referenced in the previous debt registration."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kuczkorowski",
+      "mention_texts": [
+        "Joannem Kuczkorowski",
+        "Joanne Kuczkorowski",
+        "Joannes Kuczkorowic",
+        "Joannes Kuczkorowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Aromatarium",
+        "coniugum",
+        "praefatis",
+        "Aromatanis",
+        "Coniugibus",
+        "satisfactoribus",
+        "Famatus",
+        "Aromatarius",
+        "coniuges secunda cum nuptiarum",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Apothecary and Lviv citizen contracting and settling debts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Jelionkowna",
+      "mention_texts": [
+        "Catherinam Jelionkowna",
+        "Catherina",
+        "Catherina Jelionkowna"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "Coniugibus",
+        "Honesta",
+        "coniuges secunda cum nuptiarum",
+        "haec"
+      ],
+      "justification": "Wife of Joannes Kuczkorowski acting under marital tutelage."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [
+        "eisdem Actis nostris"
+      ],
+      "justification": "Municipal council records where the previous entry was registered."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "Sabbato ipso die S. Barbarae Virginis et Martyris Anno Domini 1593.",
+        "Anno Domini 1593."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous obligation entered in the council books."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Jelionkowska House",
+      "mention_texts": [
+        "domo lapidea Jelionkowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea ... eorundem coniugum propria",
+        "domum praefatam"
+      ],
+      "justification": "Masonry house owned by the Kuczkorowski spouses."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Feroniana Street",
+      "mention_texts": [
+        "platea Feroniana"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the mortgaged Jelionkowska house is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zlatz",
+      "mention_texts": [
+        "Stanislai",
+        "Zlatz"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Neighbor whose successors own the adjacent property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Gladysz",
+      "mention_texts": [
+        "Albertus Gladysz",
+        "Alberto Gladisz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Janio",
+        "coniugibus"
+      ],
+      "justification": "Butcher and Lviv citizen who is owed the 600 florins debt."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agneti"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Wife of Albertus Gladysz named as co-creditor."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Civibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv of which the parties are citizens."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo S. Michaelis Archangeli",
+        "Festo Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [
+        "proxime futuro"
+      ],
+      "justification": "Feast day used as the starting point and due date of the three-year repayment."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "1598",
+      "mention_texts": [
+        "Anno 1598."
+      ],
+      "descriptive_mentions": [
+        "venturo"
+      ],
+      "justification": "Year when the three-year term ends on Michaelmas."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Kuczkorowski Aromatarius et Honesta Catherina Jelionkowna coniuges secunda cum nuptiarum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Catherina Jelionkowna coniuges secunda cum nuptiarum Cives Leopolienses ille per se haec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Alberto Gladisz Janio et Agneti coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Alberto Gladisz Janio et Agneti coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in domo lapidea Jelionkowska eorundem coniugum propria in platea Feroniana"
+    }
+  ]
+}

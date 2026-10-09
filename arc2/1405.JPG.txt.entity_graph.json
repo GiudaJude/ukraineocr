@@ -1,0 +1,78 @@
+{
+  "document_id": "arc2/1405.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "Actis Castrensibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the records of the Castle Court in Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, appearing in adjectival form and locative 'Actum Leopoli'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Stawecki",
+      "mention_texts": [
+        "Stanislaum Stawecki"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Dzieconatorem Leopoliensis",
+        "citatum",
+        "comparentem",
+        "citati",
+        "ipsius"
+      ],
+      "justification": "Party cited before the council court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens",
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular municipal office/court issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria quarta post Festum Sancti Michaelis Proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording: Wednesday after Michaelmas 1590."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "appeared_before",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaum Stawecki Dzieconatorem Leopoliensis ad Officium praesens pro Die hodierna iuxta relationem Iurati Famuli citatum. Contra quem comparentem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officium vero Consulare Leopoliensis"
+    }
+  ]
+}

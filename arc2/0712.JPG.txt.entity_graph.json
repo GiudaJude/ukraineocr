@@ -1,0 +1,214 @@
+{
+  "document_id": "arc2/0712.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginam"
+      ],
+      "descriptive_mentions": [
+        "praefatam"
+      ],
+      "justification": "Named heir whose inherited goods were under the guardianship of late Joannes Olszowski."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joanne Olszowski"
+      ],
+      "descriptive_mentions": [
+        "Fato",
+        "tutore",
+        "eundem"
+      ],
+      "justification": "Late guardian of Regina, acquitted upon satisfaction of the inheritance."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Civitatis\nLeopoliensis",
+        "Civitatis istius",
+        "Cives Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the council act and regarding guild and civil affairs."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio Consulari Leopoliensi",
+        "Officij prae-\nsentis",
+        "officio praesenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal consular office before which the parties appear."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomam Karcz",
+        "Tho-\nmam Karcz",
+        "Tho-\nmas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Cives Leopolienses",
+        "compositores controuersiarum",
+        "electos",
+        "vocatos",
+        "citatos",
+        "praefati negotij Compositores et Arbitri",
+        "praefati"
+      ],
+      "justification": "Appointed arbitrator/compositeur in the guild dispute."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kiszka",
+      "mention_texts": [
+        "Joannem Kiszkabinos"
+      ],
+      "descriptive_mentions": [
+        "Cives Leopolienses",
+        "compositores controuersiarum",
+        "electos",
+        "vocatos",
+        "citatos"
+      ],
+      "justification": "Lviv citizen and scabinus appointed as arbitrator/compositeur."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pstrzymucha",
+      "mention_texts": [
+        "Albertum Pstrzymucha",
+        "Albertus Pstrzymucha"
+      ],
+      "descriptive_mentions": [
+        "Notarium Judicij Civitatis istius",
+        "Cives Leopolienses",
+        "compositores controuersiarum",
+        "electos",
+        "vocatos",
+        "citatos",
+        "praefati negotij Compositores et Arbitri",
+        "praefati"
+      ],
+      "justification": "Notary of the civic court and arbitrator in the dispute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicij Civitatis istius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The civic court whose notary is Albertus Pstrzymucha."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Antonius Sokołowski",
+      "mention_texts": [
+        "Antonium Sokołowski",
+        "Antonius Sokołowski"
+      ],
+      "descriptive_mentions": [
+        "Serxifabrum",
+        "Cives Leopolienses",
+        "compositores controuersiarum",
+        "electos",
+        "vocatos",
+        "citatos",
+        "praefati negotij Compositores et Arbitri",
+        "praefati"
+      ],
+      "justification": "Artisan and citizen of Lviv acting as arbitrator in the guild dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Marcus Paulus Lange",
+      "mention_texts": [
+        "Marcus Paulus Lange"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Capsifusores",
+        "Cives Leopolienses"
+      ],
+      "justification": "Pewterer/tin caster (capsifusor) and citizen of Lviv separating from the goldsmiths' guild."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Felix Obermanowicz",
+      "mention_texts": [
+        "Felix\nFbermanowicz"
+      ],
+      "descriptive_mentions": [
+        "Capsifusores",
+        "Cives Leopolienses"
+      ],
+      "justification": "Pewterer/tin caster (capsifusor) involved in the separation from the goldsmiths' guild."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "ad praefatam Reginam pertinentibus a Fato Joanne Olszowski tutore"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Albertum Pstrzymucha Notarium Judicij Civitatis istius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Thomam Karcz ... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertum Pstrzymucha ... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Antonium Sokołowski ... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Marcus Paulus Lange ... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Felix Fbermanowicz Capsifusores Cives Leopolienses"
+    }
+  ]
+}

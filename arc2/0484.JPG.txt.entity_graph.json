@@ -1,0 +1,184 @@
+{
+  "document_id": "arc2/0484.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Georgius Mathiatzowicz",
+      "mention_texts": [
+        "Georgius Matiaszowic",
+        "Georgius Mathiatzowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "incolae Leopolienses",
+        "mariti sui"
+      ],
+      "justification": "Named party appearing personally to cede legal claim."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anna Philipowna",
+      "mention_texts": [
+        "Anna Philipowna"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "incolae Leopolienses",
+        "illa",
+        "haec"
+      ],
+      "justification": "Wife of Georgius Mathiatzowicz and original creditor ceding the debt claim."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Rzaw",
+      "mention_texts": [
+        "Paulum Rzaw"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Praeconem Scabinorum",
+        "Tutorem"
+      ],
+      "justification": "Scabinal crier acting as legal guardian (tutor) for Anna Philipowna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officiumque nostrum",
+        "iisdem Actis nostris"
+      ],
+      "justification": "City council office approving the legal guardian and recording the act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the residency of the spouses and suburban butcher."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "27 Polish florins",
+      "mention_texts": [
+        "Florenorum viginti septem pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt being transferred."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festum Assumptionis in Caelum Beatae Virginis Mariae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day referenced in the earlier registration of the debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1597",
+      "mention_texts": [
+        "Anno Domini 1597"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year referenced for the earlier registration of the debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Urbanus Lanio",
+      "mention_texts": [
+        "Urbanum Lanionum"
+      ],
+      "descriptive_mentions": [
+        "Suburbanum Leopoliensem"
+      ],
+      "justification": "Suburban butcher who originally contracted the debt secured on his garden."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Temnyczowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the secured garden is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Daniel Pyxidarius",
+      "mention_texts": [
+        "Danielis Pyxidarii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Gunsmith whose property abuts the garden securing the debt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Augustinus Kilian",
+      "mention_texts": [
+        "Augustinus Sitularz",
+        "Kilianxoni",
+        "Augustino Kilians"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Pistori panis dulciarii",
+        "Cessionarii",
+        "cessionario suo"
+      ],
+      "justification": "Gingerbread baker (also identified as Sitularz) receiving the cession of debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Georgius Mathiatzowicz et Anna Philipowna coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "Paulum Rzaw Praeconem Scabinorum Tutorem sibi ad eum actum ex consensu praesentaneo mariti sui assumptum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "debtor_to",
+      "tail_entity_id": "E2",
+      "evidence": "debiti praefata Anna Philipowna dum adhuc in statu virginali fuisset... per Actum Urbanum Lanionum Suburbanum Leopoliensem contracti"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "assigns_claim_to",
+      "tail_entity_id": "E12",
+      "evidence": "cessisse praesentibusque inscriptionis vigore cedere et condescendere ius suum totum et integrum... praedicto Augustino Kilians cessionario suo"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "assigns_claim_to",
+      "tail_entity_id": "E12",
+      "evidence": "cessisse praesentibusque inscriptionis vigore cedere et condescendere ius suum totum et integrum... praedicto Augustino Kilians cessionario suo"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "document_id": "arc2/1222.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Israel Czocz",
+      "mention_texts": [
+        "Israel Judeus",
+        "Israel Czocz"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judeus Leopoliensis",
+        "ipse"
+      ],
+      "justification": "Identified as the Jewish inhabitant of Lviv who appears personally to make the cession."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliense",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate"
+      ],
+      "justification": "The city of Lviv mentioned as the municipal context and place of legal action."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officii",
+        "eisdem Actis"
+      ],
+      "descriptive_mentions": [
+        "forum praesens officii",
+        "Sigillum nostrum"
+      ],
+      "justification": "The municipal council/court office recording the cession under its seal."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Mrosikowski",
+      "mention_texts": [
+        "Andream Mrosicoski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Causarium Iuris Magdeburgensis in ea Civitate Ferendarium Curatum tutorem et Prolocutorem"
+      ],
+      "justification": "Advocate and legal proxy chosen by Israel Czocz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "summae"
+      ],
+      "justification": "The debt amount of 200 florins secured on the house and ceded."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Wąsirowska House",
+      "mention_texts": [
+        "Wąsirowka"
+      ],
+      "descriptive_mentions": [
+        "domo",
+        "eiusdem domus",
+        "domum praefatam"
+      ],
+      "justification": "The house located outside the Halych Gate upon which the debt was secured."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "portam Haliciensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Halych Gate location descriptor denoting the area outside the gate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0463: Valentinus Gładysz",
+      "mention_texts": [
+        "Valentinum Gladis",
+        "Valentino Gladisz"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Caldeatorem",
+        "possessores",
+        "debitoribus"
+      ],
+      "justification": "Co-possessor of Wąsirowska House and original debtor to Israel Czocz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigim",
+        "Hedwigi"
+      ],
+      "descriptive_mentions": [
+        "possessores",
+        "debitoribus"
+      ],
+      "justification": "Co-possessor of Wąsirowska House and debtor alongside Valentinus Gładysz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0138: 1591",
+      "mention_texts": [
+        "feria quarta ante Festum Sancti Stanislai Pontificis proxima Anno Domini 1591"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous recorded inscription referenced in the text."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Thomas Koczinek",
+      "mention_texts": [
+        "Tomas Szurek",
+        "Thomae Koczinek",
+        "Thoma",
+        "Thomae Koczinek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Caldeatori Suburbano Leopoliense",
+        "Caldeatore",
+        "Caldeatoris"
+      ],
+      "justification": "Boilermaker from the Lviv suburb to whom the debt rights are ceded."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Nobilem Andream Mrosicoski Causarium Iuris Magdeburgensis in ea Civitate Ferendarium Curatum tutorem et Prolocutorem sibi in rem praesentem assumptum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in domo Wąsirowka ante portam Haliciensem sita"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "possesses",
+      "tail_entity_id": "E6",
+      "evidence": "Valentinum Gladis Caldeatorem et Hedwigim eiusdem domus possessores"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "possesses",
+      "tail_entity_id": "E6",
+      "evidence": "Valentinum Gladis Caldeatorem et Hedwigim eiusdem domus possessores"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_of",
+      "tail_entity_id": "E1",
+      "evidence": "a praefatis Valentino Gladisz et Hedwigi suis debitoribus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "debtor_of",
+      "tail_entity_id": "E1",
+      "evidence": "a praefatis Valentino Gladisz et Hedwigi suis debitoribus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "cedes_claim_to",
+      "tail_entity_id": "E11",
+      "evidence": "totidem ius suum et summam praefatam Honesto Thomae Koczinek Caldeatori Suburbano Leopoliense perpetuo et irrevocabili cessionis titulo misit cessit et condescendit"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "document_id": "arc2/0147.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Abramowicz",
+      "mention_texts": [
+        "Paulo Abramowicz",
+        "Paulus Abramowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "praedictus"
+      ],
+      "justification": "Appears as a party in the legal proceeding concerning the ward's funds."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sterna",
+      "mention_texts": [
+        "Stanislai Sterna",
+        "Stanislaum Sterna"
+      ],
+      "descriptive_mentions": [
+        "eiusdem",
+        "eundem",
+        "praedicti"
+      ],
+      "justification": "Husband of Anna, whose absence due to illness is noted in the proceedings."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniugi suae",
+        "praedicta Honesta"
+      ],
+      "justification": "Wife of Stanislaus Sterna acting alongside tutor Petrus Adam."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0197: Petrus Adam",
+      "mention_texts": [
+        "Petro Adam"
+      ],
+      "descriptive_mentions": [
+        "Praefato",
+        "tutore"
+      ],
+      "justification": "Identified as tutor acting together with Anna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Stanisławski",
+      "mention_texts": [
+        "Nicolaum Stanisławski"
+      ],
+      "descriptive_mentions": [
+        "praedictum"
+      ],
+      "justification": "Individual receipted and satisfied regarding the sum from the deposit."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij",
+        "Officium",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eiusdem",
+        "praesens"
+      ],
+      "justification": "The municipal consular office recording the acts and issuing decrees."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Castle Court",
+      "mention_texts": [
+        "Iudicium Castrense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castle court to which the subsequent case is remitted."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the consular office and suburb titles."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Martinus Tacik",
+      "mention_texts": [
+        "Martinum Tacik"
+      ],
+      "descriptive_mentions": [
+        "Ingenuum",
+        "Filium",
+        "Actorem"
+      ],
+      "justification": "Plaintiff who has reached legal age, son of Stanislaus Tacik."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Tacik",
+      "mention_texts": [
+        "Stanislai Tacik"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopoliensis",
+        "Honesti olim"
+      ],
+      "justification": "Deceased suburbanite of Lviv, father of Martinus and the Tacikowic brothers."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Tacikowic",
+      "mention_texts": [
+        "Janam"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Fratres",
+        "Filios",
+        "successores legitimos citatos"
+      ],
+      "justification": "Brother cited in the dispute, son and successor of Stanislaus Tacik."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Tacikowic",
+      "mention_texts": [
+        "Jacobum"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Fratres",
+        "Filios",
+        "successores legitimos citatos"
+      ],
+      "justification": "Brother cited in the dispute, son and successor of Stanislaus Tacik."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Tacikowic",
+      "mention_texts": [
+        "Bartholomeum Tacikowic"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Fratres",
+        "Filios",
+        "successores legitimos citatos"
+      ],
+      "justification": "Brother cited in the dispute, son and successor of Stanislaus Tacik."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 100 florins at issue in the remitted lawsuit."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "propterea quod coniugi suae pro dote bona sua donatione perpetua inscripserit, praedicta Honesta Anna"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Martinum Tacik Honesti Stanislai Tacik Suburbani Leopoliensis Filium"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Et Honestos Janam, Jacobum et Bartholomeum Tacikowic Fratres, vti Honesti olim Stanislai Tacik Filios"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Et Honestos Janam, Jacobum et Bartholomeum Tacikowic Fratres, vti Honesti olim Stanislai Tacik Filios"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Et Honestos Janam, Jacobum et Bartholomeum Tacikowic Fratres, vti Honesti olim Stanislai Tacik Filios"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislai Tacik Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Officij Consularis Leopoliensis"
+    }
+  ]
+}

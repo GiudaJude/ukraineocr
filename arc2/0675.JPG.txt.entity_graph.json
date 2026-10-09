@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0675.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "hoc idem Officium",
+        "officij praesentis",
+        "officium",
+        "Officij Consularis"
+      ],
+      "justification": "The municipal council of Lviv issuing decrees and hearing court sessions."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regiae Majestatis",
+        "Sacrae Regiae Majestatis"
+      ],
+      "justification": "King Sigismund III Vasa referenced by royal title in legal proceedings."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act was recorded."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "ipso die Sanctae Barbarae Virginis et Martyris feria sexta Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording: Friday, Feast of St. Barbara, 1595."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Czwartowicz",
+      "mention_texts": [
+        "Czwartowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the decree's rubric opposite Wilk."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas Wilk",
+      "mention_texts": [
+        "Thomam Wilk",
+        "Wilk"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Citatos"
+      ],
+      "justification": "Defendant cited along with his wife regarding payment for a house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Lucia Torakowa",
+      "mention_texts": [
+        "Luciam Torakowa",
+        "Lucia Torakowa"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "actricem",
+        "filiam",
+        "tutorem",
+        "praefata praedicta Honesta",
+        "actrix"
+      ],
+      "justification": "Plaintiff acting as guardian regarding the remaining sum from the sale of a house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Torak",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "mariti sui"
+      ],
+      "justification": "Husband of Lucia Torakowa, whose consent is required."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Koral"
+      ],
+      "descriptive_mentions": [
+        "Authorem"
+      ],
+      "justification": "Author/predecessor in title and father of Lucia, identified with Simon Koral."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary amount remaining from the sale of the house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is_located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Officij Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "mariti sui Jacobi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_child_of",
+      "tail_entity_id": "E9",
+      "evidence": "per Authorem Koral filiam"
+    }
+  ]
+}

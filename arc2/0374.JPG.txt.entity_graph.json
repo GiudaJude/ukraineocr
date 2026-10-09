@@ -1,0 +1,188 @@
+{
+  "document_id": "arc2/0374.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officium",
+        "sequestro suo",
+        "officij",
+        "sequestro officij",
+        "Officij nostri"
+      ],
+      "justification": "City council referred to as 'Officij Consularis Leopoliensis' and 'Officij nostri' in the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the council is located and act was executed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestatis",
+        "Sacrae Regiae Maiestatis Domino Clementissimo"
+      ],
+      "justification": "King Sigismund III Vasa referred to by royal title."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta ipso Sanctae Margaritae Virginis et Martyris Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of act execution."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Furowicz",
+      "mention_texts": [
+        "Paulus Furovicz"
+      ],
+      "descriptive_mentions": [
+        "Excellens"
+      ],
+      "justification": "Signatory/scribe appearing at the end of the entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrosielski",
+      "mention_texts": [
+        "Gregorius Dobrosielski"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Iuris Utriusque Doctor",
+        "Advocatus ordinarius"
+      ],
+      "justification": "Ordinary advocate appearing in court."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv councilman/juror appearing personaliter."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Zariszabin",
+      "mention_texts": [
+        "Thomas Zariszabin"
+      ],
+      "descriptive_mentions": [
+        "jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv juror appearing personaliter."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Naftan Isaacowicz",
+      "mention_texts": [
+        "Naftani Isaacowicz",
+        "Naftani"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaei Leopoliensis",
+        "praedicti",
+        "Judaei"
+      ],
+      "justification": "Lviv Jewish party at whose instance the matter proceeds."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Syhembegr",
+      "mention_texts": [
+        "Stanislai Syhembegr"
+      ],
+      "descriptive_mentions": [
+        "Fratris",
+        "Plenipotentis Sebaldi Schintez"
+      ],
+      "justification": "Monk/brother acting as plenipotentiary of Sebald Schintez."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schintez",
+      "mention_texts": [
+        "Sebaldi Schintez"
+      ],
+      "descriptive_mentions": [
+        "Civis Sedanensis"
+      ],
+      "justification": "Citizen of Gdańsk represented by Stanislaus Syhembegr."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Sedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City origin of Sebaldus Schintez ('Civis Sedanensis')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Martinus Rottendorff et Thomas Zariszabin jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Martinus Rottendorff et Thomas Zariszabin jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Naftani Isaacowicz Judaei Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Fratris Stanislai Syhembegr tanquam Plenipotentis Sebaldi Schintez"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Sebaldi Schintez Civis Sedanensis"
+    }
+  ]
+}

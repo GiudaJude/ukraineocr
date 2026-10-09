@@ -1,0 +1,76 @@
+{
+  "document_id": "arc2/0813.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nachman Isaakowicz",
+      "mention_texts": [
+        "Nachman Isaakowicz"
+      ],
+      "descriptive_mentions": [
+        "Perfidum",
+        "Judaeum Leopoliensem",
+        "citatum",
+        "citatus",
+        "eundem Judaeum",
+        "Citatum",
+        "Judaeo",
+        "citato Judaeo"
+      ],
+      "justification": "Named party in the litigation ('Perfidum Nachman Isaakowicz Judaeum Leopoliensem citatum')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in territorial and jurisdictional designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kuprowicz",
+      "mention_texts": [
+        "Paulum Kuprowicz",
+        "Kuprowicz",
+        "Pauli Kuprowicz"
+      ],
+      "descriptive_mentions": [
+        "debitorum Actoris",
+        "debitori"
+      ],
+      "justification": "Debtor and contracting party mentioned repeatedly in the legal dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officium vero Consulare"
+      ],
+      "justification": "The consular municipal court/office of Lviv that rendered the initial appellate verdict."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nachman Isaakowicz Judaeum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officium Consulare Leopoliense"
+    }
+  ]
+}

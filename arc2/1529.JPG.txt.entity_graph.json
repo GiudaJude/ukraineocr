@@ -1,0 +1,360 @@
+{
+  "document_id": "arc2/1529.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij nostri",
+        "Officio imo"
+      ],
+      "descriptive_mentions": [
+        "Supremi omnium in ea Ciuitate Pupillorum Tutores"
+      ],
+      "justification": "Known entity ORG-0003: Lviv City Council acting in its role appointing guardians for orphans."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitate",
+        "Leopoliensium",
+        "Leopoliensi",
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in municipal titles, citizenship, and resident descriptors."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislao"
+      ],
+      "descriptive_mentions": [
+        "Ingenuo",
+        "liberis impuberibus",
+        "pupillorum"
+      ],
+      "justification": "Stanislaus, minor orphan of Georgius."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Judice Annae"
+      ],
+      "descriptive_mentions": [
+        "liberis impuberibus",
+        "pupillorum"
+      ],
+      "justification": "Judica Anna, minor daughter/orphan of Georgius."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Georgius Dych Colos",
+      "mention_texts": [
+        "Georgij Szwilis",
+        "Georgij Dych Colos"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Sartoris",
+        "coniugum Civium Leopoliensium",
+        "Famatorum"
+      ],
+      "justification": "Deceased tailor and citizen of Lviv, father of Stanislaus and Anna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugum Civium Leopoliensium",
+        "olim"
+      ],
+      "justification": "Wife of Georgius Dych Colos, mother of the orphans."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zadro",
+      "mention_texts": [
+        "Joannis Zadro fsostroni",
+        "Zadro"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "praefatum"
+      ],
+      "justification": "Noble adversary threatening legal action against the estate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicij Supremi Regni Iudicis Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The civil/banned court in Lviv mentioned in connection with legal action."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Doliator",
+      "mention_texts": [
+        "Sebastianum Doliatorem"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "eorundem pupillorum affinem",
+        "Tutores",
+        "Patronos"
+      ],
+      "justification": "Guardian appointed for the orphans of Georgius."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Suburbanum Leopoliensem",
+        "Honestos",
+        "Tutores",
+        "Patronos"
+      ],
+      "justification": "Known entity PER-0166: Adamus Kalinowski appointed as co-guardian."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Simon Simonides the Younger",
+      "mention_texts": [
+        "Simonis Simonidae"
+      ],
+      "descriptive_mentions": [
+        "Gnosi Domini"
+      ],
+      "justification": "Heir of Simon Simonides/Simon Leopolita requesting the division of estate."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Magni Simonis",
+        "Simonis Simonidis"
+      ],
+      "descriptive_mentions": [
+        "Clarissimi et Splendidissimi",
+        "olim Domini",
+        "Consulis Leopoliensis"
+      ],
+      "justification": "Known entity PER-0003: Simon Leopolita (Simon Simonides), late Lviv consul."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Tworzanowic",
+      "mention_texts": [
+        "Joannes Fololt Twolssanovic"
+      ],
+      "descriptive_mentions": [
+        "Bartholis Dominus",
+        "Tutor"
+      ],
+      "justification": "Guardian of Wolfgang and Andreas Simonowicz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Zoopssangi"
+      ],
+      "descriptive_mentions": [
+        "Ingenuorum",
+        "Simonowiczow",
+        "Ingeniorum pupillorum"
+      ],
+      "justification": "Wolfgang Simonowicz, minor ward."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreae Simonowiczow"
+      ],
+      "descriptive_mentions": [
+        "Ingenuorum",
+        "Ingeniorum pupillorum"
+      ],
+      "justification": "Andreas Simonowicz, minor ward."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Petrus Sigimuntowic",
+      "mention_texts": [
+        "Petrus Sigimuntowic"
+      ],
+      "descriptive_mentions": [
+        "Famatuis",
+        "Tutor"
+      ],
+      "justification": "Guardian of Judica Anna Simonowiczowna."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Judica Anna Simonowiczowna",
+      "mention_texts": [
+        "Judice Annae Simonowiczowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Minor ward, daughter of the late Andreas Simonowicz."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaw Deducicius"
+      ],
+      "descriptive_mentions": [
+        "Excellentissimus et Nobilis Dominus",
+        "Medicinae Doctor",
+        "maritus",
+        "Tutor legitimus"
+      ],
+      "justification": "Known entity PER-0007: Stanislaus Doctor (Stanislaus Dziewicius/Deducicius), physician."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "filiae natu senioris",
+        "liberas"
+      ],
+      "justification": "Wife of Doctor Stanislaus, eldest daughter of late Andreas Simonowicz."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowicz",
+      "mention_texts": [
+        "Andreae Simo-"
+      ],
+      "descriptive_mentions": [
+        "Honoratorum",
+        "olim"
+      ],
+      "justification": "Deceased father of Catherina and the other Simonowicz minors."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Ingenuo Stanislao et Judice Annae liberis impuberibus Famatroum olim Georgij Dych Colos Sartoris et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Ingenuo Stanislao et Judice Annae liberis impuberibus Famatroum olim Georgij Dych Colos Sartoris et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Ingenuo Stanislao et Judice Annae liberis impuberibus Famatroum olim Georgij Dych Colos Sartoris et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Ingenuo Stanislao et Judice Annae liberis impuberibus Famatroum olim Georgij Dych Colos Sartoris et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Georgij Dych Colos Sartoris et Annae coniugum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "in Tutores et Patronos assignauimus Honestos Sebastianum Doliatorem eorundem pupillorum affinem, et Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "in Tutores et Patronos assignauimus Honestos Sebastianum Doliatorem eorundem pupillorum affinem, et Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "in Tutores et Patronos assignauimus Honestos Sebastianum Doliatorem eorundem pupillorum affinem, et Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "in Tutores et Patronos assignauimus Honestos Sebastianum Doliatorem eorundem pupillorum affinem, et Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "Joannes Fololt Twolssanovic Ingenuorum Zoopssangi et Andreae Simonowiczow Tutor"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "guardian_of",
+      "tail_entity_id": "E15",
+      "evidence": "Joannes Fololt Twolssanovic Ingenuorum Zoopssangi et Andreae Simonowiczow Tutor"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "guardian_of",
+      "tail_entity_id": "E17",
+      "evidence": "Petrus Sigimuntowic Tutor Judice Annae Simonowiczowna"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "spouse_of",
+      "tail_entity_id": "E19",
+      "evidence": "Stanislaw Deducicius Medicinae Doctor vti maritus et provide Tutor legitimus Honestae Catherinae"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "parent_of",
+      "tail_entity_id": "E19",
+      "evidence": "Catherinae filiae natu senioris inter praedictas liberas Honoratorum olim Andreae Simo-"
+    }
+  ]
+}

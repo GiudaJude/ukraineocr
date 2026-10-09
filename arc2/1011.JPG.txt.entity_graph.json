@@ -1,0 +1,137 @@
+{
+  "document_id": "arc2/1011.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City referenced in the dating formula and titles of the tribune and citizen."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the date of the preceding act, corresponding to DATE-0001: 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Warszawski",
+      "mention_texts": [
+        "Gaspar Warszawski"
+      ],
+      "descriptive_mentions": [
+        "Inclytus",
+        "Tribunus Leopoliensis"
+      ],
+      "justification": "Granter of the power of attorney appearing personally before the court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobo Lyricos",
+        "Eugenium Jacobum Gorlicium"
+      ],
+      "descriptive_mentions": [
+        "Bacalaureum",
+        "Plenipotentem",
+        "mandatarium",
+        "suo Plenipotenti"
+      ],
+      "justification": "Appointed plenipotentiary and attorney, corresponding to corpus entity PER-0018."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Szapricola Rauthier",
+      "mention_texts": [
+        "Hieronymo Szapricola Rauthiero",
+        "Szapricola"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "Haeredipetam"
+      ],
+      "justification": "Opposing party in the legal dispute concerning inherited property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetem Poslonovicz Rautheria"
+      ],
+      "descriptive_mentions": [
+        "Providam"
+      ],
+      "justification": "Person whose hereditary goods are the subject of the dispute, matching corpus entity PER-0079."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "officium Civile",
+        "Judicio Civili"
+      ],
+      "descriptive_mentions": [
+        "officium Civile praesens"
+      ],
+      "justification": "Civil court before which the recognizance is registered and where the action is to be conducted."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Judicio Civitatis"
+      ],
+      "descriptive_mentions": [
+        "Judicio Civitatis huius",
+        "Officio et Actis meis"
+      ],
+      "justification": "Municipal judicial authority referenced in the dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Gaspar Warszawski Tribunus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "represented_by",
+      "tail_entity_id": "E4",
+      "evidence": "fecit constituit et solemniter ordinauit in suum verum legitimum indubitatumque Plenipotentem et mandatarium Eugenium Jacobum Gorlicium Bacalaureum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Hieronymo Szapricola Rauthiero Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "in_litigation_with",
+      "tail_entity_id": "E5",
+      "evidence": "in causa et actione quam habiturus est coram Judicio Civitatis huius cum Famato Hieronymo Szapricola Rauthiero"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0491.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actis suis",
+        "officio nostro",
+        "officij nostri",
+        "acta praesentia",
+        "Camerae Officii",
+        "Officij nostri",
+        "Camera ma"
+      ],
+      "justification": "The municipal council acting through its official records and office."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose citizenship and inhabitance are referenced."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabinus",
+        "Cives Leopolienses",
+        "Tutores ex officio nostro confirmati"
+      ],
+      "justification": "Bench officer and appointed tutor appearing before the court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Wendelski",
+      "mention_texts": [
+        "Hieronymus Wendelski"
+      ],
+      "descriptive_mentions": [
+        "Aromatarius",
+        "Cives Leopolienses",
+        "Tutores ex officio nostro confirmati"
+      ],
+      "justification": "Apothecary and appointed tutor appearing before the court."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gawinka",
+      "mention_texts": [
+        "Stanislai Gawinka"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased citizen whose minor children are under tutelage."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "Mother mentioned with respect to the children of Stanislaus Gawinka."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniunx legitima secundarum nuptiarum"
+      ],
+      "justification": "Wife in a second marriage to Thomas Albinus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Thomas Albinus",
+      "mention_texts": [
+        "Tomae Kaszinka",
+        "Thomae Albini",
+        "Thoma Albino"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "praefatarum minorennum tutrico"
+      ],
+      "justification": "Citizen of Lviv granted acquittance by the guardians."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Choinecki",
+      "mention_texts": [
+        "Stanislaus Choiniezki"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Tutores dati"
+      ],
+      "justification": "Tutor appointed for the children of Stanislaus Kiedtlewski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamus Kalinow- ski"
+      ],
+      "descriptive_mentions": [
+        "incola Leopoliensis",
+        "Tutores dati"
+      ],
+      "justification": "Resident of Lviv acting as guardian."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kiedtlewski",
+      "mention_texts": [
+        "Stanislai Kiedtlewki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honesti",
+        "olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased nobleman whose minor children receive funds from the council chamber."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Szyperska",
+      "mention_texts": [
+        "Dorotheae Szyperski"
+      ],
+      "descriptive_mentions": [
+        "Coniugum"
+      ],
+      "justification": "Spouse of deceased Stanislaus Kiedtlewski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "54 florins",
+      "mention_texts": [
+        "florenos quinquaginta quatuor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum withdrawn from the court chamber deposit."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famati Martinus Rottendorff Scabinus et Hieronymus Wendelski Aromatarius Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Hieronymus Wendelski Aromatarius Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famati Thomae Albini Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestae Regina quae fuit coniunx legitima secundarum nuptiarum Famati Thomae Albini"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Adamus Kalinow- ski incola Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Stanislai Kiedtlewki et Dorotheae Szyperski Coniugum"
+    }
+  ]
+}

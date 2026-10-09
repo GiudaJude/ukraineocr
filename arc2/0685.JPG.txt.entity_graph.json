@@ -1,0 +1,130 @@
+{
+  "document_id": "arc2/0685.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "Council court mentioned at the beginning of the decree rendering judgment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0274: Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Magni Ducatus Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Grand Duchy of Lithuania referenced in relation to guild authorities/representatives."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Kynost",
+      "mention_texts": [
+        "Furt Machnar Kynost",
+        "Martinum Kynost",
+        "Martino"
+      ],
+      "descriptive_mentions": [
+        "Aurifex",
+        "Famatum",
+        "eundem",
+        "ipsius",
+        "eidem"
+      ],
+      "justification": "Goldsmith cleared of criminal accusations by the city council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0172: 6 florins",
+      "mention_texts": [
+        "sex florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 6 florins mentioned in the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard dating cross-reference linking to the preceding entry's date in 1595."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jaczko Simonis Szmytowic",
+      "mention_texts": [
+        "Jaczko Simonis Szmytowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "se",
+        "sibi"
+      ],
+      "justification": "Lviv citizen ceding his rights and claims to a property/debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in civic titles and suburban locations."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "florenorum septuaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 70 florins transferred via cession."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Ito Szczerzemnik",
+      "mention_texts": [
+        "Ito Szczerzemnik"
+      ],
+      "descriptive_mentions": [
+        "Suburbano Leopoliensi",
+        "eiusque legittimis Successoribus",
+        "eodem"
+      ],
+      "justification": "Lviv suburbanite receiving the rights ceded by Jaczko Simonis Szmytowic."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Jaczko Simonis Szmytowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Ito Szczerzemnik Suburbano Leopoliensi"
+    }
+  ]
+}

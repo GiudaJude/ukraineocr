@@ -1,0 +1,196 @@
+{
+  "document_id": "arc2/1411.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Ciuitate"
+      ],
+      "justification": "Appears in act location 'Actum Leopoli' and contextual references to suburbanites and city authorities."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato in crastino S. Francisci Confessoris Proximo A. D. 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating formula of the entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Szustak",
+      "mention_texts": [
+        "Swants Szustak",
+        "Szustakowi"
+      ],
+      "descriptive_mentions": [
+        "Crodstwu"
+      ],
+      "justification": "Named in the marginal heading."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0354: Elisabetha",
+      "mention_texts": [
+        "Helisabeth"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "relicta vidua"
+      ],
+      "justification": "Seller of the property, designated as 'Honesta Helisabeth Nobilis olim Joannis Strzałkowski Mlinstonicensis relicta vidua'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Strzałkowski",
+      "mention_texts": [
+        "Joannis Strzałkowski Mlinstonicensis",
+        "Joanne Strzałkowsky"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "olim"
+      ],
+      "justification": "Deceased husband of Elisabeth."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Kozmankowa",
+      "mention_texts": [
+        "Bartholomeum Kozmankowa"
+      ],
+      "descriptive_mentions": [
+        "Tutorem",
+        "Honestum",
+        "Suburbana",
+        "affinem suum"
+      ],
+      "justification": "Assumed legal guardian and kinsman of Elisabeth."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [
+        "Officii"
+      ],
+      "justification": "The court where the act and tutor approval were enacted: 'Officii re approbationem', 'Seniori Scabino in Exposito Judicio praesidenti'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "suburbio eiusdem Civitatis",
+        "suburbio"
+      ],
+      "justification": "Location of the house and garden sold."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracouien"
+      ],
+      "descriptive_mentions": [
+        "vico"
+      ],
+      "justification": "Lane/street mentioned in the description of property boundaries."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Institor",
+      "mention_texts": [
+        "Joannis Institoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the property sold."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Podleśniczy",
+      "mention_texts": [
+        "Joanni mi Podelniczeny"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "genero",
+        "Suburbano"
+      ],
+      "justification": "Buyer of the property, Elisabeth's son-in-law."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0133: 15 florins",
+      "mention_texts": [
+        "quindecim florenorum"
+      ],
+      "descriptive_mentions": [
+        "Polonicales",
+        "numeri Polonici"
+      ],
+      "justification": "Purchase price: 'quindecim florenorum Polonicales et numeri Polonici'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Helisabeth Nobilis olim Joannis Strzałkowski Mlinstonicensis relicta vidua"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "per assumptum sibi ca cum consensu et Officii re approbationem Tutorem Honestum Bartholomeum Kozmankowa Suburbana Leopoliensis affinem suum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Tutorem Honestum Bartholomeum Kozmankowa Suburbana Leopoliensis affinem suum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesto Joanni mi Podelniczeny genero duntaxat"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sold_to",
+      "tail_entity_id": "E11",
+      "evidence": "vendidisse Praesentibusque inscriptionis vigore vendere domunculam hortum ... Honesto Joanni mi Podelniczeny genero"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "suburbio eiusdem Civitatis Haliciensi"
+    }
+  ]
+}

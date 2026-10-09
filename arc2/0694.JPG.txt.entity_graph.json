@@ -1,0 +1,256 @@
+{
+  "document_id": "arc2/0694.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Cosmas",
+      "mention_texts": [
+        "Cosmam",
+        "Chiolarm"
+      ],
+      "descriptive_mentions": [
+        "filios",
+        "unum",
+        "praedictum"
+      ],
+      "justification": "Named as son of the unnamed brother and legitimate spouse, also called Chiolar."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobum"
+      ],
+      "descriptive_mentions": [
+        "filios",
+        "alterum"
+      ],
+      "justification": "Named as the other son born of the legitimate marriage."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Constantinus",
+      "mention_texts": [
+        "Constantinus"
+      ],
+      "descriptive_mentions": [
+        "Tertius vero frater"
+      ],
+      "justification": "Identified as the third brother who had a son Joannes with his wife Dziurdzia."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Dziurdzia",
+      "mention_texts": [
+        "Dziurdzia"
+      ],
+      "descriptive_mentions": [
+        "Coniuge"
+      ],
+      "justification": "Named as the wife of Constantinus and mother of Joannes."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joannem"
+      ],
+      "descriptive_mentions": [
+        "unicum filium",
+        "praedictum"
+      ],
+      "justification": "Identified as the only son of Constantinus and Dziurdzia."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Cewzidi",
+      "mention_texts": [
+        "Gnoth Kicolai Cewzidi"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased relative whose inheritance is being established."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Bartoszewic",
+      "mention_texts": [
+        "Mathias Bartoszewic",
+        "Mathiae Bartoszewic"
+      ],
+      "descriptive_mentions": [
+        "Laborioso",
+        "affini praedictae Reginae fratri germano",
+        "Emptori"
+      ],
+      "justification": "Buyer of the land share and full brother of Regina Bartoszowicowna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Olexic",
+      "mention_texts": [
+        "Simon Ulexic",
+        "Simon Olexic"
+      ],
+      "descriptive_mentions": [
+        "Laboriosi",
+        "Coniuges",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Husband of Regina Bartoszowicowna, acting as her legal guardian in the land sale."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Regina Bartoszowicowna",
+      "mention_texts": [
+        "Regina Bartoszowicowna",
+        "Reginam",
+        "Reginae"
+      ],
+      "descriptive_mentions": [
+        "Laboriosi",
+        "Coniuges",
+        "hac"
+      ],
+      "justification": "Wife of Simon Olexic, selling her parental inheritance portion."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Kołsowicze",
+      "mention_texts": [
+        "Kolsowicze"
+      ],
+      "descriptive_mentions": [
+        "pago"
+      ],
+      "justification": "Village of origin of Simon Olexic and Regina Bartoszowicowna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Zamarstynów",
+      "mention_texts": [
+        "Zamerstynowk"
+      ],
+      "descriptive_mentions": [
+        "pago"
+      ],
+      "justification": "Village where the sold field share is situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Barthoszewicowizna",
+      "mention_texts": [
+        "Barthoszewicowina"
+      ],
+      "descriptive_mentions": [
+        "agro",
+        "dicto"
+      ],
+      "justification": "Specific field in Zamarstynów where the sold share lies."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Gaydowski",
+      "mention_texts": [
+        "Gaydowski"
+      ],
+      "descriptive_mentions": [
+        "agros"
+      ],
+      "justification": "Adjacent field bordering Barthoszewicowizna."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Kołodziejski",
+      "mention_texts": [
+        "Kolodzieyicki"
+      ],
+      "descriptive_mentions": [
+        "agros"
+      ],
+      "justification": "Adjacent field bordering Barthoszewicowizna."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial venue whose presiding bench received the resignation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "procreauit duos filios unum Cosmam siue Chiolarm praedictum et alterum Jacobum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Constantinus ex Dziurdzia Coniuge"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Constantinus ex Dziurdzia Coniuge pro- creauit unicum filium Joannem praedictum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Constantinus ex Dziurdzia Coniuge pro- creauit unicum filium Joannem praedictum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Simon Olexic et Regina Bar- toszowicowna Coniuges"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Laborioso Mathiae Bartoszewic affi- ni praedictae Reginae fratri germano"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Simon Olexic et Regina Bar- toszowicowna Coniuges ex pago Kolsowicze"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Simon Olexic et Regina Bar- toszowicowna Coniuges ex pago Kolsowicze"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in pago Zamerstynowk in agro Barthoszewicowina dicto"
+    }
+  ]
+}

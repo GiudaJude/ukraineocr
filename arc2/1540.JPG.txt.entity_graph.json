@@ -1,0 +1,178 @@
+{
+  "document_id": "arc2/1540.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes"
+      ],
+      "descriptive_mentions": [
+        "Domina",
+        "Hamussii Rupert relicta",
+        "hec eadem Domina Agnes Hamussii Rupert relicta",
+        "sibi"
+      ],
+      "justification": "Widow of Hanusz Rupert, transferring her hereditary third part of a stone house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Hanusz Rupert",
+      "mention_texts": [
+        "Hamussii Rupert"
+      ],
+      "descriptive_mentions": [
+        "mariti sui",
+        "mariti"
+      ],
+      "justification": "Deceased husband of Agnes."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kozrowski",
+      "mention_texts": [
+        "Lucae dicti Kozrowski",
+        "Lucam",
+        "Lucae"
+      ],
+      "descriptive_mentions": [
+        "Nepotes",
+        "mariti sui iuniorem nepotem",
+        "eidem",
+        "eundem",
+        "successorum ipsius",
+        "emptori"
+      ],
+      "justification": "Nephew of Agnes's late husband, receiving the hereditary share of the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitate Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate",
+        "Civitatis huius"
+      ],
+      "justification": "City where the stone house is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circulo"
+      ],
+      "descriptive_mentions": [
+        "foro",
+        "fori Circulo"
+      ],
+      "justification": "Market Square in Lviv where the property is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Łowiczkowska",
+      "mention_texts": [
+        "Lowiczkowska"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring stone house on one side."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Szpenorowska",
+      "mention_texts": [
+        "Spenorowska"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring stone house on the other side."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to Polish currency standard."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille florenorum"
+      ],
+      "descriptive_mentions": [
+        "precio",
+        "pecuniae monetae et numeri Polonicalis",
+        "summa"
+      ],
+      "justification": "Purchase price of the share of the house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Portion of 100 florins reserved for relatives."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "Quadringentos ... florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Portion of 400 florins reserved for testamentary disposition."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Agnes Hamussii Rupert relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E2",
+      "evidence": "Lucam dicti mariti sui iuniorem nepotem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in ea Civitate Leopoliensi in foro seu fori Circulo"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in foro seu fori Circulo a parte septemtrionali inter domos Lowiczkowska"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in foro seu fori Circulo a parte septemtrionali inter domos Lowiczkowska ab vna, et Spenorowska parte ab altera sita est"
+    }
+  ]
+}

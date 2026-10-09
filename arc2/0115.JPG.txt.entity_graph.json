@@ -1,0 +1,237 @@
+{
+  "document_id": "arc2/0115.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolaum"
+      ],
+      "descriptive_mentions": [
+        "Honestum olim",
+        "mariti"
+      ],
+      "justification": "Named as the deceased person whose succession is under dispute and whose widow suffered a miscarriage."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Zyska",
+      "mention_texts": [
+        "Simonis Zyska"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "Named as the father of Nicolaus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna Szadkosziczka",
+      "mention_texts": [
+        "Anna Szadkosziczka",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta olim",
+        "uxor"
+      ],
+      "justification": "Named as the deceased wife/widow whose post-mortem delivery/miscarriage is debated in court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Helisabet",
+      "mention_texts": [
+        "Helisabet"
+      ],
+      "descriptive_mentions": [
+        "praedicta",
+        "citata"
+      ],
+      "justification": "Named as the cited party bringing eyewitness testimony in the legal suit."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Zwrzonczanka",
+      "mention_texts": [
+        "Anna Zwrzonczanka"
+      ],
+      "descriptive_mentions": [
+        "obstetrice"
+      ],
+      "justification": "Named as the midwife called upon to take an oath."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Honorati Domini Advocati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal advocatial office where the oath and proceedings take place."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Anna Misleczowa",
+      "mention_texts": [
+        "Anna Misleczowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party subscribing to the judicial act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolium",
+        "Leopolim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv where the act is registered and to which the fugitive is to be brought."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Tuesday after the Invention of the Holy Cross 1595",
+      "mention_texts": [
+        "feria tertia post Inventionem Sanctae Crucis Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of registration of the plenipotentiary power of attorney."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Melchior Scholz",
+      "mention_texts": [
+        "Melchioris Scholz",
+        "Melchiorem Scholz"
+      ],
+      "descriptive_mentions": [
+        "Honoratum ac Famatum",
+        "Civem et Negotiatorem Cracoviensem",
+        "verum legitimum indubitatumque Plenipotentem et Mandatarium",
+        "Famato mandatario suo"
+      ],
+      "justification": "Merchant of Kraków appointed as attorney by Erasmus Scholz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Scholz",
+      "mention_texts": [
+        "Erasmus Scholz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Mercator Lipscensis"
+      ],
+      "justification": "Merchant of Leipzig who grants power of attorney to capture his fugitive servant."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Leipzig",
+      "mention_texts": [
+        "Lipscensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Saxony of which Erasmus Scholz is a citizen and merchant."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of which Melchior Scholz is a citizen and merchant."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Johannes Rogaliski",
+      "mention_texts": [
+        "Johannem Rogaliski"
+      ],
+      "descriptive_mentions": [
+        "famulum et fartorem suum fugitivum",
+        "praefatum famulum suum fugitivorum et legitimum"
+      ],
+      "justification": "Fugitive servant and cloth-shearer of Erasmus Scholz."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Terathstawa",
+      "mention_texts": [
+        "Terathstawa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin associated with Johannes Rogaliski."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Kingdom of Poland",
+      "mention_texts": [
+        "Regno Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Realm mentioned regarding jurisdictional authority to arrest the fugitive."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "post Honestum olim Nicolaum praedicti Simonis Zyska filiam promulgato"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "post Honestum olim Nicolaum... Anna Szadkosziczka uxor post mortem mariti abortum passa sit"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E10",
+      "evidence": "Erasmus Scholz... constituit et solemniter ordinavit in suum verum legitimum indubitatumque Plenipotentem et Mandatarium Honoratum ac Famatum Melchiorem Scholz"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Erasmus Scholz Civis et Mercator Lipscensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E13",
+      "evidence": "Melchiorem Scholz Civem et Negotiatorem Cracoviensem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "servant_of",
+      "tail_entity_id": "E11",
+      "evidence": "Johannem Rogaliski de Terathstawa famulum et fartorem suum fugitivum qui non facto secum sufficienti calculo de mercibus varii generis et pecuniis sua commissis ac inscio et irrequisito eodem Famato mandatario suo clam aufugit"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "originates_from",
+      "tail_entity_id": "E15",
+      "evidence": "Johannem Rogaliski de Terathstawa"
+    }
+  ]
+}

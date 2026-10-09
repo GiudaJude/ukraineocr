@@ -1,0 +1,176 @@
+{
+  "document_id": "arc2/1223.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Jagielkowicz",
+      "mention_texts": [
+        "Tomasz Szewc",
+        "Thomas Jagielkowicz"
+      ],
+      "descriptive_mentions": [
+        "Calceator",
+        "coniuges Suburbani Leopolienses",
+        "ille",
+        "maritum suum legitimum"
+      ],
+      "justification": "Named in the header and opening recognition as a shoemaker and suburban resident of Lviv entering a debt contract."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses",
+        "haec"
+      ],
+      "justification": "Named alongside her husband Thomas Jagielkowicz as co-debtor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Israel Czercz",
+      "mention_texts": [
+        "Israel Judaeus",
+        "Israeli Czercz",
+        "Israele Czercz"
+      ],
+      "descriptive_mentions": [
+        "Perfido",
+        "Judaeo Leopoliensi",
+        "Creditori",
+        "creditoris"
+      ],
+      "justification": "Named as the creditor, a Jewish resident of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestate"
+      ],
+      "justification": "Referenced in the legal non-prejudice/renunciation clause concerning royal safe-conducts."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi",
+        "Nundinarum Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as the origin of the suburban spouses, the creditor, and the location of the annual fairs."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referenced in the legal renunciation clause regarding magnates of the Kingdom ('Proceribus Regni')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos Ducentos pecuniae et numeri Polonici",
+        "Ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "praedictam summam",
+        "summa eadem praedicta"
+      ],
+      "justification": "The principal sum of the obligation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenos",
+        "Florenos Centum"
+      ],
+      "descriptive_mentions": [
+        "ratam primam",
+        "Alteram"
+      ],
+      "justification": "The two payment installments of 100 florins each."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Nativity of Christ",
+      "mention_texts": [
+        "Festo Nativitatis Domini Jesu Christi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for the first installment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo Sanctae Agnetis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast date around which the Lviv fair ends, set as the due date for the second installment."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "1598",
+      "mention_texts": [
+        "1598-vo"
+      ],
+      "descriptive_mentions": [
+        "Anno proxime venturo"
+      ],
+      "justification": "Year given for the second payment term."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Thomas Jagielkowicz Calceator et Anna coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "haec vero per eumdem maritum suum legitimum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Thomas Jagielkowicz Calceator et Anna coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Thomas Jagielkowicz Calceator et Anna coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Israeli Czercz Judaeo Leopoliensi"
+    }
+  ]
+}

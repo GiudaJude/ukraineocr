@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/1374.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatem"
+      ],
+      "justification": "City in which the debtor and creditor reside, where the property is located, and where the legal act took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "The municipal office whose authority is invoked for enforcement and intromission into property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Petrus Zeczerz",
+      "mention_texts": [
+        "Petro Zeczerz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sartori",
+        "Civi Leopoliensi",
+        "suo affini",
+        "Praefatus suus Creditor",
+        "Creditori"
+      ],
+      "justification": "Tailor, citizen of Lviv, and creditor of the 200 Polish florins debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Ducentos Florenos pecuniae et numeri Polonicalis",
+        "ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "certi veri iusti liquidique debiti ex causa mutui contracti",
+        "totam summam restantem",
+        "ea summa",
+        "summa praefata"
+      ],
+      "justification": "The total debt sum owed to Petrus Zeczerz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenorum quinquaginta",
+        "Florenorum similiter quinquaginta",
+        "quinquaginta Florenorum",
+        "quinquaginta quags Florenorum"
+      ],
+      "descriptive_mentions": [
+        "Primam ratam",
+        "Alteram",
+        "Tertiam",
+        "Quartam",
+        "ratam quamlibet"
+      ],
+      "justification": "The amount of each of the four installments for repayment."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo S. Agnetis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The feast day assigned for the first and third payment installments."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Margaret",
+      "mention_texts": [
+        "Festo S. Margarethae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The feast day assigned for the second and fourth payment installments."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno proxime sequenti 1596 septimo futuro",
+        "1597"
+      ],
+      "descriptive_mentions": [
+        "eodem praefato 1597 venturo"
+      ],
+      "justification": "The year 1597 in which the first two installments are due."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "1598",
+      "mention_texts": [
+        "anno 1598 octauo",
+        "Anno 98"
+      ],
+      "descriptive_mentions": [
+        "eodem Anno 98 post futuro"
+      ],
+      "justification": "The year 1598 in which the third and fourth installments are due."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post fe- stum Exaltationis S. Crucis Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date when the record was enacted."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Szaputa",
+      "mention_texts": [
+        "Hieronymus Szaputa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual noted at the end of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civi Leopoliensi"
+    }
+  ]
+}

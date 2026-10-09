@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/0060.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Regina",
+      "mention_texts": [
+        "Reginam",
+        "Regina",
+        "Reginae",
+        "Reginis"
+      ],
+      "descriptive_mentions": [
+        "affinem",
+        "praefata",
+        "eidem"
+      ],
+      "justification": "Named as the relative (affinem) benefiting from the donation made by the spouses Dorothea and Melchior."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "memoratae",
+        "coniugum"
+      ],
+      "justification": "Spouse making the donation and legacy to Regina."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Melchior Osonowski",
+      "mention_texts": [
+        "Melchiorem",
+        "Melchioris",
+        "Melchioris Osonofzki",
+        "Melchior"
+      ],
+      "descriptive_mentions": [
+        "marito suo praefato",
+        "mariti sui",
+        "mariti",
+        "ambo coniuges praenominati",
+        "ipsos donatores",
+        "idem"
+      ],
+      "justification": "Husband consenting to and confirming the donation to Regina."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "quadringgentorum florenorum Polonicalium",
+        "Florenorum quadringentorum",
+        "florenorum quadringentorum",
+        "quadringentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae summam",
+        "dicta summa",
+        "praefatae summae"
+      ],
+      "justification": "Monetary sum of the donation/legacy bequeathed to Regina."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Dominis Consulibus",
+        "Officio Consulari Leopoliensi",
+        "Fabili Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular authority and office of Lviv before which the spouses registered and ratified transactions."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officii Aduocatalis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court office whose seal is affixed to this instrument."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lychowska House",
+      "mention_texts": [
+        "Lychowszka"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea sua propria"
+      ],
+      "justification": "Stone house belonging to the spouses assigned as security/usufruct for the payment of the legacy."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Krzyżowska House",
+      "mention_texts": [
+        "Frzyzowszka"
+      ],
+      "descriptive_mentions": [
+        "lapideas"
+      ],
+      "justification": "Neighboring stone house bordering the Lychowska house on one side."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Twardowska House",
+      "mention_texts": [
+        "Twardowska"
+      ],
+      "descriptive_mentions": [
+        "lapideas"
+      ],
+      "justification": "Neighboring stone house bordering the Lychowska house on the other side."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "mariti sui (salva et integra media bonorum Ordinatione... coram Officio Consulari Leopoliensi facta...)"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "aliquem memoratorum coniugum Melchioris et Dorotheae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "owner_of",
+      "tail_entity_id": "E7",
+      "evidence": "ambo coniuges praenominati haec loca et aedificia seu habitationes ad usumfructum ergo ad refusionem praefatae summae in domo lapidea sua propria Lychowszka"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "owner_of",
+      "tail_entity_id": "E7",
+      "evidence": "ambo coniuges praenominati haec loca et aedificia seu habitationes ad usumfructum ergo ad refusionem praefatae summae in domo lapidea sua propria Lychowszka"
+    }
+  ]
+}

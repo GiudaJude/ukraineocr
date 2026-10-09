@@ -1,0 +1,202 @@
+{
+  "document_id": "arc2/0026.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Aberman",
+      "mention_texts": [
+        "Stanislai Aberman",
+        "Aberman",
+        "Stanislaum Aberman"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "testatoris",
+        "mariti sui",
+        "Civis Leopoliensis",
+        "valetudinarij"
+      ],
+      "justification": "Named as the deceased/infirm testator whose will is presented to the court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobo Gorszalek",
+        "Jacobus Gorszalek"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "Famatos",
+        "secundariis Contrubernij Pellionum",
+        "Civibus Leopoliensibus",
+        "Seniores Archimagistri Contubernii Pellificum"
+      ],
+      "justification": "One of the senior furrier guild representatives appointed to record the testament."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mathias Sesorf",
+      "mention_texts": [
+        "Mathiae Sesorf",
+        "Matias Sesorf"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "Famatos",
+        "secundariis Contrubernij Pellionum",
+        "Civibus Leopoliensibus",
+        "Seniores Archimagistri Contubernii Pellificum"
+      ],
+      "justification": "Co-deputy from the furriers' guild recording Aberman's testament."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Furriers' Guild",
+      "mention_texts": [
+        "Contrubernij Pellionum",
+        "Contubernii Pellificum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Craft guild whose leaders were delegated to record Aberman's will."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lwów, cited in civic and institutional titles."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Advocatialibus Leopoliensibus",
+        "Protocolo Actorum Advocatialium",
+        "Officium Honorati Andreae Simonowic locum Ordinarii Advocati Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Actis Publicis"
+      ],
+      "justification": "The advocatial court where the testament was authenticated and registered."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Glybowna",
+      "mention_texts": [
+        "Hedvigis Glybowna",
+        "Hedvigis Glibowna"
+      ],
+      "descriptive_mentions": [
+        "praefata",
+        "Honestae",
+        "consortis"
+      ],
+      "justification": "Widow/wife of Stanislaus Aberman who presents his testament to the court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Plasa",
+      "mention_texts": [
+        "Stanislaum Plasa"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "sartorem",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Tailor acting as guardian/attorney assisting Hedvigis Glybowna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Offi[cio] nostro",
+        "Officii nostri",
+        "Officii Consularis",
+        "Officio Proconsulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular / proconsular governing body of Lviv ratifying the document."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreae Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "locum Ordinarii Advocati Leopoliensis ex subrogatione Officii Consularis tenentis"
+      ],
+      "justification": "Acting advocate representing the council who received the guild elders."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Ziołkowska House",
+      "mention_texts": [
+        "Ziolkowska"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam"
+      ],
+      "justification": "Stone house mentioned as bounding or near the residence of Stanislaus Aberman."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Thibeinus Allant",
+      "mention_texts": [
+        "Thibeini Allant"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house is cited as an opposite boundary of Aberman's dwelling."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestae Hedvigis Glibowna Famati Stanislai Aberman Civis Leopoliensis consortis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "Hedvigis Glybowna palam publice benevoleque per Famatum Stanislaum Plasa sartorem tutorem sibi ad eum actum assumptum obtulit"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobo Gorszalek et Mathiae Sesorf secundariis Contrubernij Pellionum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobo Gorszalek et Mathiae Sesorf secundariis Contrubernij Pellionum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andreae Simonowic locum Ordinarii Advocati Leopoliensis ex subrogatione Officii Consularis tenentis"
+    }
+  ]
+}

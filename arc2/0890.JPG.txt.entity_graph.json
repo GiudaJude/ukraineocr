@@ -1,0 +1,80 @@
+{
+  "document_id": "arc2/0890.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Leszkowic",
+      "mention_texts": [
+        "Albertus Lesckowic"
+      ],
+      "descriptive_mentions": [
+        "praefatus"
+      ],
+      "justification": "Party depositing the sum of money at the council office."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radowski",
+      "mention_texts": [
+        "Joannem Radowski"
+      ],
+      "descriptive_mentions": [
+        "eundem"
+      ],
+      "justification": "Individual who counted and sealed the money in a pouch."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Morzkiewicz",
+      "mention_texts": [
+        "Joannem Rorszkiewicz",
+        "Joanni Morzkiewicz"
+      ],
+      "descriptive_mentions": [
+        "memorato"
+      ],
+      "justification": "Individual who counted the money and to whom the sum is not to be released until conditions are fulfilled."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium praesens",
+        "Cameram Officij"
+      ],
+      "justification": "The municipal office and chamber receiving the deposited sum."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "174 florins 13.5 groschen",
+      "mention_texts": [
+        "Centum septuaginta quatuor florenorum et grossorum tredecim cum medio",
+        "Centum septuaginta quatuor florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam praedictam",
+        "summa praefata"
+      ],
+      "justification": "Amount of money deposited in the chamber."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "180 florins",
+      "mention_texts": [
+        "Centum octoginta florenis"
+      ],
+      "descriptive_mentions": [
+        "summa tam priori"
+      ],
+      "justification": "Prior sum referenced in the condition regarding possession."
+    }
+  ],
+  "relationships": []
+}

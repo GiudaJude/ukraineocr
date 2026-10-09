@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/1063.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Fedor Zopo",
+      "mention_texts": [
+        "Fedor Zopo-nis",
+        "Fedor Zopo"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "praedictus olim"
+      ],
+      "justification": "Named as the deceased previous possessor of a land parcel."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "16 florins",
+      "mention_texts": [
+        "Florenos Florenos sexdecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money stated as paid."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Petrus Bieda",
+      "mention_texts": [
+        "Petri Bieda"
+      ],
+      "descriptive_mentions": [
+        "memorati"
+      ],
+      "justification": "Named person whose land was occupied without right."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the dating formula and suburban designation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date reference in the closing formula."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "D. Nowicampianum",
+        "Pauli Nowicampiani",
+        "Paulo Nowicampiano"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis",
+        "Medicinae Doctoris",
+        "collegae nostri Consularis",
+        "fundi sui Domino",
+        "praefatus Dominus Doctor",
+        "praedictum haeredem fundi"
+      ],
+      "justification": "Doctor of Medicine and city council colleague, owner of suburban plots."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Zaroska Szosz",
+      "mention_texts": [
+        "Gaspar Zaroska Szosz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburbanite resident of Temriczowska street entering into legal dispute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Josephus Krasucha",
+      "mention_texts": [
+        "Joze-phus Krasuha"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburbanite resident appearing before the council."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Zephat Kulikowski",
+      "mention_texts": [
+        "Zephat Kulikowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburbanite appearing in the emphyteutic rent matter."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szwanciger",
+      "mention_texts": [
+        "Joannes Szwanciger"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "gener",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburbanite appearing in the dispute."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zapata",
+      "mention_texts": [
+        "Joannes Zapata"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburbanite appearing in the dispute."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Oledzy",
+      "mention_texts": [
+        "Bartholomeus Oledzy"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburbanite appearing in the dispute."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0104: Temriczowska Street",
+      "mention_texts": [
+        "platea Tem-riczowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the suburbs of Lviv where the tenants hold plots."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "collegae nostri Consularis"
+      ],
+      "justification": "Lviv City Council recording the legal appearance and protest."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E14",
+      "evidence": "Spectabilis Pauli Nowicampiani Medicinae Doctoris collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Honesti Gaspar Zaroska Szosz... Suburbani Leopolienses de platea Tem-riczowa dicta"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Joze-phus Krasuha... Suburbani Leopolienses de platea Tem-riczowa dicta"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Zephat Kulikowski... Suburbani Leopolienses de platea Tem-riczowa dicta"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Joannes Szwanciger gener... Suburbani Leopolienses de platea Tem-riczowa dicta"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Joannes Zapata... Suburbani Leopolienses de platea Tem-riczowa dicta"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Bartholomeus Oledzy Suburbani Leopolienses de platea Tem-riczowa dicta"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Suburbani Leopolienses de platea Tem-riczowa dicta"
+    }
+  ]
+}

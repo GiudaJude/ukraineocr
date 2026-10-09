@@ -1,0 +1,385 @@
+{
+  "document_id": "arc2/0485.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0300: Andreas Dambrowski",
+      "mention_texts": [
+        "Andreae Dambrowsky",
+        "Andreas Dambrowsski"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Nobilis et Nobilis D.",
+        "Starosta Kollegya nostri Consularis"
+      ],
+      "justification": "Identified by name and council title 'Starosta Kollegya nostri Consularis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Georgius Mathiazowicz",
+      "mention_texts": [
+        "Georgius Mathiazowicz"
+      ],
+      "descriptive_mentions": [
+        "Illis",
+        "Coniuges",
+        "incolae Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Appears personaliter as the husband and legal guardian of Anna Philipowiczowna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna Philipowiczowna",
+      "mention_texts": [
+        "Anna Philipowiczowna",
+        "Anna Philipowna",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "incolae Leopolienses",
+        "haec",
+        "Spectabilis",
+        "praefata",
+        "antea famula sua"
+      ],
+      "justification": "Wife of Georgius Mathiazowicz and former servant of Andreas Dambrowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the transactions occurred and where the participants reside."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Kollegya nostri Consularis",
+        "Collega noster Consularis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The governing council of Lviv referenced by its members and officials."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Kasiłkowa",
+      "mention_texts": [
+        "Kasilkowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person holding a debt ('debitum centum apud Kasilkowa habet')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum"
+      ],
+      "descriptive_mentions": [
+        "debitum"
+      ],
+      "justification": "Sum of debt donated by Anna Philipowiczowna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato post festum Nativitatis Mariae A. D. 1595"
+      ],
+      "descriptive_mentions": [
+        "Actum ut supra"
+      ],
+      "justification": "Date of the recorded quietatio act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Albertus Jedlanius"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Magister",
+        "Collega noster Consularis pro tunc Advocatus Ordinarius Leopoliensis"
+      ],
+      "justification": "Magister Albertus Pedianus (transcribed Jedlanius), councilor and acting advocatus ordinarius."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dorkendorff",
+      "mention_texts": [
+        "Joannis Dorkendorff"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Scabini",
+        "Civium Leopoliensium",
+        "Tutorum"
+      ],
+      "justification": "Scabinus and appointed guardian of the minor children of Stanislaus Starzynka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Wendelski",
+      "mention_texts": [
+        "Hieronymi Wendelski"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Aromatary",
+        "Civium Leopoliensium",
+        "Tutorum"
+      ],
+      "justification": "Apothecary and appointed guardian of the minor children of Stanislaus Starzynka."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobi Gonszatek"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Sellificis",
+        "Civium Leopoliensium",
+        "Tutorum"
+      ],
+      "justification": "Saddler and guardian of the minor children of Stanislaus Starzynka."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Eva Starzynka",
+      "mention_texts": [
+        "Evae"
+      ],
+      "descriptive_mentions": [
+        "minorennum liberorum",
+        "Honestorum et Judicatorum"
+      ],
+      "justification": "Minor daughter of Stanislaus Starzynka and Regina from their first marriage."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helisabethae"
+      ],
+      "descriptive_mentions": [
+        "minorennum liberorum",
+        "Honestorum et Judicatorum"
+      ],
+      "justification": "Minor daughter of Stanislaus Starzynka and Regina from their first marriage."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginae"
+      ],
+      "descriptive_mentions": [
+        "minorennum liberorum",
+        "Honestorum et Judicatorum"
+      ],
+      "justification": "Minor daughter of Stanislaus Starzynka and Regina from their first marriage."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "minorennum liberorum",
+        "Honestorum et Judicatorum"
+      ],
+      "justification": "Minor daughter of Stanislaus Starzynka and Regina from their first marriage."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "minorennum liberorum",
+        "Honestorum et Judicatorum"
+      ],
+      "justification": "Minor daughter of Stanislaus Starzynka and Regina from their first marriage."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Starzynka",
+      "mention_texts": [
+        "Stanislai Starzynka"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Honestorum",
+        "prioris matrimonij coniugum"
+      ],
+      "justification": "Deceased father of the Starzynka minor daughters."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Regina Starzynczyna",
+      "mention_texts": [
+        "Reginae",
+        "Regina Starzynczyna"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "prioris matrimonij coniugum",
+        "eiusdem praefatae",
+        "secundi matrimonij"
+      ],
+      "justification": "Mother of the Starzynka daughters, formerly married to Stanislaus Starzynka, now married to Thomas Klim."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Thomas Klim",
+      "mention_texts": [
+        "Thomae Klim"
+      ],
+      "descriptive_mentions": [
+        "secundi matrimonij mariti",
+        "legitimi et naturalis tutoris"
+      ],
+      "justification": "Second husband of Regina Starzynczyna and father/guardian of Catherina."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Judicae",
+        "suae filiae ex eadem Regina Starzynczyna susceptae"
+      ],
+      "justification": "Daughter of Thomas Klim and Regina Starzynczyna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Georgius Mathiazowicz et Anna Philipowiczowna Coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "haec vero per eundem maritum tutorem suum legitimum recognoverunt"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andreas Dambrowsski Starosta Kollegya nostri Consularis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "employer_of",
+      "tail_entity_id": "E3",
+      "evidence": "Spectabilis praefata Anna antea famula sua"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Magister Albertus Jedlanius Collega noster Consularis pro tunc Advocatus Ordinarius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "Joannis Dorkendorff Scabini ... Jacobi Gonszatek Sellificis Civium Leopoliensium ut Honestorum et Judicatorum Evae Helisabethae Reginae Annae Dorotheae minorennum liberorum ... Tutorum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "Hieronymi Wendelski Aromatary ... ut Honestorum et Judicatorum Evae Helisabethae Reginae Annae Dorotheae minorennum liberorum ... Tutorum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "Jacobi Gonszatek Sellificis ... ut Honestorum et Judicatorum Evae Helisabethae Reginae Annae Dorotheae minorennum liberorum ... Tutorum"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "spouse_of",
+      "tail_entity_id": "E19",
+      "evidence": "olim Honestorum Stanislai Starzynka et Reginae prioris matrimonij coniugum"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "spouse_of",
+      "tail_entity_id": "E19",
+      "evidence": "Thomae Klim eiusdem praefatae Reginae Starzynczyna secundi matrimonij mariti"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "parent_of",
+      "tail_entity_id": "E13",
+      "evidence": "Evae Helisabethae Reginae Annae Dorotheae minorennum liberorum olim Honestorum Stanislai Starzynka et Reginae prioris matrimonij coniugum"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "parent_of",
+      "tail_entity_id": "E13",
+      "evidence": "Evae Helisabethae Reginae Annae Dorotheae minorennum liberorum olim Honestorum Stanislai Starzynka et Reginae prioris matrimonij coniugum"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "parent_of",
+      "tail_entity_id": "E21",
+      "evidence": "Thomae Klim ... Judicae Catherinae suae filiae ex eadem Regina Starzynczyna susceptae"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "parent_of",
+      "tail_entity_id": "E21",
+      "evidence": "Catherinae suae filiae ex eadem Regina Starzynczyna susceptae"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "guardian_of",
+      "tail_entity_id": "E21",
+      "evidence": "uti legitimi et naturalis tutoris Judicae Catherinae suae filiae"
+    }
+  ]
+}

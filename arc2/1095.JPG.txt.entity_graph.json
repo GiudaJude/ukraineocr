@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/1095.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Scabinibus",
+        "Officij"
+      ],
+      "justification": "Reference to the city judicial bench (Scabini) and the court sentence (Officij sententia)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wyzowiec",
+      "mention_texts": [
+        "Joannes Wyzowiec"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears in the court record entry header as a named individual losing citizenship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szlek",
+      "mention_texts": [
+        "Joannes Szlek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "One of the sellers appearing personally before the court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gallus Murator",
+      "mention_texts": [
+        "Gallus Murator"
+      ],
+      "descriptive_mentions": [
+        "Suburbanus"
+      ],
+      "justification": "Co-seller appearing before the court, described as a suburban bricklayer/builder."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0816: Gregorius",
+      "mention_texts": [
+        "Gregorii"
+      ],
+      "descriptive_mentions": [
+        "affines"
+      ],
+      "justification": "Mentioned as an adult in-law/relative consenting to the sale."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Iuvan",
+      "mention_texts": [
+        "Iuuani"
+      ],
+      "descriptive_mentions": [
+        "affines",
+        "aetate iam adultis"
+      ],
+      "justification": "Mentioned alongside Gregorius as an adult relative consenting to the property transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Woronolko",
+      "mention_texts": [
+        "Joanni Woronolki"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopolien",
+        "Emptori",
+        "eiusdem Emptoris"
+      ],
+      "justification": "Buyer of the garden property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The suburb of Lviv where the garden is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolien"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "The city context for the council, suburbs, and residents."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginta florenorum pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid for the garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannes Szlek Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "Ciuitatis eiusque Suburbio Haliciensi nuncupato"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joanni Woronolki Suburbano Leopolien"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sold_to",
+      "tail_entity_id": "E7",
+      "evidence": "Joannes Szlek... vendidisse praesentique inscriptione vigore vendere hortum suum... Joanni Woronolki"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sold_to",
+      "tail_entity_id": "E7",
+      "evidence": "Gallus Murator... vendidisse praesentique inscriptione vigore vendere hortum suum... Joanni Woronolki"
+    }
+  ]
+}

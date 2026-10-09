@@ -1,0 +1,226 @@
+{
+  "document_id": "arc2/0463.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Manuel Ciriło",
+      "mention_texts": [
+        "Manuelem Ciriło"
+      ],
+      "descriptive_mentions": [
+        "mercatores",
+        "citatos"
+      ],
+      "justification": "Named merchant cited before the city council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Janaki Smotoc",
+      "mention_texts": [
+        "Janaki Smotoc"
+      ],
+      "descriptive_mentions": [
+        "mercatores",
+        "citatos"
+      ],
+      "justification": "Named merchant cited before the city council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Moyses",
+      "mention_texts": [
+        "Moysen"
+      ],
+      "descriptive_mentions": [
+        "Iudaeum Constantinopolitanum",
+        "mercatores",
+        "citatos"
+      ],
+      "justification": "Jewish merchant from Constantinople cited before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Imporium Leopoliense",
+        "Leopoliense",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in various forms throughout the legal record."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "Anno 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year reference in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Officio",
+        "Officium Consulare Leopoliense",
+        "Actis praesentibus",
+        "Proconsulem et Consules Civitatis nostrae Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "hoc idem Officium Consulare Leopoliense",
+        "citatos"
+      ],
+      "justification": "Lviv municipal council mentioned as official recipient and defendant."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus iij"
+      ],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Domini Domini clementissimi",
+        "Rex Poloniae Magnus Dux Lithuaniae Russiae Prussiae Masouiae Samogoitiae Liuoniae nec non Suecorum Gottorum Vuandalorumque Rex",
+        "Rex",
+        "nos"
+      ],
+      "justification": "King Sigismund III Vasa of Poland issuing the royal decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the royal titulary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0027: Lviv Castle Court",
+      "mention_texts": [
+        "officij Castrensis Leopoliensis",
+        "Officium Castrense Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Castle Court whose verdict was appealed."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Błażowski",
+      "mention_texts": [
+        "Sigismundi Blazowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Sucipola Podoliae",
+        "Actorem"
+      ],
+      "justification": "Nobleman and Podolian sub-chamberlain bringing suit."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Podolia",
+      "mention_texts": [
+        "Podoliae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region in the title of Sigismundus Błażowski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Pompeius Stala",
+      "mention_texts": [
+        "Pompeium Stalam"
+      ],
+      "descriptive_mentions": [
+        "famatum",
+        "mercatorem"
+      ],
+      "justification": "Merchant mentioned in connection with imported Malmsey wine."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Laskowski",
+      "mention_texts": [
+        "Nicolaum Laskowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Noble representative appearing for the plaintiff."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Petrus Andreas Andreowicz",
+      "mention_texts": [
+        "Petrum Andream Andreowicz"
+      ],
+      "descriptive_mentions": [
+        "Scabinum et Notarium Leopoliensem"
+      ],
+      "justification": "Lviv bench officer and notary acting as plenipotentiary for the city."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "ruler_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sigismundus iij Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "holds_title_in",
+      "tail_entity_id": "E11",
+      "evidence": "Sigismundi Blazowski Sucipola Podoliae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "officij Castrensis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Officium Consulare Leopoliense"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "partibus Actoria per Nobilem Nicolaum Laskowski"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "Citata vero per Petrum Andream Andreowicz Scabinum et Notarium Leopoliensem pleni suis coram Iudicio nostro comparent"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "plaintiff_against",
+      "tail_entity_id": "E6",
+      "evidence": "inter Instigatorem Officij Castrensis Leopoliensis ea delatione Generosi Sigismundi Blazowski Sucipola Podoliae Actorem et ipsius et Provisorem Proconsulem et Consules Civitatis nostrae Leopoliensis citatos"
+    }
+  ]
+}

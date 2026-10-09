@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0801.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Felix Krzysztof",
+      "mention_texts": [
+        "Felice Krzyzstoff"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the opening fragment as a husband from a prior marriage."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Swidwakha",
+      "mention_texts": [
+        "Paulo Swidwakha"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the decree heading: 'Decretum Pro Paulo Swidwakha'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Severinus Albrecht Scabinoski Ruszczyc",
+      "mention_texts": [
+        "Severinum Albrechum Scabino- schi Ruszczyc"
+      ],
+      "descriptive_mentions": [
+        "Zellifiam sociam Lectorem",
+        "Actorem",
+        "Actore",
+        "Actor",
+        "praefatum Actorem",
+        "Actor sua delectationis caussa fecit"
+      ],
+      "justification": "Actor suing for expenses incurred during courtship."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Anna Sydliczanka",
+      "mention_texts": [
+        "Annam Sydlitzanka"
+      ],
+      "descriptive_mentions": [
+        "matrem",
+        "citata",
+        "partes amba"
+      ],
+      "justification": "Mother cited together with her daughter regarding courtship expenses."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Catherina Sydliczanka",
+      "mention_texts": [
+        "Judica Catherinam Sydlitzanka",
+        "Judica Catherina"
+      ],
+      "descriptive_mentions": [
+        "Filia",
+        "partys citata praedicta",
+        "praedicta citata",
+        "praedicta Citata"
+      ],
+      "justification": "Daughter courted by the plaintiff, cited in the dispute over gifts and costs."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wysowski",
+      "mention_texts": [
+        "Joanne Wysowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the trailing heading: 'Decretum pro Joanne Wysowski'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officio Domini Advocati"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officium",
+        "Decreto Officij",
+        "Decreto praesenti"
+      ],
+      "justification": "The municipal authority issuing the decree and hearing the liquidation of expenses."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "forum Civile"
+      ],
+      "justification": "The civil court to which the parties were remanded for reimbursement of damages and expenses."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lviv Episcopal Official",
+      "mention_texts": [
+        "Domini Officialis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Banni Domini Officialis Leopoliensis",
+        "foro Spirituali"
+      ],
+      "justification": "The ecclesiastical judge who ruled on the validity of the espousals."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "52 florins 24 grosze",
+      "mention_texts": [
+        "quinquaginta duos Florenos et grossos viginti quatuor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of expenses calculated and submitted by the plaintiff."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard dating formula referencing the preceding date entry for 1595."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "Annam Sydlitzanka matrem suo et Judica Catherinam Sydlitzanka Filia nominibus citatam"
+    }
+  ]
+}

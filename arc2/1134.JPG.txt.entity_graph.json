@@ -1,0 +1,90 @@
+{
+  "document_id": "arc2/1134.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum pecuniae et numeri Polonicalis",
+        "Centum Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money registered in the text: 'Centum pecuniae et numeri Polonicalis' and 'Centum Florenos'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes",
+        "Agneti Duchnina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "uxori relicta"
+      ],
+      "justification": "Honesta Agnes, surviving wife of the late Joannes Duchna, also called Agneti Duchnina."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Duchna"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Aurifabri",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased goldsmith and citizen of Lviv, referred to as 'olim Joannis Duchna'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced via the adjective 'Civis Leopoliensis' and the place of legal recording 'Actum Leopoli'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo incurrentibus Paschae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Liturgical feast specified as the due date for the payment."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno 1597"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Calendar year mentioned in the contract: 'in Anno 1597. proxime sequenti venturo'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Agnes Famati olim Joannis Duchna Aurifabri Civis Leopoliensis uxori relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannis Duchna Aurifabri Civis Leopoliensis"
+    }
+  ]
+}

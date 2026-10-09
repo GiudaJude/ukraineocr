@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/1266.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv mentioned as the judicial forum for resignation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festum Sancti Michaelis"
+      ],
+      "descriptive_mentions": [
+        "proximum"
+      ],
+      "justification": "Feast day cited as the deadline for clearing and leaving the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czasch",
+      "mention_texts": [
+        "Stanislaus Czascher",
+        "Stanislaus Czasch",
+        "Stanislaum Cvais"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "coniuges",
+        "Cives Leopolienses",
+        "maritum",
+        "tutorem suum legitimum",
+        "scabini"
+      ],
+      "justification": "Lviv assessor and citizen appearing as seller of the property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Waisz",
+      "mention_texts": [
+        "Stanislaus Waisz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory/assessor appearing at the conclusion of the previous entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedwigis"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "coniugis"
+      ],
+      "justification": "Wife of Stanislaus Czasch, co-seller of the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis iisdem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The official municipal registry containing the previous transaction records."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Civitatis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in civic titles and municipal jurisdiction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the sold plot was situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Haterli",
+      "mention_texts": [
+        "Simonis Haterli"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Neighboring property holder whose successors border the plot."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Becker",
+      "mention_texts": [
+        "Stanislao Becker"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus",
+        "Civibus Leopoliensibus"
+      ],
+      "justification": "Buyer of the property together with his wife Dorothea."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus",
+        "Civibus Leopoliensibus"
+      ],
+      "justification": "Wife of Stanislaus Becker, co-purchaser of the property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "140 Polish florins",
+      "mention_texts": [
+        "centri quadraginta florenorum sexione et marci Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Purchase price for the plot of land."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislaus Czasch et Hedwigis coniuges Cives Leopolienses ille per se haec vero per eundem maritum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Czasch et Hedwigis coniuges Cives Leopolienses ille per se haec vero per eundem maritum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislao Becker et Dorotheae coniugibus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Stanislao Becker et Dorotheae coniugibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in eiusdem Civitatis Suburbio Haliciensi dicto"
+    }
+  ]
+}

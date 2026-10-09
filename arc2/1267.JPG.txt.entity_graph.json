@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/1267.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bolder",
+      "mention_texts": [
+        "Bolder"
+      ],
+      "descriptive_mentions": [
+        "emptor"
+      ],
+      "justification": "Buyer mentioned in the agreement regarding census payment for the purchased plot."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cracas",
+      "mention_texts": [
+        "Stanisla- us Cracas",
+        "Stanislaus Cracas"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "praedictus",
+        "coniuges venditores"
+      ],
+      "justification": "Party selling the property and agreeing to census payments."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sacher",
+      "mention_texts": [
+        "Stanislaum Sacher"
+      ],
+      "descriptive_mentions": [
+        "emptoribus",
+        "emptores"
+      ],
+      "justification": "Buyer acquitted by the sellers upon payment of the purchase price."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheaque",
+        "Dorotheam"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Wife of the buyer Stanislaus Sacher, acquitted upon payment of the purchase price."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "centum quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "effati precii"
+      ],
+      "justification": "Total purchase price paid for the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "12 groszy",
+      "mention_texts": [
+        "grossos duodecim"
+      ],
+      "descriptive_mentions": [
+        "census"
+      ],
+      "justification": "Annual municipal census payment due from the purchased plot."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "6 groszy",
+      "mention_texts": [
+        "grossos sex"
+      ],
+      "descriptive_mentions": [
+        "census"
+      ],
+      "justification": "Annual municipal census payment due from Stanislaus Cracas."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simoni"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino"
+      ],
+      "justification": "Lviv bench official granted power of attorney to perform the resignation of the plot."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civil banned court of Lviv where resignation is to be registered."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis huius"
+      ],
+      "justification": "City where the court sessions and property are situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "eosdem Stanislaum Sacher et Dorotheam effati pecuniae de sufficientissima satisfactione et solutione effati precii centum quinquaginta Florenorum quietauerunt"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "eosdem Stanislaum Sacher et Dorotheam effati pecuniae de sufficientissima satisfactione et solutione effati precii centum quinquaginta Florenorum quietauerunt"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honorato Simoni Scabino in Judicio Exposito Bannito Leopoli"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "Judicio Exposito Bannito Leopoli"
+    }
+  ]
+}

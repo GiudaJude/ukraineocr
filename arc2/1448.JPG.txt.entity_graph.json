@@ -1,0 +1,209 @@
+{
+  "document_id": "arc2/1448.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Sessione Consulari",
+        "Officij",
+        "eisdem Actis",
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Camerae"
+      ],
+      "justification": "The civic governing council and court of Lviv mentioned in the decrees and records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kolondzy",
+      "mention_texts": [
+        "Joannes Kolondzy"
+      ],
+      "descriptive_mentions": [
+        "Cothemasistri Contubernij praefati Aurificum"
+      ],
+      "justification": "Guild elder of the goldsmiths named in the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Simonnek",
+      "mention_texts": [
+        "Albertus Simonnek"
+      ],
+      "descriptive_mentions": [
+        "Cothemasistri Contubernij praefati Aurificum"
+      ],
+      "justification": "Guild elder of the goldsmiths named in the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Goldsmiths' Guild",
+      "mention_texts": [
+        "Contubernij praefati Aurificum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Craft guild of the goldsmiths mentioned in the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wandert",
+      "mention_texts": [
+        "Joannes Wandert"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Cracoviensis"
+      ],
+      "justification": "Citizen of Kraków issuing a quitclaim for a paid debt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Poland of which Joannes Wandert is a citizen."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "350 Polish florins",
+      "mention_texts": [
+        "Florenis tercentis quinquaginta Polonicales et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid and receipted."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia ante Festum Purificationis Beatae Mariae Virginis proxima Anno Domini 159 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/contract cited in the quitclaim (January 31, 1595)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Alexius Wasilowicz",
+      "mention_texts": [
+        "Alexii Wasilawic",
+        "Alexio Wasilowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sutore Rutheno Cive Leopoliensi Debitore suo",
+        "eundem"
+      ],
+      "justification": "Ruthenian shoemaker and citizen of Lviv who repaid the debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the citizenship and council titles."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Blasius Swirski",
+      "mention_texts": [
+        "Blasij Swirski",
+        "Blasium Swirski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Famatus",
+        "Canonicum Civem Leopoliensis",
+        "actorem",
+        "affines et cohabitatores Domus Lapideae Baikowska"
+      ],
+      "justification": "Plaintiff in the council decree regarding property rights."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Antonius Sołabowsky",
+      "mention_texts": [
+        "Antonium Sołabowsky"
+      ],
+      "descriptive_mentions": [
+        "serrafatorem citatum",
+        "citatum",
+        "affines et cohabitatores Domus Lapideae Baikowska",
+        "citatum praefatum"
+      ],
+      "justification": "Defendant in the property dispute decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Bajkowska",
+      "mention_texts": [
+        "Domus Lapideae Baikowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Stone house co-inhabited by the parties to the dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Kolondzy et Albertus Simonnek Cothemasistri Contubernij praefati Aurificum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Kolondzy et Albertus Simonnek Cothemasistri Contubernij praefati Aurificum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannes Wandert Civis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Alexio Wasilowicz Sutore Rutheno Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Blasium Swirski Canonicum Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "cohabitant_of",
+      "tail_entity_id": "E13",
+      "evidence": "Blasium Swirski Canonicum Civem Leopoliensis actorem, et Antonium Sołabowsky serrafatorem citatum affines et cohabitatores Domus Lapideae Baikowska"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "cohabitant_of",
+      "tail_entity_id": "E13",
+      "evidence": "Blasium Swirski Canonicum Civem Leopoliensis actorem, et Antonium Sołabowsky serrafatorem citatum affines et cohabitatores Domus Lapideae Baikowska"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "document_id": "arc2/1103.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Apollonia",
+      "mention_texts": [
+        "Apollonia"
+      ],
+      "descriptive_mentions": [
+        "matri suae",
+        "eadem praedicta",
+        "dicta quoque recognoscens",
+        "recognoscens"
+      ],
+      "justification": "Donor of the hereditary share and mother of Catherina."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catherina Czyka",
+      "mention_texts": [
+        "Catherina",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "consorte legitima",
+        "filia sua",
+        "praedictae",
+        "filiae suae",
+        "eadem filia sua",
+        "praedicta Catherina",
+        "praefatae filiae suae",
+        "donatariae"
+      ],
+      "justification": "Daughter of Apollonia and wife of Stanislaus Czyka who receives the donation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czyka",
+      "mention_texts": [
+        "Stanislai Czyki"
+      ],
+      "descriptive_mentions": [
+        "prouidi",
+        "Juratoris suburbani Leopoliensis",
+        "maritum suum",
+        "praenominatum maritum suum"
+      ],
+      "justification": "Suburban juror of Lviv and husband of Catherina."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Lucas Paluchowic",
+      "mention_texts": [
+        "Lucas Sci Paluchowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or scribe recorded at the conclusion of the entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Ciuitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "eius Ciuitatis"
+      ],
+      "justification": "City where the act took place and whose jurisdiction and suburbs are specified."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court before which the resignation of the donated property is to be performed."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Formulaic cross-reference to the current year and date of the preceding record."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "Catherina ... filia sua"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefatae filiae suae Catherinae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislai Czyki Juratoris suburbani Leopoliensis consorte legitima"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedicta Catherina per praenominatum maritum suum"
+    }
+  ]
+}

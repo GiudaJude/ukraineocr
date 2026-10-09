@@ -1,0 +1,256 @@
+{
+  "document_id": "arc2/0136.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Helisabetha",
+      "mention_texts": [
+        "Helisabethae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "sororis",
+        "coniugum"
+      ],
+      "justification": "Named as the sister receiving ceded rights and later as the wife of Stanislaus Tanicki."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Skawiński",
+      "mention_texts": [
+        "Jacobus Scawinski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Censor",
+        "Civis Premisliensis"
+      ],
+      "justification": "Appears before the court on behalf of himself, his wife, and relatives."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Premisliensis",
+        "Praemisliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the citizenship/origin of Jacobus Scawinski and Zofia Jagatkowa."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Wojtkowna",
+      "mention_texts": [
+        "Catherinae Woiathowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae"
+      ],
+      "justification": "Named as the wife of Jacobus Scawinski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Tanicki",
+      "mention_texts": [
+        "Stanislai Tanicki"
+      ],
+      "descriptive_mentions": [
+        "affinis sui"
+      ],
+      "justification": "In-law of Jacobus Scawinski and husband of Helisabetha."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Zofia Jagatkowa",
+      "mention_texts": [
+        "Zofiae Jagatkowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Civis Praemisliensis",
+        "viduae",
+        "Tutricis"
+      ],
+      "justification": "Widow and appointed guardian of the late Albert Woicik's children."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wójcik",
+      "mention_texts": [
+        "Alberti Woicik"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Pellionis",
+        "Civis Leopoliensis",
+        "praefati"
+      ],
+      "justification": "Deceased furrier of Lviv whose estate and children are subjects of the agreement."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro"
+      ],
+      "justification": "Council office that assigned the guardians to the children."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobus Gonsatek"
+      ],
+      "descriptive_mentions": [
+        "Pelliones",
+        "Tutores",
+        "Contutornales"
+      ],
+      "justification": "Furrier and co-guardian of Albert Woicik's children."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Własij Bzył",
+      "mention_texts": [
+        "Wlascii Bzył"
+      ],
+      "descriptive_mentions": [
+        "Pelliones",
+        "Tutores",
+        "Contutornales"
+      ],
+      "justification": "Furrier and co-guardian acting on behalf of Albert Woicik's children."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the city of residence/citizenship of Albertus Woicik."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Simon Sbas",
+      "mention_texts": [
+        "Simon Sbas",
+        "Simonis Sbas"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Gladiator",
+        "praedicti"
+      ],
+      "justification": "Gladiator and party to the concordia, current husband of Dorothea."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "primarum nuptiarum olim praefati Alberti Woicik relicta",
+        "coniunx legitima"
+      ],
+      "justification": "Widow of Albertus Woicik and current wife of Simon Sbas."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Wojcikowska House",
+      "mention_texts": [
+        "Woicikowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Stone house subject to division and agreement between the parties."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Armenian Street",
+      "mention_texts": [
+        "Zernianensi"
+      ],
+      "descriptive_mentions": [
+        "platea"
+      ],
+      "justification": "Street where the Wojcikowska house is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobus Scawinski Censor Civis Premisliensis suo et Honestae Catherinae Woiathowna coniugis suae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislai Tanicki affinis sui et Helisabethae coniugum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "relative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislai Tanicki affinis sui"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Dorothea primarum nuptiarum olim praefati Alberti Woicik relicta"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Dorothea... praedicti Simonis Sbas coniunx legitima"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobus Scawinski Censor Civis Premisliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Zofiae Jagatkowa Civis Praemisliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Alberti Woicik Pellionis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E15",
+      "evidence": "in domo lapidea Woicikowska in platea Zernianensi sita"
+    }
+  ]
+}

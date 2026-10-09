@@ -1,0 +1,258 @@
+{
+  "document_id": "arc2/1546.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0009: Franciscus Wengr",
+      "mention_texts": [
+        "Franciscus Calceator",
+        "Franciscus Calceator"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "secundarum nuptiarum coniuges",
+        "Suburbani Leopoliense",
+        "ille",
+        "maritum suum legitimum Tutorem"
+      ],
+      "justification": "Shoemaker appearing as the second husband and legal guardian of Anna."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuges",
+        "Suburbani Leopoliense",
+        "hec",
+        "primarum nuptiarum Honesti olim Maira Bzdelka alias Nowak Carnificis Suburbani Leopoliense consortis"
+      ],
+      "justification": "Wife of Franciscus Calceator and former wife of the deceased Mathias Nowak."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in the territorial descriptor 'Suburbani Leopoliense'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 40 florins received for the third share of the estate."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Bzdelka",
+      "mention_texts": [
+        "Maira Bzdelka alias Nowak",
+        "Mathie Nowak",
+        "Mathie Nowak"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Carnificis",
+        "Suburbani Leopoliense",
+        "mariti sui"
+      ],
+      "justification": "Deceased butcher of the Lviv suburb, former husband of Anna and Sophia."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the disputed house is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Alberti Domagala",
+        "Albertus Damagala"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Carnificum Contubernii Cestmagistrorum",
+        "Tutorum ex Officio assignatorum",
+        "Cestmay-",
+        "Tutores praefati"
+      ],
+      "justification": "Butcher and guildmaster appointed guardian of the deceased Nowak's children."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Ziemianek",
+      "mention_texts": [
+        "Mathie Ziemianek",
+        "Mathias Ziemianek"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Carnificum Contubernii Cestmagistrorum",
+        "Tutorum ex Officio assignatorum",
+        "Cestmay-",
+        "Tutores praefati"
+      ],
+      "justification": "Butcher and guildmaster acting as guardian of Nowak's children."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Butchers' Guild",
+      "mention_texts": [
+        "Carnificum Contubernii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Guild of butchers whose masters are appointed guardians."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "First wife of Mathias Nowak, mother of Eva and Joannes."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Eva Nowak",
+      "mention_texts": [
+        "Euae"
+      ],
+      "descriptive_mentions": [
+        "liberis praedicti Mathie Nowak ex priori matrimonio cum Honesta Sophia susceptis",
+        "liberis prioris matrimonii"
+      ],
+      "justification": "Daughter of Mathias Nowak and Sophia."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Nowak",
+      "mention_texts": [
+        "Joanni"
+      ],
+      "descriptive_mentions": [
+        "liberis praedicti Mathie Nowak ex priori matrimonio cum Honesta Sophia susceptis",
+        "liberis prioris matrimonii"
+      ],
+      "justification": "Son of Mathias Nowak and Sophia."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civil bannite court presided over by the Senior Scabinus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Franciscus Calceator et Anna secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Annae primarum nuptiarum Honesti olim Maira Bzdelka alias Nowak Carnificis Suburbani Leopoliense consortis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Mathie Nowak ex priori matrimonio cum Honesta Sophia susceptis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E11",
+      "evidence": "liberis praedicti Mathie Nowak ex priori matrimonio cum Honesta Sophia susceptis nimirum Euae et Joanni"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "parent_of",
+      "tail_entity_id": "E12",
+      "evidence": "liberis praedicti Mathie Nowak ex priori matrimonio cum Honesta Sophia susceptis nimirum Euae et Joanni"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E11",
+      "evidence": "liberis praedicti Mathie Nowak ex priori matrimonio cum Honesta Sophia susceptis nimirum Euae et Joanni"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E12",
+      "evidence": "liberis praedicti Mathie Nowak ex priori matrimonio cum Honesta Sophia susceptis nimirum Euae et Joanni"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "Alberti Domagala et Mathie Ziemianek Carnificum Contubernii Cestmagistrorum tanquam Tutorum ex Officio assignatorum liberis praefati Mathie Nowak ... nimirum Euae et Joanni"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "Alberti Domagala et Mathie Ziemianek Carnificum Contubernii Cestmagistrorum tanquam Tutorum ex Officio assignatorum liberis praefati Mathie Nowak ... nimirum Euae et Joanni"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "Alberti Domagala et Mathie Ziemianek Carnificum Contubernii Cestmagistrorum tanquam Tutorum ex Officio assignatorum liberis praefati Mathie Nowak ... nimirum Euae et Joanni"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "Alberti Domagala et Mathie Ziemianek Carnificum Contubernii Cestmagistrorum tanquam Tutorum ex Officio assignatorum liberis praefati Mathie Nowak ... nimirum Euae et Joanni"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Alberti Domagala et Mathie Ziemianek Carnificum Contubernii Cestmagistrorum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Alberti Domagala et Mathie Ziemianek Carnificum Contubernii Cestmagistrorum"
+    }
+  ]
+}

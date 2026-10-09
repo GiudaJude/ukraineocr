@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/0774.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czosser",
+      "mention_texts": [
+        "Stanislaus Czosser",
+        "Stanislao Czosser"
+      ],
+      "descriptive_mentions": [
+        "ferrifabri",
+        "fratri suo germano",
+        "Coniugibus",
+        "donatario suo"
+      ],
+      "justification": "Named as the grantee of the land, identified as the brother of Catherina and a blacksmith."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catherina Pioroczyna",
+      "mention_texts": [
+        "Catherina Glowczina",
+        "Catherina Pioroczyna",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Honesti Simonis Giowka de maiori Kolomyia uxor legitima",
+        "ipsa",
+        "donatrix"
+      ],
+      "justification": "Named as the grantor donating land to her brother Stanislaus Czosser."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Giowka",
+      "mention_texts": [
+        "Simonis Giowka"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "maritus suus"
+      ],
+      "justification": "Husband of Catherina Pioroczyna from Kolomyia."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Czaus",
+      "mention_texts": [
+        "Paulum Czaus"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum actum assumptum et ex officio modo approbatum"
+      ],
+      "justification": "Appointed guardian/tutor assisting Catherina in the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kołomyja",
+      "mention_texts": [
+        "maiori Kolomyia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Simon Giowka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis",
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act and the property are located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris",
+        "ijsdem Actis nostris",
+        "Iudicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civic municipal/court body registering the deed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria sexta post Dominicam Laetare proxima Anno Domini 1594",
+        "Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous act cited regarding renunciation of rights."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjectival mention designating the Kraków hill (clivus) in Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0082: LOC-0022: Church of the Holy Cross",
+      "mention_texts": [
+        "Ecclesiam Sanctae Crucis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Church near which the donated land is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "hospitalis"
+      ],
+      "descriptive_mentions": [
+        "fundum"
+      ],
+      "justification": "Hospital bordering the donated parcel of land."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus"
+      ],
+      "justification": "Wife of Stanislaus Czosser, recipient of the land alongside her husband."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesto Stanislao Czosser ferrifabri fratri suo germano"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Honesto Stanislao Czosser ferrifabri fratri suo germano et Dorotheae Coniugibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Catherina Pioroczyna Honesti Simonis Giowka de maiori Kolomyia uxor legitima"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "per Honestum Paulum Czaus tutorem sibi ad eum actum assumptum"
+    }
+  ]
+}

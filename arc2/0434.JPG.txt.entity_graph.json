@@ -1,0 +1,230 @@
+{
+  "document_id": "arc2/0434.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "relicti"
+      ],
+      "justification": "Deceased person mentioned in the concluding sentence of the preceding record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Magi",
+      "mention_texts": [
+        "Simons",
+        "Simon Magi"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Nobilis Dominus",
+        "collega noster consularis"
+      ],
+      "justification": "Council colleague lodging a formal legal protest against his co-heir Stanislaus Anserinus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislai",
+        "Stanislai Friserin",
+        "Stanislaum Anserinum"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Nobilis Dominus",
+        "collegae ibidem nostri",
+        "domus lapideae Krayzerowska cohaeredis",
+        "praedictum Dominum",
+        "cohaeredem suum",
+        "pars adversa"
+      ],
+      "justification": "Lviv council colleague and co-heir of the Krayzerowska house against whom Simon Magi protests."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Krayzerowska House",
+      "mention_texts": [
+        "Krayzerowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae"
+      ],
+      "justification": "Stone house co-inherited by Simon Magi and Stanislaus Anserinus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in civic titles and origins."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "actis",
+        "officio"
+      ],
+      "justification": "Municipal council in whose official records the protest and consensus were recorded."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Kosta Thathowicz",
+      "mention_texts": [
+        "Festa Thathowic",
+        "Kosta Thathowicz",
+        "Kosta"
+      ],
+      "descriptive_mentions": [
+        "olim Famati",
+        "flumen et Civis Leopoliensis",
+        "praedicti"
+      ],
+      "justification": "Deceased citizen of Lviv whose surviving wife and son appear before the court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Oluchna Thathowicz",
+      "mention_texts": [
+        "Oluchna",
+        "Sluchna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors relicta vidua",
+        "superstitis"
+      ],
+      "justification": "Surviving widow of Kosta Thathowicz appearing in court with her guardian."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Benedictus Fachorowicz",
+      "mention_texts": [
+        "Benedictum Fachorowicz",
+        "Domaniewski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "dictum",
+        "fenerarium",
+        "Civem Leopoliensem",
+        "generum suum",
+        "Tutorem officio approbatum"
+      ],
+      "justification": "Moneylender and son-in-law serving as court-approved guardian to Oluchna Thathowicz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Benedictus Thathowicz",
+      "mention_texts": [
+        "Benedictus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "filius legitimus"
+      ],
+      "justification": "Legitimate son of the late Kosta Thathowicz and his surviving widow Oluchna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "collega noster consularis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "collegae ibidem nostri"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "co_heir_of",
+      "tail_entity_id": "E4",
+      "evidence": "tanquam domus lapideae Krayzerowska cohaeredis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "co_heir_of",
+      "tail_entity_id": "E4",
+      "evidence": "contra praedictum Dominum Stanislaum Anserinum cohaeredem suum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "protested_against",
+      "tail_entity_id": "E3",
+      "evidence": "protestatus est indemnitati sua praecavendo contra praedictum Dominum Stanislaum Anserinum cohaeredem suum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simon Magi Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "widow_of",
+      "tail_entity_id": "E7",
+      "evidence": "Oluchna olim Famati Kosta Thathowicz flumen et Civis Leopoliensis consors relicta vidua"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Kosta Thathowicz flumen et Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_tutor_of",
+      "tail_entity_id": "E8",
+      "evidence": "per assumptum sibi Tutorem officio approbatum Famatum Benedictum Fachorowicz dictum Domaniewski"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E8",
+      "evidence": "generum suum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "son_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honestus Benedictus praedicti Kosta et Sluchna superstitis filius legitimus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "son_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestus Benedictus praedicti Kosta et Sluchna superstitis filius legitimus"
+    }
+  ]
+}

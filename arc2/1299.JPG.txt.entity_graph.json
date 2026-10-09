@@ -1,0 +1,214 @@
+{
+  "document_id": "arc2/1299.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Lissakowski",
+      "mention_texts": [
+        "Stanislaum Lissakowski"
+      ],
+      "descriptive_mentions": [
+        "Generosos",
+        "nostrum Capitaneum",
+        "actores"
+      ],
+      "justification": "Noble plaintiff and captain in the litigation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Casparus Piasczyński",
+      "mention_texts": [
+        "Casparum Piasczynski",
+        "Gasparo Piasczynski"
+      ],
+      "descriptive_mentions": [
+        "Generosos",
+        "confortatorem actores",
+        "altera parte",
+        "eodem Generoso"
+      ],
+      "justification": "Co-plaintiff in the suit against Josephus Wolfowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Josephum Wolfowicz",
+        "Josephus Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "citatum",
+        "Citatum",
+        "citatus",
+        "eundem citatum",
+        "idem"
+      ],
+      "justification": "Defendant and burgher of Lviv, identified as Josephus Wolfowicz in the corpus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "mille Florenorum Florenorumque Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total debt sum claimed by the plaintiffs."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliensis",
+        "Officium Consulares Leopoliensis",
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Decretum Officii illius",
+        "hoc idem Officium Consulare Leopoliense"
+      ],
+      "justification": "Lviv consular office that rendered the initial decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "35 florins 18 groschen",
+      "mention_texts": [
+        "Florenorum triginta quinque grossos decem octo"
+      ],
+      "descriptive_mentions": [
+        "restam debiti"
+      ],
+      "justification": "Specific balance decreed to be paid."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the royal confirmation decree was given."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "sabbato post festum Sancti Valentini proximo. Anno Domini Millesimo Quingentesimo Nonagesimo sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issuance of the decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae",
+        "Poloniæ"
+      ],
+      "descriptive_mentions": [
+        "Regnorum nostrorum",
+        "Regni Regiae"
+      ],
+      "justification": "Kingdom of Poland mentioned in the regnal date and official title."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Sweden mentioned in the regnal dating formula."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Tarnowski",
+      "mention_texts": [
+        "Franciscus Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Regni Cancellarius",
+        "Notarius"
+      ],
+      "justification": "Royal notary/official issuing the decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joannis Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Celsissimi Principis"
+      ],
+      "justification": "Prince Joannes Tarnowski named in the document."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Łęczyca",
+      "mention_texts": [
+        "Lanciciensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Palatinate/region of Łęczyca mentioned in the official title."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "L. Szczerbicz",
+      "mention_texts": [
+        "L. Szczerbicz"
+      ],
+      "descriptive_mentions": [
+        "MP."
+      ],
+      "justification": "Signatory of the record."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatum Josephum Wolfowicz Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "litigates_against",
+      "tail_entity_id": "E4",
+      "evidence": "inter Generosos Stanislaum Lissakowski nostrum Capitaneum et Casparum Piasczynski confortatorem actores, et Famatum Josephum Wolfowicz Civem Leopoliensem citatum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "litigates_against",
+      "tail_entity_id": "E4",
+      "evidence": "inter Generosos Stanislaum Lissakowski nostrum Capitaneum et Casparum Piasczynski confortatorem actores, et Famatum Josephum Wolfowicz Civem Leopoliensem citatum"
+    }
+  ]
+}

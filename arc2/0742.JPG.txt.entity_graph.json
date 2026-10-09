@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/0742.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the acts were registered and of which the persons were citizens or residents."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda an- festum Sanctorum Trium Regum Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "ut supra"
+      ],
+      "justification": "Date of recording of both legal acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Glinka",
+      "mention_texts": [
+        "Andreas Glinka",
+        "Andreas",
+        "Glinka",
+        "Scayba"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Coniuges",
+        "Cives Leopolienses",
+        "ille per se",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Debtor, furrier and citizen of Lviv appearing before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0681: Helisabetha",
+      "mention_texts": [
+        "Helisabeta"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Cives Leopolienses",
+        "haec vero per eundem maritum tutorem suum legitimum"
+      ],
+      "justification": "Wife of Andreas Glinka, co-debtor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "147 Polish florins",
+      "mention_texts": [
+        "florenos Centum quadraginta septem pecunia et numeri Polonicalis",
+        "147 florenos"
+      ],
+      "descriptive_mentions": [
+        "veri iusti liquidique debiti",
+        "hanc ipsam summam"
+      ],
+      "justification": "Sum of money borrowed by Andreas Glinka and his wife."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gaspare Gulinski",
+        "Gulinski"
+      ],
+      "descriptive_mentions": [
+        "debili et spectabili Domino",
+        "Collega suo Consulari"
+      ],
+      "justification": "Lviv city councillor and creditor in the loan contract."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij"
+      ],
+      "descriptive_mentions": [
+        "Officij adminiculo"
+      ],
+      "justification": "Lviv municipal council office administering the record and hypothecation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Agnes 1595",
+      "mention_texts": [
+        "Festo Sanctae Agnetis Virginis"
+      ],
+      "descriptive_mentions": [
+        "proxime venturo celebrari solitis"
+      ],
+      "justification": "Date of the upcoming Lviv fairs set as the deadline for repayment."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Cosmas de Campis",
+      "mention_texts": [
+        "Cosmae de Campis",
+        "Cosmas de Campis"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Graecus",
+        "Mercator advena Leopoliensis"
+      ],
+      "justification": "Greek merchant resident in Lviv lodging a legal protest."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Dziani Salvago",
+      "mention_texts": [
+        "Hieronimum Dziani Salvago"
+      ],
+      "descriptive_mentions": [
+        "Graecum",
+        "quondam Zlotieti factorem"
+      ],
+      "justification": "Greek factor against whom Cosmas de Campis filed a protest."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Zlotietus",
+      "mention_texts": [
+        "Zlotieti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Former principal/employer of Hieronymus Dziani Salvago."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Glinka Pellio et Helisabeta Coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_to",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Glinka Pellio et Helisabeta Coniuges ... recognoverunt se debere et teneri ... Domino Gaspare Gulinski"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_to",
+      "tail_entity_id": "E6",
+      "evidence": "Helisabeta Coniuges ... recognoverunt se debere et teneri ... Domino Gaspare Gulinski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Collega suo Consulari"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_opponent_of",
+      "tail_entity_id": "E10",
+      "evidence": "Cosmas de Campis Graecus Mercator advena Leopoliensis palam solemniterque protestatus est contra Hieronimum Dziani Salvago"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "agent_of",
+      "tail_entity_id": "E11",
+      "evidence": "quondam Zlotieti factorem"
+    }
+  ]
+}

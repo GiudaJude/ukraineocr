@@ -1,0 +1,213 @@
+{
+  "document_id": "arc2/0692.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "praefatam",
+        "praedicta"
+      ],
+      "justification": "Identified as the subject of the legitimation and attestation of honorable suburban birth."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cieśla Owsiak",
+      "mention_texts": [
+        "Stanislai Ciesla",
+        "Owsiak"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "olim",
+        "patre",
+        "Coniugibus Suburbanis Leopoliensibus"
+      ],
+      "justification": "Father of Anna, deceased suburbanite of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "matre",
+        "Coniugibus Suburbanis Leopoliensibus"
+      ],
+      "justification": "Mother of Anna, spouse of the late Stanislaus Cieśla Owsiak."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts and suburban residency took place."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actis praesentibus",
+        "officium nostrum"
+      ],
+      "justification": "The municipal council/chancery before which the records were entered."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta in Vigilia Conceptionis Beatae Mariae Virginis, Anno Domini 1595 quinto",
+        "Sabbato in crastinum festum Conceptionis Mariae Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the acts recorded in the text."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gian Salvago",
+      "mention_texts": [
+        "Dziam Szalwago",
+        "Sam Salwago"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honesti",
+        "Mercatoris advena Leopoliensibus"
+      ],
+      "justification": "Merchant for whom the testament/testimony is being given."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Knerzidi",
+      "mention_texts": [
+        "Nicolaus",
+        "Knorowcz Knerzidi"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honesti"
+      ],
+      "justification": "Witness appearing in the council books."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sam Sczewidi Rutzoleti",
+      "mention_texts": [
+        "Sam Sczewidi Rutzoleti"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honesti"
+      ],
+      "justification": "Witness appearing in the council books."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Groti Chioroto Sczewidi",
+      "mention_texts": [
+        "Groti Chioroto Sczewidi"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Valachi"
+      ],
+      "justification": "Deceased relative/father of Sam Sczewidi Rutzoleti."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Regional identifier of Groti Chioroto Sczewidi."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mossio Fubiey",
+      "mention_texts": [
+        "Mossio Fubiey",
+        "Mossisko Fubiey"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Iudaeus Constantinopolitanus",
+        "Iudaeus"
+      ],
+      "justification": "Jewish merchant from Constantinople giving testimony through an interpreter."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Constantinople",
+      "mention_texts": [
+        "Constantinopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of the Jewish merchant Mossio Fubiey."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zukawowicz",
+      "mention_texts": [
+        "Joannem Zukawowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem et interpretem suum"
+      ],
+      "justification": "Guardian and interpreter assisting Mossio Fubiey."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefatam Annam ad cuius instantiam praesens fit recognitio progenitam esse ex vero legitimoque matrimonio Honestorum olim Stanislai Ciesla cognomento Owsiak patre"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefatam Annam ad cuius instantiam praesens fit recognitio progenitam esse ex vero legitimoque matrimonio Honestorum olim Stanislai Ciesla cognomento Owsiak patre et Catherina matre"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislai Ciesla cognomento Owsiak patre et Catherina matre Coniugibus"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E12",
+      "evidence": "Infidelis Mossio Fubiey Iudaeus Constantinopolitanus illi per se hic vero per Famatum Joannem Zukawowicz tutorem et interpretem suum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "Sam Sczewidi Rutzoleti olim Groti Chioroto Sczewidi"
+    }
+  ]
+}

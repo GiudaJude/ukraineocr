@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/0855.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Bienkowic",
+      "mention_texts": [
+        "Andreae Gelazini",
+        "Andreas Gelazinus"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "idem praedictus"
+      ],
+      "justification": "Released his former guardians from their tutelage after reaching age or due to condition."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the legal proceedings and officials are based."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1596",
+      "mention_texts": [
+        "Sabbato post festum Sancti Valentini proximo Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrocki",
+      "mention_texts": [
+        "Gregorius Dobrowski"
+      ],
+      "descriptive_mentions": [
+        "Excellens ac Generosus Dominus",
+        "Juris Utriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate of Lviv recording the report of intromission."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Scabini"
+      ],
+      "justification": "Scabinus of Lviv participating in the intromission."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgangus Seerth"
+      ],
+      "descriptive_mentions": [
+        "Scabini"
+      ],
+      "justification": "Scabinus of Lviv participating in the intromission."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Novicampianus",
+      "mention_texts": [
+        "Paulo Nowicampiano",
+        "Pauli Nowicampiani",
+        "Nowicampiano"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Domini",
+        "Medicinae Doctoris",
+        "Collegae sui Consularis",
+        "praefato Nobilis Doctori"
+      ],
+      "justification": "Doctor of medicine and councilor granted intromission into a garden."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Sikstuska Street",
+      "mention_texts": [
+        "plateam Sygusta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the garden and property are located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Jaroszowska House",
+      "mention_texts": [
+        "Jaroszma"
+      ],
+      "descriptive_mentions": [
+        "speluncae",
+        "vocata sedes"
+      ],
+      "justification": "Estate opposite which the garden is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobi Sporbałek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Original owner of the garden on Sikstuska Street."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Wilhelm Babistin",
+      "mention_texts": [
+        "Guilhelmo Babistin"
+      ],
+      "descriptive_mentions": [
+        "Famosi",
+        "Cive Samboriensi",
+        "citato"
+      ],
+      "justification": "Citizen of Sambor summoned in the legal dispute."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Sambor",
+      "mention_texts": [
+        "Samboriensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of citizenship of Wilhelm Babistin."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "80 florins",
+      "mention_texts": [
+        "Florenis octoginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum of the debt for which intromission was granted."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Marianna",
+      "mention_texts": [
+        "Mariannam"
+      ],
+      "descriptive_mentions": [
+        "Famatam"
+      ],
+      "justification": "Person through whom the debt was contracted."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dydyński",
+      "mention_texts": [
+        "Joannis Dydonski"
+      ],
+      "descriptive_mentions": [
+        "Generosi olim"
+      ],
+      "justification": "Late nobleman mentioned in connection with the contracted debt."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Konstanty Korniakt",
+      "mention_texts": [
+        "Constantino Corniaht"
+      ],
+      "descriptive_mentions": [
+        "Generoso"
+      ],
+      "justification": "Nobleman referenced in relation to the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Gregorius Dobrowski Juris Utriusque Doctor Advocatus Ordinarius ... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Andreas Simonowic ... Scabini Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Wolfgangus Seerth Scabini Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E12",
+      "evidence": "Guilhelmo Babistin Cive Samboriensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in plateam Sygusta ex opposito speluncae Jaroszma vocata sedes"
+    }
+  ]
+}

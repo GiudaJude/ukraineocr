@@ -1,0 +1,347 @@
+{
+  "document_id": "arc2/1180.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "officij",
+        "officij eiusdem",
+        "officium"
+      ],
+      "descriptive_mentions": [
+        "praesentis officij approbatorij"
+      ],
+      "justification": "The court before which the parties appeared and where the proceedings took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the jurisdictional and residence descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara",
+        "Barbara Langisona"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "Actrix",
+        "eadem Actrix",
+        "praefata Actrix"
+      ],
+      "justification": "The plaintiff, widow of Marcus Langis."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Marcus Langis",
+      "mention_texts": [
+        "Marci Langis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Graeci Civis Leopoliensis"
+      ],
+      "justification": "Late husband of Barbara, Greek burgher of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sienkiewicz Łucki",
+      "mention_texts": [
+        "Sienkievicz Lucki"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem suum",
+        "praefatum tutorem suum"
+      ],
+      "justification": "Guardian (tutor) representing Barbara in the denunciation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lucas Szembergicz",
+      "mention_texts": [
+        "Iwan Szembergicz",
+        "Lucas"
+      ],
+      "descriptive_mentions": [
+        "Viceadvocatum Suburbij Haliciensis",
+        "citatum",
+        "citatus",
+        "Viceadvocatus",
+        "vadis inculpatus"
+      ],
+      "justification": "Vice-advocate of the Halych Suburb, defendant cited to execute the royal decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbij Haliciensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Halych suburb of Lviv where Lucas was vice-advocate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The King whose decree was cited for execution."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Langis",
+      "mention_texts": [
+        "Bartholomaei Langis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "filij sui"
+      ],
+      "justification": "Son of Barbara and late Marcus Langis."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertus Domagala"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburban burgher who stood surety for Lucas."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Krakowianin",
+      "mention_texts": [
+        "Stanislaus Krakowianin"
+      ],
+      "descriptive_mentions": [
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburban burgher who stood surety for Lucas."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas Cziangus",
+      "mention_texts": [
+        "Andreas Cziangus"
+      ],
+      "descriptive_mentions": [
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburban burgher who stood surety for Lucas."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Blasius Carnifex",
+      "mention_texts": [
+        "Blasius"
+      ],
+      "descriptive_mentions": [
+        "Carnifex",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Suburban butcher who stood surety for Lucas."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Piasecki",
+      "mention_texts": [
+        "Nicolaus Piaseczki"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Compurgatores"
+      ],
+      "justification": "One of the compurgators presented by Lucas."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Andreas Wojgoda",
+      "mention_texts": [
+        "Andreas Woygoda"
+      ],
+      "descriptive_mentions": [
+        "Compurgatores"
+      ],
+      "justification": "One of the compurgators presented by Lucas."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Joannes Tokmanek",
+      "mention_texts": [
+        "Joannes Toxmanek"
+      ],
+      "descriptive_mentions": [
+        "Compurgatores"
+      ],
+      "justification": "One of the compurgators presented by Lucas."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannes Lukaszowic"
+      ],
+      "descriptive_mentions": [
+        "Compurgatores"
+      ],
+      "justification": "One of the compurgators presented by Lucas."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Joannes Radzanowski",
+      "mention_texts": [
+        "Joannes Radzanowski"
+      ],
+      "descriptive_mentions": [
+        "Compurgatores"
+      ],
+      "justification": "One of the compurgators presented by Lucas."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Misiek",
+      "mention_texts": [
+        "Nicolaus dictus Misiek"
+      ],
+      "descriptive_mentions": [
+        "Compurgatores"
+      ],
+      "justification": "One of the compurgators presented by Lucas."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Barbara Famati olim Marci Langis Graeci Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Marci Langis Graeci Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Famatum Sienkievicz Lucki Ruthenorum tutorem suum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Iwan Szembergicz Viceadvocatum Suburbij Haliciensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "filij sui Honesti Bartholomaei Langis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Barbara Famati olim Marci Langis ... filij sui Honesti Bartholomaei Langis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "surety_for",
+      "tail_entity_id": "E6",
+      "evidence": "Albertus Domagala ... qui pro eodem citato in proxima sessione de sistendo eodem iuri fideiusserant"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "surety_for",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaus Krakowianin ... qui pro eodem citato in proxima sessione de sistendo eodem iuri fideiusserant"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "surety_for",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Cziangus ... qui pro eodem citato in proxima sessione de sistendo eodem iuri fideiusserant"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "surety_for",
+      "tail_entity_id": "E6",
+      "evidence": "Blasius Carnifex ... qui pro eodem citato in proxima sessione de sistendo eodem iuri fideiusserant"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "compurgator_for",
+      "tail_entity_id": "E6",
+      "evidence": "Compurgatores eiusdem Honesti videlicet Nicolaus Piaseczki"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "compurgator_for",
+      "tail_entity_id": "E6",
+      "evidence": "Compurgatores eiusdem Honesti videlicet ... Andreas Woygoda"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "compurgator_for",
+      "tail_entity_id": "E6",
+      "evidence": "Compurgatores eiusdem Honesti videlicet ... Joannes Toxmanek"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "compurgator_for",
+      "tail_entity_id": "E6",
+      "evidence": "Compurgatores eiusdem Honesti videlicet ... Joannes Lukaszowic"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "compurgator_for",
+      "tail_entity_id": "E6",
+      "evidence": "Compurgatores eiusdem Honesti videlicet ... Joannes Radzanowski"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "compurgator_for",
+      "tail_entity_id": "E6",
+      "evidence": "Compurgatores eiusdem Honesti videlicet ... Nicolaus dictus Misiek"
+    }
+  ]
+}

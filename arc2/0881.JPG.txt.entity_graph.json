@@ -1,0 +1,148 @@
+{
+  "document_id": "arc2/0881.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0705: Andreas Bienkowic",
+      "mention_texts": [
+        "Andrea Gelatin"
+      ],
+      "descriptive_mentions": [
+        "pupillus",
+        "eidem pupillum"
+      ],
+      "justification": "Known entity PER-0705 (Andreas Gelatinus / Andreas Bienkowic), designated as the ward ('pupillus') under tutelage."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense",
+        "Acta sua"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The municipal council acting judicially on the curator and tutelage matter."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacra Regia Maiestate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal authority granting curators."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0797: Jacobus Scholz",
+      "mention_texts": [
+        "Iacobo Scholz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party involved in the curatorial decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Formula referring to the date of the preceding entry in the 1595 council register."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Grego",
+      "mention_texts": [
+        "Andreas Grego"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "Fautor"
+      ],
+      "justification": "Lviv citizen appearing personally to acknowledge receipt/satisfaction of debts."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thomas de Alberti",
+      "mention_texts": [
+        "Thoma de Alberti"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Itali",
+        "Civis Leopoliensis",
+        "Antecessori suo"
+      ],
+      "justification": "Deceased Italian citizen of Lviv, creditor of the debt in question."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Sthanel",
+      "mention_texts": [
+        "Simon Schawel",
+        "Simonem Sthanel"
+      ],
+      "descriptive_mentions": [
+        "Fatum olim",
+        "Civem Leopoliensis"
+      ],
+      "justification": "Deceased citizen who had contracted debts with Thomas de Alberti."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Grego Civis Leopoliensis tanquam Fautor olim Thoma de Alberti Itali Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "contracted_debt_with",
+      "tail_entity_id": "E7",
+      "evidence": "ex intercisa certa per Fatum olim Simonem Sthanel Civem Leopoliensis praedicto olim Thoma de Alberti Antecessori suo contracta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Andreas Grego Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Thoma de Alberti Itali Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Simonem Sthanel Civem Leopoliensis"
+    }
+  ]
+}

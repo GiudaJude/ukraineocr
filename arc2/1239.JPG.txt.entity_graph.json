@@ -1,0 +1,143 @@
+{
+  "document_id": "arc2/1239.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij nostri"
+      ],
+      "justification": "City council office mentioned at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolenses"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis",
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv mentioned via its suburban inhabitants and city administration."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0149: Stanislaus Aberman",
+      "mention_texts": [
+        "Stanislaus Martini Habermanowic",
+        "Stanislai Habermanowicz",
+        "Stanislao Habermanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Campanifusoris",
+        "praefato",
+        "Emptori suo"
+      ],
+      "justification": "Bellfounder buying part of a garden in the Kraków suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Sacks",
+      "mention_texts": [
+        "Martinus Sacks"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Vector",
+        "coniuges",
+        "ille",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Carter and suburbanite of Lviv selling a garden plot together with his wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "haec"
+      ],
+      "justification": "Wife of Martinus Sacks who co-sells the garden plot."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Krakowskie"
+      ],
+      "descriptive_mentions": [
+        "suburbio eiusdem Civitatis Krakowskie dicto"
+      ],
+      "justification": "The Kraków suburb of Lviv where the garden is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The purchase price paid for the garden."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court before which the resignation of the garden is authorized."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Pretwick",
+      "mention_texts": [
+        "Bartholomei Pretwick"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header/title entry at the foot of the document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martinus Sacks Vector et Sophia coniuges Suburbani Leopolenses ille per se et haec per eundem maritum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Martinus Sacks Vector et Sophia coniuges Suburbani Leopolenses ille per se et haec per eundem maritum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sells_property_to",
+      "tail_entity_id": "E3",
+      "evidence": "recognoverunt, se perpetuo et irrevocabili venditionis titulo vendidisse praesentisque inscriptionis vigore vendere partem certam horti sui proprij... eidem praefato Stanislao Habermanowicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sells_property_to",
+      "tail_entity_id": "E3",
+      "evidence": "recognoverunt, se perpetuo et irrevocabili venditionis titulo vendidisse praesentisque inscriptionis vigore vendere partem certam horti sui proprij... eidem praefato Stanislao Habermanowicz"
+    }
+  ]
+}

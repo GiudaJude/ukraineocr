@@ -1,0 +1,323 @@
+{
+  "document_id": "arc2/1416.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Guidati",
+      "mention_texts": [
+        "Hieronymus Cuidati"
+      ],
+      "descriptive_mentions": [
+        "ipsi"
+      ],
+      "justification": "Named in the first decree regarding building and construction permissions."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Actis iisdem Consularibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Decreto Officii Consularis Leopoliensis"
+      ],
+      "justification": "The municipal council of Lviv issuing decrees and recording acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City context mentioned in multiple civic titles and offices."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Ciossetzki",
+      "mention_texts": [
+        "Andream Ciossetzki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Plenipotentem",
+        "actorem"
+      ],
+      "justification": "Noble plenipotentiary acting on behalf of Hedvigis Leszniowska."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Hedwigis Leszniowska",
+      "mention_texts": [
+        "Hedvigis Leszniowska"
+      ],
+      "descriptive_mentions": [
+        "Generosae",
+        "coniuges relictae"
+      ],
+      "justification": "Widow of the late senator Balthasar Leszniowski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Balthasar Leszniowski",
+      "mention_texts": [
+        "Balthasaris Leszniowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "olim",
+        "Senatoris Leopoliensis"
+      ],
+      "justification": "Late senator of Lviv and deceased husband of Hedvigis."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Melchior Cornolski",
+      "mention_texts": [
+        "Melchiorem Cornolski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Provisorem",
+        "Civem Leopoliensem",
+        "haeredem domus lapideae Kocznowska",
+        "citatum"
+      ],
+      "justification": "Burgher of Lviv and heir to the Kocznowska tenement house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Kocznowska",
+      "mention_texts": [
+        "domus lapideae Kocznowska",
+        "lapidea"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Stone tenement house located on Kraków Street."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "platea Cracoviensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the Kocznowska tenement is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "quadringentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Amount of money mortgaged on the house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "21 groschen",
+      "mention_texts": [
+        "unius atque viginti omnis grossorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Portion of money specified alongside the 400 florins."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicium Necessarium Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial body to which the case was remanded."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Andreas Oszner",
+      "mention_texts": [
+        "Andrea Szimer",
+        "Andream Oszner"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Presbyter",
+        "Praebestrum Hospitalis Sancti Stanislai",
+        "Actorem",
+        "praedictus Nobilis Actor"
+      ],
+      "justification": "Priest and provost/prebendary of St. Stanislaus Hospital, acting through his guardian."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Hospital of Saint Stanislaus",
+      "mention_texts": [
+        "Hospitalis Sancti Stanislai"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hospital in Lviv associated with priest Andreas Oszner."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Andreas Masowski",
+      "mention_texts": [
+        "Andream Masouski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "tutorem et Executorem sibi assumptum"
+      ],
+      "justification": "Noble guardian and executor representing Andreas Oszner."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Joannes Oszner",
+      "mention_texts": [
+        "Joannis Oszner"
+      ],
+      "descriptive_mentions": [
+        "germani"
+      ],
+      "justification": "Brother of Andreas Oszner mentioned in the lawsuit."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Andreas Oszner the Younger",
+      "mention_texts": [
+        "Andream Oszner"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "fratrem",
+        "citatos"
+      ],
+      "justification": "Relative/brother of the plaintiff cited as defendant."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Adamus Abermanowicz",
+      "mention_texts": [
+        "Adamum Abermanowicz"
+      ],
+      "descriptive_mentions": [
+        "Organicensem",
+        "affinem",
+        "citatos"
+      ],
+      "justification": "Organist and in-law cited in the case."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Czipnerowska",
+      "mention_texts": [
+        "domus lapidea Czipnerowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Stone house involved in the disputed mortgage/obligation."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Mortgage sum of 300 florins on the Czipnerowska house."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "date",
+      "canonical_name": "DATE-0138: 1591",
+      "mention_texts": [
+        "feria quarta ante festum Sancti Thomae Apostoli proxima Anno 159 primo"
+      ],
+      "descriptive_mentions": [
+        "actu"
+      ],
+      "justification": "Date of the cited earlier council decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E5",
+      "evidence": "Nobilem Andream Ciossetzki Plenipotentem Generosae Hedvigis Leszniowska"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Hedvigis Leszniowska Generosi olim Balthasaris Leszniowski Senatoris Leopoliensis coniuges relictae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "has_ownership_or_tenure_over",
+      "tail_entity_id": "E8",
+      "evidence": "Melchiorem Cornolski Provisorem Civem Leopoliensem haeredem domus lapideae Kocznowska"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_located_in",
+      "tail_entity_id": "E9",
+      "evidence": "domus lapideae Kocznowska in platea Cracoviensium"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E13",
+      "evidence": "Andream Oszner Praebestrum Hospitalis Sancti Stanislai per Nobilem Andream Masouski tutorem et Executorem sibi assumptum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E14",
+      "evidence": "Andream Oszner Praebestrum Hospitalis Sancti Stanislai"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E13",
+      "evidence": "Fabris sui germani Joannis Oszner nominibus Actorem"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E13",
+      "evidence": "Andream Oszner Canium fratrem"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "is_related_to",
+      "tail_entity_id": "E13",
+      "evidence": "Adamum Abermanowicz Organicensem affinem citatos"
+    }
+  ]
+}

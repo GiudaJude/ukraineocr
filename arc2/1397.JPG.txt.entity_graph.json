@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/1397.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Smidek",
+      "mention_texts": [
+        "Petrus Smidek",
+        "Petrum Smidek"
+      ],
+      "descriptive_mentions": [
+        "praefatus praefatus",
+        "suus Creditor",
+        "Creditorem",
+        "dictus Creditor",
+        "sui Creditoris",
+        "Creditoris"
+      ],
+      "justification": "Creditor mentioned who is granted possession and usufruct of the property until the debt is paid."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zaszanslo",
+      "mention_texts": [
+        "Mattia Zaszanslo"
+      ],
+      "descriptive_mentions": [
+        "Praenominatum ipsius Debitorem",
+        "idem",
+        "dictus recognoscens"
+      ],
+      "justification": "Debtor who pledged property and obligated himself to repay 50 florins to Petrus Smidek."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Quinquaginta floreni",
+        "Florenorum quinquaginta"
+      ],
+      "descriptive_mentions": [
+        "summa praenominata",
+        "suma praefata essentiali",
+        "debiti praefati"
+      ],
+      "justification": "Sum of fifty florins that constitutes the debt owed to Petrus Smidek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City whose municipal books are referenced in the debt agreement."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum vt supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the first legal entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sumka Cynkowa",
+      "mention_texts": [
+        "Sumka Cynkowa",
+        "Fomka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Petrowskorum nuptiarum",
+        "Honesti Cynko Zellowis consors legitima",
+        "consors legitima"
+      ],
+      "justification": "Woman who appeared and took a formal oath in court against Lawryn Zderes."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Cynko Zellowic",
+      "mention_texts": [
+        "Cynko Zellowis"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Husband of Sumka / Fomka."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Zderes",
+      "mention_texts": [
+        "Lawra",
+        "Lawryn Zderes"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "caucis istius Actoris"
+      ],
+      "justification": "Opposing party and plaintiff in whose presence the oath was taken."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Officii"
+      ],
+      "justification": "The municipal office whose judicial decree is cited in the court proceeding."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Albertus",
+      "mention_texts": [
+        "Joannes Albertus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official or assessor recorded at the end of the legal entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Szumil Szabwczic",
+      "mention_texts": [
+        "Szumil Szabwczic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official or assessor recorded at the end of the legal entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "creditor_of",
+      "tail_entity_id": "E2",
+      "evidence": "Quibus bonis praefatus praefatus Petrus Smidek suus Creditor tamdiper perfruetur quoad ipsi summa praenominata Quinquaginta floreni per Praenominatum ipsius Debitorem Mattia Zaszanslo aut ipsius successores restricta et deintegro reddita nec persoluta fuerit"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesta Fomka Petrowskorum nuptiarum Honesti Cynko Zellowis consors legitima"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "litigates_against",
+      "tail_entity_id": "E8",
+      "evidence": "Iuramentum Sumka Cynkowa contra Lawra"
+    }
+  ]
+}

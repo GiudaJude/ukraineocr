@@ -1,0 +1,129 @@
+{
+  "document_id": "arc2/0387.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Premisliensi",
+        "Premislia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Red Ruthenia mentioned in connection to the Wladika and marriage."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliensis",
+        "Officium praesens Consulare",
+        "Officio Consulari"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officij"
+      ],
+      "justification": "City council issuing the judicial sentence in this case."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Marushna",
+      "mention_texts": [
+        "Marushnam"
+      ],
+      "descriptive_mentions": [
+        "priorem suam coniugem"
+      ],
+      "justification": "First wife of Lucas Stankowicz mentioned in the matrimonial dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Władyka of Przemyśl",
+      "mention_texts": [
+        "Wladika Premisliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ruthenian Orthodox bishop of Przemyśl who adjudicated the separation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Ruthenian Spiritual Office",
+      "mention_texts": [
+        "Officium Spirituale sui ritus Rutheni",
+        "Officij Spiritualis Ruthenici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ecclesiastical jurisdiction of the Ruthenian rite handling matrimonial matters."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lucas Stankowicz",
+      "mention_texts": [
+        "Lucas Stankowicz"
+      ],
+      "descriptive_mentions": [
+        "idem",
+        "autoris moderni"
+      ],
+      "justification": "Individual convicted and disciplined by the city council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "20 marks",
+      "mention_texts": [
+        "marcarum Viginti"
+      ],
+      "descriptive_mentions": [
+        "vadrium marcarum Viginti"
+      ],
+      "justification": "Financial penalty/bail set by the court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulus Simonowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Assessor/signatory at the conclusion of the court act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Martowic",
+      "mention_texts": [
+        "Albertus Martowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Assessor/signatory at the conclusion of the court act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "former_spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedictam Marushnam priorem suam coniugem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "has_seat_in",
+      "tail_entity_id": "E1",
+      "evidence": "Wladika Premisliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "judged",
+      "tail_entity_id": "E6",
+      "evidence": "Officium Consulare Leopoliensis partium controuersijs diligenter perpensis talem tulit sententiam... idem Lucas Stankowicz"
+    }
+  ]
+}

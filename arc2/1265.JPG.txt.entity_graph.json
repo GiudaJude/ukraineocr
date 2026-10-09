@@ -1,0 +1,204 @@
+{
+  "document_id": "arc2/1265.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis istius"
+      ],
+      "justification": "Reference to the city of Lviv in various adjectival forms."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "ante portam"
+      ],
+      "justification": "Halych Suburb of Lviv, specified as located outside the gate."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Swiatka",
+        "Barbara Marszałkowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "olim Marszałek Ferrifabri Suburbani Leopoliensis filia primarum vero nuptiarum",
+        "Felicita",
+        "priore uxore sua"
+      ],
+      "justification": "Daughter of Marszałek the blacksmith from his first marriage, and prior deceased wife of the vendor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Marszałek",
+      "mention_texts": [
+        "Marszałek"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Ferrifabri Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased blacksmith of the Lviv suburb, father of Barbara."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szwania",
+      "mention_texts": [
+        "Joannis Szwania"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of an adjacent house in the Halych suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Leo Golifex",
+      "mention_texts": [
+        "Leoni"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Golificis"
+      ],
+      "justification": "Deceased barber/shaver whose successors own an adjacent house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0211: Blasius Apothecarius",
+      "mention_texts": [
+        "Blasio"
+      ],
+      "descriptive_mentions": [
+        "Carnifici",
+        "affini",
+        "coniugibus suburbanis Leopoliensibus",
+        "emptores"
+      ],
+      "justification": "Known entity Blasius (here suburban butcher), buyer of the half-house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus suburbanis Leopoliensibus",
+        "emptores"
+      ],
+      "justification": "Wife of Blasius, buyer of the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "195 Polish florins",
+      "mention_texts": [
+        "centum nonaginta quinque florenorum polonicalium et tri polonis"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Purchase price paid for the house portion."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festum S. Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day designating the end of the reserved dwelling term."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno 96"
+      ],
+      "descriptive_mentions": [
+        "eodem",
+        "currenti"
+      ],
+      "justification": "Current year mentioned in connection with Michaelmas."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czayka",
+      "mention_texts": [
+        "Stanislaum Czaykka"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "aurigam",
+        "Ciuem Leopoliensium"
+      ],
+      "justification": "Coachman and citizen of Lviv near whose property the deserted lot is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in Ciuitatis istius Leopoliensis Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "cum Honesta Barbara Swiatka olim Marszałek Ferrifabri Suburbani Leopoliensis filia"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Ferrifabri Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Blasio Carnifici affini et Annae coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "coniugibus suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "coniugibus suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Ciuem Leopoliensium"
+    }
+  ]
+}

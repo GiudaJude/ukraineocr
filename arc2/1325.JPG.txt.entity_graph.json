@@ -1,0 +1,112 @@
+{
+  "document_id": "arc2/1325.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicii Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv mentioned in the legal proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in the court name and citizenship descriptors."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Sczerzowska House",
+      "mention_texts": [
+        "Sczerzowska"
+      ],
+      "descriptive_mentions": [
+        "domo praefata",
+        "domunculi"
+      ],
+      "justification": "The house referenced in the property transfer."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Celari",
+      "mention_texts": [
+        "Andreas Celari",
+        "Andreae Celari"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi et Mercatori Leopoliensi"
+      ],
+      "justification": "Merchant and citizen of Lviv, the creditor in the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Glinka",
+      "mention_texts": [
+        "Andreas Glinka"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio Civis Leopoliensis"
+      ],
+      "justification": "Furrier and citizen of Lviv who confesses a debt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Florenos centum pagiti pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The amount of the loan acknowledged by the debtor."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festo S. Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The due date agreed for repayment of the loan."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "indebted_to",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Glinka Pellio Civis Leopoliensis palam publice beneuolique recognouit: se debere et teneri certi veri iusti liquidique debiti ... Famato Andreae Celari"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Andreas Glinka Pellio Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Andreae Celari Civi et Mercatori Leopoliensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Exposito Iudicii Civili Leopoliensi"
+    }
+  ]
+}

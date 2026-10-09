@@ -1,0 +1,62 @@
+{
+  "document_id": "arc2/0723.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv is mentioned in the adjectival form specifying the council and bench."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Advocati et Scabinorum Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "Decreto Offitij",
+        "Offitij",
+        "Actis",
+        "Aduocatum et Scabinos"
+      ],
+      "justification": "The city office / bench of Lviv that handled the judicial proceedings and decrees."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King Sigismund III Vasa to whom the defendant appealed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria quarta ante Sancti Galli Confessoris proxima Anno 1593",
+        "Sabbato ipso die Sancti Galli Confessoris Anno quo supra",
+        "feria quarta post Festum Sancti Lucae Evangelistae proxima Anno Domini 1593",
+        "feria quarta in Vigilia Festorum Simonis et Judae Apostolorum proxima Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Multiple court proceeding dates from the year 1593 mentioned in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Advocati et Scabinorum Leopoliensium"
+    }
+  ]
+}

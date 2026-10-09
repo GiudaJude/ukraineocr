@@ -1,0 +1,131 @@
+{
+  "document_id": "arc2/1486.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "Actum Leopoli... Cives Leopolienses... Platea Civitatis eiusdem"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta post Festum Sancti Martini Episcopi Proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Actum Leopoli feria quarta post Festum Sancti Martini Episcopi Proxima Anno Domini 1596"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nostram Consularem residentiam",
+        "Officio nostro",
+        "Actis praesentibus"
+      ],
+      "justification": "Venientes personaliter ad nostram Consularem residentiam... obtulerunt Officio nostro... expetierunt Actis praesentibus inseri"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Blasius Sumiha",
+      "mention_texts": [
+        "Blasius Sumiha"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Lanius",
+        "affines",
+        "Cives Leopolienses",
+        "cohabitatores et cohaeredes"
+      ],
+      "justification": "Famati Blasius Sumiha Lanius et Antonius Sokolowski ferrifaber affines Cives Leopolienses"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Antonius Sokolowski",
+      "mention_texts": [
+        "Antonius Sokolowski"
+      ],
+      "descriptive_mentions": [
+        "ferrifaber",
+        "affines",
+        "Cives Leopolienses",
+        "cohabitatores et cohaeredes"
+      ],
+      "justification": "Antonius Sokolowski ferrifaber affines Cives Leopolienses"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Daniel Lyck",
+      "mention_texts": [
+        "Daniel Lyck"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "affinis itidem illorum",
+        "cohabitatores et cohaeredes"
+      ],
+      "justification": "Honestus Daniel Lyck affinis itidem illorum annos iam perfectae aetatis habens"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0016: Halych Street",
+      "mention_texts": [
+        "Platea Civitatis eiusdem Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "in Platea Civitatis eiusdem Haliciensi hactenus vacata"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Olynca",
+      "mention_texts": [
+        "Andreae Olynce"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Andreae Olynce Lapideas vtrinque sitae"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "relative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati Blasius Sumiha Lanius et Antonius Sokolowski ferrifaber affines"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Daniel Lyck affinis itidem illorum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Daniel Lyck affinis itidem illorum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Platea Civitatis eiusdem Haliciensi"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "document_id": "arc2/0947.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Elieser Dabroszki",
+      "mention_texts": [
+        "Elieserem Dabroszki"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem",
+        "mandatarium",
+        "praesentium exhibitorem",
+        "praefato suo Plenipotenti"
+      ],
+      "justification": "Appointed as the true and lawful plenipotentiary and mandatary in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Lucas Factor",
+      "mention_texts": [
+        "Lucam Factorem",
+        "Lucam factorem",
+        "Luca factore",
+        "Luca factori"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Scabinum",
+        "Civem Buxen",
+        "eundem",
+        "praefato",
+        "eidem"
+      ],
+      "justification": "Named as the opposing party, alderman and citizen of Biecz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0389: LOC-0339: Biecz",
+      "mention_texts": [
+        "Buxen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The town of Biecz of which Lucas Factor is an alderman and citizen."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Chophsu Cuprillo",
+      "mention_texts": [
+        "Chophsu Cuprillo"
+      ],
+      "descriptive_mentions": [
+        "artificij factorij socii",
+        "patre suo germano"
+      ],
+      "justification": "Mentioned as the deceased father and trade associate."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Fabrowicz",
+      "mention_texts": [
+        "Albertus Fabrowicz"
+      ],
+      "descriptive_mentions": [
+        "idem",
+        "Plenipotens suus"
+      ],
+      "justification": "Named in the ratification formula as plenipotentiary."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kozlikowski",
+      "mention_texts": [
+        "Joannis Kozlikowski"
+      ],
+      "descriptive_mentions": [
+        "Gnosi",
+        "familiaris"
+      ],
+      "justification": "Noble servitor mentioned at the end of the entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the title of the royal official."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Scabinum Civem Buxen"
+    }
+  ]
+}

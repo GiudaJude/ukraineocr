@@ -1,0 +1,284 @@
+{
+  "document_id": "arc2/1209.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Advocato Seniori Scabinisque Exposito Judicio Leopoliensi"
+      ],
+      "justification": "The text refers to the Lviv Banned Court to which plenary power was granted."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "The city of Lviv is referenced as the place of legal action and residence."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kozak",
+      "mention_texts": [
+        "Stanislaus Kozak"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sartor",
+        "Coniuges",
+        "incolae Leopolienses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Stanislaus Kozak, a tailor and inhabitant of Lviv, is a principal recognizer of a debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "incolae Leopolienses",
+        "illa per se haec vero"
+      ],
+      "justification": "Dorothea is the wife of Stanislaus Kozak and co-recognizer of the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Sołtyszkowska House",
+      "mention_texts": [
+        "Soltyzcowscza"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "The stone house mentioned as the cause of the debt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Castle Street",
+      "mention_texts": [
+        "platea Castrensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The street where the Sołtyszkowska house is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lviv Castle",
+      "mention_texts": [
+        "Castrum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The castle referenced in direction of the street ('eundo ad Castrum')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0166: CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "florenos trecentos pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The total debt acknowledged in the contract."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Lutowicz",
+      "mention_texts": [
+        "Jacobus Lutowieñ",
+        "Jacobo Lutowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Sartori de Krasnistaw",
+        "coniugibus",
+        "Civi Doliatori Leopoliensi"
+      ],
+      "justification": "The creditor tailor from Krasnystaw residing in Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Krasnystaw",
+      "mention_texts": [
+        "Krasnistaw"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Jacobus Lutowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Ursulae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Wife of Jacobus Lutowicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Installment sums mentioned in the payment schedule."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for the first payment installment."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno eodem currenti venturo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Current year of the act."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "Feast of Corpus Christi",
+      "mention_texts": [
+        "vigilia Sanctorum Corporis Christi",
+        "vigilia Corporis Christi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast on the vigil of which later installments are due."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "date",
+      "canonical_name": "DATE-0084: 1597",
+      "mention_texts": [
+        "Anno 1597"
+      ],
+      "descriptive_mentions": [
+        "proxime sequenti futura"
+      ],
+      "justification": "Year of the second installment."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Third and final installment of the debt."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "date",
+      "canonical_name": "1599",
+      "mention_texts": [
+        "Anno Domini 1599"
+      ],
+      "descriptive_mentions": [
+        "post futura"
+      ],
+      "justification": "Year of the third installment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Stanislaus Kozak Sartor et Dorothea Coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Jacobo Lutowicz Sartori de Krasnistaw et Ursulae coniugibus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Jacobo Lutowicz Sartori de Krasnistaw et Ursulae coniugibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_to",
+      "tail_entity_id": "E9",
+      "evidence": "recognoverunt se debere et teneri ... Famato Jacobo Lutowicz Sartori de Krasnistaw"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_to",
+      "tail_entity_id": "E9",
+      "evidence": "recognoverunt se debere et teneri ... Famato Jacobo Lutowicz Sartori de Krasnistaw"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in domo lapidea Soltyzcowscza in Civitatis istius platea Castrensi dicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Civitatis istius platea Castrensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "incolae Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E2",
+      "evidence": "incolae Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "originates_from",
+      "tail_entity_id": "E10",
+      "evidence": "Sartori de Krasnistaw"
+    }
+  ]
+}

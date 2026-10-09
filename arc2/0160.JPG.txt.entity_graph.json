@@ -1,0 +1,112 @@
+{
+  "document_id": "arc2/0160.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Civitatis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to in Suburbanis Leopoliensibus, Suburbio Civitatis, and Praetorio Leopoliensis."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii",
+        "Officio",
+        "Actis"
+      ],
+      "justification": "City council office issuing decrees and holding municipal registers."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hannus Preisner",
+      "mention_texts": [
+        "Hannus Preisner",
+        "Joannus Preisner"
+      ],
+      "descriptive_mentions": [
+        "Conductoribus Suburbanis",
+        "praedictus",
+        "praedictus Hannus Preisner"
+      ],
+      "justification": "Party appearing in court concerning suburban estate and eviction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Caspar Tembarski",
+      "mention_texts": [
+        "Cothaneum Tembarski",
+        "Casparum Tembarski"
+      ],
+      "descriptive_mentions": [
+        "praedictum",
+        "euictorem",
+        "euictor",
+        "interessor"
+      ],
+      "justification": "Named evictor appearing on behalf of Hannus Preisner."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Ligotka",
+      "mention_texts": [
+        "Petri olim Ligotka"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased former possessor of suburban house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "500 florins",
+      "mention_texts": [
+        "quingentorum Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money registered in the record."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "21 October 1580",
+      "mention_texts": [
+        "feria sexta ipso die sancto Undecim milium Virginum Anno Domini 1580"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of previous inscription and ordination."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Balcerowicz House",
+      "mention_texts": [
+        "Balcerowic"
+      ],
+      "descriptive_mentions": [
+        "domus"
+      ],
+      "justification": "House property mentioned in the context of allocation/eviction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "has_legal_representative",
+      "tail_entity_id": "E4",
+      "evidence": "Hannus Preisner vigore inscriptionis ac conditionis sortitioni domus Balcerowic iisdem Fatis superius contentae statuit pro se euictorem praedictum Casparum Tembarski"
+    }
+  ]
+}

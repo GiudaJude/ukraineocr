@@ -1,0 +1,129 @@
+{
+  "document_id": "arc2/0691.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolim",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City referenced throughout the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Judita Eva",
+      "mention_texts": [
+        "Iuditae Zwa",
+        "Evae"
+      ],
+      "descriptive_mentions": [
+        "praefatae",
+        "pupillorum"
+      ],
+      "justification": "Ward and beneficiary of the monetary obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "77 florins 15 groschen",
+      "mention_texts": [
+        "septuaginta septem florenorum et grossorum quindecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary amount inscribed in the obligation."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kormarek",
+      "mention_texts": [
+        "Joannes Kormarek"
+      ],
+      "descriptive_mentions": [
+        "Praefatus"
+      ],
+      "justification": "Person whose goods are declared released and free from claims."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Wykowa",
+      "mention_texts": [
+        "Wykowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referenced in the entry title 'Legitimus usus Summae Wykowa'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Srodek",
+      "mention_texts": [
+        "Andreas Srodek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Faeniseca",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv appearing as a witness."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Simon Lyska",
+      "mention_texts": [
+        "Simon Lyska"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Lviv suburban resident appearing as a witness."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Anna Grosmarkowna",
+      "mention_texts": [
+        "Annae Grosmarkowna"
+      ],
+      "descriptive_mentions": [
+        "Pudicae"
+      ],
+      "justification": "Woman at whose instance the witnesses were summoned."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nos",
+        "supremos tutores pupillorum",
+        "Officium praesens"
+      ],
+      "justification": "The Lviv municipal council acting in official capacity and as supreme guardian of orphans."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Andreas Srodek Faeniseca Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Simon Lyska Suburbanus Leopoliensis"
+    }
+  ]
+}

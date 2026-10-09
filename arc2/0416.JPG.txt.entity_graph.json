@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/0416.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Chmielorowski",
+      "mention_texts": [
+        "Thomae Chmielorowski"
+      ],
+      "descriptive_mentions": [
+        "Principalis",
+        "citatus"
+      ],
+      "justification": "Named in the legal dispute regarding the court decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Statius Dugnaski",
+      "mention_texts": [
+        "Stati Dugnaski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "evictoris"
+      ],
+      "justification": "Named as the noble evictor to be presented in court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consules Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "Officio",
+        "nos"
+      ],
+      "justification": "The municipal council acting as the judicial and issuing body."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City whose council, citizenship, and public space are mentioned."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Gargo",
+      "mention_texts": [
+        "Andreae Gargo",
+        "Andrea Gargo"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "ex sorore nepote",
+        "eumdem",
+        "praefatus"
+      ],
+      "justification": "Citizen released from the obligation of constructing the stone cistern."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas de Albertis",
+      "mention_texts": [
+        "Thomae de Albertis",
+        "Thoma de Albertis"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famati",
+        "olim",
+        "Civis Leopoliensis",
+        "praedicto olim",
+        "avunculo illius"
+      ],
+      "justification": "Deceased uncle of Andreas Gargo who initiated the cistern project."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "24 July 1589",
+      "mention_texts": [
+        "feria secunda in Vigilia Sancti Jacobi Apostoli Anno Domini 1589"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date when Andreas Gargo assumed office and obligated himself to finish the cistern."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Hanel",
+      "mention_texts": [
+        "Simonem Hanel"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "fideiussoremque"
+      ],
+      "justification": "Guarantor appointed by Andreas Gargo for the cistern commitment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famato Andrea Gargo Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "olim Thomae de Albertis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "kin_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nobilis et Famati olim Thomae de Albertis Civis Leopoliensis ex sorore nepote"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E5",
+      "evidence": "fideiussoremque ratione praemissorum Famatum Simonem Hanel statuerat"
+    }
+  ]
+}

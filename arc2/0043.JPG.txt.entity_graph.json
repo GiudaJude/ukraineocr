@@ -1,0 +1,236 @@
+{
+  "document_id": "arc2/0043.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Krasnicki",
+      "mention_texts": [
+        "Stanislaus Krasnicki",
+        "Stanislaus Krasnicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Syndicus eius Civitatis Leopoliensis"
+      ],
+      "justification": "City syndic of Lviv ceding rights back to Wilhelm Babinton."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Wilhelmus Babinton",
+      "mention_texts": [
+        "Wilhelmus Babinton",
+        "Wilhelmo Babinton",
+        "Wilhelmo Babinton"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Anglo",
+        "Cive Samostiensi",
+        "eidem",
+        "eodem"
+      ],
+      "justification": "English citizen of Zamość receiving retrocession of rights."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eius Civitatis",
+        "Civitatis"
+      ],
+      "justification": "City whose syndic, advocate, notary, and scabinus are mentioned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Zamość",
+      "mention_texts": [
+        "Samostiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Wilhelm Babinton is a citizen."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Wyszniowska",
+      "mention_texts": [
+        "Wyszniowska"
+      ],
+      "descriptive_mentions": [
+        "mistitiam divalem",
+        "eam mistitiam"
+      ],
+      "justification": "Property or intramural parcel subject to the cession of rights."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Piroteski",
+      "mention_texts": [
+        "Jacobus Piroteski"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Domini",
+        "Advocatus Ordinarius",
+        "Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Ordinary advocate of Lviv testifying to the debt satisfaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowic",
+      "mention_texts": [
+        "Andreas Madrowic"
+      ],
+      "descriptive_mentions": [
+        "Notarius Civitatis",
+        "Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "City notary of Lviv recording and witnessing the transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Scabinus",
+        "Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv bench officer (scabinus) witnessing the transaction."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Wasili Zbihlippowic",
+      "mention_texts": [
+        "Wasili Zbihlippowic",
+        "Waszko Zbihlibowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Armeni",
+        "Plenipotens Generosi Christophori Kaszkowski",
+        "idem Plenipotens",
+        "praedictus",
+        "Plenipotens praedicti Generosi Kaszkowski"
+      ],
+      "justification": "Armenian plenipotentiary of Christophorus Kaszkowski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Kaszkowski",
+      "mention_texts": [
+        "Christophori Kaszkowski",
+        "Kaszkowski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "praedicti Generosi",
+        "Principali suo"
+      ],
+      "justification": "Nobleman whose plenipotentiary collected the debt."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Domagala",
+      "mention_texts": [
+        "Alberti Domagala",
+        "Alberti Domagala",
+        "Albertus"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Carnificis",
+        "praefatus"
+      ],
+      "justification": "Butcher who fully satisfied the debt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "250 florins",
+      "mention_texts": [
+        "ducentorum quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "debito"
+      ],
+      "justification": "Debt amount paid by Albertus Domagala."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio",
+        "Officio suo"
+      ],
+      "justification": "Municipal office before which the confession and quietatio were made."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E3",
+      "evidence": "Nobilis Stanislaus Krasnicki Syndicus eius Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "ceded_rights_to",
+      "tail_entity_id": "E2",
+      "evidence": "eidem Wilhelmo Babinton viceversa certis ex causis retrocedit"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Wilhelmo Babinton Anglo Cive Samostiensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobus Piroteski Advocatus Ordinarius... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E3",
+      "evidence": "Andreas Madrowic Notarius Civitatis... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Sokol Scabinus Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E10",
+      "evidence": "Wasili Zbihlippowic Armeni Samoris Plenipotens Generosi Christophori Kaszkowski"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "paid_debt_to",
+      "tail_entity_id": "E9",
+      "evidence": "praefatus Albertus eius debiti concordatus est et eidemque in toto satisfecit, ita ut extra traditus esset idem Plenipotens non haberet opus"
+    }
+  ]
+}

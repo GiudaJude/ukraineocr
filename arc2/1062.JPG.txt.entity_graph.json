@@ -1,0 +1,112 @@
+{
+  "document_id": "arc2/1062.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named city in the court and official titles."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Lviv Banned Court before which resignations are processed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0814: Valentinus",
+      "mention_texts": [
+        "Valentinus",
+        "Valentini"
+      ],
+      "descriptive_mentions": [
+        "Honesti"
+      ],
+      "justification": "Appears as party to the resignation, current husband of Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "primarum nuptiarum Prouidi Petri Bieda ad praesens vero secundarum aliter Valentini coniunx legitima",
+        "superstitis Coniugum"
+      ],
+      "justification": "Appears as party to the resignation, surviving wife of Petrus Bieda and current wife of Valentinus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Bieda",
+      "mention_texts": [
+        "Bieda",
+        "Petri Bieda"
+      ],
+      "descriptive_mentions": [
+        "Prouidi"
+      ],
+      "justification": "Deceased first husband of Anna and father of Judita."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Judita Redniczna",
+      "mention_texts": [
+        "Judita Redniczna"
+      ],
+      "descriptive_mentions": [
+        "praedictorum Petri Bieda et Annae superstitis Coniugum filia",
+        "filia"
+      ],
+      "justification": "Daughter of Petrus Bieda and Anna, appearing in the resignation act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in Iudicio Exposito Bannito Leopoli"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "secundarum aliter Valentini coniunx legitima"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Anna primarum nuptiarum Prouidi Petri Bieda"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Judita Redniczna praedictorum Petri Bieda et Annae superstitis Coniugum filia"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Judita Redniczna praedictorum Petri Bieda et Annae superstitis Coniugum filia"
+    }
+  ]
+}

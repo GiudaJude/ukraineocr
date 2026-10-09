@@ -1,0 +1,123 @@
+{
+  "document_id": "arc2/0355.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Manuel Astam",
+      "mention_texts": [
+        "Manuelis Astam",
+        "Manuelis As-\ntam",
+        "Manuelis"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Graeci",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Named as the deceased Greek citizen of Lviv whose estate and heirs are in dispute."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jacek",
+      "mention_texts": [
+        "Joannem Jacek"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem suum",
+        "Honestum",
+        "ferendarium iuratum Leopoliensis"
+      ],
+      "justification": "Named as the plenipotentiary and sworn ferendarius acting on behalf of the guardians of the heirs of Manuel Astam."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolaus"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "asserti"
+      ],
+      "justification": "Named as an opposing claimant asserting affinity/consanguinity to the estate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Dziani",
+      "mention_texts": [
+        "Dziani"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "asserti"
+      ],
+      "justification": "Named along with Nicolaus claiming affinity to the deceased."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Domercha",
+      "mention_texts": [
+        "Nicolai Domercha",
+        "Domersza"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased individual mentioned in relation to the claims and testimonies."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, appearing in multiple locative and adjectival forms."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "sabbato post\nOctavas Corporis Christi sub Anno 1595",
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [
+        "Anno praesenti"
+      ],
+      "justification": "The date of the previous court act cited in the document."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Wednesday after the Feast of the Visitation of the Blessed Virgin Mary 1595",
+      "mention_texts": [
+        "feria quarta pro-\nxime praeterita hoc est post Festum Visitationis Beatae Mariae Vir-\nginis Anno praesenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date on which the testimonies were sworn and corroborated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Manuelis Astam Graeci Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Tutores successorum olim Manuelis Astam Graeci Civis Leopoliensis per Plenipotentem suum Honestum Joannem Jacek"
+    }
+  ]
+}

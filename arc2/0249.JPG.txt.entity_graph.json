@@ -1,0 +1,201 @@
+{
+  "document_id": "arc2/0249.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Anna Przecława Kuczbowicz",
+      "mention_texts": [
+        "Przeclaus Kuczbowicz",
+        "Annae Przeclaus Kuczbowicz",
+        "Przeclawa Kuczbowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "affinis et mandatarij sui",
+        "Honestae",
+        "affinis et mandatarij sui",
+        "affinis et mandatarij sui",
+        "eadem",
+        "Honestae",
+        "affinis et mandatarij sui"
+      ],
+      "justification": "Victim of violent robbery and murder in Iași, on whose behalf legal arrests are placed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Wallachia",
+      "mention_texts": [
+        "Terris Valachiae",
+        "Terris Valachiae",
+        "Terris Valachiae",
+        "Terris Valachiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region where the crime occurred ('in Terris Valachiae')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Iași",
+      "mention_texts": [
+        "Civitate Jassy",
+        "Civitate Jassy",
+        "Ci-uitate Jassy",
+        "Civitate Jassy"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Wallachia/Moldavia where the violent robbery and homicide took place."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Valachus",
+      "mention_texts": [
+        "Pauli Valachi"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "Mercatoris"
+      ],
+      "justification": "Merchant whose goods and money held by Antonius Conterlino are arrested."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Antonius Conterlino",
+      "mention_texts": [
+        "Antonium Conterlino Italum"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Italian citizen of Lviv holding goods belonging to Paulus Valachus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in the citizenship of Antonius Conterlino and Tompceo Graecus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio",
+        "ab Officio",
+        "Officium",
+        "ab Officio"
+      ],
+      "justification": "Municipal office/court executing and announcing the legal arrests."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Justus Dworophia",
+      "mention_texts": [
+        "Justi Dworophia"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Fideiussoris"
+      ],
+      "justification": "Individual whose goods and debts are subject to arrest in the hands of Ignatius Bereza."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Ignatius Bereza",
+      "mention_texts": [
+        "Ignacy Bereza",
+        "Ignatio Bereza"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Praefato"
+      ],
+      "justification": "Person holding goods/money of Justus Dworophia to whom the arrest is formally announced."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Fabricius",
+      "mention_texts": [
+        "Fabrijci"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Husband of the woman whose goods are arrested in the possession of Tompceo Graecus."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Uxor Fabricii",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Uxoris Fabrijci",
+        "Uxoris"
+      ],
+      "justification": "Wife of Fabricius whose property in the hands of Tompceo Graecus is arrested."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Tompceo Graecus",
+      "mention_texts": [
+        "Tompceo Graecum",
+        "Tompceo"
+      ],
+      "descriptive_mentions": [
+        "Providum",
+        "Leopoliensem Civem",
+        "Praefato"
+      ],
+      "justification": "Greek citizen of Lviv holding goods/merchandise subject to arrest."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Emporium Leiculiense",
+      "mention_texts": [
+        "Emporio Leiculiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Market emporium mentioned where Tompceo resides with his merchandise."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in Terris Valachiae in Civitate Jassy"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Antonium Conterlino Italum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Uxoris Fabrijci"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tompceo Graecum Leopoliensem Civem"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "document_id": "arc2/0674.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "residentia penes Consulari",
+        "officij",
+        "officio",
+        "Officij",
+        "Officio",
+        "officium"
+      ],
+      "justification": "City council of Lviv acting in its judicial and administrative capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned adjectivally in the name of the consular office."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Royal Court",
+      "mention_texts": [
+        "Sad Regium"
+      ],
+      "descriptive_mentions": [
+        "Judicio Sad Regium",
+        "Sad Regiae Maiestatis"
+      ],
+      "justification": "Crown judicial body to which appeal was made."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "Reigning king whose royal decree is being executed."
+    }
+  ],
+  "relationships": []
+}

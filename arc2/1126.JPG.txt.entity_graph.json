@@ -1,0 +1,108 @@
+{
+  "document_id": "arc2/1126.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Milczkowna",
+      "mention_texts": [
+        "Dorotheae",
+        "Dorothea",
+        "Dorothea Milczkowna"
+      ],
+      "descriptive_mentions": [
+        "consorti sua",
+        "partes ambae praenominatae"
+      ],
+      "justification": "Appears as a party to the reciprocal donation, identified by full name Dorothea Milczkowna and wife of Georgius."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Georgius",
+      "mention_texts": [
+        "Georgio"
+      ],
+      "descriptive_mentions": [
+        "praefatum maritum suum",
+        "marito suo",
+        "ipse maritus reus",
+        "partes ambae praenominatae"
+      ],
+      "justification": "Husband of Dorothea, designated as the recipient of her reciprocal property donation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Judita",
+      "mention_texts": [
+        "Judita"
+      ],
+      "descriptive_mentions": [
+        "nepotibus"
+      ],
+      "justification": "Mentioned as one of the grandchildren/nephews born of the prior wife to be satisfied financially."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Feliciana",
+      "mention_texts": [
+        "Feliciania"
+      ],
+      "descriptive_mentions": [
+        "nepotibus"
+      ],
+      "justification": "Mentioned alongside Judita and brother Daniel as heirs/descendants from the previous wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Daniel",
+      "mention_texts": [
+        "Daniele"
+      ],
+      "descriptive_mentions": [
+        "fratre",
+        "nepotibus"
+      ],
+      "justification": "Brother of Judita and Feliciania, listed among the heirs to receive contentation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "10 marks",
+      "mention_texts": [
+        "marcas decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount specified to be paid to the relatives by way of contentatio."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "eidem Dorotheae consorti sua... praefato Georgio marito suo"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefatum maritum suum... praefato Georgio marito suo"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Judita, Feliciania et fratre Daniele"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Judita, Feliciania et fratre Daniele"
+    }
+  ]
+}

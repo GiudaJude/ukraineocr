@@ -1,0 +1,73 @@
+{
+  "document_id": "arc2/0477.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceeding and recording took place ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officio"
+      ],
+      "justification": "The municipal consular office that examined the case and issued the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Kirost",
+      "mention_texts": [
+        "Martinus Kirost",
+        "Martinum Kirosth"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "eundem praedictum"
+      ],
+      "justification": "Party in the legal dispute ordered to temporarily cease the alabaster craft."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jarosius Zydowicz",
+      "mention_texts": [
+        "Jarosius Zydowicz"
+      ],
+      "descriptive_mentions": [
+        "praefatus"
+      ],
+      "justification": "Party alleging against Martinus Kirost in the legal dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Officium vero Consulare Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "litigated_against",
+      "tail_entity_id": "E4",
+      "evidence": "In contrarium autem praedictus Martinus Kirost replicabat his verbis: Ex aduerso autem praefatus Jarosius Zydowicz allegauit"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "issued_decree_for",
+      "tail_entity_id": "E3",
+      "evidence": "Officium vero Consulare Leopoliensis partium controuersijs diligenter perpensis et examinatis attentis his praedictis Cornberg Camerecz Ciuitatis Lutheri decreuit, eundem praedictum Martinum Kirosth debere alabastrando artificio tantisper supersedere"
+    }
+  ]
+}

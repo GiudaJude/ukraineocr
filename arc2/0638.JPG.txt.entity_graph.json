@@ -1,0 +1,116 @@
+{
+  "document_id": "arc2/0638.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0005: Albertus Pedianus",
+      "mention_texts": [
+        "Albertus Dziedianus"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles Domini",
+        "Magister",
+        "Consules Leopolienses"
+      ],
+      "justification": "Albertus Dziedianus appears as a city councilor (consul) of Lviv, matching PER-0005: Albertus Pedianus."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-1233: PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Caspar Przedstrzelki"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles Domini",
+        "Consules Leopolienses"
+      ],
+      "justification": "Caspar Przedstrzelki appears as a city councilor (consul) of Lviv, matching PER-1233: PER-0011: Caspar Przedzucki."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consules Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "officio",
+        "officium praesens"
+      ],
+      "justification": "Mentions of Consules Leopolienses and the official council court (officio, officium praesens) designate the Lviv City Council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Uliamniska House",
+      "mention_texts": [
+        "Vliamniska"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam"
+      ],
+      "justification": "Named stone house (domum lapideam Vliamniska) subject to division."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Felix",
+      "mention_texts": [
+        "Felix"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual presenting a proposed division of the estate."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Apostata",
+      "mention_texts": [
+        "Martini Apostata"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual whose portion (sors) in the estate is described."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparum Bromatarium"
+      ],
+      "descriptive_mentions": [
+        "Famatum"
+      ],
+      "justification": "Identified by name and trade alias as Famatum Casparum Bromatarium, matching PER-0527: Caspar Balcerowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Vliamianka",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Citata"
+      ],
+      "justification": "Party in the dispute (Anna Uliamianka) entitled to receive census payment, matching canonical PER-0026: Anna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Magister Albertus Dziedianus et Caspar Przedstrzelki Consules Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Magister Albertus Dziedianus et Caspar Przedstrzelki Consules Leopolienses"
+    }
+  ]
+}

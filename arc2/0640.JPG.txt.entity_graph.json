@@ -1,0 +1,86 @@
+{
+  "document_id": "arc2/0640.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Krzemieniec",
+      "mention_texts": [
+        "Krzemienicow",
+        "Krzemienecoviensis"
+      ],
+      "descriptive_mentions": [
+        "Oppido",
+        "Civitatis praefata"
+      ],
+      "justification": "The town in which the property is located and where the municipal court convenes."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Kasper",
+      "mention_texts": [
+        "Kasperum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor named as a boundary marker for the donated house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paizowski",
+      "mention_texts": [
+        "Paizowszki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the donated property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "103.5 marks",
+      "mention_texts": [
+        "centum et trium marcarum et dimidia marcae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Valuation of the wooden house being donated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Nadbrovka",
+      "mention_texts": [
+        "Dorothea Nadbrovka",
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Coniugi sua charissima",
+        "praefata",
+        "consorte sua",
+        "eandem"
+      ],
+      "justification": "Wife of the grantor and recipient of the donated house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Krzemieniec Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [
+        "ibidem generali"
+      ],
+      "justification": "The banned civil court of Krzemieniec designated for legally executing the property resignation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Civitatis praefata Krzemienecoviensis in Judicio Exposito Bannito ibidem generali"
+    }
+  ]
+}

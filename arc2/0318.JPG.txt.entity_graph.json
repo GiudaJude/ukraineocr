@@ -1,0 +1,128 @@
+{
+  "document_id": "arc2/0318.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dlugosz",
+      "mention_texts": [
+        "Stanislai Dlugosz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Name of the property holder mentioned at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Shoemakers' Street",
+      "mention_texts": [
+        "platea Sutorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street name where the disputed property is situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lebkowska House",
+      "mention_texts": [
+        "Lebkowszka",
+        "Lebkowska"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam",
+        "domus",
+        "lapidea praefata",
+        "eadem lapidea"
+      ],
+      "justification": "Masonry house (kamienica) co-owned by Mathias Sapiha."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0017: Matias Sapiha",
+      "mention_texts": [
+        "Mathiae Sapiha",
+        "Mathia Sapiha",
+        "Mathias Sapiha",
+        "Mathiam Sapiha",
+        "Sapiha"
+      ],
+      "descriptive_mentions": [
+        "Praefati",
+        "praefati",
+        "praedictus",
+        "haeres",
+        "Famatus",
+        "possessor haereditarium",
+        "praefatum",
+        "praefatus"
+      ],
+      "justification": "Known entity Mathias Sapiha, co-owner of the Lebkowska house involved in the wall dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Wojnarowska House",
+      "mention_texts": [
+        "Woynarowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjacent property bounding the disputed tenement."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Catherina Dlugoszowa",
+      "mention_texts": [
+        "Catherina Dlugoszowa",
+        "Dlugoszowa"
+      ],
+      "descriptive_mentions": [
+        "praedicta",
+        "praefata",
+        "praedicta Dlugoszowa",
+        "eidem"
+      ],
+      "justification": "Neighboring resident petitioning for the reconstruction of the separating wall."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Siedmiradzki",
+      "mention_texts": [
+        "Nicolaum Siedmiradzki"
+      ],
+      "descriptive_mentions": [
+        "generum et tutorem suum"
+      ],
+      "justification": "Son-in-law and legal guardian representing Catherina Dlugoszowa."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Nicolaum Siedmiradzki generum et tutorem suum petiit"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Nicolaum Siedmiradzki generum et tutorem suum petiit"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "owner_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedictus Mathias Sapiha domus Lebkowska sibi vicina certarum sortium haeres"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in platea Sutorum penes domum lapideam Lebkowszka"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "document_id": "arc2/1518.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pedianus",
+      "mention_texts": [
+        "Albertus Zidianus"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis ac felix",
+        "Collega noster Consularis",
+        "Proconsulis",
+        "eundem"
+      ],
+      "justification": "Identified as council member and former proconsul, matching known entity Albertus Pedianus (alias Albertus Zidianus/Dedianus)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Camera Officii"
+      ],
+      "descriptive_mentions": [
+        "cameram nostri Officii",
+        "nostri Officii",
+        "officium ipsius",
+        "iisdem actis",
+        "Cameram ipsam",
+        "Officii",
+        "Camera nostri Officii"
+      ],
+      "justification": "The municipal council of Lviv, acting through its office and treasury camera."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "151 florins 3 groschen",
+      "mention_texts": [
+        "Florennes centum quinquaginta unum grossos tres"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Monetary sum deposited by Albertus Pedianus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joma Babres",
+      "mention_texts": [
+        "Joma Babres"
+      ],
+      "descriptive_mentions": [
+        "Rutheni"
+      ],
+      "justification": "Ruthenian individual mentioned as having previously deposited the sum."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Margareta Berdiczowska",
+      "mention_texts": [
+        "Margareta Berdiczowska",
+        "Margareta",
+        "Margaretae"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx",
+        "praefatam Margaretam"
+      ],
+      "justification": "Principal party in the second transaction, wife of Michel Berdicza."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Michael Berdicza",
+      "mention_texts": [
+        "Michelis Berdicz[a]graci",
+        "Berdicxam Graeco"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Peregrini absentis",
+        "maritum absentem",
+        "marito"
+      ],
+      "justification": "Absent husband of Margareta Berdiczowska, identified as Greek (Graecus)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Cikomic",
+      "mention_texts": [
+        "Mathiam Cikomic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "fratrem suum germanum",
+        "tutorem",
+        "tutorem legitimum"
+      ],
+      "justification": "Brother and appointed legal guardian of Margareta Berdiczowska."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "51 florins 6 groschen",
+      "mention_texts": [
+        "Florenos quinquaginta unum et grosses sex"
+      ],
+      "descriptive_mentions": [
+        "summae",
+        "summam"
+      ],
+      "justification": "Monetary sum withdrawn from deposit by Margareta."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kamienica Chomińska",
+      "mention_texts": [
+        "lapidea Chominsha"
+      ],
+      "descriptive_mentions": [
+        "haereditatis"
+      ],
+      "justification": "Tenement house located on Ruthenian Street whose sale generated the funds."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Ruthenian Street",
+      "mention_texts": [
+        "platea Ruthenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the Chomińska property was situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Lawris Pictor",
+      "mention_texts": [
+        "Lawris Pictor"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "fratres germani"
+      ],
+      "justification": "Painter and full brother of Margareta standing as guarantor."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mathias Somet",
+      "mention_texts": [
+        "Mathias Somet"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "fratres germani"
+      ],
+      "justification": "Full brother of Margareta standing as guarantor."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Ivan Osomi",
+      "mention_texts": [
+        "Ivan itidem Osomi"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "fratres germani"
+      ],
+      "justification": "Full brother of Margareta standing as guarantor."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Spectabilis ac felix Albertus Zidianus Collega noster Consularis deposuit et reddidit ad cameram nostri Officii"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Margareta Famati Michelis Berdicz[a]graci Peregrini absentis coniunx"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Mathiam Cikomic fratrem suum germanum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "lapidea Chominsha in platea Ruthenorum in axe ad murum Civilem sita"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati Lawris Pictor Mathias Somet et Ivan itidem Osomi producti Margaretae fratres germani"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati Lawris Pictor Mathias Somet et Ivan itidem Osomi producti Margaretae fratres germani"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famati Lawris Pictor Mathias Somet et Ivan itidem Osomi producti Margaretae fratres germani"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0952.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensibus",
+        "Leopolitani",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civis",
+        "Civitatem"
+      ],
+      "justification": "City of Lviv, mentioned as Leopoli, and in adjectival forms describing residents, citizenship, and courts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "vt supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating reference 'vt supra', referring to the current year 1595 established earlier in the court register."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Catherina Bednarzka",
+      "mention_texts": [
+        "Catherinae Bednarzka",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Simonis olim Doliatoris viduae relictae",
+        "Civis Leopoliense",
+        "steriliter defunctae",
+        "praefatae Catherinae"
+      ],
+      "justification": "Deceased cooper's widow and citizen of Lviv, whose estate is divided among her successors."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Francisconis Szalbus",
+      "mention_texts": [
+        "Joannes Francisconis Szalbus",
+        "Joanne Francisconis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Malzator",
+        "viri",
+        "maritos tutores suos naturales",
+        "tanquam heredes",
+        "haerede naturali seniore",
+        "praefato"
+      ],
+      "justification": "Maltster and senior natural heir of Catherina Bednarzka, husband of Sophia."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia",
+        "Sophiam"
+      ],
+      "descriptive_mentions": [
+        "uxore sua",
+        "uxores",
+        "uxorem suam",
+        "praenominatam",
+        "Catherinae sororem germanam"
+      ],
+      "justification": "Wife of Joannes Francisconis Szalbus and full sister of the deceased Catherina Bednarzka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Oleator",
+      "mention_texts": [
+        "Stephanus Oleator"
+      ],
+      "descriptive_mentions": [
+        "Jurisdictionatus Suburbij Cracoviensis",
+        "Suburbani Leopolitani",
+        "viri",
+        "maritos tutores suos naturales",
+        "tanquam heredes"
+      ],
+      "justification": "Oilmaker under the jurisdiction of the Kraków Suburb of Lviv, husband of Flora and co-heir."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Flora",
+      "mention_texts": [
+        "Flora"
+      ],
+      "descriptive_mentions": [
+        "uxore sua",
+        "Suburbani Leopolitani",
+        "uxores"
+      ],
+      "justification": "Wife of Stephanus Oleator and party to the inheritance division."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Simon Doliator",
+      "mention_texts": [
+        "Simonis"
+      ],
+      "descriptive_mentions": [
+        "olim Doliatoris"
+      ],
+      "justification": "Deceased cooper, formerly husband of Catherina Bednarzka."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbij Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków Suburb of Lviv, canonicalized to LOC-0014: Kraków as indicated in corpus entity mappings."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Roikowska House",
+      "mention_texts": [
+        "Roikowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "domus lapideae Roikowska antiquitus nuncupatae"
+      ],
+      "justification": "Stone townhouse situated on Bakers' Street, divided between Catherina's heirs."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Bakers' Street",
+      "mention_texts": [
+        "platea Pistrorum"
+      ],
+      "descriptive_mentions": [
+        "platea Pistrorum dicta"
+      ],
+      "justification": "Street in Lviv where the Roikowska stone house is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannes Francisconis Szalbus Malzator cum uxore sua Sophia"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stephanus Oleator Jurisdictionatus Suburbij Cracoviensis cum uxore sua Flora"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Catherinae Simonis olim Doliatoris viduae relictae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "uxorem suam Sophiam praenominatam Catherinae sororem germanam"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "domus lapideae Roikowska antiquitus nuncupatae in platea Pistrorum dicta sitae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stephanus Oleator Jurisdictionatus Suburbij Cracoviensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "heir_of",
+      "tail_entity_id": "E3",
+      "evidence": "tanquam heredes Honestae Catherinae"
+    }
+  ]
+}

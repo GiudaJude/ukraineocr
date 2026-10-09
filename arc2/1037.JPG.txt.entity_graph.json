@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/1037.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Eufemia Saturna",
+      "mention_texts": [
+        "Eufemia Saturna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Named as the principal recognizer: 'Honesta Eufemia Saturna Famati olim Sarva Fedorowicz Graeci Civis Leopoliensis vidua relicta'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sarva Fedorowicz",
+      "mention_texts": [
+        "Sarva Fedorowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Graeci",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Eufemia: 'Famati olim Sarva Fedorowicz Graeci Civis Leopoliensis vidua relicta'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Theodoricus Litwinski",
+      "mention_texts": [
+        "Theodoricum Litwinski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "generum suum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Son-in-law and appointed guardian of Eufemia: 'per Famatum Theodoricum Litwinski generum suum tutorem sibi ad eum actum assumptum'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "eisdem actis"
+      ],
+      "justification": "Referred to by the court approving the guardian and maintaining the records: 'ex Officio nostro approbatum' and 'in eisdem actis'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locative references appearing throughout the entry: 'Civis Leopoliensis', 'Scabinis Leopoliensibus', 'Civitate Leopoliensi', and 'Actum Leopoli'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Florenos mille",
+        "Mille Florenos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae Numeri Polonici",
+        "medietate videlicet maioris summae",
+        "alteram medietatem summae"
+      ],
+      "justification": "Sum of money paid and remaining: 'de Florenos mille pecuniae Numeri Polonici medietate videlicet maioris summae'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "4000 Polish florins",
+      "mention_texts": [
+        "Quatuor Millium Florenos"
+      ],
+      "descriptive_mentions": [
+        "maioris summae",
+        "debiti"
+      ],
+      "justification": "Total debt mentioned: 'maioris summae Quatuor Millium Florenos debiti sibi'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria secunda post Dominicam Rogationum proxima Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous contract: 'de actu feria secunda post Dominicam Rogationum proxima Anno Domini 1594'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato ante Dominicam Conductus Paschae Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of subsequent record: 'Sabbato ante Dominicam Conductus Paschae Anno Domini 1596'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Catharina Turowa",
+      "mention_texts": [
+        "Catharina Turowa"
+      ],
+      "descriptive_mentions": [
+        "Cives Ecclesiasticus"
+      ],
+      "justification": "Party in the following entry: 'Catharina Turowa Cives Ecclesiasticus'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Eufemia Saturna Famati olim Sarva Fedorowicz Graeci Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Famatum Theodoricum Litwinski generum suum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Famatum Theodoricum Litwinski generum suum tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Sarva Fedorowicz Graeci Civis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "document_id": "arc2/0007.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus de Tarnopol",
+      "mention_texts": [
+        "Petrum de Tarnopole",
+        "Petrus"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "citatum",
+        "Memoratus",
+        "citatus"
+      ],
+      "justification": "Defendant cited regarding an arrest of money for fish."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Caspar Gulinski",
+      "mention_texts": [
+        "Gasparum Gulinski",
+        "Gulinski"
+      ],
+      "descriptive_mentions": [
+        "ipsos",
+        "Domini"
+      ],
+      "justification": "Person holding the arrested funds."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "16 marks",
+      "mention_texts": [
+        "marcas sedecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary value for three barrels of fish."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "12.5 marks",
+      "mention_texts": [
+        "marcas duodecim cum media"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary value for the fourth barrel."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "10 florins",
+      "mention_texts": [
+        "florenos decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary value for the fifth barrel."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Tarnopol",
+      "mention_texts": [
+        "Tarnopole",
+        "Tarnopoli",
+        "Tarnopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town where the transaction took place and origin of parties."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Moszko",
+      "mention_texts": [
+        "Moszkone"
+      ],
+      "descriptive_mentions": [
+        "Perfido",
+        "Tarnopoliensi"
+      ],
+      "justification": "Jewish merchant from Tarnopol from whom the fish was purchased."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitani",
+        "Leopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council acts were conducted and location of the suburbs."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Feria Quarta post Festum Circumcisionis Domini proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Ambrosius Fraystetyn Krzuschluk",
+      "mention_texts": [
+        "Ambrosii Krzuszlu",
+        "Ambrosio Krzyczsky"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Doliatore Suburbano Leopolitano",
+        "eundem"
+      ],
+      "justification": "Cooper residing in the suburbs of Lviv who satisfied the debt."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Witynski",
+      "mention_texts": [
+        "Joannes Wyszynski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "secundarum nuptiarum coniuges Suburbani Leopolitani",
+        "mariti tutorem suum legitimum"
+      ],
+      "justification": "Suburban resident issuing the quittance together with his wife."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuges Suburbani Leopolitani"
+      ],
+      "justification": "Wife of Joannes who jointly acknowledged receipt of payment."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "36 Polish florins",
+      "mention_texts": [
+        "Florenis triginta sex pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "ratae ultimae"
+      ],
+      "justification": "Final installment sum that was paid."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis"
+      ],
+      "descriptive_mentions": [
+        "proxime praeterito"
+      ],
+      "justification": "Feast day on which the debt payment was due."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Petrum de Tarnopole"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "bought_from",
+      "tail_entity_id": "E7",
+      "evidence": "Petrus citatus affirmat, se easdem pisces more mercatorio Tarnopoli emisse a Perfido Moszkone Tarnopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Moszkone Tarnopoliensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Joannes Wyszynski et Anna secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Doliatore Suburbano Leopolitano"
+    }
+  ]
+}

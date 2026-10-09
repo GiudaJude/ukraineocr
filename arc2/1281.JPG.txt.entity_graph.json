@@ -1,0 +1,115 @@
+{
+  "document_id": "arc2/1281.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Korbej",
+      "mention_texts": [
+        "Korbej"
+      ],
+      "descriptive_mentions": [
+        "iidem"
+      ],
+      "justification": "Named in the inquiry regarding the testimony and claim over two lambs."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Murat",
+      "mention_texts": [
+        "Murat"
+      ],
+      "descriptive_mentions": [
+        "iidem"
+      ],
+      "justification": "Named alongside Korbej as inquirer concerning the testimony."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Tester Kevorkianowicz",
+      "mention_texts": [
+        "Tester",
+        "Tester Kevorkianowicz"
+      ],
+      "descriptive_mentions": [
+        "praefatus recognoscens",
+        "praedictus Tester recognoscens",
+        "Tester Armeni",
+        "Honestus",
+        "Armenus",
+        "Mercator Dwona Leopoliensis"
+      ],
+      "justification": "Deponent who swore an oath and later lodged a written protest."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Tucik",
+      "mention_texts": [
+        "Thoma Tucik"
+      ],
+      "descriptive_mentions": [
+        "Prolocutore",
+        "Famato"
+      ],
+      "justification": "Assumed as prolocutor (legal representative) by Tester Kevorkianowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "David Dzieckowic",
+      "mention_texts": [
+        "Davidem Dzieckowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Armenum",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Armenian burgher of Lviv against whom Tester submitted the protestation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the residency of Tester Kevorkianowicz and David Dzieckowic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council records in which the protest was submitted and recorded."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "assumpto sibi Prolocutore Famato Thoma Tucik"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famatum Davidem Dzieckowic Armenum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestus Tester Kevorkianowicz Armenus Mercator Dwona Leopoliensis"
+    }
+  ]
+}

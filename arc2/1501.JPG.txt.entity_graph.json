@@ -1,0 +1,303 @@
+{
+  "document_id": "arc2/1501.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar Sutteter",
+      "mention_texts": [
+        "Casparis Sutteter",
+        "Casparo",
+        "Caspari"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famati",
+        "Consulis Cracoviensis",
+        "principali suo praedicto",
+        "principali suo"
+      ],
+      "justification": "Named as the principal in the procuration, consul of Kraków."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis",
+        "Cracoviensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the council/castle court records and office."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0022: Kraków City Council",
+      "mention_texts": [
+        "Consulis Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council office implied by Caspar Sutteter's role as consul of Kraków."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Kraków Castle Court",
+      "mention_texts": [
+        "Actis Castrensibus Cracoviensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castle court from which the letter of attorney was emanated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "feria sexta ante Dominicam Rogationum proxima Anno Domini 1590va",
+        "feria secunda post festum S. Bartholomaei proxima Anno eodem currenti",
+        "feria secunda post festum Omnium Sanctorum proxima Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates cited for acts in 1590."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0044: 160 Polish florins",
+      "mention_texts": [
+        "Florenis centum sexaginta",
+        "centum sexaginta Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 160 florins mentioned in the settlement of debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Simon Hamel",
+      "mention_texts": [
+        "Simonem Hamel",
+        "Simonis Hamel"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "olim",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Deceased citizen of Lviv who contracted the original debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "Civitatis eiusdem"
+      ],
+      "justification": "City of Lviv referenced across both entries."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Foltynowic",
+      "mention_texts": [
+        "Simon Foltynowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Furrier and citizen of Lviv making the donation."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae",
+        "filiae"
+      ],
+      "justification": "Wife of Simon Foltynowic and daughter of the deceased Simon Cingulator."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Simon Cingulator",
+      "mention_texts": [
+        "Simonis Cingulatoris"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Late beltmaker, father of Regina."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Łan Fictrowski",
+      "mention_texts": [
+        "laneum Fictrowski",
+        "lanei"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Agricultural plot/laneus donated in the suburban area of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Martinus Przeworski",
+      "mention_texts": [
+        "Martino Przeworski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi"
+      ],
+      "justification": "Citizen of Lviv from whom parts of the laneus were acquired."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sulik",
+      "mention_texts": [
+        "Joanne Sulik"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Consulari Geszen",
+        "coniugibus"
+      ],
+      "justification": "Consul of Geszen transferring rights."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Geszen",
+      "mention_texts": [
+        "Geszen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town whose consular court recorded an inscription."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "organization",
+      "canonical_name": "Geszen City Council",
+      "mention_texts": [
+        "Consularibus Geszen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular authority of Geszen before whom the contract was authenticated."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Frolowma"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Wife of Joannes Sulik."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Andreas Jeleubowic",
+      "mention_texts": [
+        "Andrea Jeleubowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "coniugibus",
+        "Civibus Belzen"
+      ],
+      "justification": "Citizen of Belz transferring part of the laneus."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Sobolowna"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Civibus Belzen"
+      ],
+      "justification": "Wife of Andreas Jeleubowic, citizen of Belz."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "location",
+      "canonical_name": "LOC-0150: Belz",
+      "mention_texts": [
+        "Belzen",
+        "Belzen-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of Belz referenced regarding citizenship and consular records."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "organization",
+      "canonical_name": "Belz City Council",
+      "mention_texts": [
+        "Actis consularibus Belzen-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Consular court/acts of Belz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "has_member",
+      "tail_entity_id": "E3",
+      "evidence": "Nobilis et Famati Casparis Sutteter Consulis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Simon Foltynowic Pellio Civis Leopoliensis suo et Honestae Reginae coniugis suae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Reginae coniugis suae Famati olim Simonis Cingulatoris filiae"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "has_member",
+      "tail_entity_id": "E16",
+      "evidence": "Joanne Sulik Consulari Geszen"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Joanne Sulik Consulari Geszen et Barbara Frolowma coniugibus"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "spouse_of",
+      "tail_entity_id": "E18",
+      "evidence": "Andrea Jeleubowic et Anna Sobolowna coniugibus"
+    }
+  ]
+}

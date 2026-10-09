@@ -1,0 +1,132 @@
+{
+  "document_id": "arc2/0824.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Wasko Saikowicz",
+      "mention_texts": [
+        "Wasko",
+        "Wasko Bakow",
+        "Wasko Saikowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Colonus Kozielnicensis",
+        "venditor"
+      ],
+      "justification": "Identified as the seller, peasant of Kozielniki, who transfers the property to his son."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Ilko Saikowicz",
+      "mention_texts": [
+        "Ilko Saikowic",
+        "Ilkoni Saikowicz",
+        "Saikowicz",
+        "Ilkonem"
+      ],
+      "descriptive_mentions": [
+        "filio suo legitimo et naturali",
+        "Emptori",
+        "filium",
+        "Emptoremque suum"
+      ],
+      "justification": "Identified as the buyer and legitimate son of Wasko Saikowicz from his first marriage."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Ilkona Hazawowna",
+      "mention_texts": [
+        "Ilkoni Hazawowna"
+      ],
+      "descriptive_mentions": [
+        "ad praesens secundarum nuptiarum Coniugis suae",
+        "Coniugis suae"
+      ],
+      "justification": "Identified as the second wife of Wasko Saikowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Siomka",
+      "mention_texts": [
+        "Siomka"
+      ],
+      "descriptive_mentions": [
+        "coniuge"
+      ],
+      "justification": "Identified as the first wife of Wasko Saikowicz and mother of Ilko."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Halickie"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis Suburbio Halickie dicto"
+      ],
+      "justification": "Identified as the suburb of Lviv where the sold house, garden, and plot are situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gasziorek",
+      "mention_texts": [
+        "Stanislai Gasziorek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as an adjacent neighbor whose house borders the sold property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sidora Lazarkowa",
+      "mention_texts": [
+        "Sidory Lazarkowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as an adjacent neighbor whose house borders the sold property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenos pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sale price of the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Ilkoni Hazawowna ad praesens secundarum nuptiarum Coniugis suae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "ex priori matrimonio cum Siomka coniuge"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "Ilkoni Saikowicz filio suo legitimo et naturali"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "filio suo legitimo et naturali ex priori matrimonio cum Siomka coniuge procreato"
+    }
+  ]
+}

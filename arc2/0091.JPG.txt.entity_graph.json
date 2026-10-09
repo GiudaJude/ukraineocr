@@ -1,0 +1,194 @@
+{
+  "document_id": "arc2/0091.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Zofia Stanicowna",
+      "mention_texts": [
+        "Zophiae Sophia",
+        "Zophiae Stanicowna",
+        "Zophiae"
+      ],
+      "descriptive_mentions": [
+        "dictae",
+        "praedictae"
+      ],
+      "justification": "Recipient of annual pension payments registered in the record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "4 florins",
+      "mention_texts": [
+        "quatuor Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of pension to be paid to Zofia."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "40 florins",
+      "mention_texts": [
+        "Florenorum quadraginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Essential principal sum mentioned in the inscription."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Agnes Kwasna",
+      "mention_texts": [
+        "Kwasina",
+        "Agnes kwasna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx deserta"
+      ],
+      "justification": "Abandoned wife of Gregorius Kwasina issuing a quittance."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Kwasina",
+      "mention_texts": [
+        "Gregorii",
+        "Kwasina"
+      ],
+      "descriptive_mentions": [
+        "Provisi",
+        "Pistoris"
+      ],
+      "justification": "Baker whose abandoned wife appears to give quittance."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Gnawis",
+      "mention_texts": [
+        "Paulum Gnauis"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Fratrem Patruelem absentem"
+      ],
+      "justification": "Paternal cousin assisting Agnes Kwasna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Georgius Niemiec",
+      "mention_texts": [
+        "Georgii Pukonis",
+        "Georgium Niemiec",
+        "Georgio"
+      ],
+      "descriptive_mentions": [
+        "Pistoris",
+        "Honestum",
+        "Pistorem",
+        "Honesto",
+        "Pistore",
+        "eodem",
+        "eundem"
+      ],
+      "justification": "Baker quieted by Agnes Kwasna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "60 Polish florins",
+      "mention_texts": [
+        "Florenis sexaginta pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum satisfied in the quittance."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Martinus Biezminski",
+      "mention_texts": [
+        "Martini Biezminski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the heading of the subsequent quittance."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Simon Buczkowic",
+      "mention_texts": [
+        "Simon Buczkowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Pellio",
+        "coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Furrier and citizen of Lviv appearing with his wife."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Margaretha",
+      "mention_texts": [
+        "Margaretha"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "hac"
+      ],
+      "justification": "Wife of Simon Buczkowic appearing in the record."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Simon Buczkowic and Margaretha hold citizenship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Agnes kwasna Provisi Gregorii Pistoris Kwasina coniunx deserta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "per Honestum Paulum Gnauis Fratrem Patruelem absentem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Simon Buczkowic Pellio et Margaretha coniuges"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Simon Buczkowic Pellio et Margaretha coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Simon Buczkowic Pellio et Margaretha coniuges Cives Leopolienses"
+    }
+  ]
+}

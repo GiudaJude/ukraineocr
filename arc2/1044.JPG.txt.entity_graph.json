@@ -1,0 +1,219 @@
+{
+  "document_id": "arc2/1044.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [
+        "Anno eodem currenti"
+      ],
+      "justification": "Dating clause closing the previous act, with subsequent references to the current year."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Bersano",
+      "mention_texts": [
+        "Leonardo Bersano",
+        "Leonardi Bersiano",
+        "Leonardus"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Itali",
+        "Civis Leopoliensis",
+        "praedicti",
+        "memoratus",
+        "praefatum Emptorem",
+        "praedicto",
+        "domus praefatae Emptori",
+        "idem"
+      ],
+      "justification": "Italian citizen of Lviv acquiring the Lozynczowska tenement house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-2074: Gregorius Dobrowolski",
+      "mention_texts": [
+        "Gregorius Dobrocolij"
+      ],
+      "descriptive_mentions": [
+        "Excellens Dominus",
+        "Juris Utriusque Doctor",
+        "Advocatus Ordinarius",
+        "Autores huius fidei"
+      ],
+      "justification": "Doctor of both laws and ordinary advocate conducting the official intro-mission."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Hang",
+      "mention_texts": [
+        "Tomas Hang"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Civitatis Leopoliensis",
+        "Scabini",
+        "Autores huius fidei"
+      ],
+      "justification": "Lviv bench official (scabinus) participating in the intro-mission."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0975: Adamus Smieszek",
+      "mention_texts": [
+        "Adamus Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Scabini Civitatis Leopoliensis",
+        "Scabini",
+        "Autores huius fidei"
+      ],
+      "justification": "Lviv bench official (scabinus) participating in the intro-mission."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitate"
+      ],
+      "justification": "City whose councilors and citizens are mentioned and in which the property is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lozynczowska House",
+      "mention_texts": [
+        "Lozynczowska"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam",
+        "praefatam domum lapideam",
+        "lapideam",
+        "domus praefatae"
+      ],
+      "justification": "Tenement stone house transferred to Leonardus Bersano."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Hebrinowska House",
+      "mention_texts": [
+        "Hebrinoska"
+      ],
+      "descriptive_mentions": [
+        "lapideas"
+      ],
+      "justification": "Neighboring stone house bordering the Lozynczowska property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Woliński",
+      "mention_texts": [
+        "Volinski"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Individual whose successors own the adjacent stone house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0399: Laurentius",
+      "mention_texts": [
+        "Laurentij Smid"
+      ],
+      "descriptive_mentions": [
+        "succesribus"
+      ],
+      "justification": "Deceased former owner whose successors sold the Lozynczowska house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officij sui",
+        "Acta sua",
+        "Officij praesentis"
+      ],
+      "justification": "The municipal judicial court and office issuing and registering the decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "feria secunda post Dominicam Oculi proxima Anno eodem currenti",
+      "mention_texts": [
+        "feria secunda post Dominicam Oculi proxima Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous authentic decree presented for execution."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in domum lapideam Lozynczowska nuncupatam in Civitate eiusdem Civitatis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E8",
+      "evidence": "inter Hebrinoska et successorum Volinski lapideas sitam"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "buyer_of",
+      "tail_entity_id": "E7",
+      "evidence": "memoratus Leonardus emptionis titulo a succesribus Laurentij Smid acquisivit"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "former_owner_of",
+      "tail_entity_id": "E7",
+      "evidence": "memoratus Leonardus emptionis titulo a succesribus Laurentij Smid acquisivit"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Leonardi Bersiano Itali Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Gregorius Dobrocolij Juris Utriusque Doctor Advocatus Ordinarius et Honorati Tomas Hang atque Adamus Smieszek Scabini Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Tomas Hang atque Adamus Smieszek Scabini Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Adamus Smieszek Scabini Civitatis Leopoliensis"
+    }
+  ]
+}

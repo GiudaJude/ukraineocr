@@ -1,0 +1,145 @@
+{
+  "document_id": "arc2/0492.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Civitatis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts were performed and whose citizenship or suburban status applies."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Smigmatour",
+      "mention_texts": [
+        "Andreas Smigmatour",
+        "Andream Smagmatorem"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Coniuges Suburbani Leopolienses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Father acknowledging satisfaction from his son-in-law Martinus for the inheritance of deceased daughter Catharina."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Suburbani Leopolienses",
+        "haec"
+      ],
+      "justification": "Wife of Andreas Smigmatour participating in the receipt and acquittance."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catharina",
+      "mention_texts": [
+        "Catharinam",
+        "Catharinae"
+      ],
+      "descriptive_mentions": [
+        "filiam suam",
+        "defunctam"
+      ],
+      "justification": "Deceased daughter of Andreas and Catherina, wife of Martinus Faber Lignarius."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Martinus Faber Lignarius",
+      "mention_texts": [
+        "Martini Fabrilignarij",
+        "Martino Fabro Lignario",
+        "Martinum"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "marito viduo praedictae Catharinae relicto",
+        "satisfactorem"
+      ],
+      "justification": "Widower carpenter of Catharina who settled and was acquitted for her inheritance."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Mathias Woycik",
+      "mention_texts": [
+        "Mathias Woycik",
+        "Mathiae Woycik",
+        "Mathia Woycik"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Buyer of the garden in the second entry."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stajcza",
+      "mention_texts": [
+        "Joannes Stajcza",
+        "Joannes Glaroska"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Seller of the hereditary garden, listed in the heading as Joannes Stajcza and in text as Joannes Glaroska."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kornasel",
+      "mention_texts": [
+        "Stanislai Kornasel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring garden owner."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price for the garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestus Andreas Smigmatour et Catherina Coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E4",
+      "evidence": "post olim Catharinam filiam suam"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Martino Fabro Lignario marito viduo praedictae Catharinae relicto"
+    }
+  ]
+}

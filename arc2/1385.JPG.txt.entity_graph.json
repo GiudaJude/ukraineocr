@@ -1,0 +1,240 @@
+{
+  "document_id": "arc2/1385.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "praefata",
+        "eidem"
+      ],
+      "justification": "Appears as praefata Catherina acting through her tutor Albertus Szborski to acquire property for her daughter."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szborski",
+      "mention_texts": [
+        "Albertum Szborski"
+      ],
+      "descriptive_mentions": [
+        "Tutorem",
+        "Nobilem"
+      ],
+      "justification": "Nobleman serving as legal guardian (tutor) for Catherina."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Jadwiga"
+      ],
+      "descriptive_mentions": [
+        "filia sua"
+      ],
+      "justification": "Daughter of Catherina for whom the portion was bought."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulo Szczerbic",
+        "Pauli Szczerbic"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Generosi",
+        "Secretarij et Decretorum Sacrae Regiae Maiestatis Notarij"
+      ],
+      "justification": "Royal secretary and notary of decrees Paulus Szczerbic on whose behalf the relation is submitted."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kasprowicz",
+      "mention_texts": [
+        "Andreas Kasprowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus et Notarius Civitatis Leopoliensis",
+        "dictus"
+      ],
+      "justification": "Lviv councilman and notary making the official relation in the records."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Georgius Moszycki",
+      "mention_texts": [
+        "Georgij Moszycki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Mandatarij"
+      ],
+      "justification": "Nobleman acting as mandatory/proxy for Paulus Szczerbic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland mentioned in the official title of Paulus Szczerbic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis istius"
+      ],
+      "justification": "City of Lviv referred to in municipal citizenship registers and civic statuses."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Officij nostri",
+        "Magistratu",
+        "Actis praesentibus",
+        "Officio nostro",
+        "Officium Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "idem Officium",
+        "nos"
+      ],
+      "justification": "The governing magistracy and consular office of Lviv receiving and issuing acts."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Faimus Kordemiela",
+      "mention_texts": [
+        "Fai-mus Kordemiela"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "olim",
+        "alienatam et subre negociorum mercatoriorum gestor"
+      ],
+      "justification": "Deceased merchant whose civil rights registration was checked in the civic register."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Emanuel Maszapeta",
+      "mention_texts": [
+        "Emanuelem Maszapeta",
+        "Emanuel Maszapeta"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et ma- ster"
+      ],
+      "justification": "Citizen and master who exhibits a decree to the council."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Andreas Moszycki",
+      "mention_texts": [
+        "Andream Moszycki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Zioloctorem suum"
+      ],
+      "justification": "Nobleman appearing as legal representative/solicitor for Emanuel Maszapeta."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Maszapeta",
+      "mention_texts": [
+        "Nicolaum Maszapeta"
+      ],
+      "descriptive_mentions": [
+        "fratremque suum"
+      ],
+      "justification": "Brother of Emanuel Maszapeta involved in the registered decree."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post Sancti Laurentij proxima Anno Domini 1590exto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the decree mentioned in the third entry (Monday after St. Lawrence 1596)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefata Catherina per Tutorem Nobilem Albertum Szborski Tutorem fassa est"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "pro filia sua Jadwiga Catherina emit"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E9",
+      "evidence": "Andreas Kasprowicz Scabinus et Notarius Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Georgij Moszycki uti Mandatarij Generosi Pauli Szczerbic"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Pauli Szczerbic Secretarij et Decretorum Sacrae Regiae Maiestatis Notarij"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Fai-mus Kordemiela Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Emanuel Maszapeta Civis et ma- ster per Zioloctorem suum Nobilem Andream Moszycki exhibuit"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "sibling_of",
+      "tail_entity_id": "E13",
+      "evidence": "mier se fratremque suum Nicolaum Maszapeta"
+    }
+  ]
+}

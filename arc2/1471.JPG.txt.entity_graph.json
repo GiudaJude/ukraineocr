@@ -1,0 +1,186 @@
+{
+  "document_id": "arc2/1471.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by official court formula matching known alias ORG-0007."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in civic descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "colatralem suam",
+        "coniuges",
+        "uxores"
+      ],
+      "justification": "Matches known corpus entity PER-0026, here noted as collateral/spouse of Caspar Smietanka."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Tomae Kazes",
+        "Tomas Kazes"
+      ],
+      "descriptive_mentions": [
+        "Praenominato",
+        "emptori",
+        "emptorem",
+        "Fororato",
+        "Honoratus"
+      ],
+      "justification": "Matches known corpus individual PER-0625 with variant spelling Kazes."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Caspar Smietanka"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "coniuges",
+        "affines Cives Leopolienses",
+        "uiri",
+        "maritos suos legitimos et naturales Tutores"
+      ],
+      "justification": "Matches known individual PER-0527, who appears under the alias Caspar Smietanka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0049: Sigismundus Smietanka",
+      "mention_texts": [
+        "Smietanka",
+        "Joannem Smietanka"
+      ],
+      "descriptive_mentions": [
+        "Praenotatum olim",
+        "antecessorem"
+      ],
+      "justification": "Deceased predecessor Joannes Smietanka, linked to known entity PER-0049."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Brzemienski",
+      "mention_texts": [
+        "Martinus Brzemienski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "coniuges",
+        "affines Cives Leopolienses",
+        "uiri",
+        "maritos suos legitimos et naturales Tutores"
+      ],
+      "justification": "Husband of Margaretha Smietanczanka and citizen of Lviv acting in court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Margaretha Smietanczanka",
+      "mention_texts": [
+        "Margaretha Smietanczanka"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "affines Cives Leopolienses",
+        "uxores"
+      ],
+      "justification": "Wife of Martinus Brzemienski, co-recognizor of the debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kazyes",
+      "mention_texts": [
+        "Albertus Kazyes",
+        "Alberto Kazyes"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Mercatori Suburbano Leopoliensi"
+      ],
+      "justification": "Suburban merchant creditor to whom the Smietanka successors acknowledge a debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "460 Polish florins",
+      "mention_texts": [
+        "Florenos quadringentos sexaginta et numerum Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt acknowledged in the contract."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Martinus Brzemienski ex Margaretha Smietanczanka coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Caspar Smietanka et Anna coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "debtor_of",
+      "tail_entity_id": "E9",
+      "evidence": "Martinus Brzemienski ex Margaretha Smietanczanka coniuges, Caspar Smietanka et Anna coniuges ... recognouerunt: Se debere et teneri ... Famato Alberto Kazyes"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_of",
+      "tail_entity_id": "E9",
+      "evidence": "Martinus Brzemienski ex Margaretha Smietanczanka coniuges, Caspar Smietanka et Anna coniuges ... recognouerunt: Se debere et teneri ... Famato Alberto Kazyes"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Martinus Brzemienski ... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Caspar Smietanka ... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Alberto Kazyes Mercatori Suburbano Leopoliensi"
+    }
+  ]
+}

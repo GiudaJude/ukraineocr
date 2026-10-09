@@ -1,0 +1,135 @@
+{
+  "document_id": "arc2/1102.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szewczeski",
+      "mention_texts": [
+        "Andreae Szewczeski"
+      ],
+      "descriptive_mentions": [
+        "Emptori",
+        "idem Emptor",
+        "praedicti Emptoris"
+      ],
+      "justification": "Named as the buyer of the property in the transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jensz",
+      "mention_texts": [
+        "Jenszem"
+      ],
+      "descriptive_mentions": [
+        "Honorabilem",
+        "D.",
+        "Scabinum",
+        "suum verum legitimum indubitatumque Plenipotentem",
+        "Plenipotentem",
+        "Plenipotens suus",
+        "idem Plenipotens suus"
+      ],
+      "justification": "Appointed plenipotentiary and identified as a bench officer (scabinus)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court in which the plenipotentiary is authorized to act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the act was executed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the legal record referenced from the preceding entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Apolonia Exaudi",
+      "mention_texts": [
+        "Apolonia Exaudi"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "olim Pauli Fictoris coniunx legitima"
+      ],
+      "justification": "Principal party appearing before the council to make a legal acknowledgment."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Fictor",
+      "mention_texts": [
+        "Pauli Fictoris"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased husband of Apolonia Exaudi."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Domaszowski",
+      "mention_texts": [
+        "Jacobum Domaszowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Appointed guardian assisting Apolonia Exaudi."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium nostrum"
+      ],
+      "justification": "The municipal council confirming the appointment of the guardian."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Scabinum in Iudicio Exposito Bannito"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesta Apolonia Exaudi olim Pauli Fictoris coniunx legitima"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Honestum Jacobum Domaszowski tutorem sibi ad eum actum assumptum"
+    }
+  ]
+}

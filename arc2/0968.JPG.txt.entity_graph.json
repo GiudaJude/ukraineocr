@@ -1,0 +1,175 @@
+{
+  "document_id": "arc2/0968.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Dominicus",
+      "mention_texts": [
+        "Dominici",
+        "Dominicum",
+        "Dominico"
+      ],
+      "descriptive_mentions": [
+        "Fratrem",
+        "fratris",
+        "Fratris",
+        "praefatum",
+        "praefati",
+        "eiusdem"
+      ],
+      "justification": "Friar named Dominicus referenced in connection with his convent, quietatio, and curator."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0346: Joannes Radowski",
+      "mention_texts": [
+        "Joanne Radowski",
+        "Joannis Radowski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "factore",
+        "alterius contactoris"
+      ],
+      "justification": "Party and factor for Friar Dominicus mentioned in the transaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Decokowicz",
+      "mention_texts": [
+        "Albertum Dęcokosmos",
+        "Alberto Dęcokowus",
+        "Decokowicz",
+        "Dęcokowus"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "factore Districum",
+        "Curatorem",
+        "Cive Leopoliensi",
+        "ordinis et bonorum Curatore"
+      ],
+      "justification": "Citizen of Lviv and curator of Friar Dominicus released from obligations."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where the act is registered and where Albertus is a citizen."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The municipal council office before which the recognition took place."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenorum quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 50 florins mentioned in the first quietatio."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "Florenorum centum quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 150 florins mentioned in the quietatio."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal sum of 200 florins under the original inscription."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos Centum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 100 florins mentioned in the satisfaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "Sabbato post Festum Beati Joannis Baptistae proximo Anno 1594",
+        "Anno 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous act before the Lviv council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria quarta die Sanctorum Fabiani et Sebastiani Anno 1593",
+        "Anno 1593"
+      ],
+      "descriptive_mentions": [
+        "actu eodem feria quarta diei Sanctorum Fabiani et Sebastiani",
+        "Anno quo supra"
+      ],
+      "justification": "Date of original contract and recognition."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria secunda post Dominicam Jacobi proxima Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of enactment of the present document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "agent_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famato Joanne Radowski factore ibidem praefati fratris Dominici"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "curator_of",
+      "tail_entity_id": "E1",
+      "evidence": "Curatorem eiusdem Fratris Dominici"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Alberto Dęcokowus Cive Leopoliensi"
+    }
+  ]
+}

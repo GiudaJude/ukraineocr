@@ -1,0 +1,177 @@
+{
+  "document_id": "arc2/0795.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Paluch",
+      "mention_texts": [
+        "Bartholomeus Paluch",
+        "Bartholomei Paluch"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "Coniugum Suburbanorum Leopolitanorum",
+        "Emptoribus",
+        "Emptores"
+      ],
+      "justification": "Named individual at the head of the record and buyer of the house and garden."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Pastewik",
+      "mention_texts": [
+        "Joannes Pastewik"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named individual appearing alongside Bartholomeus Paluch at the beginning of the act."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szatkowski",
+      "mention_texts": [
+        "Joannes Szatkowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges Suburbani Leopolitani",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Suburban resident of Lviv who sells the property together with his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Helena",
+      "mention_texts": [
+        "Helena"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Coniuges Suburbani Leopolitani"
+      ],
+      "justification": "Wife of Joannes Szatkowski and co-seller of the property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lucia",
+      "mention_texts": [
+        "Luciae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum Suburbanorum Leopolitanorum",
+        "Emptoribus",
+        "Emptores"
+      ],
+      "justification": "Wife of Bartholomeus Paluch and co-buyer of the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Szwator",
+      "mention_texts": [
+        "Stephani Szwatoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor adjacent to the property sold."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitani",
+        "Leopolitanorum",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referenced in the parties' residency, the court, and the place of transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "suburbio eiusdem Civitatis Haliciensi"
+      ],
+      "justification": "Suburb of Lviv where the property sold is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakow"
+      ],
+      "descriptive_mentions": [
+        "vico Lyczakow dicto"
+      ],
+      "justification": "Village/district within the Halych suburb where the cottage and garden are located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civil court before which the property transfer/resignation is to take place."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria quarta ante Festum Sancti Sebastiani Martyris proxima Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [
+        "die anno quo supra",
+        "die Anno quo supra"
+      ],
+      "justification": "Date of recording of the transaction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Joannes Szatkowski et Helena Coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Bartholomei Paluch et Luciae Coniugum Suburbanorum Leopolitanorum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "in suburbio eiusdem Civitatis Haliciensi in vico Lyczakow dicto"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in suburbio eiusdem Civitatis Haliciensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Exposito Judicio Leopoliensi"
+    }
+  ]
+}

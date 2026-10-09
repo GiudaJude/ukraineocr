@@ -1,0 +1,162 @@
+{
+  "document_id": "arc2/0105.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act took place and of which the appearing parties are citizens."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "14 January 1595",
+      "mention_texts": [
+        "Sabbato in In-tiam Pauli Primi Eremite Anno Domini Millesimo 95"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded legal act, falling on the Saturday around the feast of Saint Paul the First Hermit in 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lazarus Salomonowicz",
+      "mention_texts": [
+        "Laxar",
+        "Salomoniti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party recorded in the marginal heading of the entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Cas",
+      "mention_texts": [
+        "Paulus Cas",
+        "Paulus",
+        "Czir"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "secundarum nuptiarum coniuges",
+        "Ciues Leopolienses",
+        "ille",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Furrier and citizen of Lwów appearing to sell hereditary shares in a house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Agnes Krzyszkowna",
+      "mention_texts": [
+        "Agnes Krzyszkowna"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuges",
+        "Ciues Leopolienses",
+        "haec"
+      ],
+      "justification": "Wife of Paulus Cas, co-recognizing the sale of hereditary shares under the legal guardianship of her husband."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Osdrowska House",
+      "mention_texts": [
+        "Osdrowoska"
+      ],
+      "descriptive_mentions": [
+        "domo Osdrowoska dicta",
+        "domo"
+      ],
+      "justification": "House located on the street of Forum Ferorum in which the sold shares are located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Platea Fori Ferorum",
+      "mention_texts": [
+        "platea fori feruorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the Osdrowska house is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Sobynska House",
+      "mention_texts": [
+        "Sobynskie"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house adjacent to the Osdrowska house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Zawialiczkowska House",
+      "mention_texts": [
+        "Zawialiczkowskie"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house adjacent to the Osdrowska house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Paulus Cas Pellio et Agnes Krzyszkowna secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "haec vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "coniuges Ciues Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "coniuges Ciues Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in domo Osdrowoska dicta in platea fori feruorum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E8",
+      "evidence": "inter Sobynskie et Zawialiczkowskie domos etringq sita existentes"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E9",
+      "evidence": "inter Sobynskie et Zawialiczkowskie domos etringq sita existentes"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "document_id": "arc2/1511.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0056: 5 florins",
+      "mention_texts": [
+        "quinque Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 5 florins ordered in the court decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopo-\nliensis",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where the acts are executed and where the persons reside/hold citizenship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "festum\nAssumptionis Virginis Mariae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day used to determine the date of registration."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "feria tertia post festum\nAssumptionis Virginis Mariae Anno Domini 1596",
+        "Anno Domini 1596",
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The year and session dates of the recorded legal entries."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sawic",
+      "mention_texts": [
+        "Joannes Sawic",
+        "Sawicow"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Famati olim Sawae Leopo-\nliensis Sartoris et Eufemia coniugum Filius"
+      ],
+      "justification": "Son of late Sawa and Eufemia, releasing his guardians from accounts upon reaching majority."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sawa",
+      "mention_texts": [
+        "Sawae"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Leopo-\nliensis Sartoris",
+        "coniugum"
+      ],
+      "justification": "Deceased tailor of Lviv, father of Joannes Sawic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0872: Eufemia",
+      "mention_texts": [
+        "Eufemia"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Wife of Sawa and mother of Joannes Sawic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "eisdem Actis",
+        "Officium prae-\nsentem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/bench acts and the current municipal office before which the parties appear."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "261 florins",
+      "mention_texts": [
+        "Florenos ducentos sexaginta et uni Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money received by Joannes Sawic from his guardians."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-1069: Andreas Dąbrowski",
+      "mention_texts": [
+        "Andrea Dambrowski"
+      ],
+      "descriptive_mentions": [
+        "Generoso et Famato",
+        "Scabino Collegaque Consulari",
+        "Tutoribus suis Testamentariis"
+      ],
+      "justification": "Scabinus and council colleague acting as testamentary guardian of Joannes Sawic."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Gabriel Riedwick",
+      "mention_texts": [
+        "Gabriele Riedwick"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Armeno seniore",
+        "Cive Leopoliensi",
+        "Tutoribus suis Testamentariis"
+      ],
+      "justification": "Armenian elder and citizen of Lviv acting as testamentary guardian of Joannes Sawic."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentos Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 200 florins specifically mentioned in the acquittance."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szatlek",
+      "mention_texts": [
+        "Jacobus\nSzatlek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Name of the person recorded in the margin of the recognition of debt."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Honesti olim Mathiae Szatalka\nPellionis Suburbani Leopoliensis relicta Vidua relicta"
+      ],
+      "justification": "Widow of Mathias Szatalka recognizing her debt before the court."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Mathias Szatalka",
+      "mention_texts": [
+        "Mathiae Szatalka"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Pellionis Suburbani Leopoliensis",
+        "mariti su-\nium"
+      ],
+      "justification": "Deceased suburban furrier of Lviv, late husband of Anna."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Stanislaw Gamuszka",
+      "mention_texts": [
+        "Stanislaw\nGamuszka"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Tutorem sibi ad eum actum adsumptum"
+      ],
+      "justification": "Appointed guardian assisting Anna for this legal act."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "27 florins",
+      "mention_texts": [
+        "Florenos viginti septem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal sum of 27 florins acknowledged as debt."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "currency",
+      "canonical_name": "3 florins",
+      "mention_texts": [
+        "tria Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Additional 3 florins mentioned in the debt amount."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Honestus Joannes Sawic Famati olim Sawae Leopo-\nliensis Sartoris et Eufemia coniugum Filius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honestus Joannes Sawic Famati olim Sawae Leopo-\nliensis Sartoris et Eufemia coniugum Filius"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Sawae Leopo-\nliensis Sartoris et Eufemia coniugum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andrea Dambrowski Scabino Collegaque Consulari\net Famato Gabriele Riedwick Armeno seniore Cive Leopoliensi Tutori-\nbus suis Testamentariis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andrea Dambrowski Scabino Collegaque Consulari\net Famato Gabriele Riedwick Armeno seniore Cive Leopoliensi Tutori-\nbus suis Testamentariis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Honesta Anna Honesti olim Mathiae Szatalka\nPellionis Suburbani Leopoliensis relicta Vidua"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "Honestum Stanislaw\nGamuszka Tutorem sibi ad eum actum adsumptum"
+    }
+  ]
+}

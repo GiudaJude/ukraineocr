@@ -1,0 +1,98 @@
+{
+  "document_id": "arc2/0951.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "Officio nostro",
+        "nos"
+      ],
+      "justification": "The municipal council/office recording the legal impediment and granting the prorogation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0248: Stanislaus Krasnicki",
+      "mention_texts": [
+        "Krasnicki",
+        "Stanislaus Krasnicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Syndicus Civitatis Leopoliensis",
+        "ipsi",
+        "sua"
+      ],
+      "justification": "The syndic of Lviv submitting a legal impediment due to departure for the Diet of the Kingdom."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopolim"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eius Civitatis"
+      ],
+      "justification": "The city of Lviv mentioned in the syndic's title, the court name, and as the place of return."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Civili Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv before which Krasnicki was required to appear."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festa Solennia Paschalia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Easter solemnities after which the court session is scheduled to take place."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kingdom of Poland whose General Diet (Comitia Regni) Krasnicki is attending."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Krasnicki Syndicus Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Iudicio Exposito Civili Leopoliensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Syndicus Civitatis Leopoliensis denunciauit Officio nostro"
+    }
+  ]
+}

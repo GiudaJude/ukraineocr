@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/1118.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "53 Polish florins",
+      "mention_texts": [
+        "quinquaginta trium Florenorum Polonicalium",
+        "quinquaginta trium florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "talem summam",
+        "summa",
+        "summa",
+        "summam praefatam",
+        "summa principali"
+      ],
+      "justification": "Principal sum belonging to the minor children of the late Stanislaus Siedlicki."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislai Siedliewski",
+        "Stanislai Siedliczki"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Suburbani Leopoliensis interempti",
+        "praedicti olim"
+      ],
+      "justification": "Deceased suburban resident of Lviv whose minor children are owed the principal sum."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of origin and location where the legal act is recorded."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Cameram nostri officij",
+        "officio nostro",
+        "Officium nostri",
+        "depositum nostrum",
+        "officij",
+        "cameram nostram"
+      ],
+      "justification": "City council chamber and office administering the deposit and recording the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "8 florins",
+      "mention_texts": [
+        "octo florenos",
+        "octo Florenos"
+      ],
+      "descriptive_mentions": [
+        "pensionis annua",
+        "primos"
+      ],
+      "justification": "Annual interest/pension amount payable to the widow."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea",
+        "Dorothea",
+        "Siedliczka",
+        "Dorotheam Siedliczka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vxori relicta",
+        "tanquam educatrici eorundem liberorum minorennum",
+        "eidem",
+        "ipsa",
+        "Honestam"
+      ],
+      "justification": "Widow of Stanislaus Siedlicki and caregiver/educator of their minor children."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szawyn Czwirski",
+      "mention_texts": [
+        "Stanum Szawyn Czwirski"
+      ],
+      "descriptive_mentions": [
+        "tutorem sibi ad praesentem actum assumptum"
+      ],
+      "justification": "Tutor assisting Dorothea before the council office for this legal act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dworanosta",
+      "mention_texts": [
+        "Stanislaus Dworanosta",
+        "Sebastianus"
+      ],
+      "descriptive_mentions": [
+        "idem",
+        "idem"
+      ],
+      "justification": "The obligor holding the principal sum, responsible for annual pension payments."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Cantate Sunday",
+      "mention_texts": [
+        "Qvintam Cantate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Calendar feast date defining the term for notification of capital restitution."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Dorothea praedicti olim Stanislai Siedliczki vxori relicta"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislai Siedliewski Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Stanum Szawyn Czwirski tutorem sibi ad praesentem actum assumptum"
+    }
+  ]
+}

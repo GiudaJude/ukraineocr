@@ -1,0 +1,176 @@
+{
+  "document_id": "arc2/1088.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "28 florins",
+      "mention_texts": [
+        "viginti octo annuos florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of annual census payment mentioned in the settlement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rybka",
+      "mention_texts": [
+        "Joannis Rybka",
+        "Joannis",
+        "Eramum"
+      ],
+      "descriptive_mentions": [
+        "Muratoris",
+        "praedicti",
+        "Muratorem"
+      ],
+      "justification": "Mason whose estate was subject to census; father of Christophorus Zaremba. The name 'Eramum' is an OCR misreading of 'Ioannem'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Calvary Hill",
+      "mention_texts": [
+        "monte Calvariensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the plot of land in Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Zakrzewski",
+      "mention_texts": [
+        "Zakrzewski"
+      ],
+      "descriptive_mentions": [
+        "fundum"
+      ],
+      "justification": "Neighboring landowner mentioned adjacent to the property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Zaremba",
+      "mention_texts": [
+        "Christophori Zaremba alias Gembka",
+        "Christophorum"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Pellionis",
+        "incolae Leopoliensis",
+        "praedicti Joannis filij",
+        "filium eius"
+      ],
+      "justification": "Furrier and resident of Lviv, son of Joannes Rybka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "City where the acts are recorded and where the parties reside."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis",
+        "officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council office issuing the decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wilczek",
+      "mention_texts": [
+        "Alberto Wilczek",
+        "Albertum Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "discipulum seu tyronem artificij Doliatorij",
+        "Actorem",
+        "Actor praefatus",
+        "Actori"
+      ],
+      "justification": "Cooper apprentice who brought a suit before the council to be admitted to trade training."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Coopers' Guild",
+      "mention_texts": [
+        "Contubernij Doliatorij Civitatis huius Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Famatos Cexmagistros aliosque Juniores Magistri Contubernij Doliatorij",
+        "Citatos",
+        "Citati"
+      ],
+      "justification": "Lviv guild of coopers cited in the case."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0389: LOC-0339: Biecz",
+      "mention_texts": [
+        "Civensibus"
+      ],
+      "descriptive_mentions": [
+        "Actis Judiciarijs"
+      ],
+      "justification": "Town whose judicial court records ('Actis Judiciarijs Bicensibus', misread as 'Civensibus') contained Wilczek's judicial purgation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Nonagesimo sexto",
+        "Sabbato ante Dominicam Jubilate Proxima Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of the certificate of purgation and exact date of the council's decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "praedicti Joannis filij"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E6",
+      "evidence": "incolae Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "Contubernij Doliatorij Civitatis huius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "officij Consularis Leopoliensis"
+    }
+  ]
+}

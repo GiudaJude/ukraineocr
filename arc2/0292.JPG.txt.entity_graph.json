@@ -1,0 +1,223 @@
+{
+  "document_id": "arc2/0292.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicola",
+      "mention_texts": [
+        "Nicola"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party who officially recognizes donating their maternal inheritance share to their father Albertus Ototewa."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Ototewa",
+      "mention_texts": [
+        "Alberto Ototewa",
+        "Alberto"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Sasnowicen",
+        "Patri suo",
+        "Donatarii",
+        "Patris sui supernominati"
+      ],
+      "justification": "Father of Nicola and recipient of the donation of the maternal share."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in territorial adjectives denoting residence/adventitious merchant status."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Sarnowice",
+      "mention_texts": [
+        "Barnowicze",
+        "Sasnowicen",
+        "Sarnonencen",
+        "Sarnovicen"
+      ],
+      "descriptive_mentions": [
+        "Civitatis illius"
+      ],
+      "justification": "Town where the maternal property and its municipal office are located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Sarnowice City Council",
+      "mention_texts": [
+        "Officium Consulare Barnowicze",
+        "Officio Consulari Sarnonencen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council office of Sarnowice where the sum of eight florins was deposited."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "8 Polish florins",
+      "mention_texts": [
+        "Florenos octo pecuniae et meri Polonicalis",
+        "Florenos octo",
+        "octo Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary value of the maternal inheritance share donated by Nicola to Albertus Ototewa."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Anselmo",
+      "mention_texts": [
+        "Nicolai Anselmo",
+        "Nicolaus Anselmo"
+      ],
+      "descriptive_mentions": [
+        "Graeci",
+        "Honestus",
+        "Graecus",
+        "Mercator advena Leopoliensis"
+      ],
+      "justification": "Greek merchant from Chios residing in Lviv who registers an arrestment of goods against Licoresi."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Chios",
+      "mention_texts": [
+        "insula Chio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Aegean island of Chios, identified as the origin of merchants Nicolaus Anselmo and Petrus Fataluti."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Licoresi",
+      "mention_texts": [
+        "Licoresi"
+      ],
+      "descriptive_mentions": [
+        "postris"
+      ],
+      "justification": "Debtor against whose merchandise and property legal arrestments are executed."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "180 old thalers",
+      "mention_texts": [
+        "centum octoginta taleronorum antiquorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount owed by Licoresi to Nicolaus Anselmo."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "Lviv City Council office that received the legal arrestment."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Fataluti",
+      "mention_texts": [
+        "Petri Fataluti",
+        "Petrus Fataluti"
+      ],
+      "descriptive_mentions": [
+        "Graeci",
+        "Honestus",
+        "Graecus",
+        "Mercator advena Leopoliensis"
+      ],
+      "justification": "Greek merchant from Chios who also registers an arrestment against Licoresi's merchandise."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "Alberto Ototewa Suburbano Sasnowicen Patri suo"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Alberto Ototewa Suburbano Sasnowicen Patri suo"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nicola Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Suburbano Sasnowicen"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "originating_from",
+      "tail_entity_id": "E8",
+      "evidence": "Nicolaus Anselmo Graecus de insula Chio"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mercator advena Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "creditor_of",
+      "tail_entity_id": "E9",
+      "evidence": "ratione summae centum octoginta taleronorum antiquorum sibi per eundem Licoresi iuxta obligationem suam contractorum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "debtor_of",
+      "tail_entity_id": "E7",
+      "evidence": "ratione summae centum octoginta taleronorum antiquorum sibi per eundem Licoresi iuxta obligationem suam contractorum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "originating_from",
+      "tail_entity_id": "E8",
+      "evidence": "Petrus Fataluti Graecus de insula Chio"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mercator advena Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "creditor_of",
+      "tail_entity_id": "E9",
+      "evidence": "arestum in et super omnibus et singulis bonis et mercibus Licoresi"
+    }
+  ]
+}

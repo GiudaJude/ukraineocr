@@ -1,0 +1,226 @@
+{
+  "document_id": "arc2/0799.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Abraham Mendlowicz",
+      "mention_texts": [
+        "Abraham Mendlowic",
+        "Abrahamo Mendlowicz",
+        "Abraham Mendlowicz"
+      ],
+      "descriptive_mentions": [
+        "Iudaeo Leopoliensi",
+        "domus iure obligatorio possessori legitimo",
+        "eodem",
+        "eumdem"
+      ],
+      "justification": "Jewish creditor and obligatory possessor of Albert Szwaba's house in the Halych suburb."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Wysziczki",
+      "mention_texts": [
+        "Nicolaus Wyszcki",
+        "Nicolaus Wysziczki"
+      ],
+      "descriptive_mentions": [
+        "Generosus"
+      ],
+      "justification": "Noble recognizor ceding his debt claim to Abraham Mendlowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "36 florins and 6 groschen",
+      "mention_texts": [
+        "triginta sex Florenorum et grossorum sex",
+        "Triginta sex Florenos et sex grossos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the debt mentioned and ceded in the record."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szwaba",
+      "mention_texts": [
+        "Albertam Szwaba",
+        "Alberti Szwaba"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Pellionem"
+      ],
+      "justification": "Deceased furrier whose two house shares carried the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the transaction took place and where the house was located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Festum Sanctae Agnetis proxima Anno Domini 1595."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous inscription referenced in the text."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio huius Civitatis Haliciensi dicto"
+      ],
+      "justification": "Suburb of Lviv where Albert Szwaba's house was situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Buthancz",
+      "mention_texts": [
+        "Buthancz"
+      ],
+      "descriptive_mentions": [
+        "Scabinos"
+      ],
+      "justification": "Lviv alderman whose property was adjacent to the house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hanthorowicz",
+      "mention_texts": [
+        "Hanthorowicz"
+      ],
+      "descriptive_mentions": [
+        "Scabinos"
+      ],
+      "justification": "Lviv alderman whose property was adjacent to the house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Severinus Starnowic",
+      "mention_texts": [
+        "Severinus Starnowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the marginal heading of entry 747."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Georgius Sternlowicz",
+      "mention_texts": [
+        "Georgius Sternlowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armeniensis Civis Leopoliensis"
+      ],
+      "justification": "Armenian burgher of Lviv appearing before the council against Barbara Szegmorowa."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara Starnowicowa",
+        "Barbaram Szegnrowna"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Ciuem Leopoliensem"
+      ],
+      "justification": "Burgher of Lviv cited regarding the choice of the third share in Szychotniska House."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Andreas Starlicki",
+      "mention_texts": [
+        "Andream Starliczki"
+      ],
+      "descriptive_mentions": [
+        "Procuratorem suum",
+        "Nobilem"
+      ],
+      "justification": "Noble legal procurator acting on behalf of Georgius Sternlowicz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium praesens",
+        "huius Officii",
+        "Actis"
+      ],
+      "justification": "Lviv council court before which the parties appeared."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Szychotniska House",
+      "mention_texts": [
+        "Szychothniska"
+      ],
+      "descriptive_mentions": [
+        "domo Lapidea"
+      ],
+      "justification": "Masonry house in Lviv subject to property division."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E13",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Georgius Sternlowicz Armeniensis Civis Leopoliensis per Procuratorem suum Nobilem Andream Starliczki"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Georgius Sternlowicz Armeniensis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Barbaram Szegnrowna Ciuem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Abrahamo Mendlowicz Iudaeo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "suburb_of",
+      "tail_entity_id": "E5",
+      "evidence": "Suburbio huius Civitatis Haliciensi dicto"
+    }
+  ]
+}

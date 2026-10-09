@@ -1,0 +1,106 @@
+{
+  "document_id": "arc2/1400.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The municipal council/bench office of Lviv deciding on the admissibility of an appeal."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in the actum clause and as the citizenship of Simon Goworkowic."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0017: 1590",
+      "mention_texts": [
+        "Sabbato in crastino S. Stanislai Pontificis in Autumno Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date of the act: Saturday after the feast of St. Stanislaus in Autumn, 1590."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Goworkowic",
+      "mention_texts": [
+        "Albertus Goworkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "aromata- rius",
+        "Civis Luczoriensis",
+        "sanus mente et corpore"
+      ],
+      "justification": "Apothecary and citizen of Lutsk appearing to appoint his brother as plenipotentiary."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Łuck",
+      "mention_texts": [
+        "Luczoriensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Volhynia where Albertus Goworkowic is a citizen."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Goworkowic",
+      "mention_texts": [
+        "Simonis Goworkowic",
+        "Simonem Goworkowic"
+      ],
+      "descriptive_mentions": [
+        "Ple- nipontentem et mandatarium",
+        "Famatus",
+        "seniorem",
+        "Civem Leopoliensem",
+        "fratrem suum germanum",
+        "fratri suo",
+        "Plenipotentem"
+      ],
+      "justification": "Citizen of Lviv appointed as attorney-in-fact by his brother Albertus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simonem Goworkowic seniorem Civem Leopoliensem fratrem suum germanum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E4",
+      "evidence": "fecit constituit et sole- mniter ordinavit missum verum legitimum indubitatumque Ple- nipontentem et mandatarium Famatus Simonem Goworkowic"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Albertus Goworkowic aromata- rius Civis Luczoriensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Simonem Goworkowic seniorem Civem Leopoliensem"
+    }
+  ]
+}

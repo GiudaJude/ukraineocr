@@ -1,0 +1,135 @@
+{
+  "document_id": "arc2/0994.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "florenorum quadraginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt amount mentioned in the inscription referenced in the lawsuit."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Iwolski House",
+      "mention_texts": [
+        "domus Iwolski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "House located outside the Halych Gate whose third share was mortgaged."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "portam Haliciensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Topographical reference identifying the location of the house outside the Halych Gate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "citata",
+        "eadem",
+        "citatae partis",
+        "citatam"
+      ],
+      "justification": "Defendant who pledged the third part of the Iwolski house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Maiowski",
+      "mention_texts": [
+        "Joanni Maiowski",
+        "Joannem Maiowski"
+      ],
+      "descriptive_mentions": [
+        "Serrifici",
+        "Honesto",
+        "oppignorata- rium",
+        "praedictum"
+      ],
+      "justification": "Sawyer (serrifex) who held the pledge on the third part of the house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal court rendering the sentence between the parties."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Triginta florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount required to redeem the pledge from Joannes Maiowski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "florenos septua- ginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total combined debt amount (40 + 30 florins)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the court record."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Georgius Szkola",
+      "mention_texts": [
+        "Georgius Szkola"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Lanius",
+        "Civis"
+      ],
+      "justification": "Butcher and citizen appearing personally in the subsequent entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in tertia sorte domus Iwolski ante portam Haliciensem sita"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "pledged_to",
+      "tail_entity_id": "E5",
+      "evidence": "quam sortem tertiam eadem Anna citata Joanni Maiowski Serrifici ab annis pene tribus oppignorauit"
+    }
+  ]
+}

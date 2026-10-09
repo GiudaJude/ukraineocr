@@ -1,0 +1,106 @@
+{
+  "document_id": "arc2/0800.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "citata",
+        "Conuentam",
+        "ipsa debitrice sua",
+        "citatae",
+        "Citatae",
+        "debitricis sua",
+        "citata"
+      ],
+      "justification": "Named as the cited defendant ('citata', 'Conuentam', 'debitrice') and identified at the end as 'praedictae Barbarae citata'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Ferendarium suum",
+        "praedictus tutor et Prolocutor suus",
+        "Ferendario suo"
+      ],
+      "justification": "Identified as the absent legal guardian and advocate ('Ferendarium suum', 'tutor et Prolocutor') of Barbara."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "Officio",
+        "Officium"
+      ],
+      "justification": "The consular council of Lviv issuing court decrees and appointing a guardian."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0849: Paulus Kraus",
+      "mention_texts": [
+        "Paulum Krauz"
+      ],
+      "descriptive_mentions": [
+        "Ostiarium",
+        "Tutore",
+        "Qui"
+      ],
+      "justification": "Council apparitor/court usher ('Ostiarium') appointed by the council as guardian ('Tutore') to Barbara."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Georgius Steczkowicz",
+      "mention_texts": [
+        "Georgius Steczkowicz"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "Creditori",
+        "Actorem",
+        "Quiquidem"
+      ],
+      "justification": "The plaintiff ('Actor') and creditor pursuing execution/division of property against Barbara."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "Ferendarium suum Actum Adamum Kalinowski abesse sine cuius consilio et voluntate nolle quidquam in negotio electionis procedere, quin etiam licet praedictus tutor et Prolocutor suus adesset"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "eidem Citatae ad faciendam electionem pro Tutore addidit Actum Paulum Krauz Ostiarium"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "in_litigation_with",
+      "tail_entity_id": "E1",
+      "evidence": "Ex aduerso Actor allegauit. Conuentam non posse iam amplius contra Decreta Officij sexatatis hanc electionem protrahere"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "employee_of",
+      "tail_entity_id": "E3",
+      "evidence": "Officium itaque Consulare Leopoliense ... eidem Citatae ad faciendam electionem pro Tutore addidit Actum Paulum Krauz Ostiarium"
+    }
+  ]
+}

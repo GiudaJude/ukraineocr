@@ -1,0 +1,144 @@
+{
+  "document_id": "arc2/0460.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium praesens Consulare",
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officij",
+        "officium praesens"
+      ],
+      "justification": "City council / consular office of Lviv before which the dispute and quietatio are registered."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in civic designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szuprowic",
+      "mention_texts": [
+        "Paulus Szurcowic",
+        "Paulus Szuprowicz",
+        "Paulo Kuprowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Civis Leopoliensis",
+        "Famato",
+        "Cive et Alcuratore Leopoliensi"
+      ],
+      "justification": "Party making denunciation and named in the quietatio."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schembek",
+      "mention_texts": [
+        "Stanislaus Schembek",
+        "Stanislaum Schembegk"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem et Alcuratorem Leopoliensem",
+        "citatum"
+      ],
+      "justification": "Lviv citizen and alcurator cited to appear."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Koszicki",
+      "mention_texts": [
+        "Andream Kosziczki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem"
+      ],
+      "justification": "Noble representative who presented the claim on behalf of Paulus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Tremesna",
+      "mention_texts": [
+        "Tremesna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the quietatio was officially transacted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Millesimo quingentesimo Nonagesimo Quinto feria tertia ante Festum Sanctae Mariae Magdalenae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of transaction recorded in the quietatio."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schinter",
+      "mention_texts": [
+        "Sebaldus Schinter"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Alcurator Gedanensis"
+      ],
+      "justification": "Citizen and alcurator of Gdańsk issuing the quietatio."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Gdańsk indicated by Sebaldus Schinter's citizenship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Paulus Szuprowicz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaum Schembegk Civem et Alcuratorem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Sebaldus Schinter Civis et Alcurator Gedanensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "contra quem comparentem per Nobilem Andream Kosziczki proposuit in haec verba"
+    }
+  ]
+}

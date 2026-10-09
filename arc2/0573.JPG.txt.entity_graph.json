@@ -1,0 +1,217 @@
+{
+  "document_id": "arc2/0573.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Mille Florenorum",
+        "Mille Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "praedictam Mille Florenorum summam"
+      ],
+      "justification": "Sum of 1000 Polish florins transferred in the cession."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Baldasar Szmer",
+      "mention_texts": [
+        "Baldasar Szmerium",
+        "Baltasare"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Samosciensem",
+        "praedicto"
+      ],
+      "justification": "Debtor from Zamość who contracted a debt for saffian skins."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Samosciensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Baldasar Szmer is a citizen."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Łopaciński",
+      "mention_texts": [
+        "Jacobo Łopacinski",
+        "Jacobi Łopaciewski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Cubiculario Sacrae Regiae Maiestatis",
+        "eodem Generoso",
+        "praedicti Generosi",
+        "praedictus Generosus"
+      ],
+      "justification": "Royal chamberlain who acquires the right to the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacra Regia Maiestate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King Sigismund III Vasa, referred to by his royal title."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the legal proceedings take place."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato ipso Die Vndecim Millium Virginum Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording: Saturday, Feast of the Eleven Thousand Virgins, 1595."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sonia Lutowic",
+      "mention_texts": [
+        "Sonia Lutowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the entry heading concerning power of attorney."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Radziewicz",
+      "mention_texts": [
+        "Andreas Radziewicz"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Juratorius et Scabinus Civitatis Leopoliensis",
+        "Curator"
+      ],
+      "justification": "Noble, juror and scabinus of Lviv acting as curator for Nicolaus Radziewicz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Radziewicz",
+      "mention_texts": [
+        "Nicolai Radziewicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "Posthumi"
+      ],
+      "justification": "Posthumous son and ward under the curatorship of Andreas Radziewicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Radziewicz",
+      "mention_texts": [
+        "Stanislai Radziewicz"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Conjugum Civium Brecen Regii"
+      ],
+      "justification": "Deceased citizen of Biecz and father of Nicolaus Radziewicz."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Catherina Jastrebowicowna",
+      "mention_texts": [
+        "Catherinae Jastrebowicowna"
+      ],
+      "descriptive_mentions": [
+        "Conjugum Civium Brecen Regii"
+      ],
+      "justification": "Mother of Nicolaus Radziewicz and wife of Stanislaus Radziewicz."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0339: Biecz",
+      "mention_texts": [
+        "Brecen Regii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal city of which Stanislaus Radziewicz and Catherina were citizens."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famatum Baldasar Szmerium Civem Samosciensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "servant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Generoso Jacobo Łopacinski Cubiculario Sacrae Regiae Maiestatis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "curator_of",
+      "tail_entity_id": "E10",
+      "evidence": "Andreas Radziewicz Juratorius et Scabinus Civitatis Leopoliensis tanquam Curator Ingenui Nicolai Radziewicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Nicolai Radziewicz Posthumi olim Stanislai Radziewicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Nicolai Radziewicz Posthumi olim Stanislai Radziewicz et Catherinae Jastrebowicowna Conjugum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "olim Stanislai Radziewicz et Catherinae Jastrebowicowna Conjugum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E13",
+      "evidence": "Stanislai Radziewicz et Catherinae Jastrebowicowna Conjugum Civium Brecen Regii"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E13",
+      "evidence": "Stanislai Radziewicz et Catherinae Jastrebowicowna Conjugum Civium Brecen Regii"
+    }
+  ]
+}

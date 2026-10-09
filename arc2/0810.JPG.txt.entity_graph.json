@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0810.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Iudicio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Banned Court mentioned in the appointment of the plenipotentiary."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in official titles and territorial descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis",
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv City Council issuing decrees."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Domini Advocati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial office to which the parties are remanded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "custodiae suburbana"
+      ],
+      "justification": "Halych suburb mentioned in the context of the suburban watch."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Kraków referenced as origin of the tanner."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Stosziowski",
+      "mention_texts": [
+        "Hieronymum Stosziowszki"
+      ],
+      "descriptive_mentions": [
+        "Actorem",
+        "Cerdonem Suburbanum Leopoliensem",
+        "Actoris",
+        "Actori"
+      ],
+      "justification": "Suburban tanner and plaintiff in the first decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Abram Judaeus",
+      "mention_texts": [
+        "Abram Iudaeum"
+      ],
+      "descriptive_mentions": [
+        "Cerdonem Cracoviensem Suburbanum Leopoliensem",
+        "marito suo",
+        "tutore legitimo"
+      ],
+      "justification": "Husband/guardian of the defendant in decree 1 and party in decree 2."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Zuzanna",
+      "mention_texts": [
+        "Sueramma",
+        "Zaxam Zagans"
+      ],
+      "descriptive_mentions": [
+        "Cerdone",
+        "consortem legitimam",
+        "Honestam",
+        "suburbanum Leopoliensem",
+        "Citatam"
+      ],
+      "justification": "Wife of Abram and defendant in the first decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Czarna Zydkowapola",
+      "mention_texts": [
+        "Czarnam Zydkowapolam"
+      ],
+      "descriptive_mentions": [
+        "Actores",
+        "Coniuges"
+      ],
+      "justification": "Plaintiff and spouse of Anna in the second decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Actores",
+        "Coniuges"
+      ],
+      "justification": "Plaintiff and spouse of Czarna in the second decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Furmanek",
+      "mention_texts": [
+        "Sacabi Furmanek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deceased husband of the cited defendant in the second decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0847: Lucia Cwartowa",
+      "mention_texts": [
+        "Saura Cwartowa"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniugem deiectuam",
+        "Citatam"
+      ],
+      "justification": "Defendant in the second decree, relict wife of Jacobus Furmanek."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simone Koval"
+      ],
+      "descriptive_mentions": [
+        "Actore",
+        "suburbano Leopoliensi",
+        "filio"
+      ],
+      "justification": "Suburban blacksmith and son appearing as plaintiff in the second decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "consortem legitimam Honestam Zaxam Zagans suburbanum Leopoliensem tutore legitimo comparentem et eam praefato marito suo"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Czarnam Zydkowapolam et Annam Coniuges"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Sacabi Furmanek secundarum nuptiarum coniugem deiectuam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "inter Actores Czarnam Zydkowapolam et Annam Coniuges agentes ab una... et cum Actore Simone Koval suburbano Leopoliensi filio"
+    }
+  ]
+}

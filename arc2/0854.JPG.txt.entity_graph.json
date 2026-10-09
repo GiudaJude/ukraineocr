@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/0854.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Moyszses Tubey",
+      "mention_texts": [
+        "Moyszsem Tubey"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Iudaeum",
+        "Mercatorem Constantinopolitanum"
+      ],
+      "justification": "Moyszsem Tubey is named as an 'infidel' Jewish merchant from Constantinople who owed a debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Constantinople",
+      "mention_texts": [
+        "Constantinopolitanum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Moyszses Tubey is described as Constantinopolitanus (from Constantinople)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krolikowski",
+      "mention_texts": [
+        "Joanni Krolikowski",
+        "Joannis Krolikowski"
+      ],
+      "descriptive_mentions": [
+        "Dignissimi in Christo Patris Domini Regni Poloniae Vicecancellarij familiari",
+        "praedicti"
+      ],
+      "justification": "Joannes Krolikowski is the servitor (familiaris) of the Crown Vice-Chancellor who received the debt assignment."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [
+        "Regni"
+      ],
+      "justification": "Regnum Poloniae appears in the title of the Crown Vice-Chancellor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "907 old thalers",
+      "mention_texts": [
+        "floringentorum et septem talerorum antiquorum",
+        "noringentorum et septem Talerorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "summam praefatam"
+      ],
+      "justification": "Debt amount mentioned in the cession (907 old thalers)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Mierzejowski",
+      "mention_texts": [
+        "Jacobus Mierzejowski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Domini",
+        "collegae nostri Consulares",
+        "Tutores Testamentarij"
+      ],
+      "justification": "Jacobus Mierzejowski is a city councilor acting as testamentary tutor for Eugenius Andreas Gelasinus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0300: Andreas Dambrowski",
+      "mention_texts": [
+        "Andreas Dąbrowski Sambor"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Domini",
+        "collegae nostri Consulares",
+        "Tutores Testamentarij"
+      ],
+      "justification": "Andreas Dąbrowski Sambor is a councilor and testamentary tutor alongside Jacobus Mierzejowski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Eugenius Andreas Gelasinus",
+      "mention_texts": [
+        "Gelasinus",
+        "Eugenij Andreae Gelasini",
+        "Andream Gelasinum",
+        "Andreae Gelasino"
+      ],
+      "descriptive_mentions": [
+        "filij",
+        "pupilli sui",
+        "praedictum",
+        "eundem"
+      ],
+      "justification": "Son of late councilor Nicolaus Gelasinus, reaching the age of majority and quitting his tutelage."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelasinus",
+      "mention_texts": [
+        "Nicolai Gelasini"
+      ],
+      "descriptive_mentions": [
+        "Spectabilium olim",
+        "Iuris Utriusque Doctoris",
+        "Consulis Leopoliensis",
+        "Coniugum"
+      ],
+      "justification": "Deceased Doctor of Both Laws and Lviv councilor, father of Eugenius Andreas Gelasinus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Referred to in the title of Nicolaus Gelasinus (Consulis Leopoliensis)."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [
+        "collegae nostri Consulares",
+        "supremos tutores et Curatores"
+      ],
+      "justification": "The Lviv City Council before whom the councilors and ward appeared."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0651: Ursula",
+      "mention_texts": [
+        "Vrsulae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum"
+      ],
+      "justification": "Mother of Eugenius Andreas Gelasinus and spouse of late Nicolaus Gelasinus."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0814: Valentinus",
+      "mention_texts": [
+        "Valentinus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named at the end of the entry as Valentinus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "originates_from",
+      "tail_entity_id": "E2",
+      "evidence": "Infidelem Moyszsem Tubey Iudaeum et Mercatorem Constantinopolitanum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Jacobus Mierzejowski Andreas Dąbrowski Sambor collegae nostri Consulares tanquam Tutores Testamentarij Eugenij Andreae Gelasini"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Jacobus Mierzejowski Andreas Dąbrowski Sambor collegae nostri Consulares tanquam Tutores Testamentarij Eugenij Andreae Gelasini"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Jacobus Mierzejowski Andreas Dąbrowski Sambor collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Jacobus Mierzejowski Andreas Dąbrowski Sambor collegae nostri Consulares"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Eugenij Andreae Gelasini Spectabilium olim Nicolai Gelasini Iuris Utriusque Doctoris Consulis Leopoliensis et Vrsulae Coniugum filij"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Eugenij Andreae Gelasini Spectabilium olim Nicolai Gelasini Iuris Utriusque Doctoris Consulis Leopoliensis et Vrsulae Coniugum filij"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Nicolai Gelasini Iuris Utriusque Doctoris Consulis Leopoliensis et Vrsulae Coniugum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E11",
+      "evidence": "Nicolai Gelasini Iuris Utriusque Doctoris Consulis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "document_id": "arc2/1107.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "The city of Lviv is referenced as the jurisdiction of the council and court officials, and location of the deceased's house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "praesentia nostra Consulari residenti",
+        "Officio nostro",
+        "ex Officio"
+      ],
+      "justification": "The consular magistracy before which the relationship and report of the inventory was made."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Tomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "locum Ordinarij Advocati tenens",
+        "Scabines iurati Civitatis Leopoliensis",
+        "deputati"
+      ],
+      "justification": "Deputy of the ordinary advocate and sworn bench official delivering the inventory report."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabines iurati Civitatis Leopoliensis",
+        "deputati"
+      ],
+      "justification": "Sworn bench official making the inventory report."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Melchior Scholz Krosnowicz",
+      "mention_texts": [
+        "Melchior Scholz Krosnowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabines iurati Civitatis Leopoliensis",
+        "deputati"
+      ],
+      "justification": "Sworn bench official making the inventory report."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Melchior Osmolski",
+      "mention_texts": [
+        "Melchioris Osmolski"
+      ],
+      "descriptive_mentions": [
+        "Famatorum"
+      ],
+      "justification": "A guild member at whose petition the inventory was executed."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislaus"
+      ],
+      "descriptive_mentions": [
+        "Famatorum"
+      ],
+      "justification": "One of the petitioning guild members."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "Sellatoris",
+        "Famatorum",
+        "Quium Leopoliensis"
+      ],
+      "justification": "Jacobus the saddler of the saddlers' guild requesting the inventory."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Saddlers' Guild",
+      "mention_texts": [
+        "Contubernij Bellatorum Czeszmagrowym"
+      ],
+      "descriptive_mentions": [
+        "Contubernij"
+      ],
+      "justification": "The craft guild represented by the petitioning saddlers."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sapihina",
+        "Sophia Musialkowaianka"
+      ],
+      "descriptive_mentions": [
+        "Sellatricis",
+        "Famata olim",
+        "relicta vidua",
+        "praefata",
+        "defuncta"
+      ],
+      "justification": "The deceased widow whose estate was being inventoried."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Zeli Sellator",
+      "mention_texts": [
+        "Zeli"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "Sellatoris",
+        "Suburbani Leopoliensis"
+      ],
+      "justification": "The deceased suburban saddler, late husband of Sophia."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "post obitum Famata olim Sophia Musialkowaianka Honestae olim Zeli Sellatoris Suburbani Leopoliensis relicta vidua"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Jacobi Sellatoris Contubernij Bellatorum Czeszmagrowym"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Melchioris Osmolski Stanislaus et Jacobi Sellatoris Contubernij Bellatorum Czeszmagrowym"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Stanislaus et Jacobi Sellatoris Contubernij Bellatorum Czeszmagrowym"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Tomas Karcz locum Ordinarij Advocati tenens ... Scabines iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Andreas Simonowicz ... Scabines iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Melchior Scholz Krosnowicz Scabines iurati Civitatis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/0847.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0152: DATE-0061: DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Pentecostes"
+      ],
+      "descriptive_mentions": [
+        "Festo praedicto"
+      ],
+      "justification": "Feast day mentioned as the initial deadline for obligation fulfillment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Dinosic",
+      "mention_texts": [
+        "Simonem Dinosic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "praedictum",
+        "fideiussorem"
+      ],
+      "justification": "Guarantor appearing in the first record on behalf of Anna Swiechowa."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna Swiechowa",
+      "mention_texts": [
+        "Anna Swiechowa"
+      ],
+      "descriptive_mentions": [
+        "illa"
+      ],
+      "justification": "Principal party on whose behalf Simon Dinosic acts as surety."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolim",
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitate",
+        "eadem Civitate",
+        "eiusdem Civitatis"
+      ],
+      "justification": "The city of Lviv, place of the legal act, citizenship, and property locations."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Sabbato post festum Sanctissimorum Trium Regum Anno Domini 1596",
+        "Anno Domini 1596"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording: Saturday after Epiphany (Three Kings) 1596."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Woytowicz",
+      "mention_texts": [
+        "Stanislaus Wothowiczi",
+        "Stanislao Woythowiczki"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Creditor who loaned 200 Polish florins to Andreas Strgielski and his wife."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Strgielski",
+      "mention_texts": [
+        "Andreas Surmina",
+        "Andreas Strgielski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Honestus",
+        "Coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Debtor contracting a loan together with his wife Catharina."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Catharina Strgielska",
+      "mention_texts": [
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Cives Leopolienses",
+        "haec",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Wife and co-debtor of Andreas Strgielski."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "florenos Ducentos",
+        "Ducentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici",
+        "polonicalium",
+        "eam ipsam summam"
+      ],
+      "justification": "Loan amount of 200 florins secured on property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0223: Feast of Saint Agnes",
+      "mention_texts": [
+        "Festo Sanctae Agnetis"
+      ],
+      "descriptive_mentions": [
+        "Anno proxime sequenti venturo"
+      ],
+      "justification": "Feast of Saint Agnes in the following year set as repayment term."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "hospitalis Sancti Spiritus"
+      ],
+      "descriptive_mentions": [
+        "templi"
+      ],
+      "justification": "Hospital of the Holy Spirit opposite which the mortgaged house is situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Turzański",
+      "mention_texts": [
+        "Turzanski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the suburban estate mortgaged by the debtors."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Mons Sagittatorius",
+      "mention_texts": [
+        "monte sagitatorio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hill (Strzelecka Góra) under which the suburban estate is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E3",
+      "evidence": "fideiussit affirmans pro Anna Swiechowa"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Andreas Strgielski et Catharina Coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Strgielski et Catharina Coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "debtor_to",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Strgielski et Catharina Coniuges Cives Leopolienses ... recognovit se debere et teneri ... florenos Ducentos pecuniae et numeri Polonici Famato Stanislao Woythowiczki"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_to",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Strgielski et Catharina Coniuges Cives Leopolienses ... recognovit se debere et teneri ... florenos Ducentos pecuniae et numeri Polonici Famato Stanislao Woythowiczki"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Strgielski et Catharina Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Strgielski et Catharina Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in eadem Civitate e regione templi hospitalis Sancti Spiritus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in suburbio eiusdem Civitatis penes Turzanski sub monte sagitatorio"
+    }
+  ]
+}

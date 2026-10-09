@@ -1,0 +1,224 @@
+{
+  "document_id": "arc2/1313.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Georgius Kapturski",
+      "mention_texts": [
+        "Georgii Kapturski"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Famati olim",
+        "ciuis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and debts were subject to settlement, former husband of Anna."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "florenis centum quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money specified in the court decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Drosdowski",
+      "mention_texts": [
+        "Drosdowski",
+        "IOANNIS DROSDOWSKI",
+        "Joannis Drosdowski",
+        "Joanne Drosdowski"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "dictus",
+        "Nobilis",
+        "coniugem legitimam",
+        "Nobili",
+        "satisfactori"
+      ],
+      "justification": "Nobleman who paid off the debt contracted by his late wife Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Abraham Mendlowicz",
+      "mention_texts": [
+        "Abraham Mendlowicz"
+      ],
+      "descriptive_mentions": [
+        "praefato Iudaeo",
+        "Iudaeus",
+        "Perfidus",
+        "Iudaeus Leopoliensis"
+      ],
+      "justification": "Jewish creditor of Lviv who acknowledged receipt of payment and quitclaimed the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "ciuitatis",
+        "ciuitatiani"
+      ],
+      "justification": "The city of Lviv referenced in civic titles and jurisdictional offices."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sieroński",
+      "mention_texts": [
+        "Albertum Sieronski",
+        "Alberti Sieronski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Tutore",
+        "Praetori ciuitatiani",
+        "Nobilis",
+        "Ostiarii"
+      ],
+      "justification": "Nobleman acting as guardian/legal assistant and court apparitor/servant."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "360 Polish florins",
+      "mention_texts": [
+        "florenis trecenta sexaginta et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The total debt sum paid and quitclaimed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "honestam olim",
+        "primi connubii",
+        "coniugem legitimam"
+      ],
+      "justification": "Deceased woman, first wife of Georgius Kapturski and later wife of Joannes Drosdowski, who contracted the debt."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio Aduocatiali Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The advocatial court where the original debt recognition had taken place."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Caspar Wasieczyński",
+      "mention_texts": [
+        "GASPAR WASIECZYNSKI",
+        "Casparum Wasieczynski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "Tribunuo Leopoliensis"
+      ],
+      "justification": "Nobleman and tribune of Lviv who instituted legal protestations."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Wolfowicz",
+      "mention_texts": [
+        "GREGORIUS WOLFOWIC"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the case heading."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular court before which Josephus Wolfowicz appeared."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Josephus Wolfowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "ciuis Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv appearing in the consular court against Caspar Wasieczyński."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0091: Gródek",
+      "mention_texts": [
+        "Grodek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town referenced in the relation of the civic officer."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "primi connubii Famati olim Georgii Kapturski ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "posteriorum vero Nobilis Joannis Drosdowski coniugem legitimam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "creditor_of",
+      "tail_entity_id": "E8",
+      "evidence": "debiti sibi per honestam olim Annam primi connubii Famati olim Georgii Kapturski ... posteriorum vero Nobilis Joannis Drosdowski coniugem legitimam contracti"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Georgii Kapturski ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Abraham Mendlowicz Iudaeus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Josephus Wolfowic ciuis Leopoliensis"
+    }
+  ]
+}

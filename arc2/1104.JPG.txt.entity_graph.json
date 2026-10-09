@@ -1,0 +1,216 @@
+{
+  "document_id": "arc2/1104.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zsaltanowicz",
+      "mention_texts": [
+        "Mathias Zsaltanowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "sibi",
+        "se"
+      ],
+      "justification": "Appears as the suburbanite who acknowledges satisfaction of a 60-florin debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referred to adjectivally in suburban descriptions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenis sexaginta pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of the debt settled."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zalurowicz",
+      "mention_texts": [
+        "Stanislaum Zalurowicz",
+        "Stanislao Zalurowicz",
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Suburbanum Leopoliensem",
+        "ipsius",
+        "eodem",
+        "Suburbano Leopoliensi",
+        "eundem",
+        "eidem"
+      ],
+      "justification": "Debtor suburbanite whose house mortgaged outside the Halych Gate is released."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "ijsdem Actis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal court council books registering the entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "1587",
+      "mention_texts": [
+        "Sabbato ante Dominicam Judica Anno Domini 1587."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous registered obligation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "portam Halicien"
+      ],
+      "descriptive_mentions": [
+        "ante portam Halicien"
+      ],
+      "justification": "Location of the mortgaged house outside the Halych Gate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "florenis quadraginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of the previous partial quietatio."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Refers to the session date above."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Piiar",
+      "mention_texts": [
+        "Staus\nPiiar"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Margin entry name."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Snopek",
+      "mention_texts": [
+        "Nicolaus\nSnopek",
+        "Nicolaus Snopek",
+        "Nicolaus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Textor",
+        "fratrem germanum",
+        "ipse"
+      ],
+      "justification": "Weaver recognizing receipt of estate satisfaction from his brother."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Snopek",
+      "mention_texts": [
+        "Petrus Stanislaus Snopek",
+        "Stanislao",
+        "Stanislaum Snopek"
+      ],
+      "descriptive_mentions": [
+        "Textor",
+        "Suburbanus Leopoliensis",
+        "uxoris fratrem",
+        "suum vero fratrem germanum",
+        "praefatum"
+      ],
+      "justification": "Full brother of Nicolaus Snopek who made full settlement from the estate."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Jarodus Snopek",
+      "mention_texts": [
+        "Jarodum Snopek"
+      ],
+      "descriptive_mentions": [
+        "Providum",
+        "olim"
+      ],
+      "justification": "Deceased relative from whom the property devolved."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Wancampani"
+      ],
+      "descriptive_mentions": [
+        "D."
+      ],
+      "justification": "Doctor Paulus Novicampianus noted in the margin presentation formula."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "settled_debt_with",
+      "tail_entity_id": "E4",
+      "evidence": "eundem Stanislaum de tota summa quietavit"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "sibling_of",
+      "tail_entity_id": "E12",
+      "evidence": "suum vero fratrem germanum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "suum vero fratrem germanum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "relative_of",
+      "tail_entity_id": "E13",
+      "evidence": "iure propinquitatis naturali post Providum olim Jarodum Snopek"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "relative_of",
+      "tail_entity_id": "E13",
+      "evidence": "iure propinquitatis naturali post Providum olim Jarodum Snopek"
+    }
+  ]
+}

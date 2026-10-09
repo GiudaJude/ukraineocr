@@ -1,0 +1,76 @@
+{
+  "document_id": "arc2/0870.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0247: Joannes Jelonek",
+      "mention_texts": [
+        "Joannis Jelonek"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "venditoris"
+      ],
+      "justification": "Named seller of the property mentioned in the transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "730 florins",
+      "mention_texts": [
+        "Florenis septingentis et triginta"
+      ],
+      "descriptive_mentions": [
+        "supranominatis"
+      ],
+      "justification": "Amount of monetary encumbrance excepted from the property transfer."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Adamus Fazekas",
+      "mention_texts": [
+        "Adami Fazekas"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "emptorum"
+      ],
+      "justification": "Named buyer of the stone house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Fazekasowna",
+      "mention_texts": [
+        "Hedvigis Fazekasowna"
+      ],
+      "descriptive_mentions": [
+        "emptorum"
+      ],
+      "justification": "Named buyer of the stone house alongside Adam Fazekas."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial forum designated for the registration/resignation of the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Concluding date formula linking the act to the preceding date entry."
+    }
+  ],
+  "relationships": []
+}

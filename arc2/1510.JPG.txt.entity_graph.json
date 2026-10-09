@@ -1,0 +1,228 @@
+{
+  "document_id": "arc2/1510.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0445: Agnes Kwasna",
+      "mention_texts": [
+        "Agnes Kwasina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Honesti olim Gregorii Kwasny Pistoris coniunx relicta",
+        "praefata"
+      ],
+      "justification": "Identified as the widow of Gregorius Kwasny making a formal debt declaration."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Kwasny",
+      "mention_texts": [
+        "Gregorii Kwasny"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Pistoris"
+      ],
+      "justification": "Deceased baker and late husband of Agnes Kwasina."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum actum assumptum",
+        "Honestos",
+        "Suburbano Leopoliensi",
+        "Plenipotentem Famati Iuani Bilbida Ruteni Civis Leopoliensis",
+        "actorem"
+      ],
+      "justification": "Assists Agnes as guardian and acts as plenipotentiary for Iwan Bilbida."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii mei",
+        "actis meis praesentibus",
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council before which the transactions and decrees are made."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Oleiator",
+      "mention_texts": [
+        "Sebastiano Oleiatori"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopoliensi",
+        "eidem suo Creditori"
+      ],
+      "justification": "Suburban oil maker of Lviv, creditor of Agnes Kwasina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Civitatis huius",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the text."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos triginta"
+      ],
+      "descriptive_mentions": [
+        "paratae et numeri Polonicalis"
+      ],
+      "justification": "Amount of money mortgaged on half of the house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Civitatis huius Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The suburban area outside the Halych gate where the property is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Vicus Grynzek",
+      "mention_texts": [
+        "vico Grynzek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The lane/street in the Halych suburb where the property is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Fabrifabar",
+      "mention_texts": [
+        "Hieronymi Fabrifabari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the mortgaged property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0199: 16 florins",
+      "mention_texts": [
+        "Florenos sedecim"
+      ],
+      "descriptive_mentions": [
+        "Polonicales"
+      ],
+      "justification": "Additional loan amount in Polish florins."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "46 Polish florins",
+      "mention_texts": [
+        "Florenos quadraginta sex"
+      ],
+      "descriptive_mentions": [
+        "summa simul coniuncta"
+      ],
+      "justification": "Total debt amount secured on the property."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Iwan Kułdaha",
+      "mention_texts": [
+        "Iwan Kuldaha",
+        "Iuani Bilbida"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Ruteni Civis Leopoliensis",
+        "actorem"
+      ],
+      "justification": "Ruthenian burgher of Lviv, plaintiff represented by Adam Kalinowski."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Caterinam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "consortem legitimam Famati Lucae Zoltka Civis Praefati",
+        "citatam"
+      ],
+      "justification": "Legitimate wife of Lucas Żółtko, summoned in the decree."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Lucas Żółtko",
+      "mention_texts": [
+        "Lucae Zoltka"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Praefati",
+        "maritum"
+      ],
+      "justification": "Burgher of Lviv, husband of Catherina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti olim Gregorii Kwasny Pistoris coniunx relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Honestum Adamum Kalinowski tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_to",
+      "tail_entity_id": "E5",
+      "evidence": "Honesto Sebastiano Oleiatori Suburbano Leopoliensi debet tenerique certi iusti et liquidi debiti"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E13",
+      "evidence": "Adamum Kalinowski Suburbano Leopoliensi ut pote Plenipotentem Famati Iuani Bilbida Ruteni Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Caterinam consortem legitimam Famati Lucae Zoltka"
+    }
+  ]
+}

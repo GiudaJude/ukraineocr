@@ -1,0 +1,179 @@
+{
+  "document_id": "arc2/0012.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1594",
+      "mention_texts": [
+        "Anno Domini 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year mentioned in the legal transaction record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "40 Polish florins",
+      "mention_texts": [
+        "florenorum quatriginta Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summa debiti"
+      ],
+      "justification": "Debt amount mentioned in the intromission relation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Kirst",
+      "mention_texts": [
+        "Simonis Kirst"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv burgher receiving the intromission."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopolitani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings and citizens reside."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Dziadziczeski",
+      "mention_texts": [
+        "Andreas Dziadziczeski"
+      ],
+      "descriptive_mentions": [
+        "eidem Nobili",
+        "idem"
+      ],
+      "justification": "Noble who had the relation entered into the town books."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [
+        "Collegae nostri Consularis"
+      ],
+      "justification": "Municipal council keeping the official record book (ORG-0003)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "5 January 1595",
+      "mention_texts": [
+        "feria quinta post Circumcisionis Domini Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Act date of the first court entry."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Wieloski",
+      "mention_texts": [
+        "Jacobus Wieloski"
+      ],
+      "descriptive_mentions": [
+        "Honoratus Dominus",
+        "Advocatus Ordinarius",
+        "Civis Leopoliensis",
+        "praedicti Honorati"
+      ],
+      "justification": "Lviv ordinary advocate making a public declaration."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Leopolita",
+      "mention_texts": [
+        "Nigri Simonis Leopolitani"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Domini",
+        "Collegae nostri Consularis",
+        "Spectabilis"
+      ],
+      "justification": "Councilor mentioned as instigator of the relation (PER-0003)."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lukaszowic",
+      "mention_texts": [
+        "Joannis Lukaszowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Famatus",
+        "successorum"
+      ],
+      "justification": "Party involved in the relation alongside Simon Leopolita."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Anna Simonowa",
+      "mention_texts": [
+        "Annae Simonowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "olim"
+      ],
+      "justification": "Deceased woman whose successors are represented."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "7 January 1595",
+      "mention_texts": [
+        "Sabbato post festum Epiphaniae Domini Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Act date of the second entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simonis Kirst Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobus Wieloski Advocatus Ordinarius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nigri Simonis Leopolitani Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "heir_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannis Lukaszowic vel Honestae olim Annae Simonowa successorum"
+    }
+  ]
+}

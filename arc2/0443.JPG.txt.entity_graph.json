@@ -1,0 +1,77 @@
+{
+  "document_id": "arc2/0443.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Szerznoszki",
+      "mention_texts": [
+        "Nicolai Szerznoszki"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "Nicolaus Szerznoszki is mentioned as having handwritten the contract presented to the office."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szerszeń",
+      "mention_texts": [
+        "Stanislao Szersznom"
+      ],
+      "descriptive_mentions": [
+        "Cives Leopolienses"
+      ],
+      "justification": "Stanislaus Szerszeń is named as a party presenting the contract to the office."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Catherina Carnarka",
+      "mention_texts": [
+        "Catherina Carnarka"
+      ],
+      "descriptive_mentions": [
+        "coniuge sua",
+        "Cives Leopolienses"
+      ],
+      "justification": "Catherina Carnarka is named as the wife of Stanislaus Szerszeń."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lwów is identified from the demonym Leopolienses describing the citizens."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "actaque praesentia"
+      ],
+      "justification": "The municipal council/office and its present acts to which the contract was presented."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislao Szersznom cum Catherina Carnarka coniuge sua"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislao Szersznom cum Catherina Carnarka coniuge sua"
+    }
+  ]
+}

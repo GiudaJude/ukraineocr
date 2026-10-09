@@ -1,0 +1,151 @@
+{
+  "document_id": "arc2/0653.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0138: 1591",
+      "mention_texts": [
+        "feria quarta post Festa Sancta Trium Regum proxima Anno Domini 1591"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the contract referenced in the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kogus",
+      "mention_texts": [
+        "Jacobo Kogus"
+      ],
+      "descriptive_mentions": [
+        "Providis",
+        "Coniugibus",
+        "praefato"
+      ],
+      "justification": "Party involved in the satisfaction and release of the garden obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "uxor",
+        "Coniugibus"
+      ],
+      "justification": "Wife of Jacobus Kogus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Czarna Góra",
+      "mention_texts": [
+        "Czarnagora"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the garden released from obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Caspar Cembarski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named party in the margin title of the registration."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Gladyszowa",
+      "mention_texts": [
+        "Hedvigis Gladissowa",
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "Ista",
+        "uxor"
+      ],
+      "justification": "Woman appearing personally to make a legal declaration with the consent of her husband."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Gladysz",
+      "mention_texts": [
+        "Valentini Gladisz"
+      ],
+      "descriptive_mentions": [
+        "Caldeatoris Suburbani",
+        "mariti",
+        "sui mariti"
+      ],
+      "justification": "Husband of Hedvigis, suburban coppersmith/brazier."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburb Valentinus Gladysz is from."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "assumptum sibi ad eum actum tutorem"
+      ],
+      "justification": "Legal guardian (tutor) appointed for Hedvigis for the legal act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse of",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobo Kogus et uxor Barbara Coniugibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse of",
+      "tail_entity_id": "E2",
+      "evidence": "Jacobo Kogus et uxor Barbara Coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse of",
+      "tail_entity_id": "E7",
+      "evidence": "Hedvigis Valentini Gladisz Caldeatoris Suburbani Leopolitanus uxor"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse of",
+      "tail_entity_id": "E6",
+      "evidence": "Hedvigis Valentini Gladisz Caldeatoris Suburbani Leopolitanus uxor"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian of",
+      "tail_entity_id": "E6",
+      "evidence": "per assumptum sibi ad eum actum tutorem Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident of",
+      "tail_entity_id": "E8",
+      "evidence": "Caldeatoris Suburbani Leopolitanus"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "document_id": "arc2/0083.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Gródek",
+      "mention_texts": [
+        "Civitatis Grodecensis",
+        "Civitate Iudecen",
+        "Civitatis eiusdem Grodecensis",
+        "Grodecensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referenced throughout the text as the location of the property, court, and civic offices."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Gródek Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito",
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [
+        "Iudici praenominatis",
+        "foro ubi ea res extat"
+      ],
+      "justification": "The banned court (iudicium bannitum) of the town of Gródek where property resignations were officially made."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martha Zajączkowna",
+      "mention_texts": [
+        "Martha Zaiaczkowna",
+        "Marthae Karypt"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "eadem recognoscens"
+      ],
+      "justification": "Widow of Simon Karpt making a formal donation of her third share in Gródek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Karpt",
+      "mention_texts": [
+        "Simonis Karpt"
+      ],
+      "descriptive_mentions": [
+        "Formati olim",
+        "Ferendarij Causarum Iuris Maydeburgen Civitatis huius",
+        "mariti olim suum"
+      ],
+      "justification": "Deceased husband of Martha Zajączkowna and former legal officer."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio meo"
+      ],
+      "justification": "Lviv municipal council office recording the transaction and approving the tutor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szornaler",
+      "mention_texts": [
+        "Jacobum Szornaler"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Famatum",
+        "Doliatorem",
+        "Civem Leopoliensis"
+      ],
+      "justification": "Cooper and citizen of Lwów acting as appointed legal guardian for Martha."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Jacobus Szornaler is a burgher and where this entry is recorded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jan Tomek",
+      "mention_texts": [
+        "Jonem Tomek"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Sartores"
+      ],
+      "justification": "Tailor in Gródek owning a neighbouring plot."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Kaualatowa",
+      "mention_texts": [
+        "Kaualatowa"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Sartor"
+      ],
+      "justification": "Neighbouring tailor/tailor's wife owning an adjacent plot in Gródek."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Karpt",
+      "mention_texts": [
+        "Christophoro Karypt",
+        "Kristophorus Karpt"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Patruo suo",
+        "Famatus",
+        "Vice advocatus",
+        "Civis Grodecensis"
+      ],
+      "justification": "Vice-advocate and citizen of Gródek receiving the donated plot from Martha."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "was_spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Martha Zaiaczkowna Formati olim Simonis Karpt ... vidua relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "was_guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "assump[tam] sibi ad eum actum et ex Officio meo approbati tutorem Famatum Jacobum Szornaler"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resided_in",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobum Szornaler Doliatorem Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resided_in",
+      "tail_entity_id": "E1",
+      "evidence": "Kristophorus Karpt Vice advocatus et Civis Grodecensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Civitatis Grodecensis in Iudicio Exposito Bannito"
+    }
+  ]
+}

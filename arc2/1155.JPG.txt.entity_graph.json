@@ -1,0 +1,237 @@
+{
+  "document_id": "arc2/1155.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Simon Leopolita"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles",
+        "Magister",
+        "Collega noster Consularis",
+        "affines",
+        "successores"
+      ],
+      "justification": "Named as Magister Simon Leopolita, council colleague and successor/affine of Anna Simonowa."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannes Lukaszowicz"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "affines",
+        "successores"
+      ],
+      "justification": "Named as Joannes Lukaszowicz, citizen of Lviv, appearing alongside Simon Leopolita as affine and successor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Simonowa",
+        "Annae Simonowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and successors are discussed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "officium nostrum"
+      ],
+      "justification": "The municipal council acting in the record ('ab officio nostro', 'Collega noster Consularis')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andream Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabino",
+        "avunculo eorum",
+        "eundem"
+      ],
+      "justification": "Mentioned as the bench-officer and uncle of the successors, involved in disturbances in the Simonowska house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Simonowska House",
+      "mention_texts": [
+        "domo Simonowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The house where the violent acts were committed."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in the action date and citizen titles."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Feria tertia ante Festum Solemnia Pentecostes proxima Anno 96"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded act: Tuesday before the feast of Pentecost 1596."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Raczka",
+      "mention_texts": [
+        "Nicolai Raczka"
+      ],
+      "descriptive_mentions": [
+        "piae",
+        "Famatus",
+        "Famati",
+        "Civis Vilnensis"
+      ],
+      "justification": "Citizen of Vilnius whose testament/testimony is being recorded."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Olszewski",
+      "mention_texts": [
+        "Stanislaus Olszewski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "quondam Pellio",
+        "Civis Leopoliensis",
+        "degens",
+        "praedictus"
+      ],
+      "justification": "Former furrier and citizen of Lviv currently living in the Holy Spirit Hospital, testifying."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitali Sancti Spiritus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The hospital where Stanislaus Olszewski is currently residing."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Olrato",
+      "mention_texts": [
+        "Stephanus Olrato"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Vicedecuratus Suburbij Cracoviensis"
+      ],
+      "justification": "Vice-decurion of the Kraków Suburb appearing to give testimony."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Suburbij Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Kraków suburb of Lviv associated with Stephanus Olrato."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Vilnius",
+      "mention_texts": [
+        "Vilnensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin city of Nicolaus Raczka ('Civis Vilnensis')."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Otroba",
+      "mention_texts": [
+        "Joannis Otroba"
+      ],
+      "descriptive_mentions": [
+        "famuli Civilis Jurati",
+        "citati"
+      ],
+      "justification": "Sworn town beadle/servant mentioned in relation to the citation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "heir_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simon Leopolita Collega noster Consularis et Joannes Lukaszowicz Civis Leopoliensis affines, successores Honestae olim Annae Simonowa"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "heir_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simon Leopolita Collega noster Consularis et Joannes Lukaszowicz Civis Leopoliensis affines, successores Honestae olim Annae Simonowa"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "uncle_of",
+      "tail_entity_id": "E1",
+      "evidence": "Andream Simonowic Scabino avunculo eorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "uncle_of",
+      "tail_entity_id": "E2",
+      "evidence": "Andream Simonowic Scabino avunculo eorum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislaus Olszewski quondam Pellio et Civis Leopoliensis nunc vero in Hospitali Sancti Spiritus degens"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "officeholder_of",
+      "tail_entity_id": "E13",
+      "evidence": "Stephanus Olrato Vicedecuratus Suburbij Cracoviensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E14",
+      "evidence": "Nicolai Raczka Civis Vilnensis"
+    }
+  ]
+}

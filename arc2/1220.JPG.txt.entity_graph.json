@@ -1,0 +1,297 @@
+{
+  "document_id": "arc2/1220.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears as the city of residence ('incolam praetunc Leopoliensis', 'suburbani Leopolienses', 'suburbio Civitatis... Leopoliensis vocato')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "64 florins",
+      "mention_texts": [
+        "sexaginta quatuor florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum in the first legal dispute regarding wine taxes."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Actum ut supra."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the first case, referencing the established year and session in the corpus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joachin Drągosius",
+      "mention_texts": [
+        "Joachin Drągosius"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratres germani",
+        "suburbani Leopolienses",
+        "Tutores",
+        "affinis"
+      ],
+      "justification": "Named suburban resident and co-guardian acting for his nieces."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Pirog",
+      "mention_texts": [
+        "Mathias Pirog"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fratres germani",
+        "suburbani Leopolienses",
+        "Tutores"
+      ],
+      "justification": "Named suburban resident, brother of Joachin Drągosius, and co-guardian."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Szaszeczina",
+      "mention_texts": [
+        "Szaszeczina"
+      ],
+      "descriptive_mentions": [
+        "Pudicarum",
+        "filiarum",
+        "suarum praedictarum pupillarum",
+        "pupillas suas ex terone nepotes"
+      ],
+      "justification": "First named daughter and ward of the deceased Caspar Duszenka and Sophia."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Pudicarum",
+        "filiarum",
+        "suarum praedictarum pupillarum",
+        "pupillas suas ex terone nepotes"
+      ],
+      "justification": "Second named daughter and ward."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Pudicarum",
+        "filiarum",
+        "suarum praedictarum pupillarum",
+        "pupillas suas ex terone nepotes"
+      ],
+      "justification": "Third named daughter and ward."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Caspar Duszenka",
+      "mention_texts": [
+        "Casparis Duszenka"
+      ],
+      "descriptive_mentions": [
+        "Honestorum olim",
+        "affinis",
+        "parentes praedictos"
+      ],
+      "justification": "Deceased father of the wards, brother-in-law to the guardians."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "sororis germana",
+        "parentes praedictos"
+      ],
+      "justification": "Mother of the wards and full sister to guardians Joachin and Mathias."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Sącz",
+      "mention_texts": [
+        "Saudeceñ"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referred to in 'Civitatis Saudeceñ' and 'Civis Saudeceñ'."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Duszenka",
+      "mention_texts": [
+        "Jacobus Duszenka",
+        "Jacobi Duszenka",
+        "Jacobo Duszenka"
+      ],
+      "descriptive_mentions": [
+        "Civises",
+        "Honestorum",
+        "Honesto",
+        "Civis Saudeceñ",
+        "praedictoctarum pupillarum patruo",
+        "Emptore",
+        "eidem Emptori"
+      ],
+      "justification": "Paternal uncle of the wards and buyer of the plot of land."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Knaton Ruthenus",
+      "mention_texts": [
+        "Knatons Rutheni"
+      ],
+      "descriptive_mentions": [
+        "Honestorum"
+      ],
+      "justification": "Neighboring landowner whose property borders the sold plot."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "27 Polish florins",
+      "mention_texts": [
+        "viginti septem flarenorum pecunia et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price for the plot of land and small house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joachin Drągosius et Mathias Pirog fratres germani"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "Sophiae sororis germana"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "Sophiae sororis germana"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Casparis Duszenka affinis et Sophiae sororis germana filiarum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Casparis Duszenka affinis et Sophiae sororis germana filiarum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent_of",
+      "tail_entity_id": "E7",
+      "evidence": "Casparis Duszenka affinis et Sophiae sororis germana filiarum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "Casparis Duszenka affinis et Sophiae sororis germana filiarum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E6",
+      "evidence": "Casparis Duszenka affinis et Sophiae sororis germana filiarum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E7",
+      "evidence": "Casparis Duszenka affinis et Sophiae sororis germana filiarum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "Casparis Duszenka affinis et Sophiae sororis germana filiarum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "praedictoctarum pupillarum patruo"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "tanquam Tutores Pudicarum Szaszeczina Regina Sophia"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "tanquam Tutores Pudicarum Szaszeczina Regina Sophia"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "tanquam Tutores Pudicarum Szaszeczina Regina Sophia"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "tanquam Tutores Pudicarum Szaszeczina Regina Sophia"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "tanquam Tutores Pudicarum Szaszeczina Regina Sophia"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "tanquam Tutores Pudicarum Szaszeczina Regina Sophia"
+    }
+  ]
+}

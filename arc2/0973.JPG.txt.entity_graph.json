@@ -1,0 +1,188 @@
+{
+  "document_id": "arc2/0973.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Zantorowic",
+      "mention_texts": [
+        "Simonis Zantorowis",
+        "Simone"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "praefato",
+        "pupillo"
+      ],
+      "justification": "Described as a minor ('pupillo') whose funds of 354 florins and 13.5 grossi are subject to administration."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Alberta",
+      "mention_texts": [
+        "Albertam"
+      ],
+      "descriptive_mentions": [
+        "praefatam",
+        "Leopoliensem"
+      ],
+      "justification": "Named as 'praefatam Albertam Leopoliensem', in whose hands curators deposited the burden from her person."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate"
+      ],
+      "justification": "Adjectival and locational references to the city of Lwów ('Albertam Leopoliensem', 'Cives Leopolienses', 'ea Civitate')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Soszkiewicz",
+      "mention_texts": [
+        "Joannes Soszkiewic"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "Traxifex",
+        "Coniuges",
+        "Cives Leopolienses",
+        "maritum tutorem suum legitimum",
+        "hic",
+        "recognoscentes"
+      ],
+      "justification": "Appears personally as 'Joannes Soszkiewic Traxifex', husband and guardian of Helizabeth Sarnkowna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Helizabeth Sarnkowna",
+      "mention_texts": [
+        "Helizabeth Sarnkowna"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Cives Leopolienses",
+        "illa",
+        "recognoscentes"
+      ],
+      "justification": "Spouse of Joannes Soszkiewicz, appearing through her husband and guardian to make an obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0152: DATE-0061: DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "Festa solemnia Pentecostes",
+        "Festo Pentecostes"
+      ],
+      "descriptive_mentions": [
+        "proxime futura",
+        "praefato",
+        "proximo"
+      ],
+      "justification": "The deadline given for meeting the financial/fidejussory obligation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "354 florins 13.5 grossi",
+      "mention_texts": [
+        "Trecentorum quinquaginta quatuor florenorum et tredecim cum me- dio grossorum",
+        "florenos trecen- tos et quinquaginta quatuor et grossorum tredecim cum medio"
+      ],
+      "descriptive_mentions": [
+        "sortis",
+        "summa",
+        "hanc eiusmodi summam"
+      ],
+      "justification": "The principal sum belonging to Simon Zantorowic and secured by the recognizants."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Spectabilis Domini Doctoris",
+        "eundem Dominum Doctorem",
+        "praefato Spectabili Domino Doctori",
+        "idem Spectabilis Dominus Doctor",
+        "praefatum Dominum Doctorem"
+      ],
+      "justification": "The respectable Doctor who undertook the fidejussory obligation and is to be indemnified."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium",
+        "officio"
+      ],
+      "justification": "The municipal office ('ad officium', 'ab officio') before which payments are to be deposited and summons issued."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regis"
+      ],
+      "justification": "Mentioned in reference to royal moratoriums and safe-conducts ('Regis dati')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "praefatus Joannes Soszkiewic Traxifex et Helizabeth Sarnkowna Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "illa vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Soszkiewic Traxifex et Helizabeth Sarnkowna Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Soszkiewic Traxifex et Helizabeth Sarnkowna Coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "apud praefatam Albertam Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_of",
+      "tail_entity_id": "E8",
+      "evidence": "inscripse- runt sese et obligaverunt simili modo praefato Spectabili Domino Doctori"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_of",
+      "tail_entity_id": "E8",
+      "evidence": "inscripse- runt sese et obligaverunt simili modo praefato Spectabili Domino Doctori"
+    }
+  ]
+}

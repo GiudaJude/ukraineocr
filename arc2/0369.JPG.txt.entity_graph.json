@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/0369.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitale Sancti Spiritus"
+      ],
+      "descriptive_mentions": [
+        "Hospitali supradicto",
+        "Hospitali"
+      ],
+      "justification": "Identified by name in the text describing the location visited by the officials."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium nostrum Consulare"
+      ],
+      "descriptive_mentions": [
+        "Officio praedicto",
+        "Officij",
+        "Cameram Officij",
+        "Officio suo"
+      ],
+      "justification": "The municipal consular court and office before which declarations and wills were submitted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the text."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sophia Skantowa",
+      "mention_texts": [
+        "Sophia Skantowa",
+        "Stanislawa"
+      ],
+      "descriptive_mentions": [
+        "praefatae"
+      ],
+      "justification": "The testatrix presenting her last will."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szymontowicz",
+      "mention_texts": [
+        "Zelman Szymonowicz",
+        "Petri Szymontowicz"
+      ],
+      "descriptive_mentions": [
+        "Tutorem",
+        "Famatum",
+        "Civem et Lanionem Leopoliensem",
+        "praefati Famati",
+        "Civis et Lanionis Leopoliensis",
+        "hero suo",
+        "heri sui praedicti",
+        "heri sui"
+      ],
+      "justification": "Lviv citizen and butcher acting as tutor for Sophia Skantowa and master of Martinus Sudyrowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Doctor Kirchoff",
+      "mention_texts": [
+        "Doctoris Kirchoff"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Notarij publici"
+      ],
+      "justification": "Doctor and public notary who signed the testament."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Petrus Klimuntowic",
+      "mention_texts": [
+        "Petrus Klimuntowic"
+      ],
+      "descriptive_mentions": [
+        "Famulus"
+      ],
+      "justification": "Mentioned in the marginal/entry heading."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Martinus Sudyrowicz",
+      "mention_texts": [
+        "Martinus Sudyrowicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus"
+      ],
+      "justification": "Servant from Międzybóż testifying before the court."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Międzybóż",
+      "mention_texts": [
+        "Miedzyboze"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of Martinus Sudyrowicz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Alexander Kosterka",
+      "mention_texts": [
+        "Alexandro Kosterki"
+      ],
+      "descriptive_mentions": [
+        "Icti",
+        "Sandomiriensi"
+      ],
+      "justification": "Jurisconsult from Sandomierz mentioned in connection with money delivered."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0084: Sandomierz",
+      "mention_texts": [
+        "Sandomiriensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Alexander Kosterka."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "praedictum Hospitale Sancti Spiritus ibidemque coram ipsis uti Officio praedicto"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "has_tutor",
+      "tail_entity_id": "E5",
+      "evidence": "Sophia Skantowa per coniugium sibi Tutorem Famatum Zelman Szymonowicz Civem et Lanionem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Civem et Lanionem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Doctoris Kirchoff Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "originates_from",
+      "tail_entity_id": "E9",
+      "evidence": "Martinus Sudyrowicz de Miedzyboze"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "servant_of",
+      "tail_entity_id": "E5",
+      "evidence": "in famulitio praefati Famati Petri Szymontowicz Civis et Lanionis Leopoliensis existens"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "originates_from",
+      "tail_entity_id": "E11",
+      "evidence": "Alexandro Kosterki Sandomiriensi"
+    }
+  ]
+}
