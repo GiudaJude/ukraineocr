@@ -239,6 +239,24 @@ def window_hash(prompt: str) -> str:
     return "sha256:" + hashlib.sha256(prompt.encode("utf-8")).hexdigest()
 
 
+def extract_window_openai(prompt: str) -> WindowExtraction:
+    response = graph.get_openai_client().responses.parse(
+            model=graph.OPENAI_MODEL_NER,
+            temperature=0.0,
+            max_output_tokens=GEMINI_RELATIONS_MAX_OUTPUT_TOKENS,
+            text_format=WindowExtraction,
+            input=[
+                {"role": "system", "content": RELATIONS_SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ]
+        )
+
+    assert len(response.output) == 1 and len(response.output[0].content) == 1
+    raw_output = response.output[0].content[0].text
+    if not raw_output:
+        raise RuntimeError("OpenAI returned an empty response for this window.")
+    return WindowExtraction.model_validate_json(raw_output)
+
 def extract_window(prompt: str) -> WindowExtraction:
     if graph.genai_types is None:
         raise RuntimeError("The `google-genai` package is required for GEMINI_API_KEY.")
