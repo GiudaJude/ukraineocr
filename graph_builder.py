@@ -20,11 +20,13 @@ from pydantic import BaseModel, Field
 import entity_graph as graph
 import entity_registry as registry
 
-# TODO: add OpenAI provider support (mirror entity_graph.extract_entity_graph_openai).
-# Gemini is the only provider wired up for now.
 GEMINI_MODEL_RELATIONS = os.getenv("GEMINI_MODEL_RELATIONS", graph.GEMINI_MODEL_NER)
 GEMINI_RELATIONS_MAX_OUTPUT_TOKENS = int(
     os.getenv("GEMINI_RELATIONS_MAX_OUTPUT_TOKENS", "65536")
+)
+OPENAI_MODEL_RELATIONS = os.getenv("OPENAI_MODEL_RELATIONS", graph.OPENAI_MODEL_NER)
+OPENAI_RELATIONS_MAX_OUTPUT_TOKENS = int(
+    os.getenv("OPENAI_RELATIONS_MAX_OUTPUT_TOKENS", "65536")
 )
 WINDOW_PAGES = int(os.getenv("GRAPH_WINDOW_PAGES", "3"))
 WINDOW_OVERLAP = int(os.getenv("GRAPH_WINDOW_OVERLAP", "1"))
@@ -239,7 +241,24 @@ def window_hash(prompt: str) -> str:
     return "sha256:" + hashlib.sha256(prompt.encode("utf-8")).hexdigest()
 
 
-def extract_window(prompt: str) -> WindowExtraction:
+def extract_window_openai(prompt: str) -> WindowExtraction:
+    response = graph.get_openai_client().responses.parse(
+            model=OPENAI_MODEL_RELATIONS,
+            temperature=0.0,
+            max_output_tokens=OPENAI_RELATIONS_MAX_OUTPUT_TOKENS,
+            text_format=WindowExtraction,
+            input=[
+                {"role": "system", "content": RELATIONS_SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ]
+        )
+
+    raw_output = response.output_text
+    if not raw_output:
+        raise RuntimeError("OpenAI returned an empty response for this window.")
+    return WindowExtraction.model_validate_json(raw_output)
+
+def extract_window_gemini(prompt: str) -> WindowExtraction:
     if graph.genai_types is None:
         raise RuntimeError("The `google-genai` package is required for GEMINI_API_KEY.")
 
@@ -260,6 +279,10 @@ def extract_window(prompt: str) -> WindowExtraction:
         raise RuntimeError("Gemini returned an empty response for this window.")
     return WindowExtraction.model_validate_json(raw_output)
 
+def extract_window(prompt: str) -> WindowExtraction:
+    if graph.get_provider_name() == "openai":
+        return extract_window_openai(prompt)
+    return extract_window_gemini(prompt)
 
 def drop_unknown_ids(extraction: WindowExtraction, known_ids: set[str]) -> WindowExtraction:
     triples = [
