@@ -250,7 +250,7 @@ def extract_window_openai(prompt: str) -> WindowExtraction:
         input=[
             {"role": "system", "content": RELATIONS_SYSTEM_PROMPT},
             {"role": "user", "content": prompt},
-        ]
+        ],
     )
 
     raw_output = response.output_text
