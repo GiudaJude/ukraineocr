@@ -1,0 +1,78 @@
+{
+  "document_id": "arc2/0165.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "30 marks",
+      "mention_texts": [
+        "triginta marcarum"
+      ],
+      "descriptive_mentions": [
+        "poena",
+        "poenam"
+      ],
+      "justification": "Penalty mentioned in the prior decree: 'nam triginta marcarum in Decreto praefato pro anteriori'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Order of Preachers",
+      "mention_texts": [
+        "Praedicatorum"
+      ],
+      "descriptive_mentions": [
+        "Religiosos Patres",
+        "Actores"
+      ],
+      "justification": "One party in the dispute: 'Religiosos Patres Praedicatorum ex una'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Ruthenian Elders",
+      "mention_texts": [
+        "Seniores Ruthenorum",
+        "seniores Ruthenorum"
+      ],
+      "descriptive_mentions": [
+        "citati",
+        "citatos",
+        "citatorum"
+      ],
+      "justification": "The opposing party cited before the court: 'Seniores Ruthenorum pro illo tempore existentes'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Monday before the Feast of Saint Adalbert 1586",
+      "mention_texts": [
+        "feria secunda ante festum Sancti Adalberti proxima Anno Domini 158 Sexto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous decree presented to the court."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio praesenti",
+        "Officii nostri",
+        "Officio Praesenti",
+        "Officium vero praesens",
+        "Officii Praesentis"
+      ],
+      "justification": "The municipal judicial body before which the parties appear and which executes the decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "in_dispute_with",
+      "tail_entity_id": "E3",
+      "evidence": "inter eosdem Religiosos Patres Praedicatorum ex una, et Seniores Ruthenorum pro illo tempore existentes ex controversia partium lato"
+    }
+  ]
+}

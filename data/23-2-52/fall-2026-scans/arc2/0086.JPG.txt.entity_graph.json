@@ -1,0 +1,124 @@
+{
+  "document_id": "arc2/0086.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Dzinga",
+      "mention_texts": [
+        "Simon Bzinga",
+        "Simon Dzinga",
+        "Simoni Dzinga"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges Suburbani Leopolienses",
+        "vir ipse",
+        "mariti sui",
+        "maritum",
+        "marito suo",
+        "mariti",
+        "maritus suus superstes",
+        "ambo coniuges"
+      ],
+      "justification": "Appears as one of the spouses making the mutual disposition of property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Barbara",
+      "mention_texts": [
+        "Barbara",
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges Suburbani Leopolienses",
+        "uxor",
+        "uxori suae superstiti",
+        "dicta uxor superstes",
+        "praefata",
+        "ambo coniuges"
+      ],
+      "justification": "Appears as the wife of Simon Dzinga making the reciprocal testament/donation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Czars",
+      "mention_texts": [
+        "Paulum Czars"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Ostiarium Praetorii",
+        "tutorem",
+        "tutoris"
+      ],
+      "justification": "Appointed and acts as guardian (tutor) for Barbara with marital and municipal consent."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Specified in the suburban status of the spouses ('Suburbani Leopolienses')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "The municipal authority/court approving the tutor and recording the act ('officio nostro approbatum')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "2 Polish marks",
+      "mention_texts": [
+        "duas marcas pecuniae Polonicalis in quamlibet grossos quadraginta octo Polonicales computando",
+        "duas marcas in quamlibet grossos quadraginta octo Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum designated to satisfy blood relatives from both parties' estates."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Simon Bzinga et Barbara coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "uxor vero per Honestum Paulum Czars Ostiarium Praetorii tutorem sibi ad eum actum de eiusdem mariti sui praesentaneus consensu"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "uxor vero per Honestum Paulum Czars Ostiarium Praetorii tutorem sibi ad eum actum de eiusdem mariti sui praesentaneus consensu assumptum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simon Bzinga et Barbara coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simon Bzinga et Barbara coniuges Suburbani Leopolienses"
+    }
+  ]
+}

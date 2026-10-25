@@ -1,0 +1,174 @@
+{
+  "document_id": "arc2/0041.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Mydrovi"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Advocatus",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Appears as advocate and sworn official of Lviv making an official statement."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Appears alongside Andreas Mydrovi as a sworn bencher (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which the court acts and of which the persons are citizens/officials."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Dziurdzi Janiciorada",
+      "mention_texts": [
+        "Georgii Dziurdzi Janiciorada",
+        "Georgii Dziurdzi",
+        "Georgius Dziurdzi"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civis Leopoliensis",
+        "praedicti Famati",
+        "praenominatus"
+      ],
+      "justification": "Lviv citizen at whose request the statement and attestation were registered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "21 January 1595",
+      "mention_texts": [
+        "die Sanctae Agnetis Virginis et martyris proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date on which the officials visited the house of Wilhelm Altant."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Wilhelm Altant",
+      "mention_texts": [
+        "Wilhelm Altant"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Owner of the house visited by the court officials."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Podfilipski",
+      "mention_texts": [
+        "Stanislaum Podfilipski",
+        "Stanislaus Podfilipski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "Judicem Terrestrem Terrarum Podoliae",
+        "praedictus Generosus",
+        "idem praefatus Generosus",
+        "praedicto Generoso"
+      ],
+      "justification": "Noble land judge of Podolia who issued the written attestation."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Podolia",
+      "mention_texts": [
+        "Terrarum Podoliae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Territory where Stanislaus Podfilipski served as land judge."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hannussius Baier",
+      "mention_texts": [
+        "Hannussius Baier"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Gedanensis"
+      ],
+      "justification": "Citizen of Gdańsk detained for debt who escaped by night."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of citizenship of Hannussius Baier."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "28 January 1595",
+      "mention_texts": [
+        "Sabbato post festum Conversionis Sancti Pauli proxime Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of registration of this act in Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Andreas Mydrovi Advocatus et Joannes Sokol Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Andreas Mydrovi Advocatus et Joannes Sokol Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Georgii Dziurdzi Janiciorada Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaum Podfilipski Judicem Terrestrem Terrarum Podoliae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Hannussius Baier Civis Gedanensis"
+    }
+  ]
+}

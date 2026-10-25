@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/0141.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Gallus"
+      ],
+      "descriptive_mentions": [
+        "Honorati Domini",
+        "locum Ordinarii Advocati tenens"
+      ],
+      "justification": "Named as acting advocate (locum Ordinarii Advocati tenens) appearing before the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joachimus Osterloff",
+      "mention_texts": [
+        "Joachimus Osterloff"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Named as a sworn juror of Lviv appearing in court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sobol",
+      "mention_texts": [
+        "Jacobus Sobol"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Named as a sworn juror of Lviv appearing in court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civis"
+      ],
+      "justification": "The city of Lviv mentioned as the municipal jurisdiction and citizenship affiliation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium vero Honoratorum Dominorum Advocati et Fidelium Juris"
+      ],
+      "descriptive_mentions": [
+        "sui veri Officii",
+        "ex Officio"
+      ],
+      "justification": "The advocate's court bench that remitted the case to the council."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium maius",
+        "Officium Consulare maius"
+      ],
+      "descriptive_mentions": [
+        "Officio"
+      ],
+      "justification": "The higher consular bench that decided the dispute."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Thomas",
+      "mention_texts": [
+        "Nicolai Thomas"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen whose estate and brewery shares are in dispute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Adamus Abzeman",
+      "mention_texts": [
+        "Adamus Abzeman"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "Contradicting party concerning the distribution of the butchery stall shares."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Thomas Kores",
+      "mention_texts": [
+        "Thomae Kores",
+        "Kuras Tomas"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Tutores"
+      ],
+      "justification": "Guardian appointed to decide what is advantageous for the ward."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Tomaszowic",
+      "mention_texts": [
+        "Tomaszowii"
+      ],
+      "descriptive_mentions": [
+        "Pupillo"
+      ],
+      "justification": "The ward on whose behalf Thomas Kores acts."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Dusza",
+      "mention_texts": [
+        "Petrus Dusza"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aurifaber",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Goldsmith and citizen of Lviv submitting an authentic document from Gródek."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0091: Gródek",
+      "mention_texts": [
+        "Civitatis Grodecen-"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Town whose bench records issued the instrument."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria quarta ipso die Operationis Domini 159 quarto",
+        "159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the instrument issued under seal in Gródek."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "acts_in_office",
+      "tail_entity_id": "E5",
+      "evidence": "Honorati Domini Fridericus Gallus locum Ordinarii Advocati tenens"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joachimus Osterloff ... Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobus Sobol Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "olim Nicolai Thomas Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honorati Thomae Kores Tutores Famatasii Tomaszowii ... Pupillo"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Petrus Dusza Aurifaber Civis Leopoliensis"
+    }
+  ]
+}

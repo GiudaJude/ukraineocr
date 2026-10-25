@@ -1,0 +1,210 @@
+{
+  "document_id": "arc2/0422.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szapolski",
+      "mention_texts": [
+        "Andreas Szapolski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "Tutor officio constitutus"
+      ],
+      "justification": "Noble court-appointed guardian for the minor children of Manuel Rufeti."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anna Rufeti",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "minorennum liberorum"
+      ],
+      "justification": "Minor daughter of the late Manuel Rufeti and Anna Serdkowna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Catherina Rufeti",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "minorennum liberorum"
+      ],
+      "justification": "Minor daughter of the late Manuel Rufeti and Anna Serdkowna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Manuel Rufeti",
+      "mention_texts": [
+        "Manuelis Rufeti",
+        "Manuelis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Graeci Civis Leopoliensis",
+        "propinqui"
+      ],
+      "justification": "Deceased Greek burgher of Lviv, father of Anna and Catherina, husband of Anna Serdkowna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Ivan Kraszowski",
+      "mention_texts": [
+        "Ivani Kraszowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Rutheni Civis Leopoliensis",
+        "tutoris sui"
+      ],
+      "justification": "Ruthenian burgher of Lviv in whose household the parties cohabited."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Anna Serdkowna",
+      "mention_texts": [
+        "Anna Serdkowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "praedictarum vero minorennum mater"
+      ],
+      "justification": "Widow of Manuel Rufeti and mother of the minor children Anna and Catherina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Melchior Miszkalowski",
+      "mention_texts": [
+        "Melchiorem Miszkalowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "suum verum legitimum indubitatumque plenipotentem et mandatarium",
+        "Plenipotentiario"
+      ],
+      "justification": "Noble attorney appointed to represent the heirs before the Royal Court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Victor Graecus",
+      "mention_texts": [
+        "Victoris Graeci"
+      ],
+      "descriptive_mentions": [
+        "praenominati Manuelis propinqui"
+      ],
+      "justification": "Deceased Greek kinsman of Manuel Rufeti whose estate was under council sequestration."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Regiae Maiestatis",
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Domini Domini nostri Clementissimi"
+      ],
+      "justification": "The Polish monarch, before whose royal tribunal the inheritance action is pending."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Lviv"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, appearing in burgher designations and court references."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio",
+        "officium nostrum",
+        "Officij",
+        "officio nostro"
+      ],
+      "justification": "The municipal council office recording the power of attorney and holding the estate sequestered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "Generosus Andreas Szapolski uti Tutor officio constitutus minorennum liberorum Annae et Catherinae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "Generosus Andreas Szapolski uti Tutor officio constitutus minorennum liberorum Annae et Catherinae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "minorennum liberorum Annae et Catherinae Famati olim Manuelis Rufeti Graeci"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "minorennum liberorum Annae et Catherinae Famati olim Manuelis Rufeti Graeci"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Anna Serdkowna eiusdem Manuelis Rufeti vidua relicta"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "praedictarum vero minorennum mater"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "praedictarum vero minorennum mater"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "morte Victoris Graeci praenominati Manuelis propinqui"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E7",
+      "evidence": "constituerunt et solemniter ordinaverunt in suum verum legitimum indubitatumque plenipotentem et mandatarium Nobilem Melchiorem Miszkalowski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E7",
+      "evidence": "constituerunt et solemniter ordinaverunt in suum verum legitimum indubitatumque plenipotentem et mandatarium Nobilem Melchiorem Miszkalowski"
+    }
+  ]
+}

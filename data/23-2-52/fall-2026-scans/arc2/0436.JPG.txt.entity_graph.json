@@ -1,0 +1,225 @@
+{
+  "document_id": "arc2/0436.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Siarzowic",
+      "mention_texts": [
+        "Andreas Siarzowic",
+        "Andreae Siarzowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Hutorius",
+        "Civis Leopoliensis",
+        "ille",
+        "mariti sui praefati"
+      ],
+      "justification": "Burgher and glassmaker of Lviv selling a property share."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catherina Skoskowicz",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "filia",
+        "consors vero praedicti Andreae Siarzowicz legitima",
+        "haec",
+        "mulier"
+      ],
+      "justification": "Wife of Andreas Siarzowic and daughter of late Lucas Skoskowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucas Skoskowicz",
+      "mention_texts": [
+        "Lucae Skoskowicz"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased father of Catherina."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Łakarzowicz",
+      "mention_texts": [
+        "Andream Łakarzowicz"
+      ],
+      "descriptive_mentions": [
+        "honestum",
+        "fratrem germanum",
+        "tutorem suum"
+      ],
+      "justification": "Brother and legal guardian assisting Catherina in the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Toros Janukowicz",
+      "mention_texts": [
+        "Corasius Jakubowic",
+        "Toxono Janukowicz"
+      ],
+      "descriptive_mentions": [
+        "Armeno",
+        "Civi Leopoliensi",
+        "emptore"
+      ],
+      "justification": "Armenian burgher of Lviv purchasing the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitate istius Leopoliensi",
+        "Leopoliensium",
+        "Civis Leopoliensis",
+        "Leopoliensibus",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which the transaction occurs and where the property is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0152: Armenian Street",
+      "mention_texts": [
+        "platea Armenicali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the stone house being sold is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio",
+        "Officium"
+      ],
+      "justification": "City council office approving the guardianship and recording the transaction."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Domazerski",
+      "mention_texts": [
+        "Domazerskich"
+      ],
+      "descriptive_mentions": [
+        "Famatrorum",
+        "Armenorum Leopoliensium"
+      ],
+      "justification": "Armenian burghers of Lviv who own an adjacent stone house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Zadzik",
+      "mention_texts": [
+        "Zadzik"
+      ],
+      "descriptive_mentions": [
+        "Famatam olim",
+        "Armenii",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased Armenian burgher whose former wooden house borders the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Tomas Suchnorowicz",
+      "mention_texts": [
+        "Tomaso",
+        "Suchnorowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatis olim",
+        "Armenis Leopoliensibus"
+      ],
+      "justification": "Deceased Armenian from whom an obligatory sum was obtained."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Toxon Suchnorowicz",
+      "mention_texts": [
+        "Toxono Suchnorowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatis olim",
+        "Armenis Leopoliensibus"
+      ],
+      "justification": "Deceased Armenian associated with Tomas Suchnorowicz in the obligatory debt."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "1135 Polish florins",
+      "mention_texts": [
+        "mille Centum et triginta quinque Florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summa obligatoria"
+      ],
+      "justification": "Obligatory monetary sum transferred with the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honesta Catherina olim Lucae Skoskowicz filia consors vero praedicti Andreae Siarzowicz legitima"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Catherina olim Lucae Skoskowicz filia"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Andream Łakarzowicz fratrem germanum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Siarzowic Hutorius Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Toxono Janukowicz Armeno et Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "olim Zadzik itidem Armenii et Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Civitate istius Leopoliensi platea Armenicali dicta"
+    }
+  ]
+}

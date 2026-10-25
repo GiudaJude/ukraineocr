@@ -1,0 +1,125 @@
+{
+  "document_id": "arc2/0351.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office resolving the legal dispute between the parties."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Zachman",
+      "mention_texts": [
+        "Zachman"
+      ],
+      "descriptive_mentions": [
+        "praefatumque Judaeum",
+        "citatus",
+        "citato",
+        "ipse Judaeus"
+      ],
+      "justification": "Jewish respondent (citatus) holding the contested pledge."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Zaporozuz",
+      "mention_texts": [
+        "Zaporozuz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned as having granted the possession to Zachman."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacram Regiam Maiestatem",
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Dominum Dominum Clementissimum"
+      ],
+      "justification": "The King of Poland to whom the actor appeals."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Domini Advocati et Fidelem iuris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatus and jurymen deputed to assess the value of the pledge."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Georgius Nastoviz",
+      "mention_texts": [
+        "Georgius Nastoviz",
+        "Georgio Nastoviz"
+      ],
+      "descriptive_mentions": [
+        "Actor",
+        "Actor praefatus",
+        "praedictus",
+        "praefato",
+        "Actore"
+      ],
+      "justification": "Plaintiff (actor) appealing against the council decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanus Schenkber",
+      "mention_texts": [
+        "Stanum Schenkber"
+      ],
+      "descriptive_mentions": [
+        "Fideiussorem",
+        "Famatum",
+        "Mercatorem Leopoliensem",
+        "Qui"
+      ],
+      "justification": "Lviv merchant who acts as guarantor for Georgius Nastoviz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in Schenkber's merchant title."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "appeals_to",
+      "tail_entity_id": "E4",
+      "evidence": "Actor vero praesentem se eo gravari ad Sacram Regiam Maiestatem Dominum Dominum Clementissimum appellavit"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "surety_for",
+      "tail_entity_id": "E6",
+      "evidence": "praedictus Georgius Nastoviz statuit pro se Fideiussorem Famatum Stanum Schenkber Mercatorem Leopoliensem. Qui stans personaliter Fideiussit pro praefato Georgio Nastoviz"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanum Schenkber Mercatorem Leopoliensem"
+    }
+  ]
+}

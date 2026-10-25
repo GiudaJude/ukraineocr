@@ -1,0 +1,150 @@
+{
+  "document_id": "arc2/0154.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmi Jelonek",
+        "Erasmum Jelonek",
+        "Erasmus Jelonek"
+      ],
+      "descriptive_mentions": [
+        "citati",
+        "idem Famatus"
+      ],
+      "justification": "Debtor ordered to pay back money with interest after Easter."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Jelonek",
+      "mention_texts": [
+        "Alberti Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased former owner of the folwark mentioned in the opening lines."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Paulum Krauczambianum",
+        "Paulum Abramianum"
+      ],
+      "descriptive_mentions": [
+        "Illustrem & Excellentissimum Dominum",
+        "Medicinae Doctorem",
+        "Consulem Leopoliensem",
+        "mutuos actores & citatos"
+      ],
+      "justification": "Doctor of medicine and consul of Lviv involved in a mutual lawsuit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0134: Paulus Aromatarius",
+      "mention_texts": [
+        "Paulum Abrahamowic Aromatarium",
+        "Paulum Aromatarium"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "mutuos actores & citatos"
+      ],
+      "justification": "Apothecary and citizen of Lviv in a legal dispute with Paulus Novicampianus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Officium Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium idem"
+      ],
+      "justification": "The consular office issuing decrees and delegating individuals to inspect buildings."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicium Ciuile Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Civil/banned court of Lviv to which reciprocal damage claims are remitted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the parties reside and the courts are established."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Easter",
+      "mention_texts": [
+        "festa Solennia Paschatis proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast of Easter cited as a reference point for court sessions and deadlines."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Friday after Easter",
+      "mention_texts": [
+        "feria sexta post festa Solennia Paschatis proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Specific Friday designated for delegates to inspect premises."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Paulum Krauczambianum Medicinae Doctorem Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "litigates_against",
+      "tail_entity_id": "E4",
+      "evidence": "inter Illustrem & Excellentissimum Dominum Paulum Krauczambianum Medicinae Doctorem Consulem Leopoliensem, et Famatum Paulum Abrahamowic Aromatarium Civem Leopoliensem mutuos actores & citatos"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Paulum Abrahamowic Aromatarium Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Officii Consularis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Iudicium Ciuile Leopoliensis"
+    }
+  ]
+}

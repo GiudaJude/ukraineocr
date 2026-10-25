@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/0247.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare",
+        "Officij",
+        "Officii",
+        "Officio nostro",
+        "Officio"
+      ],
+      "descriptive_mentions": [
+        "Custos Jurium et Privilegiorum Civitatis eiusdem Leopoliensis",
+        "Officiorum",
+        "nostram Consularem residentiam",
+        "magistratui sedis Ciuitatis"
+      ],
+      "justification": "Municipal governing body acting in its consular capacity."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "Civitatis",
+        "sedis Ciuitatis"
+      ],
+      "justification": "City referenced throughout the municipal record."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Sacrae Regiae Maiestatis Domini Domini nostri Clementissimi",
+        "sua Maiestas Regia"
+      ],
+      "justification": "The ruling Polish monarch Sigismund III Vasa referred to by royal title."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Hende",
+      "mention_texts": [
+        "Joannis",
+        "Hende"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "praefati",
+        "praefatus olim"
+      ],
+      "justification": "Deceased citizen whose estate and house are under arrest/sequestration."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Clemens Joannis",
+      "mention_texts": [
+        "Clemens Joannis"
+      ],
+      "descriptive_mentions": [
+        "praenominatus"
+      ],
+      "justification": "Individual acting on behalf of his principal concerning the estate."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Hendehowska House",
+      "mention_texts": [
+        "Hendehowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae"
+      ],
+      "justification": "Stone townhouse previously in the possession of the late Joannes Hende."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Rumin",
+      "mention_texts": [
+        "Ruminowi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the heading quietatio entry."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Staszkowskie Property",
+      "mention_texts": [
+        "Staszkowskye"
+      ],
+      "descriptive_mentions": [
+        "bona"
+      ],
+      "justification": "Real estate property mentioned in the entry heading."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Toros Bernatowicz",
+      "mention_texts": [
+        "Toros Bernatowiz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Cives Leopolienses"
+      ],
+      "justification": "Citizen of Lviv presenting royal universal letters."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Dawid Porezkowicz",
+      "mention_texts": [
+        "Dawid Porezkowicz"
+      ],
+      "descriptive_mentions": [
+        "Cives Leopolienses"
+      ],
+      "justification": "Citizen of Lviv appearing alongside Toros Bernatowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Toros Bernatowiz et Dawid Porezkowicz bimonem Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Toros Bernatowiz et Dawid Porezkowicz bimonem Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "possessed",
+      "tail_entity_id": "E6",
+      "evidence": "domus lapideae Hendehowska in quibus praefatus olim Hende (ut ille asserebat) moro renosui sedec mortem percipiam possessionem desuper habuit"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "document_id": "arc2/0265.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus",
+      "mention_texts": [
+        "Bartholomeum"
+      ],
+      "descriptive_mentions": [
+        "partem"
+      ],
+      "justification": "Party mentioned in the opening sentence of the court record."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmus Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Mediator Leopolitanus",
+        "ipse",
+        "actori",
+        "memoratus"
+      ],
+      "justification": "Burgher of Lviv who cedes financial rights and property claims to Andreas Kucharz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kucharz",
+      "mention_texts": [
+        "Andreas Kucharz",
+        "Andreae Kucharz",
+        "Kucharz"
+      ],
+      "descriptive_mentions": [
+        "Personam Honesti",
+        "Civis huiusce",
+        "successorum",
+        "eidem",
+        "condescensarius",
+        "Praenominatus",
+        "condescensarius modernus",
+        "praefatus",
+        "praedictus"
+      ],
+      "justification": "Citizen who acquires the debts and claims from Erasmus Jelonek."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0803: Caspar Tembarski",
+      "mention_texts": [
+        "Casparo Lembarski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "coniugibus"
+      ],
+      "justification": "Creditor from whom sums were acquired."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Wife of Caspar Lembarski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Juditha Doctoris",
+      "mention_texts": [
+        "Judithae Doctoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual from whom debts were acquired by cession."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Dosmak",
+      "mention_texts": [
+        "Christophori Dosmak"
+      ],
+      "descriptive_mentions": [
+        "Pileatoris",
+        "Suburbani Leopoliensis",
+        "debitoris",
+        "patri"
+      ],
+      "justification": "Debtor and hatter living in the Lviv suburb whose house is charged with debts."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Posch",
+      "mention_texts": [
+        "Joannes Posch"
+      ],
+      "descriptive_mentions": [
+        "Magistri Consulares",
+        "Dominorum Patres"
+      ],
+      "justification": "Lviv city councilor before whom the legal act took place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Rossier",
+      "mention_texts": [
+        "Gregorius Rossier"
+      ],
+      "descriptive_mentions": [
+        "Magistri Consulares",
+        "Dominorum Patres"
+      ],
+      "justification": "Lviv city councilor presiding over the act."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Adam Sadinowski",
+      "mention_texts": [
+        "Adam Sadinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Fideiussorem",
+        "Suburbannum Leopoliensem"
+      ],
+      "justification": "Bondsman and suburbanite of Lviv standing as surety for Andreas Kucharz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanus",
+        "Leopoliensis",
+        "Civitatis huius",
+        "Civis huiusce",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv and references to its citizenship and jurisdiction."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Magistri Consulares"
+      ],
+      "descriptive_mentions": [
+        "Actis nostris"
+      ],
+      "justification": "Council and consular register of Lviv executing the record."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "florenos centum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum mentioned in relation to the share of Christophorus Dosmak."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famato Casparo Lembarski et Catherina coniugibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Magistri Consulares scilicet Dominorum Patres Joannes Posch"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Magistri Consulares scilicet Dominorum Patres Joannes Posch et Gregorius Rossier"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E3",
+      "evidence": "stetit pro se Fideiussorem Honestum Adam Sadinowski"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E11",
+      "evidence": "Civis et Mediator Leopolitanus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E11",
+      "evidence": "Civis huiusce"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E11",
+      "evidence": "Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E11",
+      "evidence": "Suburbannum Leopoliensem"
+    }
+  ]
+}

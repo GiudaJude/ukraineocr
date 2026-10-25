@@ -1,0 +1,171 @@
+{
+  "document_id": "arc2/0431.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officium supranominatum",
+        "officium",
+        "Consulatus"
+      ],
+      "justification": "City council office before which the parties appear, and of which Antonius Czorn was formerly a member."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoldiensibus",
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lwów, referenced in municipal and community contexts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szembergk",
+      "mention_texts": [
+        "Stanislaus Schrembek",
+        "Stanis Szembergk",
+        "Stanislaus Szembergk"
+      ],
+      "descriptive_mentions": [
+        "Civis et Mercator Leopoliensis",
+        "Actoris"
+      ],
+      "justification": "Citizen and merchant of Lwów acting as plaintiff in a commercial dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Isaac Isaacowicz",
+      "mention_texts": [
+        "Marcus Ysaakowic",
+        "Isaacum Isaacowicz"
+      ],
+      "descriptive_mentions": [
+        "Infidelem",
+        "Judaeum Leopoliensem"
+      ],
+      "justification": "Jewish resident of Lwów cited as the defendant in the commercial case."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Sendel",
+      "mention_texts": [
+        "Sendel"
+      ],
+      "descriptive_mentions": [
+        "Scholiarcha Judaeorum"
+      ],
+      "justification": "Jewish official (scholiarcha) mentioned in connection with citing the defendant."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Abraham",
+      "mention_texts": [
+        "Abrahamo"
+      ],
+      "descriptive_mentions": [
+        "Senioribus Judaeis"
+      ],
+      "justification": "Jewish elder present at the court proceeding."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0005: Jarosław",
+      "mention_texts": [
+        "Jaroslavienses"
+      ],
+      "descriptive_mentions": [
+        "Nundinas Jaroslavienses"
+      ],
+      "justification": "Location of the fair to which the absent Jewish elders had traveled."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Giles",
+      "mention_texts": [
+        "diem Sancti Egydij Abbatis"
+      ],
+      "descriptive_mentions": [
+        "feriam sextam quae erit a futura feria sexta per quindenam"
+      ],
+      "justification": "Adjournment date designated as the feast of Saint Giles the Abbot (1 September)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Furcowic",
+      "mention_texts": [
+        "Nicolaus Furcowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual named in the margin of the subsequent record."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Anna Furcowina",
+      "mention_texts": [
+        "Anna Furcowina",
+        "Hna"
+      ],
+      "descriptive_mentions": [
+        "vidua relicta"
+      ],
+      "justification": "Widow of the late councillor Antonius Czorn appearing in the second entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Antonius Czorn",
+      "mention_texts": [
+        "Antony Czorn"
+      ],
+      "descriptive_mentions": [
+        "olim Domini",
+        "colleganu Consulatus"
+      ],
+      "justification": "Deceased former member/colleague of the consulate whose widow appears."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "olim Domini Antony Czorn colleganu Consulatus vidua relicta"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "olim Domini Antony Czorn colleganu Consulatus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis et Mercator Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Judaeum Leopoliensem"
+    }
+  ]
+}

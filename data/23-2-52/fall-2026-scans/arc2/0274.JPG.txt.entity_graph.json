@@ -1,0 +1,187 @@
+{
+  "document_id": "arc2/0274.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "praedicta Anna",
+        "eadem Anna"
+      ],
+      "justification": "Known entity PER-0026: Anna, appearing in the ongoing matter regarding division and cellar repair."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Caspar Bromatarius",
+      "mention_texts": [
+        "Caspar",
+        "Caspar Bromatarius",
+        "Casparo"
+      ],
+      "descriptive_mentions": [
+        "praedictus Caspar",
+        "praedictus Caspar Bromatarius",
+        "praedicto Casparo"
+      ],
+      "justification": "Party involved in the cellar and habitation maintenance dispute opposite Anna."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Niedźwiedź",
+      "mention_texts": [
+        "Bartholomaei Niedzwiedz",
+        "Bartholomeus Niedzwiedz",
+        "Bartholomeus",
+        "Niedzwiedz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Suburbanus Leopoliensis",
+        "debitore",
+        "ipse"
+      ],
+      "justification": "Suburban debtor acknowledging settlement and mutual release with Gregorius Kakatos."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Kakatos Peganeus",
+      "mention_texts": [
+        "Gregorius Kakatos Peganeus"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Serrifaber",
+        "Civis Busten"
+      ],
+      "justification": "Locksmith/artisan from Busk (Civis Busten) issuing a quietatio to Bartholomaeus Niedźwiedź."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified in 'Suburbanus Leopoliensis' and 'Advocati Leopoliensis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "40 Polish florins",
+      "mention_texts": [
+        "quadraginta Florenos Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum paid and acquitted in the transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari Officio"
+      ],
+      "descriptive_mentions": [
+        "Eodem nostro Consulari Officio"
+      ],
+      "justification": "The municipal council office before which the inscription was made."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "159 quarto",
+        "feria secunda post Dominicam Misericordia"
+      ],
+      "descriptive_mentions": [
+        "Anno superiore"
+      ],
+      "justification": "Date of the prior obligation registered before the consular office."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Matias Kottendorff",
+      "mention_texts": [
+        "Matias Kottendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "locum Ordinarij Advocati Leopoliensis tenens"
+      ],
+      "justification": "Lieutenant advocate of Lviv appearing in entry 298."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Caspar Brzoszewski",
+      "mention_texts": [
+        "Caspar Brzoszewski"
+      ],
+      "descriptive_mentions": [
+        "Scabinus"
+      ],
+      "justification": "Lviv bench juror (scabinus) appearing with the lieutenant advocate."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Marusna",
+      "mention_texts": [
+        "Marusna"
+      ],
+      "descriptive_mentions": [
+        "vidua"
+      ],
+      "justification": "Widow involved in the division of garden/property (Diuisio Hortulana)."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Laurentius",
+      "mention_texts": [
+        "Laurentij"
+      ],
+      "descriptive_mentions": [
+        "viri",
+        "olim"
+      ],
+      "justification": "Deceased husband of Marusna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "owes",
+      "tail_entity_id": "E4",
+      "evidence": "Quia Famatus Bartholomeus Niedzwiedz Suburbanus Leopoliensis uit sibi quadraginta Florenos Polonicales compati, quas adhuc restabat et debebat sibi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "lives_in",
+      "tail_entity_id": "E5",
+      "evidence": "Famatus Bartholomeus Niedzwiedz Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Matias Kottendorff locum Ordinarij Advocati Leopoliensis tenens"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Marusna vidua et Laurentij viri"
+    }
+  ]
+}

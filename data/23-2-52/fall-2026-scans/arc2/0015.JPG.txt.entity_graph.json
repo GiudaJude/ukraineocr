@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/0015.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Dorothea",
+      "mention_texts": [
+        "Dorotheae",
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "praedictae"
+      ],
+      "justification": "Named seller and mother of Franciscus in the ongoing property transaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Franciscus",
+      "mention_texts": [
+        "Francisco"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "praedicto Dorotheae ex priori matrimonio filio"
+      ],
+      "justification": "Son of Dorothea from her previous marriage."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Slachetka",
+      "mention_texts": [
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "vero"
+      ],
+      "justification": "Seller and stepfather of Boick Stanek, established as Stanislaus Slachetka from prior entry."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Boick Stanek",
+      "mention_texts": [
+        "Boick Stanek"
+      ],
+      "descriptive_mentions": [
+        "ex privigno"
+      ],
+      "justification": "Stepson of Stanislaus mentioned regarding potential property claims."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "mention_texts": [
+        "Semionem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum D.",
+        "Scabinum Civitatis Leopoliensis",
+        "Plenipotentem et mandatorium",
+        "Plenipotens suus"
+      ],
+      "justification": "Lviv alderman (scabinus) appointed as plenipotentiary by the sellers."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopolien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose council/bench is referenced, and whose suburbanites are parties in the records."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Przeborowski",
+      "mention_texts": [
+        "Andreas Przeborowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Nobleman petitioning the court for guardians for the orphan of Jacob Klaskosz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Klaskosz",
+      "mention_texts": [
+        "Jacobi Klaitorz",
+        "Jacobi Klaskosz",
+        "Laskor"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "debitoris",
+        "praefati debitoris"
+      ],
+      "justification": "Deceased suburban debtor whose orphan requires guardians."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Anna Klaskoszowa",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugum Suburbanorum Leopolien"
+      ],
+      "justification": "Wife of Jacobus Klaskosz, suburbanite of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jadwiga Anna Klaskosz",
+      "mention_texts": [
+        "Annae",
+        "Jadwigae Annae",
+        "Iadwigae",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "filiae illae",
+        "minori"
+      ],
+      "justification": "Orphan minor daughter of Jacobus Klaskosz and Anna, for whom guardians are appointed."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Korne-",
+      "mention_texts": [
+        "Joannem Korne-"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "tutores"
+      ],
+      "justification": "Guardian appointed to Jadwiga Anna by the court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honesto Francisco praedicto Dorotheae ex priori matrimonio filio"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "stepchild_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislai vero Boick Stanek ex privigno"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Jacobi olim Klaskosz et Annae coniugum Suburbanorum Leopolien"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Jadwigae Annae Jacobi olim Klaskosz et Annae coniugum Suburbanorum Leopolien filiae illae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Jadwigae Annae Jacobi olim Klaskosz et Annae coniugum Suburbanorum Leopolien filiae illae"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "vt sabrem Tutores dedimus et assignauimus eidem Annae tutores Honestos Joannem Korne-"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbanorum Leopolien"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbanorum Leopolien"
+    }
+  ]
+}

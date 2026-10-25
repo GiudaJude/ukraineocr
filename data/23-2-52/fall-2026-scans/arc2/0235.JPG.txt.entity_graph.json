@@ -1,0 +1,165 @@
+{
+  "document_id": "arc2/0235.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia post\nDominicam Exaudi proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session recorded in the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the court acts took place and citizenship of the parties."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus\nDoctor",
+        "Stanislaus Dziwici-\nus"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "Medicinae Doctor",
+        "Collega noster Consularis",
+        "affinis suus",
+        "eundem"
+      ],
+      "justification": "Doctor of medicine and consular colleague who satisfied Georgius Matiaszowicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Matiaszowicz",
+      "mention_texts": [
+        "Georgius\nMatiaszowic",
+        "Georgius Matiaszowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "famati olim Mathiae a Colomea Exoradiatoris Civis Leopoliensis filius",
+        "filius"
+      ],
+      "justification": "Son of late Mathias from Kołomyja, acknowledges receipt of inheritance satisfaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias a Colomea",
+      "mention_texts": [
+        "Mathiae a Colomea"
+      ],
+      "descriptive_mentions": [
+        "famati",
+        "olim",
+        "Exoradiatoris",
+        "Civis Leopoliensis",
+        "parente"
+      ],
+      "justification": "Deceased sword-polisher and citizen of Lviv, father of Georgius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kołomyja",
+      "mention_texts": [
+        "Colomea"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Mathias."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Vasko Kulikowicz",
+      "mention_texts": [
+        "Watsons Kulikowic",
+        "Vasko Kulikowicz",
+        "Szworney Semer"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv lodging a protest against Andreas Madrowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andream Madrowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Notarium et Scabinum Civitatis Leopoliensis"
+      ],
+      "justification": "Notary and bench judge of Lviv protested against regarding an appeal."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Loliowski",
+      "mention_texts": [
+        "Stanislaum Loliowski",
+        "Stanislai Loliowski"
+      ],
+      "descriptive_mentions": [
+        "nobilem",
+        "eiusdem"
+      ],
+      "justification": "Nobleman involved in a legal dispute with Vasko Kulikowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "childOf",
+      "tail_entity_id": "E5",
+      "evidence": "famati olim Mathiae a Colomea Exoradiatoris Civis Leopoliensis filius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relativeOf",
+      "tail_entity_id": "E4",
+      "evidence": "affinis suus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizenOf",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizenOf",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "litigantAgainst",
+      "tail_entity_id": "E8",
+      "evidence": "denunciavionem fecit contra Honoratum Andream Madrowicz Notarium et Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "litigantAgainst",
+      "tail_entity_id": "E9",
+      "evidence": "in causa inter se et nobilem Stanislaum Loliowski"
+    }
+  ]
+}

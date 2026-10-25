@@ -1,0 +1,100 @@
+{
+  "document_id": "arc2/0475.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officium praesens"
+      ],
+      "justification": "City council of Lviv before which the parties appear."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in the council and guild titles."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Sinost",
+      "mention_texts": [
+        "Marcinus Sinost",
+        "Martinus Sinost",
+        "Martini Sinost"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Scutifex",
+        "praedicti"
+      ],
+      "justification": "Shieldmaker appearing before the council against the guild elders."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Keinost",
+      "mention_texts": [
+        "Simonis Keinost"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "patris sui"
+      ],
+      "justification": "Father assisting Martinus Sinost before the court."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0025: Shoemakers' Guild",
+      "mention_texts": [
+        "Contubernio Sutorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Shoemakers' guild mentioned in the case rubric heading."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Shieldmakers' Guild",
+      "mention_texts": [
+        "Contubernij Scutificum Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Magistros Seniores et Juniores",
+        "Seniores et Juniores"
+      ],
+      "justification": "Shieldmakers' guild of Lviv against whose elders the complaint is brought."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simonis Keinost patris sui"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officio nostro Consulari Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Contubernij Scutificum Leopoliensis"
+    }
+  ]
+}

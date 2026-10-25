@@ -1,0 +1,133 @@
+{
+  "document_id": "arc2/0145.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacko Bastkowicz Skorzeski",
+      "mention_texts": [
+        "Bukasza",
+        "Jacko Bastkowicz Skorzeski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "senior"
+      ],
+      "justification": "Appears as the acknowledging party in the quittance rubric and entry text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Babicz",
+      "mention_texts": [
+        "Babicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Father or ancestor of Joannes and Joanna ('geniti Babicz', 'a Babicz')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "35 Polish florins",
+      "mention_texts": [
+        "florenos triginta quinque pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid and acknowledged in the receipt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Bilkaba",
+      "mention_texts": [
+        "Joannis Bilkaba"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "geniti Babicz",
+        "Suburbanorum Civium Leopoliensium"
+      ],
+      "justification": "One of the suburban citizens paying the quittance sum."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joanna",
+      "mention_texts": [
+        "Joannae"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "geniti Babicz",
+        "Suburbanorum Civium Leopoliensium"
+      ],
+      "justification": "Party paying the quittance along with Joannes Bilkaba."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburban citizenship is held by Joannes Bilkaba and Joanna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jasko",
+      "mention_texts": [
+        "Jaskonem"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "olim",
+        "dudum filium Alexandri Jacko"
+      ],
+      "justification": "Deceased person cited in connection with the reform/inheritance."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Alexander Jacko",
+      "mention_texts": [
+        "Alexandri Jacko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Father of the deceased Jasko."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestorum Joannis Bilkaba et Joannae geniti Babicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestorum Joannis Bilkaba et Joannae geniti Babicz"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbanorum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Suburbanorum Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "olim Jaskonem dudum filium Alexandri Jacko"
+    }
+  ]
+}

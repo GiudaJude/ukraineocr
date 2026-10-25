@@ -1,0 +1,181 @@
+{
+  "document_id": "arc2/0167.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zwolenski",
+      "mention_texts": [
+        "Joanni Zwolenski",
+        "Joannem Zwolensci"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem",
+        "mandatarium",
+        "Probum",
+        "Plenipotenti",
+        "mandatario suo"
+      ],
+      "justification": "Appointed as legal plenipotentiary to collect a debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Mieuscis",
+      "mention_texts": [
+        "Laurentius Mieuscis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "Cives Ostrogiensis",
+        "ille",
+        "maritum",
+        "tutorem suum naturalem et legitimum"
+      ],
+      "justification": "Party appearing before the court to grant power of attorney along with his wife."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Ostrogiensis",
+        "hee"
+      ],
+      "justification": "Wife of Laurentius Mieuscis, appearing in court under his guardianship."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Konstanty Wasyl Ostrogski",
+      "mention_texts": [
+        "Constantini Ducis Ostrogiensis"
+      ],
+      "descriptive_mentions": [
+        "Illustrissimi Domini"
+      ],
+      "justification": "Duke of Ostroh, mentioned in connection with Laurentius Mieuscis."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Ostróg",
+      "mention_texts": [
+        "Ostrogiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Volhynia of which Laurentius and Anna are citizens (Cives Ostrogiensis)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Zaleski",
+      "mention_texts": [
+        "Laurentio Zaleski",
+        "Laurentius Zaleski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "idem",
+        "praenominato debitore suo"
+      ],
+      "justification": "Citizen of Lviv indebted in the amount of 60 florins."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in the citizen designation of Laurentius Zaleski."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "sexaginta Florenorum sexaginta Polonicalis",
+        "sexaginta Florenos"
+      ],
+      "descriptive_mentions": [
+        "summae"
+      ],
+      "justification": "Debt amount to be collected."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii",
+        "Acta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council court and its official records."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesti Laurentius Mieuscis ... et Anna coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "per eundem maritum tutorem suum naturalem et legitimum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E2",
+      "evidence": "fecerunt constituerunt ac solemniter ordinaverunt, in suum verum legitimum indubitatumque Plenipotentem et mandatarium Probum Joannem Zwolensci"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E3",
+      "evidence": "fecerunt constituerunt ac solemniter ordinaverunt, in suum verum legitimum indubitatumque Plenipotentem et mandatarium Probum Joannem Zwolensci"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E2",
+      "evidence": "solutionis pervexit summae sexaginta Florenorum sexaginta Polonicalis a Famato Laurentio Zaleski Cive Leopoliensi, quam sibi vigore obligationis die hodierna factae et in Acta inscriptae idem Laurentius Zaleski tenere"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "solutionis pervexit summae sexaginta Florenorum sexaginta Polonicalis a Famato Laurentio Zaleski Cive Leopoliensi, quam sibi vigore obligationis die hodierna factae et in Acta inscriptae idem Laurentius Zaleski tenere"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Laurentio Zaleski Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Laurentius Mieuscis ... Cives Ostrogiensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Anna coniuges Cives Ostrogiensis"
+    }
+  ]
+}

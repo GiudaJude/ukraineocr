@@ -1,0 +1,200 @@
+{
+  "document_id": "arc2/0074.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Wasil Wasiliowicz",
+      "mention_texts": [
+        "Wasil Wasiliowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "tenens Semor Semoris Armenianorum",
+        "Civis Leopoliensis",
+        "filius et successor legittimus",
+        "filius",
+        "successor"
+      ],
+      "justification": "Appears as the primary declarant acknowledging full satisfaction of a debt owed to his late father."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Philippus Wasilowicz",
+      "mention_texts": [
+        "Philipi Wasilowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Semoris Armenorum",
+        "Civis Leopoliensis",
+        "fato olim parentis",
+        "parentis eius"
+      ],
+      "justification": "Deceased father of Wasil Wasiliowicz, former senior of the Armenian community in Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0044: Lucas Wojnar",
+      "mention_texts": [
+        "Lucae Woynar",
+        "Lucas Woynarowic"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Famatus olim",
+        "Famatus",
+        "adhuc in vivis exis",
+        "coniuges",
+        "Cives Leopolienses",
+        "debitores"
+      ],
+      "justification": "Known entity; debtor named in the quietatio along with his wife Anna."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Woysnowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuges",
+        "Cives Leopolienses",
+        "debitores"
+      ],
+      "justification": "Known entity; wife of Lucas Wojnar (Anna Wojnarowa/Woysnowna), co-debtor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "685 Polish florins",
+      "mention_texts": [
+        "sexcentorum octoginta et quinque florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae numeri et monetae Polonicalis",
+        "summa",
+        "debiti certi et liquidi"
+      ],
+      "justification": "Sum of money paid in satisfaction of the recorded obligation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Monday after Reminiscere Sunday 1584",
+      "mention_texts": [
+        "feria secunda post Dominicam Reminisceve sex-tima Anno Domini 158 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous official contract/obligation being quitclaimed."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Wojnarowska House",
+      "mention_texts": [
+        "Woynarowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae dictae",
+        "sortibus domus lapideae"
+      ],
+      "justification": "Masonry house on whose shares the debt had originally been secured."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consules Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Officio praesenti"
+      ],
+      "justification": "Known entity; the council before which the transaction is acknowledged."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate"
+      ],
+      "justification": "Known entity; city where the council, citizens, and properties are located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in reference to former Kings of Poland (Regum Poloniae)."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Adam Masga",
+      "mention_texts": [
+        "Adam Maska",
+        "Adam Masga"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Figulus"
+      ],
+      "justification": "Potter appearing in the header and opening of entry 75."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Iwan Syszelnik",
+      "mention_texts": [
+        "Iwan Syszelnik"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the marginal note/heading for entry 75."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Wasil Wasiliowicz ... uti Famati olim Philipi Wasilowicz Semoris Armenorum Civis Leopoliensis filius et successor legittimus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Lucas Woynarowic adhuc in vivis exis et Honesta Anna Woysnowna coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Wasil Wasiliowicz ... Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Philipi Wasilowicz ... Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in sortibus domus lapideae dictae Woynarowska ... in ea Civitate"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "document_id": "arc2/0533.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Wilhelm Babinton",
+      "mention_texts": [
+        "Wilhelmum Babinton",
+        "Wilhelmo Babinton",
+        "Babinton",
+        "Wilhelmus Babinton"
+      ],
+      "descriptive_mentions": [
+        "Anglum Mercatorem",
+        "praefato",
+        "praedicto",
+        "praedicti",
+        "idem"
+      ],
+      "justification": "Identified as an English merchant mentioned in the debt settlement records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Wilhelm Allant",
+      "mention_texts": [
+        "Wilhelmus Allanth",
+        "Wilhelmum Allanth",
+        "Wilhelmo Allanth",
+        "Wilhelmo Allant",
+        "Wilhelmus Allant"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "eundem",
+        "liberumque et absolutum",
+        "dicto",
+        "ipse",
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Identified as a burgher of Lviv involved in the debt settlement and acknowledgment."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "quingentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "totum iam debitum quingentorum Florenorum"
+      ],
+      "justification": "Monetary sum of 500 florins settled between the parties."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "1591",
+      "mention_texts": [
+        "Sabbato post Dominicam Cantate proximo Anno Domini 1591"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry/inscription referenced in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Pogorz",
+      "mention_texts": [
+        "Pogorz"
+      ],
+      "descriptive_mentions": [
+        "Praedio suo haereditario in Pogorz Civitatis Leopoliensis sito",
+        "Praedium praefatum"
+      ],
+      "justification": "Location of the hereditary estate belonging to the recognizants near Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoli",
+        "Civis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned as the jurisdiction of the estate, place of legal action, and civic affiliation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wuchti",
+      "mention_texts": [
+        "Joannes Wuchti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the entry heading to whom Wilhelm Allant acknowledges an obligation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Famatus Wilhelmus Allant Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Praedio suo haereditario in Pogorz Civitatis Leopoliensis sito"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E7",
+      "evidence": "Joannes Wuchti Wilhelmo Allant Comparens personaliter Famatus Wilhelmus Allant Civis Leopoliensis palam publice benevoleque recognovit se debere ac teneri"
+    }
+  ]
+}

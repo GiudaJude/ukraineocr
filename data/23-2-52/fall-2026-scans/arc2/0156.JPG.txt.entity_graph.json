@@ -1,0 +1,232 @@
+{
+  "document_id": "arc2/0156.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "huius Ciuitatis"
+      ],
+      "justification": "Identified through references to the city and suburban designations."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "Officii"
+      ],
+      "justification": "The municipal authority and its official record books referred to in the legal text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Piorowska Property",
+      "mention_texts": [
+        "Piorowski",
+        "Piorowsski",
+        "Piorowski"
+      ],
+      "descriptive_mentions": [
+        "Sortis",
+        "Sorti",
+        "Sortem"
+      ],
+      "justification": "Named suburban plot/sort that is the subject of the debt and cession."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Church of Saint Lawrence",
+      "mention_texts": [
+        "Sancti Laurentii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Topographical landmark beyond which the property is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Osmikowska Property",
+      "mention_texts": [
+        "Osmikowskie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjacent property mentioned in the boundary description."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Laskawis Property",
+      "mention_texts": [
+        "Laskawis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjacent property mentioned in the boundary description."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "40 Polish florins",
+      "mention_texts": [
+        "florenorum quadraginta Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum involved in the prior inscription from 1591."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Thursday after the Feast of Saint Agnes 1591",
+      "mention_texts": [
+        "feria quinta post festum Sanctae Agnetis proxima Anno Domini 1591 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Specific date reference to an earlier court act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Madej",
+      "mention_texts": [
+        "Christophoro Madej",
+        "Christophorus Madej",
+        "Christophorus Madej"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopoliensi",
+        "eiusdem Sortis exhaeredi",
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburbanite of Lviv acquiring rights to the property and acknowledging the debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Hubczyk",
+      "mention_texts": [
+        "Stephanus Hubczyk",
+        "Stephano Hubczyk",
+        "Stephano Hubczyk",
+        "Stephanus"
+      ],
+      "descriptive_mentions": [
+        "Prouido",
+        "Tabernatori de Gomrossouicze",
+        "subdito Illustrissimi Domini Archiepiscopi Leopoliensis",
+        "praefato",
+        "Creditor"
+      ],
+      "justification": "Innkeeper of Gomrossowicze and creditor in the transaction."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Gomrossowicze",
+      "mention_texts": [
+        "Gomrossouicze"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where Stephanus Hubczyk serves as innkeeper."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0164: Archbishop of Lviv",
+      "mention_texts": [
+        "Archiepiscopi Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Illustrissimi Domini"
+      ],
+      "justification": "Feudal lord of Stephanus Hubczyk."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "florenos decem",
+        "decem florenorum",
+        "decem florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis",
+        "summam",
+        "principali summa"
+      ],
+      "justification": "Principal debt amount acknowledged in the document."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint John the Baptist",
+      "mention_texts": [
+        "festo Sancti Joannis Baptistae"
+      ],
+      "descriptive_mentions": [
+        "in Anno currenti proximo venturo"
+      ],
+      "justification": "Due date for the payment of the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honesto Christophoro Madej Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stephano Hubczyk Tabernatori de Gomrossouicze"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "subject_of",
+      "tail_entity_id": "E12",
+      "evidence": "subdito Illustrissimi Domini Archiepiscopi Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "owes_to",
+      "tail_entity_id": "E10",
+      "evidence": "Christophorus Madej Sub urbanus Leopoliensis palam publicè benevolèque recognovit, se debere et teneri ceri veri iusti liquidique debiti ... Stephano Hubczyk"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Piorowski dictam in suburbio huius Ciuitatis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E4",
+      "evidence": "ultra Sancti Laurentii"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E5",
+      "evidence": "penes Osmikowskie"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "adjacent_to",
+      "tail_entity_id": "E6",
+      "evidence": "penes Osmikowskie et Laskawis"
+    }
+  ]
+}

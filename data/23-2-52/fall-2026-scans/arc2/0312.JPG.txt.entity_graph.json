@@ -1,0 +1,125 @@
+{
+  "document_id": "arc2/0312.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Adam Askerman",
+      "mention_texts": [
+        "Adamus",
+        "Skerman",
+        "Adam Askerman"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Lviv citizen who formally acknowledges a loan debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Pierzonowski",
+      "mention_texts": [
+        "Martinus",
+        "Piekrzowic",
+        "Martino Pierzonowski"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "sartori",
+        "Suburbano Leopolitano",
+        "Creditori"
+      ],
+      "justification": "Suburban tailor who is the creditor of the loan."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Florenos sexaginta pecuniae et numeri Polonici",
+        "Florenos sexaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 60 Polish florins borrowed by Adam Askerman."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "90 florins",
+      "mention_texts": [
+        "Nonaginta",
+        "Nonaginta Florenos"
+      ],
+      "descriptive_mentions": [
+        "summa praedicta"
+      ],
+      "justification": "Sum of 90 florins mentioned in the security clause."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolitano",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the debt was registered and where the parties reside."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festo Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date set for repayment of the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta ipso die Sanctae Luciae Virginis Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry: Thursday, the feast day of Saint Lucy, 1595."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Żelaznowska House",
+      "mention_texts": [
+        "Gelaznowska"
+      ],
+      "descriptive_mentions": [
+        "Lapidea"
+      ],
+      "justification": "Tenement house referenced in the rubric heading at the bottom of the page."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Adam Askerman Civis Leopoliensis palam publice benevoleque recognouit se debere et teneri veri certj, veri, iusti, liquidique debiti ex causa mutui contracti Florenos sexaginta pecuniae et numeri Polonici Honesto Martino Pierzonowski"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Adam Askerman Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Martino Pierzonowski sartori Suburbano Leopolitano"
+    }
+  ]
+}

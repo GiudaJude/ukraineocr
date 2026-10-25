@@ -1,0 +1,178 @@
+{
+  "document_id": "arc2/0498.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document references the city and suburban citizens of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakow"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis Suburbio Lyczakow dicto"
+      ],
+      "justification": "The house being sold is situated in the Łyczakow suburb of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Olchotzki",
+      "mention_texts": [
+        "Sebastiano Olchotzki"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus Suburbanis Leopoliensibus",
+        "emptoribus"
+      ],
+      "justification": "Identified as a suburban resident of Lviv purchasing property with his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Olchotzka",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus Suburbanis Leopoliensibus",
+        "emptoribus"
+      ],
+      "justification": "Identified as the wife of Sebastianus Olchotzki, co-purchaser of the house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court where the resignation is to be celebrated before the senior scabinus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "lega nostra Consulari"
+      ],
+      "justification": "Reference to the consular body/council before whom the appearance and appointment of proxy took place."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Przestrzelski",
+      "mention_texts": [
+        "Gaspar Przestrzelski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Dominus"
+      ],
+      "justification": "Nobleman who appears and issues a power of attorney."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szembek",
+      "mention_texts": [
+        "Joanni Jarebucz",
+        "Joannem Szembek",
+        "Joanni Szembek"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "missum, verum legitimum indubitatumque plenipotentem et mandatarium",
+        "Plenipotenti suo"
+      ],
+      "justification": "The designated plenipotentiary and proxy appointed to collect debts."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Zwików",
+      "mention_texts": [
+        "Zwikow"
+      ],
+      "descriptive_mentions": [
+        "bona",
+        "villis"
+      ],
+      "justification": "Estate/village mentioned in connection with lease and debt collection."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Odnów",
+      "mention_texts": [
+        "Odnow"
+      ],
+      "descriptive_mentions": [
+        "bona",
+        "villis"
+      ],
+      "justification": "Estate/village held under lease."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Korniakt",
+      "mention_texts": [
+        "Constantini Cormactio"
+      ],
+      "descriptive_mentions": [
+        "Generosi"
+      ],
+      "justification": "Hereditary owner of the estates and villages of Zwików and Odnów."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Sebastiano Olchotzki et Catherina Coniugibus Suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Sebastiano Olchotzki et Catherina Coniugibus Suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "part_of",
+      "tail_entity_id": "E1",
+      "evidence": "in eiusdem Civitatis Suburbio Lyczakow dicto"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "legal_representative",
+      "tail_entity_id": "E8",
+      "evidence": "constituit et solenniter ordinavit missum, verum legitimum indubitatumque plenipotentem et mandatarium Nobilem Joannem Szembek"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "owner_of",
+      "tail_entity_id": "E9",
+      "evidence": "tam in eisdem bonis et villis Generosi Constantini Cormactio haereditarijs"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "owner_of",
+      "tail_entity_id": "E10",
+      "evidence": "tam in eisdem bonis et villis Generosi Constantini Cormactio haereditarijs"
+    }
+  ]
+}

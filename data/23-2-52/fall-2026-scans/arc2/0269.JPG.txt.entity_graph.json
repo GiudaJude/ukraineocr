@@ -1,0 +1,199 @@
+{
+  "document_id": "arc2/0269.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Roszklanek",
+      "mention_texts": [
+        "Joannes\nRoszklanek",
+        "Joannes Roszklanek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges Suburbani Leopoliense"
+      ],
+      "justification": "Named suburban resident of Lviv who sells a house and garden with his wife Regina."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regi-\nna"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges Suburbani Leopoliense"
+      ],
+      "justification": "Wife of Joannes Roszklanek, co-vendor of the suburban property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis\nhuius"
+      ],
+      "justification": "City whose suburb is referenced in both property transactions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Reczlowa Wola",
+      "mention_texts": [
+        "Reczlowa wolia"
+      ],
+      "descriptive_mentions": [
+        "eisdem Civitatis Subur-\nbio"
+      ],
+      "justification": "Suburban area/locality of Lviv where the first property is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czerny",
+      "mention_texts": [
+        "Joanni Czerny"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of neighboring property on one side of Roszklanek's property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szic",
+      "mention_texts": [
+        "Jacobum\nSzic"
+      ],
+      "descriptive_mentions": [
+        "Hortulanus",
+        "Szewc"
+      ],
+      "justification": "Neighbor on the other side of Roszklanek's property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szawic",
+      "mention_texts": [
+        "Joannes\nSzkawic",
+        "Joanni Szawic",
+        "Joannes\nSzawic",
+        "Joannes Szawic"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus",
+        "emptorum",
+        "Honesti",
+        "coniuges Suburbani Leopoliense"
+      ],
+      "justification": "Buyer in the first contract and subsequent vendor in the second transaction."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margarethae",
+        "Margare-\ntha"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus",
+        "Honesti",
+        "coniuges Suburbani Leopoliense"
+      ],
+      "justification": "Wife of Joannes Szawic, co-buyer and co-vendor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "65 Polish florins",
+      "mention_texts": [
+        "sexaginta quinque Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid by Joannes Szawic and Margaretha."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court mentioned in the constitution clause."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus\nDucer",
+        "Stanislai Ducerii",
+        "Stanislao\nDoctori"
+      ],
+      "descriptive_mentions": [
+        "Spectabiles Dni",
+        "Medicinae Doctor",
+        "Collegae\nnostri Consularis",
+        "praefato",
+        "Collegae nostro Consulari"
+      ],
+      "justification": "Lviv city councillor and doctor of medicine who purchases property from Joannes Szawic and Margaretha."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Fictessowska Street",
+      "mention_texts": [
+        "platea Fictessowska"
+      ],
+      "descriptive_mentions": [
+        "suburbio Civitatis\nhuius"
+      ],
+      "justification": "Suburban street in Lviv where the second property is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Martinus Stros",
+      "mention_texts": [
+        "Martinum Stros"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor of the property sold on Fictessowska street."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "67 Polish florins",
+      "mention_texts": [
+        "sexa-\nginta septem Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price paid by Stanislaus Ducer/Doctor."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Joannes Roszklanek et Regina coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honestis Joanni Szawic et Margarethae coniugibus"
+    }
+  ]
+}

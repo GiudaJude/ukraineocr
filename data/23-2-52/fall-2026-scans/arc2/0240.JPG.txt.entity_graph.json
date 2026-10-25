@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0240.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szaławatowicz",
+      "mention_texts": [
+        "Albertus Szaławat",
+        "Albertus Szaławatowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Braxiator",
+        "coniuges",
+        "vir ipse",
+        "maritum eundem tutore suo legitimo"
+      ],
+      "justification": "Appears as the husband and brewer selling inherited shares in a house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorothea",
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "uxor"
+      ],
+      "justification": "Wife of Albertus Szaławatowicz, resigning her paternal and maternal inheritance share."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolenses",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "Civitatis"
+      ],
+      "justification": "City referenced in suburban status, location, and the office of the councillor/scabinus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio eiusdem Civitatis Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "Suburb of Lviv where the house is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zangziało",
+      "mention_texts": [
+        "Joannis olim Zangziało"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Braxiatoris"
+      ],
+      "justification": "Deceased brewer and former owner of the house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0141: Garbarska Street",
+      "mention_texts": [
+        "Platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the property is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Martinus Delmota",
+      "mention_texts": [
+        "Martini olim Delmota"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Pistoris"
+      ],
+      "justification": "Deceased baker whose property borders the house on one side."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Saturday before Rogation Sunday",
+      "mention_texts": [
+        "sabbato ante Dominicam Rogationum proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous division of the house registered in the acts."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council records in which the transaction is inscribed."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wunia",
+      "mention_texts": [
+        "Joannes Wunia",
+        "Joanni Lwigniski"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Buyer acquiring the share in the house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Wife of Joannes Wunia/Lwigniski, co-buyer of the share."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "64 florins",
+      "mention_texts": [
+        "sexaginta quatuor Florenos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae"
+      ],
+      "justification": "Sum paid for the share in the house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Mathias Xiezkoski",
+      "mention_texts": [
+        "Mathia Xiezkoski"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Husband of Catherina from whom another third share had been acquired."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Catherina",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "parens",
+        "coniugibus"
+      ],
+      "justification": "Mother/parent of the parties, married to Mathias Xiezkoski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Albertus Szaławatowicz Braxiator et Dorothea coniuges"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joanni Lwigniski et Annae coniugibus"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "a Mathia Xiezkoski et a Catherina quae illorum erat parens coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Suburbio eiusdem Civitatis Haliciensi dicto in Platea Figulorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in Suburbio eiusdem Civitatis Haliciensi dicto"
+    }
+  ]
+}

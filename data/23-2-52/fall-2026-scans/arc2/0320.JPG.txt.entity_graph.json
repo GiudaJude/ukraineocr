@@ -1,0 +1,364 @@
+{
+  "document_id": "arc2/0320.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Cirinus Xeuxidi Domestico",
+      "mention_texts": [
+        "Cirinus alias Nicolaus Xeuxidi Domestico"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honorati",
+        "fratres patrueles Graeci de insula Chio"
+      ],
+      "justification": "Greek nobleman from the island of Chios appearing before the Lviv council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Domestico Xeuxidi",
+      "mention_texts": [
+        "Joannes Domestico Xeuxidi"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Honorati",
+        "fratres patrueles Graeci de insula Chio"
+      ],
+      "justification": "Cousin of Cirinus, appearing in his own name and as proxy for his brother Jacobus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Domestici Xeuxidis",
+      "mention_texts": [
+        "Jacobi Domestici Xeuxidis"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "fratris sui germani",
+        "absentis"
+      ],
+      "justification": "Absent brother of Joannes Domestico Xeuxidi represented by proxy."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kestewcol",
+      "mention_texts": [
+        "Joannem Kestewcol"
+      ],
+      "descriptive_mentions": [
+        "Honorabilem",
+        "Procuratorem suum"
+      ],
+      "justification": "Procurator representing Cirinus and Joannes before the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0053: Jacobus Szanc",
+      "mention_texts": [
+        "Jacobi Szhano"
+      ],
+      "descriptive_mentions": [
+        "Famuli Civilis iurati"
+      ],
+      "justification": "Sworn city servant who cited the parties to the court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Domestico Xeuxidi",
+      "mention_texts": [
+        "Nicolao Domestico Xeuxidi",
+        "Nicolai Domestici"
+      ],
+      "descriptive_mentions": [
+        "Generoso olim",
+        "qui erat Magni Hazonis Palatini Moldaviae Aulicus in Valachia non ita pridem interempto",
+        "praefati"
+      ],
+      "justification": "Deceased relative of the claimants, courtier to Aaron the Voivode of Moldavia, killed in Wallachia."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Aaron Voivode of Moldavia",
+      "mention_texts": [
+        "Hazonis"
+      ],
+      "descriptive_mentions": [
+        "Magni",
+        "Palatini Moldaviae"
+      ],
+      "justification": "Voivode of Moldavia whose courtier was Nicolaus Domestico Xeuxidi."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mansel",
+      "mention_texts": [
+        "Manselis"
+      ],
+      "descriptive_mentions": [
+        "olim Defuncti Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate or succession is referenced in relation to property arrest."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Antonius Constrinus",
+      "mention_texts": [
+        "Antonius Constrinus"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "de Galata ad Constantinopolim ex Catholicis Civis Leopoliensis",
+        "testes infrascriptos"
+      ],
+      "justification": "Greek Catholic citizen of Lviv from Galata testifying regarding kinship."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Georgius Domestico Xeuxidi",
+      "mention_texts": [
+        "Georgium",
+        "Georgius"
+      ],
+      "descriptive_mentions": [
+        "tres germanos fratres fuisse Domesticos Xeuxi di",
+        "vita functos",
+        "primus"
+      ],
+      "justification": "Deceased brother testified about by Antonius Constrinus."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Pantaleon Domestico Xeuxidi",
+      "mention_texts": [
+        "Pantaleonem"
+      ],
+      "descriptive_mentions": [
+        "tres germanos fratres fuisse Domesticos Xeuxi di",
+        "vita functos"
+      ],
+      "justification": "Deceased brother testified about by Antonius Constrinus."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Domestico Xeuxidi",
+      "mention_texts": [
+        "Constantinum"
+      ],
+      "descriptive_mentions": [
+        "tres germanos fratres fuisse Domesticos Xeuxi di",
+        "vita functos"
+      ],
+      "justification": "Deceased brother testified about by Antonius Constrinus."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Theodora",
+      "mention_texts": [
+        "Theodora"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mother or wife named in connection with Georgius in the witness deposition."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens",
+        "officio nostro"
+      ],
+      "descriptive_mentions": [
+        "nobis"
+      ],
+      "justification": "City council of Lviv receiving petitions and examining witnesses."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Chios",
+      "mention_texts": [
+        "Chio"
+      ],
+      "descriptive_mentions": [
+        "insula"
+      ],
+      "justification": "Island of origin of the claimants."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Walachiae",
+        "Valachia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principality of Wallachia mentioned as location of customs officials and death of Nicolaus."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "Moldavia",
+      "mention_texts": [
+        "Moldaviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principality of Moldavia."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "Târgu Neamț",
+      "mention_texts": [
+        "Tartzii"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City in Moldavia where the proxy was issued."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "location",
+      "canonical_name": "Galata",
+      "mention_texts": [
+        "Galata"
+      ],
+      "descriptive_mentions": [],
+      "justification": "District near Constantinople from which Antonius Constrinus originates."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "location",
+      "canonical_name": "Constantinople",
+      "mention_texts": [
+        "Constantinopolim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Constantinople."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "Anno eodem currenti 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1594 indicated in the text."
+    },
+    {
+      "entity_id": "E23",
+      "entity_type": "date",
+      "canonical_name": "24 May 1594",
+      "mention_texts": [
+        "24. die Maij Anno eodem currenti 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issue of the power of attorney."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is_cousin_of",
+      "tail_entity_id": "E2",
+      "evidence": "Cirinus alias Nicolaus Xeuxidi Domestico, et Joannes Domestico Xeuxidi fratres patrueles"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_brother_of",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobi Domestici Xeuxidis fratris sui germani"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "originates_from",
+      "tail_entity_id": "E15",
+      "evidence": "Graeci de insula Chio"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "originates_from",
+      "tail_entity_id": "E15",
+      "evidence": "Graeci de insula Chio"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "denominationem fecerunt per Honorabilem Joannem Kestewcol Procuratorem suum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "denominationem fecerunt per Honorabilem Joannem Kestewcol Procuratorem suum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_officer_of",
+      "tail_entity_id": "E14",
+      "evidence": "iuxta relationem Famuli Civilis iurati Jacobi Szhano ad Officium praesens"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_courtier_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nicolao Domestico Xeuxidi qui erat Magni Hazonis Palatini Moldaviae Aulicus"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "originates_from",
+      "tail_entity_id": "E20",
+      "evidence": "Antonius Constrinus de Galata"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E19",
+      "evidence": "Antonius Constrinus de Galata ad Constantinopolim ex Catholicis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_brother_of",
+      "tail_entity_id": "E11",
+      "evidence": "Georgium Pantaleonem et Constantinum tres germanos fratres fuisse"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_brother_of",
+      "tail_entity_id": "E12",
+      "evidence": "Georgium Pantaleonem et Constantinum tres germanos fratres fuisse"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "is_located_in",
+      "tail_entity_id": "E17",
+      "evidence": "in Civitate Tartzii Moldaviae"
+    }
+  ]
+}

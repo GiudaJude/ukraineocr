@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/0461.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "1500 florins",
+      "mention_texts": [
+        "Mille quingentorum florenorum",
+        "Mille quingentorum Florum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Sum of money that was fully satisfied and received between the parties."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schincer",
+      "mention_texts": [
+        "Sebaldus Schincer",
+        "Sebaldus",
+        "Sebaldo Schincer"
+      ],
+      "descriptive_mentions": [
+        "fassio- / tores",
+        "Famati",
+        "Famatus",
+        "fassor",
+        "idem",
+        "Famato"
+      ],
+      "justification": "Party acknowledging receipt of 1500 florins and releasing Paulus Kaporowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kaporowicz",
+      "mention_texts": [
+        "Paulus Kaporowicz",
+        "Paulum Kaporowicz"
+      ],
+      "descriptive_mentions": [
+        "fassio- / tores",
+        "Famati",
+        "Famatus",
+        "Famatum"
+      ],
+      "justification": "Party who paid and is acquitted from all claims."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "Anno a Christo nato 1592 feria tertia ipso die Sancti Aegidij Confessoris",
+        "anno 1592 feria tertia ipso die Sancti Aegidij Confessoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original contract/inscription (Tuesday, 1 September 1592)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "Szczebrzeszyn Advocatial Office",
+      "mention_texts": [
+        "Domini Advocati et Scabinorum Civitatis Isczeczinien"
+      ],
+      "descriptive_mentions": [
+        "Actis"
+      ],
+      "justification": "The court of the advocatus and scabini of Szczebrzeszyn whose records are cited."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Szczebrzeszyn",
+      "mention_texts": [
+        "Isczeczinien"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The town in whose records the agreement was originally registered."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schenbegk",
+      "mention_texts": [
+        "Stanislaus Schenbegk"
+      ],
+      "descriptive_mentions": [
+        "fatus"
+      ],
+      "justification": "Individual appearing before the court and requesting a deferral for a procurator."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officij"
+      ],
+      "justification": "The council/office issuing the decree granting a deferral."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the present act was enacted."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Feria Quarta post Festum Sancti Decollationis Sancti Joannis Baptistae Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the current court session."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Andreas Damius",
+      "mention_texts": [
+        "Andrea Damio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Subject of the court's decree ('Decretum pro Andrea Damio')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "releases",
+      "tail_entity_id": "E3",
+      "evidence": "idem Famatus Sebaldus fassor Famatus Paulum Kaporowicz quietat absolvit et mittit liberum quittem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "Domini Advocati et Scabinorum Civitatis Isczeczinien"
+    }
+  ]
+}

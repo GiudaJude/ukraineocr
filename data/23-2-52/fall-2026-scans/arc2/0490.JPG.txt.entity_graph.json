@@ -1,0 +1,134 @@
+{
+  "document_id": "arc2/0490.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris praesentibus"
+      ],
+      "descriptive_mentions": [
+        "Libros iudiciorum Civitatis"
+      ],
+      "justification": "City council and its official records referenced in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Thomas Albinus",
+      "mention_texts": [
+        "Jonas Albinus",
+        "Tomae Jarzynka",
+        "Thomas Albinus"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "partes comparentes",
+        "sua",
+        "eundem"
+      ],
+      "justification": "Burgher of Lviv entering a formal protest regarding expenses and debts incurred for the Jarzynka estate."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem",
+        "Civitatis",
+        "Civitati huic"
+      ],
+      "justification": "City of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jarzynka",
+      "mention_texts": [
+        "Stanislai",
+        "Jarzynka"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Lanij",
+        "Famatum olim",
+        "dum in vivis esset"
+      ],
+      "justification": "Deceased butcher whose children's inheritance and estate debts are at issue."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martini Dortendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati eiusdem Civitatis",
+        "legitimorum ac naturalium Tutorum",
+        "praefatorum Honoratorum",
+        "praedicti Tutores"
+      ],
+      "justification": "Lviv juror serving as legal guardian of the Jarzynka orphans."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Szomatari",
+      "mention_texts": [
+        "Hieronymi Szomatari"
+      ],
+      "descriptive_mentions": [
+        "legitimorum ac naturalium Tutorum",
+        "praedicti Tutores"
+      ],
+      "justification": "Guardian of the minor Jarzynka orphans."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "carissima sua Coniugis",
+        "eorundem pupillorum matris",
+        "coniugem"
+      ],
+      "justification": "Mother of the pupils, late wife of Stanislaus Jarzynka, and late wife of Thomas Albinus."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Thomas Albinus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "post decessum ex hac luce carissima sua Coniugis Regina"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "debita non levia tam per Famatum olim Jarzynka dum in vivis esset quam per eundem suamque coniugem contracta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "held_office_in",
+      "tail_entity_id": "E3",
+      "evidence": "Martini Dortendorff Scabini iurati eiusdem Civitatis"
+    }
+  ]
+}

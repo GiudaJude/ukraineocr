@@ -1,0 +1,116 @@
+{
+  "document_id": "arc2/0386.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliem"
+      ],
+      "descriptive_mentions": [
+        "hic"
+      ],
+      "justification": "City where the council acts were recorded and where Lucas returned to practice his trade."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia ante Festum Sanctae Margaretae Virginis et Martyris proxima Anno quo supra",
+        "Anno quo supra",
+        "feria secunda post Festum Divisionis Apostolorum proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates of the court sessions recorded in 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actis nostris",
+        "Officii nostri"
+      ],
+      "justification": "The municipal council office approving and entering the decree into its records."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Catholic Tanners' Guild",
+      "mention_texts": [
+        "Cerdones Catholicos",
+        "Contubernij Cerdonum ritus Catholici",
+        "contubernium Cerdonum"
+      ],
+      "descriptive_mentions": [
+        "idem contubernium",
+        "contubernij sui",
+        "contubernium",
+        "contubernij",
+        "contubernio"
+      ],
+      "justification": "Guild of Catholic tanners in Lviv in dispute with Lucas Hankowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lucas Hankowicz",
+      "mention_texts": [
+        "Lucam",
+        "Lucam Hankowicz",
+        "Lucae"
+      ],
+      "descriptive_mentions": [
+        "Provisum",
+        "Cerdonem Ruthenum",
+        "Actori",
+        "Actoris",
+        "Actor"
+      ],
+      "justification": "Ruthenian tanner accused of bigamy and suspended from the guild."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Margareta",
+      "mention_texts": [
+        "Margareta"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "uxorem",
+        "priore"
+      ],
+      "justification": "First lawful wife of Lucas Hankowicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Examysioliam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Przemyśl (written/OCR Praemysliam as Examysioliam), where Lucas fled and took a second wife."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "accepta in matrimonium Honesta Margareta contubernij sui"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "a contubernio per se est exclusus et ab artificio suspensus"
+    }
+  ]
+}

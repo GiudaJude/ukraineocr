@@ -1,0 +1,183 @@
+{
+  "document_id": "arc2/0228.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kosmowski",
+      "mention_texts": [
+        "Joanni Kosmowski"
+      ],
+      "descriptive_mentions": [
+        "neroso"
+      ],
+      "justification": "Creditor or recipient of recorded sum in the first entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "1000 florins",
+      "mention_texts": [
+        "mille florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum mentioned in the first entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0006: Andreas Szambor",
+      "mention_texts": [
+        "Andreas",
+        "D. Andreas Sambor",
+        "Andreas Sambrowski Sambor"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Spectabilis Civis",
+        "Collega noster Consularis",
+        "vendens",
+        "Spectabilis venditor"
+      ],
+      "justification": "Lviv city councillor who sells his house in the Halych suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis istius",
+        "Leopolitano",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose council records this transaction and where the suburb is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Halickie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv suburb where the property sold is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Pottery Street",
+      "mention_texts": [
+        "platea Figulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the property is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Klimkowska",
+      "mention_texts": [
+        "Klimkowskae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor on one side of the sold property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Petrus Fastinianus",
+      "mention_texts": [
+        "Petrum Fastinianum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor named in the property boundary description."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Fastianus",
+      "mention_texts": [
+        "Andreas Szyrnanus",
+        "Andreae Fastiano"
+      ],
+      "descriptive_mentions": [
+        "sartori Suburbano Leopolitano",
+        "emptore",
+        "emptori"
+      ],
+      "justification": "Buyer of the house, a tailor from the Lviv suburb."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "265 Polish florins",
+      "mention_texts": [
+        "ducentorum sexaginta quinque florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price of the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum Civitatis Leopoliensis",
+        "suum plenum legittimum indubitatumque Plenipotentem et mandatarium"
+      ],
+      "justification": "Lviv bench magistrate appointed as plenipotentiary by Andreas Szambor."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the resignation of the property is to be made."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E9",
+      "evidence": "vendidisse praesentibus inscriptionis vigore vendere domum suam ... eidem emptori eiusque successoribus ... eidem Andreae Fastiano emptori"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E11",
+      "evidence": "idem Spectabilis venditor constituit et solemniter ordinauit in suum plenum legittimum indubitatumque Plenipotentem et mandatarium Honoratum Dominum Simonem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in Civitatis istius Suburbio Halickie nuncupato in platea Figulorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "Civitatis istius Suburbio Halickie"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "officer_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simonem Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "appears_before",
+      "tail_entity_id": "E12",
+      "evidence": "Simonem Scabinum Civitatis Leopoliensis in Judicio Exposito Bannito"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "document_id": "arc2/0262.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis eiusdem"
+      ],
+      "justification": "City referenced throughout the legal proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciae"
+      ],
+      "descriptive_mentions": [
+        "suburbiis Haliciae dictis"
+      ],
+      "justification": "Suburb of Lwów where the property is located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Szczanców Street",
+      "mention_texts": [
+        "Platea Szczancow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb mentioned in the property dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council office before which the prior act was entered."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "Feria secunda post Dominicam Laetare proxima Anno Domini 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Przesdzietki",
+        "Przesdietki",
+        "Casparis Przesdcietki"
+      ],
+      "descriptive_mentions": [
+        "praefato",
+        "eidem"
+      ],
+      "justification": "Creditor whose estate received the intromission."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Magnietka Przedzucka",
+      "mention_texts": [
+        "Magnietki"
+      ],
+      "descriptive_mentions": [
+        "relicti Casparis Przesdcietki"
+      ],
+      "justification": "Relict widow of Caspar Przedzucki to whose hands possession is granted."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "złoty",
+      "mention_texts": [
+        "florenorum",
+        "Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Currency mentioned in the debt amount."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Lewicki",
+      "mention_texts": [
+        "Stanislai Lewicki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Name given in the title heading for the power of attorney."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Martinus Szatkowski",
+      "mention_texts": [
+        "Martinus Szatkowski"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "officium tenens Advocati Ordinarii"
+      ],
+      "justification": "Acting deputy for the ordinary advocate who went to take Sophia's deposition."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Fideles ex Officio"
+      ],
+      "justification": "Juror of the Lviv court deputed to witness the act."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislaus"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Fideles ex Officio"
+      ],
+      "justification": "Juror of the Lviv court accompanying Joannes Sokol."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0061: DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "sabbato pridie festi Solemnis Pentecostes proxime praeterito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date on which the court officials visited Sophia."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislai Anserini",
+        "Stanislao Anserino"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Domini",
+        "Civitatis eiusdem Consulis",
+        "dicto Domino",
+        "ipsi Domino",
+        "donatario"
+      ],
+      "justification": "Lviv consul at whose instance the official descent to Sophia was conducted."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Sophia Hyacelowa",
+      "mention_texts": [
+        "Sophiam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Famati Stanislai olim Hyacel Civis Leopoliensis viduam relictam",
+        "valetudinariam",
+        "aegrotam",
+        "aegram corpore mente tamen sanam"
+      ],
+      "justification": "Widow granting power of attorney from her sickbed."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Hyacel",
+      "mention_texts": [
+        "Stanislai",
+        "Hyacel"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Sophia."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitalis Sancti Spiritus"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "Location/suburb of Sophia's dwelling."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Petrus Samboriensis",
+      "mention_texts": [
+        "Petrum Samboriensi"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "loco tutoris assumptum"
+      ],
+      "justification": "Citizen acting as guardian for Sophia in her legal declaration."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Simonem Leopolitanum",
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Spectabilem Dominum",
+        "Olim",
+        "Consulem",
+        "Praefatum Dominum"
+      ],
+      "justification": "Deceased consul who initiated judicial action against Stanislaus Anserinus."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "location",
+      "canonical_name": "Śnieżnowska House",
+      "mention_texts": [
+        "Snieznowska"
+      ],
+      "descriptive_mentions": [
+        "certae sortis domus lapideae",
+        "dictae"
+      ],
+      "justification": "Stone house involved in the lawsuit."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łukaszewicz",
+      "mention_texts": [
+        "Joanne Lukaszewicz"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Person from whom Sophia acquired the house."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "person",
+      "canonical_name": "PER-0039: Christophorus Lewicki",
+      "mention_texts": [
+        "Christophorum Lewicki"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Civitatis eiusdem incolam",
+        "verum Plenipotentem"
+      ],
+      "justification": "Appointed plenipotentiary representing Sophia."
+    },
+    {
+      "entity_id": "E23",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Civili"
+      ],
+      "descriptive_mentions": [
+        "Foro"
+      ],
+      "justification": "Civil court before which the plenipotentiary is empowered to act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "suburbiis Haliciae dictis in Platea Szczancow existentes"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "suis Leopoliensibus suburbiis Haliciae dictis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "relicti Casparis Przesdcietki"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Stanislai olim Hyacel Civis Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislai Anserini Civitatis eiusdem Consulis"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "guardian_of",
+      "tail_entity_id": "E15",
+      "evidence": "per Famatum Petrum Samboriensi Civem Leopoliensem loco tutoris assumptum"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Olim Simonem Leopolitanum Consulem"
+    },
+    {
+      "head_entity_id": "E22",
+      "relation": "representative_of",
+      "tail_entity_id": "E15",
+      "evidence": "verum Plenipotentem constituit et nominavit Honestum Christophorum Lewicki"
+    }
+  ]
+}

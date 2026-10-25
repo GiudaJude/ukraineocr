@@ -1,0 +1,100 @@
+{
+  "document_id": "arc2/0207.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consulatus Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii praesentis",
+        "Officium",
+        "Officium praefatum",
+        "Officii"
+      ],
+      "justification": "City council of Lviv issuing the court decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the council title and citizenship description."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas Grzeszchowicz",
+      "mention_texts": [
+        "Toma Grzeszchuw",
+        "Tomam Grzeszchowicz",
+        "Grzeszchowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Provisore- curam Leprosi",
+        "praefati",
+        "citatus",
+        "citati"
+      ],
+      "justification": "Party in the suit concerning the brewhouse and recipient of the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sophia Porszycka",
+      "mention_texts": [
+        "Sophiam"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "vidu- am relictam",
+        "Actrix"
+      ],
+      "justification": "Plaintiff in the lawsuit and widow of the late Porszyczka."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Porszyczka",
+      "mention_texts": [
+        "Porszyczki"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, former husband of Sophia."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Of- Honoratorum Dni Advocati et Fidelium Juris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial court of Lviv to which the matter was referred for verification."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "inter Honestam Sophiam Famati olim Porszyczki Tutores Civis Leopoliensis vidu- am relictam"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Porszyczki Tutores Civis Leopoliensis"
+    }
+  ]
+}

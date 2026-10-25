@@ -1,0 +1,226 @@
+{
+  "document_id": "arc2/0501.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Wolfowicz",
+      "mention_texts": [
+        "Petro",
+        "Petrus Wolszowicz"
+      ],
+      "descriptive_mentions": [
+        "Pellione",
+        "coniugibus",
+        "Pellio",
+        "Coniuges",
+        "ijdem Coniuges",
+        "eisdem Coniugibus",
+        "eosdem",
+        "ambo praefati Coniuges",
+        "maritus"
+      ],
+      "justification": "Furrier accused together with his wife Sophia Stermanka, also referred to as 'maritus'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sophia Stermanka",
+      "mention_texts": [
+        "Sophia Stermanka"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Coniuges",
+        "ijdem Coniuges",
+        "eisdem Coniugibus",
+        "eosdem",
+        "ambo praefati Coniuges",
+        "uxor"
+      ],
+      "justification": "Wife of Petrus Wolszowicz, accused of discord in marriage."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Officium praesens"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/court summoning the spouses and setting the penalty."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitate",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "hac Civitate"
+      ],
+      "justification": "The city of Lviv referenced directly ('hac Civitate') and in the descriptor 'Leopolienses'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Stanyszewic the Younger",
+      "mention_texts": [
+        "Joannem Stanyszesowem"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "minorem",
+        "Pellionem",
+        "fideiussores"
+      ],
+      "justification": "Furrier acting as guarantor for Petrus Wolszowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "fideiussores"
+      ],
+      "justification": "Guarantor for Petrus Wolszowicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0016: Bartholomeus Strachet",
+      "mention_texts": [
+        "Bartholomaeum Strach"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "fideiussores"
+      ],
+      "justification": "Guarantor for Sophia Stermanka."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias Sonicki",
+      "mention_texts": [
+        "Mathiam Sonicki"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Pellionem",
+        "fideiussores"
+      ],
+      "justification": "Furrier acting as guarantor for Sophia Stermanka."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Garczyca House",
+      "mention_texts": [
+        "Domum Garczyca"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Property mentioned in the headline of the second entry ('Relatio circa Domum Garczyca')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrzeski",
+      "mention_texts": [
+        "Gregorius Dobrzeski"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Nobilis D.",
+        "Ordinarius Advocatus"
+      ],
+      "justification": "The ordinary advocate of Lviv making an official report."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Leopolienses"
+      ],
+      "justification": "Sworn bench officer (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0303: PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgangus Bernek"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Leopolienses"
+      ],
+      "justification": "Sworn bench officer (scabinus) of Lviv."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Petrus Wolszowicz Pellio et Sophia Stermanka Coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Sophia Stermanka uxor Famatos Bartholomaeum Strach et Mathiam Sonicki Pellionem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "is_guarantor_for",
+      "tail_entity_id": "E1",
+      "evidence": "praedictus quidem Petrus Wolszowicz maritus Famatos Joannem Stanyszesowem minorem Pellionem et Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_guarantor_for",
+      "tail_entity_id": "E1",
+      "evidence": "praedictus quidem Petrus Wolszowicz maritus Famatos Joannem Stanyszesowem minorem Pellionem et Adamum Kalinowski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_guarantor_for",
+      "tail_entity_id": "E2",
+      "evidence": "Praefata vero Sophia Stermanka uxor Famatos Bartholomaeum Strach et Mathiam Sonicki Pellionem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_guarantor_for",
+      "tail_entity_id": "E2",
+      "evidence": "Praefata vero Sophia Stermanka uxor Famatos Bartholomaeum Strach et Mathiam Sonicki Pellionem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorius Dobrzeski Ordinarius Advocatus Andreas Simonowicz et Wolfgangus Bernek Scabini iurati Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Simonowicz et Wolfgangus Bernek Scabini iurati Leopolienses"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Simonowicz et Wolfgangus Bernek Scabini iurati Leopolienses"
+    }
+  ]
+}

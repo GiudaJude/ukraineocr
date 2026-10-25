@@ -1,0 +1,259 @@
+{
+  "document_id": "arc2/0296.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officij Honoratorum Dni Advocati et Fidelium Iuris",
+        "Actis Advocatialibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court and record office of the advocatus and bench in Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Flemboterius",
+      "mention_texts": [
+        "Flemboterius"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Individual receiving the decree in the opening paragraph."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kalinowski",
+      "mention_texts": [
+        "Joannes Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopolitanus",
+        "Plenipotens Fideiussorum Praefatorum"
+      ],
+      "justification": "Plenipotentiary suburban resident who issues the receipt of payment."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Ziaizko",
+      "mention_texts": [
+        "Nicolai Ziaizkowa"
+      ],
+      "descriptive_mentions": [
+        "Judice Leopoliense",
+        "praedicto Judaeo principali",
+        "suae Principalis"
+      ],
+      "justification": "Principal creditor on whose behalf the receipt is issued."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanus",
+        "Leopoliense",
+        "Leopoliensibus",
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoliensium",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced directly and as an adjectival origin."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Florenis quadraginta Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of debt acknowledged as satisfied."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Pauli Szwancz",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "eandem"
+      ],
+      "justification": "Widow of Paulus Szwancz cleared of the 40 florin debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szwancz",
+      "mention_texts": [
+        "Pauli Szwancz"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim"
+      ],
+      "justification": "Deceased husband of Anna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Dziurowicius"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis D.",
+        "Medicinae Doctor",
+        "Collega noster Consularis",
+        "praedictus quidem Spectabilis"
+      ],
+      "justification": "Doctor of Medicine and councillor testifying to legitimate birth."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Collega noster Consularis",
+        "Officium nostrum",
+        "Officium suum"
+      ],
+      "justification": "The council before which the testimony and legitimation take place."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Szptek",
+      "mention_texts": [
+        "Valentinus Szptek",
+        "Martinus Szptek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aromatarii",
+        "Cives Leopolienses",
+        "Praefati"
+      ],
+      "justification": "Apothecary citizen testifying under oath."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kuimintowicz",
+      "mention_texts": [
+        "Joannes Kuimintowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aromatarii",
+        "Cives Leopolienses",
+        "Praefati"
+      ],
+      "justification": "Apothecary citizen testifying under oath."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szultowicz",
+      "mention_texts": [
+        "Joan: Szultowic",
+        "Joannis Szultowicz",
+        "Joannem Szultowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "actificis ferri Leopoliensis socii",
+        "praefatum",
+        "molitorem Sergeniti"
+      ],
+      "justification": "Blacksmith journeyman / miller whose legitimate birth is attested."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Szultowic",
+      "mention_texts": [
+        "Valentini Szultowic"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "coniugum",
+        "Suburbanorum Leopoliensium"
+      ],
+      "justification": "Father of Joannes Szultowicz."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margarethae"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "Suburbanorum Leopoliensium"
+      ],
+      "justification": "Mother of Joannes Szultowicz and wife of Valentinus Szultowic."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta post festum Corporis Christi proxima A. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is_legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestus Joannes Kalinowski Suburbanus Leopolitanus tanquam Plenipotens Fideiussorum Praefatorum Nicolai Ziaizkowa Judice Leopoliense"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesta Anna Honesti olim Pauli Szwancz vidua relicta"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Spectabilis D. Stanislaus Dziurowicius Medicinae Doctor Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "matrimonio Honestorum Valentini Szultowic et Margarethae coniugum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E14",
+      "evidence": "praefatum Joannem Szultowicz molitorem Sergeniti esse ex vero legitimoque matrimonio Honestorum Valentini Szultowic et Margarethae coniugum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E15",
+      "evidence": "praefatum Joannem Szultowicz molitorem Sergeniti esse ex vero legitimoque matrimonio Honestorum Valentini Szultowic et Margarethae coniugum"
+    }
+  ]
+}

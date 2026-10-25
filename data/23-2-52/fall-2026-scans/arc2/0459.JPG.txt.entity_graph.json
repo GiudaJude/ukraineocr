@@ -1,0 +1,61 @@
+{
+  "document_id": "arc2/0459.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "10 Polish marks",
+      "mention_texts": [
+        "Decem Marcarum pecuniae et numeri Polonicalis",
+        "Decem"
+      ],
+      "descriptive_mentions": [
+        "vadium",
+        "poena praedicta",
+        "poena"
+      ],
+      "justification": "Specified penalty and bail amount of ten Polish marks imposed by the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis",
+        "Officij",
+        "Officium",
+        "Officium idem Consulare"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council of Lviv issuing decrees and arbitrating disputes between Catholic and Ruthenian factors."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "Monday before the Feast of Saint Sophia 1585",
+      "mention_texts": [
+        "feria secunda ante Festum Sanctae Sophiae Anno 1585"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree presented by the Ruthenian factors."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circulo Ciuitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city market square of Lviv mentioned in the fifth dispute article."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "issued_decree_on",
+      "tail_entity_id": "E3",
+      "evidence": "Decretum eorundem Officij Consularis de Acta feria secunda ante Festum Sanctae Sophiae Anno 1585"
+    }
+  ]
+}

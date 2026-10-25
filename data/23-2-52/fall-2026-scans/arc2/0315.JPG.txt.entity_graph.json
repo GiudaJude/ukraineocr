@@ -1,0 +1,105 @@
+{
+  "document_id": "arc2/0315.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Scholz",
+      "mention_texts": [
+        "Jacobus Scholz"
+      ],
+      "descriptive_mentions": [
+        "praedictus Honoratus",
+        "divisor"
+      ],
+      "justification": "Appears as the divider who made the declaration based on his purchase contract."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Gelaznowski Garden",
+      "mention_texts": [
+        "Gelaznowsski"
+      ],
+      "descriptive_mentions": [
+        "horto ... dicto"
+      ],
+      "justification": "Named garden mentioned as part of the inherited property to be divided."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gelazino",
+      "mention_texts": [
+        "Joanne Gelazino"
+      ],
+      "descriptive_mentions": [
+        "Discretis",
+        "Coniugibus",
+        "Civibus Cracoviensibus"
+      ],
+      "justification": "Named as a discrete citizen of Kraków, husband of Anna Korczaczka, from whom shares were bought."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Anna Korczaczka",
+      "mention_texts": [
+        "Anna Korczaczka"
+      ],
+      "descriptive_mentions": [
+        "Discretis",
+        "Coniugibus",
+        "Civibus Cracoviensibus"
+      ],
+      "justification": "Named as spouse of Joannes Gelazino and citizen of Kraków."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensibus",
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the sellers are citizens and where the contract was dated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "16 May 1595",
+      "mention_texts": [
+        "die 16. May Anno 159 Quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the contract made in Kraków."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joanne Gelazino et Anna Korczaczka Coniugibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joanne Gelazino et Anna Korczaczka Coniugibus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joanne Gelazino ... Civibus Cracoviensibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Anna Korczaczka Coniugibus Civibus Cracoviensibus"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "document_id": "arc2/0512.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Szadrzej",
+      "mention_texts": [
+        "Nicolaum",
+        "Szadrzeie",
+        "Nicolai Szadrowic",
+        "Nicolai Szadrowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cives Biucen",
+        "fratres suos germanos",
+        "con tutores suos",
+        "fratris alterius conatoris sui"
+      ],
+      "justification": "Named as brother and co-guardian whose property is administered."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szadrzej",
+      "mention_texts": [
+        "Stanum Szadrzeie"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Cives Biucen",
+        "fratres suos germanos",
+        "con tutores suos"
+      ],
+      "justification": "Brother and co-guardian named alongside Nicolaus."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0339: Biecz",
+      "mention_texts": [
+        "Biucen",
+        "Biucie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of Biecz referenced as the citizenship and council location."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "25 Polish florins",
+      "mention_texts": [
+        "florenorum viginti quinque Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money retained."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Mądro- guz"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "Honoratus",
+        "Curatorij"
+      ],
+      "justification": "Curator acting in the legal declaration."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Caspar Simonowicz",
+      "mention_texts": [
+        "Casparum Simonowicz",
+        "Caspar Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Ftum",
+        "Consularem Biucen",
+        "idem"
+      ],
+      "justification": "Councilor of Biecz who administered the suburban estate."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szadra",
+      "mention_texts": [
+        "Stanislai Szadrij"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased nobleman whose suburban estate was administered."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Catherina Jędrzejowna",
+      "mention_texts": [
+        "Catherinae Jedrezowna"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased wife of Stanislaus Szadra."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta post\nIudic Festu S. Mathaei Apli et\nEuangelistae Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stan Dziur"
+      ],
+      "descriptive_mentions": [
+        "D."
+      ],
+      "justification": "Named in the heading of the procuration entry."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Thomas Duzner",
+      "mention_texts": [
+        "Thomas Duzner"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "Studiosus Cracovi-\nen"
+      ],
+      "justification": "Student personally appearing in Lwów to appoint a proxy."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracovi-\nen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City associated with Thomas Duzner's studies."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatos Nicolaum et Stanum Szadrzeie Cives Biucen fratres suos germanos"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Nobilis olim Stanislai Szadrij et olim Catherinae Jedrezowna Coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Casparum Simonowicz Consularem Biucen"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nicolaum et Stanum Szadrzeie Cives Biucen"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nicolaum et Stanum Szadrzeie Cives Biucen"
+    }
+  ]
+}

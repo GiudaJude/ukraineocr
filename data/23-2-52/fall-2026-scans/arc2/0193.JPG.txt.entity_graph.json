@@ -1,0 +1,181 @@
+{
+  "document_id": "arc2/0193.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum",
+        "Plenipotentem et mandatariam",
+        "suus Plenipotens"
+      ],
+      "justification": "Named as the appointed legal representative and alderman in the banned court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The judicial body before which the resignation of the property was to take place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Wojcicki",
+      "mention_texts": [
+        "Andreae Woyciczki",
+        "Andrea Woyciczki"
+      ],
+      "descriptive_mentions": [
+        "Casati",
+        "suo Plenipotente",
+        "ipsius"
+      ],
+      "justification": "Named in the receipt heading and text as the plenipotentiary who received and transferred funds."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Bernus",
+      "mention_texts": [
+        "Gregorius Bernus"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Vngarus",
+        "Aurifaber",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Goldsmith and citizen of Lviv acknowledging receipt of money."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City specified in citizenship designations and judicial titles."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "florenos centum Polonicales",
+        "centum florenos"
+      ],
+      "descriptive_mentions": [
+        "hac summa"
+      ],
+      "justification": "Monetary sum received and settled."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gostkowski",
+      "mention_texts": [
+        "Nicolas Gostkosski"
+      ],
+      "descriptive_mentions": [
+        "Famatis"
+      ],
+      "justification": "Person from whom the 100 florins for the partition wall were collected."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Lesl",
+      "mention_texts": [
+        "Sebastiano Lesl"
+      ],
+      "descriptive_mentions": [
+        "Famatis"
+      ],
+      "justification": "Person mentioned alongside Nicolaus Gostkowski regarding payment for the wall."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paulus Lange",
+      "mention_texts": [
+        "Pauli Lange",
+        "Paulo Lange"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Scabino Iudice Civitatis Leopoliensis",
+        "ipso"
+      ],
+      "justification": "Alderman and judicial officer of Lviv involved in the settlement with Joannes Klis."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Klis",
+      "mention_texts": [
+        "Joannes Klis"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv who issued a formal acquittance to Paulus Lange."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Anna Swidwoska",
+      "mention_texts": [
+        "Anna Swidwoska"
+      ],
+      "descriptive_mentions": [
+        "olim Honesta",
+        "decumbentis nuptiali sua coniuge"
+      ],
+      "justification": "Deceased spouse whose succession actions and legal differences were being settled."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honoratum Dominum Simonem Scabinum in Judicio Exposito Bannito"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Gregorius Bernus Vngarus Aurifaber Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "agent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andrea Woyciczki suo Plenipotente"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joannes Klis Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Paulo Lange Scabino Iudice Civitatis Leopoliensis"
+    }
+  ]
+}

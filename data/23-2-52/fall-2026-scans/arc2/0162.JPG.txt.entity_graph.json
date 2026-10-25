@@ -1,0 +1,114 @@
+{
+  "document_id": "arc2/0162.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal act took place and of which Valentinus Pistor was a citizen."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda ma-xima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry in the council records."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gnoyek",
+      "mention_texts": [
+        "Stanislaus Gnoyek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the court record entry header."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Byckoris",
+      "mention_texts": [
+        "Dorothea Byckoris",
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow appearing before the court with her guardian."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Pistor",
+      "mention_texts": [
+        "Valentini Pistoris"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased baker and citizen of Lviv, late husband of Dorothea."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Martinus Balneator",
+      "mention_texts": [
+        "Martinum Balneatorem"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "affinem suum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Bathhouse keeper and in-law/relative acting as guardian for Dorothea."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium meum"
+      ],
+      "justification": "The municipal council office confirming the appointment of the guardian."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Dorothea Honesti olim Valentini Pistoris Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Martinum Balneatorem affinem suum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "tutorem sibi ad eum actum assumptum"
+    }
+  ]
+}

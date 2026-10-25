@@ -1,0 +1,199 @@
+{
+  "document_id": "arc2/0303.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv mentioned in official territorial and jurisdictional designations."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "praefatorum Dominorum Advocati et Scabinorum Juris itidem Leopoliensis",
+        "actis iisdem",
+        "Officio"
+      ],
+      "justification": "Lviv municipal juridical authority/bench and court records mentioned in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucas Koszerski",
+      "mention_texts": [
+        "Lucas Koszerski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Notarii"
+      ],
+      "justification": "Person requesting the registration of the relation into the court acts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "Sabbato post festum Sancti Pauli Primi Eremitae Anno Domini 1595"
+      ],
+      "justification": "Date of the legal action."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Alembekowska House",
+      "mention_texts": [
+        "Alembekowska"
+      ],
+      "descriptive_mentions": [
+        "lapidea Alembekowska",
+        "domum eamdem Famati olim Joannis Alembek Civis Leopoliensis"
+      ],
+      "justification": "Stone tenement house of the late Joannes Alembek."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Filiptowicz",
+      "mention_texts": [
+        "Hieronymus Filip- towicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Praepositus Hospitalis Praesens",
+        "praefati"
+      ],
+      "justification": "Provost of the hospital appearing personally."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Hospitalis"
+      ],
+      "justification": "Hospital in Lviv headed by Praepositus Hieronymus Filiptowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Krostowicz",
+      "mention_texts": [
+        "Gaspar Kros- towicz"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn scabinus of Lviv appearing personally."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Gallus"
+      ],
+      "descriptive_mentions": [
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Sworn scabinus of Lviv appearing personally."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Alembek",
+      "mention_texts": [
+        "Joannis Alembek"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, former owner of the house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "Circulo"
+      ],
+      "descriptive_mentions": [
+        "Circulo Civitatis"
+      ],
+      "justification": "Main square of Lviv where the Alembekowska house is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Domassowicz",
+      "mention_texts": [
+        "Stanislao"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose stone house borders the Alembekowska house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Ephrosina Domassowicz",
+      "mention_texts": [
+        "Ephrosina Domassowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose stone house borders the Alembekowska house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "officer_of",
+      "tail_entity_id": "E7",
+      "evidence": "Hieronymus Filip- towicz Praepositus Hospitalis Praesens"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "officer_of",
+      "tail_entity_id": "E2",
+      "evidence": "Gaspar Kros- towicz ... Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "officer_of",
+      "tail_entity_id": "E2",
+      "evidence": "Fridericus Gallus Scabini Jurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannis Alembek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "owner_of",
+      "tail_entity_id": "E5",
+      "evidence": "domum eamdem Famati olim Joannis Alembek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in domum eamdem Famati olim Joannis Alembek Civis Leopoliensis in Circulo Civitatis"
+    }
+  ]
+}

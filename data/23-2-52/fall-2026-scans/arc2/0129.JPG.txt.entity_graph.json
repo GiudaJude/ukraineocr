@@ -1,0 +1,55 @@
+{
+  "document_id": "arc2/0129.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dziers",
+      "mention_texts": [
+        "Joanni Dzie-",
+        "Joanni Dziers"
+      ],
+      "descriptive_mentions": [
+        "Creditori suo"
+      ],
+      "justification": "Creditor named in the text to whom the sum of 1200 florins is due."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "1200 florins",
+      "mention_texts": [
+        "Florenorum mille ducetorum",
+        "Florenorum mille ducentorum",
+        "mille ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam praefatam",
+        "summae supra specificatae",
+        "summae principalis"
+      ],
+      "justification": "Monetary amount of the recognized debt and obligation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the goods subject to intromission are located ('hic Leopoli')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0136: Kingdom of Poland",
+      "mention_texts": [
+        "Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom mentioned in reference to safe-conduct letters from dignitaries ('a Proceribus Regni')."
+    }
+  ],
+  "relationships": []
+}

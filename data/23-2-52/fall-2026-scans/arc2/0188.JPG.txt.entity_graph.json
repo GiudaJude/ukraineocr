@@ -1,0 +1,206 @@
+{
+  "document_id": "arc2/0188.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "11 florins 20 groschen",
+      "mention_texts": [
+        "Florenos undecim et grossos viginti"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Sum of money ceded in the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Kenna Bratowa Qwtsena",
+      "mention_texts": [
+        "Kenna Bratowa Qwtsena",
+        "Kennae"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "olim"
+      ],
+      "justification": "Deceased debtor whose house is mortgaged."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Libris nostris Consularibus",
+        "Officii Consularis Leopoliensis",
+        "Officio",
+        "Officii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council of Lviv recording the act and issuing the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "31 August 1592",
+      "mention_texts": [
+        "feria secunda post Festum Decollationis S. Joannis Baptistae proxima Anno Domini 1592 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous contractual obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "suburbio Crakowiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where Kenna's property is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Segadłowa House",
+      "mention_texts": [
+        "Segadlowey"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house defining the boundaries of Kenna's property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Listowa House",
+      "mention_texts": [
+        "Listowe"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house defining the boundaries of Kenna's property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lazarus Lazorowicz",
+      "mention_texts": [
+        "Lazarum Lazorowicz",
+        "Lazari"
+      ],
+      "descriptive_mentions": [
+        "Civem Leopoliensis",
+        "Sukiernik",
+        "praefatos Fideiussores",
+        "praefati"
+      ],
+      "justification": "Surety (fideiussor) and clothier citizen of Lviv mentioned in the cession."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the council and guild are located and where the act took place."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Contubernium Serrificum Civitatis Leopoliensis",
+      "mention_texts": [
+        "Contubernio Serrificum",
+        "Contubernii Serrificum Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "artificii serrificum"
+      ],
+      "justification": "Locksmiths/Sawyers Guild of Lviv appearing as plaintiffs."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Ferrifaber",
+      "mention_texts": [
+        "Valentinum Ferrifabrem"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "suburbanum Leopoliensis",
+        "citatum",
+        "praedictus citatus",
+        "idem citatus"
+      ],
+      "justification": "Suburban blacksmith cited in the council's decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "20 marks",
+      "mention_texts": [
+        "viginti marcarum"
+      ],
+      "descriptive_mentions": [
+        "poena"
+      ],
+      "justification": "Penalty amount specified in the decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "11 April 1595",
+      "mention_texts": [
+        "feria tertia post Dominicam Misericordiae Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of enactment of the council decree (Tuesday after Misericordia Sunday in 1595)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "hasPropertyIn",
+      "tail_entity_id": "E5",
+      "evidence": "in domo ac sortis eiusdem Kennae in suburbio Crakowiensi vocato inter Segadlowey et Listowe domos & sortos sitis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "isCitizenOf",
+      "tail_entity_id": "E9",
+      "evidence": "Lazarum Lazorowicz Civem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "isLocatedIn",
+      "tail_entity_id": "E9",
+      "evidence": "Contubernii Serrificum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "isResidentOf",
+      "tail_entity_id": "E9",
+      "evidence": "Valentinum Ferrifabrem suburbanum Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "issuedDecreeFor",
+      "tail_entity_id": "E10",
+      "evidence": "Ex Decreto Officii Consularis Leopoliensis inter Famatum Seniorem et Juniores Magistros Contubernii Serrificum Civitatis Leopoliensis Actores"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "issuedDecreeFor",
+      "tail_entity_id": "E11",
+      "evidence": "Ex Decreto Officii Consularis Leopoliensis inter ... et Honestum Valentinum Ferrifabrem suburbanum Leopoliensis citatum"
+    }
+  ]
+}

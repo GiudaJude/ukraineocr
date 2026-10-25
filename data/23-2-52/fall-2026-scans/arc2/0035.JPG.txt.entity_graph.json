@@ -1,0 +1,200 @@
+{
+  "document_id": "arc2/0035.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Włodzimierz",
+      "mention_texts": [
+        "Civitate Wladimirien",
+        "Ciuitatis Wladimirien",
+        "Wladimirien",
+        "Vladimirien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which the property and officials are located."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Jewish Street",
+      "mention_texts": [
+        "platea Judaeo-"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Włodzimierz where the sold house is situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacko Butowicz",
+      "mention_texts": [
+        "Jaclonis Butowic"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Vexilliferi Leouien"
+      ],
+      "justification": "Noble whose court is opposite the sold property."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leouien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Territory/city of the standard-bearer (Vexillifer Leoviensis)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Isolonczka",
+      "mention_texts": [
+        "Judae Jsolonczka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Jewish neighbor possessing an old house near the sold property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Juszko Kolos",
+      "mention_texts": [
+        "fusconis Kolosa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor at the rear of the sold property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gabriel Iwanicki",
+      "mention_texts": [
+        "Gabrieli Jwanicki"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "emptorem",
+        "emptori"
+      ],
+      "justification": "Buyer of the house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "25 florins",
+      "mention_texts": [
+        "florenorum viginti quinque"
+      ],
+      "descriptive_mentions": [
+        "precio"
+      ],
+      "justification": "Purchase price and prior debt amount."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Łazarz Iwanicki",
+      "mention_texts": [
+        "Lazaro Jwanicki"
+      ],
+      "descriptive_mentions": [
+        "Imcro Domino"
+      ],
+      "justification": "Creditor to whom the debt had been owed."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jakub Ludwik",
+      "mention_texts": [
+        "Jacobus Ludwik"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or witness in the record."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Blasius Stomatarius",
+      "mention_texts": [
+        "Blasius Stomatarius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or witness in the record."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Błażej Zastawnik",
+      "mention_texts": [
+        "Blasius Zastawnick"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Apothecarius Vladimirien"
+      ],
+      "justification": "Citizen and apothecary of Włodzimierz appearing personally."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "Honeste",
+        "consorti sua legitima"
+      ],
+      "justification": "Wife of Blasius Zastawnik and formerly of Mankowic."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Mankowic",
+      "mention_texts": [
+        "Mankowic"
+      ],
+      "descriptive_mentions": [
+        "Famat",
+        "olim mariti"
+      ],
+      "justification": "Deceased first husband of Hedvigis."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in Civitate Wladimirien in platea Judaeo-"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "associated_with",
+      "tail_entity_id": "E4",
+      "evidence": "Vexilliferi Leouien"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis et Apothecarius Vladimirien"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "secundarum nuptiarum consorti sua legitima"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "olim mariti Mankowic primarum [...] nuptiarum"
+    }
+  ]
+}

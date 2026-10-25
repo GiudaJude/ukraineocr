@@ -1,0 +1,185 @@
+{
+  "document_id": "arc2/0505.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "53 Polish florins",
+      "mention_texts": [
+        "Florenorum quinquaginta trium pecuniae Polonicalis",
+        "quinquaginta trium Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "summa pupillari"
+      ],
+      "justification": "Primary money sum mentioned as owed/deposited on behalf of the Siedlecki orphans."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Siedlecki",
+      "mention_texts": [
+        "Stanislai Siedlecki"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Suburbani Leopoliensis",
+        "patris illorum"
+      ],
+      "justification": "Deceased suburban burgher of Lviv whose children and widow inherit/hold claims."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the context of the suburban residence and Halych suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Kuinski",
+      "mention_texts": [
+        "Kuinski"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "haereditaria"
+      ],
+      "justification": "Deceased previous owner of the inherited house being mortgaged."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Halych Suburb",
+      "mention_texts": [
+        "suburbio eiusdem Civitatis Haliciensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Standard suburb of Lviv where the house is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Szeroka Street",
+      "mention_texts": [
+        "platea lata"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street name in the Halych suburb where the property is located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Blasius Boteszka",
+      "mention_texts": [
+        "Blasy Boteszka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor adjacent to the property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Żmijowska House",
+      "mention_texts": [
+        "Zmiowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjacent neighboring estate/house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Siedlecka",
+      "mention_texts": [
+        "Dorotheae",
+        "Dorothea Siedlecka"
+      ],
+      "descriptive_mentions": [
+        "coniugi relictae",
+        "matri",
+        "Oppignerataria",
+        "oppignorataria"
+      ],
+      "justification": "Widow of Stanislaus Siedlecki taking the house in pledge."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Michael",
+      "mention_texts": [
+        "Festo S. Michaelis",
+        "Festum simile S. Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Terms specifying start and end of the pledge period."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "1596",
+      "mention_texts": [
+        "1596"
+      ],
+      "descriptive_mentions": [
+        "Anno futuro"
+      ],
+      "justification": "Year ending the pledge term on Michaelmas."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "20 florins",
+      "mention_texts": [
+        "Florenos viginti pecuniae Polonicalis",
+        "viginti Florenos"
+      ],
+      "descriptive_mentions": [
+        "tensui annui loco"
+      ],
+      "justification": "Annual interest/rent payment payable from the house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "3 grosze",
+      "mention_texts": [
+        "grossos tres"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Threshold amount mentioned for minor repair costs."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestae Dorotheae praefati Stanislai olim Siedlecki coniugi relictae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "olim Stanislai Siedlecki Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "part_of",
+      "tail_entity_id": "E3",
+      "evidence": "in suburbio eiusdem Civitatis Haliciensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in suburbio eiusdem Civitatis Haliciensis in platea lata"
+    }
+  ]
+}

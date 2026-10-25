@@ -1,0 +1,120 @@
+{
+  "document_id": "arc2/0441.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City referenced as the jurisdiction of the alderman, origin/citizenship of Gregorius Zismanthas, and place of recording."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudiciis Expositis Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court of Lviv mentioned in the plenipotentiary authorization formula."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officij nostri",
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council/bench before whose records and authority the protestation was lodged."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szari",
+      "mention_texts": [
+        "Pauli Szarii",
+        "Paulus Szari",
+        "Paulo"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Textor Pratorij Ostroviensis",
+        "memorato",
+        "idem"
+      ],
+      "justification": "The weaver making a formal protestation against Gregorius Zismanthas."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Zismanthas",
+      "mention_texts": [
+        "Gregorium Zismanthas",
+        "Gregorium"
+      ],
+      "descriptive_mentions": [
+        "Fanim",
+        "Aurifabrum",
+        "Civem Leopoliensem",
+        "eundem"
+      ],
+      "justification": "Goldsmith and citizen of Lviv who failed to appear to take an oath and was declared contumacious."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Ostrów",
+      "mention_texts": [
+        "Ostroviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town associated with Paulus Szari's profession/office."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "3 florins 15 groschen",
+      "mention_texts": [
+        "florenorum trium et grossorum quindecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money involved in the judicial oath dispute."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "festum Assumptionis Beatae Mariae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day used as temporal reference point for the entry date."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Saczko Domaszewic",
+      "mention_texts": [
+        "Saczka Domaszewic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the entry title at the foot of the document."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Gregorium Zismanthas Aurifabrum Civem Leopoliensem"
+    }
+  ]
+}

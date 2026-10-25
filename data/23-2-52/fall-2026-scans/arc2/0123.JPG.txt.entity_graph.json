@@ -1,0 +1,162 @@
+{
+  "document_id": "arc2/0123.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "Feast of Easter",
+      "mention_texts": [
+        "festo Paschatis",
+        "festum Paschatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast date defining the beginning and end of the two-year pledge period."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1597",
+      "mention_texts": [
+        "Anno 159 septimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year marking the conclusion of the two-year pledge term at Easter."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa principali debiti"
+      ],
+      "justification": "Principal debt amount of the pledge agreement."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joannes"
+      ],
+      "descriptive_mentions": [
+        "praefatus",
+        "oppigneratoris",
+        "idem"
+      ],
+      "justification": "Pledgor required to redeem the small cellar pledged to Dobrowa Szewcowa."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Dobrowa Szewcowa",
+      "mention_texts": [
+        "Dobrowey Szeuconey"
+      ],
+      "descriptive_mentions": [
+        "Honeste"
+      ],
+      "justification": "Woman holding the cellar in pledge for 12 florins and 15 groschen."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "12 florins 15 groschen",
+      "mention_texts": [
+        "florenis duodecim et grossis quindecim",
+        "duodecim florenos et grossos quindecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount for which the cellar in the house is pledged."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Cele",
+      "mention_texts": [
+        "Gregorium",
+        "Gregorius Cele"
+      ],
+      "descriptive_mentions": [
+        "praedictum",
+        "oppigneratarios"
+      ],
+      "justification": "Pledgee of the property alongside Zofia."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Zofia",
+      "mention_texts": [
+        "Zophiam",
+        "Zophia"
+      ],
+      "descriptive_mentions": [
+        "oppigneratarios"
+      ],
+      "justification": "Pledgee of the property alongside Gregorius Cele."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szklarz",
+      "mention_texts": [
+        "Paulus Szclary"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party named in the entry title regarding a land transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Świątek",
+      "mention_texts": [
+        "Joannes Swiatek"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis"
+      ],
+      "justification": "Suburbanite of Lviv selling a parcel of hereditary land."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "eiusdem Civitatis"
+      ],
+      "justification": "City whose suburb Joannes Świątek inhabits and where Garbarska Street is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Garbarska Street",
+      "mention_texts": [
+        "platea Garbarska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the parcel of land being sold is situated."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Honestus Joannes Swiatek Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in eiusdem Civitatis platea Garbarska"
+    }
+  ]
+}

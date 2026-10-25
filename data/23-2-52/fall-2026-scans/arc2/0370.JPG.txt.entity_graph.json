@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/0370.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Alexander Kotewil",
+      "mention_texts": [
+        "Alexandri Kotewili"
+      ],
+      "descriptive_mentions": [
+        "eiusdem"
+      ],
+      "justification": "Named at the beginning of the entry before whom an acknowledgment was to be made."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location where the act was recorded ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia ante festum Sanctae Margaritae Virginis Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating formula of the court record."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Pretwicz",
+      "mention_texts": [
+        "Jacobi Pretwicz"
+      ],
+      "descriptive_mentions": [
+        "Magnifici Domini",
+        "Castellani Camenecensis",
+        "Trembowliensisque Capitanei",
+        "deputatorum"
+      ],
+      "justification": "Castellan of Kamieniec and Starosta of Trembowla, royal commissioner."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castellany held by Jacobus Pretwicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Trembowla",
+      "mention_texts": [
+        "Trembowliensisque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Capitaneatus (starostwo) held by Jacobus Pretwicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Georgius Burbach",
+      "mention_texts": [
+        "Georgii Burbach"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Cubicularii Sacrae Regiae Maiestatis",
+        "deputatorum"
+      ],
+      "justification": "Royal chamberlain appointed as royal commissioner."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacra Regia Maiestate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "King of Poland whose mandate ordered the inventory of the deceased Greek's property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Leovesi",
+      "mention_texts": [
+        "Leovesi",
+        "Flioresi"
+      ],
+      "descriptive_mentions": [
+        "Graeci",
+        "defuncti",
+        "interempti",
+        "praedicti Leovesi",
+        "praefati Flioresi"
+      ],
+      "justification": "Deceased Greek merchant murdered in Wallachia whose property is inventoried."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Country where Leovesi was killed."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium Consulare Leopoliense",
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officii",
+        "ipsius Officii Consularis Leopoliensis"
+      ],
+      "justification": "Lviv municipal consular office executing the inventory."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Ziewonowski",
+      "mention_texts": [
+        "Jacobi Ziewonowski"
+      ],
+      "descriptive_mentions": [
+        "Generosorum",
+        "Instillatoris Terrae Leopoliensis"
+      ],
+      "justification": "Instigator of the Land of Lviv present at the inspection."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lviv Land",
+      "mention_texts": [
+        "Terrae Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Territory for which Jacobus Ziewonowski served as instigator."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Chaborowski",
+      "mention_texts": [
+        "Jacobi Chaborowski"
+      ],
+      "descriptive_mentions": [
+        "Generosorum",
+        "Fisci Sacrae Regiae Maiestatis Notarii"
+      ],
+      "justification": "Notary of the Royal Treasury present at the inspection."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Dziomi Salvago",
+      "mention_texts": [
+        "Dziomi Salvago"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "Graeci",
+        "Factoris"
+      ],
+      "justification": "Greek merchant and factor of Leovesi who held the goods in chests under seal."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E5",
+      "evidence": "Jacobi Pretwicz Castellani Camenecensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E6",
+      "evidence": "Jacobi Pretwicz ... Trembowliensisque Capitanei"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "servant_of",
+      "tail_entity_id": "E8",
+      "evidence": "Georgii Burbach Cubicularii Sacrae Regiae Maiestatis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "died_in",
+      "tail_entity_id": "E10",
+      "evidence": "morte Leovesi Graeci in Valachia non ita pridem interempti"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E13",
+      "evidence": "Jacobi Ziewonowski Instillatoris Terrae Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "servant_of",
+      "tail_entity_id": "E8",
+      "evidence": "Jacobi Chaborowski Fisci Sacrae Regiae Maiestatis Notarii"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "agent_of",
+      "tail_entity_id": "E9",
+      "evidence": "Dziomi Salvago Graeci praefati Flioresi Factoris"
+    }
+  ]
+}

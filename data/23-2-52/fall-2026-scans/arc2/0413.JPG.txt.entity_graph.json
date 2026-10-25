@@ -1,0 +1,141 @@
+{
+  "document_id": "arc2/0413.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatem Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified from 'Civitatem Leopoliensem' referring to the city of Lwów."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sophia",
+      "mention_texts": [
+        "Sophiae",
+        "SOPHIA",
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "consorti sua dilectissima"
+      ],
+      "justification": "Identified as the wife of Janutius receiving the mutual donation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon Gladiator",
+      "mention_texts": [
+        "Simoni Gladiatori"
+      ],
+      "descriptive_mentions": [
+        "Civi Camenecensi",
+        "fratri germano"
+      ],
+      "justification": "Identified as Janutius's full brother and citizen of Kamieniec Podolski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified in 'Civi Camenecensi'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha",
+      "mention_texts": [
+        "Elisabethae"
+      ],
+      "descriptive_mentions": [
+        "nepti"
+      ],
+      "justification": "Identified as the niece of Janutius, daughter of his brother Mathias Gladiator."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Mathias Gladiator",
+      "mention_texts": [
+        "Mathia Gladiatore"
+      ],
+      "descriptive_mentions": [
+        "fratre"
+      ],
+      "justification": "Identified as the brother of Janutius and father of Elisabetha."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenos quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified from 'Florenos quinquaginta pecuniae Polonicalis'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified from 'centum Florenos'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Janutius",
+      "mention_texts": [
+        "Janutio"
+      ],
+      "descriptive_mentions": [
+        "maritum suum",
+        "marito suo"
+      ],
+      "justification": "Identified as the husband of Sophia making and receiving mutual donations."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "eidem Sophiae consorti sua dilectissima"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "Simoni Gladiatori Civi Camenecensi fratri germano"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simoni Gladiatori Civi Camenecensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E9",
+      "evidence": "nepti ex fratre Mathia Gladiatore"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Elisabethae nepti ex fratre Mathia Gladiatore"
+    }
+  ]
+}

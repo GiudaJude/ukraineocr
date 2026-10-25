@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/0428.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "officioque nostro"
+      ],
+      "justification": "City council office issuing decree and approving plenipotentiary acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in civic attributions and council titles."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Bargiel",
+      "mention_texts": [
+        "Albertum Bargel",
+        "Alberto Bargiel"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Lamium",
+        "Civem Leopoliensem",
+        "Actorem",
+        "Actore",
+        "eidem"
+      ],
+      "justification": "Plaintiff (actor) in the decree concerning the recovery of an ox."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Anna Kuszmina Tatarczka",
+      "mention_texts": [
+        "Annam Kuszmina Tatarczka",
+        "Tatarczka"
+      ],
+      "descriptive_mentions": [
+        "Providam",
+        "citatam",
+        "praefata",
+        "citata"
+      ],
+      "justification": "Defendant (citata) ordered to return an ox to Albert Bargiel."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Sawicz",
+      "mention_texts": [
+        "Constantino Sawicz",
+        "Constantinum Sawicz",
+        "Constantino"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem",
+        "manditarium",
+        "negotiorum gestorem",
+        "Nobilem",
+        "Atrium",
+        "filium suum",
+        "dicto",
+        "filio",
+        "Plenipotenti suo"
+      ],
+      "justification": "Son and appointed attorney (plenipotentiary) of Eufemia Sarowina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Eufemia Sarowina",
+      "mention_texts": [
+        "Eufemia Sarowina"
+      ],
+      "descriptive_mentions": [
+        "Illustris",
+        "consors",
+        "vidua relicta"
+      ],
+      "justification": "Widow appearing before council to appoint her son Constantinus as plenipotentiary."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jarosz Fedorowicz Szawi",
+      "mention_texts": [
+        "Jarosz Fedorowicz Szawi"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "olim"
+      ],
+      "justification": "Deceased husband of Eufemia Sarowina and burgher of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Hiacinthus Paulus Szawt",
+      "mention_texts": [
+        "Hiacinthum Paulum Szawt"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Scabini officiarium"
+      ],
+      "justification": "Appointed guardian assisting Eufemia Sarowina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatum Albertum Bargel Lamium Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Eufemia Sarowina Famati olim Jarosz Fedorowicz Szawi Civis Leopoliensis consors vidua relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jarosz Fedorowicz Szawi Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Constantinum Sawicz filium suum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "assumptum sibi ad actum praesentem ex officioque nostro approbatum tutorem Hiacinthum Paulum Szawt"
+    }
+  ]
+}

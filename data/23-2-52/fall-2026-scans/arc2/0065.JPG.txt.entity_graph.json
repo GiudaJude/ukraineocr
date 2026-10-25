@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0065.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Wilczek",
+      "mention_texts": [
+        "Stanislaus Wilczek",
+        "Stanislaus Wilczek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Ci- uis et Mercator Leopoliensis",
+        "se",
+        "illius"
+      ],
+      "justification": "Citizen and merchant of Lviv who personally appeared before the council to register an authentic inscription."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "Actis praesentibus",
+        "nos",
+        "Acta nostra"
+      ],
+      "justification": "The municipal council and its records before which Stanislaus Wilczek submitted the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned adjectivally regarding the merchant's citizenship and the palatine."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Jesionowo",
+      "mention_texts": [
+        "Jesionowo"
+      ],
+      "descriptive_mentions": [
+        "villa"
+      ],
+      "justification": "Village located near Sandomierz where the legal act took place."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Sandomierz",
+      "mention_texts": [
+        "Sandomiriensis",
+        "Sandomiriam",
+        "Sandomiriensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City and castle jurisdiction of Sandomierz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "5 August 1594",
+      "mention_texts": [
+        "die quinta Augusti Anno Domini 1594 Quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the execution of the quietatio in Jesionowo."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Kononecki",
+      "mention_texts": [
+        "Jacobi Kononecki"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Vicecapitanei Sandomiriensis"
+      ],
+      "justification": "Vice-capitaneus of Sandomierz under whose seal the quietatio was issued."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Cierski",
+      "mention_texts": [
+        "Joanni Cierski",
+        "Cierski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "Palatino",
+        "praedictum"
+      ],
+      "justification": "Creditor and palatine/official to whom debt was contracted and who granted the quietatio."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenis ducentis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money specified in the debt and transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Gavrilo de Borzeio",
+      "mention_texts": [
+        "Gavriloni de Borzeio"
+      ],
+      "descriptive_mentions": [
+        "Palatino"
+      ],
+      "justification": "Palatine Gavrilo de Borzeio mentioned regarding the debt settlement."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Borzeio",
+      "mention_texts": [
+        "Borzeio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locality associated with Gavrilo."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Diego Aaron",
+      "mention_texts": [
+        "Diego Aarone"
+      ],
+      "descriptive_mentions": [
+        "Palatino Woldawie"
+      ],
+      "justification": "Voivode / Palatine of Moldavia in whose presence the acquittance was confirmed."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Moldavia",
+      "mention_texts": [
+        "Woldawie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Moldavia, the territory governed by Palatine Diego Aaron."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Famatus Stanislaus Wilczek Ci- uis et Mercator Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "petitions",
+      "tail_entity_id": "E2",
+      "evidence": "obtulit Of- ficio nostro inscriptionem authenticam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "villa Jesionowo ad Sandomiriam sita"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E5",
+      "evidence": "Jacobi Kononecki Vicecapitanei Sandomiriensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "indebted_to",
+      "tail_entity_id": "E8",
+      "evidence": "quietationem de certo debito per se Generoso Joanni Cierski Leopoliensi Palatino racione syngraphassim contracto"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "originates_from",
+      "tail_entity_id": "E11",
+      "evidence": "Gavriloni de Borzeio"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "rules",
+      "tail_entity_id": "E13",
+      "evidence": "Diego Aarone Palatino Wol- dawie"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "document_id": "arc2/0373.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis"
+      ],
+      "descriptive_mentions": [
+        "Offitij",
+        "officium"
+      ],
+      "justification": "The municipal council office where keys and sequestrated items were deposited."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Dziani Francus",
+      "mention_texts": [
+        "Dziani Francus"
+      ],
+      "descriptive_mentions": [
+        "Factor praefati Janussij",
+        "idem"
+      ],
+      "justification": "Merchant or factor acting on behalf of Janussius."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Janusz",
+      "mention_texts": [
+        "Janussij"
+      ],
+      "descriptive_mentions": [
+        "praefati"
+      ],
+      "justification": "Individual on whose behalf Dziani Francus acts as factor."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0090: Kamieniec Podolski",
+      "mention_texts": [
+        "Camenecensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified in the title of the Castellan of Kamieniec."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "agent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Dziani Francus Factor praefati Janussij"
+    }
+  ]
+}

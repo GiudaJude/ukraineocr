@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/0562.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Konowt",
+      "mention_texts": [
+        "Simonem Konowt"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Named as the appointed guardian (tutor) assisting the widow in this legal recognition."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro",
+        "officio",
+        "officio",
+        "nobis"
+      ],
+      "justification": "The municipal council/bench before which the legal actions were transacted and recorded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos Triginta"
+      ],
+      "descriptive_mentions": [
+        "pecuniae numeri Polonicalis"
+      ],
+      "justification": "Amount of debt recognized."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Lanczkoronski",
+      "mention_texts": [
+        "Nicolao Lanczkoronski"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Juramentario Camerensi"
+      ],
+      "justification": "Named as the creditor and camera swearer (Juramentarius Camerensis)."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "viginta Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount referenced in the repayment obligation clause."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno 1596"
+      ],
+      "descriptive_mentions": [
+        "proxime futura"
+      ],
+      "justification": "Year specified for the upcoming repayment deadline."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius",
+        "Civitatem hanc",
+        "eius Civitatis"
+      ],
+      "justification": "The royal city where the acts occurred and whose walls and streets are mentioned."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini quo supra",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year in which both legal acts took place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Naethman Isaacowicz",
+      "mention_texts": [
+        "Naethmano",
+        "Naethman Isaacowicz"
+      ],
+      "descriptive_mentions": [
+        "Judaeo",
+        "infidelis",
+        "Judaei Leopoliensis"
+      ],
+      "justification": "Jewish resident of Lviv granted permission to construct a small wooden house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0047: Jewish Street",
+      "mention_texts": [
+        "plateam Judaicam",
+        "plateam Judaeorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street behind which and towards which the plot is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Porta Pincernarum",
+      "mention_texts": [
+        "portam Pincernarum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City gate near the tower where the house is permitted to be built."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Naethman Isaacowicz Judaei Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "peres murum eius Civitatis post plateam Judaicam"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in angulo turris ad portam Pincernarum vergente qua turris quondam pro examinandis malefactoribus fuit quaestionaria"
+    }
+  ]
+}

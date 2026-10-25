@@ -1,0 +1,125 @@
+{
+  "document_id": "arc2/0211.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0016: Feast of Pentecost",
+      "mention_texts": [
+        "festa Pentecostes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day mentioned as the time limit of the surety."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Mizera",
+      "mention_texts": [
+        "Sebastianus Mizera",
+        "Sebastiano Mizera",
+        "Sebastiani Mizera"
+      ],
+      "descriptive_mentions": [
+        "Praedictus vero Famatus",
+        "eidem",
+        "Domini"
+      ],
+      "justification": "Party involved in the legal dispute and surety."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannem Sokol"
+      ],
+      "descriptive_mentions": [
+        "eundem",
+        "Praedictum Honoratum"
+      ],
+      "justification": "Person seeking release from the surety bond."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council court issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "florenorum sexaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum in dispute."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Remigianus Mirosławski",
+      "mention_texts": [
+        "Joannis Remigiani Mirosławski",
+        "Remigianus Mirosławski"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "Dominus"
+      ],
+      "justification": "Litigant asserting priority rights to the money."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Butzek",
+      "mention_texts": [
+        "Hieronymus Butzek"
+      ],
+      "descriptive_mentions": [
+        "praenominatus Religioso",
+        "Custodis sui"
+      ],
+      "justification": "Religious individual disputing rights to the funds through a guardian."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Wostacki",
+      "mention_texts": [
+        "Andream Wostacki"
+      ],
+      "descriptive_mentions": [
+        "Scabinum",
+        "tutorem et Prolocutorem suum",
+        "praedictus Tutor"
+      ],
+      "justification": "Scabinus acting as tutor and advocate for Hieronymus Butzek."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Grodzicki",
+      "mention_texts": [
+        "Simon Grodzicki"
+      ],
+      "descriptive_mentions": [
+        "Scabinus"
+      ],
+      "justification": "Scabinus confirming testimony in court."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "per Scabinum Andream Wostacki tutorem et Prolocutorem suum"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/0057.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "12 August 1594",
+      "mention_texts": [
+        "feria sexta post festum sancti Laurentii Martyris proxima Anno Domini 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous castle court record referred to in the document (Friday after the Feast of St. Lawrence 1594)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Seciolko Janowiecki",
+      "mention_texts": [
+        "Seciolko Janowiecki"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "finitimem vel Capitaneo",
+        "praefati Magnifici",
+        "dictus Regius",
+        "praedictus Magnificus"
+      ],
+      "justification": "Recipient of the legal cession and property rights described in the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Georgius Steinkeler",
+      "mention_texts": [
+        "Stein",
+        "Georgii olim Steinkeler",
+        "Georgii Steinkeler"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased creditor and predecessor of Joannes Schraiber mentioned in the eviction and quittance."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaum Dziewulcium",
+        "Stanislai Doctoris",
+        "Philippus Stanislaus Dziewulski"
+      ],
+      "descriptive_mentions": [
+        "Excellentem",
+        "D.",
+        "Medicinae Doctorem",
+        "Collegam nostrum Consularem",
+        "Doctoris",
+        "Excellens",
+        "Medicinae Doctor",
+        "Collega in Consulatu"
+      ],
+      "justification": "Known entity PER-0007, doctor of medicine and city councilor, receiving quittance."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andream Wadroviic"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Civitatis huius Notarium"
+      ],
+      "justification": "Known entity PER-0013, Andreas Madrowicz, notary of the city of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Schraiber",
+      "mention_texts": [
+        "Joannes Schraiber"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Advocatus Castrensis",
+        "successor Georgii olim Steinkeler"
+      ],
+      "justification": "Citizen and castle advocate, acting as successor to Georgius Steinkeler to issue the quittance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Ralska",
+      "mention_texts": [
+        "Ralskiam"
+      ],
+      "descriptive_mentions": [
+        "Famatam olim",
+        "Aromatariam"
+      ],
+      "justification": "Deceased apothecary woman debtor mentioned in the text."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "70 florins",
+      "mention_texts": [
+        "Florenos septuaginta"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of money paid to Joannes Schraiber for quittance."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officij ... Honoratorum Quondam Advocati et Fideilium iuris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity ORG-0004, the Lviv advocatial office under whose authority the previous possession was executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_successor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Joannes Schraiber Civis et Advocatus Castrensis tanquam successor Georgii olim Steinkeler"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "released_from_obligation",
+      "tail_entity_id": "E4",
+      "evidence": "Excellens D. Philippus Stanislaus Dziewulski Medicinae Doctor Collega in Consulatu dats sibi fecit de Florenos septuaginta debiti Iudicio olim Georgii Steinkeler"
+    }
+  ]
+}

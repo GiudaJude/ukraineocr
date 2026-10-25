@@ -1,0 +1,188 @@
+{
+  "document_id": "arc2/0530.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned court of Lviv empowered to register the resignation of the sold property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "City where the legal proceedings and the property are located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaus Anserinus",
+        "Stanislao Anserino"
+      ],
+      "descriptive_mentions": [
+        "Domino Domino",
+        "Collegae pro Consulari",
+        "avunculo",
+        "Benefactori suo",
+        "eiusque legitimis Successoribus",
+        "Domino Emptori",
+        "avunculum suam"
+      ],
+      "justification": "Proconsular colleague and maternal uncle buying the share in the stonehouse."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0480: Christophorus Boslanowic",
+      "mention_texts": [
+        "Christophorus Baur",
+        "Christophorus Baur"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "filius",
+        "coheraedes"
+      ],
+      "justification": "Seller of the property share, son of Nicolaus Baur and Regina Gąsiorzanka."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Baur",
+      "mention_texts": [
+        "Nicolai Baur"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased father of Christophorus Baur."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Regina Gąsiorzanka",
+      "mention_texts": [
+        "Reginae Gesiorzanka"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "Mother of Christophorus Baur and sister of Stanislaus Anserinus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Gąsiorowska House",
+      "mention_texts": [
+        "Gesinovrzanska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "lapideae"
+      ],
+      "justification": "Stonehouse inherited by the heirs of Nicolaus and Regina Baur."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "platea Cracouiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the stonehouse is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kraków Gate",
+      "mention_texts": [
+        "portam Cracouien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City gate near which the stonehouse is located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Antonius Guildtsut",
+      "mention_texts": [
+        "Antonij Guildtsuta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning the adjacent house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Simone"
+      ],
+      "descriptive_mentions": [
+        "coheraedes"
+      ],
+      "justification": "Co-heir Simon Baur holding the corresponding share of the property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta praesentia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Official council records wherein the division of the inheritance was registered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Christophorus Baur Famati olim Nicolai Baur ... filius"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Christophorus Baur ... Honestae Reginae Gesiorzanka filius"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nicolai Baur et Honestae Reginae Gesiorzanka filius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislao Anserino Collegae pro Consulari avunculo et Benefactori suo"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E12",
+      "evidence": "Stanislao Anserino Collegae pro Consulari"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "relative_of",
+      "tail_entity_id": "E11",
+      "evidence": "inter alios coheraedes die hodierna perfecta ... altera parte pro parte eius Simone relicta"
+    }
+  ]
+}

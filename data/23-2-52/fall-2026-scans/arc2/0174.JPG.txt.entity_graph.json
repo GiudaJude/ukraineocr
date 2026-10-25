@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/0174.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensi",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatem",
+        "Civitati"
+      ],
+      "justification": "The city of Lviv is referenced throughout as the location of the properties, the jurisdiction of the council, the residence of the parties, and the location of execution."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Paulus Krauss",
+      "mention_texts": [
+        "Paulum Krauss"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Caussidicum",
+        "tutorem sibi ad infrascripta assumptum"
+      ],
+      "justification": "Appears as advocate and legal guardian (caussidicus, tutor) representing Kusturian before the city council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Kusturian",
+      "mention_texts": [
+        "Kusturiano"
+      ],
+      "descriptive_mentions": [
+        "Iudaeo",
+        "praedicto",
+        "ipsi",
+        "eidem"
+      ],
+      "justification": "Jewish resident of Lviv petitioning the council for permission to build a water conduit to his hereditary stonehouse."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Jewish Street",
+      "mention_texts": [
+        "platea Iudaeorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The street in Lviv where Kusturian's hereditary stonehouse is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Krawiec",
+      "mention_texts": [
+        "Pauli Krawiec"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of the adjacent stonehouse bordering Kusturian's property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Rostkowska House",
+      "mention_texts": [
+        "Rostkowski"
+      ],
+      "descriptive_mentions": [
+        "lapideam"
+      ],
+      "justification": "Named stonehouse of Paulus Krawiec bordering Kusturian's property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Dorfidus Habraam Iolpkowic",
+      "mention_texts": [
+        "Dorfidi Habraami Iolpkowic"
+      ],
+      "descriptive_mentions": [
+        "Iudaei Leopoliensis"
+      ],
+      "justification": "Jewish citizen of Lviv owning the neighboring stonehouse on the other side of Kusturian's property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta post Dominicam Conductus Paschae proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "die hodierna"
+      ],
+      "justification": "The date of the council transaction (Wednesday after Low Sunday, 1595)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "nobis",
+        "nostrum",
+        "Officiorum"
+      ],
+      "justification": "The municipal council of Lviv granting the water conduit and acting as the court before which the aldermen appear."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Scabinal Bench",
+      "mention_texts": [
+        "Iudicium Scabinorum",
+        "Scabini Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Honorati Domini",
+        "Actores",
+        "Ipsi"
+      ],
+      "justification": "The aldermen (scabini) of Lviv appearing as plaintiffs against Caspar Temberski before the Consular Office."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Caspar Temberski",
+      "mention_texts": [
+        "Casper Temberski",
+        "Caspare Temberzki"
+      ],
+      "descriptive_mentions": [
+        "Famosi",
+        "Pellio",
+        "Civis Leopoliensis",
+        "citati",
+        "citatus"
+      ],
+      "justification": "Furrier and citizen of Lviv summoned before the council by the aldermen."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Honestum Paulum Krauss Caussidicum tutorem sibi ad infrascripta assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in domum ipsius lapideam haereditariam in platea Iudaeorum... Leopoliensis sitam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Dorfidi Habraami Iolpkowic Iudaei Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Caspare Temberzki Pellio Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "plaintiff_against",
+      "tail_entity_id": "E11",
+      "evidence": "petiit vt con se proponerent Honorati Domini Scabini Leopolienses Actores"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "based_in",
+      "tail_entity_id": "E1",
+      "evidence": "Honorati Domini Scabini Leopolienses"
+    }
+  ]
+}

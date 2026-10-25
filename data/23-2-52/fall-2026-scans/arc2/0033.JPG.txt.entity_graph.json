@@ -1,0 +1,173 @@
+{
+  "document_id": "arc2/0033.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "PER-0022",
+      "entity_type": "person",
+      "canonical_name": "Petrus Hubicki",
+      "mention_texts": [
+        "Petrus Hubicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Magnifici Domini Andreae Czermieynski famulus",
+        "famulus"
+      ],
+      "justification": "Named as the noble servant acting on behalf of Andreas Czermieyński."
+    },
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Czermieyński",
+      "mention_texts": [
+        "Andreae Czermieynski"
+      ],
+      "descriptive_mentions": [
+        "Magnifici Domini",
+        "Domini sui",
+        "memorato Magnifico hero suo"
+      ],
+      "justification": "Master on whose behalf Petrus Hubicki is appearing."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Castanus Sulimski",
+      "mention_texts": [
+        "Castano Sulimski",
+        "Castanum Sulimski",
+        "Castanus"
+      ],
+      "descriptive_mentions": [
+        "Spectabili Domino",
+        "Consule Leopoliensi",
+        "praefatum",
+        "citati"
+      ],
+      "justification": "Lviv city consul addressed in the legal confrontation."
+    },
+    {
+      "entity_id": "LOC-0001",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose council and consul are cited."
+    },
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Actis praesentibus",
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Camera Officii eiusdem",
+        "Camera sua"
+      ],
+      "justification": "Municipal council office before which the document is presented and recorded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Petrus Jaworowski",
+      "mention_texts": [
+        "Petri Jaworowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Tarnopoliensis"
+      ],
+      "justification": "Citizen of Tarnopol whose recognition is submitted into the record."
+    },
+    {
+      "entity_id": "LOC-0004",
+      "entity_type": "location",
+      "canonical_name": "Tarnopol",
+      "mention_texts": [
+        "Tarnopoliensis",
+        "Tarnopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of citizenship and location of the advocatial office."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Tarnopol Advocatial Office",
+      "mention_texts": [
+        "Officio Advocati Tarnopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial office in Tarnopol where the recognition was made."
+    },
+    {
+      "entity_id": "CUR-0001",
+      "entity_type": "currency",
+      "canonical_name": "146 florins 24 groschen",
+      "mention_texts": [
+        "centum quadraginta sex florenorum et grossorum viginti quatuor"
+      ],
+      "descriptive_mentions": [
+        "eiusdem summae",
+        "eam summam"
+      ],
+      "justification": "Amount of money deposited and claimed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Alacis",
+      "mention_texts": [
+        "Alacis"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "Individual mentioned who may withdraw the sum from the treasury."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szornabski",
+      "mention_texts": [
+        "Petrus Szornabski"
+      ],
+      "descriptive_mentions": [
+        "praedictus"
+      ],
+      "justification": "Individual who had placed an arrest on the funds."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "PER-0022",
+      "relation": "servant_of",
+      "tail_entity_id": "E1",
+      "evidence": "Nobilis Petrus Hubicki Magnifici Domini Andreae Czermieynski famulus nomine eiusdem Domini sui agens"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "ORG-0003",
+      "evidence": "Spectabili Domino Castano Sulimski Consule Leopoliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "LOC-0004",
+      "evidence": "Petri Jaworowski Civis Tarnopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "LOC-0004",
+      "evidence": "coram Officio Advocati Tarnopoliensi factam"
+    }
+  ]
+}

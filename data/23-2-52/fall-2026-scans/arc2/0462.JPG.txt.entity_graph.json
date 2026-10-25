@@ -1,0 +1,330 @@
+{
+  "document_id": "arc2/0462.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij Consularis Leopoliensis",
+        "officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "nobis"
+      ],
+      "justification": "The document cites decrees and proceedings held before the consular office of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Damianus Graecus",
+      "mention_texts": [
+        "Damianum\nGraecum"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ciuem Samoscensem",
+        "Actorem"
+      ],
+      "justification": "Named as the plaintiff (actor) and Greek citizen of Zamość."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Samoscensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City named in the adjectival form denoting the origin/citizenship of Damianus Graecus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annam Puskarianka"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Ipsis olim Alberti Chodell Consulis Leopoliensis viduam relictam",
+        "citatam",
+        "praedicta\ncitata",
+        "Ci-\ntata"
+      ],
+      "justification": "Named as the cited party and widow of Albertus Chodel."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Chodel",
+      "mention_texts": [
+        "Alberti Chodell"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Consulis Leopoliensis"
+      ],
+      "justification": "Named as the deceased former consul of Lviv and husband of Anna Puskarianka."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv is referenced across multiple titles, offices, and citizen attributions."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "160 florins",
+      "mention_texts": [
+        "Centum sexaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The debt amount in dispute between Damianus Graecus and Anna Puskarianka."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Puskarszowska House",
+      "mention_texts": [
+        "Lapideae Puskarsow-\nska"
+      ],
+      "descriptive_mentions": [
+        "domus suae\npaternalis",
+        "lapideam"
+      ],
+      "justification": "The stone house mentioned as the paternal property subject to tax/valuation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officium Honoratorum Domini Aduocati et fidelium\niuris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The judicial office tasked with valuing the house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Krzymicki",
+      "mention_texts": [
+        "Stanislai Krzymicki",
+        "Stanislao Krzymicki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Syndico Leopoliensi",
+        "eundem"
+      ],
+      "justification": "Named as the syndic of Lviv receiving quittance."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Haisman Isaacowicz",
+      "mention_texts": [
+        "Haisman Isaacowicz"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Iudaeus\nLeopoliensis",
+        "sibi"
+      ],
+      "justification": "Named as the Jewish creditor from Lviv acknowledging satisfaction of debt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mathias Trzciński",
+      "mention_texts": [
+        "Mathiam Trzcinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem Dominum",
+        "tutorem"
+      ],
+      "justification": "Named as the noble appointed guardian for Haisman Isaacowicz."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "200 thalers",
+      "mention_texts": [
+        "Durentis ia-\nleris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The principal sum satisfied, specified as 200 thalers."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "36 groschen",
+      "mention_texts": [
+        "grossos triginta sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Conversion rate specified per thaler in Polish groschen."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Błazowski",
+      "mention_texts": [
+        "Sigismundi Błazowij",
+        "Sigis-\nmundus Błazowski"
+      ],
+      "descriptive_mentions": [
+        "Generosus",
+        "Vicepalatinus Terrarum Podoliae",
+        "praerogata\ncontribucionis ex mandato Sacrae Regiae Maiestatis Domini mei clementissimi\ncollector"
+      ],
+      "justification": "Named as the vice-palatine of Podolia and tax collector filing a denunciation."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Podolia",
+      "mention_texts": [
+        "Terrarum Podoliae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The lands of Podolia governed by the vice-palatine."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Domini mei clementissimi"
+      ],
+      "justification": "The king on whose royal mandate the tax collection was instituted."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Beriano",
+      "mention_texts": [
+        "Leonardum\nBeeriano"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famatos",
+        "Italos"
+      ],
+      "justification": "Named among the Italian merchants subject to denunciation."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucam Chodzienko"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famatos",
+        "Cives Leopolienses"
+      ],
+      "justification": "Named as a citizen of Lviv subject to denunciation."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Semenum"
+      ],
+      "descriptive_mentions": [
+        "Nobiles et Famatos",
+        "Cives Leopolienses"
+      ],
+      "justification": "Named as a citizen of Lviv subject to denunciation."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "Pompeius de Campis",
+      "mention_texts": [
+        "Pompeium de Campis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as an individual subject to denunciation."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "person",
+      "canonical_name": "Cosmas de Campis",
+      "mention_texts": [
+        "Cosmam de campis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as an individual subject to denunciation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "widow_of",
+      "tail_entity_id": "E5",
+      "evidence": "Ipsis olim Alberti Chodell Consulis Leopoliensis viduam relictam"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "held_office_in",
+      "tail_entity_id": "E6",
+      "evidence": "Alberti Chodell Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Damianum Graecum Ciuem Samoscensem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "per Nobilem Dominum Mathiam Trzcinski tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Haisman Isaacowicz Iudaeus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "held_office_in",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislao Krzymicki Syndico Leopoliensi"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "held_office_in",
+      "tail_entity_id": "E16",
+      "evidence": "Sigismundus Błazowski Vicepalatinus Terrarum Podoliae"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Lucam Chodzienko Semenum Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Lucam Chodzienko Semenum Cives Leopolienses"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "document_id": "arc2/0544.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "residentia Consulari",
+        "Actaque nostra"
+      ],
+      "justification": "The municipal consular office and consular residence of Lviv issuing the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festum Sancti Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day used to date the court record."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of the court entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Wartyk Swatkowicz",
+      "mention_texts": [
+        "Wartuk",
+        "Wartyk Swatkowic",
+        "Wartyk Swatkowicz"
+      ],
+      "descriptive_mentions": [
+        "Armeno",
+        "Famatum",
+        "Armenum",
+        "Civem Leopoliensem",
+        "Actorem",
+        "praefatum Actorem",
+        "praenominatus",
+        "Actor"
+      ],
+      "justification": "Armenian citizen of Lviv acting as plaintiff regarding costs for an intermediate wall."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jurkowicz",
+      "mention_texts": [
+        "Joannis Jurkowicz",
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "praedicti"
+      ],
+      "justification": "Deceased person cited in the case."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jurkowicz",
+      "mention_texts": [
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [
+        "natu seniorem filium praedicti Joannis",
+        "comparantes"
+      ],
+      "justification": "Eldest son appearing on behalf of the deceased Joannes Jurkowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Actis Aduocatialibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The advocatial court records of Lviv cited as evidence by the plaintiff."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaum natu seniorem filium praedicti Joannis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civem Leopoliensem"
+    }
+  ]
+}

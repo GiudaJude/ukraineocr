@@ -1,0 +1,244 @@
+{
+  "document_id": "arc2/0112.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus",
+      "mention_texts": [
+        "Sigismundus"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "famulus"
+      ],
+      "justification": "Identified as a servant ordered to render an accounting of spices and medicines."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Spytek",
+      "mention_texts": [
+        "Martino Spytek"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "hero suo"
+      ],
+      "justification": "Identified as the master of Sigismundus to whom the accounting is due."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Petrus Janczynski",
+      "mention_texts": [
+        "Petri Janczynski"
+      ],
+      "descriptive_mentions": [
+        "Excellentissimi Domini",
+        "Medicinae Doctoris"
+      ],
+      "justification": "Doctor of medicine in whose presence the account is to be settled."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eodem Officio",
+        "Officii nostri",
+        "deposito nostro",
+        "Officium"
+      ],
+      "justification": "The municipal council court before which proceedings take place and deposits are held."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0038: Christophorus Beataszewski",
+      "mention_texts": [
+        "Christopheri Bratoszowski",
+        "Cristopherus Bratoszowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "successor"
+      ],
+      "justification": "Noble successor of Father Nicolaus Bratoszowski, placing an arrest on estate assets."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Bratoszowski",
+      "mention_texts": [
+        "Nicolai Bratoszowski"
+      ],
+      "descriptive_mentions": [
+        "quondam Patris",
+        "Plebani Malcicensis",
+        "dicto antecessori suo"
+      ],
+      "justification": "Deceased parish priest of Malczyce and father/predecessor of Cristopherus Bratoszowski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Malczyce",
+      "mention_texts": [
+        "Malcicensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Parish of which Nicolaus Bratoszowski was priest."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "48 florins",
+      "mention_texts": [
+        "quadraginta octo florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount held in deposit at the municipal office."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Konwicki",
+      "mention_texts": [
+        "Christophori Konwicki",
+        "Christophorum Konwicki"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Lanij Suburbani Leopoliensis",
+        "eundem"
+      ],
+      "justification": "Deceased butcher from the Lviv suburb whose estate is placed under arrest."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopolitanum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in titles, jurisdictions, and sub-urban origins."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "70 florins",
+      "mention_texts": [
+        "septuaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debt incurred by Christophorus Konwicki."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Novocampian",
+        "Paulum Novicampianum"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Splendidum Dominum",
+        "Medicinae Doctorem",
+        "Consulem Leopoliensem",
+        "actorem",
+        "Actore"
+      ],
+      "justification": "Doctor of medicine, city consul, and plaintiff in a building dispute."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kapinos",
+      "mention_texts": [
+        "Albertum Kapinos"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Muratorem Suburbanum Leopolitanum",
+        "praedictus citatus",
+        "citatus"
+      ],
+      "justification": "Suburban mason of Lviv cited regarding the construction of a wall."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Paulus Azymarin",
+      "mention_texts": [
+        "Pauli Azymarin"
+      ],
+      "descriptive_mentions": [
+        "generi eiusdem"
+      ],
+      "justification": "Son-in-law of Albertus Kapinos, on whose behalf Kapinos is also cited."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Paulus Aromatarius",
+      "mention_texts": [
+        "Pauli Aromatarii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of the adjacent house from which the boundary wall is to distinguish property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "servant_of",
+      "tail_entity_id": "E2",
+      "evidence": "praedictus Sigismundus famulus praedicto Martino Spytek hero suo"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "son_of",
+      "tail_entity_id": "E6",
+      "evidence": "tanquam successor quondam Patris Nicolai Bratoszowski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "priest_of",
+      "tail_entity_id": "E7",
+      "evidence": "Patris Nicolai Bratoszowski Plebani Malcicensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Christophori Konwicki Lanij Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "council_member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Paulum Novicampianum Medicinae Doctorem Consulem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Albertum Kapinos Muratorem Suburbanum Leopolitanum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E13",
+      "evidence": "nomine etiam Pauli Azymarin generi eiusdem"
+    }
+  ]
+}

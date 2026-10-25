@@ -1,0 +1,38 @@
+{
+  "document_id": "arc2/0224.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Dąbrowski",
+      "mention_texts": [
+        "Andreae Dąbrowski",
+        "Andreas Dabrowski Fandor"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Nobilis et Spectabilis",
+        "Collega noster Consularis"
+      ],
+      "justification": "Named in the recognition entry as a council colleague: 'Nobilis et Spectabilis D. Andreas Dabrowski Fandor Collega noster Consularis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis praesentibus"
+      ],
+      "justification": "The court records of the council into which the letters were inserted: 'Actis praesentibus inseri petiit et obtinuit'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Collega noster Consularis"
+    }
+  ]
+}

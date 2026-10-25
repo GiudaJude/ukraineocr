@@ -1,0 +1,233 @@
+{
+  "document_id": "arc2/0068.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "1000 florins",
+      "mention_texts": [
+        "mille florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money mentioned at the beginning of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council of Lviv acting in its official judicial capacity."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0039: Christophorus Lewicki",
+      "mention_texts": [
+        "Christophorus Lewicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Terendarius"
+      ],
+      "justification": "Noble arrendator appearing before the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0052: Joannes Waisz",
+      "mention_texts": [
+        "Waiss",
+        "Waisz"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased person whose successors are involved in the legal matter."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0049: Sigismundus Smietanka",
+      "mention_texts": [
+        "Smietanka",
+        "Sigismundi Smietanka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party in the legal dispute."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Paprocki",
+      "mention_texts": [
+        "Joannis Paproczki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble named in connection with the court appearance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Pforteski",
+      "mention_texts": [
+        "Jacobus Pforteski"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Dominus",
+        "Ordinarius Aduocatus"
+      ],
+      "justification": "Ordinary advocate of Lviv appearing before the court."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Jurati Ciuitatis Leopoliensis"
+      ],
+      "justification": "Sworn bench officer (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Jurati Ciuitatis Leopoliensis"
+      ],
+      "justification": "Sworn bench officer (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Folek",
+      "mention_texts": [
+        "Joannes Folek"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Jurati Ciuitatis Leopoliensis"
+      ],
+      "justification": "Sworn bench officer (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Ciuitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis istius"
+      ],
+      "justification": "City of Lviv, setting of the council and property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Antonius Torneator",
+      "mention_texts": [
+        "Antonii Torneator",
+        "Antonij Torneatoris"
+      ],
+      "descriptive_mentions": [
+        "olim Famati",
+        "Ciuis Leopoliensis",
+        "praefati olim"
+      ],
+      "justification": "Deceased burgher/turner whose tenement house is being divided."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "eorundem relictis vidua"
+      ],
+      "justification": "Widow of the deceased Antonius Torneator."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Hospital Street",
+      "mention_texts": [
+        "Platea Hospitalari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the tenement house is situated."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Holy Spirit Hospital",
+      "mention_texts": [
+        "Hospitale Sancti Spiritus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hospital adjacent to the property in question."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "official_of",
+      "tail_entity_id": "E11",
+      "evidence": "Andreas Simonowic ... Scabini Jurati Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "official_of",
+      "tail_entity_id": "E11",
+      "evidence": "Martinus Rottendorff ... Scabini Jurati Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "official_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannes Folek Scabini Jurati Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Antonij Torneatoris Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Antonij Torneatoris Ciuis Leopoliensis ab vna, et Honesta Anna eorundem relictis vidua"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in Ciuitatis istius Platea Hospitalari"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "located_in",
+      "tail_entity_id": "E14",
+      "evidence": "in Ciuitatis istius Platea Hospitalari penes lapideam Sartorem et Hospitale Sancti Spiritus vtrinque"
+    }
+  ]
+}

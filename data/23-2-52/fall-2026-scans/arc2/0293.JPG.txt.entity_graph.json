@@ -1,0 +1,298 @@
+{
+  "document_id": "arc2/0293.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0102: 500 florins",
+      "mention_texts": [
+        "quingentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "antiquorum"
+      ],
+      "justification": "Sum of debt mentioned as 'summa quingentorum florenorum antiquorum'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sczawiński",
+      "mention_texts": [
+        "Sczawiński",
+        "Szawij"
+      ],
+      "descriptive_mentions": [
+        "praefatum olim",
+        "praefati olim"
+      ],
+      "justification": "Deceased debtor by whose chirograph the debt is owed ('olim Sczawiński', 'olim Szawij')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "praesens Officium",
+        "officio",
+        "Officium nostri Iuridicum",
+        "Officio nostro",
+        "Actis praesentibus"
+      ],
+      "justification": "The municipal council/court office receiving the arrestum and before which the appearance occurs."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Cereat",
+      "mention_texts": [
+        "Petrus Cereat"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Graecus de Insula Ceo",
+        "Mercator aduentu Leopoliensis"
+      ],
+      "justification": "Creditor who files the arrestum ('Honestus Petrus Cereat Graecus de Insula Ceo Mercator aduentu Leopoliensis')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kea",
+      "mention_texts": [
+        "Insula Ceo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin of Petrus Cereat ('de Insula Ceo')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the date and descriptions."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0079: CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "centum quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "antiquorum"
+      ],
+      "justification": "Sum of 150 florins mentioned in the second arrest entry ('centum quinquaginta florenorum antiquorum')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post Octavas Corporis Christi Anno 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session: Monday after the Octave of Corpus Christi 1595."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Hanle",
+      "mention_texts": [
+        "Stanislaus Hanle"
+      ],
+      "descriptive_mentions": [
+        "Iuris Regii Scabinus",
+        "Scabinus"
+      ],
+      "justification": "Scabinus of Lviv mentioned alongside the entry."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kosczerski",
+      "mention_texts": [
+        "Lucas Kosczerski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotens et mandatarius Generosi Pauli Szerebkowicz"
+      ],
+      "justification": "Noble representative who personally appeared before the council."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szerebkowicz",
+      "mention_texts": [
+        "Pauli Szerebkowicz"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Regiae Maiestati Notarii"
+      ],
+      "justification": "Royal notary on whose behalf Lucas Kosczerski appears."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Adam Szaliński",
+      "mention_texts": [
+        "Adami Szaliński"
+      ],
+      "descriptive_mentions": [
+        "Famosi olim",
+        "Advocati"
+      ],
+      "justification": "Deceased advocate whose estate is referenced ('super bona Famosi olim Adami Szaliński Advocati')."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Friderico Gallo"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Scabino"
+      ],
+      "justification": "Lviv scabinus and curator of Henricus Czius's estate."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Henricus Czius",
+      "mention_texts": [
+        "Henrici Czius"
+      ],
+      "descriptive_mentions": [
+        "Famosi olim",
+        "Leopoliensis relictorum"
+      ],
+      "justification": "Deceased burger of Lviv whose estate curators are presented with the royal letter."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Tertius"
+      ],
+      "descriptive_mentions": [
+        "Regiae Maiestati",
+        "Sacrae Regiae Maiestatis",
+        "Dei gratia Rex Poloniae Magnus Dux Lithuaniae, Russiae, Prussiae, Masoviae, Samogitiae, Liuoniae-que, et ceterorum, nec non Suecorum Gottorum Vandalorumque Rex Haereditarius"
+      ],
+      "justification": "King Sigismund III Vasa, issuer of the letters presented."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the royal titulary."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "Grand Duchy of Lithuania",
+      "mention_texts": [
+        "Lithuaniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lithuania in the royal titulary."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "Ruthenia",
+      "mention_texts": [
+        "Russiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Red Ruthenia in the royal titulary."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "location",
+      "canonical_name": "Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Prussia in the royal titulary."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "location",
+      "canonical_name": "Mazovia",
+      "mention_texts": [
+        "Masoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mazovia in the royal titulary."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "location",
+      "canonical_name": "Samogitia",
+      "mention_texts": [
+        "Samogitiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Samogitia in the royal titulary."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "location",
+      "canonical_name": "Livonia",
+      "mention_texts": [
+        "Liuoniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Livonia in the royal titulary."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "originates_from",
+      "tail_entity_id": "E5",
+      "evidence": "Petrus Cereat Graecus de Insula Ceo"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Lucas Kosczerski Plenipotens et mandatarius Generosi Pauli Szerebkowicz"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "Friderico Gallo Scabino et Curatoribus bonorum morte Famosi olim Henrici Czius Leopoliensis relictorum, ab Officio nostro designatis"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "ruler_of",
+      "tail_entity_id": "E16",
+      "evidence": "Sigismundus Tertius Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "ruler_of",
+      "tail_entity_id": "E17",
+      "evidence": "Magnus Dux Lithuaniae"
+    }
+  ]
+}

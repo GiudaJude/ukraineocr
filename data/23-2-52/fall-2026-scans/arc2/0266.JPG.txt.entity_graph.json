@@ -1,0 +1,258 @@
+{
+  "document_id": "arc2/0266.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensium",
+        "Leopolitanis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis eiusdem"
+      ],
+      "justification": "Known corpus location Leopolis / Lwów, referenced by city council and civic descriptors."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Krzerziowski",
+      "mention_texts": [
+        "Stanislaus Krzerziowsky"
+      ],
+      "descriptive_mentions": [
+        "Patricius Dominus",
+        "collega noster Consularis",
+        "tutor et Plenipotens"
+      ],
+      "justification": "Councilor and legal representative acting on behalf of Sophia Hamel."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sophia Hamel",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "viduae relictae",
+        "Principalis suae",
+        "Fundatricis"
+      ],
+      "justification": "Widow of the late Stanislaus Hamel and founder of the chapel."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Hamel",
+      "mention_texts": [
+        "Stanislai",
+        "Hamel"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, late husband of Sophia."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio",
+        "Civitatis eiusdem Leopoliensis Suburbio"
+      ],
+      "justification": "Known suburban district of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Janicowskie",
+      "mention_texts": [
+        "Janicowskie"
+      ],
+      "descriptive_mentions": [
+        "bona Camerae",
+        "praedium"
+      ],
+      "justification": "Suburban estate / property located in the Kraków suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Chapel of the Transfiguration of Christ and Saint Sophia",
+      "mention_texts": [
+        "Transfigurationis Christi et Beatae Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Capellam",
+        "Capellae",
+        "Capella"
+      ],
+      "justification": "Chapel founded on the estate by Sophia Hamel."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Dombrowski Sambor",
+      "mention_texts": [
+        "Andreae Dombrowski Sambor"
+      ],
+      "descriptive_mentions": [
+        "Domino",
+        "Civitatis eiusdem Consuli"
+      ],
+      "justification": "Consul of Lviv who previously received the estate and chapel as dowry."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Marcus Rurka",
+      "mention_texts": [
+        "Marcus Surma Rurka",
+        "Marci Rurka"
+      ],
+      "descriptive_mentions": [
+        "Praesidi",
+        "Suburbanorum Leopoliensium"
+      ],
+      "justification": "Suburban resident of Lviv recipient of the funds."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis",
+        "coniugis Suburbanorum Leopoliensium"
+      ],
+      "justification": "Wife of Marcus Rurka."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentos florenos Pecuniae maioris et numeri communis Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "Florenum"
+      ],
+      "justification": "Sum of 200 florins endowed for the chapel."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Praesens Officium",
+        "Officio moderno"
+      ],
+      "justification": "The municipal council/bench in whose records the foundation is recorded."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Transfiguration",
+      "mention_texts": [
+        "Transfigurationis Domini"
+      ],
+      "descriptive_mentions": [
+        "festis"
+      ],
+      "justification": "Feast day on which annual singing mass is prescribed."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Sophia",
+      "mention_texts": [
+        "die Sanctae Sophiae"
+      ],
+      "descriptive_mentions": [
+        "festis"
+      ],
+      "justification": "Feast day on which mass is prescribed."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "Feast of All Saints",
+      "mention_texts": [
+        "Omnium vero Sanctorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day used as reference date for commemorative Friday mass."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is legal representative of",
+      "tail_entity_id": "E3",
+      "evidence": "Dominus Stanislaus Krzerziowsky collega noster Consularis tanquam tutor et Plenipotens Honestae Sophiae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is spouse of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestae Sophiae Famati Stanislai olim Hamel Civis Leopoliensis viduae relictae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "lived in",
+      "tail_entity_id": "E1",
+      "evidence": "Famati Stanislai olim Hamel Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located in",
+      "tail_entity_id": "E5",
+      "evidence": "in Civitatis eiusdem Leopoliensis Suburbio Cracoviensi seu Janicowskie nuncupata"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located in",
+      "tail_entity_id": "E1",
+      "evidence": "Civitatis eiusdem Leopoliensis Suburbio Cracoviensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located in",
+      "tail_entity_id": "E6",
+      "evidence": "erexit ibidem iuxta praedium et fundavit pro amore et gloria Dei Capellam"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member of",
+      "tail_entity_id": "E12",
+      "evidence": "Domino Andreae Dombrowski Sambor Civitatis eiusdem Consuli"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member of",
+      "tail_entity_id": "E12",
+      "evidence": "Stanislaus Krzerziowsky collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "is spouse of",
+      "tail_entity_id": "E10",
+      "evidence": "Marci Rurka et Honestae Annae coniugis"
+    }
+  ]
+}

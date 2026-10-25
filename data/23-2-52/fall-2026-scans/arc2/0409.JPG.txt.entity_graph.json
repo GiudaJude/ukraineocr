@@ -1,0 +1,226 @@
+{
+  "document_id": "arc2/0409.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes a Rzeszow",
+      "mention_texts": [
+        "Joannes a Rzeszow"
+      ],
+      "descriptive_mentions": [
+        "Nobiles"
+      ],
+      "justification": "Appears as one of the noble parties acknowledging receipt of a testamentary legacy."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon a Felsztin",
+      "mention_texts": [
+        "Simon a Felsztin"
+      ],
+      "descriptive_mentions": [
+        "Nobiles"
+      ],
+      "justification": "Appears as one of the noble parties acknowledging receipt of a testamentary legacy."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Dzierzow",
+      "mention_texts": [
+        "Martinus a Słolomicsz Dzierzow",
+        "Martinus Dzierzow"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "praedictus Nobilis"
+      ],
+      "justification": "Appears as a noble party acting with his guardian Paulus Krauz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Krauz",
+      "mention_texts": [
+        "Paulum Krauz"
+      ],
+      "descriptive_mentions": [
+        "tutorem retro assumptum",
+        "tutorem suum",
+        "eundem tutorem suum"
+      ],
+      "justification": "Named as the guardian acting on behalf of Martinus Dzierzow."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "6 Polish florins",
+      "mention_texts": [
+        "sex Florenos Polonicales",
+        "sex Florenos",
+        "sex Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money bequeathed by Albertus Woycicki."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Woycicki",
+      "mention_texts": [
+        "Albertum Woycicki",
+        "Woyscicki",
+        "Woyszcziki"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Civem Leopoliensem",
+        "eiusdem"
+      ],
+      "justification": "Deceased citizen of Lviv whose testamentary legacy is being quieted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Metropolitae Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Metropolitan cathedral of Lviv referenced in the text."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szanc",
+      "mention_texts": [
+        "Thomae Szanczo",
+        "Szanczoni",
+        "Szanczonem"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini",
+        "eiusdem Woyscicki executoris testamenti",
+        "eodem",
+        "praedictum"
+      ],
+      "justification": "Lviv bencher and testamentary executor of Albertus Woycicki."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis",
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv municipal consular office issuing a decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Lothendorff",
+        "Martino Lothendorff"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus et Civis Leopoliensis",
+        "praefato",
+        "vices hinc Advocati gerente"
+      ],
+      "justification": "Bencher and citizen of Lviv acting in the matter of evicted horses."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Semiołkowski",
+      "mention_texts": [
+        "Sigismundi Ssemiołkowski",
+        "Sigismun-",
+        "Sigismundus Ssemiołkowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "plenipotentis Nobilis Thomae Chmieliowski",
+        "praefatus"
+      ],
+      "justification": "Noble plenipotentiary representing Thomas Chmielowski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Thomas Chmielowski",
+      "mention_texts": [
+        "Thoma Chmielowicz",
+        "Thomae Chmieliowski",
+        "Thomam Chmielowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "ipsum Principalem"
+      ],
+      "justification": "Principal party in the decree, represented by Sigismundus Semiołkowski."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Boguszewski",
+      "mention_texts": [
+        "Boguszewski"
+      ],
+      "descriptive_mentions": [
+        "eundem"
+      ],
+      "justification": "Individual who removed horses from the civic stable."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "per eundem tutorem suum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "executor_of",
+      "tail_entity_id": "E6",
+      "evidence": "vti eiusdem Woyscicki executoris testamenti"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E13",
+      "evidence": "vti plenipotentis Nobilis Thomae Chmieliowski"
+    }
+  ]
+}

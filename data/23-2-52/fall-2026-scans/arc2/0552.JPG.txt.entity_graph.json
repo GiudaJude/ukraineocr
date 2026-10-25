@@ -1,0 +1,236 @@
+{
+  "document_id": "arc2/0552.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis",
+        "Leopoliensem",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Civitatis"
+      ],
+      "justification": "Urban and civic administrative mentions identifying the city of Lwów."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Smieszek",
+      "mention_texts": [
+        "Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Scabini Iurati Civitatis Leopoliensis"
+      ],
+      "justification": "One of the sworn benchers (scabini) of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Proskopienie",
+      "mention_texts": [
+        "Bartholomaei Proskopienie",
+        "Proskopienie",
+        "Bartholomaeus Proskopienie"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sectoris Suburbani Leopoliensis",
+        "praedicti",
+        "eiusdem",
+        "praefatus"
+      ],
+      "justification": "Suburban cutter/butcher requesting the assessment of his house and barn."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [
+        "suburbio eiusdem Civitatis Cracoviensi dicto"
+      ],
+      "justification": "The Kraków suburb of Lviv where Proskopienie's house is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Błonie",
+      "mention_texts": [
+        "Blonye"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Directional location near the meadows (Błonie) outside the city."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Friderici Falli"
+      ],
+      "descriptive_mentions": [
+        "Honorati"
+      ],
+      "justification": "Neighbor adjacent to whose property the assessed house is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "120 Polish florins",
+      "mention_texts": [
+        "centum viginti Florenis Polonicalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The assessed value of the house and garden."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Piszczyniuk",
+      "mention_texts": [
+        "Joannis Piszczyniuka"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Creditoris sui"
+      ],
+      "justification": "Creditor of Bartholomaeus Proskopienie."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Officium"
+      ],
+      "justification": "The consular court issuing the decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Sokol",
+        "Joannem Sokol",
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum",
+        "Civem Leopoliensem",
+        "Tutorem",
+        "Actorem",
+        "praedictus",
+        "Famatus",
+        "Actoris",
+        "Tutoris"
+      ],
+      "justification": "Lviv bencher and citizen appointed tutor, stepping down from the tutelage."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Albertus Chyliziowicz",
+      "mention_texts": [
+        "Albertum Chyliziowicza"
+      ],
+      "descriptive_mentions": [
+        "Familiam",
+        "testamentarium Tutorem"
+      ],
+      "justification": "Testamentary tutor of Albertus Bienkowic."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kunath",
+      "mention_texts": [
+        "Alberti Kunath"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "factoris alterius Tutoris testamentarij"
+      ],
+      "justification": "Deceased factor/testamentary tutor mentioned in the decree."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Albertus Bienkowic",
+      "mention_texts": [
+        "Alberti"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "filij olim Andreae Bienkonowic Sectoris filij",
+        "eiusdem",
+        "minoris"
+      ],
+      "justification": "Minor son of the deceased Andreas Bienkowic under tutelage."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0705: Andreas Bienkowic",
+      "mention_texts": [
+        "Bienkowic",
+        "Andreae Bienkonowic"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Sectoris"
+      ],
+      "justification": "Deceased suburban cutter and father of Albertus Bienkowic."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis"
+      ],
+      "descriptive_mentions": [
+        "Domini sui clementissimi"
+      ],
+      "justification": "The King of Poland referenced by the actor."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "creditor_of",
+      "tail_entity_id": "E3",
+      "evidence": "in persona Famati Joannis Piszczyniuka Creditoris sui praefatus Bartholomaeus Proskopienie"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E14",
+      "evidence": "Alberti filij olim Andreae Bienkonowic Sectoris"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "Albertum Chyliziowicza testamentarium Tutorem ... ad Tutoriam in personam eiusdem Alberti minoris"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "Joannem Sokol Scabinum Civem Leopoliensem ... constitutum Tutorem ... ad Tutoriam in personam eiusdem Alberti minoris"
+    }
+  ]
+}

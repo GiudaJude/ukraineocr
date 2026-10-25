@@ -1,0 +1,167 @@
+{
+  "document_id": "arc2/0553.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Turenius",
+      "mention_texts": [
+        "D. Stanislao",
+        "D. Stanislao Turenio"
+      ],
+      "descriptive_mentions": [
+        "GG."
+      ],
+      "justification": "Party in the first legal decision who was absolved from costs and damages."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Cząstkowina",
+      "mention_texts": [
+        "Alberto Cząstkowina"
+      ],
+      "descriptive_mentions": [
+        "GG."
+      ],
+      "justification": "Co-party named alongside Stanislaus Turenius in the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal council issuing the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Łopieński",
+      "mention_texts": [
+        "Szopiński",
+        "Bartholomaeum Łopyieński",
+        "Bartholomaei Łopyieński"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "actorem"
+      ],
+      "justification": "Plaintiff in the tenancy dispute concerning his hereditary house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Aurifex",
+      "mention_texts": [
+        "Albertum Aurificem",
+        "alber"
+      ],
+      "descriptive_mentions": [
+        "ciuem",
+        "Filium",
+        "citatus",
+        "conductor"
+      ],
+      "justification": "Goldsmith and tenant ordered to vacate the house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Luce Curiensis"
+      ],
+      "descriptive_mentions": [
+        "ad uocati Suburbij Italiceñ"
+      ],
+      "justification": "Father of Albertus Aurifex and advocate of the Halych Suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbij Italiceñ"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Halych Suburb of Lviv, where Lucas was advocate (corrupted OCR Italiceñ for Halicien)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Chuszko Smietanka",
+      "mention_texts": [
+        "Chuszko Smetanka"
+      ],
+      "descriptive_mentions": [
+        "Laboriosus"
+      ],
+      "justification": "Peasant/laborer selling his share in a house and garden."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Dobrostmor",
+      "mention_texts": [
+        "Dobrostmor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of origin of Chuszko Smietanka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jaroka",
+      "mention_texts": [
+        "Jaroka"
+      ],
+      "descriptive_mentions": [
+        "Coniugis sua"
+      ],
+      "justification": "Wife of Chuszko Smietanka whose share is also sold."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "suburbio eiusdem Ciuitatis Cracouiensis dicto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków Suburb of Lviv where the property being sold is situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Błonie",
+      "mention_texts": [
+        "Błonie"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location/meadow adjacent to the property in the Kraków Suburb."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Albertum Aurificem Luce Curiensis ciuem ad uocati Suburbij Italiceñ Filium"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Jaroka Coniugis sua"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Laboriosus Chuszko Smetanka de Dobrostmor"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "document_id": "arc2/0205.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Didacus",
+      "mention_texts": [
+        "Didacius"
+      ],
+      "descriptive_mentions": [
+        "Medicinae Doctor",
+        "Collega noster Consularis"
+      ],
+      "justification": "Didacius, medical doctor and consular colleague who reported the orphaned status of Anna to the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Officii nostri"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office to which the matter was reported and which appointed guardians."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna Bromataria",
+      "mention_texts": [
+        "Annae",
+        "Agnethae Annae"
+      ],
+      "descriptive_mentions": [
+        "Pudicae",
+        "filiae legitimae aetate minoris",
+        "pupillae"
+      ],
+      "justification": "Orphaned minor daughter of Mathias Bromatarius and Agnetha."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias Bromatarius",
+      "mention_texts": [
+        "Mathiae Bromatarii"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "coniugum"
+      ],
+      "justification": "Deceased father of the orphan Anna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Agnetha Mathiaszowa",
+      "mention_texts": [
+        "Agnetae",
+        "Agnetha Mathiaszowa",
+        "Agnetha"
+      ],
+      "descriptive_mentions": [
+        "coniugum",
+        "sorore",
+        "coniuge sua nuper vita functa"
+      ],
+      "justification": "Deceased mother of Anna, wife of Mathias Bromatarius."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Frolc",
+      "mention_texts": [
+        "Jacobum Frolc"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Leopoliensium",
+        "tutores",
+        "propinquiores"
+      ],
+      "justification": "Lviv bencher appointed as guardian to Anna."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Adamus Smieszek",
+      "mention_texts": [
+        "Adamum Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ciuem Leopolienses",
+        "tutores",
+        "propinquiores"
+      ],
+      "justification": "Citizen of Lviv appointed as guardian to Anna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensium",
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in civic titles and suburban designations."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Petrus Przybyło",
+      "mention_texts": [
+        "Petrus Przybyło"
+      ],
+      "descriptive_mentions": [
+        "Seniores Walachici"
+      ],
+      "justification": "Wallachian elder appearing to report on the transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szawer",
+      "mention_texts": [
+        "Paulus Szawer"
+      ],
+      "descriptive_mentions": [
+        "Seniores Walachici"
+      ],
+      "justification": "Wallachian elder appearing to report on the transaction."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Marussa Matwiiowicz",
+      "mention_texts": [
+        "Marussae Matwiiowicza",
+        "Matwiiowa",
+        "Iwanowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Suburbanae Leopoliensis"
+      ],
+      "justification": "Suburban resident selling her property to her son."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Paulus Iwan",
+      "mention_texts": [
+        "Pauli Iwan",
+        "Iwan Cytuzowic"
+      ],
+      "descriptive_mentions": [
+        "Filio suae legitimo"
+      ],
+      "justification": "Son of Marussa to whom she sold her house and property."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Wallachian Parish",
+      "mention_texts": [
+        "parochia Walachialium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Parish where the transferred house and property were situated."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonicalis"
+      ],
+      "justification": "Purchase price paid for the property."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the resignation of the property was to be confirmed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Annae Famati olim Mathiae Bromatarii et Agnetae coniugum filiae legitimae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Annae Famati olim Mathiae Bromatarii et Agnetae coniugum filiae legitimae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Mathiae Bromatarii et Agnetae coniugum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "vti pupillae Tutores eidem Agnethae Annae assignauimus in tutores Honoratum Jacobum Frolc"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "eidem Agnethae Annae assignauimus in tutores ... Famatum Adamum Smieszek"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "venditionis titulo rendedit Fortunulam suam propriam cum domo in parochia Walachialium Filio suae legitimo successoribus ... in personam Pauli Iwan"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Marussae Matwiiowicza Suburbanae Leopoliensis"
+    }
+  ]
+}

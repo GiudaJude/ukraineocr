@@ -1,0 +1,62 @@
+{
+  "document_id": "arc2/0437.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Torosius",
+      "mention_texts": [
+        "Torosio",
+        "Toroszy"
+      ],
+      "descriptive_mentions": [
+        "emptorem suum",
+        "Emptori suo",
+        "praefatus Emptor",
+        "praefatum Emptorem suum",
+        "Emptoris"
+      ],
+      "justification": "Buyer of the half-share of the stone house mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Ilias",
+      "mention_texts": [
+        "Ilias"
+      ],
+      "descriptive_mentions": [
+        "honesti",
+        "filij praefatorum venditorum"
+      ],
+      "justification": "Son of the sellers who consents to the sale of the property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobus"
+      ],
+      "descriptive_mentions": [
+        "honesti",
+        "filij praefatorum venditorum"
+      ],
+      "justification": "Son of the sellers and brother of Ilias who consents to the sale."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "honesti Ilias et Jacobus filij praefatorum venditorum"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "honesti Ilias et Jacobus filij praefatorum venditorum"
+    }
+  ]
+}

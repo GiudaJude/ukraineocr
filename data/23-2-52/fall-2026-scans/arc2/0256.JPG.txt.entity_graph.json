@@ -1,0 +1,306 @@
+{
+  "document_id": "arc2/0256.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Exposito",
+        "Judicium Expositum",
+        "Judicio memoriali",
+        "Judicio nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the parties personally appear."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catharina Woycik",
+      "mention_texts": [
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "filiae",
+        "illa prata"
+      ],
+      "justification": "Daughter of Albertus Woycik and Anna, married to Jacobus Gramniczski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha Woycik",
+      "mention_texts": [
+        "Elisabetha"
+      ],
+      "descriptive_mentions": [
+        "filiae",
+        "haec vero"
+      ],
+      "justification": "Daughter of Albertus Woycik and Anna, married to Stanislaus Jardzeiski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Woycik",
+      "mention_texts": [
+        "Alberti Woycik"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Pellionis",
+        "Civis Leopoliensis",
+        "olim Parentis suorum"
+      ],
+      "justification": "Deceased furrier and citizen of Lviv, father of Catharina and Elisabetha."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Rosseczka Anna"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "matre sua",
+        "coniuge"
+      ],
+      "justification": "Late wife of Albertus Woycik and mother of Catharina and Elisabetha."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Radzissowski",
+      "mention_texts": [
+        "Simonem Radzissowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum ac Nobilem",
+        "Civem Praemisliensem",
+        "tutore"
+      ],
+      "justification": "Citizen of Przemyśl acting as guardian/tutor."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0048: Przemyśl",
+      "mention_texts": [
+        "Praemisliensem",
+        "Praemisliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Poland of which Simon Radzissowski and others are citizens."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Gramniczski",
+      "mention_texts": [
+        "Jacobum Gramniczski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "seniorem",
+        "maritos",
+        "legitimos maritos",
+        "Plenipotentes suos"
+      ],
+      "justification": "Husband and appointed plenipotentiary of Catharina."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Jardzeiski",
+      "mention_texts": [
+        "Stanislaum Jardzeiski"
+      ],
+      "descriptive_mentions": [
+        "maritos",
+        "legitimos maritos",
+        "Plenipotentes suos"
+      ],
+      "justification": "Husband and appointed plenipotentiary of Elisabetha."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Czorniczkowska House",
+      "mention_texts": [
+        "Czorniczkowska"
+      ],
+      "descriptive_mentions": [
+        "suas haereditarias domus lapideas"
+      ],
+      "justification": "Inherited masonry tenement house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "platea Zewaniensi",
+      "mention_texts": [
+        "platea Zewaniensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the Czorniczkowska house is situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis Leopoliensis",
+        "Leopoli",
+        "urbis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis illius",
+        "urbis eiusdem"
+      ],
+      "justification": "City of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta post Festum Corporis Christi anno Millesimo quingentesimo nonagesimo Quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of transaction."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Dominorum Consulum Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Honoratorum"
+      ],
+      "justification": "Lviv City Council referenced for official acts and decrees."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "sabbato post Dominicam Cantate festum anno eodem Millesimo quingentesimo nonagesimo Quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of judgment by the councilors."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Czorniatka",
+      "mention_texts": [
+        "Hieronimum Czorniatrk"
+      ],
+      "descriptive_mentions": [
+        "Tutores"
+      ],
+      "justification": "Named party/guardian involved in the sale."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Michael Bryczel",
+      "mention_texts": [
+        "Michaelem Bryczel"
+      ],
+      "descriptive_mentions": [
+        "Tutores",
+        "liones"
+      ],
+      "justification": "Named co-guardian involved in the sale."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Simon Spas",
+      "mention_texts": [
+        "Simoni Spas"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi Leopoliensi",
+        "emptori"
+      ],
+      "justification": "Citizen of Lviv, buyer of the property."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Castle Court",
+      "mention_texts": [
+        "Acta Castrensia Leopoliensis",
+        "Acta Castrensia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castle records/court where the contract and transfer are to be recorded."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Catharina et Elisabetha filiae Famati Alberti Woycik"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Catharina et Elisabetha filiae Famati Alberti Woycik"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "cum olim Rosseczka Anna Sculteti Woynicensis matre sua coniuge procreatae filiae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "cum olim Rosseczka Anna Sculteti Woynicensis matre sua coniuge procreatae filiae"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Alberti Woycik Pellionis Civis Leopoliensis cum olim Rosseczka Anna Sculteti Woynicensis matre sua coniuge"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "illa prata Catharina Famatum Jacobum Gramniczski seniorem ... legitimos maritos in veros ac legitimos Plenipotentes suos fecerunt"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "haec vero Elisabetha maritos Stanislaum Jardzeiski legitimos maritos in veros ac legitimos Plenipotentes suos fecerunt"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "domus lapideas Czorniczkowska in platea Zewaniensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "domus lapideas Czorniczkowska in platea Zewaniensi Civitatis Leopoliensis"
+    }
+  ]
+}

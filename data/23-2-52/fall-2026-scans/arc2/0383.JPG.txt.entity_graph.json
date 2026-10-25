@@ -1,0 +1,120 @@
+{
+  "document_id": "arc2/0383.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Felix Gnot",
+      "mention_texts": [
+        "Gnoti Felicis"
+      ],
+      "descriptive_mentions": [
+        "praedicti"
+      ],
+      "justification": "Named party whose scroll was requested to be opened in contumaciam."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "officioque nostro",
+        "Officio praesenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/bench conducting and recording the proceedings."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Blasius Boletka",
+      "mention_texts": [
+        "Blazium Boletka",
+        "Blasius Boletka"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "Honesti",
+        "textor Suburbanus Leopoliensis",
+        "mariti sui"
+      ],
+      "justification": "Weaver from the Lviv suburb entering into an agreement with his wife."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Catherina Boletka",
+      "mention_texts": [
+        "Catherinam",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges",
+        "uxor eiusdem legitima"
+      ],
+      "justification": "Wife of Blasius Boletka."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv referenced in civic titles and origin."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Murowani",
+      "mention_texts": [
+        "Albertum Murowani"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Judicem Civitatis huius Leopoliensis",
+        "tutorem"
+      ],
+      "justification": "Judge of the city of Lviv appointed as guardian (tutor) for Catherina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1575-08-27",
+      "mention_texts": [
+        "feria Sabbato post Festum Sancti Bartholomaei Apostoli proximo Anno Domini 1575"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous agreement mentioned in the text."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Blasius Boletka textor Suburbanus Leopoliensis ex una et Catherina uxor eiusdem legitima"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E5",
+      "evidence": "Blasius Boletka textor Suburbanus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Albertum Murowani Judicem Civitatis huius Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E4",
+      "evidence": "haec vero per Honoratum Albertum Murowani Judicem Civitatis huius Leopoliensis tutorem sibi ad rem praesentem de praefati mariti sui assensu assumptum"
+    }
+  ]
+}

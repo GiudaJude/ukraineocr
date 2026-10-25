@@ -1,0 +1,68 @@
+{
+  "document_id": "arc2/0177.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Sustorowski",
+      "mention_texts": [
+        "Petro Sustorowski",
+        "Sustorowskim"
+      ],
+      "descriptive_mentions": [
+        "praefato"
+      ],
+      "justification": "Named party with whom a compromise was made concerning the last will."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [
+        "Actis"
+      ],
+      "justification": "Consular court/office of Lviv referenced in the record extracts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in adjectival form."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Wednesday after Pentecost 1594",
+      "mention_texts": [
+        "Anno Domini 94 feria quarta post festa Sollemnitatis Pentecostes proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the compromise act in the court records."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "28 February 1595",
+      "mention_texts": [
+        "1595 die 28 mensis Februarii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry or extract."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Consularibus Leopoliensibus"
+    }
+  ]
+}

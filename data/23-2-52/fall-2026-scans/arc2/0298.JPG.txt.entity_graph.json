@@ -1,0 +1,180 @@
+{
+  "document_id": "arc2/0298.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Josephus Wolfowicz",
+      "mention_texts": [
+        "Josephi Wolfowicz",
+        "Josephus Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "ille"
+      ],
+      "justification": "Named in 'Protestatio Josephi Wolfowicz Comparens personaliter Famatus Josephus Wolfowicz Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoli",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Locations and jurisdictional descriptors mentioning Lviv: 'Civis Leopoliensis', 'Tribunum Leopoliensem', 'Actum Leopoli'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Caspar Wezykzynski",
+      "mention_texts": [
+        "Casparum Wezykzynski"
+      ],
+      "descriptive_mentions": [
+        "Generosum",
+        "Tribunum Leopoliensem",
+        "actore",
+        "praedicti Generosi",
+        "Generosus",
+        "Actoris"
+      ],
+      "justification": "Named as plaintiff/adversary: 'contra Generosum Casparum Wezykzynski Tribunum Leopoliensem in certa causa contra se actore'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii",
+        "Actis praesentibus",
+        "Officium"
+      ],
+      "justification": "Municipal court institution noted as 'sessionis Officii', 'Actis praesentibus', 'Officium deliberavit'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta post \ndiem Sancti Pauli Epiphaniae Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [
+        "die hodierna",
+        "die hesterna",
+        "ad sabbathum proximum"
+      ],
+      "justification": "Date of the entry: 'feria quinta post diem Sancti Pauli Epiphaniae Anno Domini 1595'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Senk",
+      "mention_texts": [
+        "Senk"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Subject of the estate inventory: 'Relatio Inuentarii bonorum Senk'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Doktorowicz",
+      "mention_texts": [
+        "Albertus \nDoktorowicz"
+      ],
+      "descriptive_mentions": [
+        "Dominus",
+        "Honorati et Famati",
+        "locum Ordinarii Advocati Leopoliensis tenens"
+      ],
+      "justification": "Named official: 'Dominus Albertus Doktorowicz locum Ordinarii Advocati Leopoliensis tenens'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Frideri- \ncus Gallus"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Named as scabinus: 'Fridericus Gallus et Tomas Kares Scabini Iurati Civitatis Leopoliensis'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Tomas Kares",
+      "mention_texts": [
+        "Tomas Kares"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Named as scabinus: 'Tomas Kares Scabini Iurati Civitatis Leopoliensis'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kostecka",
+      "mention_texts": [
+        "Lucae Kostecka"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotentis Generosi"
+      ],
+      "justification": "Named plenipotentiary: 'Nobilis Lucae Kostecka Plenipotentis Generosi'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Josephus Wolfowicz Civis \nLeopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "tribune_of",
+      "tail_entity_id": "E2",
+      "evidence": "Casparum Wezykzynski Tri- \nbunum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "protested_against",
+      "tail_entity_id": "E3",
+      "evidence": "Josephus Wolfowicz... protestatus est in et contra Generosum Casparum Wezykzynski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "deputy_advocate_of",
+      "tail_entity_id": "E2",
+      "evidence": "Albertus \nDoktorowicz locum Ordinarii Advocati Leopoliensis tenens"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "scabinus_of",
+      "tail_entity_id": "E2",
+      "evidence": "Frideri- \ncus Gallus et Tomas Kares Scabini Iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "scabinus_of",
+      "tail_entity_id": "E2",
+      "evidence": "Tomas Kares Scabini Iurati Civitatis Leopoliensis"
+    }
+  ]
+}

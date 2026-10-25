@@ -1,0 +1,152 @@
+{
+  "document_id": "arc2/0140.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Bienkowic",
+      "mention_texts": [
+        "Alberti Bienkowic",
+        "Alberti"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "filii",
+        "Pupillum",
+        "suo Pupillo",
+        "dicti Pupilli",
+        "Pupillum"
+      ],
+      "justification": "Named in the header and described as the ward (pupillus), son of the late Andreas Bienkowic."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Bienkowic",
+      "mention_texts": [
+        "Andreae",
+        "Bienkowic"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Suburbani Leopolitanus"
+      ],
+      "justification": "Father of Albertus Bienkowic, deceased suburbanite of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Rzyczynski",
+      "mention_texts": [
+        "Albertus Rzyczynski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Patronus"
+      ],
+      "justification": "Noble patron presenting the ward to the council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sydolszewic",
+      "mention_texts": [
+        "Albertus Sydolszewic"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Pistor",
+        "Contubernalis Suburbanus Leopolitanus",
+        "tutor testamentarius"
+      ],
+      "justification": "Baker and testamentary guardian of Albertus Bienkowic."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaum Anserinum"
+      ],
+      "descriptive_mentions": [
+        "Dominum",
+        "Collegam",
+        "virum Consularem",
+        "Domini Collegae nostri",
+        "supremum pupillorum in ea Civitate Provisores"
+      ],
+      "justification": "Councilor requested and confirmed to take on the curatorship of the ward."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Albertus Lurak",
+      "mention_texts": [
+        "Alberti Lurak"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Sartoris",
+        "tutoris etiam testamentarii"
+      ],
+      "justification": "Deceased tailor and testamentary guardian of Albertus Bienkowic."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitanus"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City of Lviv, referenced adjectivally and by municipal term."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nobis",
+        "Officio nostro",
+        "Officium"
+      ],
+      "justification": "The municipal council acting officially in confirming the guardianship."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Ingenui Alberti Andreae olim Bienkowic Suburbani Leopolitanus filii"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "Albertus Sydolszewic Pistor Contubernalis Suburbanus Leopolitanus uti tutor testamentarius Ingenui Alberti"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "Alberti Lurak Sartoris tutoris etiam testamentarii in personam et bona dicti Pupilli"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "petierunt una cum eodem suo Pupillo plene Dominum Stanislaum Anserinum ... quatenus munus Curatoriae ... suscipere velit"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Dominum Stanislaum Anserinum Collegam virum Consularem"
+    }
+  ]
+}

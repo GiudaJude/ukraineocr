@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/0088.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia olim Lopiankowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as the mother of the daughter whose maternal share was transferred."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Skarbińska House",
+      "mention_texts": [
+        "domum Skarbinska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Real estate property acquired by purchase into which the maternal share was transferred."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "65 florins",
+      "mention_texts": [
+        "sexaginta quinque florens"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Maternal share amount evaluated and transferred."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris",
+        "Officium Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The municipal council of Lviv recording the transaction and issuing the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Doliator",
+      "mention_texts": [
+        "Alberto Doliatori"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person to whom the legal resignation of the specified shares is to be made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sommer",
+      "mention_texts": [
+        "Joannem Sommerem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civitatis Leopoliensis",
+        "suum verum legitimum indubitatumque Actorem et mandatarium",
+        "Eius suus"
+      ],
+      "justification": "Appointed legal representative and alderman of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in official titles and court jurisdictions."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which the resignation is to take place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dąbrowski",
+      "mention_texts": [
+        "Joannem Dąbrowski",
+        "Dąbrowski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "actorem"
+      ],
+      "justification": "Actor representing himself and other co-successors of the late Lucas."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucae",
+        "Luca",
+        "Lucae Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim",
+        "antiqui Notarii Castri Zidacsoviensis",
+        "olim"
+      ],
+      "justification": "Former castle notary of Żydaczów whose successors are seeking recovery of debt."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0026: Żydaczów",
+      "mention_texts": [
+        "Castri Zidacsoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locality/castle where Lucas formerly served as notary."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Joannes Crauss",
+      "mention_texts": [
+        "Joannis Crauss",
+        "Crauss",
+        "Crauis"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "ciuis"
+      ],
+      "justification": "Deceased citizen who contracted the debt whose successors are ordered to pay."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam eandem"
+      ],
+      "justification": "Debt amount of 300 florins decreed to be repaid."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festo S. Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date by which the debt must be paid."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Honoratorum Domini Advocati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial office named as the venue of referral should payment not be made."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E7",
+      "evidence": "Honoratum Joannem Sommerem Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in Judicio Exposito Bannito Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E10",
+      "evidence": "Joannem Dąbrowski sue et caeterorum consuccessorum Nobilis olim Lucae antiqui Notarii Castri Zidacsoviensis actorem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E11",
+      "evidence": "Nobilis olim Lucae antiqui Notarii Castri Zidacsoviensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "adjudicates_case_between",
+      "tail_entity_id": "E9",
+      "evidence": "in causa et actione inter Famatum Joannem Dąbrowski sue et caeterorum consuccessorum Nobilis olim Lucae ... et successores Famati olim Joannis Crauss ... Officium Consulare Leopoliensis expectinato deliberationem suam partium controversiis debite examinatis decrevit"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "adjudicates_case_between",
+      "tail_entity_id": "E12",
+      "evidence": "in causa et actione inter Famatum Joannem Dąbrowski sue et caeterorum consuccessorum Nobilis olim Lucae ... et successores Famati olim Joannis Crauss ... Officium Consulare Leopoliensis expectinato deliberationem suam partium controversiis debite examinatis decrevit"
+    }
+  ]
+}

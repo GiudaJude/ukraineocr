@@ -1,0 +1,194 @@
+{
+  "document_id": "arc2/0209.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Agnes Pawlikowna",
+      "mention_texts": [
+        "Agnes Pawlikowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Named as the principal actor making the protestation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Civitatis Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Urban jurisdiction and origin mentioned repeatedly throughout the legal text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0058: Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobum Gorszalk"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Ballionem",
+        "Tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Appears assisting Agnes Pawlikowna as her legal tutor/guardian."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Rzymiaszka",
+      "mention_texts": [
+        "Gregorium Rzymiaszk-"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Curiisoni Tragaeum",
+        "Civem Leopoliensem"
+      ],
+      "justification": "The cited tenant against whom the protestation is directed."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Serafińska House",
+      "mention_texts": [
+        "Seraphiniska"
+      ],
+      "descriptive_mentions": [
+        "domus ... appellatae",
+        "domum eandem"
+      ],
+      "justification": "The house whose rent was left unpaid."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Czerkieska Street",
+      "mention_texts": [
+        "platea Czerkosiensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The street where the Serafińska house is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "Anno praeterito nonagesimo quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year referenced for the feast of Dedication of St. Michael."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno eodem currenti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Current year of the proceedings."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "Officii eiusdem",
+        "Officii"
+      ],
+      "justification": "The judicial authority rendering the decree and receiving protests."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Shoemakers' Guild",
+      "mention_texts": [
+        "Contubernio Sutorum",
+        "Contubernii Sutorum"
+      ],
+      "descriptive_mentions": [
+        "Contubernio",
+        "Contubernii"
+      ],
+      "justification": "The craft guild involved as plaintiffs in the shoemaking decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Pleszkowicz",
+      "mention_texts": [
+        "Petrum Pleszkowicz",
+        "Petri Pleszkowic",
+        "Petrus Pleszkowic",
+        "Petrus Pleszkowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Cive Leopoliensi",
+        "citatum",
+        "praedicti",
+        "praefatus"
+      ],
+      "justification": "Individual cited for illicit shoemaking work outside the guild."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Agnes Pawlikowna Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobum Gorszalk Ballionem Tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Gregorium Rzymiaszk-bati Curiisoni Tragaeum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "domus Seraphiniska appellatae in platea Czerkosiensi sitae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "based_in",
+      "tail_entity_id": "E2",
+      "evidence": "Contubernii Sutorum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Petrum Pleszkowicz Ermione Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "based_in",
+      "tail_entity_id": "E2",
+      "evidence": "Officii Consularis Leopoliensis"
+    }
+  ]
+}

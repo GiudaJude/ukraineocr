@@ -1,0 +1,125 @@
+{
+  "document_id": "arc2/0077.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sokołowski",
+      "mention_texts": [
+        "Albertus Sokolowski",
+        "Albertum Sokolowski"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "conjuges",
+        "ille",
+        "maritum tutorem suum legitimum",
+        "tutorem suum"
+      ],
+      "justification": "Appears before the court personally and as guardian of his wife and her sister."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Margarita Lzonowska",
+      "mention_texts": [
+        "Margarita Lzonowska"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "conjuges",
+        "haec"
+      ],
+      "justification": "Wife of Albertus Sokołowski and co-constituent of the plenipotentiary."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Elisabeth",
+      "mention_texts": [
+        "Delia Zelisabeth"
+      ],
+      "descriptive_mentions": [
+        "soror uterina",
+        "successores",
+        "filia"
+      ],
+      "justification": "Uterine sister and co-heir/daughter of the deceased Anna Żelazowska."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus",
+      "mention_texts": [
+        "Stanisslai"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual mentioned in connection with Elisabeth ('praefata Stanisslai')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Żelazowska",
+      "mention_texts": [
+        "Annae Zelazowska"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim"
+      ],
+      "justification": "Deceased noblewoman whose daughters/successors appoint a procurator."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Korzewski",
+      "mention_texts": [
+        "Stanisslaum Korszewski"
+      ],
+      "descriptive_mentions": [
+        "Gnarum",
+        "Plenipo- et mandatarium",
+        "Plenipotenti suo",
+        "praedictum suum Plenipotentem"
+      ],
+      "justification": "Appointed plenipotentiary and general mandatory."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nobiles Albertus Sokolowski et Margarita Lzonowska conjuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "soror uterina"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "filia Nobilis olim Annae Zelazowska"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "fecerunt, constituerunt et solemniter ordinauerunt in suum verum legitimum indubitatumque Plenipo- et mandatarium Gnarum Stanisslaum Korszewski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E2",
+      "evidence": "fecerunt, constituerunt et solemniter ordinauerunt in suum verum legitimum indubitatumque Plenipo- et mandatarium Gnarum Stanisslaum Korszewski"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "fecerunt, constituerunt et solemniter ordinauerunt in suum verum legitimum indubitatumque Plenipo- et mandatarium Gnarum Stanisslaum Korszewski"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "document_id": "arc2/0284.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jarosz Sutor",
+      "mention_texts": [
+        "Jarosza"
+      ],
+      "descriptive_mentions": [
+        "Sutoris"
+      ],
+      "justification": "Creditor mentioned in the settlement of debts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Siemir",
+      "mention_texts": [
+        "Siemiro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Creditor paid by Ozimek."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Ozimek",
+      "mention_texts": [
+        "Ozimek"
+      ],
+      "descriptive_mentions": [
+        "Praefatus",
+        "eiusdem"
+      ],
+      "justification": "Deceased person who handled the sale and debts of the goods of Stanislaus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Fictor",
+      "mention_texts": [
+        "Stanislai",
+        "Stanislao"
+      ],
+      "descriptive_mentions": [
+        "dicti",
+        "fictoris",
+        "ipso patre"
+      ],
+      "justification": "Father of Caspar, owner of the goods described in the act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Caspar",
+        "Caspar Molendies",
+        "Casparo"
+      ],
+      "descriptive_mentions": [
+        "ipse",
+        "idem",
+        "Molendinatori",
+        "praefati"
+      ],
+      "justification": "Son of Stanislaus who registered the cession and acquitted Gregorina."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Gregorina",
+      "mention_texts": [
+        "Gregorinam"
+      ],
+      "descriptive_mentions": [
+        "dictam",
+        "Kuratorem"
+      ],
+      "justification": "Curator who was acquitted by Caspar."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Pasieka",
+      "mention_texts": [
+        "Pasieka"
+      ],
+      "descriptive_mentions": [
+        "villae"
+      ],
+      "justification": "Village whose advocate and jurors sealed the cession letter."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "decim Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money accepted for the sold fields."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "12 florins 11 groschen",
+      "mention_texts": [
+        "Florenis pecunia duodecim et grossis undecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum involved in the acquittal of Gregorina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E5",
+      "evidence": "ab ipso patre Stanislao praefati Casparo Molendinatori"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "released",
+      "tail_entity_id": "E6",
+      "evidence": "ipse Caspar dictam Gregorinam Kuratorem quietauit"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "paid",
+      "tail_entity_id": "E2",
+      "evidence": "Siemiro vero debuerat quod debebatur soluit eidem Praefatus Ozimek"
+    }
+  ]
+}

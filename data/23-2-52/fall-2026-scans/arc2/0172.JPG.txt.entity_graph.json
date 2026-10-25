@@ -1,0 +1,173 @@
+{
+  "document_id": "arc2/0172.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sixt",
+      "mention_texts": [
+        "Joannes Sixt"
+      ],
+      "descriptive_mentions": [
+        "is ipse"
+      ],
+      "justification": "Named as the buyer of the garden in the opening section of the entry: 'is ipse Joannes Sixt per emptionem praesentem in possessione praefati Horti'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio Civili"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The court where the plenipotentiary is to act: 'in Exposito Judicio Civili proxime celebrando praesentem'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gaspar Gulinski",
+        "Gasparo Gulinski"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis Dominus",
+        "Collega noster Consularis",
+        "spectabili Domino",
+        "recognoscens"
+      ],
+      "justification": "Lviv councilman issuing the acquittance: 'Spectabilis Dominus Gaspar Gulinski Collega noster Consularis palam publice benevoleque recognouit'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis iuris Consularibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Council authority referenced via its acts: 'in iisdem Actis iuris Consularibus Inseinserata'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "500 Polish florins",
+      "mention_texts": [
+        "quingentos florenos pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summam pecuniae superius specificata",
+        "summam praefatam"
+      ],
+      "justification": "Sum paid and acknowledged: 'se recepisse levasse ac plenarie numerasse quingentos florenos pecuniae et numeri Polonicalis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Karczewic",
+        "Sebastiano Karczewic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "coniuges"
+      ],
+      "justification": "Citizen of Lviv paying the sum: 'a Famato Sebastiano Karczewic Cive Leopoliensi'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Sebastian's citizenship and location of the house: 'Cive Leopoliensi', 'hic Leopoli consistenti'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Turka",
+        "Dorothea",
+        "Turska"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "fratrum legitima ipsius coniuge",
+        "Honesta Dorothea",
+        "coniuges"
+      ],
+      "justification": "Wife of Sebastianus Karczewic, formerly surnamed Turska: 'ab Honesta Dorothea fratrum legitima ipsius coniuge, olim vero primarum nuptiarum Turska nuncupata'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Bakers' Street",
+      "mention_texts": [
+        "platea Pistorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the house is situated: 'in platea Pistorum hic Leopoli consistenti'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Strobnikowska House",
+      "mention_texts": [
+        "Strobnikowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae"
+      ],
+      "justification": "Stone house bought on Bakers' Street: 'domus lapideae in platea Pistorum hic Leopoli consistenti Strobnikowska vocata'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Saturday after the Feast of Saint Martin 1593",
+      "mention_texts": [
+        "sabbato post festum Beati Martini Episcopi proximo Anno Domini 1591 tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous obligation entered in the council books."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Spectabilis Dominus Gaspar Gulinski Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E7",
+      "evidence": "Sebastiano Karczewic Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sebastiano Karczewic Cive Leopoliensi necnon ab Honesta Dorothea fratrum legitima ipsius coniuge"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "domus lapideae in platea Pistorum hic Leopoli consistenti Strobnikowska vocata"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in platea Pistorum hic Leopoli consistenti"
+    }
+  ]
+}

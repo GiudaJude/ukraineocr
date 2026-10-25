@@ -1,0 +1,226 @@
+{
+  "document_id": "arc2/0271.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simon"
+      ],
+      "descriptive_mentions": [
+        "Scabino"
+      ],
+      "justification": "Named as scabinus in the first record fragment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Italus",
+      "mention_texts": [
+        "Sebastianus Italij"
+      ],
+      "descriptive_mentions": [
+        "Prouidus",
+        "Muratoria artis Socius",
+        "coniuges",
+        "Suburbani Leopolienses",
+        "vir",
+        "maritum",
+        "tutorem suum legitimo"
+      ],
+      "justification": "Bricklayer's journeyman suburbanite selling part of a house and plot."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Suburbani Leopolienses",
+        "vxor"
+      ],
+      "justification": "Wife of Sebastianus Italus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Halitiense"
+      ],
+      "descriptive_mentions": [
+        "Suburbis"
+      ],
+      "justification": "Location where the house and plot are situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Kruszelnicka Street",
+      "mention_texts": [
+        "platea Kruslwa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the property is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Church of St. Lawrence",
+      "mention_texts": [
+        "Templi S. Laurentii"
+      ],
+      "descriptive_mentions": [
+        "Coemeterium"
+      ],
+      "justification": "Cemetery of the Church of St. Lawrence adjoins the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sophia Skrubska",
+      "mention_texts": [
+        "Sophia Skrubnska"
+      ],
+      "descriptive_mentions": [
+        "vidua"
+      ],
+      "justification": "Widow from whom the property was previously acquired."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Zaremba",
+      "mention_texts": [
+        "Andreas Zaremba",
+        "Andrea Zaremba"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "Honestus",
+        "coniuges",
+        "Suburbani Leopolienses",
+        "vir ipse",
+        "maritum",
+        "tutore suum legitimum"
+      ],
+      "justification": "Buyer of the property and debtor in the subsequent obligation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Coniugibus",
+        "coniuges",
+        "Suburbani Leopolienses",
+        "vxor"
+      ],
+      "justification": "Wife of Andreas Zaremba."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta Florenis pecuniae Polonical"
+      ],
+      "descriptive_mentions": [
+        "debito"
+      ],
+      "justification": "Purchase price paid for the house and plot."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Suburbani"
+      ],
+      "justification": "City whose suburbanites the parties are."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Jarozimski",
+      "mention_texts": [
+        "Petrus Dziuk",
+        "Petro Jarozimsky"
+      ],
+      "descriptive_mentions": [
+        "Excellenti",
+        "D.",
+        "Medecinae Doctori"
+      ],
+      "justification": "Doctor of Medicine and creditor to Andreas Zaremba."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "25 Polish florins",
+      "mention_texts": [
+        "viginti quinque Florenos pecuniae Polonicales"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount owed by Andreas Zaremba and Anna to Petrus Jarozimski."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Nativity of Christ",
+      "mention_texts": [
+        "festum Nativitatis Christi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Due date for repayment of the debt."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal office overseeing intromission upon default."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Prouidus Sebastianus Italij Muratoria artis Socius et Sophia coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Andrea Zaremba et Anna Coniugibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "mucietatis eiusdem Suburbis dicto Halitiense in platea Kruslwa"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in platea Kruslwa penes Coemeterium Templi S. Laurentii"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "document_id": "arc2/0017.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Identifies the city of Lviv in various adjectival and locative forms."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "mention_texts": [
+        "Semionem",
+        "Simon",
+        "Simon Karbowicom"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum Civitatis Leopoliensis",
+        "Plenipotentem",
+        "mandatarium",
+        "Plenipotens",
+        "Discretis",
+        "fratribus germanis",
+        "legitimis successoribus",
+        "Creditoribus"
+      ],
+      "justification": "Identified as Semion the bencher and proxy in the first entry, and Simon Karbowic/Karszowic, brother and creditor, in the second entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The formal judicial assembly/banned court of Lviv where the proxy acts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Slachetka",
+      "mention_texts": [
+        "Stanislai Slachetta",
+        "Stanislaus Slachetka"
+      ],
+      "descriptive_mentions": [
+        "Sutores",
+        "Famatus",
+        "Serrifaber",
+        "coniuges",
+        "maritum",
+        "tutorem suum"
+      ],
+      "justification": "A locksmith/shoemaker citizen of Lviv who recognizes a debt along with his wife."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuges",
+        "illa"
+      ],
+      "justification": "Wife of Stanislaus Slachetka, co-acknowledging the debt under her husband's tutelage."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastiano"
+      ],
+      "descriptive_mentions": [
+        "Famatas",
+        "fratribus germanis",
+        "legitimis successoribus",
+        "Creditoribus"
+      ],
+      "justification": "One of the three brothers and heirs of the late Albertus Karsz/Karbowicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Karszowic",
+      "mention_texts": [
+        "Mathia"
+      ],
+      "descriptive_mentions": [
+        "Discretis",
+        "fratribus germanis",
+        "legitimis successoribus",
+        "Creditoribus"
+      ],
+      "justification": "Brother of Sebastian and Simon, creditor and heir of late Albertus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Karsz",
+      "mention_texts": [
+        "Alberti Karbowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased citizen of Lviv whose sons and legitimate successors are the creditors."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "1300 florins",
+      "mention_texts": [
+        "mille recentorum florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The total purchase sum of the stone house from which the debt originates."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "560 Polish florins",
+      "mention_texts": [
+        "florenos quingentos sexaginta numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "in regno currentis"
+      ],
+      "justification": "The debt amount recognized as owed to the brothers."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Feast of Pentecost",
+      "mention_texts": [
+        "Festo Pente-"
+      ],
+      "descriptive_mentions": [
+        "sacratissimo"
+      ],
+      "justification": "The feast day scheduled for the payment of the debt installment."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislaus Slachetka Serrifaber et Honesta Dorothea coniuges"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "illa vero per eundem maritum ut legitimum tutorem suum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sebastiano Civi Leopoliensi Mathia et Simon Karbowicom fratribus germanis Famati olim Alberti Karbowicz Civis Leopoliensis legitimis successoribus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sebastiano Civi Leopoliensi Mathia et Simon Karbowicom fratribus germanis Famati olim Alberti Karbowicz Civis Leopoliensis legitimis successoribus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sebastiano Civi Leopoliensi Mathia et Simon Karbowicom fratribus germanis Famati olim Alberti Karbowicz Civis Leopoliensis legitimis successoribus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E7",
+      "evidence": "Sebastiano Civi Leopoliensi Mathia et Simon Karbowicom fratribus germanis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Sebastiano Civi Leopoliensi Mathia et Simon Karbowicom fratribus germanis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Mathia et Simon Karbowicom fratribus germanis"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "document_id": "arc2/0150.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar Josepowic",
+      "mention_texts": [
+        "Casparo Josepowic",
+        "Casparo",
+        "Casparis",
+        "Casparis Josepowic"
+      ],
+      "descriptive_mentions": [
+        "Praenominato",
+        "Aromatario",
+        "Civi Leopoliensi",
+        "eiusque legitimis successoribus",
+        "ab eodem Casparo Aromatario",
+        "eundem",
+        "Posteritate ipsius",
+        "memorati Casparis satisfatoris et condescensarii eiusque successorum",
+        "Famati Casparis Josepowic Aromatarii"
+      ],
+      "justification": "Pharmacist and citizen of Lviv receiving cession of property rights."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, appearing in the civic designation of Caspar Josepowic."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "700 florins",
+      "mention_texts": [
+        "florenorum septingentorum",
+        "septingentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa praefata",
+        "summam"
+      ],
+      "justification": "Monetary sum involved in the obligation and cession."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "16 florins 6 groschen",
+      "mention_texts": [
+        "florenorum sedecim et grossorum sex"
+      ],
+      "descriptive_mentions": [
+        "impensarum"
+      ],
+      "justification": "Monetary sum specified for repair expenses."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Clara Urbanowna",
+      "mention_texts": [
+        "Clara",
+        "Claram Vrbanowna"
+      ],
+      "descriptive_mentions": [
+        "eadem praefata Clara",
+        "Honestam Claram Vrbanowna Famati olim Valentini Kudlik Aromatarii viduam relictam",
+        "viduam relictam"
+      ],
+      "justification": "Widow of Valentinus Kudlik, ceding obligation rights to Caspar Josepowic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Actis praesentibus",
+        "Officio nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/chancellery of Lviv recording the deed and appeal."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Anna Ulianka",
+      "mention_texts": [
+        "Krawczowiczowna",
+        "Anna Vluiananka",
+        "Anna Vluianinka"
+      ],
+      "descriptive_mentions": [
+        "Honesta Anna Vluianinka Famati olim Valentini Scammyssoris vidua relicta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of Valentinus Scammyssor appearing in court regarding an appeal."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1621",
+      "mention_texts": [
+        "1621"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year given at the start of the court act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Scammyssor",
+      "mention_texts": [
+        "Valentini Scammyssoris"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased husband of Anna Ulianka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Tarnowska House",
+      "mention_texts": [
+        "domo Tarnowoska Szperzerzam"
+      ],
+      "descriptive_mentions": [
+        "domo obligata",
+        "praedicte domus lapideae"
+      ],
+      "justification": "The house on which the obligation sum was secured."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Kudlik",
+      "mention_texts": [
+        "Valentini Kudlik"
+      ],
+      "descriptive_mentions": [
+        "maritum olim suum",
+        "Famati olim",
+        "Aromatarii"
+      ],
+      "justification": "Deceased apothecary and husband of Clara Urbanowna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Casparo Josepowic Aromatario Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Claram Vrbanowna Famati olim Valentini Kudlik Aromatarii viduam relictam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Anna Vluianinka Famati olim Valentini Scammyssoris vidua relicta"
+    }
+  ]
+}

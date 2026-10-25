@@ -1,0 +1,120 @@
+{
+  "document_id": "arc2/0280.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis huius"
+      ],
+      "justification": "Named city in the text ('Civitatis Leopoliensis', 'Civitatis huius Leopoliensis')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Advocatiali"
+      ],
+      "descriptive_mentions": [
+        "Protocolo Testamentorum Civitatis Leopoliensis sub sigillo Advocatiali"
+      ],
+      "justification": "The advocatial seal and wills registry of Lviv referenced in the document."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetem"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "relictam viduam",
+        "coniugum",
+        "viduae"
+      ],
+      "justification": "The widow of the deceased, identified as 'Honestam Agnetem praedicti olim Famossi Deypeet relictam viduam'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Deypeet",
+      "mention_texts": [
+        "Deypeet"
+      ],
+      "descriptive_mentions": [
+        "Famossi",
+        "mariti sui",
+        "mariti",
+        "coniugum",
+        "defunctum",
+        "defuncti"
+      ],
+      "justification": "The deceased husband of Agnes, named as 'Famossi Deypeet'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consulari Officio"
+      ],
+      "descriptive_mentions": [
+        "Officium",
+        "Officio"
+      ],
+      "justification": "The municipal consular office/council acting in the dispute ('Consulari Officio', 'Officium')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "8 September 1588",
+      "mention_texts": [
+        "feria quarta in Festiba festi Nativitatis Beatissimae Virginis Mariae Anno 1580 octauo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous marital ordination recorded before the council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Regalem ... maiestatem",
+        "Sacrae Regiae Maiestatis"
+      ],
+      "justification": "The reigning king whose royal mandate and caducity rights are cited."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Andreas Mroszcki",
+      "mention_texts": [
+        "Andreas Mroszcki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual acting on behalf of the widow ('Andreas Mroszcki nomine viduae')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestam Agnetem praedicti olim Famossi Deypeet relictam viduam"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Andreas Mroszcki nomine viduae"
+    }
+  ]
+}

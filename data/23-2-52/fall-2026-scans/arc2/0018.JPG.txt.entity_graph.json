@@ -1,0 +1,43 @@
+{
+  "document_id": "arc2/0018.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Anno Domini 159 Quinto"
+      ],
+      "descriptive_mentions": [
+        "anno eodem currenti proxime venturo"
+      ],
+      "justification": "Year specified in the payment conditions."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "200 Polish florins",
+      "mention_texts": [
+        "ducentos florenos"
+      ],
+      "descriptive_mentions": [
+        "Vltimam",
+        "totam integram summam",
+        "summa haec praefata",
+        "summa contracta"
+      ],
+      "justification": "Installment amount due on the Feast of Saint Michael."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Michael",
+      "mention_texts": [
+        "festo Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day designated as the term for paying 200 florins."
+    }
+  ],
+  "relationships": []
+}

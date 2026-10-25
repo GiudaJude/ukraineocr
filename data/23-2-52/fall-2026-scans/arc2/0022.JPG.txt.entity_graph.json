@@ -1,0 +1,100 @@
+{
+  "document_id": "arc2/0022.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis",
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City governing council issuing the decree."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ossowski",
+      "mention_texts": [
+        "Joanne Olszowskj",
+        "Joannem Olszowski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellionem",
+        "Ciuem Leopoliensem",
+        "testamenti Honestae olim Annae Grodkowska viduae Executores",
+        "actorem"
+      ],
+      "justification": "Furrier and citizen of Lviv acting as executor of Anna Grodkowska's estate."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Annae Grodkowska"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "olim",
+        "viduae",
+        "testatricis",
+        "praefatae"
+      ],
+      "justification": "Deceased widow whose estate inventory is disputed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Barbara Stegmeyrowa",
+      "mention_texts": [
+        "Barbaram Pegmiewowa",
+        "Pegmiewowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Ciuem Leopoliensem",
+        "matrem",
+        "citatam",
+        "praedicta"
+      ],
+      "justification": "Mother of the testatrix Anna Grodkowska, cited before the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings took place."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "7 January 1595",
+      "mention_texts": [
+        "Sabbato post Festum Epiphaniarum Domini proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded council act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Judicio testatricis matrem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "executor_of",
+      "tail_entity_id": "E3",
+      "evidence": "testamenti Honestae olim Annae Grodkowska viduae Executores suos et aliorum coexecutorum nominibus actorem"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "document_id": "arc2/0100.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Adam Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Guardian appointed to assist the seller in legal proceedings."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Czarny",
+      "mention_texts": [
+        "Mathiam Czarny",
+        "Czarny"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "olim",
+        "Pistorem",
+        "Pistoris",
+        "coniuges parentes fassi"
+      ],
+      "justification": "Deceased baker, father of the vendor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Margaretha",
+      "mention_texts": [
+        "Margaretham"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "olim",
+        "coniuges parentes fassi"
+      ],
+      "justification": "Deceased mother of the vendor and wife of Mathias Czarny."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szopek",
+      "mention_texts": [
+        "Stanislai Szopek"
+      ],
+      "descriptive_mentions": [
+        "Pistores stantes"
+      ],
+      "justification": "Baker whose stall adjoins the sold property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Korphitz",
+      "mention_texts": [
+        "Korphitz"
+      ],
+      "descriptive_mentions": [
+        "Pistores stantes"
+      ],
+      "justification": "Baker whose stall adjoins the sold property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Augustinus Folicharz",
+      "mention_texts": [
+        "Augustino Folicharz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "eiusque legitimis successoribus",
+        "eundem emptorem suum"
+      ],
+      "justification": "Buyer of the baker's stall inheritance share."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "precio"
+      ],
+      "justification": "Sale price of the baker's stall share."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court before whose Senior Scabinus resignation is appointed."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Domus Dymitrowska",
+      "mention_texts": [
+        "Domus Dymitrowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "House mentioned in the entry heading."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Andreas Moszicki",
+      "mention_texts": [
+        "Andreas Moszicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotens"
+      ],
+      "justification": "Plenipotentiary representing the goldsmith Gregorius Bunicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Bunicz",
+      "mention_texts": [
+        "Gregorii Bunicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aurifabri",
+        "Civis Leopoliensis",
+        "principalis sui",
+        "Principalis"
+      ],
+      "justification": "Goldsmith and Lviv citizen represented by Andreas Moszicki."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "City of Lviv referenced in the text."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Głoskowski",
+      "mention_texts": [
+        "Nicolaus Głoskowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Heredes"
+      ],
+      "justification": "Heir of the Dunajowska tenement house."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Krol",
+      "mention_texts": [
+        "Sebastianus Krol"
+      ],
+      "descriptive_mentions": [
+        "Heredes"
+      ],
+      "justification": "Co-heir of the Dunajowska tenement house."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Dunajowska House",
+      "mention_texts": [
+        "Dunaiowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae Dunaiowska"
+      ],
+      "justification": "Stone tenement house located on Kraków Street."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "Czacoviensi"
+      ],
+      "descriptive_mentions": [
+        "platea Czacoviensi"
+      ],
+      "justification": "Street in Lviv where the Dunajowska house is situated."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "Eiernoszewska House",
+      "mention_texts": [
+        "Eiernoszewska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring house to the Dunajowska tenement."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum florenos pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Payment sum for the shared intermediate wall."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathiam Czarny Pistorem et Margaretham coniuges parentes fassi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "representative_of",
+      "tail_entity_id": "E11",
+      "evidence": "Andreas Moszicki Plenipotens Famati Gregorii Bunicz Aurifabri Civis Leopoliensis nomine eiusdem principalis sui"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Gregorii Bunicz Aurifabri Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "owner_of",
+      "tail_entity_id": "E15",
+      "evidence": "Nicolaus Głoskowski et Sebastianus Krol Heredes domus lapideae Dunaiowska"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "owner_of",
+      "tail_entity_id": "E15",
+      "evidence": "Nicolaus Głoskowski et Sebastianus Krol Heredes domus lapideae Dunaiowska"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "located_in",
+      "tail_entity_id": "E16",
+      "evidence": "domus lapideae Dunaiowska in Civitatis istius platea Czacoviensi"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "in Civitatis istius platea Czacoviensi"
+    }
+  ]
+}

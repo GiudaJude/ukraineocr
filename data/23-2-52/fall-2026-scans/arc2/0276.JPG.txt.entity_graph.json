@@ -1,0 +1,174 @@
+{
+  "document_id": "arc2/0276.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Wawrzyniec Gembicki",
+      "mention_texts": [
+        "Laurentius Gembicki",
+        "Laurentii Gembicky",
+        "Gembicki"
+      ],
+      "descriptive_mentions": [
+        "Canonici Cracoviensis",
+        "Sacrae Regiae Maiestatis Secretarii",
+        "Domini",
+        "Canonico Cracoviensi",
+        "Secretario"
+      ],
+      "justification": "Named recipient of the king's caducary grant and royal secretary."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rupert",
+      "mention_texts": [
+        "Stanislaus Rupert"
+      ],
+      "descriptive_mentions": [
+        "Gwarus"
+      ],
+      "justification": "Named in the header/margin notes of the entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officium Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officio",
+        "Actis Praesentibus",
+        "Proconsuli et Consulibus Civitatis"
+      ],
+      "justification": "City council office before which the mandate and letters were presented."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zeszłozowski",
+      "mention_texts": [
+        "Stanislaus Zeszlozowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Mandatarius"
+      ],
+      "justification": "Noble proxy representing Laurentius Gembicki before the council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Duperit",
+      "mention_texts": [
+        "Francisci Duperit",
+        "Levita",
+        "Joannis Duperit"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "vita functi",
+        "famati olim",
+        "defuncti"
+      ],
+      "justification": "Deceased burgher whose estate lapsed to the crown (referred to as Franciscus Duperit and Joannes Duperit)."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "Civitatis"
+      ],
+      "justification": "City of Lviv, home of the deceased and seat of the council."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus Tertius",
+        "Sigismundus Rex"
+      ],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "Dei gratia Rex Poloniae Magnus Dux Lithuaniae, Russiae, Prussiae, Masoviae, Samogitiae, Liuoniaeque etc. nec non Suecorum, Gottorum, Vandalorumque Haereditarius Rex",
+        "S. R. Maiestatis"
+      ],
+      "justification": "King Sigismund III of Poland who issued the caducary decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis",
+        "Cracoviensi",
+        "Cracoviae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków, where Laurentius Gembicki was canon and where the royal charter was given."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Maciej Pstrokoński",
+      "mention_texts": [
+        "Mathias Pstrokonski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal secretary / official subscribing the royal letter."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "20 May 1595",
+      "mention_texts": [
+        "vige- sima mensis Maij Anno Domini M.D.XCV."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of issuance of the royal caducary letter."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "acts_on_behalf_of",
+      "tail_entity_id": "E1",
+      "evidence": "Nobilis Stanislaus Zeszlozowski Cleri D. Laurentii Gembicky Canonici Cracoviensis Sacrae Regiae Maiestatis Secretarii Mandatarius, nomine et ex parte praedicti Domini obtulit eidem Officio certas Literas Caduci"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "appears_before",
+      "tail_entity_id": "E3",
+      "evidence": "Coram Officio Consulari Leopoliensi comparens personaliter Nobilis Stanislaus Zeszlozowski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "issues_caducary_grant_to",
+      "tail_entity_id": "E1",
+      "evidence": "omnia et universa bona mobilia et immobilia... post et famati olim Joannis Duperit als Levita Civis Leopoliensis... iure Fisci nostro et Nobis Latentes Gembicki Canonico Cracoviensi et Secretario perpetuo et irrevoca- bili donationis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Francisci Duperit dicti Levita Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "has_affiliation_with",
+      "tail_entity_id": "E8",
+      "evidence": "Laurentii Gembicky Canonici Cracoviensis"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "document_id": "arc2/0358.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris Consularibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The document references prior division registered in the council books (Actis nostris Consularibus)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0033: Jaroszowska House",
+      "mention_texts": [
+        "Jaroszkowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "suam propriam et haereditariam",
+        "lapideae",
+        "domus lapideae"
+      ],
+      "justification": "The property being sold is half of the stone house named Jaroszkowska (Jaroszowska)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gansziorz",
+      "mention_texts": [
+        "Joannis Gansziorz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of the adjacent house on one side."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0149: Stanislaus Aberman",
+      "mention_texts": [
+        "Stanislai Aberman",
+        "Haberman"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning the house on the other side, mentioned also as Haberman."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0816: Gregorius",
+      "mention_texts": [
+        "Gregory"
+      ],
+      "descriptive_mentions": [
+        "praedicti",
+        "factoris"
+      ],
+      "justification": "Factor whose share of the house was divided and is being sold."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Saturday after the Feast of Saint Hedwig 1586",
+      "mention_texts": [
+        "Sabbato post Festum Sanctae Hedvigis proximo Anno Domini 1586"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous division recorded in the council acts."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Swiątkowic",
+      "mention_texts": [
+        "Joanni Swiąthkowic"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Aromatario",
+        "Civi Leopoliensi",
+        "genero Domini Melchioris Scholcz Wolfowicz Scabini",
+        "eundem",
+        "emptori suo"
+      ],
+      "justification": "The buyer of the half-tenement, identified as an apothecary and citizen of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Melchior Scholz Wolfowicz",
+      "mention_texts": [
+        "Melchioris Scholcz Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Scabini"
+      ],
+      "justification": "Lviv alderman (scabinus), father-in-law of Joannes Swiątkowic."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in Joannes Swiątkowic's citizenship status (Civi Leopoliensi)."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "Quingentorum Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The purchase price paid for the half of the house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E8",
+      "evidence": "genero Domini Melchioris Scholcz Wolfowicz Scabini"
+    }
+  ]
+}

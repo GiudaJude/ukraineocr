@@ -1,0 +1,187 @@
+{
+  "document_id": "arc2/0450.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baran",
+      "mention_texts": [
+        "Joanne Baran",
+        "Joannis Baran"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Muratores"
+      ],
+      "justification": "Appears as the party at whose instance the witnesses testify ('pro Joanne Baran', 'ad instantiam Honesti Joannis Baran Muratores citati')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Biesniarz",
+      "mention_texts": [
+        "Joannes Biesniarz"
+      ],
+      "descriptive_mentions": [
+        "Hh.",
+        "Cerdones Suburbani Leopolienses",
+        "testes"
+      ],
+      "justification": "Named as a tanner and suburban witness appearing before the court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Wojciech Starinoga",
+      "mention_texts": [
+        "Woytko Starinoga"
+      ],
+      "descriptive_mentions": [
+        "Cerdones Suburbani Leopolienses",
+        "testes"
+      ],
+      "justification": "Named alongside Joannes Biesniarz as a tanner and witness."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Civitatis Leopoliensis",
+        "Civis Leopoliensis",
+        "Civitate hac"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lwów referenced across suburban resident titles, municipal offices, and location of the house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrowski",
+      "mention_texts": [
+        "Gregorius Dobrowski"
+      ],
+      "descriptive_mentions": [
+        "Excellens",
+        "D.",
+        "Iuris Utriusque Doctor",
+        "Advocatus ordinarius"
+      ],
+      "justification": "Appears as the ordinary advocate (doctor of both laws) making a legal inspection/relation."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0303: PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgangus Berck"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Appears as a sworn bench member (scabinus) in Lviv performing the site inspection."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Adamus Smieszek",
+      "mention_texts": [
+        "Adamus Smieszek"
+      ],
+      "descriptive_mentions": [
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Named as a sworn bench member (scabinus) alongside Wolfgang Bernt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Blasius Alutarius",
+      "mention_texts": [
+        "Blasio Alutario",
+        "Blasij Alutarij",
+        "Blasium"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Famati",
+        "Civis Leopoliensis",
+        "eundem"
+      ],
+      "justification": "Subject of the relation regarding property inspection ('Relatio pro Blasio Alutario')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Balneum Civile",
+      "mention_texts": [
+        "Balneum Civile"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal public bathhouse in Lwów, used as a topographical reference for Blasius's house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Regatolis",
+      "mention_texts": [
+        "Jacobum Regatolis"
+      ],
+      "descriptive_mentions": [
+        "eiusdem vicinum"
+      ],
+      "justification": "Named as the neighbor involved in the boundary/property dispute with Blasius Alutarius."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Cerdones Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Cerdones Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Advocatus ordinarius ... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Civitate hac penes Balneum Civile"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "neighbor_of",
+      "tail_entity_id": "E8",
+      "evidence": "inter eundem Blasium et Jacobum Regatolis eiusdem vicinum"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "document_id": "arc2/0532.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Chaloniez",
+      "mention_texts": [
+        "Simon Chaloniez"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "ipsum",
+        "sibi"
+      ],
+      "justification": "Named individual mentioned in the first entry as subject of recommendation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis civitatis nostri",
+        "officio nostro",
+        "Officij nostri"
+      ],
+      "descriptive_mentions": [
+        "nobis",
+        "Nos",
+        "supremos Tutores"
+      ],
+      "justification": "City council of Lviv acting in its official capacity and recording entries in the city books."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "civitatis"
+      ],
+      "justification": "The city of Lviv, where the legal acts are concluded and citizenship is held."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda ante festum Sancti Stanislai proxima Anno Domini 1595",
+        "feria tertia in vigilia Sancti Stanislai Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dates given in the entry headings specifying the year 1595."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0281: PER-0044: Lucas Wojnar",
+      "mention_texts": [
+        "Lucae Woynar",
+        "Luca Woynar"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "praedicto"
+      ],
+      "justification": "Deceased citizen whose children require appointment of a tutor."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna Woynarowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of the late Lucas Wojnar, requesting tutors for her children."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "filiorum",
+        "liberorum",
+        "Ingeniorum"
+      ],
+      "justification": "Son of late Lucas Wojnar and Anna Woynarowna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucae"
+      ],
+      "descriptive_mentions": [
+        "filiorum",
+        "liberorum",
+        "Ingeniorum"
+      ],
+      "justification": "Son of late Lucas Wojnar and Anna Woynarowna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "filiarum suarum",
+        "liberorum",
+        "Ingeniorum"
+      ],
+      "justification": "Daughter of late Lucas Wojnar and Anna Woynarowna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "filiarum suarum",
+        "liberorum",
+        "Ingeniorum"
+      ],
+      "justification": "Daughter of late Lucas Wojnar and Anna Woynarowna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-1814: PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomam Karcz"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum",
+        "Civem Leopoliensis",
+        "affinem",
+        "tutorem"
+      ],
+      "justification": "Appointed tutor and relative (affinis) of the late Lucas Wojnar."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Wilhelmus Allandt",
+      "mention_texts": [
+        "Wilhelmi Allandt"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the rubric/heading of the receipt entry."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Grist Zingius",
+      "mention_texts": [
+        "Joannes Grist Zingius"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses",
+        "maritum tutorem suum legitimum",
+        "ille"
+      ],
+      "justification": "Citizen of Lviv appearing in court with his wife."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Pascula",
+      "mention_texts": [
+        "Pascula"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "haec"
+      ],
+      "justification": "Wife of Joannes Grist Zingius."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesta Anna Woynarowna Famati olim Lucae Woynar vidua relicta"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Ingeniorum Joannis, Lucae, filiorum ... ex matrimonio cum praedicto olim Luca Woynar susceptorum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Ingeniorum Joannis, Lucae, filiorum ... ex matrimonio cum praedicto olim Luca Woynar susceptorum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Annae et Catherinae filiarum suarum ex matrimonio cum praedicto olim Luca Woynar susceptorum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Annae et Catherinae filiarum suarum ex matrimonio cum praedicto olim Luca Woynar susceptorum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "filiarum suarum ex matrimonio cum praedicto olim Luca Woynar susceptorum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "filiarum suarum ex matrimonio cum praedicto olim Luca Woynar susceptorum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Annae et Catherinae filiarum suarum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Annae et Catherinae filiarum suarum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "relative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Thomam Karcz Scabinum Civem Leopoliensis praedicti olim Lucae Woynar affinem"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Famati Joannes Grist Zingius et Pascula coniuges Cives Leopolienses"
+    }
+  ]
+}

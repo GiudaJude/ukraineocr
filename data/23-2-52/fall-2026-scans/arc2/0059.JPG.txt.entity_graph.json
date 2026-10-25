@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/0059.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Passangus Bernat",
+        "Wolfango Bernat"
+      ],
+      "descriptive_mentions": [
+        "Scabinus Civitatis Leopoliensis",
+        "Scabinus",
+        "Nobili",
+        "locum Ordinarii Advocati Leopoliensis tenente"
+      ],
+      "justification": "Identified as scabinus and acting advocate of Lviv, matching known entity Wolfgang Bernt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis",
+        "Leopoliensi",
+        "Civitatis eiusdem Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council and testaments are recorded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Melchior Osmolski",
+      "mention_texts": [
+        "Melchioris Osmolski alias Sribor Frentzkis",
+        "Melchioris Osmolski",
+        "Melchioris Osmolski Frentzkis",
+        "Melchioris Osmolski"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "Famatus",
+        "Civis Leopoliensis",
+        "Strati",
+        "uxor",
+        "mariti sui",
+        "mariti"
+      ],
+      "justification": "Husband of the testatrix Dorothea, citizen of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae",
+        "Dorothaeam",
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis",
+        "probate",
+        "Honesta",
+        "uxor",
+        "consorte sua"
+      ],
+      "justification": "Wife of Melchior Osmolski, making her last will."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szolc",
+      "mention_texts": [
+        "Joannes Szolst",
+        "Szolst"
+      ],
+      "descriptive_mentions": [
+        "Honoratus Dominus",
+        "Scabinis Leopoliensis",
+        "Scabinis Juratis Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv present at the recording of the testament."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Zwiartowski",
+      "mention_texts": [
+        "Jacobus Zwiartowski"
+      ],
+      "descriptive_mentions": [
+        "Scabinis Leopoliensis",
+        "Scabinis Juratis Leopoliensis"
+      ],
+      "justification": "Scabinus of Lviv witnessing the testament."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio",
+        "Protocolo Testamentorum Civitatis eiusdem Leopoliensi",
+        "sigillo Advocatiali",
+        "Officio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial office and records of the city of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0007: 1593",
+      "mention_texts": [
+        "Anno Domini 1594 fer-tio",
+        "Anno a Nativitate Eiusdem Domini 1594 Tertio Feria secunda magna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The year and date cited for the confection of the testament (1593 Holy Monday)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Szewczewska House",
+      "mention_texts": [
+        "Szewczewska"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring stone house mentioned in the location of the property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Hanczkowska House",
+      "mention_texts": [
+        "Hanczkowska"
+      ],
+      "descriptive_mentions": [
+        "domos lapideas"
+      ],
+      "justification": "Neighboring stone house mentioned in the location of the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Tatkowska Street",
+      "mention_texts": [
+        "platea Tatkowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the stone house of Melchior Osmolski was located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestae olim Dorotheae Famati Melchioris Osmolski coniugis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "held role in",
+      "tail_entity_id": "E2",
+      "evidence": "Scabinus Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "held role in",
+      "tail_entity_id": "E2",
+      "evidence": "Joannes Szolst ... Scabinis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "held role in",
+      "tail_entity_id": "E2",
+      "evidence": "Jacobus Zwiartowski Scabinis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resided in",
+      "tail_entity_id": "E2",
+      "evidence": "Famati Melchioris Osmolski Frentzkis Civis Leopoliensis"
+    }
+  ]
+}

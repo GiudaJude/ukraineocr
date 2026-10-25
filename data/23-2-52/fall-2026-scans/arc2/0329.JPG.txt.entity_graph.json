@@ -1,0 +1,141 @@
+{
+  "document_id": "arc2/0329.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0134: Paulus Aromatarius",
+      "mention_texts": [
+        "Paulus Szomatariui",
+        "Pauli Szomatorij",
+        "Pauli Abrahamowicz Szomatarij"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Famato"
+      ],
+      "justification": "Party who submitted not to impede masonry work and target of the protestation regarding the adjoining house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij",
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office before which the submission was made and the protest was recorded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Alexis Zygmuntowicz",
+      "mention_texts": [
+        "Alexis Zygmuntowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "affines",
+        "Cives Leopolienses",
+        "cohaeredes"
+      ],
+      "justification": "Citizen and co-heir who lodged the protest."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Adamus Szmierek",
+      "mention_texts": [
+        "Adamus Szmierek"
+      ],
+      "descriptive_mentions": [
+        "affines",
+        "Cives Leopolienses",
+        "cohaeredes"
+      ],
+      "justification": "Citizen, affine of Alexis Zygmuntowicz, and co-heir lodging the protest."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Wolf Scholz",
+      "mention_texts": [
+        "Wolfarijs",
+        "scholtz"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Consulis Leopoliensis"
+      ],
+      "justification": "Deceased former consul of Lviv, former owner of the stone house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0001: Paulus Novicampianus",
+      "mention_texts": [
+        "Pauli Kouiczampiani"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Medicinae Doctoris"
+      ],
+      "justification": "Doctor of Medicine whose sons are mentioned in the protest."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv where the act was recorded and the citizens reside."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post festum Sancti Joannis Baptistae proxima A. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording of the legal act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Alexis Zygmuntowicz et Adamus Szmierek affines"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Alexis Zygmuntowicz et Adamus Szmierek affines Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Alexis Zygmuntowicz et Adamus Szmierek affines Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "olim Wolfarijs olim scholtz Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "olim Wolfarijs olim scholtz Consulis Leopoliensis"
+    }
+  ]
+}

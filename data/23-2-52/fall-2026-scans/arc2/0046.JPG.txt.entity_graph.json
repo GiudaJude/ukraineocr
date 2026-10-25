@@ -1,0 +1,140 @@
+{
+  "document_id": "arc2/0046.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szonhert",
+      "mention_texts": [
+        "Joannis Szonbert",
+        "Joannes Szonhert",
+        "Joanni Szonhert",
+        "Joannem Szonbert",
+        "Joannis Szonhert"
+      ],
+      "descriptive_mentions": [
+        "cessionarii",
+        "cessionarium",
+        "Famato",
+        "Civi et Negociatori Cracoviensi",
+        "Eiusdem"
+      ],
+      "justification": "Named as the cessionary acquiring the debt and rights, identified as a burgher and merchant of Kraków."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Henricus Fogelsweder",
+      "mention_texts": [
+        "Henricus Fogelsweder"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the marginal heading as one of the principals/successors."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0039: Christophorus Lewicki",
+      "mention_texts": [
+        "Christopherus Lewicki"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Plenipotens et mandatarius successorum Nobilis olim et Honorati Andreae Fogelsweder"
+      ],
+      "justification": "Appears before the council as the plenipotentiary of the Fogelsweder heirs."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Fogelsweder",
+      "mention_texts": [
+        "Andreae Fogelsweder",
+        "Andreae olim Fogelsweder"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim et Honorati",
+        "Iuris Supremi Teutonici Castri Cracoviensis Scabini",
+        "Nobilis"
+      ],
+      "justification": "Deceased official whose successors are represented by Christopherus Lewicki."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis",
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the title of Andreas Fogelsweder and as the place of residence/citizenship of Joannes Szonhert."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "126 florins",
+      "mention_texts": [
+        "centum viginti et sex florenorum",
+        "centum viginti sex florenorum"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numericalis debiti",
+        "summa"
+      ],
+      "justification": "Monetary sum ceded in the registration."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council records in which the original 1582 inscription was registered."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Saturday after the Feast of Saint James 1582",
+      "mention_texts": [
+        "sabbato post festum Sancti Jacobi Apostoli proximo Anno Domini 1582"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous contract cited in the text (28 July 1582)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatem hanc"
+      ],
+      "justification": "The city of Lviv within and outside which the secured property is located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E4",
+      "evidence": "Christopherus Lewicki Plenipotens et mandatarius successorum Nobilis olim et Honorati Andreae Fogelsweder"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joanni Szonhert Civi et Negociatori Cracoviensi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "held_office_in",
+      "tail_entity_id": "E5",
+      "evidence": "Andreae Fogelsweder Iuris Supremi Teutonici Castri Cracoviensis Scabini"
+    }
+  ]
+}

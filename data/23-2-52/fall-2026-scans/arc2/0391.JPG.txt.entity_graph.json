@@ -1,0 +1,201 @@
+{
+  "document_id": "arc2/0391.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal proceedings and citizens reside."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta an[te] festa S. Mariae Magdal: prae A.D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the entry."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officiam nostrum",
+        "eodem officio",
+        "nobis"
+      ],
+      "justification": "City office before which the witnesses and parties appear."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0391: Martinus Suburbanus",
+      "mention_texts": [
+        "Martinus Pierszowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Sutor",
+        "Suburbani Leopolienses",
+        "testes"
+      ],
+      "justification": "Witness testifying to the legitimate birth."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Laprus",
+      "mention_texts": [
+        "Albertus Laprus"
+      ],
+      "descriptive_mentions": [
+        "Aurator",
+        "Suburbani Leopolienses",
+        "testes"
+      ],
+      "justification": "Second witness testifying to the legitimate birth."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cichowicz",
+      "mention_texts": [
+        "Stai Cichy",
+        "Stanislai Cichowicz",
+        "Stanislaum Cichowicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "Fabrifactij Pellionum socij",
+        "praedictum Ingenuum",
+        "Artificij Pellionum socium",
+        "praenominati indubitantis",
+        "ipsum"
+      ],
+      "justification": "Subject of the legitimate birth certification."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cichy",
+      "mention_texts": [
+        "Stanislaum Cich",
+        "Stanislao Cichy"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Juratorem",
+        "praefati Ingenui patrem",
+        "Honesto",
+        "Juratore",
+        "parentibus",
+        "coniugum superstitum"
+      ],
+      "justification": "Father of Stanislaus Cichowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "coniugum superstitum",
+        "parentibus"
+      ],
+      "justification": "Mother of Stanislaus Cichowicz and wife of Stanislaus Cichy."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Fuczkowicz",
+      "mention_texts": [
+        "Joan: Fuczkowicz"
+      ],
+      "descriptive_mentions": [
+        "Aromatarii"
+      ],
+      "justification": "Person mentioned in the quietatio heading."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karcz",
+      "mention_texts": [
+        "Thomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Honorabiles",
+        "Scabinus Iuratus Civitatis Leopoliensis",
+        "executores testamenti",
+        "Testamentarius"
+      ],
+      "justification": "Scabinus and executor of the testament."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Thomas Korbuth",
+      "mention_texts": [
+        "Thomas Korbuth als Wyroczek"
+      ],
+      "descriptive_mentions": [
+        "Fati",
+        "Civis",
+        "executores testamenti",
+        "frater germanus"
+      ],
+      "justification": "Executor of the testament and brother of the deceased Albertus Wyroczek."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Albertus Wyroczek",
+      "mention_texts": [
+        "Alberti Wyroczek"
+      ],
+      "descriptive_mentions": [
+        "Sobelis et Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen whose testament is being executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "praefati Ingenui patrem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "progenitum esse ex legitimo thoro probisque ac honestis parentibus vt pote Honesto Stanislao Cichy Juratore et Catherina coniugum superstitum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Honesto Stanislao Cichy Juratore et Catherina coniugum superstitum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "sibling_of",
+      "tail_entity_id": "E12",
+      "evidence": "olim Alberti Wyroczek Civis Leopoliensis hii Testamentarius et frater germanus"
+    }
+  ]
+}

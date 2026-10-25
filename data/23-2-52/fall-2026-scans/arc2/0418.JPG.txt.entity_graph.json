@@ -1,0 +1,291 @@
+{
+  "document_id": "arc2/0418.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Saczkiewicz",
+      "mention_texts": [
+        "Stanislai Saczkiewicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Czartoryski",
+      "mention_texts": [
+        "Christophoro Czartorynski"
+      ],
+      "descriptive_mentions": [
+        "Generosus Creditor",
+        "Generoso",
+        "praedicto Generoso"
+      ],
+      "justification": "Creditor entitled to lodging in the pledged property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "officio nostro",
+        "Nos"
+      ],
+      "justification": "The municipal council before which the transactions and notifications are recorded."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dudkowicz",
+      "mention_texts": [
+        "Joannis Dudkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Chirurgi",
+        "Civis"
+      ],
+      "justification": "Surgeon and citizen of Lviv into whose hands the registration was submitted."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertus Domagala"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Cursifex",
+        "Cechmagri"
+      ],
+      "justification": "Guild elder and coachmaker appearing on behalf of the guild."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Liubowka",
+      "mention_texts": [
+        "Joannes Liubowka"
+      ],
+      "descriptive_mentions": [
+        "Rotifex",
+        "Cechmagri"
+      ],
+      "justification": "Guild elder and wheelwright appearing on behalf of the guild."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Guild of Coachmakers and Wheelwrights",
+      "mention_texts": [
+        "Contubernij Cursiforum et Rotificum"
+      ],
+      "descriptive_mentions": [
+        "Contubernijs",
+        "contubernium"
+      ],
+      "justification": "The guild of coachmakers and wheelwrights in Lviv taking charge of the orphans."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucae"
+      ],
+      "descriptive_mentions": [
+        "Ingeniorum",
+        "liberorum",
+        "orphanibus",
+        "pupillorum"
+      ],
+      "justification": "Orphaned child of Mathias Kowal from his first marriage."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "liberorum",
+        "orphanibus",
+        "pupillorum"
+      ],
+      "justification": "Orphaned child of Mathias Kowal from his first marriage."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "liberorum",
+        "orphanibus",
+        "pupillorum"
+      ],
+      "justification": "Orphaned child of Mathias Kowal from his first marriage."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mathias Kowal",
+      "mention_texts": [
+        "Mathiae Kowal",
+        "Mathia Kowal"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim",
+        "Cursiforis",
+        "demortui fratris"
+      ],
+      "justification": "Deceased coachmaker whose orphaned children require guardians."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "primarum nuptiarum Coniuge illius"
+      ],
+      "justification": "Deceased first wife of Mathias Kowal."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Caspar Kowal",
+      "mention_texts": [
+        "Casparis"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "orphanibus",
+        "pupillorum"
+      ],
+      "justification": "Orphaned child of Mathias Kowal from his second marriage."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "posteriorum nuptiarum... coniuge"
+      ],
+      "justification": "Second wife of Mathias Kowal and mother of Caspar."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Albertus Domagala Cursifex et Joannes Liubowka Rotifex Cechmagri Contubernij Cursiforum et Rotificum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Albertus Domagala Cursifex et Joannes Liubowka Rotifex Cechmagri Contubernij Cursiforum et Rotificum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "vt demortui fratris tutelam inse contubernium suscipiat"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E8",
+      "evidence": "Contubernij Cursiforum et Rotificum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Mathia Kowal Cursiforis ex Sophia primarum nuptiarum Coniuge illius"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "ex Honesta Anna posteriorum nuptiarum eiusdem Mathia Kowal coniuge"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Lucae Joannis Agnetis liberorum Honesti olim Mathia Kowal"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Lucae Joannis Agnetis liberorum Honesti olim Mathia Kowal Cursiforis ex Sophia primarum nuptiarum Coniuge illius"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Lucae Joannis Agnetis liberorum Honesti olim Mathia Kowal"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Lucae Joannis Agnetis liberorum Honesti olim Mathia Kowal Cursiforis ex Sophia primarum nuptiarum Coniuge illius"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Lucae Joannis Agnetis liberorum Honesti olim Mathia Kowal"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Lucae Joannis Agnetis liberorum Honesti olim Mathia Kowal Cursiforis ex Sophia primarum nuptiarum Coniuge illius"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Casparis ex Honesta Anna posteriorum nuptiarum eiusdem Mathia Kowal coniuge susceptorum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E15",
+      "evidence": "Casparis ex Honesta Anna posteriorum nuptiarum eiusdem Mathia Kowal coniuge susceptorum"
+    }
+  ]
+}

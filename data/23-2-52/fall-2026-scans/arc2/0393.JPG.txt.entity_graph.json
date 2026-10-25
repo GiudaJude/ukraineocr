@@ -1,0 +1,138 @@
+{
+  "document_id": "arc2/0393.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "civitatis",
+        "Civitati"
+      ],
+      "justification": "City referenced in civitatis Leopoliensis, Consulis Leopoliensis, and Civitati."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0246: Paulus Jelonek",
+      "mention_texts": [
+        "Pauli Jelionek"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Consulis Leopoliensis",
+        "parentis ipsorum"
+      ],
+      "justification": "Deceased consul of Lviv whose estate and house devolved upon his heirs."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Consulis Leopoliensis",
+        "officij"
+      ],
+      "justification": "The municipal council/office referenced via the consulship and officium."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Smoterka",
+      "mention_texts": [
+        "Joannis Smoterka"
+      ],
+      "descriptive_mentions": [
+        "olim Famati",
+        "Aurifabrorum"
+      ],
+      "justification": "Neighboring stone house owner, late goldsmith Joannes Smoterka."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Hac",
+      "mention_texts": [
+        "Stanislai Hac"
+      ],
+      "descriptive_mentions": [
+        "Aurifabrorum"
+      ],
+      "justification": "Neighboring stone house owner, goldsmith Stanislaus Hac."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0020: 600 Polish florins",
+      "mention_texts": [
+        "sexcentorum florenorum",
+        "600 florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "debiti",
+        "summa principali debiti"
+      ],
+      "justification": "Principal debt amount of 600 florins."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "200 florenorum"
+      ],
+      "descriptive_mentions": [
+        "census"
+      ],
+      "justification": "Annual census mentioned from the house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "festo Sancti Michaelis Archangeli",
+        "Festum Sancti Michaelis Archangeli",
+        "Festo Sancti Michaelis",
+        "Festum Sancti Michaelis Archangeli"
+      ],
+      "descriptive_mentions": [
+        "praesenti festo ... proxime venturo",
+        "proxime venturo"
+      ],
+      "justification": "Michaelmas feast referenced as the start of possession and term."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "1598",
+      "mention_texts": [
+        "Anno Domini 1598"
+      ],
+      "descriptive_mentions": [
+        "venturum"
+      ],
+      "justification": "Year ending the three-year mortgage term."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "olim Pauli Jelionek Consulis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "olim Pauli Jelionek Consulis Leopoliensis"
+    }
+  ]
+}

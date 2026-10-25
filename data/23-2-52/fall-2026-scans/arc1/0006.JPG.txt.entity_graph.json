@@ -1,0 +1,149 @@
+{
+  "document_id": "23-2-52/0006.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "100 Polish zlotys",
+      "mention_texts": [
+        "sta zlotych"
+      ],
+      "justification": "Sum of money mentioned in the Polish testamentary bequest ('będą dacz powinnystey sta zlotych do Kasciołow')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Panow Radziec Miasta tego",
+        "Dominorum Consulum Leopoliensis",
+        "authoritate qua Consulari",
+        "Officium",
+        "Officium meum",
+        "Officii Consularis Leopoliensis"
+      ],
+      "justification": "The municipal council/magistracy of Lviv acting as court, confirming the testament and taking on guardianship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "justification": "City referred to in titles of the council ('Consulum Leopoliensis', 'Officii Consularis Leopoliensis')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "mention_texts": [
+        "Jendrzi Simonowic"
+      ],
+      "justification": "Signed as 'locum tenens Domini Advocati ex surrogatione Dominorum Consulum Leopoliensis manu propria'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Strachet",
+      "mention_texts": [
+        "Bartolomeus Strach",
+        "Bartholomeum Strach"
+      ],
+      "justification": "Witness and appointed tutor for Zophia ('Famatus Bartholomeum Strach Tutore sibi assumptum')."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Mozanc",
+      "mention_texts": [
+        "Cristoph Mazanc"
+      ],
+      "justification": "Witness who signed 'manu propria'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Matias Sebastianowicz",
+      "mention_texts": [
+        "Matias Sebastianowicz"
+      ],
+      "justification": "Witness who signed 'manu propria'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobus Balcertowic"
+      ],
+      "justification": "Deceased testator whose last will and bequests are recorded ('Famatus olim Jacobus Balcertowic ad pia opera legavit')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Zofia",
+      "mention_texts": [
+        "zonie wczesiey moiey",
+        "fossiey zony moiey",
+        "Zophia"
+      ],
+      "justification": "Wife/widow mentioned in the testament and court confirmation ('Honesta Zophia praedicti olim Chri- vidua')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sienienski",
+      "mention_texts": [
+        "M. Sienienski",
+        "Andreae Sienienski"
+      ],
+      "justification": "Nobleman referenced in the lower entry ('Magnifici Domini Andreae Sienienski')."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Hubicki",
+      "mention_texts": [
+        "Petrus de Tarnawka",
+        "Petrum Hubicki famulum Magnifici Domini Andreae Sienienski"
+      ],
+      "justification": "Servant of Andreas Sienienski named in the decree entry ('nobilem Petrum Hubicki famulum Magnifici Domini Andreae Sienienski')."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Tarnawka",
+      "mention_texts": [
+        "Tarnawka"
+      ],
+      "justification": "Origin place name for Petrus ('Petrus de Tarnawka')."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "locum_tenens_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jendrzi Simonowic locum tenens Domini Advocati ex surrogatione Dominorum Consulum Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "tutor_of",
+      "tail_entity_id": "E9",
+      "evidence": "Zophia... per eundem Famatus Bartholomeum Strach Tutore sibi assumptum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "servant_of",
+      "tail_entity_id": "E10",
+      "evidence": "nobilem Petrum Hubicki famulum Magnifici Domini Andreae Sienienski"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Dominorum Consulum Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "document_id": "arc2/0367.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1585",
+      "mention_texts": [
+        "Anno Domini 1585"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year referenced in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Jendrowiczowska House",
+      "mention_texts": [
+        "Iandrowizka"
+      ],
+      "descriptive_mentions": [
+        "domus lapidea",
+        "medietate domus lapidea",
+        "lapidea medietatem"
+      ],
+      "justification": "Stone townhouse mentioned in the division and hypothec."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam Ducentorum Florenorum"
+      ],
+      "justification": "Monetary sum involved in the obligation and cession."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Albrechtowicz",
+      "mention_texts": [
+        "Stanislaus Albrechtowicz"
+      ],
+      "descriptive_mentions": [
+        "praedictus olim",
+        "maritus suus"
+      ],
+      "justification": "Deceased former husband of Catherina."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Lwostrostka",
+      "mention_texts": [
+        "Andrea Lwostrostka"
+      ],
+      "descriptive_mentions": [
+        "eodem"
+      ],
+      "justification": "Person from whom the right was acquired by cession."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "18 florins",
+      "mention_texts": [
+        "Florenis Octodecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money paid to the city."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv to which the payment was made."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Catherina",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "praedicta",
+        "recognoscens",
+        "Coniugibus"
+      ],
+      "justification": "Recognizing party, formerly wife of Stanislaus Albrechtowicz, now wife of Albertus Markowicz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij nostri",
+        "Acta nostra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal authority recording the decree and transaction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Anna Gregoria"
+      ],
+      "descriptive_mentions": [
+        "Ista",
+        "praefati olim Gregory Sartoris vidua relicta",
+        "praedicti",
+        "coniugum"
+      ],
+      "justification": "Widow of the late tailor Gregorius."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Sartor",
+      "mention_texts": [
+        "Gregory Sartoris",
+        "Gregory"
+      ],
+      "descriptive_mentions": [
+        "praefati olim",
+        "Sartoris"
+      ],
+      "justification": "Deceased tailor, husband of Anna."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Sartor",
+      "mention_texts": [
+        "Nicolao",
+        "Nicolaus"
+      ],
+      "descriptive_mentions": [
+        "Isto",
+        "eiusdem Gregory et Annae filio vnio superstite",
+        "filius eiusdem"
+      ],
+      "justification": "Surviving son of the deceased Gregorius and Anna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Albertus Markowicz",
+      "mention_texts": [
+        "Alberto Markowicz",
+        "Alberti Markowic"
+      ],
+      "descriptive_mentions": [
+        "praedictis",
+        "Coniugibus"
+      ],
+      "justification": "Husband of Catherina participating in the quietatio."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "praedictus olim Stanislaus Albrechtowicz maritus suus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Ista Anna praefati olim Gregory Sartoris vidua relicta"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Isto Nicolao eiusdem Gregory et Annae filio vnio superstite"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Isto Nicolao eiusdem Gregory et Annae filio vnio superstite"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "cum praedictis Alberto Markowicz et Catherina Coniugibus"
+    }
+  ]
+}

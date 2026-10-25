@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/0414.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agneti"
+      ],
+      "descriptive_mentions": [
+        "sororibus duabus suis germanis",
+        "uxoribus"
+      ],
+      "justification": "Full sister mentioned receiving 50 florins, wife of Stanislaus Gladiator."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gladiator",
+      "mention_texts": [
+        "Stanislai Gladiatoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Husband of Agnes mentioned in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "sororibus duabus suis germanis",
+        "uxoribus"
+      ],
+      "justification": "Full sister mentioned receiving 50 florins, wife of Stanislaus Mlieczko."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Mleczko",
+      "mention_texts": [
+        "Stanislai Mlieczko"
+      ],
+      "descriptive_mentions": [
+        "Auratoris"
+      ],
+      "justification": "Goldsmith and husband of Anna mentioned in the text."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "Florenos quinquaginta"
+      ],
+      "descriptive_mentions": [
+        "pecuniae Polonicalis"
+      ],
+      "justification": "Amount of 50 Polish florins designated to each sister."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "centum Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Combined sum of 100 florins to be paid by the husband."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Judicial bench before which the resignation of goods is to be made."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis",
+        "Leopoli",
+        "Leopoliense",
+        "Leopoliensis",
+        "Civitate"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in dates, court names, and person origins."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato post festum Sanctae Annae proximo Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording the action in the consular acts."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officium Consulare Leopoliense",
+        "Actis praesentibus"
+      ],
+      "descriptive_mentions": [
+        "officio eidem"
+      ],
+      "justification": "City council of Lviv where Stanislaus Krasnicki presented the royal letters."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Kraśnicki",
+      "mention_texts": [
+        "Stanislaus Krasnicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble who presented royal letters of kaduk rights to the city council."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Kierkor",
+      "mention_texts": [
+        "Kierkorza"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "olim",
+        "Armeni Leopoliensis",
+        "steriliter vita functi"
+      ],
+      "justification": "Deceased Armenian of Lviv whose estate was subject to the royal grant."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sigismundus iij"
+      ],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestate",
+        "Domino suo clementissimo",
+        "Sacrae Regiae Maiestatis",
+        "Rex Poloniae",
+        "Magnus Dux Lithuaniae"
+      ],
+      "justification": "King Sigismund III Vasa who granted the royal letters of kaduk."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the royal titulature."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Agneti Stanislai Gladiatoris ... uxoribus"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Annae Stanislai Mlieczko Auratoris uxoribus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "sororibus duabus suis germanis Agneti Stanislai Gladiatoris et Annae Stanislai Mlieczko"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "appears_in",
+      "tail_entity_id": "E10",
+      "evidence": "Ad officium Consulare Leopoliense veniens personaliter Nobilis Stanislaus Krasnicki obtulit officio eidem literas"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "ruler_of",
+      "tail_entity_id": "E14",
+      "evidence": "Sigismundus iij Dei gratia Rex Poloniae"
+    }
+  ]
+}

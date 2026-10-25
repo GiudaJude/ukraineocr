@@ -1,0 +1,169 @@
+{
+  "document_id": "arc2/0438.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopolienses",
+        "Civitatis istius Leopoliensis",
+        "Civis Leopoliensis",
+        "Civi Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced throughout the entry in institutional titles and civic designations."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City banned court referenced in the first decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Andreas Łukaszowicz",
+      "mention_texts": [
+        "Andreas",
+        "Lukaszowic",
+        "Lukazowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "fratres germani",
+        "Armenii",
+        "cives Leopolienses",
+        "Fratres",
+        "ipsi"
+      ],
+      "justification": "Armenian citizen of Lviv ceding half of a stone house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stecko Łukaszowicz",
+      "mention_texts": [
+        "Stecko",
+        "Lukaszowic",
+        "Lukazowic"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "fratres germani",
+        "Armenii",
+        "cives Leopolienses",
+        "Fratres",
+        "ipsi"
+      ],
+      "justification": "Armenian citizen of Lviv, brother of Andreas Łukaszowicz, ceding property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0152: Armenian Street",
+      "mention_texts": [
+        "platea Armeniensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the ceded house is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Domazerski",
+      "mention_texts": [
+        "Domazerskich"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Armenorum"
+      ],
+      "justification": "Neighboring property owners on Armenian Street."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Fadik",
+      "mention_texts": [
+        "Fadik"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Armenii",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased Armenian citizen whose heirs' wooden house neighbors the ceded property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Toros Samborowicz",
+      "mention_texts": [
+        "Torosium Samborowicz",
+        "Torosum",
+        "Torosio Jacobowicz",
+        "Torosio"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "praefatis",
+        "praedictum",
+        "Armenis",
+        "Civi Leopoliensi",
+        "eidem"
+      ],
+      "justification": "Armenian citizen of Lviv to whom the house portion is transferred."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas et Stecko Lukaszowic fratres germani"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Andreas et Stecko Lukaszowic fratres germani"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E1",
+      "evidence": "Andreas et Stecko Lukaszowic fratres germani Armenii cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E1",
+      "evidence": "Andreas et Stecko Lukaszowic fratres germani Armenii cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in Civitatis istius Leopoliensis platea Armeniensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E1",
+      "evidence": "olim Fadik Armenii Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E1",
+      "evidence": "Torosio Jacobowicz Armenis Civi Leopoliensi"
+    }
+  ]
+}

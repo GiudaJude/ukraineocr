@@ -1,0 +1,222 @@
+{
+  "document_id": "arc2/0124.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szczesny",
+      "mention_texts": [
+        "Paulo Szczesthny",
+        "Paulo"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Vinatori",
+        "emptori"
+      ],
+      "justification": "Buyer of the property who is quieted regarding the 30 florins."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta Florenorum Po-lonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of thirty Polish florins paid for the plot."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the resignation of the property is to take place."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City of Lviv mentioned in the judicial context and dating formula."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Saturday before Laetare Sunday 1595",
+      "mention_texts": [
+        "Sabbato ante Domicam Laetare proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of registration of the first entry."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Felix",
+      "mention_texts": [
+        "Felix"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Viceaduocatus maioris Holowsko"
+      ],
+      "justification": "Vice-advocate of Hołowsko who acknowledges receipt of debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Hołowsko",
+      "mention_texts": [
+        "maioris Holowsko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locality where Felix serves as vice-advocate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0048: 70 florins",
+      "mention_texts": [
+        "Florenis septuaginta pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of seventy florins satisfied to Felix."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Umiecki",
+      "mention_texts": [
+        "Andreae Vmieczki",
+        "Andrea Vmieczki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Honesto",
+        "praefatum"
+      ],
+      "justification": "Debtor quieted after paying 70 florins."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Martinus Hanel",
+      "mention_texts": [
+        "Martini Hanel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner whose goods are the subject of intromissio."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karcz",
+      "mention_texts": [
+        "Tomas karcz"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Domini",
+        "locum tenens Ordinarii Aduocati Leopoliensis tenens"
+      ],
+      "justification": "Lieutenant of the ordinary advocate of Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Aduocati Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Office of the Lviv advocate mentioned in relation to Thomas Karcz."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Andreas Stachrowicz Pokorowicz",
+      "mention_texts": [
+        "Andreas Stachrowicz Poxorwicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Domini",
+        "Scabini Jocati Ciuitatis Leopoliensis",
+        "Scabini"
+      ],
+      "justification": "Lviv bencher involved in the intromissio."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Domini",
+        "Scabini Jocati Ciuitatis Leopoliensis",
+        "Scabini"
+      ],
+      "justification": "Lviv bencher involved in the intromissio."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Petrus",
+      "mention_texts": [
+        "Petri"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble petitioner at whose instance the intromissio was ordered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Judicio Exposito Bannito Leopoli"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E7",
+      "evidence": "Felix Viceaduocatus maioris Holowsko"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "debtor_of",
+      "tail_entity_id": "E6",
+      "evidence": "satisfactum esse sibi de Florenis septuaginta pecuniae et numeri Polonicalis ratione illatorum ipsi dultorcorum iuxta officiosam inscriptionem contractis a Nobili et Honesto Andrea Vmieczki"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E12",
+      "evidence": "Tomas karcz locum tenens Ordinarii Aduocati Leopoliensis tenens"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Stachrowicz Poxorwicz ... Scabini Jocati Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Sokol Scabini Jocati Ciuitatis Leopoliensis"
+    }
+  ]
+}

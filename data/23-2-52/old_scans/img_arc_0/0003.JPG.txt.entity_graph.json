@@ -1,0 +1,235 @@
+{
+  "document_id": "23-2-52/img_arc_0/0003.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "OFFICIO CONSULARI LEPOENSI"
+      ],
+      "justification": "Corpus match ORG-0003 (consular office of Lviv)"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "LEPOENSI"
+      ],
+      "justification": "Corpus match LOC-0001 (scribal abbreviation/variant for Leopoliensi)"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "ANNO DOMINI M.D.XCV."
+      ],
+      "justification": "Corpus match DATE-0001 (year heading of the council register)"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Novicampianus",
+      "mention_texts": [
+        "Paulo Nouicampiano"
+      ],
+      "justification": "Corpus match PER-0001 (consul resident)"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Senior",
+      "mention_texts": [
+        "Simone Seniore"
+      ],
+      "justification": "Corpus match PER-0002 (consul senior)"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Leopolita",
+      "mention_texts": [
+        "Simone Leopolita"
+      ],
+      "justification": "Corpus match PER-0003 (consul resident)"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobo Misskowski"
+      ],
+      "justification": "Corpus match PER-0004 (consul senior)"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pedianus",
+      "mention_texts": [
+        "Alberto Pediano"
+      ],
+      "justification": "Corpus match PER-0005 (consul resident)"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szambor",
+      "mention_texts": [
+        "Andrea Szambor"
+      ],
+      "justification": "Corpus match PER-0006 (consul senior)"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislao Doctore"
+      ],
+      "justification": "Corpus match PER-0007 (consul resident)"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislao Anserino"
+      ],
+      "justification": "Corpus match PER-0008 (consul senior)"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Wengr",
+      "mention_texts": [
+        "Francisco Wenige"
+      ],
+      "justification": "Corpus match PER-0009 (consul resident)"
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Caspar Gulinski",
+      "mention_texts": [
+        "Casparo Gulinski"
+      ],
+      "justification": "Corpus match PER-0010 (consul senior)"
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Caspar Przedzucki",
+      "mention_texts": [
+        "Casparo Przezdiecki"
+      ],
+      "justification": "Corpus match PER-0011 (consul resident)"
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wolfowicz",
+      "mention_texts": [
+        "Joanne Wolfowicz"
+      ],
+      "justification": "Corpus match PER-0012 (consul senior)"
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Andreas Madrowicz",
+      "mention_texts": [
+        "ANDREA MADKOWICZ"
+      ],
+      "justification": "Corpus match PER-0013 (city notary)"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "OFFICIO CONSULARI LEPOENSI"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS RESIDENTIBUS Domino Paulo Nouicampiano"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS SENIORIBUS Domino Magnifico Simone Seniore"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS RESIDENTIBUS Domino Magnifico Simone Leopolita"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS SENIORIBUS Domino Jacobo Misskowski"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS RESIDENTIBUS Domino Magnifico Alberto Pediano"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS SENIORIBUS Domino Andrea Szambor"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS RESIDENTIBUS Domino Stanislao Doctore"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS SENIORIBUS Domino Stanislao Anserino"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS RESIDENTIBUS Domino Francisco Wenige"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS SENIORIBUS Domino Casparo Gulinski"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS RESIDENTIBUS Domino Casparo Przezdiecki"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "CONSULIBUS SENIORIBUS Domino Joanne Wolfowicz"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Domino ANDREA MADKOWICZ NOTARIO"
+    }
+  ]
+}

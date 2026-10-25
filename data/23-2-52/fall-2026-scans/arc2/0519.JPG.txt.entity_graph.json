@@ -1,0 +1,174 @@
+{
+  "document_id": "arc2/0519.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "quadringentorum Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "legato"
+      ],
+      "justification": "Sum of money mentioned in connection with the contested legacy."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actis praesentibus"
+      ],
+      "justification": "The municipal council records into which the protestation was requested to be inserted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Layszer Slawiczkowic",
+      "mention_texts": [
+        "Layszer Slawiczkowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual recorded after the actum formula."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Gruntarz",
+      "mention_texts": [
+        "Paulus Gruntarz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual recorded after the actum formula."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Laurus Szursztowicz",
+      "mention_texts": [
+        "Laurus Szursztowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "coniuges suburbani Leopolienses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Suburban seller of the house and garden in Łyczaków."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margareta"
+      ],
+      "descriptive_mentions": [
+        "coniuges suburbani Leopolienses",
+        "illa",
+        "haec"
+      ],
+      "justification": "Wife of Laurus Szursztowicz, co-seller of the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburbs are inhabited by the parties."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0011: Łyczaków",
+      "mention_texts": [
+        "Lyczakow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv suburb where the sold house and garden are located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Jurator",
+      "mention_texts": [
+        "Sebestian Juratoris"
+      ],
+      "descriptive_mentions": [
+        "Juratoris"
+      ],
+      "justification": "Neighboring landowner in Łyczaków."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Maczanek",
+      "mention_texts": [
+        "Christopheri Maczanek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landowner in Łyczaków."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Caspar Mazarkowicz",
+      "mention_texts": [
+        "Casparo Mazarkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus suburbanis Leopoliensibus",
+        "eodem emptore",
+        "Emptores"
+      ],
+      "justification": "Suburban buyer of the house and garden in Łyczaków."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus suburbanis Leopoliensibus",
+        "emptoribus"
+      ],
+      "justification": "Wife of Caspar Mazarkowicz, co-buyer of the property."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "35 Polish florins",
+      "mention_texts": [
+        "triginta quinque Florenorum pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Sale price paid for the house and garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Laurus Szursztowicz et Margareta coniuges suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "Casparo Mazarkowicz et Sophiae coniugibus suburbanis Leopoliensibus"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0458.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Iași",
+      "mention_texts": [
+        "Emporio Jassensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as the market/city of Iași (Emporium Jassense) in Moldavia."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Liuovier",
+      "mention_texts": [
+        "Liuovien",
+        "Liuovier"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named individual involved in the reported crime and investigation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Georgius Wasilipoli",
+      "mention_texts": [
+        "Georgius Wasilipoli"
+      ],
+      "descriptive_mentions": [
+        "Graeci"
+      ],
+      "justification": "Witness identified as Greek providing testimony."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Lazarus de Jan",
+      "mention_texts": [
+        "Lazarus de Jan"
+      ],
+      "descriptive_mentions": [
+        "Graeci"
+      ],
+      "justification": "Witness identified as Greek providing testimony alongside Georgius Wasilipoli."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anselmus",
+      "mention_texts": [
+        "Anselmo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named individual referenced in connection with the testimony."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Janaski Vmeno",
+      "mention_texts": [
+        "Janaski Vmeno"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Witness testifying about the investigation."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Macedonia",
+      "mention_texts": [
+        "Macedonia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin region of Janaski Vmeno."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lazon",
+      "mention_texts": [
+        "Lazon"
+      ],
+      "descriptive_mentions": [
+        "Palatinus"
+      ],
+      "justification": "Palatine/Voivode mentioned ordering the investigation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Balachia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Region mentioned in connection with Lazon Palatinus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Postelnik",
+      "mention_texts": [
+        "Postelniko"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Individual commissioned to conduct the investigation in the city."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Kasaluko",
+      "mention_texts": [
+        "Petrus Kasaluko"
+      ],
+      "descriptive_mentions": [
+        "famulum"
+      ],
+      "justification": "Servant of Liuovier who gave a confession/deposition."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "David Serepkowicz",
+      "mention_texts": [
+        "Dauid Serepkowiz",
+        "Serepkowiz"
+      ],
+      "descriptive_mentions": [
+        "Armenus Leopoliensis"
+      ],
+      "justification": "Armenian burgher of Lviv who brought news of the murder."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in David Serepkowicz's descriptor and the council's jurisdiction."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Fanor",
+      "mention_texts": [
+        "Fanorem"
+      ],
+      "descriptive_mentions": [
+        "protunc Palatinum",
+        "Palatinum"
+      ],
+      "justification": "Palatine/Voivode approached regarding the investigation."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliensis",
+        "Officium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular office of Lviv issuing the decree resolving conflicts between Catholic and Ruthenian/Greek factors."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "originates_from",
+      "tail_entity_id": "E7",
+      "evidence": "Janaski Vmeno de Macedonia testificatus in haec verba"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "associated_with",
+      "tail_entity_id": "E9",
+      "evidence": "Lazon Palatinus pro auro Balachia"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "servant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Petrus Kasaluko recognovit hoc pacto se illo tempore Liuovier famulum fuisse"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Dauid Serepkowiz Armenus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "located_in",
+      "tail_entity_id": "E13",
+      "evidence": "Officium Consulare Leopoliensis"
+    }
+  ]
+}

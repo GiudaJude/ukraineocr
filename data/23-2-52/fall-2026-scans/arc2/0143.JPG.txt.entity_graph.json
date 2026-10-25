@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/0143.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Eiusdem"
+      ],
+      "justification": "City of Lviv referred to through Latin adjectival and genitive forms."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv mentioned as the seat where the senior bencher presides."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Gryskowska House",
+      "mention_texts": [
+        "Gryskowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Property or house named in the document title 'Inventarium taxarum Gryskowska'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Gallus"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "locum Ordinarij Aduocati Leopoliensis tenens"
+      ],
+      "justification": "Fridericus Gallus appearing as acting ordinary advocate of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sokol"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Scabinus Juratus Ciuitatis Leopoliensis"
+      ],
+      "justification": "Joannes Sokol, sworn bencher of the city of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Toronowski",
+      "mention_texts": [
+        "Joannis Toronowski"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Aromatarij",
+        "Ciuium Leopoliensis",
+        "Executorum testamenti fide"
+      ],
+      "justification": "Apothecary and citizen of Lviv acting as testamentary executor for Anna Grodkowska."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Olszewski"
+      ],
+      "descriptive_mentions": [
+        "Famatorum",
+        "Ciuium Leopoliensis",
+        "Executorum testamenti fide"
+      ],
+      "justification": "Citizen of Lviv acting as executor of the testament of Anna Grodkowska, matching known entity PER-0071."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Grotkowska"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "olim",
+        "viduae",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "The deceased widow Anna Grodkowska whose will is being executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Judicio Exposito Bannito Leopoliensi"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Fridericus Gallus locum Ordinarij Aduocati Leopoliensis tenens"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannes Sokol Scabinus Juratus Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannis Toronowski Aromatarij et Joannis Olszewski Ciuium Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "executor_of",
+      "tail_entity_id": "E8",
+      "evidence": "ad instantiam Famatorum Joannis Toronowski Aromatarij et Joannis Olszewski Ciuium Leopoliensis ut Executorum testamenti fide Honestae olim Annae Grotkowska"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannis Olszewski Ciuium Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "executor_of",
+      "tail_entity_id": "E8",
+      "evidence": "ad instantiam Famatorum Joannis Toronowski Aromatarij et Joannis Olszewski Ciuium Leopoliensis ut Executorum testamenti fide Honestae olim Annae Grotkowska"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Annae Grotkowska viduae Ciuis Leopoliensis"
+    }
+  ]
+}

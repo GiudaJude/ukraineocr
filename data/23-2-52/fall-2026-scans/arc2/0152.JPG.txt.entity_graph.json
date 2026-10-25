@@ -1,0 +1,291 @@
+{
+  "document_id": "arc2/0152.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Alexander Pellio",
+      "mention_texts": [
+        "Alexandri Pellionis"
+      ],
+      "descriptive_mentions": [
+        "socerum",
+        "actorem"
+      ],
+      "justification": "Named as the plaintiff and father-in-law ('socerum actorem') in the property division dispute."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatem Leopoliensis",
+        "Leopoliensem",
+        "Civitatis",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eius",
+        "Civitatis"
+      ],
+      "justification": "City context established in 'Civitatem Leopoliensis', 'Civem Leopoliensem', etc."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Dominicus Hessner Syringus",
+      "mention_texts": [
+        "Onicium Hessner Syriugum",
+        "Dmicas Hessner"
+      ],
+      "descriptive_mentions": [
+        "Civem Leopoliensem",
+        "generum",
+        "citatum",
+        "citatus",
+        "Famatus"
+      ],
+      "justification": "Named as the cited party and son-in-law ('generum citatum')."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Market Square",
+      "mention_texts": [
+        "Circulo"
+      ],
+      "descriptive_mentions": [
+        "Circulo eius Civitatis"
+      ],
+      "justification": "Main square of Lviv ('in Circulo eius Civitatis') where the property is located."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Zolubusowska House",
+      "mention_texts": [
+        "Zolubusowska"
+      ],
+      "descriptive_mentions": [
+        "domum"
+      ],
+      "justification": "Named tenement house bordering the disputed plot in the Market Square."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Malczewska House",
+      "mention_texts": [
+        "Malczewska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named tenement house bordering the disputed plot."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Rotor",
+      "mention_texts": [
+        "Jacobus Rotor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named co-owner entitled to shares in the house division."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "5 florins",
+      "mention_texts": [
+        "quinque Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum referenced in the division record."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "3 florins 1 groschen",
+      "mention_texts": [
+        "Florenos tres et grossum unum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary share assigned to Jacobus Rotor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Octavianus Piątkowski",
+      "mention_texts": [
+        "Octavianus Piątkowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Co-heir involved in the partition of the tenement house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "2 florins",
+      "mention_texts": [
+        "Florenis duabus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount assigned to Hessner and Piątkowski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officium",
+        "Oficii nostri",
+        "Officium"
+      ],
+      "justification": "The municipal council/bench issuing the decree ('officium', 'Decreto Oficii nostri superioris')."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szmulowicz",
+      "mention_texts": [
+        "Petro Szmulowicz",
+        "Petrus Szmulirs"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Honestus",
+        "coniuges secundarium nuptiarum",
+        "ille",
+        "maritum tutorem suum legittimum"
+      ],
+      "justification": "Second husband of Hedvigis appearing before the court for pecuniary release."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "relicta coniuges secundarium nuptiarum",
+        "hec",
+        "superstitis coniugum"
+      ],
+      "justification": "Widow of Cristophorus Kawiucki and wife of Petrus Szmulowicz."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Cristophorus Kawiucki",
+      "mention_texts": [
+        "Cristophori Kawiucki"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Lanii Civis Leopoliensis",
+        "praedicti olim"
+      ],
+      "justification": "Deceased butcher and citizen of Lviv, first husband of Hedvigis."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "date",
+      "canonical_name": "23 March 1594",
+      "mention_texts": [
+        "feria quarta post Judicam Judica proxima Anno Domini 159 quarto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court decree date referenced in the act (Wednesday after Judica Sunday in 1594)."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "currency",
+      "canonical_name": "48 florins",
+      "mention_texts": [
+        "Florenos quadraginta octo"
+      ],
+      "descriptive_mentions": [
+        "pecuniae"
+      ],
+      "justification": "Amount of money belonging to minor Thomas Kawiucki."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Thomas Kawiucki",
+      "mention_texts": [
+        "Tomam"
+      ],
+      "descriptive_mentions": [
+        "Ingenium",
+        "minorem pupillis",
+        "filium"
+      ],
+      "justification": "Minor son of deceased Cristophorus Kawiucki and Hedvigis."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Albertus Dziewrzyk",
+      "mention_texts": [
+        "Albertum Dziewrzyk"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Lanium Civem Leopoliensem"
+      ],
+      "justification": "Butcher and citizen of Lviv who deposited the funds under contract."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "has_family_relationship_to",
+      "tail_entity_id": "E1",
+      "evidence": "Onicium Hessner Syriugum Civem Leopoliensem generum citatum erga Civitatem Leopoliensis socerum actorem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resides_in",
+      "tail_entity_id": "E2",
+      "evidence": "Onicium Hessner Syriugum Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "has_family_relationship_to",
+      "tail_entity_id": "E14",
+      "evidence": "Comparentes personaliter Honesti Petrus Szmulirs et Hedvigis... coniuges secundarium nuptiarum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "has_family_relationship_to",
+      "tail_entity_id": "E15",
+      "evidence": "Hedvigis primarum quidem Honesti olim Cristophori Kawiucki Lanii Civis Leopoliensis relicta"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "resides_in",
+      "tail_entity_id": "E2",
+      "evidence": "Cristophori Kawiucki Lanii Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "has_family_relationship_to",
+      "tail_entity_id": "E15",
+      "evidence": "Tomam minorem pupillis praedicti olim Cristophori Kawiucki et Hedvigis superstitis coniugum filium"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "has_family_relationship_to",
+      "tail_entity_id": "E14",
+      "evidence": "Tomam minorem pupillis praedicti olim Cristophori Kawiucki et Hedvigis superstitis coniugum filium"
+    },
+    {
+      "head_entity_id": "E19",
+      "relation": "resides_in",
+      "tail_entity_id": "E2",
+      "evidence": "Albertum Dziewrzyk Lanium Civem Leopoliensem"
+    }
+  ]
+}

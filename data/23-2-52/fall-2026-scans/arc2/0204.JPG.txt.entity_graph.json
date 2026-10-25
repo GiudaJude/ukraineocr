@@ -1,0 +1,382 @@
+{
+  "document_id": "arc2/0204.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "15 Polish florins",
+      "mention_texts": [
+        "quindecim pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Debitum of 15 Polish florins mentioned at the start of the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officio Domini Advocati Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officio"
+      ],
+      "justification": "Advocatial office of Lviv before which the obligation is discharged."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sladicze",
+      "mention_texts": [
+        "Stanislao Sladicze"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus Suburbanis Leopoliensibus",
+        "debitores"
+      ],
+      "justification": "Suburban debtor of Lviv satisfying the debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Agnes",
+      "mention_texts": [
+        "Agnete"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus Suburbanis Leopoliensibus",
+        "debitores"
+      ],
+      "justification": "Wife of Stanislaus Sladicze and co-debtor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensibus",
+        "Civitatis Leopoliensis",
+        "Civitatis istius",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv referred to throughout the document."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Butkarzowska Property",
+      "mention_texts": [
+        "Butkarzowskie"
+      ],
+      "descriptive_mentions": [
+        "bona Butkarzowskie",
+        "bona",
+        "certam lignea structuram, tum etiam aream"
+      ],
+      "justification": "Property/real estate being appraised in the Halych suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Koledost"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "locum Ordinarii Advocati Leopoliensis tenens",
+        "Juris Fidelium"
+      ],
+      "justification": "Deputy of the Ordinary Advocate of Lviv (OCR variant of Rottendorff)."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Psol",
+      "mention_texts": [
+        "Jacobus Psol-"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Civitatis Leopoliensis",
+        "Juris Fidelium"
+      ],
+      "justification": "Lviv bench official participating in the appraisal."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannes Sobol"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Civitatis Leopoliensis",
+        "Juris Fidelium"
+      ],
+      "justification": "Lviv bench official participating in the appraisal."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Dubroski",
+      "mention_texts": [
+        "Alberti Dubroski",
+        "Albertus Dubroski"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Sutoris",
+        "consortem legitimam",
+        "fundatus",
+        "maritus"
+      ],
+      "justification": "Shoemaker requesting the property appraisal and second husband of deceased Anna."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius Suburbio Haliciensi",
+        "Suburbio Haliciensi"
+      ],
+      "justification": "Suburb of Lviv where the appraised property is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Ternicowska Street",
+      "mention_texts": [
+        "Ternicowska"
+      ],
+      "descriptive_mentions": [
+        "platea Ternicowska",
+        "platea"
+      ],
+      "justification": "Street in the Halych suburb where the property is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Oko",
+      "mention_texts": [
+        "Sebastiani Oko"
+      ],
+      "descriptive_mentions": [
+        "Pistores"
+      ],
+      "justification": "Baker whose house borders the appraised property."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kaska",
+      "mention_texts": [
+        "Alberti Kaska"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighbor whose house borders the appraised property."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Anna Butkarzowna",
+      "mention_texts": [
+        "Annam",
+        "Annae Butkarzowna"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "olim",
+        "consortem legitimam"
+      ],
+      "justification": "Deceased former owner of the property, wife of Jacobus Butkarzowic and later Albertus Dubroski."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Butkarzowic",
+      "mention_texts": [
+        "Jacobi Butkarzowic"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Szatkarniczek"
+      ],
+      "justification": "Deceased first husband of Anna."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Emma",
+      "mention_texts": [
+        "Emmam"
+      ],
+      "descriptive_mentions": [
+        "filiam",
+        "minoremum"
+      ],
+      "justification": "Minor daughter of Jacobus Butkarzowic and Anna."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Catherina",
+      "mention_texts": [
+        "Catherinam",
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Honesta",
+        "sororem",
+        "virgine"
+      ],
+      "justification": "Maiden sister of deceased Anna."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "organization",
+      "canonical_name": "Protocol of Civil Divisions of Lviv",
+      "mention_texts": [
+        "Protocolo Diuisionum Ciuilium Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Record book of civil divisions cited in the appraisal."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "date",
+      "canonical_name": "1590",
+      "mention_texts": [
+        "sabbato post Octauas Sacratissimi Corporis Christi proximo Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous civil division protocol."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "currency",
+      "canonical_name": "70 florins",
+      "mention_texts": [
+        "florenis septuaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appraised value of the property."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quarta post Dominicam Iubilate p. r. Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date the act was recorded."
+    },
+    {
+      "entity_id": "E23",
+      "entity_type": "person",
+      "canonical_name": "Anna Miazgowna",
+      "mention_texts": [
+        "Annae Miazgowna"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Ward mentioned in the entry header for guardianship."
+    },
+    {
+      "entity_id": "E24",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus",
+      "mention_texts": [
+        "Stanisla-"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Spectabilis Dominus"
+      ],
+      "justification": "Appearing party at the start of the final entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestis Stanislao Sladicze et Agnete coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "holds_office_at",
+      "tail_entity_id": "E2",
+      "evidence": "Martinus Koledost locum Ordinarii Advocati Leopoliensis tenens"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in bona Butkarzowskie in Civitatis istius Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "in bona Butkarzowskie in Civitatis istius Suburbio Haliciensi in platea Ternicowska"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Civitatis istius Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "Suburbio Haliciensi in platea Ternicowska"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "ad olim Honestam Annam nuptiarum primarum olim Jacobi Butkarzowic Szatkarniczek"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "secundarum vero eiusdem Alberti Dubroski consortem legitimam"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "child_of",
+      "tail_entity_id": "E16",
+      "evidence": "eiusque filiam Emmam minoremum ex seu fato olim Jacobi Butkarzowic susceptam"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "child_of",
+      "tail_entity_id": "E15",
+      "evidence": "ad olim Honestam Annam ... eiusque filiam Emmam minoremum ... susceptam"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "sibling_of",
+      "tail_entity_id": "E15",
+      "evidence": "eiusdem olim Annae Butkarzowna sororem"
+    }
+  ]
+}

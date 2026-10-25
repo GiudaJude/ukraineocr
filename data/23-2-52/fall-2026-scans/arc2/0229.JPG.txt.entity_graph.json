@@ -1,0 +1,145 @@
+{
+  "document_id": "arc2/0229.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Fedko Bratowicz",
+      "mention_texts": [
+        "Fedko Bratowicz",
+        "Fedko"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "annos iam legitimae aetatis assecutus",
+        "ille",
+        "venditores",
+        "germani"
+      ],
+      "justification": "Primary seller who appears in person, having attained legal age."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Fedka Emerentia",
+      "mention_texts": [
+        "Fedka Emerentia",
+        "Ee- Imerentia",
+        "Emerenna"
+      ],
+      "descriptive_mentions": [
+        "soror eiusdem",
+        "venditores",
+        "germani"
+      ],
+      "justification": "Sister of Fedko Bratowicz, co-seller represented by her tutor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dziatkowicz",
+      "mention_texts": [
+        "Joannem Dziat- koliowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Seniorem Scabinum Leopoliensen",
+        "tutorem suam"
+      ],
+      "justification": "Senior alderman of Lviv acting as legal guardian for Fedka Emerentia."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensen",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv, referenced in the alderman's jurisdiction and the suburban location."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Lazar",
+      "mention_texts": [
+        "LAZAR",
+        "Lazaro"
+      ],
+      "descriptive_mentions": [
+        "emptori suo",
+        "emptorem suum"
+      ],
+      "justification": "Buyer of the house and parcel in the suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lucas Szuriat",
+      "mention_texts": [
+        "LUCASZ SZURIAT"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Individual named in the header rubric alongside Lazar."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Lers Szgudov",
+      "mention_texts": [
+        "Lers Szgudov"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the sold property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Kostianka Paulul",
+      "mention_texts": [
+        "Kostianka Paulul"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor bordering the other side of the sold property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "120 Polish florins",
+      "mention_texts": [
+        "florenos Cen- tum viginta pecuniae et numeri Polonicali"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sale price paid for the house and property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Fedka Emerentia soror eiusdem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Fedka Emerentia soror eiusdem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E2",
+      "evidence": "per Famatum Joannem Dziat- koliowic Seniorem Scabinum Leopoliensen tutorem suam"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Seniorem Scabinum Leopoliensen"
+    }
+  ]
+}

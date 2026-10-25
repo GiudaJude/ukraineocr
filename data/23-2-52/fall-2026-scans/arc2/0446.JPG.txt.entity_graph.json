@@ -1,0 +1,257 @@
+{
+  "document_id": "arc2/0446.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Decreto nostro",
+        "Actis nostris",
+        "officio nostro"
+      ],
+      "justification": "The municipal council of Lviv referenced by its official decrees and court records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1592-09-19",
+      "mention_texts": [
+        "Sabbato ante Festum Sancti Mathaei Apostoli proxima Anno 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council decree mentioned in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Szymanowka",
+      "mention_texts": [
+        "Gregorium Szymanowasambath",
+        "Gregorius Szymanowka"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Famatus olim",
+        "Funifex",
+        "nuper vita functis"
+      ],
+      "justification": "Deceased ropemaker tenant cited for unpaid rent."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0100: Seraphinowska House",
+      "mention_texts": [
+        "domus Seraphinowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known house in Lviv from which rent was due."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Thomas Korbut Wyszocki",
+      "mention_texts": [
+        "Thomas Korbuth Wyszoczski",
+        "Tomas Korbuth",
+        "Thomas Korbuth"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis de Rostij",
+        "Tutores et haeredes proximi",
+        "frater testatoris"
+      ],
+      "justification": "Brother and heir of deceased Albertus Wyszocki."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Rostij",
+      "mention_texts": [
+        "Rostij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of citizenship of Thomas Korbut Wyszocki."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sophia",
+      "mention_texts": [
+        "Sophia",
+        "Sophia Janussowa"
+      ],
+      "descriptive_mentions": [
+        "Astra",
+        "coniunx legitima",
+        "Tutores et haeredes proximi",
+        "propinqua"
+      ],
+      "justification": "Female relative and co-heir of Albertus Wyszocki, wife of Janussius Ungarus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Janussius Ungarus",
+      "mention_texts": [
+        "Janussij Vngari"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Gladiatoris",
+        "Civis Leopoliensis",
+        "mariti sui"
+      ],
+      "justification": "Swordsmith and citizen of Lviv, husband of Sophia, presently residing in Hungary."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolitanus",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate"
+      ],
+      "justification": "City of Lviv where the act is registered and the parties hold citizenship."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Hungary",
+      "mention_texts": [
+        "Ungaria"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Country where Janussius Ungarus is currently staying."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Alberti Wyszoczski"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "nuper in ea Civitate steriliter vita functi",
+        "praedicti Alberti Wyszoczski",
+        "demortuum",
+        "testatoris"
+      ],
+      "justification": "The deceased testator Albertus Wyszocki whose estate is being settled."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Petrus Joannes Baron",
+      "mention_texts": [
+        "Petrum Joannem Baron"
+      ],
+      "descriptive_mentions": [
+        "Muratorem suburbanum Leopolitanus",
+        "tutorem sibi ad actum praesentem assumptum"
+      ],
+      "justification": "Suburban bricklayer appointed as guardian for Sophia for this legal transaction."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Thomas Larus",
+      "mention_texts": [
+        "Thomae Larus"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Executoris"
+      ],
+      "justification": "Testamentary executor of Albertus Wyszocki."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "currency",
+      "canonical_name": "60 Hungarian gold florins",
+      "mention_texts": [
+        "sexaginta Florenorum aureorum Ungaricalium"
+      ],
+      "descriptive_mentions": [
+        "dimidiam summam"
+      ],
+      "justification": "Sum of gold Hungarian florins found in the estate."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "currency",
+      "canonical_name": "30 gold florins",
+      "mention_texts": [
+        "aurei Triginta",
+        "aurei triginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of 30 florins received by each of the two heirs."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E11",
+      "evidence": "tam praedictus Tomas Korbuth frater testatoris"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sophia Famati Janussij Vngari Gladiatoris Civis Leopoliensis pro tunc in Ungaria existentis coniunx legitima"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "relative_of",
+      "tail_entity_id": "E11",
+      "evidence": "memorata Sophia uti propinqua"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "haec vero per Petrum Joannem Baron Muratorem suburbanum Leopolitanus tutorem sibi ad actum praesentem assumptum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "executor_of",
+      "tail_entity_id": "E11",
+      "evidence": "in personam Honorati Thomae Larus Executoris quietationem recognoscere"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "pro tunc in Ungaria existentis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E6",
+      "evidence": "Civis de Rostij"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "citizen_of",
+      "tail_entity_id": "E9",
+      "evidence": "Civis Leopoliensis"
+    }
+  ]
+}

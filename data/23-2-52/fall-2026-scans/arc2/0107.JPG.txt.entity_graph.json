@@ -1,0 +1,232 @@
+{
+  "document_id": "arc2/0107.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gaspar Kołomiejski",
+      "mention_texts": [
+        "Gaspar Kolomieyski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Aurifaber",
+        "coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Goldsmith and citizen of Lviv who, together with his wife, sells property rights in the suburb."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catharina Czopowna",
+      "mention_texts": [
+        "Catharina Czopowna"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses"
+      ],
+      "justification": "Wife of Gaspar Kołomiejski, daughter of Paulus Czop and sister of Agnes."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "civitatis istius"
+      ],
+      "justification": "The city of Lviv mentioned in the citizenship descriptor of the parties and the location of the suburb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Jelonkowska House",
+      "mention_texts": [
+        "Jclonkowszkie"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "House in the suburb bordering the property being sold."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Bernatowska House",
+      "mention_texts": [
+        "Barnatowskie"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "House in the suburb bordering the property being sold."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Samarkowska Property",
+      "mention_texts": [
+        "Samarkowskie"
+      ],
+      "descriptive_mentions": [
+        "fundo",
+        "fundo memorato"
+      ],
+      "justification": "Ground/plot adjoining the garden conveyed in the transaction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Czop",
+      "mention_texts": [
+        "Paulo Czop",
+        "Szop"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "patri",
+        "emptoribus"
+      ],
+      "justification": "Father of Catharina Czopowna and buyer of the suburban property shares."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Agnes",
+      "mention_texts": [
+        "Agneti Jerry"
+      ],
+      "descriptive_mentions": [
+        "sorori",
+        "noviter coniugibus",
+        "emptoribus"
+      ],
+      "justification": "Sister of Catharina Czopowna, daughter of Paulus Czop, and wife of Paulus Sobota."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paulus Sobota",
+      "mention_texts": [
+        "Paulo Sobota"
+      ],
+      "descriptive_mentions": [
+        "noviter coniugibus",
+        "eorundem legitimis successoribus",
+        "emptoribus"
+      ],
+      "justification": "Newlywed husband of Agnes, co-purchaser of the suburban property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "450 Polish florins",
+      "mention_texts": [
+        "quadringentorum et quinquaginta florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Purchase price paid for the shares in the suburban houses and garden."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court in which the resignation of the property is to take place."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Wężyk",
+      "mention_texts": [
+        "Franciscus",
+        "Wenzyk"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party recorded in the marginal heading of the subsequent entry."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Michael Byk",
+      "mention_texts": [
+        "Michael",
+        "Byk",
+        "Michael Byk"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Civis"
+      ],
+      "justification": "Furrier and citizen appearing in the subsequent transaction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Gaspar Kolomieyski Aurifaber et Catharina Czopowna coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatus Gaspar Kolomieyski Aurifaber et Catharina Czopowna coniuges"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "Catharina Czopowna ... Paulo Czop patri"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Catharina Czopowna ... Agneti Jerry sorori"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "Paulo Czop patri et Agneti Jerry sorori"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Agneti Jerry sorori ac noviter coniugibus Paulo Sobota"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Agneti Jerry sorori ac noviter coniugibus Paulo Sobota"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Gaspar Kolomieyski Aurifaber et Catharina Czopowna coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Gaspar Kolomieyski Aurifaber et Catharina Czopowna coniuges Cives Leopolienses"
+    }
+  ]
+}

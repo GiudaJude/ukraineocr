@@ -1,0 +1,218 @@
+{
+  "document_id": "arc2/0521.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "Triginta Florenis"
+      ],
+      "descriptive_mentions": [
+        "praefatis"
+      ],
+      "justification": "Sum of 30 florins mentioned from which 5 florins are deducted."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0056: 5 florins",
+      "mention_texts": [
+        "quinque Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 5 florins deducted from the total."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szilko",
+      "mention_texts": [
+        "Albertum Szilko",
+        "Albertus"
+      ],
+      "descriptive_mentions": [
+        "praefatum",
+        "idem",
+        "Sartor"
+      ],
+      "justification": "Tailor appearing in person and acknowledging the debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Gnatus",
+      "mention_texts": [
+        "Gnato"
+      ],
+      "descriptive_mentions": [
+        "praenominato",
+        "hero suo",
+        "Principalis sui",
+        "hero suo praefacto",
+        "Principali suo"
+      ],
+      "justification": "Master and principal to whom Albertus was indebted."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0144: 25 Polish florins",
+      "mention_texts": [
+        "viginti quinque",
+        "viginti quinque Florenorum Polonicalium",
+        "viginti quinque Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam praefatam",
+        "summam praedictam"
+      ],
+      "justification": "Ceded sum of 25 Polish florins secured on the tenement house."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Zolkiewska House",
+      "mention_texts": [
+        "Zolkiewska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Masonry house in which the stall/debt was hypothecated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Królikowicz",
+      "mention_texts": [
+        "Joanni Krolickowicz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Aromatario",
+        "Civi Leopoliensi",
+        "praefati cessionarij"
+      ],
+      "justification": "Apothecary and citizen of Lviv receiving the cession of the sum."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the citizenship and suburban residence of individuals."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Casper Veltor",
+      "mention_texts": [
+        "Casper Veltor"
+      ],
+      "descriptive_mentions": [
+        "Providus"
+      ],
+      "justification": "Person from Ravensburg making a receipt/acquittance."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Ravensburg",
+      "mention_texts": [
+        "Ravenspurgk"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City of origin of Casper Veltor."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij praesentis"
+      ],
+      "descriptive_mentions": [
+        "fori"
+      ],
+      "justification": "The municipal office before which the declaration is made."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Blasius Bolescha",
+      "mention_texts": [
+        "Blasij Bolescha",
+        "Blasius Bolescha"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Factor",
+        "Coniuges Suburbani Leopolienses"
+      ],
+      "justification": "Suburban factor of Lviv being acquitted of debt or damage."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Catherina Bolescha",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Suburbani Leopolienses"
+      ],
+      "justification": "Wife of Blasius Bolescha acquitted alongside her husband."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislai Sansserini"
+      ],
+      "descriptive_mentions": [
+        "D."
+      ],
+      "justification": "Named in the header of the following acquittance entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joanni Krolickowicz Aromatario Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E10",
+      "evidence": "Casper Veltor de Civitate Ravenspurgk"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Blasius Bolescha Factor et Catherina Coniuges"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Blasius Bolescha Factor et Catherina Coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Blasius Bolescha Factor et Catherina Coniuges Suburbani Leopolienses"
+    }
+  ]
+}

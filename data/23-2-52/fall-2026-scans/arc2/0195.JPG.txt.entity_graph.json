@@ -1,0 +1,110 @@
+{
+  "document_id": "arc2/0195.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Koriodzki",
+      "mention_texts": [
+        "Martino Koriodt",
+        "Martino Koriodzki"
+      ],
+      "descriptive_mentions": [
+        "Nobili",
+        "Creditori",
+        "eidem Creditori",
+        "ipse Creditor",
+        "Praefatus Creditor",
+        "praefatus Nobilis Creditor",
+        "praefatus Creditor",
+        "Fratres Creditor",
+        "Praedictus Creditor",
+        "praefatus Creditor"
+      ],
+      "justification": "Creditor receiving the pledge of rooms in a stone house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0049: CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos ducentos Pecuniae et numeri Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal debt amount owed to Martinus Koriodzki."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "Thursday after the Feast of the Nativity 1590",
+      "mention_texts": [
+        "feria quinta post Festum Nativitatis proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Repayment deadline specified in the transaction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Jasyszowska House",
+      "mention_texts": [
+        "Jasyszowska"
+      ],
+      "descriptive_mentions": [
+        "domo Lapidea Jasyszowska",
+        "domo"
+      ],
+      "justification": "Stone house containing the pledged dwellings."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Baker Street",
+      "mention_texts": [
+        "Platea Pistori"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the Jasyszowska house is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lower Castle",
+      "mention_texts": [
+        "Castrum Inferius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Castle landmark near which the property is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "Florenos viginta",
+        "Florenos viginti",
+        "florenos eiusmodi viginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Rent and repair sum mentioned in the conditions."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Florenos autem decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Payment due after the three-year period."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in domo Lapidea Jasyszowska in eiusdem Civitatis Platea Pistori dicta"
+    }
+  ]
+}

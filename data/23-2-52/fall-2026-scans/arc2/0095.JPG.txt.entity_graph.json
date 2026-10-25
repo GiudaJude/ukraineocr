@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/0095.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Cathedral Chapter",
+      "mention_texts": [
+        "Capitulo Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Dñali"
+      ],
+      "justification": "Ecclesiastical chapter mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City mentioned in the capitular and civic context."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Martinus Loczysko",
+      "mention_texts": [
+        "Martinum Loczysko"
+      ],
+      "descriptive_mentions": [
+        "Honestos"
+      ],
+      "justification": "Person mentioned at the beginning of the court record."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Bierszowski",
+      "mention_texts": [
+        "Martin Bierszowski"
+      ],
+      "descriptive_mentions": [
+        "Honestorum"
+      ],
+      "justification": "Witness in the lease dispute."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Lubna",
+      "mention_texts": [
+        "Stanislai Lubna"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "Pistoris"
+      ],
+      "justification": "Baker and witness in the property dispute."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "Feast of Easter",
+      "mention_texts": [
+        "festo proximo Paschatis",
+        "festo Paschatis",
+        "Festo Paschae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day cited as the deadline for the contract and eviction."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Morisko",
+      "mention_texts": [
+        "Joanni Morisko"
+      ],
+      "descriptive_mentions": [
+        "citatus",
+        "Praedictus citatus"
+      ],
+      "justification": "Cited party ordered to vacate the rented house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Komenski",
+      "mention_texts": [
+        "Sigismundo Komenski"
+      ],
+      "descriptive_mentions": [
+        "Actoris"
+      ],
+      "justification": "Plaintiff who secured the lease contract for the house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "Municipal court office threatening sanction."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Szwarnic",
+      "mention_texts": [
+        "Christophorus Szwarnic",
+        "Szwarnic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Scribe or official recording the act."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Norses Giesikowic",
+      "mention_texts": [
+        "Norses Giesikowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "filius"
+      ],
+      "justification": "Armenian citizen of Kamieniec Podolski who appears to sell a hereditary share."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Giesiko",
+      "mention_texts": [
+        "Giesikomis"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Civis d Armeni Kamenecen"
+      ],
+      "justification": "Late father of Norses Giesikowic."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Kamieniec Podolski",
+      "mention_texts": [
+        "Kamenecen"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin for Norses and his father."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Anna Bogdanowiczowna",
+      "mention_texts": [
+        "Annae Bosdanowiczowna",
+        "Annae Bogdanowiczowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugis suae legitimae",
+        "consentis suae"
+      ],
+      "justification": "Wife of Norses Giesikowic, inheriting from her late father Bogdan."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Bogdanus Petrowic",
+      "mention_texts": [
+        "Bogdanum Petrowic"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "olim",
+        "Armeni Cive Leopoliensis"
+      ],
+      "justification": "Deceased Armenian citizen of Lviv, father of Anna Bogdanowiczowna."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Norses Giesikowic ... suo et Honestae Annae Bosdanowiczowna coniugis suae legitimae"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Norses Giesikowic Thti- olim Giesikomis Civis d Armeni Kamenecen filius"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E15",
+      "evidence": "Honestae Annae Bogdanowiczowna consentis suae ad ipsam iure naturali successionis post Famatum olim Bogdanum Petrowic"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "olim Giesikomis Civis d Armeni Kamenecen"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Bogdanum Petrowic Armeni Cive Leopoliensis"
+    }
+  ]
+}

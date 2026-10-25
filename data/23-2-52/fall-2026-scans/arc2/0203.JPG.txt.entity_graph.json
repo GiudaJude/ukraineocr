@@ -1,0 +1,236 @@
+{
+  "document_id": "arc2/0203.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gładysz",
+      "mention_texts": [
+        "Stanisław Gładysz",
+        "Stanislaus Gladysz",
+        "Stanislai Gladysz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges Suburbani Leopolienses",
+        "ille",
+        "maritum",
+        "debitores recognoscentes"
+      ],
+      "justification": "Debtor appearing in the Lviv record acknowledging a loan."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes",
+        "Agnetis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges Suburbani Leopolienses",
+        "Haec",
+        "suam legitimam",
+        "alter pro altero",
+        "unus coniugum",
+        "debitores recognoscentes"
+      ],
+      "justification": "Wife of Stanislaus Gładysz, co-debtor in the transaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mor Judaeus",
+      "mention_texts": [
+        "Mori Judaeo"
+      ],
+      "descriptive_mentions": [
+        "Infideli",
+        "Judaeo Leopoliensi"
+      ],
+      "justification": "Jewish creditor residing in Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City in which the parties reside and where the contract takes place."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "suburbio Civitatis tales Haliciensi ante portam",
+        "suburbio"
+      ],
+      "justification": "Suburb of Lviv where the mortgaged property is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kojdzicowska House",
+      "mention_texts": [
+        "Kojdzicowska"
+      ],
+      "descriptive_mentions": [
+        "domum Kojdzicowska"
+      ],
+      "justification": "Neighboring house mentioned as a boundary landmark for the mortgaged property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "38 Polish florins",
+      "mention_texts": [
+        "Florenos triginta octo",
+        "triginta octo florenorum",
+        "triginta octo Florenorum"
+      ],
+      "descriptive_mentions": [
+        "veri veri iusti liquidique debiti ex causa mutui",
+        "summam triginta octo Florenorum",
+        "debitum triginta octo florenorum"
+      ],
+      "justification": "Principal debt amount owed to Mor Judaeus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Florenorum decem"
+      ],
+      "descriptive_mentions": [
+        "Primam post ratam",
+        "Tertiam ratem"
+      ],
+      "justification": "Instalment amounts of 10 florins."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "9 florins",
+      "mention_texts": [
+        "Florenorum Novem"
+      ],
+      "descriptive_mentions": [
+        "secundam deinde ratam"
+      ],
+      "justification": "Second instalment amount."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "8 florins",
+      "mention_texts": [
+        "Florenorum octo"
+      ],
+      "descriptive_mentions": [
+        "Quartam et ultimam ratam"
+      ],
+      "justification": "Fourth instalment amount."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "62 florins",
+      "mention_texts": [
+        "Florenis sexaginta duobus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount mentioned in the quitclaim."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Media Blactowa",
+      "mention_texts": [
+        "Media Blactowa",
+        "media"
+      ],
+      "descriptive_mentions": [
+        "Honestus"
+      ],
+      "justification": "Person named in the second entry recording a quitclaim."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officij"
+      ],
+      "justification": "Municipal office before which default would be executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Stanislaus Gladysz et Agnes coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honesti Stanislaus Gladysz et Agnes coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "recognoverunt se debere et teneri manu coniuncta et divisa veri veri iusti liquidique debiti ex causa mutui ad urgentem suam necessitatem contracti Florenos triginta octo feruntor e numeri Polonici Infideli Mori Judaeo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E3",
+      "evidence": "recognoverunt se debere et teneri manu coniuncta et divisa veri veri iusti liquidique debiti ex causa mutui ad urgentem suam necessitatem contracti Florenos triginta octo feruntor e numeri Polonici Infideli Mori Judaeo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Infideli Mori Judaeo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "in domo in suburbio Civitatis tales Haliciensi ante portam in axe penes domum Kojdzicowska sita"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "suburbio Civitatis tales Haliciensi"
+    }
+  ]
+}

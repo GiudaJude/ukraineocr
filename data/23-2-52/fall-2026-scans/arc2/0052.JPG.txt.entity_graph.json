@@ -1,0 +1,400 @@
+{
+  "document_id": "arc2/0052.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified by Latin adjectival form denoting Kraków."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Identified by references to Lviv / Leopolis."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0044: Lucas Wojnar",
+      "mention_texts": [
+        "Lucae Woynar",
+        "Lucam Woynar"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Larnij Civis Leopoliensis",
+        "Ffatum olim",
+        "praefati olim",
+        "Famato olim"
+      ],
+      "justification": "Deceased butcher and citizen of Lviv referenced in the property dispute."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0045: Joannes Wojnar",
+      "mention_texts": [
+        "Joannis Woynar"
+      ],
+      "descriptive_mentions": [
+        "successorum olim"
+      ],
+      "justification": "Deceased relative whose successors own adjoining property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as Halych suburb of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0046: Valentinus Skorka",
+      "mention_texts": [
+        "Valentini Skorka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0047: Paulus Sartor",
+      "mention_texts": [
+        "Pauli sartoris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0040: Antonius Frackowic",
+      "mention_texts": [
+        "Antonio",
+        "Antonius Frackowic"
+      ],
+      "descriptive_mentions": [
+        "Civis et Consulis Cracoviensis",
+        "Spectabili Domino",
+        "Spectabili Creditori",
+        "Spectabilis Dominus"
+      ],
+      "justification": "Creditor and consul/citizen of Kraków requesting entry into city books."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "Actis nostris"
+      ],
+      "justification": "The municipal consular office of Lviv before which acts are registered."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "4 February 1592",
+      "mention_texts": [
+        "feria tertia post festum Purificationis Beatae Mariae Virginis proxima Anno Domini 159 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original financial inscription."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0007: 280 Polish florins",
+      "mention_texts": [
+        "ducentorum et octoginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa debiti"
+      ],
+      "justification": "Monetary sum of the debt."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislai Anserini",
+        "Stanislaum Anserini"
+      ],
+      "descriptive_mentions": [
+        "Spectabilis",
+        "Collegae nostri Consularis",
+        "Civis",
+        "Spectabilium Dominum",
+        "Consulem Leopoliensem",
+        "Iudiciarium Barbarae et Margarethae Famati olim Joannis Waisz filiarum tutorem"
+      ],
+      "justification": "Lviv consul and legal guardian acting on behalf of the deceased Joannes Waisz's daughters."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Anna Wojnarowa",
+      "mention_texts": [
+        "Anna",
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "praefati olim Lucae Woynar vidua relicta",
+        "Honestam",
+        "relictam"
+      ],
+      "justification": "Widow of Lucas Wojnar and sister of Stanislaus Waisz."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0048: Jacobus Domaszewski",
+      "mention_texts": [
+        "Jacobus Domaszewski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Plenipotens substitutus"
+      ],
+      "justification": "Noble legal proxy representing Sigismundus Smietanka and Sophia."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0049: Sigismundus Smietanka",
+      "mention_texts": [
+        "Sigismundi Smietanka"
+      ],
+      "descriptive_mentions": [
+        "Nobilis"
+      ],
+      "justification": "Noble husband of Sophia."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "PER-0050: Sophia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "filiae"
+      ],
+      "justification": "Daughter of the late notary Lucas of Żydaczów and Barbara, wife of Sigismundus Smietanka."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "PER-0055: Lucas Notarius Zialussowski",
+      "mention_texts": [
+        "Lucae"
+      ],
+      "descriptive_mentions": [
+        "Nobilis olim",
+        "antiqui Notarii Castri Zidaczowiensis"
+      ],
+      "justification": "Former castle notary of Żydaczów, father of Sophia."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "LOC-0026: Żydaczów",
+      "mention_texts": [
+        "Zidaczowiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town/castle location where Lucas served as notary."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Barbara",
+      "mention_texts": [
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "coniugum"
+      ],
+      "justification": "Wife of Lucas, mother of Sophia."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "PER-0051: Stanislaus Waisz",
+      "mention_texts": [
+        "Stanislaum Waisz",
+        "Stanislao Waisz"
+      ],
+      "descriptive_mentions": [
+        "laniom",
+        "Ciuem Leopoliensis",
+        "tutore ipsius nationali",
+        "fratre germano"
+      ],
+      "justification": "Butcher and citizen of Lviv, full brother and guardian of Anna Wojnarowa."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "Barbara Waisz",
+      "mention_texts": [
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "filiarum"
+      ],
+      "justification": "Daughter of the deceased Joannes Waisz under the wardship of Stanislaus Anserinus."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "person",
+      "canonical_name": "Margaretha Waisz",
+      "mention_texts": [
+        "Margarethae"
+      ],
+      "descriptive_mentions": [
+        "filiarum"
+      ],
+      "justification": "Daughter of the deceased Joannes Waisz under the wardship of Stanislaus Anserinus."
+    },
+    {
+      "entity_id": "E23",
+      "entity_type": "person",
+      "canonical_name": "PER-0052: Joannes Waisz",
+      "mention_texts": [
+        "Joannis Waisz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased citizen, father of Barbara and Margaretha Waisz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Civis et Consulis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Anna praefati olim Lucae Woynar vidua relicta"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "sibling_of",
+      "tail_entity_id": "E13",
+      "evidence": "Stanislao Waisz fratre germano"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "tutore ipsius nationali Q. dicto Stanislao Waisz fratre germano"
+    },
+    {
+      "head_entity_id": "E20",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaum Waisz laniom Ciuem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E15",
+      "evidence": "Nobilis Jacobus Domaszewski tanquam Plenipotens substitutus Nobilis Sigismundi Smietanka"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E16",
+      "evidence": "Plenipotens substitutus Nobilis Sigismundi Smietanka et Sophiae"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "spouse_of",
+      "tail_entity_id": "E16",
+      "evidence": "Sigismundi Smietanka et Sophiae"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "spouse_of",
+      "tail_entity_id": "E19",
+      "evidence": "Lucae... et Barbarae coniugum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "child_of",
+      "tail_entity_id": "E17",
+      "evidence": "Sophiae Nobilis olim Lucae antiqui Notarii Castri Zidaczowiensis... filiae"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "child_of",
+      "tail_entity_id": "E19",
+      "evidence": "Sophiae Nobilis olim Lucae antiqui Notarii Castri Zidaczowiensis et Barbarae coniugum filiae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E21",
+      "evidence": "tanquam Iudiciarium Barbarae et Margarethae Famati olim Joannis Waisz filiarum tutorem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "guardian_of",
+      "tail_entity_id": "E22",
+      "evidence": "tanquam Iudiciarium Barbarae et Margarethae Famati olim Joannis Waisz filiarum tutorem"
+    },
+    {
+      "head_entity_id": "E21",
+      "relation": "child_of",
+      "tail_entity_id": "E23",
+      "evidence": "Barbarae et Margarethae Famati olim Joannis Waisz filiarum"
+    },
+    {
+      "head_entity_id": "E22",
+      "relation": "child_of",
+      "tail_entity_id": "E23",
+      "evidence": "Barbarae et Margarethae Famati olim Joannis Waisz filiarum"
+    }
+  ]
+}

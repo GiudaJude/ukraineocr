@@ -1,0 +1,173 @@
+{
+  "document_id": "arc2/0014.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina Tobiassowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified in the dispute over house shares, matching known corpus entity PER-0110."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "50 marks",
+      "mention_texts": [
+        "quinquaginta marcarum"
+      ],
+      "descriptive_mentions": [
+        "vadium"
+      ],
+      "justification": "Bail/vadium amount established by the court."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoldiensibus"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City of Lviv referenced via civic citizenship and suburban status of the parties."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Slachetka",
+      "mention_texts": [
+        "Stanislaw Slachetka",
+        "Stanislaus Slachetka"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Serrifaber",
+        "coniuges",
+        "Ciues Leopolienses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Locksmith and citizen of Lviv selling his house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Ciues Leopolienses"
+      ],
+      "justification": "Wife of Stanislaus Slachetka, co-seller of the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Halych Suburb",
+      "mention_texts": [
+        "Halickam"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis suburbio ante portam Halickam vocatam"
+      ],
+      "justification": "Location of the sold house, matching LOC-0012."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hanussius",
+      "mention_texts": [
+        "Hanussii"
+      ],
+      "descriptive_mentions": [
+        "Serrifabrorum"
+      ],
+      "justification": "Locksmith whose house adjoins the property being sold."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus",
+      "mention_texts": [
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "Serrifabrorum"
+      ],
+      "justification": "Locksmith whose house adjoins the property being sold on the other side."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Petrus Stelmasz",
+      "mention_texts": [
+        "Petrus Aurifex",
+        "Petro Stelmasz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "coniugibus",
+        "Suburbanis Leopoldiensibus",
+        "emptore"
+      ],
+      "justification": "Buyer of the house, identified as Petrus Aurifex in the header and Petro Stelmasz in the text."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Suburbanis Leopoldiensibus"
+      ],
+      "justification": "Wife of Petrus Stelmasz, co-buyer of the house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "600 Polish florins",
+      "mention_texts": [
+        "sexcentorum florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Sale price of the house, matching CUR-0020."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatus Stanislaus Slachetka Serrifaber et Dorothea coniuges Ciues Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "hac vero per eundem maritum tutorem suum legitimum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honesto Petro Stelmasz et Annae coniugibus Suburbanis Leopoldiensibus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honesto Petro Stelmasz et Annae coniugibus Suburbanis Leopoldiensibus"
+    }
+  ]
+}

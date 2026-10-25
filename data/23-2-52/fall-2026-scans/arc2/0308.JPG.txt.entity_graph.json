@@ -1,0 +1,131 @@
+{
+  "document_id": "arc2/0308.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Catharina Szottij Pandyna",
+      "mention_texts": [
+        "Catharina Szottij Pandyna"
+      ],
+      "descriptive_mentions": [
+        "Praedicta",
+        "emptricem",
+        "emptricis"
+      ],
+      "justification": "Catharina Szottij Pandyna is the buyer (emptrix) of the property portion."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus",
+      "mention_texts": [
+        "Blasi Stanislai"
+      ],
+      "descriptive_mentions": [
+        "venditoris"
+      ],
+      "justification": "Stanislaus is identified as the seller (venditor) of the property portion."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Thomas",
+      "mention_texts": [
+        "Thomas"
+      ],
+      "descriptive_mentions": [
+        "rector"
+      ],
+      "justification": "Thomas rector is mentioned in connection with the resignation and authorization."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0002: Simon Senior",
+      "mention_texts": [
+        "Seniosi"
+      ],
+      "descriptive_mentions": [
+        "Honorato Domino",
+        "Scabino Civitatis eiusdem Leopoliensis"
+      ],
+      "justification": "Simon Senior, scabinus of the city of Lviv, given authority to resign the property in court."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "Lviv is referenced as the city whose bench the scabinus serves on."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv where the resignation of the property is to be recorded."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislaw"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Stanislaw named in the heading of entry 330."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Anna Szamielowa",
+      "mention_texts": [
+        "Annam Szamielowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam"
+      ],
+      "justification": "Honesta Anna Szamielowa is a party in legal action 330."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officio",
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council/office that assigned tutors and set the limitation."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "held_office_in",
+      "tail_entity_id": "E5",
+      "evidence": "Scabino Civitatis eiusdem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Judicio Exposito Bannito Leopoli"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sold_to",
+      "tail_entity_id": "E1",
+      "evidence": "emptricem eiusque legittimos successores in pacifica sortis Judicio ad praesens ipsi venditae possessione ... Stanislai venditoris"
+    }
+  ]
+}

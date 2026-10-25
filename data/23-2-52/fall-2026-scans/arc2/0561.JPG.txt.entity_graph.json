@@ -1,0 +1,197 @@
+{
+  "document_id": "arc2/0561.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Samborowicz",
+      "mention_texts": [
+        "Joas Samborivz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Fexiensis",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Appears personally in court to acknowledge receipt of debt repayment from his brother."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Samborowicz",
+      "mention_texts": [
+        "Christoferi Jakubowic",
+        "Christophoro Samborivz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Foeneratore",
+        "Cive Leopoliensi",
+        "fratre suo germano",
+        "eundem"
+      ],
+      "justification": "Brother of Joannes Samborowicz who is acquitted of a debt of 1000 florins."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Florenis Mille pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of money contracted and satisfied."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Tuesday after Judica Sunday 1589",
+      "mention_texts": [
+        "feria tertia post Dominicam Judica Anno Domini 1589"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous inscription mentioned in the council acts."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "eijsdem Actis",
+        "Officium praesens"
+      ],
+      "justification": "The municipal council before which the transactions and decrees take place."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose citizenship and offices are referenced throughout the entries."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thomas Chmielowski",
+      "mention_texts": [
+        "Tomas Chmielowic",
+        "Tomas Chmielowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Actorem",
+        "praedictus Nobilis Actor",
+        "praedictus"
+      ],
+      "justification": "Noble plaintiff seeking execution of decrees against Martinus Rottendorff."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Roczndort",
+        "Martinum Rosthorndorff",
+        "Martinus Dothrindorff"
+      ],
+      "descriptive_mentions": [
+        "Stabilem",
+        "Civem Leopoliensem",
+        "Citatum",
+        "praefatum citatum",
+        "praedicto vero citato"
+      ],
+      "justification": "Citizen of Lwów summoned in a dispute concerning horses."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Boguski",
+      "mention_texts": [
+        "Stanislaum Boguszki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Qui personaliter comparens"
+      ],
+      "justification": "Noble presented by Rottendorff, who confesses to leading horses from the stables."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "Monday after the Feast of Saint Martin",
+      "mention_texts": [
+        "feria secunda post Festum S. Martini proxima"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date set for the return or settlement regarding the horses."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Łańcucki",
+      "mention_texts": [
+        "Nicolaus Lanczturrnski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears in the heading of the final entry."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Krachalianka",
+      "mention_texts": [
+        "Dorothea Graschnowiczowa",
+        "Dorothea Krachalianka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Vidua"
+      ],
+      "justification": "Widow of the late Thomas Szczerbanowicz appearing personally in court."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Thomas Szczerbanowicz",
+      "mention_texts": [
+        "Toma Szczerbanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Framptini Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lwów and former husband of Dorothea Krachalianka."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "a Famato Christophoro Samborivz Foeneratore Cive Leopoliensi fratre suo germano"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "fratre suo germano"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Honesta Dorothea Krachalianka Famati olim Toma Szczerbanowicz Framptini Civis Leopoliensis Vidua"
+    }
+  ]
+}

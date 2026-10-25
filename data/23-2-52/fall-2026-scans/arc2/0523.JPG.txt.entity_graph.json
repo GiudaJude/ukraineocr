@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/0523.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio",
+        "Actis praesentibus",
+        "Actu",
+        "Officij"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Officij"
+      ],
+      "justification": "The municipal council/chancellery of Lviv before which the recognition takes place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Benedictus Schanowski",
+      "mention_texts": [
+        "Benedictus"
+      ],
+      "descriptive_mentions": [
+        "discretus et honestus",
+        "Famati Stanislai olim Schanowski Civis Leopoliensis filius annos legitimae aetatis attingens menteque simul et corpore sanus existens",
+        "ipse",
+        "filius"
+      ],
+      "justification": "The son who resigns his paternal inheritance share to his mother."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schanowski",
+      "mention_texts": [
+        "Stanislai",
+        "Schanowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis",
+        "pater",
+        "ipse pater"
+      ],
+      "justification": "Deceased citizen of Lviv, father of Benedictus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigim",
+        "Hedvigi"
+      ],
+      "descriptive_mentions": [
+        "matrem suam charissimam viduam relictam",
+        "matrem",
+        "debitricem",
+        "matri sua",
+        "eadem mater",
+        "dicta mater"
+      ],
+      "justification": "Widow of Stanislaus Schanowski and mother of Benedictus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis illius"
+      ],
+      "justification": "The city of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "Bernardine Monastery in Lviv",
+      "mention_texts": [
+        "Patrum Bernardinorum"
+      ],
+      "descriptive_mentions": [
+        "Coenobio",
+        "Caenobium",
+        "illud Caenobium"
+      ],
+      "justification": "The Bernardine monastery located outside the walls of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta Florenos",
+        "quinquaginta florenos"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Amount of fifty florins reserved for the Bernardine monastery."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Benedictus, Famati Stanislai olim Schanowski Civis Leopoliensis filius"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Hedvigim matrem suam charissimam viduam relictam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Hedvigim matrem suam charissimam viduam relictam, atque bona sua paterna debitis quae ipse pater olim contraxerat"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Stanislai olim Schanowski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Coenobio Patrum Bernardinorum extra maenia Civitatis illius Leopoli consisten"
+    }
+  ]
+}

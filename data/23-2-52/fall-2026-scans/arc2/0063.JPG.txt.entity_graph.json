@@ -1,0 +1,185 @@
+{
+  "document_id": "arc2/0063.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginae",
+        "Reginae"
+      ],
+      "descriptive_mentions": [
+        "sorores suae",
+        "ipsius"
+      ],
+      "justification": "Identified as Regina, sister of the brother making the donation/resignation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Frater Albertus",
+      "mention_texts": [
+        "Albertus"
+      ],
+      "descriptive_mentions": [
+        "Frater",
+        "heres suae"
+      ],
+      "justification": "Brother of Regina acting in the property transaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum D.",
+        "Scabinum Juratum",
+        "verum Lhitem",
+        "dictum Leuibitem"
+      ],
+      "justification": "Sworn bencher (scabinus juratus) constituted as legal representative."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council act takes place and where the church is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Tuesday around Invocavit Sunday 1595",
+      "mention_texts": [
+        "feria tertia in Dominicam Invocavit proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the legal action."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of the document."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Acta praesentia",
+        "Officio nostri"
+      ],
+      "justification": "The municipal authority and council registers granting the record."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0004: Jacobus Mieszkowski",
+      "mention_texts": [
+        "Jacobus Mieszkowski"
+      ],
+      "descriptive_mentions": [
+        "Fidelis D.",
+        "Collega noster Consularis"
+      ],
+      "justification": "Councilor appearing in the council office."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Buczek",
+      "mention_texts": [
+        "Hieronymi Buczek"
+      ],
+      "descriptive_mentions": [
+        "Religiosi Fratris Custodis"
+      ],
+      "justification": "Franciscan friar and custodian at whose instance the action is recorded."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Order of Friars Minor",
+      "mention_texts": [
+        "Franciscanorum",
+        "Ordinis Sancti Francisci"
+      ],
+      "descriptive_mentions": [
+        "superiorum sui Ordinis"
+      ],
+      "justification": "Religious order of St. Francis mentioned in the testamentary entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0022: Church of the Holy Cross",
+      "mention_texts": [
+        "Ecclesiae tituli Sanctae Crucis"
+      ],
+      "descriptive_mentions": [
+        "intra muros Leopolienses"
+      ],
+      "justification": "Church within the walls of Lviv belonging to the Franciscans."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0010: Caspar Gulinski",
+      "mention_texts": [
+        "Gasparem Gulimski"
+      ],
+      "descriptive_mentions": [
+        "Fidelem D.",
+        "Collegam meum Consularem",
+        "tutorem"
+      ],
+      "justification": "Councilor appointed as legal guardian (tutor) for the act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "dictae Reginae sorores suae"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Jacobus Mieszkowski Collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Gasparem Gulimski Collegam meum Consularem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Fratris Custodis Hieronymi Buczek Ordinis Sancti Francisci"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "intra muros Leopolienses"
+    }
+  ]
+}

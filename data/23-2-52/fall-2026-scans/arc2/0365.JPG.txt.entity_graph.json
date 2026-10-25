@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/0365.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv is referenced adjectivally and by the term Civitas."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "platea Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "A street in Lviv where the property is located."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Łojkowska House",
+      "mention_texts": [
+        "Loykowsska"
+      ],
+      "descriptive_mentions": [
+        "lapideas"
+      ],
+      "justification": "A neighboring tenement house on Kraków Street."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Centum Florenos",
+        "Centum Florenorum",
+        "Florenos Centum"
+      ],
+      "descriptive_mentions": [
+        "summam praefatam",
+        "summa praesens",
+        "tales Centum Florenos"
+      ],
+      "justification": "The principal sum of 100 florins mentioned multiple times."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Ducentis Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The sum of 200 florins mentioned in relation to weekly pensions."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nobis",
+        "Consulibus praesentibus",
+        "nostris in officio Successoribus",
+        "Collega noster Consularis"
+      ],
+      "justification": "The governing municipal council issuing the record and represented by the consuls."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Vicarii Leopolienses",
+      "mention_texts": [
+        "Vicarii Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "eorundem Vicariorum collegio",
+        "collegio"
+      ],
+      "justification": "The college of vicars of the Lviv cathedral."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czebrowicz",
+      "mention_texts": [
+        "Joannes Czebrowicz"
+      ],
+      "descriptive_mentions": [
+        "se",
+        "suos successores"
+      ],
+      "justification": "The burgess securing a debt on his stone house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Romanus",
+      "mention_texts": [
+        "Albertus Romanus",
+        "Albertus Roma- nus"
+      ],
+      "descriptive_mentions": [
+        "Dominus Magister",
+        "Excellens et Generosus Dominus Magister",
+        "Collega noster Consularis",
+        "se"
+      ],
+      "justification": "A council member making a legal recognition regarding collected funds."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Iliczki",
+      "mention_texts": [
+        "Iliczki"
+      ],
+      "descriptive_mentions": [
+        "olim Reverendissimi",
+        "Canonici et Decani praefatae Ecclesiae Metropolitanae Leopoliensis nuper vita functum proxime promoti"
+      ],
+      "justification": "The deceased canon and dean of the Lviv Metropolitan Church."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in eiusdem Civitatis platea Cracoviensi dicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in eiusdem Civitatis platea Cracoviensi dicta penes Aurorum Britonniczki ab vna et Loykowsska lapideas parte ex altera sita"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Excellens et Generosus Dominus Magister Albertus Roma- nus Collega noster Consularis"
+    }
+  ]
+}

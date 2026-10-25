@@ -1,0 +1,66 @@
+{
+  "document_id": "arc2/0273.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium",
+        "Officium vero Consulare Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "idem Officium"
+      ],
+      "justification": "City council referred to as the authority admitting building repairs and hearing the parties' allegations."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anna Itiamianka",
+      "mention_texts": [
+        "Anna Jtiamanka",
+        "Anna Jtiamianka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "pars adversa"
+      ],
+      "justification": "Litigant and widow offering to repair her portions of the house."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jatrij Starnijasoij",
+      "mention_texts": [
+        "Jatrij Starnijasoij"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased husband of Anna Itiamianka."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Caspar Aromatarius",
+      "mention_texts": [
+        "Caspar Aromatarius"
+      ],
+      "descriptive_mentions": [
+        "Famatus"
+      ],
+      "justification": "Adverse party holding mortgage and obligation on the shares in the house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Anna Jtiamianka Famati olim Jatrij Starnijasoij vidua relicta"
+    }
+  ]
+}

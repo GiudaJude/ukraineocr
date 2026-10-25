@@ -1,0 +1,165 @@
+{
+  "document_id": "arc2/0550.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The municipal council court before which Henricus appeared."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-1306: Henricus",
+      "mention_texts": [
+        "Henricus"
+      ],
+      "descriptive_mentions": [
+        "Successor Rupert",
+        "Honestus",
+        "aurifex filius fabri aurari socius",
+        "ex fratre nepos",
+        "eundem"
+      ],
+      "justification": "Goldsmith journeyman who appeared before the council to take an oath of kinship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hanus Rupert",
+      "mention_texts": [
+        "Rupert",
+        "Hanusy Rupert"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis sine prole defuncti",
+        "praedicti"
+      ],
+      "justification": "Deceased citizen of Lviv without offspring, uncle of Henricus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in council titles and citizenship references."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacrae Regiae Maiestatis",
+        "eiusdem Sacrae Regiae Maiestatis"
+      ],
+      "justification": "The King of Poland referenced through his royal decree and royal secretary."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-1296: Wawrzyniec Gembicki",
+      "mention_texts": [
+        "Laurentij Gembicki"
+      ],
+      "descriptive_mentions": [
+        "Providi",
+        "Secretarij"
+      ],
+      "justification": "Royal secretary who obtained the right of escheat (jus caducum) to Rupert's estate."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Simon Knossth",
+      "mention_texts": [
+        "Simon Knossth"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv issuing a formal quietatio for wall expenses."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Aurifex Ungarus",
+      "mention_texts": [
+        "Pauli Aurifex Vngari",
+        "Paulum Aurifex Vngarum",
+        "Paulum Aurificem"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "vicinum suum"
+      ],
+      "justification": "Hungarian goldsmith acquitted of costs for the masonry wall."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kulhankowska House",
+      "mention_texts": [
+        "Kulhankowska"
+      ],
+      "descriptive_mentions": [
+        "domo"
+      ],
+      "justification": "A house in Lviv adjoining the property of Simon Knossth."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "1587",
+      "mention_texts": [
+        "Anno 1587."
+      ],
+      "descriptive_mentions": [],
+      "justification": "The year in which Simon Knossth constructed the masonry wall at his own expense."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "nephew_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famati olim Hanusy Rupert Civis Leopoliensis sine prole defuncti ex fratre nepos"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Hanusy Rupert Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "secretary_of",
+      "tail_entity_id": "E5",
+      "evidence": "Laurentij Gembicki eiusdem Sacrae Regiae Maiestatis Secretarij"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simon Knossth Fami ex Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "neighbor_of",
+      "tail_entity_id": "E7",
+      "evidence": "eundem praefatum Paulum Aurificem vicinum suum quietavit"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "document_id": "arc2/0388.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Markowicz",
+      "mention_texts": [
+        "Albertus Markowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sartor",
+        "coniuges",
+        "Cives Leopolienses",
+        "maritum uti habilem suum legitimum"
+      ],
+      "justification": "Appears as a principal party in the record: 'Famatus Albertus Markowicz Sartor'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catherina",
+      "mention_texts": [
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "praedicta Catherina recognoscens"
+      ],
+      "justification": "Appears as the wife of Albertus Markowicz and sister of Paulus Simonowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "Civitatis istius"
+      ],
+      "justification": "The city of Lviv is referenced in citizenship titles and location descriptors."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0621: Paulus Szczesny",
+      "mention_texts": [
+        "Paulo Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "honesto",
+        "filio",
+        "fratri germano",
+        "Honesto Paulo",
+        "Creditori suo",
+        "praedicto"
+      ],
+      "justification": "Identified as the creditor and brother of Catherina; matches known entity alias 'Paulus Simonowicz'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Wieliczkostary",
+      "mention_texts": [
+        "Simonis Wieliczkostary"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased father of Paulus and Catherina: 'olim Simonis Wieliczkostary Civis Leopoliensis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sophia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum"
+      ],
+      "justification": "Mother of Paulus and Catherina: 'Simonis Wieliczkostary ... et Sophiae Coniugum filio'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0170: PER-0012: Joannes Wolfowicz",
+      "mention_texts": [
+        "Joannem Wolfowicz"
+      ],
+      "descriptive_mentions": [
+        "Fidelem",
+        "collegam nostrum Consularem"
+      ],
+      "justification": "Named as council colleague: 'Fidelem Joannem Wolfowicz collegam nostrum Consularem'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "collegam nostrum Consularem",
+        "officij"
+      ],
+      "justification": "The governing council issuing and referenced in the act."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos ducentos pecunia et numeri Polonicalis",
+        "Ducentorum Florenorum",
+        "ducentorum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The monetary amount owed and secured."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Nativity of Jesus Christ",
+      "mention_texts": [
+        "Festo Nativitatis Domini nostri Jesu Christi"
+      ],
+      "descriptive_mentions": [
+        "in Anno eodem currenti proxime venturo"
+      ],
+      "justification": "Due date for payment: 'pro Festo Nativitatis Domini nostri Jesu Christi'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Zarubowska House",
+      "mention_texts": [
+        "Zarubowska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae",
+        "dicta",
+        "lapidea",
+        "eadem medietate lapidea"
+      ],
+      "justification": "The stone house hypothecated for the debt: 'domus lapideae Zarubowska dicta'."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0016: Halych Street",
+      "mention_texts": [
+        "platea Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The street where the property is situated: 'in Civitatis istius platea Haliciensi'."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Michael Bryl",
+      "mention_texts": [
+        "Michaelis Bryl"
+      ],
+      "descriptive_mentions": [
+        "Famatorum"
+      ],
+      "justification": "Neighboring property owner: 'inter Famatorum Michaelis Bryl et Abermanowska lapideas sita'."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Abermanowska",
+      "mention_texts": [
+        "Abermanowska"
+      ],
+      "descriptive_mentions": [
+        "Famatorum"
+      ],
+      "justification": "Neighboring property owner: 'inter Famatorum Michaelis Bryl et Abermanowska lapideas sita'."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Miaszkowicz",
+      "mention_texts": [
+        "Stanislai Miaszkowicz"
+      ],
+      "descriptive_mentions": [
+        "mariti sui prioris"
+      ],
+      "justification": "Former husband of Catherina: 'mariti sui prioris Stanislai Miaszkowicz'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatus Albertus Markowicz Sartor et Catherina textricum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "mariti sui prioris Stanislai Miaszkowicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simonis Wieliczkostary Civis Leopoliensis et Sophiae Coniugum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Paulo Simonowicz Famati olim Simonis Wieliczkostary Civis Leopoliensis et Sophiae Coniugum filio"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Paulo Simonowicz Famati olim Simonis Wieliczkostary Civis Leopoliensis et Sophiae Coniugum filio"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "praedicta Catherina recognoscens fratri germano"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "praedicta Catherina recognoscens fratri germano pro sorte illius paternali et maternali"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "praedicta Catherina recognoscens fratri germano pro sorte illius paternali et maternali"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Joannem Wolfowicz collegam nostrum Consularem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "domus lapideae Zarubowska dicta in Civitatis istius platea Haliciensi"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in Civitatis istius platea Haliciensi"
+    }
+  ]
+}

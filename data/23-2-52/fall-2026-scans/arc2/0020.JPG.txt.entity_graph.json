@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0020.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastiani Karczewic",
+        "Sebastiano Karczewic",
+        "Sebastianus"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "fratre suo germano",
+        "eundem praenominatum fratrem seum",
+        "Famatus",
+        "Karczowicowie",
+        "legitimi successores"
+      ],
+      "justification": "Identified as a citizen of Lviv, legitimate successor of Albertus Karcz, and brother of Mathias and Simon."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Mathias Karszowic",
+      "mention_texts": [
+        "Mathias",
+        "Mathias"
+      ],
+      "descriptive_mentions": [
+        "Ingenui et Discreti",
+        "Karczowicowie",
+        "legitimi successores",
+        "fratres germani",
+        "recognoscentium",
+        "praefati recogniti",
+        "Discreti"
+      ],
+      "justification": "Identified as a legitimate successor and son of Albertus Karcz, and brother of Sebastianus and Simon."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "mention_texts": [
+        "Simon",
+        "Simon"
+      ],
+      "descriptive_mentions": [
+        "Ingenui et Discreti",
+        "Karczowicowie",
+        "legitimi successores",
+        "fratres germani",
+        "recognoscentium",
+        "praefati recogniti",
+        "Discreti"
+      ],
+      "justification": "Identified as a son and legitimate successor of Albertus Karcz, and brother of Mathias and Sebastianus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Karsz",
+      "mention_texts": [
+        "Alberti Karcz",
+        "Alberti Karcz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv and father of the Karczowic brothers."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, named in the citizenship descriptors of Albertus Karcz and Sebastianus Karczewic."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Mersio Tomasli Pontifici",
+      "mention_texts": [
+        "Mersionis Tomasli Pontifici"
+      ],
+      "descriptive_mentions": [
+        "Tutorum",
+        "Famatorum"
+      ],
+      "justification": "Named as one of the legal guardians (tutores) handling the estate of the Karcz heirs."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Karczowski",
+      "mention_texts": [
+        "Jacobi Karczowski"
+      ],
+      "descriptive_mentions": [
+        "Tutorum",
+        "Famatorum"
+      ],
+      "justification": "Named alongside Mersio Tomasli as guardian (tutor) of the Karcz heirs."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1593",
+      "mention_texts": [
+        "sabbato ante festum Beati Andreae Apostoli proximo Anno Domini millesimo quingentesimo nonagesimo tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous legal act regarding the delivery of movable goods by the guardians."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karczewic",
+      "mention_texts": [
+        "Thomae Karczewic",
+        "Toma Karcz"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "genero olim so-"
+      ],
+      "justification": "Son-in-law of deceased Albertus Karcz, subject of the second quitclaim."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "50 florins",
+      "mention_texts": [
+        "florenis quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of florins acknowledged in the quitclaim by the Karczowic heirs."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Sebastianus Mathias et Simon Karczowicowie Famati olim Alberti Karcz Civis Leopoliensis legitimi successores"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Mathias et Simon Karczowicowie Famati olim Alberti Karcz Civis Leopoliensis legitimi successores"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Mathias et Simon Karczowicowie Famati olim Alberti Karcz Civis Leopoliensis legitimi successores"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathias et Simon Karczowicowie Famati olim Alberti Karcz Civis Leopoliensis legitimi successores fratres germani"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "a Famato Sebastiano Karczewic Cive Leopoliensi fratre suo germano"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "a Famato Sebastiano Karczewic Cive Leopoliensi fratre suo germano"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Alberti Karcz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Sebastiano Karczewic Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E4",
+      "evidence": "Toma Karcz genero olim so-"
+    }
+  ]
+}

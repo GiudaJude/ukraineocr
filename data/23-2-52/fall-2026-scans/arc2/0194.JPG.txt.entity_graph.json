@@ -1,0 +1,304 @@
+{
+  "document_id": "arc2/0194.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Lange",
+      "mention_texts": [
+        "Paulus Lange"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Scamnifusor",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Citizen and bench caster of Lviv appearing before the court regarding debts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council and citizens reside and where the act is passed."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Anna Ziołkowska",
+      "mention_texts": [
+        "Annae",
+        "Annae Ziołkowska"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "olim",
+        "coniugis"
+      ],
+      "justification": "Deceased woman whose testament is cited regarding debts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Felix Ziołkowski",
+      "mention_texts": [
+        "Felicis Ziołkowski"
+      ],
+      "descriptive_mentions": [
+        "Scamnifusoris"
+      ],
+      "justification": "First husband of Anna Ziołkowska."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kles",
+      "mention_texts": [
+        "Joannis Kles",
+        "Joanne Kles"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "coniugis",
+        "Famato",
+        "mariti secundarii"
+      ],
+      "justification": "Second husband of Anna Ziołkowska who satisfied the debts."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karczewic",
+      "mention_texts": [
+        "Thomae Karczwic",
+        "Tomam Karczewit"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "actorem",
+        "Praefatus Actor",
+        "domus Possessor haereditarius"
+      ],
+      "justification": "Plaintiff in the decree concerning the Kłobukowska house."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0134: Paulus Aromatarius",
+      "mention_texts": [
+        "Paulum Abramowic Aromatarium"
+      ],
+      "descriptive_mentions": [
+        "Civem Leopoliensem",
+        "citatum",
+        "eundem citatum",
+        "citatus"
+      ],
+      "justification": "Apothecary and cited defendant holding portions of the Kłobukowska house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium nostrum"
+      ],
+      "justification": "Consular office issuing the decree and confirming guardians."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kłobukowska House",
+      "mention_texts": [
+        "Kłobukowska"
+      ],
+      "descriptive_mentions": [
+        "domo",
+        "domus"
+      ],
+      "justification": "House located on Armenian Street involved in the dispute."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Armenian Street",
+      "mention_texts": [
+        "Zermianeri"
+      ],
+      "descriptive_mentions": [
+        "Platea"
+      ],
+      "justification": "Street where the Kłobukowska house is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria quinta post Dominicam Misericordia Dei Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the decree issued by the council."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Martinus Viulade",
+      "mention_texts": [
+        "Martinus Viulade"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named at the end of the entry."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Ursula Scholtrissowna",
+      "mention_texts": [
+        "Ursula Scholtrissowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "consors legitima"
+      ],
+      "justification": "Wife of Jacobus Fromfrisz appearing on behalf of her husband."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Fromfrisz",
+      "mention_texts": [
+        "Jacobi Fromfrisz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Belzensis",
+        "Plenipotentis praedicti sui mariti",
+        "mariti"
+      ],
+      "justification": "Citizen of Belz represented by his wife."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Belz",
+      "mention_texts": [
+        "Belz",
+        "Belzensis",
+        "Belzenses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town mentioned in relation to the citizen Fromfrisz and court records."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Sambor",
+      "mention_texts": [
+        "Samboriensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town mentioned in the record presentation."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "organization",
+      "canonical_name": "Belz Advocatial Office",
+      "mention_texts": [
+        "Actis Advocatialibus Belzenses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial court of Belz whose records were presented."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "date",
+      "canonical_name": "DATE-0013: 1594",
+      "mention_texts": [
+        "feria tertia in Crastino Sancti Valentini Anno Domini 159 Quarto"
+      ],
+      "descriptive_mentions": [
+        "proxime praeterito"
+      ],
+      "justification": "Date of the exhibited act from the Belz advocatial office."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Paulus Lange Scamnifusor Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honestae olim Annae priorum Felicis Ziołkowski Scamnifusoris"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "iteratarum vero nuptiarum Famati Joannis Kles Civis Leopoliensis coniugis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Joannis Kles Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Tomam Karczewit Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Paulum Abramowic Aromatarium Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "in domo Kłobukowska in Platea Zermianeri actualiter sita"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "owner_of",
+      "tail_entity_id": "E9",
+      "evidence": "uti eiusdem domus Possessor haereditarius de iure & forma"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E14",
+      "evidence": "Honesta Ursula Scholtrissowna Famati Jacobi Fromfrisz Civis Belzensis consors legitima"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "citizen_of",
+      "tail_entity_id": "E15",
+      "evidence": "Jacobi Fromfrisz Civis Belzensis"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "located_in",
+      "tail_entity_id": "E15",
+      "evidence": "Actis Advocatialibus Belzenses"
+    }
+  ]
+}

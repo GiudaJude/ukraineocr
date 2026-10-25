@@ -1,0 +1,208 @@
+{
+  "document_id": "arc2/0515.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sincerinus",
+      "mention_texts": [
+        "Stanislaum Sincerinum"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem",
+        "Dominum",
+        "collegam nostrum Consularem"
+      ],
+      "justification": "Named as the representative and fellow council member."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem"
+      ],
+      "descriptive_mentions": [
+        "nostrum"
+      ],
+      "justification": "Referred to through 'collegam nostrum Consularem'."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lubatowicz",
+      "mention_texts": [
+        "Joannem Lubatowicz"
+      ],
+      "descriptive_mentions": [
+        "suum verum et legitimum Plenipotentem",
+        "Civem Leopoliensem",
+        "eidem",
+        "plns idem"
+      ],
+      "justification": "Constitutes Joannes Lubatowicz, citizen of Lviv, as plenipotentiary."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis",
+        "Leopoliensibus",
+        "Leopoliensia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City and territory of Lviv referenced across various contexts."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Jaśniska",
+      "mention_texts": [
+        "Villa Jasniska",
+        "Villa Ja-\nsnisca"
+      ],
+      "descriptive_mentions": [
+        "sitas"
+      ],
+      "justification": "Village in the Lviv district where the property/shares are located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Stanek",
+      "mention_texts": [
+        "Stanislai Stanek"
+      ],
+      "descriptive_mentions": [
+        "praefati olim",
+        "dicti olim mariti sui"
+      ],
+      "justification": "Deceased husband of the principal whose estate shares are discussed."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Lviv Land Court",
+      "mention_texts": [
+        "Terminis et Judicijs Terrestribus Leopoliensibus",
+        "acta praefata Teria Leopoliensia",
+        "Judicia Teria\nLeopoliensia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The noble land court of Lviv where proceedings and registrations were to take place."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schingier",
+      "mention_texts": [
+        "Sebaldis Schingier"
+      ],
+      "descriptive_mentions": [
+        "Generosis Dominis",
+        "Quiriopolitanis Luscoviensibus",
+        "cui"
+      ],
+      "justification": "Noble party in Lutsk to whom the shares were inscribed/transferred."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Łuck",
+      "mention_texts": [
+        "Luscoviensibus",
+        "Luscoviensi",
+        "Luscoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lutsk referenced with respect to the party and municipal court."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Hedvigis"
+      ],
+      "descriptive_mentions": [
+        "Actae olim",
+        "matris ipsius"
+      ],
+      "justification": "Deceased mother of Sebaldus Schingier."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Łuck City Office",
+      "mention_texts": [
+        "Officio Civili\nLuscoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Municipal civil court in Lutsk before which the prior deed of gift was recorded."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0134: 1592",
+      "mention_texts": [
+        "Sabbati in Vigilia Pentecostes Anno 1592",
+        "Anno 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous transaction before the Lutsk civil court."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Victorinus Kowalski",
+      "mention_texts": [
+        "Victorini Kowalski"
+      ],
+      "descriptive_mentions": [
+        "Generosi Domini",
+        "Subiudicis Iura Leopoliensia"
+      ],
+      "justification": "Subjudge of the Lviv Land Court whose illness and death delayed court sessions."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E2",
+      "evidence": "Dominum Stanislaum Sincerinum collegam nostrum Consularem"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannem Lubatowicz Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Villa Jasniska in districtu Terrae eiusdem Leopoliensis sitas"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Sebaldis Schingier Quiriopolitanis Luscoviensibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Hedvigis matris ipsius"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Victorini Kowalski Subiudicis Iura Leopoliensia"
+    }
+  ]
+}

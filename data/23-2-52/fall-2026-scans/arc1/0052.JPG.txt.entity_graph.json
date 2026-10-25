@@ -1,0 +1,190 @@
+{
+  "document_id": "23-2-52/0052.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lucas Wojnar",
+      "mention_texts": [
+        "Lucae Wojnar",
+        "Lucam Wojnar"
+      ],
+      "justification": "Deceased butcher and citizen of Lviv referenced in property descriptions and prior contracts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wojnar",
+      "mention_texts": [
+        "Joannis Wojnar"
+      ],
+      "justification": "Deceased individual whose successors hold adjacent property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Halych Suburb",
+      "mention_texts": [
+        "suburbio Haliciensi"
+      ],
+      "justification": "Suburb of Lviv where the stable is located."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Skorka",
+      "mention_texts": [
+        "Valentini Skorka"
+      ],
+      "justification": "Neighboring property owner in the Halych suburb."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Sartor",
+      "mention_texts": [
+        "Pauli Sartoris"
+      ],
+      "justification": "Neighboring property owner in the Halych suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Antonius Frackowic",
+      "mention_texts": [
+        "Antonio",
+        "Creditori",
+        "Antonius Frackowic"
+      ],
+      "justification": "Creditor receiving intromission into the property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officio nostro",
+        "Officio Consulari Leopoliensi"
+      ],
+      "justification": "The consular court before which the acts and declarations were made."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "280 Polish florins",
+      "mention_texts": [
+        "ducentorum et octoginta florenorum"
+      ],
+      "justification": "Debt amount specified for the intromission."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislai Anserini",
+        "Stanislaum Anserinum"
+      ],
+      "justification": "Consul of Lviv and court-appointed guardian."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Anna",
+        "Annam"
+      ],
+      "justification": "Widow of the deceased Lucas Wojnar and sister of Stanislaus Waisz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Domaszewski",
+      "mention_texts": [
+        "Jacobus Domaszewski"
+      ],
+      "justification": "Noble proxy appearing before the council."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Smietanka",
+      "mention_texts": [
+        "Sigismundi Smietanka"
+      ],
+      "justification": "Noble principal represented by Jacobus Domaszewski."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sophia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "justification": "Wife of Sigismundus Smietanka and daughter of the late Lucas, notary of Żydaczów."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Waisz",
+      "mention_texts": [
+        "Stanislaum Waisz",
+        "Stanislao Waisz"
+      ],
+      "justification": "Butcher, citizen of Lviv, and brother/natural guardian of Anna."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Joannes Waisz",
+      "mention_texts": [
+        "Joannis Waisz"
+      ],
+      "justification": "Deceased individual whose daughters Barbara and Margaret are under guardianship."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Civis Leopoliensis",
+        "Civitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "justification": "City context for the court and citizens mentioned."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Anna praefati olim Lucae Wojnar vidua relicta"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "Annam Famati olim Lucae Wojnar relictam una cum tutore ipsius naturali D. dicto Stanislao Waisz fratre germano"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E12",
+      "evidence": "Jacobus Domaszewski tanquam Plenipotens substitutus Nobilis Sigismundi Smietanka"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E13",
+      "evidence": "Jacobus Domaszewski tanquam Plenipotens substitutus Nobilis Sigismundi Smietanka et Sophiae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Stanislai Anserini Collegae sui Consularis"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "document_id": "arc2/0170.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "Officium nostrum",
+        "Officio nostro",
+        "Scabinis"
+      ],
+      "justification": "The document references the city council's records and office ('Actis nostris', 'Officio nostro')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "18 December 1591",
+      "mention_texts": [
+        "feria quarta ante festum Sancti Thomae Apostoli proxima Anno Domini 1591 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous recorded transaction referenced in the acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baptista Padoi",
+      "mention_texts": [
+        "Joanne Baptista Padoi",
+        "Joannis Baptistae"
+      ],
+      "descriptive_mentions": [
+        "Italo Mercatore Ciue Leopoliensi",
+        "eodem",
+        "praenominati",
+        "satisfactores quietati"
+      ],
+      "justification": "Italian merchant and citizen of Lviv who satisfied the debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv mentioned in the citizenship of Joannes Baptista Padoi."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "1000 florins",
+      "mention_texts": [
+        "mille Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of the debt settled."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Lucia Cwartowa",
+      "mention_texts": [
+        "Cwartowa",
+        "Lucia",
+        "Luciam"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Honesti Jacobi Tworkowic secundarum nuptiarum coniunx legitima",
+        "praefata",
+        "suam uxorem"
+      ],
+      "justification": "Wife in a second marriage protesting against her absent husband."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Tworkowic",
+      "mention_texts": [
+        "Jacobi Tworkowic"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "mariti",
+        "sui praefati mariti",
+        "praefati mariti",
+        "maritus",
+        "suas maritus"
+      ],
+      "justification": "Husband of Lucia who took money and abandoned her."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kraus",
+      "mention_texts": [
+        "Paulum Kraus"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Praetorem nostrum Extraneum",
+        "tutorem ad eum actum assumptum et per Officium nostrum approbatum"
+      ],
+      "justification": "Guardian appointed to assist Lucia in the legal protestation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0075: CUR-0016: 30 florins",
+      "mention_texts": [
+        "Florenos triginta pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money taken by Jacobus Tworkowic."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Tomaszewski",
+      "mention_texts": [
+        "Tomaszewski"
+      ],
+      "descriptive_mentions": [
+        "Famato"
+      ],
+      "justification": "Person from whom Lucia received credit/money for fish."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joanne Baptista Padoi Italo Mercatore Ciue Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Lucia Honesti Jacobi Tworkowic secundarum nuptiarum coniunx legitima"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Lucia Honesti Jacobi Tworkowic secundarum nuptiarum coniunx legitima"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Famatum Paulum Kraus Praetorem nostrum Extraneum tutorem ad eum actum assumptum"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "document_id": "arc2/0493.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Civitatis eiusdem",
+        "Leopoliensem",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "The royal city of Lviv is referenced in multiple forms throughout the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officioque nostro"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The council court office recording and approving the guardian and transaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Agnes Kwasna",
+      "mention_texts": [
+        "Agnes Kwasna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "oppignora- trix"
+      ],
+      "justification": "Honesta Agnes Kwasna, the woman mortgaging her hereditary house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Kwasny",
+      "mention_texts": [
+        "Georgij Kwasny"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Pistoris"
+      ],
+      "justification": "Honestus Georgius Kwasny, baker, husband of Agnes Kwasna."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adamus Czelmowizki",
+      "mention_texts": [
+        "Adamum Czelmowizki"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem",
+        "Suburbanum Leopoliensem"
+      ],
+      "justification": "Adamus Czelmowizki, appointed suburban tutor/guardian assisting Agnes Kwasna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The Halych suburb of Lviv where the mortgaged property is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Przygrod Street",
+      "mention_texts": [
+        "platea Przygrod"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the house is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Koryto",
+      "mention_texts": [
+        "Koryto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "A local landmark/water channel in the Halych suburb adjoining the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Kwathnichowska House",
+      "mention_texts": [
+        "Kwathnichowska"
+      ],
+      "descriptive_mentions": [
+        "domum suam propriam et haereditariam nullis nexibus obligatoriam extructam",
+        "domo",
+        "domus oppignoratae",
+        "domus haec"
+      ],
+      "justification": "The hereditary house mortgaged by Agnes Kwasna."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "Florenis Quadraginta"
+      ],
+      "descriptive_mentions": [
+        "numeri Polonici"
+      ],
+      "justification": "The sum for which the house is mortgaged."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Zecherarius",
+      "mention_texts": [
+        "Bartholomeo Zecherario",
+        "Grzebiennik"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "oppignoratarij",
+        "oppignoratorius",
+        "Suburbano Leopoliensi"
+      ],
+      "justification": "Bartholomeus Zecherarius (Grzebiennik), suburban resident to whom the house is mortgaged."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint John the Baptist",
+      "mention_texts": [
+        "Festo divi Joannis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day marking the one-year term of the mortgage."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesta Agnes Kwasna Honesti Georgij Kwasny Pistoris"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E3",
+      "evidence": "sibi ad eum actum ex Officioque nostro approbatum tutorem Honestum Adamum Czelmowizki"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "extructam in Civitatis eiusdem Suburbio Haliciensi in platea Przygrod nuncupata"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "extructam in Civitatis eiusdem Suburbio Haliciensi in platea Przygrod nuncupata"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Civitatis eiusdem Suburbio Haliciensi"
+    }
+  ]
+}

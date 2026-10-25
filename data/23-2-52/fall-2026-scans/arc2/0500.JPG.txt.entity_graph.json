@@ -1,0 +1,149 @@
+{
+  "document_id": "arc2/0500.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Sartor",
+      "mention_texts": [
+        "Constantino Sartori",
+        "Constantini Sartoris"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "genero",
+        "Coniugibus Civibus Leopoliensibus",
+        "Emptore",
+        "Coniugum",
+        "emptores"
+      ],
+      "justification": "Named as the son-in-law and buyer of property."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherina",
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "Coniugibus Civibus Leopoliensibus",
+        "Coniugum",
+        "emptores"
+      ],
+      "justification": "Named as the daughter of Anna and wife of Constantinus Sartor."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentorum Florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price specified in the transaction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "venditrix"
+      ],
+      "justification": "Named as the honest seller appointing a procurator."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum D.",
+        "Scabinum Civitatis Leopoliensis",
+        "suum verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "memoratus Plenipotens suus"
+      ],
+      "justification": "Named as the bench magistrate of Lviv appointed as plenipotentiary by Anna."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civibus",
+        "Civitatis"
+      ],
+      "justification": "City whose citizenship and bench are mentioned."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the resignation of the property is to be performed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formula concluding the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Constantino Sartori genero et Catherina filia Coniugibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Catherina filia ... eadem Honesta Anna venditrix"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Constantino Sartori genero et Catherina filia Coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Constantino Sartori genero et Catherina filia Coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "eadem Honesta Anna venditrix fecit constituit et solemniter ordinauit in suum verum legitimum indubitatumque Plenipotentem et mandatarium Honoratum D. Simonem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "official_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simonem Scabinum Civitatis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "document_id": "arc2/0260.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Florenta Anna"
+      ],
+      "descriptive_mentions": [
+        "coniuge sua"
+      ],
+      "justification": "Appears as a spouse granting power of attorney in the first entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Albertus Mrozik",
+      "mention_texts": [
+        "Alberti Mrozik"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Named deceased individual whose successors' guardianship is being settled."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses",
+        "Leopoliensibus",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "ciuitatis"
+      ],
+      "justification": "City where the acts are drawn up and where the parties reside."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato intra Octauas Corporis Christi Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of enactment for the first entry."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stasur",
+      "mention_texts": [
+        "Stasur"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Name written in the margin/column between the entries."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Gaspar Szembarski",
+        "Cembarz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellis",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Furrier and citizen of Lviv acting in entry 280; matches known entity Caspar Jembarski/Szembarski."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Catharina Szembarska",
+      "mention_texts": [
+        "Catharina"
+      ],
+      "descriptive_mentions": [
+        "coniuges Cives Leopolienses"
+      ],
+      "justification": "Wife of Gaspar Szembarski, participating in the cession of debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Bosniak",
+      "mention_texts": [
+        "Christophorum Bosniak",
+        "Christophori Bosniak",
+        "Christophorus Bosniak"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Plicatorem"
+      ],
+      "justification": "Debtor named in the ceded obligation."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Sophia Bosniakowa",
+      "mention_texts": [
+        "Sophiam"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Wife of debtor Christophorus Bosniak."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Agnes Krowczyna",
+      "mention_texts": [
+        "Agneti Krowczyno"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim",
+        "cognatae suae"
+      ],
+      "justification": "Deceased creditor and relative of the parties from whom the debt devolved."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito",
+        "Actis Civilibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the original debt was inscribed in 1580."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "1580",
+      "mention_texts": [
+        "feria quarta ante festum Sancti Joannis Baptistae proxima Anno Domini 1580",
+        "Anno Domini 1580",
+        "feria secunda ante festum Sancti Cored proxima Anno 1580",
+        "Anno 1580"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year of the referenced court registrations."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "12 Polish florins",
+      "mention_texts": [
+        "duodecim florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "censum"
+      ],
+      "justification": "Annual interest/rent mentioned in the contract."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Actis Advocatilibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial office in whose books the obligation was inscribed."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Felsztek",
+      "mention_texts": [
+        "Erasmo Felsztek",
+        "Erasmus",
+        "Felstet"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi et Mercatori Leopoliensi"
+      ],
+      "justification": "Citizen and merchant of Lviv to whom the debt is ceded."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Gaspar Szembarski Pellis et Catharina coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Christophorum Bosniak Plicatorem et Sophiam coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Gaspar Szembarski Pellis et Catharina coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Gaspar Szembarski Pellis et Catharina coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Famato Erasmo Felsztek Civi et Mercatori Leopoliensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "relative_of",
+      "tail_entity_id": "E10",
+      "evidence": "Honestae olim Agneti Krowczyno cognatae suae contracti ... ad se vero iuxta consignationem Spectatiles et devoluti"
+    }
+  ]
+}

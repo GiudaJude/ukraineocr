@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/0447.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Korbut",
+      "mention_texts": [
+        "Tomas Korbut",
+        "Thomae Korbuth"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis de Lusty-",
+        "fratris sui",
+        "sponsori"
+      ],
+      "justification": "Principal party acknowledging receipt of money and property from the executor of his brother's estate."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Wysotzki",
+        "Alberti Wysoczki",
+        "Wysoczki"
+      ],
+      "descriptive_mentions": [
+        "Famato olim",
+        "Ciuis Leopoliensis",
+        "fratris sui"
+      ],
+      "justification": "Deceased brother of Thomas Korbut whose estate is being settled; identified by alias Albertus Wysoczki."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophia Lanuszowa"
+      ],
+      "descriptive_mentions": [
+        "H[onesta]",
+        "consorte sua"
+      ],
+      "justification": "Wife/widow of Albertus Wysocki, mentioned regarding an agreement on the estate."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Kanisz",
+      "mention_texts": [
+        "Thomae Kanisz"
+      ],
+      "descriptive_mentions": [
+        "Executoris",
+        "Famatus",
+        "Famato",
+        "Famatae",
+        "Executoris testamenti",
+        "Executore",
+        "Acti Executore",
+        "Acti Executori",
+        "Honorato"
+      ],
+      "justification": "Testamentary executor of Albertus Wysocki releasing funds to the brother."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Fargo",
+      "mention_texts": [
+        "Andream Fargo"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ciuem Leopoliensem",
+        "fideiussorem",
+        "sponsori"
+      ],
+      "justification": "Citizen of Lwów who stands as guarantor/fideiussor for Thomas Korbut."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuis Leopoliensis",
+        "Ciuem Leopoliensem",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the citizens reside and the act is recorded."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "20 Hungarian florins",
+      "mention_texts": [
+        "Florenos viginta Vngaricales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money received by Thomas Korbut."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "60 Hungarian florins",
+      "mention_texts": [
+        "sexagin- Florenis Vngaricalibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total pool of Hungarian florins found after Albertus Wysocki's death from which the sum was drawn."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Anno 1595"
+      ],
+      "descriptive_mentions": [
+        "feria tertia ante Festum S. Bartholomei proxima",
+        "feria quarta ante S. Bartholomaei proxima"
+      ],
+      "justification": "Year of registration of the quietatio."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Alberti Wysoczki Ciuis Leopoliensis fratris sui"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Sophia Lanuszowa consorte sua"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "executor_of",
+      "tail_entity_id": "E2",
+      "evidence": "Thomae Kanisz Executoris testamenti praedicti Wysoczki"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guarantor_for",
+      "tail_entity_id": "E1",
+      "evidence": "fideiussorem ab omni impetitione eidem Acti Executori Famatum Andream Fargo Ciuem Leopoliensem... sponsori praedicti Thomae Korbuth"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Alberti Wysoczki Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andream Fargo Ciuem Leopoliensem"
+    }
+  ]
+}

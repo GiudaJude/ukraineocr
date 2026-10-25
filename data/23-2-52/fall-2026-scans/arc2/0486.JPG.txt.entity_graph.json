@@ -1,0 +1,113 @@
+{
+  "document_id": "arc2/0486.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "civitate intus"
+      ],
+      "justification": "City inside which the property and division took place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Sarzyńska House",
+      "mention_texts": [
+        "Sarzynszyska"
+      ],
+      "descriptive_mentions": [
+        "domum",
+        "dictam"
+      ],
+      "justification": "House subject to the inspection and division of property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Tatar Postern",
+      "mention_texts": [
+        "posternellam Tartaricam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Postern gate in Lviv near which the Sarzyńska house is situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Fabianus Muzykant",
+      "mention_texts": [
+        "Fabiani Muzykant"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased neighbor whose stone house/garden serves as a boundary landmark."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sarzynka",
+      "mention_texts": [
+        "Stanislai Sarzynka"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased spouse whose estate is being divided."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginae",
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Coniugum",
+        "praefata"
+      ],
+      "justification": "Known corpus entity Regina (Starzynczyna), spouse of late Stanislaus Sarzynka."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Thomas Elbin",
+      "mention_texts": [
+        "Thomae Elbini",
+        "Thomam Elbinum"
+      ],
+      "descriptive_mentions": [
+        "ipsius",
+        "eundem"
+      ],
+      "justification": "Party involved in the division of goods acquired together with Regina."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "res memoratorum olim Stanislai Sarzynka et Reginae Coniugum morte derelictas"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "in domum Sarzynszyska dictam posternellam Tartaricam in civitate intus Leopoliensi aedificatam"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "posternellam Tartaricam in civitate intus Leopoliensi"
+    }
+  ]
+}

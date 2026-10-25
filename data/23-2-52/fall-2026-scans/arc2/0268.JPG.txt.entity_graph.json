@@ -1,0 +1,247 @@
+{
+  "document_id": "arc2/0268.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Rosala Staniclowa",
+      "mention_texts": [
+        "Rosalae Stanizlowa Radzissowiensis",
+        "Rosala Staniclowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Honesta",
+        "vidua relicta",
+        "ipsa constituens agens"
+      ],
+      "justification": "Principal party issuing the power of attorney, widow of Hedon Smolcowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Hedon Smolcowicz",
+      "mention_texts": [
+        "Hedonis Smolcowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Ciuis Constantinoviensis"
+      ],
+      "justification": "Deceased husband of Rosala Staniclowa, citizen of Konstantynów."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Rominski",
+      "mention_texts": [
+        "Stanislaum Rominski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Assumed legal guardian aiding Rosala Staniclowa in this legal act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Siniski",
+      "mention_texts": [
+        "Simon Siniski",
+        "Simonem Siniski"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "verum legitimumque Tutorem et Plenipotentem",
+        "Domino Tutori et Plenipotenti suo",
+        "Tutor suus",
+        "ille"
+      ],
+      "justification": "Citizen of Lviv appointed as plenipotentiary and guardian by Rosala."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joanna Deidzkowa",
+      "mention_texts": [
+        "Joannam Deidzkowa"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Adverse party in the action before the civil court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joanna Bildaba",
+      "mention_texts": [
+        "Joannem Bildaba",
+        "Joannae Bildaba",
+        "Bildaba"
+      ],
+      "descriptive_mentions": [
+        "Famatarum",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Possessor of the goods and maternal share in dispute."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Urias Russem",
+      "mention_texts": [
+        "Uriae Russemi"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Cives Leopoliensem",
+        "patrem suum"
+      ],
+      "justification": "Deceased citizen of Lviv, father of Rosala, who obligated the properties in question."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "200 ducat florins",
+      "mention_texts": [
+        "Ducatorum ducentorum florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam"
+      ],
+      "justification": "Sum secured on the house mentioned in the first entry."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis",
+        "Leopoliensem",
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Royal city of Lviv, setting of the court and citizenship of the actors."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio eiusdem Ciuitatis Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Suburb of Lviv where the mortgaged property is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Konstantynów",
+      "mention_texts": [
+        "Constantinoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of which the late Hedon Smolcowicz was a citizen."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Jarmiczowska Street",
+      "mention_texts": [
+        "Jarmiczowska"
+      ],
+      "descriptive_mentions": [
+        "plateas"
+      ],
+      "justification": "Street bordering the mortgaged house."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Glinska Street",
+      "mention_texts": [
+        "Glinska"
+      ],
+      "descriptive_mentions": [
+        "plateas"
+      ],
+      "justification": "Street bordering the mortgaged house."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Civili Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv civil court before which the action is to take place."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Rosala Staniclowa Famati olim Hedonis Smolcowicz Ciuis Constantinoviensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislaum Rominski tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E1",
+      "evidence": "fecit elegit et solenniter ordinauit insectum verum legitimumque Tutorem et Plenipotentem Famatum Simonem Siniski"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "olim Uriae Russemi Cives Leopoliensem patrem suum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Hedonis Smolcowicz Ciuis Constantinoviensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Simonem Siniski Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honestam Joannam Deidzkowa Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannem Bildaba Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E9",
+      "evidence": "Uriae Russemi Cives Leopoliensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "part_of",
+      "tail_entity_id": "E9",
+      "evidence": "in Suburbio eiusdem Ciuitatis Haliciensi"
+    }
+  ]
+}

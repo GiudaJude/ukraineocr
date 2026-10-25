@@ -1,0 +1,240 @@
+{
+  "document_id": "arc2/0128.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "praedicta Anna soror",
+        "soror",
+        "praedicta citata",
+        "citata"
+      ],
+      "justification": "Party in the appeal proceeding."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbara"
+      ],
+      "descriptive_mentions": [
+        "Honesta Barbara",
+        "praedicta Honesta Barbara"
+      ],
+      "justification": "Party involved in the lawsuit."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Caspar Josezowic",
+      "mention_texts": [
+        "Caspar Josezowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus Caspar Josezowic",
+        "praedictus Famatus Caspar Josezowic"
+      ],
+      "justification": "Party named alongside Barbara."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "300 florins",
+      "mention_texts": [
+        "Florenos sexies quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 300 florins (six times fifty) mentioned in the decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium",
+        "Officio nostro"
+      ],
+      "justification": "The municipal council acting officially."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wust",
+      "mention_texts": [
+        "Joannes Rust",
+        "Joannes Wust",
+        "Joannes Wust Angus",
+        "Joannis Wust"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Cives Leopolienses",
+        "coniuges",
+        "ille",
+        "recognoscentes"
+      ],
+      "justification": "Debtor imprisoned and released after providing security."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Ursula",
+      "mention_texts": [
+        "Ursula"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "Cives Leopolienses",
+        "hac",
+        "recognoscentes"
+      ],
+      "justification": "Wife of Joannes Wust, co-debtor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus Crauss",
+      "mention_texts": [
+        "Paulum Crauss"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ostiarium",
+        "tutorem sibi ad eum actum assumptum"
+      ],
+      "justification": "Appointed guardian for Ursula."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "1200 Polish florins",
+      "mention_texts": [
+        "Florenos mille ducentos pecuniae et numeri Polonicales"
+      ],
+      "descriptive_mentions": [
+        "debiti",
+        "summam"
+      ],
+      "justification": "Debt acknowledged by Joannes Wust and Ursula."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Portis",
+      "mention_texts": [
+        "Joanni Portis",
+        "Joannes Zonas"
+      ],
+      "descriptive_mentions": [
+        "Nobili et Honesto",
+        "Italo Mercatori Florentino",
+        "Mercatori Florentino"
+      ],
+      "justification": "Florentine Italian merchant, creditor who loaned the security deposit."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoli",
+        "Leopoliense",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv where events take place."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicium Civile Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "Iudicii"
+      ],
+      "justification": "The civil court of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Praetorium Leopoliense",
+      "mention_texts": [
+        "Praetorio Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv Town Hall where the deposit was placed."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Corniakt",
+      "mention_texts": [
+        "Constantinum Corniakto"
+      ],
+      "descriptive_mentions": [
+        "Generosum"
+      ],
+      "justification": "Creditor who caused the imprisonment of Joannes Wust."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "Joannes Wust Angus et Ursula coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "per Famatum Paulum Crauss Ostiarium tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E10",
+      "evidence": "recognoverunt se debere et teneri manu coniuncta et divisa ... Nobili et Honesto Joanni Portis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "debtor_of",
+      "tail_entity_id": "E10",
+      "evidence": "recognoverunt se debere et teneri manu coniuncta et divisa ... Nobili et Honesto Joanni Portis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannes Wust Angus et Ursula coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Joannes Wust Angus et Ursula coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "negocia sua mercatoria Leopoli exercenti"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in Praetorio Leopoliensi"
+    }
+  ]
+}

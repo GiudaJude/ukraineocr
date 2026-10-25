@@ -1,0 +1,257 @@
+{
+  "document_id": "arc2/0161.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii",
+        "iisdem actis"
+      ],
+      "justification": "The court office and its official act books in which the resignation and obligations are registered."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, referenced in civic designations and property descriptors."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Czarnota",
+      "mention_texts": [
+        "Stanisław Czarnota",
+        "Stanislaus Czarnota"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "incola Leopoliensis",
+        "sibi"
+      ],
+      "justification": "Resident of Lviv ceding his debt claim to Jacobus Bakalarz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Bakalarz",
+      "mention_texts": [
+        "Jacobus Bakalarz",
+        "Jacobo Bakalarzowico"
+      ],
+      "descriptive_mentions": [
+        "Honorato",
+        "Civi et Literatori Leopoliensi",
+        "eiusdem",
+        "eundem"
+      ],
+      "justification": "Citizen and writer/schoolmaster of Lviv acquiring the debt rights."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "15 Polish florins",
+      "mention_texts": [
+        "Florenorum quindecim pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "summam",
+        "praedictam summam"
+      ],
+      "justification": "The debt amount being transferred."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Praxida Tarassina Pawlidowa",
+      "mention_texts": [
+        "Praxida Tarassina Pawlidowa"
+      ],
+      "descriptive_mentions": [
+        "matre"
+      ],
+      "justification": "Debtor and mother of Margaretha."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Texorius",
+      "mention_texts": [
+        "Texorio"
+      ],
+      "descriptive_mentions": [
+        "genero"
+      ],
+      "justification": "Son-in-law of Praxida Tarassina Pawlidowa and co-debtor."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Margaretha",
+      "mention_texts": [
+        "Margaretha"
+      ],
+      "descriptive_mentions": [
+        "filia"
+      ],
+      "justification": "Daughter of Praxida Tarassina Pawlidowa and co-debtor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "Monday after Judica Sunday 1591",
+      "mention_texts": [
+        "feria secunda post Dominicam Judica in Quadragesima proxima Anno Domini 1591 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the original debt obligation inscribed in the acts."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv suburb where the mortgaged property is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Zarywek Street",
+      "mention_texts": [
+        "platea Zarywek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Halych suburb where the mortgaged house is located."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Schulzowska House",
+      "mention_texts": [
+        "Schulzowskie"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring property in Zarywek Street."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Iwaszkowska House",
+      "mention_texts": [
+        "Iwaszkowskie"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring property in Zarywek Street."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha",
+      "mention_texts": [
+        "Elisabetha"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta"
+      ],
+      "justification": "Widow of Christophorus Haesidianus appearing before the court."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Haesidianus",
+      "mention_texts": [
+        "Christophori Haesidiani"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Theonarii bonorum Leopoliensium"
+      ],
+      "justification": "Deceased toll-gatherer/official of Lviv goods, late husband of Elisabetha."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Joannes Krawiecki",
+      "mention_texts": [
+        "Joannem Krawiecki"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Terrigenam a Terra nostrum confirmatum"
+      ],
+      "justification": "Landholder assisting or representing Elisabetha."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Stanislaus Czarnota incola Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Jacobo Bakalarzowico Civi et Literatori Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "parent_of",
+      "tail_entity_id": "E8",
+      "evidence": "Praxida Tarassina Pawlidowa matre et Texorio genero atque Margaretha filia"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Texorio genero atque Margaretha filia"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "part_of",
+      "tail_entity_id": "E2",
+      "evidence": "in Suburbio Haliciensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "in Suburbio Haliciensi in platea Zarywek vocata"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in platea Zarywek vocata inter domos Schulzowskie et Iwaszkowskie sita"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E11",
+      "evidence": "in platea Zarywek vocata inter domos Schulzowskie et Iwaszkowskie sita"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Elisabetha Famati olim Christophori Haesidiani Theonarii bonorum Leopoliensium vidua relicta"
+    }
+  ]
+}

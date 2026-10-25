@@ -1,0 +1,197 @@
+{
+  "document_id": "arc2/0494.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Senior Leutnarius",
+      "mention_texts": [
+        "Leutnario"
+      ],
+      "descriptive_mentions": [
+        "ipso Seniore"
+      ],
+      "justification": "Appears at the start of the text fragment ('prae ipso Seniore Leutnario')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ursinus",
+      "mention_texts": [
+        "Joanni Ursino",
+        "Joannem Ursinum"
+      ],
+      "descriptive_mentions": [
+        "Clarissimum et Honestum",
+        "Artium Liberalium et Philosophiae Magistrum",
+        "Professorem Collegij Samoscensis",
+        "suum verum legitimum indubitatumque Plenire- et mandatarium",
+        "praedicto Plenipotenti et mandatario suo"
+      ],
+      "justification": "Appointed proxy in Zamość; identified as professor of the Zamość Academy."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0238: PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Siadrowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Notarius et Scabinus Civitatis eiusdem Leopoliensis",
+        "curator",
+        "Curatoris",
+        "Honoratum Curatorem"
+      ],
+      "justification": "Notary and bencher of Lviv acting as guardian."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "City whose council and bench Andreas serves."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Siadrowicz",
+      "mention_texts": [
+        "Nicolai Siadrowicz",
+        "Nicolao Siadrowicz",
+        "Nicolaus Siadrowicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "filij",
+        "annos iam pubertatis adepti",
+        "eidem praedicto Ingenuo",
+        "idemipse Ingenuus",
+        "pupilli",
+        "pupillos",
+        "ipse Ingenuus"
+      ],
+      "justification": "The ward on whose behalf the proxy is constituted."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Siadrowicz",
+      "mention_texts": [
+        "Stanislai Siadrosz",
+        "Stanislai Siadrowicz"
+      ],
+      "descriptive_mentions": [
+        "Nobilium et Honestorum olim",
+        "Famati"
+      ],
+      "justification": "Deceased father of Nicolaus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Catharina Kelnarowna",
+      "mention_texts": [
+        "Catharinae Kelnarowna"
+      ],
+      "descriptive_mentions": [
+        "Nobilium et Honestorum olim"
+      ],
+      "justification": "Deceased mother of Nicolaus."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Sacra Regia Maiestate"
+      ],
+      "justification": "The King who instituted Andreas as guardian."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "Akademia Zamojska",
+      "mention_texts": [
+        "Collegij Samoscensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Academic institution in Zamość where Joannes Ursinus is professor."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0055: Zamość",
+      "mention_texts": [
+        "Samoscensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the legal proceedings and property consent will occur."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Biecz",
+      "mention_texts": [
+        "Biecz"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Town where the inherited estate is located in the suburb."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "guardian_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andreas Siadrowicz Notarius et Scabinus Civitatis eiusdem Leopoliensis tanquam curator Ingenui Nicolai Siadrowicz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nicolai Siadrowicz Nobilium et Honestorum olim Stanislai Siadrosz et Catharinae Kelnarowna filij"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nicolai Siadrowicz Nobilium et Honestorum olim Stanislai Siadrosz et Catharinae Kelnarowna filij"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Nobilium et Honestorum olim Stanislai Siadrosz et Catharinae Kelnarowna filij"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "constituit et solenniter ordinavit in suum verum legitimum indubitatumque Plenire- et mandatarium Clarissimum et Honestum Joannem Ursinum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannem Ursinum Artium Liberalium et Philosophiae Magistrum Professorem Collegij Samoscensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E10",
+      "evidence": "Collegij Samoscensis"
+    }
+  ]
+}

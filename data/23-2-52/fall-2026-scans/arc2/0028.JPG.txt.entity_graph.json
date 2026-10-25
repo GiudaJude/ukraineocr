@@ -1,0 +1,261 @@
+{
+  "document_id": "arc2/0028.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the council acted, referenced by name."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "18 January 1595",
+      "mention_texts": [
+        "feria quarta ante festum Sanctae Agnetis Virginis prae- Anno Domini 1 5 9 5"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Dating clause of the court session."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Głogowski",
+      "mention_texts": [
+        "Sigismundus Glogowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "famulus Magnifici Nicolai Jazlowiecki Capitanei Sniatinensis"
+      ],
+      "justification": "Servant of Mikołaj Jazłowiecki making a legal declaration."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Jazłowiecki",
+      "mention_texts": [
+        "Nicolai Jazlowiecki"
+      ],
+      "descriptive_mentions": [
+        "Magnifici",
+        "Capitanei Sniatinensis",
+        "Domini sui",
+        "Magnifico Hero suo"
+      ],
+      "justification": "Starosta of Sniatyn represented by his servant."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Sniatyn",
+      "mention_texts": [
+        "Sniatinensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Starostwo held by Mikołaj Jazłowiecki."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Petrus Dubina",
+      "mention_texts": [
+        "Petro Dubina"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "tutoribus liberorum Famati olim Fabiani Kalb Aurificis Civis Leopoliensis"
+      ],
+      "justification": "Guardian of the children of Fabian Kalb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Alaber Cantorissor",
+      "mention_texts": [
+        "Alabro Cantorissore"
+      ],
+      "descriptive_mentions": [
+        "tutoribus liberorum Famati olim Fabiani Kalb Aurificis Civis Leopoliensis"
+      ],
+      "justification": "Guardian of the children of Fabian Kalb."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Fabian Kalb",
+      "mention_texts": [
+        "Fabiani Kalb"
+      ],
+      "descriptive_mentions": [
+        "puerorum",
+        "Famati olim",
+        "Aurificis Civis Leopoliensis"
+      ],
+      "justification": "Deceased goldsmith and citizen of Lviv whose children receive quietatio."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jodok Kalb",
+      "mention_texts": [
+        "Jodok Kalb"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Deceased person whose successors held unworked silver."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv City Council issuing the decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Judica Agnes",
+      "mention_texts": [
+        "Judicam Agnetem"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim Martini Pioro superstitis coniugem filiam",
+        "actricem",
+        "praedictam Judicam Agnetem"
+      ],
+      "justification": "Plaintiff in the inheritance property dispute."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Martinus Pióro",
+      "mention_texts": [
+        "Martini Pioro"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "parentis ipsius"
+      ],
+      "justification": "Deceased father of the plaintiff Judica Agnes."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Szebsza",
+      "mention_texts": [
+        "Christopherum Szebszam"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem suum"
+      ],
+      "justification": "Guardian acting on behalf of Judica Agnes."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Szubczuk",
+      "mention_texts": [
+        "Stephano Szubut",
+        "Stephanum Szubczuk"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tabernatorem de Czarnuszowice",
+        "subditum Illustris Archiepiscopi Leopoliensis",
+        "citatum"
+      ],
+      "justification": "Innkeeper of Czarnuszowice cited in the property decree."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Czarnuszowice",
+      "mention_texts": [
+        "Czarnuszowice"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locality where Stephanus Szubczuk operates as an innkeeper."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Archbishop of Lviv",
+      "mention_texts": [
+        "Archiepiscopi Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Illustris"
+      ],
+      "justification": "Lord to whom Stephanus Szubczuk is subject."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "Church of Saint Lawrence",
+      "mention_texts": [
+        "S. Laurentii"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Landmark near which the disputed house and garden are located."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "servant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Nobilis Sigismundus Glogowski famulus Magnifici Nicolai Jazlowiecki"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E5",
+      "evidence": "Nicolai Jazlowiecki Capitanei Sniatinensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Petro Dubina et Alabro Cantorissore tanquam tutoribus liberorum Famati olim Fabiani Kalb"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Petro Dubina et Alabro Cantorissore tanquam tutoribus liberorum Famati olim Fabiani Kalb"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Judicam Agnetem Honesti olim Martini Pioro superstitis coniugem filiam"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "per Honestum Christopherum Szebszam tutorem suum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "subject_of",
+      "tail_entity_id": "E16",
+      "evidence": "Stephanum Szubczuk tabernatorem de Czarnuszowice subditum Illustris Archiepiscopi Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "resident_of",
+      "tail_entity_id": "E15",
+      "evidence": "Stephanum Szubczuk tabernatorem de Czarnuszowice"
+    }
+  ]
+}

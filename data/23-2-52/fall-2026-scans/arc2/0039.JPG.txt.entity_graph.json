@@ -1,0 +1,156 @@
+{
+  "document_id": "arc2/0039.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Judica Anna",
+      "mention_texts": [
+        "Judica Anna",
+        "Judicae Annae",
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "filia",
+        "filiae suae",
+        "praedictae"
+      ],
+      "justification": "Daughter endowed with maternal inheritance from her mother Sophia Łapiankówna."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sophia Łapiankowna",
+      "mention_texts": [
+        "Sophia",
+        "Lapiankowna"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased mother of Judica Anna whose maternal inheritance is registered."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Aduocatiali Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officium",
+        "officii"
+      ],
+      "justification": "Advocatial office whose division protocol and authority are referenced."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in the advocatial protocol title and Erasmus Jelonek's citizenship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Saturday after the Octave of Corpus Christi 1589",
+      "mention_texts": [
+        "sabbato post Octauas Sacratissimi Corporis Christi proximo Anno Domini 1589"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the division entry in the advocatial protocol."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Jaroszowska House",
+      "mention_texts": [
+        "Jarossowska"
+      ],
+      "descriptive_mentions": [
+        "domo sua Jarossowska dicta",
+        "domo supradicta Jarossowska"
+      ],
+      "justification": "House from which the financial obligation was transferred."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "65 florins",
+      "mention_texts": [
+        "sexaginta quinque florenos",
+        "sexaginta quinque florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam praefatam",
+        "hoc idem debitum",
+        "praefata summa"
+      ],
+      "justification": "Monetary amount inscribed and secured for Judica Anna."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Skarbetka",
+      "mention_texts": [
+        "Stanislao Skarbetka"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Serrifabro"
+      ],
+      "justification": "Locksmith from whom the second house was purchased."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmi Jelonek",
+        "Erasmus Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Negociator Leopoliensis"
+      ],
+      "justification": "Citizen and merchant of Lviv entering a formal protest."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Adam Krapiss",
+      "mention_texts": [
+        "Adamum Krapiss"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "famulum et fattorem suum fugitiuum"
+      ],
+      "justification": "Fugitive servant and factor against whom Erasmus Jelonek protests."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "child_of",
+      "tail_entity_id": "E2",
+      "evidence": "Judica Anna sua ex priori matrimonio cum Sophia olim Lapiankowna filia pro successione eius maternali"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "employee_of",
+      "tail_entity_id": "E9",
+      "evidence": "contra Honestum Adamum Krapiss famulum et fattorem suum fugitiuum protestatus est"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Erasmus Jelonek Civis et Negociator Leopoliensis"
+    }
+  ]
+}

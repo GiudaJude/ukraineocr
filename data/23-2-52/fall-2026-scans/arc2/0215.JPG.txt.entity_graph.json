@@ -1,0 +1,145 @@
+{
+  "document_id": "arc2/0215.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "huius Civitatis"
+      ],
+      "justification": "Mentions of the city of Lwów in adjectival and locative forms."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Refers to the Lviv Banned Court (iudicium expositum bannitum)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Hassan Turca",
+      "mention_texts": [
+        "Hassan Turca"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Advena Leopoliensis"
+      ],
+      "justification": "Turkish visitor/merchant appearing before the court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Interpres",
+      "mention_texts": [
+        "Albertum"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Interpretem",
+        "tutorem et loctotorem sibi ad eum actum assumptum"
+      ],
+      "justification": "City interpreter Albert serving as tutor and spokesman for Hassan."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia post Dominicam Cantate proxima Anno quo supra",
+        "feria quarta post Dominicam Cantate proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Session dates recorded in the court book from May 1595."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii nostri"
+      ],
+      "justification": "Self-reference to the council office (officium consulare)."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Madrzyk"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Pro-consul Civitatis Officii nostri et Scabinus huius Civitatis"
+      ],
+      "justification": "Andrzej Mądry/Mądrzyk, proconsul and scabinus of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Caspar Masieczynski",
+      "mention_texts": [
+        "Casparis Masieczynski"
+      ],
+      "descriptive_mentions": [
+        "Generosi",
+        "Tribuni Leopoliensis"
+      ],
+      "justification": "Nobleman and tribune of Lviv initiating legal action."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Josephus Woycieszowic",
+      "mention_texts": [
+        "Woycieszki",
+        "Josepho Woycieszowic"
+      ],
+      "descriptive_mentions": [
+        "Dominus",
+        "Famato",
+        "citato agente"
+      ],
+      "justification": "Party in the legal dispute withdrawing his appeal."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "per Honestum Albertum Interpretem tutorem et loctotorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Andreas Madrzyk Pro-consul Civitatis Officii nostri et Scabinus huius Civitatis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "holds_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Generosi Casparis Masieczynski Tribuni Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "opposes",
+      "tail_entity_id": "E8",
+      "evidence": "ad petitionem Generosi Casparis Masieczynski Tribuni Leopoliensis in causa certa cum Famato Josepho Woycieszowic citato agente"
+    }
+  ]
+}

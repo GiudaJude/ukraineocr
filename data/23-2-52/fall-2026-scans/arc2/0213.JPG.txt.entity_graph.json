@@ -1,0 +1,207 @@
+{
+  "document_id": "arc2/0213.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Maik",
+      "mention_texts": [
+        "Stanislao Maik"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus"
+      ],
+      "justification": "Party mentioned in connection with an earlier inscription."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catharina",
+      "mention_texts": [
+        "Catharinae"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus"
+      ],
+      "justification": "Wife of Stanislaus Maik."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudaeo bannito Leopoliensi",
+        "Judicio Exposito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Banned/exposed court of Lviv before which Daniel Zemozem presides."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "18 florins",
+      "mention_texts": [
+        "decem octo florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money specified in the inscription."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1592",
+      "mention_texts": [
+        "feria secunda ante festum Sanctae Mariae Magdalenae proxima Anno Domini 159 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous entry referred to in the text."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Daniel Zemozem",
+      "mention_texts": [
+        "Danielem Zemozem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civitatis Leopoliensis",
+        "in Judicio Exposito annoque praesidentem",
+        "suum verum legitimumque actorem"
+      ],
+      "justification": "Lviv bench magistrate appointed as legal procurator."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the acts are executed and the officials serve."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Feria secunda post Dominicam Cantate proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the entry."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paulus Szwenc",
+      "mention_texts": [
+        "Paulo Szwenc"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the entry rubric."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0091: Martinus Rottendorff",
+      "mention_texts": [
+        "Martinus Rottendorff"
+      ],
+      "descriptive_mentions": [
+        "Honorati Domini",
+        "locum Advocati Leopoliensis tenens"
+      ],
+      "justification": "Acting advocate of Lviv making an official statement."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0303: PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolphgangus Bernt"
+      ],
+      "descriptive_mentions": [
+        "Honorati Domini",
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv juror/scabinus appearing in the court record."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Mathias Magierowic",
+      "mention_texts": [
+        "Mathias Magierowic"
+      ],
+      "descriptive_mentions": [
+        "Honorati Domini",
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Lviv juror/scabinus appearing alongside Wolfgang Bernt."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Gabriela Lwoska",
+      "mention_texts": [
+        "Gabrielae Lwoska"
+      ],
+      "descriptive_mentions": [
+        "Famatae",
+        "Armenicae semionis Leopoliensis"
+      ],
+      "justification": "Armenian woman at whose instance the court officials descended."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestis Stanislao Maik et Catharinae coniugibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestis Stanislao Maik et Catharinae coniugibus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Danielem Zemozem Scabinum Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "in Judicio Exposito annoque praesidentem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "locum Advocati Leopoliensis tenens"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Wolphgangus Bernt et Mathias Magierowic Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "official_of",
+      "tail_entity_id": "E7",
+      "evidence": "Wolphgangus Bernt et Mathias Magierowic Scabini iurati Civitatis Leopoliensis"
+    }
+  ]
+}

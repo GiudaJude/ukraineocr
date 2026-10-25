@@ -1,0 +1,203 @@
+{
+  "document_id": "arc2/0179.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Strach",
+      "mention_texts": [
+        "Simon Strach"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "consortes coniuges",
+        "Cives Leopolienses",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Appears as a party personally confessing debt with his wife."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Dorothea",
+      "mention_texts": [
+        "Dorothea"
+      ],
+      "descriptive_mentions": [
+        "consortes coniuges",
+        "Cives Leopolienses",
+        "haec"
+      ],
+      "justification": "Wife of Simon Strach, co-acknowledging the debt under her husband's guardianship."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Israel Josephowicz",
+      "mention_texts": [
+        "Israel Judaeus",
+        "Israeli Josephowicz Judaeo"
+      ],
+      "descriptive_mentions": [
+        "Infideli",
+        "Leopoliensi",
+        "praedictus Creditor seus"
+      ],
+      "justification": "Jewish creditor of Lviv to whom the debt is owed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi",
+        "Civitatis Leopolien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of citizenship and location of the pledged property."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "660 Polish florins",
+      "mention_texts": [
+        "Florenos sexcentos sexaginta Polonicales",
+        "sexcentorum sexaginta Florenorum",
+        "sexcentorum sexaginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "veri certi iusti liquidique debiti ex causa mutui",
+        "complessam summam",
+        "summam debitam",
+        "summa praefata",
+        "summa principali"
+      ],
+      "justification": "Principal debt amount confessed by the debtors."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Felikowska House",
+      "mention_texts": [
+        "Faelicowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea",
+        "domo lapidea tota Faelicowska dicta",
+        "eandem domum lapideam",
+        "eandemque domum totam"
+      ],
+      "justification": "Stone house mortgaged as security for the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Szewska Street",
+      "mention_texts": [
+        "platea Szwes"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the mortgaged house is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0281: PER-0044: Lucas Wojnar",
+      "mention_texts": [
+        "Lucae Woynar"
+      ],
+      "descriptive_mentions": [
+        "successorum"
+      ],
+      "justification": "Former owner whose heirs own the neighboring stone house."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Fojcik",
+      "mention_texts": [
+        "Alberti Fojcik"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "successoribus"
+      ],
+      "justification": "Deceased person whose heirs are selling shares in the property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii"
+      ],
+      "justification": "Municipal office cited regarding court assistance/intervention."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "Wednesday after Low Sunday",
+      "mention_texts": [
+        "feria quarta post Dominicam Conductus Paschae"
+      ],
+      "descriptive_mentions": [
+        "in decursu dati unius anni"
+      ],
+      "justification": "Due date fixed for the repayment of the debt."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesti Simon Strach et Dorothea consortes coniuges"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "has_obligation_to",
+      "tail_entity_id": "E3",
+      "evidence": "Simon Strach et Dorothea consortes coniuges Cives Leopolienses... recognoverunt, se debere... Infideli Israeli Josephowicz Judaeo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "has_obligation_to",
+      "tail_entity_id": "E3",
+      "evidence": "Simon Strach et Dorothea consortes coniuges Cives Leopolienses... recognoverunt, se debere... Infideli Israeli Josephowicz Judaeo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is_located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in domo lapidea tota Faelicowska dicta in platea Szwes"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in platea Szwes Civitatis Leopolien"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Simon Strach et Dorothea consortes coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Simon Strach et Dorothea consortes coniuges Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Israeli Josephowicz Judaeo Leopoliensi"
+    }
+  ]
+}

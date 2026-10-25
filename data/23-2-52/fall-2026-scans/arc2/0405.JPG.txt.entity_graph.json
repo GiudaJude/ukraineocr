@@ -1,0 +1,155 @@
+{
+  "document_id": "arc2/0405.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Baltasar Nawroth",
+      "mention_texts": [
+        "Baltasaris Nawroth"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the concluding clause of the preceding act: 'Baltasaris Nawroth Actis nostris misceri comisimus'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Martinus Spytek",
+      "mention_texts": [
+        "Martinus\nSzuruk",
+        "Martino Spytek"
+      ],
+      "descriptive_mentions": [
+        "Famoso",
+        "Aromatario",
+        "Civi Leopoliensi"
+      ],
+      "justification": "Creditor apothecary of Lviv: 'Famoso Martino Spytek Aromatario Civi Leopoliensi', also indexed in the marginal rubric."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Szurma",
+      "mention_texts": [
+        "Albertus\nSzurma",
+        "Albertus Somiczki"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Subditus",
+        "secundarum nuptiarum coniuges",
+        "Suburbani Leopolienses",
+        "maritum",
+        "tutorem suum legitimum"
+      ],
+      "justification": "Debtor suburban resident of Lviv: 'Honesti Albertus Somiczki Subditus et Regina secundarum nuptiarum coniuges Suburbani Leopolienses', noted in the margin as 'Albertus Szurma'."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuges",
+        "Suburbani Leopolienses"
+      ],
+      "justification": "Debtor and wife of Albertus: 'Regina secundarum nuptiarum coniuges Suburbani Leopolienses'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv, referenced in 'Suburbani Leopolienses', 'Civi Leopoliensi', and 'eiusdem Civitatis'."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio eiusdem Civitatis Cracoviensi dicto"
+      ],
+      "justification": "Suburb of Lviv where the pledged house and garden are located: 'in Suburbio eiusdem Civitatis Cracoviensi dicto'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "florenos Quadraginta pecuniae et numeri Polonici",
+        "40 florenos"
+      ],
+      "descriptive_mentions": [
+        "veri liquidique debiti"
+      ],
+      "justification": "Sum of the debt: 'florenos Quadraginta pecuniae et numeri Polonici' and '40 florenos'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris",
+        "officio",
+        "Magistratus illius"
+      ],
+      "justification": "Municipal authority recording the transactions: 'Actis nostris misceri comisimus'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is spouse of",
+      "tail_entity_id": "E4",
+      "evidence": "Albertus Somiczki Subditus et Regina secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is debtor of",
+      "tail_entity_id": "E2",
+      "evidence": "recognoverunt se debere veri liquidique debiti ex causa mutui contracti florenos Quadraginta pecuniae et numeri Polonici Famoso Martino Spytek"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is debtor of",
+      "tail_entity_id": "E2",
+      "evidence": "recognoverunt se debere veri liquidique debiti ex causa mutui contracti florenos Quadraginta pecuniae et numeri Polonici Famoso Martino Spytek"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is citizen of",
+      "tail_entity_id": "E5",
+      "evidence": "Martino Spytek Aromatario Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is inhabitant of",
+      "tail_entity_id": "E5",
+      "evidence": "Albertus Somiczki Subditus et Regina secundarum nuptiarum coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is inhabitant of",
+      "tail_entity_id": "E5",
+      "evidence": "Albertus Somiczki Subditus et Regina secundarum nuptiarum coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "is located in",
+      "tail_entity_id": "E5",
+      "evidence": "in Suburbio eiusdem Civitatis Cracoviensi dicto"
+    }
+  ]
+}

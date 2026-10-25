@@ -1,0 +1,215 @@
+{
+  "document_id": "arc2/0192.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officium nostrum",
+        "iisdem Actis",
+        "Actis"
+      ],
+      "justification": "The document references the city council's court office confirming guardians and maintaining official records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dzbowicki",
+      "mention_texts": [
+        "Stanislaum Dzbowickium"
+      ],
+      "descriptive_mentions": [
+        "Spectabilem Dominum",
+        "Medicinae Doctorem",
+        "tutorem sibi ad actum praesentem assumptum"
+      ],
+      "justification": "Appointed and confirmed guardian and doctor of medicine in the first record."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Concombre",
+      "mention_texts": [
+        "Concombrei"
+      ],
+      "descriptive_mentions": [
+        "praedicto"
+      ],
+      "justification": "Creditor or payee mentioned regarding satisfaction of a debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "20 florins",
+      "mention_texts": [
+        "florenis viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid toward the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Valerianus Ziatcowiski",
+      "mention_texts": [
+        "Valeriano Ziatcowiski",
+        "Valeriani"
+      ],
+      "descriptive_mentions": [
+        "Religioso Fratri"
+      ],
+      "justification": "Monk in whose name the original debt was inscribed."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Joannes Klis",
+      "mention_texts": [
+        "Joanne Klis",
+        "Joannes Klis"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Cive Leopoliensi",
+        "vitrico",
+        "secundarum nuptiarum coniuges",
+        "ille",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Citizen of Lviv, step-father of Valerianus, and husband of Elisabetha selling property."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City where the individuals hold citizenship and where the council sits."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgangus Berndt",
+        "Wolfgango Berndt"
+      ],
+      "descriptive_mentions": [
+        "Honorato Domino",
+        "Scabino",
+        "Civi Leopoliensi",
+        "affini suo",
+        "emptore",
+        "emptori"
+      ],
+      "justification": "Signatory and buyer of the property share; city assessor and relative by marriage."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sus",
+      "mention_texts": [
+        "Joannes Sus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Signatory or official appearing between records."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha Schultaikambelowna",
+      "mention_texts": [
+        "Elisabetha Schultaikambelowna"
+      ],
+      "descriptive_mentions": [
+        "secundarum nuptiarum coniuges",
+        "haec",
+        "coniugem suam"
+      ],
+      "justification": "Wife in a second marriage of Joannes Klis, co-selling her inherited share."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Solonka Bridge",
+      "mention_texts": [
+        "ponte Solonicensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Bridge/location in the suburb where the sold plot was situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Zidulkowski Noclavari",
+      "mention_texts": [
+        "Zidulkowski Noclavari"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property holder."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislawski",
+      "mention_texts": [
+        "Stanislawski"
+      ],
+      "descriptive_mentions": [
+        "Excellentissimum Dominum",
+        "Medicinae Doctorem"
+      ],
+      "justification": "Neighboring property owner and doctor of medicine."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "step-parent of",
+      "tail_entity_id": "E5",
+      "evidence": "a Famato Joanne Klis Cive Leopoliensi eiusdem Valeriani vitrico"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse of",
+      "tail_entity_id": "E10",
+      "evidence": "Famatus Joannes Klis et Elisabetha Schultaikambelowna secundarum nuptiarum coniuges"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sold property to",
+      "tail_entity_id": "E8",
+      "evidence": "vendidisse praesentibusque inscriptionis vigore vendere medietatem... Honorato Domino Wolfgango Berndt"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sold property to",
+      "tail_entity_id": "E8",
+      "evidence": "vendidisse praesentibusque inscriptionis vigore vendere medietatem... Honorato Domino Wolfgango Berndt"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "related to",
+      "tail_entity_id": "E6",
+      "evidence": "Honorato Domino Wolfgango Berndt Scabino Civi Leopoliensi affini suo"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen of",
+      "tail_entity_id": "E7",
+      "evidence": "Joanne Klis Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen of",
+      "tail_entity_id": "E7",
+      "evidence": "Wolfgango Berndt Scabino Civi Leopoliensi"
+    }
+  ]
+}

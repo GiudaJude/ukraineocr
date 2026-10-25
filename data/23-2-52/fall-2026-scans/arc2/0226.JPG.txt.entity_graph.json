@@ -1,0 +1,39 @@
+{
+  "document_id": "arc2/0226.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Athanasius Semle",
+      "mention_texts": [
+        "Athanasii Semle",
+        "Athanassii Semle"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis",
+        "illius"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate and funeral arrangements are being provided for."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Lviv is referenced in the descriptor of citizenship (Civis Leopoliensis)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "citizen_of",
+      "tail_entity_id": "E2",
+      "evidence": "Athanassii Semle Civis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "document_id": "arc2/0048.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Ciuitatis"
+      ],
+      "justification": "City of Lwów referenced as a jurisdiction, location of goods, and citizenship origin."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracouia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Kraków mentioned as a place where movable and immovable goods may be held."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Olexa Wasilkowic",
+      "mention_texts": [
+        "Olexa Krasilcowit",
+        "Olexa Wasilkowic",
+        "Olexa Wasilkowit"
+      ],
+      "descriptive_mentions": [
+        "emptorem",
+        "emptori praenominato",
+        "Honestus",
+        "sartor Ruthenus Civis Leopoliensis"
+      ],
+      "justification": "Ruthenian tailor and Lviv citizen purchasing property rights and acknowledging a debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Koński",
+      "mention_texts": [
+        "Joannes Konski",
+        "Joannes Konskier"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "magistris",
+        "idem"
+      ],
+      "justification": "Seller of the hereditary property rights who appoints an attorney and resigns the rights."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0007: Ruthenian Street",
+      "mention_texts": [
+        "platea Ruthenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the house in question is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Mincowska House",
+      "mention_texts": [
+        "Mincowska"
+      ],
+      "descriptive_mentions": [
+        "domo",
+        "domum praedictam"
+      ],
+      "justification": "House in Ruthenian Street whose rights are the subject of the transaction and debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Sabriczyńska House",
+      "mention_texts": [
+        "Sabriczynska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property bordering Mincowska House."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "LOC-0008: Babriczowska House",
+      "mention_texts": [
+        "Babiczowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property bordering Mincowska House on the other side."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "350 florins",
+      "mention_texts": [
+        "florenos trecentos quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum acknowledged as debt for the purchase of the house rights."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestus Olexa Wasilkowit sartor Ruthenus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "super domo Mincowska in platea Ruthenorum"
+    }
+  ]
+}

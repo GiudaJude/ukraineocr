@@ -1,0 +1,310 @@
+{
+  "document_id": "arc2/0326.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "1595",
+        "die 15 Junij. Anno Domini 1595 quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session and act registration."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "actis praesentibus",
+        "iuris dictioni nostrae"
+      ],
+      "justification": "The consular council whose acts record the renunciation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicium Bannitum"
+      ],
+      "descriptive_mentions": [
+        "idem Judicium Bannitum"
+      ],
+      "justification": "The banned court before which the transaction took place."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Czemiers",
+      "mention_texts": [
+        "Martinum Czemers"
+      ],
+      "descriptive_mentions": [
+        "Ordinarium causarum Iudicem"
+      ],
+      "justification": "Ordinary judge presiding over the banned court."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Bogdan Milianowicz",
+      "mention_texts": [
+        "Bohdani",
+        "Bogdano Milianowicz"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Nobili",
+        "genero demortui Pauli Niemiecz"
+      ],
+      "justification": "Noble recipient of the resignation of real property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Niemiecz",
+      "mention_texts": [
+        "Pauli Niemiecz",
+        "Paulo Niemiecz"
+      ],
+      "descriptive_mentions": [
+        "demortui",
+        "Civis Visnensis",
+        "Patre uxoris suae"
+      ],
+      "justification": "Deceased citizen of Sądowa Wisznia, father of the bequeathers/wife."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Sądowa Wisznia",
+      "mention_texts": [
+        "Visnensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of citizenship of the deceased Paulus Niemiecz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agneta"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta post decessum olim Famati Paczkonis Baczk sui",
+        "filia autem demortui Pauli Niemiecz Civis Visnensis",
+        "praenarrata Agneta"
+      ],
+      "justification": "Daughter of Paulus Niemiecz resigning the property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Paczko Baczk",
+      "mention_texts": [
+        "Paczkonis Baczk"
+      ],
+      "descriptive_mentions": [
+        "olim Famati"
+      ],
+      "justification": "Deceased husband of Agneta."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Anna",
+        "Frosczanka",
+        "Frosczka"
+      ],
+      "descriptive_mentions": [
+        "niemirczka eiusdem Pauli Niemiecz"
+      ],
+      "justification": "Relative (female descendant) of Paulus Niemiecz resigning the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Maksymko",
+      "mention_texts": [
+        "Maximko"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "sutore",
+        "generis suis"
+      ],
+      "justification": "Shoemaker appearing alongside the women."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Feyszko",
+      "mention_texts": [
+        "Feyszkone"
+      ],
+      "descriptive_mentions": [
+        "generis suis"
+      ],
+      "justification": "Relative from Mikołajów."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Mikołajów",
+      "mention_texts": [
+        "Nikolaiew"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Origin town of Feyszko."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Szczęsny Szczuckałowicz",
+      "mention_texts": [
+        "Szaczn Szczuckalowicz"
+      ],
+      "descriptive_mentions": [
+        "seniorem Scabinum",
+        "legitimos plempotentes suos"
+      ],
+      "justification": "Senior bench-officer acting as plenipotentiary for Agneta."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Martinus",
+      "mention_texts": [
+        "Martinum"
+      ],
+      "descriptive_mentions": [
+        "generum suum",
+        "legitimos plempotentes suos"
+      ],
+      "justification": "Son-in-law acting as plenipotentiary for Froszka."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburb is referenced."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Krakowskie"
+      ],
+      "descriptive_mentions": [
+        "Suburbio Leopoliensi Krakowskie dictum"
+      ],
+      "justification": "Suburb in which the house is situated."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "Ulica Świętego Stanisława",
+      "mention_texts": [
+        "platea Sancti Stanislai"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the house is situated."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Regulus",
+      "mention_texts": [
+        "Reguli"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased adjoining property owner."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Simon Andel",
+      "mention_texts": [
+        "Simonis Andel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "presided_over",
+      "tail_entity_id": "E3",
+      "evidence": "Judicium Bannitum legitime celebratum est per Ordinarium causarum Iudicem Martinum Czemers"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "per seniorem Scabinum Szaczn Szczuckalowicz"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "filia autem demortui Pauli Niemiecz Civis Visnensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Agneta vidua relicta post decessum olim Famati Paczkonis Baczk sui"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E6",
+      "evidence": "Bogdano Milianowicz genero demortui Pauli Niemiecz bona immobilia testamento legata a Patre uxoris suae Paulo Niemiecz"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E7",
+      "evidence": "Pauli Niemiecz Civis Visnensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resident_of",
+      "tail_entity_id": "E13",
+      "evidence": "Feyszkone ex Nikolaiew"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E10",
+      "evidence": "Frosczka vero per Martinum generum suum"
+    },
+    {
+      "head_entity_id": "E17",
+      "relation": "located_in",
+      "tail_entity_id": "E16",
+      "evidence": "in Suburbio Leopoliensi Krakowskie dictum"
+    },
+    {
+      "head_entity_id": "E18",
+      "relation": "located_in",
+      "tail_entity_id": "E17",
+      "evidence": "domum in Suburbio Leopoliensi Krakowskie dictum sitam ... in platea Sancti Stanislai"
+    }
+  ]
+}

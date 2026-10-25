@@ -1,0 +1,167 @@
+{
+  "document_id": "23-2-52/0053.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Szanc",
+      "mention_texts": [
+        "Jacobi Szanc"
+      ],
+      "justification": "Named as the cited party in the legal dispute."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Lewicki",
+      "mention_texts": [
+        "Christophorum Lewicki"
+      ],
+      "justification": "Matches known entity PER-0039 acting as legal representative (ferendarius)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ptasz",
+      "mention_texts": [
+        "Joannem Ptasz"
+      ],
+      "justification": "Identified as the deceased father of the cited parties."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Lucas Notarius Zialussowski",
+      "mention_texts": [
+        "Luca Notario Zialussouien"
+      ],
+      "justification": "Named as the deceased notary and creditor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "300 Polish florins",
+      "mention_texts": [
+        "Florenos trecentos Polonicales"
+      ],
+      "justification": "Amount of debt secured on the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Wraczslawzowska House",
+      "mention_texts": [
+        "domus labidea Wraczslawzowska"
+      ],
+      "justification": "Named stone tenement house mortgaged for the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus Leopoliensibus",
+        "Officium Consulare Leopoliensis"
+      ],
+      "justification": "Matches known entity ORG-0003, the municipal governing and court body of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Leopoliensis"
+      ],
+      "justification": "Matches known entity LOC-0001, the city of Lviv."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "1575",
+      "mention_texts": [
+        "sabbato ante Festum Sancti Joannis Baptiste Anno 157 quinto"
+      ],
+      "justification": "Date of the original municipal court entry."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Sawinski",
+      "mention_texts": [
+        "Joannes Sawinski"
+      ],
+      "justification": "Noble who issues a receipt/acquittance."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Lucia Sawinska",
+      "mention_texts": [
+        "Lucie Sawinski"
+      ],
+      "justification": "Deceased noblewoman whose successor is Joannes Sawinski."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "100 Polish florins",
+      "mention_texts": [
+        "florenis centum pecunie Polonicalis"
+      ],
+      "justification": "Monetary sum settled in the acquittance."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Gorszalek",
+      "mention_texts": [
+        "Jacobi Gorszalek",
+        "Jacobum Gorszalek",
+        "Jacobo Gorszalek"
+      ],
+      "justification": "Furrier and citizen of Lviv acquitted of financial obligation."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Joannes Łagiewnicki",
+      "mention_texts": [
+        "Joanne Lagiewnicki"
+      ],
+      "justification": "Noble guardian (tutor) of Joannes Sawinski."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "acts_as_representative_for",
+      "tail_entity_id": "E1",
+      "evidence": "per Probiorem Christophorum Lewicki ferendarium suum comparentes"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E1",
+      "evidence": "Joannem Ptasz Pater ipsorum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "successor_of",
+      "tail_entity_id": "E11",
+      "evidence": "Nobilis Joannes Sawinski tanquam successor Nobilis olim Lucie Sawinski"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "guardian_of",
+      "tail_entity_id": "E10",
+      "evidence": "Nobili Joanne Lagiewnicki tutore suo"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Jacobum Gorszalek Pellionem Civem Leopoliensis"
+    }
+  ]
+}

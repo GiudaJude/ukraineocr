@@ -1,0 +1,190 @@
+{
+  "document_id": "arc2/0547.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium Consulare Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "hoc idem Officium"
+      ],
+      "justification": "Identified by official title of the Lviv city council court."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracouiae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place of issue of the royal decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato post Festum S. Viti proxi- Anno Domini Millesimo quingentesimo Nonagesimo Quinto",
+        "Anno Domini Millesimo quingentesimo Nonagesimo Quinto",
+        "feria quarta ipso die S. Francisci Confessoris. Anno Domini 1595",
+        "Anno Domini 1595",
+        "Sabbato post Festum S. Francisci proximo A. D. 1595",
+        "A. D. 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date formulas referencing the year 1595."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae",
+        "Pol."
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal regnal year formula and title of the Vice-Chancellor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0279: Sweden",
+      "mention_texts": [
+        "Sueciae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the royal regnal year formula."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-1141: Joannes Tarnowski",
+      "mention_texts": [
+        "Joannes Tarnowski",
+        "Joannis Tarnowski"
+      ],
+      "descriptive_mentions": [
+        "Crac- R. Pol. Vicecancellarius",
+        "Reuerendi",
+        "Crac- Vladisl. Lanciciensis Praepositi",
+        "S. R. P. Vicecancellarij"
+      ],
+      "justification": "Crown Vice-Chancellor Joannes Tarnowski issuing/confirming the royal decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-1142: PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Stecbicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Scribe/secretary signature variant for Paulus Szczerbicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0018: Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobi Sellatoris",
+        "Jacobum Sellatorem",
+        "Jacobo Sellatore"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Ciue Leopoliensi",
+        "praefato",
+        "eodem"
+      ],
+      "justification": "Jacobus Balcertowic saddler (Sellator), citizen of Lviv, debtor receiving the acquittance."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Israel Szepszowicz",
+      "mention_texts": [
+        "Israel Szepszowicz"
+      ],
+      "descriptive_mentions": [
+        "Prouidus",
+        "Zloczouiensis",
+        "Senior Judaeorum Leopoliensis"
+      ],
+      "justification": "Senior of the Lviv Jewish community from Złoczów, creditor granting quietatio."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Abram Isernona Janik",
+      "mention_texts": [
+        "Abram Isernona Janik"
+      ],
+      "descriptive_mentions": [
+        "tutorem",
+        "Plenipotentem suum"
+      ],
+      "justification": "Agent/guardian acting on behalf of Israel Szepszowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenis ducentis pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Sum of the debt repaid and quieted."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense",
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, location of the court and place where acts were done."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E4",
+      "evidence": "Joannes Tarnowski Crac- R. Pol. Vicecancellarius"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "agent_of",
+      "tail_entity_id": "E9",
+      "evidence": "per Abram Isernona Janik tutorem et Plenipotentem suum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "debtor_of",
+      "tail_entity_id": "E9",
+      "evidence": "satisfactum esse sibi sufficienter et plenarie de Florenis ducentis pecuniae et numeri Polonicalis debiti sibi per Famatum Jacobum Sellatorem contracti"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E12",
+      "evidence": "Jacobo Sellatore Ciue Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "elder_of",
+      "tail_entity_id": "E12",
+      "evidence": "Senior Judaeorum Leopoliensis"
+    }
+  ]
+}

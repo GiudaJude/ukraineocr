@@ -1,0 +1,139 @@
+{
+  "document_id": "arc2/0301.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Botonius",
+      "mention_texts": [
+        "Martinus Botonius"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati Dominus",
+        "locum Ordinarii Advocati Leopoliensis tenens"
+      ],
+      "justification": "Named as acting advocate appearing before the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Matias",
+      "mention_texts": [
+        "Matias"
+      ],
+      "descriptive_mentions": [
+        "Civitatis Leopoliensis"
+      ],
+      "justification": "Named alongside Martinus Botonius as an official of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucas Kosierski",
+      "mention_texts": [
+        "Lucae Kosierski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Patris"
+      ],
+      "justification": "Father of Paulus Kosierski, at whose instance the inventory/appraisal was conducted."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kosierski",
+      "mention_texts": [
+        "Pauli Kosierski"
+      ],
+      "descriptive_mentions": [
+        "Gnesii",
+        "Curatoris",
+        "Donatoris",
+        "Donatore"
+      ],
+      "justification": "Son of Lucas Kosierski, mentioned as curator and donor."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Henle",
+      "mention_texts": [
+        "Henle",
+        "Joannis Henle"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "donatarii"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate is being inventoried and appraised."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Flora",
+      "mention_texts": [
+        "Florce"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Mulierculae"
+      ],
+      "justification": "Present at the inspection and opening of the vaulted cellar."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Iwaszko Tomaszewic",
+      "mention_texts": [
+        "Iwaszkionis Tomaszewic"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Present at the estate inspection on behalf of the parties."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "platea Suisnensi",
+      "mention_texts": [
+        "platea Suisnensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the rear of Joannes Henle's house is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "hac Civitate"
+      ],
+      "justification": "City in which the proceedings and properties are located."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro"
+      ],
+      "justification": "The municipal office before which the report is made and by which the appraisers were deputed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "parent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Lucae Kosierski Patris Gnesii Pauli Kosierski"
+    }
+  ]
+}

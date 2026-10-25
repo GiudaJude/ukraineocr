@@ -1,0 +1,317 @@
+{
+  "document_id": "arc2/0397.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio suo",
+        "supremi Tutores",
+        "Offi- cij nostri"
+      ],
+      "justification": "The municipal office acting in its capacity as supreme guardian over orphans."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0095: Lviv Latin Cathedral",
+      "mention_texts": [
+        "Ecclesiae Metropolitanae Leopolien"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Metropolitan cathedral church of Lviv receiving census payments."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolien",
+        "Leopoliensi",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "ea Civitate"
+      ],
+      "justification": "The city of Lviv mentioned directly and via adjectival forms."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "1 florin 15 groschen",
+      "mention_texts": [
+        "florenos unum et grossos quindecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid per quarter as perpetual census."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Exaltation of the Holy Cross",
+      "mention_texts": [
+        "Sanctae Crucis in mense Septe- bre proxime venturo"
+      ],
+      "descriptive_mentions": [
+        "quartali Sanctae Crucis in mense Septe- bre proxime venturo"
+      ],
+      "justification": "Quarterly date term starting in the upcoming September."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Olto Kikało",
+      "mention_texts": [
+        "Oltonis Kikało",
+        "Olto"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "olim",
+        "Piscatoris Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased suburban fisherman, late father of the minors."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Zaratta",
+      "mention_texts": [
+        "Zarattae",
+        "Zaratta"
+      ],
+      "descriptive_mentions": [
+        "Honestorum",
+        "coniugis",
+        "minorrennium mater",
+        "obaerataque orerata"
+      ],
+      "justification": "Mother of the minors who fled due to substantial debt with her second husband."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joannes Lopotowicz",
+      "mention_texts": [
+        "Joanni Lopotowicz",
+        "Joanno Lopotowicz"
+      ],
+      "descriptive_mentions": [
+        "coniugis",
+        "praefato",
+        "marito suo"
+      ],
+      "justification": "Second husband of Zaratta who fled the city alongside her."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Alexander Sitca",
+      "mention_texts": [
+        "Alexander Sitca",
+        "Alexandrum"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Tutorem",
+        "praefatorum pupillorum auunculum"
+      ],
+      "justification": "Maternal uncle of the minors, appointed as their tutor/guardian."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Status Zohnatowicz",
+      "mention_texts": [
+        "Statum Zohnatowicz"
+      ],
+      "descriptive_mentions": [
+        "sartorem",
+        "Civem Leopoliensem",
+        "Tutores"
+      ],
+      "justification": "Tailor and citizen of Lviv, appointed co-tutor of the minors."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "minorrennium liberorum",
+        "liberos praefatos",
+        "pupillorum"
+      ],
+      "justification": "Minor child of Olto and Zaratta."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0255: Lucas",
+      "mention_texts": [
+        "Lucae"
+      ],
+      "descriptive_mentions": [
+        "minorrennium liberorum",
+        "liberos praefatos",
+        "pupillorum"
+      ],
+      "justification": "Minor child of Olto and Zaratta."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0596: Joannes",
+      "mention_texts": [
+        "Joannis"
+      ],
+      "descriptive_mentions": [
+        "minorrennium liberorum",
+        "liberos praefatos",
+        "pupillorum"
+      ],
+      "justification": "Minor child of Olto and Zaratta."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Zofiae"
+      ],
+      "descriptive_mentions": [
+        "minorrennium liberorum",
+        "liberos praefatos",
+        "pupillorum"
+      ],
+      "justification": "Minor child of Olto and Zaratta."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislai, Lucae, Joannis et Zofiae minorrennium liberorum Honestorum olim Olto Piscatoris"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislai, Lucae, Joannis et Zofiae minorrennium liberorum Honestorum olim Olto Piscatoris"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislai, Lucae, Joannis et Zofiae minorrennium liberorum Honestorum olim Olto Piscatoris"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislai, Lucae, Joannis et Zofiae minorrennium liberorum Honestorum olim Olto Piscatoris"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "minorrennium liberorum Honestorum olim Olto Piscatoris Suburbani Leopoliensis et Zarattae"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "minorrennium liberorum Honestorum olim Olto Piscatoris Suburbani Leopoliensis et Zarattae"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "minorrennium liberorum Honestorum olim Olto Piscatoris Suburbani Leopoliensis et Zarattae"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "minorrennium liberorum Honestorum olim Olto Piscatoris Suburbani Leopoliensis et Zarattae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "liberorum Honestorum olim Olto Piscatoris Suburbani Leopoliensis et Zarattae iam pridem secundarum nuptiarum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Zarattae iam pridem secundarum nuptiarum Isti Joanni Lopotowicz coniugis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "assignavimus et deputavimus in Tutores hanc ipsium Alexandrum Tutorem uti praefatorum pupillorum auunculum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "assignavimus et deputavimus in Tutores hanc ipsium Alexandrum Tutorem uti praefatorum pupillorum auunculum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "assignavimus et deputavimus in Tutores hanc ipsium Alexandrum Tutorem uti praefatorum pupillorum auunculum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "assignavimus et deputavimus in Tutores hanc ipsium Alexandrum Tutorem uti praefatorum pupillorum auunculum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "assignavimus et deputavimus in Tutores hanc ipsium Alexandrum Tutorem uti praefatorum pupillorum auunculum et Statum Zohnatowicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "assignavimus et deputavimus in Tutores hanc ipsium Alexandrum Tutorem uti praefatorum pupillorum auunculum et Statum Zohnatowicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E13",
+      "evidence": "assignavimus et deputavimus in Tutores hanc ipsium Alexandrum Tutorem uti praefatorum pupillorum auunculum et Statum Zohnatowicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "guardian_of",
+      "tail_entity_id": "E14",
+      "evidence": "assignavimus et deputavimus in Tutores hanc ipsium Alexandrum Tutorem uti praefatorum pupillorum auunculum et Statum Zohnatowicz"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Statum Zohnatowicz sartorem Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "Ecclesiae Metropolitanae Leopolien"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/0340.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Paulus Kasprowicz",
+      "mention_texts": [
+        "Kasprowicz Paulino",
+        "Paulo Kasprowicz",
+        "Paulo"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "praefato",
+        "supranominato",
+        "contrahentem"
+      ],
+      "justification": "Debtor named in the contract pledging his property to pay debts in installments."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus",
+      "mention_texts": [
+        "Sebaldus"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "Creditor suus",
+        "Creditori suo",
+        "contrahentem"
+      ],
+      "justification": "Creditor and merchant supplying cloth in the contractual arrangement."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0176: Lublin",
+      "mention_texts": [
+        "Lublini"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the fair for the first installment is held."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Regno"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom referenced in the context of current currency ('in Regno currentis')."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0005: Jarosław",
+      "mention_texts": [
+        "Jaroslaviensibus",
+        "Jaroslavienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town whose fairs are specified for installment payments and trade."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0155: Toruń",
+      "mention_texts": [
+        "Torunenses",
+        "Torunij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose fair and location are referenced for shipping and trade of cloth."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "Anno 1593",
+        "Anno Domini 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Calendar year specified for the installments."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Purification of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festi Purificationis Beatae Mariae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast date for the Lublin fair of the first installment."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festo Assumptionis Beatae Mariae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast date for the Jarosław fair of the second installment."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "Feast of the Three Kings",
+      "mention_texts": [
+        "Festo Trium Regum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast date specified for the Toruń fair in the subsequent year."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "Trecentos florenos",
+        "tercentos florenos",
+        "Trecentos Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of three hundred florins designated for the first installment."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "Florenos quingentos",
+        "Quingentorum Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of five hundred florins designated for the second installment and goods."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "debtor_of",
+      "tail_entity_id": "E2",
+      "evidence": "praefato Paulo Kasprowicz praedictus Sebaldus Creditor suus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "creditor_of",
+      "tail_entity_id": "E1",
+      "evidence": "praefato Paulo Kasprowicz praedictus Sebaldus Creditor suus"
+    }
+  ]
+}

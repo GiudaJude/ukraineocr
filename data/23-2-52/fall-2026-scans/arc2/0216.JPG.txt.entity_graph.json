@@ -1,0 +1,236 @@
+{
+  "document_id": "arc2/0216.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Praetorium",
+        "Officium Praesens",
+        "Officio praesenti",
+        "Officii nostri",
+        "Officio Praesenti",
+        "Acta Praesentia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as the municipal governing and judicial body of Lviv referenced throughout the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Ciuitatis huius"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in which the proceedings took place and of which several participants were citizens."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Josephus Wolfhowic",
+      "mention_texts": [
+        "Josepho Wolfhowic",
+        "Joseph Wolfhowic"
+      ],
+      "descriptive_mentions": [
+        "citato",
+        "succollectori",
+        "ipse Josephus"
+      ],
+      "justification": "Named party cited in the suit who requested the notary's report be entered into the acts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Crown Tribunal of Lublin",
+      "mention_texts": [
+        "Tribunal Regni Lublinen",
+        "Judicio Tribunalis Regni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Highest appellate court of the Crown to which an appeal had been made and subsequently revoked."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szember",
+      "mention_texts": [
+        "Stanislaum Szember"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Ciuem Leopoliensis"
+      ],
+      "justification": "Citizen of Lviv mentioned as being present as a witness."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Buczek",
+      "mention_texts": [
+        "Hieronymus Buczek"
+      ],
+      "descriptive_mentions": [
+        "Religiosus Pater",
+        "Curius Conuentus et Ecclesiae Tituli Sancti Crucis intra muros Ciuitatis huius sitae Ordinis Sancti Francisci"
+      ],
+      "justification": "Franciscan priest who personally appeared to issue an acquittance."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0022: Church of the Holy Cross",
+      "mention_texts": [
+        "Ecclesiae Tituli Sancti Crucis"
+      ],
+      "descriptive_mentions": [
+        "intra muros Ciuitatis huius sitae"
+      ],
+      "justification": "Church located within the city walls of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0012: Order of Friars Minor",
+      "mention_texts": [
+        "Ordinis Sancti Francisci"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Religious order to which Father Hieronymus Buczek and Father Georgius Gregorowicz belonged."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Georgius Gregorowicz",
+      "mention_texts": [
+        "Georgio Gregorowicz"
+      ],
+      "descriptive_mentions": [
+        "Religioso Patre",
+        "eiusdem Ordinis professo",
+        "socium",
+        "testem"
+      ],
+      "justification": "Franciscan priest professus who accompanied Hieronymus Buczek as companion and witness."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaum Anserinum"
+      ],
+      "descriptive_mentions": [
+        "Spectabilem D.",
+        "Collegam meum Consularem",
+        "tutorem"
+      ],
+      "justification": "Lviv city consul acting as guardian for the monastery."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Andreas Abrek",
+      "mention_texts": [
+        "Andreae Abrek",
+        "Andrea Abrek"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "Patre demortui"
+      ],
+      "justification": "Citizen of Lviv, father of the deceased Franciscan priest."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha Majdakowska",
+      "mention_texts": [
+        "Elisabetha Maiadakowska"
+      ],
+      "descriptive_mentions": [
+        "Priore coniuge Nobili et Honesta olim"
+      ],
+      "justification": "Former wife of Andreas Abrek and mother of the deceased priest."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Abrek",
+      "mention_texts": [
+        "Abrek"
+      ],
+      "descriptive_mentions": [
+        "eiusdem Professionis Presbyteri nuper Falicia vita functi",
+        "Filii",
+        "demortui"
+      ],
+      "justification": "Deceased Franciscan priest, son of Andreas Abrek and Elisabetha Majdakowska."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famatum Stanislaum Szember Ciuem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Religiosus Pater Hieronymus Buczek Curius Conuentus et Ecclesiae Tituli Sancti Crucis intra muros Ciuitatis huius sitae Ordinis Sancti Francisci"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Ecclesiae Tituli Sancti Crucis intra muros Ciuitatis huius sitae"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Religioso Patre Georgio Gregorowicz eiusdem Ordinis professo"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Spectabilem D. Stanislaum Anserinum Collegam meum Consularem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Famati Andrea Abrek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Andrea Abrek Civis Leopoliensis ex Priore coniuge Nobili et Honesta olim Elisabetha Maiadakowska"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Andrea Abrek Civis Leopoliensis ex Priore coniuge Nobili et Honesta olim Elisabetha Maiadakowska Filii"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "ex Priore coniuge Nobili et Honesta olim Elisabetha Maiadakowska Filii"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "Abrek eiusdem Professionis Presbyteri"
+    }
+  ]
+}

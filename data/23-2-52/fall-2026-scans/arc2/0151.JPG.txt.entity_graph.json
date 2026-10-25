@@ -1,0 +1,161 @@
+{
+  "document_id": "arc2/0151.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar",
+      "mention_texts": [
+        "Casparis"
+      ],
+      "descriptive_mentions": [
+        "cessionarii"
+      ],
+      "justification": "Appears as the assignee (cessionarius) submitting legal documents."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Anna Jurk",
+      "mention_texts": [
+        "Annam Jurk"
+      ],
+      "descriptive_mentions": [
+        "Honestam",
+        "tutorem sibi assumptam"
+      ],
+      "justification": "Assumed guardian mentioned alongside Caspar."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis praesentibus",
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known civic council entity presiding over and recording the decrees."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Barte Czarna Sawcz",
+      "mention_texts": [
+        "Barte Czarna Sawcz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named party in the heading of the first decree."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Sabinus",
+      "mention_texts": [
+        "Stanislaum Sabinum"
+      ],
+      "descriptive_mentions": [
+        "Honoratos",
+        "Famatos",
+        "Tutorem",
+        "tutorem actorem"
+      ],
+      "justification": "Plaintiff acting as guardian of Franciscus Formanowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Franciscus Formanowicz",
+      "mention_texts": [
+        "Francisci Formanowicz"
+      ],
+      "descriptive_mentions": [
+        "minoris"
+      ],
+      "justification": "Minor under the guardianship of Stanislaus Sabinus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Adam Dorman",
+      "mention_texts": [
+        "Adamum Dorman"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Organicinem Lavinum",
+        "Civem Leopoliensis",
+        "citatum",
+        "praedictus citatus"
+      ],
+      "justification": "Summoned defendant, organist and citizen of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in citizenship and office names."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta Florenorum",
+        "triginta Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Annual pension amount mentioned in the decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "320 florins",
+      "mention_texts": [
+        "Florenis trecentis et viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Principal debt amount."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0015: Christopherus Mozanc",
+      "mention_texts": [
+        "Christofero Mozanc"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known corpus entity featured in the decree heading."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Brikcius",
+      "mention_texts": [
+        "Brikc"
+      ],
+      "descriptive_mentions": [
+        "Famatos"
+      ],
+      "justification": "Litigant named at the end of the entry."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E6",
+      "evidence": "Stanislaum Sabinum, uti Tutorem Francisci Formanowicz minoris"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "citizen_of",
+      "tail_entity_id": "E8",
+      "evidence": "Adamum Dorman Organicinem Lavinum Civem Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "document_id": "arc2/0173.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts were recorded ('Actum Leopoli')."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria tertia post Do-minicam Conductus Paschae proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording of the legal protest."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Sabinos",
+      "mention_texts": [
+        "Albertus Sabinos"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Muratores"
+      ],
+      "justification": "Mason appearing to register a protest together with Paulus Rzymianin."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Paulus Rzymianin",
+      "mention_texts": [
+        "Paulus Rzymianin",
+        "Rzymianin"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Muratores"
+      ],
+      "justification": "Mason lodging a protest concerning construction work."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Dwoiaczkiewicz",
+      "mention_texts": [
+        "Paulo Dwoiaczkiewicz",
+        "Paulus",
+        "Dwoiaczkiewicz"
+      ],
+      "descriptive_mentions": [
+        "Excellenti Domino",
+        "Advocato",
+        "Doctore",
+        "Collega meo Consulari",
+        "eundem",
+        "praedictus Dominus",
+        "Domini",
+        "Dominum"
+      ],
+      "justification": "Advocate, doctor, and council colleague against whom the protest is lodged."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0134: Paulus Aromatarius",
+      "mention_texts": [
+        "Pauli Aromatarij",
+        "Paulo Aromatario",
+        "Paulus Aromatarius"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "praedicto",
+        "praenominatos"
+      ],
+      "justification": "Neighbor involved in the construction dispute over a dividing wall."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City office issuing decrees mentioned in the text ('decretis officij id effecit')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nachman Szarkowicz",
+      "mention_texts": [
+        "Nachman",
+        "Nachman Szarkowicz"
+      ],
+      "descriptive_mentions": [
+        "Infidelis",
+        "Judaeus"
+      ],
+      "justification": "Jewish citizen appearing regarding an aqueduct concession."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "colleague_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Albertus Sabinos e Paulus Rzymianin Muratores"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E7",
+      "evidence": "Collega meo Consulari"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "neighbor_of",
+      "tail_entity_id": "E6",
+      "evidence": "inter eiusdem et Famati Pauli Aromatarij domos lapideas"
+    }
+  ]
+}

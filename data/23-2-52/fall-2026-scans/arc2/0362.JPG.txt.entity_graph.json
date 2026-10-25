@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/0362.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Anna Stachowiczina",
+      "mention_texts": [
+        "Anna Stachowiczina"
+      ],
+      "descriptive_mentions": [
+        "praenominata",
+        "Etta"
+      ],
+      "justification": "Party selling property and making an obligation regarding warranty against claims."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolai"
+      ],
+      "descriptive_mentions": [
+        "fratris sui"
+      ],
+      "justification": "Brother of Anna Stachowiczina mentioned in warranty clause."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis",
+        "Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in institutional titles and suburb descriptions."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the proxy was authorized to act."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "officio nostro"
+      ],
+      "justification": "Council/office recording and approving the guardian."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gnowek",
+      "mention_texts": [
+        "Stanislaus Gnowek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person named in the entry/marginal note."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Hedvigis Snopkowa",
+      "mention_texts": [
+        "Hedvigis Snopkowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "Filia",
+        "Vidua relicta"
+      ],
+      "justification": "Principal party in entry 1367 donating her property portion."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Snopek",
+      "mention_texts": [
+        "Jacobi Snopek"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Pectoris Suburbani Leopoliensis"
+      ],
+      "justification": "Deceased father of Hedvigis Snopkowa."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0166: Adamus Kalinowski",
+      "mention_texts": [
+        "Adamum Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "tutorem"
+      ],
+      "justification": "Assumed legal guardian aiding Hedvigis Snopkowa."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0184: Glinska Street",
+      "mention_texts": [
+        "platea Glinska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Lviv suburb where the property is located."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Łowsina",
+      "mention_texts": [
+        "Stanislai Lowsina"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the donated property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Jaromiej Figulus",
+      "mention_texts": [
+        "Jaromiey Figuli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house borders the donated property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E1",
+      "evidence": "Nicolai fratris sui"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Hedvigis Snopkowa Filia olim Jacobi Snopek"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "Adamum Kalinowski tutorem sibi ad eum actum assumptum"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in suburbio eiusdem Civitatis in platea Glinska"
+    }
+  ]
+}

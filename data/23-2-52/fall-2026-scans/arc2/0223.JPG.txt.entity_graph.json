@@ -1,0 +1,116 @@
+{
+  "document_id": "arc2/0223.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Hedwigis",
+      "mention_texts": [
+        "Hedvigi"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "uxore",
+        "eandem"
+      ],
+      "justification": "Appears as the wife of Valentinus Gładysz, who settled a satisfaction."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Valentinus Gładysz",
+      "mention_texts": [
+        "Valentini Gładysz"
+      ],
+      "descriptive_mentions": [
+        "Calceotoris Suburbani Leopoliensis"
+      ],
+      "justification": "Identified as a suburban shoemaker of Lviv and husband of Hedvigis."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the adjectival forms for the inhabitants and council."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Dawid Serebkowicz",
+      "mention_texts": [
+        "Dawid Serebkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Armenus Civis Leopoliensis"
+      ],
+      "justification": "Armenian citizen of Lviv presenting letters to the city council."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro",
+        "Actis nostris Praesentibus"
+      ],
+      "justification": "The municipal council/chancellery before which the letters were exhibited and registered."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Aaron",
+      "mention_texts": [
+        "Aarone"
+      ],
+      "descriptive_mentions": [
+        "Illustri et Magnifico",
+        "Palatino Terrae Moldaviae"
+      ],
+      "justification": "Voivode/Palatine of Moldavia whose debt obligations are acknowledged in the letters."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Moldavia",
+      "mention_texts": [
+        "Moldaviae"
+      ],
+      "descriptive_mentions": [
+        "Terrae Moldaviae"
+      ],
+      "justification": "Principality ruled by Palatine Aaron."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Hedvigi Valentini Gładysz Calceotoris Suburbani Leopoliensis uxore"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Valentini Gładysz Calceotoris Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E3",
+      "evidence": "Dawid Serebkowicz Armenus Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "ruler_of",
+      "tail_entity_id": "E7",
+      "evidence": "Aarone Palatino Terrae Moldaviae"
+    }
+  ]
+}

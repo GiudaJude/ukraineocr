@@ -1,0 +1,191 @@
+{
+  "document_id": "arc2/0106.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Caspar Balcerowicz",
+      "mention_texts": [
+        "Casparo Balcerowiczki",
+        "Casparo"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Aurifabro",
+        "genero suo",
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "emptoribus",
+        "genero"
+      ],
+      "justification": "Named as the son-in-law, goldsmith, and citizen of Lviv purchasing the property shares."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Catherina",
+      "mention_texts": [
+        "Catherinae",
+        "Catherina"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "filiae",
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "filia"
+      ],
+      "justification": "Named as the daughter of Paulus Czeph and wife of Caspar Balcerowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensibus",
+        "Civitatis",
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in the text."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "890 florins",
+      "mention_texts": [
+        "octingentorum et nonaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The transaction amount specified in the document."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Czephowic",
+      "mention_texts": [
+        "Joanne Czephowic"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Aurifabro",
+        "filio suo"
+      ],
+      "justification": "Named as the son of Paulus Czeph, a goldsmith, from whose claims eviction defense is promised."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kłobowska House",
+      "mention_texts": [
+        "domo Klobowska"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The house property from which the shares being resigned and sold originate."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Czeph",
+      "mention_texts": [
+        "Paulus Czeph"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "venditores",
+        "recognoscentes",
+        "idem"
+      ],
+      "justification": "Named as seller and recognizant alongside his wife Zanes."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Zanes",
+      "mention_texts": [
+        "Zanes"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Named as the spouse of Paulus Czeph appointing a proxy."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jan Senior",
+      "mention_texts": [
+        "Janum Seniorem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum",
+        "Scabinum Civitatis Leopoliensis",
+        "suum verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "Plenipotentem",
+        "mandatarium"
+      ],
+      "justification": "Appointed plenipotentiary and proxy, a bench member (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned court of Lviv before which the proxy is authorized to resign the property shares."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Casparo Balcerowiczki Aurifabro genero suo et Honestae Catherinae filiae coniugibus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "Casparo Balcerowiczki Aurifabro genero suo et Honestae Catherinae filiae coniugibus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Paulus Czeph et Zanes coniuges"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Paulus Czeph et Zanes coniuges"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Casparo genero et Catherina filia coniugibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "ab Honesto Joanne Czephowic Aurifabro filio suo"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E7",
+      "evidence": "Paulus Czeph et Zanes coniuges constituerunt et solemniter ordinaverunt in suum verum legitimum indubitatumque Plenipotentem et mandatarium Honoratum Janum Seniorem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "Paulus Czeph et Zanes coniuges constituerunt et solemniter ordinaverunt in suum verum legitimum indubitatumque Plenipotentem et mandatarium Honoratum Janum Seniorem"
+    }
+  ]
+}

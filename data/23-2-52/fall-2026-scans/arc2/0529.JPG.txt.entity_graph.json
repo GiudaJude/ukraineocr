@@ -1,0 +1,166 @@
+{
+  "document_id": "arc2/0529.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [
+        "Civitate istius"
+      ],
+      "justification": "The document records legal actions enacted in Lviv ('Actum Leopoli') and references Lviv citizens."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaus Anserinus",
+        "Stanislao Anserino"
+      ],
+      "descriptive_mentions": [
+        "Foso Domino",
+        "Collegae nostro Consulari Iurauato",
+        "Spectabili emptori"
+      ],
+      "justification": "Identified by name and role as a sworn city councilor purchasing property."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Simon Baur"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "Studiosus",
+        "Filius",
+        "Euictorem"
+      ],
+      "justification": "Known corpus alias for Simon Baur appearing here as the vendor of a share in the house."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Baur",
+      "mention_texts": [
+        "Nicolai Baur"
+      ],
+      "descriptive_mentions": [
+        "Viro Famato",
+        "olim",
+        "Civium Leopoliensium"
+      ],
+      "justification": "Deceased citizen of Lviv, father of Simon Baur."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Regina Szmirowska",
+      "mention_texts": [
+        "Reginae Szmirowska"
+      ],
+      "descriptive_mentions": [
+        "Civium Leopoliensium"
+      ],
+      "justification": "Mother of Simon Baur and citizen of Lviv."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Sosnowskowska House",
+      "mention_texts": [
+        "Sosnowskowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Masonry townhouse in Kraków Street whose portion is being sold."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0031: Kraków Street",
+      "mention_texts": [
+        "platea Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where the Sosnowskowska house is located."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Kraków Gate",
+      "mention_texts": [
+        "portam Cracoviensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City gate near which the property is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Antonius Pelts",
+      "mention_texts": [
+        "Antonij Pelts"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor owning an adjacent house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Baur",
+      "mention_texts": [
+        "Christophoro"
+      ],
+      "descriptive_mentions": [
+        "Fratre suo"
+      ],
+      "justification": "Brother of Simon Baur who retains the other half of the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Simon Baur Studiosus Viro Famato olim Nicolai Baur ... Filius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simon Baur Studiosus Viro Famato olim Nicolai Baur et Reginae Szmirowska Civium Leopoliensium Filius"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "olim Nicolai Baur et Reginae Szmirowska Civium Leopoliensium"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Fratre suo Christophoro"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in domo lapidea Sosnowskowska qua in Civitate istius platea Cracoviensi"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "qua in Civitate istius platea Cracoviensi"
+    }
+  ]
+}

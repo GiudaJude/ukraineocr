@@ -1,0 +1,183 @@
+{
+  "document_id": "arc2/0442.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0006: Andreas Szambor",
+      "mention_texts": [
+        "Andreas Dambrowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Generosus Dominus",
+        "collega noster Consularis"
+      ],
+      "justification": "City council member appointing a plenipotentiary against Thomas Organista."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Sambor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town of origin of Andreas Dambrowski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0048: Jacobus Domaszewski",
+      "mention_texts": [
+        "Jacobum Domazerski"
+      ],
+      "descriptive_mentions": [
+        "Dominum",
+        "absentem tanquam praesentem",
+        "suum verum legitimum indubitatumque plenipotentem et mandatarium",
+        "Plenipotenti suo",
+        "praefatus suus plenipotens"
+      ],
+      "justification": "Appointed plenipotentiary for Andreas Dambrowski."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Thomas Organista",
+      "mention_texts": [
+        "Thomam Organistam"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Iaroslauiensem",
+        "eundem Thomam Organistam",
+        "debitorem",
+        "eundem"
+      ],
+      "justification": "Debtor and citizen of Jarosław sued by Andreas Dambrowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0317: LOC-0005: Jarosław",
+      "mention_texts": [
+        "Iaroslauiensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town where Thomas Organista is a citizen."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officij Aduocatialis Iuorati"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial court whose decrees are cited regarding the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0116: Stanislaus",
+      "mention_texts": [
+        "Stanislaus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Notarial signature at the conclusion of the entry."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam"
+      ],
+      "descriptive_mentions": [
+        "nostram"
+      ],
+      "justification": "Council residence where the parties appear and of which Andreas is a member."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Mientarz alias Głoskowic",
+      "mention_texts": [
+        "Nicolaus Mientarz alias Gloskowic",
+        "Nicolaus Gloskowitski"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Person appearing before the council residence together with Ewa Dunajonczanka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Ewa Dunajonczanka",
+      "mention_texts": [
+        "Ewa Dunaionczanka"
+      ],
+      "descriptive_mentions": [
+        "Honesta"
+      ],
+      "justification": "Woman appearing before the council residence with Nicolaus Głoskowicki."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E3",
+      "evidence": "fecit constituit ac solemniter ordinavit in suum verum legitimum indubitatumque plenipotentem et mandatarium Dominum Jacobum Domazerski"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "legal_action_against",
+      "tail_entity_id": "E4",
+      "evidence": "in causa et actione contra Famatum Thomam Organistam Civem Iaroslauiensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "debtor_to",
+      "tail_entity_id": "E1",
+      "evidence": "occore certi debiti per eundem Thomam Organistam sibi confacti"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "member_of",
+      "tail_entity_id": "E8",
+      "evidence": "collega noster Consularis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "origin",
+      "tail_entity_id": "E2",
+      "evidence": "Andreas Dambrowski de Sambor"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E5",
+      "evidence": "Civem Iaroslauiensem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "appeared_before",
+      "tail_entity_id": "E8",
+      "evidence": "Ad nostram Consularem residentiam veniens personaliter Famati et Honesta Nicolaus Gloskowitski"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "appeared_before",
+      "tail_entity_id": "E8",
+      "evidence": "Ad nostram Consularem residentiam veniens personaliter Famati et Honesta Nicolaus Gloskowitski cum Ewa Dunaionczanka"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "associated_with",
+      "tail_entity_id": "E10",
+      "evidence": "Nicolaus Gloskowitski cum Ewa Dunaionczanka"
+    }
+  ]
+}

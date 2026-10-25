@@ -1,0 +1,181 @@
+{
+  "document_id": "arc2/0090.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned as civic affiliation: Suburbanus Leopoliensis, Civem Leopoliensem, Civis Leopoliensis."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0371: Albertus Calceator",
+      "mention_texts": [
+        "Albertus Calceator"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Subur-banus Leopoliensis"
+      ],
+      "justification": "Appears before the court acknowledging receipt of satisfaction."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "currency",
+      "canonical_name": "42 florins",
+      "mention_texts": [
+        "Florenos quadraginta duabus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt paid and quitclaimed."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Simon Sas Gladiator",
+      "mention_texts": [
+        "Simonem Sas Gladi-atorem"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Original party/debtor associated with the encumbered property in the Halych suburb."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "LOC-0012: Halych Suburb",
+      "mention_texts": [
+        "Suburbio Haliciensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location of the house where the dwelling was encumbered."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gładysz",
+      "mention_texts": [
+        "Stanislai Gładysz",
+        "Stanislao Gładysz",
+        "Stanislaus Gładysz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopoliensi",
+        "eundem",
+        "eidem",
+        "satisfactori",
+        "Honestus",
+        "Sub-urbanus Leopoliensis",
+        "se"
+      ],
+      "justification": "Suburbian of Lviv who satisfies the debt in entry 93 and acknowledges a loan in entry 94."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Szulc",
+      "mention_texts": [
+        "Andreas Szulc"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Mentioned in the rubric of entry 94 as creditor of Stanislaus Gładysz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0013: 10 florins",
+      "mention_texts": [
+        "Florenos decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of money Stanislaus Gładysz acknowledges owing."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Adamus Haberman",
+      "mention_texts": [
+        "Adamus Haberman"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "se"
+      ],
+      "justification": "Lviv citizen who confesses having received a deposit of 40 florins."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "40 florins",
+      "mention_texts": [
+        "Florenos quadraginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount received as deposit by Adamus Haberman."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Sophia Stanisławna",
+      "mention_texts": [
+        "Zophia Stanisławna",
+        "Sophia Stanisławna"
+      ],
+      "descriptive_mentions": [
+        "Pudica et Honesta",
+        "virgine",
+        "eidem",
+        "ipsi Sophiae"
+      ],
+      "justification": "Virgin who deposited 40 florins with Adamus Haberman."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Honestus Albertus Calceator Subur-banus Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Simonem Sas Gladi-atorem Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E1",
+      "evidence": "Stanislao Gładysz Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "debtor_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Szulc Stanislai Gładysz 94. Comparens personaliter Honestus Stanislaus Gładysz... se debere et teneri"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Famatus Adamus Haberman Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "debtor_of",
+      "tail_entity_id": "E11",
+      "evidence": "Adamus Haberman... se recepisse et in effectu levasse ad manus suas Florenos quadraginta... a Pudica et Honesta Sophia Stanisławna... debere et teneri fatetur"
+    }
+  ]
+}

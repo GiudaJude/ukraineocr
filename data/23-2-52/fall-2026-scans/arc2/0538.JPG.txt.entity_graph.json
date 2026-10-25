@@ -1,0 +1,139 @@
+{
+  "document_id": "arc2/0538.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "Identifies the city of Lviv and its suburb where the transactions and court act take place."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Wolaisko",
+      "mention_texts": [
+        "Zon-ze Wolaisko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location in the Lviv suburb where the garden is situated."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Kwasny",
+      "mention_texts": [
+        "Nicolai Kwasny"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjacent landholder mentioned in the property boundary description."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Szczebinski",
+      "mention_texts": [
+        "Szczebinski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjacent landholder mentioned in the property boundary description."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheam",
+        "Rytam Dorotheam"
+      ],
+      "descriptive_mentions": [
+        "coniugis sua praefata",
+        "coniugemque suam praefatam",
+        "coniugemque suam"
+      ],
+      "justification": "Wife of the seller who inherited the garden from her parents."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Tabernator",
+      "mention_texts": [
+        "Grezonymum"
+      ],
+      "descriptive_mentions": [
+        "Tabernatorem",
+        "coniuges emptores",
+        "emptores",
+        "Emptoribus",
+        "Emptores"
+      ],
+      "justification": "Buyer of the garden along with his wife Catherina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Cathearinam"
+      ],
+      "descriptive_mentions": [
+        "coniuges emptores",
+        "emptores",
+        "Emptoribus",
+        "Emptores"
+      ],
+      "justification": "Wife of Hieronymus and co-purchaser of the property."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Bannito Exposito Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court before which resignation of the property is delegated to take place."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Formula referencing the entry date registered above in the record book."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "140 florins",
+      "mention_texts": [
+        "Floris Centum et Quadraginta Floris",
+        "Centum et Quadraginta Floris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sale price paid for the garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "super praetactos Grezonymum Tabernatorem et Cathearinam coniuges emptores"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "super praetactos Grezonymum Tabernatorem et Cathearinam coniuges emptores"
+    }
+  ]
+}

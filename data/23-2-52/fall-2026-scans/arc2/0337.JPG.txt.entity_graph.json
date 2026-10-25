@@ -1,0 +1,121 @@
+{
+  "document_id": "arc2/0337.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi",
+        "Officium praesens"
+      ],
+      "descriptive_mentions": [
+        "Officio Domini Proconsulis",
+        "Officio suo"
+      ],
+      "justification": "The municipal consular office / court of Lviv where the proceedings take place and the appeal is lodged."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szorc",
+      "mention_texts": [
+        "Stanislaus Szorc"
+      ],
+      "descriptive_mentions": [
+        "Plenipotens"
+      ],
+      "justification": "Appears in person before the council as the plenipotentiary of Sebald Schniter."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sebaldus Schniter",
+      "mention_texts": [
+        "Sebaldi Schniter"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis et Merca-\ntoris Gedanensis",
+        "actorem"
+      ],
+      "justification": "Citizen and merchant of Gdańsk, the plaintiff represented by Stanislaus Szorc."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Sebaldus Schniter is a citizen and merchant."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Nachman Szawrowicz",
+      "mention_texts": [
+        "Nachma-\nnum Szawrowicz"
+      ],
+      "descriptive_mentions": [
+        "perfidum",
+        "Judaeum Leopoliensem",
+        "citatum"
+      ],
+      "justification": "Jewish inhabitant of Lviv summoned as defendant in the case."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv, referenced in the council title and the defendant's origin."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0011: Caspar Przedzucki",
+      "mention_texts": [
+        "Caspar Przewdziewski"
+      ],
+      "descriptive_mentions": [
+        "spectabilis Dominus",
+        "Proconsulis\nvicarius"
+      ],
+      "justification": "Deputy proconsul delivering the report on the case heard before the proconsul."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislaus Szorc Plenipotens Famati Sebaldi Schniter"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Sebaldi Schniter Civis et Merca-\ntoris Gedanensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E6",
+      "evidence": "Nachma-\nnum Szawrowicz Judaeum Leopoliensem"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "member_of",
+      "tail_entity_id": "E1",
+      "evidence": "Caspar Przewdziewski motus interea Proconsulis\nvicarius"
+    }
+  ]
+}

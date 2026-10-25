@@ -1,0 +1,244 @@
+{
+  "document_id": "arc2/0139.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act was recorded and of which the guardians are citizens."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "11 March 1595",
+      "mention_texts": [
+        "Sabbato ante Dominicam Judica Proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry: the Saturday before Judica Sunday in the year 1595."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Petrus Falb",
+      "mention_texts": [
+        "Petri Falb",
+        "Petrum Falb",
+        "Petro Falb"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Artificii aurifabrilis Socium",
+        "praedictorum Pupillorum suorum fratremque",
+        "mandatarium",
+        "mandatario",
+        "mandatario suo"
+      ],
+      "justification": "Goldsmith appointed as proxy to claim the inheritance of his deceased brother Fabian Falb."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Duczna",
+      "mention_texts": [
+        "Petrus Duczna"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Aurifaber",
+        "Cives Leopolienses",
+        "tutores dativi"
+      ],
+      "justification": "Goldsmith and citizen of Lviv acting as court-appointed guardian."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Alonzes Franciscor",
+      "mention_texts": [
+        "Alonzes Franciscor"
+      ],
+      "descriptive_mentions": [
+        "Cives Leopolienses",
+        "tutores dativi"
+      ],
+      "justification": "Citizen of Lviv acting as court-appointed guardian."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Fabianus Falb",
+      "mention_texts": [
+        "Fabiani Falb",
+        "Fabianum Falb"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "fratrem suum",
+        "patrem"
+      ],
+      "justification": "Deceased father of the wards and brother of Petrus Falb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Dusznianka",
+      "mention_texts": [
+        "Dorothea Dusznianka",
+        "Dorotheam"
+      ],
+      "descriptive_mentions": [
+        "parentes illius"
+      ],
+      "justification": "Deceased mother of the wards alongside Fabian Falb."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Krasman",
+      "mention_texts": [
+        "Jacobi Krasman"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Regiomontani Torunensis"
+      ],
+      "justification": "Individual in whose custody the movable inheritance property is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Prussia",
+      "mention_texts": [
+        "Prussiae"
+      ],
+      "descriptive_mentions": [
+        "Civitatibus Prussiae"
+      ],
+      "justification": "Province containing the cities where the estate property is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Dantisco"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Prussia where part of the estate is situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Leolaniet",
+      "mention_texts": [
+        "Leolaniet"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Prussia where part of the estate is situated."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Zanteborg",
+      "mention_texts": [
+        "Zanteborg"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City in Prussia where part of the estate is situated."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Königsberg",
+      "mention_texts": [
+        "Regiomontani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of which Jacobus Krasman is named a citizen."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Toruń",
+      "mention_texts": [
+        "Torunensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of which Jacobus Krasman is named a citizen."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Petrus Duczna Aurifaber et Alonzes Franciscor Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E1",
+      "evidence": "Petrus Duczna Aurifaber et Alonzes Franciscor Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "appointed_proxy",
+      "tail_entity_id": "E3",
+      "evidence": "constituerunt et solemniter ordinaverunt in suum legittimum et mandatum verum legitimum indubitatumque Legitimum et mandatarium Honestum Petrum Falb"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "appointed_proxy",
+      "tail_entity_id": "E3",
+      "evidence": "constituerunt et solemniter ordinaverunt in suum legittimum et mandatum verum legitimum indubitatumque Legitimum et mandatarium Honestum Petrum Falb"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "ad praefatum olim Fabianum Falb fratrem suum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "ad praefatum olim Fabianum Falb fratrem suum / praesentem et Dorotheam patrem post parentes illius"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E13",
+      "evidence": "Jacobi Krasman Civis Regiomontani Torunensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "citizen_of",
+      "tail_entity_id": "E14",
+      "evidence": "Jacobi Krasman Civis Regiomontani Torunensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in Civitatibus Prussiae Dantisco"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in Civitatibus Prussiae Dantisco Leolaniet et Zanteborg"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E9",
+      "evidence": "in Civitatibus Prussiae Dantisco Leolaniet et Zanteborg"
+    }
+  ]
+}

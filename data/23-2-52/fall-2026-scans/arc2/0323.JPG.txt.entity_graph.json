@@ -1,0 +1,177 @@
+{
+  "document_id": "arc2/0323.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium vero Consulare"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office mentioned as hearing testimonies."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Cyrinus alias Nicolaus",
+      "mention_texts": [
+        "Cyrini",
+        "Nicolai"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party at whose instance witnesses testified ('Ad instantiam praefatorum Cyrini aliis Nicolai')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Domasztow",
+      "mention_texts": [
+        "Joannis Domasztow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party mentioned alongside Cyrinus alias Nicolaus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zając",
+      "mention_texts": [
+        "Mathias Zaiac",
+        "Mathias Zaiącz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "kerszner",
+        "Coniuges Suburbani Leopolitani"
+      ],
+      "justification": "Seller of the land parcel; furrier ('kerszner') and suburban burgher."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "Coniuges Suburbani Leopolitani"
+      ],
+      "justification": "Wife of Mathias Zając who co-sells the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitani",
+        "Leopolitano"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, referenced in the suburb resident designations ('Suburbani Leopolitani')."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Szczeka",
+      "mention_texts": [
+        "Szezeki"
+      ],
+      "descriptive_mentions": [
+        "olim Sellatoris"
+      ],
+      "justification": "Former saddler whose neighboring house is referenced in the property boundary description."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "platea Syulorum",
+      "mention_texts": [
+        "platea Syulorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street where the sold land plot is situated."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simon Kozal",
+        "Simoni Kozal"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopolitano",
+        "eiusdem domus Podkavorski certarum sortium possessori"
+      ],
+      "justification": "Buyer of the land parcel; Lviv suburb resident."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Podkaworska House",
+      "mention_texts": [
+        "Podkavorski"
+      ],
+      "descriptive_mentions": [
+        "domus"
+      ],
+      "justification": "House in which Simon Kozal holds property shares ('certarum sortium possessori')."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0062: 60 Polish florins",
+      "mention_texts": [
+        "Sexaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase price for the plot of land."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honestus Mathias Zaiącz kerszner et Regina Coniuges"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E9",
+      "evidence": "Mathias Zaiącz kerszner et Regina Coniuges ... recognoverunt se perpetuo et irrevocabili venditionis titulo vendidisse ... Simoni Kozal"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E9",
+      "evidence": "Mathias Zaiącz kerszner et Regina Coniuges ... recognoverunt se perpetuo et irrevocabili venditionis titulo vendidisse ... Simoni Kozal"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Mathias Zaiącz kerszner et Regina Coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Mathias Zaiącz kerszner et Regina Coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simoni Kozal Suburbano Leopolitano"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "owner_of",
+      "tail_entity_id": "E10",
+      "evidence": "Simoni Kozal Suburbano Leopolitano et eiusdem domus Podkavorski certarum sortium possessori"
+    }
+  ]
+}

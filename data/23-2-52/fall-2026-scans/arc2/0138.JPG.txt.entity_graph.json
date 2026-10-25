@@ -1,0 +1,193 @@
+{
+  "document_id": "arc2/0138.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "128 florins",
+      "mention_texts": [
+        "Florenos centum viginti octo",
+        "Florenos centum et viginti octo"
+      ],
+      "descriptive_mentions": [
+        "rata quinta",
+        "rata octava",
+        "debiti"
+      ],
+      "justification": "Text specifies installments of debt: 'Florenos centum viginti octo'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "iisdem Actis",
+        "Actis nostris Consularibus"
+      ],
+      "descriptive_mentions": [
+        "Actis"
+      ],
+      "justification": "Reference to the municipal council books of Lviv ('Actis nostris Consularibus')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "Friday after Reminiscere Sunday 1590",
+      "mention_texts": [
+        "feria sexta post Dominicam Reminiscere proxima Anno Domini 15 nonagesimo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the contracted debt."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Lazar Luczewicz",
+      "mention_texts": [
+        "Laszoro Luczeuicz"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Mercatore",
+        "Cive Leopoliensi",
+        "eundem satiffactorem"
+      ],
+      "justification": "Debtor identified as 'Honesto Laszoro Luczeuicz Mercatore Cive Leopoliensi'."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the citizenship designations."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Adam",
+      "mention_texts": [
+        "Bartholomeus Adam"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Mercator Leopoliensis",
+        "ille"
+      ],
+      "justification": "Principal granting power of attorney: 'Famatus Bartholomeus Adam Civis et Mercator Leopoliensis'."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Saidlicz",
+      "mention_texts": [
+        "Joanni Saidlicz",
+        "Szadlic"
+      ],
+      "descriptive_mentions": [
+        "verum legitimum indubitatumque Plenipotentem et mandatarium",
+        "Consulem Thoruniensem",
+        "Spectabili Plenipotenti suo"
+      ],
+      "justification": "Attorney appointed: 'Joanni Saidlicz' / 'famosum Szadlic Consulem Thoruniensem'."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Toruń",
+      "mention_texts": [
+        "Thoruniensem",
+        "Civitate Thoruniensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the consul resides and where the boat is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Vistula River",
+      "mention_texts": [
+        "Vistulae"
+      ],
+      "descriptive_mentions": [
+        "fluvio"
+      ],
+      "justification": "River on which the boat is situated: 'in fluvio Vistulae'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Baier",
+      "mention_texts": [
+        "Stanislao Baier",
+        "Stanislaus Baier"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Civi Gedanensi"
+      ],
+      "justification": "Buyer of the boat: 'Honesto Stanislao Baier Civi Gedanensi'."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Gdańsk associated with Stanislaus Baier."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "Tuesday after Trinity Sunday 1593",
+      "mention_texts": [
+        "feria tertia post Dominicam Factus sime Trinitatis proxima Anno Domini 159 tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous council act recording the conditional sale."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Honesto Laszoro Luczeuicz Mercatore Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E5",
+      "evidence": "Bartholomeus Adam Civis et Mercator Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Szadlic Consulem Thoruniensem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Stanislao Baier Civi Gedanensi"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "appointed_agent",
+      "tail_entity_id": "E7",
+      "evidence": "constituit et solemniter ordinavit in suum verum legitimum indubitatumque Plenipotentem et mandatarium Folem Praxin famosum Szadlic Consulem Thoruniensem"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sold_to",
+      "tail_entity_id": "E10",
+      "evidence": "scapham ille vendiderat Honesto Stanislao Baier Civi Gedanensi"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "document_id": "arc2/0558.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnes",
+        "Agnetem"
+      ],
+      "descriptive_mentions": [
+        "uxor sua",
+        "consortem suam",
+        "coniugis suae"
+      ],
+      "justification": "Agnes is mentioned as the wife of Paulus Szop holding marital property rights in the sold house and garden."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastianus Baran",
+        "Sebastianus Baran",
+        "Sebastianus Baran"
+      ],
+      "descriptive_mentions": [
+        "emptorem",
+        "Emptor",
+        "Emptoris",
+        "Honestus",
+        "Pileator Suburbanus Leopoliensis"
+      ],
+      "justification": "Sebastianus Baran is the buyer (emptor), a hatmaker residing in the Lviv suburbs, known in the corpus under PER-0124."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Pauli",
+        "Paulus Szop",
+        "Paulus",
+        "Paulus Szop"
+      ],
+      "descriptive_mentions": [
+        "venditor"
+      ],
+      "justification": "Paulus Szop (Czop) is the vendor of the property and husband of Agnes, identified with PER-0525."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos Centum",
+        "Centum Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 100 florins retained by the buyer until the vendor's wife confirms the transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Feast of Saint Adalbert",
+      "mention_texts": [
+        "Festum Sancti Adalberti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The feast day appointed for the first payment installment."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which the legal resignation (transfer) of the house and garden is to take place."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "eisdem actis",
+        "officio"
+      ],
+      "justification": "The municipal council/chancellery office where the agreement is recognized and registered."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis istius Leopoliensis",
+        "Leopoliensis",
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, where the property is located and the act is performed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Agnes uxor sua ... praedictus Paulus Szop memoratam Agnetem consortem suam"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "transacted_with",
+      "tail_entity_id": "E3",
+      "evidence": "praedictus Sebastianus Baran Emptor Florenos Centum circa se reliquit iuxta recognitionem eiusdem Pauli ... idem Paulus venditor"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "resides_in",
+      "tail_entity_id": "E8",
+      "evidence": "Honestus Sebastianus Baran Pileator Suburbanus Leopoliensis"
+    }
+  ]
+}

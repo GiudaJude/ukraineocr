@@ -1,0 +1,202 @@
+{
+  "document_id": "arc2/0333.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0021: 40 Polish florins",
+      "mention_texts": [
+        "quadraginta florenorum pecuniae et monetae Polonicae",
+        "quadraginta Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of debt transferred between parties, cited as forty Polish florins."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Ferri fabrum"
+      ],
+      "justification": "Debtor identified as a blacksmith (ferrifaber)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Jaslowerski",
+      "mention_texts": [
+        "Sebastiano Jaslowerski"
+      ],
+      "descriptive_mentions": [
+        "praedicto",
+        "marito suo",
+        "viri"
+      ],
+      "justification": "Deceased husband of the party ceding the legal claim."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis Consularibus",
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [
+        "ijsdem Actis Consularibus",
+        "ijsdem Actis nostris"
+      ],
+      "justification": "Municipal council records where previous inscriptions and testaments were recorded."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "1584",
+      "mention_texts": [
+        "Sabbato post Festum Decollationis Sancti Joannis Baptistae proximo Anno Domini 1584"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier consular registration."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Andrzejowska House",
+      "mention_texts": [
+        "domus Andrzejowszka"
+      ],
+      "descriptive_mentions": [
+        "certis habitationibus domus Andrzejowszka"
+      ],
+      "justification": "House located outside the Halych Gate mortgaged for the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Halych Gate",
+      "mention_texts": [
+        "portam Haliciensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City gate landmark specifying the location of the house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Joachim Bajzel",
+      "mention_texts": [
+        "Joachimi Bajzel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property owner."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "1590",
+      "mention_texts": [
+        "feria quarta post Festum Sanctissimae Trinitatis proxima Anno Domini 1590"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the testament recorded in the council books."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Thomas Calceator",
+      "mention_texts": [
+        "Thomas Calceatori",
+        "Thomae Calceatoris"
+      ],
+      "descriptive_mentions": [
+        "suburbano Leopoliensi",
+        "eodem",
+        "praedicti"
+      ],
+      "justification": "Shoemaker from the Lviv suburb acquiring the transferred property claim."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Jaszczorowska House",
+      "mention_texts": [
+        "Jaszczorowska"
+      ],
+      "descriptive_mentions": [
+        "domo praefata Jaszczorowska"
+      ],
+      "justification": "House referred to in relation to the legal claim."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts were executed."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Feria Sexta post Iudica Tria Sanctorum Petri et Pauli Apostolorum Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Entry date of the registration."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Simonis Rurwirtowa",
+      "mention_texts": [
+        "Simonis Rurwirtowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Party involved in the acquittance header."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Martinus Łosowicz",
+      "mention_texts": [
+        "Martinus Losowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Jurator Gdaniensis"
+      ],
+      "justification": "Juror appearing before the court to acknowledge satisfaction of a claim."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gdaniensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of origin or office of juror Martinus Łosowicz."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "located_at",
+      "tail_entity_id": "E7",
+      "evidence": "domus Andrzejowszka ante portam Haliciensem"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "originates_from",
+      "tail_entity_id": "E16",
+      "evidence": "Martinus Losowicz Jurator Gdaniensis"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "document_id": "arc2/0518.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0164: Archbishop of Lviv",
+      "mention_texts": [
+        "Domino Archiepiscopo"
+      ],
+      "descriptive_mentions": [
+        "Illustrissimo et Reverendissimo",
+        "amanti et patrono suo colendissimo",
+        "suique Testamenti nominato Protectori",
+        "sua Illustrissima et Reverendissima Dominatio"
+      ],
+      "justification": "Named as the protector and patron of Sophia Hanliowa's testament."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislaus Anserinus"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Dominus"
+      ],
+      "justification": "Appears in person acknowledging a debt owed to the testatrix Sophia Hanliowa."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0050: Sophia",
+      "mention_texts": [
+        "Dominae Hanliowa",
+        "Sophiae Hanliowa",
+        "Sophia Hanliowa"
+      ],
+      "descriptive_mentions": [
+        "Testatrice",
+        "Civis Leopoliensis",
+        "uxoris suae et praedicti affinis sui consanguineae",
+        "consanguineae"
+      ],
+      "justification": "Testatrix who made bequests and settled debts."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "Society of Jesus",
+      "mention_texts": [
+        "Societatis Jesu"
+      ],
+      "descriptive_mentions": [
+        "Umbilibus Patribus"
+      ],
+      "justification": "Religious order designated as legatee of the debt."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "Florenos trecentos",
+        "Trecentis Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of debt acknowledged by Stanislaus Anserinus."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Sliwkowa"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the section heading regarding the protest of successors."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0003: Simon Leopolita",
+      "mention_texts": [
+        "Simon Leopolita"
+      ],
+      "descriptive_mentions": [
+        "Nobilis Dominus Magister",
+        "Collegae noster Consularis",
+        "tutor naturalis coniugis suae"
+      ],
+      "justification": "Lviv councilor appearing on behalf of his wife to protest the testament."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0019: Zofia",
+      "mention_texts": [
+        "Sophiae Krayzerorowna"
+      ],
+      "descriptive_mentions": [
+        "coniugis suae",
+        "uxori suae"
+      ],
+      "justification": "Wife of Simon Leopolita and legatee of 200 florins."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannis Łukasowicz"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "affinis sui"
+      ],
+      "justification": "In-law of Simon Leopolita, whose wife Anna is also a legatee."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae Krayzerorowna"
+      ],
+      "descriptive_mentions": [
+        "uxori praedicti Joannis Łukasowicz"
+      ],
+      "justification": "Wife of Joannes Łukaszowicz and legatee of 200 florins."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of residence of the testatrix Sophia Hanliowa."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0006: 400 florins",
+      "mention_texts": [
+        "Florenorum quadringentorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total amount bequeathed to Sophia and Anna Krayzerorowna."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos Ducentos",
+        "Florenos item Ducentos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Bequest of 200 florins each to Sophia and Anna."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "nobis",
+        "Collegae noster Consularis"
+      ],
+      "justification": "The municipal council before which the report and protest were recorded."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "coniugis suae Sophiae Krayzerorowna"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "uxori praedicti Joannis Łukasowicz Annae Krayzerorowna"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "in_law_of",
+      "tail_entity_id": "E9",
+      "evidence": "Joannis Łukasowicz affinis sui"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "relative_of",
+      "tail_entity_id": "E8",
+      "evidence": "uxoris suae et praedicti affinis sui consanguineae"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "protector_of",
+      "tail_entity_id": "E3",
+      "evidence": "suique Testamenti nominato Protectori"
+    }
+  ]
+}

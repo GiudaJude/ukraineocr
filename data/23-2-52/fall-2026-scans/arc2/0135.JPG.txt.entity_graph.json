@@ -1,0 +1,165 @@
+{
+  "document_id": "arc2/0135.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Exposito Judicio"
+      ],
+      "descriptive_mentions": [
+        "Banno ac Scabinorum in Exposito Judicio"
+      ],
+      "justification": "Court of the Lviv bench/bann mentioned in the opening legal formula."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Szramik",
+      "mention_texts": [
+        "Christophorus Szramik"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges Suburbani Leopolitani",
+        "ipse pro se",
+        "mariti",
+        "tutorem suum legittimum"
+      ],
+      "justification": "Lviv suburban resident appearing with his wife Hedvigis in both debt and inheritance transactions."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0034: Hedwigis",
+      "mention_texts": [
+        "Heduigis"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolitani",
+        "Heduigis vero"
+      ],
+      "justification": "Wife of Christophorus Szramik appearing before the court."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolitani"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburbs the parties inhabit."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "florenos triginta Polonicales",
+        "triginta florenorum"
+      ],
+      "descriptive_mentions": [
+        "summam praefatam"
+      ],
+      "justification": "Amount of debt owed for the garden."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sztut",
+      "mention_texts": [
+        "Andreas Sztut",
+        "Andreae Sztut"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Muratori",
+        "Creditore suo",
+        "Creditori suo"
+      ],
+      "justification": "Mason and creditor selling a garden to Szramik."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0004: 1596",
+      "mention_texts": [
+        "Anno futuro 1596 sexto vero"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year specified for the repayment due date."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "52 Polish florins",
+      "mention_texts": [
+        "florenis quinquagidente duobus Polonicalibus"
+      ],
+      "descriptive_mentions": [
+        "loco contentationis et satisfactionis"
+      ],
+      "justification": "Settlement amount accepted in the renunciation of inheritance."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Praxeda Szramik",
+      "mention_texts": [
+        "Praxedam",
+        "Halska Szramik"
+      ],
+      "descriptive_mentions": [
+        "Honestam olim",
+        "consortem"
+      ],
+      "justification": "Deceased relative whose estate is renounced."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesti Christophorus Szramik et Heduigis coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Christophorus Szramik et Heduigis coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "inhabitant_of",
+      "tail_entity_id": "E4",
+      "evidence": "Honesti Christophorus Szramik et Heduigis coniuges Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "debtor_of",
+      "tail_entity_id": "E6",
+      "evidence": "recognoverunt: se debere certi liquidique debiti ex causa emptionis Horti restantes contracti florenos triginta Polonicales Honesto Andreae Sztut Muratori"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "debtor_of",
+      "tail_entity_id": "E6",
+      "evidence": "recognoverunt: se debere certi liquidique debiti ex causa emptionis Horti restantes contracti florenos triginta Polonicales Honesto Andreae Sztut Muratori"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "kinsman_of",
+      "tail_entity_id": "E9",
+      "evidence": "renunciant successioni bonorum omnium mobilium et immobilium ad se iure propinquitatis post Honestam olim Praxedam alias Halska Szramik consortem spectanti"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "kinsman_of",
+      "tail_entity_id": "E9",
+      "evidence": "renunciant successioni bonorum omnium mobilium et immobilium ad se iure propinquitatis post Honestam olim Praxedam alias Halska Szramik consortem spectanti"
+    }
+  ]
+}

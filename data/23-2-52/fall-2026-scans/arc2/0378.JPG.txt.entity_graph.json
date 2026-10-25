@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/0378.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "currency",
+      "canonical_name": "14 florins 10 groschen",
+      "mention_texts": [
+        "Florenos quatuordecem et grossos decem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money mentioned in the discharge of debt/inheritance share."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Semonen"
+      ],
+      "descriptive_mentions": [
+        "Famatum D.",
+        "Scabinum Ciuitatis Leopoliensis",
+        "verum legitimumque plenipotentem",
+        "in Judicio Exposito Bannito quandoque celebran praesidentem",
+        "ille"
+      ],
+      "justification": "Appointed legal representative, identified as a bencher (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, where the act was enacted and where Simon is a scabinus."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court in which Simon serves as president/scabinus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "Sabbato 19 die Divisionis Apostolorum Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording of the act."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislaus Diacov",
+        "Stanislaus Dibouicius",
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "Spectabilis et Excellens D.",
+        "Medicinae Doctor",
+        "Collega noster Consularis",
+        "tutor liberorum et bonorum",
+        "Spectabilis D."
+      ],
+      "justification": "Doctor of medicine and councilor depositing his tutelage."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Paulus Ziołkoroski",
+      "mention_texts": [
+        "Pauli cis Ziolkoroski Stanislawowis",
+        "Ziolkoroski"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "praedicti"
+      ],
+      "justification": "Deceased person whose children and estate were under tutelage."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Valerianus Ziołkoroski",
+      "mention_texts": [
+        "Valerianum",
+        "Stanislaum"
+      ],
+      "descriptive_mentions": [
+        "Sabigiosum",
+        "praedicti Ziolkoroski filium",
+        "filium"
+      ],
+      "justification": "Son of late Paulus Ziołkoroski, named Valerian in the religious order and Stanislaus in baptism."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0067: DATE-0013: 1594",
+      "mention_texts": [
+        "feria quarta ante festum Natiuitatis S. Joannis Baptistae proxime Anno Domini 1594",
+        "Anno Domini 1594"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date when the discharge regarding the tutelage was executed."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatum D. Semonen Scabinum Ciuitatis Leopoliensis in Judicio Exposito Bannito quandoque celebran praesidentem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "praedicti Ziolkoroski filium"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "existens tutor liberorum et bonorum Famati olim Pauli cis Ziolkoroski Stanislawowis"
+    }
+  ]
+}

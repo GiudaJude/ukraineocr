@@ -1,0 +1,192 @@
+{
+  "document_id": "arc2/0075.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Margaretha",
+      "mention_texts": [
+        "Margaretha"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuges",
+        "Suburbani Leopolienses",
+        "haec"
+      ],
+      "justification": "Appears as the seller of a plot with house and garden along with her husband."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis",
+        "Civitatis huius"
+      ],
+      "justification": "The city in whose records and jurisdiction the transaction and decree take place."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Trwałów",
+      "mention_texts": [
+        "Trwalow"
+      ],
+      "descriptive_mentions": [
+        "suburbio Trwalow dicto"
+      ],
+      "justification": "Specified as the suburb where the sold property is situated."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Dybiz",
+      "mention_texts": [
+        "Andreae Dybizo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property adjoins the plot being sold."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Koszarnik",
+      "mention_texts": [
+        "Joanni Koszarnik"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "Suburbano Leopoliensi",
+        "emptori"
+      ],
+      "justification": "Buyer of the property located in the Lviv suburb."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "24 Polish florins",
+      "mention_texts": [
+        "viginti quatuor Florenorum Polonicalium et numeri Polonici",
+        "viginti quatuor Florenorum",
+        "Florenos viginti quatuor",
+        "viginti quatuor Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money paid for the property purchase and contested in the subsequent decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium"
+      ],
+      "justification": "The council issuing the decree between the gladiator and the shoemaker."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gladiator",
+      "mention_texts": [
+        "Florentium Stamislaum Gladiatorem",
+        "Stanistlaum"
+      ],
+      "descriptive_mentions": [
+        "actorem",
+        "actor",
+        "Actori",
+        "praedicto Actori",
+        "Actor"
+      ],
+      "justification": "Plaintiff in the council decree regarding inheritance and pawned property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Albertus Calceator",
+      "mention_texts": [
+        "Alberto Calceatore",
+        "Albertum Calceatorem"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "citatum",
+        "citatus",
+        "citato"
+      ],
+      "justification": "Defendant cited in the city council decree."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "5 florins",
+      "mention_texts": [
+        "Florenos quinque"
+      ],
+      "descriptive_mentions": [],
+      "justification": "First installment of rent to be paid according to the decree."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "26 florins",
+      "mention_texts": [
+        "Florenos viginti sex"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum mentioned in the decree to be paid by the guardian."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "50 florins",
+      "mention_texts": [
+        "quinquaginta Florenis",
+        "de quinquaginta Florenis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount in which goods were pledged or mortgaged in the lawsuit."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E5",
+      "evidence": "recognoverunt se vendidisse ... Honesto Joanni Koszarnik Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesta Margaretha coniuges Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesto Joanni Koszarnik Suburbano Leopoliensi"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Civitatis suburbio Trwalow dicto"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "litigates_against",
+      "tail_entity_id": "E9",
+      "evidence": "inter Florentium Stamislaum Gladiatorem actorem, et Honestum Albertum Calceatorem citatum"
+    }
+  ]
+}

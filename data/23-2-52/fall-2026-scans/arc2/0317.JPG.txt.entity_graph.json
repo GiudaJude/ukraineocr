@@ -1,0 +1,198 @@
+{
+  "document_id": "arc2/0317.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the central market square of Lviv where the stone house was located."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identifies the city of Lviv."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Scholz",
+      "mention_texts": [
+        "Stanislaum Scholz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property holder in the Market Square."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Wójtowski",
+      "mention_texts": [
+        "Stanislaum Woytowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring property holder in the Market Square."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "30 May 1592",
+      "mention_texts": [
+        "30. May Anno 159 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous lease contract."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "quinquaginta florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum mentioned for the winter rent."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "Saturday before the Feast of the Nativity of Saint John the Baptist 1595",
+      "mention_texts": [
+        "Sabbato ante Festum Nativitatis Sancti Joannis Baptistae Proximo Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the legal act."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Catherina Długoszowa",
+      "mention_texts": [
+        "Catherina Dlugoszowa",
+        "Catherinae Dlugoszowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "viduae relictae",
+        "praefatae Catherinae"
+      ],
+      "justification": "Widow at whose instance the scabini carried out an official inspection."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Caspar Szczedrzycki",
+      "mention_texts": [
+        "Caspar Szezdrzycki"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Magister",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Juror (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0303: PER-0042: Wolfgang Bernt",
+      "mention_texts": [
+        "Wolphangus Bernth"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Juror (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Thomas Karcz",
+      "mention_texts": [
+        "Thomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Honorati et Famati",
+        "Scabini Jurati Civitatis Leopoliensis"
+      ],
+      "justification": "Juror (scabinus) of Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0017: Matias Sapiha",
+      "mention_texts": [
+        "Mathiae Sapiha"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Lanij Civitatis Leopoliensis"
+      ],
+      "justification": "Butcher and citizen of Lviv present at the act."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Długosz",
+      "mention_texts": [
+        "Stanislai olim Dlugosz",
+        "Dlugosz"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis",
+        "praefati olim"
+      ],
+      "justification": "Deceased citizen of Lviv and husband of Catherina Długoszowa."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Siedmiradzki",
+      "mention_texts": [
+        "Nicolaum Siedmiraczki"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Aurifabrem",
+        "generum suum comparentem et agentem"
+      ],
+      "justification": "Goldsmith appearing on behalf of his mother-in-law Catherina Długoszowa."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "in circulo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "son_in_law_of",
+      "tail_entity_id": "E8",
+      "evidence": "Nicolaum Siedmiraczki Aurifabrem generum suum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "representative_of",
+      "tail_entity_id": "E8",
+      "evidence": "ad instantiam Honestae Catherinae Dlugoszowa ... per Famatum Nicolaum Siedmiraczki Aurifabrem generum suum comparentem et agentem"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Catherinae Dlugoszowa ... Stanislai olim Dlugosz Civis Leopoliensis viduae relictae"
+    }
+  ]
+}

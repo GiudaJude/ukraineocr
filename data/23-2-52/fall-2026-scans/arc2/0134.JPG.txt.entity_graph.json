@@ -1,0 +1,202 @@
+{
+  "document_id": "arc2/0134.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Iwan Serkis",
+      "mention_texts": [
+        "Iwan Serkis"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coloni de maiore Hołoszko",
+        "Fratres",
+        "successo- res",
+        "consuccessoribus"
+      ],
+      "justification": "Named as brother and successor of the late Theodorus Popowicz."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andriuszka azeka",
+      "mention_texts": [
+        "Andriuszka azeka"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coloni de maiore Hołoszko",
+        "Fratres",
+        "successo- res",
+        "consuccessoribus"
+      ],
+      "justification": "Named as brother and successor of the late Theodorus Popowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Hołosko Wielkie",
+      "mention_texts": [
+        "maiore Hołoszko"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Village near Lviv where the peasant brothers are from."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Theodorus Popowicz",
+      "mention_texts": [
+        "Theodori Popowicz Hołoscowscy"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "steriliter de- functi",
+        "praefati sui fratris",
+        "fratris ipsius"
+      ],
+      "justification": "Deceased peasant brother whose movable property is at issue."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Kowalia",
+      "mention_texts": [
+        "Anna Kowalia",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "fratris ipsius vidua",
+        "relicta sua fratria"
+      ],
+      "justification": "Widow of Theodorus Popowicz receiving quietatio from his brothers."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Andreas Schot",
+      "mention_texts": [
+        "Andreas Szot",
+        "Andreas Schot"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "szwanc- kor",
+        "coniuges Suburbani Leopolienses",
+        "maritum tutorem suum legitimum"
+      ],
+      "justification": "Suburban seller of a property lot in entry 144."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Margaretha",
+      "mention_texts": [
+        "Margaretha"
+      ],
+      "descriptive_mentions": [
+        "coniuges Suburbani Leopolienses"
+      ],
+      "justification": "Wife of Andreas Schot participating in the sale."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose suburbanites and court are involved."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Judicio senatusque"
+      ],
+      "justification": "City council court before which the recognitio is made."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Kraśnik",
+      "mention_texts": [
+        "Christophorus Szaynik",
+        "Christophoro Krasnik"
+      ],
+      "descriptive_mentions": [
+        "Fabro Samo Leopoliensi",
+        "coniugi- bus Suburbanis Leopoliensibus"
+      ],
+      "justification": "Blacksmith purchasing the property."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Hedwigis",
+      "mention_texts": [
+        "Hedwigi"
+      ],
+      "descriptive_mentions": [
+        "coniugi- bus Suburbanis Leopoliensibus"
+      ],
+      "justification": "Wife of Christophorus Kraśnik purchasing the lot."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "90 Polish florins",
+      "mention_texts": [
+        "nonaginta florenorum Pecuniae et numeri Polonici"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Purchase price of the property lot."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Iwan Serkis ... Fratres et proinde successo- res Honesti olim Theodori Popowicz Hołoscowscy"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E4",
+      "evidence": "Andriuszka azeka ... Fratres et proinde successo- res Honesti olim Theodori Popowicz Hołoscowscy"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "Iwan Serkis et Andriuszka azeka coloni de maiore Hołoszko Fratres"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Anna fratris ipsius vidua relicta sua fratria"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Andreas Schot szwanc- kor et Margaretha coniuges"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Christophoro Krasnik Fabro Samo Leopoliensi et Hedwigi coniugi- bus"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "document_id": "arc2/0504.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobzoczki",
+      "mention_texts": [
+        "Gregorius Dobzoczki"
+      ],
+      "descriptive_mentions": [
+        "Excellens et Honorati D.",
+        "Iuris Vtriusque Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Named city advocate ordinary who conducted the official property inspection."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Matches corpus entity PER-0014: Andreas Simonowic, serving as sworn bencher."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Wolfgang Bernt",
+      "mention_texts": [
+        "Wolfgangus Berenth"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini iurati Civitatis Leopoliensis"
+      ],
+      "justification": "Matches corpus entity PER-0303: PER-0042: Wolfgang Bernt, serving as sworn bencher."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis",
+        "Leopoliensis",
+        "Civitatis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [
+        "eius Civitatis"
+      ],
+      "justification": "City context matching the corpus canonical Lwów."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Snopek",
+      "mention_texts": [
+        "Stanislai Snopek",
+        "Stanislai Snopek",
+        "Stanislaus Snopek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Pistoris Suburbani Leopoliensis",
+        "praedicti",
+        "idem"
+      ],
+      "justification": "Lviv suburban baker at whose petition the property was appraised."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kwaderkowski seu Snopkowski Plot",
+      "mention_texts": [
+        "fundi Snopekowskij",
+        "fundum Kwaderkowski seu Snopkowski"
+      ],
+      "descriptive_mentions": [
+        "fundum",
+        "eo fundo",
+        "solum fundum praefatum"
+      ],
+      "justification": "Specific landed parcel being officially evaluated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Halych Suburb",
+      "mention_texts": [
+        "Suburbio eius Civitatis Haliciensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio"
+      ],
+      "justification": "Matches corpus entity LOC-0012: Halych Suburb."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zuwsznia",
+      "mention_texts": [
+        "Stanislai Zuwsznia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landowner adjacent to the evaluated property."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Jagnye",
+      "mention_texts": [
+        "Hieronymi Jagnye"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring landowner adjacent to the evaluated property."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "80 Polish florins",
+      "mention_texts": [
+        "Florenos Octaginta"
+      ],
+      "descriptive_mentions": [
+        "pec et numeri Polonici"
+      ],
+      "justification": "Appraised financial value of the land parcel."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "officio",
+        "actis nostris praesentibus",
+        "officio nostro",
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Matches corpus entity ORG-0003: Lviv City Council, which maintained the court acts and appointed the guardians."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Adamus Kalinowski",
+      "mention_texts": [
+        "Adamus Kalinowski"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "Tutores ex officio nostro"
+      ],
+      "justification": "Matches corpus entity PER-0166: Adamus Kalinowski, appointed guardian."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Malik",
+      "mention_texts": [
+        "Nicolaus Malik"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Suburbani Leopolienses",
+        "Tutores ex officio nostro"
+      ],
+      "justification": "Appointed guardian appearing alongside Adamus Kalinowski."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Martinus Zuwsznia",
+      "mention_texts": [
+        "Martini Zuwsznia"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased suburban father of the underage wards."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "Catharina Zuwsznia",
+      "mention_texts": [
+        "Catharinae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum"
+      ],
+      "justification": "Wife of the deceased Martinus Zuwsznia and mother of the wards."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "date",
+      "canonical_name": "1592",
+      "mention_texts": [
+        "feria quarta post die S. Agnetis Virginis Anno Domini 1592"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier recorded court inscription (DATE-0134: 1592)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "has_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Gregorius Dobzoczki Iuris Vtriusque Doctor Advocatus Ordinarius ... Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "has_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Andreas Simonowicz ... Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "has_office_in",
+      "tail_entity_id": "E4",
+      "evidence": "Wolfgangus Berenth Scabini iurati Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resides_in",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislai Snopek Pistoris Suburbani Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "in fundum Kwaderkowski seu Snopkowski hic in Suburbio eius Civitatis Haliciensi dicto"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "located_in",
+      "tail_entity_id": "E4",
+      "evidence": "in Suburbio eius Civitatis Haliciensi"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "resides_in",
+      "tail_entity_id": "E4",
+      "evidence": "Adamus Kalinowski et Nicolaus Malik Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resides_in",
+      "tail_entity_id": "E4",
+      "evidence": "Adamus Kalinowski et Nicolaus Malik Suburbani Leopolienses"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Martini Zuwsznia et Catharinae Coniugum"
+    }
+  ]
+}

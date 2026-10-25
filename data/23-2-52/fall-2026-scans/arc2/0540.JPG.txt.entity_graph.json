@@ -1,0 +1,191 @@
+{
+  "document_id": "arc2/0540.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Urban and juridical center mentioned in the text."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv where the attorney is empowered to act."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "die anno ut supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the legal transaction referenced by back-reference to the top of the folio."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Semirenem"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum Civitatis Leopoliensis",
+        "Plenipotentem et mandatarium",
+        "praefatus suus Plenipotens"
+      ],
+      "justification": "Lviv councilor/scabinus appointed as legal proxy."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anufry Zachurka",
+      "mention_texts": [
+        "Anufry Zachurka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Name recorded at the end/rubric of the transaction."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Anna Rymanianka",
+      "mention_texts": [
+        "Anna Rymanianka"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "ipsa"
+      ],
+      "justification": "Widow resigning her late husband's estate portion to her daughter and son-in-law."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Zacharczyc",
+      "mention_texts": [
+        "Nicolai Zacharczyc",
+        "Nicolaum Zacharczyc"
+      ],
+      "descriptive_mentions": [
+        "olim"
+      ],
+      "justification": "Deceased husband of Anna Rymanianka whose patrimony is ceded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nasio Skrawinkowicz",
+      "mention_texts": [
+        "Nasionem Skrawinkowicz"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "generos suos",
+        "tutores"
+      ],
+      "justification": "Son-in-law and guardian assisting Anna Rymanianka."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Ennos Listrotzem",
+      "mention_texts": [
+        "Ennos Listrotzem"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "generos suos",
+        "tutores"
+      ],
+      "justification": "Son-in-law and guardian assisting Anna Rymanianka."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Hawryło Kosowiarski",
+      "mention_texts": [
+        "Hawrilo Kosowiarzki",
+        "Hawrilo"
+      ],
+      "descriptive_mentions": [
+        "genero",
+        "coniugibus",
+        "generum",
+        "Coniuges"
+      ],
+      "justification": "Son-in-law of Anna Rymanianka receiving the estate portion."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Makryna",
+      "mention_texts": [
+        "Macruzhna",
+        "Macrushna"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "filia",
+        "filiam",
+        "Coniuges"
+      ],
+      "justification": "Daughter of Anna Rymanianka and late Nicolaus Zacharczyc, wife of Hawryło."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Żyzna",
+      "mention_texts": [
+        "Zyznoiey"
+      ],
+      "descriptive_mentions": [
+        "fundi ... dicti",
+        "fundum praedictum",
+        "praefati fundi"
+      ],
+      "justification": "Name of the land plot ceded in the act."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honesta Anna Rymanianka Ick olim Nicolai Zacharczyc vidua relicta"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Hawrilo Kosowiarzki genero et Macruzhna coniugibus"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "Hawrilo Kosowiarzki genero et Macruzhna coniugibus filia"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "pro sorti paterna post suum olim Nicolaum Zacharczyc ... Hawrilo Kosowiarzki genero et Macruzhna coniugibus filia"
+    }
+  ]
+}

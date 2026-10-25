@@ -1,0 +1,238 @@
+{
+  "document_id": "arc2/0016.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Łyczaków",
+      "mention_texts": [
+        "Łyczakow"
+      ],
+      "descriptive_mentions": [
+        "platea Łyczakow"
+      ],
+      "justification": "Street/suburb name identified in the opening fragment."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Piskorzewic",
+      "mention_texts": [
+        "Andream Piskorzewic"
+      ],
+      "descriptive_mentions": [
+        "Suburbanos Leopolienses",
+        "Tutorium"
+      ],
+      "justification": "Appointed guardian mentioned in the opening lines."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Civis Leopoliensis",
+        "Civibus Leopoliensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lwów (Leopolis), referenced in civic descriptors throughout."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastianus Karszowic",
+        "Karszowicowie"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "successores legitimi et filii Famati olim Alberti Karsz Civis Leopoliensis"
+      ],
+      "justification": "Seller of the stone house, son of Albertus Karsz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Mathias Karszowic",
+      "mention_texts": [
+        "Mathias",
+        "Karszowicowie"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fretermann",
+        "successores legitimi et filii Famati olim Alberti Karsz Civis Leopoliensis"
+      ],
+      "justification": "Brother of Sebastianus Karszowic and co-seller."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Simon Karszowic",
+      "mention_texts": [
+        "Simon",
+        "Karszowicowie"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "fretermann",
+        "successores legitimi et filii Famati olim Alberti Karsz Civis Leopoliensis"
+      ],
+      "justification": "Brother of Sebastianus and Mathias Karszowic, co-seller."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Albertus Karsz",
+      "mention_texts": [
+        "Alberti Karsz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "Parentum suorum"
+      ],
+      "justification": "Deceased father of Sebastianus, Mathias, and Simon Karszowic."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Kraków Street",
+      "mention_texts": [
+        "platea Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lwów where the sold property is located."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Zając",
+      "mention_texts": [
+        "Zaiaczek"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "successorum olim Zaiaczek"
+      ],
+      "justification": "Deceased owner whose heirs' property abuts the sold house on one side."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Król",
+      "mention_texts": [
+        "Sebastiani Krol"
+      ],
+      "descriptive_mentions": [
+        "Feronificis"
+      ],
+      "justification": "Neighbor whose house borders the sold house on the other side."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Szaszka",
+      "mention_texts": [
+        "Stanislaus Szaszka",
+        "Szaszki",
+        "Stanislao Szaszka"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Ferrifabro",
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "emptoribus",
+        "emptores"
+      ],
+      "justification": "Blacksmith and burgher of Lwów buying the stone house."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Dorothea Szaszkowa",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus",
+        "Civibus Leopoliensibus",
+        "emptoribus",
+        "emptores"
+      ],
+      "justification": "Wife of Stanislaus Szaszka and co-buyer."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "1300 Polish florins",
+      "mention_texts": [
+        "mille trecentorum florenorum pecuniae et numeri Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Purchase price for the stone house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Andream Piskorzewic Suburbanos Leopolienses"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Sebastianus Karszowic... successores legitimi et filii Famati olim Alberti Karsz"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Mathias et Simon fretermann successores legitimi et filii Famati olim Alberti Karsz"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Mathias et Simon fretermann successores legitimi et filii Famati olim Alberti Karsz"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Famato Stanislao Szaszka Ferrifabro et Dorotheae coniugibus"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Sebastianus Karszowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Alberti Karsz Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Stanislao Szaszka Ferrifabro et Dorotheae coniugibus Civibus Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "vendere domum suam propriam lapideam totam et integram in platea Cracoviensi... Civibus Leopoliensibus"
+    }
+  ]
+}

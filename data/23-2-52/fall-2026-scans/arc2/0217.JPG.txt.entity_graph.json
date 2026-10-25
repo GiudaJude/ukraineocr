@@ -1,0 +1,91 @@
+{
+  "document_id": "arc2/0217.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Civili"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Court before which legal action had previously been instituted."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Andreas Sobek",
+      "mention_texts": [
+        "Andreas Skowret",
+        "Andreas Sobek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses"
+      ],
+      "justification": "Appearing party entering into a contract regarding dwelling spaces."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Petrus Slowek",
+      "mention_texts": [
+        "Petrus Slowek",
+        "Petrum Slowek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Sartor",
+        "Cives Leopolienses",
+        "praedictum"
+      ],
+      "justification": "Appearing party and tailor presenting the contract."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of citizenship for Andreas Sobek and Petrus Slowek."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro"
+      ],
+      "justification": "Municipal office before which the parties appeared to submit their contract."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Kozłowska House",
+      "mention_texts": [
+        "Kozlowska"
+      ],
+      "descriptive_mentions": [
+        "domo lapidea"
+      ],
+      "justification": "Stone house containing the accommodations referenced in the contract."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famati Andreas Sobek et Petrus Slowek Sartor Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Petrus Slowek Sartor Cives Leopolienses"
+    }
+  ]
+}

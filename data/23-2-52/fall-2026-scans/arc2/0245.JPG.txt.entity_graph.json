@@ -1,0 +1,220 @@
+{
+  "document_id": "arc2/0245.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0525: Paulus Cas",
+      "mention_texts": [
+        "Paulo Sberbi-sker"
+      ],
+      "descriptive_mentions": [
+        "Suae Regiae Maiestatis Decretorum Notarius",
+        "Domino"
+      ],
+      "justification": "Paulus Szczerbic (identified in text as royal notary of decrees and recipient of the donation)."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Borzewski",
+      "mention_texts": [
+        "Joannem Borzewsky"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "servitorem suum",
+        "Plenipotenti suo",
+        "Plenipoten-tium"
+      ],
+      "justification": "Servitor and procurator appointed by the royal notary."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Joannes Hernle",
+      "mention_texts": [
+        "Joannis Hernle",
+        "Hernle"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis",
+        "olim Hernle",
+        "olim Famati",
+        "demortuum",
+        "defuncti",
+        "praefato Ramosso"
+      ],
+      "justification": "Deceased burgher of Lviv whose estate is the subject of the decree."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Suae Regiae Maiestatis",
+        "Regiam Maiestatem"
+      ],
+      "justification": "The King of Poland referenced in his official capacity."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Giełczew",
+      "mention_texts": [
+        "Gielczow"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Place where the procuration mandate was issued."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Cracow territory/palatinate where Giełczew is situated."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria sexta ante Festa Sancti Joanni Baptistae proxima Anno Domini 1595to"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the mandate."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopolienses"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referred to in citizenship titles."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "eodem Officio",
+        "Officio eodem",
+        "Factum Officium"
+      ],
+      "justification": "City council office before which the parties appeared."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0043: Fridericus Gallus",
+      "mention_texts": [
+        "Fridericus Galus"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus Juratus",
+        "Cives Leopolienses",
+        "Curatores",
+        "Tutores et Grousores bonorum praedicti olim Famati Hernle"
+      ],
+      "justification": "Lviv bencher acting as curator of Hernle's estate."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0033: Georgius Breski",
+      "mention_texts": [
+        "Georgius Brzeski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Cives Leopolienses",
+        "Curatores",
+        "Tutores et Grousores bonorum praedicti olim Famati Hernle"
+      ],
+      "justification": "Lviv citizen acting as curator of Hernle's estate."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Officium Dominorum Advocati et Scabinorum Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The advocatial/bench office that drew up the inventory."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Blasius Hlatowicz",
+      "mention_texts": [
+        "Blasius Hlatowiez"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Burgher assisting the curators."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "servant_of",
+      "tail_entity_id": "E1",
+      "evidence": "Nobilem Joannem Borzewsky servitorem suum, Dans et concedens eidem Plenipotenti suo"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Famati olim Joannis Hernle Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Fridericus Galus Scabinus Juratus et Famatus Georgius Brzeski Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Fridericus Galus Scabinus Juratus et Famatus Georgius Brzeski Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Fridericus Galus Scabinus Juratus et Famatus Georgius Brzeski Cives Leopolienses praedicti olim Hernle Curatores Tutores et Grousores bonorum praedicti olim Famati Hernle"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E3",
+      "evidence": "Fridericus Galus Scabinus Juratus et Famatus Georgius Brzeski Cives Leopolienses praedicti olim Hernle Curatores Tutores et Grousores bonorum praedicti olim Famati Hernle"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Famatus Blasius Hlatowiez Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "located_in",
+      "tail_entity_id": "E6",
+      "evidence": "in Gielczow in Cracoviensi"
+    }
+  ]
+}

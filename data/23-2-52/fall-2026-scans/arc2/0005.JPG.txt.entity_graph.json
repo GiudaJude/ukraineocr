@@ -1,0 +1,142 @@
+{
+  "document_id": "arc2/0005.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Civitatis Leopoliensis",
+        "Cives Leopolienses",
+        "Civis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the act took place and citizenship affiliation of the participants."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "feria secunda post festum Circumcisionis Domini proxima Anno Domini Millesimo Quingentesimo nonagesimo quinto"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording the testament in the act books."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Balcertowic",
+      "mention_texts": [
+        "Jacobi Balcertowic",
+        "Jacobus Balcertowic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "olim",
+        "Doliator",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased testator whose last will is being presented."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowic"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus Civitatis Leopoliensis",
+        "locum Ordinarii Advocati Leopoli sub tempore pestifero proxime praeterito tenens"
+      ],
+      "justification": "Lviv bench alderman serving as acting town advocate during the plague."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Mozanc",
+      "mention_texts": [
+        "Christopherus Mozanc"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses",
+        "in locum Scabinorum pro tempore illo pestifero absentium assumpti"
+      ],
+      "justification": "Burgher co-opted to act in place of absent aldermen during the plague."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bartholomeus Strachet",
+      "mention_texts": [
+        "Bartholomeus Strach"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses",
+        "in locum Scabinorum pro tempore illo pestifero absentium assumpti"
+      ],
+      "justification": "Burgher co-opted to act in place of absent aldermen."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Matias Sapiha",
+      "mention_texts": [
+        "Matias Sapiha"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives Leopolienses",
+        "in locum Scabinorum pro tempore illo pestifero absentium assumpti"
+      ],
+      "justification": "Burgher co-opted to act in place of absent aldermen."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio nostro"
+      ],
+      "justification": "Municipal office before which the declaration and testament are entered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "held_office_in",
+      "tail_entity_id": "E1",
+      "evidence": "Scabinus Civitatis Leopoliensis locum Ordinarii Advocati Leopoli sub tempore pestifero proxime praeterito tenens"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resided_in",
+      "tail_entity_id": "E1",
+      "evidence": "Jacobus Balcertowic Doliator Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resided_in",
+      "tail_entity_id": "E1",
+      "evidence": "Christopherus Mozanc... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resided_in",
+      "tail_entity_id": "E1",
+      "evidence": "Bartholomeus Strach... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resided_in",
+      "tail_entity_id": "E1",
+      "evidence": "Matias Sapiha Cives Leopolienses"
+    }
+  ]
+}

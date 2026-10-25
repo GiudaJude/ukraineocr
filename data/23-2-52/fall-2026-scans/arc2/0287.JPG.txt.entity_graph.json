@@ -1,0 +1,172 @@
+{
+  "document_id": "arc2/0287.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Stanisław Wolny",
+      "mention_texts": [
+        "Stanislaw Wolny"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header of the legal testimony: 'Testimonium pro Stanislaw Wolny'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Szczęsny Maszkowic",
+      "mention_texts": [
+        "Szczesny Maszkowic",
+        "Szczesny Maszkovic"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis Leopoliensis",
+        "denunciatorem",
+        "inductor",
+        "Praedictus"
+      ],
+      "justification": "Appears before the court as the inducer/denouncer requesting witness testimony."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Schonbek",
+      "mention_texts": [
+        "Stanislaum Schonbek"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem et Mercatorem Leopoliensem",
+        "citatum"
+      ],
+      "justification": "Lviv citizen and merchant against whom the denunciation was made."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City specified in the civic affiliations of the parties."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Cyrinus",
+      "mention_texts": [
+        "Cyrine"
+      ],
+      "descriptive_mentions": [
+        "Famati Civis Jurati"
+      ],
+      "justification": "Sworn citizen on whose report the citation and testimony were made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis praesentibus",
+        "Officio praesenti"
+      ],
+      "justification": "The municipal judicial body before which the parties appeared and registered the acts."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Iwan Maryszowic",
+      "mention_texts": [
+        "Iwanus Maryssowic"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the header of entry 308."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Oleszko Biesiad",
+      "mention_texts": [
+        "Oleszko Biesiad"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "coniuges"
+      ],
+      "justification": "Party selling property together with his wife Maruszna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Maruszna",
+      "mention_texts": [
+        "Marussna",
+        "Marusna"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Wife of Oleszko Biesiad, co-recognizor in the property sale."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Bieloszesza Maior",
+      "mention_texts": [
+        "Qvies Bieloszesza maior"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Locality where the paternal and maternal portion of the estate was situated."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dawidowicz",
+      "mention_texts": [
+        "Joannem Dawidowicz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in connection with the division or bounds of the property."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "24 florins",
+      "mention_texts": [
+        "Florenos viginti quatuor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Partial amount paid towards the purchase price."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatus Szczesny Maszkowic Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatum Stanislaum Schonbek Civem et Mercatorem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "litigates_against",
+      "tail_entity_id": "E3",
+      "evidence": "Famatus Szczesny Maszkowic Civis Leopoliensis denunciatorem fecit contra Famatum Stanislaum Schonbek"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Honestus Oleszko Biesiad et Marussna coniuges"
+    }
+  ]
+}

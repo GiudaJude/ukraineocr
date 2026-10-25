@@ -1,0 +1,217 @@
+{
+  "document_id": "arc2/0264.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0113: Stanislaus Slachetka",
+      "mention_texts": [
+        "Stanislai Szlacheczka",
+        "Stanislao Szlacheczka"
+      ],
+      "descriptive_mentions": [
+        "Serrifabro Cive Leopoliensi",
+        "Famato",
+        "eundem"
+      ],
+      "justification": "Identified by name and trade as blacksmith and citizen of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0124: Sebastianus Karszowic",
+      "mention_texts": [
+        "Sebastiamus Kanczewicz"
+      ],
+      "descriptive_mentions": [
+        "Famati"
+      ],
+      "justification": "Appears representing himself and his brother in the quietatio."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Agnes Kidzic Kanczewicz",
+      "mention_texts": [
+        "Agnetis Kidzic Kanczewicz"
+      ],
+      "descriptive_mentions": [
+        "fratris sui senioris"
+      ],
+      "justification": "Older brother mentioned as being represented by Sebastianus Kanczewicz."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Melchior Osmolski",
+      "mention_texts": [
+        "Melchior Osmolski"
+      ],
+      "descriptive_mentions": [
+        "Funifex",
+        "Plenipotens"
+      ],
+      "justification": "Ropemaker acting as plenipotentiary for Simon Kanczewicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonis Kanczewicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "artificij Pellionum socii"
+      ],
+      "justification": "Furrier guild associate represented by Melchior Osmolski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentorum florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [
+        "summa",
+        "rata scilicet prima debiti officialis"
+      ],
+      "justification": "The payment amount being receipted."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis iisdem",
+        "Officij Consularis",
+        "Officij"
+      ],
+      "descriptive_mentions": [
+        "Decretum Officij"
+      ],
+      "justification": "The municipal council whose books and decrees are cited."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensi",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned as place of action and citizenship."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "DATE-0001: 1595",
+      "mention_texts": [
+        "feria secunda post festum Sanctissimi Corporis Christi proxima Anno Domini 1595",
+        "Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of entry 285."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Albertus Staffinski",
+      "mention_texts": [
+        "Albertum Staffinski"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Subcenturianum",
+        "Actorum",
+        "Actor",
+        "Actor modernus"
+      ],
+      "justification": "Noble subcenturion bringing a suit against Iwan Bildaha."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Iwan Bildaha",
+      "mention_texts": [
+        "Iwano Bildaha",
+        "Iwanum Bildaha",
+        "Bildaha",
+        "Iwan Bildaha"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Civem Leopoliensem",
+        "citatum",
+        "citati",
+        "praefatus Iwan Bildaha"
+      ],
+      "justification": "Lviv citizen cited in the decree."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "date",
+      "canonical_name": "DATE-0007: 1593",
+      "mention_texts": [
+        "sabbato ante Dominicam Palmarum Anno 1595 Tertio",
+        "Anno 1595 Tertio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Reference to the decree issued two years prior on Palm Saturday 1593."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0016: 30 florins",
+      "mention_texts": [
+        "florenos triginta Polonicales",
+        "triginta florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of 30 florins cited in the decree and quietatio."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Simon Kindt",
+      "mention_texts": [
+        "Simonis Kindt",
+        "Simone Kindt"
+      ],
+      "descriptive_mentions": [
+        "Fideiussores",
+        "Fideiussore"
+      ],
+      "justification": "Guarantor mentioned in connection with Iwan Bildaha's quietatio."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Sebastiamus Kanczewicz suo et Agnetis Kidzic Kanczewicz fratris sui senioris nomine"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "Melchior Osmolski Funifex Plenipotens Honesti Simonis Kanczewicz"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislao Szlacheczka Serrifabro Cive Leopoliensi"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "resident_of",
+      "tail_entity_id": "E8",
+      "evidence": "Iwanum Bildaha Civem Leopoliensem citatum"
+    }
+  ]
+}

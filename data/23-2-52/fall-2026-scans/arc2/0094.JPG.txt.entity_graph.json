@@ -1,0 +1,120 @@
+{
+  "document_id": "arc2/0094.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Ziolowski",
+      "mention_texts": [
+        "Jacobus Ziolowski"
+      ],
+      "descriptive_mentions": [
+        "Honoratus Dominus",
+        "Advocatus Ordinarius",
+        "praedicti Honorati"
+      ],
+      "justification": "The Ordinary Advocate appearing in the acts to make a legal relation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0080: Barbara Stegmeyrowa",
+      "mention_texts": [
+        "Stegniewowa",
+        "Barbara Stegniewowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Civis Leopoliensis",
+        "eadem"
+      ],
+      "justification": "A female citizen of Lviv at whose instance the advocate's relation was made and recorded."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoli"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv, mentioned as the jurisdiction and residence of the parties."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officii Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Actis praesentibus"
+      ],
+      "justification": "The consular governing office and court of Lviv issuing decrees and maintaining the act books."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "date",
+      "canonical_name": "Wednesday after Reminiscere Sunday 1595",
+      "mention_texts": [
+        "feria quarta post Dominicam Reminiscere proxima Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The date on which the relation of Jacobus Ziolowski was recorded."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Sigismundus Kormonczki",
+      "mention_texts": [
+        "Sigismundo Furmanek",
+        "Sigismundum Kormonczki"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "actorem"
+      ],
+      "justification": "Noble citizen of Lviv and plaintiff in the consular decree regarding house rental."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Joannes Porithko",
+      "mention_texts": [
+        "Joannem Porithko"
+      ],
+      "descriptive_mentions": [
+        "Honestum"
+      ],
+      "justification": "The party summoned concerning the lease of the house."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Molendinator",
+      "mention_texts": [
+        "Nicolai Moledinator"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "olim"
+      ],
+      "justification": "The deceased individual whose house is the subject of the lease dispute."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestae Barbara Stegniewowa Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Nobilem Sigismundum Kormonczki itidem Civitatis Leopoliensis"
+    }
+  ]
+}

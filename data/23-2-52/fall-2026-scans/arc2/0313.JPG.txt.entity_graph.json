@@ -1,0 +1,333 @@
+{
+  "document_id": "arc2/0313.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam"
+      ],
+      "descriptive_mentions": [
+        "nostram"
+      ],
+      "justification": "City council identified by consular residence mentioned at the opening of the legal entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Scholtz",
+      "mention_texts": [
+        "Jacobus Scholtz"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Scabinus",
+        "idem praefatus",
+        "praefatus Honestus"
+      ],
+      "justification": "Alderman appearing personally to record the property division."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Vassili Gelatinowicz",
+      "mention_texts": [
+        "Vassili Gelatinowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Cives ambo Leopolienses"
+      ],
+      "justification": "Lviv citizen on whose behalf Jacobus Scholtz gives caution."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelatinus",
+      "mention_texts": [
+        "Nicolai Gelatynus"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Cives ambo Leopolienses",
+        "Successores",
+        "haeredes legitimi"
+      ],
+      "justification": "Lviv citizen and son/heir of Nicolaus Gelatinus Senior."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Joannes Gelatinus",
+      "mention_texts": [
+        "Joannis Gelatyni"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Cracoviensis",
+        "Successores",
+        "haeredes legitimi"
+      ],
+      "justification": "Cracow citizen and son/heir of Nicolaus Gelatinus Senior, represented by Jacobus Scholtz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Gelatinus",
+      "mention_texts": [
+        "Stanislaus Gelatinus"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Successores",
+        "haeredes legitimi"
+      ],
+      "justification": "Adult son and heir of Nicolaus Gelatinus Senior."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Andreas Gelatinus",
+      "mention_texts": [
+        "Andreas Gelatinus"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "Successores",
+        "haeredes legitimi"
+      ],
+      "justification": "Minor son and heir of Nicolaus Gelatinus Senior, acting with tutor and curator."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Mierkiowski",
+      "mention_texts": [
+        "Jacobi Mierkiowszki"
+      ],
+      "descriptive_mentions": [
+        "tutoris sui",
+        "Generosi Domini",
+        "collegae nostri Consularis"
+      ],
+      "justification": "City councillor serving as legal tutor to Andreas Gelatinus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Andreas Dombrowski",
+      "mention_texts": [
+        "Andreae Dombrowski"
+      ],
+      "descriptive_mentions": [
+        "curatoris sui",
+        "Nobilis et Generosi"
+      ],
+      "justification": "Curator of the minor Andreas Gelatinus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "LOC-0087: Sambor",
+      "mention_texts": [
+        "Sambor"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town associated with curator Andreas Dombrowski."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Gelatinus Senior",
+      "mention_texts": [
+        "Nicolaum Gelatinum"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "Clarissimum Dominum",
+        "Iuris Utriusque Doctorem",
+        "Consulem Leopoliensem",
+        "parentum suorum"
+      ],
+      "justification": "Deceased Doctor of Both Laws and Lviv councillor whose estate is divided."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Ursula Hantowna",
+      "mention_texts": [
+        "Ursulam Hantowna"
+      ],
+      "descriptive_mentions": [
+        "consortem",
+        "Honestam",
+        "parentum suorum"
+      ],
+      "justification": "Deceased wife of Nicolaus Gelatinus Senior and mother of the heirs."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Gelatinowska House",
+      "mention_texts": [
+        "Gelatinowska"
+      ],
+      "descriptive_mentions": [
+        "domum lapideam"
+      ],
+      "justification": "Masonry townhouse in the Market Square subject to hereditary division."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0170: Market Square",
+      "mention_texts": [
+        "circulo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The main market square of Lviv where the house is situated."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "huius Civitatis"
+      ],
+      "justification": "City of Lviv mentioned in citizenship and council titles."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Scholtz",
+      "mention_texts": [
+        "Stanislai de Scholtz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Owner of neighboring property on one side of Gelatinowska House."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "location",
+      "canonical_name": "Stołowszka House",
+      "mention_texts": [
+        "Hantus Stołowszka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighboring townhouse on the other side of Gelatinowska House."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where Joannes Gelatinus is a burgher."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E11",
+      "relation": "spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "post olim et Clarissimum Dominum Nicolaum Gelatinum Iuris Utriusque Doctorem Consulem Leopoliensem et post eius consortem Honestam Ursulam Hantowna"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Successores et haeredes legitimi post opfem olim et Clarissimum Dominum Nicolaum Gelatinum ... parentum suorum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Successores et haeredes legitimi post ... eius consortem Honestam Ursulam Hantowna ... parentum suorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Successores et haeredes legitimi post opfem olim et Clarissimum Dominum Nicolaum Gelatinum ... parentum suorum"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Successores et haeredes legitimi post ... eius consortem Honestam Ursulam Hantowna ... parentum suorum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Successores et haeredes legitimi post opfem olim et Clarissimum Dominum Nicolaum Gelatinum ... parentum suorum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Successores et haeredes legitimi post ... eius consortem Honestam Ursulam Hantowna ... parentum suorum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E11",
+      "evidence": "Successores et haeredes legitimi post opfem olim et Clarissimum Dominum Nicolaum Gelatinum ... parentum suorum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E12",
+      "evidence": "Successores et haeredes legitimi post ... eius consortem Honestam Ursulam Hantowna ... parentum suorum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "cum assistentia tamen tutoris sui Generosi Domini Jacobi Mierkiowszki"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "curator_of",
+      "tail_entity_id": "E7",
+      "evidence": "de ratihabitione curatoris sui Nobilis et Generosi Andreae Dombrowski"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "located_in",
+      "tail_entity_id": "E14",
+      "evidence": "domum lapideam Gelatinowska in circulo huius Civitatis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "located_in",
+      "tail_entity_id": "E15",
+      "evidence": "in circulo huius Civitatis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E18",
+      "evidence": "Joannis Gelatyni Civis Cracoviensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "citizen_of",
+      "tail_entity_id": "E15",
+      "evidence": "Nicolai Gelatynus Cives ambo Leopolienses"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E15",
+      "evidence": "Vassili Gelatinowicz ... Cives ambo Leopolienses"
+    }
+  ]
+}

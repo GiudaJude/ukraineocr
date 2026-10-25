@@ -1,0 +1,262 @@
+{
+  "document_id": "arc2/0321.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Valachia is mentioned as the place from which Nicolaus was ransomed."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolaium"
+      ],
+      "descriptive_mentions": [
+        "domesticum",
+        "olim"
+      ],
+      "justification": "Identified as a domestic ransomed from Wallachia."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Pantaleon",
+      "mention_texts": [
+        "Pantaleon"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Identified as the father of two sons, including Jacobus, with Theodora."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Theodora",
+      "mention_texts": [
+        "Theodora"
+      ],
+      "descriptive_mentions": [
+        "coniuge"
+      ],
+      "justification": "Named as the wife of Pantaleon."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio"
+      ],
+      "justification": "The municipal council/court before which the testimony and parties appear."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobum"
+      ],
+      "descriptive_mentions": [
+        "alterum vero",
+        "filios"
+      ],
+      "justification": "Named as a son of Pantaleon and Theodora."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Constantinus",
+      "mention_texts": [
+        "Constantinus"
+      ],
+      "descriptive_mentions": [
+        "Tertius vero frater"
+      ],
+      "justification": "Named as the third brother, husband of Dziwdozia and father of Dora."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Dziwdozia",
+      "mention_texts": [
+        "Dziwdozia"
+      ],
+      "descriptive_mentions": [
+        "coniuge"
+      ],
+      "justification": "Named as the wife of Constantinus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Dora",
+      "mention_texts": [
+        "Doram",
+        "Fortunem"
+      ],
+      "descriptive_mentions": [
+        "filiam vnam",
+        "praesentem testem productam"
+      ],
+      "justification": "Named as daughter of Constantinus and Dziwdozia ('Doram ali Fortunem')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Leonardus Beruiano",
+      "mention_texts": [
+        "Leonardus Beruiano"
+      ],
+      "descriptive_mentions": [
+        "Secundus testis",
+        "Famatus",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Named as the second witness and citizen of Lviv."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjectival form used for citizens of Lviv."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Pompeio de Campis",
+      "mention_texts": [
+        "Pompeio de Campis"
+      ],
+      "descriptive_mentions": [
+        "Tertius",
+        "Nobilis",
+        "Italus Catholicus"
+      ],
+      "justification": "Named as the third witness, an Italian nobleman."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Antonius Dematriai",
+      "mention_texts": [
+        "Antonius Dematriai"
+      ],
+      "descriptive_mentions": [
+        "Quartus",
+        "Famatus",
+        "Italus Catholicus",
+        "Ciuis Leopoliensis"
+      ],
+      "justification": "Named as the fourth witness and citizen of Lviv."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Luzelinas",
+      "mention_texts": [
+        "Nicolaus Luzelinas"
+      ],
+      "descriptive_mentions": [
+        "Quintus"
+      ],
+      "justification": "Named as the fifth witness from Chios."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Chios",
+      "mention_texts": [
+        "Chio"
+      ],
+      "descriptive_mentions": [
+        "eadem insula"
+      ],
+      "justification": "Mentioned as the island of origin ('de Chio')."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Petrus Albertus Oczkowicz",
+      "mention_texts": [
+        "Petrum Albertum Oczkowicz"
+      ],
+      "descriptive_mentions": [
+        "interpretem"
+      ],
+      "justification": "Named as the interpreter for Nicolaus Luzelinas."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Pantaleon vero similiter similiter ex Theodora coniuge procreauit"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Pantaleon vero similiter similiter ex Theodora coniuge procreauit duos filios... alterum vero Jacobum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Pantaleon vero similiter similiter ex Theodora coniuge procreauit duos filios... alterum vero Jacobum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "Tertius vero frater Constantinus"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "spouse_of",
+      "tail_entity_id": "E8",
+      "evidence": "Tertius vero frater Constantinus ex Dziwdozia coniuge suscepit"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Constantinus ex Dziwdozia coniuge suscepit filiam vnam Doram ali Fortunem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "child_of",
+      "tail_entity_id": "E8",
+      "evidence": "Constantinus ex Dziwdozia coniuge suscepit filiam vnam Doram ali Fortunem"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Famatus Leonardus Beruiano de eadem insula ex Catholicis Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "resident_of",
+      "tail_entity_id": "E11",
+      "evidence": "Antonius Dematriai Italus Catholicus Ciuis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "originates_from",
+      "tail_entity_id": "E15",
+      "evidence": "Nicolaus Luzelinas de Chio"
+    }
+  ]
+}

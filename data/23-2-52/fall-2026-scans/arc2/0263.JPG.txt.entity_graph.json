@@ -1,0 +1,169 @@
+{
+  "document_id": "arc2/0263.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kaliszewski",
+      "mention_texts": [
+        "Joannes Kaliszewski"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbanus Leopoliensis",
+        "Plenipotens"
+      ],
+      "justification": "Named as the proxy (plenipotens) appearing personally before the council."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Maria",
+      "mention_texts": [
+        "Marla",
+        "Maria"
+      ],
+      "descriptive_mentions": [
+        "vidua relicta",
+        "praefata Maria vidua principali",
+        "principalis sua"
+      ],
+      "justification": "The widow on whose behalf Joannes Kaliszewski acts as plenipotentiary to effect the cession."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Mathias Ptaszek",
+      "mention_texts": [
+        "Mathiani Ptaszek"
+      ],
+      "descriptive_mentions": [
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Maria, identified as a burgher of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Sosniak",
+      "mention_texts": [
+        "Christophorum Sosniak",
+        "Christophori Sosniak"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Pileatorem Suburbanum Leopoliensem",
+        "debitoris",
+        "praedicti debitoris"
+      ],
+      "justification": "Debtor from whom the transferred debt is due; hatter residing in the Lviv suburbs."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Sclonet",
+      "mention_texts": [
+        "Erasmus",
+        "Sclonet",
+        "Erasmo Sclonet"
+      ],
+      "descriptive_mentions": [
+        "Famato",
+        "Civi et Conciviali",
+        "cessionario",
+        "praedicti cessionarij"
+      ],
+      "justification": "Burgher and fellow citizen receiving the cession/satisfaction of debt."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "City of Lviv, referenced in titles, jurisdictions, and suburban origins of the individuals."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Protocolo Actorum Proconsularium Civitatis Praeconis Leopoliensis",
+        "Actis nostris"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The consular / proconsular court whose records are cited and before whom the act is recorded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "1591-09-03",
+      "mention_texts": [
+        "feria tertia ante Festum Nativitatis Beatae Mariae Virginis proxima Anno Domini 159 primo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the proconsular protocol document establishing the proxy's mandate."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "date",
+      "canonical_name": "1592-12-07",
+      "mention_texts": [
+        "feria secunda post Festum Sancti Nicolai Episcopi Anno Domini 159 secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier council record concerning the debt."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "153 florins",
+      "mention_texts": [
+        "centum quinquaginta trium Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount of the debt being ceded."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "601 Polish florins",
+      "mention_texts": [
+        "sexagentorum et unum Florenorum Polonicalium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Larger sum from which the 153 florins remained."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "actsOnBehalfOf",
+      "tail_entity_id": "E2",
+      "evidence": "Joannes Kaliszewski Suburbanus Leopoliensis tanquam Plenipotens ... Maria vidua"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouseOf",
+      "tail_entity_id": "E3",
+      "evidence": "Mathiani Ptaszek Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "hasDebtWith",
+      "tail_entity_id": "E2",
+      "evidence": "summam centum quinquaginta trium Florenorum debiti per Honestum Christophorum Sosniak ... Nihil pro praefata Maria vidua principali ... amplius reservando"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "c羅",
+      "tail_entity_id": "E5",
+      "evidence": "cessisse et condescendisse ... Famato Erasmo Sclonet Civi et Conciviali"
+    }
+  ]
+}

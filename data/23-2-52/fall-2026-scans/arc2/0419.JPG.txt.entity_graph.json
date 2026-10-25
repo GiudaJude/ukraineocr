@@ -1,0 +1,129 @@
+{
+  "document_id": "arc2/0419.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Mathias Nowak",
+      "mention_texts": [
+        "Mathia Nowak"
+      ],
+      "descriptive_mentions": [
+        "olim",
+        "cortubecnalis sui"
+      ],
+      "justification": "Deceased guild member whose wards and estate guardianship are mentioned."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Civitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City whose craft guild and consular records are referenced."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Albertum Domagala"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Plenipotentes",
+        "Mandatarios",
+        "negociorum suorum gestores",
+        "Crucifices",
+        "Confratres suos Contubernales"
+      ],
+      "justification": "Appointed plenipotentiary and guild brother representing the Lviv guild in Jarosław."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mathias Ziemianek",
+      "mention_texts": [
+        "Mathiam Ziemianek"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentes",
+        "Mandatarios",
+        "negociorum suorum gestores",
+        "Crucifices",
+        "Confratres suos Contubernales"
+      ],
+      "justification": "Appointed plenipotentiary and fellow craft master."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Christopherus Drafzem",
+      "mention_texts": [
+        "Christopherum Drafzem"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentes",
+        "Mandatarios",
+        "negociorum suorum gestores",
+        "Confratres suos Contubernales"
+      ],
+      "justification": "Appointed plenipotentiary and fellow guild brother."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "LOC-0005: Jarosław",
+      "mention_texts": [
+        "Civitatis Jaroslauiensis",
+        "Jaroslauiensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal action and opposing guild masters are located."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consula- ria"
+      ],
+      "descriptive_mentions": [
+        "acta eadem ma Consula- ria"
+      ],
+      "justification": "The municipal consular court/office in whose books the 1593 agreement was recorded."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "feria tertia post Festum Sanctissimae Trinitatis proxima Anno 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous agreement inserted into the consular records."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "colleague_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatum Albertum Domagala Mathiam Ziemianek Crucifices et Christopherum Drafzem Confratres suos Contubernales"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "colleague_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatum Albertum Domagala Mathiam Ziemianek Crucifices et Christopherum Drafzem Confratres suos Contubernales"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "colleague_of",
+      "tail_entity_id": "E5",
+      "evidence": "Famatum Albertum Domagala Mathiam Ziemianek Crucifices et Christopherum Drafzem Confratres suos Contubernales"
+    }
+  ]
+}

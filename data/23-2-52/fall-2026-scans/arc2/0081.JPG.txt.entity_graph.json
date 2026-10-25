@@ -1,0 +1,133 @@
+{
+  "document_id": "arc2/0081.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Petrus Pleszkowicz",
+      "mention_texts": [
+        "Petrus Pleszkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Bomenis Senior Civitatis Leopoliensis"
+      ],
+      "justification": "Named as the principal who appears personally to appoint a plenipotentiary."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zwoleński",
+      "mention_texts": [
+        "Joanni Swolenskij",
+        "Joannem Joannem Zwoleński"
+      ],
+      "descriptive_mentions": [
+        "mandatarium",
+        "Plenipotentem",
+        "Plenipotenti",
+        "Plenipotens suus"
+      ],
+      "justification": "Named as the appointed plenipotentiary and mandatory of Petrus Pleszkowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Identified in the text as the city where the senior elder and offices belong."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Martinus Suburbanus",
+      "mention_texts": [
+        "Martini"
+      ],
+      "descriptive_mentions": [
+        "Suburbani"
+      ],
+      "justification": "Named in the decree heading as Suburbanus Martinus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Madayki",
+      "mention_texts": [
+        "Andream Madayki"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Actorem",
+        "Praefato Actore",
+        "Actori"
+      ],
+      "justification": "Named as the plaintiff (actor) in the decree."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Kazianna Zadworna",
+      "mention_texts": [
+        "Kaziannam Zadworna"
+      ],
+      "descriptive_mentions": [
+        "Honestos",
+        "Causam Samouey citatam",
+        "citatam"
+      ],
+      "justification": "Named as the cited party / defendant in the decree."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officium suum",
+        "Officium"
+      ],
+      "justification": "Consular office of Lviv issuing the decree upon appeal."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "Advocati Leopoliensis",
+        "Officium Aduocatiale Leopoliense"
+      ],
+      "descriptive_mentions": [
+        "sententia Honorati Domini"
+      ],
+      "justification": "Advocatial office of Lviv whose previous judgment was appealed to the council."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "plenipotentiary_of",
+      "tail_entity_id": "E1",
+      "evidence": "constituit et solenniter ordinavit in suum verum legitimum mandatarium, Plenipotentem et mandatarium Joannem Joannem Zwoleński"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "official_of",
+      "tail_entity_id": "E3",
+      "evidence": "Petrus Pleszkowicz Bomenis Senior Civitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "opposing_party",
+      "tail_entity_id": "E6",
+      "evidence": "inter Honestos Andream Madayki Actorem, et Kaziannam Zadworna Causam Samouey citatam"
+    }
+  ]
+}

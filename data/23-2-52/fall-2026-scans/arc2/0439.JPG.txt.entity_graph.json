@@ -1,0 +1,105 @@
+{
+  "document_id": "arc2/0439.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Ciuitatis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the scabinus title 'Scabinum Ciuitatis Leopoliensis'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Iudicio Exposito Bannito"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The banned civil court of Lviv mentioned as the court where the resignation is to be registered."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Semenum"
+      ],
+      "descriptive_mentions": [
+        "Honoratum Dominum",
+        "Scabinum Ciuitatis Leopoliensis",
+        "in Iudicio Exposito Bannito quandoquique celebrando praesidentem",
+        "suum verum legitimum mandatariumque plenum et mandatarium",
+        "ille"
+      ],
+      "justification": "Lviv bencher appointed as procurator/mandatary by the sellers."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Taras Jacobowicz",
+      "mention_texts": [
+        "Taras Iacobowicz"
+      ],
+      "descriptive_mentions": [
+        "praedicti donatarij",
+        "eundem donatarium",
+        "praedicti Emptoris",
+        "praenominatus",
+        "Emptor"
+      ],
+      "justification": "Buyer/donee receiving the half-share of the stone house."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Lukomiowicz",
+      "mention_texts": [
+        "Andreae",
+        "Lukomiowiczow"
+      ],
+      "descriptive_mentions": [
+        "praedictorum",
+        "autores"
+      ],
+      "justification": "One of the co-sellers/donors of the property."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Semko Lukomiowicz",
+      "mention_texts": [
+        "Semko",
+        "Lukomiowiczow"
+      ],
+      "descriptive_mentions": [
+        "praedictorum",
+        "autores"
+      ],
+      "justification": "One of the co-sellers/donors of the property."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E1",
+      "evidence": "Scabinum Ciuitatis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E2",
+      "evidence": "Scabinum Ciuitatis Leopoliensis in Iudicio Exposito Bannito quandoquique celebrando praesidentem"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "located_in",
+      "tail_entity_id": "E1",
+      "evidence": "Scabinum Ciuitatis Leopoliensis in Iudicio Exposito Bannito"
+    }
+  ]
+}

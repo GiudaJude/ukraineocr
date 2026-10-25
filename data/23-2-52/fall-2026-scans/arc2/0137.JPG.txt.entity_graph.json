@@ -1,0 +1,169 @@
+{
+  "document_id": "arc2/0137.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Łazar Cyganek",
+      "mention_texts": [
+        "Łazar Cyganek"
+      ],
+      "descriptive_mentions": [
+        "Sławny Woyt"
+      ],
+      "justification": "Named in the header/entry heading as 'Sławny Woyt Łazar Cyganek'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Casper Garnek",
+      "mention_texts": [
+        "Casper Garnek",
+        "Casparum"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "coniuges",
+        "ille",
+        "maritum tutore suo legitimum",
+        "praefatum"
+      ],
+      "justification": "Principal party resigning his paternal property share."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Helisabeth",
+      "mention_texts": [
+        "Helisabeth"
+      ],
+      "descriptive_mentions": [
+        "coniuges",
+        "haec"
+      ],
+      "justification": "Wife of Casper Garnek appearing together with her husband."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cyganyek",
+      "mention_texts": [
+        "Stanislaum Cyganyek"
+      ],
+      "descriptive_mentions": [
+        "Honestum olim",
+        "patrem"
+      ],
+      "justification": "Deceased father of Casper Garnek from whom the paternal inheritance devolved."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Pasik",
+      "mention_texts": [
+        "Alberto Pasik",
+        "Pasik"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "vitrico suo",
+        "eiusque legittimis successoribus",
+        "vitrico",
+        "fatus"
+      ],
+      "justification": "Stepfather of Casper Garnek who bought the paternal share."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0075: CUR-0016: 30 florins",
+      "mention_texts": [
+        "triginta Florenorum pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Purchase sum of 30 Polish florins paid by Albertus Pasik."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Żybówka",
+      "mention_texts": [
+        "Zibowka"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Location/direction where the house and garden are located ('versus Zibowka')."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Ściborowska Property",
+      "mention_texts": [
+        "Sciborowska"
+      ],
+      "descriptive_mentions": [
+        "sortes"
+      ],
+      "justification": "Bordering property lot ('inter Stanislao et Sciborowska sortes')."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lazarus Suchodolcz",
+      "mention_texts": [
+        "Lazari Suchodolcz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the marginal/entry title 'Luctatio Lazari Suchodolcz'."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Dostam Serowadowicz",
+      "mention_texts": [
+        "Dostam Serowadowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Acmianus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Armenian burgher of Lviv appearing in the subsequent entry."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City referenced in the citizenship descriptor 'Civis Leopoliensis'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Casper Garnek et Helisabeth coniuges ille per se haec vero per eundem maritum"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "sortem suam paternalem ad praefatum Casparum post Honestum olim Stanislaum Cyganyek patrem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "stepparent_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honesto Alberto Pasik vitrico suo"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E11",
+      "evidence": "Dostam Serowadowicz Acmianus Civis Leopoliensis"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "document_id": "arc2/0185.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Lucia Tworkowiczowa",
+      "mention_texts": [
+        "Lucia Tworkowiczowa",
+        "Luciae"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua",
+        "illa"
+      ],
+      "justification": "Party selling the inherited house, identified as widow of Jacobus Tworek and mother of Simon Kozal."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Kozal",
+      "mention_texts": [
+        "Simon Kozal",
+        "Simonis Kozal"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Filius",
+        "tutorem suum legittimum",
+        "Filium"
+      ],
+      "justification": "Son and legitimate guardian of Lucia Tworkowiczowa participating in the sale."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Tworek",
+      "mention_texts": [
+        "Jacobi Tworek",
+        "Jacobo Tworek"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "marito",
+        "vitrico"
+      ],
+      "justification": "Co-owner and husband of Lucia Tworkowiczowa, stepfather of Simon Kozal."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Suburbio Krakoviensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem Suburbio Krakoviensi"
+      ],
+      "justification": "Location where the sold property is situated."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Tegularia Street",
+      "mention_texts": [
+        "platea Tegulariorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in the Kraków Suburb where the house is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Grybczyna House",
+      "mention_texts": [
+        "Grybczina"
+      ],
+      "descriptive_mentions": [
+        "domos"
+      ],
+      "justification": "Neighboring house to the property being sold."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Tomaczkowska House",
+      "mention_texts": [
+        "Tomaczkouka"
+      ],
+      "descriptive_mentions": [
+        "Figuli domos"
+      ],
+      "justification": "Neighboring house of a potter adjacent to the property being sold."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Tomasz Wuk Poliota",
+      "mention_texts": [
+        "Szuma Wuk",
+        "Toma Wuk Poliota",
+        "Toma Wuk Poliotam",
+        "Toma Wuk"
+      ],
+      "descriptive_mentions": [
+        "Honestis",
+        "coniugibus Suburbanis Leopoliensibus",
+        "emptores"
+      ],
+      "justification": "Purchaser of the property along with his wife Anna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae",
+        "Annam",
+        "Anna"
+      ],
+      "descriptive_mentions": [
+        "coniugibus Suburbanis Leopoliensibus",
+        "coniuges",
+        "emptores"
+      ],
+      "justification": "Wife of Tomasz Wuk Poliota, co-buyer of the house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0003: 150 Polish florins",
+      "mention_texts": [
+        "centum et quinquaginta florenorum pecuniae et monetae Polonicalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Total purchase price of the house."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0014: 50 florins",
+      "mention_texts": [
+        "florenos quinquaginta"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Amount already paid towards the purchase price."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0045: CUR-0009: 100 Polish florins",
+      "mention_texts": [
+        "Florenos vero centum",
+        "Florenos centum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Remaining balance of 100 florins retained until consent is provided."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "location",
+      "canonical_name": "Dworzec",
+      "mention_texts": [
+        "Dworzec"
+      ],
+      "descriptive_mentions": [
+        "civitate"
+      ],
+      "justification": "Town mentioned in relation to Jacobus Tworek."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens",
+        "Officio",
+        "Judicio Civitatis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City office and court before which the transaction and obligations are registered."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "isChildOf",
+      "tail_entity_id": "E1",
+      "evidence": "Honestus Simon Kozal Filius. Sic per se illa vero per eundem Filium tutorem suum legittimum"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "isSpouseOf",
+      "tail_entity_id": "E3",
+      "evidence": "Jacobo Tworek civitate Dworzec Luciae marito"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "isSpouseOf",
+      "tail_entity_id": "E9",
+      "evidence": "Honestis Toma Wuk Poliota et Annae coniugibus Suburbanis Leopoliensibus"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "isLocatedIn",
+      "tail_entity_id": "E4",
+      "evidence": "in Civitatis eiusdem Suburbio Krakoviensi citra in platea Tegulariorum"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "isLocatedIn",
+      "tail_entity_id": "E5",
+      "evidence": "in platea Tegulariorum inter Grybczina et Tomaczkouka Figuli domos sitam"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "isLocatedIn",
+      "tail_entity_id": "E5",
+      "evidence": "in platea Tegulariorum inter Grybczina et Tomaczkouka Figuli domos sitam"
+    }
+  ]
+}

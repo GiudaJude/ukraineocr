@@ -1,0 +1,386 @@
+{
+  "document_id": "arc2/0197.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Szot",
+      "mention_texts": [
+        "Joanni Szot",
+        "Joanni\nSzot"
+      ],
+      "descriptive_mentions": [
+        "Scabino",
+        "Scabino et Civi Leopoliensi",
+        "Plenipotens suus"
+      ],
+      "justification": "Named as the appointed plenipotentiary and council juror (scabinus) in Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Ursula Sołtysowna",
+      "mention_texts": [
+        "Ursula Sołtysowna"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniunx"
+      ],
+      "justification": "Appears granting power of attorney to Joannes Szot."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Frenkiel",
+      "mention_texts": [
+        "Jacobi Frenkiel"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Gedanensis",
+        "maritum suum"
+      ],
+      "justification": "Husband of Ursula Sołtysowna, citizen of Gdańsk."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0054: LOC-0018: Gdańsk",
+      "mention_texts": [
+        "Gedanensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City origin of Jacobus Frenkiel."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Paulus Gauss",
+      "mention_texts": [
+        "Paulum Gauss"
+      ],
+      "descriptive_mentions": [
+        "Honestum",
+        "Cratarium",
+        "tutorem"
+      ],
+      "justification": "Named as the appointed guardian (tutor) assisting Ursula."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoliensium"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv, mentioned in Joannes Szot's citizenship and the residences of the parties."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "12 florins",
+      "mention_texts": [
+        "florenos duodecim"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money over which the arrest/lien is to be executed."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "PER-0825: Laurentius Zaleski",
+      "mention_texts": [
+        "Laurentius Saleski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Vitricus suus"
+      ],
+      "justification": "Stepfather of Ursula, owing a debt to the heirs of Diries Sartor."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Diries Sartor",
+      "mention_texts": [
+        "Diries Sartoris"
+      ],
+      "descriptive_mentions": [
+        "Famati olim"
+      ],
+      "justification": "Deceased tailor whose successors are to receive money from Laurentius Zaleski."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Kozioł",
+      "mention_texts": [
+        "Christophorus Ko-\nziolcz"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Honestus",
+        "tutores earundem naturales"
+      ],
+      "justification": "Husband of Sophia and natural guardian representing her interests."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0050: Sophia",
+      "mention_texts": [
+        "Sophiae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugum suarum",
+        "Filiarum"
+      ],
+      "justification": "Wife of Christophorus Kozioł and daughter of deceased Josephus Sellator and Anna."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simon Kozol"
+      ],
+      "descriptive_mentions": [
+        "tutores earundem naturales"
+      ],
+      "justification": "Husband of Elisabetha, representing her as natural guardian."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Elisabetha",
+      "mention_texts": [
+        "Elisabethae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugum suarum",
+        "Filiarum"
+      ],
+      "justification": "Wife of Simon Kozol and daughter of deceased Josephus Sellator and Anna."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Julianus Sambor",
+      "mention_texts": [
+        "Julijana Samboria"
+      ],
+      "descriptive_mentions": [
+        "tutores earundem naturales"
+      ],
+      "justification": "Husband of Anna, representing her in the settlement."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0026: Anna",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "coniugum suarum",
+        "Filiarum"
+      ],
+      "justification": "Daughter of Josephus Sellator and Anna, and wife of Julianus Sambor."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "person",
+      "canonical_name": "Josephus Sellator",
+      "mention_texts": [
+        "Josephi Sellatoris",
+        "Josephi Sutoris",
+        "Josephi"
+      ],
+      "descriptive_mentions": [
+        "Honestorum olim",
+        "Famati olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased saddler/shoemaker whose estate is being settled."
+    },
+    {
+      "entity_id": "E17",
+      "entity_type": "person",
+      "canonical_name": "Anna Sellatrix",
+      "mention_texts": [
+        "Annae"
+      ],
+      "descriptive_mentions": [
+        "Honestorum olim",
+        "Coniugum"
+      ],
+      "justification": "Deceased wife of Josephus Sellator."
+    },
+    {
+      "entity_id": "E18",
+      "entity_type": "person",
+      "canonical_name": "Petrus Sellator",
+      "mention_texts": [
+        "Petrus Sellator"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "tutores omissae suae"
+      ],
+      "justification": "Named guardian of the children/estate of Josephus Sellator."
+    },
+    {
+      "entity_id": "E19",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Sellator",
+      "mention_texts": [
+        "Jacobus Sellator"
+      ],
+      "descriptive_mentions": [
+        "tutores"
+      ],
+      "justification": "Named guardian of the estate of Josephus Sellator."
+    },
+    {
+      "entity_id": "E20",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Koziel",
+      "mention_texts": [
+        "Sebastianus Koziel"
+      ],
+      "descriptive_mentions": [
+        "tutores"
+      ],
+      "justification": "Named guardian of the children/estate of Josephus Sellator."
+    },
+    {
+      "entity_id": "E21",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Łabędzki",
+      "mention_texts": [
+        "Sebastianus Labzinski"
+      ],
+      "descriptive_mentions": [
+        "Fronfices",
+        "tutores"
+      ],
+      "justification": "Named guardian of the estate of Josephus Sellator."
+    },
+    {
+      "entity_id": "E22",
+      "entity_type": "person",
+      "canonical_name": "Josephus minor",
+      "mention_texts": [
+        "Josephi"
+      ],
+      "descriptive_mentions": [
+        "minoris fratris eorum suarum",
+        "admortua prole"
+      ],
+      "justification": "Deceased younger brother whose share devolved upon the surviving sisters."
+    },
+    {
+      "entity_id": "E23",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "consuccessorum suorum"
+      ],
+      "justification": "Minor co-heir of Josephus Sellator."
+    },
+    {
+      "entity_id": "E24",
+      "entity_type": "person",
+      "canonical_name": "Jacobus",
+      "mention_texts": [
+        "Jacobi"
+      ],
+      "descriptive_mentions": [
+        "consuccessorum suorum"
+      ],
+      "justification": "Minor co-heir of Josephus Sellator."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honesta Ursula Sołtysowna Famati Jacobi Frenkiel Civis Gedanensis coniunx"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "has_residence",
+      "tail_entity_id": "E4",
+      "evidence": "Jacobi Frenkiel Civis Gedanensis"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "has_residence",
+      "tail_entity_id": "E6",
+      "evidence": "Honorato Joanni Szot Scabino et Civi Leopoliensi"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_relative_of",
+      "tail_entity_id": "E2",
+      "evidence": "Laurentius Saleski Vitricus suus"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E11",
+      "evidence": "Christophorus Koziolcz suo et Honestae Sophiae ... coniugum suarum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Simon Kozol suo et Honestae Elisabethae ... coniugum suarum"
+    },
+    {
+      "head_entity_id": "E14",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E15",
+      "evidence": "Julijana Samboria suo et Honestae Annae coniugum suarum"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "is_child_of",
+      "tail_entity_id": "E16",
+      "evidence": "Filiarum Honestorum olim Josephi Sellatoris et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "is_child_of",
+      "tail_entity_id": "E16",
+      "evidence": "Filiarum Honestorum olim Josephi Sellatoris et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "is_child_of",
+      "tail_entity_id": "E16",
+      "evidence": "Filiarum Honestorum olim Josephi Sellatoris et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E16",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E17",
+      "evidence": "Josephi Sellatoris et Annae Coniugum"
+    },
+    {
+      "head_entity_id": "E22",
+      "relation": "is_child_of",
+      "tail_entity_id": "E16",
+      "evidence": "Josephi minoris fratris eorum suarum"
+    }
+  ]
+}

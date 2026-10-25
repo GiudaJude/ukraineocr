@@ -1,0 +1,167 @@
+{
+  "document_id": "arc2/0517.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "Society of Jesus",
+      "mention_texts": [
+        "Societatis JESU"
+      ],
+      "descriptive_mentions": [
+        "Presbiteris Patribus",
+        "dictis Presbiteris Patribus",
+        "eorum Procuratoribus"
+      ],
+      "justification": "legavit eisdem Presbiteris Patribus Societatis JESU... dictis Presbiteris Patribus Societatis JESU"
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "700 Polish florins",
+      "mention_texts": [
+        "septingentos florenos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae monetae et numeri Polonicalis"
+      ],
+      "justification": "septingentos florenos pecuniae monetae et numeri Polonicalis"
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0071: Joannes Ossowski",
+      "mention_texts": [
+        "Joannem Lukaszowicz",
+        "Joannes Lukaszowicz",
+        "Joanni Lukaszowicz"
+      ],
+      "descriptive_mentions": [
+        "debitorem suum",
+        "Famatum",
+        "Civem Leopoliensem",
+        "idem",
+        "Famato",
+        "propinquis"
+      ],
+      "justification": "apud debitorem suum Famatum Joannem Lukaszowicz Civem Leopoliensem... idem Joannes Lukaszowicz... Famato Joanni Lukaszowicz"
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [
+        "Civitatis eiusdem"
+      ],
+      "justification": "Joannem Lukaszowicz Civem Leopoliensem... Civitatis eiusdem Consuli"
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari"
+      ],
+      "descriptive_mentions": [
+        "Consuli"
+      ],
+      "justification": "coram eodem Officio Consulari factam... Civitatis eiusdem Consuli"
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "date",
+      "canonical_name": "DATE-0066: Feast of Easter",
+      "mention_texts": [
+        "Festo Paschae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "pro Festo Paschae praeterito"
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0101: 500 Polish florins",
+      "mention_texts": [
+        "quingentorum florenorum",
+        "Quingentos ... florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "ad summam quingentorum florenorum... Quingentos autem alios florenos"
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0061: CUR-0008: 300 Polish florins",
+      "mention_texts": [
+        "trecentos ... florenos",
+        "Florenos Trecentos"
+      ],
+      "descriptive_mentions": [
+        "pecuniae itidem monetae et numeri Polonicalis"
+      ],
+      "justification": "trecentos tantum florenos... Solutos Florenos Trecentos pecuniae itidem monetae et numeri Polonicalis"
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "ducentos",
+        "Florenos Ducentos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "ducentos ad huc tenetur... per Florenos Ducentos"
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0009: Feast of Saint Michael",
+      "mention_texts": [
+        "Festum S. Michaelis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "ad Festum S. Michaelis"
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0051: 1000 florins",
+      "mention_texts": [
+        "Mille Florenos"
+      ],
+      "descriptive_mentions": [],
+      "justification": "qua coniunctim Mille Florenos efficiunt"
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Simon Leopolita",
+      "mention_texts": [
+        "Gregorio Simon Leopolita"
+      ],
+      "descriptive_mentions": [
+        "Spectabili Domino",
+        "Civitatis eiusdem Consuli",
+        "propinquis"
+      ],
+      "justification": "Spectabili Domino Gregorio Simon Leopolita Civitatis eiusdem Consuli"
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatum Joannem Lukaszowicz Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "member_of",
+      "tail_entity_id": "E5",
+      "evidence": "Domino Gregorio Simon Leopolita Civitatis eiusdem Consuli"
+    }
+  ]
+}

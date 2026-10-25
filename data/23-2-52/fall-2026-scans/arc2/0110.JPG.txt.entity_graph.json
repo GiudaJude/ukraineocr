@@ -1,0 +1,128 @@
+{
+  "document_id": "arc2/0110.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Górnicki",
+      "mention_texts": [
+        "Andreas Górnicki"
+      ],
+      "descriptive_mentions": [
+        "Viceaduocatus Smotricensis"
+      ],
+      "justification": "Named as the vice-advocate who corrected the extract from the scabinal acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Smotrycz",
+      "mention_texts": [
+        "Smotricensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town referenced in the adjectival title of the vice-advocate (Viceaduocatus Smotricensis)."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "Świdnica Scabinal Court",
+      "mention_texts": [
+        "Actis Scabinalibus Swidnicensibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Scabinal court whose acts are cited (Ex Actis Scabinalibus Swidnicensibus)."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Cauc",
+      "mention_texts": [
+        "Stanislai Cauc"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named as the testator in the heading Testamentum Stanislai Cauc."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stephanus Oleynor",
+      "mention_texts": [
+        "Stephanus Oleynor"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Advocatus vocatus"
+      ],
+      "justification": "Individual appearing in court as advocate."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Dudas",
+      "mention_texts": [
+        "Stanislaus Dudas"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Seniores Suburbij"
+      ],
+      "justification": "Individual appearing as an elder of the Kraków Suburb."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Castor Pasternak",
+      "mention_texts": [
+        "Castor Pasternak"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Seniores Suburbij"
+      ],
+      "justification": "Individual appearing as an elder of the Kraków Suburb."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "location",
+      "canonical_name": "Kraków Suburb",
+      "mention_texts": [
+        "Krakowskie"
+      ],
+      "descriptive_mentions": [
+        "Suburbij"
+      ],
+      "justification": "Lviv suburb referred to as 'Suburbij ... Krakowskie dicti'."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The municipal council office referenced in 'Officij Resolutum' and 'persona Officij fungentes'."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "held_office_in",
+      "tail_entity_id": "E2",
+      "evidence": "Andreas Górnicki Viceaduocatus Smotricensis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaus Dudas, Castor Pasternak Seniores Suburbij ... Krakowskie dicti"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "official_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislaus Dudas, Castor Pasternak Seniores Suburbij ... Krakowskie dicti"
+    }
+  ]
+}

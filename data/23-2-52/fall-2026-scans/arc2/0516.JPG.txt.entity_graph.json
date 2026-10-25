@@ -1,0 +1,209 @@
+{
+  "document_id": "arc2/0516.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Consularem residentiam",
+        "officium praesens",
+        "acta nostra",
+        "Cameram officij praesentis",
+        "actis praesentibus"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council referred to by its consular seat, present office, and court records."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Gregorius Dobrocieski",
+      "mention_texts": [
+        "Gregorius Dobrocienski"
+      ],
+      "descriptive_mentions": [
+        "Excellens D.",
+        "J. V. Doctor",
+        "Advocatus Ordinarius"
+      ],
+      "justification": "Ordinary advocate making a deposition before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "PER-0014: Andreas Simonowic",
+      "mention_texts": [
+        "Andreas Simonowicz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Civitatis eiusdem Leopoliensis"
+      ],
+      "justification": "Council-approved bencher of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0625: Thomas Karcz",
+      "mention_texts": [
+        "Thomas Karcz"
+      ],
+      "descriptive_mentions": [
+        "Honorati",
+        "Scabini Civitatis eiusdem Leopoliensis"
+      ],
+      "justification": "Lviv bencher reporting on the testament."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Civitatis eiusdem",
+        "Leopoliensi",
+        "Civitate Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned repeatedly in Latin forms."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0050: Sophia",
+      "mention_texts": [
+        "Szyszkowey",
+        "Han-lowa",
+        "Sophiae",
+        "Sophiae Hanliowa",
+        "Sophia"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "Viduae",
+        "eadem",
+        "ipsa"
+      ],
+      "justification": "Testator and widow of Stanislaus Hanel residing in the Holy Spirit Hospital."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "PER-0113: Stanislaus Slachetka",
+      "mention_texts": [
+        "Stanislai Hanel"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased husband of Sophia, citizen of Lviv."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Vigil of Saint Matthew the Apostle",
+      "mention_texts": [
+        "feria quarta in Vigilia Festi S. Mathaei Apostoli et Evangelistae proxime praeterita"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date the benchers went to the hospital to take Sophia's declaration."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "LOC-0035: Holy Spirit Hospital",
+      "mention_texts": [
+        "hospitale S. Spiritus",
+        "dicti Hospitalis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Hospital within the city walls where the testator was staying."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0164: Archbishop of Lviv",
+      "mention_texts": [
+        "Joanne Demetrio Solikowski",
+        "Archiepiscopo Leopoliensi",
+        "Domini Archiepiscopi"
+      ],
+      "descriptive_mentions": [
+        "Illustri et Reverendissimo in Christo Patri Domino Domino",
+        "Illustrissimi et Reverendissimi"
+      ],
+      "justification": "Latin archbishop of Lviv present with the testator."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Szymonkowicz",
+      "mention_texts": [
+        "Szymonkowicz"
+      ],
+      "descriptive_mentions": [
+        "Famulum",
+        "Sussisorem pro tutore sibi assumptum"
+      ],
+      "justification": "Servant/agent assisting Sophia as guardian/attorney before the court."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "organization",
+      "canonical_name": "Society of Jesus",
+      "mention_texts": [
+        "Societatis JESU"
+      ],
+      "descriptive_mentions": [
+        "Fratres Dictae Societatis JESU"
+      ],
+      "justification": "Jesuit order in Lviv designated to receive bequests."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "spouse_of",
+      "tail_entity_id": "E7",
+      "evidence": "Honestae Sophiae Famati olim Stanislai Hanel Civis Leopoliensis Viduae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Gregorius Dobrocienski J. V. Doctor Advocatus Ordinarius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Andreas Simonowicz ... Scabini Civitatis eiusdem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Thomas Karcz Scabini Civitatis eiusdem Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "official_of",
+      "tail_entity_id": "E5",
+      "evidence": "Joanne Demetrio Solikowski Archiepiscopo Leopoliensi"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "hospitale S. Spiritus intra moenia Civitatis eiusdem consistens"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Fratres Dictae Societatis JESU in ea Civitate Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "document_id": "arc2/0196.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0092: Joannes Sokol",
+      "mention_texts": [
+        "Joannem Sokoł",
+        "Joannem"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Scabinum",
+        "Civem Leopoliensem",
+        "fideiussorem"
+      ],
+      "justification": "Known entity Joannes Sokol, acting as bondsman in Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Acta nostra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity Lviv City Council, referenced via its municipal acts."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity Lwów/Leopolis."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Zaleski",
+      "mention_texts": [
+        "Laurentius Zaleski",
+        "Laurentius Zaleski",
+        "Laurentius Zaleski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famatus",
+        "Civis Leopoliensis",
+        "eiusdem"
+      ],
+      "justification": "Appears as a prominent Lviv citizen issuing quiettances."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0005: 75 Polish florins",
+      "mention_texts": [
+        "florenis septuaginta quinque Polonicalibus"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Known entity CUR-0005: 75 Polish florins."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Thomas Soltys",
+      "mention_texts": [
+        "Tomam Soltys",
+        "Tomae Soltys",
+        "Tomam Ssoltys",
+        "Toma Soltys",
+        "Tomam Soltys",
+        "Tomae",
+        "Soltys"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "praedicti vero",
+        "patris",
+        "olim"
+      ],
+      "justification": "Deceased debtor whose debts are being satisfied by his daughter Ursula."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Pellifex",
+      "mention_texts": [
+        "Jacobo Pellifici"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Creditor furrier mentioned in entry 215."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Ursula Frenkificis",
+      "mention_texts": [
+        "Ursula Szaski Frenczina",
+        "Ursula",
+        "Ursula",
+        "Ursula"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "coniuge legitima",
+        "filia",
+        "eandem",
+        "uxore legitima",
+        "successore"
+      ],
+      "justification": "Daughter of Thomas Soltys and wife of Jacobus Frenkifex of Bełz."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Frenkifex",
+      "mention_texts": [
+        "Jacobi Frenkificis",
+        "Jacobi Frenkificis",
+        "Jacobi Frenkificis"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Belzensis"
+      ],
+      "justification": "Husband of Ursula, citizen of Bełz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Bełz",
+      "mention_texts": [
+        "Belzensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town in the Ruthenian Voivodeship where Jacobus Frenkifex resides."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "12 florins 15 groschen",
+      "mention_texts": [
+        "florenis duodecim et grossis quindecim pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Monetary sum satisfied in entry 216."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Israel Zydow",
+      "mention_texts": [
+        "Israeli Zydow"
+      ],
+      "descriptive_mentions": [
+        "Judaei"
+      ],
+      "justification": "Jewish creditor mentioned in entry 216."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0002: 36 Polish florins",
+      "mention_texts": [
+        "florenis triginta sex pecuniae Polonicalis"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Known entity CUR-0002: 36 Polish florins."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "Dionisius Sartor",
+      "mention_texts": [
+        "Dionisio Sartori"
+      ],
+      "descriptive_mentions": [
+        "Famato olim"
+      ],
+      "justification": "Deceased tailor and creditor in entry 217."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "acts_in",
+      "tail_entity_id": "E2",
+      "evidence": "inscriptioneque Joannem ad Acta nostra suscepimus"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Civem Leopoliensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "resides_in",
+      "tail_entity_id": "E3",
+      "evidence": "Laurentius Zaleski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E6",
+      "evidence": "praedicti vero Tomae Soltys filia"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E9",
+      "evidence": "Ursula Famati Jacobi Frenkificis Civis Belzensis coniuge legitima"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resides_in",
+      "tail_entity_id": "E10",
+      "evidence": "Jacobi Frenkificis Civis Belzensis"
+    }
+  ]
+}

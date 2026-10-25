@@ -1,0 +1,193 @@
+{
+  "document_id": "23-2-52/0054.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Helias Haiko",
+      "mention_texts": [
+        "Heliam Haiko"
+      ],
+      "justification": "Named as the plaintiff (actor) and a Jew of Kraków."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Kraków",
+      "mention_texts": [
+        "Cracoviensem"
+      ],
+      "justification": "City origin of Helias Haiko."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmum Jelonek Pellionem",
+        "Erasmus Jelonek"
+      ],
+      "justification": "Named as the cited party/defendant (citatus) and furrier."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Jersedus Moszo",
+      "mention_texts": [
+        "Jersedum Moszonem"
+      ],
+      "justification": "Mentioned as a Jewish merchant/resident of Lviv."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Lviv",
+      "mention_texts": [
+        "Leopoliensem",
+        "Leopoli",
+        "Civium Leopoliensium"
+      ],
+      "justification": "City where the legal acts and citizens are situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "currency",
+      "canonical_name": "148 florins 15 groschen",
+      "mention_texts": [
+        "centum quadraginta octo florenorum et grossorum quindecim"
+      ],
+      "justification": "Monetary sum ruled to be paid."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "date",
+      "canonical_name": "1595",
+      "mention_texts": [
+        "Anno quo supra",
+        "Anno Domini 1595"
+      ],
+      "justification": "Year of registration and legal proceedings."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Abrikowic",
+      "mention_texts": [
+        "Nicolaus Abrikowic",
+        "Nicolaus Bigoszewa Abrikowic"
+      ],
+      "justification": "Named as the son of late Nicolaus Abrek and Margaretha, appearing personally."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Abrek",
+      "mention_texts": [
+        "Nicolai Abrek"
+      ],
+      "justification": "Deceased citizen of Lviv, father of Nicolaus Abrikowic."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Margaretha",
+      "mention_texts": [
+        "Margarethae"
+      ],
+      "justification": "Surviving widow of Nicolaus Abrek and mother of Nicolaus Abrikowic."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "location",
+      "canonical_name": "Bigoszewska House",
+      "mention_texts": [
+        "domo lapidea Bigoszewska",
+        "Bigoszewa"
+      ],
+      "justification": "Masonry house in Halych Street."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "Halych Street",
+      "mention_texts": [
+        "platea Haliciensi"
+      ],
+      "justification": "Street in Lviv where the Bigoszewska House is located."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Jozefowicz",
+      "mention_texts": [
+        "Sebastiano Jozefowicz"
+      ],
+      "justification": "Maternal uncle (avunculus) of Nicolaus Abrikowic, Dean of Starogard."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Starogard",
+      "mention_texts": [
+        "Starogardiensi"
+      ],
+      "justification": "Jurisdiction/deanery of Sebastianus Jozefowicz."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "location",
+      "canonical_name": "Gdańsk",
+      "mention_texts": [
+        "Gedanensibus"
+      ],
+      "justification": "Source city council of the previous legal inscription."
+    },
+    {
+      "entity_id": "E16",
+      "entity_type": "organization",
+      "canonical_name": "Lviv City Council",
+      "mention_texts": [
+        "Actis nostris"
+      ],
+      "justification": "The municipal office recording the transaction."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "Nicolaus Abrikowic Famati olim Nicolai Abrek et Margarethae superstitis coniugum Civium Leopoliensium prolatus filius"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E10",
+      "evidence": "Nicolaus Abrikowic Famati olim Nicolai Abrek et Margarethae superstitis coniugum Civium Leopoliensium prolatus filius"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "relative_of",
+      "tail_entity_id": "E8",
+      "evidence": "Sebastiano Jozefowicz Iudice Limidico Decano Starogardiensi, Sublocatore et Exactore Starosto avunculo suo"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "located_in",
+      "tail_entity_id": "E12",
+      "evidence": "domo lapidea Bigoszewska actualiter in platea Haliciensi"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Heliam Haiko Iudaeum Cracoviensem"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Jersedum Moszonem Iudaeum Leopoliensem"
+    }
+  ]
+}

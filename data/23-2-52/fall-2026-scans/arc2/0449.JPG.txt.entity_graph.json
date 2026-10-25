@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/0449.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Martinus Brzesmiński",
+      "mention_texts": [
+        "Brzesminski",
+        "Martinus Brzesminski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis et Famatus",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Noble citizen of Lviv who cedes hereditary shares in a landholding."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in civic titles and institutional designations."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Szichtorowski Hide",
+      "mention_texts": [
+        "lanei Szichtorowski"
+      ],
+      "descriptive_mentions": [
+        "certa parte"
+      ],
+      "justification": "Laneus (hide of land) in which Martinus Brzesmiński holds shares."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0110: Catherina Tłumaczowa",
+      "mention_texts": [
+        "Catherinam"
+      ],
+      "descriptive_mentions": [
+        "coniugem olim suam"
+      ],
+      "justification": "Late wife of Martinus Brzesmiński through whom he held rights in the land."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon Filynowicz",
+      "mention_texts": [
+        "Filynowicz",
+        "Simon Solonowic",
+        "Simone Filynowicz",
+        "Simonis Filynowicz"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Pellionis Suburbani Leopoliensis"
+      ],
+      "justification": "Furrier residing in the Lviv suburb receiving the property cession."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0004: Lviv Advocatial Office",
+      "mention_texts": [
+        "officij Advocatialis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Advocatial court of Lviv whose decree mandated an oath."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officij Consularis Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council of Lviv issuing the court decree."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Georgius Rusiecki",
+      "mention_texts": [
+        "Georgium Sasieczki",
+        "Rusiecki"
+      ],
+      "descriptive_mentions": [
+        "Actorem",
+        "Actoris"
+      ],
+      "justification": "Plaintiff in a dispute concerning the construction of a partition fence."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Baran",
+      "mention_texts": [
+        "Baran",
+        "Joannem Baran"
+      ],
+      "descriptive_mentions": [
+        "Paratorem citatum",
+        "citatum"
+      ],
+      "justification": "Cited party obligated to build a wall or fence next to the plaintiff's house."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "date",
+      "canonical_name": "DATE-0003: Feast of the Assumption of the Blessed Virgin Mary",
+      "mention_texts": [
+        "Festum Assumptionis Beatae Mariae Virginis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Feast day referenced in the decree's date."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "DATE-0023: DATE-0007: 1593",
+      "mention_texts": [
+        "Anno 1593"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Year 1593 referenced in the prior decree."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E4",
+      "evidence": "Catherinam coniugem olim suam"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "transfers_property_to",
+      "tail_entity_id": "E5",
+      "evidence": "cessisse praesentique inscriptionis vigore cedere haereditarias duas sortes suas... in personam Honesti Simonis Filynowicz"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "litigates_against",
+      "tail_entity_id": "E9",
+      "evidence": "inter Festos Georgium Sasieczki Actorem et Joannem Baran Paratorem citatum"
+    }
+  ]
+}

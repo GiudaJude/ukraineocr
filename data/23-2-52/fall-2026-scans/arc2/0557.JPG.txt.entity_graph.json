@@ -1,0 +1,136 @@
+{
+  "document_id": "arc2/0557.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Andreas Damiozanca",
+      "mention_texts": [
+        "Andreas Damiozanca"
+      ],
+      "descriptive_mentions": [
+        "praedictis",
+        "victor"
+      ],
+      "justification": "Named in the dispute settlement text as having acquitted Henricus Zapa of damages and court costs."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Henricus Zapa",
+      "mention_texts": [
+        "Henricum Zapa"
+      ],
+      "descriptive_mentions": [
+        "eundem"
+      ],
+      "justification": "Named as the person acquitted by Andreas Damiozanca."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Paulus Czop",
+      "mention_texts": [
+        "Paulus",
+        "Czop",
+        "Paulus Czop"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Civis Leopoliensis",
+        "se"
+      ],
+      "justification": "Furrier and citizen of Lviv who sells his suburban house and garden."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitatis"
+      ],
+      "justification": "Referenced in the citizenship title and city suburb description."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Pełtew",
+      "mention_texts": [
+        "Poltew"
+      ],
+      "descriptive_mentions": [
+        "Fluvium"
+      ],
+      "justification": "River above which the sold suburban property is situated."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmi Jelonek"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose house and garden adjoin the property sold by Paulus Czop."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Sebastianus Baran",
+      "mention_texts": [
+        "Sebastianus",
+        "Baran",
+        "Baran"
+      ],
+      "descriptive_mentions": [
+        "Doliatori",
+        "emptore",
+        "Emptori"
+      ],
+      "justification": "Cooper who buys the house and garden from Paulus Czop."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0004: 200 Polish florins",
+      "mention_texts": [
+        "Florenos Ducentorum",
+        "Ducentorum Florenis"
+      ],
+      "descriptive_mentions": [
+        "pretio"
+      ],
+      "justification": "Purchase price paid for the house and garden."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "settled_dispute_with",
+      "tail_entity_id": "E2",
+      "evidence": "Andreas Damiozanca victor certene damnorum et litis expensarum per totum causae tractum insumptarum eundem Henricum Zapa quietauit"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "sold_property_to",
+      "tail_entity_id": "E7",
+      "evidence": "Paulus Czop Pellio Civis Leopoliensis ... vendidisse puraque inscriptionis vigore vendere domum et hortum suum ... Baran Doliatori eiusque legitimis successoribus pretio Ducentorum Florenis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Paulus Czop Pellio Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "neighbor_of",
+      "tail_entity_id": "E6",
+      "evidence": "penes Erasmi Jelonek domum et hortum sita"
+    }
+  ]
+}

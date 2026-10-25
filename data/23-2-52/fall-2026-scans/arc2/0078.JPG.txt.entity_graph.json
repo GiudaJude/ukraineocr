@@ -1,0 +1,232 @@
+{
+  "document_id": "arc2/0078.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City council office before which the parties appeared."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Joannes Dąbrowski",
+      "mention_texts": [
+        "Joannes Dąbrowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Actor"
+      ],
+      "justification": "Noble appearing before the council."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucas Dziadowski",
+      "mention_texts": [
+        "Lucae Dziadowski"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "olim",
+        "Castrensis Zydaczoviensis Generi suo"
+      ],
+      "justification": "Deceased castle official / son-in-law mentioned in the suit."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "LOC-0026: Żydaczów",
+      "mention_texts": [
+        "Zydaczoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town mentioned in connection with Lucas Dziadowski."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Wraess",
+      "mention_texts": [
+        "Stanislaum Wraess"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "fratre germano"
+      ],
+      "justification": "Defendant cited before the court."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Clara Bydłoniowa",
+      "mention_texts": [
+        "Clarum Bydloni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned alongside defendants."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Anna",
+      "mention_texts": [
+        "Annam"
+      ],
+      "descriptive_mentions": [
+        "Honestam"
+      ],
+      "justification": "Woman cited in the case."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lucas Wstan",
+      "mention_texts": [
+        "Lucae Wsta-",
+        "Luca",
+        "Wstan"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased person whose relict or heirs are cited."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Anserinam"
+      ],
+      "descriptive_mentions": [
+        "Consulem Leopoliensem",
+        "tanquam Judicem",
+        "tutorem"
+      ],
+      "justification": "Lviv councilman acting as judge/guardian of the daughters of Joannes Wnuk."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv referenced in the title Consul Leopoliensem."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "PER-0283: Barbara",
+      "mention_texts": [
+        "Barbarae"
+      ],
+      "descriptive_mentions": [
+        "filiarum"
+      ],
+      "justification": "Daughter of the late Joannes Wnuk under guardianship."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "PER-0065: Margaretha",
+      "mention_texts": [
+        "Margaritae"
+      ],
+      "descriptive_mentions": [
+        "filiarum"
+      ],
+      "justification": "Daughter of the late Joannes Wnuk under guardianship."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes Wnuk",
+      "mention_texts": [
+        "Joannis Wnuk",
+        "Wnuk"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim"
+      ],
+      "justification": "Deceased father of Barbara and Margarita."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "person",
+      "canonical_name": "PER-0048: Jacobus Domaszewski",
+      "mention_texts": [
+        "Jacobum Doma- szewski"
+      ],
+      "descriptive_mentions": [
+        "Plenipotentem suum"
+      ],
+      "justification": "Procurator/plenipotentiary representing the successors."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "person",
+      "canonical_name": "PER-0039: Christophorus Lewicki",
+      "mention_texts": [
+        "Christophorum Lewicki"
+      ],
+      "descriptive_mentions": [
+        "Prolocutorem suum"
+      ],
+      "justification": "Spokesperson/prolocutor responding for the cited parties."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "appears_before",
+      "tail_entity_id": "E1",
+      "evidence": "Coram Officio Consulari Leopoliensi comparens personaliter Nobilis Joannes Dąbrowski"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "associated_with",
+      "tail_entity_id": "E4",
+      "evidence": "Nobilis olim Lucae Dziadowski Castrensis Zydaczoviensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E11",
+      "evidence": "Anserinam Consulem Leopoliensem tanquam Judicem Barbarae et Margaritae Famati olim Joannis Wnuk filiarum tutorem"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "guardian_of",
+      "tail_entity_id": "E12",
+      "evidence": "Anserinam Consulem Leopoliensem tanquam Judicem Barbarae et Margaritae Famati olim Joannis Wnuk filiarum tutorem"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Barbarae et Margaritae Famati olim Joannis Wnuk filiarum"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "child_of",
+      "tail_entity_id": "E13",
+      "evidence": "Barbarae et Margaritae Famati olim Joannis Wnuk filiarum"
+    },
+    {
+      "head_entity_id": "E15",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E5",
+      "evidence": "praedicti citati per Prolocutorem suum Koneski Christophorum Lewicki responderunt"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "document_id": "arc2/0206.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Parasceve Maturitoria",
+      "mention_texts": [
+        "Parascea Maturitoria"
+      ],
+      "descriptive_mentions": [
+        "praedicta"
+      ],
+      "justification": "Appears before the council office requesting the ratification and entry of her sale and inscription into the acts."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officio",
+        "Actisque Praesentibus"
+      ],
+      "justification": "The municipal council office before which Parasceve Maturitoria makes her recognition and request."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliense"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Adjectival form denoting the city of Lviv in the court entry heading."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "PER-0527: Caspar Balcerowicz",
+      "mention_texts": [
+        "Tembarija",
+        "Caspar Tembarski"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "ipsi"
+      ],
+      "justification": "Party in a legal dispute submitting a written duplica pursuant to a granted delay."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "petitioned",
+      "tail_entity_id": "E2",
+      "evidence": "praedicta Parascea Maturitoria petiit coram Officio Actisque Praesentibus inferri"
+    }
+  ]
+}

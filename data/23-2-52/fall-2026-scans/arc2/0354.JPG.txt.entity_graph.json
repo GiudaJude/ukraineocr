@@ -1,0 +1,223 @@
+{
+  "document_id": "arc2/0354.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Asfanis",
+      "mention_texts": [
+        "Constantinus Asfanis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the genealogy as father of Manuel Asfanis."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Cati",
+      "mention_texts": [
+        "Cati"
+      ],
+      "descriptive_mentions": [
+        "uxore"
+      ],
+      "justification": "Wife of Constantinus Asfanis named in the text."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Manuel Asfanis",
+      "mention_texts": [
+        "Manuelis Asfani",
+        "Manuelem, Asfani"
+      ],
+      "descriptive_mentions": [
+        "Civem Leopoliensis",
+        "Civis Leopoliensis",
+        "olim",
+        "Graeci"
+      ],
+      "justification": "Subject of the genealogy and deceased Greek citizen of Lviv."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Mikiel Asfanis",
+      "mention_texts": [
+        "Mikielim"
+      ],
+      "descriptive_mentions": [
+        "fratres"
+      ],
+      "justification": "Brother of Manuel Asfanis born of Constantinus and Cati."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Machina",
+      "mention_texts": [
+        "Machinam"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Offspring of Constantinus and Cati listed in the genealogy."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Marellu",
+      "mention_texts": [
+        "Marellu"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Offspring of Constantinus and Cati listed in the genealogy."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Birje",
+      "mention_texts": [
+        "Birje"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Offspring of Constantinus and Cati listed in the genealogy."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Theodora",
+      "mention_texts": [
+        "Theodora"
+      ],
+      "descriptive_mentions": [
+        "mater",
+        "soror erat quatuor amitina"
+      ],
+      "justification": "Mother of Nicoreus and cousin of Manuel Asfanis."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Nicoreus",
+      "mention_texts": [
+        "Nicorei"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Son of Theodora mentioned in the testimony."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Andreas Kapołoszki",
+      "mention_texts": [
+        "Andreas Kapołoszki"
+      ],
+      "descriptive_mentions": [
+        "Gnosus",
+        "Tutor"
+      ],
+      "justification": "Guardian of the wards of the late Manuel Asfanis."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Petrus Thomats Tacik",
+      "mention_texts": [
+        "Petri Thomats Tacik"
+      ],
+      "descriptive_mentions": [
+        "generi Civis",
+        "Tutorum"
+      ],
+      "justification": "Citizen and co-guardian acting alongside Andreas Kapołoszki."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus",
+      "mention_texts": [
+        "Nicolaum"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Famatum"
+      ],
+      "justification": "Party cited before the council."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Joannes",
+      "mention_texts": [
+        "Joannem"
+      ],
+      "descriptive_mentions": [
+        "Nobiles",
+        "Famatum"
+      ],
+      "justification": "Party cited before the council alongside Nicolaus."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known city referenced in citizenship and municipal designations."
+    },
+    {
+      "entity_id": "E15",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "officij nostri",
+        "officio",
+        "officium"
+      ],
+      "justification": "The consular office of Lviv before which the parties appeared."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Constantinus Asfanis cum uxore Cati"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Constantinus Asfanis cum uxore Cati genuit Manuelem, Asfani"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "parent_of",
+      "tail_entity_id": "E3",
+      "evidence": "Constantinus Asfanis cum uxore Cati genuit Manuelem, Asfani"
+    },
+    {
+      "head_entity_id": "E1",
+      "relation": "parent_of",
+      "tail_entity_id": "E4",
+      "evidence": "Constantinus Asfanis cum uxore Cati genuit Manuelem, Asfani Civem Leopoliensis Mikielim fratres"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "mater Nicorei Theodora"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "resident_of",
+      "tail_entity_id": "E14",
+      "evidence": "Manuelem, Asfani Civem Leopoliensis"
+    }
+  ]
+}

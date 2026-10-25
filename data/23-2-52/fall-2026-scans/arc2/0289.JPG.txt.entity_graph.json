@@ -1,0 +1,168 @@
+{
+  "document_id": "arc2/0289.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "1588",
+      "mention_texts": [
+        "feria quarta post Festi Sancti Jacobi Appostoli proximi Anno Domini 1588"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the legal act recorded in the document."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Hieronymus Szepustowicz",
+      "mention_texts": [
+        "Hieronymus Szepustowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "testes"
+      ],
+      "justification": "Witness who confirmed his testimony with a bodily oath."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officium praesens"
+      ],
+      "descriptive_mentions": [
+        "nos"
+      ],
+      "justification": "The municipal council/court before which the testimony was given and the parties were summoned."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Ossoba",
+      "mention_texts": [
+        "Joannes Ossoba"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Famulus Ciuilis Lucates"
+      ],
+      "justification": "Sworn civic servant who reported the citation of the individuals."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Anna Antonielowa",
+      "mention_texts": [
+        "Annae Antonielowa"
+      ],
+      "descriptive_mentions": [
+        "Honestae"
+      ],
+      "justification": "Party at whose instance the citation was made."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Bernardus Bernano",
+      "mention_texts": [
+        "Bernardum Bernano"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "comparentes"
+      ],
+      "justification": "Individual cited to the present office."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Czapka",
+      "mention_texts": [
+        "Jacobum Cziapka Ie Jo"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "comparentes"
+      ],
+      "justification": "Individual cited to the present office."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Georgius Kozan",
+      "mention_texts": [
+        "Georgium Kozan"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "comparentes"
+      ],
+      "justification": "Individual cited to the present office."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Cosmas de Izo",
+      "mention_texts": [
+        "Cosmam de Izo"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "comparentes"
+      ],
+      "justification": "Individual cited to the present office."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Petrus in Czieszt",
+      "mention_texts": [
+        "Petrum in Czieszt"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "comparentes"
+      ],
+      "justification": "Individual cited to the present office."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E4",
+      "relation": "servant_of",
+      "tail_entity_id": "E3",
+      "evidence": "Honestus Joannes Ossoba Famulus Ciuilis Lucates"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "summoned",
+      "tail_entity_id": "E6",
+      "evidence": "se ad instantiam Honestae Annae Antonielowa citasse ad Officium praesens Famatos Bernardum Bernano"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "summoned",
+      "tail_entity_id": "E7",
+      "evidence": "citasse ad Officium praesens Famatos Bernardum Bernano, Jacobum Cziapka Ie Jo"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "summoned",
+      "tail_entity_id": "E8",
+      "evidence": "citasse ad Officium praesens Famatos Bernardum Bernano, Jacobum Cziapka Ie Jo, Georgium Kozan"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "summoned",
+      "tail_entity_id": "E9",
+      "evidence": "citasse ad Officium praesens Famatos Bernardum Bernano, Jacobum Cziapka Ie Jo, Georgium Kozan, Cosmam de Izo"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "summoned",
+      "tail_entity_id": "E10",
+      "evidence": "citasse ad Officium praesens Famatos Bernardum Bernano, Jacobum Cziapka Ie Jo, Georgium Kozan, Cosmam de Izo, Petrum in Czieszt"
+    }
+  ]
+}

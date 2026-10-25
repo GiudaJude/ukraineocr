@@ -1,0 +1,154 @@
+{
+  "document_id": "arc2/0062.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "date",
+      "canonical_name": "9 April 1586",
+      "mention_texts": [
+        "158 sexto nona die Aprilis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date mentioned when the donation was originally made before profession."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0307: Regina",
+      "mention_texts": [
+        "Reginam",
+        "Reginae",
+        "Regina"
+      ],
+      "descriptive_mentions": [
+        "sororem suam",
+        "Prolem minorennam",
+        "uxor",
+        "sorori sua",
+        "soror"
+      ],
+      "justification": "Sister of Brother Albertus and recipient of the donation."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Albertus Kolassowski",
+      "mention_texts": [
+        "Alberti Kolassowski"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Institoris Civis Civitatis"
+      ],
+      "justification": "Husband of Regina, described as a merchant and citizen."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Georgius Capila Prolan",
+      "mention_texts": [
+        "Georgio Capila Prolane"
+      ],
+      "descriptive_mentions": [
+        "patri suo memorato",
+        "superstiti"
+      ],
+      "justification": "Father and guardian of Regina and Albertus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Catherina",
+      "mention_texts": [
+        "Catherinae"
+      ],
+      "descriptive_mentions": [
+        "Haeredi"
+      ],
+      "justification": "Heir mentioned in the confirmation of the act."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Officio pro Consulari Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "eodem Officio"
+      ],
+      "justification": "City council office before which the legal act and testimony were presented."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Civitatem",
+        "Civitatis"
+      ],
+      "justification": "The city of Lviv mentioned in the jurisdictional titles and property descriptions."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Constantinus Zaremba",
+      "mention_texts": [
+        "Constantinum Zaremba"
+      ],
+      "descriptive_mentions": [
+        "Dominum",
+        "Confratre suo",
+        "religiosum"
+      ],
+      "justification": "Religious brother representing and attesting for Albertus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "PER-0254: Albertus Domagala",
+      "mention_texts": [
+        "Frater Albertus Opatariensis"
+      ],
+      "descriptive_mentions": [
+        "idem revognoscens"
+      ],
+      "justification": "The monk Albertus (de Opatów / Domagała) who made the donation to his sister before professing religious vows."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "quia tunc Famati Alberti Kolassowski Institoris Civis Civitatis eius uxor erat"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E2",
+      "evidence": "erga Reginam sororem suam"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E2",
+      "evidence": "patri suo memorato Georgio Capila Prolane superstiti nempe sub cuius cura et tutela minorennes haec tum fuerat"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "parent_of",
+      "tail_entity_id": "E9",
+      "evidence": "patri suo memorato Georgio Capila Prolane"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E7",
+      "evidence": "Officio pro Consulari Leopoliensi"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "document_id": "arc2/0186.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Tworek",
+      "mention_texts": [
+        "Jacobo Tworek"
+      ],
+      "descriptive_mentions": [
+        "Honesto",
+        "praedicto"
+      ],
+      "justification": "Named party whose consent to the sale is promised."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Simon Kozal",
+      "mention_texts": [
+        "Simon Kozal",
+        "Tworkowski",
+        "Simon"
+      ],
+      "descriptive_mentions": [
+        "praedictus",
+        "filius",
+        "recognoscentes"
+      ],
+      "justification": "Son of Lucia Tworkowa, also referred to as Simon Tworkowski."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Lucia Tworkowa",
+      "mention_texts": [
+        "Lucia",
+        "Lucia Tworkowa"
+      ],
+      "descriptive_mentions": [
+        "matre sua",
+        "praedicta",
+        "matre",
+        "recognoscentes"
+      ],
+      "justification": "Mother of Simon Kozal, party to the property transaction."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Saturday before Jubilate Sunday 1591",
+      "mention_texts": [
+        "sabbato ante Dominicam Jubilate proxime Anno Domini 1591"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the earlier act of obligation."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "PER-0070: Simon",
+      "mention_texts": [
+        "Simonem"
+      ],
+      "descriptive_mentions": [
+        "Prouidum",
+        "Honoratum Dominum",
+        "mandatarium",
+        "Scabini in Judicio Exposito Bannito Leopoliensi",
+        "Dominum et mandatorium"
+      ],
+      "justification": "Scabinus of the Lviv Banned Court appointed as attorney."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0007: Lviv Banned Court",
+      "mention_texts": [
+        "Judicio Exposito Bannito Leopoliensi"
+      ],
+      "descriptive_mentions": [
+        "Judicio"
+      ],
+      "justification": "The court where Simon serves as scabinus."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensi",
+        "Leopoli",
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv where the acts are recorded and the parties hold status."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "date",
+      "canonical_name": "Monday after Misericordia Sunday 1595",
+      "mention_texts": [
+        "feria secunda post Dominicam Misericordia Domini Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of recording of the receipt (quietatio)."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Joannes Jelonek",
+      "mention_texts": [
+        "Joannis Jelonek",
+        "Joanne Jelonek"
+      ],
+      "descriptive_mentions": [
+        "famoso"
+      ],
+      "justification": "Person on whose behalf the debt was paid."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "PER-0061: Erasmus Jelonek",
+      "mention_texts": [
+        "Erasmus Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Civis et Mercator Leopoliensis"
+      ],
+      "justification": "Citizen and merchant of Lviv acknowledging satisfaction of the debt."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "56 Polish florins 17 groschen",
+      "mention_texts": [
+        "Florenis quinquaginta sex et grossis decemseptem pecuniae et numeri Polonicales"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Sum of money receipted in the document."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Paulus Jelonek",
+      "mention_texts": [
+        "Paulum Jelonek"
+      ],
+      "descriptive_mentions": [
+        "Spectabilem",
+        "olim",
+        "Fratremque suum carissimum",
+        "Consulem Leopoliensem"
+      ],
+      "justification": "Deceased brother of Erasmus Jelonek and former councilor of Lviv."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "ijsdem Actis"
+      ],
+      "justification": "Municipal office whose acts record the obligations."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "child_of",
+      "tail_entity_id": "E3",
+      "evidence": "Simon Kozal siue Tworkowski filius... ab eadem praedicta Lucia matre sua"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simonem Scabini in Judicio Exposito Bannito Leopoliensi"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E7",
+      "evidence": "Erasmus Jelonek Civis et Mercator Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "Paulum Jelonek Fratremque suum carissimum"
+    }
+  ]
+}

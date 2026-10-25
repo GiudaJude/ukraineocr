@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/0130.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Joannes Zombk",
+      "mention_texts": [
+        "Joanne Zombk"
+      ],
+      "descriptive_mentions": [
+        "Creditore",
+        "Creditoris",
+        "Creditorem"
+      ],
+      "justification": "Named as the creditor in the initial financial obligation entry."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopolitani"
+      ],
+      "descriptive_mentions": [
+        "Civitate"
+      ],
+      "justification": "City where acts were conducted and origin of suburbanites."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "date",
+      "canonical_name": "Tuesday after Oculi Sunday 1595",
+      "mention_texts": [
+        "feria tertia post Dominicam Oculi proxima Anno quo supra"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the first recorded act."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Wednesday after Laetare Sunday 1595",
+      "mention_texts": [
+        "feria quarta post Dominicam Laetare Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the second recorded entry concerning Andreas Wolowczyk."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Wolowczyk",
+      "mention_texts": [
+        "Andreae Wolowczyk"
+      ],
+      "descriptive_mentions": [
+        "Ingenui",
+        "Artificij sutorum socii",
+        "principis",
+        "praedictum Ingenuum"
+      ],
+      "justification": "Subject of the genealogy inquiry, journeyman of the shoemakers' guild."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Petrus Szort",
+      "mention_texts": [
+        "Petrus Szort"
+      ],
+      "descriptive_mentions": [
+        "Honestus",
+        "Suburbani Leopolitani"
+      ],
+      "justification": "Suburban resident of Lviv testifying regarding Wolowczyk's birth."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Czecznowoski",
+      "mention_texts": [
+        "Bartholomaeus Czecznowoski"
+      ],
+      "descriptive_mentions": [
+        "Suburbani Leopolitani"
+      ],
+      "justification": "Suburban resident of Lviv appearing as a witness."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Paulus",
+      "mention_texts": [
+        "Pauli"
+      ],
+      "descriptive_mentions": [
+        "Honesti",
+        "Aeditui Sanctae Crucis"
+      ],
+      "justification": "Sexton of Holy Cross Church at whose request the testimony was taken."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Church of the Holy Cross",
+      "mention_texts": [
+        "Sanctae Crucis"
+      ],
+      "descriptive_mentions": [
+        "extra Civitate sitae"
+      ],
+      "justification": "Church located outside the city walls where Paulus served as aedituus."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "organization",
+      "canonical_name": "Shoemakers' Guild",
+      "mention_texts": [
+        "Artificij sutorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Guild of shoemakers of which Andreas Wolowczyk was a journeyman (socius)."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Petrus Szort et Bartholomaeus Czecznowoski Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "resident_of",
+      "tail_entity_id": "E2",
+      "evidence": "Petrus Szort et Bartholomaeus Czecznowoski Suburbani Leopolitani"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "member_of",
+      "tail_entity_id": "E10",
+      "evidence": "Andreae Wolowczyk Artificij sutorum socii"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "member_of",
+      "tail_entity_id": "E9",
+      "evidence": "Pauli Aeditui Sanctae Crucis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E2",
+      "evidence": "Sanctae Crucis extra Civitate sitae"
+    }
+  ]
+}

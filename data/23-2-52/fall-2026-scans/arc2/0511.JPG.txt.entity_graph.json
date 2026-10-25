@@ -1,0 +1,230 @@
+{
+  "document_id": "arc2/0511.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sacram Regiam Maiestatem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears by royal title referring to King Sigismund III Vasa."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis praesentibus",
+        "Officio Consulari",
+        "Acta",
+        "Consilio"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Appears as the municipal council and its official registers."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Smirowicz",
+      "mention_texts": [
+        "Nicolaum Smirowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatos",
+        "Schabarium Asmatarium"
+      ],
+      "justification": "Named party released from a suretyship bond."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Joannes Kzepel",
+      "mention_texts": [
+        "Joannem Kzepel",
+        "Famati Kzepel"
+      ],
+      "descriptive_mentions": [
+        "Famatos"
+      ],
+      "justification": "Named party released from suretyship."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Altan Stelzadette",
+      "mention_texts": [
+        "Altan Stelzadettem"
+      ],
+      "descriptive_mentions": [
+        "conuictem"
+      ],
+      "justification": "Associate/convict of Joannes Kzepel released from bond."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Mądrowicz",
+      "mention_texts": [
+        "Nicolao"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "fratribus suis",
+        "Tutoribus legitimis"
+      ],
+      "justification": "Named as brother and legal tutor of the minor Nicolaus Mądrowicz."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Mądrowicz",
+      "mention_texts": [
+        "Stanislao Mądrowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatis",
+        "fratribus suis",
+        "Tutoribus legitimis"
+      ],
+      "justification": "Named as brother and legal tutor of the minor Nicolaus Mądrowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Mądrowicz the Younger",
+      "mention_texts": [
+        "Nicolai Mądrowicz",
+        "Nicolaum Mądrowicz",
+        "Nicolai"
+      ],
+      "descriptive_mentions": [
+        "minorenis",
+        "minorenem",
+        "Ingenui",
+        "Filij"
+      ],
+      "justification": "Minor heir of the late Stanislaus Mądry and Catherina Switrozowna."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Mądry",
+      "mention_texts": [
+        "Stanislai Mądry"
+      ],
+      "descriptive_mentions": [
+        "praefati olim",
+        "Nobilis"
+      ],
+      "justification": "Deceased father of the minor Nicolaus Mądrowicz."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Catherina Switrozowna",
+      "mention_texts": [
+        "Catherinae Switrozowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae olim"
+      ],
+      "justification": "Deceased mother of the minor Nicolaus Mądrowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "date",
+      "canonical_name": "1589",
+      "mention_texts": [
+        "Feria secunda posthic Dominica Oculi Anno Domini 1589",
+        "Anno Domini 1589"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the previous surety entry in the council records."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Wenceslaus Harizonczki",
+      "mention_texts": [
+        "Venceslao Harizonczski",
+        "Wenceslaum Harizonczki",
+        "Wenceslaum Harczonczki"
+      ],
+      "descriptive_mentions": [
+        "arendatorem"
+      ],
+      "justification": "Tenant/lessee of the suburban estate belonging to the minor."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0238: PER-0013: Andreas Madrowicz",
+      "mention_texts": [
+        "Andreas Mądrowicz"
+      ],
+      "descriptive_mentions": [
+        "Honoratus",
+        "Scabinus et Notarius Leopoliensis",
+        "curator"
+      ],
+      "justification": "Town councillor/scribe and royal-appointed curator appearing before the council."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "The city of Lviv mentioned in official titles."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E13",
+      "relation": "guardian of",
+      "tail_entity_id": "E8",
+      "evidence": "Honoratus Andreas Mądrowicz Scabinus et Notarius Leopoliensis ut pote curator Ingenui Nicolai Mądrowicz"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "parent of",
+      "tail_entity_id": "E8",
+      "evidence": "Nicolai Mądrowicz Filij Nobilis Stanislai Mądry"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "parent of",
+      "tail_entity_id": "E8",
+      "evidence": "Filij Nobilis Stanislai Mądry et Honestae olim Catherinae Switrozowna"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling of",
+      "tail_entity_id": "E7",
+      "evidence": "Nicolao et Stanislao Mądrowicz fratribus suis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian of",
+      "tail_entity_id": "E8",
+      "evidence": "Nicolao et Stanislao Mądrowicz fratribus suis tanquam Tutoribus legitimis praefati Nicolai Mądrowicz minorenis"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "guardian of",
+      "tail_entity_id": "E8",
+      "evidence": "Nicolao et Stanislao Mądrowicz fratribus suis tanquam Tutoribus legitimis praefati Nicolai Mądrowicz minorenis"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "member of",
+      "tail_entity_id": "E2",
+      "evidence": "Coram nobis in Consilio residentibus personaliter comparens Honoratus Andreas Mądrowicz Scabinus et Notarius Leopoliensis"
+    }
+  ]
+}

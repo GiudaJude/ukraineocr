@@ -1,0 +1,229 @@
+{
+  "document_id": "arc2/0319.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officii"
+      ],
+      "justification": "Known entity; municipal authority referenced in 'iuxta adiudicationem Officii'."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0007: Stanislaus Doctor",
+      "mention_texts": [
+        "Stanislai Doctoris",
+        "Stanislao Dzibowic"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "spectabili Domino",
+        "Medicinae Doctori",
+        "Collegae nostro consulari",
+        "genero",
+        "Collega nostro Consulari",
+        "eundem",
+        "illius"
+      ],
+      "justification": "Known entity; physician and city councilor, son-in-law of Mathias a Sothomia."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Josephus Zelionkowicz",
+      "mention_texts": [
+        "Josephus Zelionkowicz"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "filius",
+        "Principalis"
+      ],
+      "justification": "Son of deceased Albertus Zelionek and Katharina, settling an inheritance claim."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Albertus Zelionek",
+      "mention_texts": [
+        "Alberti Zelionek"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Coniugum",
+        "Civium Leopolienis"
+      ],
+      "justification": "Deceased citizen of Lviv, father of Josephus Zelionkowicz."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Katharina Zelionkowa",
+      "mention_texts": [
+        "Katharinae"
+      ],
+      "descriptive_mentions": [
+        "Coniugum",
+        "Civium Leopolienis"
+      ],
+      "justification": "Wife of Albertus Zelionek, mother of Josephus Zelionkowicz."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity; town whose citizens are Albertus and Katharina."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Zelionkowicz",
+      "mention_texts": [
+        "Stanislao",
+        "Stanislai"
+      ],
+      "descriptive_mentions": [
+        "ingenuo olim",
+        "fratri suo germano",
+        "fratris"
+      ],
+      "justification": "Deceased brother of Josephus Zelionkowicz."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Mathias a Sothomia Stomatarius",
+      "mention_texts": [
+        "Mathiam a Sothomia Stomatarium",
+        "Mathias Stomatarius"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Mathiae",
+        "avus suus"
+      ],
+      "justification": "Maternal grandfather of Josephus and Stanislaus, father-in-law of Stanislaus Dzibowic."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Pelczynska House",
+      "mention_texts": [
+        "Pelczynska"
+      ],
+      "descriptive_mentions": [
+        "domus lapideae"
+      ],
+      "justification": "Stone house mentioned in the text ('domus lapideae Pelczynska vulgo nuncupatae')."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "240 florins",
+      "mention_texts": [
+        "Ducentorum et quadraginta Florenorum",
+        "ducentorum quadraginta Florenorum"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Monetary sum received and settled by Josephus Zelionkowicz."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "currency",
+      "canonical_name": "120 florins",
+      "mention_texts": [
+        "Florenos videlicet Centum Viginti"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Half of the 240 florin sum."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Woynowski",
+      "mention_texts": [
+        "Woynowski"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Person mentioned in the heading at the bottom of the page."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Wife of Woynowski",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "uxor"
+      ],
+      "justification": "Wife of Woynowski imprisoned in Wallachia."
+    },
+    {
+      "entity_id": "E14",
+      "entity_type": "location",
+      "canonical_name": "LOC-0231: Wallachia",
+      "mention_texts": [
+        "Valachia"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Known entity; territory where Woynowski's wife was imprisoned."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E3",
+      "relation": "is_child_of",
+      "tail_entity_id": "E4",
+      "evidence": "Ingenuus Josephus Zelionkowicz Famati olim Alberti Zelionek et Katharinae Coniugum Civium Leopolienis filius"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "is_child_of",
+      "tail_entity_id": "E5",
+      "evidence": "Ingenuus Josephus Zelionkowicz Famati olim Alberti Zelionek et Katharinae Coniugum Civium Leopolienis filius"
+    },
+    {
+      "head_entity_id": "E4",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E5",
+      "evidence": "Alberti Zelionek et Katharinae Coniugum"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "is_sibling_of",
+      "tail_entity_id": "E3",
+      "evidence": "sibi et ingenuo olim Stanislao fratri suo germano"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "is_ancestor_of",
+      "tail_entity_id": "E3",
+      "evidence": "Mathias Stomatarius avus suus"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_son_in_law_of",
+      "tail_entity_id": "E8",
+      "evidence": "Stanislao Dzibowic Medicinae Doctori Collegae nostro consulari eiusdem Mathiae genero"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "is_spouse_of",
+      "tail_entity_id": "E12",
+      "evidence": "de Woynowski cuius uxor"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "is_located_in",
+      "tail_entity_id": "E14",
+      "evidence": "uxor in Valachia incarcerata"
+    }
+  ]
+}

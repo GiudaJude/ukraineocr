@@ -1,0 +1,157 @@
+{
+  "document_id": "arc2/0417.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Simon Stachel",
+      "mention_texts": [
+        "Simonis Stachel"
+      ],
+      "descriptive_mentions": [
+        "praefati",
+        "ipsum",
+        "ille"
+      ],
+      "justification": "Debtor mentioned in the release of obligation."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "currency",
+      "canonical_name": "170 florins",
+      "mention_texts": [
+        "Centum se- ptuaginta Florenorum",
+        "Centum septuaginta Florenorum"
+      ],
+      "descriptive_mentions": [
+        "debitum",
+        "summa"
+      ],
+      "justification": "Amount of debt contracted with the city and remitted."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Civitate",
+        "Civitatis",
+        "Civitat"
+      ],
+      "justification": "City where the legal act took place and of which Albertus is a citizen."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "1602",
+      "mention_texts": [
+        "feria secunda an- te festum Sancti Petri ad Vincula proxi- ma Anno Domini Millesimo Sexcen- tesimo secundo"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the court session."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Albertus Stephanowicz",
+      "mention_texts": [
+        "Czarnowczyk",
+        "Albertus Stephanowicz"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Sutor",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Shoemaker and Lviv citizen acknowledging a debt to Christophorus Bartoszyski."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christophorus Bartoszyski",
+      "mention_texts": [
+        "Christophoro Barto- szyski"
+      ],
+      "descriptive_mentions": [
+        "Generoso",
+        "eidem Generoso"
+      ],
+      "justification": "Creditor to whom rooms in the stone house are pledged."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "currency",
+      "canonical_name": "CUR-0018: 20 florins",
+      "mention_texts": [
+        "florenorum viginti"
+      ],
+      "descriptive_mentions": [
+        "pecuniae et numeri Polonici",
+        "debiti"
+      ],
+      "justification": "Stated sum of the debt."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "currency",
+      "canonical_name": "120 florins",
+      "mention_texts": [
+        "Centum vi- ginti Florenorum"
+      ],
+      "descriptive_mentions": [
+        "summa"
+      ],
+      "justification": "Sum specified for the pledged rooms."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Sienna Street",
+      "mention_texts": [
+        "platea foeni"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Street in Lviv where Albertus's stone house is situated."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Martinus Lorencowicz",
+      "mention_texts": [
+        "Martinum Lorencow- icz"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor adjacent to Albertus's stone house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E5",
+      "relation": "debtor_of",
+      "tail_entity_id": "E6",
+      "evidence": "Albertus Stephanowicz Sutor Civis Leopoliensis, palam publice benevoleque recognouit se debere et te- neri veri iusti liquidique debiti ex causa mutui contracti flo- renorum viginti pecuniae et numeri Polonici Generoso Christophoro Barto- szyski"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Albertus Stephanowicz Sutor Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "located_in",
+      "tail_entity_id": "E3",
+      "evidence": "in domo sua lapidea in platea foeni"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "neighbor_of",
+      "tail_entity_id": "E10",
+      "evidence": "in domo sua lapidea in platea foeni penes Martinum Lorencow- icz"
+    }
+  ]
+}

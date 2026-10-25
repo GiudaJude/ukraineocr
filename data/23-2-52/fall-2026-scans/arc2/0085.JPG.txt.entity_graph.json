@@ -1,0 +1,205 @@
+{
+  "document_id": "arc2/0085.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Marussa Zawisczona",
+      "mention_texts": [
+        "Marussa Zawisczona",
+        "Marussae Zawiszkowna"
+      ],
+      "descriptive_mentions": [
+        "Honestae",
+        "praedicti olim fratris sui coniugi relictae",
+        "fratrici suae",
+        "praefatae"
+      ],
+      "justification": "Named as the sister-in-law and widow of Constantinus's deceased brother receiving the cession of debt."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Constantinus",
+      "mention_texts": [
+        "Constantinus"
+      ],
+      "descriptive_mentions": [
+        "praefatus"
+      ],
+      "justification": "Named as the ceding party transferring the debt to Marussa Zawisczona."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoli",
+        "Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City where the legal acts were performed and of which Michael Brik is a citizen."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "date",
+      "canonical_name": "Saturday before Reminiscere Sunday 1595",
+      "mention_texts": [
+        "Sabbato ante Dominicam Reminiscere Proximo Anno Domini 1595"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Date of the recorded legal transaction."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Michael Brik",
+      "mention_texts": [
+        "Michaelis Brik",
+        "Michael Brik",
+        "Michaelem Brik"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Pellio",
+        "Civis Leopoliensis",
+        "emptor haereditarius",
+        "eundem"
+      ],
+      "justification": "Furrier and citizen of Lviv who paid the debt on the Samorowska house and received acquittance."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Zofia Sysina",
+      "mention_texts": [
+        "Zophia Sysina",
+        "Zophiae"
+      ],
+      "descriptive_mentions": [
+        "filia"
+      ],
+      "justification": "Daughter of Mathias Zandel who acquitted Michael Brik of the debt."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Mathias Zandel",
+      "mention_texts": [
+        "Mathiae Zandel"
+      ],
+      "descriptive_mentions": [
+        "Honesti olim"
+      ],
+      "justification": "Deceased father of Zofia Sysina."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Bartholomaeus Krossal",
+      "mention_texts": [
+        "Bartholomaeum Krossal"
+      ],
+      "descriptive_mentions": [
+        "Senatorem",
+        "virum suum tutorem sibi assistentem"
+      ],
+      "justification": "Senator of Lviv and husband/guardian assisting his wife Zofia Sysina."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "location",
+      "canonical_name": "Samorowska House",
+      "mention_texts": [
+        "Samorowska"
+      ],
+      "descriptive_mentions": [
+        "domus ipsius Zophiae Samorowska",
+        "domo eadem",
+        "praedicta domo lapidea"
+      ],
+      "justification": "Masonry house encumbered by the debt and purchased by Michael Brik."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "currency",
+      "canonical_name": "640 Polish florins",
+      "mention_texts": [
+        "florenos quadraginta sexcentos Polonicales"
+      ],
+      "descriptive_mentions": [
+        "debiti"
+      ],
+      "justification": "Amount of debt paid by Michael Brik to Zofia Sysina."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Joannes Samorowsky",
+      "mention_texts": [
+        "Joannem Samorowsky"
+      ],
+      "descriptive_mentions": [
+        "Famatum olim",
+        "Pellionem"
+      ],
+      "justification": "Deceased furrier who originally contracted the debt upon the house."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "person",
+      "canonical_name": "Simon Bunyka",
+      "mention_texts": [
+        "Simonem Bunyka"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Husband involved in a property division recorded in the heading."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "Barbara",
+      "mention_texts": [
+        "Barbaram"
+      ],
+      "descriptive_mentions": [
+        "coniuges"
+      ],
+      "justification": "Wife of Simon Bunyka mentioned in the property division heading."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "sister_in_law_of",
+      "tail_entity_id": "E2",
+      "evidence": "Honestae Marussa Zawisczona praedicti olim fratris sui coniugi relictae fratrici suae... praefatus Constantinus"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "child_of",
+      "tail_entity_id": "E7",
+      "evidence": "Zophia Sysina Honesti olim Mathiae Zandel filia"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "spouse_of",
+      "tail_entity_id": "E6",
+      "evidence": "per Bartholomaeum Krossal Senatorem virum suum tutorem sibi assistentem"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "citizen_of",
+      "tail_entity_id": "E3",
+      "evidence": "Michael Brik Pellio Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E12",
+      "relation": "spouse_of",
+      "tail_entity_id": "E13",
+      "evidence": "Divisio inter Simonem Bunyka et Barbaram coniuges"
+    }
+  ]
+}

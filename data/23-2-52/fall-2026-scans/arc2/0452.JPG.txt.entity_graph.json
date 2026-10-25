@@ -1,0 +1,275 @@
+{
+  "document_id": "arc2/0452.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [
+        "Actis nostris praesentibus",
+        "Proconsulem et Consules Civitatis nostrae Leopoliensis"
+      ],
+      "descriptive_mentions": [
+        "Officijs"
+      ],
+      "justification": "The document cites the present acts and refers to the proconsul and consuls of Lviv."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0556: Sigismundus",
+      "mention_texts": [
+        "Sacrae Regiae Maiestatis",
+        "Sigismundus tertius",
+        "Rex",
+        "REX"
+      ],
+      "descriptive_mentions": [
+        "nostris",
+        "nos",
+        "nostrum",
+        "Iurisdictionem nostrarum",
+        "Secretarij nostri",
+        "Secretario nostro",
+        "per nos"
+      ],
+      "justification": "King Sigismund III Vasa, ruler of Poland, issuing the decree."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "LOC-0093: Poland",
+      "mention_texts": [
+        "Poloniae"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kingdom of Poland mentioned in the royal titulary."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopolienses",
+        "Leopoliensis",
+        "Leopoli",
+        "Civitatis nostrae Leopoliensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of Lviv (Leopolis) referenced multiple times."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Adam Anserinus",
+      "mention_texts": [
+        "Adam Anserinus"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "Cives Leopolienses",
+        "testamentarij tutores impuberum Henrici et Lucae"
+      ],
+      "justification": "Citizen of Lviv acting as testamentary tutor of the minor sons of Lucas Auenszoge."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Paulus Larze",
+      "mention_texts": [
+        "Paulam Larze"
+      ],
+      "descriptive_mentions": [
+        "Cives Leopolienses",
+        "testamentarij tutores impuberum Henrici et Lucae"
+      ],
+      "justification": "Named alongside Adam Anserinus as testamentary tutor and citizen of Lviv."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "person",
+      "canonical_name": "Henricus Auenszog",
+      "mention_texts": [
+        "Henrici",
+        "Henricum"
+      ],
+      "descriptive_mentions": [
+        "impuberum",
+        "filiorum",
+        "ex fratre Nepotum",
+        "successores"
+      ],
+      "justification": "Minor son of Lucas Auenszoge and nephew/successor of Joannes Rupert Auenszog."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Lucas Auenszog the Younger",
+      "mention_texts": [
+        "Lucae",
+        "Lucam"
+      ],
+      "descriptive_mentions": [
+        "impuberum",
+        "filiorum",
+        "ex fratre Nepotum",
+        "successores"
+      ],
+      "justification": "Minor son of Lucas Auenszoge, brother of Henricus."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Lucas Auenszog",
+      "mention_texts": [
+        "Lucae Auenszoge"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "Civis Leopoliensis",
+        "fratre"
+      ],
+      "justification": "Citizen of Lviv, father of Henricus and Lucas the Younger, brother of Joannes Rupert Auenszog."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Joannes Rupert Auenszog",
+      "mention_texts": [
+        "Joannis Rupert Auenszog dicti Luwski",
+        "Joannis Rupert"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv whose estate is subject to litigation."
+    },
+    {
+      "entity_id": "E11",
+      "entity_type": "person",
+      "canonical_name": "Laurentius Gembicki",
+      "mention_texts": [
+        "Laurentij Gembicki"
+      ],
+      "descriptive_mentions": [
+        "Nobilis",
+        "Canonici Cracoviensis",
+        "Secretarij nostri",
+        "Secretario nostro"
+      ],
+      "justification": "Noble, canon of Kraków, and royal secretary."
+    },
+    {
+      "entity_id": "E12",
+      "entity_type": "location",
+      "canonical_name": "LOC-0014: Kraków",
+      "mention_texts": [
+        "Cracoviensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Kraków, mentioned as the canonry of Laurentius Gembicki."
+    },
+    {
+      "entity_id": "E13",
+      "entity_type": "person",
+      "canonical_name": "PER-0079: Agnes",
+      "mention_texts": [
+        "Agnetem"
+      ],
+      "descriptive_mentions": [
+        "Petram",
+        "consortem relictam",
+        "impugnatricem portionis eorundem bonorum"
+      ],
+      "justification": "Widow and surviving relict of the late Joannes Rupert Auenszog."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E2",
+      "relation": "ruler_of",
+      "tail_entity_id": "E3",
+      "evidence": "Sigismundus tertius Dei gratia Rex Poloniae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famatus Adam Anserinus ... Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Paulam Larze filii furorem Cives Leopolienses"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "Famatus Adam Anserinus ... vti testamentarij tutores impuberum Henrici et Lucae"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Famatus Adam Anserinus ... vti testamentarij tutores impuberum Henrici et Lucae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E7",
+      "evidence": "Paulam Larze ... vti testamentarij tutores impuberum Henrici et Lucae"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "guardian_of",
+      "tail_entity_id": "E8",
+      "evidence": "Paulam Larze ... vti testamentarij tutores impuberum Henrici et Lucae"
+    },
+    {
+      "head_entity_id": "E7",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "impuberum Henrici et Lucae Famati Lucae Auenszoge Civis Leopoliensis filiorum"
+    },
+    {
+      "head_entity_id": "E8",
+      "relation": "child_of",
+      "tail_entity_id": "E9",
+      "evidence": "impuberum Henrici et Lucae Famati Lucae Auenszoge Civis Leopoliensis filiorum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "sibling_of",
+      "tail_entity_id": "E10",
+      "evidence": "Famati Lucae Auenszoge Civis Leopoliensis filiorum Famati vero olim Joannis Rupert Auenszog dicti Luwski Civis Leopoliensis ex fratre Nepotum"
+    },
+    {
+      "head_entity_id": "E9",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "Famati Lucae Auenszoge Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "resident_of",
+      "tail_entity_id": "E4",
+      "evidence": "olim Joannis Rupert Auenszog dicti Luwski Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "E11",
+      "relation": "servant_of",
+      "tail_entity_id": "E2",
+      "evidence": "Nobilis Laurentij Gembicki Canonici Cracoviensis Secretarij nostri"
+    },
+    {
+      "head_entity_id": "E13",
+      "relation": "spouse_of",
+      "tail_entity_id": "E10",
+      "evidence": "Agnetem praefati olim Joannis Rupert consortem relictam"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "document_id": "arc2/0528.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Thomas Wagnodry",
+      "mention_texts": [
+        "Thomas Wagnodry"
+      ],
+      "descriptive_mentions": [
+        "Famatus",
+        "consuccessores natu minoris"
+      ],
+      "justification": "Named as 'Famatus Thomas Wagnodry' choosing a lot on behalf of himself and his wife."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Clara",
+      "mention_texts": [
+        "Clarae"
+      ],
+      "descriptive_mentions": [
+        "coniugisque sua",
+        "consuccessores natu minoris"
+      ],
+      "justification": "Named as the wife of Thomas Wagnodry ('coniugisque sua Clarae')."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "person",
+      "canonical_name": "Stanislaus Fraccinus",
+      "mention_texts": [
+        "Stanislaus Fraccinus"
+      ],
+      "descriptive_mentions": [
+        "D.",
+        "solus",
+        "Idem"
+      ],
+      "justification": "Named as 'D. Stanislaus Fraccinus' choosing lots in place of Father Benedict and for himself."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Benedictus",
+      "mention_texts": [
+        "Benedicti"
+      ],
+      "descriptive_mentions": [
+        "Religiosi Patris"
+      ],
+      "justification": "Named as 'Religiosi Patris Benedicti', whose rights were acquired by Stanislaus Fraccinus."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Simon",
+      "mention_texts": [
+        "Simon"
+      ],
+      "descriptive_mentions": [
+        "Praefatus vero Ingenuus",
+        "filio natu maximi haeredes"
+      ],
+      "justification": "Named as 'Praefatus vero Ingenuus Simon' choosing the fourth lot as heir."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "person",
+      "canonical_name": "Christophorus",
+      "mention_texts": [
+        "Christophorus"
+      ],
+      "descriptive_mentions": [
+        "Ingenuus",
+        "filio natu maximi haeredes"
+      ],
+      "justification": "Named alongside Simon as 'Christophorus' as an heir."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Thomas Wagnodry pro parte sua coniugisque sua Clarae"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "spouse_of",
+      "tail_entity_id": "E1",
+      "evidence": "coniugisque sua Clarae"
+    },
+    {
+      "head_entity_id": "E3",
+      "relation": "legal_representative_of",
+      "tail_entity_id": "E4",
+      "evidence": "Stanislaus Fraccinus in loco Religiosi Patris Benedicti vti iuris ab eodem acquisiti"
+    },
+    {
+      "head_entity_id": "E5",
+      "relation": "sibling_of",
+      "tail_entity_id": "E6",
+      "evidence": "Simon et Christophorus tanquam filio natu maximi haeredes"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "sibling_of",
+      "tail_entity_id": "E5",
+      "evidence": "Simon et Christophorus tanquam filio natu maximi haeredes"
+    }
+  ]
+}

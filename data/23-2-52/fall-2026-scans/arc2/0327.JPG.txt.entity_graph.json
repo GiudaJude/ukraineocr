@@ -1,0 +1,159 @@
+{
+  "document_id": "arc2/0327.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Bogdan Omelianowicz",
+      "mention_texts": [
+        "Bogdanum",
+        "Bogdan Omelianowicz"
+      ],
+      "descriptive_mentions": [
+        "Dominum",
+        "Generosi",
+        "Generosus"
+      ],
+      "justification": "Noble who grants power of attorney to Stanislaus Anserinus for managing his house."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0008: Stanislaus Anserinus",
+      "mention_texts": [
+        "Stanislai Anserini",
+        "Stanislaum Anserinum"
+      ],
+      "descriptive_mentions": [
+        "Domini",
+        "Collegae nostri Consularis",
+        "Curatoris",
+        "Generosum Dominum",
+        "Collegam nostrum Consularem",
+        "suum verum legitimum et indubitatumque plenipotentem ac mandatarium",
+        "eidem suo plenipotenti"
+      ],
+      "justification": "Lviv city councillor appointed as plenipotentiary by Bogdan Omelianowicz."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis nostris praesentibus",
+        "eadem Acta"
+      ],
+      "justification": "The municipal council before whose records the transaction and procuration are entered."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "location",
+      "canonical_name": "Sądowa Wisznia",
+      "mention_texts": [
+        "Visnensium",
+        "Visnensem",
+        "Visnensis"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Town whose scabini ratified the prior resignation and where Paulus Lumierz was a citizen."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "location",
+      "canonical_name": "Wołyń",
+      "mention_texts": [
+        "Volhiniae"
+      ],
+      "descriptive_mentions": [
+        "Palatinatu"
+      ],
+      "justification": "Voivodeship in which the estate of Repariowen is located."
+    },
+    {
+      "entity_id": "E6",
+      "entity_type": "location",
+      "canonical_name": "Repariowen",
+      "mention_texts": [
+        "Repariowen"
+      ],
+      "descriptive_mentions": [
+        "bonorum ad ea pertinentium"
+      ],
+      "justification": "Locality or estate located in the Palatinate of Volhynia."
+    },
+    {
+      "entity_id": "E7",
+      "entity_type": "location",
+      "canonical_name": "LOC-0140: LOC-0019: Kraków Suburb",
+      "mention_texts": [
+        "Cracoviensi"
+      ],
+      "descriptive_mentions": [
+        "Suburbio huius Civitatis"
+      ],
+      "justification": "Suburb of Lviv where the house in question is situated."
+    },
+    {
+      "entity_id": "E8",
+      "entity_type": "person",
+      "canonical_name": "Jacobus Regnili",
+      "mention_texts": [
+        "Jacobi Regnili"
+      ],
+      "descriptive_mentions": [
+        "Sutorem"
+      ],
+      "justification": "Shoemaker whose property abuts the described house on one side."
+    },
+    {
+      "entity_id": "E9",
+      "entity_type": "person",
+      "canonical_name": "Simon Hanel",
+      "mention_texts": [
+        "Simonis Hanel"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Neighbor whose property abuts the described house on the other side."
+    },
+    {
+      "entity_id": "E10",
+      "entity_type": "person",
+      "canonical_name": "Paulus Lumierz",
+      "mention_texts": [
+        "Pauli Lumierz"
+      ],
+      "descriptive_mentions": [
+        "Famati olim",
+        "Civis Visnensis"
+      ],
+      "justification": "Deceased citizen of Wisznia whose successors conveyed the house."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "appointed_plenipotentiary",
+      "tail_entity_id": "E2",
+      "evidence": "fecit constituit et solemniter ordinavit in suum verum legitimum et indubitatumque plenipotentem ac mandatarium Generosum Dominum Stanislaum Anserinum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "member_of",
+      "tail_entity_id": "E3",
+      "evidence": "ipsius Domini Stanislai Anserini Collegae nostri Consularis"
+    },
+    {
+      "head_entity_id": "E6",
+      "relation": "located_in",
+      "tail_entity_id": "E5",
+      "evidence": "Repariowen in Palatinatu Volhiniae sitae"
+    },
+    {
+      "head_entity_id": "E10",
+      "relation": "citizen_of",
+      "tail_entity_id": "E4",
+      "evidence": "Pauli Lumierz Civis Visnensis"
+    }
+  ]
+}

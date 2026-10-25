@@ -1,0 +1,70 @@
+{
+  "document_id": "arc2/0221.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Albertus Krakowczyk",
+      "mention_texts": [
+        "Alberto Krakowczyk"
+      ],
+      "descriptive_mentions": [
+        "Praedictis",
+        "coniugibus"
+      ],
+      "justification": "Named as husband of Dorothea who received the first part in the division."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "PER-0114: Dorothea",
+      "mention_texts": [
+        "Dorotheae"
+      ],
+      "descriptive_mentions": [
+        "coniugibus"
+      ],
+      "justification": "Named as the wife of Albertus Krakowczyk."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Actis suis"
+      ],
+      "justification": "City council records in which the electors requested the entry to be registered."
+    },
+    {
+      "entity_id": "E4",
+      "entity_type": "person",
+      "canonical_name": "Petrus Suchowabka",
+      "mention_texts": [
+        "Petri Suchowabki"
+      ],
+      "descriptive_mentions": [],
+      "justification": "Named in the heading of the quietatio section."
+    },
+    {
+      "entity_id": "E5",
+      "entity_type": "person",
+      "canonical_name": "Andreas Młodkowicz",
+      "mention_texts": [
+        "Andreas Mlodkowic"
+      ],
+      "descriptive_mentions": [
+        "Honoratus"
+      ],
+      "justification": "Named as appearing personally in the record."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "spouse_of",
+      "tail_entity_id": "E2",
+      "evidence": "Praedictis Alberto Krakowczyk et Dorotheae coniugibus"
+    }
+  ]
+}

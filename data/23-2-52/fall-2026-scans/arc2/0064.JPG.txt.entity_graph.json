@@ -1,0 +1,125 @@
+{
+  "document_id": "arc2/0064.JPG.txt",
+  "entities": [
+    {
+      "entity_id": "E1",
+      "entity_type": "person",
+      "canonical_name": "Margaretha Abrekowa",
+      "mention_texts": [
+        "Abrekowej",
+        "Margaretha Abrekowa"
+      ],
+      "descriptive_mentions": [
+        "Honesta",
+        "vidua relicta",
+        "viduam"
+      ],
+      "justification": "Named as the protesting party, widow of Nicolaus Abrek senior."
+    },
+    {
+      "entity_id": "PER-0064",
+      "entity_type": "person",
+      "canonical_name": "PER-0064: Nicolaus Abrek",
+      "mention_texts": [
+        "Nicolai Abrek"
+      ],
+      "descriptive_mentions": [
+        "Famati",
+        "olim",
+        "Civis Leopoliensis"
+      ],
+      "justification": "Deceased citizen of Lviv, late husband of Margaretha Abrekowa and father of Nicolaus Abrek junior."
+    },
+    {
+      "entity_id": "E2",
+      "entity_type": "person",
+      "canonical_name": "Nicolaus Abrek the Younger",
+      "mention_texts": [
+        "Nicolaum Abrek",
+        "Nicolaum"
+      ],
+      "descriptive_mentions": [
+        "Nobilem",
+        "Sacrae Regiae Maiestatis Illuminatorem",
+        "filium suum",
+        "tutorem naturalem",
+        "Tutorem suum",
+        "Tutorem",
+        "Filium",
+        "tutorem suum",
+        "Tutore legitimo",
+        "Tutoris sui"
+      ],
+      "justification": "Royal illuminator and natural guardian (son) acting on behalf of Margaretha Abrekowa."
+    },
+    {
+      "entity_id": "PER-0094",
+      "entity_type": "person",
+      "canonical_name": "PER-0094: Simon Kinost",
+      "mention_texts": [
+        "Simonem Kynost"
+      ],
+      "descriptive_mentions": [
+        "Famatum",
+        "Frontificem",
+        "Civem Leopoliensem"
+      ],
+      "justification": "Lviv citizen against whom Margaretha Abrekowa lodges her formal protest."
+    },
+    {
+      "entity_id": "E3",
+      "entity_type": "location",
+      "canonical_name": "Lwów",
+      "mention_texts": [
+        "Leopoliensis",
+        "Leopoliensem"
+      ],
+      "descriptive_mentions": [],
+      "justification": "City of residence mentioned in the civic designations of Nicolaus Abrek senior and Simon Kynost."
+    },
+    {
+      "entity_id": "ORG-0003",
+      "entity_type": "organization",
+      "canonical_name": "ORG-0003: Lviv City Council",
+      "mention_texts": [],
+      "descriptive_mentions": [
+        "Officiale",
+        "Officio",
+        "praesentibus"
+      ],
+      "justification": "The municipal judicial court and its official records in which the protest was submitted and recorded."
+    }
+  ],
+  "relationships": [
+    {
+      "head_entity_id": "E1",
+      "relation": "was_spouse_of",
+      "tail_entity_id": "PER-0064",
+      "evidence": "Honesta Margaretha Abrekowa Famati olim Nicolai Abrek Civis Leopoliensis vidua relicta"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_child_of",
+      "tail_entity_id": "E1",
+      "evidence": "per Nobilem Nicolaum Abrek Sacrae Regiae Maiestatis Illuminatorem filium suum"
+    },
+    {
+      "head_entity_id": "E2",
+      "relation": "is_child_of",
+      "tail_entity_id": "PER-0064",
+      "evidence": "Famati olim Nicolai Abrek Civis Leopoliensis vidua relicta per Nobilem Nicolaum Abrek Sacrae Regiae Maiestatis Illuminatorem filium suum"
+    },
+    {
+      "head_entity_id": "PER-0064",
+      "relation": "resided_in",
+      "tail_entity_id": "E3",
+      "evidence": "Famati olim Nicolai Abrek Civis Leopoliensis"
+    },
+    {
+      "head_entity_id": "PER-0094",
+      "relation": "resided_in",
+      "tail_entity_id": "E3",
+      "evidence": "Simonem Kynost Frontificem Civem Leopoliensem"
+    }
+  ]
+}
